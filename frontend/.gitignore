@@ -3,10 +3,19 @@
 .env.*
 !.env.example
 
-# Vite / test tooling cache
+# Dependencies and package-manager caches
+node_modules/
+.npm-cache/
+.pnpm-store/
+
+# Build and tooling output
+dist/
 .vite/
 coverage/
 .eslintcache
+
+# Logs
+*.log
 
 # OS and editor metadata
 .vscode/
