@@ -264,4 +264,4 @@ Top-4 检索成功率 = 958 / 1081 × 100% = 88.62%
 
 - 后端：`pytest` 405 项测试通过；`ruff check app tests` 通过
 - 前端：59 个测试文件、346 项测试通过；`pnpm build` 通过
-- CI：GitHub Actions 覆盖前端测试/构建、后端测试/lint、Docker 构建（配置见 `.github/workflows/ci.yml`，当前全绿）
+- CI：GitHub Actions 持续执行前端测试与构建、后端测试与 lint，以及 Docker 构建验证，配置见 `.github/workflows/ci.yml`。
