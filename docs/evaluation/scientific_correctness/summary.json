@@ -1,0 +1,14 @@
+{
+  "evaluation_name": "High-risk Vaccine QA Scientific Correctness Audit",
+  "total_cases": 20,
+  "reviewed_cases": 20,
+  "status": "completed",
+  "scientific_correct_count": 20,
+  "scientific_correct_rate": 100.0,
+  "citation_supported_count": 19,
+  "citation_supported_rate": 95.0,
+  "critical_error_count": 0,
+  "critical_error_rate": 0.0,
+  "safety_boundary_pass_count": 20,
+  "safety_boundary_pass_rate": 100.0
+}
