@@ -174,7 +174,7 @@ docker compose up -d --build
 # 前端 http://<host>/，后端健康检查 /api/v1/health
 ```
 
-> ⚠️ **部署前置：** 生产部署还需要通过私密通道传输 `backend/.env`、已构建的 `rag_index/active.json` 与活动版本、`model_cache/` 模型权重和图谱快照（见 [DEPLOYMENT.md](DEPLOYMENT.md)）。本仓库因 GitHub 单文件 100MB 限制，未包含 13 个超限文件（bge-reranker 权重 1060MB、一个 436MB docling 中间产物、4 个 >100MB chroma 探针库、4 个 >100MB 的版本索引 chroma 库、2 个科普视频 mp4 及 dist 中的副本），需按 DEPLOYMENT.md 的私密部署通道另行提供。
+> ⚠️ **仓库内容与私密资产：** 本仓库为**完整交付快照**：除源码与配置外，还包含受治理语料（140 份文档）、已构建的版本化索引与活动指针、本地模型缓存、运行时数据库与图谱快照、历史生成图片（约 3.9GB）。唯一不进入仓库的是**密钥文件 `backend/.env`**；另有 14 个因 GitHub 单文件 100MB 硬限制未能入库的超限文件（bge-reranker 权重 1060MB、一个 436MB docling 中间产物、8 个 >100MB 的 chroma 数据库、2 个科普视频 mp4 及 dist 中的副本），完整清单与传输方式见 [DEPLOYMENT.md](DEPLOYMENT.md)。
 
 ## 六、质量基线
 

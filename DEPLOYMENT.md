@@ -1,6 +1,6 @@
 # 云服务器部署与复现
 
-本项目是单一 Git 仓库。GitHub 保存源码、受治理语料和构建配置；密钥、RAG 索引、模型缓存、图谱快照、数据库及生成图片不进入 Git，必须通过私密部署通道提供。
+本项目是单一 Git 仓库。仓库为**完整交付快照**：GitHub 保存源码、构建配置、受治理语料，以及已构建的 RAG 索引、模型缓存、图谱快照、运行时数据库与历史生成图片（约 3.9GB），以便评审与离线复现。唯一不进入 Git 的是密钥文件 `backend/.env`；另有 14 个超过 GitHub 单文件 100MB 硬限制的文件未能入库（见下文清单），需通过私密部署通道补充。
 
 ## 服务器要求
 
@@ -31,27 +31,36 @@ git pull --ff-only origin main
 
 ## GitHub 之外必须传输的内容
 
-从已验证环境通过 SSH、受控对象存储或备份系统传输：
+**必须传输的只有一项：**
 
 ```text
 backend/.env
-backend/rag_index/active.json
-backend/rag_index/versions/<active index_version>/
-backend/model_cache/models--BAAI--bge-small-zh-v1.5/
-backend/model_cache/models--BAAI--bge-reranker-base/
-backend/runtime/graph/versions/<active graph_version>/
 ```
 
-需要保留管理员数据与发布任务状态时，还应传输：
+仓库已包含 `backend/rag_index/`（含 `active.json` 与全部版本目录）、`backend/model_cache/`（BGE embedding 与 reranker 权重）、`backend/runtime/`（含活动图谱快照、`app.db` 与审核草稿）以及 `backend/generated_images/`，克隆后即可运行完整预检。
+
+**因 GitHub 单文件 100MB 限制未入库的 14 个文件**（需从已验证环境按私密通道补齐）：
 
 ```text
-backend/runtime/app.db
-backend/runtime/knowledge_drafts/
+backend/model_cache/models--BAAI--bge-reranker-base/snapshots/2cfc18c9415c912f9d8155881c133215df768a70/model.safetensors   # 1060 MB
+backend/runtime/docling_v2/doc_7f1e00587c6217d3764dce48.json                                                              # 436 MB
+backend/runtime/chroma-16k-long-scoavkb6/chroma.sqlite3                                                                   # 171 MB
+backend/runtime/probe_full_sync100/chroma.sqlite3                                                                         # 177 MB
+backend/runtime/probe_payload_full/chroma.sqlite3                                                                         # 180 MB
+backend/runtime/probe_payload_documents/chroma.sqlite3                                                                    # 147 MB
+backend/rag_index/versions/rag-v2-20260816T040851213042Z-32af4353.failed-chroma-relocation/chroma.sqlite3                 # 100 MB
+backend/rag_index/versions/rag-v2-20260816T042012671723Z-32af4353.failed-partial-hnsw/chroma.sqlite3                      # 100 MB
+backend/rag_index/versions/rag-v2-20260816T043637335517Z-32af4353.failed-real-hnsw-persist/chroma.sqlite3                 # 100 MB
+backend/rag_index/versions/rag-v2-20260816T045804106551Z-32af4353.failed-hnsw-compaction/chroma.sqlite3                   # 100 MB
+frontend/public/assets/science-videos/virus-adventure-episode-1.mp4                                                       # 142 MB
+frontend/public/assets/science-videos/vaccine-defense-episode-2.mp4                                                       # 104 MB
+frontend/dist/assets/science-videos/virus-adventure-episode-1.mp4                                                         # 142 MB
+frontend/dist/assets/science-videos/vaccine-defense-episode-2.mp4                                                         # 104 MB
 ```
 
-`generated_images/` 是可选历史产物，不影响源码构建。不要把 `.env` 或运行时资产提交到 GitHub。
+说明：活动索引 `rag-v2-20260824T024746251335Z-8d89f653` 的全部文件与活动图谱快照 `graph-20260824T032039458153Z-7a0729a2-2558bd4d` 均**在仓库中**，上述缺失文件仅涉及失败构建的历史索引版本、开发期 Chroma 探针库、一个 docling 中间产物、reranker 主权重文件和两个科普视频，不影响当前活动版本的加载与问答。
 
-示例传输命令需按实际服务器地址修改：
+当需要用验证环境的资产覆盖仓库快照时（例如模型权重更新后），使用私密传输通道：
 
 ```bash
 rsync -a backend/rag_index/ user@server:/srv/vaccine-ai/backend/rag_index/
@@ -59,7 +68,7 @@ rsync -a backend/model_cache/ user@server:/srv/vaccine-ai/backend/model_cache/
 rsync -a backend/runtime/graph/ user@server:/srv/vaccine-ai/backend/runtime/graph/
 ```
 
-在服务器上单独创建 `backend/.env`，以 `backend/.env.example` 为模板填写真实密钥。至少检查 `DASHSCOPE_API_KEY`；若启用管理员功能，`ADMIN_USERNAME`、`ADMIN_PASSWORD_HASH`、`ADMIN_SESSION_SECRET` 必须同时设置，且会话密钥至少 32 字符。
+在服务器上单独创建 `backend/.env`，以 `backend/.env.example` 为模板填写真实密钥。至少检查 `DASHSCOPE_API_KEY`；若启用管理员功能，`ADMIN_USERNAME`、`ADMIN_PASSWORD_HASH`、`ADMIN_SESSION_SECRET` 必须同时设置，且会话密钥至少 32 字符。不要把 `.env` 或任何真实密钥提交到 Git。
 
 ## 权限与部署
 
