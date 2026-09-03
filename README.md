@@ -2,7 +2,7 @@
 
 面向"挑战杯"科学传播方向的可演示全栈项目：以受治理的本地 RAG 与受限 PubMed 核验支撑疫苗问答，将抽象免疫机制转化为科学图解、互动闯关与公共卫生模拟，并通过人工审核与版本化知识图谱形成可追溯的知识更新闭环。
 
-> 📋 **能力边界：** 本项目用于健康科普与科学传播，不提供个体化诊疗或接种决策；具体接种安排以当地疾控机构与专业人员最新建议为准。GraphRAG 与视频生成能力已实现管线，但默认处于关闭/本地模拟状态，不宣称已在线参与问答。
+> 📋 **能力边界：** 本项目用于健康科普与科学传播，不提供个体化诊疗或接种决策；具体接种安排以当地疾控机构与专业人员最新建议为准。GraphRAG 已启用（`GRAPH_RAG_ENABLED=true`）：140 份受治理语料文档（125 PDF + 11 MD + 4 DOCX）构建为 17,167 个 chunks，活动图谱版本含 8,006 节点、6,215 边、5,282 条 provenance；图缺失或版本不匹配时问答自动回退 Vector-only。视频页为本地模拟交互，不宣称真实视频生成。
 
 ---
 
@@ -51,6 +51,8 @@ flowchart TB
 
 ### 4. 知识治理与图谱闭环（候选主张 → 人工审核 → 原子发布）
 
+当前活动图谱版本 `graph-20260824T032039458153Z-7a0729a2-2558bd4d`：基于 17,167 个 chunks 构建的 8,006 节点 / 6,215 边 / 5,282 条 provenance，全部通过 `medical_graph_validator_v10` 校验后原子发布，并通过 GraphRAG 在问答中提供图上下文。
+
 ```mermaid
 flowchart LR
     gap[KnowledgeGap / 候选主张] --> draft[管理员审核生成草稿]
@@ -83,7 +85,7 @@ flowchart LR
 | 前端 | React 19 + TypeScript + Vite + Cytoscape/GSAP | 只调用同源 `/api/v1`；跨面板状态在 `App.tsx` |
 | API | FastAPI 应用工厂、`/api/v1` router、lifespan | 路由只做 HTTP/依赖/稳定错误映射；共享客户端由 lifespan 创建 |
 | 问答 | `RagService`、`QwenService`、`EvidenceAssessmentService` | 主回答看到原问题；来源只能由当轮检索/外部文献产生 |
-| 知识 | `RAG/` 语料、manifest、versioned candidate、`active.json` | 运行时只读本地模型与索引；不自动下载或重建 |
+| 知识 | `RAG/` 语料（140 份文档 → 17,167 个 chunks）、manifest、versioned candidate、`active.json` | 运行时只读本地模型与索引；不自动下载或重建 |
 | 治理 | KnowledgeGap、管理员 session/CSRF、SQLite GraphJob | 只允许人工批准、人工发布；失败保留旧活动版本 |
 | 图解 | ImageJob、organizer、Wan、critic、scope guard | 单活动内存任务；取消、轮询和请求对称清理 |
 | 图谱 | graph worker、validator、snapshot、public store | 唯一输入为同版 Vector candidate chunks |
@@ -107,7 +109,7 @@ flowchart LR
 │   ├── runtime/         SQLite 审核库、图谱快照、docling 产物等运行数据
 │   ├── rag_index/       已构建的版本化检索索引
 │   └── model_cache/     BGE embedding / reranker 本地模型缓存
-├── RAG/                 受治理语料（含 corpus_manifest.jsonl 准入清单）
+├── RAG/                 受治理语料：140 份文档（125 PDF + 11 MD + 4 DOCX）+ corpus_manifest.jsonl 准入清单
 ├── skills/              受治理细胞 IP 图解技能（图解管线启动校验依赖）
 ├── nginx/  docker-compose.yml  Dockerfile×2
 ├── scripts/             deploy_preflight.py / deploy_server.sh
