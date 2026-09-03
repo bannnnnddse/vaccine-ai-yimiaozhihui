@@ -45,6 +45,40 @@ flowchart TB
 
 用户主题先由 Qwen 整理为受约束的中文科学简报（对象、机制、因果链、标注），再交 Wan 生成；输出经视觉 critic 审查文字、结构与科学表达，用户可确认采用，或提交受 bbox 范围守护的局部修改（模型只见外扩裁剪，只有向内羽化的用户 bbox 可写，回贴时越界像素被拒绝）。
 
+```mermaid
+flowchart TB
+    accTitle: 科学图解运行工作流
+    accDescr: 一次图解请求从主题输入、科学内容规划、通义万相生成、审核修改到成果发布完成闭环。
+
+    user([用户输入主题或选中问答答案]) --> choose[选择受众、画风和图解类型]
+    choose --> create_job[前端创建图解任务，FastAPI 分配唯一任务 ID]
+    create_job --> source_fetch[读取当轮问答证据或知识库来源]
+
+    source_fetch --> qwen_brief[Qwen 生成中文科学图解简报]
+    qwen_brief --> extract[提炼对象、机制、因果链和关键标注]
+    extract --> fact_check{是否具备足够科学依据}
+
+    fact_check -->|否| explain_missing[提示证据不足并推荐补充问答]
+    explain_missing --> user
+    fact_check -->|是| prompt_design[生成通义万相提示词与负面约束]
+
+    prompt_design --> wanxiang[Wan 生成图解]
+    wanxiang --> poll[前端轮询任务状态，可取消并对称清理]
+    poll --> status{任务状态}
+    status -->|失败| retry[调整简报或提示词后重试]
+    retry --> wanxiang
+    status -->|取消| cancel[终止任务并清理轮询]
+    status -->|完成| quality[视觉 critic 审查文字、结构与科学表达]
+
+    quality --> approve{用户是否认可}
+    approve -->|修改| edit[提交 bbox 局部修改，范围守护校验]
+    edit --> qwen_brief
+    approve -->|采用| publish[发布 PNG 与图解说明]
+    publish --> provenance[关联图解、来源与任务版本]
+    provenance --> graph_link[同步关联知识图谱节点]
+    graph_link --> result([展示、下载或分享科普成果])
+```
+
 ### 3. 互动闭环（免疫闯关 + 公共卫生沙盘）
 
 体验一为五关卡免疫叙事（抗原捕获、抗原呈递、B 细胞激活、记忆召回等，含迷宫寻路与注视追踪）；体验二为参数化公共卫生模拟（覆盖率、传播风险与资源配置规则）。规则、科学表达与展示效果经自动化测试与人工复核后迭代。
