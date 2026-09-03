@@ -82,7 +82,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 ## 🧪 质量、仓库与发布规则
 
-- 评测集、holdout 和历史评测结果不进入公开仓库；保留离线、无真实网络/模型调用的单元和接口测试
+- RAG 检索评测（1081 条）的评测集、holdout 和历史评测结果不进入公开仓库；科学正确性抽检（20 条）公开逐条用例、原始输出与人工判定（见 docs/evaluation/scientific_correctness/）。保留离线、无真实网络/模型调用的单元和接口测试
 - 代码、配置与测试优先于实施报告；历史文档不得覆盖当前运行事实
 - 不提交 `.env`、密钥、`backend/runtime/`、`backend/rag_index/`、`backend/model_cache/`、`backend/generated_images/`、运行日志、虚拟环境或编译缓存；这些运行时资产通过私密部署通道提供，清单见 [DEPLOYMENT.md](DEPLOYMENT.md)。受治理语料与源码、测试随仓库交付
 - 根目录 `.git` 是唯一仓库；`backend/` 与 `frontend/` 是普通目录，统一从根目录执行 Git 操作
