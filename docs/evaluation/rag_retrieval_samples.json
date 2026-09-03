@@ -1,0 +1,141 @@
+{
+  "description": "脱敏 RAG 检索评测样例（desensitized RAG retrieval evaluation samples）",
+  "disclaimer": "本文件为脱敏示例，仅用于展示正式评测的字段结构、判定标准与结果形态。样例问题与证据描述经过改写与归一化处理，不是原始 1081 条评测记录的逐条副本；公开样例与正式评测采用相同的评价口径。完整评测集及内部知识片段映射未随公开仓库发布。",
+  "protocol_summary": {
+    "scope": "评价本地知识库检索模块对库内已有正确证据的召回能力，不等同于最终回答科学正确率",
+    "screening": "初始 1500 条问题中，419 条因超出当前知识库覆盖范围被排除，1081 条进入正式评测",
+    "hit_definition": "Top-4 检索结果中至少出现 1 条与预先确认的正确证据（gold evidence）相匹配，记为 Top-4 Hit = 1",
+    "overall_top4_hit_rate": "958 / 1081 = 88.62%"
+  },
+  "samples": [
+    {
+      "id": "E01",
+      "question": "HPV 疫苗主要通过什么机制预防宫颈癌？",
+      "expected_evidence_topic": "HPV 疫苗免疫机制、预防 HPV 持续感染",
+      "hit_criteria": "Top-4 中出现能够说明疫苗诱导中和抗体、预防高危型 HPV 感染的证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "权威指南类材料中关于 HPV 疫苗诱导型别特异性中和抗体、阻断高危型 HPV 持续感染机制的章节片段"
+    },
+    {
+      "id": "E02",
+      "question": "接种 HPV 疫苗以后还需要进行宫颈癌筛查吗？",
+      "expected_evidence_topic": "HPV 疫苗与宫颈癌筛查关系",
+      "hit_criteria": "Top-4 中出现\"接种疫苗不能替代规范宫颈癌筛查\"的相关证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "宫颈癌综合防控指南中关于疫苗接种后仍需按年龄和暴露风险进行规范筛查的条目"
+    },
+    {
+      "id": "E03",
+      "question": "乙肝疫苗为什么需要多剂次接种？",
+      "expected_evidence_topic": "乙肝疫苗免疫程序、加强免疫",
+      "hit_criteria": "Top-4 中出现多剂次免疫程序及建立有效免疫应答相关证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "国家免疫规划疫苗免疫程序说明中 0-1-6 月程序及全程接种建立有效免疫应答的说明片段"
+    },
+    {
+      "id": "E04",
+      "question": "新生儿为什么要尽早接种乙肝疫苗？",
+      "expected_evidence_topic": "新生儿乙肝预防、母婴传播",
+      "hit_criteria": "Top-4 中出现出生后及时接种与降低乙肝母婴传播风险相关证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "乙肝母婴阻断技术指南中出生 12 小时内接种首剂乙肝疫苗降低母婴传播风险的表述"
+    },
+    {
+      "id": "E05",
+      "question": "流感疫苗为什么通常建议每年接种？",
+      "expected_evidence_topic": "流感病毒变异、疫苗株更新、免疫衰减",
+      "hit_criteria": "Top-4 中至少召回一条能够解释年度接种必要性的正确证据",
+      "top4_hit": false,
+      "matched_evidence_summary": null,
+      "miss_analysis": "正确证据分散在毒株更新与免疫衰减两个主题文档中，单条证据均不完整；当轮 Top-4 被流感接种对象与接种时机的相近条目占据，未同时命中可解释年度必要性的核心证据片段"
+    },
+    {
+      "id": "E06",
+      "question": "接种疫苗后出现轻微发热属于正常反应吗？",
+      "expected_evidence_topic": "疫苗常见不良反应",
+      "hit_criteria": "Top-4 中出现轻度发热、局部疼痛等常见接种后反应及基本处理原则",
+      "top4_hit": true,
+      "matched_evidence_summary": "预防接种常识材料中关于一过性发热等常见一般反应及其观察处理原则的问答条目"
+    },
+    {
+      "id": "E07",
+      "question": "发烧的时候还能不能接种疫苗？",
+      "expected_evidence_topic": "疫苗接种禁忌与暂缓接种",
+      "hit_criteria": "Top-4 中出现急性发热性疾病或特定情况下暂缓接种的相关证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "接种注意事项材料中关于发热等急性疾病期间暂缓接种、康复后补种的说明"
+    },
+    {
+      "id": "E08",
+      "question": "狂犬病暴露以后为什么还要接种疫苗？",
+      "expected_evidence_topic": "狂犬病暴露后预防",
+      "hit_criteria": "Top-4 中出现暴露后疫苗接种能够诱导保护性免疫以及规范处置相关证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "狂犬病暴露预防处置指南中暴露后免疫接种诱导保护性抗体及处置流程的片段"
+    },
+    {
+      "id": "E09",
+      "question": "被狗咬伤以后只打狂犬疫苗就够了吗？",
+      "expected_evidence_topic": "狂犬病暴露分级、伤口处置、免疫球蛋白",
+      "hit_criteria": "Top-4 中出现伤口处理、疫苗以及特定暴露情况下免疫球蛋白相关证据",
+      "top4_hit": false,
+      "matched_evidence_summary": null,
+      "miss_analysis": "该问题需要暴露分级、伤口处置与被动免疫制剂三条证据共同支撑；当轮检索召回的均为单主题片段（仅疫苗程序或仅伤口处理），未命中同时覆盖分级处置与免疫球蛋白适应情形的证据"
+    },
+    {
+      "id": "E10",
+      "question": "麻疹疫苗是通过什么方式让人体获得保护的？",
+      "expected_evidence_topic": "主动免疫、抗体与免疫记忆",
+      "hit_criteria": "Top-4 中出现疫苗诱导特异性免疫应答和免疫记忆的证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "免疫学基础科普材料中减毒活疫苗诱导特异性抗体与免疫记忆的机制说明"
+    },
+    {
+      "id": "E11",
+      "question": "为什么有些疫苗接种后还需要加强针？",
+      "expected_evidence_topic": "免疫记忆、抗体水平下降、加强免疫",
+      "hit_criteria": "Top-4 中出现抗体水平随时间下降或加强针提高免疫保护的相关证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "疫苗有效性与免疫持久性材料中抗体水平随时间衰减、加强免疫提升保护的论述片段"
+    },
+    {
+      "id": "E12",
+      "question": "灭活疫苗和减毒活疫苗有什么区别？",
+      "expected_evidence_topic": "疫苗类型及免疫特点",
+      "hit_criteria": "Top-4 中出现灭活与减毒活疫苗在制备方式、免疫特点等方面的正确比较证据",
+      "top4_hit": false,
+      "matched_evidence_summary": null,
+      "miss_analysis": "比较类问题的有效证据分散在疫苗技术路线主题的两个不同章节；当轮召回结果偏向其中一类疫苗的单独描述，未命中包含两者并列比较的片段"
+    },
+    {
+      "id": "E13",
+      "question": "疫苗接种以后是不是一定不会感染？",
+      "expected_evidence_topic": "疫苗保护效力、突破感染",
+      "hit_criteria": "Top-4 中出现疫苗不能保证百分之百阻断感染，但可降低感染或重症风险等相关证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "疫苗有效性与突破性感染科普材料中关于保护效力边界与重症保护价值的表述"
+    },
+    {
+      "id": "E14",
+      "question": "老年人为什么更需要关注流感疫苗接种？",
+      "expected_evidence_topic": "老年人高风险人群、流感重症预防",
+      "hit_criteria": "Top-4 中出现老年人感染后重症风险较高及疫苗预防价值相关证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "特殊人群接种策略材料中老年人属流感重症高风险人群及接种获益的说明"
+    },
+    {
+      "id": "E15",
+      "question": "疫苗进入人体以后，B 细胞在免疫过程中起什么作用？",
+      "expected_evidence_topic": "B 细胞、抗体产生、体液免疫",
+      "hit_criteria": "Top-4 中出现 B 细胞活化、浆细胞分化和抗体产生等正确机制证据",
+      "top4_hit": true,
+      "matched_evidence_summary": "免疫学基础材料中 B 细胞活化、浆细胞分化与抗体产生的体液免疫机制片段"
+    }
+  ],
+  "summary": {
+    "total_samples": 15,
+    "top4_hit_true": 12,
+    "top4_hit_false": 3,
+    "note": "hit=false 样例附有 miss_analysis，用于说明失败模式；样例分布不用于代表 1081 条正式评测的命中率（正式评测总体 Top-4 检索成功率为 88.62%）"
+  }
+}
