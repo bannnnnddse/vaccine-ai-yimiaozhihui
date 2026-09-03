@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_234367df4cd208b5faba20b6da3af991",
+  "content_hash": "6920d02f2837c84dfa1b1e4073003fcd2a5ae32d958d68ecac08b246c8b368d5",
+  "entities": [
+    {
+      "canonical_name": "GamTBvac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GamTBvac",
+      "chunk_id": "chk_234367df4cd208b5faba20b6da3af991"
+    },
+    {
+      "canonical_name": "tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis",
+      "chunk_id": "chk_234367df4cd208b5faba20b6da3af991"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

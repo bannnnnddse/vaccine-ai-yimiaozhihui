@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f09c881e3a2cbf661047f6b11b75c8d2",
+  "content_hash": "ad17a1d99179b301f0f109ec03cdb6ea96177a8580f7cf86e21e0b8908ade3a7",
+  "entities": [
+    {
+      "canonical_name": "mRNA-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-based vaccines",
+      "chunk_id": "chk_f09c881e3a2cbf661047f6b11b75c8d2"
+    },
+    {
+      "canonical_name": "post vaccination inflammatory diseases",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "post vaccination inflammatory diseases",
+      "chunk_id": "chk_f09c881e3a2cbf661047f6b11b75c8d2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_e101c16f1aace570eb478fb25a293b9a",
+  "content_hash": "f0b1fc82b8218eb46a120671ace1128157a4cc014dd666e5c42d4011bcad5c71",
+  "entities": [
+    {
+      "canonical_name": "Heterologous Prime-Boost Strategies",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Heterologous Prime-Boost Strategies",
+      "chunk_id": "chk_e101c16f1aace570eb478fb25a293b9a"
+    },
+    {
+      "canonical_name": "Human Immunodeficiency Virus Type 1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Human Immunodeficiency Virus Type 1",
+      "chunk_id": "chk_e101c16f1aace570eb478fb25a293b9a"
+    },
+    {
+      "canonical_name": "Gag",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Gag",
+      "chunk_id": "chk_e101c16f1aace570eb478fb25a293b9a"
+    },
+    {
+      "canonical_name": "Negative Stranded RNA Viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Negative Stranded RNA Viruses",
+      "chunk_id": "chk_e101c16f1aace570eb478fb25a293b9a"
+    },
+    {
+      "canonical_name": "MVA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MVA",
+      "chunk_id": "chk_e101c16f1aace570eb478fb25a293b9a"
+    },
+    {
+      "canonical_name": "HAdV-5",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HAdV-5",
+      "chunk_id": "chk_e101c16f1aace570eb478fb25a293b9a"
+    },
+    {
+      "canonical_name": "mycobacterial antigen Ag85A",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mycobacterial antigen Ag85A",
+      "chunk_id": "chk_e101c16f1aace570eb478fb25a293b9a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

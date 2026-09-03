@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_c0272aeed6d3002e0ed1ba29cac7926f",
+  "content_hash": "57c48b6f0484246d32adb83163377bb885213325a8e87a8b78728fdb7e006daa",
+  "entities": [
+    {
+      "canonical_name": "bionic simulated virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bionic simulated virus vaccine",
+      "chunk_id": "chk_c0272aeed6d3002e0ed1ba29cac7926f"
+    },
+    {
+      "canonical_name": "influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccines",
+      "chunk_id": "chk_c0272aeed6d3002e0ed1ba29cac7926f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

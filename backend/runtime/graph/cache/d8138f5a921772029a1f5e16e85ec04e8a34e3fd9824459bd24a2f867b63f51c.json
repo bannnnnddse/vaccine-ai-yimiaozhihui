@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6ce47d5046032957496ab962cc843a7e",
+  "content_hash": "bd3462d04478045ac912731678e27c9392cc628650ef72d1d95f45c9925a8d61",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_6ce47d5046032957496ab962cc843a7e"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "chk_6ce47d5046032957496ab962cc843a7e"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_6ce47d5046032957496ab962cc843a7e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

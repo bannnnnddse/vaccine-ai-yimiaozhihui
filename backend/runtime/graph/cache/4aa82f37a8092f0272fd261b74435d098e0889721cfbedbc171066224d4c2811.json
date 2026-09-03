@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_0223960cb3aa41dffe9aab8401324e56",
+  "content_hash": "9b2040b93058c439eb7eb0dea2e54e1c7464f5ec5ed61baede958ac50202caf8",
+  "entities": [
+    {
+      "canonical_name": "vaccinated individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccinated individuals",
+      "chunk_id": "chk_0223960cb3aa41dffe9aab8401324e56"
+    },
+    {
+      "canonical_name": "antivaxxers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "antivaxxers",
+      "chunk_id": "chk_0223960cb3aa41dffe9aab8401324e56"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

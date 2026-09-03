@@ -1,0 +1,20 @@
+{
+  "chunk_id": "chk_8d2793f15093f82ccffcbd5d200a62f9",
+  "content_hash": "1dcaf21fad69e6aa095b79fc64e1ddce9aa1a19c9f98614bce8cac9c696cb1ec",
+  "entities": [],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_canonical_not_surface",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

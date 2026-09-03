@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d9152fcabe0d0b60c0cd58ea65488574",
+  "content_hash": "bf5a971b6b789859046c064938f1d7da31ab9b108d1022e4e1ea818eee63cc5b",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 vaccine",
+      "chunk_id": "chk_d9152fcabe0d0b60c0cd58ea65488574"
+    },
+    {
+      "canonical_name": "CoronaVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoronaVac",
+      "chunk_id": "chk_d9152fcabe0d0b60c0cd58ea65488574"
+    },
+    {
+      "canonical_name": "healthy adults aged 60 years and older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adults aged 60 years and older",
+      "chunk_id": "chk_d9152fcabe0d0b60c0cd58ea65488574"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

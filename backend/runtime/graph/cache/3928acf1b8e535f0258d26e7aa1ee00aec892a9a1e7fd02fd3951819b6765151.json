@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_7850ffc84a6d78d34b6d681dcf703c62",
+  "content_hash": "bcb480f9657a290f06ec3b140e82b241cdb4054c759fb5b1aadfae293d430c24",
+  "entities": [
+    {
+      "canonical_name": "Kenyan children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Kenyan children",
+      "chunk_id": "chk_7850ffc84a6d78d34b6d681dcf703c62"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

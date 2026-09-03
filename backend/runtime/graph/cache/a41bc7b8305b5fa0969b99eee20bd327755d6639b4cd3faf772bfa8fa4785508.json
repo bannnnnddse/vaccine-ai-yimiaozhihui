@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_47dd2d9059e4daca313549de371aa120",
+  "content_hash": "5000ae53054081d31fd798e93dbc9eb43c0c5ba617100f0a4d502de771c422bc",
+  "entities": [
+    {
+      "canonical_name": "MMRV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV vaccination",
+      "chunk_id": "chk_47dd2d9059e4daca313549de371aa120"
+    },
+    {
+      "canonical_name": "children under 7 y of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under 7 y of age",
+      "chunk_id": "chk_47dd2d9059e4daca313549de371aa120"
+    },
+    {
+      "canonical_name": "pediatric population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pediatric population",
+      "chunk_id": "chk_47dd2d9059e4daca313549de371aa120"
+    },
+    {
+      "canonical_name": "chronic diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic diseases",
+      "chunk_id": "chk_47dd2d9059e4daca313549de371aa120"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

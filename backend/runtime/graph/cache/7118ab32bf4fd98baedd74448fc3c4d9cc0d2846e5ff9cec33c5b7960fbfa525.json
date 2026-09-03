@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_4dad3a5525970e725c5e16cdef879cd9",
+  "content_hash": "0386faecd269b08437714a398c0554524ad98695501e4647bab83eceaa69e146",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccines",
+      "chunk_id": "chk_4dad3a5525970e725c5e16cdef879cd9"
+    },
+    {
+      "canonical_name": "standard 3-dose schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "standard 3-dose schedules",
+      "chunk_id": "chk_4dad3a5525970e725c5e16cdef879cd9"
+    },
+    {
+      "canonical_name": "CpG-adjuvanted vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CpG-adjuvanted vaccines",
+      "chunk_id": "chk_4dad3a5525970e725c5e16cdef879cd9"
+    },
+    {
+      "canonical_name": "Heplisav-B",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Heplisav-B",
+      "chunk_id": "chk_4dad3a5525970e725c5e16cdef879cd9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

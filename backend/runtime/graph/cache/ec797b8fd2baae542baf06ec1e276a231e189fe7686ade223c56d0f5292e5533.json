@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_1ca24d0eaed321d0aad05f712ef61618",
+  "content_hash": "1b4c7f8786ef6f865f6f498eab5e2979098f10e31b045d9c89d53595113cef50",
+  "entities": [
+    {
+      "canonical_name": "Japanese Encephalitis Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Japanese Encephalitis Virus",
+      "chunk_id": "chk_1ca24d0eaed321d0aad05f712ef61618"
+    },
+    {
+      "canonical_name": "Japanese encephalitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Japanese encephalitis",
+      "chunk_id": "chk_1ca24d0eaed321d0aad05f712ef61618"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

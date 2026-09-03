@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_a147cf47427521db9545f855156dfd74",
+  "content_hash": "3a29e634682012bb2d9670545d3054470857683507ba6665fbd76813473429ab",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_a147cf47427521db9545f855156dfd74"
+    },
+    {
+      "canonical_name": "GBS",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "GBS",
+      "chunk_id": "chk_a147cf47427521db9545f855156dfd74"
+    },
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_a147cf47427521db9545f855156dfd74"
+    },
+    {
+      "canonical_name": "ADEM",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "ADEM",
+      "chunk_id": "chk_a147cf47427521db9545f855156dfd74"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

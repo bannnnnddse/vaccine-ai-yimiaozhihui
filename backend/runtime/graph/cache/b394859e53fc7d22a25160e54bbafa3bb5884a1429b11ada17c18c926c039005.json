@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_15347ade6089a0c7670baae3e3634e63",
+  "content_hash": "032a986cefd6b1beef579be2bcb46a4af9a7c9793494296746167d2ae76b2253",
+  "entities": [
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_15347ade6089a0c7670baae3e3634e63"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_15347ade6089a0c7670baae3e3634e63"
+    },
+    {
+      "canonical_name": "healthcare workers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthcare workers",
+      "chunk_id": "chk_15347ade6089a0c7670baae3e3634e63"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_15347ade6089a0c7670baae3e3634e63"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

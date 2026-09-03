@@ -1,0 +1,101 @@
+{
+  "chunk_id": "chk_cbee391ce55c8206bda21524895e6728",
+  "content_hash": "8839e0b4206845a21b4526baf8e8583e3cb63c45ba9ac72c41ad706516329412",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "novel coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "novel coronavirus",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "COVID19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID19",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "COVID -19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID -19",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "Elsevier Connect",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Elsevier Connect",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "English",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "English",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "Mandarin",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Mandarin",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "resource centre",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "resource centre",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "free information",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "free information",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "January 2020",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "January 2020",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "hosted on",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hosted on",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "created a",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "created a",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    },
+    {
+      "canonical_name": "Since",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Since",
+      "chunk_id": "chk_cbee391ce55c8206bda21524895e6728"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch"
+  ]
+}

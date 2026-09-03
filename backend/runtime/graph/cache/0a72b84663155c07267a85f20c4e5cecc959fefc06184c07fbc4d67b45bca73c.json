@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_b6377a2d986a1c50998632efee36c2c7",
+  "content_hash": "33d239c0d810ee427945c4256b63304c57e6624fd9b2ddf704977391817edb01",
+  "entities": [
+    {
+      "canonical_name": "HepA-I",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepA-I",
+      "chunk_id": "chk_b6377a2d986a1c50998632efee36c2c7"
+    },
+    {
+      "canonical_name": "HepA-L",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepA-L",
+      "chunk_id": "chk_b6377a2d986a1c50998632efee36c2c7"
+    },
+    {
+      "canonical_name": "HepA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepA",
+      "chunk_id": "chk_b6377a2d986a1c50998632efee36c2c7"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

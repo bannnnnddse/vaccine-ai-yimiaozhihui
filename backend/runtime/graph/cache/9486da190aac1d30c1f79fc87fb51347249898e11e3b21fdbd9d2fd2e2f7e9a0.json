@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_1349502277921d2bc24fbd4d01de61ec",
+  "content_hash": "c06b6a3e2e98fab9a8e0d13fd3abc8f813163e009fdcea3806f0bf988c8b85f4",
+  "entities": [
+    {
+      "canonical_name": "HPV DNA Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV DNA Vaccine",
+      "chunk_id": "chk_1349502277921d2bc24fbd4d01de61ec"
+    },
+    {
+      "canonical_name": "Washington Ovarian Cancer Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Washington Ovarian Cancer Vaccine",
+      "chunk_id": "chk_1349502277921d2bc24fbd4d01de61ec"
+    },
+    {
+      "canonical_name": "Wilms' Tumor 1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Wilms' Tumor 1",
+      "chunk_id": "chk_1349502277921d2bc24fbd4d01de61ec"
+    },
+    {
+      "canonical_name": "Y-box Binding Protein 1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Y-box Binding Protein 1",
+      "chunk_id": "chk_1349502277921d2bc24fbd4d01de61ec"
+    },
+    {
+      "canonical_name": "Zika Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika Virus",
+      "chunk_id": "chk_1349502277921d2bc24fbd4d01de61ec"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_ff76e989dc9d9e31bf58cd383a19d28f",
+  "content_hash": "eba0f4ecb38f1b5f5c3373a6df090571788bfe4e08154fdbffc6c8b358800068",
+  "entities": [
+    {
+      "canonical_name": "ChAdOx1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1",
+      "chunk_id": "chk_ff76e989dc9d9e31bf58cd383a19d28f"
+    },
+    {
+      "canonical_name": "GBS",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "GBS",
+      "chunk_id": "chk_ff76e989dc9d9e31bf58cd383a19d28f"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_ff76e989dc9d9e31bf58cd383a19d28f"
+    },
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_ff76e989dc9d9e31bf58cd383a19d28f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

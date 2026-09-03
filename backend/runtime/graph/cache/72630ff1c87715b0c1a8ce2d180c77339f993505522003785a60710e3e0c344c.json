@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_c47b580b4c9784ad37683db5ca7ef4e5",
+  "content_hash": "ab92e77ad96d876dcc0d48fd515973df4d5e98493a304e32a3b354c4dd65f8a3",
+  "entities": [
+    {
+      "canonical_name": "Epstein Barr virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Epstein Barr virus",
+      "chunk_id": "chk_c47b580b4c9784ad37683db5ca7ef4e5"
+    },
+    {
+      "canonical_name": "Mycobacterium tuberculosis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Mycobacterium tuberculosis",
+      "chunk_id": "chk_c47b580b4c9784ad37683db5ca7ef4e5"
+    },
+    {
+      "canonical_name": "vaccine components",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine components",
+      "chunk_id": "chk_c47b580b4c9784ad37683db5ca7ef4e5"
+    },
+    {
+      "canonical_name": "immune system",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune system",
+      "chunk_id": "chk_c47b580b4c9784ad37683db5ca7ef4e5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

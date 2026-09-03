@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_b93754667e0c93b53266cb715582e60a",
+  "content_hash": "a814c1e6b00a4b1a3a1d3158fd1d2ae061f24db4babe23aaf9e85ee734d5f3cc",
+  "entities": [
+    {
+      "canonical_name": "Rheumatoid arthritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Rheumatoid arthritis",
+      "chunk_id": "chk_b93754667e0c93b53266cb715582e60a"
+    },
+    {
+      "canonical_name": "systemic lupus erythematous",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "systemic lupus erythematous",
+      "chunk_id": "chk_b93754667e0c93b53266cb715582e60a"
+    },
+    {
+      "canonical_name": "renal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "renal disease",
+      "chunk_id": "chk_b93754667e0c93b53266cb715582e60a"
+    },
+    {
+      "canonical_name": "inflammatory bowel disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "inflammatory bowel disease",
+      "chunk_id": "chk_b93754667e0c93b53266cb715582e60a"
+    },
+    {
+      "canonical_name": "type 2 diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "type 2 diabetes",
+      "chunk_id": "chk_b93754667e0c93b53266cb715582e60a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

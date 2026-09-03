@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_0ec444a1833c6cfa1f0e4969b11923e1",
+  "content_hash": "b6d7838499e9891835568a9c080c58c0ed6ebe194264a51fa697c1a9a06e7b9d",
+  "entities": [
+    {
+      "canonical_name": "coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "coronavirus",
+      "chunk_id": "chk_0ec444a1833c6cfa1f0e4969b11923e1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

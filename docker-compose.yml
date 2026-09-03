@@ -1,0 +1,55 @@
+name: vaccine-ai
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file:
+      - path: ./backend/.env
+        format: raw
+    environment:
+      APP_ENV: production
+      DEBUG: "false"
+      ADMIN_COOKIE_SECURE: "true"
+      RAG_SOURCE_DIR: /app/RAG
+      RAG_INDEX_DIR: /data/rag_index
+      RAG_MODEL_CACHE_DIR: /data/model_cache
+      RAG_DOCLING_ARTIFACT_DIR: /data/runtime/docling_v2
+      RAG_WARMUP_ENABLED: "true"
+      GRAPH_SNAPSHOT_DIR: /data/runtime/graph
+      APP_DATABASE_PATH: /data/runtime/app.db
+      KNOWLEDGE_DRAFT_DIR: /data/runtime/knowledge_drafts
+      GENERATED_IMAGE_DIR: /data/generated_images
+      REFERENCE_IMAGE_DIR: /app/backend/assets/backend_references
+      CELL_IP_SKILL_DIR: /app/skills/cell-ip-illustrations
+    volumes:
+      - ./RAG:/app/RAG
+      - ./backend/rag_index:/data/rag_index
+      - ./backend/model_cache:/data/model_cache:ro
+      - ./backend/runtime:/data/runtime
+      - ./backend/generated_images:/data/generated_images
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://127.0.0.1:8000/api/v1/health"]
+      interval: 30s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      start_period: 10s
+      retries: 3

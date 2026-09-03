@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_599e47d81e44dce4f06fea462e8b81c8",
+  "content_hash": "2bfdb3d999c5c99da976eecbf5ec9bdb25f09158ccee440542e1c9c2e979a306",
+  "entities": [
+    {
+      "canonical_name": "vaccinia virus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccinia virus",
+      "chunk_id": "chk_599e47d81e44dce4f06fea462e8b81c8"
+    },
+    {
+      "canonical_name": "influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccine",
+      "chunk_id": "chk_599e47d81e44dce4f06fea462e8b81c8"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "chk_599e47d81e44dce4f06fea462e8b81c8"
+    },
+    {
+      "canonical_name": "mRNA-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-based vaccines",
+      "chunk_id": "chk_599e47d81e44dce4f06fea462e8b81c8"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 mRNA vaccines",
+      "chunk_id": "chk_599e47d81e44dce4f06fea462e8b81c8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

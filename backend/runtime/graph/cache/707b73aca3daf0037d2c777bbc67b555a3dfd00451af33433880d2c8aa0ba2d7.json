@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_7b9a5e0b01a3f18871c2115331a19023",
+  "content_hash": "ad0fc17f2929bd85af7be5098f923d6962aa227e4481e38ebd6cb1964bad9c55",
+  "entities": [
+    {
+      "canonical_name": "RV144 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV144 vaccine",
+      "chunk_id": "chk_7b9a5e0b01a3f18871c2115331a19023"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_7b9a5e0b01a3f18871c2115331a19023"
+    },
+    {
+      "canonical_name": "vaccine recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccine recipients",
+      "chunk_id": "chk_7b9a5e0b01a3f18871c2115331a19023"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

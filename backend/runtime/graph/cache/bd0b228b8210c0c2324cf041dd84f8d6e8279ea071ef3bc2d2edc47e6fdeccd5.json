@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_75a9a6189a5642c0c6ed6995d75972ef",
+  "content_hash": "b42bd5db00d2d97d83abe1c5cc709f0dd551d5741d8507f7577dd3f7cd9a8abc",
+  "entities": [
+    {
+      "canonical_name": "Dengue",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Dengue",
+      "chunk_id": "chk_75a9a6189a5642c0c6ed6995d75972ef"
+    },
+    {
+      "canonical_name": "Zika viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika viruses",
+      "chunk_id": "chk_75a9a6189a5642c0c6ed6995d75972ef"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_75a9a6189a5642c0c6ed6995d75972ef"
+    },
+    {
+      "canonical_name": "Inflammasome",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Inflammasome",
+      "chunk_id": "chk_75a9a6189a5642c0c6ed6995d75972ef"
+    },
+    {
+      "canonical_name": "dengue severity",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "dengue severity",
+      "chunk_id": "chk_75a9a6189a5642c0c6ed6995d75972ef"
+    },
+    {
+      "canonical_name": "dengue virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "dengue virus",
+      "chunk_id": "chk_75a9a6189a5642c0c6ed6995d75972ef"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

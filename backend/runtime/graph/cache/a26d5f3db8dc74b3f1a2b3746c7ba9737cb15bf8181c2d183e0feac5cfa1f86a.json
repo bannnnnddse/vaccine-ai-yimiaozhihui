@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_fff228ae4bb379d5429790273e1808cd",
+  "content_hash": "51af86ca9a49c3fe6524025cb06fb2a1b3a1b7ec439073b4ac9b8168ce12ce49",
+  "entities": [
+    {
+      "canonical_name": "Enterovirus 71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Enterovirus 71",
+      "chunk_id": "chk_fff228ae4bb379d5429790273e1808cd"
+    },
+    {
+      "canonical_name": "neurologic disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "neurologic disease",
+      "chunk_id": "chk_fff228ae4bb379d5429790273e1808cd"
+    },
+    {
+      "canonical_name": "human enterovirus 71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human enterovirus 71",
+      "chunk_id": "chk_fff228ae4bb379d5429790273e1808cd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

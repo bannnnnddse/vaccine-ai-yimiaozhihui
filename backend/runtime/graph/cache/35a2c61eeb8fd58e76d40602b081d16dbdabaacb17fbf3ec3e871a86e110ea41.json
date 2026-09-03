@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_9f7193e5111164002eef4fee9467d37e",
+  "content_hash": "50438e33b685ed210420682192dbb454ff9613cd26ad8d59a7eeb64e33a203f9",
+  "entities": [
+    {
+      "canonical_name": "tecemotide (L-BLP25)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "tecemotide (L-BLP25)",
+      "chunk_id": "chk_9f7193e5111164002eef4fee9467d37e"
+    },
+    {
+      "canonical_name": "early breast cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "early breast cancer",
+      "chunk_id": "chk_9f7193e5111164002eef4fee9467d37e"
+    },
+    {
+      "canonical_name": "tumors",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tumors",
+      "chunk_id": "chk_9f7193e5111164002eef4fee9467d37e"
+    },
+    {
+      "canonical_name": "cationic liposome-based synthetic long-peptide vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "cationic liposome-based synthetic long-peptide vaccines",
+      "chunk_id": "chk_9f7193e5111164002eef4fee9467d37e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_504f2dcd159336158ce0cefa1db966dd",
+  "content_hash": "f32380d88fdac083855c4662f3aceadab0b28e7640a626d0a78a21fddd1391ad",
+  "entities": [
+    {
+      "canonical_name": "younger age groups",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "younger age groups",
+      "chunk_id": "chk_504f2dcd159336158ce0cefa1db966dd"
+    },
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_504f2dcd159336158ce0cefa1db966dd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

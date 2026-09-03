@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_d5e42a2cb40de1aaedca2bb987466f89",
+  "content_hash": "8441b23d6f71f15e9d0f8a67968b68fb83d007610aaba7228b5634622baec256",
+  "entities": [
+    {
+      "canonical_name": "BNT vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT vaccine",
+      "chunk_id": "chk_d5e42a2cb40de1aaedca2bb987466f89"
+    },
+    {
+      "canonical_name": "ChAd",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAd",
+      "chunk_id": "chk_d5e42a2cb40de1aaedca2bb987466f89"
+    },
+    {
+      "canonical_name": "BNT-primed schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "BNT-primed schedules",
+      "chunk_id": "chk_d5e42a2cb40de1aaedca2bb987466f89"
+    },
+    {
+      "canonical_name": "ChAd-primed schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "ChAd-primed schedules",
+      "chunk_id": "chk_d5e42a2cb40de1aaedca2bb987466f89"
+    },
+    {
+      "canonical_name": "at-risk population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "at-risk population",
+      "chunk_id": "chk_d5e42a2cb40de1aaedca2bb987466f89"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

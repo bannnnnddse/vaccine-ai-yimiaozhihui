@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_8c8e7c0bb36d65ae12ef000ff56371d7",
+  "content_hash": "2008e34cf4076d0c1b807d372e4407f124a75ea7e2d56892a3ce8420cf198d7e",
+  "entities": [
+    {
+      "canonical_name": "mRNA booster vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA booster vaccination",
+      "chunk_id": "chk_8c8e7c0bb36d65ae12ef000ff56371d7"
+    },
+    {
+      "canonical_name": "Pfizer-BioNTech",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pfizer-BioNTech",
+      "chunk_id": "chk_8c8e7c0bb36d65ae12ef000ff56371d7"
+    },
+    {
+      "canonical_name": "Moderna",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna",
+      "chunk_id": "chk_8c8e7c0bb36d65ae12ef000ff56371d7"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_8c8e7c0bb36d65ae12ef000ff56371d7"
+    },
+    {
+      "canonical_name": "healthy adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adults",
+      "chunk_id": "chk_8c8e7c0bb36d65ae12ef000ff56371d7"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_8c8e7c0bb36d65ae12ef000ff56371d7"
+    },
+    {
+      "canonical_name": "memory B and T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B and T cell",
+      "chunk_id": "chk_8c8e7c0bb36d65ae12ef000ff56371d7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

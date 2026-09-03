@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_a60958ad369a6533f0bd97b69a3a4279",
+  "content_hash": "527c0c8f94ea267d6fb4ff442bbbb1cb9ff820002dc8aa016f99e231fbad4e73",
+  "entities": [
+    {
+      "canonical_name": "ß-glucan",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ß-glucan",
+      "chunk_id": "chk_a60958ad369a6533f0bd97b69a3a4279"
+    },
+    {
+      "canonical_name": "pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogens",
+      "chunk_id": "chk_a60958ad369a6533f0bd97b69a3a4279"
+    },
+    {
+      "canonical_name": "dendritic cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "dendritic cells",
+      "chunk_id": "chk_a60958ad369a6533f0bd97b69a3a4279"
+    },
+    {
+      "canonical_name": "tuberculosis infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis infection",
+      "chunk_id": "chk_a60958ad369a6533f0bd97b69a3a4279"
+    },
+    {
+      "canonical_name": "defective-interfering (DI) viral particle vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "defective-interfering (DI) viral particle vaccines",
+      "chunk_id": "chk_a60958ad369a6533f0bd97b69a3a4279"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

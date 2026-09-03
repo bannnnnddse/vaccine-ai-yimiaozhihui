@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_11edef59d5c6d55d1368ee62fbf38679",
+  "content_hash": "ca0b36b61f8e80b97e88a45ddf37b7d0efeb0ef318bf1188559e4dfedb0ae597",
+  "entities": [
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_11edef59d5c6d55d1368ee62fbf38679"
+    },
+    {
+      "canonical_name": "febrile seizures",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "febrile seizures",
+      "chunk_id": "chk_11edef59d5c6d55d1368ee62fbf38679"
+    },
+    {
+      "canonical_name": "MMRV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV vaccination",
+      "chunk_id": "chk_11edef59d5c6d55d1368ee62fbf38679"
+    },
+    {
+      "canonical_name": "general pediatric population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general pediatric population",
+      "chunk_id": "chk_11edef59d5c6d55d1368ee62fbf38679"
+    },
+    {
+      "canonical_name": "children with chronic conditions",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children with chronic conditions",
+      "chunk_id": "chk_11edef59d5c6d55d1368ee62fbf38679"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

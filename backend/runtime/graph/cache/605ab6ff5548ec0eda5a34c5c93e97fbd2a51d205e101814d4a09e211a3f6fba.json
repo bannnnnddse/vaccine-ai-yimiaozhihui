@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f3343e1069b1dc242d27f2619ec8232a",
+  "content_hash": "0a7a2df7513583e7ba719b975420959d79067ac42c9443bd33b980eef61d7bc9",
+  "entities": [
+    {
+      "canonical_name": "TBE vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "TBE vaccine",
+      "chunk_id": "chk_f3343e1069b1dc242d27f2619ec8232a"
+    },
+    {
+      "canonical_name": "JE vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "JE vaccine",
+      "chunk_id": "chk_f3343e1069b1dc242d27f2619ec8232a"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_f3343e1069b1dc242d27f2619ec8232a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

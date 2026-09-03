@@ -1,0 +1,43 @@
+{
+  "chunk_id": "ad23b48aac563644c44ec74c506639dd74598359ef07023ef9dd94206d275c38",
+  "content_hash": "2373d31c2872dcee17ab70977a15b602603c43f195dd0daa1f2455824249a230",
+  "entities": [
+    {
+      "canonical_name": "HFMD-related vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HFMD-related vaccines",
+      "chunk_id": "ad23b48aac563644c44ec74c506639dd74598359ef07023ef9dd94206d275c38"
+    },
+    {
+      "canonical_name": "Primeboost",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Primeboost",
+      "chunk_id": "ad23b48aac563644c44ec74c506639dd74598359ef07023ef9dd94206d275c38"
+    },
+    {
+      "canonical_name": "HFMD-related viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HFMD-related viruses",
+      "chunk_id": "ad23b48aac563644c44ec74c506639dd74598359ef07023ef9dd94206d275c38"
+    },
+    {
+      "canonical_name": "neonatal mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "neonatal mice",
+      "chunk_id": "ad23b48aac563644c44ec74c506639dd74598359ef07023ef9dd94206d275c38"
+    },
+    {
+      "canonical_name": "adult mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adult mice",
+      "chunk_id": "ad23b48aac563644c44ec74c506639dd74598359ef07023ef9dd94206d275c38"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

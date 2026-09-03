@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_43cbf29979aec3d351fa52d497e43b39",
+  "content_hash": "0aeb88552527905eccbe19835bbf44cf8112a156b7df073fc6c6c1d7cc7e9a95",
+  "entities": [
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "chk_43cbf29979aec3d351fa52d497e43b39"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

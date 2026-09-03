@@ -1,0 +1,49 @@
+{
+  "job_id": "4387252287a8",
+  "prompt": "制作一张解释HPV疫苗预防宫颈癌路径的中文图形摘要。按顺序展示：HPV感染风险、接种HPV疫苗、产生中和抗体、降低相关疾病风险；用编号和箭头表现流程，避免承诺百分之百预防。",
+  "brief": null,
+  "generation_route": null,
+  "visual_profile": null,
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [],
+  "cell_ip_unmatched_cell_terms": [],
+  "reference_assets": [],
+  "reference_assets_actually_sent": [],
+  "locked_ip_contracts": [],
+  "final_compiled_prompt": null,
+  "aspect_ratio": "9:16",
+  "image_id": null,
+  "trusted_image": null,
+  "candidate_image": null,
+  "critic_result": null,
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": null,
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-31T04:53:14.558311+00:00",
+  "finished_at": "2026-08-31T04:53:20.965138+00:00",
+  "stage": "failed",
+  "error": "ScienceImageOrganizerError",
+  "trace_id": "87a31eb201e3",
+  "trace_events": [
+    {
+      "id": "87a31eb201e3-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-31T04:53:14.558311Z"
+    },
+    {
+      "id": "87a31eb201e3-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述优化失败",
+      "detail": "本次任务未能完成，请稍后重试。",
+      "status": "warning",
+      "created_at": "2026-08-31T04:53:14.558311Z"
+    }
+  ],
+  "trace_history": []
+}

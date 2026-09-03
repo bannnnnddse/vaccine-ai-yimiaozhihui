@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_c5ab9a6aec133cc3321721c3fb9038e4",
+  "content_hash": "a035aecf3d0fe9b74cf4f87bdd2c7a503bf6c8a96aaf3befff3b85ee5692a9c2",
+  "entities": [
+    {
+      "canonical_name": "MF59 adjuvant",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MF59 adjuvant",
+      "chunk_id": "chk_c5ab9a6aec133cc3321721c3fb9038e4"
+    },
+    {
+      "canonical_name": "mosaic Ad26/Ad26+ gp140 HIV-1 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mosaic Ad26/Ad26+ gp140 HIV-1 vaccine",
+      "chunk_id": "chk_c5ab9a6aec133cc3321721c3fb9038e4"
+    },
+    {
+      "canonical_name": "HIV-uninfected participants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-uninfected participants",
+      "chunk_id": "chk_c5ab9a6aec133cc3321721c3fb9038e4"
+    },
+    {
+      "canonical_name": "immune response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune response",
+      "chunk_id": "chk_c5ab9a6aec133cc3321721c3fb9038e4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

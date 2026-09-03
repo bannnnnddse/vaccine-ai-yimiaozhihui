@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2609e76233511c90765e1ff84d239b68",
+  "content_hash": "ba2945599a483a24b39131003e040b2e05b048df4af61e21c57c241f833499dd",
+  "entities": [
+    {
+      "canonical_name": "NK immune memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NK immune memory",
+      "chunk_id": "chk_2609e76233511c90765e1ff84d239b68"
+    },
+    {
+      "canonical_name": "trained immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "trained immunity",
+      "chunk_id": "chk_2609e76233511c90765e1ff84d239b68"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

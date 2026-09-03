@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_d2bf7cf145e52d7cb7c637764c9243a9",
+  "content_hash": "3260258e3204aeb27a9e510fb46fa0d5e20eb39984d5df79bd4cefbcb111593b",
+  "entities": [
+    {
+      "canonical_name": "MCV1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MCV1",
+      "chunk_id": "chk_d2bf7cf145e52d7cb7c637764c9243a9"
+    },
+    {
+      "canonical_name": "MCV2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MCV2",
+      "chunk_id": "chk_d2bf7cf145e52d7cb7c637764c9243a9"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_d2bf7cf145e52d7cb7c637764c9243a9"
+    },
+    {
+      "canonical_name": "older children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older children",
+      "chunk_id": "chk_d2bf7cf145e52d7cb7c637764c9243a9"
+    },
+    {
+      "canonical_name": "7–18 year-olds",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "7–18 year-olds",
+      "chunk_id": "chk_d2bf7cf145e52d7cb7c637764c9243a9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

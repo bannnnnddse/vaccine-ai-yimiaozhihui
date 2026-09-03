@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_b5c5d511f2ba7c3e00f47c117c192b09",
+  "content_hash": "15f2f59a03aa715dbf49597886d748eb7c4a471b42e9f1667790b58aaa8369d4",
+  "entities": [
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "chk_b5c5d511f2ba7c3e00f47c117c192b09"
+    },
+    {
+      "canonical_name": "NAbs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NAbs",
+      "chunk_id": "chk_b5c5d511f2ba7c3e00f47c117c192b09"
+    },
+    {
+      "canonical_name": "Delta",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Delta",
+      "chunk_id": "chk_b5c5d511f2ba7c3e00f47c117c192b09"
+    },
+    {
+      "canonical_name": "Omicron variants",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron variants",
+      "chunk_id": "chk_b5c5d511f2ba7c3e00f47c117c192b09"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_5302379e225fd9cccf5efb5e85128f28",
+  "content_hash": "96d8d861f0130cb1cfd55d39690063ebf4670e297931ae627c414aecfe563763",
+  "entities": [
+    {
+      "canonical_name": "patitis B surface antigen (HBsAg)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "patitis B surface antigen (HBsAg)",
+      "chunk_id": "chk_5302379e225fd9cccf5efb5e85128f28"
+    },
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "chk_5302379e225fd9cccf5efb5e85128f28"
+    },
+    {
+      "canonical_name": "acute and chronic HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute and chronic HBV infection",
+      "chunk_id": "chk_5302379e225fd9cccf5efb5e85128f28"
+    },
+    {
+      "canonical_name": "hepatocellular carcinoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatocellular carcinoma",
+      "chunk_id": "chk_5302379e225fd9cccf5efb5e85128f28"
+    },
+    {
+      "canonical_name": "universal hepatitis B vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "universal hepatitis B vaccination",
+      "chunk_id": "chk_5302379e225fd9cccf5efb5e85128f28"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7cb155261ef163a5a5b5e4ef6fc66f77",
+  "content_hash": "9ed88752d1e00cb39eba5dbb98b31fc47d7169aabb536a9251147dd010d8f4c1",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_7cb155261ef163a5a5b5e4ef6fc66f77"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_7cb155261ef163a5a5b5e4ef6fc66f77"
+    },
+    {
+      "canonical_name": "COVId-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVId-19",
+      "chunk_id": "chk_7cb155261ef163a5a5b5e4ef6fc66f77"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

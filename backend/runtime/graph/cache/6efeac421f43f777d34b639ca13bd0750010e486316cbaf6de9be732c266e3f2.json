@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_d01c69025f38ec031901d1a5afcd3120",
+  "content_hash": "f280cad753f98e065cfa169953429d6fb0c11d8f2260f59f7c24ea032d50cf34",
+  "entities": [
+    {
+      "canonical_name": "未按国家免疫规划程序完成百白破疫苗接种剂次的儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "未按国家免疫规划程序完成百白破疫苗接种剂次的儿童",
+      "chunk_id": "chk_d01c69025f38ec031901d1a5afcd3120"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "llm_forbidden_relation"
+  ]
+}

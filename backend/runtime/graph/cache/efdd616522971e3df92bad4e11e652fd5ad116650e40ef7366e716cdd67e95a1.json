@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_47be94a10c3454b32fd682d599d5ca64",
+  "content_hash": "18b1e9bcd7f644361ed676ab4c73c5ddeeaa1078bcb1f43a135d896363384dd8",
+  "entities": [
+    {
+      "canonical_name": "covid-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "covid-19",
+      "chunk_id": "chk_47be94a10c3454b32fd682d599d5ca64"
+    },
+    {
+      "canonical_name": "emerging pandemic diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "emerging pandemic diseases",
+      "chunk_id": "chk_47be94a10c3454b32fd682d599d5ca64"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

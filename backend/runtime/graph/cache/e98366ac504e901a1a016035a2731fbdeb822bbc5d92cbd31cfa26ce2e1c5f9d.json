@@ -1,0 +1,50 @@
+{
+  "chunk_id": "8cf16193ccb08348881edc619cca519fbfd1d9ca603bb5344cf5bbf50183594c",
+  "content_hash": "63b03448e848303c956a79e5732f01ba8c95843d354c4265d2f5577e9698250e",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "8cf16193ccb08348881edc619cca519fbfd1d9ca603bb5344cf5bbf50183594c"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "8cf16193ccb08348881edc619cca519fbfd1d9ca603bb5344cf5bbf50183594c"
+    },
+    {
+      "canonical_name": "autoimmune diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune diseases",
+      "chunk_id": "8cf16193ccb08348881edc619cca519fbfd1d9ca603bb5344cf5bbf50183594c"
+    },
+    {
+      "canonical_name": "mitochondrial diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "mitochondrial diseases",
+      "chunk_id": "8cf16193ccb08348881edc619cca519fbfd1d9ca603bb5344cf5bbf50183594c"
+    },
+    {
+      "canonical_name": "metabolic disorders",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "metabolic disorders",
+      "chunk_id": "8cf16193ccb08348881edc619cca519fbfd1d9ca603bb5344cf5bbf50183594c"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "8cf16193ccb08348881edc619cca519fbfd1d9ca603bb5344cf5bbf50183594c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

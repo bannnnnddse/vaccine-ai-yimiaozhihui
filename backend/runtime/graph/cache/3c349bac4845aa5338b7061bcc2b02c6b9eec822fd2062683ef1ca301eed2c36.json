@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2ff809de4928780f9c7b14e70f248e8b",
+  "content_hash": "4294c00e4949183db84eecdb3c272020bb080c607a5deb60e05a6bff757c1581",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 vaccine",
+      "chunk_id": "chk_2ff809de4928780f9c7b14e70f248e8b"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 infection",
+      "chunk_id": "chk_2ff809de4928780f9c7b14e70f248e8b"
+    },
+    {
+      "canonical_name": "symptomatic COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "symptomatic COVID-19",
+      "chunk_id": "chk_2ff809de4928780f9c7b14e70f248e8b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

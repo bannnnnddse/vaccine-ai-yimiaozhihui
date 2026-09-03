@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_05ea781e66d6e0782f01d1ec69f1e5cc",
+  "content_hash": "75aa670a486d8cd4602387a4b7ae45d76b48fdba517f6664b8b47480e889eb1e",
+  "entities": [
+    {
+      "canonical_name": "BI1361849 (CV9202)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BI1361849 (CV9202)",
+      "chunk_id": "chk_05ea781e66d6e0782f01d1ec69f1e5cc"
+    },
+    {
+      "canonical_name": "stage IV non-small cell lung cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "stage IV non-small cell lung cancer",
+      "chunk_id": "chk_05ea781e66d6e0782f01d1ec69f1e5cc"
+    },
+    {
+      "canonical_name": "Plasmodium",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Plasmodium",
+      "chunk_id": "chk_05ea781e66d6e0782f01d1ec69f1e5cc"
+    },
+    {
+      "canonical_name": "innate immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immunity",
+      "chunk_id": "chk_05ea781e66d6e0782f01d1ec69f1e5cc"
+    },
+    {
+      "canonical_name": "liver-stage infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver-stage infection",
+      "chunk_id": "chk_05ea781e66d6e0782f01d1ec69f1e5cc"
+    },
+    {
+      "canonical_name": "non-allergic and allergic donors",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "non-allergic and allergic donors",
+      "chunk_id": "chk_05ea781e66d6e0782f01d1ec69f1e5cc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

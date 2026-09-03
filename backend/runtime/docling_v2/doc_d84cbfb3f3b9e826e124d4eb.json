@@ -1,0 +1,2126 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "doc_d84cbfb3f3b9e826e124d4eb",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 9719159620642443625,
+    "filename": "doc_d84cbfb3f3b9e826e124d4eb.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/pictures/7"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.601600646972656,
+            "t": 757.04736328125,
+            "r": 242.30677795410156,
+            "b": 737.9818725585938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "European Child & Adolescent Psychiatry (2023) 32:537\u2013539 https://doi.org/10.1007/s00787-021-01878-4",
+      "text": "European Child & Adolescent Psychiatry (2023) 32:537\u2013539 https://doi.org/10.1007/s00787-021-01878-4"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.462398529052734,
+            "t": 723.9384155273438,
+            "r": 162.37847900390625,
+            "b": 717.326416015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "LETTER TO\u00a0THE\u00a0EDITOR",
+      "text": "LETTER TO\u00a0THE\u00a0EDITOR",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 52.09560012817383,
+            "t": 683.5631103515625,
+            "r": 487.5612487792969,
+            "b": 669.0030517578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "Education level and\u00a0COVID\u201119 vaccination willingness in\u00a0adolescents",
+      "text": "Education level and\u00a0COVID\u201119 vaccination willingness in\u00a0adolescents",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.73360061645508,
+            "t": 651.119140625,
+            "r": 429.6609802246094,
+            "b": 640.5221557617188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "Elke\u00a0Humer 1 \u00b7 Andrea\u00a0Jesser 1 \u00b7 Paul\u00a0L.\u00a0Plener2,3 \u00b7 Thomas\u00a0Probst1 \u00b7 Christoph\u00a0Pieh 1",
+      "text": "Elke\u00a0Humer 1 \u00b7 Andrea\u00a0Jesser 1 \u00b7 Paul\u00a0L.\u00a0Plener2,3 \u00b7 Thomas\u00a0Probst1 \u00b7 Christoph\u00a0Pieh 1"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.321102142333984,
+            "t": 620.0845947265625,
+            "r": 373.1820373535156,
+            "b": 602.2516479492188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "Received: 3 September 2021 / Accepted: 16 September 2021 / Published online: 22 September 2021 \u00a9 Springer-Verlag GmbH Germany, part of Springer Nature 2021",
+      "text": "Received: 3 September 2021 / Accepted: 16 September 2021 / Published online: 22 September 2021 \u00a9 Springer-Verlag GmbH Germany, part of Springer Nature 2021"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.2036018371582,
+            "t": 581.7409057617188,
+            "r": 88.83460235595703,
+            "b": 574.5409545898438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Abstract",
+      "text": "Abstract",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.07360076904297,
+            "t": 568.970947265625,
+            "r": 546.9046020507812,
+            "b": 459.9709167480469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1022
+          ]
+        }
+      ],
+      "orig": "Vaccination is essential to control the COVID-19 pandemic. High vaccination willingness is a key for successful vaccination programs. This study assessed attitudes toward vaccination in Austrian adolescents and determined whether there are differences in vaccination readiness regarding education status, gender and migration background. Two cross-sectional online surveys were conducted from March to July 2021 in apprentices and high school students. Willingness to receive COVID-19 vaccination was rated on a 5-point scale. In total, n=2006 (n=1442 apprentices and n=564 high school students) completed the survey. Willingness to receive COVID-19 vaccination was higher in students compared to apprentices (p<0.001). Furthermore, migration background (p=0.023) and female gender (p=0.001) were associated with lower vaccination willingness. In conclusion, more efforts are required to improve confidence and willingness to vaccinate adolescents with lower educational levels, those with migrant backgrounds and females.",
+      "text": "Vaccination is essential to control the COVID-19 pandemic. High vaccination willingness is a key for successful vaccination programs. This study assessed attitudes toward vaccination in Austrian adolescents and determined whether there are differences in vaccination readiness regarding education status, gender and migration background. Two cross-sectional online surveys were conducted from March to July 2021 in apprentices and high school students. Willingness to receive COVID-19 vaccination was rated on a 5-point scale. In total, n=2006 (n=1442 apprentices and n=564 high school students) completed the survey. Willingness to receive COVID-19 vaccination was higher in students compared to apprentices (p<0.001). Furthermore, migration background (p=0.023) and female gender (p=0.001) were associated with lower vaccination willingness. In conclusion, more efforts are required to improve confidence and willingness to vaccinate adolescents with lower educational levels, those with migrant backgrounds and females."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.82760238647461,
+            "t": 433.160888671875,
+            "r": 208.9904022216797,
+            "b": 422.2768859863281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Implications and\u00a0contribution",
+      "text": "Implications and\u00a0contribution",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.07360076904297,
+            "t": 406.47088623046875,
+            "r": 291.68560791015625,
+            "b": 334.97088623046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            333
+          ]
+        }
+      ],
+      "orig": "This study implicates that more efforts are required to improve willingness to vaccinate adolescents with lower educational achievements, those with migrant backgrounds and females. Public health campaigns are needed to ensure COVID-19 vaccination efforts also reach those who are currrently uncertain or unwilling to get vaccinated.",
+      "text": "This study implicates that more efforts are required to improve willingness to vaccinate adolescents with lower educational achievements, those with migrant backgrounds and females. Public health campaigns are needed to ensure COVID-19 vaccination efforts also reach those who are currrently uncertain or unwilling to get vaccinated."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.82760238647461,
+            "t": 308.160888671875,
+            "r": 117.93440246582031,
+            "b": 299.5209045410156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Introduction",
+      "text": "Introduction",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.07360076904297,
+            "t": 281.47088623046875,
+            "r": 291.7096252441406,
+            "b": 197.4709014892578,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            415
+          ]
+        },
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 306.26361083984375,
+            "t": 431.47088623046875,
+            "r": 546.6655883789062,
+            "b": 384.97088623046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            416,
+            630
+          ]
+        }
+      ],
+      "orig": "Recent publications reveal that the COVID-19 pandemic and public health responses to the spread of SARS-CoV-2 (e.g., social distancing, homeschooling, quarantine, isolation) are causing extraordinary psychological distress among adolescents worldwide [1 , 2]. As vaccination is the most effective method to mitigate the disease [3], vaccine willingness is a key for successful vaccination programs. This study aimed to assess attitudes toward vaccination in a national sample of Austrian adolescents and determine whether there are diffferences in vaccination readiness regarding education status, gender and migration background.",
+      "text": "Recent publications reveal that the COVID-19 pandemic and public health responses to the spread of SARS-CoV-2 (e.g., social distancing, homeschooling, quarantine, isolation) are causing extraordinary psychological distress among adolescents worldwide [1 , 2]. As vaccination is the most effective method to mitigate the disease [3], vaccine willingness is a key for successful vaccination programs. This study aimed to assess attitudes toward vaccination in a national sample of Austrian adolescents and determine whether there are diffferences in vaccination readiness regarding education status, gender and migration background."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.100101470947266,
+            "t": 171.5596923828125,
+            "r": 173.77210998535156,
+            "b": 153.5821990966797,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "* Christoph Pieh christoph.pieh@donau-uni.ac.at",
+      "text": "* Christoph Pieh christoph.pieh@donau-uni.ac.at"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.684051513671875,
+            "t": 142.77340698242188,
+            "r": 269.897705078125,
+            "b": 123.51069641113281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "1 Department for\u00a0Psychotherapy and\u00a0Biopsychosocial Health, Danube University Krems, Krems, Austria",
+      "text": "1 Department for\u00a0Psychotherapy and\u00a0Biopsychosocial Health, Danube University Krems, Krems, Austria"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.19615173339844,
+            "t": 117.74190521240234,
+            "r": 259.7742919921875,
+            "b": 98.47920227050781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            94
+          ]
+        }
+      ],
+      "orig": "2 Department of\u00a0Child and\u00a0Adolescent Psychiatry, Medical University of\u00a0Vienna, Vienna, Austria",
+      "text": "2 Department of\u00a0Child and\u00a0Adolescent Psychiatry, Medical University of\u00a0Vienna, Vienna, Austria"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.26755142211914,
+            "t": 92.71040344238281,
+            "r": 250.05960083007812,
+            "b": 73.44770050048828,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "3 Department of\u00a0Child and\u00a0Adolescent Psychiatry and\u00a0Psychotherapy, University of\u00a0Ulm, Ulm, Germany",
+      "text": "3 Department of\u00a0Child and\u00a0Adolescent Psychiatry and\u00a0Psychotherapy, University of\u00a0Ulm, Ulm, Germany"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 306.7538146972656,
+            "t": 358.160888671875,
+            "r": 353.0378112792969,
+            "b": 349.5209045410156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Methods",
+      "text": "Methods",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 306.31182861328125,
+            "t": 331.47088623046875,
+            "r": 546.8948974609375,
+            "b": 284.97088623046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "Two cross-sectional surveys were conducted online using Research Electronic Data Capture (REDCap) from March 29, 2021, to May 18, 2021, in apprentices and from June 19, 2021, to July 2, 2021, in high school students.",
+      "text": "Two cross-sectional surveys were conducted online using Research Electronic Data Capture (REDCap) from March 29, 2021, to May 18, 2021, in apprentices and from June 19, 2021, to July 2, 2021, in high school students."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 306.1918029785156,
+            "t": 281.47088623046875,
+            "r": 546.6988525390625,
+            "b": 209.9709014892578,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            305
+          ]
+        }
+      ],
+      "orig": "Demographic data (gender, age, migration background) were collected. Willingness to receive COVID-19 vaccination was measured with a single-item question: \"If there was the possibility to get vaccinated against the coronavirus, would you do it?\" rated on a 5-point scale from 1=\"no way\" to 5=\"definitely\".",
+      "text": "Demographic data (gender, age, migration background) were collected. Willingness to receive COVID-19 vaccination was measured with a single-item question: \"If there was the possibility to get vaccinated against the coronavirus, would you do it?\" rated on a 5-point scale from 1=\"no way\" to 5=\"definitely\"."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 306.2718200683594,
+            "t": 206.4709014892578,
+            "r": 546.9000244140625,
+            "b": 84.98089599609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            581
+          ]
+        }
+      ],
+      "orig": "All data were analyzed using the IBM SPSS Statistics software version 26. Independent t tests and chi-squared tests were computed to analyze differences in sample characteristics (age, gender, migration background). Univariate ANOVA was computed to analyze potential differences in vaccination readiness concerning group (apprentices vs. students), gender (male vs. female) and migration background (yes vs. no). The vaccination willingness was the dependent variable, while group, gender, migration background, as well as their interaction, were included as independent variables.",
+      "text": "All data were analyzed using the IBM SPSS Statistics software version 26. Independent t tests and chi-squared tests were computed to analyze differences in sample characteristics (age, gender, migration background). Univariate ANOVA was computed to analyze potential differences in vaccination readiness concerning group (apprentices vs. students), gender (male vs. female) and migration background (yes vs. no). The vaccination willingness was the dependent variable, while group, gender, migration background, as well as their interaction, were included as independent variables."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 485.5364074707031,
+            "t": 54.908199310302734,
+            "r": 543.919921875,
+            "b": 43.89820098876953,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "Vol.:(0123456789) 1 3 0123456789) 1 3",
+      "text": "Vol.:(0123456789) 1 3 0123456789) 1 3"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.33810043334961,
+            "t": 757.264892578125,
+            "r": 62.838600158691406,
+            "b": 751.5784301757812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "538",
+      "text": "538"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 353.2835693359375,
+            "t": 757.6473999023438,
+            "r": 543.964111328125,
+            "b": 749.8104248046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "European Child & Adolescent Psychiatry (2023) 32:537\u2013539",
+      "text": "European Child & Adolescent Psychiatry (2023) 32:537\u2013539"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.17360305786133,
+            "t": 732.4402465820312,
+            "r": 291.57464599609375,
+            "b": 710.9402465820312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": "Age was included as a covariate in the statistical model. The significance level was set at 0.05 (two-tailed).",
+      "text": "Age was included as a covariate in the statistical model. The significance level was set at 0.05 (two-tailed)."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.81560134887695,
+            "t": 684.1302490234375,
+            "r": 89.20760345458984,
+            "b": 675.490234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Results",
+      "text": "Results",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.062599182128906,
+            "t": 657.6702270507812,
+            "r": 291.7345275878906,
+            "b": 548.4402465820312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            438
+          ]
+        }
+      ],
+      "orig": "In total, n = 2006 [n = 1442 apprentices (53.5% females; 29.1% migration background, age: M = 18.19, SD = 2.30\u00a0 years) and n = 564 high school students (79.6% females; 12.6% migration background, age: M = 16.34, SD = 1.33\u00a0 years)] completed the survey. Gender (\u03c7 2 (2) = 122.109, p < 0.001), migration background (\u03c7 2 (1)=59.982, p<0.001), as well as age [T(1; 1720.733)=22.410; p<0.001] were not distributed equally between those groups.",
+      "text": "In total, n = 2006 [n = 1442 apprentices (53.5% females; 29.1% migration background, age: M = 18.19, SD = 2.30\u00a0 years) and n = 564 high school students (79.6% females; 12.6% migration background, age: M = 16.34, SD = 1.33\u00a0 years)] completed the survey. Gender (\u03c7 2 (2) = 122.109, p < 0.001), migration background (\u03c7 2 (1)=59.982, p<0.001), as well as age [T(1; 1720.733)=22.410; p<0.001] were not distributed equally between those groups."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.19260025024414,
+            "t": 544.9402465820312,
+            "r": 291.862548828125,
+            "b": 373.5702209472656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            757
+          ]
+        }
+      ],
+      "orig": "Willingness to receive COVID-19 vaccination was higher in students (M =4.00, SD=1.31) compared to apprentices (M=3.16, SD=1.50; (F(1)=68.023, p<0.001). In addition, 53% of students and 28% of apprentices reported a definite willingness to get vaccinated; 7% of students and 22% of apprentices reported definite unwillingness to get vaccinated. Furthermore, migration background showed an effect on vaccination readiness (F(1)=5.158, p=0.023), with participants with migration background reporting a lower willingness to get vaccinated (M =3.00, SD=1.48) than those without migration background (M=3.52, SD=1.48). Higher vaccination willingness was observed in male (M =3.50, SD=1.49) compared to female (M =3.33, SD=1.50) adolescents (F(1)=10.703, p=0.001).",
+      "text": "Willingness to receive COVID-19 vaccination was higher in students (M =4.00, SD=1.31) compared to apprentices (M=3.16, SD=1.50; (F(1)=68.023, p<0.001). In addition, 53% of students and 28% of apprentices reported a definite willingness to get vaccinated; 7% of students and 22% of apprentices reported definite unwillingness to get vaccinated. Furthermore, migration background showed an effect on vaccination readiness (F(1)=5.158, p=0.023), with participants with migration background reporting a lower willingness to get vaccinated (M =3.00, SD=1.48) than those without migration background (M=3.52, SD=1.48). Higher vaccination willingness was observed in male (M =3.50, SD=1.49) compared to female (M =3.33, SD=1.50) adolescents (F(1)=10.703, p=0.001)."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.34259796142578,
+            "t": 369.9402160644531,
+            "r": 291.8087158203125,
+            "b": 311.0702209472656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            233
+          ]
+        }
+      ],
+      "orig": "No two-way interactions between group and gender, group and migration background, gender and migration background, as well as no three-way interaction between group, gender and migration background were observed (all p values\u22650.149).",
+      "text": "No two-way interactions between group and gender, group and migration background, gender and migration background, as well as no three-way interaction between group, gender and migration background were observed (all p values\u22650.149)."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.81560134887695,
+            "t": 284.0221862792969,
+            "r": 107.25559997558594,
+            "b": 275.4902038574219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Discussion",
+      "text": "Discussion",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.07360076904297,
+            "t": 257.440185546875,
+            "r": 291.7586669921875,
+            "b": 73.44020080566406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            837
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.1636047363281,
+            "t": 732.4402465820312,
+            "r": 546.9095458984375,
+            "b": 685.9502563476562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            838,
+            1039
+          ]
+        }
+      ],
+      "orig": "Although the COVID-19 course is significantly milder in adolescents than in adults, it is important to include adolescents as targets for vaccination to protect other, more vulnerable populations and help mitigate the COVID-19 pandemic [4]. Vaccination readiness and vaccine hesitancy are key factors for vaccination coverage. However, there is scarce research addressing adolescent vaccination readiness. Brandt et\u00a0al. [5] assessed adolescents' attitudes towards COVID-19 vaccination in the US in October 2020. They concluded that although 76% of their 911 14- to 24-year-old respondents reported a willingness to get vaccinated, many had concerns about side effects, efficacy, and safety and would wait until they believed it was safe and recommended by experts. A study conducted in Canada in 664 16- to 21-year-olds conducted between November and December 2020 observed a vaccination willingness of 65.4%, with no difference by gender, age, but other sociodemographic characteristics, such as household income and parent education [6].",
+      "text": "Although the COVID-19 course is significantly milder in adolescents than in adults, it is important to include adolescents as targets for vaccination to protect other, more vulnerable populations and help mitigate the COVID-19 pandemic [4]. Vaccination readiness and vaccine hesitancy are key factors for vaccination coverage. However, there is scarce research addressing adolescent vaccination readiness. Brandt et\u00a0al. [5] assessed adolescents' attitudes towards COVID-19 vaccination in the US in October 2020. They concluded that although 76% of their 911 14- to 24-year-old respondents reported a willingness to get vaccinated, many had concerns about side effects, efficacy, and safety and would wait until they believed it was safe and recommended by experts. A study conducted in Canada in 664 16- to 21-year-olds conducted between November and December 2020 observed a vaccination willingness of 65.4%, with no difference by gender, age, but other sociodemographic characteristics, such as household income and parent education [6]."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.25360107421875,
+            "t": 682.4402465820312,
+            "r": 546.8826904296875,
+            "b": 600.51025390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            371
+          ]
+        }
+      ],
+      "orig": "One major finding of our study was, that education status affected adolescents' willingness to receive vaccination, with high school students reporting higher willingness than apprentices of the same age. This is in line with results from Afifi et\u00a0al. [6], as well as a review of 126 surveys by Lin et\u00a0al. [7], showing lower vaccine acceptance among less-educated adults.",
+      "text": "One major finding of our study was, that education status affected adolescents' willingness to receive vaccination, with high school students reporting higher willingness than apprentices of the same age. This is in line with results from Afifi et\u00a0al. [6], as well as a review of 126 surveys by Lin et\u00a0al. [7], showing lower vaccine acceptance among less-educated adults."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.1435852050781,
+            "t": 594.9402465820312,
+            "r": 546.8814697265625,
+            "b": 536.5602416992188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            254
+          ]
+        }
+      ],
+      "orig": "In addition to education level, our study revealed lower vaccination willingness in migrants. This is confirmed by the study conducted in the US, which also found that migration background was a predictor for vaccination unwillingness in adolescents [5].",
+      "text": "In addition to education level, our study revealed lower vaccination willingness in migrants. This is confirmed by the study conducted in the US, which also found that migration background was a predictor for vaccination unwillingness in adolescents [5]."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.13360595703125,
+            "t": 532.4402465820312,
+            "r": 546.795654296875,
+            "b": 460.940185546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            348
+          ]
+        }
+      ],
+      "orig": "Lastly, we found gender to influence vaccine acceptance, with male adolescents showing a higher willingness to vaccinate. Previous studies on gender and COVID-19 vaccine acceptance are inconclusive [7]. As summarized by Bono et\u00a0al. [8], some studies support lower vaccination willingness by females, likely due to their higher fear of side effects.",
+      "text": "Lastly, we found gender to influence vaccine acceptance, with male adolescents showing a higher willingness to vaccinate. Previous studies on gender and COVID-19 vaccine acceptance are inconclusive [7]. As summarized by Bono et\u00a0al. [8], some studies support lower vaccination willingness by females, likely due to their higher fear of side effects."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.1935729980469,
+            "t": 457.440185546875,
+            "r": 546.8197021484375,
+            "b": 387.9801940917969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            308
+          ]
+        }
+      ],
+      "orig": "Overall, the results of our study are reflected in observations from the research on adults. A systematic review and meta-analysis by Robinson et\u00a0al. [9] revealed that being female, younger, of lower income or education level and having a migrant background impacted negatively on the intention to vaccinate.",
+      "text": "Overall, the results of our study are reflected in observations from the research on adults. A systematic review and meta-analysis by Robinson et\u00a0al. [9] revealed that being female, younger, of lower income or education level and having a migrant background impacted negatively on the intention to vaccinate."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.153564453125,
+            "t": 382.440185546875,
+            "r": 546.8765869140625,
+            "b": 285.940185546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            456
+          ]
+        }
+      ],
+      "orig": "While interpreting the results, the following limitations should be considered. First, the sample might not be representative of all students and apprentices, i.e., concerning gender, migration background and region. Second, the student sample was rather small. Third, vaccination willingness was assessed with a single item. Fourth, the question about the willingness to get vaccinated against COVID-19 was not further differentiated by COVID-19 vaccines.",
+      "text": "While interpreting the results, the following limitations should be considered. First, the sample might not be representative of all students and apprentices, i.e., concerning gender, migration background and region. Second, the student sample was rather small. Third, vaccination willingness was assessed with a single item. Fourth, the question about the willingness to get vaccinated against COVID-19 was not further differentiated by COVID-19 vaccines."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.1935729980469,
+            "t": 282.440185546875,
+            "r": 544.3486328125,
+            "b": 160.94020080566406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            565
+          ]
+        }
+      ],
+      "orig": "As a conclusion from our findings, we suggest that adolescents should be empowered in their health care autonomy [10] by providing youth-friendly materials that ensure adolescents feel informed and able to make important health decisions for themselves. More efforts are required to improve confidence and willingness to vaccinate adolescents with lower educational achievements, those with migrant backgrounds and females. Public health campaigns are needed to ensure vaccination efforts also reach those who are currently uncertain or unwilling to get vaccinated.",
+      "text": "As a conclusion from our findings, we suggest that adolescents should be empowered in their health care autonomy [10] by providing youth-friendly materials that ensure adolescents feel informed and able to make important health decisions for themselves. More efforts are required to improve confidence and willingness to vaccinate adolescents with lower educational achievements, those with migrant backgrounds and females. Public health campaigns are needed to ensure vaccination efforts also reach those who are currently uncertain or unwilling to get vaccinated."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.1842041015625,
+            "t": 146.63031005859375,
+            "r": 544.2021484375,
+            "b": 98.8093032836914,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            323
+          ]
+        }
+      ],
+      "orig": "Author contributions Conceptualization: Pieh, Plener, Humer, Probst. Data curation: Humer. Statistical analysis: Humer. Investigation: Pieh, Plener, Humer, Probst. Methodology: Pieh, Humer, Plener. Project administration: Pieh, Humer. Writing\u2014original draft: Humer, Jesser. Writing\u2014review and editing: Pieh, Probst, Plener.",
+      "text": "Author contributions Conceptualization: Pieh, Plener, Humer, Probst. Data curation: Humer. Statistical analysis: Humer. Investigation: Pieh, Plener, Humer, Probst. Methodology: Pieh, Humer, Plener. Project administration: Pieh, Humer. Writing\u2014original draft: Humer, Jesser. Writing\u2014review and editing: Pieh, Probst, Plener."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.711181640625,
+            "t": 84.17230224609375,
+            "r": 359.0091247558594,
+            "b": 76.43730163574219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Funding None.",
+      "text": "Funding None."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.01259994506836,
+            "t": 54.908199310302734,
+            "r": 92.75759887695312,
+            "b": 43.89820098876953,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1 3",
+      "text": "1 3"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.62620544433594,
+            "t": 757.6475219726562,
+            "r": 242.30587768554688,
+            "b": 749.810546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "European Child & Adolescent Psychiatry (2023) 32:537\u2013539",
+      "text": "European Child & Adolescent Psychiatry (2023) 32:537\u2013539"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 532.4542236328125,
+            "t": 757.2650146484375,
+            "r": 543.9631958007812,
+            "b": 751.5785522460938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "539",
+      "text": "539"
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.20210266113281,
+            "t": 733.3737182617188,
+            "r": 288.9708557128906,
+            "b": 715.540771484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            135
+          ]
+        }
+      ],
+      "orig": "Data availability The raw data supporting the conclusion of this article will be made available by the authors upon reasonable request.",
+      "text": "Data availability The raw data supporting the conclusion of this article will be made available by the authors upon reasonable request."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.72760009765625,
+            "t": 700.1162109375,
+            "r": 108.6361083984375,
+            "b": 692.26220703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Declarations",
+      "text": "Declarations",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.31260299682617,
+            "t": 675.938720703125,
+            "r": 137.95309448242188,
+            "b": 669.7761840820312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "Conflict of interest None.",
+      "text": "Conflict of interest None."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.20210266113281,
+            "t": 655.8787231445312,
+            "r": 288.9949035644531,
+            "b": 618.0537109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            251
+          ]
+        }
+      ],
+      "orig": "Ethics approval The principles outlined in the Declaration of Helsinki were followed and the ethics committee of the Danube-University Krems as well as the data protection officer of the Danube-University Krems approved the study (EK GZ 41/2018\u20132021).",
+      "text": "Ethics approval The principles outlined in the Declaration of Helsinki were followed and the ethics committee of the Danube-University Krems as well as the data protection officer of the Danube-University Krems approved the study (EK GZ 41/2018\u20132021)."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.13410186767578,
+            "t": 605.7542114257812,
+            "r": 289.07196044921875,
+            "b": 578.4352416992188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            151
+          ]
+        }
+      ],
+      "orig": "Consent to participate All participating adolescents had to agree to the data protection declaration to start the survey (electronic informed consent).",
+      "text": "Consent to participate All participating adolescents had to agree to the data protection declaration to start the survey (electronic informed consent)."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.18510055541992,
+            "t": 566.03369140625,
+            "r": 288.76690673828125,
+            "b": 549.8751831054688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "Consent for publication Participants gave informed consent for publication.",
+      "text": "Consent for publication Participants gave informed consent for publication."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.81560134887695,
+            "t": 516.0903930664062,
+            "r": 109.48760986328125,
+            "b": 507.3183898925781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "References",
+      "text": "References",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 55.67310333251953,
+            "t": 490.743896484375,
+            "r": 288.8367004394531,
+            "b": 463.10186767578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "1. Hoekstra PJ (2020) Suicidality in children and adolescents: lessons to be learned from the COVID-19 crisis. Eur Child Adolesc Psychiatry 29:737\u2013738. https://doi.org/10.1007/s00787-020-01570-z",
+      "text": "Hoekstra PJ (2020) Suicidality in children and adolescents: lessons to be learned from the COVID-19 crisis. Eur Child Adolesc Psychiatry 29:737\u2013738. https://doi.org/10.1007/s00787-020-01570-z",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.976097106933594,
+            "t": 460.7558898925781,
+            "r": 288.98529052734375,
+            "b": 433.1138610839844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "2. Pieh C, Dale R, Plener PL et\u00a0al (2021) Stress levels in high-school students after a semester of home-schooling. Eur Child Adolesc Psychiatry. https://doi.org/10.1007/s00787-021-01826-2",
+      "text": "Pieh C, Dale R, Plener PL et\u00a0al (2021) Stress levels in high-school students after a semester of home-schooling. Eur Child Adolesc Psychiatry. https://doi.org/10.1007/s00787-021-01826-2",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 55.07809829711914,
+            "t": 430.76788330078125,
+            "r": 288.9384460449219,
+            "b": 404.7919006347656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            135
+          ]
+        }
+      ],
+      "orig": "3. Mahase E (2020) Covid-19: Expedite vaccination or deaths will surge, researchers warn. BMJ m4958. https://doi.org/10.1136/bmj. m4958",
+      "text": "Mahase E (2020) Covid-19: Expedite vaccination or deaths will surge, researchers warn. BMJ m4958. https://doi.org/10.1136/bmj. m4958",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 309.9505920410156,
+            "t": 733.3168334960938,
+            "r": 544.0125122070312,
+            "b": 695.6788940429688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            212
+          ]
+        }
+      ],
+      "orig": "4. Zimet GD, Silverman RD, Fortenberry JD (2021) Coronavirus disease 2019 and vaccination of children and adolescents: prospects and challenges. J Pediatr 231:254\u2013258. https://doi.org/10. 1016/j.jpeds.2020.11.002",
+      "text": "Zimet GD, Silverman RD, Fortenberry JD (2021) Coronavirus disease 2019 and vaccination of children and adolescents: prospects and challenges. J Pediatr 231:254\u2013258. https://doi.org/10. 1016/j.jpeds.2020.11.002",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 310.1120910644531,
+            "t": 693.3753662109375,
+            "r": 544.164794921875,
+            "b": 657.4288330078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "5. Brandt EJ, Rosenberg J, Waselewski ME et\u00a0al (2021) National study of youth opinions on vaccination for COVID-19 in the US. J Adolesc Health 68:869\u2013872. https://doi.org/10.1016/j.jadohealth. 2021.02.013",
+      "text": "Brandt EJ, Rosenberg J, Waselewski ME et\u00a0al (2021) National study of youth opinions on vaccination for COVID-19 in the US. J Adolesc Health 68:869\u2013872. https://doi.org/10.1016/j.jadohealth. 2021.02.013",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 310.1376037597656,
+            "t": 653.3573608398438,
+            "r": 544.0320434570312,
+            "b": 615.7108154296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            247
+          ]
+        }
+      ],
+      "orig": "6. Afifi TO, Salmon S, Taillieu T et\u00a0al (2021) Older adolescents and young adults willingness to receive the COVID-19 vaccine: implications for informing public health strategies. Vaccine 39:3473\u20133479. https://doi.org/10.1016/j.vaccine.2021.05.026",
+      "text": "Afifi TO, Salmon S, Taillieu T et\u00a0al (2021) Older adolescents and young adults willingness to receive the COVID-19 vaccine: implications for informing public health strategies. Vaccine 39:3473\u20133479. https://doi.org/10.1016/j.vaccine.2021.05.026",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 310.0185852050781,
+            "t": 613.3648071289062,
+            "r": 544.3704833984375,
+            "b": 585.7228393554688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "7. Lin C, Tu P, Beitsch LM (2020) Confidence and receptivity for COVID-19 vaccines: a rapid systematic review. Vaccines 9:16. https://doi.org/10.3390/vaccines9010016",
+      "text": "Lin C, Tu P, Beitsch LM (2020) Confidence and receptivity for COVID-19 vaccines: a rapid systematic review. Vaccines 9:16. https://doi.org/10.3390/vaccines9010016",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 310.3246154785156,
+            "t": 583.3768310546875,
+            "r": 544.4885864257812,
+            "b": 545.7388305664062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "8. Bono SA, de Moura F, Villela E, Siau CS et\u00a0al (2021) Factors affecting COVID-19 vaccine acceptance: an international survey among low- and middle-income countries. Vaccines 9:515. https:// doi.org/10.3390/vaccines9050515",
+      "text": "Bono SA, de Moura F, Villela E, Siau CS et\u00a0al (2021) Factors affecting COVID-19 vaccine acceptance: an international survey among low- and middle-income countries. Vaccines 9:515. https:// doi.org/10.3390/vaccines9050515",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 310.1036071777344,
+            "t": 543.392822265625,
+            "r": 544.13232421875,
+            "b": 495.7588195800781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            281
+          ]
+        }
+      ],
+      "orig": "9. Robinson E, Jones A, Lesser I, Daly M (2021) International estimates of intended uptake and refusal of COVID-19 vaccines: a rapid systematic review and meta-analysis of large nationally representative samples. Vaccine 39:2024\u20132034. https://doi.org/10. 1016/j.vaccine.2021.02.005",
+      "text": "Robinson E, Jones A, Lesser I, Daly M (2021) International estimates of intended uptake and refusal of COVID-19 vaccines: a rapid systematic review and meta-analysis of large nationally representative samples. Vaccine 39:2024\u20132034. https://doi.org/10. 1016/j.vaccine.2021.02.005",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.08612060546875,
+            "t": 493.412841796875,
+            "r": 544.3245239257812,
+            "b": 455.7748107910156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "10. Schuiteman S, Chua K-P, Plegue MA et\u00a0al (2020) Self-Management of health care among youth: implications for policies on transitions of care. J Adolesc Health 66:616\u2013622. https://doi.org/ 10.1016/j.jadohealth.2020.01.009",
+      "text": "Schuiteman S, Chua K-P, Plegue MA et\u00a0al (2020) Self-Management of health care among youth: implications for policies on transitions of care. J Adolesc Health 66:616\u2013622. https://doi.org/ 10.1016/j.jadohealth.2020.01.009",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/pictures/7"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 502.1749267578125,
+            "t": 54.908199310302734,
+            "r": 543.919921875,
+            "b": 43.89820098876953,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1 3",
+      "text": "1 3"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 101.54293823242188,
+            "t": 651.6894378662109,
+            "r": 114.7384262084961,
+            "b": 642.1075439453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 428.99517822265625,
+            "t": 652.1638336181641,
+            "r": 440.05621337890625,
+            "b": 641.9271545410156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 180.31114196777344,
+            "t": 651.8142852783203,
+            "r": 194.26248168945312,
+            "b": 641.7666931152344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 345.6914978027344,
+            "t": 651.7466278076172,
+            "r": 358.3827209472656,
+            "b": 641.5644073486328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 501.0703430175781,
+            "t": 56.0560302734375,
+            "r": 543.9280395507812,
+            "b": 43.7127685546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 514.5601806640625,
+            "t": 726.2802124023438,
+            "r": 544.4523315429688,
+            "b": 695.5010223388672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.73468780517578,
+            "t": 56.05218505859375,
+            "r": 59.834991455078125,
+            "b": 43.9818115234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/57"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 500.9614562988281,
+            "t": 55.97705078125,
+            "r": 543.7539672851562,
+            "b": 43.86077880859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 790.8660278320312
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 790.8660278320312
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 790.8660278320312
+      },
+      "page_no": 3
+    }
+  }
+}

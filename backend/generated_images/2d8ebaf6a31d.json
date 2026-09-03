@@ -1,0 +1,399 @@
+{
+  "job_id": "2d8ebaf6a31d",
+  "prompt": "我想了解一下疫苗作用机制",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen",
+      "dendritic",
+      "b_cell",
+      "antibody"
+    ],
+    "scene_direction": "16:9横版科学机制图，展示疫苗诱导适应性免疫应答的核心流程。画面分为三个逻辑区域：左侧为抗原呈递阶段（树突状细胞吞噬灭活病毒并迁移），中间为T/B细胞激活与克隆扩增（淋巴结内T细胞辅助B细胞分化），右侧为效应阶段（浆细胞分泌抗体中和病毒，记忆细胞形成）。风格严谨、清晰，使用标准生物学配色，避免过度艺术化。",
+    "optimized_chinese_prompt": "A scientific mechanism diagram illustrating the adaptive immune response to vaccination. The image is divided into three sections. Left: A Dendritic Cell presenting viral antigens. Center: B cells and T helper cells interacting in a lymph node structure, showing activation and proliferation. Right: Plasma cells secreting Y-shaped antibodies binding to virus particles, alongside Memory B cells. Clean vector style, clear labels, arrows indicating flow from antigen presentation to antibody production. 16:9 aspect ratio.",
+    "chinese_labels": [
+      "疫苗抗原",
+      "树突状细胞",
+      "T细胞激活",
+      "B细胞增殖",
+      "浆细胞",
+      "特异性抗体",
+      "记忆细胞"
+    ],
+    "scientific_claims": [
+      "疫苗引入的抗原被抗原呈递细胞识别和处理。",
+      "抗原呈递细胞激活初始T淋巴细胞和B淋巴细胞。",
+      "活化的B细胞分化为浆细胞以大量产生特异性抗体。",
+      "部分活化的淋巴细胞转化为长寿命的记忆细胞以备后续感染。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "primary_relation"
+      }
+    ],
+    "route_reason": "用户询问‘疫苗作用机制’，属于涉及细胞（树突状细胞、T/B细胞）、抗原/抗体的复杂生物过程，且包含多个因果步骤（呈递->激活->分化->效应/记忆）。根据规则，此类主题默认使用 cell_ip_scientific profile，要求16:9横版，允许编号、箭头和分区以完整覆盖核心因果步骤。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen",
+    "dendritic",
+    "b_cell",
+    "antibody"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "T细胞",
+    "记忆细胞",
+    "激活初始T淋巴细胞",
+    "部分活化的淋巴细胞",
+    "转化为长寿命的记忆细胞"
+  ],
+  "reference_assets": [
+    "role-sheet:antigen+dendritic+b_cell+antibody"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:antigen+dendritic+b_cell+antibody"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    },
+    {
+      "role_id": "dendritic",
+      "asset_id": "canonical:dendritic"
+    },
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n- 1. primary_relation\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. primary_relation\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：疫苗抗原、树突状细胞、T细胞激活、B细胞增殖、浆细胞、特异性抗体、记忆细胞\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是完整细胞 IP 角色总表；只从中提取并使用命中的固定角色（抗原、树突状细胞、B 细胞、抗体），保持其颜色、轮廓、面部和专属道具与表中完全一致；不得使用表中其余角色，也不得复制其中的文字、事件或构图\n- 本题命中的固定角色：抗原、树突状细胞、B 细胞、抗体\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n- 树突状细胞：粉色分叉轮廓、发带、斜挎包、星形旗\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n【角色总表选取】（仅当参考图为完整角色总表时启用）\n- 图1 是完整细胞 IP 角色总表。画面所需固定角色必须逐个从该表中找到并原样使用，颜色、轮廓、面部、专属道具与装饰一律以表中为准：\n- 抗原：紫色圆刺团，表情可警觉\n- 树突状细胞：粉色分叉轮廓、发带、斜挎包、星形旗\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 只在总表中提取命中的角色：抗原、树突状细胞、B 细胞、抗体；忽略并不得使用表中其余角色，也不得新增表中不存在的固定角色。\n- 未收录的必要细胞：T细胞、记忆细胞、激活初始T淋巴细胞、部分活化的淋巴细胞、转化为长寿命的记忆细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 3 个信息分区、4 个可辨视觉节点、3 条有方向的箭头或连接，并清楚呈现不少于 1 个核心步骤；可不使用编号步骤；保留一个简短中文标题。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 3,
+    "minimum_visual_nodes": 4,
+    "minimum_directional_connectors": 3,
+    "minimum_labeled_steps": 1,
+    "requires_numbered_steps": false,
+    "requires_title": true
+  },
+  "aspect_ratio": "16:9",
+  "image_id": "2d8ebaf6a31d-v0",
+  "trusted_image": "2d8ebaf6a31d-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "图像成功展示了卡通风格的免疫细胞角色（抗原、树突状细胞、B细胞、记忆B细胞），且IP特征（如发带、背包、Y形道具）一致。但在文本和流程逻辑上存在严重问题：1. 关键标签错误，将“抗原呈递”误写为“抗原呈导”；2. 缺失用户指定的核心标签（如“疫苗抗原”、“T细胞激活”、“浆细胞”等）；3. 流程图未覆盖完整的因果链，缺少T细胞介导环节及浆细胞生成抗体的步骤，导致科学机制图解不完整。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "pass",
+        "evidence": "角色设计统一，抗原为紫色刺团，树突状细胞为粉色带发带和星形旗，B细胞为蓝色带触角和背包，抗体为浅蓝Y形，均符合IP设定。",
+        "confidence": 0.95
+      },
+      "text_legibility": {
+        "status": "issue",
+        "evidence": "检测到错别字，箭头上的文字显示为“抗原呈导”，正确应为“抗原呈递”。此外，大量用户要求的标签（如“浆细胞”、“T细胞激活”）在画面中完全缺失。",
+        "confidence": 0.99
+      },
+      "layout_hierarchy": {
+        "status": "issue",
+        "evidence": "流程图结构不完整，仅展示了从抗原到记忆细胞的简化路径，缺失了关键的T细胞辅助环节和浆细胞分泌抗体的步骤，无法满足“详细机制图”的信息密度要求。",
+        "confidence": 0.9
+      },
+      "brief_alignment": {
+        "status": "issue",
+        "evidence": "未包含独立文字盲读结果中要求的“疫苗抗原”、“T细胞激活”、“浆细胞”等关键节点标签，且现有流程与用户提供的标准因果链不符。",
+        "confidence": 0.98
+      },
+      "causal_step_coverage": {
+        "status": "issue",
+        "evidence": "视觉叙事中断，缺少从B细胞活化到浆细胞分化，再到抗体产生的完整中间过程，直接跳跃至记忆细胞形成，逻辑链条断裂。",
+        "confidence": 0.92
+      },
+      "scientific_expression_risk": {
+        "status": "issue",
+        "evidence": "存在明显的术语错误（“呈导”）和机制缺失（无T细胞参与），作为科学图解具有误导性风险。",
+        "confidence": 0.97
+      }
+    },
+    "blind_text_audit": {
+      "status": "clear",
+      "summary": "The image is a scientific flowchart illustrating the immune response process, featuring cute cartoon characters representing different cells and molecules. It depicts the progression from antigen presentation by dendritic cells to B cell activation, antibody production, and memory B cell formation.",
+      "text_blocks": [
+        {
+          "text": "科学图解流程",
+          "bbox": [
+            0.35,
+            0.02,
+            0.65,
+            0.08
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "抗原呈导",
+          "bbox": [
+            0.21,
+            0.45,
+            0.3,
+            0.48
+          ],
+          "confidence": 0.98
+        },
+        {
+          "text": "抗原",
+          "bbox": [
+            0.09,
+            0.59,
+            0.14,
+            0.62
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "树突状细胞",
+          "bbox": [
+            0.34,
+            0.64,
+            0.44,
+            0.67
+          ],
+          "confidence": 0.98
+        },
+        {
+          "text": "B细胞激活",
+          "bbox": [
+            0.51,
+            0.51,
+            0.59,
+            0.54
+          ],
+          "confidence": 0.97
+        },
+        {
+          "text": "B细胞",
+          "bbox": [
+            0.65,
+            0.59,
+            0.71,
+            0.62
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "特异性抗体产生",
+          "bbox": [
+            0.81,
+            0.59,
+            0.97,
+            0.62
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "记忆细胞形成",
+          "bbox": [
+            0.61,
+            0.72,
+            0.7,
+            0.78
+          ],
+          "confidence": 0.98
+        },
+        {
+          "text": "记忆B细胞",
+          "bbox": [
+            0.76,
+            0.93,
+            0.86,
+            0.96
+          ],
+          "confidence": 0.99
+        }
+      ]
+    },
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "流程箭头上的文字将‘抗原呈递’错误写成了‘抗原呈导’，属于关键术语错误。",
+        "bbox": null,
+        "observed_text": "抗原呈导",
+        "replacement_text": "抗原呈递",
+        "confidence": 1.0,
+        "suggested_fix": "修正所有相关位置的错别字，确保使用标准的生物学名词‘抗原呈递’。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "layout",
+        "severity": "high",
+        "description": "画面缺失核心组件‘浆细胞’和‘T细胞激活’步骤，无法构成完整的疫苗作用机制闭环。",
+        "bbox": null,
+        "observed_text": null,
+        "replacement_text": null,
+        "confidence": 0.95,
+        "suggested_fix": "重新规划布局，增加T细胞（橙色/绿色角色）激活B细胞的分支，并明确展示浆细胞产生抗体的过程。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "medium",
+        "description": "用户要求标签‘疫苗抗原’，但图中仅标注为‘抗原’，虽语义相近但未严格对齐标签规范。",
+        "bbox": null,
+        "observed_text": "抗原",
+        "replacement_text": "疫苗抗原",
+        "confidence": 0.85,
+        "suggested_fix": "根据审核契约，将‘抗原’标签修改为‘疫苗抗原’以匹配指定术语。",
+        "auto_fixable": true,
+        "human_input_required": false
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": [
+    0.21206903328367913,
+    0.4358300110272288,
+    0.30862069972488404,
+    0.4937371271683349
+  ],
+  "last_edit_instruction": "你正在编辑一张从原图局部裁剪出的区域。只执行用户指定的修改。除用户要求修改的对象外，保持该局部区域中的背景、角色造型、文字、颜色、构图、光影和其他元素不变。不要重新设计整张局部图，不要新增无关元素。\n用户要求：改为抗原呈递",
+  "created_at": "2026-08-31T16:50:29.887491+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": "WAN request failed (HTTP 400)",
+  "trace_id": "4910bcf02bc9",
+  "trace_events": [
+    {
+      "id": "4910bcf02bc9-1",
+      "stage": "understanding",
+      "title": "修改要求已确认",
+      "detail": "本轮只处理你框选的目标区域。",
+      "status": "completed",
+      "created_at": "2026-08-31T16:52:13.163641Z"
+    },
+    {
+      "id": "4910bcf02bc9-2",
+      "stage": "edit_rewrite",
+      "title": "局部编辑指令已整理",
+      "detail": "已明确目标区域与需要保持不变的内容。",
+      "status": "completed",
+      "created_at": "2026-08-31T16:52:13.163641Z"
+    },
+    {
+      "id": "4910bcf02bc9-3",
+      "stage": "auto_revision",
+      "title": "局部编辑失败",
+      "detail": "已保留上一版可靠图片，请调整框选或修改要求后重试。",
+      "status": "warning",
+      "created_at": "2026-08-31T16:52:13.330594Z"
+    },
+    {
+      "id": "4910bcf02bc9-4",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-31T16:52:13.922881Z"
+    }
+  ],
+  "trace_history": [
+    {
+      "trace_id": "cff21d97b658",
+      "events": [
+        {
+          "id": "cff21d97b658-1",
+          "stage": "understanding",
+          "title": "图解需求已确认",
+          "detail": "已确认主题、画面目标与科学表达边界。",
+          "status": "completed",
+          "created_at": "2026-08-31T16:50:29.887491Z"
+        },
+        {
+          "id": "cff21d97b658-2",
+          "stage": "prompt_rewrite",
+          "title": "生成描述已优化",
+          "detail": "已整理视觉指令摘要：A scientific mechanism diagram illustrating the adaptive immune response to vaccination. The image is divided into three sections. Left: A Dendritic Cell presenting viral antigens… 详细机制图：至少 3 个信息分区、4 个可辨视觉节点、3 条方向连接。",
+          "status": "completed",
+          "created_at": "2026-08-31T16:50:29.887491Z"
+        },
+        {
+          "id": "cff21d97b658-3",
+          "stage": "generation",
+          "title": "第一版图像已生成",
+          "detail": "正在准备视觉质量审查。",
+          "status": "completed",
+          "created_at": "2026-08-31T16:50:35.223800Z"
+        },
+        {
+          "id": "cff21d97b658-4",
+          "stage": "visual_critic",
+          "title": "视觉审查需要人工确认",
+          "detail": "图像成功展示了卡通风格的免疫细胞角色（抗原、树突状细胞、B细胞、记忆B细胞），且IP特征（如发带、背包、Y形道具）一致。但在文本和流程逻辑上存在严重问题：1. 关键标签错误，将“抗原呈递”误写为“抗原呈导”；2. 缺失用户指定的核心标签（如“疫苗抗原”、“T细胞激活”、“浆细胞”等）；3. 流程图未覆盖完整的因果链，缺少T细胞介导环节及浆细胞生成抗体的步骤，导致科学机制图解不完整。",
+          "status": "warning",
+          "created_at": "2026-08-31T16:50:47.900901Z"
+        },
+        {
+          "id": "cff21d97b658-5",
+          "stage": "human_feedback",
+          "title": "需要你的确认",
+          "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+          "status": "warning",
+          "created_at": "2026-08-31T16:51:25.621375Z"
+        }
+      ]
+    },
+    {
+      "trace_id": "c8eb8f6eb8fd",
+      "events": [
+        {
+          "id": "c8eb8f6eb8fd-1",
+          "stage": "understanding",
+          "title": "修改要求已确认",
+          "detail": "本轮只处理你框选的目标区域。",
+          "status": "completed",
+          "created_at": "2026-08-31T16:51:53.337241Z"
+        },
+        {
+          "id": "c8eb8f6eb8fd-2",
+          "stage": "edit_rewrite",
+          "title": "局部编辑指令已整理",
+          "detail": "已明确目标区域与需要保持不变的内容。",
+          "status": "completed",
+          "created_at": "2026-08-31T16:51:53.337241Z"
+        },
+        {
+          "id": "c8eb8f6eb8fd-3",
+          "stage": "auto_revision",
+          "title": "局部编辑失败",
+          "detail": "已保留上一版可靠图片，请调整框选或修改要求后重试。",
+          "status": "warning",
+          "created_at": "2026-08-31T16:51:53.482672Z"
+        },
+        {
+          "id": "c8eb8f6eb8fd-4",
+          "stage": "human_feedback",
+          "title": "需要你的确认",
+          "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+          "status": "warning",
+          "created_at": "2026-08-31T16:51:54.106886Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_8a5bedba98c4ce7121c88099dd419333",
+  "content_hash": "7dc6c618b4d962c98ae36ffc41526413b8ae0190394e6764f087fda66e1366a6",
+  "entities": [
+    {
+      "canonical_name": "active immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "active immune responses",
+      "chunk_id": "chk_8a5bedba98c4ce7121c88099dd419333"
+    },
+    {
+      "canonical_name": "acache",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "acache",
+      "chunk_id": "chk_8a5bedba98c4ce7121c88099dd419333"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

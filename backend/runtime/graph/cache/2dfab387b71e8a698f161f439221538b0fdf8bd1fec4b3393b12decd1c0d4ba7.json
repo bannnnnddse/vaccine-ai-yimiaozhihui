@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2d2b80c92e139479589e9ba6949012cc",
+  "content_hash": "e1d0cef4f73308bad55ae34c78f922ec19caa80b661294ec145257868308b61e",
+  "entities": [
+    {
+      "canonical_name": "inactivated Sinopharm",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated Sinopharm",
+      "chunk_id": "chk_2d2b80c92e139479589e9ba6949012cc"
+    },
+    {
+      "canonical_name": "Sinovac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Sinovac",
+      "chunk_id": "chk_2d2b80c92e139479589e9ba6949012cc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

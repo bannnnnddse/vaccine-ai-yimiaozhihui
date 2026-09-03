@@ -1,0 +1,33 @@
+{
+  "chunk_id": "0b2e37485e9992fd09c35e96e2cef2f271119a6c3ff3a056deee88ca5d2ba4be",
+  "content_hash": "026eec3a5252a598ec2f40d38865abd4666565cf921cfeb680567ab5aaa68dd3",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "0b2e37485e9992fd09c35e96e2cef2f271119a6c3ff3a056deee88ca5d2ba4be"
+    },
+    {
+      "canonical_name": "HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "HPV 疫苗",
+        "HPV疫苗",
+        "人乳头瘤病毒疫苗"
+      ],
+      "surface_form": "HPV疫苗",
+      "chunk_id": "0b2e37485e9992fd09c35e96e2cef2f271119a6c3ff3a056deee88ca5d2ba4be"
+    },
+    {
+      "canonical_name": "适龄儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "适龄儿童",
+      "chunk_id": "0b2e37485e9992fd09c35e96e2cef2f271119a6c3ff3a056deee88ca5d2ba4be"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

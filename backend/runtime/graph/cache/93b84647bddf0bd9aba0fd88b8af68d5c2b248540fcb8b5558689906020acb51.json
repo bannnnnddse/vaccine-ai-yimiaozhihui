@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e8a42bd9ef1bdf160d4eea00a45f6713",
+  "content_hash": "b02cb624bbc932bf6f12db72bd683601a05564d677163354f86aed1e06f654c0",
+  "entities": [
+    {
+      "canonical_name": "Lower Respiratory Infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Lower Respiratory Infections",
+      "chunk_id": "chk_e8a42bd9ef1bdf160d4eea00a45f6713"
+    },
+    {
+      "canonical_name": "lower respiratory infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "lower respiratory infections",
+      "chunk_id": "chk_e8a42bd9ef1bdf160d4eea00a45f6713"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

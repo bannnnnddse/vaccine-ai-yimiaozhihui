@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_dc5b7972c277914000f812bb2044a036",
+  "content_hash": "55d662cbecfb74b79169394e728dfc4f27035272c59461c5b1cf5c5c0794ccd5",
+  "entities": [
+    {
+      "canonical_name": "SARSCoV -2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV -2",
+      "chunk_id": "chk_dc5b7972c277914000f812bb2044a036"
+    },
+    {
+      "canonical_name": "COVID -19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID -19 vaccines",
+      "chunk_id": "chk_dc5b7972c277914000f812bb2044a036"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_dc5b7972c277914000f812bb2044a036"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_dc5b7972c277914000f812bb2044a036"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

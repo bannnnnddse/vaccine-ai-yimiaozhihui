@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_77d9d58c4c82176a7249e19a20d35118",
+  "content_hash": "d64416147b54acb36be008f530c390d4a6834f421bbd48c6a8976b6506edf830",
+  "entities": [
+    {
+      "canonical_name": "cytotoxic T lymphocytes (CTL)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytotoxic T lymphocytes (CTL)",
+      "chunk_id": "chk_77d9d58c4c82176a7249e19a20d35118"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_77d9d58c4c82176a7249e19a20d35118"
+    },
+    {
+      "canonical_name": "CD8+T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD8+T cells",
+      "chunk_id": "chk_77d9d58c4c82176a7249e19a20d35118"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

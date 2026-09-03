@@ -1,0 +1,38 @@
+{
+  "chunk_id": "f276fe48235d8d0e34c8e7dc47f6f896a1dea831b69ff5bb8c040e5b16bca256",
+  "content_hash": "ff3f22e997ad3e93743096d169fee2a9d0edfc1a084a053e943b02f6fdae2127",
+  "entities": [
+    {
+      "canonical_name": "Non-viral DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Non-viral DNA vaccine",
+      "chunk_id": "f276fe48235d8d0e34c8e7dc47f6f896a1dea831b69ff5bb8c040e5b16bca256"
+    },
+    {
+      "canonical_name": "Tularemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Tularemia",
+      "chunk_id": "f276fe48235d8d0e34c8e7dc47f6f896a1dea831b69ff5bb8c040e5b16bca256"
+    },
+    {
+      "canonical_name": "rabbit fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rabbit fever",
+      "chunk_id": "f276fe48235d8d0e34c8e7dc47f6f896a1dea831b69ff5bb8c040e5b16bca256"
+    },
+    {
+      "canonical_name": "Francisella tularensis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Francisella tularensis",
+      "chunk_id": "f276fe48235d8d0e34c8e7dc47f6f896a1dea831b69ff5bb8c040e5b16bca256"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chunk_id": "19844791b3bb268f1664cd6bdfb61e7dcdbfb082f7fae2ae53b73297ddacccc2",
+  "content_hash": "c6721f1e5fc746a700d67bc7fd99eee2334ea3ed1901a277f241ea0cf013189e",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "19844791b3bb268f1664cd6bdfb61e7dcdbfb082f7fae2ae53b73297ddacccc2"
+    },
+    {
+      "canonical_name": "chronic kidney disease (CKD)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic kidney disease (CKD)",
+      "chunk_id": "19844791b3bb268f1664cd6bdfb61e7dcdbfb082f7fae2ae53b73297ddacccc2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

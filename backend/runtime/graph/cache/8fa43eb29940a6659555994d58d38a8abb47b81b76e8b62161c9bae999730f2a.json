@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_0445cc4c88a7d0cf9002b5c3d135701d",
+  "content_hash": "6489796092d8c88644938ccf35714dd28e4397d5e1137240bfd58578aedeec26",
+  "entities": [
+    {
+      "canonical_name": "Haemophilus influenzae type B (Hib)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type B (Hib)",
+      "chunk_id": "chk_0445cc4c88a7d0cf9002b5c3d135701d"
+    },
+    {
+      "canonical_name": "capsular group C meningococcal infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "capsular group C meningococcal infection",
+      "chunk_id": "chk_0445cc4c88a7d0cf9002b5c3d135701d"
+    },
+    {
+      "canonical_name": "vaccine-induced immune memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "vaccine-induced immune memory",
+      "chunk_id": "chk_0445cc4c88a7d0cf9002b5c3d135701d"
+    },
+    {
+      "canonical_name": "antibody levels",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody levels",
+      "chunk_id": "chk_0445cc4c88a7d0cf9002b5c3d135701d"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_0445cc4c88a7d0cf9002b5c3d135701d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

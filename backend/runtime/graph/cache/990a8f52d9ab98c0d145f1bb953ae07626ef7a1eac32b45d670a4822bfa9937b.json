@@ -1,0 +1,43 @@
+{
+  "chunk_id": "6e807bb0f81b1eb6a8f41b5d35f315f9e8707b7f4f433c0f5397a12814c36654",
+  "content_hash": "c151acf1591e026508d4c8615cf37ac39e6829c03e45cd7bf141b8fddb32558f",
+  "entities": [
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "6e807bb0f81b1eb6a8f41b5d35f315f9e8707b7f4f433c0f5397a12814c36654"
+    },
+    {
+      "canonical_name": "3-dose schedule (0, 1, 6 months)",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "3-dose schedule (0, 1, 6 months)",
+      "chunk_id": "6e807bb0f81b1eb6a8f41b5d35f315f9e8707b7f4f433c0f5397a12814c36654"
+    },
+    {
+      "canonical_name": "two-dose schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "two-dose schedules",
+      "chunk_id": "6e807bb0f81b1eb6a8f41b5d35f315f9e8707b7f4f433c0f5397a12814c36654"
+    },
+    {
+      "canonical_name": "three-dose vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "three-dose vaccines",
+      "chunk_id": "6e807bb0f81b1eb6a8f41b5d35f315f9e8707b7f4f433c0f5397a12814c36654"
+    },
+    {
+      "canonical_name": "High-dose boosters",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "High-dose boosters",
+      "chunk_id": "6e807bb0f81b1eb6a8f41b5d35f315f9e8707b7f4f433c0f5397a12814c36654"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

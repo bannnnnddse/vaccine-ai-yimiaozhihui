@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_feff11b09ded1f96c9a416de7a8f50e9",
+  "content_hash": "c4a6d467486a88ac9fbecf5e6b2207b60434119771e709695f4c4b43ac33225e",
+  "entities": [
+    {
+      "canonical_name": "hepatitis A vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis A vaccination",
+      "chunk_id": "chk_feff11b09ded1f96c9a416de7a8f50e9"
+    },
+    {
+      "canonical_name": "decompensated cirrhotic patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "decompensated cirrhotic patients",
+      "chunk_id": "chk_feff11b09ded1f96c9a416de7a8f50e9"
+    },
+    {
+      "canonical_name": "hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis B virus",
+      "chunk_id": "chk_feff11b09ded1f96c9a416de7a8f50e9"
+    },
+    {
+      "canonical_name": "cirrhotic patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "cirrhotic patients",
+      "chunk_id": "chk_feff11b09ded1f96c9a416de7a8f50e9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

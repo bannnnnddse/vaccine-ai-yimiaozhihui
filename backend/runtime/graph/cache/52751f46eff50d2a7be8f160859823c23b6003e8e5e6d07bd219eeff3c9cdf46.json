@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_e562f866f4135fbd07577bf5c824f0ad",
+  "content_hash": "baeadbe2f0eaed5f78ac3f38c854162a0404baca1fe40b25b2c85c4d6f76661b",
+  "entities": [
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_e562f866f4135fbd07577bf5c824f0ad"
+    },
+    {
+      "canonical_name": "NK cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NK cells",
+      "chunk_id": "chk_e562f866f4135fbd07577bf5c824f0ad"
+    },
+    {
+      "canonical_name": "ADCC antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ADCC antibodies",
+      "chunk_id": "chk_e562f866f4135fbd07577bf5c824f0ad"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_e562f866f4135fbd07577bf5c824f0ad"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

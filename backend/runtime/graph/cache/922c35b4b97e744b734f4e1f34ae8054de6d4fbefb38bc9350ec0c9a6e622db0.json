@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_abc75180220893ef20bc2c091a2a3c79",
+  "content_hash": "92409e26d7ae566b498c808aa01ddfeccf8badf0a1d415e1f138ef17a64d5039",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_abc75180220893ef20bc2c091a2a3c79"
+    },
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_abc75180220893ef20bc2c091a2a3c79"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

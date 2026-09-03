@@ -1,0 +1,18 @@
+{
+  "chunk_id": "chk_e0212538f472117ad66823bbfa2f45f3",
+  "content_hash": "ffe066b2fe1da47438206c9f1e379cf4bf14015f3c9393b2a06ca89ee611d30c",
+  "entities": [
+    {
+      "canonical_name": "Engerix‐B",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Engerix‐B",
+      "chunk_id": "chk_e0212538f472117ad66823bbfa2f45f3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch"
+  ]
+}

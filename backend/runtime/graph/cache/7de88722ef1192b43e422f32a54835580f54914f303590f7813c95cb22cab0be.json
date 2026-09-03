@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7ebee2c2a293d49d18d6e7507d7c8081",
+  "content_hash": "f808e353be0cfea03ef07b3b7ae613718f6dfbeccda0d81377d9e9d114019656",
+  "entities": [
+    {
+      "canonical_name": "mRNA BNT162b2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA BNT162b2 vaccine",
+      "chunk_id": "chk_7ebee2c2a293d49d18d6e7507d7c8081"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_7ebee2c2a293d49d18d6e7507d7c8081"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_7ebee2c2a293d49d18d6e7507d7c8081"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

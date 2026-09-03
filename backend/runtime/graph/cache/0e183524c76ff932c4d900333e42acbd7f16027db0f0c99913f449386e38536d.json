@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_c1d69f8a5aeb4219ccd88d6861b29923",
+  "content_hash": "b8e5237a6cdd87a4a24d251648d665caff5b3fc9165348636c79cbdbf1a2422f",
+  "entities": [
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_c1d69f8a5aeb4219ccd88d6861b29923"
+    },
+    {
+      "canonical_name": "BCRs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "BCRs",
+      "chunk_id": "chk_c1d69f8a5aeb4219ccd88d6861b29923"
+    },
+    {
+      "canonical_name": "HIV-1 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV-1 vaccines",
+      "chunk_id": "chk_c1d69f8a5aeb4219ccd88d6861b29923"
+    },
+    {
+      "canonical_name": "broadly neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "broadly neutralizing antibodies",
+      "chunk_id": "chk_c1d69f8a5aeb4219ccd88d6861b29923"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

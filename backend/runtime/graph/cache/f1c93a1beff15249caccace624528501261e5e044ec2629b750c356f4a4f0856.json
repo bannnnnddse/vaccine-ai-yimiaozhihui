@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_f2284ecbb93f40e9ae8ea01a3c8a5970",
+  "content_hash": "ff63d5584d6b5ac15cd130db70724d17eb4b4107f65ce9def39ab62726faac05",
+  "entities": [
+    {
+      "canonical_name": "cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancers",
+      "chunk_id": "chk_f2284ecbb93f40e9ae8ea01a3c8a5970"
+    },
+    {
+      "canonical_name": "DCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DCs",
+      "chunk_id": "chk_f2284ecbb93f40e9ae8ea01a3c8a5970"
+    },
+    {
+      "canonical_name": "regulatory T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "regulatory T cells",
+      "chunk_id": "chk_f2284ecbb93f40e9ae8ea01a3c8a5970"
+    },
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_f2284ecbb93f40e9ae8ea01a3c8a5970"
+    },
+    {
+      "canonical_name": "cancer RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "cancer RNA vaccines",
+      "chunk_id": "chk_f2284ecbb93f40e9ae8ea01a3c8a5970"
+    },
+    {
+      "canonical_name": "DC-directed RNA vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DC-directed RNA vaccine candidates",
+      "chunk_id": "chk_f2284ecbb93f40e9ae8ea01a3c8a5970"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

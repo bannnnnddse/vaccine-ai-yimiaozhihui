@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_95d077731aace015e7784c9c3c5ee0fd",
+  "content_hash": "d831ea19b2c19559d80fced0b7b5382ca863d23239cf9741465eb54260d07e56",
+  "entities": [
+    {
+      "canonical_name": "seasonal influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "seasonal influenza vaccines",
+      "chunk_id": "chk_95d077731aace015e7784c9c3c5ee0fd"
+    },
+    {
+      "canonical_name": "young children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young children",
+      "chunk_id": "chk_95d077731aace015e7784c9c3c5ee0fd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

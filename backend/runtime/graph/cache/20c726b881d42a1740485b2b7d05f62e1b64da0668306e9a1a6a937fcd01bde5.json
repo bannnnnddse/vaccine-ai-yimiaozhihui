@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7f9d26c26dc9391302702a22576ef2ed",
+  "content_hash": "71cb013cd26c487b22b99f9bf29ff523819e52757209550112c2f2ff93a1f67a",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_7f9d26c26dc9391302702a22576ef2ed"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_7f9d26c26dc9391302702a22576ef2ed"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Omicron",
+      "chunk_id": "chk_7f9d26c26dc9391302702a22576ef2ed"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

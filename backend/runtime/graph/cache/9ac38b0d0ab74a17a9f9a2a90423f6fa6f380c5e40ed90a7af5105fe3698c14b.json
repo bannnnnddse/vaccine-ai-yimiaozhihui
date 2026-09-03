@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_ced25d35a4f3b1426e49441d01a4a5e2",
+  "content_hash": "dcd0b795e66565615aec2f45af755757afe464aff5e9740cefc2ed6307760332",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_ced25d35a4f3b1426e49441d01a4a5e2"
+    },
+    {
+      "canonical_name": "MCV2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MCV2",
+      "chunk_id": "chk_ced25d35a4f3b1426e49441d01a4a5e2"
+    },
+    {
+      "canonical_name": "DTPCV4",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTPCV4",
+      "chunk_id": "chk_ced25d35a4f3b1426e49441d01a4a5e2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

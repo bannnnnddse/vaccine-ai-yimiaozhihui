@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_504e0f7fbc5bb067923aebc3242b6212",
+  "content_hash": "1b19fe1f8596c0ad02e03ed1eea3b31729a1b9438cd8b13cdb026124086dcb7f",
+  "entities": [
+    {
+      "canonical_name": "live-attenuated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live-attenuated vaccines",
+      "chunk_id": "chk_504e0f7fbc5bb067923aebc3242b6212"
+    },
+    {
+      "canonical_name": "influenza A virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza A virus",
+      "chunk_id": "chk_504e0f7fbc5bb067923aebc3242b6212"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

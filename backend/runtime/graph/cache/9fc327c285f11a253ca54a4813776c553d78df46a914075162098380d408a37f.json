@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_86d33d229cf0ea0175a34adbeae168ac",
+  "content_hash": "750b542e9df2cdaccbe404920737d1a7a8b29a8cf711ca7bf109a415cc86c6ba",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis B virus",
+      "chunk_id": "chk_86d33d229cf0ea0175a34adbeae168ac"
+    },
+    {
+      "canonical_name": "hepatitis A virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis A virus",
+      "chunk_id": "chk_86d33d229cf0ea0175a34adbeae168ac"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_86d33d229cf0ea0175a34adbeae168ac"
+    },
+    {
+      "canonical_name": "HAV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HAV",
+      "chunk_id": "chk_86d33d229cf0ea0175a34adbeae168ac"
+    },
+    {
+      "canonical_name": "seronegative patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "seronegative patients",
+      "chunk_id": "chk_86d33d229cf0ea0175a34adbeae168ac"
+    },
+    {
+      "canonical_name": "immune-compromised patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immune-compromised patients",
+      "chunk_id": "chk_86d33d229cf0ea0175a34adbeae168ac"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

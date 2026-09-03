@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_49d9d546275c828186ed0ddcc8ba6f4c",
+  "content_hash": "389f5c7763d710e8584c9e70e1022b55bbee25ab648dbca2b1d55727a8b5543c",
+  "entities": [
+    {
+      "canonical_name": "Liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Liver disease",
+      "chunk_id": "chk_49d9d546275c828186ed0ddcc8ba6f4c"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_49d9d546275c828186ed0ddcc8ba6f4c"
+    },
+    {
+      "canonical_name": "SARS CoV2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS CoV2",
+      "chunk_id": "chk_49d9d546275c828186ed0ddcc8ba6f4c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

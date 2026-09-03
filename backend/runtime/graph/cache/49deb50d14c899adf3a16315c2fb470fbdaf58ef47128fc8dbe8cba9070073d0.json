@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_ddac2aafcbf34aba2cf282f793ec344e",
+  "content_hash": "6376397675e01fd8452d673fd945c9f56b7cb806c09831492dff7daa3eed10eb",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 mRNA vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 mRNA vaccination",
+      "chunk_id": "chk_ddac2aafcbf34aba2cf282f793ec344e"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_ddac2aafcbf34aba2cf282f793ec344e"
+    },
+    {
+      "canonical_name": "monocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monocytes",
+      "chunk_id": "chk_ddac2aafcbf34aba2cf282f793ec344e"
+    },
+    {
+      "canonical_name": "monocyte-derived macrophages",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monocyte-derived macrophages",
+      "chunk_id": "chk_ddac2aafcbf34aba2cf282f793ec344e"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 spike protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 spike protein",
+      "chunk_id": "chk_ddac2aafcbf34aba2cf282f793ec344e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

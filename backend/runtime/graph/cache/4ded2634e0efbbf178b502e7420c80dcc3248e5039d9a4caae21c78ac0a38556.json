@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_0495b86bdfa24ffffdf1ae1c59d79dc2",
+  "content_hash": "21d9e3edef68f3c7ad2ed8c5bb967d536573825412a6628a5a4b3c2caac4ebd3",
+  "entities": [
+    {
+      "canonical_name": "SARS -CoV -2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2 vaccine",
+      "chunk_id": "chk_0495b86bdfa24ffffdf1ae1c59d79dc2"
+    },
+    {
+      "canonical_name": "SARS -COV -2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS -COV -2",
+      "chunk_id": "chk_0495b86bdfa24ffffdf1ae1c59d79dc2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

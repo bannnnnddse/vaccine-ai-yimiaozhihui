@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_7fc3bc542b76477e21c1c25bd82784a9",
+  "content_hash": "569af99487868111cec04d1e80bda82945b648a2e001936dc73fc9e70244e92d",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_7fc3bc542b76477e21c1c25bd82784a9"
+    },
+    {
+      "canonical_name": "AMI",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "AMI",
+      "chunk_id": "chk_7fc3bc542b76477e21c1c25bd82784a9"
+    },
+    {
+      "canonical_name": "stroke",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "stroke",
+      "chunk_id": "chk_7fc3bc542b76477e21c1c25bd82784a9"
+    },
+    {
+      "canonical_name": "systemic respiratory tract infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "systemic respiratory tract infection",
+      "chunk_id": "chk_7fc3bc542b76477e21c1c25bd82784a9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

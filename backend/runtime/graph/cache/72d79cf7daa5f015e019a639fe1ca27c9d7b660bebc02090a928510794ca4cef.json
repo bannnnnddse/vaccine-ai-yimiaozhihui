@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_3411d19c51743aaf90fb2e22cfa0d698",
+  "content_hash": "4933816fc740a586d07695899ec9ac19302be885ba7a239395bea7788a8fc712",
+  "entities": [
+    {
+      "canonical_name": "Lung-resident memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Lung-resident memory B cells",
+      "chunk_id": "chk_3411d19c51743aaf90fb2e22cfa0d698"
+    },
+    {
+      "canonical_name": "pulmonary influenza infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pulmonary influenza infection",
+      "chunk_id": "chk_3411d19c51743aaf90fb2e22cfa0d698"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

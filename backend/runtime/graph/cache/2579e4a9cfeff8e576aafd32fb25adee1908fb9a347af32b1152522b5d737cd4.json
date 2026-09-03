@@ -1,0 +1,73 @@
+{
+  "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c",
+  "content_hash": "53646b1044ddc426ad312a0d0c4f64f329513cf332109247d65bdeb8a97678ad",
+  "entities": [
+    {
+      "canonical_name": "adverse event",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse event",
+      "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c"
+    },
+    {
+      "canonical_name": "Corynebacterium diphtheria strain C7 (b197)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Corynebacterium diphtheria strain C7 (b197)",
+      "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c"
+    },
+    {
+      "canonical_name": "diphtheria toxin",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "diphtheria toxin",
+      "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c"
+    },
+    {
+      "canonical_name": "CRM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CRM",
+      "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c"
+    },
+    {
+      "canonical_name": "non-toxic cross-reacting mutant of diphtheria toxin",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "non-toxic cross-reacting mutant of diphtheria toxin",
+      "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c"
+    },
+    {
+      "canonical_name": "meningococcal groups A, C, Y and W capsular polysaccharides",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "meningococcal groups A, C, Y and W capsular polysaccharides",
+      "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c"
+    },
+    {
+      "canonical_name": "MenACWY-CRM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenACWY-CRM",
+      "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c"
+    },
+    {
+      "canonical_name": "quadrivalent meningococcal conjugate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent meningococcal conjugate vaccines",
+      "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c"
+    },
+    {
+      "canonical_name": "invasive meningococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive meningococcal disease",
+      "chunk_id": "chk_83b161afd1c0e80004a49ed1f561ae8c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_88717dfb94b36751fd6afe8a2ce2b270",
+  "content_hash": "733b4d64435b0645cdfa5110ec06ff857786ac70c29880a462a4bee991193367",
+  "entities": [
+    {
+      "canonical_name": "trained immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "trained immunity",
+      "chunk_id": "chk_88717dfb94b36751fd6afe8a2ce2b270"
+    },
+    {
+      "canonical_name": "classical immunological memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "classical immunological memory",
+      "chunk_id": "chk_88717dfb94b36751fd6afe8a2ce2b270"
+    },
+    {
+      "canonical_name": "myeloid cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "myeloid cells",
+      "chunk_id": "chk_88717dfb94b36751fd6afe8a2ce2b270"
+    },
+    {
+      "canonical_name": "natural killer (NK) cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "natural killer (NK) cells",
+      "chunk_id": "chk_88717dfb94b36751fd6afe8a2ce2b270"
+    },
+    {
+      "canonical_name": "innate lymphoid cells (ILCs)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate lymphoid cells (ILCs)",
+      "chunk_id": "chk_88717dfb94b36751fd6afe8a2ce2b270"
+    },
+    {
+      "canonical_name": "pattern recognition receptors",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pattern recognition receptors",
+      "chunk_id": "chk_88717dfb94b36751fd6afe8a2ce2b270"
+    },
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_88717dfb94b36751fd6afe8a2ce2b270"
+    },
+    {
+      "canonical_name": "antigen-specific lymphocyte clones",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen-specific lymphocyte clones",
+      "chunk_id": "chk_88717dfb94b36751fd6afe8a2ce2b270"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

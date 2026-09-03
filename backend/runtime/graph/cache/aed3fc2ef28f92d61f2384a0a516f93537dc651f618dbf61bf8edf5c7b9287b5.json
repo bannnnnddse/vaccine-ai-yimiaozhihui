@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_83b50bf3875de59d91c365935d8f3bc8",
+  "content_hash": "dfd67673b45055c115d6426495fcb1f6b6946c3f7cd9668f3c0e41d017745583",
+  "entities": [
+    {
+      "canonical_name": "适龄儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "适龄儿童",
+      "chunk_id": "chk_83b50bf3875de59d91c365935d8f3bc8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

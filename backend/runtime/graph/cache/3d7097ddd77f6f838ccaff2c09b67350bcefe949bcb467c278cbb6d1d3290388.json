@@ -1,0 +1,18 @@
+{
+  "chunk_id": "9ad697fe30654daff4c4e4a8c12070856ce5ded4baaa89dffb4bb70bcbb08db8",
+  "content_hash": "044b41757d7bd434ef96f28240dff8f556a8545d86e605be55a33e70e246c426",
+  "entities": [],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "entity_surface_missing",
+    "new_entity_canonical_not_surface",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation"
+  ]
+}

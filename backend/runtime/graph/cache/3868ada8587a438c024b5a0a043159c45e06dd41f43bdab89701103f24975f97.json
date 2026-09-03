@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_a4cb5c56fed2c63fe146ed9e2e88d079",
+  "content_hash": "305db025cd6a2ed936af31cb35957f57547abbed717f5434f80983f9421982a5",
+  "entities": [
+    {
+      "canonical_name": "Virus-specific memory CD8 T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Virus-specific memory CD8 T cells",
+      "chunk_id": "chk_a4cb5c56fed2c63fe146ed9e2e88d079"
+    },
+    {
+      "canonical_name": "severe acute respiratory syndrome coronavirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe acute respiratory syndrome coronavirus infection",
+      "chunk_id": "chk_a4cb5c56fed2c63fe146ed9e2e88d079"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_a4cb5c56fed2c63fe146ed9e2e88d079"
+    },
+    {
+      "canonical_name": "binding antibody responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "binding antibody responses",
+      "chunk_id": "chk_a4cb5c56fed2c63fe146ed9e2e88d079"
+    },
+    {
+      "canonical_name": "COVID-19 RNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 RNA vaccine",
+      "chunk_id": "chk_a4cb5c56fed2c63fe146ed9e2e88d079"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "quote_missing"
+  ]
+}

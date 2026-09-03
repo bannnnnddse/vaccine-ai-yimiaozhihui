@@ -1,0 +1,19 @@
+{
+  "chunk_id": "chk_ddbf980480b250cad8b496a604148ced",
+  "content_hash": "e8d97adfdc442b151212a6819070bf7a3a1f78ac8a06f6c051e120e0995fce78",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_ddbf980480b250cad8b496a604148ced"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

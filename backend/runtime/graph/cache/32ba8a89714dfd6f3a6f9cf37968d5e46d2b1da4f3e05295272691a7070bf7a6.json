@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_6fd5c1947e32a598dae18d39bb1e22e0",
+  "content_hash": "749719f513fa0ac6427eadbed0cf4d764661b6b9951aaa31cfa0c5a1510e733f",
+  "entities": [
+    {
+      "canonical_name": "nAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "nAb",
+      "chunk_id": "chk_6fd5c1947e32a598dae18d39bb1e22e0"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_6fd5c1947e32a598dae18d39bb1e22e0"
+    },
+    {
+      "canonical_name": "booster vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "booster vaccination",
+      "chunk_id": "chk_6fd5c1947e32a598dae18d39bb1e22e0"
+    },
+    {
+      "canonical_name": "Omicron subvariants BA.1, BA.5, and BA.2.75",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron subvariants BA.1, BA.5, and BA.2.75",
+      "chunk_id": "chk_6fd5c1947e32a598dae18d39bb1e22e0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_badd3d7a4137fb7115c22797a392919c",
+  "content_hash": "c6d1ce09ffbca936cc4451a313e63e6fbad2c0cfaaf3c055f5a8c5c5e3a0b4e4",
+  "entities": [
+    {
+      "canonical_name": "HPV-associated cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HPV-associated cancers",
+      "chunk_id": "chk_badd3d7a4137fb7115c22797a392919c"
+    },
+    {
+      "canonical_name": "precancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "precancers",
+      "chunk_id": "chk_badd3d7a4137fb7115c22797a392919c"
+    },
+    {
+      "canonical_name": "US HPV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "US HPV vaccination",
+      "chunk_id": "chk_badd3d7a4137fb7115c22797a392919c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_dd0aaba1b95b322e3541217d94fffec4",
+  "content_hash": "f752872a89ce1cb82cf384a4103674e730dcfc7de16be7f70cbab90295221721",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_dd0aaba1b95b322e3541217d94fffec4"
+    },
+    {
+      "canonical_name": "H10N8",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "H10N8",
+      "chunk_id": "chk_dd0aaba1b95b322e3541217d94fffec4"
+    },
+    {
+      "canonical_name": "H7N9 influenza viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "H7N9 influenza viruses",
+      "chunk_id": "chk_dd0aaba1b95b322e3541217d94fffec4"
+    },
+    {
+      "canonical_name": "healthy adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adults",
+      "chunk_id": "chk_dd0aaba1b95b322e3541217d94fffec4"
+    },
+    {
+      "canonical_name": "mRNA rabies vac -cine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA rabies vac -cine",
+      "chunk_id": "chk_dd0aaba1b95b322e3541217d94fffec4"
+    },
+    {
+      "canonical_name": "rabies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rabies",
+      "chunk_id": "chk_dd0aaba1b95b322e3541217d94fffec4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

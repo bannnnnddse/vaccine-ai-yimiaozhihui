@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2699af5161f27069823e7f7f8174d56c",
+  "content_hash": "11065234c7ca3cc3fbf0446365bc76d6f523330ae128368cba40e3925070857b",
+  "entities": [
+    {
+      "canonical_name": "innate antiviral immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate antiviral immunity",
+      "chunk_id": "chk_2699af5161f27069823e7f7f8174d56c"
+    },
+    {
+      "canonical_name": "CD4(+) memory-phenotype T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4(+) memory-phenotype T cells",
+      "chunk_id": "chk_2699af5161f27069823e7f7f8174d56c"
+    },
+    {
+      "canonical_name": "unexposed adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "unexposed adults",
+      "chunk_id": "chk_2699af5161f27069823e7f7f8174d56c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

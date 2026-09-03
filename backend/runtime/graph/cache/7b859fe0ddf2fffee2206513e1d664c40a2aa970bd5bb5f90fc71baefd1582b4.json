@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b435c27504f856efc43af4798f6a6340",
+  "content_hash": "e1659cc568f15c921f7a6232bfe2e5b104e6bc261a8701462c158b10dd664054",
+  "entities": [
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "chk_b435c27504f856efc43af4798f6a6340"
+    },
+    {
+      "canonical_name": "RotaTeq",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RotaTeq",
+      "chunk_id": "chk_b435c27504f856efc43af4798f6a6340"
+    },
+    {
+      "canonical_name": "Rotarix",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Rotarix",
+      "chunk_id": "chk_b435c27504f856efc43af4798f6a6340"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

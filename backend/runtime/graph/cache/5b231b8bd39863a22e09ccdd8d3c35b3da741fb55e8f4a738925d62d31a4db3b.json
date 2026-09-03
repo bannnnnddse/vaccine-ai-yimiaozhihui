@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_adec8c220f4074b3069f2fc592c3c237",
+  "content_hash": "3bda47db7c03dc4eb2b7107ebe2cf4b39e01191a0b0010f12ee8af749794bd1a",
+  "entities": [
+    {
+      "canonical_name": "Memory B",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Memory B",
+      "chunk_id": "chk_adec8c220f4074b3069f2fc592c3c237"
+    },
+    {
+      "canonical_name": "Plasma Cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Plasma Cells",
+      "chunk_id": "chk_adec8c220f4074b3069f2fc592c3c237"
+    },
+    {
+      "canonical_name": "autoantibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "autoantibody",
+      "chunk_id": "chk_adec8c220f4074b3069f2fc592c3c237"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_fcb898d7329d1e8372aad96811bf38c8",
+  "content_hash": "780a6b3d500a451c1986e60ac2888f632d064b7b3487749813bc7e7a98f49af5",
+  "entities": [
+    {
+      "canonical_name": "DENV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "DENV infection",
+      "chunk_id": "chk_fcb898d7329d1e8372aad96811bf38c8"
+    },
+    {
+      "canonical_name": "DENV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "DENV",
+      "chunk_id": "chk_fcb898d7329d1e8372aad96811bf38c8"
+    },
+    {
+      "canonical_name": "HMGB1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HMGB1",
+      "chunk_id": "chk_fcb898d7329d1e8372aad96811bf38c8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

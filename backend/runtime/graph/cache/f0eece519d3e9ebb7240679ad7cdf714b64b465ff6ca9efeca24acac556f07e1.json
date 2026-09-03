@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_c7c6e5d078b515840ef20115c08dd88a",
+  "content_hash": "de310bdffe4fea61e06c140d347c9fa43bd55e4a254ab03a98b4f5d130778acc",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_c7c6e5d078b515840ef20115c08dd88a"
+    },
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_c7c6e5d078b515840ef20115c08dd88a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

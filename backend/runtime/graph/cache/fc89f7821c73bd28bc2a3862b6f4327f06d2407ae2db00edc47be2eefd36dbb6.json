@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_b9a31ae570e1c5d34f2593545487998b",
+  "content_hash": "e30c6bbeb9113258a13430d7a0653e6d53fc2df9315511ce5b1929489593a680",
+  "entities": [
+    {
+      "canonical_name": "vaccinated individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccinated individuals",
+      "chunk_id": "chk_b9a31ae570e1c5d34f2593545487998b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

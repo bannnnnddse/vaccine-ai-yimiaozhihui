@@ -1,0 +1,63 @@
+{
+  "chunk_id": "chk_e9e312710d8014052aeaa7458b264f2b",
+  "content_hash": "5f9c5882902655b5293c56b909bd156a03b73efa2f6fa94f8473f8bd3c08d3a8",
+  "entities": [
+    {
+      "canonical_name": "Cervarix",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Cervarix",
+      "chunk_id": "chk_e9e312710d8014052aeaa7458b264f2b"
+    },
+    {
+      "canonical_name": "HPV types 16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV types 16",
+      "chunk_id": "chk_e9e312710d8014052aeaa7458b264f2b"
+    },
+    {
+      "canonical_name": "Gardasil 9 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Gardasil 9 vaccine",
+      "chunk_id": "chk_e9e312710d8014052aeaa7458b264f2b"
+    },
+    {
+      "canonical_name": "HPV types 6",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV types 6",
+      "chunk_id": "chk_e9e312710d8014052aeaa7458b264f2b"
+    },
+    {
+      "canonical_name": "HPV types 16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV types 16",
+      "chunk_id": "chk_e9e312710d8014052aeaa7458b264f2b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "invalid_domain_range",
+    "target_missing_from_quote",
+    "invalid_domain_range",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote"
+  ]
+}

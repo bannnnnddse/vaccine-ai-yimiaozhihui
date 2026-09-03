@@ -1,0 +1,22 @@
+{
+  "chunk_id": "117ff0759bed8d720c33ff2a438b5ea7b8fc09aa30d7b70ceeee877196b3a4dc",
+  "content_hash": "702d63c8a19a008eaeb11dcc64d26278aedcbe8f52a5d2f65d2b5326cc3dfd57",
+  "entities": [
+    {
+      "canonical_name": "病原微生物",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "病原微生物",
+      "chunk_id": "117ff0759bed8d720c33ff2a438b5ea7b8fc09aa30d7b70ceeee877196b3a4dc"
+    },
+    {
+      "canonical_name": "菌毒株",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "菌毒株",
+      "chunk_id": "117ff0759bed8d720c33ff2a438b5ea7b8fc09aa30d7b70ceeee877196b3a4dc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

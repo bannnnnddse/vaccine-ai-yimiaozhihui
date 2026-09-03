@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_06f126a3001a1d25d8fbbb84bc0a39c1",
+  "content_hash": "874b863b344084a8ae53133e68bf27204dbed8e392c97ac10ab60c2f10db829d",
+  "entities": [
+    {
+      "canonical_name": "Rotaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Rotaviruses",
+      "chunk_id": "chk_06f126a3001a1d25d8fbbb84bc0a39c1"
+    },
+    {
+      "canonical_name": "severe, dehydrating diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe, dehydrating diarrhea",
+      "chunk_id": "chk_06f126a3001a1d25d8fbbb84bc0a39c1"
+    },
+    {
+      "canonical_name": "children under the age of five",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under the age of five",
+      "chunk_id": "chk_06f126a3001a1d25d8fbbb84bc0a39c1"
+    },
+    {
+      "canonical_name": "gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "gastroenteritis",
+      "chunk_id": "chk_06f126a3001a1d25d8fbbb84bc0a39c1"
+    },
+    {
+      "canonical_name": "children under five years old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under five years old",
+      "chunk_id": "chk_06f126a3001a1d25d8fbbb84bc0a39c1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

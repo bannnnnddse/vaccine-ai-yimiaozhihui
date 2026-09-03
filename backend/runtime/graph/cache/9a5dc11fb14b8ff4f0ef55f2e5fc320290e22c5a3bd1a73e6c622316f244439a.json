@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_ccd52edd7c13f3de9d5ad8f8e086955f",
+  "content_hash": "cd991440dfb18d91b81f0d8095d805c77c33cff211853061878869ed65b269ad",
+  "entities": [
+    {
+      "canonical_name": "Gn/Gc DNA expression vectors",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Gn/Gc DNA expression vectors",
+      "chunk_id": "chk_ccd52edd7c13f3de9d5ad8f8e086955f"
+    },
+    {
+      "canonical_name": "humoral immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral immunity",
+      "chunk_id": "chk_ccd52edd7c13f3de9d5ad8f8e086955f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_e4e22ba278113f504899ee9485e90239",
+  "content_hash": "7d76e1c03e76cb9eb6201cb39510ca87eb3eff6b66940d4dea3214d23b16e4f1",
+  "entities": [
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "chk_e4e22ba278113f504899ee9485e90239"
+    },
+    {
+      "canonical_name": "AZD1222",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AZD1222",
+      "chunk_id": "chk_e4e22ba278113f504899ee9485e90239"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_e4e22ba278113f504899ee9485e90239"
+    },
+    {
+      "canonical_name": "kidney disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "kidney disease",
+      "chunk_id": "chk_e4e22ba278113f504899ee9485e90239"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_e4e22ba278113f504899ee9485e90239"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

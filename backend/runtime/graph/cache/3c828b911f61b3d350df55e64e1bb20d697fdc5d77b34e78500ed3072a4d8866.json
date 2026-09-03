@@ -1,0 +1,43 @@
+{
+  "chunk_id": "8a331f9635e18683f808b289b02f0bdd2b8d9a4a24d2a8e47c73697c2e877f01",
+  "content_hash": "abbc20a4173bc718b02f040456d2870bb45e379e4c09cc2a39fd1495cce34f61",
+  "entities": [
+    {
+      "canonical_name": "Anti-SARS-CoV-2 immunoglobulins",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti-SARS-CoV-2 immunoglobulins",
+      "chunk_id": "8a331f9635e18683f808b289b02f0bdd2b8d9a4a24d2a8e47c73697c2e877f01"
+    },
+    {
+      "canonical_name": "anti-SARS-CoV-2 antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-SARS-CoV-2 antibodies",
+      "chunk_id": "8a331f9635e18683f808b289b02f0bdd2b8d9a4a24d2a8e47c73697c2e877f01"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "8a331f9635e18683f808b289b02f0bdd2b8d9a4a24d2a8e47c73697c2e877f01"
+    },
+    {
+      "canonical_name": "transient tachypnea of the newborn",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "transient tachypnea of the newborn",
+      "chunk_id": "8a331f9635e18683f808b289b02f0bdd2b8d9a4a24d2a8e47c73697c2e877f01"
+    },
+    {
+      "canonical_name": "TTN",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "TTN",
+      "chunk_id": "8a331f9635e18683f808b289b02f0bdd2b8d9a4a24d2a8e47c73697c2e877f01"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_fec7aa9f704602fafe413861403fdb5e",
+  "content_hash": "5af4b7296285454e8e0eb082e48696e32fd3a71d299ca81523735e35b51d25e8",
+  "entities": [
+    {
+      "canonical_name": "elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly",
+      "chunk_id": "chk_fec7aa9f704602fafe413861403fdb5e"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_fec7aa9f704602fafe413861403fdb5e"
+    },
+    {
+      "canonical_name": "CMV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CMV",
+      "chunk_id": "chk_fec7aa9f704602fafe413861403fdb5e"
+    },
+    {
+      "canonical_name": "MF59-adjuvanted seasonal influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MF59-adjuvanted seasonal influenza vaccine",
+      "chunk_id": "chk_fec7aa9f704602fafe413861403fdb5e"
+    },
+    {
+      "canonical_name": "herpes zoster subunit vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "herpes zoster subunit vaccine",
+      "chunk_id": "chk_fec7aa9f704602fafe413861403fdb5e"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_fec7aa9f704602fafe413861403fdb5e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

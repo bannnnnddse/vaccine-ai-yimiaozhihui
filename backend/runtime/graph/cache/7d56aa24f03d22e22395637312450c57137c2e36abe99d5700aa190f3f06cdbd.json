@@ -1,0 +1,36 @@
+{
+  "chunk_id": "3e1e0d7817dff7a27685e244c7504b812244bd499f36ca252250309edaeaf5ce",
+  "content_hash": "ea9e3d269ec6f9fbcc5e6e6f408e458bd9ce53ccda862dde6b74dc0b78572953",
+  "entities": [
+    {
+      "canonical_name": "Measles vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Measles vaccination",
+      "chunk_id": "3e1e0d7817dff7a27685e244c7504b812244bd499f36ca252250309edaeaf5ce"
+    },
+    {
+      "canonical_name": "monovalent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "monovalent vaccine",
+      "chunk_id": "3e1e0d7817dff7a27685e244c7504b812244bd499f36ca252250309edaeaf5ce"
+    },
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "3e1e0d7817dff7a27685e244c7504b812244bd499f36ca252250309edaeaf5ce"
+    },
+    {
+      "canonical_name": "Two-dose schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Two-dose schedules",
+      "chunk_id": "3e1e0d7817dff7a27685e244c7504b812244bd499f36ca252250309edaeaf5ce"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

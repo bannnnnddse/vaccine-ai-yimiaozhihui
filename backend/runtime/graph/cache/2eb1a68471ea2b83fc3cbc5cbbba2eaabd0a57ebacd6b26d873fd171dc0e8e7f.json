@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_323a5fefa54385fbb51783f116e4772f",
+  "content_hash": "a20ee13d35284ddf3357f1dbc2d17538a5aa4b0caffa8b05ffdee79e9fecfcd4",
+  "entities": [
+    {
+      "canonical_name": "Sendai Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Sendai Virus",
+      "chunk_id": "chk_323a5fefa54385fbb51783f116e4772f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

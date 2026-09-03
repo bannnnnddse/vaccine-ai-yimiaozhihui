@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_2caa558a858b1548c58575126e01c6b2",
+  "content_hash": "ddc4c38ad8f6d3fc3d1c6d2d190236d2672c86050f63dab490d03d0c36f3868a",
+  "entities": [
+    {
+      "canonical_name": "Molecular adjuvants",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Molecular adjuvants",
+      "chunk_id": "chk_2caa558a858b1548c58575126e01c6b2"
+    },
+    {
+      "canonical_name": "systemic inflammation",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "systemic inflammation",
+      "chunk_id": "chk_2caa558a858b1548c58575126e01c6b2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

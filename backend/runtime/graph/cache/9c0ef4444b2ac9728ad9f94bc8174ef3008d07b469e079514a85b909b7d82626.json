@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_b0b53bbd4b8cddeb1610361bd35facba",
+  "content_hash": "9567659326fe0c60ce636137cf0cd186b449b500259168037594474eb4b988e2",
+  "entities": [
+    {
+      "canonical_name": "Pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Pertussis",
+      "chunk_id": "chk_b0b53bbd4b8cddeb1610361bd35facba"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_b0b53bbd4b8cddeb1610361bd35facba"
+    },
+    {
+      "canonical_name": "Pertussis Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pertussis Vaccines",
+      "chunk_id": "chk_b0b53bbd4b8cddeb1610361bd35facba"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_b0b53bbd4b8cddeb1610361bd35facba"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_b0b53bbd4b8cddeb1610361bd35facba"
+    },
+    {
+      "canonical_name": "pertussis vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pertussis vaccines",
+      "chunk_id": "chk_b0b53bbd4b8cddeb1610361bd35facba"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

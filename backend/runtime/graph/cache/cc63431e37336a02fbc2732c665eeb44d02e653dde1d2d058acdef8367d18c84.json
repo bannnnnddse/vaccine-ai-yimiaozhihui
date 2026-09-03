@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d03293429d81a743d13b2d29c442a47d",
+  "content_hash": "cdc604568b189b1049fe58c1e679407b44589cfdc76792b7ef28fc87c529b882",
+  "entities": [
+    {
+      "canonical_name": "foreign antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "foreign antigen",
+      "chunk_id": "chk_d03293429d81a743d13b2d29c442a47d"
+    },
+    {
+      "canonical_name": "IgD",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgD",
+      "chunk_id": "chk_d03293429d81a743d13b2d29c442a47d"
+    },
+    {
+      "canonical_name": "IgM",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgM",
+      "chunk_id": "chk_d03293429d81a743d13b2d29c442a47d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

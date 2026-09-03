@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_fa902406afd5c9d9c7e256e6d104bfb5",
+  "content_hash": "c893c3b83021a83e98c9b1a56206478919aaea106b321c5b8e8bbacb3647ddc3",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_fa902406afd5c9d9c7e256e6d104bfb5"
+    },
+    {
+      "canonical_name": "tourists",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "tourists",
+      "chunk_id": "chk_fa902406afd5c9d9c7e256e6d104bfb5"
+    },
+    {
+      "canonical_name": "international tourists",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "international tourists",
+      "chunk_id": "chk_fa902406afd5c9d9c7e256e6d104bfb5"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_fa902406afd5c9d9c7e256e6d104bfb5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

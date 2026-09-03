@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_1f1ea3e7dc266b7e7459ed514d94dc35",
+  "content_hash": "ff58f3263592ddc0c8f38a345a70e42be0242823776536d625bdc1d89ac1ad84",
+  "entities": [
+    {
+      "canonical_name": "vesicular stomatitis virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "vesicular stomatitis virus",
+      "chunk_id": "chk_1f1ea3e7dc266b7e7459ed514d94dc35"
+    },
+    {
+      "canonical_name": "filoviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "filoviruses",
+      "chunk_id": "chk_1f1ea3e7dc266b7e7459ed514d94dc35"
+    },
+    {
+      "canonical_name": "arenaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "arenaviruses",
+      "chunk_id": "chk_1f1ea3e7dc266b7e7459ed514d94dc35"
+    },
+    {
+      "canonical_name": "Zika virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika virus",
+      "chunk_id": "chk_1f1ea3e7dc266b7e7459ed514d94dc35"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

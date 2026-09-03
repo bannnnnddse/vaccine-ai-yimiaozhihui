@@ -1,0 +1,66 @@
+{
+  "chunk_id": "b437a86bbfd48624a76e6da10029e04ea8b38fd0325f5e111a8525f2accd928e",
+  "content_hash": "88dd9ae1f1229f068f8c200b802483329d14ca303c0d9b0a84e189e13a8fca3b",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "b437a86bbfd48624a76e6da10029e04ea8b38fd0325f5e111a8525f2accd928e"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "b437a86bbfd48624a76e6da10029e04ea8b38fd0325f5e111a8525f2accd928e"
+    },
+    {
+      "canonical_name": "Ebola",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Ebola",
+      "chunk_id": "b437a86bbfd48624a76e6da10029e04ea8b38fd0325f5e111a8525f2accd928e"
+    },
+    {
+      "canonical_name": "Zika viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika viruses",
+      "chunk_id": "b437a86bbfd48624a76e6da10029e04ea8b38fd0325f5e111a8525f2accd928e"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "b437a86bbfd48624a76e6da10029e04ea8b38fd0325f5e111a8525f2accd928e"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "b437a86bbfd48624a76e6da10029e04ea8b38fd0325f5e111a8525f2accd928e"
+    },
+    {
+      "canonical_name": "Self-amplifying mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Self-amplifying mRNA vaccines",
+      "chunk_id": "b437a86bbfd48624a76e6da10029e04ea8b38fd0325f5e111a8525f2accd928e"
+    },
+    {
+      "canonical_name": "non-replicating mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "non-replicating mRNA vaccines",
+      "chunk_id": "b437a86bbfd48624a76e6da10029e04ea8b38fd0325f5e111a8525f2accd928e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

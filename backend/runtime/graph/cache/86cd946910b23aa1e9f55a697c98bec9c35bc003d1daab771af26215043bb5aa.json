@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_fd270bdea38b0230c0e11a97c49b8845",
+  "content_hash": "edce6708710f2c0d7d21075c16892884c7b320f78f92edb1c72f3355bdda253c",
+  "entities": [
+    {
+      "canonical_name": "Immunosenescence",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Immunosenescence",
+      "chunk_id": "chk_fd270bdea38b0230c0e11a97c49b8845"
+    },
+    {
+      "canonical_name": "seasonal inactivated influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "seasonal inactivated influenza vaccine",
+      "chunk_id": "chk_fd270bdea38b0230c0e11a97c49b8845"
+    },
+    {
+      "canonical_name": "Td/Tdap",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Td/Tdap",
+      "chunk_id": "chk_fd270bdea38b0230c0e11a97c49b8845"
+    },
+    {
+      "canonical_name": "herpes zoster",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "herpes zoster",
+      "chunk_id": "chk_fd270bdea38b0230c0e11a97c49b8845"
+    },
+    {
+      "canonical_name": "pneumococcal vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal vaccines",
+      "chunk_id": "chk_fd270bdea38b0230c0e11a97c49b8845"
+    },
+    {
+      "canonical_name": "persons aged 65 years or older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "persons aged 65 years or older",
+      "chunk_id": "chk_fd270bdea38b0230c0e11a97c49b8845"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

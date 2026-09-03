@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_dc7365ce4af78db866a40de124b6f989",
+  "content_hash": "f7131549d812cef365eaca50c89b1debb81fb7527661592d22a2569f7f0a58ac",
+  "entities": [
+    {
+      "canonical_name": "PCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PCs",
+      "chunk_id": "chk_dc7365ce4af78db866a40de124b6f989"
+    },
+    {
+      "canonical_name": "GC B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GC B cells",
+      "chunk_id": "chk_dc7365ce4af78db866a40de124b6f989"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_dc7365ce4af78db866a40de124b6f989"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

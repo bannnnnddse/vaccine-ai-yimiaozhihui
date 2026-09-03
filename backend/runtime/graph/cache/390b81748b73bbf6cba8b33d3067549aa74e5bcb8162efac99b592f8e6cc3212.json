@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_9fb7f88cf8763c0df35e8d80a351adbf",
+  "content_hash": "0c9f4af42953454968d7c5f60e21330690e395c9b6cf246a6b3c97ffd8cf6afd",
+  "entities": [
+    {
+      "canonical_name": "hepatitis A– E vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis A– E vaccines",
+      "chunk_id": "chk_9fb7f88cf8763c0df35e8d80a351adbf"
+    },
+    {
+      "canonical_name": "liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver disease",
+      "chunk_id": "chk_9fb7f88cf8763c0df35e8d80a351adbf"
+    },
+    {
+      "canonical_name": "HIV infection",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV infection",
+      "chunk_id": "chk_9fb7f88cf8763c0df35e8d80a351adbf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

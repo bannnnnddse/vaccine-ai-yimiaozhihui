@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9",
+  "content_hash": "ae79aa279b0681ea61bd7298fe1e0fe65fafacda2796a15a68b7c0daad93a124",
+  "entities": [
+    {
+      "canonical_name": "respiratory syncytial virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus",
+      "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9"
+    },
+    {
+      "canonical_name": "killed vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "killed vaccine",
+      "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9"
+    },
+    {
+      "canonical_name": "Atypical exanthem",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Atypical exanthem",
+      "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9"
+    },
+    {
+      "canonical_name": "Atypical measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Atypical measles",
+      "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9"
+    },
+    {
+      "canonical_name": "enhanced respiratory syncytial virus disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "enhanced respiratory syncytial virus disease",
+      "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9"
+    },
+    {
+      "canonical_name": "SARS -CoV -2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2",
+      "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9"
+    },
+    {
+      "canonical_name": "SARS -CoV -2 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2 vaccines",
+      "chunk_id": "chk_a6bce5dbad643a6f99c7977d69133bd9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

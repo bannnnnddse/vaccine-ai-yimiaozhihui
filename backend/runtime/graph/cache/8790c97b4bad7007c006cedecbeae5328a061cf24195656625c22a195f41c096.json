@@ -1,0 +1,22 @@
+{
+  "chunk_id": "b4315e4d7375f5e941621cb6241b0cc0b2b50d3fb63644048094039813d06584",
+  "content_hash": "21da0d1c38b0a11646673d7c7fe602c7d85d045bda2ad63868d4804281f9f0e6",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "b4315e4d7375f5e941621cb6241b0cc0b2b50d3fb63644048094039813d06584"
+    },
+    {
+      "canonical_name": "HPV-related cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HPV-related cancer",
+      "chunk_id": "b4315e4d7375f5e941621cb6241b0cc0b2b50d3fb63644048094039813d06584"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

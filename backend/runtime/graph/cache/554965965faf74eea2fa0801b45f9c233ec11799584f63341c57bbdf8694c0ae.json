@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_f6a89b3809e182904c452dc8e70a2a78",
+  "content_hash": "f374df7be8325a0355091af2a946c0ffa9fce1362202eca9a86870cf7d490785",
+  "entities": [
+    {
+      "canonical_name": "acute lymphoblastic leukemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute lymphoblastic leukemia",
+      "chunk_id": "chk_f6a89b3809e182904c452dc8e70a2a78"
+    },
+    {
+      "canonical_name": "acute lymphoblastic leukaemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute lymphoblastic leukaemia",
+      "chunk_id": "chk_f6a89b3809e182904c452dc8e70a2a78"
+    },
+    {
+      "canonical_name": "invasive pneumococcal diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive pneumococcal diseases",
+      "chunk_id": "chk_f6a89b3809e182904c452dc8e70a2a78"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_f6a89b3809e182904c452dc8e70a2a78"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

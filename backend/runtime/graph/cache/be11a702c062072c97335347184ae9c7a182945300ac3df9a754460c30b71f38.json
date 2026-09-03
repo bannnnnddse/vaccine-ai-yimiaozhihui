@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_62a5a7c93728fe58cabb01cc11011ad5",
+  "content_hash": "48a1e3de2f31b2e9a88a0a5045fcec940fd047c7486a921f5c69654cbf528ca9",
+  "entities": [
+    {
+      "canonical_name": "Pandemrix",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pandemrix",
+      "chunk_id": "chk_62a5a7c93728fe58cabb01cc11011ad5"
+    },
+    {
+      "canonical_name": "narcolepsy",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "narcolepsy",
+      "chunk_id": "chk_62a5a7c93728fe58cabb01cc11011ad5"
+    },
+    {
+      "canonical_name": "MMR vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR vaccine",
+      "chunk_id": "chk_62a5a7c93728fe58cabb01cc11011ad5"
+    },
+    {
+      "canonical_name": "autism",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autism",
+      "chunk_id": "chk_62a5a7c93728fe58cabb01cc11011ad5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

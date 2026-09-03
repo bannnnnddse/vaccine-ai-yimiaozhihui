@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6de2ea3c0f91003218bd5f717f67dfde",
+  "content_hash": "8839e0b4206845a21b4526baf8e8583e3cb63c45ba9ac72c41ad706516329412",
+  "entities": [
+    {
+      "canonical_name": "novel coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "novel coronavirus",
+      "chunk_id": "chk_6de2ea3c0f91003218bd5f717f67dfde"
+    },
+    {
+      "canonical_name": "COVID19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID19",
+      "chunk_id": "chk_6de2ea3c0f91003218bd5f717f67dfde"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_6de2ea3c0f91003218bd5f717f67dfde"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

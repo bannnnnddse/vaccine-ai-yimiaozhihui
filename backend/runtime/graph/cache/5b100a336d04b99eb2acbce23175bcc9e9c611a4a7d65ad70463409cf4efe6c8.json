@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_00f3b8c55a814c7486d6de0cb9d2f8ca",
+  "content_hash": "3d3e77626a10ece45e748d09b28e8c880d5d14dc6ce5c1560f9c48794cd42271",
+  "entities": [
+    {
+      "canonical_name": "Defective interfering influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Defective interfering influenza virus",
+      "chunk_id": "chk_00f3b8c55a814c7486d6de0cb9d2f8ca"
+    },
+    {
+      "canonical_name": "influenza virus disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza virus disease",
+      "chunk_id": "chk_00f3b8c55a814c7486d6de0cb9d2f8ca"
+    },
+    {
+      "canonical_name": "Defective interfering influenza A virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Defective interfering influenza A virus",
+      "chunk_id": "chk_00f3b8c55a814c7486d6de0cb9d2f8ca"
+    },
+    {
+      "canonical_name": "influenza B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza B virus",
+      "chunk_id": "chk_00f3b8c55a814c7486d6de0cb9d2f8ca"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "unknown_endpoint"
+  ]
+}

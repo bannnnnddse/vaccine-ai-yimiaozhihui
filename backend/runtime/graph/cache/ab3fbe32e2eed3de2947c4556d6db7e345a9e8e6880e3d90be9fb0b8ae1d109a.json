@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_196d3abfd63d1d958ebd8ad06fd1c5e3",
+  "content_hash": "62f731c3a1ebe38cf34478c1f1c588bd1842d9ff8b2d49d916ce134488c7176f",
+  "entities": [
+    {
+      "canonical_name": "mRNA-based vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-based vaccine",
+      "chunk_id": "chk_196d3abfd63d1d958ebd8ad06fd1c5e3"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 immunoglobulins",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 immunoglobulins",
+      "chunk_id": "chk_196d3abfd63d1d958ebd8ad06fd1c5e3"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 antibodies",
+      "chunk_id": "chk_196d3abfd63d1d958ebd8ad06fd1c5e3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

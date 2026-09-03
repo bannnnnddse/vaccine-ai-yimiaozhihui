@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_8ed109d11738c04b11b9f64d3411cffb",
+  "content_hash": "29cd070dfe80efbbf22573675af62a1b2e3da7d1a93dc93d33502fde9dc0118d",
+  "entities": [
+    {
+      "canonical_name": "Recombinant protein vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Recombinant protein vaccines",
+      "chunk_id": "chk_8ed109d11738c04b11b9f64d3411cffb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

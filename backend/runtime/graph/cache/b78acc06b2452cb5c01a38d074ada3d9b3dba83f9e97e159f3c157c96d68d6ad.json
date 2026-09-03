@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_75aac3342484750a0876ed8aa5e3808f",
+  "content_hash": "a9e024e426038aede1ef713f64de5a181a67b85694207a73ed82dbfd12c135d3",
+  "entities": [
+    {
+      "canonical_name": "cancer vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "cancer vaccine",
+      "chunk_id": "chk_75aac3342484750a0876ed8aa5e3808f"
+    },
+    {
+      "canonical_name": "non-small-cell lung cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-small-cell lung cancer",
+      "chunk_id": "chk_75aac3342484750a0876ed8aa5e3808f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "source_missing_from_quote"
+  ]
+}

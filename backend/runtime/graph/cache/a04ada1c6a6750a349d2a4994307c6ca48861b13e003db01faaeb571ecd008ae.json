@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_7bc40df4cfb51e0e7f7cbf58d30bf0b1",
+  "content_hash": "7e52c90a2da2cdfb8b9b63017d048f2061c766d5f6e2631d1175d70f3f72640b",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_7bc40df4cfb51e0e7f7cbf58d30bf0b1"
+    },
+    {
+      "canonical_name": "novel coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "novel coronavirus",
+      "chunk_id": "chk_7bc40df4cfb51e0e7f7cbf58d30bf0b1"
+    },
+    {
+      "canonical_name": "SARS ‐ CoV ‐ 2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS ‐ CoV ‐ 2",
+      "chunk_id": "chk_7bc40df4cfb51e0e7f7cbf58d30bf0b1"
+    },
+    {
+      "canonical_name": "infertility",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "infertility",
+      "chunk_id": "chk_7bc40df4cfb51e0e7f7cbf58d30bf0b1"
+    },
+    {
+      "canonical_name": "death",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "death",
+      "chunk_id": "chk_7bc40df4cfb51e0e7f7cbf58d30bf0b1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

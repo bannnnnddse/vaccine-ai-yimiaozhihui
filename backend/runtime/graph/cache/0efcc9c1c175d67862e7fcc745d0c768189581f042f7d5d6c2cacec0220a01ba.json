@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_506d514e53fd1a1c29089c6c3caf005e",
+  "content_hash": "ba4f24f4531e85f1f220a40bbedd58f088810d43a6d79740de129e9a8e846e1a",
+  "entities": [
+    {
+      "canonical_name": "adenovirus vectors",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "adenovirus vectors",
+      "chunk_id": "chk_506d514e53fd1a1c29089c6c3caf005e"
+    },
+    {
+      "canonical_name": "Ebola vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ebola vaccine",
+      "chunk_id": "chk_506d514e53fd1a1c29089c6c3caf005e"
+    },
+    {
+      "canonical_name": "adenovirus type -5",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "adenovirus type -5",
+      "chunk_id": "chk_506d514e53fd1a1c29089c6c3caf005e"
+    },
+    {
+      "canonical_name": "healthy adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adults",
+      "chunk_id": "chk_506d514e53fd1a1c29089c6c3caf005e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

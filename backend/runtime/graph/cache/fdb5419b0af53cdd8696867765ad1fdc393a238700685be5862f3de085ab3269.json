@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_f0830a7dba55a2339217b37d5da6a14f",
+  "content_hash": "caa3b99cc978fc58879c7ed37c29ad23bf4015ee430fbdf8c4052e9c45e7e73d",
+  "entities": [
+    {
+      "canonical_name": "2019 novel coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "2019 novel coronavirus",
+      "chunk_id": "chk_f0830a7dba55a2339217b37d5da6a14f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

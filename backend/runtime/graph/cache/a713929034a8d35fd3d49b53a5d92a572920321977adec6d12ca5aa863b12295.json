@@ -1,0 +1,36 @@
+{
+  "chunk_id": "112ebc90041ce853300209117c44e10834496e83db1809162daf22e9dc4ef3c6",
+  "content_hash": "043cb816d6c406e544806b66f3c4c0d3fd02d6b9d9fc929bf1f81d82ea71e26d",
+  "entities": [
+    {
+      "canonical_name": "1–1.5-year-old vaccination group",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "1–1.5-year-old vaccination group",
+      "chunk_id": "112ebc90041ce853300209117c44e10834496e83db1809162daf22e9dc4ef3c6"
+    },
+    {
+      "canonical_name": "Penile swelling",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Penile swelling",
+      "chunk_id": "112ebc90041ce853300209117c44e10834496e83db1809162daf22e9dc4ef3c6"
+    },
+    {
+      "canonical_name": "injection site pruritus",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "injection site pruritus",
+      "chunk_id": "112ebc90041ce853300209117c44e10834496e83db1809162daf22e9dc4ef3c6"
+    },
+    {
+      "canonical_name": "urinary tract infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "urinary tract infection",
+      "chunk_id": "112ebc90041ce853300209117c44e10834496e83db1809162daf22e9dc4ef3c6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

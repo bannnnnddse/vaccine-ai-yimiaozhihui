@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_35949391764f797bf0ae90e904efbde1",
+  "content_hash": "b2433d2245f2a20e8de14f30444907592a0a1754fbf960c4fc0ccc0fabb6957b",
+  "entities": [
+    {
+      "canonical_name": "typhoid vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "typhoid vaccine",
+      "chunk_id": "chk_35949391764f797bf0ae90e904efbde1"
+    },
+    {
+      "canonical_name": "inflammation",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "inflammation",
+      "chunk_id": "chk_35949391764f797bf0ae90e904efbde1"
+    },
+    {
+      "canonical_name": "healthy participants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy participants",
+      "chunk_id": "chk_35949391764f797bf0ae90e904efbde1"
+    },
+    {
+      "canonical_name": "mood changes",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "mood changes",
+      "chunk_id": "chk_35949391764f797bf0ae90e904efbde1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

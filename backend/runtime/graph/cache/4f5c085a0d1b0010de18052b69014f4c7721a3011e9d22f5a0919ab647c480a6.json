@@ -1,0 +1,29 @@
+{
+  "chunk_id": "3a3e366459392288097b1515e2455e7c3bec78f8da150153906a3a892decc7a4",
+  "content_hash": "b26fcba255c4e5b201d9b24eb012d3221db1259049f5c3953d24f2e367060d54",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "3a3e366459392288097b1515e2455e7c3bec78f8da150153906a3a892decc7a4"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "3a3e366459392288097b1515e2455e7c3bec78f8da150153906a3a892decc7a4"
+    },
+    {
+      "canonical_name": "IgG antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG antibodies",
+      "chunk_id": "3a3e366459392288097b1515e2455e7c3bec78f8da150153906a3a892decc7a4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

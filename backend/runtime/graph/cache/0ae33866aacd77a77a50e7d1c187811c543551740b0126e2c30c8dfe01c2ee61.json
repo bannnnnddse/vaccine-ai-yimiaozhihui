@@ -1,0 +1,83 @@
+{
+  "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433",
+  "content_hash": "310e4ec532b86c7fd92de25fc61c5d471bbd016874b870eb4f8f4ad58fdb0d2c",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    },
+    {
+      "canonical_name": "smallpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "smallpox",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    },
+    {
+      "canonical_name": "poliomyelitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "poliomyelitis",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    },
+    {
+      "canonical_name": "mumps",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "mumps",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    },
+    {
+      "canonical_name": "rubella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rubella",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    },
+    {
+      "canonical_name": "antimicrobial resistance",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "antimicrobial resistance",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_bdc6d70ff802cbad160cb441ab321433"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

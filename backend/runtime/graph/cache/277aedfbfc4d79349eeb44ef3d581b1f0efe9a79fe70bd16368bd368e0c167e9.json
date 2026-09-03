@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_30ba97581611e07b30227545b11d5d03",
+  "content_hash": "e8424e607f64d29b93f54f246f09c47d96c829a6b00c8a0ac0503ed78d39d66f",
+  "entities": [
+    {
+      "canonical_name": "B- and Tlymphocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B- and Tlymphocytes",
+      "chunk_id": "chk_30ba97581611e07b30227545b11d5d03"
+    },
+    {
+      "canonical_name": "pathogen",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogen",
+      "chunk_id": "chk_30ba97581611e07b30227545b11d5d03"
+    },
+    {
+      "canonical_name": "Trained immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Trained immunity",
+      "chunk_id": "chk_30ba97581611e07b30227545b11d5d03"
+    },
+    {
+      "canonical_name": "innate immune cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune cells",
+      "chunk_id": "chk_30ba97581611e07b30227545b11d5d03"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

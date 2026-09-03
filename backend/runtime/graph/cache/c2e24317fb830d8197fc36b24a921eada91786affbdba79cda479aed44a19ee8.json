@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_b7827254bfed56f694052a9de8555091",
+  "content_hash": "32950c9b9bf0e18d75139b6b738a523d1dd3297cd3da0032554f79927c176f50",
+  "entities": [
+    {
+      "canonical_name": "HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "HPV 疫苗",
+        "HPV疫苗",
+        "人乳头瘤病毒疫苗"
+      ],
+      "surface_form": "HPV 疫苗",
+      "chunk_id": "chk_b7827254bfed56f694052a9de8555091"
+    },
+    {
+      "canonical_name": "2vHPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "2vHPV",
+      "chunk_id": "chk_b7827254bfed56f694052a9de8555091"
+    },
+    {
+      "canonical_name": "双价 HPV 疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "双价 HPV 疫苗",
+      "chunk_id": "chk_b7827254bfed56f694052a9de8555091"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "self_loop",
+    "self_loop"
+  ]
+}

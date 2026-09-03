@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_aeff8f5e255629c46ff5006acc49f976",
+  "content_hash": "e58a411849e890f3454f3f5e682b02ec0560c8e36deda60822d7903160f0f55c",
+  "entities": [
+    {
+      "canonical_name": "Inborn errors of immunity",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Inborn errors of immunity",
+      "chunk_id": "chk_aeff8f5e255629c46ff5006acc49f976"
+    },
+    {
+      "canonical_name": "Coronavirus disease 2019",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Coronavirus disease 2019",
+      "chunk_id": "chk_aeff8f5e255629c46ff5006acc49f976"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_ebaf2425a0ebd24774a8f4b25226400a",
+  "content_hash": "d5fd072da328b3896e5153f7d0419af9b7ac47d4794918f8106722f869b82bf9",
+  "entities": [
+    {
+      "canonical_name": "immune cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune cells",
+      "chunk_id": "chk_ebaf2425a0ebd24774a8f4b25226400a"
+    },
+    {
+      "canonical_name": "APCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "APCs",
+      "chunk_id": "chk_ebaf2425a0ebd24774a8f4b25226400a"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_ebaf2425a0ebd24774a8f4b25226400a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

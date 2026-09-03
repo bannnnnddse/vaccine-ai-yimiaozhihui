@@ -1,0 +1,29 @@
+/*
+ * 免疫互动页面视觉微调入口。
+ * 这个文件会在主样式之后加载，适合直接修改并保存，不需要进入 styles.css。
+ */
+:root {
+  /* 免疫追逐迷宫墙体颜色：支持 HEX、rgb()、rgba() 等标准 CSS 颜色。 */
+  --immune-maze-wall-color: #750013;
+
+  /*
+   * 树突状细胞抓取病毒时，病毒相对手掌的视觉间距。
+   * X：正值向右、负值向左；Y：正值向下、负值向上。
+   * 推荐从 0.5% 逐步微调，例如 -1%、8px。
+   */
+  --immune-capture-virus-hand-gap-x: 5%;
+  --immune-capture-virus-hand-gap-y: 0%;
+}
+
+/*
+ * 辅助性 T 细胞底部绿色名称气泡。
+ * X：正值向右、负值向左；Y：正值向下、负值向上。
+ * contact：辅助性 T 细胞与树突状细胞接触场景。
+ * to-b：辅助性 T 细胞移动到 B 细胞旁的下一场景。
+ */
+.immune-b-cell-activation {
+  --immune-helper-t-cell-contact-bubble-x: 8px;
+  --immune-helper-t-cell-contact-bubble-y: 0px;
+  --immune-helper-t-cell-to-b-bubble-x: 20px;
+  --immune-helper-t-cell-to-b-bubble-y: 0px;
+}

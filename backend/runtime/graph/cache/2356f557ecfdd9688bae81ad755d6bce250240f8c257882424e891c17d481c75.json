@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_688aba447c13ae07a9a732bf9371f448",
+  "content_hash": "0787fe084a59b79587193ed84d3c2fdbaffb36e5f830c763584746c7d6a54dcd",
+  "entities": [
+    {
+      "canonical_name": "allergy",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "allergy",
+      "chunk_id": "chk_688aba447c13ae07a9a732bf9371f448"
+    },
+    {
+      "canonical_name": "obesity",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "obesity",
+      "chunk_id": "chk_688aba447c13ae07a9a732bf9371f448"
+    },
+    {
+      "canonical_name": "childhood",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "childhood",
+      "chunk_id": "chk_688aba447c13ae07a9a732bf9371f448"
+    },
+    {
+      "canonical_name": "Bifidobacterium",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium",
+      "chunk_id": "chk_688aba447c13ae07a9a732bf9371f448"
+    },
+    {
+      "canonical_name": "Enterococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Enterococcus",
+      "chunk_id": "chk_688aba447c13ae07a9a732bf9371f448"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_16269cba0df9d4c019f89e0b2c7fe86a",
+  "content_hash": "70a064ef2c4b96bee69994b1a12ae93171ae37c4eacf979f42c85773a4007dff",
+  "entities": [
+    {
+      "canonical_name": "Interleukin-2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Interleukin-2",
+      "chunk_id": "chk_16269cba0df9d4c019f89e0b2c7fe86a"
+    },
+    {
+      "canonical_name": "T follicular helper cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T follicular helper cell",
+      "chunk_id": "chk_16269cba0df9d4c019f89e0b2c7fe86a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

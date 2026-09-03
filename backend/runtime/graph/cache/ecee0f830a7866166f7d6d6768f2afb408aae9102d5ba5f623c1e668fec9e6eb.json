@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_50f8ac13f962b6e20806952729f1fc91",
+  "content_hash": "17d040e93d6092efcb97807d1192ce074d1b7fad2acad91aa691de590f871c4d",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination",
+      "chunk_id": "chk_50f8ac13f962b6e20806952729f1fc91"
+    },
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_50f8ac13f962b6e20806952729f1fc91"
+    },
+    {
+      "canonical_name": "healthcare professionals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthcare professionals",
+      "chunk_id": "chk_50f8ac13f962b6e20806952729f1fc91"
+    },
+    {
+      "canonical_name": "HCWs",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HCWs",
+      "chunk_id": "chk_50f8ac13f962b6e20806952729f1fc91"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

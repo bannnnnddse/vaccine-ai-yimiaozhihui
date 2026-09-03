@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_accbf11f960afa582b231989e224fb5a",
+  "content_hash": "aaab6f73eb861e5f2224e254dc3086b7413500c1c2e20855c7df14c6e4eee309",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_accbf11f960afa582b231989e224fb5a"
+    },
+    {
+      "canonical_name": "pathogen",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogen",
+      "chunk_id": "chk_accbf11f960afa582b231989e224fb5a"
+    },
+    {
+      "canonical_name": "immunocompromised individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised individuals",
+      "chunk_id": "chk_accbf11f960afa582b231989e224fb5a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

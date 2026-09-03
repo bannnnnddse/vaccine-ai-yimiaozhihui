@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_457c5ad88ca4053d9992fb2768d980ac",
+  "content_hash": "029d47243708f58a807bd0ef45b96b9e5fa1c56aa711a8c7f935d571c331a5e3",
+  "entities": [
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_457c5ad88ca4053d9992fb2768d980ac"
+    },
+    {
+      "canonical_name": "smallpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "smallpox",
+      "chunk_id": "chk_457c5ad88ca4053d9992fb2768d980ac"
+    },
+    {
+      "canonical_name": "polio",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "polio",
+      "chunk_id": "chk_457c5ad88ca4053d9992fb2768d980ac"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_457c5ad88ca4053d9992fb2768d980ac"
+    },
+    {
+      "canonical_name": "invasive pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive pneumococcal disease",
+      "chunk_id": "chk_457c5ad88ca4053d9992fb2768d980ac"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

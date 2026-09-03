@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_2ba006c84cefbd3fa79f1b35f9a20051",
+  "content_hash": "0fd7603708c5609c7d2eff4be38a0ff410318f571d5003c99a5d44b788b303c9",
+  "entities": [
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "chk_2ba006c84cefbd3fa79f1b35f9a20051"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

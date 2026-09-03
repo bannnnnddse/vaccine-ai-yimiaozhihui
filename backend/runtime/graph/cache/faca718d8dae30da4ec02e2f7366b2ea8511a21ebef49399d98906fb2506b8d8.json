@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_925912d54993bd8e278c19c6cd694479",
+  "content_hash": "cf22fba06db45cf4af139b1949be469b4491f380ef1b35f631546291e9b40b74",
+  "entities": [
+    {
+      "canonical_name": "GAS infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "GAS infections",
+      "chunk_id": "chk_925912d54993bd8e278c19c6cd694479"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_925912d54993bd8e278c19c6cd694479"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

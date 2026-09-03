@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_01948248d4b52e0455b3292bc9d1a843",
+  "content_hash": "376b5e876b392a074721165b5794e7959c68766a343e5a7e1cf8b6250eefcd3b",
+  "entities": [
+    {
+      "canonical_name": "herceptin",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "herceptin",
+      "chunk_id": "chk_01948248d4b52e0455b3292bc9d1a843"
+    },
+    {
+      "canonical_name": "MS patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "MS patients",
+      "chunk_id": "chk_01948248d4b52e0455b3292bc9d1a843"
+    },
+    {
+      "canonical_name": "myelin-specific antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "myelin-specific antibodies",
+      "chunk_id": "chk_01948248d4b52e0455b3292bc9d1a843"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_01948248d4b52e0455b3292bc9d1a843"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

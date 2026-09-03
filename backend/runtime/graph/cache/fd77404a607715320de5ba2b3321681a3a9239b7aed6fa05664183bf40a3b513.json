@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_b04030a431e1de92597ad763dd139d6d",
+  "content_hash": "d576164111893f969bf72c63871cf418d92df20a1cf0463d93d42393d998300b",
+  "entities": [
+    {
+      "canonical_name": "generalized seizures",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "generalized seizures",
+      "chunk_id": "chk_b04030a431e1de92597ad763dd139d6d"
+    },
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_b04030a431e1de92597ad763dd139d6d"
+    },
+    {
+      "canonical_name": "homologous schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "homologous schedules",
+      "chunk_id": "chk_b04030a431e1de92597ad763dd139d6d"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_b04030a431e1de92597ad763dd139d6d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

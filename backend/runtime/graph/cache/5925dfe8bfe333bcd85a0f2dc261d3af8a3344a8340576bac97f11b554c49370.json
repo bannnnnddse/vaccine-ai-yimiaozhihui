@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_9e8e0976b7b4de72d69ebbf318a5414e",
+  "content_hash": "1269f072375fb1a7387f3e8c2bc9304f99848e115532a4604d3182d18140ab6e",
+  "entities": [
+    {
+      "canonical_name": "Puumala",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Puumala",
+      "chunk_id": "chk_9e8e0976b7b4de72d69ebbf318a5414e"
+    },
+    {
+      "canonical_name": "Kurkino",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Kurkino",
+      "chunk_id": "chk_9e8e0976b7b4de72d69ebbf318a5414e"
+    },
+    {
+      "canonical_name": "HFRS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFRS",
+      "chunk_id": "chk_9e8e0976b7b4de72d69ebbf318a5414e"
+    },
+    {
+      "canonical_name": "bivalent vaccine against HFRS",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bivalent vaccine against HFRS",
+      "chunk_id": "chk_9e8e0976b7b4de72d69ebbf318a5414e"
+    },
+    {
+      "canonical_name": "polyvalent formalin inactivated HFRS vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "polyvalent formalin inactivated HFRS vaccine",
+      "chunk_id": "chk_9e8e0976b7b4de72d69ebbf318a5414e"
+    },
+    {
+      "canonical_name": "PUUV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "PUUV",
+      "chunk_id": "chk_9e8e0976b7b4de72d69ebbf318a5414e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

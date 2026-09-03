@@ -1,0 +1,40 @@
+{
+  "chunk_id": "a3b4e0a135f821b7171cf865ae4dd8362c561af8df32001ebff6b646f39a33c8",
+  "content_hash": "b8185862acb64b55fc9457a089f52bed20a712c4f29742e9d09ca08fcce7706f",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "a3b4e0a135f821b7171cf865ae4dd8362c561af8df32001ebff6b646f39a33c8"
+    },
+    {
+      "canonical_name": "DTPCV4",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTPCV4",
+      "chunk_id": "a3b4e0a135f821b7171cf865ae4dd8362c561af8df32001ebff6b646f39a33c8"
+    },
+    {
+      "canonical_name": "MCV2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MCV2",
+      "chunk_id": "a3b4e0a135f821b7171cf865ae4dd8362c561af8df32001ebff6b646f39a33c8"
+    },
+    {
+      "canonical_name": "national immunization schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "national immunization schedules",
+      "chunk_id": "a3b4e0a135f821b7171cf865ae4dd8362c561af8df32001ebff6b646f39a33c8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8596bb25721bf2589b321d85388ca8f0",
+  "content_hash": "0b49c75eac98511095b265212ad7119dff07178350b18147f874b25872d33d32",
+  "entities": [
+    {
+      "canonical_name": "FcgammaRIIb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "FcgammaRIIb",
+      "chunk_id": "chk_8596bb25721bf2589b321d85388ca8f0"
+    },
+    {
+      "canonical_name": "bone marrow plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "bone marrow plasma cells",
+      "chunk_id": "chk_8596bb25721bf2589b321d85388ca8f0"
+    },
+    {
+      "canonical_name": "mouse bone marrow plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mouse bone marrow plasma cells",
+      "chunk_id": "chk_8596bb25721bf2589b321d85388ca8f0"
+    },
+    {
+      "canonical_name": "human memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human memory B cells",
+      "chunk_id": "chk_8596bb25721bf2589b321d85388ca8f0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

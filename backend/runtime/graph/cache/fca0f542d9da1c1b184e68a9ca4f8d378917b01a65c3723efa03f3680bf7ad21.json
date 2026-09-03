@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_a657bd6156d0691a6d23ea47d4a1a801",
+  "content_hash": "a90066c7e63387a9e4c2e1da62cd2209ddc378eb2be1f29200e65b7e97be3c8f",
+  "entities": [
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_a657bd6156d0691a6d23ea47d4a1a801"
+    },
+    {
+      "canonical_name": "pericarditis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pericarditis",
+      "chunk_id": "chk_a657bd6156d0691a6d23ea47d4a1a801"
+    },
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_a657bd6156d0691a6d23ea47d4a1a801"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

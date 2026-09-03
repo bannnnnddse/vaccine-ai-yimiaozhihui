@@ -1,0 +1,55 @@
+{
+  "chunk_id": "chk_bed5d250ec9803fd4bc2c8b62b3abc34",
+  "content_hash": "489dd8e0dad4e0ccd02fd47961cf435a9036ab6a8de59127d9b24feca4fc0e99",
+  "entities": [
+    {
+      "canonical_name": "脊髓灰质炎疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "脊髓灰质炎疫苗",
+      "chunk_id": "chk_bed5d250ec9803fd4bc2c8b62b3abc34"
+    },
+    {
+      "canonical_name": "脊灰",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "脊灰",
+      "chunk_id": "chk_bed5d250ec9803fd4bc2c8b62b3abc34"
+    },
+    {
+      "canonical_name": "脊灰灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "脊灰灭活疫苗",
+      "chunk_id": "chk_bed5d250ec9803fd4bc2c8b62b3abc34"
+    },
+    {
+      "canonical_name": "IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IPV",
+      "chunk_id": "chk_bed5d250ec9803fd4bc2c8b62b3abc34"
+    },
+    {
+      "canonical_name": "bOPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bOPV",
+      "chunk_id": "chk_bed5d250ec9803fd4bc2c8b62b3abc34"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_bed5d250ec9803fd4bc2c8b62b3abc34"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

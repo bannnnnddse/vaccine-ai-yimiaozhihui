@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_607c813487edf5b2b0a51e40d284ed6b",
+  "content_hash": "8e54a36a768bdf7981df0730d62c8f6b0d1159e7704a7b91dfae6b950c938f0b",
+  "entities": [
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_607c813487edf5b2b0a51e40d284ed6b"
+    },
+    {
+      "canonical_name": "sexually transmitted diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "sexually transmitted diseases",
+      "chunk_id": "chk_607c813487edf5b2b0a51e40d284ed6b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

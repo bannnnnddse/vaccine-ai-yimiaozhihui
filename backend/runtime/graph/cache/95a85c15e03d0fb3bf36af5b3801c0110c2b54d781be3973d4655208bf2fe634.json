@@ -1,0 +1,59 @@
+{
+  "chunk_id": "chk_7d5b0f63681e75417a7c525aadd3c057",
+  "content_hash": "3dea41ee65525e987718483a92fd5b5c102f2e2d1def07a199d772fb7793deba",
+  "entities": [
+    {
+      "canonical_name": "CD4(+) T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4(+) T cells",
+      "chunk_id": "chk_7d5b0f63681e75417a7c525aadd3c057"
+    },
+    {
+      "canonical_name": "humoral and cellular immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral and cellular immunity",
+      "chunk_id": "chk_7d5b0f63681e75417a7c525aadd3c057"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 mRNA vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 mRNA vaccination",
+      "chunk_id": "chk_7d5b0f63681e75417a7c525aadd3c057"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 mRNA vaccines",
+      "chunk_id": "chk_7d5b0f63681e75417a7c525aadd3c057"
+    },
+    {
+      "canonical_name": "CD4+ T cell responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4+ T cell responses",
+      "chunk_id": "chk_7d5b0f63681e75417a7c525aadd3c057"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 variants",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 variants",
+      "chunk_id": "chk_7d5b0f63681e75417a7c525aadd3c057"
+    },
+    {
+      "canonical_name": "HCoV-NL63",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HCoV-NL63",
+      "chunk_id": "chk_7d5b0f63681e75417a7c525aadd3c057"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

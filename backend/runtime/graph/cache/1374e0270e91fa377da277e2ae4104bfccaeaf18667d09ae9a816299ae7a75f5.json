@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_badc0db1a2267cb914e907f3ab23d326",
+  "content_hash": "c04d06e0faec3eb0d7d726122fe22d76f47a7b5fab9726293fffd9b8bd2e4c2a",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "HPV vaccination",
+      "chunk_id": "chk_badc0db1a2267cb914e907f3ab23d326"
+    },
+    {
+      "canonical_name": "Danish girls",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Danish girls",
+      "chunk_id": "chk_badc0db1a2267cb914e907f3ab23d326"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_badc0db1a2267cb914e907f3ab23d326"
+    },
+    {
+      "canonical_name": "human papillomavirus (HPV)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomavirus (HPV)",
+      "chunk_id": "chk_badc0db1a2267cb914e907f3ab23d326"
+    },
+    {
+      "canonical_name": "human papillomavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccine",
+      "chunk_id": "chk_badc0db1a2267cb914e907f3ab23d326"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

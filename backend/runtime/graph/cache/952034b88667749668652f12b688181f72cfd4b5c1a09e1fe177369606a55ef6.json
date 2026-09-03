@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_afaded524b7541bf623191f816718f4a",
+  "content_hash": "c9270379d7e28f8d09739d93e4ebaa0af850a1230c8ad8bc597196360de6b79f",
+  "entities": [
+    {
+      "canonical_name": "Covid‐19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Covid‐19",
+      "chunk_id": "chk_afaded524b7541bf623191f816718f4a"
+    },
+    {
+      "canonical_name": "COVID ‐ 19 Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID ‐ 19 Vaccine",
+      "chunk_id": "chk_afaded524b7541bf623191f816718f4a"
+    },
+    {
+      "canonical_name": "Parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Parents",
+      "chunk_id": "chk_afaded524b7541bf623191f816718f4a"
+    },
+    {
+      "canonical_name": "Guardians",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Guardians",
+      "chunk_id": "chk_afaded524b7541bf623191f816718f4a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

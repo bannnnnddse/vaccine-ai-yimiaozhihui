@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_408595f598dafcacd38bf0bf8b71daf0",
+  "content_hash": "4d36faaf025ffc3c053ed4ff3b2592c1ec4b47352265b826c540359892e20721",
+  "entities": [
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_408595f598dafcacd38bf0bf8b71daf0"
+    },
+    {
+      "canonical_name": "PC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PC",
+      "chunk_id": "chk_408595f598dafcacd38bf0bf8b71daf0"
+    },
+    {
+      "canonical_name": "GC B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GC B cell",
+      "chunk_id": "chk_408595f598dafcacd38bf0bf8b71daf0"
+    },
+    {
+      "canonical_name": "Bmem",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Bmem",
+      "chunk_id": "chk_408595f598dafcacd38bf0bf8b71daf0"
+    },
+    {
+      "canonical_name": "BCR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "BCR",
+      "chunk_id": "chk_408595f598dafcacd38bf0bf8b71daf0"
+    },
+    {
+      "canonical_name": "co-receptors",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "co-receptors",
+      "chunk_id": "chk_408595f598dafcacd38bf0bf8b71daf0"
+    },
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_408595f598dafcacd38bf0bf8b71daf0"
+    },
+    {
+      "canonical_name": "antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen",
+      "chunk_id": "chk_408595f598dafcacd38bf0bf8b71daf0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

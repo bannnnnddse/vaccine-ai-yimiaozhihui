@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_a2c48dce3494df320b3b1d8357758cdf",
+  "content_hash": "1edf0143ae10a62d65f25e1f88d322c07499d1c9823b7a1dd600d887952edd9d",
+  "entities": [
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_a2c48dce3494df320b3b1d8357758cdf"
+    },
+    {
+      "canonical_name": "HAV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HAV",
+      "chunk_id": "chk_a2c48dce3494df320b3b1d8357758cdf"
+    },
+    {
+      "canonical_name": "acute hepatitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute hepatitis",
+      "chunk_id": "chk_a2c48dce3494df320b3b1d8357758cdf"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "low_confidence"
+  ]
+}

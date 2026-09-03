@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_141bff018e887a4fd9757263ce62ba0c",
+  "content_hash": "2cb664f050ab2b015f7a295a56e8d965a675edf1c64a5f6454bec09288b7328c",
+  "entities": [
+    {
+      "canonical_name": "含麻疹成分疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "含麻疹成分疫苗",
+      "chunk_id": "chk_141bff018e887a4fd9757263ce62ba0c"
+    },
+    {
+      "canonical_name": "免疫程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "免疫程序",
+      "chunk_id": "chk_141bff018e887a4fd9757263ce62ba0c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_target_not_supported_by_cue"
+  ]
+}

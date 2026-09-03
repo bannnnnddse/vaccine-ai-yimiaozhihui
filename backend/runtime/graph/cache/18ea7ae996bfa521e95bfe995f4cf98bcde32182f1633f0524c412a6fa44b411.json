@@ -1,0 +1,64 @@
+{
+  "chunk_id": "1fb15b40bb62ef67d2315c9d532a81d31388dd70860628f1b491f134293ac402",
+  "content_hash": "9fdb6f607bdbbe30f00546eda11e43160d722449fd6331631da2d611a69b8a37",
+  "entities": [
+    {
+      "canonical_name": "CD11c + CD11b − CD8α + DCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD11c + CD11b − CD8α + DCs",
+      "chunk_id": "1fb15b40bb62ef67d2315c9d532a81d31388dd70860628f1b491f134293ac402"
+    },
+    {
+      "canonical_name": "CD8 + T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD8 + T cells",
+      "chunk_id": "1fb15b40bb62ef67d2315c9d532a81d31388dd70860628f1b491f134293ac402"
+    },
+    {
+      "canonical_name": "TH1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TH1",
+      "chunk_id": "1fb15b40bb62ef67d2315c9d532a81d31388dd70860628f1b491f134293ac402"
+    },
+    {
+      "canonical_name": "TH2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TH2",
+      "chunk_id": "1fb15b40bb62ef67d2315c9d532a81d31388dd70860628f1b491f134293ac402"
+    },
+    {
+      "canonical_name": "CD11c + CD8α + DCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD11c + CD8α + DCs",
+      "chunk_id": "1fb15b40bb62ef67d2315c9d532a81d31388dd70860628f1b491f134293ac402"
+    },
+    {
+      "canonical_name": "CD11c + CD11b + migrating dermal DCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD11c + CD11b + migrating dermal DCs",
+      "chunk_id": "1fb15b40bb62ef67d2315c9d532a81d31388dd70860628f1b491f134293ac402"
+    },
+    {
+      "canonical_name": "CD4 + T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4 + T cells",
+      "chunk_id": "1fb15b40bb62ef67d2315c9d532a81d31388dd70860628f1b491f134293ac402"
+    },
+    {
+      "canonical_name": "DC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DC",
+      "chunk_id": "1fb15b40bb62ef67d2315c9d532a81d31388dd70860628f1b491f134293ac402"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

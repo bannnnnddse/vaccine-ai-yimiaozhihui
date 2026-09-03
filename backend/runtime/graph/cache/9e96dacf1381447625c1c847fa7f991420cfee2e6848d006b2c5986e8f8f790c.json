@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_9ed519ea49c80055610f907f50e024e1",
+  "content_hash": "3509d77e5624d4a92b8890b71fd99642792250e4fc741f01655b6ecece58e60d",
+  "entities": [
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_9ed519ea49c80055610f907f50e024e1"
+    },
+    {
+      "canonical_name": "Human papilloma virus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Human papilloma virus",
+      "chunk_id": "chk_9ed519ea49c80055610f907f50e024e1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

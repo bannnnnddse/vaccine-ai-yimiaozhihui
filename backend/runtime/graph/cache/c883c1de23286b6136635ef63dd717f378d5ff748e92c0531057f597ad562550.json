@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_29d4cc5cf5d08d30e3b19d48b05a5f88",
+  "content_hash": "7cd8d58c0489cb0c3e6571d881d8a700dd87df0f9955bb3441032f6fc4e5b265",
+  "entities": [
+    {
+      "canonical_name": "ChAdOx1 nCoV -19 vac ‐ cine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1 nCoV -19 vac ‑ cine",
+      "chunk_id": "chk_29d4cc5cf5d08d30e3b19d48b05a5f88"
+    },
+    {
+      "canonical_name": "ChAdOx1 nCoV -19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1 nCoV -19 vaccine",
+      "chunk_id": "chk_29d4cc5cf5d08d30e3b19d48b05a5f88"
+    },
+    {
+      "canonical_name": "SARS -CoV -2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2",
+      "chunk_id": "chk_29d4cc5cf5d08d30e3b19d48b05a5f88"
+    },
+    {
+      "canonical_name": "young and old adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young and old adults",
+      "chunk_id": "chk_29d4cc5cf5d08d30e3b19d48b05a5f88"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

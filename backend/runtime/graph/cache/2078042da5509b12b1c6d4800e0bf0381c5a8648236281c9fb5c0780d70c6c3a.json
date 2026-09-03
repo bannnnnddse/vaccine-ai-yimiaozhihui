@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c668ada6a6b3c725bb8b7c2327f72ec1",
+  "content_hash": "fbc9ac49cc7eb57601bd63f1adf03cb1a88c06db8683910dd0b8947ace4680fa",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccine",
+      "chunk_id": "chk_c668ada6a6b3c725bb8b7c2327f72ec1"
+    },
+    {
+      "canonical_name": "A(H3N2) virus strain",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "A(H3N2) virus strain",
+      "chunk_id": "chk_c668ada6a6b3c725bb8b7c2327f72ec1"
+    },
+    {
+      "canonical_name": "elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly",
+      "chunk_id": "chk_c668ada6a6b3c725bb8b7c2327f72ec1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

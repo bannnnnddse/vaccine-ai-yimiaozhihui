@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_afbd63e0ae876493dbd9b621d3bcba8d",
+  "content_hash": "baedd1b5e5540c204ec6337b958da4ecf879f0c2a2dfa0679ed9126aca8dcfef",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_afbd63e0ae876493dbd9b621d3bcba8d"
+    },
+    {
+      "canonical_name": "side effects",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "side effects",
+      "chunk_id": "chk_afbd63e0ae876493dbd9b621d3bcba8d"
+    },
+    {
+      "canonical_name": "Bionic nanoparticle vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Bionic nanoparticle vaccines",
+      "chunk_id": "chk_afbd63e0ae876493dbd9b621d3bcba8d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

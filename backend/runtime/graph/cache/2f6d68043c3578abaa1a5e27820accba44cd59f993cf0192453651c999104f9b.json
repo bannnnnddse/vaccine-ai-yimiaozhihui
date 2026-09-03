@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_3c292640a75d14b6b9754b5beb2171b7",
+  "content_hash": "8893e9a87dfb5b698409771e59f2acfcc6012f039bf726df705f14e822352f59",
+  "entities": [
+    {
+      "canonical_name": "百白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "百白破疫苗",
+      "chunk_id": "chk_3c292640a75d14b6b9754b5beb2171b7"
+    },
+    {
+      "canonical_name": "白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "白破疫苗",
+      "chunk_id": "chk_3c292640a75d14b6b9754b5beb2171b7"
+    },
+    {
+      "canonical_name": "适龄儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "适龄儿童",
+      "chunk_id": "chk_3c292640a75d14b6b9754b5beb2171b7"
+    },
+    {
+      "canonical_name": "6 周岁及以下儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "6 周岁及以下儿童",
+      "chunk_id": "chk_3c292640a75d14b6b9754b5beb2171b7"
+    },
+    {
+      "canonical_name": "7 周岁~11 周岁儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "7 周岁～11 周岁儿童",
+      "chunk_id": "chk_3c292640a75d14b6b9754b5beb2171b7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

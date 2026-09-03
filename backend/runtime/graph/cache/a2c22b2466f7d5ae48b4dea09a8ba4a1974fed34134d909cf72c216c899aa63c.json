@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_a689e498ab6bc71fd2341837d6b1a82b",
+  "content_hash": "1d665869e4864682421cb19ceced493500f5b0e8cb1fda051265b6e458871ae0",
+  "entities": [
+    {
+      "canonical_name": "pTVG-HP",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pTVG-HP",
+      "chunk_id": "chk_a689e498ab6bc71fd2341837d6b1a82b"
+    },
+    {
+      "canonical_name": "PAP-specific CD8 + T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PAP-specific CD8 + T-cell",
+      "chunk_id": "chk_a689e498ab6bc71fd2341837d6b1a82b"
+    },
+    {
+      "canonical_name": "prostate cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "prostate cancer",
+      "chunk_id": "chk_a689e498ab6bc71fd2341837d6b1a82b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

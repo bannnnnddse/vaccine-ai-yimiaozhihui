@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8c5764cc1736cfcd7e6e2b388869a43b",
+  "content_hash": "069a6c62f42a9122621be4013eaa0c754ea79632df6ff8c778166cf4485ce1b7",
+  "entities": [
+    {
+      "canonical_name": "hepatobiliary cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatobiliary cancer",
+      "chunk_id": "chk_8c5764cc1736cfcd7e6e2b388869a43b"
+    },
+    {
+      "canonical_name": "liver transplant recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "liver transplant recipients",
+      "chunk_id": "chk_8c5764cc1736cfcd7e6e2b388869a43b"
+    },
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_8c5764cc1736cfcd7e6e2b388869a43b"
+    },
+    {
+      "canonical_name": "chronic liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic liver disease",
+      "chunk_id": "chk_8c5764cc1736cfcd7e6e2b388869a43b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

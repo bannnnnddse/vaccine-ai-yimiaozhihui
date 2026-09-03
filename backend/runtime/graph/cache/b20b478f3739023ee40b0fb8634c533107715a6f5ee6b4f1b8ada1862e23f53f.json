@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_51bba891a9abdcece663e567bb613010",
+  "content_hash": "e333c47351c7c368c0720032993df571fad3d507afa9c38d26c3142fe55f806c",
+  "entities": [
+    {
+      "canonical_name": "hepatitis C virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis C virus",
+      "chunk_id": "chk_51bba891a9abdcece663e567bb613010"
+    },
+    {
+      "canonical_name": "hepatitis C virus preventive vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis C virus preventive vaccine",
+      "chunk_id": "chk_51bba891a9abdcece663e567bb613010"
+    },
+    {
+      "canonical_name": "hepatitis E vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis E vaccines",
+      "chunk_id": "chk_51bba891a9abdcece663e567bb613010"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

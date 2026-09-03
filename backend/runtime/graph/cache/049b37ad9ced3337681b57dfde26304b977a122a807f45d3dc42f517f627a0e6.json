@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_4ad5471b1eb22b175a90b9dbc3409e7b",
+  "content_hash": "6c2cd0904784d816b0af2345f297c56269fb23a6bf4b23601bd38993e8f3ef40",
+  "entities": [
+    {
+      "canonical_name": "secondary immunodeficiencies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "secondary immunodeficiencies",
+      "chunk_id": "chk_4ad5471b1eb22b175a90b9dbc3409e7b"
+    },
+    {
+      "canonical_name": "human immunodeficiency virus (HIV) infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "human immunodeficiency virus (HIV) infection",
+      "chunk_id": "chk_4ad5471b1eb22b175a90b9dbc3409e7b"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_4ad5471b1eb22b175a90b9dbc3409e7b"
+    },
+    {
+      "canonical_name": "asplenia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "asplenia",
+      "chunk_id": "chk_4ad5471b1eb22b175a90b9dbc3409e7b"
+    },
+    {
+      "canonical_name": "sickle cell disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "sickle cell disease",
+      "chunk_id": "chk_4ad5471b1eb22b175a90b9dbc3409e7b"
+    },
+    {
+      "canonical_name": "autoimmune inflammatory diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune inflammatory diseases",
+      "chunk_id": "chk_4ad5471b1eb22b175a90b9dbc3409e7b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_b4955ceed780765151d94e471564756e",
+  "content_hash": "4726297782e492f361248fd2bf95bd14152f34dcb9ddf6e574ac42954a342978",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal vaccines",
+      "chunk_id": "chk_b4955ceed780765151d94e471564756e"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_b4955ceed780765151d94e471564756e"
+    },
+    {
+      "canonical_name": "20-valent conjugate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "20-valent conjugate vaccines",
+      "chunk_id": "chk_b4955ceed780765151d94e471564756e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

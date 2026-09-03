@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_a433931d95dd6ed05a96858add5c6ba5",
+  "content_hash": "3142c306ac23e32eaf924a23f5182e107262fd88a619f80d9cb5f2e115d6e258",
+  "entities": [
+    {
+      "canonical_name": "narcolepsy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "narcolepsy",
+      "chunk_id": "chk_a433931d95dd6ed05a96858add5c6ba5"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_a433931d95dd6ed05a96858add5c6ba5"
+    },
+    {
+      "canonical_name": "adjuvant",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "adjuvant",
+      "chunk_id": "chk_a433931d95dd6ed05a96858add5c6ba5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

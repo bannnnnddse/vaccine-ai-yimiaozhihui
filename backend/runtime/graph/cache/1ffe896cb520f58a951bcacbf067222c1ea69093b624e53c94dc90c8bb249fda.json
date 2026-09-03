@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_df5eca10b695239aa6f6de2df29512cd",
+  "content_hash": "d0f1e843a2b9586bdb969395fe93294bb3a93932c1666bfd17b1ea27e381e062",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_df5eca10b695239aa6f6de2df29512cd"
+    },
+    {
+      "canonical_name": "Chinese, Korean, and Vietnamese Americans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Chinese, Korean, and Vietnamese Americans",
+      "chunk_id": "chk_df5eca10b695239aa6f6de2df29512cd"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_df5eca10b695239aa6f6de2df29512cd"
+    },
+    {
+      "canonical_name": "young Latinos",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young Latinos",
+      "chunk_id": "chk_df5eca10b695239aa6f6de2df29512cd"
+    },
+    {
+      "canonical_name": "Korean American college women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Korean American college women",
+      "chunk_id": "chk_df5eca10b695239aa6f6de2df29512cd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

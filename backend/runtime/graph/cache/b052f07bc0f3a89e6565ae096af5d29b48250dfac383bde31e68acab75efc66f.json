@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_73c5a7d329655b4963a7d018e35d940c",
+  "content_hash": "63e8abc5070f3551c5795970406029f45e063968b62b9828cddebb1ce1952f30",
+  "entities": [
+    {
+      "canonical_name": "invasive pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive pneumococcal disease",
+      "chunk_id": "chk_73c5a7d329655b4963a7d018e35d940c"
+    },
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "chk_73c5a7d329655b4963a7d018e35d940c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

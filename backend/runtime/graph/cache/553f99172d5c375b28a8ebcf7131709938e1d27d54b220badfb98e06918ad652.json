@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_24496bf8aa0d343366ce54dbd477b563",
+  "content_hash": "c6b0af3e3aae03da6f18fe085f91c97f5922a8f84e437072274bd5ce56c27753",
+  "entities": [
+    {
+      "canonical_name": "HBV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBV vaccination",
+      "chunk_id": "chk_24496bf8aa0d343366ce54dbd477b563"
+    },
+    {
+      "canonical_name": "ti-HBs antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ti-HBs antibody",
+      "chunk_id": "chk_24496bf8aa0d343366ce54dbd477b563"
+    },
+    {
+      "canonical_name": "HBV-specific antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HBV-specific antibody",
+      "chunk_id": "chk_24496bf8aa0d343366ce54dbd477b563"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "unknown_endpoint"
+  ]
+}

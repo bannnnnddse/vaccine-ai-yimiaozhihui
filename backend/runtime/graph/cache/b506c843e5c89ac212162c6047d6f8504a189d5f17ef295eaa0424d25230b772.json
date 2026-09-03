@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_847b93e07a257a8ec9a903fa79903ebb",
+  "content_hash": "39567dda273321dbd8214758c82c5fed08a64e8c03c98a243771ca5e56f352f5",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal immunization",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal immunization",
+      "chunk_id": "chk_847b93e07a257a8ec9a903fa79903ebb"
+    },
+    {
+      "canonical_name": "working -age, at-risk adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "working -age, at-risk adults",
+      "chunk_id": "chk_847b93e07a257a8ec9a903fa79903ebb"
+    },
+    {
+      "canonical_name": "immunization services",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "immunization services",
+      "chunk_id": "chk_847b93e07a257a8ec9a903fa79903ebb"
+    },
+    {
+      "canonical_name": "underserved minority patient populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "underserved minority patient populations",
+      "chunk_id": "chk_847b93e07a257a8ec9a903fa79903ebb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

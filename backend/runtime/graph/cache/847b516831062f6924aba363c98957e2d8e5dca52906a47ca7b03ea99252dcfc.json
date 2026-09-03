@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_5b4f5e2f8d2aa245f62b57abd43b2fe0",
+  "content_hash": "3d04be98b95371a41fdacb675ab0d266ca44b476b4d59801499b6bfd476df2b7",
+  "entities": [
+    {
+      "canonical_name": "MMR vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR vaccine",
+      "chunk_id": "chk_5b4f5e2f8d2aa245f62b57abd43b2fe0"
+    },
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_5b4f5e2f8d2aa245f62b57abd43b2fe0"
+    },
+    {
+      "canonical_name": "HPV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccination",
+      "chunk_id": "chk_5b4f5e2f8d2aa245f62b57abd43b2fe0"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_5b4f5e2f8d2aa245f62b57abd43b2fe0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "9c4680dcf7b74e276879af7418f8d387022f84b48d611dae5c172d7e72223b5e",
+  "content_hash": "f0968c0a09318bf8700616065dec3227d0d7541e8c78fef45152006723129250",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "9c4680dcf7b74e276879af7418f8d387022f84b48d611dae5c172d7e72223b5e"
+    },
+    {
+      "canonical_name": "primary hepatocellular carcinoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "primary hepatocellular carcinoma",
+      "chunk_id": "9c4680dcf7b74e276879af7418f8d387022f84b48d611dae5c172d7e72223b5e"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "9c4680dcf7b74e276879af7418f8d387022f84b48d611dae5c172d7e72223b5e"
+    },
+    {
+      "canonical_name": "AIDS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "AIDS",
+      "chunk_id": "9c4680dcf7b74e276879af7418f8d387022f84b48d611dae5c172d7e72223b5e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

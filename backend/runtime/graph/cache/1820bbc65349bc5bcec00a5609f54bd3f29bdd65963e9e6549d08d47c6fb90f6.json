@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_e96e93384b7f04b3d566dcc507134dd1",
+  "content_hash": "bc3b202b6fb308c8972ed525a3e671771107833ed896b8f456076d4ecfc110ab",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_e96e93384b7f04b3d566dcc507134dd1"
+    },
+    {
+      "canonical_name": "daughters",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "daughters",
+      "chunk_id": "chk_e96e93384b7f04b3d566dcc507134dd1"
+    },
+    {
+      "canonical_name": "mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mothers",
+      "chunk_id": "chk_e96e93384b7f04b3d566dcc507134dd1"
+    },
+    {
+      "canonical_name": "the vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "the vaccine",
+      "chunk_id": "chk_e96e93384b7f04b3d566dcc507134dd1"
+    },
+    {
+      "canonical_name": "HPV vaccination programme",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "HPV vaccination programme",
+      "chunk_id": "chk_e96e93384b7f04b3d566dcc507134dd1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

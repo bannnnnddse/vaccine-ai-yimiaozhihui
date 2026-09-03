@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_3d36a9fe05db1d9fb10d88002cec00ac",
+  "content_hash": "d15440a237ba6900e014611ac26279471b800e7ae8d67f9b280f5481cd074265",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_3d36a9fe05db1d9fb10d88002cec00ac"
+    },
+    {
+      "canonical_name": "epitopes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "epitopes",
+      "chunk_id": "chk_3d36a9fe05db1d9fb10d88002cec00ac"
+    },
+    {
+      "canonical_name": "antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigens",
+      "chunk_id": "chk_3d36a9fe05db1d9fb10d88002cec00ac"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_3d36a9fe05db1d9fb10d88002cec00ac"
+    },
+    {
+      "canonical_name": "immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunity",
+      "chunk_id": "chk_3d36a9fe05db1d9fb10d88002cec00ac"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

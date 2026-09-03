@@ -1,0 +1,57 @@
+{
+  "chunk_id": "986d560b9cb86ac2d8ef1ea3769860954c8eec01cb30152c2dddf02379edbfeb",
+  "content_hash": "55d6925e4bf20b9e8afc8f9f814905174883856bfbf467b65b857825fd083e85",
+  "entities": [
+    {
+      "canonical_name": "wheezing",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "wheezing",
+      "chunk_id": "986d560b9cb86ac2d8ef1ea3769860954c8eec01cb30152c2dddf02379edbfeb"
+    },
+    {
+      "canonical_name": "asthma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "asthma",
+      "chunk_id": "986d560b9cb86ac2d8ef1ea3769860954c8eec01cb30152c2dddf02379edbfeb"
+    },
+    {
+      "canonical_name": "chronic kidney disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic kidney disease",
+      "chunk_id": "986d560b9cb86ac2d8ef1ea3769860954c8eec01cb30152c2dddf02379edbfeb"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "986d560b9cb86ac2d8ef1ea3769860954c8eec01cb30152c2dddf02379edbfeb"
+    },
+    {
+      "canonical_name": "MMRV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV",
+      "chunk_id": "986d560b9cb86ac2d8ef1ea3769860954c8eec01cb30152c2dddf02379edbfeb"
+    },
+    {
+      "canonical_name": "MMRV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV vaccine",
+      "chunk_id": "986d560b9cb86ac2d8ef1ea3769860954c8eec01cb30152c2dddf02379edbfeb"
+    },
+    {
+      "canonical_name": "epilepsy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "epilepsy",
+      "chunk_id": "986d560b9cb86ac2d8ef1ea3769860954c8eec01cb30152c2dddf02379edbfeb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

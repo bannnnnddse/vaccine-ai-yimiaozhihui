@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_c5db0cb7280141b96d920cc82e701492",
+  "content_hash": "fe77c622cc1ad9df6bbcdbe61ab8bf592140649578b6d4cd89744e2c0210f923",
+  "entities": [
+    {
+      "canonical_name": "autoimmune diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune diseases",
+      "chunk_id": "chk_c5db0cb7280141b96d920cc82e701492"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_c5db0cb7280141b96d920cc82e701492"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

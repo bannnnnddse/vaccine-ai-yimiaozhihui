@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_994c44d105e71eb5f0e20dd7ee31b657",
+  "content_hash": "93618be4e07f545a874d7e4e6c87399772715c44e0860841fc3828d85595428b",
+  "entities": [
+    {
+      "canonical_name": "Hsp65 protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Hsp65 protein",
+      "chunk_id": "chk_994c44d105e71eb5f0e20dd7ee31b657"
+    },
+    {
+      "canonical_name": "Mycobacterium leprae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Mycobacterium leprae",
+      "chunk_id": "chk_994c44d105e71eb5f0e20dd7ee31b657"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_994c44d105e71eb5f0e20dd7ee31b657"
+    },
+    {
+      "canonical_name": "mRNA-Hsp65",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-Hsp65",
+      "chunk_id": "chk_994c44d105e71eb5f0e20dd7ee31b657"
+    },
+    {
+      "canonical_name": "TB",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TB",
+      "chunk_id": "chk_994c44d105e71eb5f0e20dd7ee31b657"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

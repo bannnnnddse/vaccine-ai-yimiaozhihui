@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_7c0452255c983a03a2f8dc0aff85a034",
+  "content_hash": "8daeecaaca903d326970084ad099b728df33407109b7fc00faa893d8a8753864",
+  "entities": [
+    {
+      "canonical_name": "candidate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "candidate vaccines",
+      "chunk_id": "chk_7c0452255c983a03a2f8dc0aff85a034"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_7c0452255c983a03a2f8dc0aff85a034"
+    },
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "chk_7c0452255c983a03a2f8dc0aff85a034"
+    },
+    {
+      "canonical_name": "G9P(10) rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "G9P(10) rotavirus",
+      "chunk_id": "chk_7c0452255c983a03a2f8dc0aff85a034"
+    },
+    {
+      "canonical_name": "strain 116E",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "strain 116E",
+      "chunk_id": "chk_7c0452255c983a03a2f8dc0aff85a034"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

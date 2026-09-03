@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_9f565c97c1059c9c0ec8d2e282bbdfd7",
+  "content_hash": "c8bfd48adf679b3e50bc0e96bf7a529f7c7b730bc22b24c1615f3d847f760421",
+  "entities": [
+    {
+      "canonical_name": "Omicron (BA.1)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron (BA.1)",
+      "chunk_id": "chk_9f565c97c1059c9c0ec8d2e282bbdfd7"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_9f565c97c1059c9c0ec8d2e282bbdfd7"
+    },
+    {
+      "canonical_name": "SARSCoV-2 omicron-B.1.1.529 variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2 omicron-B.1.1.529 variant",
+      "chunk_id": "chk_9f565c97c1059c9c0ec8d2e282bbdfd7"
+    },
+    {
+      "canonical_name": "pango b",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pango b",
+      "chunk_id": "chk_9f565c97c1059c9c0ec8d2e282bbdfd7"
+    },
+    {
+      "canonical_name": "delta variants strains",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "delta variants strains",
+      "chunk_id": "chk_9f565c97c1059c9c0ec8d2e282bbdfd7"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_9f565c97c1059c9c0ec8d2e282bbdfd7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

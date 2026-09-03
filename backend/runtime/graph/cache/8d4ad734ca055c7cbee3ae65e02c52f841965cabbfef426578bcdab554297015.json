@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_a380052a1befde29bab41cafc0e269ea",
+  "content_hash": "a6ea1e7036bc3190d1c9b5c5c1435e15e81f16b74d0ca02ef94bb07165e1e3bb",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_a380052a1befde29bab41cafc0e269ea"
+    },
+    {
+      "canonical_name": "Human papillomavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Human papillomavirus",
+      "chunk_id": "chk_a380052a1befde29bab41cafc0e269ea"
+    },
+    {
+      "canonical_name": "MSM",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "MSM",
+      "chunk_id": "chk_a380052a1befde29bab41cafc0e269ea"
+    },
+    {
+      "canonical_name": "Men who have sex with men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Men who have sex with men",
+      "chunk_id": "chk_a380052a1befde29bab41cafc0e269ea"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,30 @@
+{
+  "chunk_id": "chk_024a329bfec2dbe3d7c1e92b2af93d8e",
+  "content_hash": "841c31fa8d13682ba0277453d5e5a2cda30dbc9e947be26abe057dda05154d7f",
+  "entities": [
+    {
+      "canonical_name": "HPV16",
+      "entity_type": "Pathogen",
+      "aliases": [
+        "HPV 16",
+        "HPV-16",
+        "HPV16"
+      ],
+      "surface_form": "HPV16",
+      "chunk_id": "chk_024a329bfec2dbe3d7c1e92b2af93d8e"
+    },
+    {
+      "canonical_name": "HPV18",
+      "entity_type": "Pathogen",
+      "aliases": [
+        "HPV 18",
+        "HPV-18",
+        "HPV18"
+      ],
+      "surface_form": "HPV18",
+      "chunk_id": "chk_024a329bfec2dbe3d7c1e92b2af93d8e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

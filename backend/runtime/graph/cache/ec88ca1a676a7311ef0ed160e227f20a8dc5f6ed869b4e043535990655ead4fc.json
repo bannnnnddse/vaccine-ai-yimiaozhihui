@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc",
+  "content_hash": "2037789f9df194928857fa07a95bb36cb7f69e7af1433f4a5048479346fc168d",
+  "entities": [
+    {
+      "canonical_name": "Pyrexia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Pyrexia",
+      "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc"
+    },
+    {
+      "canonical_name": "Suspected chorioamnionitis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Suspected chorioamnionitis",
+      "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc"
+    },
+    {
+      "canonical_name": "Placental abruption",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Placental abruption",
+      "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc"
+    },
+    {
+      "canonical_name": "Postpartum hemorrhage",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Postpartum hemorrhage",
+      "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc"
+    },
+    {
+      "canonical_name": "Small for gestational age at birth",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Small for gestational age at birth",
+      "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc"
+    },
+    {
+      "canonical_name": "Fetal abnormalities",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Fetal abnormalities",
+      "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc"
+    },
+    {
+      "canonical_name": "Stillbirth",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Stillbirth",
+      "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc"
+    },
+    {
+      "canonical_name": "High-dependency unit admission",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "High-dependency unit admission",
+      "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc"
+    },
+    {
+      "canonical_name": "Neonatal intensive care unit admission",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Neonatal intensive care unit admission",
+      "chunk_id": "chk_f7eb0b0fc8ff74c3e3612a868b2d9cfc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

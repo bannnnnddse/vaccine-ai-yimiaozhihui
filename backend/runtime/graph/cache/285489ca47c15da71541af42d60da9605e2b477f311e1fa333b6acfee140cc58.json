@@ -1,0 +1,134 @@
+{
+  "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1",
+  "content_hash": "6968a972429998578de64eb9e6d3d7ace01b12b3f8b1ed6281c4177abb7d013a",
+  "entities": [
+    {
+      "canonical_name": "HepB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "新生儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "新生儿",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "婴儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "婴儿",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "HBsAg",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HBsAg",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "乙肝病毒表面抗体",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "乙肝病毒表面抗体",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "抗 — HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "抗 — HBs",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "危重症新生儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "危重症新生儿",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "极低出生体重儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "极低出生体重儿",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "第 1 剂 HepB",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "第 1 剂 HepB",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "3 剂次 HepB 接种",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "3 剂次 HepB 接种",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    },
+    {
+      "canonical_name": "出生时接种 1 剂次",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "出生时接种 1 剂次",
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "HepB",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "HepB",
+        "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+      },
+      "target": {
+        "canonical_name": "3 剂次 HepB 接种",
+        "entity_type": "Schedule",
+        "aliases": [],
+        "surface_form": "3 剂次 HepB 接种",
+        "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+      },
+      "relation_type": "HAS_SCHEDULE",
+      "evidence_quote": "并在婴儿满 1 月龄 、 2 月龄 、 7 月龄时按程序再完成 3 剂次 HepB 接种 。",
+      "confidence": 1.0,
+      "chunk_id": "chk_f9823a692013b165b42f11e7cbe963e1"
+    }
+  ],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_target_not_supported_by_cue",
+    "source_missing_from_quote"
+  ]
+}

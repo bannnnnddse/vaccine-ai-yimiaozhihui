@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7a7f5ab6296f8dc7715f44efe2cf4637",
+  "content_hash": "708d1ac08d71ef4026507d38d9278aef36846c81700e940b957fe268f332cd5b",
+  "entities": [
+    {
+      "canonical_name": "疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "疫苗",
+      "chunk_id": "chk_7a7f5ab6296f8dc7715f44efe2cf4637"
+    },
+    {
+      "canonical_name": "冷藏车",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "冷藏车",
+      "chunk_id": "chk_7a7f5ab6296f8dc7715f44efe2cf4637"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

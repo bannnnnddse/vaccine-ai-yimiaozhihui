@@ -1,0 +1,22 @@
+{
+  "chunk_id": "808a349297c5a71ca48809e62957fa405c4b67f47ddfc7cbbd7822242be54b18",
+  "content_hash": "66e271bff02538e8d18e1bdce84337b3a513ddc1ce38a16f2864b5436b9caff7",
+  "entities": [
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "808a349297c5a71ca48809e62957fa405c4b67f47ddfc7cbbd7822242be54b18"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "808a349297c5a71ca48809e62957fa405c4b67f47ddfc7cbbd7822242be54b18"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,59 @@
+{
+  "chunk_id": "37663edc4559dc7e3990cfb831c4bf423919c42fc4fd1d23951b14ec9a3222be",
+  "content_hash": "f9a89f7db2cc31d96295c37bf8839d439ed4bb040c57eb841e161c1cd6858174",
+  "entities": [
+    {
+      "canonical_name": "HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD",
+      "chunk_id": "37663edc4559dc7e3990cfb831c4bf423919c42fc4fd1d23951b14ec9a3222be"
+    },
+    {
+      "canonical_name": "multivalent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "multivalent vaccine",
+      "chunk_id": "37663edc4559dc7e3990cfb831c4bf423919c42fc4fd1d23951b14ec9a3222be"
+    },
+    {
+      "canonical_name": "monovalent vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "monovalent vaccines",
+      "chunk_id": "37663edc4559dc7e3990cfb831c4bf423919c42fc4fd1d23951b14ec9a3222be"
+    },
+    {
+      "canonical_name": "combined multiserotypic formulations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "combined multiserotypic formulations",
+      "chunk_id": "37663edc4559dc7e3990cfb831c4bf423919c42fc4fd1d23951b14ec9a3222be"
+    },
+    {
+      "canonical_name": "activated virus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "activated virus",
+      "chunk_id": "37663edc4559dc7e3990cfb831c4bf423919c42fc4fd1d23951b14ec9a3222be"
+    },
+    {
+      "canonical_name": "VLP",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VLP",
+      "chunk_id": "37663edc4559dc7e3990cfb831c4bf423919c42fc4fd1d23951b14ec9a3222be"
+    },
+    {
+      "canonical_name": "corresponding viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "corresponding viruses",
+      "chunk_id": "37663edc4559dc7e3990cfb831c4bf423919c42fc4fd1d23951b14ec9a3222be"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

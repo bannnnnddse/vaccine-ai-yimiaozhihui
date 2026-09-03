@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_c3bb1955fd0eefa9f695a713362fbb21",
+  "content_hash": "f42c99d8b3a5beed94e0aa9e8c8ffe426ff73fbe1db17e898114effb2efd03b1",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_c3bb1955fd0eefa9f695a713362fbb21"
+    },
+    {
+      "canonical_name": "anti-HBs-negative children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "anti-HBs-negative children",
+      "chunk_id": "chk_c3bb1955fd0eefa9f695a713362fbb21"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_c3bb1955fd0eefa9f695a713362fbb21"
+    },
+    {
+      "canonical_name": "hepatitis B virus antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hepatitis B virus antibody",
+      "chunk_id": "chk_c3bb1955fd0eefa9f695a713362fbb21"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

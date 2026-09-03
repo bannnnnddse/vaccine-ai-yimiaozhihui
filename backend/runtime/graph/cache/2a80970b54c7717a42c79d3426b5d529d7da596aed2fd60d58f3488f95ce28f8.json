@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_37bb10f36522ee981c8a87d342bdec5e",
+  "content_hash": "5bcbdf8b203a7615b320634ffcc1b5df6ae4c6c0ee88195609579db5a10dcd7f",
+  "entities": [
+    {
+      "canonical_name": "Men ACWY vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Men ACWY vaccine",
+      "chunk_id": "chk_37bb10f36522ee981c8a87d342bdec5e"
+    },
+    {
+      "canonical_name": "BNT",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT",
+      "chunk_id": "chk_37bb10f36522ee981c8a87d342bdec5e"
+    },
+    {
+      "canonical_name": "ChAd",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAd",
+      "chunk_id": "chk_37bb10f36522ee981c8a87d342bdec5e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

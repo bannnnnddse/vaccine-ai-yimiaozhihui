@@ -1,0 +1,27 @@
+{
+  "chunk_id": "chk_9e6746a74c1d7ce4a829cbe9fa78cbf5",
+  "content_hash": "c31b32d4d549c0a43e603043d2fc2c0c5ba19f8cc0c4d6577a119fe28cdb6fb6",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccination",
+      "chunk_id": "chk_9e6746a74c1d7ce4a829cbe9fa78cbf5"
+    },
+    {
+      "canonical_name": "4-valent HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "4-valent HPV vaccine",
+      "chunk_id": "chk_9e6746a74c1d7ce4a829cbe9fa78cbf5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation"
+  ]
+}

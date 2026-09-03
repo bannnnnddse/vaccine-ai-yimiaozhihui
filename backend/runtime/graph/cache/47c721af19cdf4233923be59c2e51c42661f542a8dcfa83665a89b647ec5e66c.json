@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_80da22b8c57904c9274caa5912d2c39e",
+  "content_hash": "d5dd08651fe8441bc892002f419ef638c4140edf9b834c219eb9076225e7e35a",
+  "entities": [
+    {
+      "canonical_name": "HIV-1 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV-1 vaccines",
+      "chunk_id": "chk_80da22b8c57904c9274caa5912d2c39e"
+    },
+    {
+      "canonical_name": "HIV-1 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV-1 infection",
+      "chunk_id": "chk_80da22b8c57904c9274caa5912d2c39e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

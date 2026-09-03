@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_1e2bb71d4a71bef3a71ea638ed1b1765",
+  "content_hash": "3d2d418c1a470b78b86ba1c2cc668b9a5128e26b1796919d382526800b91e69a",
+  "entities": [
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_1e2bb71d4a71bef3a71ea638ed1b1765"
+    },
+    {
+      "canonical_name": "Pneumo - coccal",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pneumo - coccal",
+      "chunk_id": "chk_1e2bb71d4a71bef3a71ea638ed1b1765"
+    },
+    {
+      "canonical_name": "breast cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "breast cancer",
+      "chunk_id": "chk_1e2bb71d4a71bef3a71ea638ed1b1765"
+    },
+    {
+      "canonical_name": "Patients > 65 years old with nonmeta static breast cancer on Medicare",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Patients > 65 years old with nonmeta static breast cancer on Medicare",
+      "chunk_id": "chk_1e2bb71d4a71bef3a71ea638ed1b1765"
+    },
+    {
+      "canonical_name": "Diabetic and car ‐ diac patients of rural communi ‐ ties",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Diabetic and car ‑ diac patients of rural communi ‑ ties",
+      "chunk_id": "chk_1e2bb71d4a71bef3a71ea638ed1b1765"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_29c1b5ef7f98cb5691c84e7613f6fc4b",
+  "content_hash": "27eb58d97268c0d58be4bea9454747c16b0090f80cd770046aff9312ad75f81c",
+  "entities": [
+    {
+      "canonical_name": "virus-like particles",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "virus-like particles",
+      "chunk_id": "chk_29c1b5ef7f98cb5691c84e7613f6fc4b"
+    },
+    {
+      "canonical_name": "Escherichia coli-derived triple-type chimeric vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Escherichia coli-derived triple-type chimeric vaccine",
+      "chunk_id": "chk_29c1b5ef7f98cb5691c84e7613f6fc4b"
+    },
+    {
+      "canonical_name": "human papillomavirus types 39, 68 and 70",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomavirus types 39, 68 and 70",
+      "chunk_id": "chk_29c1b5ef7f98cb5691c84e7613f6fc4b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

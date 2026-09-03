@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_a8ca533ee3f14c5df481b69292ac3f7b",
+  "content_hash": "c76062a98acd29a8feb06c0fb42089aba825d2db3bb5e4abfe3e332868a05043",
+  "entities": [
+    {
+      "canonical_name": "healthy adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adolescents",
+      "chunk_id": "chk_a8ca533ee3f14c5df481b69292ac3f7b"
+    },
+    {
+      "canonical_name": "the vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "the vaccine",
+      "chunk_id": "chk_a8ca533ee3f14c5df481b69292ac3f7b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

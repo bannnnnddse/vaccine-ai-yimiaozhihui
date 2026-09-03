@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_9605be59fc9726e99c39761302d89007",
+  "content_hash": "5111c1cf6ccafe0f2b6d053f5dcdcabbe0c57c68cb43fd47b8e596aae7c236bc",
+  "entities": [
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_9605be59fc9726e99c39761302d89007"
+    },
+    {
+      "canonical_name": "oral rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "oral rotavirus vaccine",
+      "chunk_id": "chk_9605be59fc9726e99c39761302d89007"
+    },
+    {
+      "canonical_name": "rotavirus-specific immunoglobulin M (IgM)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "rotavirus-specific immunoglobulin M (IgM)",
+      "chunk_id": "chk_9605be59fc9726e99c39761302d89007"
+    },
+    {
+      "canonical_name": "IgA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA",
+      "chunk_id": "chk_9605be59fc9726e99c39761302d89007"
+    },
+    {
+      "canonical_name": "memory B-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B-cell",
+      "chunk_id": "chk_9605be59fc9726e99c39761302d89007"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

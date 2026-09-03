@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_378b56244b280fc34ba0e5e993b51d75",
+  "content_hash": "5692041afb0875af8f2876a564b29d4f0e5211bfe56ee5305483cae32664c661",
+  "entities": [
+    {
+      "canonical_name": "glycomimetic conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "glycomimetic conjugate vaccine",
+      "chunk_id": "chk_378b56244b280fc34ba0e5e993b51d75"
+    },
+    {
+      "canonical_name": "Neisseria meningitidis serogroup A",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Neisseria meningitidis serogroup A",
+      "chunk_id": "chk_378b56244b280fc34ba0e5e993b51d75"
+    },
+    {
+      "canonical_name": "dendritic cell-based therapeutic vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "dendritic cell-based therapeutic vaccines",
+      "chunk_id": "chk_378b56244b280fc34ba0e5e993b51d75"
+    },
+    {
+      "canonical_name": "HIV-1 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV-1 infection",
+      "chunk_id": "chk_378b56244b280fc34ba0e5e993b51d75"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "07660a1f9e30604552f3c5f8d42fc4c351b5bd8df5a7ffcd3686a7fc0d770144",
+  "content_hash": "7c19e0298984e3ab2a0c8eadc8ef0b61259361465a5141b5f6159716657e5155",
+  "entities": [
+    {
+      "canonical_name": "immunocompromised patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised patients",
+      "chunk_id": "07660a1f9e30604552f3c5f8d42fc4c351b5bd8df5a7ffcd3686a7fc0d770144"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "07660a1f9e30604552f3c5f8d42fc4c351b5bd8df5a7ffcd3686a7fc0d770144"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

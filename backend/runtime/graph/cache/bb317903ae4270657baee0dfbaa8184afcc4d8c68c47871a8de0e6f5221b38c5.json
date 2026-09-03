@@ -1,0 +1,26 @@
+{
+  "chunk_id": "chk_300630312f3508722b3133b4600fa036",
+  "content_hash": "5a030074bc8bb11c153a2976782c3a3b6e1c6d5fc7c119aa71c3bebdc608b718",
+  "entities": [
+    {
+      "canonical_name": "T helper cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T helper cells",
+      "chunk_id": "chk_300630312f3508722b3133b4600fa036"
+    },
+    {
+      "canonical_name": "T H cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T H cells",
+      "chunk_id": "chk_300630312f3508722b3133b4600fa036"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

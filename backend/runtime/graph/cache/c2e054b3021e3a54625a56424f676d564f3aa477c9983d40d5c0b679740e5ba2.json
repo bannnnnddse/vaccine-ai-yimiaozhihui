@@ -1,0 +1,94 @@
+{
+  "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426",
+  "content_hash": "826b07939575c32979ff16695841e22cbec4c2a64d089161ca1175a488377b6c",
+  "entities": [
+    {
+      "canonical_name": "chimeric EV-A71 virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "chimeric EV-A71 virus",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "VP1 (aa 210–225) epitope",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "VP1 (aa 210–225) epitope",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "epitope of CV-A16",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "epitope of CV-A16",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "EV-A71/CV-A16 bivalent vaccine candidate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV-A71/CV-A16 bivalent vaccine candidate",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "EV-A71neutralizing epitope SP70",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "EV-A71neutralizing epitope SP70",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "chimeric EV-A71 virus-like particles",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "chimeric EV-A71 virus-like particles",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "ChiEV-A71 VLPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChiEV-A71 VLPs",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "Th1/Th2-dependent immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th1/Th2-dependent immune responses",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "EV-A71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV-A71",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "CV-A16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A16",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    },
+    {
+      "canonical_name": "sera",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "sera",
+      "chunk_id": "698476c244d5af4efbc35f004f15fcd4dc44e0674c30e3a77d4a107897dc2426"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

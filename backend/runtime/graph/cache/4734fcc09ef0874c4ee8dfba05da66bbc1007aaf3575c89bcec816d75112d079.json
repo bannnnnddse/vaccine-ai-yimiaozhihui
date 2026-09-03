@@ -1,0 +1,55 @@
+{
+  "chunk_id": "chk_0ee4642fcef690b13d25287c14c08a61",
+  "content_hash": "bbb1a7ae6e797b19286aa2e49f5d6ff5f90360569ea0ff03f9ecb62ca6f5bd77",
+  "entities": [
+    {
+      "canonical_name": "BEV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BEV vaccine",
+      "chunk_id": "chk_0ee4642fcef690b13d25287c14c08a61"
+    },
+    {
+      "canonical_name": "cholera",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cholera",
+      "chunk_id": "chk_0ee4642fcef690b13d25287c14c08a61"
+    },
+    {
+      "canonical_name": "type B meningitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "type B meningitis",
+      "chunk_id": "chk_0ee4642fcef690b13d25287c14c08a61"
+    },
+    {
+      "canonical_name": "commensal BEV antigen carriers",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "commensal BEV antigen carriers",
+      "chunk_id": "chk_0ee4642fcef690b13d25287c14c08a61"
+    },
+    {
+      "canonical_name": "plague",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "plague",
+      "chunk_id": "chk_0ee4642fcef690b13d25287c14c08a61"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_0ee4642fcef690b13d25287c14c08a61"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

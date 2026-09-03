@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_8944949de9a59a9711760e5eed02df0e",
+  "content_hash": "7da6ebab94c430599b6805361560c68fb4282a9f221ea1a9711b1a2003235881",
+  "entities": [
+    {
+      "canonical_name": "adenovirus vector type 5 (Ad5-nCoV)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adenovirus vector type 5 (Ad5-nCoV)",
+      "chunk_id": "chk_8944949de9a59a9711760e5eed02df0e"
+    },
+    {
+      "canonical_name": "severe COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe COVID-19",
+      "chunk_id": "chk_8944949de9a59a9711760e5eed02df0e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

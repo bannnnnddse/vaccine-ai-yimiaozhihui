@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_ba99e2556274d3782d56fe2f09a3f8cd",
+  "content_hash": "2d777dccb41ee812a497e22b5abbd349a244c91069fdb3b0f54d03c1947f71fd",
+  "entities": [
+    {
+      "canonical_name": "mitochondrial diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "mitochondrial diseases",
+      "chunk_id": "chk_ba99e2556274d3782d56fe2f09a3f8cd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

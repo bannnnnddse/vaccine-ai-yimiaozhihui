@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f18a8e4a3f7ead45b8f383c9ceb3d28e",
+  "content_hash": "eeb1dbaa50943398c4701b93a65b921f36aba10be8262cc429cb66d8c97877e4",
+  "entities": [
+    {
+      "canonical_name": "meningococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "meningococcal disease",
+      "chunk_id": "chk_f18a8e4a3f7ead45b8f383c9ceb3d28e"
+    },
+    {
+      "canonical_name": "new TB vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "new TB vaccines",
+      "chunk_id": "chk_f18a8e4a3f7ead45b8f383c9ceb3d28e"
+    },
+    {
+      "canonical_name": "HIV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV vaccine",
+      "chunk_id": "chk_f18a8e4a3f7ead45b8f383c9ceb3d28e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

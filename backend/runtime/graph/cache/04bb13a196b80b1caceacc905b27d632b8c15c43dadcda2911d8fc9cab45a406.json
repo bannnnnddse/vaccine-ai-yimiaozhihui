@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_e574aa3882ea6f0f7540c2b1402dec0c",
+  "content_hash": "5ac1025f73cce43113476f912f185a6c68f4ed921a51d2d5af7feb7f7e65d8f6",
+  "entities": [
+    {
+      "canonical_name": "naive B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "naive B cells",
+      "chunk_id": "chk_e574aa3882ea6f0f7540c2b1402dec0c"
+    },
+    {
+      "canonical_name": "CpG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CpG",
+      "chunk_id": "chk_e574aa3882ea6f0f7540c2b1402dec0c"
+    },
+    {
+      "canonical_name": "Toll-like receptor 9",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Toll-like receptor 9",
+      "chunk_id": "chk_e574aa3882ea6f0f7540c2b1402dec0c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

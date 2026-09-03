@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_6a90f3d30e2939c8fcca921e36102266",
+  "content_hash": "8429843c3764a98e3f83971312dea9a9f6cf12e1892c5c2a68b858e42943c5eb",
+  "entities": [
+    {
+      "canonical_name": "HBV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBV vaccination",
+      "chunk_id": "chk_6a90f3d30e2939c8fcca921e36102266"
+    },
+    {
+      "canonical_name": "PLWH",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "PLWH",
+      "chunk_id": "chk_6a90f3d30e2939c8fcca921e36102266"
+    },
+    {
+      "canonical_name": "HIV-uninfected individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-uninfected individuals",
+      "chunk_id": "chk_6a90f3d30e2939c8fcca921e36102266"
+    },
+    {
+      "canonical_name": "Children and adolescents living with HIV",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Children and adolescents living with HIV",
+      "chunk_id": "chk_6a90f3d30e2939c8fcca921e36102266"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

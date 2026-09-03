@@ -1,0 +1,33 @@
+{
+  "original_bbox_normalized": [
+    0.35689661187025334,
+    0.04583370057627873,
+    0.6517241825643509,
+    0.4276585793695394
+  ],
+  "original_bbox_pixels": [
+    748,
+    91,
+    1367,
+    855
+  ],
+  "expanded_bbox_pixels": [
+    624,
+    0,
+    1491,
+    1008
+  ],
+  "image_size": [
+    2097,
+    1998
+  ],
+  "roi_size": [
+    867,
+    1008
+  ],
+  "outside_diff_ratio": 0.0,
+  "outside_max_channel_diff": 0,
+  "mask_area_ratio": 0.11287300653061264,
+  "edited_roi_resized": true,
+  "edited_roi_aspect_ratio_error": 7.522190461872746e-05
+}

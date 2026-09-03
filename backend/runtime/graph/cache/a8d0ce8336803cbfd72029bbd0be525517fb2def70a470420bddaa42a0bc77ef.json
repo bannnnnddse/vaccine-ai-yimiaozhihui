@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b40b169354630c43ce3050778e45a8c3",
+  "content_hash": "05b7005eeba94ea24661ec863850a09193513adfa3d8be49f6925ec5770aef33",
+  "entities": [
+    {
+      "canonical_name": "hepatitis A vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis A vaccine",
+      "chunk_id": "chk_b40b169354630c43ce3050778e45a8c3"
+    },
+    {
+      "canonical_name": "two-dose schedule",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "two-dose schedule",
+      "chunk_id": "chk_b40b169354630c43ce3050778e45a8c3"
+    },
+    {
+      "canonical_name": "Indian children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Indian children",
+      "chunk_id": "chk_b40b169354630c43ce3050778e45a8c3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

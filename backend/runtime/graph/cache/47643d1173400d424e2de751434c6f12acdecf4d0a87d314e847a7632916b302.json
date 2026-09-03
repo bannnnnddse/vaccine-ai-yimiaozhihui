@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_215aecc1a0697271919c0d85bc090a14",
+  "content_hash": "f2d81f858a34c111184310e77a8b9df6412527c81613b083594fb8a11d9d8e0c",
+  "entities": [
+    {
+      "canonical_name": "Vi conjugate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vi conjugate vaccines",
+      "chunk_id": "chk_215aecc1a0697271919c0d85bc090a14"
+    },
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_215aecc1a0697271919c0d85bc090a14"
+    },
+    {
+      "canonical_name": "typhoid conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "typhoid conjugate vaccine",
+      "chunk_id": "chk_215aecc1a0697271919c0d85bc090a14"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

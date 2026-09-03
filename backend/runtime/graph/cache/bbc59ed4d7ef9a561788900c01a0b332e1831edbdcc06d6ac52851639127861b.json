@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_810e8200720e65832c0b5e355aadc68c",
+  "content_hash": "4e4ab9602e3db3043f58db965a22df0e7a80fb23496113e55bb45318922eedd5",
+  "entities": [
+    {
+      "canonical_name": "RV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RV",
+      "chunk_id": "chk_810e8200720e65832c0b5e355aadc68c"
+    },
+    {
+      "canonical_name": "neurological complications",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "neurological complications",
+      "chunk_id": "chk_810e8200720e65832c0b5e355aadc68c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

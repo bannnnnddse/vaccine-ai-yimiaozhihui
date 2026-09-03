@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_eb155788a6c6236138791e5c7e9b7a6e",
+  "content_hash": "5e1bb6986e532abb182507da41cdce297fcaa2c66ea15d5aa32397d0a735717f",
+  "entities": [
+    {
+      "canonical_name": "respiratory syncytial virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus",
+      "chunk_id": "chk_eb155788a6c6236138791e5c7e9b7a6e"
+    },
+    {
+      "canonical_name": "monoclonal antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monoclonal antibody",
+      "chunk_id": "chk_eb155788a6c6236138791e5c7e9b7a6e"
+    },
+    {
+      "canonical_name": "B cell receptor",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell receptor",
+      "chunk_id": "chk_eb155788a6c6236138791e5c7e9b7a6e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

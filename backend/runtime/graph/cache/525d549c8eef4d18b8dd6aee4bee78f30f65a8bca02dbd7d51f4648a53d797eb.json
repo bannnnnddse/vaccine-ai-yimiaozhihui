@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_6b57d6494db73e979f5a664396a4feb9",
+  "content_hash": "018787db5d9351101e7de00431838922936b239616439c1af1deeee9e2efe0b0",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_6b57d6494db73e979f5a664396a4feb9"
+    },
+    {
+      "canonical_name": "LUNAR-COV19",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "LUNAR-COV19",
+      "chunk_id": "chk_6b57d6494db73e979f5a664396a4feb9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_d0375c3c296eead0d940decb5e4799cf",
+  "content_hash": "590ceb06f24b8919c47feee3a28bbf921274d571c3321715d036d9b477b61f83",
+  "entities": [
+    {
+      "canonical_name": "Hand, foot, and mouth disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Hand, foot, and mouth disease",
+      "chunk_id": "chk_d0375c3c296eead0d940decb5e4799cf"
+    },
+    {
+      "canonical_name": "HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD",
+      "chunk_id": "chk_d0375c3c296eead0d940decb5e4799cf"
+    },
+    {
+      "canonical_name": "inactivated enterovirus A71 (EV-A71) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated enterovirus A71 (EV-A71) vaccine",
+      "chunk_id": "chk_d0375c3c296eead0d940decb5e4799cf"
+    },
+    {
+      "canonical_name": "multivalent vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "multivalent vaccines",
+      "chunk_id": "chk_d0375c3c296eead0d940decb5e4799cf"
+    },
+    {
+      "canonical_name": "monovalent vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "monovalent vaccines",
+      "chunk_id": "chk_d0375c3c296eead0d940decb5e4799cf"
+    },
+    {
+      "canonical_name": "chimeric vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "chimeric vaccines",
+      "chunk_id": "chk_d0375c3c296eead0d940decb5e4799cf"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote"
+  ]
+}

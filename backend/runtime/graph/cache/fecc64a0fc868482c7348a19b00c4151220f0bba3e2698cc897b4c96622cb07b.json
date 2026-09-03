@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_77afdf9fa13f0a6fcd12f71e0d14c2b6",
+  "content_hash": "4702196d9f2709f3db0fd9bd65d4dec1fcd7e7e0720feccb46ce49e80b2d8e92",
+  "entities": [
+    {
+      "canonical_name": "MMR vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR vaccine",
+      "chunk_id": "chk_77afdf9fa13f0a6fcd12f71e0d14c2b6"
+    },
+    {
+      "canonical_name": "children younger than 5 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children younger than 5 years",
+      "chunk_id": "chk_77afdf9fa13f0a6fcd12f71e0d14c2b6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

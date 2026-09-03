@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_63c3c950ef3fedb906caa9ea230cb7ec",
+  "content_hash": "6ac05c398821d7d1035a96422b1049a42f75ba9f1af137ec8068bc274a200273",
+  "entities": [
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "chk_63c3c950ef3fedb906caa9ea230cb7ec"
+    },
+    {
+      "canonical_name": "autism",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autism",
+      "chunk_id": "chk_63c3c950ef3fedb906caa9ea230cb7ec"
+    },
+    {
+      "canonical_name": "Somali refugees",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Somali refugees",
+      "chunk_id": "chk_63c3c950ef3fedb906caa9ea230cb7ec"
+    },
+    {
+      "canonical_name": "South Asian youth",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "South Asian youth",
+      "chunk_id": "chk_63c3c950ef3fedb906caa9ea230cb7ec"
+    },
+    {
+      "canonical_name": "COVID19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID19 vaccine",
+      "chunk_id": "chk_63c3c950ef3fedb906caa9ea230cb7ec"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_63c3c950ef3fedb906caa9ea230cb7ec"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

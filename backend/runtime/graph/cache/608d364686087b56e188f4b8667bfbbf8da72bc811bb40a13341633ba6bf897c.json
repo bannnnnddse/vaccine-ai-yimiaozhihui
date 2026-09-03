@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_b1e8653b7da44a3a5dbc17e1260112ed",
+  "content_hash": "aeb2af41c44ad0e8c71ea422e4e29e8f07fa61c36115454c2f6199e92d590373",
+  "entities": [
+    {
+      "canonical_name": "te vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "te vaccine",
+      "chunk_id": "chk_b1e8653b7da44a3a5dbc17e1260112ed"
+    },
+    {
+      "canonical_name": "hSBA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hSBA",
+      "chunk_id": "chk_b1e8653b7da44a3a5dbc17e1260112ed"
+    },
+    {
+      "canonical_name": "rSBA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "rSBA",
+      "chunk_id": "chk_b1e8653b7da44a3a5dbc17e1260112ed"
+    },
+    {
+      "canonical_name": "serogroup A disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "serogroup A disease",
+      "chunk_id": "chk_b1e8653b7da44a3a5dbc17e1260112ed"
+    },
+    {
+      "canonical_name": "vaccinated and unvaccinated populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccinated and unvaccinated populations",
+      "chunk_id": "chk_b1e8653b7da44a3a5dbc17e1260112ed"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

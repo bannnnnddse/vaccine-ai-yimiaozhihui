@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_c5de881730626713abe286c5861fd3d5",
+  "content_hash": "2dca7b3b5aa8ef91b6bff680b95c5de8a7ad21b15422fa69d1e9f5d56684dfdc",
+  "entities": [
+    {
+      "canonical_name": "saRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "saRNA vaccine",
+      "chunk_id": "chk_c5de881730626713abe286c5861fd3d5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

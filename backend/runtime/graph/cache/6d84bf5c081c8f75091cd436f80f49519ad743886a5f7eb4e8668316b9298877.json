@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_ba8adc6f625de23fa68471faaca9e507",
+  "content_hash": "e85dda500831d4934070b6db2457c2d7dab8c4efc847d5f319ce3e37575ef362",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_ba8adc6f625de23fa68471faaca9e507"
+    },
+    {
+      "canonical_name": "lactating women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "lactating women",
+      "chunk_id": "chk_ba8adc6f625de23fa68471faaca9e507"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

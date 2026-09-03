@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_74b5abc11d069ade15899b8523f3a6bd",
+  "content_hash": "0d23218a7c9bf7cdfe75170e08b01ec8b36926999142711d3fc035b742751367",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_74b5abc11d069ade15899b8523f3a6bd"
+    },
+    {
+      "canonical_name": "HPV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccines",
+      "chunk_id": "chk_74b5abc11d069ade15899b8523f3a6bd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_b26f2a69187a9a36b5206e87c65c0d10",
+  "content_hash": "892f408c4d4d32901b2e4f74ab768932423c98bfa8d430021e0dc74c064b11f4",
+  "entities": [
+    {
+      "canonical_name": "T lymphocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T lymphocytes",
+      "chunk_id": "chk_b26f2a69187a9a36b5206e87c65c0d10"
+    },
+    {
+      "canonical_name": "nonobese diabetic mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "nonobese diabetic mice",
+      "chunk_id": "chk_b26f2a69187a9a36b5206e87c65c0d10"
+    },
+    {
+      "canonical_name": "insulitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "insulitis",
+      "chunk_id": "chk_b26f2a69187a9a36b5206e87c65c0d10"
+    },
+    {
+      "canonical_name": "diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diabetes",
+      "chunk_id": "chk_b26f2a69187a9a36b5206e87c65c0d10"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

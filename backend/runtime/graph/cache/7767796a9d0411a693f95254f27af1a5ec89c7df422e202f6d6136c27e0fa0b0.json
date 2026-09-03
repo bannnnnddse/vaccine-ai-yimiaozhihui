@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_a95087dc88a929498b6438a10d4dae3a",
+  "content_hash": "5783a1e0ecac64edc55c401fafa4c15c54e4404a3bbf8fe43f74d12536c7a14b",
+  "entities": [
+    {
+      "canonical_name": "cirrhosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cirrhosis",
+      "chunk_id": "chk_a95087dc88a929498b6438a10d4dae3a"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_a95087dc88a929498b6438a10d4dae3a"
+    },
+    {
+      "canonical_name": "Non-alcoholic fatty liver diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Non-alcoholic fatty liver diseases",
+      "chunk_id": "chk_a95087dc88a929498b6438a10d4dae3a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

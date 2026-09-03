@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_bfe25f149b12ad90e2e805260534fb62",
+  "content_hash": "38ac9799d060c9996c66918be1f3ce20eac10a4e1c2bb42bece6a0285e17ca78",
+  "entities": [
+    {
+      "canonical_name": "chikungunya",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chikungunya",
+      "chunk_id": "chk_bfe25f149b12ad90e2e805260534fb62"
+    },
+    {
+      "canonical_name": "CHIKV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CHIKV",
+      "chunk_id": "chk_bfe25f149b12ad90e2e805260534fb62"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

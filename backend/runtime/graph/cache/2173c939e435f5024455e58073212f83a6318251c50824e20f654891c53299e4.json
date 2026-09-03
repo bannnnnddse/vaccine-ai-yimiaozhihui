@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_bcf5a0f5190eb3857bef0d8c6b84af2f",
+  "content_hash": "3e7e594fc520d1da0edc9e1169b1c65f5556447340ffd09650ec0bf8a128ed18",
+  "entities": [
+    {
+      "canonical_name": "Epstein-Barr Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Epstein-Barr Virus",
+      "chunk_id": "chk_bcf5a0f5190eb3857bef0d8c6b84af2f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

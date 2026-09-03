@@ -1,0 +1,85 @@
+{
+  "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37",
+  "content_hash": "d2148c191777e3d6fb9ea6d17440b392fb0333d3bfb0092b401359b1e1f935dc",
+  "entities": [
+    {
+      "canonical_name": "MMRV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV vaccination",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "Varicella vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Varicella vaccines",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "Rash maculo-papular",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Rash maculo-papular",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "Feeling hot",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Feeling hot",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "Autism",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Autism",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "Mumps",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Mumps",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "Infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Infection",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "Dermatitis bullous",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Dermatitis bullous",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    },
+    {
+      "canonical_name": "Viral infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Viral infection",
+      "chunk_id": "3848f6fe0e688e92df45a748fda2e9da4d0d37ab02774ef90ae443bbdd91ed37"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

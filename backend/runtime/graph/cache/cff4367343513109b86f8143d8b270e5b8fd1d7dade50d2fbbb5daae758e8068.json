@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_df43636ce504baaa5d3f6fdefd025a31",
+  "content_hash": "f8cbef4f8b389f2a0053a435e1518daeb752d427536d27a74dc2ba76598d7c0a",
+  "entities": [
+    {
+      "canonical_name": "HIV 感染母亲所生儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV 感染母亲所生儿童",
+      "chunk_id": "chk_df43636ce504baaa5d3f6fdefd025a31"
+    },
+    {
+      "canonical_name": "HIV 感染状况不详儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV 感染状况不详儿童",
+      "chunk_id": "chk_df43636ce504baaa5d3f6fdefd025a31"
+    },
+    {
+      "canonical_name": "HIV 未感染儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV 未感染儿童",
+      "chunk_id": "chk_df43636ce504baaa5d3f6fdefd025a31"
+    },
+    {
+      "canonical_name": "HIV 感染",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV 感染",
+      "chunk_id": "chk_df43636ce504baaa5d3f6fdefd025a31"
+    },
+    {
+      "canonical_name": "免疫抑制",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "免疫抑制",
+      "chunk_id": "chk_df43636ce504baaa5d3f6fdefd025a31"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

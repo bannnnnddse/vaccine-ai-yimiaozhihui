@@ -1,0 +1,29 @@
+{
+  "chunk_id": "9de8d0f76520e0e91b90d416c7580e35213d54a59406f629d06ae8cd5f04da50",
+  "content_hash": "62f1ed3a32f1ed12e6df68667cf1b0f7e1d350c7d9fbd885d33ac83f678a963d",
+  "entities": [
+    {
+      "canonical_name": "health workers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "health workers",
+      "chunk_id": "9de8d0f76520e0e91b90d416c7580e35213d54a59406f629d06ae8cd5f04da50"
+    },
+    {
+      "canonical_name": "relatives",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "relatives",
+      "chunk_id": "9de8d0f76520e0e91b90d416c7580e35213d54a59406f629d06ae8cd5f04da50"
+    },
+    {
+      "canonical_name": "vulnerable patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vulnerable patients",
+      "chunk_id": "9de8d0f76520e0e91b90d416c7580e35213d54a59406f629d06ae8cd5f04da50"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

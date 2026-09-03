@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_0bb99d3f38c49c8c29047c29f1c572d3",
+  "content_hash": "55d0d58079415cdc913bb5f66163624c33add1d4b275e0a3c85dd6405d5df716",
+  "entities": [
+    {
+      "canonical_name": "respiratory syncytial (RS) virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory syncytial (RS) virus",
+      "chunk_id": "chk_0bb99d3f38c49c8c29047c29f1c572d3"
+    },
+    {
+      "canonical_name": "inactivated RS virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated RS virus vaccine",
+      "chunk_id": "chk_0bb99d3f38c49c8c29047c29f1c572d3"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_0bb99d3f38c49c8c29047c29f1c572d3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

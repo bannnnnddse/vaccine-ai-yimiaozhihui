@@ -1,0 +1,78 @@
+{
+  "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4",
+  "content_hash": "62a74698116230b49c3a4ec37b6453731c3c236c350bacada6f5e977b8669215",
+  "entities": [
+    {
+      "canonical_name": "FMD virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "FMD virus",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    },
+    {
+      "canonical_name": "calves",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "calves",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    },
+    {
+      "canonical_name": "IFN-g",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-g",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    },
+    {
+      "canonical_name": "IL-21",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-21",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    },
+    {
+      "canonical_name": "IL21",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL21",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    },
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    },
+    {
+      "canonical_name": "IL-1b",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-1b",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    },
+    {
+      "canonical_name": "IL-12",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-12",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    },
+    {
+      "canonical_name": "IFN-g",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-g",
+      "chunk_id": "chk_7039b92350c889e76cb6123f074bc0a4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

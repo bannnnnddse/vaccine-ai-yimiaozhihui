@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_3898ad9363f3757c8d48829ced4aded1",
+  "content_hash": "ac7823ef25ca3915cf03a38917a4fa015565652957e5101491709bf541361df7",
+  "entities": [
+    {
+      "canonical_name": "maternal vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "maternal vaccines",
+      "chunk_id": "chk_3898ad9363f3757c8d48829ced4aded1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

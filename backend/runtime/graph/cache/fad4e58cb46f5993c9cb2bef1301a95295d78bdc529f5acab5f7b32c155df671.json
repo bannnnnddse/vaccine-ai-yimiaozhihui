@@ -1,0 +1,54 @@
+{
+  "chunk_id": "chk_9d1df73e9b2a1181d377f634434b5457",
+  "content_hash": "e28af661324268bc71955b71cffe064e73c4154eba64f887e07b2df43410128c",
+  "entities": [
+    {
+      "canonical_name": "Neisseria gonorrhoeae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Neisseria gonorrhoeae",
+      "chunk_id": "chk_9d1df73e9b2a1181d377f634434b5457"
+    },
+    {
+      "canonical_name": "gonorrhoea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "gonorrhoea",
+      "chunk_id": "chk_9d1df73e9b2a1181d377f634434b5457"
+    },
+    {
+      "canonical_name": "Treponema pallidum",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Treponema pallidum",
+      "chunk_id": "chk_9d1df73e9b2a1181d377f634434b5457"
+    },
+    {
+      "canonical_name": "syphilis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "syphilis",
+      "chunk_id": "chk_9d1df73e9b2a1181d377f634434b5457"
+    },
+    {
+      "canonical_name": "RTSS",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RTSS",
+      "chunk_id": "chk_9d1df73e9b2a1181d377f634434b5457"
+    },
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_9d1df73e9b2a1181d377f634434b5457"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

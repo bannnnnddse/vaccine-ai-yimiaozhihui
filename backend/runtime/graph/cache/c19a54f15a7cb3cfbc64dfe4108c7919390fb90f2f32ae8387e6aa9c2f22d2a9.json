@@ -1,0 +1,1616 @@
+{
+  "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88",
+  "content_hash": "e110cd4c736f2a151b764916122056d8bcb2dc8cb29c1a761ba60df8bca293be",
+  "entities": [
+    {
+      "canonical_name": "Flu Vaccination Coverage",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Flu Vaccination Coverage",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "H1N1 influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "health belief model",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "health belief model",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "intent to receive",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "intent to receive",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "novel (2009) H1N1 influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al.",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al.",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Flu Vaccination Coverage, United States, 2021–22 Influenza Season j FluVaxView j Seasonal Influenza (Flu) j CDC",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Flu Vaccination Coverage, United States, 2021–22 Influenza Season j FluVaxView j Seasonal Influenza (Flu) j CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2022",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "2022",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Seasonal Influenza (Flu)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Seasonal Influenza (Flu)",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "United States",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "United States",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "2021–22 Influenza Season",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "2021–22 Influenza Season",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "https:// www.cdc.gov/flu/fluvaxview/coverage-2022estimates.htm",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Accessed January 20, 2023",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Accessed January 20, 2023",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Coe AB",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Coe AB",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Gatewood SBS",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gatewood SBS",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Moczygemba LR",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Moczygemba LR",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "et al",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "et al",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "The use of the health belief model to assess predictors of intent to receive the novel (2009) H1N1 influenza vaccine",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "Innov Pharm 2012; 3 (2): 1–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Innov Pharm 2012; 3 (2): 1–11",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "CDC",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CDC",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    },
+    {
+      "canonical_name": "FluVaxView",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "FluVaxView",
+      "chunk_id": "chk_71e8116aacb060f8d2f1716bd634da88"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_6008d43e646c293546c30754eedaef78",
+  "content_hash": "a601a347980e0a8a63d65801336f03d5d63047994ea938672930e7a389f75a82",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis B virus",
+      "chunk_id": "chk_6008d43e646c293546c30754eedaef78"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_6008d43e646c293546c30754eedaef78"
+    },
+    {
+      "canonical_name": "individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals",
+      "chunk_id": "chk_6008d43e646c293546c30754eedaef78"
+    },
+    {
+      "canonical_name": "world's population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "world's population",
+      "chunk_id": "chk_6008d43e646c293546c30754eedaef78"
+    },
+    {
+      "canonical_name": "Chronic",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic",
+      "chunk_id": "chk_6008d43e646c293546c30754eedaef78"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

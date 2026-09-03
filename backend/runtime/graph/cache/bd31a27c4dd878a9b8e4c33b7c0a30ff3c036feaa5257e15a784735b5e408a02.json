@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_71ef1217425ccf6eb3dd9c5ae45a19d1",
+  "content_hash": "2c7ca23b7bd756c1090d1bf3a3ab73cd861abd6925e6bdfd2eee8072e5a64fd1",
+  "entities": [
+    {
+      "canonical_name": "GSK's recombinant HBsAg vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GSK's recombinant HBsAg vaccine",
+      "chunk_id": "chk_71ef1217425ccf6eb3dd9c5ae45a19d1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

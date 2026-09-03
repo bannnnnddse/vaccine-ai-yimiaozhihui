@@ -1,0 +1,50 @@
+{
+  "chunk_id": "c5c839dc09dfc270dfd6f1230e7d867fdd51a4ad3d27838090dbf53893903c80",
+  "content_hash": "22f069b09492854b59244d9597e6bc597445214866b9698c05011e40a7895933",
+  "entities": [
+    {
+      "canonical_name": "TLR5",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR5",
+      "chunk_id": "c5c839dc09dfc270dfd6f1230e7d867fdd51a4ad3d27838090dbf53893903c80"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "c5c839dc09dfc270dfd6f1230e7d867fdd51a4ad3d27838090dbf53893903c80"
+    },
+    {
+      "canonical_name": "nonadjuvanted vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nonadjuvanted vaccines",
+      "chunk_id": "c5c839dc09dfc270dfd6f1230e7d867fdd51a4ad3d27838090dbf53893903c80"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "c5c839dc09dfc270dfd6f1230e7d867fdd51a4ad3d27838090dbf53893903c80"
+    },
+    {
+      "canonical_name": "Ripk2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Ripk2",
+      "chunk_id": "c5c839dc09dfc270dfd6f1230e7d867fdd51a4ad3d27838090dbf53893903c80"
+    },
+    {
+      "canonical_name": "oral vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "oral vaccine",
+      "chunk_id": "c5c839dc09dfc270dfd6f1230e7d867fdd51a4ad3d27838090dbf53893903c80"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

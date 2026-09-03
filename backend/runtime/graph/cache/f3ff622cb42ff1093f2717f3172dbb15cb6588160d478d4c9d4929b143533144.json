@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_c729399a3434416553dccffdc581109c",
+  "content_hash": "ab1e4b8524dc4ae6cebd7a88a68bf8496ae9057788aca03386d512ec621b1efc",
+  "entities": [
+    {
+      "canonical_name": "child",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "child",
+      "chunk_id": "chk_c729399a3434416553dccffdc581109c"
+    },
+    {
+      "canonical_name": "adolescent",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescent",
+      "chunk_id": "chk_c729399a3434416553dccffdc581109c"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_c729399a3434416553dccffdc581109c"
+    },
+    {
+      "canonical_name": "childhood vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "childhood vaccines",
+      "chunk_id": "chk_c729399a3434416553dccffdc581109c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

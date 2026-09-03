@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_17a7dde3f1e9e02df18fb47f1b35b450",
+  "content_hash": "6d95481422d14d66c4860b14dc48b8c4572ac3c5e36da018557a1400f0a0f45f",
+  "entities": [
+    {
+      "canonical_name": "Hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Hepatitis B",
+      "chunk_id": "chk_17a7dde3f1e9e02df18fb47f1b35b450"
+    },
+    {
+      "canonical_name": "PLWH",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "PLWH",
+      "chunk_id": "chk_17a7dde3f1e9e02df18fb47f1b35b450"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_17a7dde3f1e9e02df18fb47f1b35b450"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

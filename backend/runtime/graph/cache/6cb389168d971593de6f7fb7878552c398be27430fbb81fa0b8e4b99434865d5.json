@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_0c675f8f08f5dbf83b6801766b932727",
+  "content_hash": "ac9fa5a0c193dc072f661d6b30d6f51601e1dc3c7e18013545a9effaa7e10689",
+  "entities": [
+    {
+      "canonical_name": "Antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Antibodies",
+      "chunk_id": "chk_0c675f8f08f5dbf83b6801766b932727"
+    },
+    {
+      "canonical_name": "Epstein-Barr Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Epstein-Barr Virus",
+      "chunk_id": "chk_0c675f8f08f5dbf83b6801766b932727"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

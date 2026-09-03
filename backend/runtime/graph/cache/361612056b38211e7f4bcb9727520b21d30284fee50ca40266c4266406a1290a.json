@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_cad398482dc149e438e4e82674a279e0",
+  "content_hash": "826f7b014e96f5f8a87944d2cc4223ab0a04b761022bdefe8dbfcee1c879d2c1",
+  "entities": [
+    {
+      "canonical_name": "免疫缺陷儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "免疫缺陷儿童",
+      "chunk_id": "chk_cad398482dc149e438e4e82674a279e0"
+    },
+    {
+      "canonical_name": "HIV 感染儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV 感染儿童",
+      "chunk_id": "chk_cad398482dc149e438e4e82674a279e0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

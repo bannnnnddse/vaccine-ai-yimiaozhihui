@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_ebed7c581610c090e23464e3cc7a135c",
+  "content_hash": "f451dfb9a088dc84e345f71bd9f8876b22ac80192dbcbc296c770abd07090cbd",
+  "entities": [
+    {
+      "canonical_name": "先天畸形、变形和染色体异常",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "先天畸形、变形和染色体异常",
+      "chunk_id": "chk_ebed7c581610c090e23464e3cc7a135c"
+    },
+    {
+      "canonical_name": "损伤和中毒外部原因",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "损伤和中毒外部原因",
+      "chunk_id": "chk_ebed7c581610c090e23464e3cc7a135c"
+    },
+    {
+      "canonical_name": "诊断不明",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "诊断不明",
+      "chunk_id": "chk_ebed7c581610c090e23464e3cc7a135c"
+    },
+    {
+      "canonical_name": "其他疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "其他疾病",
+      "chunk_id": "chk_ebed7c581610c090e23464e3cc7a135c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

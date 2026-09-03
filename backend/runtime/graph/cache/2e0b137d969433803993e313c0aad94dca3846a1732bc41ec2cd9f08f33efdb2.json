@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_15677aaa69c51ca54db285b438914b04",
+  "content_hash": "384bc83c4f72d4866f663d2e0775dbe8e856abf578d9cdee6f679c3b86c59f6c",
+  "entities": [
+    {
+      "canonical_name": "vaccine-hesitant people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccine-hesitant people",
+      "chunk_id": "chk_15677aaa69c51ca54db285b438914b04"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_99301ad98a351f5a517ad22a6d49133a",
+  "content_hash": "fdc95d236d3c4a16d6954881644d855cca043e617b241ea88516aaab5adb8133",
+  "entities": [
+    {
+      "canonical_name": "bacteria",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "bacteria",
+      "chunk_id": "chk_99301ad98a351f5a517ad22a6d49133a"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_99301ad98a351f5a517ad22a6d49133a"
+    },
+    {
+      "canonical_name": "adaptive immune response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "adaptive immune response",
+      "chunk_id": "chk_99301ad98a351f5a517ad22a6d49133a"
+    },
+    {
+      "canonical_name": "innate immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune responses",
+      "chunk_id": "chk_99301ad98a351f5a517ad22a6d49133a"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_99301ad98a351f5a517ad22a6d49133a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

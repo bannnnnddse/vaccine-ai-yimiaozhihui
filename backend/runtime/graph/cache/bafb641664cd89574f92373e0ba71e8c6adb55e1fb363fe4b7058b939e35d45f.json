@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_e7e32a048ce0a6fe1c5b121ddb58732a",
+  "content_hash": "bfe0022a5bf46c09dcd52f10c713d6693704e7f7865275b74ffbfaf60a5357c2",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 mRNA vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 mRNA vaccination",
+      "chunk_id": "chk_e7e32a048ce0a6fe1c5b121ddb58732a"
+    },
+    {
+      "canonical_name": "T follicular helper cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T follicular helper cell",
+      "chunk_id": "chk_e7e32a048ce0a6fe1c5b121ddb58732a"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_e7e32a048ce0a6fe1c5b121ddb58732a"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 mRNA vaccines",
+      "chunk_id": "chk_e7e32a048ce0a6fe1c5b121ddb58732a"
+    },
+    {
+      "canonical_name": "germinal center responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "germinal center responses",
+      "chunk_id": "chk_e7e32a048ce0a6fe1c5b121ddb58732a"
+    },
+    {
+      "canonical_name": "neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibody",
+      "chunk_id": "chk_e7e32a048ce0a6fe1c5b121ddb58732a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

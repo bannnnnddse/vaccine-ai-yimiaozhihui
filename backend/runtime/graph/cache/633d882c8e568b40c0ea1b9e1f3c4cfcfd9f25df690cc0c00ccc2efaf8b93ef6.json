@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_9e7483fbaa5e455dc2032d6bff67009b",
+  "content_hash": "eb3f249616c99e6989a80b39b3561b62c7de6a4867f9f562a0b5a42719c1f74a",
+  "entities": [
+    {
+      "canonical_name": "mRNA Rabies Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA Rabies Vaccine",
+      "chunk_id": "chk_9e7483fbaa5e455dc2032d6bff67009b"
+    },
+    {
+      "canonical_name": "Healthy Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Healthy Adults",
+      "chunk_id": "chk_9e7483fbaa5e455dc2032d6bff67009b"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_9e7483fbaa5e455dc2032d6bff67009b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

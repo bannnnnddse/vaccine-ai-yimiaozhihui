@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_2d33b4acdc462b57f7f4cfc9bf0ab841",
+  "content_hash": "8addc98618e824898de1a6ef21809bc956d1c9f314668c4cc773ffed9032db81",
+  "entities": [
+    {
+      "canonical_name": "virus-like particle vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "virus-like particle vaccine",
+      "chunk_id": "chk_2d33b4acdc462b57f7f4cfc9bf0ab841"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_2d33b4acdc462b57f7f4cfc9bf0ab841"
+    },
+    {
+      "canonical_name": "G17DT",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "G17DT",
+      "chunk_id": "chk_2d33b4acdc462b57f7f4cfc9bf0ab841"
+    },
+    {
+      "canonical_name": "gastrointestinal malignancy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "gastrointestinal malignancy",
+      "chunk_id": "chk_2d33b4acdc462b57f7f4cfc9bf0ab841"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

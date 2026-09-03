@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_3e7a11947b431501bc0fd639ba93ef38",
+  "content_hash": "191ee891bd95ce3c63a9fb301b7c33b0af5ac54fddf4750468dfdad442ed1d2a",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_3e7a11947b431501bc0fd639ba93ef38"
+    },
+    {
+      "canonical_name": "preteens",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "preteens",
+      "chunk_id": "chk_3e7a11947b431501bc0fd639ba93ef38"
+    },
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_3e7a11947b431501bc0fd639ba93ef38"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_3e7a11947b431501bc0fd639ba93ef38"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_73a82f17da9ae2a02db03348e55cebb8",
+  "content_hash": "7847cdfdf64b793bd0b57bef9176166a47a32808c16e5b8f9484b5316313b6e6",
+  "entities": [
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_73a82f17da9ae2a02db03348e55cebb8"
+    },
+    {
+      "canonical_name": "diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diarrhea",
+      "chunk_id": "chk_73a82f17da9ae2a02db03348e55cebb8"
+    },
+    {
+      "canonical_name": "cystic fibrosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cystic fibrosis",
+      "chunk_id": "chk_73a82f17da9ae2a02db03348e55cebb8"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_73a82f17da9ae2a02db03348e55cebb8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

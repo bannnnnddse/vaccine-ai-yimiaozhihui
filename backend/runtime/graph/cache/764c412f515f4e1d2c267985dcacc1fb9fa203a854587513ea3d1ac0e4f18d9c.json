@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_a945dc3ba1ec2ec6ceac6add73152716",
+  "content_hash": "3d32ee2ea475f9285fc8c62d6c738af5dca93dde9475bb69262f53ade93a7a72",
+  "entities": [
+    {
+      "canonical_name": "Neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Neutralizing antibody",
+      "chunk_id": "chk_a945dc3ba1ec2ec6ceac6add73152716"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 infection",
+      "chunk_id": "chk_a945dc3ba1ec2ec6ceac6add73152716"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

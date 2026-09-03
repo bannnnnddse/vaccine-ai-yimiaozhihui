@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_ae63158e4adc338059ab065ec332831e",
+  "content_hash": "62daa97eac56ac3575c4eb93be1aa402fb998a85d5675784f48a133551b3b73e",
+  "entities": [
+    {
+      "canonical_name": "发热",
+      "entity_type": "AdverseEvent",
+      "aliases": [
+        "发烧",
+        "发热"
+      ],
+      "surface_form": "发热",
+      "chunk_id": "chk_ae63158e4adc338059ab065ec332831e"
+    },
+    {
+      "canonical_name": "恶心",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "恶心",
+      "chunk_id": "chk_ae63158e4adc338059ab065ec332831e"
+    },
+    {
+      "canonical_name": "疼痛",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "疼痛",
+      "chunk_id": "chk_ae63158e4adc338059ab065ec332831e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_canonical_not_surface",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "quote_missing",
+    "quote_missing",
+    "quote_missing",
+    "quote_missing",
+    "quote_missing",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_7c581a1841f70e48295b1056f36449ba",
+  "content_hash": "957c75771824f100c260bc5599bfe5fe2806671055458bb23dad367326fa89a0",
+  "entities": [
+    {
+      "canonical_name": "ID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ID-19 vaccination",
+      "chunk_id": "chk_7c581a1841f70e48295b1056f36449ba"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

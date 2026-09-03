@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_26627bca426d07f2d55ce2620b95fa41",
+  "content_hash": "e2f622592d92567992f28e528916854bce3741f42dd9079fca58390f9253e048",
+  "entities": [
+    {
+      "canonical_name": "CRM197conjugated serogroup C meningococcal capsular polysaccharide",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CRM197conjugated serogroup C meningococcal capsular polysaccharide",
+      "chunk_id": "chk_26627bca426d07f2d55ce2620b95fa41"
+    },
+    {
+      "canonical_name": "native polysaccharide",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "native polysaccharide",
+      "chunk_id": "chk_26627bca426d07f2d55ce2620b95fa41"
+    },
+    {
+      "canonical_name": "protein – polysaccharide conjugate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "protein – polysaccharide conjugate vaccines",
+      "chunk_id": "chk_26627bca426d07f2d55ce2620b95fa41"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_26627bca426d07f2d55ce2620b95fa41"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

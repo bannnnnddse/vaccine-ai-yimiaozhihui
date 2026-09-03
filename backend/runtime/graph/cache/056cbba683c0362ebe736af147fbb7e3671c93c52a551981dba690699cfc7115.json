@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_992984e4944399654a25ae9e6b0943a8",
+  "content_hash": "4096cbe2f476e00fa878c384bd7501dd372fdef90c6dd8dceac9b2554c5ecfdc",
+  "entities": [
+    {
+      "canonical_name": "RTS,S vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RTS,S vaccine",
+      "chunk_id": "chk_992984e4944399654a25ae9e6b0943a8"
+    },
+    {
+      "canonical_name": "malaria vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "malaria vaccine",
+      "chunk_id": "chk_992984e4944399654a25ae9e6b0943a8"
+    },
+    {
+      "canonical_name": "HPV33/58/52 VLPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV33/58/52 VLPs",
+      "chunk_id": "chk_992984e4944399654a25ae9e6b0943a8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

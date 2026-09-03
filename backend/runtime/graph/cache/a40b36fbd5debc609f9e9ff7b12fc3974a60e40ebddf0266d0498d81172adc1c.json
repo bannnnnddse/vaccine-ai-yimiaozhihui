@@ -1,0 +1,39 @@
+{
+  "chunk_id": "91bcd32a55626adaed4870b54a07bd859d4566f40657c4988662721bfe474d18",
+  "content_hash": "b18aeeb1f53706a641e7ba0929bc2c42a7e87998ff4fc47328b54303e613872a",
+  "entities": [
+    {
+      "canonical_name": "cervical intraepithelial neoplasia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical intraepithelial neoplasia",
+      "chunk_id": "91bcd32a55626adaed4870b54a07bd859d4566f40657c4988662721bfe474d18"
+    },
+    {
+      "canonical_name": "young women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young women",
+      "chunk_id": "91bcd32a55626adaed4870b54a07bd859d4566f40657c4988662721bfe474d18"
+    },
+    {
+      "canonical_name": "neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibody",
+      "chunk_id": "91bcd32a55626adaed4870b54a07bd859d4566f40657c4988662721bfe474d18"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "91bcd32a55626adaed4870b54a07bd859d4566f40657c4988662721bfe474d18"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "unknown_endpoint"
+  ]
+}

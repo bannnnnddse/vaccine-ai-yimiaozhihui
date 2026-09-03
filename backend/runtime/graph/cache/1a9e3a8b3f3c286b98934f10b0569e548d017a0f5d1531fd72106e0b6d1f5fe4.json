@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_5cf621cffd60791c460678e9d6622590",
+  "content_hash": "c83ee60fbe50b0278a7f85fa4904ad5466cd621ef9a5a0bf8df67ff9a0b4fd99",
+  "entities": [
+    {
+      "canonical_name": "first-generation mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "first-generation mRNA vaccines",
+      "chunk_id": "chk_5cf621cffd60791c460678e9d6622590"
+    },
+    {
+      "canonical_name": "Omicron BA.5",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron BA.5",
+      "chunk_id": "chk_5cf621cffd60791c460678e9d6622590"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_5cf621cffd60791c460678e9d6622590"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_5cf621cffd60791c460678e9d6622590"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

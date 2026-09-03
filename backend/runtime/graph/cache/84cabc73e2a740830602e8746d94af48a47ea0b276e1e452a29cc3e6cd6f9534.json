@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_51f8aa67dbe4659c94db7e9dbfbb8ec0",
+  "content_hash": "329886ea1ddbe15c28f12f6773a9806c9e16c2cbb7d0bb65404a60b9b01b2176",
+  "entities": [
+    {
+      "canonical_name": "seasonal influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "seasonal influenza vaccination",
+      "chunk_id": "chk_51f8aa67dbe4659c94db7e9dbfbb8ec0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

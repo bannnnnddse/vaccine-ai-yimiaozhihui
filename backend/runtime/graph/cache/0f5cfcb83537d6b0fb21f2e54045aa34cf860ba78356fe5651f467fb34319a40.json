@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ab568c3eb81416d22451d6a2b469aeb8",
+  "content_hash": "bb848d7e44836ac0428f18c18a59fab97e14b0fc24ddd8b21f95989de7f7215f",
+  "entities": [
+    {
+      "canonical_name": "HER2-derived E75 peptide",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HER2-derived E75 peptide",
+      "chunk_id": "chk_ab568c3eb81416d22451d6a2b469aeb8"
+    },
+    {
+      "canonical_name": "Virus-like particle display of HER2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Virus-like particle display of HER2",
+      "chunk_id": "chk_ab568c3eb81416d22451d6a2b469aeb8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

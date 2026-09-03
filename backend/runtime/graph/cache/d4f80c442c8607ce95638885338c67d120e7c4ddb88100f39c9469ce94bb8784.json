@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_f479c556704ffc49dd38c9c9042fef4c",
+  "content_hash": "79eea523a55b8fb403c4f94faee8d304891520c29470c097b143ed49dad422ef",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_f479c556704ffc49dd38c9c9042fef4c"
+    },
+    {
+      "canonical_name": "BNT162b2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 vaccine",
+      "chunk_id": "chk_f479c556704ffc49dd38c9c9042fef4c"
+    },
+    {
+      "canonical_name": "mRNA-1273 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273 vaccine",
+      "chunk_id": "chk_f479c556704ffc49dd38c9c9042fef4c"
+    },
+    {
+      "canonical_name": "Death",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Death",
+      "chunk_id": "chk_f479c556704ffc49dd38c9c9042fef4c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

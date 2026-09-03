@@ -1,0 +1,57 @@
+{
+  "chunk_id": "332104c3b7e7a5647dd353a9c9c915fb2ec039b7c3379d7f78530512b4fc7928",
+  "content_hash": "782ad536f90e2497e04d81d5408656a631de24d22a229d9b47f0384bbd495f32",
+  "entities": [
+    {
+      "canonical_name": "monoclonal gammopathies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "monoclonal gammopathies",
+      "chunk_id": "332104c3b7e7a5647dd353a9c9c915fb2ec039b7c3379d7f78530512b4fc7928"
+    },
+    {
+      "canonical_name": "multiple myeloma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "multiple myeloma",
+      "chunk_id": "332104c3b7e7a5647dd353a9c9c915fb2ec039b7c3379d7f78530512b4fc7928"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "332104c3b7e7a5647dd353a9c9c915fb2ec039b7c3379d7f78530512b4fc7928"
+    },
+    {
+      "canonical_name": "wild-type strain",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "wild-type strain",
+      "chunk_id": "332104c3b7e7a5647dd353a9c9c915fb2ec039b7c3379d7f78530512b4fc7928"
+    },
+    {
+      "canonical_name": "neutralizing antibody responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibody responses",
+      "chunk_id": "332104c3b7e7a5647dd353a9c9c915fb2ec039b7c3379d7f78530512b4fc7928"
+    },
+    {
+      "canonical_name": "primary vaccine regimen",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "primary vaccine regimen",
+      "chunk_id": "332104c3b7e7a5647dd353a9c9c915fb2ec039b7c3379d7f78530512b4fc7928"
+    },
+    {
+      "canonical_name": "booster dose",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "booster dose",
+      "chunk_id": "332104c3b7e7a5647dd353a9c9c915fb2ec039b7c3379d7f78530512b4fc7928"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

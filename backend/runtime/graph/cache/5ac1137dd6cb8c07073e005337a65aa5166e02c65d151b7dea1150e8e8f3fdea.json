@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_45cb323ffcbc13279cf540f7e445e823",
+  "content_hash": "36a5cba724892fb52fbe62b0afbba12fecb67edea541816c26d1141a194837ed",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2 mRNA Covid-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 mRNA Covid-19 vaccine",
+      "chunk_id": "chk_45cb323ffcbc13279cf540f7e445e823"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

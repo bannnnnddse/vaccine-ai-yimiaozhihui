@@ -1,0 +1,55 @@
+{
+  "chunk_id": "chk_c90c5c487ae260d63e1bbe50c67c9bf6",
+  "content_hash": "d037c0013c7ef8084a2825c87363d7524caa1f50be225ccb5848b9e75e40e982",
+  "entities": [
+    {
+      "canonical_name": "AstraZeneca",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AstraZeneca",
+      "chunk_id": "chk_c90c5c487ae260d63e1bbe50c67c9bf6"
+    },
+    {
+      "canonical_name": "major thromboembolic events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "major thromboembolic events",
+      "chunk_id": "chk_c90c5c487ae260d63e1bbe50c67c9bf6"
+    },
+    {
+      "canonical_name": "thrombocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "thrombocytopenia",
+      "chunk_id": "chk_c90c5c487ae260d63e1bbe50c67c9bf6"
+    },
+    {
+      "canonical_name": "thrombotic thrombocytopenia syndrome",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "thrombotic thrombocytopenia syndrome",
+      "chunk_id": "chk_c90c5c487ae260d63e1bbe50c67c9bf6"
+    },
+    {
+      "canonical_name": "cerebral venous sinus thrombosis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "cerebral venous sinus thrombosis",
+      "chunk_id": "chk_c90c5c487ae260d63e1bbe50c67c9bf6"
+    },
+    {
+      "canonical_name": "viral vector vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "viral vector vaccines",
+      "chunk_id": "chk_c90c5c487ae260d63e1bbe50c67c9bf6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "invalid_domain_range",
+    "source_missing_from_quote"
+  ]
+}

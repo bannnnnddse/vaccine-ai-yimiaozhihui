@@ -1,0 +1,64 @@
+{
+  "chunk_id": "126817e28c7ca6e310e2a0e191c0c868a66e671f72d9862a1a6ba4d11b62e5c6",
+  "content_hash": "3460739326bc30a97462708c0cac45a90b72623d2628c3c98e5412d815e41b00",
+  "entities": [
+    {
+      "canonical_name": "gp120-NefTat/AS01B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "gp120-NefTat/AS01B vaccine",
+      "chunk_id": "126817e28c7ca6e310e2a0e191c0c868a66e671f72d9862a1a6ba4d11b62e5c6"
+    },
+    {
+      "canonical_name": "clade C.1086 V1V2 antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "clade C.1086 V1V2 antigen",
+      "chunk_id": "126817e28c7ca6e310e2a0e191c0c868a66e671f72d9862a1a6ba4d11b62e5c6"
+    },
+    {
+      "canonical_name": "gp120 (Clone W6.1D) antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "gp120 (Clone W6.1D) antigen",
+      "chunk_id": "126817e28c7ca6e310e2a0e191c0c868a66e671f72d9862a1a6ba4d11b62e5c6"
+    },
+    {
+      "canonical_name": "IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG",
+      "chunk_id": "126817e28c7ca6e310e2a0e191c0c868a66e671f72d9862a1a6ba4d11b62e5c6"
+    },
+    {
+      "canonical_name": "IgG1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG1",
+      "chunk_id": "126817e28c7ca6e310e2a0e191c0c868a66e671f72d9862a1a6ba4d11b62e5c6"
+    },
+    {
+      "canonical_name": "IgG3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG3",
+      "chunk_id": "126817e28c7ca6e310e2a0e191c0c868a66e671f72d9862a1a6ba4d11b62e5c6"
+    },
+    {
+      "canonical_name": "IgG4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG4",
+      "chunk_id": "126817e28c7ca6e310e2a0e191c0c868a66e671f72d9862a1a6ba4d11b62e5c6"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "126817e28c7ca6e310e2a0e191c0c868a66e671f72d9862a1a6ba4d11b62e5c6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

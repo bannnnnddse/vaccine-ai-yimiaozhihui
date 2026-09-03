@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_f430ee3a29d3e272d85a91c6ceff7f63",
+  "content_hash": "2ab8efcea56e071211ce917586dd012a6b66fa51213c86a32b4328fba3721ebc",
+  "entities": [
+    {
+      "canonical_name": "RV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RV infection",
+      "chunk_id": "chk_f430ee3a29d3e272d85a91c6ceff7f63"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

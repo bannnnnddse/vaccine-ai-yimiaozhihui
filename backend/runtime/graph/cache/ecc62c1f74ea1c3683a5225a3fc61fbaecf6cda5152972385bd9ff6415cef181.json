@@ -1,0 +1,36 @@
+{
+  "chunk_id": "099d4a7e248d94ad74a4599ff2e8619df2ed7c6f36367732d745d9396e213b9a",
+  "content_hash": "755ad8e98de2b6e2fb2f6d4ef5e7c8c1721e150714742b2b5979d64eb3bd8c59",
+  "entities": [
+    {
+      "canonical_name": "adverse side effects",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse side effects",
+      "chunk_id": "099d4a7e248d94ad74a4599ff2e8619df2ed7c6f36367732d745d9396e213b9a"
+    },
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "099d4a7e248d94ad74a4599ff2e8619df2ed7c6f36367732d745d9396e213b9a"
+    },
+    {
+      "canonical_name": "AstraZeneca COVID vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AstraZeneca COVID vaccination",
+      "chunk_id": "099d4a7e248d94ad74a4599ff2e8619df2ed7c6f36367732d745d9396e213b9a"
+    },
+    {
+      "canonical_name": "COVID-19 pandemic",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19 pandemic",
+      "chunk_id": "099d4a7e248d94ad74a4599ff2e8619df2ed7c6f36367732d745d9396e213b9a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

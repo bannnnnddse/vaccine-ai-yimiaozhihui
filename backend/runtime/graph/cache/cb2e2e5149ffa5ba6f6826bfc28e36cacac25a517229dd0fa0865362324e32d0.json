@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_c10f313fde99bd002814a2325e1f6c6c",
+  "content_hash": "faaea4364372e27192a09a7a84314d926d90604ddb5c87c08ff32bbab23e8402",
+  "entities": [
+    {
+      "canonical_name": "HBsAg vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBsAg vaccine",
+      "chunk_id": "chk_c10f313fde99bd002814a2325e1f6c6c"
+    },
+    {
+      "canonical_name": "CD4 + T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4 + T cells",
+      "chunk_id": "chk_c10f313fde99bd002814a2325e1f6c6c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

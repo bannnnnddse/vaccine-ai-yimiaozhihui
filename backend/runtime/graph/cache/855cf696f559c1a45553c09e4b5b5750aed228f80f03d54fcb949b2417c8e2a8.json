@@ -1,0 +1,36 @@
+{
+  "chunk_id": "0b09886c244112d008b062976a23d56188fdf21479547617335c45590b1a6239",
+  "content_hash": "4d7f6b731db5605ae0a2ddb40d84ea286ae03c92ce10d92bafa3c95a44c69a72",
+  "entities": [
+    {
+      "canonical_name": "VLPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VLPs",
+      "chunk_id": "0b09886c244112d008b062976a23d56188fdf21479547617335c45590b1a6239"
+    },
+    {
+      "canonical_name": "NPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "NPs",
+      "chunk_id": "0b09886c244112d008b062976a23d56188fdf21479547617335c45590b1a6239"
+    },
+    {
+      "canonical_name": "NP vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "NP vaccines",
+      "chunk_id": "0b09886c244112d008b062976a23d56188fdf21479547617335c45590b1a6239"
+    },
+    {
+      "canonical_name": "VLP vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VLP vaccines",
+      "chunk_id": "0b09886c244112d008b062976a23d56188fdf21479547617335c45590b1a6239"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

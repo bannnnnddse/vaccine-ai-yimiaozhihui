@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_82f7dda6934fbfad5f66ad9e26709158",
+  "content_hash": "6675fcd2643e826822bb17ee3195049ed9e260cf7b3c9cfdf091f2f0d6328d03",
+  "entities": [
+    {
+      "canonical_name": "anti‐HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti‐HBs",
+      "chunk_id": "chk_82f7dda6934fbfad5f66ad9e26709158"
+    },
+    {
+      "canonical_name": "HBsAg vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBsAg vaccination",
+      "chunk_id": "chk_82f7dda6934fbfad5f66ad9e26709158"
+    },
+    {
+      "canonical_name": "individuals older than 40 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals older than 40 years",
+      "chunk_id": "chk_82f7dda6934fbfad5f66ad9e26709158"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

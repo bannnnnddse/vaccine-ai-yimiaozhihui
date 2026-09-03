@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8ff6c767a9c0e89a2de2fa28a0c38834",
+  "content_hash": "45de21a81f1ca3aa85d8be15839a2f4099ce96035313e4f9f1f96a965fe55d9c",
+  "entities": [
+    {
+      "canonical_name": "W disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "W disease",
+      "chunk_id": "chk_8ff6c767a9c0e89a2de2fa28a0c38834"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_8ff6c767a9c0e89a2de2fa28a0c38834"
+    },
+    {
+      "canonical_name": "new students",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "new students",
+      "chunk_id": "chk_8ff6c767a9c0e89a2de2fa28a0c38834"
+    },
+    {
+      "canonical_name": "emergency vaccination programme",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "emergency vaccination programme",
+      "chunk_id": "chk_8ff6c767a9c0e89a2de2fa28a0c38834"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

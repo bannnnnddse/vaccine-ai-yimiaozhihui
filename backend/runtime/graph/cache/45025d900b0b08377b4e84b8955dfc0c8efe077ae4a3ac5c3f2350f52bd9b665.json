@@ -1,0 +1,66 @@
+{
+  "chunk_id": "chk_47b61a21f728b903801888e6d61ea1fd",
+  "content_hash": "0f9d01cc78e0a98f0cf2c7047270e74cd441febb21eb7a4688e59d81bca511e3",
+  "entities": [
+    {
+      "canonical_name": "VAT00002: SARS - CoV - 2 spike protein with adjuvant",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VAT00002: SARS - CoV - 2 spike protein with adjuvant",
+      "chunk_id": "chk_47b61a21f728b903801888e6d61ea1fd"
+    },
+    {
+      "canonical_name": "Inactivated SARS - CoV - 2 vaccine (Vero cell)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Inactivated SARS - CoV - 2 vaccine (Vero cell)",
+      "chunk_id": "chk_47b61a21f728b903801888e6d61ea1fd"
+    },
+    {
+      "canonical_name": "FINLAY- Y- FR - 2 anti - SARS - CoV - 2 vaccine (RBD chemically conjugated to tetanus toxoid plus adjuvant)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "FINLAY- Y- FR - 2 anti - SARS - CoV - 2 vaccine (RBD chemically conjugated to tetanus toxoid plus adjuvant)",
+      "chunk_id": "chk_47b61a21f728b903801888e6d61ea1fd"
+    },
+    {
+      "canonical_name": "EpiVacCorona",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EpiVacCorona",
+      "chunk_id": "chk_47b61a21f728b903801888e6d61ea1fd"
+    },
+    {
+      "canonical_name": "RBD (baculovirus production expressed in Sf9 cells) Recombinant SARS - CoV - 2 vaccine (Sf9 Cell)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBD (baculovirus production expressed in Sf9 cells) Recombinant SARS - CoV - 2 vaccine (Sf9 Cell)",
+      "chunk_id": "chk_47b61a21f728b903801888e6d61ea1fd"
+    },
+    {
+      "canonical_name": "SARS - CoV - 2 mRNA vaccine (ARCoV)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS - CoV - 2 mRNA vaccine (ARCoV)",
+      "chunk_id": "chk_47b61a21f728b903801888e6d61ea1fd"
+    },
+    {
+      "canonical_name": "CIGB - 66 (RBD+aluminium hydroxide)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CIGB - 66 (RBD+aluminium hydroxide)",
+      "chunk_id": "chk_47b61a21f728b903801888e6d61ea1fd"
+    },
+    {
+      "canonical_name": "COVID - 19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID - 19",
+      "chunk_id": "chk_47b61a21f728b903801888e6d61ea1fd"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

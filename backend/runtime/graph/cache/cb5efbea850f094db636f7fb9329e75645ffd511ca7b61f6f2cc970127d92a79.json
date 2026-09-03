@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_0cacddc5f529a7998b9ffef68b1f799e",
+  "content_hash": "4867563fd8672c8791d8eb3a4428c8a1c8972b5ae1738a05e3055b596464f147",
+  "entities": [
+    {
+      "canonical_name": "Puumala hantavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Puumala hantavirus",
+      "chunk_id": "chk_0cacddc5f529a7998b9ffef68b1f799e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

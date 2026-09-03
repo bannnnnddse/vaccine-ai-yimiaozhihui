@@ -1,0 +1,34 @@
+{
+  "chunk_id": "51df45f9f1fb34c1ff03d0b7c6a19f65bfa4eba36741f1ccc82dde33f306c11a",
+  "content_hash": "861bd09ae21e03e2c5ac94be69e3ec61aac98a470de3f2a0e6905d7d731a3b9c",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "51df45f9f1fb34c1ff03d0b7c6a19f65bfa4eba36741f1ccc82dde33f306c11a"
+    },
+    {
+      "canonical_name": "children under 15 years of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under 15 years of age",
+      "chunk_id": "51df45f9f1fb34c1ff03d0b7c6a19f65bfa4eba36741f1ccc82dde33f306c11a"
+    },
+    {
+      "canonical_name": "those 15 years of age and older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "those 15 years of age and older",
+      "chunk_id": "51df45f9f1fb34c1ff03d0b7c6a19f65bfa4eba36741f1ccc82dde33f306c11a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "quote_missing"
+  ]
+}

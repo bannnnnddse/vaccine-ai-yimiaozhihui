@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_105de6522fcab8cd8070259981d9d53d",
+  "content_hash": "0e09e2e781fde84ab5217aa744713953b53ec7b8299dc0ca974744a8b4e02591",
+  "entities": [
+    {
+      "canonical_name": "yellow fever vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "yellow fever vaccine",
+      "chunk_id": "chk_105de6522fcab8cd8070259981d9d53d"
+    },
+    {
+      "canonical_name": "varicella zoster",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "varicella zoster",
+      "chunk_id": "chk_105de6522fcab8cd8070259981d9d53d"
+    },
+    {
+      "canonical_name": "measles– mumps",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles– mumps",
+      "chunk_id": "chk_105de6522fcab8cd8070259981d9d53d"
+    },
+    {
+      "canonical_name": "booster vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "booster vaccination",
+      "chunk_id": "chk_105de6522fcab8cd8070259981d9d53d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

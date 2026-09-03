@@ -1,0 +1,22 @@
+{
+  "chunk_id": "8eac540721eeb9de20d1a4a43e908e35d4622b37d49679887890bbabdfa364a6",
+  "content_hash": "1bd72f579eef078aff7dd85f5822193196d42a7a0f6178bb0487f99a39c17588",
+  "entities": [
+    {
+      "canonical_name": "diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diarrhea",
+      "chunk_id": "8eac540721eeb9de20d1a4a43e908e35d4622b37d49679887890bbabdfa364a6"
+    },
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "8eac540721eeb9de20d1a4a43e908e35d4622b37d49679887890bbabdfa364a6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

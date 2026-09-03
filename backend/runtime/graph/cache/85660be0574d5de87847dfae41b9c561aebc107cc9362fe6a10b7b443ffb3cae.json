@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_aa64d97e0fe97d1dad38a89fdc0df333",
+  "content_hash": "4e0cc671d42bd70751ce4f5e939a6a1735dc13f449566c887d300d32008818f9",
+  "entities": [
+    {
+      "canonical_name": "Group A rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Group A rotavirus",
+      "chunk_id": "chk_aa64d97e0fe97d1dad38a89fdc0df333"
+    },
+    {
+      "canonical_name": "rotavirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus infection",
+      "chunk_id": "chk_aa64d97e0fe97d1dad38a89fdc0df333"
+    },
+    {
+      "canonical_name": "age-dependent diarrheal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "age-dependent diarrheal disease",
+      "chunk_id": "chk_aa64d97e0fe97d1dad38a89fdc0df333"
+    },
+    {
+      "canonical_name": "rats",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "rats",
+      "chunk_id": "chk_aa64d97e0fe97d1dad38a89fdc0df333"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

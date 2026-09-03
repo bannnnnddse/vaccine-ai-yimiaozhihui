@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_3bfa8b0b25904f41c1635f871dae2f40",
+  "content_hash": "0eecbdcc006573d1dbda278f00c1a6b2725929d0e4c60fa25a733e03b1e5a21e",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_3bfa8b0b25904f41c1635f871dae2f40"
+    },
+    {
+      "canonical_name": "tourists",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "tourists",
+      "chunk_id": "chk_3bfa8b0b25904f41c1635f871dae2f40"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

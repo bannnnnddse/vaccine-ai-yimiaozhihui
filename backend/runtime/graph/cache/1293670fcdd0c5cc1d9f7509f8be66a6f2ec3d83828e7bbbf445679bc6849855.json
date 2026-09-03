@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_175f051da5d7ed1e7dc36ddedbc377ed",
+  "content_hash": "536fe292ddf936616b88e3da574293637b6458969349fa79f175e16592873754",
+  "entities": [
+    {
+      "canonical_name": "IL-6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-6",
+      "chunk_id": "chk_175f051da5d7ed1e7dc36ddedbc377ed"
+    },
+    {
+      "canonical_name": "IL-21",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-21",
+      "chunk_id": "chk_175f051da5d7ed1e7dc36ddedbc377ed"
+    },
+    {
+      "canonical_name": "CD4+ T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4+ T cells",
+      "chunk_id": "chk_175f051da5d7ed1e7dc36ddedbc377ed"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_175f051da5d7ed1e7dc36ddedbc377ed"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_175f051da5d7ed1e7dc36ddedbc377ed"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

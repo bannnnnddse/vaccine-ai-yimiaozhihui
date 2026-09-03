@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6d951fa482ea6c3ef577f6a48aa6b0bc",
+  "content_hash": "dbacd67fffa5c12f70933bd2a666c902abdc7f9dd40b1d33b635eb0b5fca7714",
+  "entities": [
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_6d951fa482ea6c3ef577f6a48aa6b0bc"
+    },
+    {
+      "canonical_name": "preventable diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "preventable diseases",
+      "chunk_id": "chk_6d951fa482ea6c3ef577f6a48aa6b0bc"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_6d951fa482ea6c3ef577f6a48aa6b0bc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_b67fef66b0c7bc6d33aaccbea73e452b",
+  "content_hash": "e116df898ad14ca2adab596786ff5ada551d3e89670d8aef18b8ff90abecc075",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_b67fef66b0c7bc6d33aaccbea73e452b"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_b67fef66b0c7bc6d33aaccbea73e452b"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_b67fef66b0c7bc6d33aaccbea73e452b"
+    },
+    {
+      "canonical_name": "wild-type SARSCoV-2 strain",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "wild-type SARSCoV-2 strain",
+      "chunk_id": "chk_b67fef66b0c7bc6d33aaccbea73e452b"
+    },
+    {
+      "canonical_name": "virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "virus",
+      "chunk_id": "chk_b67fef66b0c7bc6d33aaccbea73e452b"
+    },
+    {
+      "canonical_name": "elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly",
+      "chunk_id": "chk_b67fef66b0c7bc6d33aaccbea73e452b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "quote_missing"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_51636f335f557371fa72cd594fe76153",
+  "content_hash": "bcfe7ee9c4004c2a0629f8113eff2e0fca18401245f2e1bf152f25f9f461e5d2",
+  "entities": [
+    {
+      "canonical_name": "Human papilloma virus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Human papilloma virus",
+      "chunk_id": "chk_51636f335f557371fa72cd594fe76153"
+    },
+    {
+      "canonical_name": "diphtheria- - pertussis - tetanus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria- - pertussis - tetanus",
+      "chunk_id": "chk_51636f335f557371fa72cd594fe76153"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_51636f335f557371fa72cd594fe76153"
+    },
+    {
+      "canonical_name": "Pneumo - coccal",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pneumo - coccal",
+      "chunk_id": "chk_51636f335f557371fa72cd594fe76153"
+    },
+    {
+      "canonical_name": "Adolescent",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adolescent",
+      "chunk_id": "chk_51636f335f557371fa72cd594fe76153"
+    },
+    {
+      "canonical_name": "Adults > 65 years old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adults > 65 years old",
+      "chunk_id": "chk_51636f335f557371fa72cd594fe76153"
+    },
+    {
+      "canonical_name": "patients with chronic condi tions (pulmonary, cardiac, liver, immune - compro ‐ mised, diabetic, asplenia patients)",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients with chronic condi tions (pulmonary, cardiac, liver, immune - compro ‑ mised, diabetic, asplenia patients)",
+      "chunk_id": "chk_51636f335f557371fa72cd594fe76153"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

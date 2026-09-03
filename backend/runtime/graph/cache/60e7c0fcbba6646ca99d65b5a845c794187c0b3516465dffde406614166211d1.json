@@ -1,0 +1,22 @@
+{
+  "chunk_id": "14f3ff84bb0be0d6214e4de35363aebbc3c8e887aa3d6289a549957521a07cc2",
+  "content_hash": "1d7ed2ea02f7a72f0baa77a563e03f16b84c58c61434008bcb3888154f5d2ae5",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "14f3ff84bb0be0d6214e4de35363aebbc3c8e887aa3d6289a549957521a07cc2"
+    },
+    {
+      "canonical_name": "aging populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "aging populations",
+      "chunk_id": "14f3ff84bb0be0d6214e4de35363aebbc3c8e887aa3d6289a549957521a07cc2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

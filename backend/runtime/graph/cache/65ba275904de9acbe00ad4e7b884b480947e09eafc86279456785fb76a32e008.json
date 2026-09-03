@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_368c541e911b8f45059e96a6dafaf565",
+  "content_hash": "2ef575d66345ba189baf50d1ef73683ab62df0d855c80389363e19c16ce0720d",
+  "entities": [
+    {
+      "canonical_name": "Fc",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fc",
+      "chunk_id": "chk_368c541e911b8f45059e96a6dafaf565"
+    },
+    {
+      "canonical_name": "mAbs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mAbs",
+      "chunk_id": "chk_368c541e911b8f45059e96a6dafaf565"
+    },
+    {
+      "canonical_name": "Ebola virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Ebola virus",
+      "chunk_id": "chk_368c541e911b8f45059e96a6dafaf565"
+    },
+    {
+      "canonical_name": "IgG1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG1",
+      "chunk_id": "chk_368c541e911b8f45059e96a6dafaf565"
+    },
+    {
+      "canonical_name": "IgG3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG3",
+      "chunk_id": "chk_368c541e911b8f45059e96a6dafaf565"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

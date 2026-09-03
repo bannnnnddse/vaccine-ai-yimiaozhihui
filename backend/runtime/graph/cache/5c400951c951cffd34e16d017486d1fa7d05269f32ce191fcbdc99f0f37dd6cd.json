@@ -1,0 +1,64 @@
+{
+  "chunk_id": "15219c61a288496f17f32d3a442aec8931457dea048542bd9079452866535315",
+  "content_hash": "cc7047217f69d11ebf16784aa38365a0fe84b8181ec514f48a5899ea77ebf2e2",
+  "entities": [
+    {
+      "canonical_name": "Fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Fever",
+      "chunk_id": "15219c61a288496f17f32d3a442aec8931457dea048542bd9079452866535315"
+    },
+    {
+      "canonical_name": "shivering",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "shivering",
+      "chunk_id": "15219c61a288496f17f32d3a442aec8931457dea048542bd9079452866535315"
+    },
+    {
+      "canonical_name": "injection-site pain",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "injection-site pain",
+      "chunk_id": "15219c61a288496f17f32d3a442aec8931457dea048542bd9079452866535315"
+    },
+    {
+      "canonical_name": "redness",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "redness",
+      "chunk_id": "15219c61a288496f17f32d3a442aec8931457dea048542bd9079452866535315"
+    },
+    {
+      "canonical_name": "headache",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "headache",
+      "chunk_id": "15219c61a288496f17f32d3a442aec8931457dea048542bd9079452866535315"
+    },
+    {
+      "canonical_name": "nausea/vomiting",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "nausea/vomiting",
+      "chunk_id": "15219c61a288496f17f32d3a442aec8931457dea048542bd9079452866535315"
+    },
+    {
+      "canonical_name": "diarrhoea",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "diarrhoea",
+      "chunk_id": "15219c61a288496f17f32d3a442aec8931457dea048542bd9079452866535315"
+    },
+    {
+      "canonical_name": "Covid vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Covid vaccines",
+      "chunk_id": "15219c61a288496f17f32d3a442aec8931457dea048542bd9079452866535315"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

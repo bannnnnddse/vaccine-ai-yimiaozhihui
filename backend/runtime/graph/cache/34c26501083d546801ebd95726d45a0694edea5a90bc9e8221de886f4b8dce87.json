@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_0b1d51b72c42d2fbb9a4e79fa56dca62",
+  "content_hash": "0daff3192ce319d389744f4fb6cddbd1dd46fffe987fb1f83a0ce8dc6130a06a",
+  "entities": [
+    {
+      "canonical_name": "Bacille Calmette-Guerin",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Bacille Calmette-Guerin",
+      "chunk_id": "chk_0b1d51b72c42d2fbb9a4e79fa56dca62"
+    },
+    {
+      "canonical_name": "NOD2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NOD2",
+      "chunk_id": "chk_0b1d51b72c42d2fbb9a4e79fa56dca62"
+    },
+    {
+      "canonical_name": "monocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monocytes",
+      "chunk_id": "chk_0b1d51b72c42d2fbb9a4e79fa56dca62"
+    },
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_0b1d51b72c42d2fbb9a4e79fa56dca62"
+    },
+    {
+      "canonical_name": "low-birth-weight infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "low-birth-weight infants",
+      "chunk_id": "chk_0b1d51b72c42d2fbb9a4e79fa56dca62"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

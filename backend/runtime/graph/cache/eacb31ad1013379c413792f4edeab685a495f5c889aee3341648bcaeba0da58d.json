@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_8a91671619b33c61243b8978caf978ce",
+  "content_hash": "824c1ceb7692073c3146eb4965cf29b5fc803567eb4938f80d47313914303124",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_8a91671619b33c61243b8978caf978ce"
+    },
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_8a91671619b33c61243b8978caf978ce"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

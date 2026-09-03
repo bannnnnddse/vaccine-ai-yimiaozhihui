@@ -1,0 +1,15 @@
+{
+  "chunk_id": "07c9b56f068841ae0a94e537e82a2d9d30e6ac25c2ec1b73e6c4d3006d4e5265",
+  "content_hash": "71272a8ae889cf37a844ecd90b4cc93c20ee8dce24fb4b9b1d7c6afb11159d1f",
+  "entities": [
+    {
+      "canonical_name": "epitope peptide-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "epitope peptide-based vaccines",
+      "chunk_id": "07c9b56f068841ae0a94e537e82a2d9d30e6ac25c2ec1b73e6c4d3006d4e5265"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

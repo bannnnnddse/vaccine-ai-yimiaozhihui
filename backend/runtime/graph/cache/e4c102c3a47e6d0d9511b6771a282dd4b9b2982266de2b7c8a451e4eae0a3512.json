@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_763ffa6566ff216922e13518628e81d5",
+  "content_hash": "c2ca52f8de816567fcd50ee831b53ab3bc0969eefb0e8281d7f3d8e3cf6f9bd7",
+  "entities": [
+    {
+      "canonical_name": "adverse events following immunizations",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events following immunizations",
+      "chunk_id": "chk_763ffa6566ff216922e13518628e81d5"
+    },
+    {
+      "canonical_name": "serious adverse events following immunization",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serious adverse events following immunization",
+      "chunk_id": "chk_763ffa6566ff216922e13518628e81d5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_6cb7dd1eb8f010c8999b7ebe1ad0b274",
+  "content_hash": "8080aa935f1c4cbce92216250e9c7b77760b273ac86260bc61484ad101aedced",
+  "entities": [
+    {
+      "canonical_name": "premature infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "premature infants",
+      "chunk_id": "chk_6cb7dd1eb8f010c8999b7ebe1ad0b274"
+    },
+    {
+      "canonical_name": "preterm infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "preterm infants",
+      "chunk_id": "chk_6cb7dd1eb8f010c8999b7ebe1ad0b274"
+    },
+    {
+      "canonical_name": "Tdap",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Tdap",
+      "chunk_id": "chk_6cb7dd1eb8f010c8999b7ebe1ad0b274"
+    },
+    {
+      "canonical_name": "poliovirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "poliovirus vaccine",
+      "chunk_id": "chk_6cb7dd1eb8f010c8999b7ebe1ad0b274"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

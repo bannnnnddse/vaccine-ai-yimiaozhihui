@@ -1,0 +1,4591 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "doc_d27a0e8d146c3b4d3d2d3749",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 11278714940918102175,
+    "filename": "doc_d27a0e8d146c3b4d3d2d3749.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/groups/4"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        },
+        {
+          "$ref": "#/texts/107"
+        },
+        {
+          "$ref": "#/texts/108"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 256.6683654785156,
+            "t": 746.0635375976562,
+            "r": 347.40924072265625,
+            "b": 739.7003173828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Vaccine 37 (2019) 2529\u20132531",
+      "text": "Vaccine 37 (2019) 2529\u20132531"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.08251190185547,
+            "t": 634.1726684570312,
+            "r": 138.49111938476562,
+            "b": 626.5596313476562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Short communication",
+      "text": "Short communication",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.098350524902344,
+            "t": 615.241455078125,
+            "r": 491.19000244140625,
+            "b": 567.3499145507812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            148
+          ]
+        }
+      ],
+      "orig": "Persistence of the immune response after vaccination with the Japanese encephalitis vaccine, IXIARO \u0001 in healthy adults: A five year follow-up study",
+      "text": "Persistence of the immune response after vaccination with the Japanese encephalitis vaccine, IXIARO \u0001 in healthy adults: A five year follow-up study",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.10822296142578,
+            "t": 557.8564453125,
+            "r": 351.5060119628906,
+            "b": 545.4462280273438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "Christian Taucher a , \u21d1 , Herwig Kollaritsch b , Katrin L. Dubischar a",
+      "text": "Christian Taucher a , \u21d1 , Herwig Kollaritsch b , Katrin L. Dubischar a"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.76288986206055,
+            "t": 537.6928100585938,
+            "r": 237.3077392578125,
+            "b": 531.183837890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "a Valneva Austria GmbH, Campus Vienna Biocenter, Vienna, Austria",
+      "text": "a Valneva Austria GmbH, Campus Vienna Biocenter, Vienna, Austria",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.73419952392578,
+            "t": 530.143798828125,
+            "r": 522.9215698242188,
+            "b": 522.6232299804688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "b Department of Specific Prophylaxis and Tropical Medicine at the Institute of Pathophysiology, Medical University Vienna, Kinderspitalgasse 15, 1090 Vienna, Austria",
+      "text": "b Department of Specific Prophylaxis and Tropical Medicine at the Institute of Pathophysiology, Medical University Vienna, Kinderspitalgasse 15, 1090 Vienna, Austria"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.632999420166016,
+            "t": 495.8775329589844,
+            "r": 136.54782104492188,
+            "b": 490.63226318359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "article info",
+      "text": "article info",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.198848724365234,
+            "t": 476.715576171875,
+            "r": 84.86038208007812,
+            "b": 470.3523254394531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Article history:",
+      "text": "Article history:"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.539344787597656,
+            "t": 468.1551513671875,
+            "r": 166.1656036376953,
+            "b": 436.11065673828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "Received 29 November 2018 Received in revised form 13 March 2019 Accepted 14 March 2019 Available online 5 April 2019",
+      "text": "Received 29 November 2018 Received in revised form 13 March 2019 Accepted 14 March 2019 Available online 5 April 2019"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.57208251953125,
+            "t": 422.4048156738281,
+            "r": 72.35238647460938,
+            "b": 416.04156494140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Keywords:",
+      "text": "Keywords:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.03514862060547,
+            "t": 413.8443908691406,
+            "r": 107.21197509765625,
+            "b": 365.9102478027344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "Japanese encephalitis Immunogenicity Safety Traveler IC51 IXIARO \u0001",
+      "text": "Japanese encephalitis Immunogenicity Safety Traveler IC51 IXIARO \u0001"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.82745361328125,
+            "t": 362.3270263671875,
+            "r": 86.77108001708984,
+            "b": 356.0594177246094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Seroprotection",
+      "text": "Seroprotection"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.12411880493164,
+            "t": 322.23797607421875,
+            "r": 102.59359741210938,
+            "b": 315.84588623046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "1. Introduction",
+      "text": "1. Introduction",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.654685974121094,
+            "t": 301.318603515625,
+            "r": 293.59332275390625,
+            "b": 167.84698486328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            850
+          ]
+        }
+      ],
+      "orig": "Japanese encephalitis (JE) is endemic in many tropical and subtropical countries in Asia [1]. In industrialized countries, rare cases of the disease have been reported among travelers to endemic areas [2]. In an analysis of early time points in this trial [3] it was shown that 12 months after primary vaccination with IXIARO \u00011 (development code IC51), 83% of subjects still had protective neutralizing antibodies. At 6 months, the percentages of subjects with adverse events (AEs) and serious AEs (SAEs) were comparable between treatment groups (including placebo). At 12 months after first vaccination, the safety profile was similar to that at 6 months, although the frequencies had increased due to the longer observation time. No SAEs were considered as possibly or probably related to study vaccine and no AEs led to withdrawal from the study.",
+      "text": "Japanese encephalitis (JE) is endemic in many tropical and subtropical countries in Asia [1]. In industrialized countries, rare cases of the disease have been reported among travelers to endemic areas [2]. In an analysis of early time points in this trial [3] it was shown that 12 months after primary vaccination with IXIARO \u00011 (development code IC51), 83% of subjects still had protective neutralizing antibodies. At 6 months, the percentages of subjects with adverse events (AEs) and serious AEs (SAEs) were comparable between treatment groups (including placebo). At 12 months after first vaccination, the safety profile was similar to that at 6 months, although the frequencies had increased due to the longer observation time. No SAEs were considered as possibly or probably related to study vaccine and no AEs led to withdrawal from the study."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.871803283691406,
+            "t": 165.3120880126953,
+            "r": 293.36004638671875,
+            "b": 126.00704956054688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            250
+          ]
+        }
+      ],
+      "orig": "This is a further follow-up to the uncontrolled, multi-centric phase 3 follow-up study with the aim to document the persistence of JE virus (JEV)-neutralizing antibodies at 24, 36, 48 and 60 months after the primary immunization in healthy travelers.",
+      "text": "This is a further follow-up to the uncontrolled, multi-centric phase 3 follow-up study with the aim to document the persistence of JE virus (JEV)-neutralizing antibodies at 24, 36, 48 and 60 months after the primary immunization in healthy travelers."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.115760803222656,
+            "t": 106.90776062011719,
+            "r": 293.30963134765625,
+            "b": 92.44954681396484,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "\u21d1 Corresponding author at: Valneva Austria GmbH, Campus Vienna Biocenter 3, 1030 Vienna, Austria.",
+      "text": "\u21d1 Corresponding author at: Valneva Austria GmbH, Campus Vienna Biocenter 3, 1030 Vienna, Austria."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.47785186767578,
+            "t": 88.93636322021484,
+            "r": 235.28514099121094,
+            "b": 82.5731201171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "E-mail address: christian.taucher@valneva.com (C. Taucher).",
+      "text": "E-mail address: christian.taucher@valneva.com (C. Taucher)."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 48.454044342041016,
+            "t": 81.04535675048828,
+            "r": 207.9879913330078,
+            "b": 73.72882080078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "1 IXIARO is a registered trademark of Valneva GmbH.",
+      "text": "1 IXIARO is a registered trademark of Valneva GmbH."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 207.15589904785156,
+            "t": 495.5940246582031,
+            "r": 272.2879943847656,
+            "b": 490.3487548828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "abstract",
+      "text": "abstract",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 207.3411865234375,
+            "t": 477.11395263671875,
+            "r": 562.2650756835938,
+            "b": 440.53533935546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            425
+          ]
+        }
+      ],
+      "orig": "Immunization with the Japanese encephalitis (JE) vaccine IXIARO \u0001 results in protective neutralizing antibody levels for one year. Since persistence of protective titer levels beyond one year was unknown, a 5 years follow-up study was conducted. Additionally, data were stratified to compare the persistence of protective neutralizing antibodies against JE in people with or without tick-borne encephalitis (TBE) vaccination.",
+      "text": "Immunization with the Japanese encephalitis (JE) vaccine IXIARO \u0001 results in protective neutralizing antibody levels for one year. Since persistence of protective titer levels beyond one year was unknown, a 5 years follow-up study was conducted. Additionally, data were stratified to compare the persistence of protective neutralizing antibodies against JE in people with or without tick-borne encephalitis (TBE) vaccination."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 207.3492889404297,
+            "t": 438.1130065917969,
+            "r": 562.302734375,
+            "b": 383.1054992675781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            569
+          ]
+        }
+      ],
+      "orig": "Four weeks after the primary series, the percentage of subjects with PRNT50 titer \u00011:10 in the intent-totreat population was 99%; the rate after 5 years was 81.6%. Bymonth 24, 36, 48 and 60, the percentages were still 90.7%, 91.7%, 90.1%, 85.9%, respectively in the population who had received TBE vaccine compared to 67.9%, 71.9%, 69.1%, 63.8% in the population who had not. No long-term safety concerns were identified. These data indicate that vaccination with IXIARO \u0001 is able to induce protective titers that persist up to 60 months after the primary immunization.",
+      "text": "Four weeks after the primary series, the percentage of subjects with PRNT50 titer \u00011:10 in the intent-totreat population was 99%; the rate after 5 years was 81.6%. Bymonth 24, 36, 48 and 60, the percentages were still 90.7%, 91.7%, 90.1%, 85.9%, respectively in the population who had received TBE vaccine compared to 67.9%, 71.9%, 69.1%, 63.8% in the population who had not. No long-term safety concerns were identified. These data indicate that vaccination with IXIARO \u0001 is able to induce protective titers that persist up to 60 months after the primary immunization."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 214.5731964111328,
+            "t": 380.73980712890625,
+            "r": 361.612548828125,
+            "b": 373.5810546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "Clinical trial registry number NCT00596102",
+      "text": "Clinical trial registry number NCT00596102"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 362.5863952636719,
+            "t": 375.933837890625,
+            "r": 363.57354736328125,
+            "b": 374.9654541015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": ".",
+      "text": "."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 215.5242462158203,
+            "t": 371.15869140625,
+            "r": 562.285888671875,
+            "b": 354.4188537597656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            150
+          ]
+        }
+      ],
+      "orig": "\u0003 2019 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+      "text": "\u0003 2019 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.8374938964844,
+            "t": 322.23895263671875,
+            "r": 355.330078125,
+            "b": 315.84686279296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "2. Methods",
+      "text": "2. Methods",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.444580078125,
+            "t": 301.3195495605469,
+            "r": 356.102783203125,
+            "b": 293.36529541015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "2.1. Subjects",
+      "text": "2.1. Subjects",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.72369384765625,
+            "t": 280.4001770019531,
+            "r": 562.2544555664062,
+            "b": 241.03854370117188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            195
+          ]
+        }
+      ],
+      "orig": "This study included generally healthy subjects who had completed a full primary vaccination course (i.e., two 0.5 mL doses on Day 0 and 28) in two preceding studies, IC51-301 [4] or IC51302 [5] .",
+      "text": "This study included generally healthy subjects who had completed a full primary vaccination course (i.e., two 0.5 mL doses on Day 0 and 28) in two preceding studies, IC51-301 [4] or IC51302 [5] ."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.5517883300781,
+            "t": 238.5614013671875,
+            "r": 562.46484375,
+            "b": 167.8489990234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            428
+          ]
+        }
+      ],
+      "orig": "A total of 181 subjects were enrolled at four study sites (2 in Austria, 1 in Germany, 1 in Romania) for the collection of longterm immunogenicity data, initially up to month 24 (intent-totreat (ITT) population). During the study it was decided to prolong it at first to month 36 (ITT population at month 36), for which 152 subjects provided informed consent. At the end, 102 subjects attended the final study visit at month 60.",
+      "text": "A total of 181 subjects were enrolled at four study sites (2 in Austria, 1 in Germany, 1 in Romania) for the collection of longterm immunogenicity data, initially up to month 24 (intent-totreat (ITT) population). During the study it was decided to prolong it at first to month 36 (ITT population at month 36), for which 152 subjects provided informed consent. At the end, 102 subjects attended the final study visit at month 60."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 311.4445495605469,
+            "t": 154.54354858398438,
+            "r": 372.63623046875,
+            "b": 146.58929443359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "2.2. Study design",
+      "text": "2.2. Study design",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 310.9215087890625,
+            "t": 133.62416076660156,
+            "r": 562.6080322265625,
+            "b": 73.39974975585938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            376
+          ]
+        }
+      ],
+      "orig": "This was a long-term follow-up study that comprised annual visits for collection of sera and adverse event information. The original study design planned for 2 years, with two study extensions during the execution of the study to 36 months and further to 60 months. Immunogenicity assessments were performed by JEV-specific plaque reduction neutralization test (PRNT) reported",
+      "text": "This was a long-term follow-up study that comprised annual visits for collection of sera and adverse event information. The original study design planned for 2 years, with two study extensions during the execution of the study to 36 months and further to 60 months. Immunogenicity assessments were performed by JEV-specific plaque reduction neutralization test (PRNT) reported"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 228.97543334960938,
+            "t": 719.7501220703125,
+            "r": 379.333251953125,
+            "b": 713.7166748046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Contents lists available at ScienceDirect",
+      "text": "Contents lists available at ScienceDirect",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 278.1222229003906,
+            "t": 696.212646484375,
+            "r": 329.43218994140625,
+            "b": 685.3195190429688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Vaccine",
+      "text": "Vaccine",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 179.48211669921875,
+            "t": 663.7889404296875,
+            "r": 428.2669677734375,
+            "b": 656.4563598632812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "journal homepage: www.elsevier.com/locate/vaccine",
+      "text": "journal homepage: www.elsevier.com/locate/vaccine"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.84054946899414,
+            "t": 62.12046432495117,
+            "r": 179.7330780029297,
+            "b": 55.75721740722656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "https://doi.org/10.1016/j.vaccine.2019.03.030",
+      "text": "https://doi.org/10.1016/j.vaccine.2019.03.030"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.794715881347656,
+            "t": 53.5600471496582,
+            "r": 226.54208374023438,
+            "b": 47.196800231933594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "0264-410X/\u0003 2019 The Author(s). Published by Elsevier Ltd.",
+      "text": "0264-410X/\u0003 2019 The Author(s). Published by Elsevier Ltd."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.539344787597656,
+            "t": 44.999629974365234,
+            "r": 340.123046875,
+            "b": 38.636383056640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+      "text": "This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.98019027709961,
+            "t": 745.5601196289062,
+            "r": 47.680450439453125,
+            "b": 740.765380859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2530",
+      "text": "2530"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 223.7162322998047,
+            "t": 745.8406372070312,
+            "r": 361.1666259765625,
+            "b": 739.4774169921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "C. Taucher et al. / Vaccine 37 (2019) 2529\u20132531",
+      "text": "C. Taucher et al. / Vaccine 37 (2019) 2529\u20132531"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.15602111816406,
+            "t": 726.1749877929688,
+            "r": 283.70184326171875,
+            "b": 646.5693969726562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            516
+          ]
+        }
+      ],
+      "orig": "elsewhere [3]. Subjects who became seronegative for JEV during the study were terminated early but were included in the analysis as seronegative at all further time points. Subjects were asked to defer vaccination with tick-born encephalitis (TBE) vaccine during the study. However, any subject who had such a vaccination was allowed to remain in the study. Consequently, TBE exposed subjects in the analysis represent subjects who had been vaccinated with TBE vaccine whereas TBE-na\u00efve had not received TBE vaccine.",
+      "text": "elsewhere [3]. Subjects who became seronegative for JEV during the study were terminated early but were included in the analysis as seronegative at all further time points. Subjects were asked to defer vaccination with tick-born encephalitis (TBE) vaccine during the study. However, any subject who had such a vaccination was allowed to remain in the study. Consequently, TBE exposed subjects in the analysis represent subjects who had been vaccinated with TBE vaccine whereas TBE-na\u00efve had not received TBE vaccine."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.629947662353516,
+            "t": 625.8294067382812,
+            "r": 116.48262023925781,
+            "b": 619.4293212890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "2.3. Statistical methods",
+      "text": "2.3. Statistical methods",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.15602111816406,
+            "t": 604.8526000976562,
+            "r": 283.78692626953125,
+            "b": 492.3013916015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            683
+          ]
+        }
+      ],
+      "orig": "The immunogenicity evaluation included seroprotection rate (SPR) and geometric mean titer (GMT) in the ITT (all subjects initially enrolled for the long-term study) and ITT at month 36 (subjects who provided consent to continue beyond month 24, used for all analysis beyond month 36) populations up to 60 months after the first vaccination. Additional for all visits, the study population was stratified to differentiate between prior and/or during the study (i.e. after the JE vaccination), TBE vaccination vs. subjects who were not TBE vaccinated. A two-sided 95% confidence interval (CI) was calculated for SPRs according to the method recommended by Altman (developed by Wilson).",
+      "text": "The immunogenicity evaluation included seroprotection rate (SPR) and geometric mean titer (GMT) in the ITT (all subjects initially enrolled for the long-term study) and ITT at month 36 (subjects who provided consent to continue beyond month 24, used for all analysis beyond month 36) populations up to 60 months after the first vaccination. Additional for all visits, the study population was stratified to differentiate between prior and/or during the study (i.e. after the JE vaccination), TBE vaccination vs. subjects who were not TBE vaccinated. A two-sided 95% confidence interval (CI) was calculated for SPRs according to the method recommended by Altman (developed by Wilson)."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.851768493652344,
+            "t": 489.8242492675781,
+            "r": 283.5020751953125,
+            "b": 441.5694580078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            258
+          ]
+        }
+      ],
+      "orig": "GMTs, with respective 95% CIs and other descriptive statistics, were calculated for PRNT50 values. Assuming normality of the log\u2013transformed PRNT50 values, 95% CIs of GMTs were calculated by taking the anti\u2013log of confidence limits estimated on the logscale.",
+      "text": "GMTs, with respective 95% CIs and other descriptive statistics, were calculated for PRNT50 values. Assuming normality of the log\u2013transformed PRNT50 values, 95% CIs of GMTs were calculated by taking the anti\u2013log of confidence limits estimated on the logscale."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.73717498779297,
+            "t": 437.49749755859375,
+            "r": 283.46685791015625,
+            "b": 356.3537292480469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            473
+          ]
+        }
+      ],
+      "orig": "Missing PRNT50 values originating from missing blood samples due to PRNT negativity post-baseline or due to vaccination-related AEs, and PRNT50 values greater than or equal to 10 despite negativity at a previous visit, were replaced by 5 and counted as PRNT-negative. All other missing PRNT50 values were imputed using a repeated measures model. In addition, a sensitivity analysis following a worst case approach (i.e., all missing sera counted as negative) was performed.",
+      "text": "Missing PRNT50 values originating from missing blood samples due to PRNT negativity post-baseline or due to vaccination-related AEs, and PRNT50 values greater than or equal to 10 despite negativity at a previous visit, were replaced by 5 and counted as PRNT-negative. All other missing PRNT50 values were imputed using a repeated measures model. In addition, a sensitivity analysis following a worst case approach (i.e., all missing sera counted as negative) was performed."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 33.11370086669922,
+            "t": 353.82000732421875,
+            "r": 283.45947265625,
+            "b": 335.4343566894531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "The safety analyses were based on all subjects who attended respective visits.",
+      "text": "The safety analyses were based on all subjects who attended respective visits."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.859134674072266,
+            "t": 314.47509765625,
+            "r": 70.62201690673828,
+            "b": 308.0830078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "3. Results",
+      "text": "3. Results",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.74454116821289,
+            "t": 293.5549011230469,
+            "r": 99.19116973876953,
+            "b": 285.60064697265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "3.1. Demographics",
+      "text": "3.1. Demographics",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.909061431884766,
+            "t": 272.6355285644531,
+            "r": 283.4603271484375,
+            "b": 243.76190185546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            173
+          ]
+        }
+      ],
+      "orig": "Mean age for the 181 subjects originally enrolled was 32.1 years, with a minimum age of 18 years and a maximum age of 74 years, and there were similar proportions of females",
+      "text": "Mean age for the 181 subjects originally enrolled was 32.1 years, with a minimum age of 18 years and a maximum age of 74 years, and there were similar proportions of females"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 302.0638122558594,
+            "t": 726.1806030273438,
+            "r": 552.4570922851562,
+            "b": 707.794921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "(53.0%) and males (47.0%). The majority of subjects included were Caucasian (98.3%).",
+      "text": "(53.0%) and males (47.0%). The majority of subjects included were Caucasian (98.3%)."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.751953125,
+            "t": 693.58251953125,
+            "r": 497.04425048828125,
+            "b": 685.6282348632812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "3.2. Antibody persistence at 24, 36, 48 and 60 months",
+      "text": "3.2. Antibody persistence at 24, 36, 48 and 60 months",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.9901428222656,
+            "t": 672.6630859375,
+            "r": 552.7738647460938,
+            "b": 582.5059204101562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            526
+          ]
+        }
+      ],
+      "orig": "The percentage of subjects with protective neutralizing antibody titers had decreased to 83.4% by month 12 and then remained stable with 82% observed at month 60 (Table 1). The sensitivity analysis, which considered all missing PRNT values as negative, provided a lower estimate for the SPR of 63.8% by month 60. Our results demonstrated that in this study, IXIARO \u0001 elicited protective antibody levels and seroprotection that persisted even at 60 months in a majority of subjects, at a level maintained from month 12 onwards.",
+      "text": "The percentage of subjects with protective neutralizing antibody titers had decreased to 83.4% by month 12 and then remained stable with 82% observed at month 60 (Table 1). The sensitivity analysis, which considered all missing PRNT values as negative, provided a lower estimate for the SPR of 63.8% by month 60. Our results demonstrated that in this study, IXIARO \u0001 elicited protective antibody levels and seroprotection that persisted even at 60 months in a majority of subjects, at a level maintained from month 12 onwards."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 302.0557556152344,
+            "t": 578.4905395507812,
+            "r": 552.6749267578125,
+            "b": 560.0482177734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "As shown in Table 1 also the GMT remained virtually unchanged from month 12 to 60.",
+      "text": "As shown in Table 1 also the GMT remained virtually unchanged from month 12 to 60."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.7520446777344,
+            "t": 545.8358154296875,
+            "r": 529.7520141601562,
+            "b": 537.8815307617188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "3.3. Analysis of influence of prior and concomitant TBE vaccine",
+      "text": "3.3. Analysis of influence of prior and concomitant TBE vaccine",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.1635437011719,
+            "t": 524.9164428710938,
+            "r": 552.6454467773438,
+            "b": 370.52642822265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            923
+          ]
+        }
+      ],
+      "orig": "TBE vaccinated subjects at any time prior to or during the study had higher seroconversion rates (SCRs) at most timepoints (with non-overlapping 95% CIs) from month 24 onwards. At month 12, SCR was 75% in the subgroup of subjects without previous TBE vaccination (N = 92) compared to 92.1% for TBE vaccinated subjects (N = 89). By month 60 the SCRs had declined to 63.8% in the subjects with no TBE vaccination (N = 47) and 85.9% in TBE vaccinated subjects (N = 78). In addition, when subjects with TBE exposure were grouped into subgroups with exposure only prior to vaccination with JE vaccine and subjects with concomitant TBE exposure (i.e. during the study), those with concomitant TBE vaccination, albeit a rather small group, had remarkably high SCRs at all time points (SCR was 100% up to month 48 with N increasing from 6 subjects at month 6 to 29 subjects at month 48, and was 94.4% at month 60 (N = 36) (Fig. 1).",
+      "text": "TBE vaccinated subjects at any time prior to or during the study had higher seroconversion rates (SCRs) at most timepoints (with non-overlapping 95% CIs) from month 24 onwards. At month 12, SCR was 75% in the subgroup of subjects without previous TBE vaccination (N = 92) compared to 92.1% for TBE vaccinated subjects (N = 89). By month 60 the SCRs had declined to 63.8% in the subjects with no TBE vaccination (N = 47) and 85.9% in TBE vaccinated subjects (N = 78). In addition, when subjects with TBE exposure were grouped into subgroups with exposure only prior to vaccination with JE vaccine and subjects with concomitant TBE exposure (i.e. during the study), those with concomitant TBE vaccination, albeit a rather small group, had remarkably high SCRs at all time points (SCR was 100% up to month 48 with N increasing from 6 subjects at month 6 to 29 subjects at month 48, and was 94.4% at month 60 (N = 36) (Fig. 1)."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.75286865234375,
+            "t": 356.31396484375,
+            "r": 338.9288635253906,
+            "b": 348.3597106933594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "3.4. Safety",
+      "text": "3.4. Safety",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 301.7449645996094,
+            "t": 335.39459228515625,
+            "r": 552.7382202148438,
+            "b": 243.7586669921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            538
+          ]
+        }
+      ],
+      "orig": "Among subjects who remained in the study to month 60, 76 (74.5%) of 102 experienced at least one AE from month 2 to month 60 after the first vaccination with IXIARO \u0001 in the previous study. There were no AEs considered possibly treatment\u2013related. Overall, 14 subjects (13.7%) experienced 16 SAEs during the 5-year followup phase. The frequency of SAEs was within the expected range for a long-term study involving healthy volunteers and no clinically significant patterns were evident. All SAEs were considered unrelated to study vaccine.",
+      "text": "Among subjects who remained in the study to month 60, 76 (74.5%) of 102 experienced at least one AE from month 2 to month 60 after the first vaccination with IXIARO \u0001 in the previous study. There were no AEs considered possibly treatment\u2013related. Overall, 14 subjects (13.7%) experienced 16 SAEs during the 5-year followup phase. The frequency of SAEs was within the expected range for a long-term study involving healthy volunteers and no clinically significant patterns were evident. All SAEs were considered unrelated to study vaccine."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/tables/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.73024368286133,
+            "t": 223.07156372070312,
+            "r": 407.57318115234375,
+            "b": 208.14772033691406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "Table 1 Immunogenicity up to 60 months after first vaccination for IXIARO \u0001 : comparative and long-term immunogenicity population.",
+      "text": "Table 1 Immunogenicity up to 60 months after first vaccination for IXIARO \u0001 : comparative and long-term immunogenicity population."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.988975524902344,
+            "t": 79.46904754638672,
+            "r": 552.2911987304688,
+            "b": 64.54539489746094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            197
+          ]
+        }
+      ],
+      "orig": "Missing values from exclusions due to previously negative PRNT or due to related AEs, and positive PRNT values despite a previously negative PRNT result are imputed to 5 (i.e. set to seronegative).",
+      "text": "Missing values from exclusions due to previously negative PRNT or due to related AEs, and positive PRNT values despite a previously negative PRNT result are imputed to 5 (i.e. set to seronegative)."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.733604431152344,
+            "t": 62.34822082519531,
+            "r": 241.27499389648438,
+            "b": 55.9849739074707,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "TBE unvaccinated - no TBE vaccination up to the specific time point.",
+      "text": "TBE unvaccinated - no TBE vaccination up to the specific time point."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.733604431152344,
+            "t": 53.787803649902344,
+            "r": 267.2397766113281,
+            "b": 47.424556732177734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "TBE vaccinated \u2013 anytime: any TBE vaccination up to the specific time point.",
+      "text": "TBE vaccinated \u2013 anytime: any TBE vaccination up to the specific time point."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 37.25959014892578,
+            "t": 46.3265495300293,
+            "r": 154.38404846191406,
+            "b": 38.80601501464844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "** Confidence Intervals do not overlap.",
+      "text": "** Confidence Intervals do not overlap."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 233.52597045898438,
+            "t": 745.8382568359375,
+            "r": 370.9757080078125,
+            "b": 739.4750366210938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "C. Taucher et al. / Vaccine 37 (2019) 2529\u20132531",
+      "text": "C. Taucher et al. / Vaccine 37 (2019) 2529\u20132531"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 547.5811767578125,
+            "t": 745.614501953125,
+            "r": 561.5545654296875,
+            "b": 740.8197631835938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2531",
+      "text": "2531"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.61312484741211,
+            "t": 540.8919677734375,
+            "r": 562.3462524414062,
+            "b": 508.7907409667969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            596
+          ]
+        }
+      ],
+      "orig": "Fig. 1. Seroprotection Rate Stratified by TBE Vaccination Status. Seroprotection Rate (i.e. rate of subjects with PRNT50 \u0001 1:10) stratified by tick-borne encephalitis (TBE) virus vaccination status. No TBE vaccination: subjects who were TBE-vaccination na\u00efve, TBE vaccination prior to JE vaccination: TBE vaccination documented in records at any time prior to the primary series of JE vaccine; TBE vaccination during the study: Subjects who received a TBE vaccine during the study. Subjects were only allocated into this category for study visits that took place after receipt of the TBE vaccine.",
+      "text": "Fig. 1. Seroprotection Rate Stratified by TBE Vaccination Status. Seroprotection Rate (i.e. rate of subjects with PRNT50 \u0001 1:10) stratified by tick-borne encephalitis (TBE) virus vaccination status. No TBE vaccination: subjects who were TBE-vaccination na\u00efve, TBE vaccination prior to JE vaccination: TBE vaccination documented in records at any time prior to the primary series of JE vaccine; TBE vaccination during the study: Subjects who received a TBE vaccine during the study. Subjects were only allocated into this category for study visits that took place after receipt of the TBE vaccine."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 140.62210083007812,
+            "t": 579.11328125,
+            "r": 143.61810302734375,
+            "b": 574.311279296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "0",
+      "text": "0"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 137.68209838867188,
+            "t": 592.4013671875,
+            "r": 143.61810302734375,
+            "b": 587.599365234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "10",
+      "text": "10"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 137.01710510253906,
+            "t": 605.6705932617188,
+            "r": 143.61810302734375,
+            "b": 600.8685913085938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "20",
+      "text": "20"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 137.1501007080078,
+            "t": 618.9383544921875,
+            "r": 143.61810302734375,
+            "b": 614.1363525390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "30",
+      "text": "30"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 136.9821014404297,
+            "t": 632.2068481445312,
+            "r": 143.61810302734375,
+            "b": 627.4048461914062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "40",
+      "text": "40"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 137.2061004638672,
+            "t": 645.4949951171875,
+            "r": 143.61810302734375,
+            "b": 640.6929931640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "50",
+      "text": "50"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 137.1710968017578,
+            "t": 658.7634887695312,
+            "r": 143.61810302734375,
+            "b": 653.9614868164062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "60",
+      "text": "60"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 137.1291046142578,
+            "t": 672.031982421875,
+            "r": 143.61810302734375,
+            "b": 667.208984375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "70",
+      "text": "70"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 137.29010009765625,
+            "t": 685.3193969726562,
+            "r": 143.61810302734375,
+            "b": 680.5173950195312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "80",
+      "text": "80"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 137.1501007080078,
+            "t": 698.587890625,
+            "r": 143.61810302734375,
+            "b": 693.764892578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "90",
+      "text": "90"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 134.18209838867188,
+            "t": 711.8577880859375,
+            "r": 143.61810302734375,
+            "b": 707.0557861328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "100",
+      "text": "100"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 165.35031127929688,
+            "t": 569.3875122070312,
+            "r": 387.8865966796875,
+            "b": 564.5855102539062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "2 6 12 24 36 48 60",
+      "text": "2 6 12 24 36 48 60"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 123.11409759521484,
+            "t": 677.1091918945312,
+            "r": 130.24209594726562,
+            "b": 609.0612182617188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Seroprotection Rate",
+      "text": "Seroprotection Rate"
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 234.0341033935547,
+            "t": 558.8054809570312,
+            "r": 318.5700988769531,
+            "b": 551.6614990234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Study Duration [months]",
+      "text": "Study Duration [months]"
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 426.757080078125,
+            "t": 677.406494140625,
+            "r": 453.5570983886719,
+            "b": 672.0064697265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "No TBE",
+      "text": "No TBE"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 426.9250793457031,
+            "t": 667.3072509765625,
+            "r": 465.4690856933594,
+            "b": 661.63525390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Vaccination",
+      "text": "Vaccination"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 427.09307861328125,
+            "t": 641.4166870117188,
+            "r": 482.5810852050781,
+            "b": 635.7446899414062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "TBE Vaccination",
+      "text": "TBE Vaccination"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 426.9810791015625,
+            "t": 631.0598754882812,
+            "r": 463.5570983886719,
+            "b": 625.3878784179688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Prior To JE",
+      "text": "Prior To JE"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 426.9250793457031,
+            "t": 620.7567138671875,
+            "r": 465.4690856933594,
+            "b": 615.084716796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Vaccination",
+      "text": "Vaccination"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 427.09307861328125,
+            "t": 605.1881713867188,
+            "r": 482.5810852050781,
+            "b": 599.5161743164062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "TBE Vaccination",
+      "text": "TBE Vaccination"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 426.98907470703125,
+            "t": 594.8321533203125,
+            "r": 481.9170837402344,
+            "b": 587.5521850585938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "During the Study",
+      "text": "During the Study"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 138.83900451660156,
+            "t": 724.5018310546875,
+            "r": 215.75985717773438,
+            "b": 718.9273071289062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "N= 93 87 92 83 6",
+      "text": "N= 93 87 92 83 6"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/pictures/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 226.4801788330078,
+            "t": 724.5018310546875,
+            "r": 397.55120849609375,
+            "b": 718.9273071289062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "92 81 8 78 68 18 57 56 28 55 52 29 47 42 36",
+      "text": "92 81 8 78 68 18 57 56 28 55 52 29 47 42 36"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.64936828613281,
+            "t": 487.093017578125,
+            "r": 94.15618896484375,
+            "b": 480.7088928222656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "4. Discussion",
+      "text": "4. Discussion",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.79867172241211,
+            "t": 466.9832458496094,
+            "r": 293.61334228515625,
+            "b": 384.9804382324219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            490
+          ]
+        }
+      ],
+      "orig": "These data show that immunization with IXIARO \u0001 induced protective antibody titers (PRNT50 \u0001 1:10) that persisted for at least 5 years in over 60% of travelers. Lower antibody persistence was observed in another trial of IXIARO \u0001 , with SPR of 58.3% at month 12 and 48.3% at month 24 [6]. The major difference between studies was that the present study population included subjects with prior or concomitant immunization against TBE, while the other study only recruited TBE na\u00efve subjects.",
+      "text": "These data show that immunization with IXIARO \u0001 induced protective antibody titers (PRNT50 \u0001 1:10) that persisted for at least 5 years in over 60% of travelers. Lower antibody persistence was observed in another trial of IXIARO \u0001 , with SPR of 58.3% at month 12 and 48.3% at month 24 [6]. The major difference between studies was that the present study population included subjects with prior or concomitant immunization against TBE, while the other study only recruited TBE na\u00efve subjects."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.78871536254883,
+            "t": 382.5032958984375,
+            "r": 293.43902587890625,
+            "b": 186.21798706054688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1201
+          ]
+        }
+      ],
+      "orig": "Of interest, a difference can be seen between TBE na\u00efve and TBE exposed subjects in the present study. Subjects with TBE exposure at any time prior or during the study had higher SCRs at most time points (with non-overlapping 95% CI after month 24). Prior and concomitant TBE vaccination seems to positively influence antibody persistence. This is in line with post-hoc analyses results from a previous study, where at 15 months after primary immunization with IC51, GMT was 28.2 in subjects with TBE vaccination (N = 89) and 18.8 in subjects without TBE vaccination (N = 109), and SCRs were 79.8% and 60.6%, respectively [7]. Nevertheless, even in TBE unvaccinated subjects, seroconversion rate at month 60 was still 64%. This points to a robust immune memory induction so that the duration of the interval between primary series and booster might be relatively irrelevant for a post-booster immune response; as seen in previous studies of JE vaccine and TBE vaccine [6,8,9]. For JE endemic areas, based on robust responses in children after two doses, World Health Organization current position is that the need for booster doses of inactivated vaccines in children is not clearly established [10] .",
+      "text": "Of interest, a difference can be seen between TBE na\u00efve and TBE exposed subjects in the present study. Subjects with TBE exposure at any time prior or during the study had higher SCRs at most time points (with non-overlapping 95% CI after month 24). Prior and concomitant TBE vaccination seems to positively influence antibody persistence. This is in line with post-hoc analyses results from a previous study, where at 15 months after primary immunization with IC51, GMT was 28.2 in subjects with TBE vaccination (N = 89) and 18.8 in subjects without TBE vaccination (N = 109), and SCRs were 79.8% and 60.6%, respectively [7]. Nevertheless, even in TBE unvaccinated subjects, seroconversion rate at month 60 was still 64%. This points to a robust immune memory induction so that the duration of the interval between primary series and booster might be relatively irrelevant for a post-booster immune response; as seen in previous studies of JE vaccine and TBE vaccine [6,8,9]. For JE endemic areas, based on robust responses in children after two doses, World Health Organization current position is that the need for booster doses of inactivated vaccines in children is not clearly established [10] ."
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.79771041870117,
+            "t": 183.7408447265625,
+            "r": 293.5945129394531,
+            "b": 133.94383239746094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            265
+          ]
+        }
+      ],
+      "orig": "Nevertheless based on the data discussed above, both regulatory agencies in the US and in Europe currently recommend for travelers to endemic countries, a single booster dose 12 months primary immunization with IXIARO \u0001 , prior to potential re-exposure to JE virus.",
+      "text": "Nevertheless based on the data discussed above, both regulatory agencies in the US and in Europe currently recommend for travelers to endemic countries, a single booster dose 12 months primary immunization with IXIARO \u0001 , prior to potential re-exposure to JE virus."
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.80601501464844,
+            "t": 119.2204818725586,
+            "r": 123.38865661621094,
+            "b": 111.26622009277344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Source(s) of support",
+      "text": "Source(s) of support",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.28098678588867,
+            "t": 98.30109405517578,
+            "r": 287.874755859375,
+            "b": 90.34683227539062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "Valneva Austria GmbH was the funding source for this study.",
+      "text": "Valneva Austria GmbH was the funding source for this study."
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 42.871498107910156,
+            "t": 75.62348937988281,
+            "r": 117.1424560546875,
+            "b": 69.27920532226562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Conflict of interest",
+      "text": "Conflict of interest",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.28098678588867,
+            "t": 54.703304290771484,
+            "r": 269.40625,
+            "b": 48.287296295166016,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "The authors declared that there is no conflict of interest.",
+      "text": "The authors declared that there is no conflict of interest."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.52777099609375,
+            "t": 487.1017761230469,
+            "r": 389.3871765136719,
+            "b": 479.14752197265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Acknowledgements",
+      "text": "Acknowledgements",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.84698486328125,
+            "t": 466.1824035644531,
+            "r": 562.6094360351562,
+            "b": 416.389404296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            296
+          ]
+        }
+      ],
+      "orig": "We are grateful to: Astrid Kaltenb\u00f6ck, Susanne Eder-Lingelbach and Evelyn Hatzenbichler for study conduct and Sigrid Kiermayr for serological analysis. We would also like to thank the further investigators who contributed to this study: Dr. Christa Firbas, Dr. Georg Golor and Prof. Victor Voicu.",
+      "text": "We are grateful to: Astrid Kaltenb\u00f6ck, Susanne Eder-Lingelbach and Evelyn Hatzenbichler for study conduct and Sigrid Kiermayr for serological analysis. We would also like to thank the further investigators who contributed to this study: Dr. Christa Firbas, Dr. Georg Golor and Prof. Victor Voicu."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.8298034667969,
+            "t": 401.6660461425781,
+            "r": 352.494384765625,
+            "b": 395.32177734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Disclosure",
+      "text": "Disclosure",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.7979736328125,
+            "t": 380.7466735839844,
+            "r": 562.2640991210938,
+            "b": 351.8712463378906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            182
+          ]
+        }
+      ],
+      "orig": "This study was designed and funded by Valneva Austria GmbH, the vaccine manufacturer of IXIARO \u0001 . KDU and CTA are employed by the company. HKO received speaker fees from Valneva SE.",
+      "text": "This study was designed and funded by Valneva Austria GmbH, the vaccine manufacturer of IXIARO \u0001 . KDU and CTA are employed by the company. HKO received speaker fees from Valneva SE."
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 311.82989501953125,
+            "t": 338.9061279296875,
+            "r": 354.43438720703125,
+            "b": 332.5618591308594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "References",
+      "text": "References",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.3417663574219,
+            "t": 319.5628662109375,
+            "r": 562.2833251953125,
+            "b": 297.2691650390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "[1] Huang YJ, Harbin JN, Hettenbach SM, Maki E, Cohnstaedt LW, Barrett AD, et al. Susceptibility of a North American Culex quinquefasciatus to Japanese Encephalitis Virus. Vector Borne Zoonotic Dis 2015;15:709\u201311 .",
+      "text": "Huang YJ, Harbin JN, Hettenbach SM, Maki E, Cohnstaedt LW, Barrett AD, et al. Susceptibility of a North American Culex quinquefasciatus to Japanese Encephalitis Virus. Vector Borne Zoonotic Dis 2015;15:709\u201311 .",
+      "enumerated": true,
+      "marker": "[1]"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.34271240234375,
+            "t": 295.6953125,
+            "r": 561.8330688476562,
+            "b": 282.5690612792969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "[2] Hills SL, Rabe IB, Fischer M. Japanese encephalitis. CDC yellow book 2018: health information for international travel.",
+      "text": "Hills SL, Rabe IB, Fischer M. Japanese encephalitis. CDC yellow book 2018: health information for international travel.",
+      "enumerated": true,
+      "marker": "[2]"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.34271240234375,
+            "t": 279.7081604003906,
+            "r": 562.5831909179688,
+            "b": 249.47723388671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            277
+          ]
+        }
+      ],
+      "orig": "[3] Schuller E, Jilma B, Voicu V, Golor G, Kollaritsch H, Kaltenbock A, et al. Longterm immunogenicity of the new Vero cell-derived, inactivated Japanese encephalitis virus vaccine IC51 Six and 12 month results of a multicenter follow-up phase 3 study. Vaccine 2008;26:4382\u20136 .",
+      "text": "Schuller E, Jilma B, Voicu V, Golor G, Kollaritsch H, Kaltenbock A, et al. Longterm immunogenicity of the new Vero cell-derived, inactivated Japanese encephalitis virus vaccine IC51 Six and 12 month results of a multicenter follow-up phase 3 study. Vaccine 2008;26:4382\u20136 .",
+      "enumerated": true,
+      "marker": "[3]"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.3422546386719,
+            "t": 247.8464813232422,
+            "r": 562.2833251953125,
+            "b": 218.0245361328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            259
+          ]
+        }
+      ],
+      "orig": "[4] Tauber E, Kollaritsch H, Korinek M, Rendi-Wagner P, Jilma B, Firbas C, et al. Safety and immunogenicity of a Vero-cell-derived, inactivated Japanese encephalitis vaccine: a non-inferiority, phase III, randomised controlled trial. Lancet 2007;370:1847\u201353 .",
+      "text": "Tauber E, Kollaritsch H, Korinek M, Rendi-Wagner P, Jilma B, Firbas C, et al. Safety and immunogenicity of a Vero-cell-derived, inactivated Japanese encephalitis vaccine: a non-inferiority, phase III, randomised controlled trial. Lancet 2007;370:1847\u201353 .",
+      "enumerated": true,
+      "marker": "[4]"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.341796875,
+            "t": 215.98512268066406,
+            "r": 562.3167724609375,
+            "b": 186.1631317138672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            259
+          ]
+        }
+      ],
+      "orig": "[5] Tauber E, Kollaritsch H, von Sonnenburg F, Lademann M, Jilma B, Firbas C, et al. Randomized, double-blind, placebo-controlled phase 3 trial of the safety and tolerability of IC51, an inactivated Japanese encephalitis vaccine. J Infect Dis 2008;198:493\u20139 .",
+      "text": "Tauber E, Kollaritsch H, von Sonnenburg F, Lademann M, Jilma B, Firbas C, et al. Randomized, double-blind, placebo-controlled phase 3 trial of the safety and tolerability of IC51, an inactivated Japanese encephalitis vaccine. J Infect Dis 2008;198:493\u20139 .",
+      "enumerated": true,
+      "marker": "[5]"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.3417663574219,
+            "t": 184.06698608398438,
+            "r": 562.337646484375,
+            "b": 154.30177307128906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            266
+          ]
+        }
+      ],
+      "orig": "[6] Dubischar-Kastner K, Eder S, Buerger V, Gartner-Woelfl G, Kaltenboeck A, Schuller E, et al. Long-term immunity and immune response to a booster dose following vaccination with the inactivated Japanese encephalitis vaccine IXIARO, IC51. Vaccine 2010;28:5197\u2013202 .",
+      "text": "Dubischar-Kastner K, Eder S, Buerger V, Gartner-Woelfl G, Kaltenboeck A, Schuller E, et al. Long-term immunity and immune response to a booster dose following vaccination with the inactivated Japanese encephalitis vaccine IXIARO, IC51. Vaccine 2010;28:5197\u2013202 .",
+      "enumerated": true,
+      "marker": "[6]"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.34259033203125,
+            "t": 152.20558166503906,
+            "r": 562.2820434570312,
+            "b": 129.9117889404297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            220
+          ]
+        }
+      ],
+      "orig": "[7] Eder S, Dubischar-Kastner K, Firbas C, Jelinek T, Jilma B, Kaltenboeck A, et al. Long term immunity following a booster dose of the inactivated Japanese Encephalitis vaccine IXIARO(R), IC51. Vaccine 2011;29:2607\u201312 .",
+      "text": "Eder S, Dubischar-Kastner K, Firbas C, Jelinek T, Jilma B, Kaltenboeck A, et al. Long term immunity following a booster dose of the inactivated Japanese Encephalitis vaccine IXIARO(R), IC51. Vaccine 2011;29:2607\u201312 .",
+      "enumerated": true,
+      "marker": "[7]"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.34246826171875,
+            "t": 128.2811737060547,
+            "r": 562.276123046875,
+            "b": 106.45282745361328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            175
+          ]
+        }
+      ],
+      "orig": "[8] Aerssens A, Cochez C, Niedrig M, Heyman P, Kuhlmann-Rabens I, Soentjens P. Analysis of delayed TBE-vaccine booster after primary vaccination. J Travel Med 2016;23:tav020 .",
+      "text": "Aerssens A, Cochez C, Niedrig M, Heyman P, Kuhlmann-Rabens I, Soentjens P. Analysis of delayed TBE-vaccine booster after primary vaccination. J Travel Med 2016;23:tav020 .",
+      "enumerated": true,
+      "marker": "[8]"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.34210205078125,
+            "t": 104.35677337646484,
+            "r": 562.3186645507812,
+            "b": 90.52201843261719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "[9] Askling HH, Vene S, Rombo L, Lindquist L. Immunogenicity of delayed TBEvaccine booster. Vaccine 2012;30:499\u2013502 .",
+      "text": "Askling HH, Vene S, Rombo L, Lindquist L. Immunogenicity of delayed TBEvaccine booster. Vaccine 2012;30:499\u2013502 .",
+      "enumerated": true,
+      "marker": "[9]"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 312.1673278808594,
+            "t": 88.42607116699219,
+            "r": 562.5117797851562,
+            "b": 74.12598419189453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            106
+          ]
+        }
+      ],
+      "orig": "[10] Japanese Encephalitis Vaccines: WHO position paper - February 2015. Wkly Epidemiol Rec 2015;90:69\u201387.",
+      "text": "Japanese Encephalitis Vaccines: WHO position paper - February 2015. Wkly Epidemiol Rec 2015;90:69\u201387.",
+      "enumerated": true,
+      "marker": "[10]"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 41.64204788208008,
+            "t": 721.9511947631836,
+            "r": 102.66165924072266,
+            "b": 653.9306182861328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 129.84046936035156,
+            "t": 557.1683959960938,
+            "r": 143.3968048095703,
+            "b": 546.7861938476562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 504.4788513183594,
+            "t": 727.6184921264648,
+            "r": 562.466552734375,
+            "b": 655.5932464599609,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 504.81658935546875,
+            "t": 616.8764038085938,
+            "r": 535.1001586914062,
+            "b": 586.2318267822266,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 121.20148468017578,
+            "t": 725.7774276733398,
+            "r": 483.50146484375,
+            "b": 551.0477294921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/62"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "content_layer": "body",
+      "label": "table",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 32.035499572753906,
+            "t": 204.3883056640625,
+            "r": 552.8106079101562,
+            "b": 83.625732421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/55"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "data": {
+        "table_cells": [
+          {
+            "bbox": {
+              "l": 177.88294982910156,
+              "t": 592.3761291503906,
+              "r": 437.5286865234375,
+              "b": 599.8966674804688,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "IXIARO n/N (%) 95% confidence interval SCR/SPR (ITT/ * ITTM36)",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 369.0909423828125,
+              "t": 606.1757507324219,
+              "r": 543.9729614257812,
+              "b": 612.5390014648438,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 0,
+            "end_row_offset_idx": 1,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": "TBE unvaccinated % n/N TBE vaccinated % n/N",
+            "column_header": true,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.26991271972656,
+              "t": 618.8180847167969,
+              "r": 148.70950317382812,
+              "b": 625.1813354492188,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Number (%) of seroprotected subjects",
+            "column_header": false,
+            "row_header": false,
+            "row_section": true,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.48599624633789,
+              "t": 627.4352416992188,
+              "r": 408.185791015625,
+              "b": 633.7984924316406,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "24 months after first vaccination 148/181 (82%) [75.5%, 86.7%] 53/78 (67.9%",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 408.5979919433594,
+              "t": 626.2784271240234,
+              "r": 412.11737060546875,
+              "b": 627.6851806640625,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "**",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 412.8971862792969,
+              "t": 626.2784271240234,
+              "r": 524.3960571289062,
+              "b": 633.7989654541016,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": ") 78/86 (90.7% ** )",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.37498474121094,
+              "t": 635.9961242675781,
+              "r": 408.18609619140625,
+              "b": 642.359375,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "36 months after first vaccination 129/152 (85%) [78.3%, 89.7%] 41/57 (71.9%",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 408.5979919433594,
+              "t": 634.8390350341797,
+              "r": 412.11737060546875,
+              "b": 636.2457885742188,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "**",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 412.8971862792969,
+              "t": 634.8390350341797,
+              "r": 524.4527587890625,
+              "b": 642.3595733642578,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": ") 77/84 (91.7% ** )",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.31581115722656,
+              "t": 644.5567321777344,
+              "r": 408.18585205078125,
+              "b": 650.9199829101562,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "48 months after first vaccination 127/152 (84%) [76.9%, 88.6%] 38/55 (69.1%",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 408.5979919433594,
+              "t": 643.3997344970703,
+              "r": 412.11737060546875,
+              "b": 644.8064880371094,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "**",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 412.8971862792969,
+              "t": 643.3997344970703,
+              "r": 524.3960571289062,
+              "b": 650.920166015625,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 4,
+            "end_row_offset_idx": 5,
+            "start_col_offset_idx": 2,
+            "end_col_offset_idx": 3,
+            "text": ") 73/81 (90.1% ** )",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.5386848449707,
+              "t": 653.1173400878906,
+              "r": 520.4954223632812,
+              "b": 659.4805908203125,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 5,
+            "end_row_offset_idx": 6,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "60 months after first vaccination 124/152 (82%) [74.7%, 86.9%] 30/47 (63.8%) 67/78 (85.9%)",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.56488037109375,
+              "t": 665.5409698486328,
+              "r": 104.4774169921875,
+              "b": 670.4951248168945,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 6,
+            "end_row_offset_idx": 7,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "Geometric Mean Titer",
+            "column_header": false,
+            "row_header": false,
+            "row_section": true,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.48630142211914,
+              "t": 673.9802474975586,
+              "r": 491.6305236816406,
+              "b": 680.3434906005859,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 7,
+            "end_row_offset_idx": 8,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "24 months after first vaccination 44.3 [36.7, 53.4] 32.8 56.2",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.37498474121094,
+              "t": 682.5406646728516,
+              "r": 491.77459716796875,
+              "b": 688.9039077758789,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 8,
+            "end_row_offset_idx": 9,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "36 months after first vaccination 43.8 [36.5, 52.6] 29.9 54.0",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.31605529785156,
+              "t": 691.157829284668,
+              "r": 491.7876281738281,
+              "b": 697.5210723876953,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 9,
+            "end_row_offset_idx": 10,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "48 months after first vaccination 46.0 [38.0, 55.7] 33.8 50.4",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": {
+              "l": 41.5386848449707,
+              "t": 699.7182464599609,
+              "r": 491.6305236816406,
+              "b": 706.0814895629883,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 10,
+            "end_row_offset_idx": 11,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "60 months after first vaccination 43.4 [35.7, 52.9] 29.2 45.2",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          }
+        ],
+        "num_rows": 11,
+        "num_cols": 3,
+        "orientation": "rot_0",
+        "grid": [
+          [
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 177.88294982910156,
+                "t": 592.3761291503906,
+                "r": 437.5286865234375,
+                "b": 599.8966674804688,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "IXIARO n/N (%) 95% confidence interval SCR/SPR (ITT/ * ITTM36)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 369.0909423828125,
+                "t": 606.1757507324219,
+                "r": 543.9729614257812,
+                "b": 612.5390014648438,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "TBE unvaccinated % n/N TBE vaccinated % n/N",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.26991271972656,
+                "t": 618.8180847167969,
+                "r": 148.70950317382812,
+                "b": 625.1813354492188,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Number (%) of seroprotected subjects",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.48599624633789,
+                "t": 627.4352416992188,
+                "r": 408.185791015625,
+                "b": 633.7984924316406,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "24 months after first vaccination 148/181 (82%) [75.5%, 86.7%] 53/78 (67.9%",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 408.5979919433594,
+                "t": 626.2784271240234,
+                "r": 412.11737060546875,
+                "b": 627.6851806640625,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "**",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 412.8971862792969,
+                "t": 626.2784271240234,
+                "r": 524.3960571289062,
+                "b": 633.7989654541016,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": ") 78/86 (90.7% ** )",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.37498474121094,
+                "t": 635.9961242675781,
+                "r": 408.18609619140625,
+                "b": 642.359375,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "36 months after first vaccination 129/152 (85%) [78.3%, 89.7%] 41/57 (71.9%",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 408.5979919433594,
+                "t": 634.8390350341797,
+                "r": 412.11737060546875,
+                "b": 636.2457885742188,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "**",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 412.8971862792969,
+                "t": 634.8390350341797,
+                "r": 524.4527587890625,
+                "b": 642.3595733642578,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": ") 77/84 (91.7% ** )",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.31581115722656,
+                "t": 644.5567321777344,
+                "r": 408.18585205078125,
+                "b": 650.9199829101562,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "48 months after first vaccination 127/152 (84%) [76.9%, 88.6%] 38/55 (69.1%",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 408.5979919433594,
+                "t": 643.3997344970703,
+                "r": 412.11737060546875,
+                "b": 644.8064880371094,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "**",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": {
+                "l": 412.8971862792969,
+                "t": 643.3997344970703,
+                "r": 524.3960571289062,
+                "b": 650.920166015625,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": ") 73/81 (90.1% ** )",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.5386848449707,
+                "t": 653.1173400878906,
+                "r": 520.4954223632812,
+                "b": 659.4805908203125,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "60 months after first vaccination 124/152 (82%) [74.7%, 86.9%] 30/47 (63.8%) 67/78 (85.9%)",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.56488037109375,
+                "t": 665.5409698486328,
+                "r": 104.4774169921875,
+                "b": 670.4951248168945,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Geometric Mean Titer",
+              "column_header": false,
+              "row_header": false,
+              "row_section": true,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.48630142211914,
+                "t": 673.9802474975586,
+                "r": 491.6305236816406,
+                "b": 680.3434906005859,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "24 months after first vaccination 44.3 [36.7, 53.4] 32.8 56.2",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 7,
+              "end_row_offset_idx": 8,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.37498474121094,
+                "t": 682.5406646728516,
+                "r": 491.77459716796875,
+                "b": 688.9039077758789,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "36 months after first vaccination 43.8 [36.5, 52.6] 29.9 54.0",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 8,
+              "end_row_offset_idx": 9,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.31605529785156,
+                "t": 691.157829284668,
+                "r": 491.7876281738281,
+                "b": 697.5210723876953,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "48 months after first vaccination 46.0 [38.0, 55.7] 33.8 50.4",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 9,
+              "end_row_offset_idx": 10,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 41.5386848449707,
+                "t": 699.7182464599609,
+                "r": 491.6305236816406,
+                "b": 706.0814895629883,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "60 months after first vaccination 43.4 [35.7, 52.9] 29.2 45.2",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 10,
+              "end_row_offset_idx": 11,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ]
+        ]
+      },
+      "annotations": []
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 3
+    }
+  }
+}

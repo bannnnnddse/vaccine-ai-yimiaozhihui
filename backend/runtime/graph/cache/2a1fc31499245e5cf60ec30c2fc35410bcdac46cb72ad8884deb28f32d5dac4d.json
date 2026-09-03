@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_1ebd60872dccc4a675c867e27682560a",
+  "content_hash": "faac20e1b800e8499fc6babac92767d97084103db5a233896a3d35f50d6aba68",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_1ebd60872dccc4a675c867e27682560a"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_1ebd60872dccc4a675c867e27682560a"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_1ebd60872dccc4a675c867e27682560a"
+    },
+    {
+      "canonical_name": "respiratory syncytial virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus",
+      "chunk_id": "chk_1ebd60872dccc4a675c867e27682560a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

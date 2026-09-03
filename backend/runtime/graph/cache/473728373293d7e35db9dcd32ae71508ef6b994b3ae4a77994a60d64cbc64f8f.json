@@ -1,0 +1,42 @@
+{
+  "chunk_id": "chk_d6f5a4b4ddf7776fa3e6857606493fde",
+  "content_hash": "2a870a035b03ff0c918f9a284fc2b656b4aa0e75b00b5f5a3862c5563f7b2655",
+  "entities": [
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_d6f5a4b4ddf7776fa3e6857606493fde"
+    },
+    {
+      "canonical_name": "Streptococcus pneumoniae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Streptococcus pneumoniae",
+      "chunk_id": "chk_d6f5a4b4ddf7776fa3e6857606493fde"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_d6f5a4b4ddf7776fa3e6857606493fde"
+    },
+    {
+      "canonical_name": "vaccine-preventable diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "vaccine-preventable diseases",
+      "chunk_id": "chk_d6f5a4b4ddf7776fa3e6857606493fde"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "source_missing_from_quote",
+    "target_missing_from_quote",
+    "quote_missing",
+    "target_missing_from_quote"
+  ]
+}

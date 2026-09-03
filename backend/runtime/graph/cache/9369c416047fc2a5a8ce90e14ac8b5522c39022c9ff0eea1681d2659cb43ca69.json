@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_ceda85195ef57b49d60e4a9a82d4f4be",
+  "content_hash": "9eb5e8b4be66234e1b3087f7ae269abbe9c35c9a3f71fcd1e50a00f66f0a876c",
+  "entities": [
+    {
+      "canonical_name": "13-valent pneumococcal conjugate vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "13-valent pneumococcal conjugate vaccination",
+      "chunk_id": "chk_ceda85195ef57b49d60e4a9a82d4f4be"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_ceda85195ef57b49d60e4a9a82d4f4be"
+    },
+    {
+      "canonical_name": "Streptococcus pneumoniae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Streptococcus pneumoniae",
+      "chunk_id": "chk_ceda85195ef57b49d60e4a9a82d4f4be"
+    },
+    {
+      "canonical_name": "haemophilus influenzae type b disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "haemophilus influenzae type b disease",
+      "chunk_id": "chk_ceda85195ef57b49d60e4a9a82d4f4be"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_ceda85195ef57b49d60e4a9a82d4f4be"
+    },
+    {
+      "canonical_name": "conjugate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "conjugate vaccines",
+      "chunk_id": "chk_ceda85195ef57b49d60e4a9a82d4f4be"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

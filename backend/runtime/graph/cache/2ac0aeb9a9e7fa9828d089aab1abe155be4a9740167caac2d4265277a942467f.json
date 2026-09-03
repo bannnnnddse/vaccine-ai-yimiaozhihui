@@ -1,0 +1,15 @@
+{
+  "chunk_id": "1671f03baed031a45e28156a3195d6ddc0c058d409e29940f13f989804768d24",
+  "content_hash": "9c651a0d01ecfab5f95f61a0a336facadf95ee320edce8afbeddfa9f310985e0",
+  "entities": [
+    {
+      "canonical_name": "inactivated or attenuated EBV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated or attenuated EBV vaccines",
+      "chunk_id": "1671f03baed031a45e28156a3195d6ddc0c058d409e29940f13f989804768d24"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

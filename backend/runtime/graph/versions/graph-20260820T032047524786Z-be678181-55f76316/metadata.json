@@ -1,0 +1,28 @@
+{
+  "build_mode": "medical-validation-12",
+  "chunk_catalog_hash": "be6781812c595c9e02b1dd45f64bdbfde021864cf378d0bf9bfa283bdaa027ea",
+  "created_at": "2026-08-20T03:20:47.524786+00:00",
+  "edge_count": 16,
+  "extracted_chunks": 12,
+  "failed_chunks": 0,
+  "files": {
+    "edges.json": "a6de5aebf246a55eae88383389d8e1e56f4c18179635e6f99ffec1469cf12817",
+    "extraction_report.json": "6a89a831eee33eaaa4d24fe061389e9d469513f4b452f9f4ff06c70782c4a274",
+    "nodes.json": "ac9e9389a0978e9c995bf1beaec2586e7361553ede4511bd008cbc95d9a9b83b",
+    "provenance.json": "09a21a9a5edce123916930fc4b8eb9b1bb6c29e85e399c40c56b14c45e0461ca"
+  },
+  "graph_version": "graph-20260820T032047524786Z-be678181-55f76316",
+  "knowledge_base_version": "validation-12-rag-v2-20260816T053040487541Z-32af4353",
+  "model": "qwen3.7-flash",
+  "node_count": 12,
+  "parent_graph_version": null,
+  "prompt_version": "medical_graph_llm_v1",
+  "provenance_count": 6,
+  "rejected_chunks": 9,
+  "reused_chunks": 0,
+  "schema_version": "vaccine_graph_v2",
+  "semantica_version": "0.6.5",
+  "source_chunks": 12,
+  "source_documents": 9,
+  "validator_version": "medical_graph_validator_v2"
+}

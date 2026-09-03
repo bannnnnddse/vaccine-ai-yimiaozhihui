@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2565cbd9fbd329a08976777b37442301",
+  "content_hash": "e88af26ea70f46c094363e8339b2ae514019e8690e5c7f4d012c11caf3384578",
+  "entities": [
+    {
+      "canonical_name": "GTU-MultiHIV B clade",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GTU-MultiHIV B clade",
+      "chunk_id": "chk_2565cbd9fbd329a08976777b37442301"
+    },
+    {
+      "canonical_name": "HIV-LIPO-5",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV-LIPO-5",
+      "chunk_id": "chk_2565cbd9fbd329a08976777b37442301"
+    },
+    {
+      "canonical_name": "AGS-004",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AGS-004",
+      "chunk_id": "chk_2565cbd9fbd329a08976777b37442301"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

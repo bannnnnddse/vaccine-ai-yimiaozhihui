@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_af69cebbada0f941e0057bee082e1c23",
+  "content_hash": "a02210ef6f7e34346d9864c29ff80aebfc5543d85386aa3f157342f887b6f7bc",
+  "entities": [
+    {
+      "canonical_name": "HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HBV infection",
+      "chunk_id": "chk_af69cebbada0f941e0057bee082e1c23"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

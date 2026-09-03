@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_8f138d62143f61fa052c4fd1b968c8be",
+  "content_hash": "d82011acf9a4ed6ee825956510b7c50717f360d02da423cf91253733ed4e8698",
+  "entities": [
+    {
+      "canonical_name": "M72/AS01E",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "M72/AS01E",
+      "chunk_id": "chk_8f138d62143f61fa052c4fd1b968c8be"
+    },
+    {
+      "canonical_name": "M. tuberculosis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "M. tuberculosis",
+      "chunk_id": "chk_8f138d62143f61fa052c4fd1b968c8be"
+    },
+    {
+      "canonical_name": "MTB32A",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MTB32A",
+      "chunk_id": "chk_8f138d62143f61fa052c4fd1b968c8be"
+    },
+    {
+      "canonical_name": "MTB39A",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MTB39A",
+      "chunk_id": "chk_8f138d62143f61fa052c4fd1b968c8be"
+    },
+    {
+      "canonical_name": "active TB disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "active TB disease",
+      "chunk_id": "chk_8f138d62143f61fa052c4fd1b968c8be"
+    },
+    {
+      "canonical_name": "latently infected individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "latently infected individuals",
+      "chunk_id": "chk_8f138d62143f61fa052c4fd1b968c8be"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

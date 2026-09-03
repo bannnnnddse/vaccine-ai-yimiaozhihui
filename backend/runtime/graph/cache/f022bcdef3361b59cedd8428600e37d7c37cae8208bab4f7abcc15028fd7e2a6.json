@@ -1,0 +1,50 @@
+{
+  "chunk_id": "b85bcea343cc96b201a4e9e4b6c7bf01f598953d7d87a381df7f0f246daf197b",
+  "content_hash": "4173835b6dad9142faceb9ac7a9ff628ad0b91756c60e69ebb2faf27c3183dca",
+  "entities": [
+    {
+      "canonical_name": "SLE",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SLE",
+      "chunk_id": "b85bcea343cc96b201a4e9e4b6c7bf01f598953d7d87a381df7f0f246daf197b"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "b85bcea343cc96b201a4e9e4b6c7bf01f598953d7d87a381df7f0f246daf197b"
+    },
+    {
+      "canonical_name": "Ab",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Ab",
+      "chunk_id": "b85bcea343cc96b201a4e9e4b6c7bf01f598953d7d87a381df7f0f246daf197b"
+    },
+    {
+      "canonical_name": "neutralizing Ab",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing Ab",
+      "chunk_id": "b85bcea343cc96b201a4e9e4b6c7bf01f598953d7d87a381df7f0f246daf197b"
+    },
+    {
+      "canonical_name": "IgG Abs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG Abs",
+      "chunk_id": "b85bcea343cc96b201a4e9e4b6c7bf01f598953d7d87a381df7f0f246daf197b"
+    },
+    {
+      "canonical_name": "patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients",
+      "chunk_id": "b85bcea343cc96b201a4e9e4b6c7bf01f598953d7d87a381df7f0f246daf197b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

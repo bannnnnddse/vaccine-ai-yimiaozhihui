@@ -1,0 +1,1034 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "doc_daf4b4b77a15bf64faf8fc1a",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 9871672812919977070,
+    "filename": "doc_daf4b4b77a15bf64faf8fc1a.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/19"
+        },
+        {
+          "$ref": "#/texts/20"
+        },
+        {
+          "$ref": "#/texts/21"
+        },
+        {
+          "$ref": "#/texts/22"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 74.33580017089844,
+            "t": 553.0951538085938,
+            "r": 542.0611572265625,
+            "b": 467.4156494140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            258
+          ]
+        }
+      ],
+      "orig": "Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID19. The COVID -19 resource centre is hosted on Elsevier Connect, the company's public news and information website.",
+      "text": "Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID19. The COVID -19 resource centre is hosted on Elsevier Connect, the company's public news and information website."
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 75.03035736083984,
+            "t": 416.2651672363281,
+            "r": 541.5457763671875,
+            "b": 236.89556884765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            514
+          ]
+        }
+      ],
+      "orig": "Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID -19 resource centre -including this research content -immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re -use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active.",
+      "text": "Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID -19 resource centre -including this research content -immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re -use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active."
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 466.7575988769531,
+            "t": 760.3857421875,
+            "r": 543.8936157226562,
+            "b": 749.1417846679688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Correspondence",
+      "text": "Correspondence"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 37.02539825439453,
+            "t": 664.9290161132812,
+            "r": 170.8566131591797,
+            "b": 618.2890014648438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            236
+          ]
+        }
+      ],
+      "orig": "4 Khoury DS, Cromer D, Reynaldi A, et al. Neutralizing antibody levels are highly predictive of immune protection from symptomatic SARS-CoV-2 infection. Nat Med 2021; published online May 17. https://doi. org/10.1038/s41591-021-01377-8.",
+      "text": "4 Khoury DS, Cromer D, Reynaldi A, et al. Neutralizing antibody levels are highly predictive of immune protection from symptomatic SARS-CoV-2 infection. Nat Med 2021; published online May 17. https://doi. org/10.1038/s41591-021-01377-8.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 37.15839767456055,
+            "t": 615.51171875,
+            "r": 174.77658081054688,
+            "b": 576.94970703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            198
+          ]
+        }
+      ],
+      "orig": "5 Bernal JL, Andrews N, Gower C, et al. Effectiveness of COVID-19 vaccines against the B.1.617.2 variant. KHub 2021; published online May 24. https://doi.org/10.1101/2021. 05.22.21257658 (preprint).",
+      "text": "5 Bernal JL, Andrews N, Gower C, et al. Effectiveness of COVID-19 vaccines against the B.1.617.2 variant. KHub 2021; published online May 24. https://doi.org/10.1101/2021. 05.22.21257658 (preprint).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 37.284400939941406,
+            "t": 574.1503295898438,
+            "r": 175.723388671875,
+            "b": 544.3242797851562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "6 Madhi SA, Baillie V, Cutland CL, et al. Efficacy of the ChAdOx1 nCoV-19 Covid-19 vaccine against the B.1.351 variant. N Engl J Med 2021; 384: 1885\u201398.",
+      "text": "6 Madhi SA, Baillie V, Cutland CL, et al. Efficacy of the ChAdOx1 nCoV-19 Covid-19 vaccine against the B.1.351 variant. N Engl J Med 2021; 384: 1885\u201398.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.962398529052734,
+            "t": 540.677001953125,
+            "r": 174.05560302734375,
+            "b": 502.03802490234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "7 Parry H, Bruton R, Stephens C, et al. Extended interval BNT162b2 vaccination enhances peak antibody generation in older people. MedRxiv 2021; published online May 17. https://doi. org/10.1101/2021.05.15.21257017 (preprint).",
+      "text": "7 Parry H, Bruton R, Stephens C, et al. Extended interval BNT162b2 vaccination enhances peak antibody generation in older people. MedRxiv 2021; published online May 17. https://doi. org/10.1101/2021.05.15.21257017 (preprint).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 37.08839797973633,
+            "t": 474.4757995605469,
+            "r": 165.9163818359375,
+            "b": 427.6877746582031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "Divergent vaccination policies could fuel mistrust and hesitancy",
+      "text": "Divergent vaccination policies could fuel mistrust and hesitancy",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.90739822387695,
+            "t": 413.69171142578125,
+            "r": 176.10142517089844,
+            "b": 245.78570556640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            504
+          ]
+        }
+      ],
+      "orig": "With reports of a possible risk of rare blood clots in people receiving AstraZeneca's COVID-19 vaccine (Vaxzevria), 1 concerns have risen about its use in younger adults. As of May 26, 2021, country stances on the use of this vaccine generally fall into one of five response types. Why countries continue to respond so differently in response to adverse events with this vaccine is unclear, but we are concerned that diver -gent vaccination policies could fuel mistrust and hesitancy around immunisation.",
+      "text": "With reports of a possible risk of rare blood clots in people receiving AstraZeneca's COVID-19 vaccine (Vaxzevria), 1 concerns have risen about its use in younger adults. As of May 26, 2021, country stances on the use of this vaccine generally fall into one of five response types. Why countries continue to respond so differently in response to adverse events with this vaccine is unclear, but we are concerned that diver -gent vaccination policies could fuel mistrust and hesitancy around immunisation."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.89619445800781,
+            "t": 241.17820739746094,
+            "r": 175.52017211914062,
+            "b": 82.56468963623047,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            486
+          ]
+        }
+      ],
+      "orig": "One response is to warn of potential risks, but otherwise no set restrictions on use of Vaxzevria. The European Medicines Agency 2 and WHO3 have issued warnings about the rare possibility of blood clots within 2 weeks of vaccination. While more data are being collected, the agencies encourage the continuation of the vaccine in all adults since current evidence suggests the benefits outweigh the risks. Many countries, including Poland, Mexico, and Brazil are following this guidance.",
+      "text": "One response is to warn of potential risks, but otherwise no set restrictions on use of Vaxzevria. The European Medicines Agency 2 and WHO3 have issued warnings about the rare possibility of blood clots within 2 weeks of vaccination. While more data are being collected, the agencies encourage the continuation of the vaccine in all adults since current evidence suggests the benefits outweigh the risks. Many countries, including Poland, Mexico, and Brazil are following this guidance."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 36.95319366455078,
+            "t": 80.0661849975586,
+            "r": 175.5392303466797,
+            "b": 50.236175537109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            100
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 187.1436004638672,
+            "t": 666.61572265625,
+            "r": 325.60614013671875,
+            "b": 634.709716796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            101,
+            186
+          ]
+        }
+      ],
+      "orig": "A second response is to not permit use. Denmark has decided to remove Vaxzevria from its vaccination programmes, whereas in Norway, further administration of the vaccine has been paused.",
+      "text": "A second response is to not permit use. Denmark has decided to remove Vaxzevria from its vaccination programmes, whereas in Norway, further administration of the vaccine has been paused."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 187.13409423828125,
+            "t": 632.1067504882812,
+            "r": 325.76763916015625,
+            "b": 521.7452392578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            328
+          ]
+        }
+      ],
+      "orig": "A third response is to advise that only older adults receive Vaxzevria; however, the age cutoff varies. In the Netherlands, Portugal, Singapore, and Spain, the vaccine is given to adults aged 60 years and older, whereas in Belgium it is given to adults aged 55 years and older, and in Australia to those aged 50 years and older.",
+      "text": "A third response is to advise that only older adults receive Vaxzevria; however, the age cutoff varies. In the Netherlands, Portugal, Singapore, and Spain, the vaccine is given to adults aged 60 years and older, whereas in Belgium it is given to adults aged 55 years and older, and in Australia to those aged 50 years and older."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 187.13409423828125,
+            "t": 517.1376953125,
+            "r": 325.8435974121094,
+            "b": 404.643798828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            358
+          ]
+        }
+      ],
+      "orig": "A fourth response is to encourage younger adults to accept a different type of COVID-19 vaccine if possible. Greece is encouraging adults younger than 30 years to take alternative vaccines to Vaxzevria. Similar recom -mendations exist in the UK and Pakistan for those younger than 40 years (in the UK, this age cutoff was recently increased from 30 years). 2",
+      "text": "A fourth response is to encourage younger adults to accept a different type of COVID-19 vaccine if possible. Greece is encouraging adults younger than 30 years to take alternative vaccines to Vaxzevria. Similar recom -mendations exist in the UK and Pakistan for those younger than 40 years (in the UK, this age cutoff was recently increased from 30 years). 2"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 187.13369750976562,
+            "t": 402.1918029785156,
+            "r": 326.0331726074219,
+            "b": 268.74530029296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            394
+          ]
+        }
+      ],
+      "orig": "A fifth response is to use a mix-andmatch approach for younger adults who have already received one dose of Vaxzevria. France and Germany have limited use of Vaxzevria to older adults and announced that those younger than 55 years (in France) and 60 years (in Germany) who received one dose of Vaxzevria should be given the vaccine produced by Pfizer\u2013 BioNTech or Moderna for their second dose.",
+      "text": "A fifth response is to use a mix-andmatch approach for younger adults who have already received one dose of Vaxzevria. France and Germany have limited use of Vaxzevria to older adults and announced that those younger than 55 years (in France) and 60 years (in Germany) who received one dose of Vaxzevria should be given the vaccine produced by Pfizer\u2013 BioNTech or Moderna for their second dose."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 187.13369750976562,
+            "t": 264.0617980957031,
+            "r": 325.8811340332031,
+            "b": 48.02229309082031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            657
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 337.74090576171875,
+            "t": 666.6917114257812,
+            "r": 476.26043701171875,
+            "b": 611.9241943359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            658,
+            813
+          ]
+        }
+      ],
+      "orig": "The divergent responses might reflect risk tolerance, the availability of alternative vaccinations, and whether safety calculations consider the risk of the vaccine and of the virus in conjunction. Although some variation could be justified by the underlying risk\u2013benefit calculations because of a country's age profile and its COVID-19 infection rates, we are concerned that public trust in vaccines will wane and exacerbate existing hesitancy because of these divergences. In Europe, willingness to take the vaccine has already decreased after the temporary suspensions of Vaxzevria: between February and March, 2021, one survey found that respondents who believed the vaccine was unsafe increased by 18 percentage points in France (from 43% to 61%) and by 15 percentage points in Germany (from 40% to 55%). 3,4",
+      "text": "The divergent responses might reflect risk tolerance, the availability of alternative vaccinations, and whether safety calculations consider the risk of the vaccine and of the virus in conjunction. Although some variation could be justified by the underlying risk\u2013benefit calculations because of a country's age profile and its COVID-19 infection rates, we are concerned that public trust in vaccines will wane and exacerbate existing hesitancy because of these divergences. In Europe, willingness to take the vaccine has already decreased after the temporary suspensions of Vaxzevria: between February and March, 2021, one survey found that respondents who believed the vaccine was unsafe increased by 18 percentage points in France (from 43% to 61%) and by 15 percentage points in Germany (from 40% to 55%). 3,4"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 337.3699645996094,
+            "t": 609.11572265625,
+            "r": 476.2505187988281,
+            "b": 335.61065673828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            825
+          ]
+        }
+      ],
+      "orig": "Coordinated and strengthened risk communication efforts between regulatory agencies and policy makers could help improve the situation. Governments should stress the safety and importance of vaccines and agree on common lines to explain adverse events that have occurred with the Vaxzevria vaccine and similar problems that are emerging with other non-replicating viral vector COVID-19 vaccines. Communication from experts to the public should be transparent, simple, and consistent. Statements about the risks associated with the vaccines should offer perspective, acknowledging the risks associated with COVID-19 and other common medications and substances, demonstrating how extremely rare these risks are, and referring to current evidence that the authorised vaccines are safe, effective, and key to ending the pandemic.",
+      "text": "Coordinated and strengthened risk communication efforts between regulatory agencies and policy makers could help improve the situation. Governments should stress the safety and importance of vaccines and agree on common lines to explain adverse events that have occurred with the Vaxzevria vaccine and similar problems that are emerging with other non-replicating viral vector COVID-19 vaccines. Communication from experts to the public should be transparent, simple, and consistent. Statements about the risks associated with the vaccines should offer perspective, acknowledging the risks associated with COVID-19 and other common medications and substances, demonstrating how extremely rare these risks are, and referring to current evidence that the authorised vaccines are safe, effective, and key to ending the pandemic."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 337.39990234375,
+            "t": 329.8437805175781,
+            "r": 430.6609191894531,
+            "b": 323.2077941894531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "We declare no competing interests.",
+      "text": "We declare no competing interests."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 337.7029113769531,
+            "t": 316.7759094238281,
+            "r": 435.492919921875,
+            "b": 286.52239990234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "*Rebecca Forman, Mark Jit, Elias Mossialos r.m.forman@lse.ac.uk",
+      "text": "*Rebecca Forman, Mark Jit, Elias Mossialos r.m.forman@lse.ac.uk"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 337.85491943359375,
+            "t": 279.6459045410156,
+            "r": 471.4989013671875,
+            "b": 255.45391845703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": "London School of Economics and Political Science, London WC2A 2AE, UK (RF, EM); London School of Hygiene & Tropical Medicine, London, UK (MJ)",
+      "text": "London School of Economics and Political Science, London WC2A 2AE, UK (RF, EM); London School of Hygiene & Tropical Medicine, London, UK (MJ)"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 337.63092041015625,
+            "t": 249.837890625,
+            "r": 475.9631042480469,
+            "b": 171.22889709472656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            402
+          ]
+        }
+      ],
+      "orig": "1 Medicines and Healthcare products Regulatory Agency. MHRA issues new advice, concluding a possible link between COVID-19 vaccine AstraZeneca and extremely rare, unlikely to occur blood clots. April 7, 2021. https://www. gov.uk/government/news/mhra-issues-newadvice-concluding-a-possible-link-betweencovid-19-vaccine-astrazeneca-and-extremelyrare-unlikely-to-occur-blood-clots (accessed May 14, 2021).",
+      "text": "1 Medicines and Healthcare products Regulatory Agency. MHRA issues new advice, concluding a possible link between COVID-19 vaccine AstraZeneca and extremely rare, unlikely to occur blood clots. April 7, 2021. https://www. gov.uk/government/news/mhra-issues-newadvice-concluding-a-possible-link-betweencovid-19-vaccine-astrazeneca-and-extremelyrare-unlikely-to-occur-blood-clots (accessed May 14, 2021).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 337.6448974609375,
+            "t": 168.47659301757812,
+            "r": 466.0791015625,
+            "b": 146.16159057617188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            119
+          ]
+        }
+      ],
+      "orig": "2 Mahase E. Covid-19: UK offers under 40s alternative to AstraZeneca vaccine to boost confidence. BMJ 2021; 373: n1185.",
+      "text": "2 Mahase E. Covid-19: UK offers under 40s alternative to AstraZeneca vaccine to boost confidence. BMJ 2021; 373: n1185.",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 337.5259094238281,
+            "t": 143.05918884277344,
+            "r": 469.39190673828125,
+            "b": 96.39820098876953,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            229
+          ]
+        }
+      ],
+      "orig": "3 Gillespie T. Vaccine hesitancy rose in EU after pause in AstraZeneca shots. May 13, 2021. https://www.bloomberg.com/news/ articles/2021-05-13/vaccine-hesitancy-rosein-eu-after-pause-in-astrazeneca-shots (accessed May 14, 2021).",
+      "text": "3 Gillespie T. Vaccine hesitancy rose in EU after pause in AstraZeneca shots. May 13, 2021. https://www.bloomberg.com/news/ articles/2021-05-13/vaccine-hesitancy-rosein-eu-after-pause-in-astrazeneca-shots (accessed May 14, 2021).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 337.4978942871094,
+            "t": 93.20089721679688,
+            "r": 471.03509521484375,
+            "b": 54.98189926147461,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            207
+          ]
+        }
+      ],
+      "orig": "4 Scott M. Trust in AstraZeneca vaccine wanes across EU, survey finds. March 22, 2021. https://www.politico.eu/article/trust-oxfordastrazeneca-coronavirus-vaccine-waneseurope-survey/ (accessed May 14, 2021).",
+      "text": "4 Scott M. Trust in AstraZeneca vaccine wanes across EU, survey finds. March 22, 2021. https://www.politico.eu/article/trust-oxfordastrazeneca-coronavirus-vaccine-waneseurope-survey/ (accessed May 14, 2021).",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 484.3533935546875,
+            "t": 319.2996826171875,
+            "r": 547.3764038085938,
+            "b": 287.1181945800781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "Published Online June 1, 2021 https://doi.org/10.1016/ S0140-6736(21)01106-5",
+      "text": "Published Online June 1, 2021 https://doi.org/10.1016/ S0140-6736(21)01106-5"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 568.8976440429688,
+            "t": 388.69970703125,
+            "r": 573.6376342773438,
+            "b": 329.4046936035156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "Antonio Masiello/Getty Images",
+      "text": "Antonio Masiello/Getty Images"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 39.72010040283203,
+            "t": 25.02519989013672,
+            "r": 161.31239318847656,
+            "b": 18.662200927734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            39
+          ]
+        }
+      ],
+      "orig": "www.thelancet.com Vol 397 June 19, 2021",
+      "text": "www.thelancet.com Vol 397 June 19, 2021"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 553.2864379882812,
+            "t": 24.339200973510742,
+            "r": 566.6004028320312,
+            "b": 19.257200241088867,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "2333",
+      "text": "2333"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 260.3680114746094,
+            "t": 703.1674499511719,
+            "r": 351.30401611328125,
+            "b": 602.8569641113281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 483.5273742675781,
+            "t": 479.08203125,
+            "r": 500.27764892578125,
+            "b": 459.7330322265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/23"
+        },
+        {
+          "$ref": "#/texts/24"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 482.92724609375,
+            "t": 453.9979553222656,
+            "r": 572.7116088867188,
+            "b": 329.1064758300781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/23"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 612.0,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 799.3699951171875
+      },
+      "page_no": 2
+    }
+  }
+}

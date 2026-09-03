@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_ad540e3f00803cbe40745546b865c4a0",
+  "content_hash": "c25e888bc538976585b9957b52da9802ee56c84548bf83b92e3f0fd32596e48c",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_ad540e3f00803cbe40745546b865c4a0"
+    },
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_ad540e3f00803cbe40745546b865c4a0"
+    },
+    {
+      "canonical_name": "young males aged 16 – 24 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young males aged 16 – 24 years",
+      "chunk_id": "chk_ad540e3f00803cbe40745546b865c4a0"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_ad540e3f00803cbe40745546b865c4a0"
+    },
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_ad540e3f00803cbe40745546b865c4a0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

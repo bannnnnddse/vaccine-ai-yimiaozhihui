@@ -1,0 +1,88 @@
+{
+  "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941",
+  "content_hash": "6361961fa57d907b03c1fae09549c7a03f173a936adcc4fb8a7419494a92beff",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "various diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "various diseases",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "Inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Inactivated vaccines",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "cytotoxic T lymphocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytotoxic T lymphocytes",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "CTL",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CTL",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "inactivated pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "inactivated pathogens",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "Live attenuated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Live attenuated vaccines",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "people with immunodeficiency",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "people with immunodeficiency",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "live attenuated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live attenuated vaccines",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    },
+    {
+      "canonical_name": "The subunit vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "The subunit vaccine",
+      "chunk_id": "a9b184ab30f1efe9f25b5461e035f80a736014834156945d0ac9c8148b546941"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

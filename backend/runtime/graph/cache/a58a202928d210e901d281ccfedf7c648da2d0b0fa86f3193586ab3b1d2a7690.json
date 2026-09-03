@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_003f772a872ad195717ea5d19a1fb051",
+  "content_hash": "a93a1d03ea6945e974bcd83173e1ad993c8b98894251a95ff6c61abfd86052a8",
+  "entities": [
+    {
+      "canonical_name": "HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HBV infection",
+      "chunk_id": "chk_003f772a872ad195717ea5d19a1fb051"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_003f772a872ad195717ea5d19a1fb051"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_003f772a872ad195717ea5d19a1fb051"
+    },
+    {
+      "canonical_name": "HBVacs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBVacs",
+      "chunk_id": "chk_003f772a872ad195717ea5d19a1fb051"
+    },
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "chk_003f772a872ad195717ea5d19a1fb051"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

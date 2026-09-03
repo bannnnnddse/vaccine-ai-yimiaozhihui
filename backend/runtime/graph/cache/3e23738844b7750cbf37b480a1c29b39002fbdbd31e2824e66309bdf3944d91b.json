@@ -1,0 +1,18 @@
+{
+  "chunk_id": "chk_5b76b7588266bffa48c8d25c10376cbf",
+  "content_hash": "327eb1ecbc26d3dfe5aba6918c6fcf965cea6ec6e341cf5e219b1d46e37542e6",
+  "entities": [
+    {
+      "canonical_name": "Boostrix-IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Boostrix-IPV",
+      "chunk_id": "chk_5b76b7588266bffa48c8d25c10376cbf"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "llm_forbidden_relation"
+  ]
+}

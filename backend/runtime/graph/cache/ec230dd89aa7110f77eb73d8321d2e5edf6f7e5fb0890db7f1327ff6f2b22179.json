@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7e9d944d48f604b117fd186ed7b16ee9",
+  "content_hash": "58f959b199ee063e1e2976707313a0a43705e8e48dbdc8ad2c313fb4eae41c1f",
+  "entities": [
+    {
+      "canonical_name": "Older Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Older Adults",
+      "chunk_id": "chk_7e9d944d48f604b117fd186ed7b16ee9"
+    },
+    {
+      "canonical_name": "age ≥60 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "age ≥60 years",
+      "chunk_id": "chk_7e9d944d48f604b117fd186ed7b16ee9"
+    },
+    {
+      "canonical_name": "RSV F vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV F vaccine",
+      "chunk_id": "chk_7e9d944d48f604b117fd186ed7b16ee9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_9ee6f65ba93463704e9ea75e02f07e54",
+  "content_hash": "c8d230ae5ad8c75889258b085d0acd89680dcd274badfaece03d2937f4cea6a0",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_9ee6f65ba93463704e9ea75e02f07e54"
+    },
+    {
+      "canonical_name": "pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumococcal disease",
+      "chunk_id": "chk_9ee6f65ba93463704e9ea75e02f07e54"
+    },
+    {
+      "canonical_name": "adults aged 19 years or older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults aged 19 years or older",
+      "chunk_id": "chk_9ee6f65ba93463704e9ea75e02f07e54"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_9ee6f65ba93463704e9ea75e02f07e54"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

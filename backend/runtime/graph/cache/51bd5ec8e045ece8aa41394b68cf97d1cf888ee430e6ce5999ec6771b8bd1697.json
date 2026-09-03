@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_7e6f1eeaa505d09f088d3f75134b2397",
+  "content_hash": "1a91a50a21dd83d8121f948c601bd55bcaab6169ddee782d4464f7815e0c974c",
+  "entities": [
+    {
+      "canonical_name": "小于 18 周岁人群",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "小于 18 周岁人群",
+      "chunk_id": "chk_7e6f1eeaa505d09f088d3f75134b2397"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

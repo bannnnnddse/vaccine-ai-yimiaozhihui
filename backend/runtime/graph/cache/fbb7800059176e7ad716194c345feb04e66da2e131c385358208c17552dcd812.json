@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_529e59fac5f1ec7cd5fb00f45e7e0cef",
+  "content_hash": "36515488584f624e64e506d4c8659dfa8f09363a186ac2bb82796575597585b8",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_529e59fac5f1ec7cd5fb00f45e7e0cef"
+    },
+    {
+      "canonical_name": "15–29 year-olds",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "15–29 year-olds",
+      "chunk_id": "chk_529e59fac5f1ec7cd5fb00f45e7e0cef"
+    },
+    {
+      "canonical_name": "vaccinee death",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vaccinee death",
+      "chunk_id": "chk_529e59fac5f1ec7cd5fb00f45e7e0cef"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

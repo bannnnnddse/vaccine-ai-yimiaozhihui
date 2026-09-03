@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2aebc029e55c53ecb66544c1c42e1bb3",
+  "content_hash": "d714eddd6ecdb3e85ad94d24e25c17f9d8d432eed0917ffad57423f2994dfec9",
+  "entities": [
+    {
+      "canonical_name": "ChAdOx1 nCoV -19 (AZD1222) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1 nCoV -19 (AZD1222) vaccine",
+      "chunk_id": "chk_2aebc029e55c53ecb66544c1c42e1bb3"
+    },
+    {
+      "canonical_name": "recombinant adenovirus type -5 vectored COVID -19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant adenovirus type -5 vectored COVID -19 vaccine",
+      "chunk_id": "chk_2aebc029e55c53ecb66544c1c42e1bb3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

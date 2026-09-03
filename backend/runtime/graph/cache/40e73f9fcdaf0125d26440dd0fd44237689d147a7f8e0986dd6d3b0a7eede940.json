@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b454eaee6cfc7eda821954cdbc56f0ba",
+  "content_hash": "c360b167b38e5fd888270db562870090e8645ae1a7ff0baad153df41fabdd43c",
+  "entities": [
+    {
+      "canonical_name": "nasal-spray vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nasal-spray vaccines",
+      "chunk_id": "chk_b454eaee6cfc7eda821954cdbc56f0ba"
+    },
+    {
+      "canonical_name": "VSV-vectored vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VSV-vectored vaccine",
+      "chunk_id": "chk_b454eaee6cfc7eda821954cdbc56f0ba"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_b454eaee6cfc7eda821954cdbc56f0ba"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

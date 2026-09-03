@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_de976c1fb91e1deb844842af7c45ca31",
+  "content_hash": "68df5e6c8829e5dfc340e0a9de8963f1c51091eb37e7f8bfe2edda8ac11f8cda",
+  "entities": [
+    {
+      "canonical_name": "32-valent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "32-valent vaccine",
+      "chunk_id": "chk_de976c1fb91e1deb844842af7c45ca31"
+    },
+    {
+      "canonical_name": "Strep A",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Strep A",
+      "chunk_id": "chk_de976c1fb91e1deb844842af7c45ca31"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

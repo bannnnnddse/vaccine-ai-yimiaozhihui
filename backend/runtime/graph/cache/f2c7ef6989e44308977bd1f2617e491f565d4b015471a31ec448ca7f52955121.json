@@ -1,0 +1,24 @@
+{
+  "chunk_id": "9fe5a5e913fbc4c31c926d959c651289f404eb88426000c79e9711815e2ae9bf",
+  "content_hash": "73daf1144de8eb17bf4ff2cfd9ec08ec3dfdd8637de8a5f0411321f0f564c360",
+  "entities": [
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "9fe5a5e913fbc4c31c926d959c651289f404eb88426000c79e9711815e2ae9bf"
+    },
+    {
+      "canonical_name": "Antimicrobial resistance",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Antimicrobial resistance",
+      "chunk_id": "9fe5a5e913fbc4c31c926d959c651289f404eb88426000c79e9711815e2ae9bf"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote"
+  ]
+}

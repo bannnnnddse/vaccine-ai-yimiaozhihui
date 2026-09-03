@@ -1,0 +1,22 @@
+{
+  "chunk_id": "27617456f45e9a1a281ff566b4938b44017991525dd8e341249b77bce0d77d63",
+  "content_hash": "89841810b120169a542be1b1780754ed7fb378a2484cc04ba683d1230c987a1f",
+  "entities": [
+    {
+      "canonical_name": "methotrexate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "methotrexate",
+      "chunk_id": "27617456f45e9a1a281ff566b4938b44017991525dd8e341249b77bce0d77d63"
+    },
+    {
+      "canonical_name": "rituximab",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rituximab",
+      "chunk_id": "27617456f45e9a1a281ff566b4938b44017991525dd8e341249b77bce0d77d63"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

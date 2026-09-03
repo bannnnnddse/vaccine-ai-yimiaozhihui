@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_13e8f6117a0df615451745a439d4f945",
+  "content_hash": "954ce5de6599b70892714ec34cab0fdd5717d6641cb33e4aa375cab5f3bc1e21",
+  "entities": [
+    {
+      "canonical_name": "serious adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serious adverse events",
+      "chunk_id": "chk_13e8f6117a0df615451745a439d4f945"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

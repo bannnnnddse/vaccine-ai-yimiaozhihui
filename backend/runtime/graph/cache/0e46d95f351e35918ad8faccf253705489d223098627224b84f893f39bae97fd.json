@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_95bc4e38917450ed1ec820b81927a308",
+  "content_hash": "cea3ddfd1867bcb17d331b420ea52b061127380a8925ccc9480c765fce4a7990",
+  "entities": [
+    {
+      "canonical_name": "childhood vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "childhood vaccines",
+      "chunk_id": "chk_95bc4e38917450ed1ec820b81927a308"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_87added0d18fb0ebfba51c5ef8934e24",
+  "content_hash": "2cbb88e1bf9f302cd47c06d789263d4b4434a20e1ba15d55e303ec27d9673d27",
+  "entities": [
+    {
+      "canonical_name": "Adverse Events Following Immunization",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Adverse Events Following Immunization",
+      "chunk_id": "chk_87added0d18fb0ebfba51c5ef8934e24"
+    },
+    {
+      "canonical_name": "varicella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella vaccine",
+      "chunk_id": "chk_87added0d18fb0ebfba51c5ef8934e24"
+    },
+    {
+      "canonical_name": "polio",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "polio",
+      "chunk_id": "chk_87added0d18fb0ebfba51c5ef8934e24"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_87added0d18fb0ebfba51c5ef8934e24"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_87added0d18fb0ebfba51c5ef8934e24"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

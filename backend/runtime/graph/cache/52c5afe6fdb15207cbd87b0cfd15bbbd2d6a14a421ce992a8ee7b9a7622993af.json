@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_ca86bfce44e7d144ecf9861a18cf2a22",
+  "content_hash": "b4f3886fbc63330941bb7ae71190ead847a6a0d757cce2d3413834b379a55848",
+  "entities": [
+    {
+      "canonical_name": "naive B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "naive B cells",
+      "chunk_id": "chk_ca86bfce44e7d144ecf9861a18cf2a22"
+    },
+    {
+      "canonical_name": "GC B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GC B cells",
+      "chunk_id": "chk_ca86bfce44e7d144ecf9861a18cf2a22"
+    },
+    {
+      "canonical_name": "HIV envelope protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HIV envelope protein",
+      "chunk_id": "chk_ca86bfce44e7d144ecf9861a18cf2a22"
+    },
+    {
+      "canonical_name": "HIV-specific antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HIV-specific antibodies",
+      "chunk_id": "chk_ca86bfce44e7d144ecf9861a18cf2a22"
+    },
+    {
+      "canonical_name": "broadly neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "broadly neutralizing antibodies",
+      "chunk_id": "chk_ca86bfce44e7d144ecf9861a18cf2a22"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

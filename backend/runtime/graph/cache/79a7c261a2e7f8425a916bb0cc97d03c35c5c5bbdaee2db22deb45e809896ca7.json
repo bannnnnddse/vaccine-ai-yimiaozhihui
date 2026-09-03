@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_6ca74ebe554b922a87698bb7544c9c7b",
+  "content_hash": "3703dd374280e1523243cd647ddf122a00e9122586c641c69d3f76c5956521e1",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_6ca74ebe554b922a87698bb7544c9c7b"
+    },
+    {
+      "canonical_name": "women aged 19–26",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "women aged 19–26",
+      "chunk_id": "chk_6ca74ebe554b922a87698bb7544c9c7b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

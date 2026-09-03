@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_92fd915785a5fb95e175428770ad9411",
+  "content_hash": "ea65c74ff8ad6340a63cd6a3475d9e838ac7eb95dd42e6f27694cbeedb3ee16a",
+  "entities": [
+    {
+      "canonical_name": "maternal and infant vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "maternal and infant vaccines",
+      "chunk_id": "chk_92fd915785a5fb95e175428770ad9411"
+    },
+    {
+      "canonical_name": "HPV v accination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV v accination",
+      "chunk_id": "chk_92fd915785a5fb95e175428770ad9411"
+    },
+    {
+      "canonical_name": "college girls",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "college girls",
+      "chunk_id": "chk_92fd915785a5fb95e175428770ad9411"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_4fcce361a7555ebf74c9838dd08fee8c",
+  "content_hash": "58936e095122bd6ea01dd1f40238eb4b12eaf9fcbd0f017a44c30f9ac16f8e00",
+  "entities": [
+    {
+      "canonical_name": "Patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Patients",
+      "chunk_id": "chk_4fcce361a7555ebf74c9838dd08fee8c"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_4fcce361a7555ebf74c9838dd08fee8c"
+    },
+    {
+      "canonical_name": "mortality",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "mortality",
+      "chunk_id": "chk_4fcce361a7555ebf74c9838dd08fee8c"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_4fcce361a7555ebf74c9838dd08fee8c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

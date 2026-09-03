@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_0ae748d2ac2413c900f5a038a0e1e0ac",
+  "content_hash": "d07f8c2038a384c2b9356cf5ff324d8c4c89adf8659eba300725596d9f87badb",
+  "entities": [
+    {
+      "canonical_name": "9vHPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "9vHPV vaccine",
+      "chunk_id": "chk_0ae748d2ac2413c900f5a038a0e1e0ac"
+    },
+    {
+      "canonical_name": "4vHPV variant",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "4vHPV variant",
+      "chunk_id": "chk_0ae748d2ac2413c900f5a038a0e1e0ac"
+    },
+    {
+      "canonical_name": "males and females aged 9-15 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "males and females aged 9-15 years",
+      "chunk_id": "chk_0ae748d2ac2413c900f5a038a0e1e0ac"
+    },
+    {
+      "canonical_name": "females aged 16-26 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females aged 16-26 years",
+      "chunk_id": "chk_0ae748d2ac2413c900f5a038a0e1e0ac"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

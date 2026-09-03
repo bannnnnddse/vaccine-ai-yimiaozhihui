@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_64a111c671868df9e3b45f06afd6b82a",
+  "content_hash": "bec439ad053eb20b7aae3e52405fb51deee23956f4f9081a4c3b2c97ff96961e",
+  "entities": [
+    {
+      "canonical_name": "pTVG-AR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pTVG-AR",
+      "chunk_id": "chk_64a111c671868df9e3b45f06afd6b82a"
+    },
+    {
+      "canonical_name": "GM-CSF",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GM-CSF",
+      "chunk_id": "chk_64a111c671868df9e3b45f06afd6b82a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

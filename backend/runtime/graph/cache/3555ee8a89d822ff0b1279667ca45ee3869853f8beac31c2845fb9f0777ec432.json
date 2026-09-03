@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7ee1d4a096e2919a03bcda13508a478a",
+  "content_hash": "522eb9dffe352a81c8e31600c320d83e893065be43e6de3d274ca0f24873da6f",
+  "entities": [
+    {
+      "canonical_name": "NVX-CoV2373",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "NVX-CoV2373",
+      "chunk_id": "chk_7ee1d4a096e2919a03bcda13508a478a"
+    },
+    {
+      "canonical_name": "seasonal influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "seasonal influenza vaccine",
+      "chunk_id": "chk_7ee1d4a096e2919a03bcda13508a478a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

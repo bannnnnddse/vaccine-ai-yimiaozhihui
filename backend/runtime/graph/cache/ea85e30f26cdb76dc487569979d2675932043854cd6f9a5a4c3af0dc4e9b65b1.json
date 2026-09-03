@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_50123536139d5d0cbbe6bfb8e4f2ea61",
+  "content_hash": "1c97b77442a59bee72856f24be7b3ed15ee1437f00f4f919163c3fb2f4777e6e",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_50123536139d5d0cbbe6bfb8e4f2ea61"
+    },
+    {
+      "canonical_name": "vaccine-elicited antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "vaccine-elicited antibodies",
+      "chunk_id": "chk_50123536139d5d0cbbe6bfb8e4f2ea61"
+    },
+    {
+      "canonical_name": "patients with cancer",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients with cancer",
+      "chunk_id": "chk_50123536139d5d0cbbe6bfb8e4f2ea61"
+    },
+    {
+      "canonical_name": "solid cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "solid cancers",
+      "chunk_id": "chk_50123536139d5d0cbbe6bfb8e4f2ea61"
+    },
+    {
+      "canonical_name": "haematological cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "haematological cancers",
+      "chunk_id": "chk_50123536139d5d0cbbe6bfb8e4f2ea61"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

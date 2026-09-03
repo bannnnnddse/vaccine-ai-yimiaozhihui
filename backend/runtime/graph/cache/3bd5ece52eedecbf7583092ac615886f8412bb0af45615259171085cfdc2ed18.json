@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_01a961d2068821cedfc554d930c517b1",
+  "content_hash": "791e18951c96770cc2985b8c1a295b921a4964994dfde20c18994374759f8784",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_01a961d2068821cedfc554d930c517b1"
+    },
+    {
+      "canonical_name": "virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "virus",
+      "chunk_id": "chk_01a961d2068821cedfc554d930c517b1"
+    },
+    {
+      "canonical_name": "vaccinated person",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccinated person",
+      "chunk_id": "chk_01a961d2068821cedfc554d930c517b1"
+    },
+    {
+      "canonical_name": "viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "viruses",
+      "chunk_id": "chk_01a961d2068821cedfc554d930c517b1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

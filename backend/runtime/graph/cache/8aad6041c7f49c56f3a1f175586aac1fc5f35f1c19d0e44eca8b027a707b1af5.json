@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_a8488e06f3dcf7f4587ec5300a1155cc",
+  "content_hash": "ddb525c203b1779c447dcfeff3ad8b0eb26bd553aeade33e3749103927f9f0a6",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_a8488e06f3dcf7f4587ec5300a1155cc"
+    },
+    {
+      "canonical_name": "side effects",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "side effects",
+      "chunk_id": "chk_a8488e06f3dcf7f4587ec5300a1155cc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

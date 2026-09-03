@@ -1,0 +1,15 @@
+{
+  "chunk_id": "804e6d7a524d616778c126d006221afa5c5e7fbef4e83d2d3cff138963f401dd",
+  "content_hash": "0b3ad3b74f00cfb5bab67498a53388da883724c495136108df9839309e817330",
+  "entities": [
+    {
+      "canonical_name": "vulnerable patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vulnerable patients",
+      "chunk_id": "804e6d7a524d616778c126d006221afa5c5e7fbef4e83d2d3cff138963f401dd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

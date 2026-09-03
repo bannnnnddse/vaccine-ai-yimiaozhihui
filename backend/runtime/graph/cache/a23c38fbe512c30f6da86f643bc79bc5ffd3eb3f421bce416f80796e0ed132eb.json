@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_daccf2cbbcc5c064a700b51f5b414f17",
+  "content_hash": "2041a4e14536a2094be1e6d48272713233e849dd8735b44671e7836a4ae50532",
+  "entities": [
+    {
+      "canonical_name": "疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "疫苗",
+      "chunk_id": "chk_daccf2cbbcc5c064a700b51f5b414f17"
+    },
+    {
+      "canonical_name": "注射器",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "注射器",
+      "chunk_id": "chk_daccf2cbbcc5c064a700b51f5b414f17"
+    },
+    {
+      "canonical_name": "受种者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "受种者",
+      "chunk_id": "chk_daccf2cbbcc5c064a700b51f5b414f17"
+    },
+    {
+      "canonical_name": "监护人",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "监护人",
+      "chunk_id": "chk_daccf2cbbcc5c064a700b51f5b414f17"
+    },
+    {
+      "canonical_name": "接种禁忌",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "接种禁忌",
+      "chunk_id": "chk_daccf2cbbcc5c064a700b51f5b414f17"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

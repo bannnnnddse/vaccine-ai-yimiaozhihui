@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_c9a1e1ea369e4f7874a794470a7b99d4",
+  "content_hash": "92fb70605e5ec7de48930fa06f16e0c2e7c239fee1b767b0d1d3fd1c7a6e9393",
+  "entities": [
+    {
+      "canonical_name": "MCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MCV",
+      "chunk_id": "chk_c9a1e1ea369e4f7874a794470a7b99d4"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_c9a1e1ea369e4f7874a794470a7b99d4"
+    },
+    {
+      "canonical_name": "SARS-CoV2 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV2 vaccination",
+      "chunk_id": "chk_c9a1e1ea369e4f7874a794470a7b99d4"
+    },
+    {
+      "canonical_name": "general public",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general public",
+      "chunk_id": "chk_c9a1e1ea369e4f7874a794470a7b99d4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

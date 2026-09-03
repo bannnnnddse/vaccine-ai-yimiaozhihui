@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_4bd03d347c1bf4424150ae0a110d9b36",
+  "content_hash": "4fbda70aeff7982773c22cc276935790ac7bbc941637217da9eadb984fa59488",
+  "entities": [
+    {
+      "canonical_name": "VAED",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "VAED",
+      "chunk_id": "chk_4bd03d347c1bf4424150ae0a110d9b36"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "chk_4bd03d347c1bf4424150ae0a110d9b36"
+    },
+    {
+      "canonical_name": "S-IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "S-IgG",
+      "chunk_id": "chk_4bd03d347c1bf4424150ae0a110d9b36"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

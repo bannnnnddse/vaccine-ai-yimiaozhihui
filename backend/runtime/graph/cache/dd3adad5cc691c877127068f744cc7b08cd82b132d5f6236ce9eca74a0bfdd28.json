@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_1e6ead91263010283085bfd610352015",
+  "content_hash": "e7140872b6e10436988f9ef0b953e32c17361295a5037e466fc82f15765a6225",
+  "entities": [
+    {
+      "canonical_name": "protein subunit vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "protein subunit vaccine",
+      "chunk_id": "chk_1e6ead91263010283085bfd610352015"
+    },
+    {
+      "canonical_name": "elderly people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly people",
+      "chunk_id": "chk_1e6ead91263010283085bfd610352015"
+    },
+    {
+      "canonical_name": "GnH-ferritin nanoparticle",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GnH-ferritin nanoparticle",
+      "chunk_id": "chk_1e6ead91263010283085bfd610352015"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_1e6ead91263010283085bfd610352015"
+    },
+    {
+      "canonical_name": "EBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EBV",
+      "chunk_id": "chk_1e6ead91263010283085bfd610352015"
+    },
+    {
+      "canonical_name": "influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus",
+      "chunk_id": "chk_1e6ead91263010283085bfd610352015"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

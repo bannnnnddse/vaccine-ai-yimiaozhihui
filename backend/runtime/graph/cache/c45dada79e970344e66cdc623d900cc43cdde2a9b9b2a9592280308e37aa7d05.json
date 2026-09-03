@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_be46617e228d20a4356e655b9db1b099",
+  "content_hash": "b8b4dea280f9b896cda41cbdf524ceeda7fe6b281a2db7d184196204cb18e2d3",
+  "entities": [
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "chk_be46617e228d20a4356e655b9db1b099"
+    },
+    {
+      "canonical_name": "Fever ≥38.0 ◦ C",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Fever ≥38.0 ◦ C",
+      "chunk_id": "chk_be46617e228d20a4356e655b9db1b099"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

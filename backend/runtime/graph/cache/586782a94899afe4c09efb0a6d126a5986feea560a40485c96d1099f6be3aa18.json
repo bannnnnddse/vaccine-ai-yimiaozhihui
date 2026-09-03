@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_42aa2120dbdb2e1f3a653e4230ec0364",
+  "content_hash": "00b09510816d51d110b8c52615ba8bf500806db259c9b0384300485caf5ae24d",
+  "entities": [
+    {
+      "canonical_name": "DTaP",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTaP",
+      "chunk_id": "chk_42aa2120dbdb2e1f3a653e4230ec0364"
+    },
+    {
+      "canonical_name": "DT",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DT",
+      "chunk_id": "chk_42aa2120dbdb2e1f3a653e4230ec0364"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

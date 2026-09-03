@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_37eaa66a2e42b612b7a7c953007d863f",
+  "content_hash": "b8c7c8ef922d1c4441c21511de256b46a46a7998141466af50edc0ec95aa393f",
+  "entities": [
+    {
+      "canonical_name": "BA.2.75.2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BA.2.75.2",
+      "chunk_id": "chk_37eaa66a2e42b612b7a7c953007d863f"
+    },
+    {
+      "canonical_name": "BQ.1.1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BQ.1.1",
+      "chunk_id": "chk_37eaa66a2e42b612b7a7c953007d863f"
+    },
+    {
+      "canonical_name": "XBB",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "XBB",
+      "chunk_id": "chk_37eaa66a2e42b612b7a7c953007d863f"
+    },
+    {
+      "canonical_name": "mRNA bivalent booster",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA bivalent booster",
+      "chunk_id": "chk_37eaa66a2e42b612b7a7c953007d863f"
+    },
+    {
+      "canonical_name": "SARSCoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2",
+      "chunk_id": "chk_37eaa66a2e42b612b7a7c953007d863f"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 B.1.617 variants",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 B.1.617 variants",
+      "chunk_id": "chk_37eaa66a2e42b612b7a7c953007d863f"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 neutralizing antibodies",
+      "chunk_id": "chk_37eaa66a2e42b612b7a7c953007d863f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

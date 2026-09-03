@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_c1e9ef3fee43a402fdb20dea659d477b",
+  "content_hash": "a3f9f7f1d36bfbc8f31417f91eadefcf9583b9d3575b478a56250ae7c0aa0806",
+  "entities": [
+    {
+      "canonical_name": "mRNA-Based RSV PreF Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-Based RSV PreF Vaccine",
+      "chunk_id": "chk_c1e9ef3fee43a402fdb20dea659d477b"
+    },
+    {
+      "canonical_name": "Older Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Older Adults",
+      "chunk_id": "chk_c1e9ef3fee43a402fdb20dea659d477b"
+    },
+    {
+      "canonical_name": "respiratory syncytial virus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus vaccines",
+      "chunk_id": "chk_c1e9ef3fee43a402fdb20dea659d477b"
+    },
+    {
+      "canonical_name": "respiratory syncytial virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus",
+      "chunk_id": "chk_c1e9ef3fee43a402fdb20dea659d477b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

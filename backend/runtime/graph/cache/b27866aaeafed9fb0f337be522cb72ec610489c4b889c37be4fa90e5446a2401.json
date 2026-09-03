@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f52c872a12e4327b2acec85b54ceac97",
+  "content_hash": "b6d4eebac7ef803a9af06558846d148b4cbfa58e2076258c65215816245b4f3c",
+  "entities": [
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_f52c872a12e4327b2acec85b54ceac97"
+    },
+    {
+      "canonical_name": "chronic HIV-1 patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "chronic HIV-1 patients",
+      "chunk_id": "chk_f52c872a12e4327b2acec85b54ceac97"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_f52c872a12e4327b2acec85b54ceac97"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_7292cf8774dc6c66c625a3ed0a667453",
+  "content_hash": "60d9cac174eddd6de69f68305270f59f711ad07e27a45e8fdd1197e8e49463e8",
+  "entities": [
+    {
+      "canonical_name": "extracellular vesicles vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "extracellular vesicles vaccines",
+      "chunk_id": "chk_7292cf8774dc6c66c625a3ed0a667453"
+    },
+    {
+      "canonical_name": "Vibrio cholerae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Vibrio cholerae",
+      "chunk_id": "chk_7292cf8774dc6c66c625a3ed0a667453"
+    },
+    {
+      "canonical_name": "serogroup B Neisseria meningitidis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "serogroup B Neisseria meningitidis",
+      "chunk_id": "chk_7292cf8774dc6c66c625a3ed0a667453"
+    },
+    {
+      "canonical_name": "Neisseria gonorrhoeae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Neisseria gonorrhoeae",
+      "chunk_id": "chk_7292cf8774dc6c66c625a3ed0a667453"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote"
+  ]
+}

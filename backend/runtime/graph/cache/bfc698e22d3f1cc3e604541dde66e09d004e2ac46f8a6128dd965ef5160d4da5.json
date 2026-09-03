@@ -1,0 +1,78 @@
+{
+  "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36",
+  "content_hash": "dee5a4ce7970c03d6176d0ca7a83d05a42ecf6b0757b56ccf90dbdba6bd8f5b9",
+  "entities": [
+    {
+      "canonical_name": "innate immune system",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune system",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    },
+    {
+      "canonical_name": "protective immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "protective immune responses",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    },
+    {
+      "canonical_name": "vaccine-induced immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "vaccine-induced immunity",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    },
+    {
+      "canonical_name": "antibody response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody response",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    },
+    {
+      "canonical_name": "TLR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    },
+    {
+      "canonical_name": "germinal center–memory B cell differentiation pathway",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "germinal center–memory B cell differentiation pathway",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    },
+    {
+      "canonical_name": "basophils",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "basophils",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    },
+    {
+      "canonical_name": "plasma cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cell",
+      "chunk_id": "chk_6fe144ffdca5e6a485c7393fba83df36"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

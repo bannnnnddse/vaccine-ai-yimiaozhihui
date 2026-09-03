@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_dcb001ceab6c0374bc2a48b551a136be",
+  "content_hash": "842f1cdfd2fa62ed18e3cf429b2c9115175b33a84bb999b5257cc9c9ba74a400",
+  "entities": [
+    {
+      "canonical_name": "pre-existing immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pre-existing immunity",
+      "chunk_id": "chk_dcb001ceab6c0374bc2a48b551a136be"
+    },
+    {
+      "canonical_name": "antigen exposure",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen exposure",
+      "chunk_id": "chk_dcb001ceab6c0374bc2a48b551a136be"
+    },
+    {
+      "canonical_name": "immune cell frequencies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune cell frequencies",
+      "chunk_id": "chk_dcb001ceab6c0374bc2a48b551a136be"
+    },
+    {
+      "canonical_name": "activation",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "activation",
+      "chunk_id": "chk_dcb001ceab6c0374bc2a48b551a136be"
+    },
+    {
+      "canonical_name": "antibody titre",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody titre",
+      "chunk_id": "chk_dcb001ceab6c0374bc2a48b551a136be"
+    },
+    {
+      "canonical_name": "function",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "function",
+      "chunk_id": "chk_dcb001ceab6c0374bc2a48b551a136be"
+    },
+    {
+      "canonical_name": "capacity for antigen processing",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "capacity for antigen processing",
+      "chunk_id": "chk_dcb001ceab6c0374bc2a48b551a136be"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

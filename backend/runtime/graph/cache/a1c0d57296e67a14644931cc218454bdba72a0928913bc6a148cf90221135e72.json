@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b",
+  "content_hash": "78cf671903e98c282c51685c7a663810c35287bdb2234d6c2b99ffa9e82a023c",
+  "entities": [
+    {
+      "canonical_name": "mRNA-based COVID19 vaccine boosters",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-based COVID19 vaccine boosters",
+      "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 Omicron variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Omicron variant",
+      "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b"
+    },
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b"
+    },
+    {
+      "canonical_name": "Alpha",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Alpha",
+      "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b"
+    },
+    {
+      "canonical_name": "COVID-19 vaccine BNT162b1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine BNT162b1",
+      "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b"
+    },
+    {
+      "canonical_name": "human antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human antibody",
+      "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b"
+    },
+    {
+      "canonical_name": "TH1 T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TH1 T-cell",
+      "chunk_id": "chk_4f0c32ba8bdc9fea4cc36b93c814b40b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

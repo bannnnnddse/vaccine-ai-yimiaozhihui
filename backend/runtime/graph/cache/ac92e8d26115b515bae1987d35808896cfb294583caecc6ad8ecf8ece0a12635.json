@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_7644ac0317e838840711e9ee50047bdd",
+  "content_hash": "ba6d2838c024307004d02cb0cc61f6047b8fa78e2f738c7876374c3eaecf04dd",
+  "entities": [
+    {
+      "canonical_name": "NAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NAb",
+      "chunk_id": "chk_7644ac0317e838840711e9ee50047bdd"
+    },
+    {
+      "canonical_name": "PUUV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "PUUV",
+      "chunk_id": "chk_7644ac0317e838840711e9ee50047bdd"
+    },
+    {
+      "canonical_name": "HTNV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HTNV",
+      "chunk_id": "chk_7644ac0317e838840711e9ee50047bdd"
+    },
+    {
+      "canonical_name": "SOCHIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SOCHIV",
+      "chunk_id": "chk_7644ac0317e838840711e9ee50047bdd"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_7644ac0317e838840711e9ee50047bdd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

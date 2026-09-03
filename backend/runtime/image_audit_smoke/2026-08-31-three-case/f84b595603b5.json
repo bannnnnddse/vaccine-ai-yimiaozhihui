@@ -1,0 +1,205 @@
+{
+  "job_id": "f84b595603b5",
+  "prompt": "制作一张儿童接种水痘疫苗的中文科普图解。重点表达两剂接种比只完成一剂的保护更完整；画面要有标题、两剂时间线、盾牌和儿童健康主题，但不要写具体百分比。",
+  "brief": {
+    "image_type": "graphical_abstract",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "virus",
+      "antibody"
+    ],
+    "scene_direction": "竖版构图，分为上下两个对比区域。上方区域展示单剂接种后的状态，下方区域展示双剂接种后的状态。背景为浅色调，突出前景元素。顶部有中文标题。画面包含时间轴、盾牌图标和儿童形象，风格简洁科学，色彩明快但不幼稚。",
+    "optimized_chinese_prompt": "一张竖版的科学科普图解，标题为“水痘疫苗接种：两剂比一剂保护更完整”。画面分为上下两部分。上半部分显示一个儿童接受第一剂疫苗，旁边有一个较小的半透明盾牌，标注“单剂”，下方有一条简短的时间线。下半部分显示同一儿童在间隔一段时间后接受第二剂疫苗，旁边有一个较大、坚固且发光的金色盾牌，标注“双剂”，下方有更长的时间线。整体风格为扁平化科学插画，清晰展示免疫保护的增强效果，无具体百分比数字，强调因果逻辑。",
+    "chinese_labels": [
+      "水痘疫苗",
+      "第一剂接种",
+      "第二剂接种",
+      "基础保护",
+      "强化保护",
+      "免疫屏障",
+      "儿童健康"
+    ],
+    "scientific_claims": [
+      "水痘疫苗推荐进行两剂次接种以建立充分免疫",
+      "完成两剂接种可提供比单剂更完整的保护效力",
+      "第二剂接种旨在巩固和提升机体对水痘病毒的免疫力",
+      "双剂策略有助于减少突破性感染的发生风险"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "接种第一剂疫苗诱导初步免疫反应形成基础保护水平"
+      },
+      {
+        "primary_relation": "经过规定间隔期后接种第二剂疫苗触发免疫记忆增强"
+      },
+      {
+        "primary_relation": "双重免疫刺激导致抗体滴度升高及持久性增加"
+      },
+      {
+        "primary_relation": "高水平的特异性免疫屏障显著降低感染概率与重症风险"
+      }
+    ],
+    "route_reason": "用户要求制作中文科普图解，重点表达两剂比一剂保护更完整，涉及明确的因果关系（接种->保护增强），且需要包含时间线和对比元素，符合mechanism_diagram或graphical_abstract的特征。由于不涉及具体的细胞/病毒IP绘制需求，而是宏观的机制对比，选择scientific_diagram作为visual_profile最为合适，能够清晰展示时间线和保护力对比。生成路线选择fast以快速出图。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "virus",
+    "antibody"
+  ],
+  "cell_ip_unmatched_cell_terms": [],
+  "reference_assets": [
+    "canonical:virus",
+    "canonical:antibody"
+  ],
+  "reference_assets_actually_sent": [
+    "canonical:virus",
+    "canonical:antibody"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "virus",
+      "asset_id": "canonical:virus"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n竖版构图，分为上下两个对比区域。上方区域展示单剂接种后的状态，下方区域展示双剂接种后的状态。背景为浅色调，突出前景元素。顶部有中文标题。画面包含时间轴、盾牌图标和儿童形象，风格简洁科学，色彩明快但不幼稚。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 接种第一剂疫苗诱导初步免疫反应形成基础保护水平；2. 经过规定间隔期后接种第二剂疫苗触发免疫记忆增强；3. 双重免疫刺激导致抗体滴度升高及持久性增加；4. 高水平的特异性免疫屏障显著降低感染概率与重症风险\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：水痘疫苗、第一剂接种、第二剂接种、基础保护、强化保护、免疫屏障、儿童健康\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是 病毒颗粒 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 图2是 抗体 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 本题命中的固定角色：病毒颗粒、抗体\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 病毒颗粒：青绿色多边形带圆刺，可带小盾牌\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n\n- 未收录的必要细胞：未识别到命名的未收录细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "aspect_ratio": "16:9",
+  "image_id": "f84b595603b5-v0",
+  "trusted_image": "f84b595603b5-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "生成的图解在角色一致性（病毒和抗体形象符合IP设定）、视觉分层（基础与强化保护对比清晰）以及核心因果链的可视化上表现良好。但是，画面中存在明显的文字生成错误：1. 时间轴标签‘统中月时间期’为无意义字符组合，语义不通；2. 左下角文字‘双剂水痘疫接种后’存在错别字/漏字（应为‘疫苗’）。这些文本错误严重影响了科普内容的准确性与专业性，必须修正。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "pass",
+        "evidence": "角色设计严格遵循细胞IP规范：病毒颗粒为青绿色多边形带圆刺，抗体为浅蓝色Y形配紫色端点及可爱表情。两幅图中角色特征保持高度一致，无明显变形或伪影。",
+        "confidence": 0.95
+      },
+      "text_legibility": {
+        "status": "issue",
+        "evidence": "中间时间轴箭头上的文字显示为‘统中月时间期’，属于AI生成的乱码/幻觉，无法传达‘间隔期’或‘时间’概念。左下角文字‘双剂水痘疫接种后’疑似漏字（缺‘苗’），导致语病。",
+        "confidence": 1.0
+      },
+      "layout_hierarchy": {
+        "status": "pass",
+        "evidence": "采用上下分屏结构展示第一剂与第二剂效果，配合横向时间轴引导阅读顺序。标题位于顶部居中，左右两侧分别标注‘基础保护水平’与‘强化保护水平’，层级清晰，重点突出。",
+        "confidence": 0.9
+      },
+      "brief_alignment": {
+        "status": "pass",
+        "evidence": "画面内容准确回应了用户关于‘两剂比一剂保护更完整’的核心需求。通过抗体数量（上图少、下图多）的直观对比，成功表达了免疫增强的概念，且未使用具体百分比数据，符合约束。",
+        "confidence": 0.95
+      },
+      "causal_step_coverage": {
+        "status": "pass",
+        "evidence": "按顺序展示了：第一剂诱导基础保护 -> 时间间隔 -> 第二剂触发增强 -> 高水平免疫屏障。虽然部分标签文字有误，但视觉流程（箭头、分区、角色状态变化）完整覆盖了核心因果链条。",
+        "confidence": 0.85
+      },
+      "scientific_expression_risk": {
+        "status": "pass",
+        "evidence": "使用了卡通化的病毒和抗体形象，适合儿童科普场景。将复杂的免疫反应简化为‘盾牌’（病毒）与‘抗体包围’的对抗关系，表达风险低，易于理解。",
+        "confidence": 0.9
+      }
+    },
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "中间时间轴箭头上方的文字‘统中月时间期’为生成乱码，语义不明，无法作为有效的科普标签。",
+        "bbox": [
+          0.64,
+          0.48,
+          0.82,
+          0.53
+        ],
+        "observed_text": "统中月时间期",
+        "replacement_text": "规定间隔期",
+        "confidence": 1.0,
+        "suggested_fix": "请重新生成长度合理的中文标签，如‘规定间隔期’或‘接种间隔期’，确保语义通顺且符合医学常识。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "medium",
+        "description": "左下角说明文字‘双剂水痘疫接种后’存在明显漏字，应为‘双剂水痘疫苗接种后’。",
+        "bbox": [
+          0.08,
+          0.72,
+          0.28,
+          0.82
+        ],
+        "observed_text": "双剂水痘疫接种后",
+        "replacement_text": "双剂水痘疫苗接种后",
+        "confidence": 0.95,
+        "suggested_fix": "修正文字为‘双剂水痘疫苗接种后’，保持与上方‘单剂水痘疫苗接种后’的对仗工整。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-31T04:52:18.350159+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "f9033f5db216",
+  "trace_events": [
+    {
+      "id": "f9033f5db216-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-31T04:52:18.350159Z"
+    },
+    {
+      "id": "f9033f5db216-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：一张竖版的科学科普图解，标题为“水痘疫苗接种：两剂比一剂保护更完整”。画面分为上下两部分。上半部分显示一个儿童接受第一剂疫苗，旁边有一个较小的半透明盾牌，标注“单剂”，下方有一条简短的时间线。下半部分显示同一儿童在间隔一段时间后接受第二剂疫苗，旁边有一个较大、坚固且发光的金色盾牌，标注“双剂”，下方有更长的时间线。整体风格为扁平化科学插画，清晰展示免疫保护…",
+      "status": "completed",
+      "created_at": "2026-08-31T04:52:18.350159Z"
+    },
+    {
+      "id": "f9033f5db216-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-31T04:52:23.374149Z"
+    },
+    {
+      "id": "f9033f5db216-4",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "生成的图解在角色一致性（病毒和抗体形象符合IP设定）、视觉分层（基础与强化保护对比清晰）以及核心因果链的可视化上表现良好。但是，画面中存在明显的文字生成错误：1. 时间轴标签‘统中月时间期’为无意义字符组合，语义不通；2. 左下角文字‘双剂水痘疫接种后’存在错别字/漏字（应为‘疫苗’）。这些文本错误严重影响了科普内容的准确性与专业性，必须修正。",
+      "status": "warning",
+      "created_at": "2026-08-31T04:52:37.576577Z"
+    },
+    {
+      "id": "f9033f5db216-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-31T04:53:14.558311Z"
+    }
+  ],
+  "trace_history": []
+}

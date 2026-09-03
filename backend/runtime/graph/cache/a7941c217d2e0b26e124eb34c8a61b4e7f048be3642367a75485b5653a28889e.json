@@ -1,0 +1,36 @@
+{
+  "chunk_id": "30778f542ce36e9adf254644d54366b0fedfdd7922f2af0bb27fed3da7d03f5b",
+  "content_hash": "60f8effb8961a97e547cebfbb81971475eeddb10d9b178382cd8265df7593eca",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "30778f542ce36e9adf254644d54366b0fedfdd7922f2af0bb27fed3da7d03f5b"
+    },
+    {
+      "canonical_name": "RSV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccines",
+      "chunk_id": "30778f542ce36e9adf254644d54366b0fedfdd7922f2af0bb27fed3da7d03f5b"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "30778f542ce36e9adf254644d54366b0fedfdd7922f2af0bb27fed3da7d03f5b"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "30778f542ce36e9adf254644d54366b0fedfdd7922f2af0bb27fed3da7d03f5b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

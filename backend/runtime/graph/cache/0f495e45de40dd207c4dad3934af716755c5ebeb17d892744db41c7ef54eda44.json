@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_dfc7e83484f30183c9286c1cd77b5a15",
+  "content_hash": "9080e86ae3d3c8af866e2ecf9672aa6f724e0542d407e9a729c3e65aab2e4f27",
+  "entities": [
+    {
+      "canonical_name": "dengue",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "dengue",
+      "chunk_id": "chk_dfc7e83484f30183c9286c1cd77b5a15"
+    },
+    {
+      "canonical_name": "Zika",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika",
+      "chunk_id": "chk_dfc7e83484f30183c9286c1cd77b5a15"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

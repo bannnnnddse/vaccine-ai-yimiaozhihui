@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_7d5ffcb3f4ce09deaa7d2f67a9deaa96",
+  "content_hash": "838aacbbd9fc4d0ba167f90ba3300352d135ed9da258487f572944c707cd430c",
+  "entities": [
+    {
+      "canonical_name": "T-independent type II immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-independent type II immune responses",
+      "chunk_id": "chk_7d5ffcb3f4ce09deaa7d2f67a9deaa96"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_7d5ffcb3f4ce09deaa7d2f67a9deaa96"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_b8230abf3afd2a1aa0d778af5f2d9226",
+  "content_hash": "be1d029aebdf1fce2ecd74e2fb6f9a0667c594031420c422d905663d1e0744bd",
+  "entities": [
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_b8230abf3afd2a1aa0d778af5f2d9226"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_b8230abf3afd2a1aa0d778af5f2d9226"
+    },
+    {
+      "canonical_name": "pneumococcal conjugate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccines",
+      "chunk_id": "chk_b8230abf3afd2a1aa0d778af5f2d9226"
+    },
+    {
+      "canonical_name": "poorest segments of the society",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "poorest segments of the society",
+      "chunk_id": "chk_b8230abf3afd2a1aa0d778af5f2d9226"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

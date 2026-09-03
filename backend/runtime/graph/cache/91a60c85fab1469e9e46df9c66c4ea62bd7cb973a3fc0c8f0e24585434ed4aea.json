@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_37927a1cf50d563076436168cb996d0e",
+  "content_hash": "0859632e263de79d3218dfb70d7080db8dc262822bebcd7d6e74ae2c3ee354de",
+  "entities": [
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_37927a1cf50d563076436168cb996d0e"
+    },
+    {
+      "canonical_name": "basophils",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "basophils",
+      "chunk_id": "chk_37927a1cf50d563076436168cb996d0e"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_37927a1cf50d563076436168cb996d0e"
+    },
+    {
+      "canonical_name": "DCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DCs",
+      "chunk_id": "chk_37927a1cf50d563076436168cb996d0e"
+    },
+    {
+      "canonical_name": "T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cells",
+      "chunk_id": "chk_37927a1cf50d563076436168cb996d0e"
+    },
+    {
+      "canonical_name": "macrophages",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "macrophages",
+      "chunk_id": "chk_37927a1cf50d563076436168cb996d0e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d1889b00c3feda4b0c8864ae35cf5680",
+  "content_hash": "11d6939cf0f6c513dd050a6a6226039c0b7b60d6985566f5b3c14815a3800f65",
+  "entities": [
+    {
+      "canonical_name": "Bmems",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Bmems",
+      "chunk_id": "chk_d1889b00c3feda4b0c8864ae35cf5680"
+    },
+    {
+      "canonical_name": "SSMs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SSMs",
+      "chunk_id": "chk_d1889b00c3feda4b0c8864ae35cf5680"
+    },
+    {
+      "canonical_name": "follicular dendritic cells (FDCs)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "follicular dendritic cells (FDCs)",
+      "chunk_id": "chk_d1889b00c3feda4b0c8864ae35cf5680"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

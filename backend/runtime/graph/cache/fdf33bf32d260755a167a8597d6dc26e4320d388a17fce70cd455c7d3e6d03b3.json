@@ -1,0 +1,106 @@
+{
+  "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de",
+  "content_hash": "e01a789925e9585609a3f626a9bebbe3a72675f5afd444a9494a3c162a6fd9ce",
+  "entities": [
+    {
+      "canonical_name": "乳房良性肿瘤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "乳房良性肿瘤",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "子宫平滑肌瘤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "子宫平滑肌瘤",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "卵巢良性肿瘤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "卵巢良性肿瘤",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "前列腺良性肿瘤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "前列腺良性肿瘤",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "甲状腺良性肿瘤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "甲状腺良性肿瘤",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "交界恶性和动态未知的肿瘤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "交界恶性和动态未知的肿瘤",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "贫血",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "贫血",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "甲状腺功能亢进",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "甲状腺功能亢进",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "糖尿病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "糖尿病",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "依赖性物质引起的精神和行为障碍",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "依赖性物质引起的精神和行为障碍",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "酒精引起的精神和行为障碍",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "酒精引起的精神和行为障碍",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "精神分裂症、分裂型和妄想性障碍",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "精神分裂症、分裂型和妄想性障碍",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "情感障碍",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "情感障碍",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    },
+    {
+      "canonical_name": "中枢神经系统炎性疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "中枢神经系统炎性疾病",
+      "chunk_id": "chk_1b8b42d8816cbb8045dcc467d3d167de"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

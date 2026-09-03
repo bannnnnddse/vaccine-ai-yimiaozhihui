@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_31d09b7e4f783443d380335b438acb1c",
+  "content_hash": "b00b49af40b609a303e815a35b3a34ea4e6ec21f101cf148ecd32cd0bb4f0128",
+  "entities": [
+    {
+      "canonical_name": "innate immune cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune cells",
+      "chunk_id": "chk_31d09b7e4f783443d380335b438acb1c"
+    },
+    {
+      "canonical_name": "macrophages",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "macrophages",
+      "chunk_id": "chk_31d09b7e4f783443d380335b438acb1c"
+    },
+    {
+      "canonical_name": "dendritic cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "dendritic cells",
+      "chunk_id": "chk_31d09b7e4f783443d380335b438acb1c"
+    },
+    {
+      "canonical_name": "adaptive immune cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "adaptive immune cells",
+      "chunk_id": "chk_31d09b7e4f783443d380335b438acb1c"
+    },
+    {
+      "canonical_name": "B and T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B and T cells",
+      "chunk_id": "chk_31d09b7e4f783443d380335b438acb1c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

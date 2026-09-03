@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_462e97e6a97062a0180fc795a5dad6d6",
+  "content_hash": "896469ea7c14d272a37e1312f006f59fb48ec28e8799e7c9af260bd812d36bc0",
+  "entities": [
+    {
+      "canonical_name": "Respiratory syncytial virus (RSV)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Respiratory syncytial virus (RSV)",
+      "chunk_id": "chk_462e97e6a97062a0180fc795a5dad6d6"
+    },
+    {
+      "canonical_name": "acute lower respiratory infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute lower respiratory infections",
+      "chunk_id": "chk_462e97e6a97062a0180fc795a5dad6d6"
+    },
+    {
+      "canonical_name": "respiratory syncytial virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus",
+      "chunk_id": "chk_462e97e6a97062a0180fc795a5dad6d6"
+    },
+    {
+      "canonical_name": "young children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young children",
+      "chunk_id": "chk_462e97e6a97062a0180fc795a5dad6d6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

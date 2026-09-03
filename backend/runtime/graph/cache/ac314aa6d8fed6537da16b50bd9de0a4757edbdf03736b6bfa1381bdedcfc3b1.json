@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_3a456dc84019461f6be0a2636adab7d5",
+  "content_hash": "4c857e30be9899e8db0d91d511f4c979c6766c255981be1618229c652d0e7207",
+  "entities": [
+    {
+      "canonical_name": "rheumatoid arthritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rheumatoid arthritis",
+      "chunk_id": "chk_3a456dc84019461f6be0a2636adab7d5"
+    },
+    {
+      "canonical_name": "inflammatory bowel disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "inflammatory bowel disease",
+      "chunk_id": "chk_3a456dc84019461f6be0a2636adab7d5"
+    },
+    {
+      "canonical_name": "multiple myeloma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "multiple myeloma",
+      "chunk_id": "chk_3a456dc84019461f6be0a2636adab7d5"
+    },
+    {
+      "canonical_name": "colorectal cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "colorectal cancer",
+      "chunk_id": "chk_3a456dc84019461f6be0a2636adab7d5"
+    },
+    {
+      "canonical_name": "CRC",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CRC",
+      "chunk_id": "chk_3a456dc84019461f6be0a2636adab7d5"
+    },
+    {
+      "canonical_name": "thyroid cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "thyroid cancer",
+      "chunk_id": "chk_3a456dc84019461f6be0a2636adab7d5"
+    },
+    {
+      "canonical_name": "ovarian cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "ovarian cancer",
+      "chunk_id": "chk_3a456dc84019461f6be0a2636adab7d5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

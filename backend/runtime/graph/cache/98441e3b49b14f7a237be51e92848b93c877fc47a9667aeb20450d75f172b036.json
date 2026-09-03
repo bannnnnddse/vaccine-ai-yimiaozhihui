@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_06f0424931793723884b1bb97dd1b2dc",
+  "content_hash": "8ceb61c9cd7fce584b493f7b4bfe3e523b547ea190d87dda70cc6e39687abdae",
+  "entities": [
+    {
+      "canonical_name": "mRNA1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA1273",
+      "chunk_id": "chk_06f0424931793723884b1bb97dd1b2dc"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_06f0424931793723884b1bb97dd1b2dc"
+    },
+    {
+      "canonical_name": "binding antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "binding antibody",
+      "chunk_id": "chk_06f0424931793723884b1bb97dd1b2dc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

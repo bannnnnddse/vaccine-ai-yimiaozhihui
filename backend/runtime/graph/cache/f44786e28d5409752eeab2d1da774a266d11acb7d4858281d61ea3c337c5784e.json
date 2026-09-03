@@ -1,0 +1,152 @@
+{
+  "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f",
+  "content_hash": "8b71f444e37438ee93c101e1468e7fcff0d9600324be23fd748e007ad38bf625",
+  "entities": [
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "Broadly neutralizing Abs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Broadly neutralizing Abs",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "bNAbs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "bNAbs",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "NHPs",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "NHPs",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "Influenza A/B",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Influenza A/B",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "DMAbs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DMAbs",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "Ebola virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Ebola virus",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "DNA-encoded EBOV mAbs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DNA-encoded EBOV mAbs",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "Dengue virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Dengue virus",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "Multivalent DMAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Multivalent DMAb",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "PD-1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PD-1",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "Malignancy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Malignancy",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "Anti-PD-1 DMAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti-PD-1 DMAb",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "CTLA-4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CTLA-4",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "DNA-encoded anti-CTLA-4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DNA-encoded anti-CTLA-4",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "F(ab)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "F(ab)",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "VRC01-like F(ab)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "VRC01-like F(ab)",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "Ig-like molecule",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Ig-like molecule",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    },
+    {
+      "canonical_name": "anti-HIV immunoadhesins",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HIV immunoadhesins",
+      "chunk_id": "chk_d359d502c0ff8f90003649a539fb968f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote"
+  ]
+}

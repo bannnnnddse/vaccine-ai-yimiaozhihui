@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_96a80834c708e3ffca23c4469d68d9a0",
+  "content_hash": "49ff15ca078b8abfd9120f9904fe1e8fc11c8006e9df8467b04c4700503b2332",
+  "entities": [
+    {
+      "canonical_name": "CD4 + T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4 + T-cell",
+      "chunk_id": "chk_96a80834c708e3ffca23c4469d68d9a0"
+    },
+    {
+      "canonical_name": "CD8 + T-",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD8 + T-",
+      "chunk_id": "chk_96a80834c708e3ffca23c4469d68d9a0"
+    },
+    {
+      "canonical_name": "B-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B-cell",
+      "chunk_id": "chk_96a80834c708e3ffca23c4469d68d9a0"
+    },
+    {
+      "canonical_name": "OTSGC-A24 combined peptide vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "OTSGC-A24 combined peptide vaccine",
+      "chunk_id": "chk_96a80834c708e3ffca23c4469d68d9a0"
+    },
+    {
+      "canonical_name": "advanced gastric cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "advanced gastric cancer",
+      "chunk_id": "chk_96a80834c708e3ffca23c4469d68d9a0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

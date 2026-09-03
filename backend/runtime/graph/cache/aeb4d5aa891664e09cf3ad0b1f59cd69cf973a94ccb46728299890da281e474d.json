@@ -1,0 +1,54 @@
+{
+  "chunk_id": "chk_4e8a53ceb8378187f456e2fa887589db",
+  "content_hash": "d2005827d73eb8b9a504e4a8d2ae47d8107145c47bb05d4b08185b42b87d13c6",
+  "entities": [
+    {
+      "canonical_name": "JE-I",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "JE-I",
+      "chunk_id": "chk_4e8a53ceb8378187f456e2fa887589db"
+    },
+    {
+      "canonical_name": "HepA-I",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepA-I",
+      "chunk_id": "chk_4e8a53ceb8378187f456e2fa887589db"
+    },
+    {
+      "canonical_name": "IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IPV",
+      "chunk_id": "chk_4e8a53ceb8378187f456e2fa887589db"
+    },
+    {
+      "canonical_name": "immunization schedule",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "immunization schedule",
+      "chunk_id": "chk_4e8a53ceb8378187f456e2fa887589db"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_4e8a53ceb8378187f456e2fa887589db"
+    },
+    {
+      "canonical_name": "HIV-infected children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-infected children",
+      "chunk_id": "chk_4e8a53ceb8378187f456e2fa887589db"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

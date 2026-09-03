@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_ab57ea8dd795757ad75c3c2dfda13661",
+  "content_hash": "2fd8f740eabd0f119c98bbf8fe3e40e9cc6a1c61e5749bb4e23e578d0c3303da",
+  "entities": [
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "chk_ab57ea8dd795757ad75c3c2dfda13661"
+    },
+    {
+      "canonical_name": "varicella vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella vaccines",
+      "chunk_id": "chk_ab57ea8dd795757ad75c3c2dfda13661"
+    },
+    {
+      "canonical_name": "Rotavirus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Rotavirus",
+      "chunk_id": "chk_ab57ea8dd795757ad75c3c2dfda13661"
+    },
+    {
+      "canonical_name": "influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccines",
+      "chunk_id": "chk_ab57ea8dd795757ad75c3c2dfda13661"
+    },
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_ab57ea8dd795757ad75c3c2dfda13661"
+    },
+    {
+      "canonical_name": "PCV13",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV13",
+      "chunk_id": "chk_ab57ea8dd795757ad75c3c2dfda13661"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_371e62662b3cc3e54fdbd9e02ea17146",
+  "content_hash": "374920d5ed5956febf6f5de979d1a74ed19306390840a44e4ec20b0baaba1e9e",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_371e62662b3cc3e54fdbd9e02ea17146"
+    },
+    {
+      "canonical_name": "precancerous lesions",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "precancerous lesions",
+      "chunk_id": "chk_371e62662b3cc3e54fdbd9e02ea17146"
+    },
+    {
+      "canonical_name": "genital warts",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "genital warts",
+      "chunk_id": "chk_371e62662b3cc3e54fdbd9e02ea17146"
+    },
+    {
+      "canonical_name": "persistent infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "persistent infection",
+      "chunk_id": "chk_371e62662b3cc3e54fdbd9e02ea17146"
+    },
+    {
+      "canonical_name": "females",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females",
+      "chunk_id": "chk_371e62662b3cc3e54fdbd9e02ea17146"
+    },
+    {
+      "canonical_name": "males",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "males",
+      "chunk_id": "chk_371e62662b3cc3e54fdbd9e02ea17146"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

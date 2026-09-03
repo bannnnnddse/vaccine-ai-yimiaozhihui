@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_88d59fede0cfb41c26c1e7b440ec860e",
+  "content_hash": "6f63fdbe0d1687e5a2b0ebcb9a09ece3b3bae216d0a1371f95a8defb677b2e98",
+  "entities": [
+    {
+      "canonical_name": "Vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccination",
+      "chunk_id": "chk_88d59fede0cfb41c26c1e7b440ec860e"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_88d59fede0cfb41c26c1e7b440ec860e"
+    },
+    {
+      "canonical_name": "children under the age of five",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under the age of five",
+      "chunk_id": "chk_88d59fede0cfb41c26c1e7b440ec860e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

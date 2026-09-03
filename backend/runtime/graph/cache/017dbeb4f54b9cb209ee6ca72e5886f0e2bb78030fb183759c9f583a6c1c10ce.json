@@ -1,0 +1,71 @@
+{
+  "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9",
+  "content_hash": "40e1ccd45fae6ca9324ba9bca60fb09436be7d75acbefb5c4ad36973f418d58b",
+  "entities": [
+    {
+      "canonical_name": "ADRs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "ADRs",
+      "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9"
+    },
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9"
+    },
+    {
+      "canonical_name": "shivering",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "shivering",
+      "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9"
+    },
+    {
+      "canonical_name": "injectionsite pain",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "injectionsite pain",
+      "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9"
+    },
+    {
+      "canonical_name": "redness",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "redness",
+      "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9"
+    },
+    {
+      "canonical_name": "headache",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "headache",
+      "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9"
+    },
+    {
+      "canonical_name": "nausea/vomiting",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "nausea/vomiting",
+      "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9"
+    },
+    {
+      "canonical_name": "diarrhoea",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "diarrhoea",
+      "chunk_id": "afe1551a9b2fb4434d0f70457f8cc3789123dccf215c6f779e1a8722c7df66d9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

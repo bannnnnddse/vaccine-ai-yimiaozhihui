@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_0b001249c7a46e4c56a58ae8ff4b776d",
+  "content_hash": "539f17221ea962c2bd6c2393ccfd2a6db63ad0b4bcc2281de841af66ae8e5016",
+  "entities": [
+    {
+      "canonical_name": "HEV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HEV vaccine",
+      "chunk_id": "chk_0b001249c7a46e4c56a58ae8ff4b776d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

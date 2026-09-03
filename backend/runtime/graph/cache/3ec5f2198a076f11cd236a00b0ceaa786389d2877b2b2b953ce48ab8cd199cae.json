@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c5426cdbf51c3459c7a0a46e56ed0341",
+  "content_hash": "b56c61812312bb0303cfeb952f18938f5d8f2246c37875dbcdd2d6c997f096e2",
+  "entities": [
+    {
+      "canonical_name": "kidney failure",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "kidney failure",
+      "chunk_id": "chk_c5426cdbf51c3459c7a0a46e56ed0341"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_c5426cdbf51c3459c7a0a46e56ed0341"
+    },
+    {
+      "canonical_name": "severe acute respiratory syndrome coronavirus 2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "severe acute respiratory syndrome coronavirus 2",
+      "chunk_id": "chk_c5426cdbf51c3459c7a0a46e56ed0341"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

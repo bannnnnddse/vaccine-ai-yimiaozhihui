@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_777aedbaf41ffb0ddb336c8987631833",
+  "content_hash": "6329bb6f76beadbb47add01c65bd3538c6c875595696a12906012d7175a0beb2",
+  "entities": [
+    {
+      "canonical_name": "Nonalcoholic fatty liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Nonalcoholic fatty liver disease",
+      "chunk_id": "chk_777aedbaf41ffb0ddb336c8987631833"
+    },
+    {
+      "canonical_name": "NAFLD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "NAFLD",
+      "chunk_id": "chk_777aedbaf41ffb0ddb336c8987631833"
+    },
+    {
+      "canonical_name": "Covid-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Covid-19",
+      "chunk_id": "chk_777aedbaf41ffb0ddb336c8987631833"
+    },
+    {
+      "canonical_name": "Liver Disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Liver Disease",
+      "chunk_id": "chk_777aedbaf41ffb0ddb336c8987631833"
+    },
+    {
+      "canonical_name": "Coronavirus Disease 2019",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Coronavirus Disease 2019",
+      "chunk_id": "chk_777aedbaf41ffb0ddb336c8987631833"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_e3a551981e1ddbb6450a2c89d2bcdb4f",
+  "content_hash": "afb9c675cd00bfea1c651abc4e8f2e708cc319ed73808e2feef07753f80673a3",
+  "entities": [
+    {
+      "canonical_name": "2003 SARS vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "2003 SARS vaccine candidates",
+      "chunk_id": "chk_e3a551981e1ddbb6450a2c89d2bcdb4f"
+    },
+    {
+      "canonical_name": "pathological antibodydependent enhancement responses",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "pathological antibodydependent enhancement responses",
+      "chunk_id": "chk_e3a551981e1ddbb6450a2c89d2bcdb4f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

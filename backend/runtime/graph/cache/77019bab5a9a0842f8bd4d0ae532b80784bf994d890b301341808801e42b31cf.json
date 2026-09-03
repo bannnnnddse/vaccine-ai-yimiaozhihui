@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_68e00a8c3a98d974e4290325180fc069",
+  "content_hash": "d654c03a40f44228c6c7c01433244dfecb0e68610f0e1aedcd14b0561098fa55",
+  "entities": [
+    {
+      "canonical_name": "AE",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AE",
+      "chunk_id": "chk_68e00a8c3a98d974e4290325180fc069"
+    },
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_68e00a8c3a98d974e4290325180fc069"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

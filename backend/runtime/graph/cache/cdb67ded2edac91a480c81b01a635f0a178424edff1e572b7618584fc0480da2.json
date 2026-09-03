@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_9842a83b088a0c96d134d94182eba759",
+  "content_hash": "b00f3e00f78023ecbec9e0b39cde344ef3becbee34b2d4d235c6a957f343d17d",
+  "entities": [
+    {
+      "canonical_name": "Children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Children",
+      "chunk_id": "chk_9842a83b088a0c96d134d94182eba759"
+    },
+    {
+      "canonical_name": "Respiratory Syncytial Virus Infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus Infection",
+      "chunk_id": "chk_9842a83b088a0c96d134d94182eba759"
+    },
+    {
+      "canonical_name": "pulmonary bacterial co-infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pulmonary bacterial co-infection",
+      "chunk_id": "chk_9842a83b088a0c96d134d94182eba759"
+    },
+    {
+      "canonical_name": "severe respiratory syncytial virus (RSV) bronchiolitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe respiratory syncytial virus (RSV) bronchiolitis",
+      "chunk_id": "chk_9842a83b088a0c96d134d94182eba759"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

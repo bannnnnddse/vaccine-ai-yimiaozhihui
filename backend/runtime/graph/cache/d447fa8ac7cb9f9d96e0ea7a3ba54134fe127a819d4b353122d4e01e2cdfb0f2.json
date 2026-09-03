@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_415f926921c02af08ecaf9450885f9e1",
+  "content_hash": "e18cac62445f90040c4e7bb413052f6a3270354907575a8570782ce1703fb565",
+  "entities": [
+    {
+      "canonical_name": "MenACWY-CRM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenACWY-CRM",
+      "chunk_id": "chk_415f926921c02af08ecaf9450885f9e1"
+    },
+    {
+      "canonical_name": "meningococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "meningococcal disease",
+      "chunk_id": "chk_415f926921c02af08ecaf9450885f9e1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

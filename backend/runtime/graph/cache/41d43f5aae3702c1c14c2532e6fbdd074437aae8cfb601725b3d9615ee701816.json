@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_a38e5083d4d980a7beee96ea55840c49",
+  "content_hash": "191676bf23c9d7ce141e6d4b2923b9fa2eee5cf165f11ea9501226ef15404e77",
+  "entities": [
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "chk_a38e5083d4d980a7beee96ea55840c49"
+    },
+    {
+      "canonical_name": "rotavirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus infection",
+      "chunk_id": "chk_a38e5083d4d980a7beee96ea55840c49"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

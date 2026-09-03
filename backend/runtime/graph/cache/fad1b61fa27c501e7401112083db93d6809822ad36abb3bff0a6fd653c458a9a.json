@@ -1,0 +1,36 @@
+{
+  "chunk_id": "cb17729bce1980b36392f8565139b91b089b61aa5aea2f237cb6a637d02dfb49",
+  "content_hash": "44ed2ff17f9f702cc32857a6c19a55526d4243f59bfddafccfdd1c7536899eed",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "cb17729bce1980b36392f8565139b91b089b61aa5aea2f237cb6a637d02dfb49"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "cb17729bce1980b36392f8565139b91b089b61aa5aea2f237cb6a637d02dfb49"
+    },
+    {
+      "canonical_name": "viral pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "viral pathogens",
+      "chunk_id": "cb17729bce1980b36392f8565139b91b089b61aa5aea2f237cb6a637d02dfb49"
+    },
+    {
+      "canonical_name": "allergen-reactive IgE",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "allergen-reactive IgE",
+      "chunk_id": "cb17729bce1980b36392f8565139b91b089b61aa5aea2f237cb6a637d02dfb49"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

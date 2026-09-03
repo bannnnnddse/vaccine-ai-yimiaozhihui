@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_1da49355936b3755ae7f76c8f5a993b4",
+  "content_hash": "cce91424b51cd982bbb392098ff00b2fa53db76f09932b60330da127c36b7bce",
+  "entities": [
+    {
+      "canonical_name": "T-cell immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell immunity",
+      "chunk_id": "chk_1da49355936b3755ae7f76c8f5a993b4"
+    },
+    {
+      "canonical_name": "IL-12",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-12",
+      "chunk_id": "chk_1da49355936b3755ae7f76c8f5a993b4"
+    },
+    {
+      "canonical_name": "IFN-g",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-g",
+      "chunk_id": "chk_1da49355936b3755ae7f76c8f5a993b4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

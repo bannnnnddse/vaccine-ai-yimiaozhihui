@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_935a246d110d87e23d6f18d34531c177",
+  "content_hash": "c04f87f5089c8468d6a70d927b1df92d29df483021a3030d4d8179489951d688",
+  "entities": [
+    {
+      "canonical_name": "College students",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "College students",
+      "chunk_id": "chk_935a246d110d87e23d6f18d34531c177"
+    },
+    {
+      "canonical_name": "Hispanic communities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Hispanic communities",
+      "chunk_id": "chk_935a246d110d87e23d6f18d34531c177"
+    },
+    {
+      "canonical_name": "Asian Americans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Asian Americans",
+      "chunk_id": "chk_935a246d110d87e23d6f18d34531c177"
+    },
+    {
+      "canonical_name": "Korean American women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Korean American women",
+      "chunk_id": "chk_935a246d110d87e23d6f18d34531c177"
+    },
+    {
+      "canonical_name": "South Asian Youth",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "South Asian Youth",
+      "chunk_id": "chk_935a246d110d87e23d6f18d34531c177"
+    },
+    {
+      "canonical_name": "Youth and Parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Youth and Parents",
+      "chunk_id": "chk_935a246d110d87e23d6f18d34531c177"
+    },
+    {
+      "canonical_name": "Mothers of Daughters",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Mothers of Daughters",
+      "chunk_id": "chk_935a246d110d87e23d6f18d34531c177"
+    },
+    {
+      "canonical_name": "Unvaccinated Individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Unvaccinated Individuals",
+      "chunk_id": "chk_935a246d110d87e23d6f18d34531c177"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

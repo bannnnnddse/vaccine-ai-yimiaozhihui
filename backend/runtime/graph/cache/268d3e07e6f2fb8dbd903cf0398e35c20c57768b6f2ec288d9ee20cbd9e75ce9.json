@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_e4191db0a18acb1fd739dec1fe5e8ff6",
+  "content_hash": "fa43daed6d9f0c7345a06c595719e02dd34f944eadc69461542b31e6149cbe9b",
+  "entities": [
+    {
+      "canonical_name": "enterovirus 71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "enterovirus 71",
+      "chunk_id": "chk_e4191db0a18acb1fd739dec1fe5e8ff6"
+    },
+    {
+      "canonical_name": "coxsackievirus A16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "coxsackievirus A16",
+      "chunk_id": "chk_e4191db0a18acb1fd739dec1fe5e8ff6"
+    },
+    {
+      "canonical_name": "vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine candidates",
+      "chunk_id": "chk_e4191db0a18acb1fd739dec1fe5e8ff6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

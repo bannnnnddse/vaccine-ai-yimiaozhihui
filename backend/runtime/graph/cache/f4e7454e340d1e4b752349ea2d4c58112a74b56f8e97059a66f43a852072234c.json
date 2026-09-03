@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_da21cb56740898696e30da0292caf4af",
+  "content_hash": "189d5635d19de349dae0552d6b02dd47c7b8e7ab915df623894395773170ea1c",
+  "entities": [
+    {
+      "canonical_name": "Spike Receptor-Binding Domain Nanoparticles",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Spike Receptor-Binding Domain Nanoparticles",
+      "chunk_id": "chk_da21cb56740898696e30da0292caf4af"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 Infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Infection",
+      "chunk_id": "chk_da21cb56740898696e30da0292caf4af"
+    },
+    {
+      "canonical_name": "Ferrets",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Ferrets",
+      "chunk_id": "chk_da21cb56740898696e30da0292caf4af"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

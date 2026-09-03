@@ -1,0 +1,52 @@
+{
+  "chunk_id": "4a211aca9846e92a66950eabb5c7d4ff7ee3b4c8019e3ae4a3da6cc083369244",
+  "content_hash": "80ba04acf6e1614eac96158048cc0768d023c2d07ab14eb8ad282ced0babc6d8",
+  "entities": [
+    {
+      "canonical_name": "Viral-vectored vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Viral-vectored vaccines",
+      "chunk_id": "4a211aca9846e92a66950eabb5c7d4ff7ee3b4c8019e3ae4a3da6cc083369244"
+    },
+    {
+      "canonical_name": "AdV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AdV vaccines",
+      "chunk_id": "4a211aca9846e92a66950eabb5c7d4ff7ee3b4c8019e3ae4a3da6cc083369244"
+    },
+    {
+      "canonical_name": "human and nonhuman primate adenoviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human and nonhuman primate adenoviruses",
+      "chunk_id": "4a211aca9846e92a66950eabb5c7d4ff7ee3b4c8019e3ae4a3da6cc083369244"
+    },
+    {
+      "canonical_name": "RM-delivered AdV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RM-delivered AdV vaccines",
+      "chunk_id": "4a211aca9846e92a66950eabb5c7d4ff7ee3b4c8019e3ae4a3da6cc083369244"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "4a211aca9846e92a66950eabb5c7d4ff7ee3b4c8019e3ae4a3da6cc083369244"
+    },
+    {
+      "canonical_name": "TII immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TII immune responses",
+      "chunk_id": "4a211aca9846e92a66950eabb5c7d4ff7ee3b4c8019e3ae4a3da6cc083369244"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_10f8895e70fb2091d962af7efbe96889",
+  "content_hash": "56a82c6b9891019dc336392c7b09e666ed5fc41eaf57780164e4d7771d384022",
+  "entities": [
+    {
+      "canonical_name": "severe mental illness",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe mental illness",
+      "chunk_id": "chk_10f8895e70fb2091d962af7efbe96889"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

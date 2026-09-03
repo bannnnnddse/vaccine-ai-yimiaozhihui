@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_e841101f85b5e014018e7cefda83cd9b",
+  "content_hash": "94999ae90715c07746a16789ce07232589a62ed437eea162504d9128427a5a34",
+  "entities": [
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_e841101f85b5e014018e7cefda83cd9b"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_e841101f85b5e014018e7cefda83cd9b"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b",
+      "chunk_id": "chk_e841101f85b5e014018e7cefda83cd9b"
+    },
+    {
+      "canonical_name": "mumps",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "mumps",
+      "chunk_id": "chk_e841101f85b5e014018e7cefda83cd9b"
+    },
+    {
+      "canonical_name": "rubella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rubella",
+      "chunk_id": "chk_e841101f85b5e014018e7cefda83cd9b"
+    },
+    {
+      "canonical_name": "varicella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "varicella",
+      "chunk_id": "chk_e841101f85b5e014018e7cefda83cd9b"
+    },
+    {
+      "canonical_name": "MCVs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MCVs",
+      "chunk_id": "chk_e841101f85b5e014018e7cefda83cd9b"
+    },
+    {
+      "canonical_name": "unvaccinated children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "unvaccinated children",
+      "chunk_id": "chk_e841101f85b5e014018e7cefda83cd9b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

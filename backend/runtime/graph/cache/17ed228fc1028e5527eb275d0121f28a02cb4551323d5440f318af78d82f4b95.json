@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_1dba6e8027f60120a2ebd8f170830d6a",
+  "content_hash": "413a47416fef88a491796cd72f3b96d2b5a7af40a2b098dcf66b8b87984b6441",
+  "entities": [
+    {
+      "canonical_name": "Gp42-IgG Antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Gp42-IgG Antibody",
+      "chunk_id": "chk_1dba6e8027f60120a2ebd8f170830d6a"
+    },
+    {
+      "canonical_name": "Epstein-Barr Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Epstein-Barr Virus",
+      "chunk_id": "chk_1dba6e8027f60120a2ebd8f170830d6a"
+    },
+    {
+      "canonical_name": "Nasopharyngeal Carcinoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Nasopharyngeal Carcinoma",
+      "chunk_id": "chk_1dba6e8027f60120a2ebd8f170830d6a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_0b101f38c330d7ecf3425e43d8936b7a",
+  "content_hash": "e0022b313d73114dacdd8b007d92261a3d40130dbb658f5a9c17619a5e5e71ec",
+  "entities": [
+    {
+      "canonical_name": "novel multi-epitope vaccine based on Dipeptidyl Peptidase 4",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "novel multi-epitope vaccine based on Dipeptidyl Peptidase 4",
+      "chunk_id": "chk_0b101f38c330d7ecf3425e43d8936b7a"
+    },
+    {
+      "canonical_name": "streptozotocin-induced diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "streptozotocin-induced diabetes",
+      "chunk_id": "chk_0b101f38c330d7ecf3425e43d8936b7a"
+    },
+    {
+      "canonical_name": "anti-DPP4 antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-DPP4 antibody",
+      "chunk_id": "chk_0b101f38c330d7ecf3425e43d8936b7a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

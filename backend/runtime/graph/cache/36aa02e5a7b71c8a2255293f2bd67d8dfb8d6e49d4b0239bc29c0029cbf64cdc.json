@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_94a700a9ff5c528400217d4e54970818",
+  "content_hash": "2eeef0e258f9d568b76606136973b2f8b82e4b1102a2ba888f693fc02b1722c0",
+  "entities": [
+    {
+      "canonical_name": "Sputnik vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Sputnik vaccination",
+      "chunk_id": "chk_94a700a9ff5c528400217d4e54970818"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

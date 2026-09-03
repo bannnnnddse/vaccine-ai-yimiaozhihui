@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d722c7f7f247454ed345a0c3d4b23a50",
+  "content_hash": "6a9dd6b484567300fd2ed0ed5ce0c548612cf498edfdfa38ed8b9d39898621f6",
+  "entities": [
+    {
+      "canonical_name": "antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen",
+      "chunk_id": "chk_d722c7f7f247454ed345a0c3d4b23a50"
+    },
+    {
+      "canonical_name": "IgG subclass",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG subclass",
+      "chunk_id": "chk_d722c7f7f247454ed345a0c3d4b23a50"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

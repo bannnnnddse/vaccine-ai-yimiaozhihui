@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_750cf4378f35dbd5d6dba7b6b34b0713",
+  "content_hash": "c9f15a265f685aeb11f0fa1c6c4b9d0c2b6dfd39d6ee0140b384e227eed40769",
+  "entities": [
+    {
+      "canonical_name": "Subcapsular sinus macrophages",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Subcapsular sinus macrophages",
+      "chunk_id": "chk_750cf4378f35dbd5d6dba7b6b34b0713"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_750cf4378f35dbd5d6dba7b6b34b0713"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_750cf4378f35dbd5d6dba7b6b34b0713"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_750cf4378f35dbd5d6dba7b6b34b0713"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

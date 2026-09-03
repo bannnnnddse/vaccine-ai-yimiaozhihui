@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_7ec48caca028517f43c604ebb8997f77",
+  "content_hash": "94266aaa89fa4cfa9ae8692d3896d8b57afc62032a804ba3470a5eca47f571d8",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_7ec48caca028517f43c604ebb8997f77"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_7ec48caca028517f43c604ebb8997f77"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_7ec48caca028517f43c604ebb8997f77"
+    },
+    {
+      "canonical_name": "B cell receptor",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell receptor",
+      "chunk_id": "chk_7ec48caca028517f43c604ebb8997f77"
+    },
+    {
+      "canonical_name": "T cell receptor",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell receptor",
+      "chunk_id": "chk_7ec48caca028517f43c604ebb8997f77"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

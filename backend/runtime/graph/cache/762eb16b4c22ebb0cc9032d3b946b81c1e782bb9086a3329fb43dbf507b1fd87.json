@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_fcaf2c19828a0c75d4aa1e1b9b4e1d77",
+  "content_hash": "532d46970787b0185487194b116bcc89488f0df54389fb34d7d8b69ee0156470",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_fcaf2c19828a0c75d4aa1e1b9b4e1d77"
+    },
+    {
+      "canonical_name": "COPD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COPD",
+      "chunk_id": "chk_fcaf2c19828a0c75d4aa1e1b9b4e1d77"
+    },
+    {
+      "canonical_name": "exacerbations of COPD",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "exacerbations of COPD",
+      "chunk_id": "chk_fcaf2c19828a0c75d4aa1e1b9b4e1d77"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

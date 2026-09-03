@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_c83d2e176cacadfb832624301cdfb6f7",
+  "content_hash": "4e7c990fff136b7f1be5557d9516f9239947b410836acf4139fc829a4a30ac3c",
+  "entities": [
+    {
+      "canonical_name": "dendritic cells (DCs)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "dendritic cells (DCs)",
+      "chunk_id": "chk_c83d2e176cacadfb832624301cdfb6f7"
+    },
+    {
+      "canonical_name": "patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients",
+      "chunk_id": "chk_c83d2e176cacadfb832624301cdfb6f7"
+    },
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_c83d2e176cacadfb832624301cdfb6f7"
+    },
+    {
+      "canonical_name": "DC-directed RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DC-directed RNA vaccines",
+      "chunk_id": "chk_c83d2e176cacadfb832624301cdfb6f7"
+    },
+    {
+      "canonical_name": "cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancers",
+      "chunk_id": "chk_c83d2e176cacadfb832624301cdfb6f7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

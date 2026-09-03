@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_70b4f41ff82304f3a940c866da0dcb68",
+  "content_hash": "554cccb4ef3fca52b15910de0eb15b7cd0764b44cd473bfa5571cbcb941a69a8",
+  "entities": [
+    {
+      "canonical_name": "Japanese Encephalitis Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Japanese Encephalitis Vaccines",
+      "chunk_id": "chk_70b4f41ff82304f3a940c866da0dcb68"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

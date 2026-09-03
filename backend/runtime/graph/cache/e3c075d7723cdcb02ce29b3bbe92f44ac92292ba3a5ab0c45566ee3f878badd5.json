@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_3559d4c7ce74c7fa4b3b92acc251ca83",
+  "content_hash": "425844bfc5806c536606e53aafab7ff4fecaeeccb87ae52a628a3992ffdca21d",
+  "entities": [
+    {
+      "canonical_name": "Inactivated virus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Inactivated virus vaccines",
+      "chunk_id": "chk_3559d4c7ce74c7fa4b3b92acc251ca83"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "chk_3559d4c7ce74c7fa4b3b92acc251ca83"
+    },
+    {
+      "canonical_name": "immunopathology",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "immunopathology",
+      "chunk_id": "chk_3559d4c7ce74c7fa4b3b92acc251ca83"
+    },
+    {
+      "canonical_name": "adverse drug events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse drug events",
+      "chunk_id": "chk_3559d4c7ce74c7fa4b3b92acc251ca83"
+    },
+    {
+      "canonical_name": "booster vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "booster vaccines",
+      "chunk_id": "chk_3559d4c7ce74c7fa4b3b92acc251ca83"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

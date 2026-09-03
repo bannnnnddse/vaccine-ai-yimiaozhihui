@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_4cb076bed68015151497911a240814a3",
+  "content_hash": "6800029f1bd316206149d3bfb559f59e70802295e4f1683bdc60bcb7c0dd9bde",
+  "entities": [
+    {
+      "canonical_name": "HBVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBVac",
+      "chunk_id": "chk_4cb076bed68015151497911a240814a3"
+    },
+    {
+      "canonical_name": "HCC",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HCC",
+      "chunk_id": "chk_4cb076bed68015151497911a240814a3"
+    },
+    {
+      "canonical_name": "liver cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver cancer",
+      "chunk_id": "chk_4cb076bed68015151497911a240814a3"
+    },
+    {
+      "canonical_name": "HBV-related HCC",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HBV-related HCC",
+      "chunk_id": "chk_4cb076bed68015151497911a240814a3"
+    },
+    {
+      "canonical_name": "chronic hepatitis B infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic hepatitis B infection",
+      "chunk_id": "chk_4cb076bed68015151497911a240814a3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

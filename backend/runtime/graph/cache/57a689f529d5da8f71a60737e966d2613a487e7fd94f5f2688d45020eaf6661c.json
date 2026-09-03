@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_3685285df2b74e61487b4353fb6927f1",
+  "content_hash": "b6d5c8aa209e8a07a70479229ae24db78908e3eed0b55e618d7a1d00f0ca6744",
+  "entities": [
+    {
+      "canonical_name": "injected typhoid conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "injected typhoid conjugate vaccine",
+      "chunk_id": "chk_3685285df2b74e61487b4353fb6927f1"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_3685285df2b74e61487b4353fb6927f1"
+    },
+    {
+      "canonical_name": "extensively drug-resistant typhoid",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "extensively drug-resistant typhoid",
+      "chunk_id": "chk_3685285df2b74e61487b4353fb6927f1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

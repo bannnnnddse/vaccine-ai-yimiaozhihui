@@ -1,0 +1,73 @@
+{
+  "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0",
+  "content_hash": "bf6353b258b171d59cc72f478c3b41d4628d9d3ad3fbd162a6e3c133b248c867",
+  "entities": [
+    {
+      "canonical_name": "TLR7",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR7",
+      "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0"
+    },
+    {
+      "canonical_name": "TLR3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR3",
+      "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0"
+    },
+    {
+      "canonical_name": "TLR8",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR8",
+      "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0"
+    },
+    {
+      "canonical_name": "RLRs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RLRs",
+      "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0"
+    },
+    {
+      "canonical_name": "RIG-I",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RIG-I",
+      "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0"
+    },
+    {
+      "canonical_name": "Melanoma differentiation-related gene 5",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Melanoma differentiation-related gene 5",
+      "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0"
+    },
+    {
+      "canonical_name": "MDA5",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MDA5",
+      "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0"
+    },
+    {
+      "canonical_name": "IFN-I",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-I",
+      "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0"
+    },
+    {
+      "canonical_name": "RNA virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RNA virus",
+      "chunk_id": "chk_3dd2359bff96e0f600b212bb3b6704a0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

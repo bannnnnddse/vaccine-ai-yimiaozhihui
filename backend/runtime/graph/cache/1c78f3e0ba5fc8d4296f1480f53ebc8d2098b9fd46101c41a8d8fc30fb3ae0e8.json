@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_8faa7a863434cba7c227f88fb795bf6a",
+  "content_hash": "a013aaf1cd4103999ee2a724105f71cfd4d9873bc1d79f9d344aef6f5ed35dda",
+  "entities": [
+    {
+      "canonical_name": "国家免疫规划疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "国家免疫规划疫苗",
+      "chunk_id": "chk_8faa7a863434cba7c227f88fb795bf6a"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_8faa7a863434cba7c227f88fb795bf6a"
+    },
+    {
+      "canonical_name": "异常反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "异常反应",
+      "chunk_id": "chk_8faa7a863434cba7c227f88fb795bf6a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

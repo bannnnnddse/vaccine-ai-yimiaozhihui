@@ -1,0 +1,113 @@
+{
+  "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b",
+  "content_hash": "3d7c35e75ba91243510e52869af5205158fa1831b752676b250d91d959bf58f5",
+  "entities": [
+    {
+      "canonical_name": "Escherichia coli Nissle 1917",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Escherichia coli Nissle 1917",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "memory B-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B-cell",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "antibiotic-treated piglets",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "antibiotic-treated piglets",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "Lactobacillus plantarum GUANKE",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Lactobacillus plantarum GUANKE",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 neutralizing antibodies",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "post-vaccinated mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "post-vaccinated mice",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "Lactobacillus paracasei 431",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Lactobacillus paracasei 431",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "influenza virus-specific IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "influenza virus-specific IgG",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "IgA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "Lactobacillus rhamnosus GG",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Lactobacillus rhamnosus GG",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "pneumococcal and tetanus-specific IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pneumococcal and tetanus-specific IgG",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    },
+    {
+      "canonical_name": "regulatory T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "regulatory T-cell",
+      "chunk_id": "chk_cef662594a86324a6beafd3b503fb95b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

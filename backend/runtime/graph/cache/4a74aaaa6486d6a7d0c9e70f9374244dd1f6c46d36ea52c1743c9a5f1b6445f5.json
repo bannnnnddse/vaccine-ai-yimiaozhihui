@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_67fcf213ce816c2eea0c6478235f7922",
+  "content_hash": "59ccb7461c9b52b02596768c49740e0e879e96b3cd44a5ff6b09441fd071e9ee",
+  "entities": [
+    {
+      "canonical_name": "Thrombotic throm‐ bocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Thrombotic throm‑ bocytopenia",
+      "chunk_id": "chk_67fcf213ce816c2eea0c6478235f7922"
+    },
+    {
+      "canonical_name": "Ad26.COV2.S",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad26.COV2.S",
+      "chunk_id": "chk_67fcf213ce816c2eea0c6478235f7922"
+    },
+    {
+      "canonical_name": "COVID -19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID -19 vaccines",
+      "chunk_id": "chk_67fcf213ce816c2eea0c6478235f7922"
+    },
+    {
+      "canonical_name": "SARS -CoV -2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2",
+      "chunk_id": "chk_67fcf213ce816c2eea0c6478235f7922"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_cdbaa23dc25726faef2bc609bfbdd53b",
+  "content_hash": "2831989da9937ddf473bff90982d7d10e8581ef70246c597f3d46506d6807f6a",
+  "entities": [
+    {
+      "canonical_name": "measles–mumps–rubella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles–mumps–rubella vaccine",
+      "chunk_id": "chk_cdbaa23dc25726faef2bc609bfbdd53b"
+    },
+    {
+      "canonical_name": "autism",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autism",
+      "chunk_id": "chk_cdbaa23dc25726faef2bc609bfbdd53b"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_cdbaa23dc25726faef2bc609bfbdd53b"
+    },
+    {
+      "canonical_name": "vaccinated populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccinated populations",
+      "chunk_id": "chk_cdbaa23dc25726faef2bc609bfbdd53b"
+    },
+    {
+      "canonical_name": "Thiomersal",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Thiomersal",
+      "chunk_id": "chk_cdbaa23dc25726faef2bc609bfbdd53b"
+    },
+    {
+      "canonical_name": "thimerosal",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "thimerosal",
+      "chunk_id": "chk_cdbaa23dc25726faef2bc609bfbdd53b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

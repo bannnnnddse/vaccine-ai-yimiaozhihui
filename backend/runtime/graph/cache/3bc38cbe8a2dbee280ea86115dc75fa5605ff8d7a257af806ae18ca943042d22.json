@@ -1,0 +1,91 @@
+{
+  "chunk_id": "chk_818b985db28e77615aadca3dae463b57",
+  "content_hash": "f7c8b77c267a8f6770d7e9595559970f50f8991a110ee3526fb1931668bbe67a",
+  "entities": [
+    {
+      "canonical_name": "过敏性体质",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "过敏性体质",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "过敏性疾病家族史",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "过敏性疾病家族史",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "食物过敏史",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "食物过敏史",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "特应性皮炎(湿疹)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "特应性皮炎（湿疹）",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "荨麻疹",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "荨麻疹",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "支气管哮喘",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "支气管哮喘",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "急性严重过敏反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "急性严重过敏反应",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "过敏性休克",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "过敏性休克",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "血管性水肿导致的喉梗阻",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "血管性水肿导致的喉梗阻",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "危及生命不良反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "危及生命不良反应",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    },
+    {
+      "canonical_name": "疫苗成分",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "疫苗成分",
+      "chunk_id": "chk_818b985db28e77615aadca3dae463b57"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

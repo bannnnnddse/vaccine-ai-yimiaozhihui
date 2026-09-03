@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2375a35a19ec47097ade7f95cd04200e",
+  "content_hash": "5a62e8dd0d30ddda942dd852ff399b6f6b1c5c510ef6e7eea842ee7b189dba0d",
+  "entities": [
+    {
+      "canonical_name": "flu vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "flu vaccine",
+      "chunk_id": "chk_2375a35a19ec47097ade7f95cd04200e"
+    },
+    {
+      "canonical_name": "African Americans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "African Americans",
+      "chunk_id": "chk_2375a35a19ec47097ade7f95cd04200e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

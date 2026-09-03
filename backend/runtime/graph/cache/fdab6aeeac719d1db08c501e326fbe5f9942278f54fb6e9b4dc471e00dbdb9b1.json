@@ -1,0 +1,41 @@
+{
+  "chunk_id": "chk_9ebe014646284a45a58a162e5eaed8ed",
+  "content_hash": "918f5b939615cdce1ecb01406d059f12a807c1da8ebfa5deb2fc64b3ac74c51d",
+  "entities": [
+    {
+      "canonical_name": "脊灰疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "脊灰疫苗",
+      "chunk_id": "chk_9ebe014646284a45a58a162e5eaed8ed"
+    },
+    {
+      "canonical_name": "IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IPV",
+      "chunk_id": "chk_9ebe014646284a45a58a162e5eaed8ed"
+    },
+    {
+      "canonical_name": "bOPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bOPV",
+      "chunk_id": "chk_9ebe014646284a45a58a162e5eaed8ed"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_9ebe014646284a45a58a162e5eaed8ed"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "llm_forbidden_relation"
+  ]
+}

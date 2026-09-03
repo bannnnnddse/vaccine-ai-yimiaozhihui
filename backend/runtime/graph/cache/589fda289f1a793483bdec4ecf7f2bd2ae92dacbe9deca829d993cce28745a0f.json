@@ -1,0 +1,15 @@
+{
+  "chunk_id": "ba609764d7c0c54e14bf9ad1a94ea38f6ab2f48c419e9538775d1d92a15e813c",
+  "content_hash": "5b4336fa82e9a4784d0bbba8d4e9f78a8380911c17bd167d6b482d19d73efb1d",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 mRNA vaccines",
+      "chunk_id": "ba609764d7c0c54e14bf9ad1a94ea38f6ab2f48c419e9538775d1d92a15e813c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

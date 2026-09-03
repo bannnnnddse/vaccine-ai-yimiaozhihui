@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_973eb058eb29935476f9ad9eab263603",
+  "content_hash": "95df3b969332aaffd7c191d7fa9c252b16efe5907db039277b21f5cf9d19f375",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccines",
+      "chunk_id": "chk_973eb058eb29935476f9ad9eab263603"
+    },
+    {
+      "canonical_name": "indigenous australians",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "indigenous australians",
+      "chunk_id": "chk_973eb058eb29935476f9ad9eab263603"
+    },
+    {
+      "canonical_name": "IgG molecules",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG molecules",
+      "chunk_id": "chk_973eb058eb29935476f9ad9eab263603"
+    },
+    {
+      "canonical_name": "b cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "b cells",
+      "chunk_id": "chk_973eb058eb29935476f9ad9eab263603"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

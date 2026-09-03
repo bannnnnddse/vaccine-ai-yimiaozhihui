@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d084980c38a31b6ef337d216bd6774e0",
+  "content_hash": "0b153c9879fa9aaa626f1b4d092755bca90f76d8037bb39f7186ef357308cfe2",
+  "entities": [
+    {
+      "canonical_name": "Human papilloma virus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Human papilloma virus",
+      "chunk_id": "chk_d084980c38a31b6ef337d216bd6774e0"
+    },
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_d084980c38a31b6ef337d216bd6774e0"
+    },
+    {
+      "canonical_name": "Adolescent",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adolescent",
+      "chunk_id": "chk_d084980c38a31b6ef337d216bd6774e0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

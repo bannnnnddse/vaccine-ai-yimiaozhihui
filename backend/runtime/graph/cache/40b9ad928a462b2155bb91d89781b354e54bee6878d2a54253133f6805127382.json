@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_13f99fc1d0b634de90007daaef00f873",
+  "content_hash": "577dd933729ad370ef76de9b459058ba1242aa48d6cec057371598feb891543e",
+  "entities": [
+    {
+      "canonical_name": "WOKVAC",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "WOKVAC",
+      "chunk_id": "chk_13f99fc1d0b634de90007daaef00f873"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_13f99fc1d0b634de90007daaef00f873"
+    },
+    {
+      "canonical_name": "cervical lesion",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical lesion",
+      "chunk_id": "chk_13f99fc1d0b634de90007daaef00f873"
+    },
+    {
+      "canonical_name": "therapeutic DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "therapeutic DNA vaccine",
+      "chunk_id": "chk_13f99fc1d0b634de90007daaef00f873"
+    },
+    {
+      "canonical_name": "CIN3 patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CIN3 patients",
+      "chunk_id": "chk_13f99fc1d0b634de90007daaef00f873"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

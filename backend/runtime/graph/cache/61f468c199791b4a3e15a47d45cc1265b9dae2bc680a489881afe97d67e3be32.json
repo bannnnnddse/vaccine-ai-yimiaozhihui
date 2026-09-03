@@ -1,0 +1,15 @@
+{
+  "chunk_id": "52f759261e3f9babaacc3f34c029f2c26aac1d9ad863ec7df4b75618a5a97f31",
+  "content_hash": "681671e68b939d5cbe86955e3b21cd4227da01977553b16172fb380258557a96",
+  "entities": [
+    {
+      "canonical_name": "inactivated EVA71 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated EVA71 vaccines",
+      "chunk_id": "52f759261e3f9babaacc3f34c029f2c26aac1d9ad863ec7df4b75618a5a97f31"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

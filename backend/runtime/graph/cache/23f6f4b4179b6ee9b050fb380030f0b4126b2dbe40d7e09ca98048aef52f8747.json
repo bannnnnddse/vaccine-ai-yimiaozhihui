@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_99252db8570856de5a3ad1815b5426c2",
+  "content_hash": "03afa54e4f928112feccc6705addb30428c1e5b4330a7911cf7d7edaf478b9db",
+  "entities": [
+    {
+      "canonical_name": "total IgG binding antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "total IgG binding antibody",
+      "chunk_id": "chk_99252db8570856de5a3ad1815b5426c2"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_99252db8570856de5a3ad1815b5426c2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

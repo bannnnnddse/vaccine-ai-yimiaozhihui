@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e67ff3571c765f3330bf4f43ac50b936",
+  "content_hash": "ae32055d13d1e1ea71747c5d3b444a9515d87a3485e0a8c65b3b87c3f2851a7d",
+  "entities": [
+    {
+      "canonical_name": "influenza virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza virus vaccine",
+      "chunk_id": "chk_e67ff3571c765f3330bf4f43ac50b936"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_e67ff3571c765f3330bf4f43ac50b936"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

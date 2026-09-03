@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_307be3bd07714de0fd76fb196973909f",
+  "content_hash": "d77e603441358da298f80de33c36a1a8b763f96b1e1e39821e80dc746adf5d84",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_307be3bd07714de0fd76fb196973909f"
+    },
+    {
+      "canonical_name": "Moderna",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna",
+      "chunk_id": "chk_307be3bd07714de0fd76fb196973909f"
+    },
+    {
+      "canonical_name": "Pfizer",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pfizer",
+      "chunk_id": "chk_307be3bd07714de0fd76fb196973909f"
+    },
+    {
+      "canonical_name": "Covid",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Covid",
+      "chunk_id": "chk_307be3bd07714de0fd76fb196973909f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

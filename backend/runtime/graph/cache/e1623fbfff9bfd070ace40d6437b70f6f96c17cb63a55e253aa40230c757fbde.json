@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_b320b19acb08c9cc49049f3e9e7604b9",
+  "content_hash": "ff68b9e343b1a8118602bf15114c06fa09e52ee3881d2fb559ee7cce65ca7ad2",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B surface antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hepatitis B surface antibody",
+      "chunk_id": "chk_b320b19acb08c9cc49049f3e9e7604b9"
+    },
+    {
+      "canonical_name": "youth",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "youth",
+      "chunk_id": "chk_b320b19acb08c9cc49049f3e9e7604b9"
+    },
+    {
+      "canonical_name": "booster vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "booster vaccination",
+      "chunk_id": "chk_b320b19acb08c9cc49049f3e9e7604b9"
+    },
+    {
+      "canonical_name": "HBsAg-positive mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HBsAg-positive mothers",
+      "chunk_id": "chk_b320b19acb08c9cc49049f3e9e7604b9"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_b320b19acb08c9cc49049f3e9e7604b9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

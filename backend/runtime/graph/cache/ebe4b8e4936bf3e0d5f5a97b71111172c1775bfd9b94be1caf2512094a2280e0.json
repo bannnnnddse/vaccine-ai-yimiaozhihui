@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_b95900ea0ecf5ebd0cdcaf1548bc0629",
+  "content_hash": "052178fb5f3c8507a58211a3e7f4071e18009edf84b99b3b84b440ea277e2670",
+  "entities": [
+    {
+      "canonical_name": "group B disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "group B disease",
+      "chunk_id": "chk_b95900ea0ecf5ebd0cdcaf1548bc0629"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_b95900ea0ecf5ebd0cdcaf1548bc0629"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

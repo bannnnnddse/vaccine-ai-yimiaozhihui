@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d8484c22b17b784bcffc7ad9c65b5a3a",
+  "content_hash": "570a52194dd026dd35273fcb6ed1abe8982a63c8aeec6de6a529e945e016a867",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_d8484c22b17b784bcffc7ad9c65b5a3a"
+    },
+    {
+      "canonical_name": "Vaccines in general",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines in general",
+      "chunk_id": "chk_d8484c22b17b784bcffc7ad9c65b5a3a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

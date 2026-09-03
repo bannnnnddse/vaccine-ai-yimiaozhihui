@@ -1,0 +1,6010 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "doc_e00a455120fd4a69cb4eeaa6",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 10985493893704791436,
+    "filename": "doc_e00a455120fd4a69cb4eeaa6.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/pictures/7"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/pictures/8"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/pictures/9"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/pictures/10"
+      },
+      {
+        "$ref": "#/pictures/11"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/pictures/12"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/119"
+      },
+      {
+        "$ref": "#/groups/4"
+      },
+      {
+        "$ref": "#/texts/123"
+      },
+      {
+        "$ref": "#/groups/5"
+      },
+      {
+        "$ref": "#/pictures/13"
+      },
+      {
+        "$ref": "#/texts/132"
+      },
+      {
+        "$ref": "#/texts/133"
+      },
+      {
+        "$ref": "#/texts/134"
+      },
+      {
+        "$ref": "#/texts/135"
+      },
+      {
+        "$ref": "#/pictures/14"
+      },
+      {
+        "$ref": "#/groups/6"
+      },
+      {
+        "$ref": "#/texts/154"
+      },
+      {
+        "$ref": "#/groups/7"
+      },
+      {
+        "$ref": "#/texts/158"
+      },
+      {
+        "$ref": "#/texts/159"
+      },
+      {
+        "$ref": "#/texts/160"
+      },
+      {
+        "$ref": "#/texts/161"
+      },
+      {
+        "$ref": "#/pictures/15"
+      },
+      {
+        "$ref": "#/groups/8"
+      },
+      {
+        "$ref": "#/texts/168"
+      },
+      {
+        "$ref": "#/texts/169"
+      },
+      {
+        "$ref": "#/texts/170"
+      },
+      {
+        "$ref": "#/texts/171"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/13"
+        },
+        {
+          "$ref": "#/texts/14"
+        },
+        {
+          "$ref": "#/texts/15"
+        },
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        },
+        {
+          "$ref": "#/texts/18"
+        },
+        {
+          "$ref": "#/texts/19"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/118"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/texts/141"
+        },
+        {
+          "$ref": "#/texts/142"
+        },
+        {
+          "$ref": "#/texts/143"
+        },
+        {
+          "$ref": "#/texts/144"
+        },
+        {
+          "$ref": "#/texts/145"
+        },
+        {
+          "$ref": "#/texts/146"
+        },
+        {
+          "$ref": "#/texts/147"
+        },
+        {
+          "$ref": "#/texts/148"
+        },
+        {
+          "$ref": "#/texts/149"
+        },
+        {
+          "$ref": "#/texts/150"
+        },
+        {
+          "$ref": "#/texts/151"
+        },
+        {
+          "$ref": "#/texts/152"
+        },
+        {
+          "$ref": "#/texts/153"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/155"
+        },
+        {
+          "$ref": "#/texts/156"
+        },
+        {
+          "$ref": "#/texts/157"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/162"
+        },
+        {
+          "$ref": "#/texts/163"
+        },
+        {
+          "$ref": "#/texts/164"
+        },
+        {
+          "$ref": "#/texts/165"
+        },
+        {
+          "$ref": "#/texts/166"
+        },
+        {
+          "$ref": "#/texts/167"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.51969909667969,
+            "t": 759.8720703125,
+            "r": 184.7247314453125,
+            "b": 732.0770874023438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "J Korean Med Sci. 2022 Jul 11;37(27):e214 https://doi.org/10.3346/jkms.2022.37.e214 eISSN 1598-6357\u00b7pISSN 1011-8934",
+      "text": "J Korean Med Sci. 2022 Jul 11;37(27):e214 https://doi.org/10.3346/jkms.2022.37.e214 eISSN 1598-6357\u00b7pISSN 1011-8934"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.14970016479492,
+            "t": 707.527587890625,
+            "r": 180.37490844726562,
+            "b": 679.2926025390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "Opinion Editing, Writing &Publishing",
+      "text": "Opinion Editing, Writing &Publishing",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.15169906616211,
+            "t": 516.7341918945312,
+            "r": 111.81570434570312,
+            "b": 510.5581970214844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Received: Mar 23, 2022",
+      "text": "Received: Mar 23, 2022"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.599700927734375,
+            "t": 505.6622009277344,
+            "r": 111.78290557861328,
+            "b": 498.70220947265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Accepted: Jun 13, 2022",
+      "text": "Accepted: Jun 13, 2022"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.15169906616211,
+            "t": 494.73419189453125,
+            "r": 135.68771362304688,
+            "b": 488.5581970214844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Published online: Jun 29, 2022",
+      "text": "Published online: Jun 29, 2022"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.599700927734375,
+            "t": 475.2221984863281,
+            "r": 135.44766235351562,
+            "b": 468.1982116699219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Address for Correspondence:",
+      "text": "Address for Correspondence:",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.16769790649414,
+            "t": 464.2062072753906,
+            "r": 82.53570556640625,
+            "b": 457.1982116699219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Latika Gupta",
+      "text": "Latika Gupta",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.63169860839844,
+            "t": 453.2142028808594,
+            "r": 174.81565856933594,
+            "b": 413.7342224121094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": "Department of Rheumatology, Royal Wolverhampton Hospitals NHS Trust, Wolverhampton Road, Wolverhampton WV10 0QP, UK.",
+      "text": "Department of Rheumatology, Royal Wolverhampton Hospitals NHS Trust, Wolverhampton Road, Wolverhampton WV10 0QP, UK."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.2156982421875,
+            "t": 409.158203125,
+            "r": 138.06365966796875,
+            "b": 402.13421630859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "Email: drlatikagupta@gmail.com",
+      "text": "Email: drlatikagupta@gmail.com"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.7677001953125,
+            "t": 389.710205078125,
+            "r": 158.5428466796875,
+            "b": 373.2462158203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "\u00a9 2022 The Korean Academy of Medical Sciences.",
+      "text": "\u00a9 2022 The Korean Academy of Medical Sciences."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.599700927734375,
+            "t": 367.6542053222656,
+            "r": 178.3356170654297,
+            "b": 285.2462158203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            307
+          ]
+        }
+      ],
+      "orig": "This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (https:// creativecommons.org/licenses/by-nc/4.0/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+      "text": "This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (https:// creativecommons.org/licenses/by-nc/4.0/) which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.85569763183594,
+            "t": 271.22222900390625,
+            "r": 74.47169494628906,
+            "b": 265.71820068359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "ORCID iDs",
+      "text": "ORCID iDs",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.2156982421875,
+            "t": 260.15020751953125,
+            "r": 79.1677017211914,
+            "b": 254.74221801757812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Lisa Traboco",
+      "text": "Lisa Traboco"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.13570022583008,
+            "t": 249.1584014892578,
+            "r": 159.88766479492188,
+            "b": 242.12640380859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "https://orcid.org/0000-0002-1952-7879",
+      "text": "https://orcid.org/0000-0002-1952-7879"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.2156982421875,
+            "t": 238.150390625,
+            "r": 90.46450805664062,
+            "b": 232.74240112304688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Haridha Pandian",
+      "text": "Haridha Pandian"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.13570022583008,
+            "t": 227.1584014892578,
+            "r": 159.5836639404297,
+            "b": 220.12640380859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "https://orcid.org/0000-0002-3149-2891",
+      "text": "https://orcid.org/0000-0002-3149-2891"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.2156982421875,
+            "t": 216.150390625,
+            "r": 91.77569580078125,
+            "b": 209.19039916992188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Elena Nikiphorou",
+      "text": "Elena Nikiphorou"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.13570022583008,
+            "t": 205.1584014892578,
+            "r": 160.20765686035156,
+            "b": 198.12640380859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "https://orcid.org/0000-0001-6847-3726",
+      "text": "https://orcid.org/0000-0001-6847-3726"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.2156982421875,
+            "t": 194.150390625,
+            "r": 79.30370330810547,
+            "b": 187.19039916992188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Latika Gupta",
+      "text": "Latika Gupta"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.13570022583008,
+            "t": 183.1584014892578,
+            "r": 162.25564575195312,
+            "b": 176.12640380859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "https://orcid.org/0000-0003-2753-2990",
+      "text": "https://orcid.org/0000-0003-2753-2990"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.15169906616211,
+            "t": 163.71839904785156,
+            "r": 75.6156997680664,
+            "b": 158.2144012451172,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Disclosure",
+      "text": "Disclosure",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.63169860839844,
+            "t": 152.702392578125,
+            "r": 163.151611328125,
+            "b": 136.2384033203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "The authors have no potential conflicts of interest to disclose.",
+      "text": "The authors have no potential conflicts of interest to disclose."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.599700927734375,
+            "t": 122.21440124511719,
+            "r": 110.43970489501953,
+            "b": 116.71040344238281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Author Contributions",
+      "text": "Author Contributions",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.63169860839844,
+            "t": 111.14240264892578,
+            "r": 172.6236114501953,
+            "b": 71.11840057373047,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            170
+          ]
+        }
+      ],
+      "orig": "Conceptualization: Traboco L, Gupta L. Data curation: Traboco L, Pandian H. Formal analysis: Traboco L, Pandian H. Investigation: Traboco L, Gupta L. Methodology: Traboco",
+      "text": "Conceptualization: Traboco L, Gupta L. Data curation: Traboco L, Pandian H. Formal analysis: Traboco L, Pandian H. Investigation: Traboco L, Gupta L. Methodology: Traboco"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 192.83499145507812,
+            "t": 707.1876831054688,
+            "r": 495.8189697265625,
+            "b": 612.7637329101562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": "Designing Infographics: Visual Representations for Enhancing Education, Communication, and Scientific Research",
+      "text": "Designing Infographics: Visual Representations for Enhancing Education, Communication, and Scientific Research",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 193.1595001220703,
+            "t": 581.342529296875,
+            "r": 552.5785522460938,
+            "b": 572.0458984375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "Lisa Traboco , 1 Haridha Pandian , 2 Elena Nikiphorou , 3 and Latika Gupta 2,4",
+      "text": "Lisa Traboco , 1 Haridha Pandian , 2 Elena Nikiphorou , 3 and Latika Gupta 2,4"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 192.42532348632812,
+            "t": 558.3828125,
+            "r": 549.2979736328125,
+            "b": 550.8433227539062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "1 Department of Medicine, Section of Rheumatology, St. Luke's Medical Center-Global City, Taguig, Philippines",
+      "text": "1 Department of Medicine, Section of Rheumatology, St. Luke's Medical Center-Global City, Taguig, Philippines"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 192.47488403320312,
+            "t": 548.2371826171875,
+            "r": 194.35302734375,
+            "b": 545.2589111328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1
+          ]
+        }
+      ],
+      "orig": "2",
+      "text": "2"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 195.2489013671875,
+            "t": 548.165771484375,
+            "r": 513.3528442382812,
+            "b": 540.643310546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            86
+          ]
+        }
+      ],
+      "orig": "Department of Rheumatology, Royal Wolverhampton Hospitals NHS Trust, Wolverhampton, UK",
+      "text": "Department of Rheumatology, Royal Wolverhampton Hospitals NHS Trust, Wolverhampton, UK"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 192.3757781982422,
+            "t": 538.0370483398438,
+            "r": 525.995849609375,
+            "b": 520.2432861328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "3 Department of Rheumatology, King's College Hospital & Centre for Rheumatic Diseases, Division of Inflammation Biology, King's College London, London, UK",
+      "text": "3 Department of Rheumatology, King's College Hospital & Centre for Rheumatic Diseases, Division of Inflammation Biology, King's College London, London, UK"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 192.42532348632812,
+            "t": 517.5775756835938,
+            "r": 548.7232055664062,
+            "b": 499.8432922363281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            171
+          ]
+        }
+      ],
+      "orig": "4 Division of Musculoskeletal and Dermatological Sciences, Centre for Musculoskeletal Research, School of Biological Sciences, The University of Manchester, Manchester, UK",
+      "text": "4 Division of Musculoskeletal and Dermatological Sciences, Centre for Musculoskeletal Research, School of Biological Sciences, The University of Manchester, Manchester, UK"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 192.5050048828125,
+            "t": 470.9322204589844,
+            "r": 260.5575866699219,
+            "b": 461.49200439453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "ABSTRACT",
+      "text": "ABSTRACT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 192.24649047851562,
+            "t": 442.4254150390625,
+            "r": 552.0191650390625,
+            "b": 277.6669006347656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1113
+          ]
+        }
+      ],
+      "orig": "Infographics are graphic visual representations of educational content, used to deliver complex information, disseminate scientific research, and drive behavioral change. Herein, we review some of the factors pertinent to designing infographics and the potential for automation in the future. To guide high-impact design, it is vital to clearly define the objectives of the infographic and its target audience. Designing an effective infographic necessitates careful consideration of the layout, colors, font, and context. More recently, technical support to develop infographics are increasingly available through online software (Canva, Adobe, and Venngage) and emerging artificial intelligence programs. References can also become a visual representation of trends in scientific discovery. It is crucial for clinicians, researchers and scientists to have the knowledge and skills to design compelling infographics. In the era of social media, the uptake and effects of infographics for disseminating scientific research and public health education need to be further studied to understand their full potential.",
+      "text": "Infographics are graphic visual representations of educational content, used to deliver complex information, disseminate scientific research, and drive behavioral change. Herein, we review some of the factors pertinent to designing infographics and the potential for automation in the future. To guide high-impact design, it is vital to clearly define the objectives of the infographic and its target audience. Designing an effective infographic necessitates careful consideration of the layout, colors, font, and context. More recently, technical support to develop infographics are increasingly available through online software (Canva, Adobe, and Venngage) and emerging artificial intelligence programs. References can also become a visual representation of trends in scientific discovery. It is crucial for clinicians, researchers and scientists to have the knowledge and skills to design compelling infographics. In the era of social media, the uptake and effects of infographics for disseminating scientific research and public health education need to be further studied to understand their full potential."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 193.08250427246094,
+            "t": 264.9654235839844,
+            "r": 461.47271728515625,
+            "b": 256.044921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "Keywords: Infographics; Social Media; Research; Design; Technology",
+      "text": "Keywords: Infographics; Social Media; Research; Design; Technology"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 193.53680419921875,
+            "t": 223.91680908203125,
+            "r": 292.189208984375,
+            "b": 214.49200439453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "INTRODUCTION",
+      "text": "INTRODUCTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 192.24649047851562,
+            "t": 195.4254150390625,
+            "r": 551.7532348632812,
+            "b": 69.54090118408203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            890
+          ]
+        }
+      ],
+      "orig": "Conveying information via written text or numbers alone can be uninteresting, arduous, and have little to no impact. However, combining these with visual aids, such as images or figures, in a well-curated, aesthetically appealing format allows a message to be expressed compellingly, with greater comprehensibility. This is called an information graphic or infographic, a device to present complex informational content in a powerful visual format which supports optimal cognitive processing, learning, retention, future recollection, and subsequently drives behavioral change. Infographics have emerged as a popular digital tool to share dense or abstract messages to diverse audiences in an efficient, precise, and influential manner. Visual abstracts are a form of infographic\u2014an image summary of research, which lend themselves to ease of dissemination, usually through social media.1,2",
+      "text": "Conveying information via written text or numbers alone can be uninteresting, arduous, and have little to no impact. However, combining these with visual aids, such as images or figures, in a well-curated, aesthetically appealing format allows a message to be expressed compellingly, with greater comprehensibility. This is called an information graphic or infographic, a device to present complex informational content in a powerful visual format which supports optimal cognitive processing, learning, retention, future recollection, and subsequently drives behavioral change. Infographics have emerged as a popular digital tool to share dense or abstract messages to diverse audiences in an efficient, precise, and influential manner. Visual abstracts are a form of infographic\u2014an image summary of research, which lend themselves to ease of dissemination, usually through social media.1,2"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 43.19440841674805,
+            "t": 46.94279861450195,
+            "r": 100.343505859375,
+            "b": 39.03179931640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "https://jkms.org",
+      "text": "https://jkms.org"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 540.5704345703125,
+            "t": 46.94279861450195,
+            "r": 550.8754272460938,
+            "b": 39.103797912597656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "1/7",
+      "text": "1/7"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 43.216590881347656,
+            "t": 738.5307006835938,
+            "r": 127.56456756591797,
+            "b": 730.5116577148438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Designing Infographics",
+      "text": "Designing Infographics"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 42.63169860839844,
+            "t": 701.5017700195312,
+            "r": 175.28758239746094,
+            "b": 650.541748046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "L, Gupta L. Project administration: Gupta L. Supervision: EN,Gupta L. Visualization: Traboco L, Gupta L. Writing - original draft: Traboco L, Gupta L. Writing - review & editing: Traboco L, Pandian H, Nikiphorou E, Gupta L.",
+      "text": "L, Gupta L. Project administration: Gupta L. Supervision: EN,Gupta L. Visualization: Traboco L, Gupta L. Writing - original draft: Traboco L, Gupta L. Writing - review & editing: Traboco L, Pandian H, Nikiphorou E, Gupta L."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 192.54100036621094,
+            "t": 702.4253540039062,
+            "r": 550.5942993164062,
+            "b": 641.6348876953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            469
+          ]
+        }
+      ],
+      "orig": "Due to their immense potential, it is crucial for researchers, clinicians and scientists to have a firm grasp on designing infographics for instructional and educational purposes, evaluate their effectiveness, and be aware of common pitfalls to avoid. In this opinion piece, we explore some of the factors that need to be considered in designing high-impact infographics to disseminate scientific educational content, and the potential role of automation in the future.",
+      "text": "Due to their immense potential, it is crucial for researchers, clinicians and scientists to have a firm grasp on designing infographics for instructional and educational purposes, evaluate their effectiveness, and be aware of common pitfalls to avoid. In this opinion piece, we explore some of the factors that need to be considered in designing high-impact infographics to disseminate scientific educational content, and the potential role of automation in the future."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 193.53680419921875,
+            "t": 615.1488037109375,
+            "r": 495.33062744140625,
+            "b": 604.4920043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "IDENTIFYING THE INFOGRAPHIC'S OBJECTIVES",
+      "text": "IDENTIFYING THE INFOGRAPHIC'S OBJECTIVES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 192.54100036621094,
+            "t": 585.4253540039062,
+            "r": 553.9467163085938,
+            "b": 498.5248718261719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            622
+          ]
+        }
+      ],
+      "orig": "Infographics can serve many different objectives. Firstly, they can provide an eagle-eye view of the latest research, show insights and emerging discussions, and improve clinical practice.3,4 In the era of social media, disseminating such information via an infographic on these channels may achieve more traction and engagement than journal sites. Furthermore, clinical trials have explored infographics and social media image campaigns for patient recruitment for clinical trials. Researchers could tailor their message to target specific patient groups, improving the diversity of their clinical trial participants.4 -6",
+      "text": "Infographics can serve many different objectives. Firstly, they can provide an eagle-eye view of the latest research, show insights and emerging discussions, and improve clinical practice.3,4 In the era of social media, disseminating such information via an infographic on these channels may achieve more traction and engagement than journal sites. Furthermore, clinical trials have explored infographics and social media image campaigns for patient recruitment for clinical trials. Researchers could tailor their message to target specific patient groups, improving the diversity of their clinical trial participants.4 -6"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 192.38890075683594,
+            "t": 481.4254150390625,
+            "r": 550.3788452148438,
+            "b": 355.5089111328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            876
+          ]
+        }
+      ],
+      "orig": "As a teaching tool, infographics enhance engagement, memory retention, recall, comprehension, and development of communication skills.7,8 In the current climate of the coronavirus pandemic, infographics have been increasingly employed for patient education. For example, infographics were used to promote the goal of \"flattening the curve\" by encouraging hygienic practices such as handwashing and appropriate mask-wearing and providing information on local public health guidelines.9 -11 These have also been used to demonstrate the pathology of coronavirus and the immune response to infection.10,12 Infographics can help improve health literacy by combatting misinformation and encouraging patients to verify false news.13,14 For public health purposes, infographics should be tailored according to the target audience's current health literacy and preferred language.15,16",
+      "text": "As a teaching tool, infographics enhance engagement, memory retention, recall, comprehension, and development of communication skills.7,8 In the current climate of the coronavirus pandemic, infographics have been increasingly employed for patient education. For example, infographics were used to promote the goal of \"flattening the curve\" by encouraging hygienic practices such as handwashing and appropriate mask-wearing and providing information on local public health guidelines.9 -11 These have also been used to demonstrate the pathology of coronavirus and the immune response to infection.10,12 Infographics can help improve health literacy by combatting misinformation and encouraging patients to verify false news.13,14 For public health purposes, infographics should be tailored according to the target audience's current health literacy and preferred language.15,16"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 192.9822998046875,
+            "t": 327.9322204589844,
+            "r": 465.700927734375,
+            "b": 318.49200439453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "COMMUNICATING SCIENCE THROUGH ART",
+      "text": "COMMUNICATING SCIENCE THROUGH ART",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 192.24639892578125,
+            "t": 299.4254150390625,
+            "r": 548.9002685546875,
+            "b": 186.51290893554688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            851
+          ]
+        }
+      ],
+      "orig": "Communication is central to Medicine, but challenges exist in conveying scientific information via non-traditional, artistic means. Firstly, images must be chosen wisely as they can affect emotion and comprehensibility. Those that are too abstract or unfamiliar will not facilitate affinity with the selected audience. Images that some may find disturbing or inappropriate,17 such as photos of traumatic injury or intraoperative cases, must be avoided. Care must also be taken when using images due to copyright. Many online photos are free or under the public domain as a Creative Commons license,18 which helps creators to maintain copyright but allows non-commercial use of their artwork. Static infographic images can be fortified with animations or even interactive content, and visual abstracts can be converted to video abstracts (Fig. 1).19,20",
+      "text": "Communication is central to Medicine, but challenges exist in conveying scientific information via non-traditional, artistic means. Firstly, images must be chosen wisely as they can affect emotion and comprehensibility. Those that are too abstract or unfamiliar will not facilitate affinity with the selected audience. Images that some may find disturbing or inappropriate,17 such as photos of traumatic injury or intraoperative cases, must be avoided. Care must also be taken when using images due to copyright. Many online photos are free or under the public domain as a Creative Commons license,18 which helps creators to maintain copyright but allows non-commercial use of their artwork. Static infographic images can be fortified with animations or even interactive content, and visual abstracts can be converted to video abstracts (Fig. 1).19,20"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 192.32240295410156,
+            "t": 169.49720764160156,
+            "r": 549.7703247070312,
+            "b": 108.52090454101562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            434
+          ]
+        }
+      ],
+      "orig": "While online palette databases exist, Stones and Gent21 do not recommend arbitrary selection of colors. Colors can convey subliminal messaging, such as red for emergency, urgency, or denoting an adverse outcome. Colors also affect the legibility of the accompanying text or font. As reading behavior is affected by alignment, colors, and dominant elements of the infographic, key messages should be clear, coherent, and bold (Fig. 2).",
+      "text": "While online palette databases exist, Stones and Gent21 do not recommend arbitrary selection of colors. Colors can convey subliminal messaging, such as red for emergency, urgency, or denoting an adverse outcome. Colors also affect the legibility of the accompanying text or font. As reading behavior is affected by alignment, colors, and dominant elements of the infographic, key messages should be clear, coherent, and bold (Fig. 2)."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 192.3242950439453,
+            "t": 91.43991088867188,
+            "r": 549.637451171875,
+            "b": 69.50489807128906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 192.32249450683594,
+            "t": 247.4254150390625,
+            "r": 537.8432006835938,
+            "b": 186.52090454101562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            189,
+            571
+          ]
+        }
+      ],
+      "orig": "Where designing infographics that are creative, effective, and aesthetic presents a challenge; Khoury et al.22 suggest establishing a partnership with graphic designers. Collaboration with expert graphic designers can lead to the development of a high-quality infographic, which can capture the attention of a lay audience. However, it is important to consider the time commitment and additional funding required to obtain the support of a graphic designer. With growing clinicians' and scientists' workloads and times of austerity, this may be challenging to facilitate.",
+      "text": "Where designing infographics that are creative, effective, and aesthetic presents a challenge; Khoury et al.22 suggest establishing a partnership with graphic designers. Collaboration with expert graphic designers can lead to the development of a high-quality infographic, which can capture the attention of a lay audience. However, it is important to consider the time commitment and additional funding required to obtain the support of a graphic designer. With growing clinicians' and scientists' workloads and times of austerity, this may be challenging to facilitate."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 43.194698333740234,
+            "t": 46.98870086669922,
+            "r": 100.34379577636719,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "https://jkms.org",
+      "text": "https://jkms.org"
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 192.0135955810547,
+            "t": 46.98870086669922,
+            "r": 341.90679931640625,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "https://doi.org/10.3346/jkms.2022.37.e214",
+      "text": "https://doi.org/10.3346/jkms.2022.37.e214"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 539.60595703125,
+            "t": 46.94329833984375,
+            "r": 550.8739624023438,
+            "b": 39.10429763793945,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "2/7",
+      "text": "2/7"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 43.216590881347656,
+            "t": 738.5307006835938,
+            "r": 127.56456756591797,
+            "b": 730.5116577148438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Designing Infographics",
+      "text": "Designing Infographics"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 192.9669952392578,
+            "t": 275.1626892089844,
+            "r": 514.2421875,
+            "b": 268.0346984863281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            100
+          ]
+        }
+      ],
+      "orig": "Fig. 2. Example of an infographic using Canva template emphasizing the key points of the manuscript.",
+      "text": "Fig. 2. Example of an infographic using Canva template emphasizing the key points of the manuscript."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 321.27899169921875,
+            "t": 669.4511108398438,
+            "r": 359.1990051269531,
+            "b": 662.4271240234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Predesigned",
+      "text": "Predesigned"
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 324.2469787597656,
+            "t": 659.8511352539062,
+            "r": 355.9517822265625,
+            "b": 652.89111328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "templates",
+      "text": "templates"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 290.15899658203125,
+            "t": 632.0111083984375,
+            "r": 319.5830078125,
+            "b": 625.0510864257812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Graphics,",
+      "text": "Graphics,"
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 297.1029968261719,
+            "t": 622.4031372070312,
+            "r": 313.1029968261719,
+            "b": 616.9791259765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "icons",
+      "text": "icons"
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 367.2469787597656,
+            "t": 632.0111083984375,
+            "r": 389.3269958496094,
+            "b": 625.787109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Charts,",
+      "text": "Charts,"
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 367.63897705078125,
+            "t": 622.4111328125,
+            "r": 389.0149841308594,
+            "b": 615.3871459960938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "graphs",
+      "text": "graphs"
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 318.95098876953125,
+            "t": 601.0430908203125,
+            "r": 361.5574035644531,
+            "b": 594.0111083984375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Image/Design",
+      "text": "Image/Design"
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 318.2389831542969,
+            "t": 591.4271240234375,
+            "r": 361.958984375,
+            "b": 586.0031127929688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "customization",
+      "text": "customization"
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 262.84698486328125,
+            "t": 569.9390869140625,
+            "r": 291.4469909667969,
+            "b": 564.507080078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Plain text",
+      "text": "Plain text"
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 380.06298828125,
+            "t": 569.9390869140625,
+            "r": 424.1422119140625,
+            "b": 563.715087890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Raw numbers,",
+      "text": "Raw numbers,"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 392.375,
+            "t": 560.339111328125,
+            "r": 411.5902099609375,
+            "b": 554.9071044921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "tables",
+      "text": "tables"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 451.0069885253906,
+            "t": 574.7391357421875,
+            "r": 472.718994140625,
+            "b": 567.7151489257812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "Google",
+      "text": "Google"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 450.72698974609375,
+            "t": 565.1390991210938,
+            "r": 490.14300537109375,
+            "b": 559.7070922851562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Visualization",
+      "text": "Visualization"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 451.3269958496094,
+            "t": 555.5391235351562,
+            "r": 479.6390075683594,
+            "b": 550.1071166992188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "DataShot",
+      "text": "DataShot"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 336.510986328125,
+            "t": 566.7390747070312,
+            "r": 342.1669921875,
+            "b": 562.027099609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "AI",
+      "text": "AI"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 321.1349792480469,
+            "t": 559.3630981445312,
+            "r": 358.1109924316406,
+            "b": 552.3471069335938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "suggestions",
+      "text": "suggestions"
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 325.7030029296875,
+            "t": 551.37109375,
+            "r": 353.614990234375,
+            "b": 545.9390869140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "based on",
+      "text": "based on"
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 328.1109924316406,
+            "t": 542.5870971679688,
+            "r": 351.4070129394531,
+            "b": 537.9390869140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "context",
+      "text": "context"
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 195.36700439453125,
+            "t": 574.795166015625,
+            "r": 224.31100463867188,
+            "b": 569.30712890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Microsoft",
+      "text": "Microsoft"
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 195.36700439453125,
+            "t": 565.131103515625,
+            "r": 230.79901123046875,
+            "b": 558.1790771484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Powerpoint",
+      "text": "Powerpoint"
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 194.7670135498047,
+            "t": 555.5311279296875,
+            "r": 226.375,
+            "b": 550.1071166992188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "Text to Viz",
+      "text": "Text to Viz"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 276.927001953125,
+            "t": 702.067138671875,
+            "r": 403.22943115234375,
+            "b": 695.0431518554688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            37
+          ]
+        }
+      ],
+      "orig": "Canva, Venngage, Adobe Creative Cloud",
+      "text": "Canva, Venngage, Adobe Creative Cloud"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 192.43099975585938,
+            "t": 510.2439880371094,
+            "r": 390.4774169921875,
+            "b": 494.1159973144531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "Fig. 1. Summary of design platforms and tools for infographics. AI = artificial Intelligence.",
+      "text": "Fig. 1. Summary of design platforms and tools for infographics. AI = artificial Intelligence."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 346.0469970703125,
+            "t": 439.2533264160156,
+            "r": 354.0870056152344,
+            "b": 434.3572998046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "01.",
+      "text": "01."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 333.958984375,
+            "t": 430.1893005371094,
+            "r": 366.49578857421875,
+            "b": 423.1972961425781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Objectives",
+      "text": "Objectives"
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 325.0069885253906,
+            "t": 471.4853210449219,
+            "r": 375.0885925292969,
+            "b": 464.4613342285156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "Target audience",
+      "text": "Target audience"
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 194.76699829101562,
+            "t": 392.5332946777344,
+            "r": 249.43099975585938,
+            "b": 385.5093078613281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "Audience testing,",
+      "text": "Audience testing,"
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 222.74301147460938,
+            "t": 382.92529296875,
+            "r": 249.79100036621094,
+            "b": 377.50128173828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "revisions",
+      "text": "revisions"
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 426.19097900390625,
+            "t": 315.5252990722656,
+            "r": 456.2157897949219,
+            "b": 309.93328857421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Freeware,",
+      "text": "Freeware,"
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 425.5909729003906,
+            "t": 306.55731201171875,
+            "r": 495.2301940917969,
+            "b": 299.5333251953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "AI visualizer programs",
+      "text": "AI visualizer programs"
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 450.67095947265625,
+            "t": 392.5332946777344,
+            "r": 517.30859375,
+            "b": 385.5332946777344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Color palette, layout,",
+      "text": "Color palette, layout,"
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 450.782958984375,
+            "t": 382.92529296875,
+            "r": 494.9109802246094,
+            "b": 375.9093017578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "image context",
+      "text": "image context"
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 216.1829833984375,
+            "t": 316.1492919921875,
+            "r": 274.2294006347656,
+            "b": 309.93328857421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "Resource citiation,",
+      "text": "Resource citiation,"
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 206.88699340820312,
+            "t": 306.55731201171875,
+            "r": 272.82379150390625,
+            "b": 299.5333251953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "bibliography analysis",
+      "text": "bibliography analysis"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 410.3909606933594,
+            "t": 391.997314453125,
+            "r": 419.7269592285156,
+            "b": 387.1012878417969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "02.",
+      "text": "02."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 394.9189758300781,
+            "t": 382.92529296875,
+            "r": 435.5669860839844,
+            "b": 377.50128173828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "Science + art",
+      "text": "Science + art"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 385.7029724121094,
+            "t": 320.4212951660156,
+            "r": 394.7909851074219,
+            "b": 315.5252685546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "03.",
+      "text": "03."
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 379.1269836425781,
+            "t": 311.3572998046875,
+            "r": 401.6077880859375,
+            "b": 305.92529296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Tools &",
+      "text": "Tools &"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 375.7509765625,
+            "t": 301.75726318359375,
+            "r": 405.31097412109375,
+            "b": 296.32525634765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "machines",
+      "text": "machines"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 280.4949645996094,
+            "t": 391.9972839355469,
+            "r": 289.6789855957031,
+            "b": 387.10125732421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "05.",
+      "text": "05."
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 270.63897705078125,
+            "t": 382.93328857421875,
+            "r": 300.4229736328125,
+            "b": 377.50128173828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Feedback",
+      "text": "Feedback"
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 305.363037109375,
+            "t": 319.8205261230469,
+            "r": 314.4403076171875,
+            "b": 315.1678771972656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "04.",
+      "text": "04."
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 297.1524353027344,
+            "t": 311.2070007324219,
+            "r": 323.18988037109375,
+            "b": 306.04498291015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Evidence",
+      "text": "Evidence"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 301.42498779296875,
+            "t": 302.0841369628906,
+            "r": 318.6064147949219,
+            "b": 296.922119140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "based",
+      "text": "based"
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 332.90771484375,
+            "t": 375.1500244140625,
+            "r": 368.34881591796875,
+            "b": 367.1940002441406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Designing",
+      "text": "Designing"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 327.8406982421875,
+            "t": 364.3590393066406,
+            "r": 372.9127197265625,
+            "b": 356.3940124511719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "infographics",
+      "text": "infographics"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 193.53680419921875,
+            "t": 158.9322052001953,
+            "r": 412.6788024902344,
+            "b": 149.49200439453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "HARNESSING MAN AND MACHINE",
+      "text": "HARNESSING MAN AND MACHINE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 192.3889923095703,
+            "t": 130.42539978027344,
+            "r": 547.98828125,
+            "b": 69.51290130615234,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            463
+          ]
+        },
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 192.54100036621094,
+            "t": 702.4253540039062,
+            "r": 542.5352172851562,
+            "b": 641.5089111328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            464,
+            902
+          ]
+        }
+      ],
+      "orig": "There are numerous tools for anyone to start creating infographics. Canva (www.canva.com/ features/), for example, is one online tool for design and publishing which offers a free trial and more advanced creative services at a fee.23 It has a range of templates and a database of images and illustrations, text font, audio, and videos. Copyrighted elements can be ethically unlocked with a paid subscription. Platforms also allow users to form teams, share design access and create infographics simultaneously. The final product can be synchronized with social media accounts and published afterward. Venngage (www.venngage.com/features) and Adobe Creative Cloud (www.adobe.com/express/features) are other examples of online platforms with similar features to create infographics.24,25 Many of these sites also provide educational courses on improving the quality of infographics to promote engagement.",
+      "text": "There are numerous tools for anyone to start creating infographics. Canva (www.canva.com/ features/), for example, is one online tool for design and publishing which offers a free trial and more advanced creative services at a fee.23 It has a range of templates and a database of images and illustrations, text font, audio, and videos. Copyrighted elements can be ethically unlocked with a paid subscription. Platforms also allow users to form teams, share design access and create infographics simultaneously. The final product can be synchronized with social media accounts and published afterward. Venngage (www.venngage.com/features) and Adobe Creative Cloud (www.adobe.com/express/features) are other examples of online platforms with similar features to create infographics.24,25 Many of these sites also provide educational courses on improving the quality of infographics to promote engagement."
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 43.194698333740234,
+            "t": 46.98870086669922,
+            "r": 100.34379577636719,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "https://jkms.org",
+      "text": "https://jkms.org"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 192.0135955810547,
+            "t": 46.98870086669922,
+            "r": 341.90679931640625,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "https://doi.org/10.3346/jkms.2022.37.e214",
+      "text": "https://doi.org/10.3346/jkms.2022.37.e214"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 539.4813842773438,
+            "t": 46.98870086669922,
+            "r": 550.8754272460938,
+            "b": 39.14970016479492,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "3/7",
+      "text": "3/7"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 43.216590881347656,
+            "t": 738.5307006835938,
+            "r": 127.56456756591797,
+            "b": 730.5116577148438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Designing Infographics",
+      "text": "Designing Infographics"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 192.35430908203125,
+            "t": 624.4278564453125,
+            "r": 550.387451171875,
+            "b": 459.5089111328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1156
+          ]
+        }
+      ],
+      "orig": "However, despite the availability of such platforms, a less technologically proficient user can find these challenging to utilize. With this in mind, artificial Intelligence (AI) has been gaining popularity, wherein a computer is trained to recognize elements of previous infographics, and subsequently create new ones by integrating these. AI can be seen in Microsoft Powerpoint's Design Ideas features: it can suggest icon images and layouts based on the words inputted to the slide.26 In the Text-to-Viz program by Cui et al.,27 they use natural language processing by analyzing word definitions and context, subsequently converting them into graphic suggestions. For example, where texts refer to being environmentally friendly, green or blue colors are suggested. Key facts can be given emphasis by using a highlight, increased size, or bold font. For raw data tables and statistics, Google Visualization Features28 can convert spreadsheets into various chart types for users to select from. DataShot29 is another system that assigns table elements a score of importance (e.g., context, significance), and then proposes layouts depending on the score.",
+      "text": "However, despite the availability of such platforms, a less technologically proficient user can find these challenging to utilize. With this in mind, artificial Intelligence (AI) has been gaining popularity, wherein a computer is trained to recognize elements of previous infographics, and subsequently create new ones by integrating these. AI can be seen in Microsoft Powerpoint's Design Ideas features: it can suggest icon images and layouts based on the words inputted to the slide.26 In the Text-to-Viz program by Cui et al.,27 they use natural language processing by analyzing word definitions and context, subsequently converting them into graphic suggestions. For example, where texts refer to being environmentally friendly, green or blue colors are suggested. Key facts can be given emphasis by using a highlight, increased size, or bold font. For raw data tables and statistics, Google Visualization Features28 can convert spreadsheets into various chart types for users to select from. DataShot29 is another system that assigns table elements a score of importance (e.g., context, significance), and then proposes layouts depending on the score."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 193.53680419921875,
+            "t": 431.9322204589844,
+            "r": 472.18438720703125,
+            "b": 422.49200439453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "KEEPING INFOGRAPHICS EVIDENCE-BASED",
+      "text": "KEEPING INFOGRAPHICS EVIDENCE-BASED",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 192.3889923095703,
+            "t": 403.4254150390625,
+            "r": 539.471923828125,
+            "b": 316.5129089355469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            589
+          ]
+        }
+      ],
+      "orig": "An infographic is not complete without references, as these add validity and credibility for both a lay and medical audience. In Saudi Arabia, Jahan et al.30 assessed 297 infographics on chronic health conditions for patients created by healthcare institutions, and none had references. References provide clinicians with the option to acquire more detailed information, before making changes to clinical practice.31 In the future, the credibility of infographics could be improved further by compiling them into a searchable platform that can be vetted by physicians and researchers.32,33",
+      "text": "An infographic is not complete without references, as these add validity and credibility for both a lay and medical audience. In Saudi Arabia, Jahan et al.30 assessed 297 infographics on chronic health conditions for patients created by healthcare institutions, and none had references. References provide clinicians with the option to acquire more detailed information, before making changes to clinical practice.31 In the future, the credibility of infographics could be improved further by compiling them into a searchable platform that can be vetted by physicians and researchers.32,33"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 192.54100036621094,
+            "t": 299.4254150390625,
+            "r": 540.0491333007812,
+            "b": 212.5089111328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            600
+          ]
+        }
+      ],
+      "orig": "Infographics can also be a reference for bibliography analytics. With the growing numbers of articles published daily, it is becoming progressively more challenging to keep up with the output. Research papers can be compared and arranged in a visual network following their citation, contradicting, and supporting concepts.34 Such aids are a feature of Connected Papers (connectedpapers.com) and in software coding tools such as VosViewer (www.vosviewer.com).35,36 Open Knowledge Map (openknowledgemaps.org) is another bibliography visualization tool that provides image clusters of similar papers.37",
+      "text": "Infographics can also be a reference for bibliography analytics. With the growing numbers of articles published daily, it is becoming progressively more challenging to keep up with the output. Research papers can be compared and arranged in a visual network following their citation, contradicting, and supporting concepts.34 Such aids are a feature of Connected Papers (connectedpapers.com) and in software coding tools such as VosViewer (www.vosviewer.com).35,36 Open Knowledge Map (openknowledgemaps.org) is another bibliography visualization tool that provides image clusters of similar papers.37"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 193.53680419921875,
+            "t": 184.91680908203125,
+            "r": 353.9432067871094,
+            "b": 175.49200439453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "FACILITATING FEEDBACK",
+      "text": "FACILITATING FEEDBACK",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 192.3889923095703,
+            "t": 156.4254150390625,
+            "r": 547.1552124023438,
+            "b": 71.53489685058594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            568
+          ]
+        }
+      ],
+      "orig": "An infographic can be 'tested' on a small group of people for initial feedback and evaluation. Dependent on the target audience, infographics could be shared more broadly through social media.38 , 39 Subsequent feedback can be collated and incorporated within future iterations of the infographic. Where new information comes to light surrounding the topic, the infographic may need revision and modification. It is essential to assess and review the target audience's response and interaction with the infographic, to facilitate optimal communication and education.39",
+      "text": "An infographic can be 'tested' on a small group of people for initial feedback and evaluation. Dependent on the target audience, infographics could be shared more broadly through social media.38 , 39 Subsequent feedback can be collated and incorporated within future iterations of the infographic. Where new information comes to light surrounding the topic, the infographic may need revision and modification. It is essential to assess and review the target audience's response and interaction with the infographic, to facilitate optimal communication and education.39"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 43.194698333740234,
+            "t": 46.98870086669922,
+            "r": 100.34379577636719,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "https://jkms.org",
+      "text": "https://jkms.org"
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 192.0135955810547,
+            "t": 46.98870086669922,
+            "r": 341.90679931640625,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "https://doi.org/10.3346/jkms.2022.37.e214",
+      "text": "https://doi.org/10.3346/jkms.2022.37.e214"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 539.0031127929688,
+            "t": 46.94329833984375,
+            "r": 550.8740844726562,
+            "b": 39.10429763793945,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "4/7",
+      "text": "4/7"
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.216590881347656,
+            "t": 738.5307006835938,
+            "r": 127.56456756591797,
+            "b": 730.5116577148438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Designing Infographics",
+      "text": "Designing Infographics"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 192.98239135742188,
+            "t": 704.9321899414062,
+            "r": 278.3291931152344,
+            "b": 695.4920043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "CONCLUSION",
+      "text": "CONCLUSION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 192.54100036621094,
+            "t": 676.4253540039062,
+            "r": 551.2211303710938,
+            "b": 563.536865234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            794
+          ]
+        }
+      ],
+      "orig": "Infographics are rapidly gaining popularity as a mode of dissemination of information for science. It is crucial for researchers, scientists, and clinicians to know the principles and impact of design as a form of health communication. Due to the rise of social media, we need to be more discerning regarding the visual material we produce, disseminate and encounter. Infographics can be formulated by members of the research team with support from graphic designers if time and funding allow. Feedback from colleagues and 'test' members of the target audience can be crucial to check comprehensibility. Finally, while technology may afford more accessible means to create elaborate infographics, it is essential to ensure critical messages remain coherent and enriching to the target audience.",
+      "text": "Infographics are rapidly gaining popularity as a mode of dissemination of information for science. It is crucial for researchers, scientists, and clinicians to know the principles and impact of design as a form of health communication. Due to the rise of social media, we need to be more discerning regarding the visual material we produce, disseminate and encounter. Infographics can be formulated by members of the research team with support from graphic designers if time and funding allow. Feedback from colleagues and 'test' members of the target audience can be crucial to check comprehensibility. Finally, while technology may afford more accessible means to create elaborate infographics, it is essential to ensure critical messages remain coherent and enriching to the target audience."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 193.53671264648438,
+            "t": 535.9321899414062,
+            "r": 276.80450439453125,
+            "b": 526.4920043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "REFERENCES",
+      "text": "REFERENCES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 197.2783966064453,
+            "t": 506.76690673828125,
+            "r": 523.7462768554688,
+            "b": 479.2548828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            205
+          ]
+        }
+      ],
+      "orig": "1. Huang S, Martin LJ, Yeh CH, Chin A, Murray H, Sanderson WB, et al. The effect of an infographic promotion on research dissemination and readership: a randomized controlled trial. CJEM 2018;20(6):826-33.",
+      "text": "Huang S, Martin LJ, Yeh CH, Chin A, Murray H, Sanderson WB, et al. The effect of an infographic promotion on research dissemination and readership: a randomized controlled trial. CJEM 2018;20(6):826-33.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 209.90328979492188,
+            "t": 475.74688720703125,
+            "r": 269.45928955078125,
+            "b": 469.6568908691406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "PUBMED | CROSSREF",
+      "text": "PUBMED | CROSSREF"
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 196.5742950439453,
+            "t": 464.76690673828125,
+            "r": 545.9519653320312,
+            "b": 437.6568908691406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            217
+          ]
+        }
+      ],
+      "orig": "2. Oska S, Lerma E, Topf J. A picture is worth a thousand views: a triple crossover trial of visual abstracts to examine their impact on research dissemination. J Med Internet Res 2020;22(12):e22327. PUBMED | CROSSREF",
+      "text": "Oska S, Lerma E, Topf J. A picture is worth a thousand views: a triple crossover trial of visual abstracts to examine their impact on research dissemination. J Med Internet Res 2020;22(12):e22327. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 196.7982940673828,
+            "t": 432.76690673828125,
+            "r": 543.2445678710938,
+            "b": 405.6568908691406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "3. Joshi M, Gupta L. Preparing infographics for post-publication promotion of research on social media. J Korean Med Sci 2021;36(5):e41. PUBMED | CROSSREF",
+      "text": "Joshi M, Gupta L. Preparing infographics for post-publication promotion of research on social media. J Korean Med Sci 2021;36(5):e41. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 196.414306640625,
+            "t": 400.76690673828125,
+            "r": 545.3126831054688,
+            "b": 383.2548828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            137
+          ]
+        }
+      ],
+      "orig": "4. Zimba O, Radchenko O, Strilchuk L. Social media for research, education and practice in rheumatology. Rheumatol Int 2020;40(2):183-90.",
+      "text": "Zimba O, Radchenko O, Strilchuk L. Social media for research, education and practice in rheumatology. Rheumatol Int 2020;40(2):183-90.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 209.90328979492188,
+            "t": 379.74688720703125,
+            "r": 269.45928955078125,
+            "b": 373.6568908691406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "PUBMED | CROSSREF",
+      "text": "PUBMED | CROSSREF"
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 196.76638793945312,
+            "t": 368.76690673828125,
+            "r": 551.3591918945312,
+            "b": 331.6568908691406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            307
+          ]
+        }
+      ],
+      "orig": "5. Applequist J, Burroughs C, Ramirez A Jr, Merkel PA, Rothenberg ME, Trapnell B, et al. A novel approach to conducting clinical trials in the community setting: utilizing patient-driven platforms and social media to drive web-based patient recruitment. BMC Med Res Methodol 2020;20(1):58. PUBMED | CROSSREF",
+      "text": "Applequist J, Burroughs C, Ramirez A Jr, Merkel PA, Rothenberg ME, Trapnell B, et al. A novel approach to conducting clinical trials in the community setting: utilizing patient-driven platforms and social media to drive web-based patient recruitment. BMC Med Res Methodol 2020;20(1):58. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 196.63839721679688,
+            "t": 326.76690673828125,
+            "r": 552.0317993164062,
+            "b": 289.6568908691406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            302
+          ]
+        }
+      ],
+      "orig": "6. Salvy SJ, Carandang K, Vigen CL, Concha-Chavez A, Sequeira PA, Blanchard J, et al. Effectiveness of social media (Facebook), targeted mailing, and in-person solicitation for the recruitment of young adult in a diabetes self-management clinical trial. Clin Trials 2020;17(6):664-74. PUBMED | CROSSREF",
+      "text": "Salvy SJ, Carandang K, Vigen CL, Concha-Chavez A, Sequeira PA, Blanchard J, et al. Effectiveness of social media (Facebook), targeted mailing, and in-person solicitation for the recruitment of young adult in a diabetes self-management clinical trial. Clin Trials 2020;17(6):664-74. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 197.69430541992188,
+            "t": 284.76690673828125,
+            "r": 540.5440063476562,
+            "b": 247.6569061279297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            286
+          ]
+        }
+      ],
+      "orig": "7. Shadyab AH, LaCroix AZ, Feldman HH, van Dyck CH, Okonkwo OC, Tam SP, et al. Recruitment of a multi-site randomized controlled trial of aerobic exercise for older adults with amnestic mild cognitive impairment: the EXERT trial. Alzheimers Dement 2021;17(11):1808-17. PUBMED | CROSSREF",
+      "text": "Shadyab AH, LaCroix AZ, Feldman HH, van Dyck CH, Okonkwo OC, Tam SP, et al. Recruitment of a multi-site randomized controlled trial of aerobic exercise for older adults with amnestic mild cognitive impairment: the EXERT trial. Alzheimers Dement 2021;17(11):1808-17. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 196.76629638671875,
+            "t": 242.76690673828125,
+            "r": 526.5286865234375,
+            "b": 215.6569061279297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            171
+          ]
+        }
+      ],
+      "orig": "8. Hughes AJ, McQuail P, Keogh P, Synnott K. Infographics improve comprehension and recall at the orthopedic journal club. J Surg Educ 2021;78(4):1345-9. PUBMED | CROSSREF",
+      "text": "Hughes AJ, McQuail P, Keogh P, Synnott K. Infographics improve comprehension and recall at the orthopedic journal club. J Surg Educ 2021;78(4):1345-9. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 196.6063995361328,
+            "t": 210.76690673828125,
+            "r": 546.0806884765625,
+            "b": 183.6569061279297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "9. Shanks JD, Izumi B, Sun C, Martin A, Byker Shanks C. Teaching undergraduate students to visualize and communicate public health data with infographics. Front Public Health 2017;5:315. PUBMED | CROSSREF",
+      "text": "Shanks JD, Izumi B, Sun C, Martin A, Byker Shanks C. Teaching undergraduate students to visualize and communicate public health data with infographics. Front Public Health 2017;5:315. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 193.08639526367188,
+            "t": 178.76690673828125,
+            "r": 534.4966430664062,
+            "b": 151.6569061279297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "10. Carmody S, Ahmad I, Gouttebarge V, Malhotra A, Glover D, Massey A. Infographic. Football-specific strategies to reduce COVID-19 transmission. Br J Sports Med 2020;54(22):1362-4. PUBMED | CROSSREF",
+      "text": "Carmody S, Ahmad I, Gouttebarge V, Malhotra A, Glover D, Massey A. Infographic. Football-specific strategies to reduce COVID-19 transmission. Br J Sports Med 2020;54(22):1362-4. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 194.01449584960938,
+            "t": 146.76690673828125,
+            "r": 551.8566284179688,
+            "b": 120.993896484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            211
+          ]
+        }
+      ],
+      "orig": "11. Bakhtiar R, Hilda H, Duma K, Yudia RC. Relationship between understanding of COVID-19's infographics and the efforts to prevent COVID-19 transmission. J Community Empowerment Health 2020;3(2):67-76. CROSSREF",
+      "text": "Bakhtiar R, Hilda H, Duma K, Yudia RC. Relationship between understanding of COVID-19's infographics and the efforts to prevent COVID-19 transmission. J Community Empowerment Health 2020;3(2):67-76. CROSSREF",
+      "enumerated": true,
+      "marker": "11."
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/groups/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 193.40640258789062,
+            "t": 114.76689910888672,
+            "r": 521.8901977539062,
+            "b": 77.65689849853516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            307
+          ]
+        }
+      ],
+      "orig": "12. Egan M, Acharya A, Sounderajah V, Xu Y, Mottershaw A, Phillips R, et al. Evaluating the effect of infographics on public recall, sentiment and willingness to use face masks during the COVID-19 pandemic: a randomised internet-based questionnaire study. BMC Public Health 2021;21(1):367. PUBMED | CROSSREF",
+      "text": "Egan M, Acharya A, Sounderajah V, Xu Y, Mottershaw A, Phillips R, et al. Evaluating the effect of infographics on public recall, sentiment and willingness to use face masks during the COVID-19 pandemic: a randomised internet-based questionnaire study. BMC Public Health 2021;21(1):367. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 43.194698333740234,
+            "t": 46.98870086669922,
+            "r": 100.34379577636719,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "https://jkms.org",
+      "text": "https://jkms.org"
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 192.0135955810547,
+            "t": 46.98870086669922,
+            "r": 341.90679931640625,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "https://doi.org/10.3346/jkms.2022.37.e214",
+      "text": "https://doi.org/10.3346/jkms.2022.37.e214"
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 539.5084228515625,
+            "t": 46.98870086669922,
+            "r": 550.8754272460938,
+            "b": 39.14970016479492,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "5/7",
+      "text": "5/7"
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 43.216590881347656,
+            "t": 738.5307006835938,
+            "r": 127.56456756591797,
+            "b": 730.5116577148438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Designing Infographics",
+      "text": "Designing Infographics"
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.6623992919922,
+            "t": 701.749755859375,
+            "r": 543.40869140625,
+            "b": 675.9767456054688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "13. Jerome C, Ting SH, Podin Y. Getting the message across: examining Malaysia's COVID-19 public service announcement (PSA) infographics. Int J Bus Soc 2021;22(1):194-212. CROSSREF",
+      "text": "Jerome C, Ting SH, Podin Y. Getting the message across: examining Malaysia's COVID-19 public service announcement (PSA) infographics. Int J Bus Soc 2021;22(1):194-212. CROSSREF",
+      "enumerated": true,
+      "marker": "13."
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.5023956298828,
+            "t": 669.749755859375,
+            "r": 539.8079223632812,
+            "b": 643.9767456054688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "14. Domgaard S, Park M. Combating misinformation: the effects of infographics in verifying false vaccine news. Health Educ J 2021;80(8):974-86. CROSSREF",
+      "text": "Domgaard S, Park M. Combating misinformation: the effects of infographics in verifying false vaccine news. Health Educ J 2021;80(8):974-86. CROSSREF",
+      "enumerated": true,
+      "marker": "14."
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.59849548339844,
+            "t": 637.9737548828125,
+            "r": 537.16796875,
+            "b": 600.6397705078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            279
+          ]
+        }
+      ],
+      "orig": "15. Li N, Molder AL. Can scientists use simple infographics to convince? Effects of the \"flatten the curve\" charts on perceptions of and behavioral intentions toward social distancing measures during the COVID-19 pandemic. Public Underst Sci 2021;30(7):898-912. PUBMED | CROSSREF",
+      "text": "Li N, Molder AL. Can scientists use simple infographics to convince? Effects of the \"flatten the curve\" charts on perceptions of and behavioral intentions toward social distancing measures during the COVID-19 pandemic. Public Underst Sci 2021;30(7):898-912. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "15."
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.43850708007812,
+            "t": 595.749755859375,
+            "r": 550.912109375,
+            "b": 558.6397705078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            282
+          ]
+        }
+      ],
+      "orig": "16. Arcia A, Suero-Tejeda N, Bales ME, Merrill JA, Yoon S, Woollen J, et al. Sometimes more is more: iterative participatory design of infographics for engagement of community members with varying levels of health literacy. J Am Med Inform Assoc 2016;23(1):174-83. PUBMED | CROSSREF",
+      "text": "Arcia A, Suero-Tejeda N, Bales ME, Merrill JA, Yoon S, Woollen J, et al. Sometimes more is more: iterative participatory design of infographics for engagement of community members with varying levels of health literacy. J Am Med Inform Assoc 2016;23(1):174-83. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "16."
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 194.62229919433594,
+            "t": 553.749755859375,
+            "r": 551.508544921875,
+            "b": 527.9767456054688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            137
+          ]
+        }
+      ],
+      "orig": "17. McCrorie AD, Donnelly C, McGlade KJ. Infographics: healthcare communication for the digital age. Ulster Med J 2016;85(2):71-5. PUBMED",
+      "text": "McCrorie AD, Donnelly C, McGlade KJ. Infographics: healthcare communication for the digital age. Ulster Med J 2016;85(2):71-5. PUBMED",
+      "enumerated": true,
+      "marker": "17."
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.43850708007812,
+            "t": 521.749755859375,
+            "r": 550.5615844726562,
+            "b": 505.9657897949219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "18. Creative Commons. What we do. https://creativecommons.org/about. Updated 2021. Accessed October 1, 2021.",
+      "text": "Creative Commons. What we do. https://creativecommons.org/about. Updated 2021. Accessed October 1, 2021.",
+      "enumerated": true,
+      "marker": "18."
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.406494140625,
+            "t": 498.74981689453125,
+            "r": 552.1937255859375,
+            "b": 471.6398010253906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            199
+          ]
+        }
+      ],
+      "orig": "19. Dorneles LL, Martins VD, Morelato CS, Goes FD, Fonseca LM, Camargo RA. Development of an animated infographic on permanent health education. Rev Lat Am Enfermagem 2020;28:e3311. PUBMED | CROSSREF",
+      "text": "Dorneles LL, Martins VD, Morelato CS, Goes FD, Fonseca LM, Camargo RA. Development of an animated infographic on permanent health education. Rev Lat Am Enfermagem 2020;28:e3311. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "19."
+    },
+    {
+      "self_ref": "#/texts/143",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.44699096679688,
+            "t": 466.74981689453125,
+            "r": 539.36279296875,
+            "b": 439.6398010253906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "20. Gupta R, Joshi M, Gupta L. An integrated guide for designing video abstracts using freeware and their emerging role in academic research advancement. J Korean Med Sci 2021;36(9):e66. PUBMED | CROSSREF",
+      "text": "Gupta R, Joshi M, Gupta L. An integrated guide for designing video abstracts using freeware and their emerging role in academic research advancement. J Korean Med Sci 2021;36(9):e66. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "20."
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.31048583984375,
+            "t": 434.74981689453125,
+            "r": 534.7528686523438,
+            "b": 417.23779296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            126
+          ]
+        }
+      ],
+      "orig": "21. Stones C, Gent M. Principles of Public Health Infographic Design. Leeds: University of Leeds, Public Health England; 2015.",
+      "text": "Stones C, Gent M. Principles of Public Health Infographic Design. Leeds: University of Leeds, Public Health England; 2015.",
+      "enumerated": true,
+      "marker": "21."
+    },
+    {
+      "self_ref": "#/texts/145",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.702392578125,
+            "t": 411.74981689453125,
+            "r": 538.4638671875,
+            "b": 384.6398010253906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            179
+          ]
+        }
+      ],
+      "orig": "22. Khoury CK, Kisel Y, Kantar M, Barber E, Ricciardi V, Klirs C, et al. Science-graphic art partnerships to increase research impact. Commun Biol 2019;2(1):295. PUBMED | CROSSREF",
+      "text": "Khoury CK, Kisel Y, Kantar M, Barber E, Ricciardi V, Klirs C, et al. Science-graphic art partnerships to increase research impact. Commun Biol 2019;2(1):295. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "22."
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.8304901123047,
+            "t": 379.74981689453125,
+            "r": 494.49835205078125,
+            "b": 372.33380126953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            88
+          ]
+        }
+      ],
+      "orig": "23. Canva. About Canva. https://canva.com/about. Updated 2021. Accessed October 1, 2021.",
+      "text": "Canva. About Canva. https://canva.com/about. Updated 2021. Accessed October 1, 2021.",
+      "enumerated": true,
+      "marker": "23."
+    },
+    {
+      "self_ref": "#/texts/147",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.76638793945312,
+            "t": 366.74981689453125,
+            "r": 550.146484375,
+            "b": 350.9657897949219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": "24. Adobe Creative Cloud. Adobe express. https://www.adobe.com/express/. Updated 2022. Accessed April 4, 2022.",
+      "text": "Adobe Creative Cloud. Adobe express. https://www.adobe.com/express/. Updated 2022. Accessed April 4, 2022.",
+      "enumerated": true,
+      "marker": "24."
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.76649475097656,
+            "t": 343.74981689453125,
+            "r": 530.1463623046875,
+            "b": 326.6217956542969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": "25. Venngage. Venngage masterclass. https://venngage.com/blog/masterclass. Updated 2021. Accessed October 1, 2021.",
+      "text": "Venngage. Venngage masterclass. https://venngage.com/blog/masterclass. Updated 2021. Accessed October 1, 2021.",
+      "enumerated": true,
+      "marker": "25."
+    },
+    {
+      "self_ref": "#/texts/149",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.6704864501953,
+            "t": 320.74981689453125,
+            "r": 552.0321044921875,
+            "b": 293.33380126953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            264
+          ]
+        }
+      ],
+      "orig": "26. Microsoft. Powerpoint AI gets an upgrade and surpasses major milestone of 1 billion slides. https://www. microsoft.com/en-us/microsoft-365/blog/2019/06/18/powerpoint-ai-upgrade-designer-major-milestone-1billion-slides/. Updated 2019. Accessed October 14, 2021.",
+      "text": "Microsoft. Powerpoint AI gets an upgrade and surpasses major milestone of 1 billion slides. https://www. microsoft.com/en-us/microsoft-365/blog/2019/06/18/powerpoint-ai-upgrade-designer-major-milestone-1billion-slides/. Updated 2019. Accessed October 14, 2021.",
+      "enumerated": true,
+      "marker": "26."
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.75839233398438,
+            "t": 287.74981689453125,
+            "r": 547.5570068359375,
+            "b": 260.6398010253906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            227
+          ]
+        }
+      ],
+      "orig": "27. Cui W, Zhang X, Wang Y, Huang H, Chen B, Fang L, et al. Text-to-Viz: automatic generation of infographics from proportion-related natural language statements. IEEE Trans Vis Comput Graph 2020;26(1):906-16. PUBMED | CROSSREF",
+      "text": "Cui W, Zhang X, Wang Y, Huang H, Chen B, Fang L, et al. Text-to-Viz: automatic generation of infographics from proportion-related natural language statements. IEEE Trans Vis Comput Graph 2020;26(1):906-16. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "27."
+    },
+    {
+      "self_ref": "#/texts/151",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.73439025878906,
+            "t": 255.7498016357422,
+            "r": 527.6168212890625,
+            "b": 238.33380126953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "28. Google. Google visualization API reference. https://developers.google.com/chart/interactive/docs/ reference. Updated 2021. Accessed September 27, 2021.",
+      "text": "Google. Google visualization API reference. https://developers.google.com/chart/interactive/docs/ reference. Updated 2021. Accessed September 27, 2021.",
+      "enumerated": true,
+      "marker": "28."
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.6064910888672,
+            "t": 232.7498016357422,
+            "r": 539.297607421875,
+            "b": 205.63980102539062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ],
+      "orig": "29. Wang Y, Sun Z, Zhang H, Cui W, Xu K, Ma X, et al. DataShot: automatic generation of fact sheets from tabular data. IEEE Trans Vis Comput Graph 2020;26(1):895-905. PUBMED | CROSSREF",
+      "text": "Wang Y, Sun Z, Zhang H, Cui W, Xu K, Ma X, et al. DataShot: automatic generation of fact sheets from tabular data. IEEE Trans Vis Comput Graph 2020;26(1):895-905. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "29."
+    },
+    {
+      "self_ref": "#/texts/153",
+      "parent": {
+        "$ref": "#/groups/6"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.44650268554688,
+            "t": 200.7498016357422,
+            "r": 546.3487548828125,
+            "b": 183.23780822753906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "30. Jahan S, Al-Saigul AM, Alharbi AM. Assessment of health education infographics in Saudi Arabia. Health Educ J 2021;80(1):3-15.",
+      "text": "Jahan S, Al-Saigul AM, Alharbi AM. Assessment of health education infographics in Saudi Arabia. Health Educ J 2021;80(1):3-15.",
+      "enumerated": true,
+      "marker": "30."
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 209.6444091796875,
+            "t": 179.26780700683594,
+            "r": 239.54840087890625,
+            "b": 174.976806640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "CROSSREF",
+      "text": "CROSSREF"
+    },
+    {
+      "self_ref": "#/texts/155",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.598388671875,
+            "t": 168.7498016357422,
+            "r": 531.968017578125,
+            "b": 131.63980102539062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            261
+          ]
+        }
+      ],
+      "orig": "31. Kunze KN, Vadhera A, Purbey R, Singh H, Kazarian GS, Chahla J. Infographics are more effective at increasing social media attention in comparison with original research articles: an altmetrics-based analysis. Arthroscopy 2021;37(8):2591-7. PUBMED | CROSSREF",
+      "text": "Kunze KN, Vadhera A, Purbey R, Singh H, Kazarian GS, Chahla J. Infographics are more effective at increasing social media attention in comparison with original research articles: an altmetrics-based analysis. Arthroscopy 2021;37(8):2591-7. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "31."
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.0543975830078,
+            "t": 126.74980163574219,
+            "r": 532.226318359375,
+            "b": 99.63980102539062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            167
+          ]
+        }
+      ],
+      "orig": "32. Assadi R, Gasparyan AY. Editing, publishing, and aggregating video articles: Do we need a scholarly approach? J Korean Med Sci 2015;30(9):1211-2. PUBMED | CROSSREF",
+      "text": "Assadi R, Gasparyan AY. Editing, publishing, and aggregating video articles: Do we need a scholarly approach? J Korean Med Sci 2015;30(9):1211-2. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "32."
+    },
+    {
+      "self_ref": "#/texts/157",
+      "parent": {
+        "$ref": "#/groups/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 193.18238830566406,
+            "t": 94.74980163574219,
+            "r": 550.945556640625,
+            "b": 67.63980102539062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            208
+          ]
+        }
+      ],
+      "orig": "33. Wang AT, Sandhu NP, Wittich CM, Mandrekar JN, Beckman TJ. Using social media to improve continuing medical education: a survey of course participants. Mayo Clin Proc 2012;87(12):1162-70. PUBMED | CROSSREF",
+      "text": "Wang AT, Sandhu NP, Wittich CM, Mandrekar JN, Beckman TJ. Using social media to improve continuing medical education: a survey of course participants. Mayo Clin Proc 2012;87(12):1162-70. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "33."
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 43.194698333740234,
+            "t": 46.98870086669922,
+            "r": 100.34379577636719,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "https://jkms.org",
+      "text": "https://jkms.org"
+    },
+    {
+      "self_ref": "#/texts/159",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 192.0135955810547,
+            "t": 46.98870086669922,
+            "r": 341.90679931640625,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "https://doi.org/10.3346/jkms.2022.37.e214",
+      "text": "https://doi.org/10.3346/jkms.2022.37.e214"
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 539.255126953125,
+            "t": 46.94329833984375,
+            "r": 550.8741455078125,
+            "b": 39.10429763793945,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "6/7",
+      "text": "6/7"
+    },
+    {
+      "self_ref": "#/texts/161",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 43.216590881347656,
+            "t": 738.5307006835938,
+            "r": 127.56456756591797,
+            "b": 730.5116577148438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Designing Infographics",
+      "text": "Designing Infographics"
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 192.73439025878906,
+            "t": 701.749755859375,
+            "r": 551.3571166992188,
+            "b": 674.6397705078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            145
+          ]
+        }
+      ],
+      "orig": "34. Saud S, Traboco L, Gupta L. Harnessing the true power of altmetrics to track engagement. J Korean Med Sci 2021;36(48):e330. PUBMED | CROSSREF",
+      "text": "Saud S, Traboco L, Gupta L. Harnessing the true power of altmetrics to track engagement. J Korean Med Sci 2021;36(48):e330. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "34."
+    },
+    {
+      "self_ref": "#/texts/163",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 193.11849975585938,
+            "t": 669.749755859375,
+            "r": 548.1935424804688,
+            "b": 662.3338012695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "35. VOSviewer. Welcome to VOSviewer. https://vosviewer.com. Updated 2021. Accessed September 25, 2021.",
+      "text": "VOSviewer. Welcome to VOSviewer. https://vosviewer.com. Updated 2021. Accessed September 25, 2021.",
+      "enumerated": true,
+      "marker": "35."
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 192.8304901123047,
+            "t": 656.749755859375,
+            "r": 549.6336669921875,
+            "b": 640.9657592773438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "36. Connected Papers. About. https://www.connectedpapers.com/about. Updated 2021. Accessed October 2, 2021.",
+      "text": "Connected Papers. About. https://www.connectedpapers.com/about. Updated 2021. Accessed October 2, 2021.",
+      "enumerated": true,
+      "marker": "36."
+    },
+    {
+      "self_ref": "#/texts/165",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 194.1741943359375,
+            "t": 633.749755859375,
+            "r": 522.786376953125,
+            "b": 616.3338012695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "37. Open Knowledge Maps. About. https://openknowledgemaps.org/about. Updated 2021. Accessed September 24, 2021.",
+      "text": "Open Knowledge Maps. About. https://openknowledgemaps.org/about. Updated 2021. Accessed September 24, 2021.",
+      "enumerated": true,
+      "marker": "37."
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 192.95838928222656,
+            "t": 610.749755859375,
+            "r": 550.612548828125,
+            "b": 583.6397705078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            160
+          ]
+        }
+      ],
+      "orig": "38. Hamaguchi R, Nematollahi S, Minter DJ. Picture of a pandemic: visual aids in the COVID-19 crisis. J Public Health (Oxf ) 2020;42(3):483-5. PUBMED | CROSSREF",
+      "text": "Hamaguchi R, Nematollahi S, Minter DJ. Picture of a pandemic: visual aids in the COVID-19 crisis. J Public Health (Oxf ) 2020;42(3):483-5. PUBMED | CROSSREF",
+      "enumerated": true,
+      "marker": "38."
+    },
+    {
+      "self_ref": "#/texts/167",
+      "parent": {
+        "$ref": "#/groups/8"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 192.9263916015625,
+            "t": 578.749755859375,
+            "r": 545.0364379882812,
+            "b": 551.23779296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "39. Eysenbach G. Infodemiology and infoveillance: framework for an emerging set of public health informatics methods to analyze search, communication and publication behavior on the Internet. J Med Internet Res 2009;11(1):e11.",
+      "text": "Eysenbach G. Infodemiology and infoveillance: framework for an emerging set of public health informatics methods to analyze search, communication and publication behavior on the Internet. J Med Internet Res 2009;11(1):e11.",
+      "enumerated": true,
+      "marker": "39."
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 209.9033966064453,
+            "t": 547.7297973632812,
+            "r": 269.45941162109375,
+            "b": 541.6397705078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "PUBMED | CROSSREF",
+      "text": "PUBMED | CROSSREF"
+    },
+    {
+      "self_ref": "#/texts/169",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 43.194698333740234,
+            "t": 46.98870086669922,
+            "r": 100.34379577636719,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "https://jkms.org",
+      "text": "https://jkms.org"
+    },
+    {
+      "self_ref": "#/texts/170",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 192.0135955810547,
+            "t": 46.98870086669922,
+            "r": 341.90679931640625,
+            "b": 39.077701568603516,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "https://doi.org/10.3346/jkms.2022.37.e214",
+      "text": "https://doi.org/10.3346/jkms.2022.37.e214"
+    },
+    {
+      "self_ref": "#/texts/171",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 540.06640625,
+            "t": 46.98870086669922,
+            "r": 550.8753662109375,
+            "b": 39.14970016479492,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "7/7",
+      "text": "7/7"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 41.49687957763672,
+            "t": 671.4603271484375,
+            "r": 110.97513580322266,
+            "b": 656.4799957275391,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 41.537418365478516,
+            "t": 558.6375579833984,
+            "r": 111.2399673461914,
+            "b": 543.814697265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.10904693603516,
+            "t": 262.681884765625,
+            "r": 89.86698150634766,
+            "b": 252.48602294921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 91.5832290649414,
+            "t": 241.021484375,
+            "r": 101.143310546875,
+            "b": 230.17510986328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 92.80586242675781,
+            "t": 218.271484375,
+            "r": 102.31224060058594,
+            "b": 209.248291015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 79.65214538574219,
+            "t": 196.66949462890625,
+            "r": 89.84778594970703,
+            "b": 186.9000244140625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 468.2931213378906,
+            "t": 766.8685455322266,
+            "r": 552.2871704101562,
+            "b": 732.3761215209961,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 249.0398712158203,
+            "t": 582.3565521240234,
+            "r": 262.51904296875,
+            "b": 572.3151397705078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 532.2230224609375,
+            "t": 583.0800628662109,
+            "r": 552.6156616210938,
+            "b": 572.2489318847656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 468.2874755859375,
+            "t": 766.5202236175537,
+            "r": 552.417724609375,
+            "b": 732.3025817871094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 468.37335205078125,
+            "t": 766.2125358581543,
+            "r": 552.2249755859375,
+            "b": 732.5263481140137,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        },
+        {
+          "$ref": "#/texts/66"
+        },
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 191.89561462402344,
+            "t": 704.1670837402344,
+            "r": 518.4308471679688,
+            "b": 279.90692138671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "$ref": "#/texts/52"
+        }
+      ],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 468.27923583984375,
+            "t": 766.3709239959717,
+            "r": 552.3577270507812,
+            "b": 732.3837432861328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 468.4281005859375,
+            "t": 766.2491416931152,
+            "r": 552.3773803710938,
+            "b": 732.4947166442871,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 468.5178527832031,
+            "t": 766.2293186187744,
+            "r": 552.3267822265625,
+            "b": 732.5256652832031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 7,
+          "bbox": {
+            "l": 468.5860900878906,
+            "t": 766.2389144897461,
+            "r": 552.2718505859375,
+            "b": 732.5258865356445,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 6
+    },
+    "7": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      },
+      "page_no": 7
+    }
+  }
+}

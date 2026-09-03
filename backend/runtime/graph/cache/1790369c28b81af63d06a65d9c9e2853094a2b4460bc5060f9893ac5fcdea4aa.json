@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0",
+  "content_hash": "1777afc4e8bd0899f42a3155f00560473127126a00bb34792621aa6ba9d8c95f",
+  "entities": [
+    {
+      "canonical_name": "出血性疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "出血性疾病",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_canonical_not_surface",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_canonical_not_surface",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

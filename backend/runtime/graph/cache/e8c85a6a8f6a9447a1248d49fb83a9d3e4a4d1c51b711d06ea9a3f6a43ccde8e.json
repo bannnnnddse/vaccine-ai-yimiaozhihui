@@ -1,0 +1,74 @@
+{
+  "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b",
+  "content_hash": "bb0b9539fbb599d6b778d559efdf7b596b462c0359fd543c9cede220d7b1b182",
+  "entities": [
+    {
+      "canonical_name": "M72",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "M72",
+      "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b"
+    },
+    {
+      "canonical_name": "active pulmonary tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "active pulmonary tuberculosis",
+      "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b"
+    },
+    {
+      "canonical_name": "M. tuberculosis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "M. tuberculosis",
+      "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b"
+    },
+    {
+      "canonical_name": "HIV-negative adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-negative adults",
+      "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b"
+    },
+    {
+      "canonical_name": "GamTBvac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GamTBvac",
+      "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b"
+    },
+    {
+      "canonical_name": "Ag85A",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Ag85A",
+      "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b"
+    },
+    {
+      "canonical_name": "ESAT6-CFP10",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ESAT6-CFP10",
+      "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b"
+    },
+    {
+      "canonical_name": "DEAE-dextran",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DEAE-dextran",
+      "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b"
+    },
+    {
+      "canonical_name": "CpG oligodeoxynucleotides",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CpG oligodeoxynucleotides",
+      "chunk_id": "chk_91485c5f9f686391f743dc2b4802860b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

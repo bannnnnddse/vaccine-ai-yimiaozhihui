@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ae7ced186dc882532295f0b2a3004552",
+  "content_hash": "4f84644dd47260dd4baddf96291b30ee5d8b31c55d9e2861ea2a423089f65b36",
+  "entities": [
+    {
+      "canonical_name": "SAE",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "SAE",
+      "chunk_id": "chk_ae7ced186dc882532295f0b2a3004552"
+    },
+    {
+      "canonical_name": "vaccine-hesitant people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccine-hesitant people",
+      "chunk_id": "chk_ae7ced186dc882532295f0b2a3004552"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

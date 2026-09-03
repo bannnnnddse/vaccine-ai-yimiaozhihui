@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_fc87a537559853baef14d46872b1e119",
+  "content_hash": "f08ca313174fe470b54c42ecbd81a08fddca1ef5f3765750cfd1751af483fe6f",
+  "entities": [
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_fc87a537559853baef14d46872b1e119"
+    },
+    {
+      "canonical_name": "preschool children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "preschool children",
+      "chunk_id": "chk_fc87a537559853baef14d46872b1e119"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_fc87a537559853baef14d46872b1e119"
+    },
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_fc87a537559853baef14d46872b1e119"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

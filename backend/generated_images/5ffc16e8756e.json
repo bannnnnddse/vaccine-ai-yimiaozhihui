@@ -1,0 +1,310 @@
+{
+  "job_id": "5ffc16e8756e",
+  "prompt": "生成一张免疫机制对抗病毒时的过程图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "virus",
+      "antigen"
+    ],
+    "scene_direction": "16:9横版科学示意图。画面左侧为游离的病毒颗粒，中间为被感染的宿主细胞，右侧为激活的免疫细胞（如T细胞或巨噬细胞）。通过箭头清晰展示从病毒感染到免疫清除的线性因果流程。背景简洁，无多余装饰，突出分子与细胞的相互作用路径。",
+    "optimized_chinese_prompt": "Scientific mechanism diagram, 16:9 aspect ratio. Left side: free virus particles. Center: host cell showing viral entry and replication. Right side: activated immune effector cells. Clear directional arrows connecting the stages: viral attachment, cellular infection, immune recognition, and pathogen clearance. Clean white background, high contrast, educational style, precise labeling lines.",
+    "chinese_labels": [
+      "病毒颗粒",
+      "宿主细胞",
+      "病毒入侵",
+      "抗原呈递",
+      "免疫识别",
+      "效应细胞",
+      "清除感染"
+    ],
+    "scientific_claims": [
+      "病毒通过表面蛋白特异性结合宿主细胞受体实现入侵。",
+      "感染细胞通过MHC分子将病毒抗原肽展示于细胞表面。",
+      "特异性免疫细胞识别抗原-MHC复合物并被激活。",
+      "激活的效应细胞通过释放细胞因子或直接杀伤作用清除受染细胞。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "病毒颗粒附着并进入宿主细胞"
+      },
+      {
+        "primary_relation": "宿主细胞内病毒复制并表达抗原"
+      },
+      {
+        "primary_relation": "免疫细胞识别抗原信号并聚集"
+      },
+      {
+        "primary_relation": "免疫效应机制导致病毒清除"
+      }
+    ],
+    "route_reason": "主题涉及病毒与免疫系统的相互作用，属于典型的细胞/病毒相关机制，符合cell_ip_scientific的使用条件。采用16:9横版以容纳完整的因果链条，确保科学关系的严谨性和完整性。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "virus",
+    "antigen"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "宿主细胞",
+    "效应细胞",
+    "过表面蛋白特异性结合宿主细胞",
+    "感染细胞",
+    "特异性免疫细胞",
+    "激活的效应细胞通过释放细胞",
+    "子或直接杀伤作用清除受染细胞",
+    "免疫细胞"
+  ],
+  "reference_assets": [
+    "canonical:virus",
+    "canonical:antigen"
+  ],
+  "reference_assets_actually_sent": [
+    "canonical:virus",
+    "canonical:antigen"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "virus",
+      "asset_id": "canonical:virus"
+    },
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n16:9横版科学示意图。画面左侧为游离的病毒颗粒，中间为被感染的宿主细胞，右侧为激活的免疫细胞（如T细胞或巨噬细胞）。通过箭头清晰展示从病毒感染到免疫清除的线性因果流程。背景简洁，无多余装饰，突出分子与细胞的相互作用路径。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 病毒颗粒附着并进入宿主细胞；2. 宿主细胞内病毒复制并表达抗原；3. 免疫细胞识别抗原信号并聚集；4. 免疫效应机制导致病毒清除\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：病毒颗粒、宿主细胞、病毒入侵、抗原呈递、免疫识别、效应细胞、清除感染\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是 病毒颗粒 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 图2是 抗原 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 本题命中的固定角色：病毒颗粒、抗原\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 病毒颗粒：青绿色多边形带圆刺，可带小盾牌\n- 抗原：紫色圆刺团，表情可警觉\n\n- 未收录的必要细胞：宿主细胞、效应细胞、过表面蛋白特异性结合宿主细胞、感染细胞、特异性免疫细胞、激活的效应细胞通过释放细胞、子或直接杀伤作用清除受染细胞、免疫细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "aspect_ratio": "16:9",
+  "image_id": "5ffc16e8756e-v0",
+  "trusted_image": "5ffc16e8756e-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "Image successfully visualizes the viral infection and immune clearance flowchart with correct step ordering and labels. However, there is a critical text rendering error: '抗原呈拽' appears instead of the required label '抗原呈递'. Additionally, the fixed character design for the virus particle (teal polygon) in the flowchart does not match the canonical reference image (which shows a spherical shape), violating IP consistency.",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "issue",
+        "evidence": "The purple antigen character in the flowchart (step 3) has a different geometric structure (irregular blob with spikes) compared to the canonical reference image (spherical with uniform round protrusions). The teal virus particle also differs from its canonical spherical form.",
+        "confidence": 0.95
+      },
+      "text_legibility": {
+        "status": "issue",
+        "evidence": "The text block at position [0.58, 0.64, 0.67, 0.66] reads '抗原呈拽' (the last character is clearly '拽' meaning drag/pull, not '递' meaning deliver/present). This is a hallucinated character that renders the scientific term incorrect.",
+        "confidence": 1.0
+      },
+      "layout_hierarchy": {
+        "status": "pass",
+        "evidence": "The horizontal left-to-right flow is clear, with arrows connecting the four stages. Labels are positioned directly above or below their corresponding visual elements.",
+        "confidence": 0.98
+      },
+      "brief_alignment": {
+        "status": "pass",
+        "evidence": "All required steps are present: Virus Particle -> Host Cell (Invasion) -> Antigen Presentation -> Effector Cell (Recognition/Clearance). The sequence matches the user's core causal chain.",
+        "confidence": 0.99
+      },
+      "causal_step_coverage": {
+        "status": "pass",
+        "evidence": "The diagram covers: 1. Virus attachment/entry, 2. Intracellular replication/antigen expression (implied by transition), 3. Immune recognition, 4. Clearance mechanism.",
+        "confidence": 0.95
+      },
+      "scientific_expression_risk": {
+        "status": "not_assessable",
+        "evidence": "While the flow is logically sound based on the prompt, the specific biological details (e.g., effector cell type) are stylized and not explicitly defined beyond 'Effector Cell', making detailed scientific verification difficult without external context.",
+        "confidence": 0.5
+      }
+    },
+    "blind_text_audit": {
+      "status": "clear",
+      "summary": "The image is a flowchart titled 'Viral Infection and Immune Clearance Flowchart'. It illustrates a four-step biological process: a virus particle invades a host cell, leading to antigen presentation, which triggers immune recognition by an effector cell to clear the infection.",
+      "text_blocks": [
+        {
+          "text": "病毒感染与免疫清除流程图",
+          "bbox": [
+            0.18,
+            0.19,
+            0.71,
+            0.23
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "病毒入侵",
+          "bbox": [
+            0.2,
+            0.5,
+            0.28,
+            0.52
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "病毒颗粒",
+          "bbox": [
+            0.06,
+            0.64,
+            0.16,
+            0.66
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "宿主细胞",
+          "bbox": [
+            0.32,
+            0.64,
+            0.41,
+            0.66
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "病毒入侵",
+          "bbox": [
+            0.45,
+            0.5,
+            0.53,
+            0.52
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "抗原呈拽",
+          "bbox": [
+            0.58,
+            0.64,
+            0.67,
+            0.66
+          ],
+          "confidence": 0.98
+        },
+        {
+          "text": "免疫识别",
+          "bbox": [
+            0.71,
+            0.5,
+            0.79,
+            0.52
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "清除感染",
+          "bbox": [
+            0.71,
+            0.57,
+            0.79,
+            0.59
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "效应细胞",
+          "bbox": [
+            0.84,
+            0.64,
+            0.94,
+            0.66
+          ],
+          "confidence": 0.99
+        }
+      ]
+    },
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "The label for the third step is rendered as '抗原呈拽' (Antigen Drag/Pull) instead of the correct scientific term '抗原呈递' (Antigen Presentation). The character '拽' is visually distinct and incorrect.",
+        "bbox": [
+          0.58,
+          0.64,
+          0.67,
+          0.66
+        ],
+        "observed_text": "抗原呈拽",
+        "replacement_text": "抗原呈递",
+        "confidence": 1.0,
+        "suggested_fix": "Regenerate the text layer for the third stage label to ensure the character '递' is used correctly.",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "style_inconsistency",
+        "severity": "medium",
+        "description": "The 'Virus Particle' (teal) and 'Antigen' (purple) characters in the flowchart do not match the canonical IP reference images provided. The flowchart virus is polyhedral, while the reference is spherical. The flowchart antigen is an irregular blob, while the reference is a structured sphere.",
+        "bbox": [
+          0.03,
+          0.43,
+          0.19,
+          0.62
+        ],
+        "observed_text": null,
+        "replacement_text": null,
+        "confidence": 0.95,
+        "suggested_fix": "Update the character assets in the flowchart to strictly match the 'canonical:virus' and 'canonical:antigen' reference images provided in the prompt.",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-31T08:11:12.748316+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "79d33572b3ef",
+  "trace_events": [
+    {
+      "id": "79d33572b3ef-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-31T08:11:12.748316Z"
+    },
+    {
+      "id": "79d33572b3ef-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：Scientific mechanism diagram, 16:9 aspect ratio. Left side: free virus particles. Center: host cell showing viral entry and replication. Right side: activated immune effector cell…",
+      "status": "completed",
+      "created_at": "2026-08-31T08:11:12.748316Z"
+    },
+    {
+      "id": "79d33572b3ef-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-31T08:11:18.774445Z"
+    },
+    {
+      "id": "79d33572b3ef-4",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "Image successfully visualizes the viral infection and immune clearance flowchart with correct step ordering and labels. However, there is a critical text rendering error: '抗原呈拽' appears instead of the required label '抗原呈递'. Additionally, th",
+      "status": "warning",
+      "created_at": "2026-08-31T08:11:33.273665Z"
+    },
+    {
+      "id": "79d33572b3ef-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-31T08:12:19.438562Z"
+    }
+  ],
+  "trace_history": []
+}

@@ -1,0 +1,45 @@
+{
+  "chunk_id": "0306e326d26de8de9b52029cc40adf03dec04e580e67553d8132419a8e73b8d2",
+  "content_hash": "e763081e96e3ade7dc6015e69899057c5856116d98de28f56edf983f588031a6",
+  "entities": [
+    {
+      "canonical_name": "CKD patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "CKD patients",
+      "chunk_id": "0306e326d26de8de9b52029cc40adf03dec04e580e67553d8132419a8e73b8d2"
+    },
+    {
+      "canonical_name": "immunosuppressive therapies",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "immunosuppressive therapies",
+      "chunk_id": "0306e326d26de8de9b52029cc40adf03dec04e580e67553d8132419a8e73b8d2"
+    },
+    {
+      "canonical_name": "infectious complications",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious complications",
+      "chunk_id": "0306e326d26de8de9b52029cc40adf03dec04e580e67553d8132419a8e73b8d2"
+    },
+    {
+      "canonical_name": "severe COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe COVID-19",
+      "chunk_id": "0306e326d26de8de9b52029cc40adf03dec04e580e67553d8132419a8e73b8d2"
+    },
+    {
+      "canonical_name": "cellular immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cellular immunity",
+      "chunk_id": "0306e326d26de8de9b52029cc40adf03dec04e580e67553d8132419a8e73b8d2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

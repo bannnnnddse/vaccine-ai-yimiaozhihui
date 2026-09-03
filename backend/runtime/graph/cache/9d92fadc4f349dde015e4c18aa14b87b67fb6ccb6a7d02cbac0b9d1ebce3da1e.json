@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_c43ced5d0abc0904c4cbc2ca2485689d",
+  "content_hash": "f82b0d094e613a41ee9ed6603b807e6e567159f79debf0b08650a63c1633b5ca",
+  "entities": [
+    {
+      "canonical_name": "chikungunya virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "chikungunya virus",
+      "chunk_id": "chk_c43ced5d0abc0904c4cbc2ca2485689d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_d33818323746b464e3800085b2f32b04",
+  "content_hash": "aad9a7db5ac258f80636be91b1314282fe5172c488954a0972adac344e82df8c",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_d33818323746b464e3800085b2f32b04"
+    },
+    {
+      "canonical_name": "adjuvant",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "adjuvant",
+      "chunk_id": "chk_d33818323746b464e3800085b2f32b04"
+    },
+    {
+      "canonical_name": "virus epitope",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "virus epitope",
+      "chunk_id": "chk_d33818323746b464e3800085b2f32b04"
+    },
+    {
+      "canonical_name": "immunoglobulin genes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunoglobulin genes",
+      "chunk_id": "chk_d33818323746b464e3800085b2f32b04"
+    },
+    {
+      "canonical_name": "recombinant protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "recombinant protein",
+      "chunk_id": "chk_d33818323746b464e3800085b2f32b04"
+    },
+    {
+      "canonical_name": "viruslike particle (VLP)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "viruslike particle (VLP)",
+      "chunk_id": "chk_d33818323746b464e3800085b2f32b04"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

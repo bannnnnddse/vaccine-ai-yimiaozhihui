@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6f7215b49bb77fca264896da98bb67f0",
+  "content_hash": "a3791e77fc38b4227b72eef3774e25060ef4da3ecdce805659d2d66c38640b72",
+  "entities": [
+    {
+      "canonical_name": "Infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Infants",
+      "chunk_id": "chk_6f7215b49bb77fca264896da98bb67f0"
+    },
+    {
+      "canonical_name": "RV Diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RV Diarrhea",
+      "chunk_id": "chk_6f7215b49bb77fca264896da98bb67f0"
+    },
+    {
+      "canonical_name": "Rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Rotavirus",
+      "chunk_id": "chk_6f7215b49bb77fca264896da98bb67f0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

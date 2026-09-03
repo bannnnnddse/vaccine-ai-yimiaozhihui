@@ -1,0 +1,29 @@
+{
+  "chunk_id": "2a6a845daf85901bed6e4b6a2ae14420a67d33f98601a3f1f40168a889eb0faf",
+  "content_hash": "1bcbf6928b41a29e727b891650444c0c7f2ed78e644f5c4f1eb19b9ca36e04df",
+  "entities": [
+    {
+      "canonical_name": "Human Papillomavirus Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Human Papillomavirus Vaccine",
+      "chunk_id": "2a6a845daf85901bed6e4b6a2ae14420a67d33f98601a3f1f40168a889eb0faf"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "2a6a845daf85901bed6e4b6a2ae14420a67d33f98601a3f1f40168a889eb0faf"
+    },
+    {
+      "canonical_name": "HPV -related diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HPV -related  diseases",
+      "chunk_id": "2a6a845daf85901bed6e4b6a2ae14420a67d33f98601a3f1f40168a889eb0faf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f2576d918134cc1c9664d2337094b520",
+  "content_hash": "730fe84e31ab6226f3e7bf663edd823821d1c2c9ff477cca662de963b3be1f08",
+  "entities": [
+    {
+      "canonical_name": "antibiotic resistance",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "antibiotic resistance",
+      "chunk_id": "chk_f2576d918134cc1c9664d2337094b520"
+    },
+    {
+      "canonical_name": "pneumococcal vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal vaccines",
+      "chunk_id": "chk_f2576d918134cc1c9664d2337094b520"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

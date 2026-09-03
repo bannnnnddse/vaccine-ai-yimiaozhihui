@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_d3b1e07e16586cd7f054ee8baf96a0d2",
+  "content_hash": "5a898a2ae83947a7f5fc9bbe3dd00e96ebbb3e6a390a32953b17e294bc559900",
+  "entities": [
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_d3b1e07e16586cd7f054ee8baf96a0d2"
+    },
+    {
+      "canonical_name": "pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumococcal disease",
+      "chunk_id": "chk_d3b1e07e16586cd7f054ee8baf96a0d2"
+    },
+    {
+      "canonical_name": "Canadian pediatric population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Canadian pediatric population",
+      "chunk_id": "chk_d3b1e07e16586cd7f054ee8baf96a0d2"
+    },
+    {
+      "canonical_name": "20-valent pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "20-valent pneumococcal conjugate vaccine",
+      "chunk_id": "chk_d3b1e07e16586cd7f054ee8baf96a0d2"
+    },
+    {
+      "canonical_name": "PPV23",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PPV23",
+      "chunk_id": "chk_d3b1e07e16586cd7f054ee8baf96a0d2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

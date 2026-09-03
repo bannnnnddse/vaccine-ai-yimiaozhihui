@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_b26dc1c8766e850d2333a4ee26bb53d0",
+  "content_hash": "75ef77d4281df5f890a336c3d21865a2f21091afe67fa8ec51b689078826633a",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_b26dc1c8766e850d2333a4ee26bb53d0"
+    },
+    {
+      "canonical_name": "rabies-specific IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "rabies-specific IgG",
+      "chunk_id": "chk_b26dc1c8766e850d2333a4ee26bb53d0"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_b26dc1c8766e850d2333a4ee26bb53d0"
+    },
+    {
+      "canonical_name": "T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell",
+      "chunk_id": "chk_b26dc1c8766e850d2333a4ee26bb53d0"
+    },
+    {
+      "canonical_name": "Th1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th1",
+      "chunk_id": "chk_b26dc1c8766e850d2333a4ee26bb53d0"
+    },
+    {
+      "canonical_name": "circulating T follicular helper (cTfh) cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "circulating T follicular helper (cTfh) cells",
+      "chunk_id": "chk_b26dc1c8766e850d2333a4ee26bb53d0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

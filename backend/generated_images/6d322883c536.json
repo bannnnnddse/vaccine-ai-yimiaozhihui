@@ -1,0 +1,205 @@
+{
+  "job_id": "6d322883c536",
+  "prompt": "生成一张水痘疫苗机制图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [],
+    "scene_direction": "16:9横版科学机制图，展示水痘-带状疱疹病毒（VZV）入侵人体后引发免疫反应并产生记忆细胞的过程。画面分为左右两个区域：左侧为病毒感染初期，右侧为疫苗诱导的免疫应答。整体风格严谨、清晰，使用标准的生物医学插图风格，配色以冷色调为主，突出关键分子和细胞结构。",
+    "optimized_chinese_prompt": "一张专业的生物医学机制图解，16:9比例。左侧显示水痘-带状疱疹病毒（VZV，绿色球状带刺突）附着并进入皮肤或黏膜上皮细胞。中间部分展示抗原呈递细胞（APC，如树突状细胞，黄色不规则形状）摄取病毒抗原并迁移至淋巴结。右侧详细描绘T淋巴细胞（蓝色）和B淋巴细胞（紫色）在淋巴结内的激活过程：辅助性T细胞识别抗原，激活B细胞分化为浆细胞，浆细胞分泌特异性IgG抗体（Y形结构）。同时生成记忆T细胞和记忆B细胞。背景简洁，重点突出细胞间相互作用和信号通路箭头。无多余装饰，科学准确。",
+    "chinese_labels": [
+      "水痘-带状疱疹病毒 (VZV)",
+      "抗原呈递细胞 (APC)",
+      "辅助性T细胞",
+      "B淋巴细胞",
+      "浆细胞",
+      "特异性抗体 (IgG)",
+      "记忆T细胞",
+      "记忆B细胞"
+    ],
+    "scientific_claims": [
+      "减毒活疫苗模拟自然感染过程，诱导细胞免疫和体液免疫。",
+      "抗原呈递细胞处理病毒抗原并提呈给T细胞。",
+      "辅助性T细胞通过细胞因子帮助B细胞活化。",
+      "活化的B细胞分化为浆细胞，分泌中和抗体。",
+      "免疫系统形成记忆细胞，提供长期保护。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "VZV被APC识别与摄取"
+      },
+      {
+        "primary_relation": "APC激活辅助性T细胞"
+      },
+      {
+        "primary_relation": "辅助性T细胞激活B细胞"
+      },
+      {
+        "primary_relation": "B细胞分化为浆细胞并产生抗体及记忆细胞"
+      }
+    ],
+    "route_reason": "用户请求的是‘机制图’，涉及病毒、细胞、抗原抗体等复杂生物要素，且需要展示多个步骤（感染->呈递->激活->效应/记忆），符合cell_ip_scientific的定义（细胞、病毒、抗原或抗体相关主题；三个以上关系）。因此选择该profile以确保科学关系的完整性和准确性。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [],
+  "cell_ip_unmatched_cell_terms": [
+    "B淋巴细胞",
+    "浆细胞",
+    "记忆T细胞",
+    "诱导细胞",
+    "免疫系统形成记忆细胞"
+  ],
+  "reference_assets": [
+    "role-sheet:style"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:style"
+  ],
+  "locked_ip_contracts": [],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n16:9横版科学机制图，展示水痘-带状疱疹病毒（VZV）入侵人体后引发免疫反应并产生记忆细胞的过程。画面分为左右两个区域：左侧为病毒感染初期，右侧为疫苗诱导的免疫应答。整体风格严谨、清晰，使用标准的生物医学插图风格，配色以冷色调为主，突出关键分子和细胞结构。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. VZV被APC识别与摄取；2. APC激活辅助性T细胞；3. 辅助性T细胞激活B细胞；4. B细胞分化为浆细胞并产生抗体及记忆细胞\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：水痘-带状疱疹病毒 (VZV)、抗原呈递细胞 (APC)、辅助性T细胞、B淋巴细胞、浆细胞、特异性抗体 (IgG)、记忆T细胞、记忆B细胞\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1仅用于整体扁平手绘画风与配色的统一参考；不要复制其中任何具体角色作为画面元素，不得改变 fixed canonical IP，不得复制其中的文字、事件或构图\n- 本题命中的固定角色：无明确命中\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 本题没有命中固定角色；不要擅自复刻角色总表中的任何角色。\n\n- 未收录的必要细胞：B淋巴细胞、浆细胞、记忆T细胞、诱导细胞、免疫系统形成记忆细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "aspect_ratio": "16:9",
+  "image_id": "6d322883c536-v0",
+  "trusted_image": "6d322883c536-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "1. 文本错误：图1中多处关键中文标签存在严重错别字，如标题“呈疫感接初期”（应为“免疫感应初期”）、“疫苗诱导的免疫应应”（多字）、“抗原呈射细胞”（应为“呈递”）。2. 科学表达与一致性：图1底部出现了两个“记忆B细胞”，其中一个位置在浆细胞旁且无箭头指向，属于错误的冗余或标注错误。3. 角色一致性问题：图1中的辅助性T细胞、B淋巴细胞等角色的颜色（深蓝/浅紫）与图2参考设定（浅蓝/淡紫）不一致，且未佩戴图2中设定的专属道具（如辅助性T细胞的十字旗、B细胞的Y形物）。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "图1左上角标题“呈疫感接初期”存在明显错别字，语义不通，应修正为“免疫感应初期”或类似表述。",
+        "bbox": [
+          0.28,
+          0.02,
+          0.45,
+          0.06
+        ],
+        "confidence": 0.99,
+        "suggested_fix": "将标题修改为“免疫感应初期”。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "图1右上角标题“疫苗诱导的免疫应应”重复了“应”字，需删除多余字符。",
+        "bbox": [
+          0.72,
+          0.02,
+          0.95,
+          0.06
+        ],
+        "confidence": 0.99,
+        "suggested_fix": "将标题修改为“疫苗诱导的免疫应答”。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "图1中“抗原呈射细胞(APC)”的“射”字为错别字，生物学专业术语应为“呈递”。",
+        "bbox": [
+          0.35,
+          0.28,
+          0.48,
+          0.32
+        ],
+        "confidence": 0.98,
+        "suggested_fix": "将“呈射”修正为“呈递”。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "scientific_expression",
+        "severity": "medium",
+        "description": "潜在科学表达风险（当前未接入证据核验）：图1左下角流程图中，浆细胞下方同时出现了“特异性抗体”和另一个“记忆B细胞”标签，后者位置逻辑混乱且造成混淆，疑似生成错误。",
+        "bbox": [
+          0.1,
+          0.85,
+          0.3,
+          0.95
+        ],
+        "confidence": 0.95,
+        "suggested_fix": "移除浆细胞旁多余的“记忆B细胞”标签，仅保留“特异性抗体(IgG)”，并确保记忆B细胞有独立的正确分支路径。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "style_inconsistency",
+        "severity": "medium",
+        "description": "图1中的核心免疫细胞（如辅助性T细胞、B淋巴细胞）的颜色与图2提供的IP参考图不一致。例如，图2中辅助性T细胞为浅蓝色带绿旗，而图1中为深蓝色无道具；图2中B细胞为淡紫色，图1中偏深蓝。",
+        "bbox": [
+          0.12,
+          0.48,
+          0.25,
+          0.6
+        ],
+        "confidence": 0.9,
+        "suggested_fix": "严格对齐图2的角色设定：辅助性T细胞改为浅蓝色并添加绿色十字旗道具；B淋巴细胞调整为参考图中的淡紫色系。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-26T05:18:27.979672+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "5949e5ef13cd",
+  "trace_events": [
+    {
+      "id": "5949e5ef13cd-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-26T05:18:27.979672Z"
+    },
+    {
+      "id": "5949e5ef13cd-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：一张专业的生物医学机制图解，16:9比例。左侧显示水痘-带状疱疹病毒（VZV，绿色球状带刺突）附着并进入皮肤或黏膜上皮细胞。中间部分展示抗原呈递细胞（APC，如树突状细胞，黄色不规则形状）摄取病毒抗原并迁移至淋巴结。右侧详细描绘T淋巴细胞（蓝色）和B淋巴细胞（紫色）在淋巴结内的激活过程：辅助性T细胞识别抗原，激活B细胞分化为浆细胞，浆细胞分泌特异性IgG抗…",
+      "status": "completed",
+      "created_at": "2026-08-26T05:18:27.980680Z"
+    },
+    {
+      "id": "5949e5ef13cd-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-26T05:18:35.751973Z"
+    },
+    {
+      "id": "5949e5ef13cd-4",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "1. 文本错误：图1中多处关键中文标签存在严重错别字，如标题“呈疫感接初期”（应为“免疫感应初期”）、“疫苗诱导的免疫应应”（多字）、“抗原呈射细胞”（应为“呈递”）。2. 科学表达与一致性：图1底部出现了两个“记忆B细胞”，其中一个位置在浆细胞旁且无箭头指向，属于错误的冗余或标注错误。3. 角色一致性问题：图1中的辅助性T细胞、B淋巴细胞等角色的颜色（深蓝/浅紫）与图2参考设定（浅蓝/淡紫）不一致，且未佩戴图2中设定的专属道具（如辅助性T细胞的十字旗、B细胞的Y形物）。",
+      "status": "warning",
+      "created_at": "2026-08-26T05:18:53.024440Z"
+    },
+    {
+      "id": "5949e5ef13cd-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-26T05:19:37.136236Z"
+    }
+  ],
+  "trace_history": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7409850111e3ac01d877d53479c43679",
+  "content_hash": "41af33e278de887b80d92fab3ac9b20c502b1ecb752883974fae445d062b611d",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_7409850111e3ac01d877d53479c43679"
+    },
+    {
+      "canonical_name": "emerging pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "emerging pathogens",
+      "chunk_id": "chk_7409850111e3ac01d877d53479c43679"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

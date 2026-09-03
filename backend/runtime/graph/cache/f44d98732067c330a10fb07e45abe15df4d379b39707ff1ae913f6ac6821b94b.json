@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_42dbb863bef0f76de70307f1f3aea110",
+  "content_hash": "da370421fdd4c2e6d1726d7c21d3a2ad3ee09b245c32fc55431dfc28844de02f",
+  "entities": [
+    {
+      "canonical_name": "dependency",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "dependency",
+      "chunk_id": "chk_42dbb863bef0f76de70307f1f3aea110"
+    },
+    {
+      "canonical_name": "active users of drugs of abuse",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "active users of drugs of abuse",
+      "chunk_id": "chk_42dbb863bef0f76de70307f1f3aea110"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

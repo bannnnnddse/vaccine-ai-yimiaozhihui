@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_2e21bec56926ba9107b6086a909d86c3",
+  "content_hash": "2c19c728d2037a0cd50750968cf3d2618007a20473a74cabd0da14af4d760bf0",
+  "entities": [
+    {
+      "canonical_name": "Rotavirus immunoglobulin",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Rotavirus immunoglobulin",
+      "chunk_id": "chk_2e21bec56926ba9107b6086a909d86c3"
+    },
+    {
+      "canonical_name": "Indian mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Indian mothers",
+      "chunk_id": "chk_2e21bec56926ba9107b6086a909d86c3"
+    },
+    {
+      "canonical_name": "infants up to six months",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants up to six months",
+      "chunk_id": "chk_2e21bec56926ba9107b6086a909d86c3"
+    },
+    {
+      "canonical_name": "rotavirus infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus infections",
+      "chunk_id": "chk_2e21bec56926ba9107b6086a909d86c3"
+    },
+    {
+      "canonical_name": "Antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Antibodies",
+      "chunk_id": "chk_2e21bec56926ba9107b6086a909d86c3"
+    },
+    {
+      "canonical_name": "gastroenteritis viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "gastroenteritis viruses",
+      "chunk_id": "chk_2e21bec56926ba9107b6086a909d86c3"
+    },
+    {
+      "canonical_name": "cystic fibrosis patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "cystic fibrosis patients",
+      "chunk_id": "chk_2e21bec56926ba9107b6086a909d86c3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

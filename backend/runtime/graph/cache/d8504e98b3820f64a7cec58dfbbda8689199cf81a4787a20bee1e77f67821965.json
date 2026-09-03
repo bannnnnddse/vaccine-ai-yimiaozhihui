@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_e40d4f029cab7ba15ce5fe98a3102ab1",
+  "content_hash": "eed50654ef845592d41fd3e11544b2ab46cde21e7835786c769df74948d650a9",
+  "entities": [
+    {
+      "canonical_name": "Haemaphysalis longicornis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Haemaphysalis longicornis",
+      "chunk_id": "chk_e40d4f029cab7ba15ce5fe98a3102ab1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

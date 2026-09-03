@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_a6b203d95b7878e4bda6569d1e91b712",
+  "content_hash": "b5615d03a60ea365cf9219ea84af0fb83da723939c531587c417830a78e7cf07",
+  "entities": [
+    {
+      "canonical_name": "JEV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "JEV",
+      "chunk_id": "chk_a6b203d95b7878e4bda6569d1e91b712"
+    },
+    {
+      "canonical_name": "tick-born encephalitis (TBE) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "tick-born encephalitis (TBE) vaccine",
+      "chunk_id": "chk_a6b203d95b7878e4bda6569d1e91b712"
+    },
+    {
+      "canonical_name": "TBE vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "TBE vaccine",
+      "chunk_id": "chk_a6b203d95b7878e4bda6569d1e91b712"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

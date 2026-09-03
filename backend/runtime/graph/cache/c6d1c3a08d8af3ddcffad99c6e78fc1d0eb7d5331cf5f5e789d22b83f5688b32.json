@@ -1,0 +1,61 @@
+{
+  "chunk_id": "chk_6516adc933ff4e0b214ed31c6d4e3948",
+  "content_hash": "422bd4c1d4476649625bd20781f9d711b36844f4e583daa75aafe3723ac89a62",
+  "entities": [
+    {
+      "canonical_name": "multiclade env-gag VLP mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "multiclade env-gag VLP mRNA vaccine",
+      "chunk_id": "chk_6516adc933ff4e0b214ed31c6d4e3948"
+    },
+    {
+      "canonical_name": "tier-2 HIV-1-neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "tier-2 HIV-1-neutralizing antibodies",
+      "chunk_id": "chk_6516adc933ff4e0b214ed31c6d4e3948"
+    },
+    {
+      "canonical_name": "heterologous SHIV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "heterologous SHIV infection",
+      "chunk_id": "chk_6516adc933ff4e0b214ed31c6d4e3948"
+    },
+    {
+      "canonical_name": "macaques",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "macaques",
+      "chunk_id": "chk_6516adc933ff4e0b214ed31c6d4e3948"
+    },
+    {
+      "canonical_name": "HIV-1 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV-1 vaccines",
+      "chunk_id": "chk_6516adc933ff4e0b214ed31c6d4e3948"
+    },
+    {
+      "canonical_name": "mRNA-LNP HIV-1 trimer boosters",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-LNP HIV-1 trimer boosters",
+      "chunk_id": "chk_6516adc933ff4e0b214ed31c6d4e3948"
+    },
+    {
+      "canonical_name": "broad neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "broad neutralizing antibodies",
+      "chunk_id": "chk_6516adc933ff4e0b214ed31c6d4e3948"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing",
+    "invalid_domain_range"
+  ]
+}

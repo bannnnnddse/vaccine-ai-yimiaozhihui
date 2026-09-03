@@ -1,0 +1,36 @@
+{
+  "chunk_id": "d0e0837bc5f53c01e3e45132d6ca01d56c3344b6fa53f2cd8092eb1bb7352bb0",
+  "content_hash": "33885b0a2d085be601c79b4a936ae2477dc49c2d690f2e6dfc1c5a30d7656552",
+  "entities": [
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "d0e0837bc5f53c01e3e45132d6ca01d56c3344b6fa53f2cd8092eb1bb7352bb0"
+    },
+    {
+      "canonical_name": "Serious adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Serious adverse events",
+      "chunk_id": "d0e0837bc5f53c01e3e45132d6ca01d56c3344b6fa53f2cd8092eb1bb7352bb0"
+    },
+    {
+      "canonical_name": "adverse events of special interest",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events of special interest",
+      "chunk_id": "d0e0837bc5f53c01e3e45132d6ca01d56c3344b6fa53f2cd8092eb1bb7352bb0"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "d0e0837bc5f53c01e3e45132d6ca01d56c3344b6fa53f2cd8092eb1bb7352bb0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

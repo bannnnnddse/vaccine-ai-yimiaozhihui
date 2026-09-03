@@ -1,0 +1,43 @@
+{
+  "chunk_id": "a2555f8a3ac1b1fe3329ae5a470f0415c682671712c1275b9d77c834d8b44915",
+  "content_hash": "9f7defb9e144e661a0e0ba1617c9c4795af938c66317c104c747bc33f83e64da",
+  "entities": [
+    {
+      "canonical_name": "MMRV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV",
+      "chunk_id": "a2555f8a3ac1b1fe3329ae5a470f0415c682671712c1275b9d77c834d8b44915"
+    },
+    {
+      "canonical_name": "Injection site swelling",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Injection site swelling",
+      "chunk_id": "a2555f8a3ac1b1fe3329ae5a470f0415c682671712c1275b9d77c834d8b44915"
+    },
+    {
+      "canonical_name": "Penile swelling",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Penile swelling",
+      "chunk_id": "a2555f8a3ac1b1fe3329ae5a470f0415c682671712c1275b9d77c834d8b44915"
+    },
+    {
+      "canonical_name": "Injection site erythema",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Injection site erythema",
+      "chunk_id": "a2555f8a3ac1b1fe3329ae5a470f0415c682671712c1275b9d77c834d8b44915"
+    },
+    {
+      "canonical_name": "Skin laceration",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Skin laceration",
+      "chunk_id": "a2555f8a3ac1b1fe3329ae5a470f0415c682671712c1275b9d77c834d8b44915"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

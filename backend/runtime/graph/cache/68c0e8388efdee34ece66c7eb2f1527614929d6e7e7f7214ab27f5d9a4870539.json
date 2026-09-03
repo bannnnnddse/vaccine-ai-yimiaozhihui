@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_4052390da41c99691e75b9b8ae13c5e3",
+  "content_hash": "7eabbf480811ee16af49bf7ab22f4924adeada61192cb126c7ad790482784d5d",
+  "entities": [
+    {
+      "canonical_name": "Meningitis Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Meningitis Vaccine",
+      "chunk_id": "chk_4052390da41c99691e75b9b8ae13c5e3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

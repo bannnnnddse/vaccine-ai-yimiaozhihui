@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_eccffbfedfdfb5a26d286448d3967bf3",
+  "content_hash": "590192edacb74d044ff1b062ac9a8155630b7384d1bec551cda0cd1f68500ccd",
+  "entities": [
+    {
+      "canonical_name": "Immune-related adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Immune-related adverse events",
+      "chunk_id": "chk_eccffbfedfdfb5a26d286448d3967bf3"
+    },
+    {
+      "canonical_name": "malignancies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malignancies",
+      "chunk_id": "chk_eccffbfedfdfb5a26d286448d3967bf3"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_eccffbfedfdfb5a26d286448d3967bf3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

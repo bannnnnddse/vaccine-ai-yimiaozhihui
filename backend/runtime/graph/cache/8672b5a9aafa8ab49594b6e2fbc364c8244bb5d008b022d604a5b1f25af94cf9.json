@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_29e725624d4a39b044622651bc461c9b",
+  "content_hash": "0ff42811dd4b0a059864cb2176683636ed82a3de15079e0981cf568bb368ffb2",
+  "entities": [
+    {
+      "canonical_name": "人类免疫缺陷病毒",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "人类免疫缺陷病毒",
+      "chunk_id": "chk_29e725624d4a39b044622651bc461c9b"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_29e725624d4a39b044622651bc461c9b"
+    },
+    {
+      "canonical_name": "免疫功能低下者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "免疫功能低下者",
+      "chunk_id": "chk_29e725624d4a39b044622651bc461c9b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

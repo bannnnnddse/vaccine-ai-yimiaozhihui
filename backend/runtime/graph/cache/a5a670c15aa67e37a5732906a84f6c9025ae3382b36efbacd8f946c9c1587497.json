@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_efc4bda3ec9c59d41733b357f8ac2468",
+  "content_hash": "e19b52f3a180c6d9ff8964ef35995708ffed33563423650c4eec036bf02778a2",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_efc4bda3ec9c59d41733b357f8ac2468"
+    },
+    {
+      "canonical_name": "HIV gp140 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV gp140 vaccination",
+      "chunk_id": "chk_efc4bda3ec9c59d41733b357f8ac2468"
+    },
+    {
+      "canonical_name": "Immunoglobulin G1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Immunoglobulin G1",
+      "chunk_id": "chk_efc4bda3ec9c59d41733b357f8ac2468"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

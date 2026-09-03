@@ -1,0 +1,29 @@
+{
+  "chunk_id": "cf24f248bb73898264ad61729f2e775f4000e6038ae72f9483af213b9ccf6d31",
+  "content_hash": "881140b6919cb0a57e6856f826e6bc853a5ea3cfda8ec35f24b1ce3a42784262",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "cf24f248bb73898264ad61729f2e775f4000e6038ae72f9483af213b9ccf6d31"
+    },
+    {
+      "canonical_name": "advanced liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "advanced liver disease",
+      "chunk_id": "cf24f248bb73898264ad61729f2e775f4000e6038ae72f9483af213b9ccf6d31"
+    },
+    {
+      "canonical_name": "cirrhosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cirrhosis",
+      "chunk_id": "cf24f248bb73898264ad61729f2e775f4000e6038ae72f9483af213b9ccf6d31"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

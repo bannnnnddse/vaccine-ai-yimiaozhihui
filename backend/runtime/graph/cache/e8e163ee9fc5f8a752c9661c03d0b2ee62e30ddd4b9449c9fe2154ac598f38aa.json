@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_effa437beda619c246a59a436cf60e55",
+  "content_hash": "b05d267d7bd6c9a33f4945e67ba583125c278838c5ed8e378be5f6e571877125",
+  "entities": [
+    {
+      "canonical_name": "Enteroviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Enteroviruses",
+      "chunk_id": "chk_effa437beda619c246a59a436cf60e55"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

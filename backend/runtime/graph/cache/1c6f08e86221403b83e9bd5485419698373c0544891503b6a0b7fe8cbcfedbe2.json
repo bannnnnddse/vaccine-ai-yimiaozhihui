@@ -1,0 +1,43 @@
+{
+  "chunk_id": "123d85e094b9728f104ee3262be336b7ff36ced744f4583820cac6167ac22935",
+  "content_hash": "76d19e58283afb5b62733d0aea82fb774d6c07f4a8a99c3a53531af35994738c",
+  "entities": [
+    {
+      "canonical_name": "human rotaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human rotaviruses",
+      "chunk_id": "123d85e094b9728f104ee3262be336b7ff36ced744f4583820cac6167ac22935"
+    },
+    {
+      "canonical_name": "animal rotaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "animal rotaviruses",
+      "chunk_id": "123d85e094b9728f104ee3262be336b7ff36ced744f4583820cac6167ac22935"
+    },
+    {
+      "canonical_name": "rotaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotaviruses",
+      "chunk_id": "123d85e094b9728f104ee3262be336b7ff36ced744f4583820cac6167ac22935"
+    },
+    {
+      "canonical_name": "severe diarrheal diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe diarrheal diseases",
+      "chunk_id": "123d85e094b9728f104ee3262be336b7ff36ced744f4583820cac6167ac22935"
+    },
+    {
+      "canonical_name": "children under the age of 5",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under the age of 5",
+      "chunk_id": "123d85e094b9728f104ee3262be336b7ff36ced744f4583820cac6167ac22935"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

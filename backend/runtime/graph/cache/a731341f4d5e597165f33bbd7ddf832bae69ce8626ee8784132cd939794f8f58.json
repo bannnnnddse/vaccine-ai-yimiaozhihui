@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6dd032336af20f612c2075f0a1f899a9",
+  "content_hash": "b64e2feac813a1a3271244720aa2cfe18faef4dbbee7f004ac7a10b6dbed40e7",
+  "entities": [
+    {
+      "canonical_name": "Elderly people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Elderly people",
+      "chunk_id": "chk_6dd032336af20f612c2075f0a1f899a9"
+    },
+    {
+      "canonical_name": "depression",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "depression",
+      "chunk_id": "chk_6dd032336af20f612c2075f0a1f899a9"
+    },
+    {
+      "canonical_name": "cardiovascular diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cardiovascular diseases",
+      "chunk_id": "chk_6dd032336af20f612c2075f0a1f899a9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_54b6be0deb38f62f0cb1410d97936ba1",
+  "content_hash": "084767fe140a94c11d9e76ef3d16e93d1e8b02d70925a18fb90b96874a48d049",
+  "entities": [
+    {
+      "canonical_name": "Hepatitis B Surface Antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Hepatitis B Surface Antigen",
+      "chunk_id": "chk_54b6be0deb38f62f0cb1410d97936ba1"
+    },
+    {
+      "canonical_name": "students and post-graduates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "students and post-graduates",
+      "chunk_id": "chk_54b6be0deb38f62f0cb1410d97936ba1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

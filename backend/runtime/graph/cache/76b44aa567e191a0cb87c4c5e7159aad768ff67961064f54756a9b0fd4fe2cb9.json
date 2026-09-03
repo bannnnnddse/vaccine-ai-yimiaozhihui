@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_a61bfc781cad0e5f9f5c7a7273343fc2",
+  "content_hash": "1d1dbe53177b1dcbf64e47c8a9c6e9df411f1593518e4d53e39cb5c5ddff5eb3",
+  "entities": [
+    {
+      "canonical_name": "BCG vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG vaccine",
+      "chunk_id": "chk_a61bfc781cad0e5f9f5c7a7273343fc2"
+    },
+    {
+      "canonical_name": "tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis",
+      "chunk_id": "chk_a61bfc781cad0e5f9f5c7a7273343fc2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

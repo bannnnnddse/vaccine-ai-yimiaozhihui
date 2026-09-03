@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_5ffb8a08a3d0cc4e27741da015616a47",
+  "content_hash": "b3175d22c6a7bb3cba664af5d891130a6e4c0dff8823d796ecf9f0c74cd0884a",
+  "entities": [
+    {
+      "canonical_name": "Cytokine Receptor gamma Chain",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Cytokine Receptor gamma Chain",
+      "chunk_id": "chk_5ffb8a08a3d0cc4e27741da015616a47"
+    },
+    {
+      "canonical_name": "chronic allergic lung disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic allergic lung disease",
+      "chunk_id": "chk_5ffb8a08a3d0cc4e27741da015616a47"
+    },
+    {
+      "canonical_name": "T-B-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-B-cell",
+      "chunk_id": "chk_5ffb8a08a3d0cc4e27741da015616a47"
+    },
+    {
+      "canonical_name": "ICOSL",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ICOSL",
+      "chunk_id": "chk_5ffb8a08a3d0cc4e27741da015616a47"
+    },
+    {
+      "canonical_name": "germinal centre",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "germinal centre",
+      "chunk_id": "chk_5ffb8a08a3d0cc4e27741da015616a47"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

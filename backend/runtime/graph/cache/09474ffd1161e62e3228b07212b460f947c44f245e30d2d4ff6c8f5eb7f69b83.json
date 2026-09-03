@@ -1,0 +1,29 @@
+{
+  "chunk_id": "f3b7b22680296f62ac79d4d3ba6ad40e6fe92313cfb26913815ff746657ac6c5",
+  "content_hash": "27b0e1c95369f04639db79faa82c386bfc971651878018ee464dfef737ff5e51",
+  "entities": [
+    {
+      "canonical_name": "COVID19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID19",
+      "chunk_id": "f3b7b22680296f62ac79d4d3ba6ad40e6fe92313cfb26913815ff746657ac6c5"
+    },
+    {
+      "canonical_name": "NVX-CoV2373",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "NVX-CoV2373",
+      "chunk_id": "f3b7b22680296f62ac79d4d3ba6ad40e6fe92313cfb26913815ff746657ac6c5"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "f3b7b22680296f62ac79d4d3ba6ad40e6fe92313cfb26913815ff746657ac6c5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

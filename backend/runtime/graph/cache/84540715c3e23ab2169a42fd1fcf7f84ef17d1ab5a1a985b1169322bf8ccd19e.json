@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_58d43569321a3383f0dc588d7064cf8b",
+  "content_hash": "2a9d28bc0a6d709fed866a3d52878a7a6cb5f81613cd76f6bf2f38ef4809c895",
+  "entities": [
+    {
+      "canonical_name": "term and preterm groups",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "term and preterm groups",
+      "chunk_id": "chk_58d43569321a3383f0dc588d7064cf8b"
+    },
+    {
+      "canonical_name": "vaccine pneumococcal serotype",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "vaccine pneumococcal serotype",
+      "chunk_id": "chk_58d43569321a3383f0dc588d7064cf8b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

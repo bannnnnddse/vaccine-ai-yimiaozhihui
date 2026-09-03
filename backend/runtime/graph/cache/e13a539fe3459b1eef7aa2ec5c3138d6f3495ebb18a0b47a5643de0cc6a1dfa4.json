@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_3a3323e913659a015fbb7b479e0ee7ea",
+  "content_hash": "5d4cc426bcc257b5bdd4cbc5654556f9550905c7969007c9b80acca7f67ae7d6",
+  "entities": [
+    {
+      "canonical_name": "high-dose influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "high-dose influenza vaccine",
+      "chunk_id": "chk_3a3323e913659a015fbb7b479e0ee7ea"
+    },
+    {
+      "canonical_name": "standard-dose vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "standard-dose vaccine",
+      "chunk_id": "chk_3a3323e913659a015fbb7b479e0ee7ea"
+    },
+    {
+      "canonical_name": "serious cardiorespiratory events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serious cardiorespiratory events",
+      "chunk_id": "chk_3a3323e913659a015fbb7b479e0ee7ea"
+    },
+    {
+      "canonical_name": "pneumonia events",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumonia events",
+      "chunk_id": "chk_3a3323e913659a015fbb7b479e0ee7ea"
+    },
+    {
+      "canonical_name": "congestive heart failure",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "congestive heart failure",
+      "chunk_id": "chk_3a3323e913659a015fbb7b479e0ee7ea"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

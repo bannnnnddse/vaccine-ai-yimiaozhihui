@@ -1,0 +1,122 @@
+{
+  "job_id": "96596c5a91eb",
+  "prompt": "解释HPV疫苗的作用，生成图解",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "optimized_chinese_prompt": "16:9横版，浅米白纸面背景。粗颗粒且略抖动的黑色手绘描边风格，低饱和蓝绿黄橙紫撞色平涂，少量颗粒点纹。画面展示单场景机制：左侧一个拟人化的蓝色HPV病毒颗粒（带棘突）正向右侧的细胞膜靠近；中间有一个盾牌形状的黄色疫苗抗原分子阻挡并捕获了病毒；右侧是一个健康的细胞核，表面受体未被结合。前景有极少量中文手写批注指向关键部位。充分留白，无标题、无密集文字、无3D效果、无角色摆拍。",
+    "chinese_labels": [
+      "HPV病毒",
+      "疫苗抗原",
+      "免疫记忆",
+      "细胞膜"
+    ],
+    "scientific_claims": [
+      "HPV疫苗含有病毒样颗粒(VLP)，模拟真实病毒结构但不含遗传物质",
+      "疫苗抗原被免疫系统识别后刺激产生特异性抗体",
+      "预存的中和抗体可在病毒接触细胞前将其拦截",
+      "预防高危型HPV持续感染是降低宫颈癌风险的关键机制"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "疫苗抗原激发机体产生特异性抗体"
+      },
+      {
+        "primary_relation": "抗体在体内形成免疫屏障"
+      },
+      {
+        "primary_relation": "入侵的HPV病毒被抗体结合并清除"
+      }
+    ],
+    "route_reason": "正式快速闭环固定使用 Wan；Crafter 仅保留为 legacy。"
+  },
+  "generation_route": "fast",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "virus",
+    "antigen",
+    "antibody"
+  ],
+  "reference_assets": [
+    "handdrawn-style-reference",
+    "flat-character-sheet",
+    "role-board:virus+antigen+antibody"
+  ],
+  "aspect_ratio": "16:9",
+  "image_id": "96596c5a91eb-v0",
+  "trusted_image": "96596c5a91eb-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "AI 视觉审核未完成：模型调用超时。请人工确认图片内容后再接受或修改。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "issues": [
+      {
+        "issue_type": "other",
+        "severity": "medium",
+        "description": "本轮未获得可验证的结构化视觉审核结果（timeout）。",
+        "bbox": null,
+        "confidence": 1.0,
+        "suggested_fix": "请查看图片并决定接受结果或框选区域修改。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-25T03:37:38.014527+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "c2093c7bdea3",
+  "trace_events": [
+    {
+      "id": "c2093c7bdea3-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-25T03:37:38.014527Z"
+    },
+    {
+      "id": "c2093c7bdea3-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：16:9横版，浅米白纸面背景。粗颗粒且略抖动的黑色手绘描边风格，低饱和蓝绿黄橙紫撞色平涂，少量颗粒点纹。画面展示单场景机制：左侧一个拟人化的蓝色HPV病毒颗粒（带棘突）正向右侧的细胞膜靠近；中间有一个盾牌形状的黄色疫苗抗原分子阻挡并捕获了病毒；右侧是一个健康的细胞核，表面受体未被结合。前景有极少量中文手写批注指向关键部位。充分留白，无标题、无密集文字、无3…",
+      "status": "completed",
+      "created_at": "2026-08-25T03:37:38.015526Z"
+    },
+    {
+      "id": "c2093c7bdea3-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-25T03:37:49.898147Z"
+    },
+    {
+      "id": "c2093c7bdea3-4",
+      "stage": "visual_critic",
+      "title": "视觉审查暂时不可用",
+      "detail": "未获得可验证的审查结果，请人工确认当前图片。",
+      "status": "warning",
+      "created_at": "2026-08-25T03:38:27.533493Z"
+    },
+    {
+      "id": "c2093c7bdea3-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-25T03:39:34.289539Z"
+    }
+  ],
+  "trace_history": []
+}

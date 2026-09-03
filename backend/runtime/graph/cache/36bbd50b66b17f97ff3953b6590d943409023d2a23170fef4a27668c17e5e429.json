@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e18eb37a7911aca14c5190f130d3983b",
+  "content_hash": "46d6b26c43fd1d3145871406ecb2bbe77c648695044cf1e2abb4d890547aac24",
+  "entities": [
+    {
+      "canonical_name": "routine immunization schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "routine immunization schedules",
+      "chunk_id": "chk_e18eb37a7911aca14c5190f130d3983b"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_e18eb37a7911aca14c5190f130d3983b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

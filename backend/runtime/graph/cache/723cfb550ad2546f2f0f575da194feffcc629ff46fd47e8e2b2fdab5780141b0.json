@@ -1,0 +1,54 @@
+{
+  "chunk_id": "chk_a498fa07cc37c03749b0e647ca051a94",
+  "content_hash": "2c1fac140ffe34c916bed10d8ecccfcbb5710f65eadf5aeb3b08fb7382d9d7db",
+  "entities": [
+    {
+      "canonical_name": "first-generation injectable COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "first-generation injectable COVID-19 vaccines",
+      "chunk_id": "chk_a498fa07cc37c03749b0e647ca051a94"
+    },
+    {
+      "canonical_name": "next-generation COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "next-generation COVID-19 vaccines",
+      "chunk_id": "chk_a498fa07cc37c03749b0e647ca051a94"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_a498fa07cc37c03749b0e647ca051a94"
+    },
+    {
+      "canonical_name": "T-cell responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell responses",
+      "chunk_id": "chk_a498fa07cc37c03749b0e647ca051a94"
+    },
+    {
+      "canonical_name": "antibody responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody responses",
+      "chunk_id": "chk_a498fa07cc37c03749b0e647ca051a94"
+    },
+    {
+      "canonical_name": "spike-specific immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "spike-specific immune responses",
+      "chunk_id": "chk_a498fa07cc37c03749b0e647ca051a94"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "unknown_endpoint"
+  ]
+}

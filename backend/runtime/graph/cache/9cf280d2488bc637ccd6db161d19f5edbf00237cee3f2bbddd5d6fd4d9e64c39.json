@@ -1,0 +1,59 @@
+{
+  "chunk_id": "chk_a8f1ea8f5835dbb58477451a2de847a9",
+  "content_hash": "3f09319390d3aedc3257a8376ddaeef0aed24133c230dcf28f27e948f023d568",
+  "entities": [
+    {
+      "canonical_name": "20 μg CHO hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "20 μg CHO hepatitis B vaccine",
+      "chunk_id": "chk_a8f1ea8f5835dbb58477451a2de847a9"
+    },
+    {
+      "canonical_name": "10 μg yeast hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "10 μg yeast hepatitis B vaccine",
+      "chunk_id": "chk_a8f1ea8f5835dbb58477451a2de847a9"
+    },
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_a8f1ea8f5835dbb58477451a2de847a9"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_a8f1ea8f5835dbb58477451a2de847a9"
+    },
+    {
+      "canonical_name": "people over 1 year old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "people over 1 year old",
+      "chunk_id": "chk_a8f1ea8f5835dbb58477451a2de847a9"
+    },
+    {
+      "canonical_name": "those under 1 year old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "those under 1 year old",
+      "chunk_id": "chk_a8f1ea8f5835dbb58477451a2de847a9"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_a8f1ea8f5835dbb58477451a2de847a9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

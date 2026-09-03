@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_c5db659b44d98979604a346834a796ea",
+  "content_hash": "0fbf2f50f43a7c1bd4d318d8fdf225c51e3fa5980cd5c588029ff45852d675a5",
+  "entities": [
+    {
+      "canonical_name": "vaccine strain",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine strain",
+      "chunk_id": "chk_c5db659b44d98979604a346834a796ea"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

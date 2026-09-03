@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d310fce2ce280f4b6fecbd0989752053",
+  "content_hash": "aa8ff3b95b2b58644ee653ed753a9c22774a7e0d3cc256c588e390a77698c981",
+  "entities": [
+    {
+      "canonical_name": "Ebola Virus Disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Ebola Virus Disease",
+      "chunk_id": "chk_d310fce2ce280f4b6fecbd0989752053"
+    },
+    {
+      "canonical_name": "RNA virus infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RNA virus infections",
+      "chunk_id": "chk_d310fce2ce280f4b6fecbd0989752053"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

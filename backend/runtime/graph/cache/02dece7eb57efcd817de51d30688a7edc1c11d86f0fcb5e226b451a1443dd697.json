@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7c8d33bca6a9e721d4d0e6ef78054cb9",
+  "content_hash": "319112d3495338288687591f14bedb9532d65cbf53cc1c7bc3ac7786f5bdbb2b",
+  "entities": [
+    {
+      "canonical_name": "adenovirus-vectored vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adenovirus-vectored vaccines",
+      "chunk_id": "chk_7c8d33bca6a9e721d4d0e6ef78054cb9"
+    },
+    {
+      "canonical_name": "human adenovirus type 5",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human adenovirus type 5",
+      "chunk_id": "chk_7c8d33bca6a9e721d4d0e6ef78054cb9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

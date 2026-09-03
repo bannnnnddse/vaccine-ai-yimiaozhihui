@@ -1,0 +1,59 @@
+{
+  "chunk_id": "97b2b3f967f7eb3b370a00cba6628e1ba552d496e99c6c0b4016832f729598a6",
+  "content_hash": "31ada4a4ffd946c53d1778d913f82a93563277e63743e58da86962832c996982",
+  "entities": [
+    {
+      "canonical_name": "avisure TM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "avisure ™",
+      "chunk_id": "97b2b3f967f7eb3b370a00cba6628e1ba552d496e99c6c0b4016832f729598a6"
+    },
+    {
+      "canonical_name": "HAPIBEV TM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HAPIBEV ™",
+      "chunk_id": "97b2b3f967f7eb3b370a00cba6628e1ba552d496e99c6c0b4016832f729598a6"
+    },
+    {
+      "canonical_name": "HAVpur Junior",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HAVpur Junior",
+      "chunk_id": "97b2b3f967f7eb3b370a00cba6628e1ba552d496e99c6c0b4016832f729598a6"
+    },
+    {
+      "canonical_name": "Live-attenuated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Live-attenuated vaccines",
+      "chunk_id": "97b2b3f967f7eb3b370a00cba6628e1ba552d496e99c6c0b4016832f729598a6"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "97b2b3f967f7eb3b370a00cba6628e1ba552d496e99c6c0b4016832f729598a6"
+    },
+    {
+      "canonical_name": "HAVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HAVac",
+      "chunk_id": "97b2b3f967f7eb3b370a00cba6628e1ba552d496e99c6c0b4016832f729598a6"
+    },
+    {
+      "canonical_name": "hepatitis A",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis A",
+      "chunk_id": "97b2b3f967f7eb3b370a00cba6628e1ba552d496e99c6c0b4016832f729598a6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

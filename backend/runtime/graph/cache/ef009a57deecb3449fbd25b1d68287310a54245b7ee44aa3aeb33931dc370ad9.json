@@ -1,0 +1,77 @@
+{
+  "chunk_id": "chk_fc1d854e6981447b185c051627194141",
+  "content_hash": "7e99cc04eb447f616d2647f7bd441f44e643c9358d023bf3107ce03f25f53538",
+  "entities": [
+    {
+      "canonical_name": "乙肝疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙肝疫苗",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "结核杆菌",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "结核杆菌",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "结核性脑膜炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "结核性脑膜炎",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "粟粒性结核",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "粟粒性结核",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "新生儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "新生儿",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "婴儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "婴儿",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "乙肝病毒",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "乙肝病毒",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "慢性乙肝病毒表面抗原携带者",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "慢性乙肝病毒表面抗原携带者",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "invalid_domain_range",
+    "target_missing_from_quote",
+    "relation_evidence_cue_missing"
+  ]
+}

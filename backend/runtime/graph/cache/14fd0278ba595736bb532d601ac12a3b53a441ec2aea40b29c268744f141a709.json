@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_82462a46b20c0a33fc11a7e01586a136",
+  "content_hash": "ae0c378cee017c6953701f9b3f83cc0df3577ee5de511cf8d60a31aab83a4d95",
+  "entities": [
+    {
+      "canonical_name": "Novel Corona Virus -2019-nCov vaccine candidate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Novel Corona Virus -2019-nCov vaccine candidate",
+      "chunk_id": "chk_82462a46b20c0a33fc11a7e01586a136"
+    },
+    {
+      "canonical_name": "bacTRL-Spike Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bacTRL-Spike Vaccine",
+      "chunk_id": "chk_82462a46b20c0a33fc11a7e01586a136"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_82462a46b20c0a33fc11a7e01586a136"
+    },
+    {
+      "canonical_name": "healthy subjects",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy subjects",
+      "chunk_id": "chk_82462a46b20c0a33fc11a7e01586a136"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

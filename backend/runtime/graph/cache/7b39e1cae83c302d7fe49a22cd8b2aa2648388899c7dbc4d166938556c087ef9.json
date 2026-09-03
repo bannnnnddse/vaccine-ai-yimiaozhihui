@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_b9854314df9736c29e1e9814920bad4d",
+  "content_hash": "049f44a943d7e4642826c4a7e438940caaed572b991778be459c768412fa02a0",
+  "entities": [
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_b9854314df9736c29e1e9814920bad4d"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_b9854314df9736c29e1e9814920bad4d"
+    },
+    {
+      "canonical_name": "RV144 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV144 vaccine",
+      "chunk_id": "chk_b9854314df9736c29e1e9814920bad4d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

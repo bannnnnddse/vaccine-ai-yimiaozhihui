@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_83606fef9972dd03fdea1b35c71f64dd",
+  "content_hash": "40b5b189015ab82fc78dc832f9cea96c66bc7dce9295d69bf32d53e8b05d9b97",
+  "entities": [
+    {
+      "canonical_name": "Strep A infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Strep A infections",
+      "chunk_id": "chk_83606fef9972dd03fdea1b35c71f64dd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

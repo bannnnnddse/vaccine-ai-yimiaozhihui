@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_3ef28218c3351d9209d621c601e2a7fb",
+  "content_hash": "8004752d9c3a2a59a1957daf267274812590450f42d9700952ca352bf5673f58",
+  "entities": [
+    {
+      "canonical_name": "coronavirus disease 2019",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "coronavirus disease 2019",
+      "chunk_id": "chk_3ef28218c3351d9209d621c601e2a7fb"
+    },
+    {
+      "canonical_name": "COVID -19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID -19",
+      "chunk_id": "chk_3ef28218c3351d9209d621c601e2a7fb"
+    },
+    {
+      "canonical_name": "severe acute respiratory syndrome coronavirus 2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "severe acute respiratory syndrome coronavirus 2",
+      "chunk_id": "chk_3ef28218c3351d9209d621c601e2a7fb"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_3ef28218c3351d9209d621c601e2a7fb"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

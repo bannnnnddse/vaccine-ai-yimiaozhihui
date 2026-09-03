@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_fda978c5c16c83ba9f8a9df0044c24f9",
+  "content_hash": "867e42ca84712c382b2cec9edd1999cd790bbeb28427cf66fa82cb553272741a",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_fda978c5c16c83ba9f8a9df0044c24f9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

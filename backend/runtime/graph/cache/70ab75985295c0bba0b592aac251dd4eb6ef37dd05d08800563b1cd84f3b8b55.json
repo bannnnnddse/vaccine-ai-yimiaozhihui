@@ -1,0 +1,59 @@
+{
+  "chunk_id": "chk_d0dd6dec25bca31963a199c4eb0383c9",
+  "content_hash": "d8ea1807cf5df8a99eacdac64187636a8b016aca54ab2b0846603502d9b97a5a",
+  "entities": [
+    {
+      "canonical_name": "influenza B viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza B viruses",
+      "chunk_id": "chk_d0dd6dec25bca31963a199c4eb0383c9"
+    },
+    {
+      "canonical_name": "protective epitopes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "protective epitopes",
+      "chunk_id": "chk_d0dd6dec25bca31963a199c4eb0383c9"
+    },
+    {
+      "canonical_name": "human antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human antibodies",
+      "chunk_id": "chk_d0dd6dec25bca31963a199c4eb0383c9"
+    },
+    {
+      "canonical_name": "influenza virus neuraminidase",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "influenza virus neuraminidase",
+      "chunk_id": "chk_d0dd6dec25bca31963a199c4eb0383c9"
+    },
+    {
+      "canonical_name": "Nucleoside-modified mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Nucleoside-modified mRNA vaccines",
+      "chunk_id": "chk_d0dd6dec25bca31963a199c4eb0383c9"
+    },
+    {
+      "canonical_name": "T follicular helper",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T follicular helper",
+      "chunk_id": "chk_d0dd6dec25bca31963a199c4eb0383c9"
+    },
+    {
+      "canonical_name": "germinal center B cell responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "germinal center B cell responses",
+      "chunk_id": "chk_d0dd6dec25bca31963a199c4eb0383c9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

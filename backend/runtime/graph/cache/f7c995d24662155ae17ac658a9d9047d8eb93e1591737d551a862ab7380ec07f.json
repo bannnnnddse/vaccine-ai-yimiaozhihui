@@ -1,0 +1,22 @@
+{
+  "chunk_id": "4112be8c17582cadac5a28978ed9ce558e2c154174b50de88a2636783ec1d3ce",
+  "content_hash": "f287688d17a97183fdb62ee4f492058d185a087a05b4136c6185c79866c91b6d",
+  "entities": [
+    {
+      "canonical_name": "non-NIP vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "non-NIP vaccines",
+      "chunk_id": "4112be8c17582cadac5a28978ed9ce558e2c154174b50de88a2636783ec1d3ce"
+    },
+    {
+      "canonical_name": "NIP vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "NIP vaccines",
+      "chunk_id": "4112be8c17582cadac5a28978ed9ce558e2c154174b50de88a2636783ec1d3ce"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

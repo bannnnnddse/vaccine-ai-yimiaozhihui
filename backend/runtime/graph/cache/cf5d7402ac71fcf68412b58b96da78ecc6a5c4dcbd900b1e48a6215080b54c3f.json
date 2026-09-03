@@ -1,0 +1,67 @@
+{
+  "chunk_id": "4ae64d481432a447d959ae35154c77c2fea56f27e75f57e4bb39755b0edc7ebe",
+  "content_hash": "b00d2d3fc6eb00250ab9fe69c4188bd0aaad9e719010bd92d0b1899168cd477a",
+  "entities": [
+    {
+      "canonical_name": "Cervarix",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Cervarix",
+      "chunk_id": "4ae64d481432a447d959ae35154c77c2fea56f27e75f57e4bb39755b0edc7ebe"
+    },
+    {
+      "canonical_name": "human papillomavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomavirus",
+      "chunk_id": "4ae64d481432a447d959ae35154c77c2fea56f27e75f57e4bb39755b0edc7ebe"
+    },
+    {
+      "canonical_name": "hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis B virus",
+      "chunk_id": "4ae64d481432a447d959ae35154c77c2fea56f27e75f57e4bb39755b0edc7ebe"
+    },
+    {
+      "canonical_name": "AS04",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "AS04",
+      "chunk_id": "4ae64d481432a447d959ae35154c77c2fea56f27e75f57e4bb39755b0edc7ebe"
+    },
+    {
+      "canonical_name": "MPL",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MPL",
+      "chunk_id": "4ae64d481432a447d959ae35154c77c2fea56f27e75f57e4bb39755b0edc7ebe"
+    },
+    {
+      "canonical_name": "TLR4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR4",
+      "chunk_id": "4ae64d481432a447d959ae35154c77c2fea56f27e75f57e4bb39755b0edc7ebe"
+    },
+    {
+      "canonical_name": "TRIF",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TRIF",
+      "chunk_id": "4ae64d481432a447d959ae35154c77c2fea56f27e75f57e4bb39755b0edc7ebe"
+    },
+    {
+      "canonical_name": "alum",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "alum",
+      "chunk_id": "4ae64d481432a447d959ae35154c77c2fea56f27e75f57e4bb39755b0edc7ebe"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "unknown_endpoint"
+  ]
+}

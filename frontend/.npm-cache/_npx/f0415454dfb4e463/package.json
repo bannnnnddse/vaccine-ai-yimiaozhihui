@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/server-memory": "^2026.1.26"
+  },
+  "_npx": {
+    "packages": [
+      "@modelcontextprotocol/server-memory@2026.1.26"
+    ]
+  }
+}

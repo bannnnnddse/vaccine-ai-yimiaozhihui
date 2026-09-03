@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_01d93b8c0bdaee9e687fa5a935884399",
+  "content_hash": "23a8244b057cebdffa837b5e28d15bbcfff1c0e2f639055b9ecda00f00353825",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_01d93b8c0bdaee9e687fa5a935884399"
+    },
+    {
+      "canonical_name": "Adverse Events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Adverse Events",
+      "chunk_id": "chk_01d93b8c0bdaee9e687fa5a935884399"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

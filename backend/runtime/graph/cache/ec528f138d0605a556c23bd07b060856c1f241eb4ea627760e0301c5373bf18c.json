@@ -1,0 +1,159 @@
+{
+  "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7",
+  "content_hash": "37fc311f6671d5e3cd833e637cdcf23e142f60a01ef44c04d53192bb09dd017b",
+  "entities": [
+    {
+      "canonical_name": "Haematopoietic stem cell transplant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Haematopoietic stem cell transplant",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "general population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general population",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "nonimmune transplant candidates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "nonimmune transplant candidates",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "live vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live vaccines",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "VAR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VAR",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "inactivated influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated influenza vaccine",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "Td- immunosuppression containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Td- immunosuppression containing vaccine",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "PCV/PPSV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV/PPSV",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "Hib",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hib",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "meningococcal conjugate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "meningococcal conjugate",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IPV",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "HPV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccines",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "graft vs host disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "graft vs host disease",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "Starting 6 months after transplant",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Starting 6 months after transplant",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "Starting 3–6 months after transplant",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Starting 3–6 months after transplant",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "Starting 6–12 months after transplant",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Starting 6–12 months after transplant",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    },
+    {
+      "canonical_name": "Starting 24 months after transplant",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Starting 24 months after transplant",
+      "chunk_id": "chk_419ea55d3a4752091b6f2cfc7baea6b7"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

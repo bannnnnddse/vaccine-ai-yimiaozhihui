@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_ede5f0d931c8b57b5c667c3bc2cc8a6d",
+  "content_hash": "fd5cefa5be321833a28b743372eb15648fface6b03970ebadf8c7b6b7553866b",
+  "entities": [
+    {
+      "canonical_name": "ALVAC-HIV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ALVAC-HIV",
+      "chunk_id": "chk_ede5f0d931c8b57b5c667c3bc2cc8a6d"
+    },
+    {
+      "canonical_name": "gp120/MF59 HIV-1 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "gp120/MF59 HIV-1 vaccine",
+      "chunk_id": "chk_ede5f0d931c8b57b5c667c3bc2cc8a6d"
+    },
+    {
+      "canonical_name": "South African adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "South African adults",
+      "chunk_id": "chk_ede5f0d931c8b57b5c667c3bc2cc8a6d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

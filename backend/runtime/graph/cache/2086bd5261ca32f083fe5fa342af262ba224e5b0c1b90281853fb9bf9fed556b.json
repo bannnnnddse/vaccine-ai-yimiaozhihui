@@ -1,0 +1,38 @@
+{
+  "chunk_id": "c8b1eac5be329a1b8368807d09722f377208c939079f6369a0ba42fd31af992b",
+  "content_hash": "732c1c5825322afcd7af3b78407a5be80fab11e0569d5fd9b0403ab8eebefb6a",
+  "entities": [
+    {
+      "canonical_name": "GnH-FT",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GnH-FT",
+      "chunk_id": "c8b1eac5be329a1b8368807d09722f377208c939079f6369a0ba42fd31af992b"
+    },
+    {
+      "canonical_name": "FT",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "FT",
+      "chunk_id": "c8b1eac5be329a1b8368807d09722f377208c939079f6369a0ba42fd31af992b"
+    },
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "c8b1eac5be329a1b8368807d09722f377208c939079f6369a0ba42fd31af992b"
+    },
+    {
+      "canonical_name": "mild fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "mild fever",
+      "chunk_id": "c8b1eac5be329a1b8368807d09722f377208c939079f6369a0ba42fd31af992b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

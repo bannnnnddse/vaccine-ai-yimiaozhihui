@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_18e26e9636ec5585583a664289331a39",
+  "content_hash": "b8218f64d79b1b56544ae325be1ff91427b918fcedc33b9a949a4d4e05aa69bd",
+  "entities": [
+    {
+      "canonical_name": "plasmablasts",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasmablasts",
+      "chunk_id": "chk_18e26e9636ec5585583a664289331a39"
+    },
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_18e26e9636ec5585583a664289331a39"
+    },
+    {
+      "canonical_name": "BAFF",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "BAFF",
+      "chunk_id": "chk_18e26e9636ec5585583a664289331a39"
+    },
+    {
+      "canonical_name": "APRIL",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "APRIL",
+      "chunk_id": "chk_18e26e9636ec5585583a664289331a39"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

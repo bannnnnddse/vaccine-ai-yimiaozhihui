@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_216936dd897ed249bdf46cc4703d628d",
+  "content_hash": "1e13a8bae3a65b52e9a754fc7d582f6139c8a0110ad8c957d6cb7531a30d0302",
+  "entities": [
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_216936dd897ed249bdf46cc4703d628d"
+    },
+    {
+      "canonical_name": "PCV21",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV21",
+      "chunk_id": "chk_216936dd897ed249bdf46cc4703d628d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

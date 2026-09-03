@@ -1,0 +1,29 @@
+{
+  "chunk_id": "518096c278df893c2f6c6c7350abbec16faebe23b96e4dbca21dae9535a8c145",
+  "content_hash": "b15a2ef0d3f1b8a0288bdb433612a96d2bf3bd5940d258fe5aef3d86dcd27d40",
+  "entities": [
+    {
+      "canonical_name": "pregnancies",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "pregnancies",
+      "chunk_id": "518096c278df893c2f6c6c7350abbec16faebe23b96e4dbca21dae9535a8c145"
+    },
+    {
+      "canonical_name": "miscarriages",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "miscarriages",
+      "chunk_id": "518096c278df893c2f6c6c7350abbec16faebe23b96e4dbca21dae9535a8c145"
+    },
+    {
+      "canonical_name": "Astrazeneca",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Astrazeneca",
+      "chunk_id": "518096c278df893c2f6c6c7350abbec16faebe23b96e4dbca21dae9535a8c145"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

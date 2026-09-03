@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_8a40e1410aaf867308bd932417c676c5",
+  "content_hash": "b06e3596df470e11ee8ef09da377a2009d11f41027b93a1d79815c66cbe0bd3a",
+  "entities": [
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_8a40e1410aaf867308bd932417c676c5"
+    },
+    {
+      "canonical_name": "HBsAg-positive mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HBsAg-positive mothers",
+      "chunk_id": "chk_8a40e1410aaf867308bd932417c676c5"
+    },
+    {
+      "canonical_name": "HepB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB",
+      "chunk_id": "chk_8a40e1410aaf867308bd932417c676c5"
+    },
+    {
+      "canonical_name": "anti-HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs",
+      "chunk_id": "chk_8a40e1410aaf867308bd932417c676c5"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_8a40e1410aaf867308bd932417c676c5"
+    },
+    {
+      "canonical_name": "HBIG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBIG",
+      "chunk_id": "chk_8a40e1410aaf867308bd932417c676c5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_26181fa08973d94ffa6ed1df1c87d05b",
+  "content_hash": "77411595dfea516419f5ba22a8e9353fd8480d2bca046653c16e913ae3fa4f34",
+  "entities": [
+    {
+      "canonical_name": "Strep A",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Strep A",
+      "chunk_id": "chk_26181fa08973d94ffa6ed1df1c87d05b"
+    },
+    {
+      "canonical_name": "vaccine antisera",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "vaccine antisera",
+      "chunk_id": "chk_26181fa08973d94ffa6ed1df1c87d05b"
+    },
+    {
+      "canonical_name": "32-valent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "32-valent vaccine",
+      "chunk_id": "chk_26181fa08973d94ffa6ed1df1c87d05b"
+    },
+    {
+      "canonical_name": "M peptide vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "M peptide vaccines",
+      "chunk_id": "chk_26181fa08973d94ffa6ed1df1c87d05b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

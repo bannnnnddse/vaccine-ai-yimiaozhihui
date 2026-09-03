@@ -1,0 +1,36 @@
+{
+  "chunk_id": "b0d328ece7cc7b5de13aff7d82e8a89f91c0352797dcb2824e6139249fa21321",
+  "content_hash": "484d5f61866b69737ba4a0a2a9290a89e7fc3890f8c4a52e3bc903a60d8bee70",
+  "entities": [
+    {
+      "canonical_name": "childhood vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "childhood vaccine",
+      "chunk_id": "b0d328ece7cc7b5de13aff7d82e8a89f91c0352797dcb2824e6139249fa21321"
+    },
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "b0d328ece7cc7b5de13aff7d82e8a89f91c0352797dcb2824e6139249fa21321"
+    },
+    {
+      "canonical_name": "mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mothers",
+      "chunk_id": "b0d328ece7cc7b5de13aff7d82e8a89f91c0352797dcb2824e6139249fa21321"
+    },
+    {
+      "canonical_name": "side effects",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "side effects",
+      "chunk_id": "b0d328ece7cc7b5de13aff7d82e8a89f91c0352797dcb2824e6139249fa21321"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

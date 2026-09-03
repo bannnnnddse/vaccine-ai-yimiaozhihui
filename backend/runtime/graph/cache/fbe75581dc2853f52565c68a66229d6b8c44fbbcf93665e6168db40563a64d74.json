@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b27ee3f434399953f79a766793cce677",
+  "content_hash": "3f9516fa4f35d5d79953e737479759520347736296152a2b881fcffa851a7d6d",
+  "entities": [
+    {
+      "canonical_name": "Pneumococcal vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pneumococcal vaccine",
+      "chunk_id": "chk_b27ee3f434399953f79a766793cce677"
+    },
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_b27ee3f434399953f79a766793cce677"
+    },
+    {
+      "canonical_name": "PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV",
+      "chunk_id": "chk_b27ee3f434399953f79a766793cce677"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

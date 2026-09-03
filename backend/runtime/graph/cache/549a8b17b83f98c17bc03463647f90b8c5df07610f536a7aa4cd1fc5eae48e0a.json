@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_a853cdd35375827b05851083487a4f6d",
+  "content_hash": "95684c5ecad90eb7aaad84997637852c37c7651e0c2e7732e7d9e36884bad702",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_a853cdd35375827b05851083487a4f6d"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_a853cdd35375827b05851083487a4f6d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

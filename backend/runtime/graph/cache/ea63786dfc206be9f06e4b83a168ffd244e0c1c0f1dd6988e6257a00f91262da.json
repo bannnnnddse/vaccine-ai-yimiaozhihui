@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_7903ae5ea037a8117be5f80e1dba3c97",
+  "content_hash": "8d8c770e0c82a8d7f7ff5336da9f07d7373ba702a408f3720237851d7accee3c",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_7903ae5ea037a8117be5f80e1dba3c97"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_7903ae5ea037a8117be5f80e1dba3c97"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_7903ae5ea037a8117be5f80e1dba3c97"
+    },
+    {
+      "canonical_name": "11- to 17-year-old individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "11- to 17-year-old individuals",
+      "chunk_id": "chk_7903ae5ea037a8117be5f80e1dba3c97"
+    },
+    {
+      "canonical_name": "11- to 13-year-old individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "11- to 13-year-old individuals",
+      "chunk_id": "chk_7903ae5ea037a8117be5f80e1dba3c97"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

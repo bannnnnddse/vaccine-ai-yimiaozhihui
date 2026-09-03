@@ -1,0 +1,94 @@
+{
+  "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a",
+  "content_hash": "76055ca20ec463b81d84c4de058b9805033c4a8867f7a53c2614ddce4a84247b",
+  "entities": [
+    {
+      "canonical_name": "candidate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "candidate vaccine",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "vaccine-associated enhanced disease",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vaccine-associated enhanced disease",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "VAED",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "VAED",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "formalin-inactivated respiratory syncytial virus (RSV) vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "formalin-inactivated respiratory syncytial virus (RSV) vaccines",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "respiratory syncytial virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "SARS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "Th1-based immune response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th1-based immune response",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "Th2 response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th2 response",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "lung immunopathology",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "lung immunopathology",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    },
+    {
+      "canonical_name": "SARS-CoV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV",
+      "chunk_id": "chk_d6da656f8d4e34eb7e121c961f93080a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

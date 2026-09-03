@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_9a74e3a1dee080f7cf366eb18b72496e",
+  "content_hash": "74f1bbd8f1eb5118e9c585f238f2b0629588b7000ddaec0a17c4d0905f8f809f",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_9a74e3a1dee080f7cf366eb18b72496e"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_9a74e3a1dee080f7cf366eb18b72496e"
+    },
+    {
+      "canonical_name": "pregnant people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant people",
+      "chunk_id": "chk_9a74e3a1dee080f7cf366eb18b72496e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

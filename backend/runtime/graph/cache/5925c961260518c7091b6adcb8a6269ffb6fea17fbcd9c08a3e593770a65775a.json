@@ -1,0 +1,204 @@
+{
+  "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0",
+  "content_hash": "d56933809ad034a9a9aa1579f09b7c104820d26d0e076cdf437aefa3514fba64",
+  "entities": [
+    {
+      "canonical_name": "男性生殖器官疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "男性生殖器官疾病",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "前列腺增生",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "前列腺增生",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "乳房疾患",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "乳房疾患",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "产伤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "产伤",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "出生窒息",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "出生窒息",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "新生儿吸入综合征",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "新生儿吸入综合征",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "围生期的感染",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "围生期的感染",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "胎儿和新生儿的溶血性疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "胎儿和新生儿的溶血性疾病",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "新生儿硬化病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "新生儿硬化病",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "神经系统其他先天性畸形",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "神经系统其他先天性畸形",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "循环系统先天性畸形",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "循环系统先天性畸形",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "先天性心脏病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "先天性心脏病",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "唇裂和腭裂",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "唇裂和腭裂",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "消化系统先天性畸形",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "消化系统先天性畸形",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "生殖泌尿系统先天性畸形",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "生殖泌尿系统先天性畸形",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "肌肉骨骼系统先天性畸形",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "肌肉骨骼系统先天性畸形",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "症状、体征和检验异常",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "症状、体征和检验异常",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "损伤、中毒",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "损伤、中毒",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "骨折",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "骨折",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "颅骨和面骨骨折",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "颅骨和面骨骨折",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "股骨骨折",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "股骨骨折",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "多部位骨折",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "多部位骨折",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "颅内损伤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "颅内损伤",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "烧伤和腐蚀伤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "烧伤和腐蚀伤",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "药物、药剂和生物制品中毒",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "药物、药剂和生物制品中毒",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "非药用物质的毒性效应",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "非药用物质的毒性效应",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "医疗并发症计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "医疗并发症计",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    },
+    {
+      "canonical_name": "手术和操作并发症",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "手术和操作并发症",
+      "chunk_id": "chk_6629da5c318f74080584dcaa7f984ff0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

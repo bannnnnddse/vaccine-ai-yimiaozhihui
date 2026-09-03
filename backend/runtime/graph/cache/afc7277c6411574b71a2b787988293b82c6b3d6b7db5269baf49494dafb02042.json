@@ -1,0 +1,85 @@
+{
+  "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef",
+  "content_hash": "9c0cd35becf6b072e93e68bbdf3429d3623cff7452f37268fc3efb71e61e90ab",
+  "entities": [
+    {
+      "canonical_name": "adverse event",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse event",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "antibodies against hepatitis B core antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies against hepatitis B core antigen",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "antibodies against hepatitis B surface antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies against hepatitis B surface antigen",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "HBsAg vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBsAg vaccine",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "recombinant hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant hepatitis B vaccine",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "hepatitis B surface antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hepatitis B surface antigen",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis B virus",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "interferon gamma",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "interferon gamma",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "interleukin‐2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "interleukin‐2",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "serious adverse event",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serious adverse event",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    },
+    {
+      "canonical_name": "tumour necrosis factor alpha",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "tumour necrosis factor alpha",
+      "chunk_id": "chk_a54f76f656c23466e3bfec3a7cc3bdef"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

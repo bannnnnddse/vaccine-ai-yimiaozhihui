@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_a67a787ccade65942a9420524fe6f726",
+  "content_hash": "a9c5f10d2ff9746a92d15372fe7377156c11c948c888afface8fc2329bd12156",
+  "entities": [
+    {
+      "canonical_name": "group A RV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "group A RV",
+      "chunk_id": "chk_a67a787ccade65942a9420524fe6f726"
+    },
+    {
+      "canonical_name": "acute diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute diarrhea",
+      "chunk_id": "chk_a67a787ccade65942a9420524fe6f726"
+    },
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "chk_a67a787ccade65942a9420524fe6f726"
+    },
+    {
+      "canonical_name": "hereditary hypouricemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hereditary hypouricemia",
+      "chunk_id": "chk_a67a787ccade65942a9420524fe6f726"
+    },
+    {
+      "canonical_name": "acute gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute gastroenteritis",
+      "chunk_id": "chk_a67a787ccade65942a9420524fe6f726"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

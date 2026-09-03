@@ -1,0 +1,15 @@
+{
+  "chunk_id": "9c57b267c889f472403cc996860a0241f72a54a7275951c90b182622b61c0758",
+  "content_hash": "f763dd690a8ad4046949bb8d65b50f53c1783817806b5b14ffe2535fae546f76",
+  "entities": [
+    {
+      "canonical_name": "neutralizing anti-spike IgG antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing anti-spike IgG antibodies",
+      "chunk_id": "9c57b267c889f472403cc996860a0241f72a54a7275951c90b182622b61c0758"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

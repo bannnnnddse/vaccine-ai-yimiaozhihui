@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_c4dcef66c9eb8c61f52e33b664f97795",
+  "content_hash": "c3d76d42a392369975fea7f6357a23081ff6909fefe924c05e7e4620ee38fffa",
+  "entities": [
+    {
+      "canonical_name": "HPV infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HPV infections",
+      "chunk_id": "chk_c4dcef66c9eb8c61f52e33b664f97795"
+    },
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_c4dcef66c9eb8c61f52e33b664f97795"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

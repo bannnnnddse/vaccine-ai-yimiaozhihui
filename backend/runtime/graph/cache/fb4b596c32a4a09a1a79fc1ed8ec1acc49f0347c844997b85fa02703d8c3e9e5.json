@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_7e9b0181763ec1cd89dbe811758de94f",
+  "content_hash": "8fef9b429ec3de0f465ecdcaf0005f2fc2f84b4d2513adfdfa9375629254ecde",
+  "entities": [
+    {
+      "canonical_name": "enterovirus 71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "enterovirus 71",
+      "chunk_id": "chk_7e9b0181763ec1cd89dbe811758de94f"
+    },
+    {
+      "canonical_name": "hand, foot, and mouth disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hand, foot, and mouth disease",
+      "chunk_id": "chk_7e9b0181763ec1cd89dbe811758de94f"
+    },
+    {
+      "canonical_name": "HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD",
+      "chunk_id": "chk_7e9b0181763ec1cd89dbe811758de94f"
+    },
+    {
+      "canonical_name": "健康人群",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "健康人群",
+      "chunk_id": "chk_7e9b0181763ec1cd89dbe811758de94f"
+    },
+    {
+      "canonical_name": "社区人群",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "社区人群",
+      "chunk_id": "chk_7e9b0181763ec1cd89dbe811758de94f"
+    },
+    {
+      "canonical_name": "EV71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV71",
+      "chunk_id": "chk_7e9b0181763ec1cd89dbe811758de94f"
+    },
+    {
+      "canonical_name": "CoxA16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CoxA16",
+      "chunk_id": "chk_7e9b0181763ec1cd89dbe811758de94f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_712d995601ea095180a6a5b59efdedd7",
+  "content_hash": "e674af92206f28f8b0ef4e68e71f7084e6a1f3528b2b1cc53879deae5ab50f9c",
+  "entities": [
+    {
+      "canonical_name": "12 – 17-year-old adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "12 – 17-year-old adolescents",
+      "chunk_id": "chk_712d995601ea095180a6a5b59efdedd7"
+    },
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_712d995601ea095180a6a5b59efdedd7"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_712d995601ea095180a6a5b59efdedd7"
+    },
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_712d995601ea095180a6a5b59efdedd7"
+    },
+    {
+      "canonical_name": "household members",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "household members",
+      "chunk_id": "chk_712d995601ea095180a6a5b59efdedd7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

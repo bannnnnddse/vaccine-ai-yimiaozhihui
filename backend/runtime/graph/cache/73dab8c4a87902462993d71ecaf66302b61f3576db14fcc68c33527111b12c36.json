@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_9ef8269bdca1ccadb927a90121fe4019",
+  "content_hash": "83bfa4d79cbcde9a4368d5f75a9f6d65008c8954a3a68e74149964580375ad23",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_9ef8269bdca1ccadb927a90121fe4019"
+    },
+    {
+      "canonical_name": "plasma cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cell",
+      "chunk_id": "chk_9ef8269bdca1ccadb927a90121fe4019"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

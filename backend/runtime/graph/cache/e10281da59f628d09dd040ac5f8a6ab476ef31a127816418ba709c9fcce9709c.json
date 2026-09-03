@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_03c8010e9b8eab2be108fd7219b94b4a",
+  "content_hash": "ed2b4ba10ecbd59336940e163a7efcf340cc1b9efa2df357ab5a67240c15ce1a",
+  "entities": [
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_03c8010e9b8eab2be108fd7219b94b4a"
+    },
+    {
+      "canonical_name": "anti-HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs",
+      "chunk_id": "chk_03c8010e9b8eab2be108fd7219b94b4a"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_03c8010e9b8eab2be108fd7219b94b4a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

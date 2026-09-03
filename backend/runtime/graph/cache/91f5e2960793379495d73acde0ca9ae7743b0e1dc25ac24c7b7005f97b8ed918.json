@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_976a6a89acd41680161cc4b8fb568125",
+  "content_hash": "2e7f5bd5d1457dd237fd07c91fefb27dc120c747e6858227179cc1f41f7576df",
+  "entities": [
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_976a6a89acd41680161cc4b8fb568125"
+    },
+    {
+      "canonical_name": "pericarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "pericarditis",
+      "chunk_id": "chk_976a6a89acd41680161cc4b8fb568125"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_976a6a89acd41680161cc4b8fb568125"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_976a6a89acd41680161cc4b8fb568125"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_976a6a89acd41680161cc4b8fb568125"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

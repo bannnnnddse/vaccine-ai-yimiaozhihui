@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_3382c1d83e7b91a6c5eab73a2e7645df",
+  "content_hash": "d7d6a6cba4564141bd0adbc37329e51693c058d83c3386ed5a94a9d279b370e9",
+  "entities": [
+    {
+      "canonical_name": "unvaccinated individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "unvaccinated individuals",
+      "chunk_id": "chk_3382c1d83e7b91a6c5eab73a2e7645df"
+    },
+    {
+      "canonical_name": "herd immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "herd immunity",
+      "chunk_id": "chk_3382c1d83e7b91a6c5eab73a2e7645df"
+    },
+    {
+      "canonical_name": "herd protection",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "herd protection",
+      "chunk_id": "chk_3382c1d83e7b91a6c5eab73a2e7645df"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

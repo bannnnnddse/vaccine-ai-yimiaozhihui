@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_d11f9a181590e6d6e04acf6cff41e56f",
+  "content_hash": "184ebfa8efe755b3ae92691d7d1f2ae49bf6c704e81bcc1d50c3ece9c072c28f",
+  "entities": [
+    {
+      "canonical_name": "invasive bacterial diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive bacterial diseases",
+      "chunk_id": "chk_d11f9a181590e6d6e04acf6cff41e56f"
+    },
+    {
+      "canonical_name": "polysaccharide–protein conjugates",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "polysaccharide–protein conjugates",
+      "chunk_id": "chk_d11f9a181590e6d6e04acf6cff41e56f"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_d11f9a181590e6d6e04acf6cff41e56f"
+    },
+    {
+      "canonical_name": "specific infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "specific infections",
+      "chunk_id": "chk_d11f9a181590e6d6e04acf6cff41e56f"
+    },
+    {
+      "canonical_name": "immunocompromised host",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised host",
+      "chunk_id": "chk_d11f9a181590e6d6e04acf6cff41e56f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

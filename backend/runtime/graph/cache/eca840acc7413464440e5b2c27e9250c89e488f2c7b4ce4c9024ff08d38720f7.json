@@ -1,0 +1,59 @@
+{
+  "chunk_id": "chk_2633aba207477468a936d4c7bc3ecfc9",
+  "content_hash": "ef76dcabcba7a86788cd3d3f5c16287db5adace8338fdbda5b28ab10ae4f8359",
+  "entities": [
+    {
+      "canonical_name": "TNF-a",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TNF-a",
+      "chunk_id": "chk_2633aba207477468a936d4c7bc3ecfc9"
+    },
+    {
+      "canonical_name": "macrophage migration inhibitory factor",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "macrophage migration inhibitory factor",
+      "chunk_id": "chk_2633aba207477468a936d4c7bc3ecfc9"
+    },
+    {
+      "canonical_name": "severe dengue",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe dengue",
+      "chunk_id": "chk_2633aba207477468a936d4c7bc3ecfc9"
+    },
+    {
+      "canonical_name": "plasma leakage",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "plasma leakage",
+      "chunk_id": "chk_2633aba207477468a936d4c7bc3ecfc9"
+    },
+    {
+      "canonical_name": "coagulopathy",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "coagulopathy",
+      "chunk_id": "chk_2633aba207477468a936d4c7bc3ecfc9"
+    },
+    {
+      "canonical_name": "type 1 IFN",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "type 1 IFN",
+      "chunk_id": "chk_2633aba207477468a936d4c7bc3ecfc9"
+    },
+    {
+      "canonical_name": "viremia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "viremia",
+      "chunk_id": "chk_2633aba207477468a936d4c7bc3ecfc9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

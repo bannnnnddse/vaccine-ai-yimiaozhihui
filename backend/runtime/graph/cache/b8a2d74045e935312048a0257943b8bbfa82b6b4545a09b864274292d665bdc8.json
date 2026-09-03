@@ -1,0 +1,22 @@
+{
+  "chunk_id": "885f3b7a06c876ce5e829ff2b9076baded7a333bfd6721784266072af12b960c",
+  "content_hash": "1ebc3849c9179e5b03366fd6334d3ff92abb01faf4b94ebf591f7ebbc52047e7",
+  "entities": [
+    {
+      "canonical_name": "Bmems",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Bmems",
+      "chunk_id": "885f3b7a06c876ce5e829ff2b9076baded7a333bfd6721784266072af12b960c"
+    },
+    {
+      "canonical_name": "Innate-like lymphocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Innate-like lymphocytes",
+      "chunk_id": "885f3b7a06c876ce5e829ff2b9076baded7a333bfd6721784266072af12b960c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

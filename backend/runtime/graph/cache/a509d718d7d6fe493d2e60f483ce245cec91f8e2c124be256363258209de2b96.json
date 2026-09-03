@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_5fe9ebcba9fbc98c1206cc38cfa55bde",
+  "content_hash": "38fd3394a8d9002b181eae608f9d5be9bf3a0e84bd036aca02aac479c0521999",
+  "entities": [
+    {
+      "canonical_name": "IXIARO",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IXIARO",
+      "chunk_id": "chk_5fe9ebcba9fbc98c1206cc38cfa55bde"
+    },
+    {
+      "canonical_name": "TBE",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TBE",
+      "chunk_id": "chk_5fe9ebcba9fbc98c1206cc38cfa55bde"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

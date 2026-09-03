@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_58b59be347dc53173c65b343aad63bcd",
+  "content_hash": "36f4d06bf8193f8ccd78bc6e57ccdb449a86ba756dda3a28df5808a991f71a00",
+  "entities": [
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "chk_58b59be347dc53173c65b343aad63bcd"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_58b59be347dc53173c65b343aad63bcd"
+    },
+    {
+      "canonical_name": "bacteria",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "bacteria",
+      "chunk_id": "chk_58b59be347dc53173c65b343aad63bcd"
+    },
+    {
+      "canonical_name": "viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "viruses",
+      "chunk_id": "chk_58b59be347dc53173c65b343aad63bcd"
+    },
+    {
+      "canonical_name": "attenuated live vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "attenuated live vaccines",
+      "chunk_id": "chk_58b59be347dc53173c65b343aad63bcd"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "chk_58b59be347dc53173c65b343aad63bcd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

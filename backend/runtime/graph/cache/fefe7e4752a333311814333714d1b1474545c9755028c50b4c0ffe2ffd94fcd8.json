@@ -1,0 +1,54 @@
+{
+  "chunk_id": "chk_b8f79693975c13a8847602a2369606d6",
+  "content_hash": "488e1a926b75c1c3cdd381d7693616ef67bd8f6fbe010be23a311aa373d8f712",
+  "entities": [
+    {
+      "canonical_name": "children under the age of 3",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under the age of 3",
+      "chunk_id": "chk_b8f79693975c13a8847602a2369606d6"
+    },
+    {
+      "canonical_name": "rotavirus disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus disease",
+      "chunk_id": "chk_b8f79693975c13a8847602a2369606d6"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_b8f79693975c13a8847602a2369606d6"
+    },
+    {
+      "canonical_name": "deaths",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "deaths",
+      "chunk_id": "chk_b8f79693975c13a8847602a2369606d6"
+    },
+    {
+      "canonical_name": "hospitalizations",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "hospitalizations",
+      "chunk_id": "chk_b8f79693975c13a8847602a2369606d6"
+    },
+    {
+      "canonical_name": "nosocomial infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "nosocomial infection",
+      "chunk_id": "chk_b8f79693975c13a8847602a2369606d6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "source_missing_from_quote"
+  ]
+}

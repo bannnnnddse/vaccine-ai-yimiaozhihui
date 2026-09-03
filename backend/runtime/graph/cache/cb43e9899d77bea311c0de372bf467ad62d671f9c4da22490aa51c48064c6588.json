@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_4b32bd1daee284a3a356ce1055b360ca",
+  "content_hash": "ec262e2cb390dadcf6f4c23a40f6c7bedc3afa144bbac4cb89fa349e0108085b",
+  "entities": [
+    {
+      "canonical_name": "Tdap",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Tdap",
+      "chunk_id": "chk_4b32bd1daee284a3a356ce1055b360ca"
+    },
+    {
+      "canonical_name": "27 to 36 weeks gestation",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "27 to 36 weeks gestation",
+      "chunk_id": "chk_4b32bd1daee284a3a356ce1055b360ca"
+    },
+    {
+      "canonical_name": "COVID vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID vaccine",
+      "chunk_id": "chk_4b32bd1daee284a3a356ce1055b360ca"
+    },
+    {
+      "canonical_name": "pregnant people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant people",
+      "chunk_id": "chk_4b32bd1daee284a3a356ce1055b360ca"
+    },
+    {
+      "canonical_name": "influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccine",
+      "chunk_id": "chk_4b32bd1daee284a3a356ce1055b360ca"
+    },
+    {
+      "canonical_name": "newborn",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "newborn",
+      "chunk_id": "chk_4b32bd1daee284a3a356ce1055b360ca"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "target_missing_from_quote"
+  ]
+}

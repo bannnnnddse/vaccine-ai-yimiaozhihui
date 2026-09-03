@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_b94e3ed5c181a4c65338f39019839fd3",
+  "content_hash": "42b23c310e40c89e32ac68cf0d6cc21ac6fdb0adb9982627099aff01541fa300",
+  "entities": [
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_b94e3ed5c181a4c65338f39019839fd3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

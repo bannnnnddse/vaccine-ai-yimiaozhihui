@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_f22b41df3a2cf57dc690060d13fe5319",
+  "content_hash": "49841418d8ecb238bbc2c41b4dc3606bc601804dc9e1d880c97f75be0cdffc1d",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_f22b41df3a2cf57dc690060d13fe5319"
+    },
+    {
+      "canonical_name": "NAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NAb",
+      "chunk_id": "chk_f22b41df3a2cf57dc690060d13fe5319"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_2a153ad777e754f422b2276b2ad9187a",
+  "content_hash": "e9901a475d75e53a184eb372fa8d5ea78f7fa5f1ed2b4a17c5a4d82d6e26c29d",
+  "entities": [
+    {
+      "canonical_name": "cancervaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "cancervaccines",
+      "chunk_id": "chk_2a153ad777e754f422b2276b2ad9187a"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_2a153ad777e754f422b2276b2ad9187a"
+    },
+    {
+      "canonical_name": "Antigen-specific vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Antigen-specific vaccines",
+      "chunk_id": "chk_2a153ad777e754f422b2276b2ad9187a"
+    },
+    {
+      "canonical_name": "Personalized vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Personalized vaccines",
+      "chunk_id": "chk_2a153ad777e754f422b2276b2ad9187a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

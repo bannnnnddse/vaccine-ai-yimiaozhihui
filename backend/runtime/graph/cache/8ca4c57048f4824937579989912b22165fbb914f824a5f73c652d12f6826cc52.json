@@ -1,0 +1,29 @@
+{
+  "chunk_id": "fe87d0fc8fb46018d175ffe955a1a6c464fba19e1b2e6353a11e43001a99ff7d",
+  "content_hash": "51e88f7c2f20fa357d28e595934e762d934451c48286c9dec5993e01f0857067",
+  "entities": [
+    {
+      "canonical_name": "vaccination protocols",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "vaccination protocols",
+      "chunk_id": "fe87d0fc8fb46018d175ffe955a1a6c464fba19e1b2e6353a11e43001a99ff7d"
+    },
+    {
+      "canonical_name": "adaptive immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "adaptive immunity",
+      "chunk_id": "fe87d0fc8fb46018d175ffe955a1a6c464fba19e1b2e6353a11e43001a99ff7d"
+    },
+    {
+      "canonical_name": "SFTSV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SFTSV vaccine",
+      "chunk_id": "fe87d0fc8fb46018d175ffe955a1a6c464fba19e1b2e6353a11e43001a99ff7d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

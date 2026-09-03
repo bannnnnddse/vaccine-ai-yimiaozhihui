@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_beed73959311d774a3c5279a16bbca3a",
+  "content_hash": "d943f71a153b85e1008d8ce9e3d0419e8c58ee005c38ef280870d3c7877de076",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_beed73959311d774a3c5279a16bbca3a"
+    },
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_beed73959311d774a3c5279a16bbca3a"
+    },
+    {
+      "canonical_name": "CKD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CKD",
+      "chunk_id": "chk_beed73959311d774a3c5279a16bbca3a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

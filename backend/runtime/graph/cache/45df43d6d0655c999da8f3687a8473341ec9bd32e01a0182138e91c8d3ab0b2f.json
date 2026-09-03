@@ -1,0 +1,22 @@
+{
+  "chunk_id": "db17d2132a01daac7854bf1e4e0b059670b46a4331a0b2f00b986fde463a8a28",
+  "content_hash": "de7a57f6c651d81ae4be91405a5690b3e45a231367ec66725319ee82968334ac",
+  "entities": [
+    {
+      "canonical_name": "TBE",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TBE",
+      "chunk_id": "db17d2132a01daac7854bf1e4e0b059670b46a4331a0b2f00b986fde463a8a28"
+    },
+    {
+      "canonical_name": "JE vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "JE vaccine",
+      "chunk_id": "db17d2132a01daac7854bf1e4e0b059670b46a4331a0b2f00b986fde463a8a28"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

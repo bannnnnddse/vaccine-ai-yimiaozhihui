@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d0086552415d812dcbee5b2492938289",
+  "content_hash": "cc31000b626f7fab3db989df5ed1904dc4a76960c00f715c3896475ee5429ece",
+  "entities": [
+    {
+      "canonical_name": "MenC",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenC",
+      "chunk_id": "chk_d0086552415d812dcbee5b2492938289"
+    },
+    {
+      "canonical_name": "MenB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenB",
+      "chunk_id": "chk_d0086552415d812dcbee5b2492938289"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_d0086552415d812dcbee5b2492938289"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

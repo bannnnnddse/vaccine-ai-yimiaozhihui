@@ -1,0 +1,68 @@
+{
+  "chunk_id": "chk_02e3f92f5111d3b08126a92c23485886",
+  "content_hash": "c17a9e2ed6032933af6f57aaad78bf65e98dcb17c47f59403105a5f1d11fe032",
+  "entities": [
+    {
+      "canonical_name": "ADEs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "ADEs",
+      "chunk_id": "chk_02e3f92f5111d3b08126a92c23485886"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_02e3f92f5111d3b08126a92c23485886"
+    },
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_02e3f92f5111d3b08126a92c23485886"
+    },
+    {
+      "canonical_name": "MF59",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MF59",
+      "chunk_id": "chk_02e3f92f5111d3b08126a92c23485886"
+    },
+    {
+      "canonical_name": "AS03",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "AS03",
+      "chunk_id": "chk_02e3f92f5111d3b08126a92c23485886"
+    },
+    {
+      "canonical_name": "AF03",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "AF03",
+      "chunk_id": "chk_02e3f92f5111d3b08126a92c23485886"
+    },
+    {
+      "canonical_name": "humoral and cellular immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral and cellular immune responses",
+      "chunk_id": "chk_02e3f92f5111d3b08126a92c23485886"
+    },
+    {
+      "canonical_name": "recombinant protein vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant protein vaccines",
+      "chunk_id": "chk_02e3f92f5111d3b08126a92c23485886"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

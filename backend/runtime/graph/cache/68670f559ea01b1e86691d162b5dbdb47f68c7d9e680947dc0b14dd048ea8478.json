@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_cd92b44b04f65bbd04a466fd6fc8ddce",
+  "content_hash": "71fa3b7ee7a01b2b4eb55e071d04489dadc66a6daa40a7bf5c7ac8be4a532a98",
+  "entities": [
+    {
+      "canonical_name": "antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen",
+      "chunk_id": "chk_cd92b44b04f65bbd04a466fd6fc8ddce"
+    },
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_cd92b44b04f65bbd04a466fd6fc8ddce"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

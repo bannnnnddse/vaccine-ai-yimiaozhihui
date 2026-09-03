@@ -1,0 +1,63 @@
+{
+  "chunk_id": "fc0bde9474d22119d4ed7b323b21ac71862cf1c4746c272d871c656edeecf575",
+  "content_hash": "1bbe12832f4a63abd5e898046102800c8f4d04da29c0abdb9c7b0e15236bf27d",
+  "entities": [
+    {
+      "canonical_name": "quadrivalent HPV (4vHPV) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent HPV (4vHPV) vaccine",
+      "chunk_id": "fc0bde9474d22119d4ed7b323b21ac71862cf1c4746c272d871c656edeecf575"
+    },
+    {
+      "canonical_name": "females ages 11 to 12 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females ages 11 to 12 years",
+      "chunk_id": "fc0bde9474d22119d4ed7b323b21ac71862cf1c4746c272d871c656edeecf575"
+    },
+    {
+      "canonical_name": "females ages 13 to 26 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females ages 13 to 26 years",
+      "chunk_id": "fc0bde9474d22119d4ed7b323b21ac71862cf1c4746c272d871c656edeecf575"
+    },
+    {
+      "canonical_name": "persistent HPV infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "persistent HPV infections",
+      "chunk_id": "fc0bde9474d22119d4ed7b323b21ac71862cf1c4746c272d871c656edeecf575"
+    },
+    {
+      "canonical_name": "cervical disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical disease",
+      "chunk_id": "fc0bde9474d22119d4ed7b323b21ac71862cf1c4746c272d871c656edeecf575"
+    },
+    {
+      "canonical_name": "external genital warts",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "external genital warts",
+      "chunk_id": "fc0bde9474d22119d4ed7b323b21ac71862cf1c4746c272d871c656edeecf575"
+    },
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "fc0bde9474d22119d4ed7b323b21ac71862cf1c4746c272d871c656edeecf575"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "quote_missing",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

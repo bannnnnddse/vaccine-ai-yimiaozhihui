@@ -1,0 +1,214 @@
+{
+  "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22",
+  "content_hash": "4dd9706d31ff2cb6f664ce2fd413517243be6d47b6bc7a01b31e343bcbcdfc8e",
+  "entities": [
+    {
+      "canonical_name": "HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "HPV 疫苗",
+        "HPV疫苗",
+        "人乳头瘤病毒疫苗"
+      ],
+      "surface_form": "HPV疫苗",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "子宫颈癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "子宫颈癌",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "双价疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "双价疫苗",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "四价疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "四价疫苗",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "九价疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "九价疫苗",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "HPV16/18",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV16/18",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "HPV6/11/16/18",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV6/11/16/18",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "HPV6/11/16/18/31/33/45/52/58",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV6/11/16/18/31/33/45/52/58",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "HPV相关疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HPV相关疾病",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "国产双价HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "国产双价HPV疫苗",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "HPV16",
+      "entity_type": "Pathogen",
+      "aliases": [
+        "HPV 16",
+        "HPV-16",
+        "HPV16"
+      ],
+      "surface_form": "HPV16",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "高级别生殖器病变",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "高级别生殖器病变",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "持续感染",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "持续感染",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "HPV 疫苗",
+          "HPV疫苗",
+          "人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "HPV疫苗",
+        "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+      },
+      "target": {
+        "canonical_name": "子宫颈癌",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "子宫颈癌",
+        "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "HPV疫苗接种后，会刺激机体产生特异性中和抗体，抗体能中和入侵的HPV，从而阻止HPV的感染，进而预防子宫颈癌的发生和发展。",
+      "confidence": 0.95,
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "source": {
+        "canonical_name": "HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "HPV 疫苗",
+          "HPV疫苗",
+          "人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "HPV疫苗",
+        "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+      },
+      "target": {
+        "canonical_name": "HPV",
+        "entity_type": "Pathogen",
+        "aliases": [],
+        "surface_form": "HPV",
+        "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "HPV疫苗接种后，会刺激机体产生特异性中和抗体，抗体能中和入侵的HPV，从而阻止HPV的感染，进而预防子宫颈癌的发生和发展。",
+      "confidence": 0.88,
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "source": {
+        "canonical_name": "HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "HPV 疫苗",
+          "HPV疫苗",
+          "人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "HPV疫苗",
+        "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+      },
+      "target": {
+        "canonical_name": "HPV相关疾病",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "HPV相关疾病",
+        "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "目前双价、四价和九价HPV疫苗在全球各地的临床试验结果显示，完成全程免疫接种（包括3剂接种程序及部分国家小年龄人群的2剂接种程序），均能观察到较高的疫苗相关抗体阳转率及血清抗体滴度，且在预防疫苗相关基因型引起HPV相关疾病的临床试验中均显示出较好的效力。",
+      "confidence": 0.88,
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "source": {
+        "canonical_name": "HPV",
+        "entity_type": "Pathogen",
+        "aliases": [],
+        "surface_form": "HPV",
+        "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+      },
+      "target": {
+        "canonical_name": "HPV相关疾病",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "HPV相关疾病",
+        "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+      },
+      "relation_type": "CAUSES",
+      "evidence_quote": "目前双价、四价和九价HPV疫苗在全球各地的临床试验结果显示，完成全程免疫接种（包括3剂接种程序及部分国家小年龄人群的2剂接种程序），均能观察到较高的疫苗相关抗体阳转率及血清抗体滴度，且在预防疫苗相关基因型引起HPV相关疾病的临床试验中均显示出较好的效力。",
+      "confidence": 0.88,
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    }
+  ],
+  "rejected": [
+    "entity_surface_missing",
+    "invalid_domain_range",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

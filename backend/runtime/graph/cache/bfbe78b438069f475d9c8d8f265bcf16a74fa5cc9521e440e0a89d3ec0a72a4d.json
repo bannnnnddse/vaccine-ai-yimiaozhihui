@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_508880c401c3fe0d0f598c87c0bc1a15",
+  "content_hash": "906f1363cae9371f6d3ce4bb346412629a997d11f9b8e6d2d7a2178bb578ab53",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccination",
+      "chunk_id": "chk_508880c401c3fe0d0f598c87c0bc1a15"
+    },
+    {
+      "canonical_name": "high-risk patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "high-risk patients",
+      "chunk_id": "chk_508880c401c3fe0d0f598c87c0bc1a15"
+    },
+    {
+      "canonical_name": "cardiovascular outcomes",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "cardiovascular outcomes",
+      "chunk_id": "chk_508880c401c3fe0d0f598c87c0bc1a15"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

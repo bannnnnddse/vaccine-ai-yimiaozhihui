@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e5298ba6ebe76c8b5b8f795ea0da3048",
+  "content_hash": "bbb558dfffc4017445bef583e3922f7ff44cfbbe9ab4ccce6bac6bb440219e04",
+  "entities": [
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_e5298ba6ebe76c8b5b8f795ea0da3048"
+    },
+    {
+      "canonical_name": "HBsAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HBsAb",
+      "chunk_id": "chk_e5298ba6ebe76c8b5b8f795ea0da3048"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

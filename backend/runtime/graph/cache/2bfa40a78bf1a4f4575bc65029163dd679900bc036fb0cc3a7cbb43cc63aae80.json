@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_58a60882f1043917d7960952f8062a69",
+  "content_hash": "858af855d2f486f48795f1107cdf1a39209f9211b1b85bee6003c33498035e56",
+  "entities": [
+    {
+      "canonical_name": "Diarrhoea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Diarrhoea",
+      "chunk_id": "chk_58a60882f1043917d7960952f8062a69"
+    },
+    {
+      "canonical_name": "Acute Infectious Diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Acute Infectious Diarrhea",
+      "chunk_id": "chk_58a60882f1043917d7960952f8062a69"
+    },
+    {
+      "canonical_name": "Gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Gastroenteritis",
+      "chunk_id": "chk_58a60882f1043917d7960952f8062a69"
+    },
+    {
+      "canonical_name": "Children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Children",
+      "chunk_id": "chk_58a60882f1043917d7960952f8062a69"
+    },
+    {
+      "canonical_name": "RV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RV infection",
+      "chunk_id": "chk_58a60882f1043917d7960952f8062a69"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

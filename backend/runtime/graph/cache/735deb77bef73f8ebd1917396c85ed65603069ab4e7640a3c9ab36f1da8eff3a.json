@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_c9a547eb1d27c2cd2453246cc149d2cd",
+  "content_hash": "1c3c3bb25b2e7ed6d82927e6cd19128ce950206b81a3c89310cb81659a97da8a",
+  "entities": [
+    {
+      "canonical_name": "ChAdOx1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1",
+      "chunk_id": "chk_c9a547eb1d27c2cd2453246cc149d2cd"
+    },
+    {
+      "canonical_name": "pericarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "pericarditis",
+      "chunk_id": "chk_c9a547eb1d27c2cd2453246cc149d2cd"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_c9a547eb1d27c2cd2453246cc149d2cd"
+    },
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_c9a547eb1d27c2cd2453246cc149d2cd"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

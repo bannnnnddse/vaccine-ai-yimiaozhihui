@@ -1,0 +1,24 @@
+{
+  "chunk_id": "c3fe5939fe6152eb8ca90d1ca3a9bfab6567cb401cfa404de45aa03cfb630c38",
+  "content_hash": "499f4bdac61444c8fb796cfbfbea1519720eb038d5fb97add1a9c95867bd002a",
+  "entities": [
+    {
+      "canonical_name": "quadrivalent nucleoside-modified mRNA-LNP vaccine formulation",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent nucleoside-modified mRNA-LNP vaccine formulation",
+      "chunk_id": "c3fe5939fe6152eb8ca90d1ca3a9bfab6567cb401cfa404de45aa03cfb630c38"
+    },
+    {
+      "canonical_name": "group 2 influenza viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "group 2 influenza viruses",
+      "chunk_id": "c3fe5939fe6152eb8ca90d1ca3a9bfab6567cb401cfa404de45aa03cfb630c38"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

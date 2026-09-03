@@ -1,0 +1,53 @@
+{
+  "index_version": "rag-v2-20260816T042012671723Z-32af4353",
+  "build_timestamp": "2026-08-16T04:29:27.025737+00:00",
+  "status": "candidate",
+  "embedding_model": "BAAI/bge-small-zh-v1.5",
+  "chunking_version": "structure_v2_docling",
+  "chunk_size": 600,
+  "chunk_overlap": 100,
+  "corpus_manifest_hash": "32af4353e3115d4a808f0114a451417578b45000b5e14facd641fdc553ba0c93",
+  "chunk_catalog_hash": "97dc021ff202e738311afc8d154492f9ff8897a26c71a05ec1eef884e26001d6",
+  "corpus_document_count": 139,
+  "accepted_document_count": 131,
+  "excluded_document_count": 8,
+  "acceptance_policy": {
+    "exact_duplicates": "exclude",
+    "parse_status": [
+      "parsed",
+      "partial",
+      "ocr_parsed"
+    ],
+    "download_placeholders": "exclude",
+    "minimum_authority_level": 1
+  },
+  "document_count": 131,
+  "chunk_count": 15946,
+  "docling_files_seen": 120,
+  "docling_files_loaded": 120,
+  "markdown_files_loaded": 11,
+  "needs_review_count": 113,
+  "parse_status": {
+    "ocr_parsed": 1,
+    "parsed": 129,
+    "partial": 9
+  },
+  "source_types": {
+    "academic_paper": 114,
+    "download_placeholder": 4,
+    "incomplete_preview": 1,
+    "official_document": 9,
+    "official_web": 11
+  },
+  "warnings": [],
+  "pipeline": {
+    "dense_fetch_k": 20,
+    "lexical_fetch_k": 20,
+    "fusion_candidate_k": 30,
+    "rrf_k": 60,
+    "reranker_model": "BAAI/bge-reranker-base",
+    "rerank_candidate_k": 8,
+    "quality_prior_max_adjustment": 0.05,
+    "max_chunks_per_document": 2
+  }
+}

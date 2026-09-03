@@ -1,0 +1,127 @@
+{
+  "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed",
+  "content_hash": "c8afe23bcaee13a77307e1dfd177016443baa240a7338145ae6cbf0faba9a654",
+  "entities": [
+    {
+      "canonical_name": "传染病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "传染病计",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "寄生虫病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "寄生虫病计",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "恶性肿瘤计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "恶性肿瘤计",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "良性肿瘤计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "良性肿瘤计",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "内分泌、营养和代谢疾病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "内分泌、营养和代谢疾病计",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "糖尿病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "糖尿病",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "血液、造血器官疾病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "血液、造血器官疾病计",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "精神病小计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "精神病小计",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "神经系统疾病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "神经系统疾病计",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "眼及附器疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "眼及附器疾病",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "耳和乳突疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "耳和乳突疾病",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "循环系统疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "循环系统疾病",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "心脏病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "心脏病",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "高血压",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "高血压",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "脑血管病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "脑血管病",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "呼吸系统疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "呼吸系统疾病",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    },
+    {
+      "canonical_name": "急性上呼吸道感染",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性上呼吸道感染",
+      "chunk_id": "chk_00fc43c74947b13f11bb749833aa8fed"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

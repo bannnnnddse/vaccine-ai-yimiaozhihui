@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_901d1426e629a060a0e67d7e744aa573",
+  "content_hash": "319961c7def5573e50806ca731228acaa2c3c59e059a321d6be2bef562b67cfd",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_901d1426e629a060a0e67d7e744aa573"
+    },
+    {
+      "canonical_name": "immune overstimulation",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "immune overstimulation",
+      "chunk_id": "chk_901d1426e629a060a0e67d7e744aa573"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

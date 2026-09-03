@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_0a5c0a2787d91115f30fd76eb9284fb4",
+  "content_hash": "ce61d4efe573f41d3b01c368d26746cf13c57b68208f4c78c8d86abbaddfacc6",
+  "entities": [
+    {
+      "canonical_name": "trained immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "trained immunity",
+      "chunk_id": "chk_0a5c0a2787d91115f30fd76eb9284fb4"
+    },
+    {
+      "canonical_name": "host defense",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "host defense",
+      "chunk_id": "chk_0a5c0a2787d91115f30fd76eb9284fb4"
+    },
+    {
+      "canonical_name": "classical immunological memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "classical immunological memory",
+      "chunk_id": "chk_0a5c0a2787d91115f30fd76eb9284fb4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

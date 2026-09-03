@@ -1,0 +1,121 @@
+{
+  "chunk_id": "chk_fc1d854e6981447b185c051627194141",
+  "content_hash": "7e99cc04eb447f616d2647f7bd441f44e643c9358d023bf3107ce03f25f53538",
+  "entities": [
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "结核杆菌",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "结核杆菌",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "结核性脑膜炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "结核性脑膜炎",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "粟粒性结核",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "粟粒性结核",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "新生儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "新生儿",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "乙肝病毒",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "乙肝病毒",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "canonical_name": "乙肝疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙肝疫苗",
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "卡介苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "卡介苗",
+        "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+      },
+      "target": {
+        "canonical_name": "结核性脑膜炎",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "结核性脑膜炎",
+        "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "接种卡介苗后能使机体对结核杆菌产生特异性的免疫力，可阻止结核杆菌在人体内的繁殖和播散，因此它对预防结核性脑膜炎和粟粒性结核有较好的作用。",
+      "confidence": 0.9,
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "source": {
+        "canonical_name": "卡介苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "卡介苗",
+        "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+      },
+      "target": {
+        "canonical_name": "粟粒性结核",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "粟粒性结核",
+        "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "接种卡介苗后能使机体对结核杆菌产生特异性的免疫力，可阻止结核杆菌在人体内的繁殖和播散，因此它对预防结核性脑膜炎和粟粒性结核有较好的作用。",
+      "confidence": 0.9,
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    },
+    {
+      "source": {
+        "canonical_name": "卡介苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "卡介苗",
+        "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+      },
+      "target": {
+        "canonical_name": "结核杆菌",
+        "entity_type": "Pathogen",
+        "aliases": [],
+        "surface_form": "结核杆菌",
+        "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "接种卡介苗后能使机体对结核杆菌产生特异性的免疫力，可阻止结核杆菌在人体内的繁殖和播散，因此它对预防结核性脑膜炎和粟粒性结核有较好的作用。",
+      "confidence": 0.88,
+      "chunk_id": "chk_fc1d854e6981447b185c051627194141"
+    }
+  ],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

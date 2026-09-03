@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_21bb434e26b1b457bcdca263430c531a",
+  "content_hash": "d3620c7873a305ce1ffc82f3eb023f9b1ad74fe11ab9349ea7e3fe4ea7432395",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_21bb434e26b1b457bcdca263430c531a"
+    },
+    {
+      "canonical_name": "Chinese adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Chinese adults",
+      "chunk_id": "chk_21bb434e26b1b457bcdca263430c531a"
+    },
+    {
+      "canonical_name": "non-responders",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "non-responders",
+      "chunk_id": "chk_21bb434e26b1b457bcdca263430c531a"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_21bb434e26b1b457bcdca263430c531a"
+    },
+    {
+      "canonical_name": "mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mothers",
+      "chunk_id": "chk_21bb434e26b1b457bcdca263430c531a"
+    },
+    {
+      "canonical_name": "hepatitis B surface antigen",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis B surface antigen",
+      "chunk_id": "chk_21bb434e26b1b457bcdca263430c531a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

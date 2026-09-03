@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_57a6d90d4c7a41372b29a0e7d721423d",
+  "content_hash": "b90ba8da589aff11bf2bcd28c2e7765e99b4e546ccfb191734fd76c075e25153",
+  "entities": [
+    {
+      "canonical_name": "疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "疫苗",
+      "chunk_id": "chk_57a6d90d4c7a41372b29a0e7d721423d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_11ce48e21f1c07f54102b9a2c3c100b0",
+  "content_hash": "d5325388d3eb8e81bd4d58ec38bcf84f8ce47baf37c9535334032d3d8c43e3c5",
+  "entities": [
+    {
+      "canonical_name": "daughters",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "daughters",
+      "chunk_id": "chk_11ce48e21f1c07f54102b9a2c3c100b0"
+    },
+    {
+      "canonical_name": "girls aged 9–11",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "girls aged 9–11",
+      "chunk_id": "chk_11ce48e21f1c07f54102b9a2c3c100b0"
+    },
+    {
+      "canonical_name": "girls aged 12–14",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "girls aged 12–14",
+      "chunk_id": "chk_11ce48e21f1c07f54102b9a2c3c100b0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_69500ceff4446b112c0cdc062ab7c610",
+  "content_hash": "3133e4b1ae2e01a198628470f576e511dd8c03efa47e1b0a12a14e446a670f4f",
+  "entities": [
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_69500ceff4446b112c0cdc062ab7c610"
+    },
+    {
+      "canonical_name": "chronic HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic HBV infection",
+      "chunk_id": "chk_69500ceff4446b112c0cdc062ab7c610"
+    },
+    {
+      "canonical_name": "HBV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBV vaccination",
+      "chunk_id": "chk_69500ceff4446b112c0cdc062ab7c610"
+    },
+    {
+      "canonical_name": "newborn",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "newborn",
+      "chunk_id": "chk_69500ceff4446b112c0cdc062ab7c610"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

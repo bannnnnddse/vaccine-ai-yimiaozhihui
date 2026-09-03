@@ -1,0 +1,15 @@
+{
+  "chunk_id": "f51fe2be6d29812e618c7560e95d9cb18d29f9b065fb331952b486559a6a971c",
+  "content_hash": "82bcde049a6523527a929b9f528d3b50480006f2eaa78561ce2331fa2d15eb94",
+  "entities": [
+    {
+      "canonical_name": "subsequent booster vaccinations",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "subsequent booster vaccinations",
+      "chunk_id": "f51fe2be6d29812e618c7560e95d9cb18d29f9b065fb331952b486559a6a971c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

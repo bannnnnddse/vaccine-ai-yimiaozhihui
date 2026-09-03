@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_885c4c8c28952aa04dc3e814362341e4",
+  "content_hash": "d3767ce8ef5c77c72922aaafe39bdf71f6294b036d6d9ab0522359b96baa0cd7",
+  "entities": [
+    {
+      "canonical_name": "novel coronavirus 2019 disease (COVID-19)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "novel coronavirus 2019 disease (COVID-19)",
+      "chunk_id": "chk_885c4c8c28952aa04dc3e814362341e4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

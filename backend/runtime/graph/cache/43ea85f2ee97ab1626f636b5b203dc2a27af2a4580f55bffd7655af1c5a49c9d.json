@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_b3c9aa63f53cdc628a8c9ca34fb474d5",
+  "content_hash": "b690b2055d34463446aa199dd69ad0ad2d8c146aa954f369be9ce93cd189916c",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_b3c9aa63f53cdc628a8c9ca34fb474d5"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 Spike protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Spike protein",
+      "chunk_id": "chk_b3c9aa63f53cdc628a8c9ca34fb474d5"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 vaccine",
+      "chunk_id": "chk_b3c9aa63f53cdc628a8c9ca34fb474d5"
+    },
+    {
+      "canonical_name": "BBIBP-CorV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BBIBP-CorV",
+      "chunk_id": "chk_b3c9aa63f53cdc628a8c9ca34fb474d5"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_b3c9aa63f53cdc628a8c9ca34fb474d5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

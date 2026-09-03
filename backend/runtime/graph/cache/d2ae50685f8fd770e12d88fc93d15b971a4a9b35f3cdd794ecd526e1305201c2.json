@@ -1,0 +1,18 @@
+{
+  "chunk_id": "chk_591f15d88c6a93efac9135af8a36ddf9",
+  "content_hash": "e07fbf65263d3bff99ec37ca8afd29f90cdc10b71cd0d92d437461fbb0ea8ce3",
+  "entities": [
+    {
+      "canonical_name": "国家免疫规划疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "国家免疫规划疫苗",
+      "chunk_id": "chk_591f15d88c6a93efac9135af8a36ddf9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint"
+  ]
+}

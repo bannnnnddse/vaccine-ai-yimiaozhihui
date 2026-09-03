@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "block-no-verify": "^1.1.2"
+  },
+  "_npx": {
+    "packages": [
+      "block-no-verify@1.1.2"
+    ]
+  }
+}

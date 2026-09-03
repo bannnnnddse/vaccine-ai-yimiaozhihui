@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_03e62859bd4a3a94f2641229fbd45216",
+  "content_hash": "1979850ddc86b0814b7885a9f45ae8c5d5631dd568a40a1a9b0970cc7d44f84e",
+  "entities": [
+    {
+      "canonical_name": "human papillomavirus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccination",
+      "chunk_id": "chk_03e62859bd4a3a94f2641229fbd45216"
+    },
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_03e62859bd4a3a94f2641229fbd45216"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

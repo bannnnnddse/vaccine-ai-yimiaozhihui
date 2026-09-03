@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_9688b134aee2f6bcfa852fe4d0228ebc",
+  "content_hash": "b90d9eb138e2aac38917a21c53114fbcafc35bb14375133ff3a81c8a8825d516",
+  "entities": [
+    {
+      "canonical_name": "Preterm infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Preterm infants",
+      "chunk_id": "chk_9688b134aee2f6bcfa852fe4d0228ebc"
+    },
+    {
+      "canonical_name": "routine paediatric vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "routine paediatric vaccines",
+      "chunk_id": "chk_9688b134aee2f6bcfa852fe4d0228ebc"
+    },
+    {
+      "canonical_name": "fullterm infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "fullterm infants",
+      "chunk_id": "chk_9688b134aee2f6bcfa852fe4d0228ebc"
+    },
+    {
+      "canonical_name": "10-valent PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "10-valent PCV",
+      "chunk_id": "chk_9688b134aee2f6bcfa852fe4d0228ebc"
+    },
+    {
+      "canonical_name": "Synflorix TM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Synflorix TM",
+      "chunk_id": "chk_9688b134aee2f6bcfa852fe4d0228ebc"
+    },
+    {
+      "canonical_name": "pneumococcal serotypes",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pneumococcal serotypes",
+      "chunk_id": "chk_9688b134aee2f6bcfa852fe4d0228ebc"
+    },
+    {
+      "canonical_name": "three-dose primary vaccination at 2–4–6 months of age and a booster dose at 16–18 months",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "three-dose primary vaccination at 2–4–6 months of age and a booster dose at 16–18 months",
+      "chunk_id": "chk_9688b134aee2f6bcfa852fe4d0228ebc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

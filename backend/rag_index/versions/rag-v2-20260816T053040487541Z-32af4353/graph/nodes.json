@@ -1,0 +1,26 @@
+[
+  {
+    "aliases": [
+      "HPV 疫苗",
+      "HPV疫苗",
+      "人乳头瘤病毒疫苗"
+    ],
+    "canonical_name": "HPV疫苗",
+    "entity_type": "Vaccine",
+    "id": "node_1cace2c71e8f3aed320412ee",
+    "provenance_ids": [
+      "prov_63b04b2a4e552becf0a989d9"
+    ]
+  },
+  {
+    "aliases": [
+      "宫颈癌"
+    ],
+    "canonical_name": "宫颈癌",
+    "entity_type": "Disease",
+    "id": "node_f6a98ec6345ca9302e99f331",
+    "provenance_ids": [
+      "prov_63b04b2a4e552becf0a989d9"
+    ]
+  }
+]

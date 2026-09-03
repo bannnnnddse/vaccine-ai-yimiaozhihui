@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b4f5e6953bd43da4d100f7cdbc4339d3",
+  "content_hash": "68a548b06f8435385e1584a75f3cc569e1a58dc1f0dc37269fa0e2bad6de8267",
+  "entities": [
+    {
+      "canonical_name": "Hepatitis a vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis a vaccine",
+      "chunk_id": "chk_b4f5e6953bd43da4d100f7cdbc4339d3"
+    },
+    {
+      "canonical_name": "adults receiving immunosuppressive therapy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults receiving immunosuppressive therapy",
+      "chunk_id": "chk_b4f5e6953bd43da4d100f7cdbc4339d3"
+    },
+    {
+      "canonical_name": "adults living with HIV",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults living with HIV",
+      "chunk_id": "chk_b4f5e6953bd43da4d100f7cdbc4339d3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

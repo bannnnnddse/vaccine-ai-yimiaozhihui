@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_d6dd5d1523ba448658aee5e4f7f38f1b",
+  "content_hash": "5134045d9e73d4c78eb1fc2dcab1f146e2c7fbe8ed7cafbb4b4fa0724bde34ee",
+  "entities": [
+    {
+      "canonical_name": "RV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV vaccines",
+      "chunk_id": "chk_d6dd5d1523ba448658aee5e4f7f38f1b"
+    },
+    {
+      "canonical_name": "RV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RV",
+      "chunk_id": "chk_d6dd5d1523ba448658aee5e4f7f38f1b"
+    },
+    {
+      "canonical_name": "deaths",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "deaths",
+      "chunk_id": "chk_d6dd5d1523ba448658aee5e4f7f38f1b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "invalid_domain_range"
+  ]
+}

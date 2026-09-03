@@ -1,0 +1,11 @@
+{
+  "chunk_id": "chk_5dbbbaafe6a5b905ab5cbd871e8a6381",
+  "content_hash": "24d6f14f3d4096c4bd767496633fb433eb6943fe031f79393aa00826bc44ac57",
+  "entities": [],
+  "relations": [],
+  "rejected": [
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "unknown_endpoint"
+  ]
+}

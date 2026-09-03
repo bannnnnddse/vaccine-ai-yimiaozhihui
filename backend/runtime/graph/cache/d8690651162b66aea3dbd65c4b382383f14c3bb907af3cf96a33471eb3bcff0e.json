@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_806364b3f633666e97d4eefd9ce4b19f",
+  "content_hash": "7e779744daebaa4e20b6220d6cdd82d0325f4cf856cadd8d2a908b0187e5ca64",
+  "entities": [
+    {
+      "canonical_name": "Mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Mice",
+      "chunk_id": "chk_806364b3f633666e97d4eefd9ce4b19f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_311f05b9b160189239d2d7d634362db9",
+  "content_hash": "3b8c87df824596ed9fa650a1e3fa1e26ffc1057505dfe276c52383c27e00fec4",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_311f05b9b160189239d2d7d634362db9"
+    },
+    {
+      "canonical_name": "RNA-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA-based vaccines",
+      "chunk_id": "chk_311f05b9b160189239d2d7d634362db9"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_311f05b9b160189239d2d7d634362db9"
+    },
+    {
+      "canonical_name": "RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA vaccines",
+      "chunk_id": "chk_311f05b9b160189239d2d7d634362db9"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_311f05b9b160189239d2d7d634362db9"
+    },
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "chk_311f05b9b160189239d2d7d634362db9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

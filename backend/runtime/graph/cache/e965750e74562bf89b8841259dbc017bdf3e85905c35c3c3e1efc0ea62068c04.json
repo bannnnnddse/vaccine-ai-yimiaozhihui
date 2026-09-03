@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e951000fffdd58ca8893a2a82205c3a8",
+  "content_hash": "1bd2deb35ade33acc02b236b31d33738b924da9dddd7e83ef5f33cf28418e8b5",
+  "entities": [
+    {
+      "canonical_name": "rotavirus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccination",
+      "chunk_id": "chk_e951000fffdd58ca8893a2a82205c3a8"
+    },
+    {
+      "canonical_name": "child",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "child",
+      "chunk_id": "chk_e951000fffdd58ca8893a2a82205c3a8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

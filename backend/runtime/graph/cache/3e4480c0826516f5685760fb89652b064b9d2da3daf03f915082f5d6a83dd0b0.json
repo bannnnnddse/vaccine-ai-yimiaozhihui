@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_e09319c82fd4ff8bb357d8e4a571f70a",
+  "content_hash": "9f2af5771184f7fe0b56017370b47d0fb345e14494083539fdf9b1bca95b7521",
+  "entities": [
+    {
+      "canonical_name": "symptomatic dengue infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "symptomatic dengue infection",
+      "chunk_id": "chk_e09319c82fd4ff8bb357d8e4a571f70a"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_e09319c82fd4ff8bb357d8e4a571f70a"
+    },
+    {
+      "canonical_name": "NS1 antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NS1 antibodies",
+      "chunk_id": "chk_e09319c82fd4ff8bb357d8e4a571f70a"
+    },
+    {
+      "canonical_name": "acute secondary dengue infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute secondary dengue infection",
+      "chunk_id": "chk_e09319c82fd4ff8bb357d8e4a571f70a"
+    },
+    {
+      "canonical_name": "cytokine storms",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "cytokine storms",
+      "chunk_id": "chk_e09319c82fd4ff8bb357d8e4a571f70a"
+    },
+    {
+      "canonical_name": "acute dengue",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute dengue",
+      "chunk_id": "chk_e09319c82fd4ff8bb357d8e4a571f70a"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_e09319c82fd4ff8bb357d8e4a571f70a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

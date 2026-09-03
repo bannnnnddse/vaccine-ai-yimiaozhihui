@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_94c6fdd2df772cd257bb94923487458d",
+  "content_hash": "943eae2a4a1f2e0c9909c6bcd8e57d4c8ad56802e222e401185a2b6ea494b5b0",
+  "entities": [
+    {
+      "canonical_name": "IL-12",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-12",
+      "chunk_id": "chk_94c6fdd2df772cd257bb94923487458d"
+    },
+    {
+      "canonical_name": "TFH",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TFH",
+      "chunk_id": "chk_94c6fdd2df772cd257bb94923487458d"
+    },
+    {
+      "canonical_name": "polysaccharide vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "polysaccharide vaccine",
+      "chunk_id": "chk_94c6fdd2df772cd257bb94923487458d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

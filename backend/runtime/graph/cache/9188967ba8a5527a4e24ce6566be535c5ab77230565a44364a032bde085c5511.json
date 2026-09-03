@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_158f9bbf60ec0f21d7f6a3a0b9748338",
+  "content_hash": "025487b9aba67b58812b4ef9476adefdf03c3bd0bf51498430ba4cd9294f8784",
+  "entities": [
+    {
+      "canonical_name": "Tdap vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Tdap vaccination",
+      "chunk_id": "chk_158f9bbf60ec0f21d7f6a3a0b9748338"
+    },
+    {
+      "canonical_name": "pregnancy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnancy",
+      "chunk_id": "chk_158f9bbf60ec0f21d7f6a3a0b9748338"
+    },
+    {
+      "canonical_name": "seasonal influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "seasonal influenza vaccination",
+      "chunk_id": "chk_158f9bbf60ec0f21d7f6a3a0b9748338"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_158f9bbf60ec0f21d7f6a3a0b9748338"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_698a38cfc37d8f460cc7cfe5d9180587",
+  "content_hash": "7a6db62809633461a2add8eff28929c944b14d2e9c33ebe4ff23251737a29886",
+  "entities": [
+    {
+      "canonical_name": "BCG vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG vaccine",
+      "chunk_id": "chk_698a38cfc37d8f460cc7cfe5d9180587"
+    },
+    {
+      "canonical_name": "M. tuberculosis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "M. tuberculosis",
+      "chunk_id": "chk_698a38cfc37d8f460cc7cfe5d9180587"
+    },
+    {
+      "canonical_name": "innate immune response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune response",
+      "chunk_id": "chk_698a38cfc37d8f460cc7cfe5d9180587"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_698a38cfc37d8f460cc7cfe5d9180587"
+    },
+    {
+      "canonical_name": "TB",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TB",
+      "chunk_id": "chk_698a38cfc37d8f460cc7cfe5d9180587"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "source_missing_from_quote"
+  ]
+}

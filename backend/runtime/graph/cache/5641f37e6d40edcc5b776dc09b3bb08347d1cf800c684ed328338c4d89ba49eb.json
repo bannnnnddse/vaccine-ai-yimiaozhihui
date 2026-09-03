@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_638b8eaabd0d54efbe2752fa4bce7cd2",
+  "content_hash": "e37948cd854aa7f0d3dd80e92a8a3c5e9067362edcb548881ca95c3ba9c3db80",
+  "entities": [
+    {
+      "canonical_name": "solid tumours",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "solid tumours",
+      "chunk_id": "chk_638b8eaabd0d54efbe2752fa4bce7cd2"
+    },
+    {
+      "canonical_name": "patients with solid tumours",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients with solid tumours",
+      "chunk_id": "chk_638b8eaabd0d54efbe2752fa4bce7cd2"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_638b8eaabd0d54efbe2752fa4bce7cd2"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_638b8eaabd0d54efbe2752fa4bce7cd2"
+    },
+    {
+      "canonical_name": "anti-SARS-CoV2 spike protein antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-SARS-CoV2 spike protein antibodies",
+      "chunk_id": "chk_638b8eaabd0d54efbe2752fa4bce7cd2"
+    },
+    {
+      "canonical_name": "healthy control subjects",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy control subjects",
+      "chunk_id": "chk_638b8eaabd0d54efbe2752fa4bce7cd2"
+    },
+    {
+      "canonical_name": "IgG titres",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG titres",
+      "chunk_id": "chk_638b8eaabd0d54efbe2752fa4bce7cd2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

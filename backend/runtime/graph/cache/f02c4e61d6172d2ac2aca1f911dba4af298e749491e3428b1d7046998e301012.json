@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_4ee09e1f1ed69fff76945be65e71fd84",
+  "content_hash": "043c450df731337989426652d122efa0ef360d7269f784c6b08a599fb335ce1d",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2 mRNA covid-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 mRNA covid-19 vaccine",
+      "chunk_id": "chk_4ee09e1f1ed69fff76945be65e71fd84"
+    },
+    {
+      "canonical_name": "covid-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "covid-19",
+      "chunk_id": "chk_4ee09e1f1ed69fff76945be65e71fd84"
+    },
+    {
+      "canonical_name": "prefusion SARSCoV-2 spike protein vaccine (RBMRNA-176)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "prefusion SARSCoV-2 spike protein vaccine (RBMRNA-176)",
+      "chunk_id": "chk_4ee09e1f1ed69fff76945be65e71fd84"
+    },
+    {
+      "canonical_name": "SARSCoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2",
+      "chunk_id": "chk_4ee09e1f1ed69fff76945be65e71fd84"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

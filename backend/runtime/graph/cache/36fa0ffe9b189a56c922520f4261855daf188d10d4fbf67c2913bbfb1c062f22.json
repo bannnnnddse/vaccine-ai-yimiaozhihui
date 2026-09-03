@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_2308ae89f90e5f26d3ddd212ee295abd",
+  "content_hash": "1ebb533c7d0542f27dd59a3d64a2450133eba6c57f6ae2e92548ab300d007ac0",
+  "entities": [
+    {
+      "canonical_name": "antibody response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody response",
+      "chunk_id": "chk_2308ae89f90e5f26d3ddd212ee295abd"
+    },
+    {
+      "canonical_name": "thrombosis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "thrombosis",
+      "chunk_id": "chk_2308ae89f90e5f26d3ddd212ee295abd"
+    },
+    {
+      "canonical_name": "N501Y mutant strains",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "N501Y mutant strains",
+      "chunk_id": "chk_2308ae89f90e5f26d3ddd212ee295abd"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

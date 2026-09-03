@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f8d892684315c449da3a516ab40287f3",
+  "content_hash": "d389d14bad1e7a69664e3a95c04f5e1aa1333f12a92500c95c91d4bc71d5af48",
+  "entities": [
+    {
+      "canonical_name": "Neisseria meningitidis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Neisseria meningitidis",
+      "chunk_id": "chk_f8d892684315c449da3a516ab40287f3"
+    },
+    {
+      "canonical_name": "meningococcal serogroup C conjugate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "meningococcal serogroup C conjugate vaccines",
+      "chunk_id": "chk_f8d892684315c449da3a516ab40287f3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,53 @@
+{
+  "chunk_id": "bbbf0dd5b803669566702a6d3701f2a336092c337027ad09bbb896dc752d9728",
+  "content_hash": "7e8f5ff7a894585da427e1ea216d9be26b3f61b15b2f95c4050d0ddc3737dcd1",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "bbbf0dd5b803669566702a6d3701f2a336092c337027ad09bbb896dc752d9728"
+    },
+    {
+      "canonical_name": "HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HBV infection",
+      "chunk_id": "bbbf0dd5b803669566702a6d3701f2a336092c337027ad09bbb896dc752d9728"
+    },
+    {
+      "canonical_name": "high-risk infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "high-risk infants",
+      "chunk_id": "bbbf0dd5b803669566702a6d3701f2a336092c337027ad09bbb896dc752d9728"
+    },
+    {
+      "canonical_name": "HBsAg-positive mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HBsAg-positive mothers",
+      "chunk_id": "bbbf0dd5b803669566702a6d3701f2a336092c337027ad09bbb896dc752d9728"
+    },
+    {
+      "canonical_name": "anti-HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs",
+      "chunk_id": "bbbf0dd5b803669566702a6d3701f2a336092c337027ad09bbb896dc752d9728"
+    },
+    {
+      "canonical_name": "occult HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "occult HBV infection",
+      "chunk_id": "bbbf0dd5b803669566702a6d3701f2a336092c337027ad09bbb896dc752d9728"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "source_missing_from_quote"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_faabcd4377a18b83bd7e2a34649b1dfd",
+  "content_hash": "570be7429e924352b1d733401fa56595a3ed53ee831f4b93fb3cf63c76eb2d2c",
+  "entities": [
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "chk_faabcd4377a18b83bd7e2a34649b1dfd"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Omicron",
+      "chunk_id": "chk_faabcd4377a18b83bd7e2a34649b1dfd"
+    },
+    {
+      "canonical_name": "first-generation COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "first-generation COVID-19 vaccines",
+      "chunk_id": "chk_faabcd4377a18b83bd7e2a34649b1dfd"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_faabcd4377a18b83bd7e2a34649b1dfd"
+    },
+    {
+      "canonical_name": "Omicron variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron variant",
+      "chunk_id": "chk_faabcd4377a18b83bd7e2a34649b1dfd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_38c0a4b58e022287268fd15a9b2411f3",
+  "content_hash": "fbe21580940a029f79eef0d77a155da01d43d1070fcbe9450908e17876a0c353",
+  "entities": [
+    {
+      "canonical_name": "acute leukaemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute leukaemia",
+      "chunk_id": "chk_38c0a4b58e022287268fd15a9b2411f3"
+    },
+    {
+      "canonical_name": "malignancies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malignancies",
+      "chunk_id": "chk_38c0a4b58e022287268fd15a9b2411f3"
+    },
+    {
+      "canonical_name": "Varicella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Varicella vaccine",
+      "chunk_id": "chk_38c0a4b58e022287268fd15a9b2411f3"
+    },
+    {
+      "canonical_name": "acute lymphoblastic leukemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute lymphoblastic leukemia",
+      "chunk_id": "chk_38c0a4b58e022287268fd15a9b2411f3"
+    },
+    {
+      "canonical_name": "non-Hodgkin lymphoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-Hodgkin lymphoma",
+      "chunk_id": "chk_38c0a4b58e022287268fd15a9b2411f3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

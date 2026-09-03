@@ -1,0 +1,75 @@
+{
+  "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772",
+  "content_hash": "e6234ca84a977f1de734ba18eb06b6cc5502fe322a3cbada5966933f14de7ff5",
+  "entities": [
+    {
+      "canonical_name": "urinary tract infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "urinary tract infection",
+      "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772"
+    },
+    {
+      "canonical_name": "breathing difficulties",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "breathing difficulties",
+      "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772"
+    },
+    {
+      "canonical_name": "allergic reaction",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "allergic reaction",
+      "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772"
+    },
+    {
+      "canonical_name": "females",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females",
+      "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772"
+    },
+    {
+      "canonical_name": "thrombotic thrombocytopenic purpura",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "thrombotic thrombocytopenic purpura",
+      "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772"
+    },
+    {
+      "canonical_name": "Formication",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Formication",
+      "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772"
+    },
+    {
+      "canonical_name": "Pain in extremity",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Pain in extremity",
+      "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772"
+    },
+    {
+      "canonical_name": "ProQuad vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ProQuad vaccine",
+      "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772"
+    },
+    {
+      "canonical_name": "hyperpyrexia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "hyperpyrexia",
+      "chunk_id": "874d71fbd4019f2c26404b54d7523e409a1a020e3ca0b37fb7f19fe6b127b772"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

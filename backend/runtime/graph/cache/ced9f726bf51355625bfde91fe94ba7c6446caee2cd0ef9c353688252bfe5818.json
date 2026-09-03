@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_79dd53ef6aaba85e36108ccf770faa40",
+  "content_hash": "2792e7460e0907465614f92cca94de2e2ca124c0d655e6ec37dd36d8c8abd678",
+  "entities": [
+    {
+      "canonical_name": "Meningococcal Disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Meningococcal Disease",
+      "chunk_id": "chk_79dd53ef6aaba85e36108ccf770faa40"
+    },
+    {
+      "canonical_name": "Meningitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Meningitis",
+      "chunk_id": "chk_79dd53ef6aaba85e36108ccf770faa40"
+    },
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "chk_79dd53ef6aaba85e36108ccf770faa40"
+    },
+    {
+      "canonical_name": "carrier protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "carrier protein",
+      "chunk_id": "chk_79dd53ef6aaba85e36108ccf770faa40"
+    },
+    {
+      "canonical_name": "diphtheria toxoid",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "diphtheria toxoid",
+      "chunk_id": "chk_79dd53ef6aaba85e36108ccf770faa40"
+    },
+    {
+      "canonical_name": "young infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young infants",
+      "chunk_id": "chk_79dd53ef6aaba85e36108ccf770faa40"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

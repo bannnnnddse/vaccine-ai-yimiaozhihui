@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_9bd668633b84b3755d83bcf91c23246c",
+  "content_hash": "142465757f4f1037d92c4c31c5445a79acdf57b9da8eae6cd7f56ed31418c486",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 variants of concern",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 variants of concern",
+      "chunk_id": "chk_9bd668633b84b3755d83bcf91c23246c"
+    },
+    {
+      "canonical_name": "vaccine-induced immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "vaccine-induced immunity",
+      "chunk_id": "chk_9bd668633b84b3755d83bcf91c23246c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

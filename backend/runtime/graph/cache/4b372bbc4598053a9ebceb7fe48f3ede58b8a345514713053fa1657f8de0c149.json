@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_45e3567b285eeccf93dc22eb8f976e2e",
+  "content_hash": "222c9ea856a585e8e4acb8024ff0ec0270385c3ce9d2bca316eb240c9f34f033",
+  "entities": [
+    {
+      "canonical_name": "sirtuin 1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "sirtuin 1",
+      "chunk_id": "chk_45e3567b285eeccf93dc22eb8f976e2e"
+    },
+    {
+      "canonical_name": "newborn",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "newborn",
+      "chunk_id": "chk_45e3567b285eeccf93dc22eb8f976e2e"
+    },
+    {
+      "canonical_name": "Innate immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Innate immunity",
+      "chunk_id": "chk_45e3567b285eeccf93dc22eb8f976e2e"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_45e3567b285eeccf93dc22eb8f976e2e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

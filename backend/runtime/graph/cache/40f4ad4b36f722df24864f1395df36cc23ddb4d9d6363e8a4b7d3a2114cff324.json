@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_858e890e59c0b8bfa27baa4e04e077ad",
+  "content_hash": "6a58bfeeb39bf52c20e2bbfabf022d2c6a549c5f6b9382e51e1706f6c89248f2",
+  "entities": [
+    {
+      "canonical_name": "9vHPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "9vHPV vaccine",
+      "chunk_id": "chk_858e890e59c0b8bfa27baa4e04e077ad"
+    },
+    {
+      "canonical_name": "immunogenicity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunogenicity",
+      "chunk_id": "chk_858e890e59c0b8bfa27baa4e04e077ad"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

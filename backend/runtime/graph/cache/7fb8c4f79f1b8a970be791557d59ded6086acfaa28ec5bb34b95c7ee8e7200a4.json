@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_8dae0b05e1cfc97de654f97a57512a9a",
+  "content_hash": "2bcbbb22b60331859162b0d6330957b92db4518256f9099e39793d3fdac5d249",
+  "entities": [
+    {
+      "canonical_name": "IgM",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgM",
+      "chunk_id": "chk_8dae0b05e1cfc97de654f97a57512a9a"
+    },
+    {
+      "canonical_name": "IgD",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgD",
+      "chunk_id": "chk_8dae0b05e1cfc97de654f97a57512a9a"
+    },
+    {
+      "canonical_name": "B cell receptors",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell receptors",
+      "chunk_id": "chk_8dae0b05e1cfc97de654f97a57512a9a"
+    },
+    {
+      "canonical_name": "autoreactive B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "autoreactive B cells",
+      "chunk_id": "chk_8dae0b05e1cfc97de654f97a57512a9a"
+    },
+    {
+      "canonical_name": "Germinal center B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Germinal center B cells",
+      "chunk_id": "chk_8dae0b05e1cfc97de654f97a57512a9a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7fe00a4dcd621ea04862954f947f0004",
+  "content_hash": "a04acbf32d548c805c11b19f268f43324ba777f86fac886f341fdddd72f9fba6",
+  "entities": [
+    {
+      "canonical_name": "human papillomavirus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccination",
+      "chunk_id": "chk_7fe00a4dcd621ea04862954f947f0004"
+    },
+    {
+      "canonical_name": "herpes zoster vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "herpes zoster vaccination",
+      "chunk_id": "chk_7fe00a4dcd621ea04862954f947f0004"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

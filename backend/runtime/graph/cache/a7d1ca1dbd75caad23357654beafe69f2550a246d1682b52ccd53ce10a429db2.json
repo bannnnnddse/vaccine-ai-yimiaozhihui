@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_882ed10bc3fe70dc79bcce88a38d16e3",
+  "content_hash": "10a1db4c31689d03366aa608962e5fcfdce2be92e7bfb06755876dfaf9241eab",
+  "entities": [
+    {
+      "canonical_name": "mRNA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mRNA",
+      "chunk_id": "chk_882ed10bc3fe70dc79bcce88a38d16e3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

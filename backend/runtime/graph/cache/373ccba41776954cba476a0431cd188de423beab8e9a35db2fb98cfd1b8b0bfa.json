@@ -1,0 +1,19 @@
+{
+  "chunk_id": "chk_af2cd9f5537f080be3734f7127f661e2",
+  "content_hash": "82e5dd454b0b2998dc3981af01d7acfa3753c17241cbf9bf844a560ebe88c85e",
+  "entities": [
+    {
+      "canonical_name": "麻腮风疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "麻疹腮腺炎风疹联合减毒活疫苗"
+      ],
+      "surface_form": "麻腮风疫苗",
+      "chunk_id": "chk_af2cd9f5537f080be3734f7127f661e2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "reserved_relation"
+  ]
+}

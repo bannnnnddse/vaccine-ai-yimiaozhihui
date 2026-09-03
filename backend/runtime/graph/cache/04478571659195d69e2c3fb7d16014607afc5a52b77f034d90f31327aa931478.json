@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_254f77bd13a5ccc6049ec122de77df2d",
+  "content_hash": "c4dc03981d159151fd504cd2bfa05080cfeb326a0ea82a387aa0552a0f192843",
+  "entities": [
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "chk_254f77bd13a5ccc6049ec122de77df2d"
+    },
+    {
+      "canonical_name": "Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adults",
+      "chunk_id": "chk_254f77bd13a5ccc6049ec122de77df2d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

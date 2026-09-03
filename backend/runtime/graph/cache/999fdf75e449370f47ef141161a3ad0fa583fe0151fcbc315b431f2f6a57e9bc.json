@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_e10b59a6b40215f84fc6368778ce3de1",
+  "content_hash": "3d7d9410137e3c8d2de4a10ce5010491b4198d7259590de1476a66f3f7d2d3f9",
+  "entities": [
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_e10b59a6b40215f84fc6368778ce3de1"
+    },
+    {
+      "canonical_name": "IL-21",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-21",
+      "chunk_id": "chk_e10b59a6b40215f84fc6368778ce3de1"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_e10b59a6b40215f84fc6368778ce3de1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

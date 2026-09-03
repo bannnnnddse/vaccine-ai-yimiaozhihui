@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ce912217df3d661443887711bdeb3c95",
+  "content_hash": "d3995381a016b32e1790b6c20911ce9fbdd95b2142771641772ea58c1c78cf47",
+  "entities": [
+    {
+      "canonical_name": "Gardasil",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Gardasil",
+      "chunk_id": "chk_ce912217df3d661443887711bdeb3c95"
+    },
+    {
+      "canonical_name": "Human papillomavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Human papillomavirus",
+      "chunk_id": "chk_ce912217df3d661443887711bdeb3c95"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

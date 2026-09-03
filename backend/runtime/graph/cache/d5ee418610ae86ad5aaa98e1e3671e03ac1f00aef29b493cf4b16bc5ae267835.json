@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_89a37c44e9aa16d7afa786729ac63a37",
+  "content_hash": "153da148627031771855e5a6c4eae23efbed8657f972b65a0294a50c59e9ec3b",
+  "entities": [
+    {
+      "canonical_name": "women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "women",
+      "chunk_id": "chk_89a37c44e9aa16d7afa786729ac63a37"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_89a37c44e9aa16d7afa786729ac63a37"
+    },
+    {
+      "canonical_name": "rubella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rubella",
+      "chunk_id": "chk_89a37c44e9aa16d7afa786729ac63a37"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

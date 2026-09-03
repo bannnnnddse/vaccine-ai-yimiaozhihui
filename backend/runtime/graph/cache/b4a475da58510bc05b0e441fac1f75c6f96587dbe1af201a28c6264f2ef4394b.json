@@ -1,0 +1,96 @@
+{
+  "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56",
+  "content_hash": "8e97dcdc4f505e527aab0759665a192d8b6432326e7feea855536ef9fb455a3a",
+  "entities": [
+    {
+      "canonical_name": "HIV 感染",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV 感染",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "乙肝疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙肝疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "百白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "百白破疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "白破疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "乙脑灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙脑灭活疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "A 群流脑多糖疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "A 群流脑多糖疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "A 群 C 群流脑多糖疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "A 群 C 群流脑多糖疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "甲肝灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "甲肝灭活疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "人乳头",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "人乳头",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "脊灰减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "脊灰减毒活疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "麻腮风疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "麻腮风疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

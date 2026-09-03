@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_869694f956ee2d88ab3d059db4340024",
+  "content_hash": "0ce03f1e70e2f42647f8a6df247446c39955f5ee307aac95bbaaafa17f04377a",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19 infections",
+      "chunk_id": "chk_869694f956ee2d88ab3d059db4340024"
+    },
+    {
+      "canonical_name": "adolescent COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adolescent COVID-19 vaccination",
+      "chunk_id": "chk_869694f956ee2d88ab3d059db4340024"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7aeccb0576e19aea5c0c02fe78808ec1",
+  "content_hash": "bc98345316f3f1dc204f9ec65810040cb5d0e87e52aca57059d3b87c87675779",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_7aeccb0576e19aea5c0c02fe78808ec1"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 mRNA-1273",
+      "chunk_id": "chk_7aeccb0576e19aea5c0c02fe78808ec1"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_7aeccb0576e19aea5c0c02fe78808ec1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

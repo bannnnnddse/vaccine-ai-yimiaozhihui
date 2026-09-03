@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_c4abefd9a4acd640f0bbf970da828149",
+  "content_hash": "dde487d6b50d43f9620865329965db4d475bdb960e1be750af5452df20963d2b",
+  "entities": [
+    {
+      "canonical_name": "LGG",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "LGG",
+      "chunk_id": "chk_c4abefd9a4acd640f0bbf970da828149"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_c4abefd9a4acd640f0bbf970da828149"
+    },
+    {
+      "canonical_name": "allergic disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "allergic disease",
+      "chunk_id": "chk_c4abefd9a4acd640f0bbf970da828149"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_c4abefd9a4acd640f0bbf970da828149"
+    },
+    {
+      "canonical_name": "Lactobacillus plantarum",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Lactobacillus plantarum",
+      "chunk_id": "chk_c4abefd9a4acd640f0bbf970da828149"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

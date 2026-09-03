@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_bfdc0d714253bfa45bbecbd40845be71",
+  "content_hash": "e909b1cba5adcbd8b536d147b0fc331fbd9e7b7746db7b2f9055f6e507de8484",
+  "entities": [
+    {
+      "canonical_name": "diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diarrhea",
+      "chunk_id": "chk_bfdc0d714253bfa45bbecbd40845be71"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

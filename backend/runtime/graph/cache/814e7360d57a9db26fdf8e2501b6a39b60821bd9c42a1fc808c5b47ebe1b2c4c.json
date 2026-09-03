@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_4bac9e8c8a594fb7b22a908b4cd76486",
+  "content_hash": "e63ba640989129f6e556253585f073a1e7c9c84a67ea332f14578d0cec71c797",
+  "entities": [
+    {
+      "canonical_name": "malaria-specific IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "malaria-specific IgG",
+      "chunk_id": "chk_4bac9e8c8a594fb7b22a908b4cd76486"
+    },
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_4bac9e8c8a594fb7b22a908b4cd76486"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

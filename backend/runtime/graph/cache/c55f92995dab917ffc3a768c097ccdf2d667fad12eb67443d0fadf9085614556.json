@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2b4f574fe10c1af863dc980f717cbc91",
+  "content_hash": "ac0a9cdca34e3ab6ad9576736a2af291c352a54fa8123ba2ee0344ebc4cab965",
+  "entities": [
+    {
+      "canonical_name": "mRNA -vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA -vaccine",
+      "chunk_id": "chk_2b4f574fe10c1af863dc980f717cbc91"
+    },
+    {
+      "canonical_name": "tumor necrosis factor -alpha",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "tumor necrosis factor -alpha",
+      "chunk_id": "chk_2b4f574fe10c1af863dc980f717cbc91"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

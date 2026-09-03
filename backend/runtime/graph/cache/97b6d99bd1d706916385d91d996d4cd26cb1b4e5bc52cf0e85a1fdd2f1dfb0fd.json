@@ -1,0 +1,60 @@
+{
+  "chunk_id": "chk_307ea7770828703aeb55302f1c881cf8",
+  "content_hash": "ec0f48006eb9b4dad29cd6402f815ff6e1c54d9e4460e787003c8cc36c3a56e6",
+  "entities": [
+    {
+      "canonical_name": "cardiac disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cardiac disease",
+      "chunk_id": "chk_307ea7770828703aeb55302f1c881cf8"
+    },
+    {
+      "canonical_name": "influenza virus infection",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus infection",
+      "chunk_id": "chk_307ea7770828703aeb55302f1c881cf8"
+    },
+    {
+      "canonical_name": "diabetic ketoacidosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diabetic ketoacidosis",
+      "chunk_id": "chk_307ea7770828703aeb55302f1c881cf8"
+    },
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_307ea7770828703aeb55302f1c881cf8"
+    },
+    {
+      "canonical_name": "abnormal glucose levels",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "abnormal glucose levels",
+      "chunk_id": "chk_307ea7770828703aeb55302f1c881cf8"
+    },
+    {
+      "canonical_name": "diabetic patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "diabetic patients",
+      "chunk_id": "chk_307ea7770828703aeb55302f1c881cf8"
+    },
+    {
+      "canonical_name": "individuals with diabetes",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals with diabetes",
+      "chunk_id": "chk_307ea7770828703aeb55302f1c881cf8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "invalid_domain_range"
+  ]
+}

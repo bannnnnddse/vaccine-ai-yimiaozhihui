@@ -1,0 +1,74 @@
+{
+  "job_id": "f2a889768e35",
+  "prompt": "请生成一张面向普通家长的儿童疫苗科普信息图，主题是“接种疫苗后，人体如何产生抗体”。画面依次展示：疫苗进入人体、抗原被免疫细胞识别、B 细胞被激活并分化为浆细胞、浆细胞产生抗体、形成免疫记忆。要求中文标注清晰准确，整体为简洁友好的医学科普插画风格，不要过度专业化，适合在接种门诊的大屏幕上展示。",
+  "brief": {
+    "image_type": "graphical_abstract",
+    "generation_route": "fast",
+    "optimized_chinese_prompt": "一张面向家长的儿童疫苗科普信息图，竖版9:16构图，简洁友好的扁平化插画风格，色彩明亮温馨。画面自上而下按因果顺序展示五个步骤：1. 一个可爱的卡通针筒注入液体进入手臂；2. 免疫细胞（如树突状细胞）伸出伪足识别微小的病毒颗粒（抗原）；3. B细胞受到刺激并分裂分化成多个浆细胞；4. Y字形的抗体从浆细胞中大量分泌出来；5. 记忆B细胞在旁静默保存，准备应对未来挑战。所有文字标注均为简体中文，字体清晰易读，背景干净无杂乱元素，适合接种门诊大屏幕展示。",
+    "chinese_labels": [
+      "疫苗注入",
+      "抗原识别",
+      "B细胞激活",
+      "浆细胞产生抗体",
+      "免疫记忆形成"
+    ],
+    "scientific_claims": [
+      "疫苗将抗原引入人体以启动免疫反应。",
+      "免疫细胞通过受体识别外来抗原。",
+      "B细胞被激活后分化为浆细胞和记忆细胞。",
+      "浆细胞负责合成并分泌特异性抗体。",
+      "记忆细胞长期存在以提供持久保护。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "疫苗作为抗原载体进入体内"
+      },
+      {
+        "primary_relation": "免疫细胞识别抗原表面特征"
+      },
+      {
+        "primary_relation": "B细胞受刺激后分化为浆细胞"
+      },
+      {
+        "primary_relation": "浆细胞分泌Y形抗体结合抗原"
+      }
+    ],
+    "route_reason": "正式快速闭环固定使用 Wan；Crafter 仅保留为 legacy。"
+  },
+  "generation_route": "fast",
+  "image_model": "wan2.7-image-pro",
+  "image_id": "f2a889768e35-v1",
+  "trusted_image": "f2a889768e35-v1.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "pass",
+    "summary": "目标区域位于图片最上方（步骤1的插图部分），用户要求删除该区域内的文字。经检查，原图中的标题文字“1. 疫苗注入”已被成功移除，且该区域背景填充自然，无残影或描边残留，与周围画面融合良好，符合删除任务要求。",
+    "recommended_action": "accept",
+    "auto_fixable": false,
+    "human_input_required": false,
+    "issues": []
+  },
+  "guard_result": {
+    "passed": true,
+    "outside_change_score": 0.029054,
+    "threshold": 0.05,
+    "changed_outside_bbox": false,
+    "inside_change_score": 0.231388,
+    "minimum_inside_change": 0.01,
+    "insufficient_change_inside_bbox": false,
+    "notes": "框外变化处于当前工程阈值内，且框内检测到有效变化。"
+  },
+  "auto_revision_count": 0,
+  "revision_origin": "human",
+  "last_revision_bbox": [
+    0.23935105442357862,
+    0.01689171161727583,
+    0.7568670014367073,
+    0.10032590214674965
+  ],
+  "last_edit_instruction": "仅修改指定矩形区域；矩形外所有像素内容、主体、构图和文字保持不变。修改后保持原图画风、配色、光影、排版和文字风格一致，不新增无关元素。\n这是删除任务：必须完整移除矩形框内用户指明的对象或文字，使用框内周围背景自然填充，不得保留原对象、文字、描边或残影。\n用户要求：删掉框选区域文字",
+  "created_at": "2026-08-12T03:25:23.272773+00:00",
+  "finished_at": "2026-08-12T03:27:26.594357+00:00",
+  "stage": "completed",
+  "error": null
+}

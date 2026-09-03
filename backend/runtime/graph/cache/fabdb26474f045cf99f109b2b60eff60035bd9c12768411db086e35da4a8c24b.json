@@ -1,0 +1,70 @@
+{
+  "chunk_id": "a30125487307a1c026537a2f2a2fd6d17a7e539c13c282f7c1cdd045f4a55915",
+  "content_hash": "0ce49eca6acda21f16c701782d2c8d88905d6c38df45b6657628d7719e4f87ff",
+  "entities": [
+    {
+      "canonical_name": "Arexvy (RSVPreF3)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Arexvy (RSVPreF3)",
+      "chunk_id": "a30125487307a1c026537a2f2a2fd6d17a7e539c13c282f7c1cdd045f4a55915"
+    },
+    {
+      "canonical_name": "LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "LRTD",
+      "chunk_id": "a30125487307a1c026537a2f2a2fd6d17a7e539c13c282f7c1cdd045f4a55915"
+    },
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "a30125487307a1c026537a2f2a2fd6d17a7e539c13c282f7c1cdd045f4a55915"
+    },
+    {
+      "canonical_name": "individuals aged 60 years and older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals aged 60 years and older",
+      "chunk_id": "a30125487307a1c026537a2f2a2fd6d17a7e539c13c282f7c1cdd045f4a55915"
+    },
+    {
+      "canonical_name": "Abrysvo (RSVpreF)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Abrysvo (RSVpreF)",
+      "chunk_id": "a30125487307a1c026537a2f2a2fd6d17a7e539c13c282f7c1cdd045f4a55915"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "a30125487307a1c026537a2f2a2fd6d17a7e539c13c282f7c1cdd045f4a55915"
+    },
+    {
+      "canonical_name": "severe LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe LRTD",
+      "chunk_id": "a30125487307a1c026537a2f2a2fd6d17a7e539c13c282f7c1cdd045f4a55915"
+    },
+    {
+      "canonical_name": "infants from birth through 6 months of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants from birth through 6 months of age",
+      "chunk_id": "a30125487307a1c026537a2f2a2fd6d17a7e539c13c282f7c1cdd045f4a55915"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

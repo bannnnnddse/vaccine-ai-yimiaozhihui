@@ -1,0 +1,29 @@
+{
+  "chunk_id": "d5bc823cc0b530463ffeb73d8e0b969309bce0a7368e77827bdba612a2487a96",
+  "content_hash": "dcf1c9edd2f4f8262eb9404cec179ee10d193220b2c1992e5116a3328ed9998e",
+  "entities": [
+    {
+      "canonical_name": "RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA vaccines",
+      "chunk_id": "d5bc823cc0b530463ffeb73d8e0b969309bce0a7368e77827bdba612a2487a96"
+    },
+    {
+      "canonical_name": "COVID-19 pandemic",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19 pandemic",
+      "chunk_id": "d5bc823cc0b530463ffeb73d8e0b969309bce0a7368e77827bdba612a2487a96"
+    },
+    {
+      "canonical_name": "infectious disease pandemics",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious disease pandemics",
+      "chunk_id": "d5bc823cc0b530463ffeb73d8e0b969309bce0a7368e77827bdba612a2487a96"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

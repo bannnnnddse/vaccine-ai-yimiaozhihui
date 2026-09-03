@@ -1,0 +1,36 @@
+{
+  "chunk_id": "66a0b52a280f296f2d07fe6c7d562be0de5ad0cc6eaf29fe7cdcbb34a4c0b136",
+  "content_hash": "9d978ae700925c84742d491404269ad757813d8041e6408b8f2ab655c6917559",
+  "entities": [
+    {
+      "canonical_name": "T-bet+ memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-bet+ memory B cells",
+      "chunk_id": "66a0b52a280f296f2d07fe6c7d562be0de5ad0cc6eaf29fe7cdcbb34a4c0b136"
+    },
+    {
+      "canonical_name": "human atypical memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human atypical memory B cells",
+      "chunk_id": "66a0b52a280f296f2d07fe6c7d562be0de5ad0cc6eaf29fe7cdcbb34a4c0b136"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "66a0b52a280f296f2d07fe6c7d562be0de5ad0cc6eaf29fe7cdcbb34a4c0b136"
+    },
+    {
+      "canonical_name": "chronic infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic infections",
+      "chunk_id": "66a0b52a280f296f2d07fe6c7d562be0de5ad0cc6eaf29fe7cdcbb34a4c0b136"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

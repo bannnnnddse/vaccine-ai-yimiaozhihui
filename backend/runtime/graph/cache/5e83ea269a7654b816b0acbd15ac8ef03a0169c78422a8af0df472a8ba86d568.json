@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_e4eb8bfd91f58cf629c538383484e66d",
+  "content_hash": "efd5554b1ee1e440d64dcd217eab5f6463da625b40b4a71caaa7702e01f82ca4",
+  "entities": [
+    {
+      "canonical_name": "RSV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV infection",
+      "chunk_id": "chk_e4eb8bfd91f58cf629c538383484e66d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

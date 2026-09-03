@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_ce2e8340fa540600fbe280507404545b",
+  "content_hash": "2b0c0c4eabac3c9b496221395dd149888b1f0e8de7c68ca98d7d2a32e954ce8d",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal conjugate vaccine (PCV-13)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine (PCV-13)",
+      "chunk_id": "chk_ce2e8340fa540600fbe280507404545b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

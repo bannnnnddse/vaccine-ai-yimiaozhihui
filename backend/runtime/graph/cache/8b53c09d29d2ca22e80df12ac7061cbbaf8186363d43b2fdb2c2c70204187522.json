@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_94cc24524d32630788a37b665a478467",
+  "content_hash": "112ecc7bb0e716c50334f1e60d2539ff45adceb2d07f6662856b3aca91a07516",
+  "entities": [
+    {
+      "canonical_name": "Strep A",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Strep A",
+      "chunk_id": "chk_94cc24524d32630788a37b665a478467"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_94cc24524d32630788a37b665a478467"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

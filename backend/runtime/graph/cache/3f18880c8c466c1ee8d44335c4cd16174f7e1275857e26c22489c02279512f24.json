@@ -1,0 +1,36 @@
+{
+  "chunk_id": "fccc6bc49b1b140e0e7d749b12f3044263c5038c1ea6a40f8dc92fa29cf0dfe3",
+  "content_hash": "832f5d46a098da4a4631aac462006bf9c52cf3551cdcf327f557a35fd25ae6c6",
+  "entities": [
+    {
+      "canonical_name": "healthy individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy individuals",
+      "chunk_id": "fccc6bc49b1b140e0e7d749b12f3044263c5038c1ea6a40f8dc92fa29cf0dfe3"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "fccc6bc49b1b140e0e7d749b12f3044263c5038c1ea6a40f8dc92fa29cf0dfe3"
+    },
+    {
+      "canonical_name": "immunogen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunogen",
+      "chunk_id": "fccc6bc49b1b140e0e7d749b12f3044263c5038c1ea6a40f8dc92fa29cf0dfe3"
+    },
+    {
+      "canonical_name": "vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine candidates",
+      "chunk_id": "fccc6bc49b1b140e0e7d749b12f3044263c5038c1ea6a40f8dc92fa29cf0dfe3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

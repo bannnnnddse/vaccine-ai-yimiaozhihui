@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2b32ae871cefae07410a41cef05fd1d9",
+  "content_hash": "e49d791721c66fd116dac8abdb83b3d7df20286b22352f8b24573c26ba33251f",
+  "entities": [
+    {
+      "canonical_name": "COVID vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID vaccine",
+      "chunk_id": "chk_2b32ae871cefae07410a41cef05fd1d9"
+    },
+    {
+      "canonical_name": "Heterologous COVID vaccine priming schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Heterologous COVID vaccine priming schedules",
+      "chunk_id": "chk_2b32ae871cefae07410a41cef05fd1d9"
+    },
+    {
+      "canonical_name": "COVID-19 vaccine platforms",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine platforms",
+      "chunk_id": "chk_2b32ae871cefae07410a41cef05fd1d9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

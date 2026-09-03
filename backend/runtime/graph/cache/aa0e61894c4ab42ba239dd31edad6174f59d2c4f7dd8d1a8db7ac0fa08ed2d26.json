@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_d37ad3dc9da67368d55a96bcf7a2cdfb",
+  "content_hash": "09b578aee6819f18c3a081ac8c9b9cd3631849c32488b9c84a21614fb267bbb2",
+  "entities": [
+    {
+      "canonical_name": "therapeutic DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "therapeutic DNA vaccines",
+      "chunk_id": "chk_d37ad3dc9da67368d55a96bcf7a2cdfb"
+    },
+    {
+      "canonical_name": "human papillomavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomavirus",
+      "chunk_id": "chk_d37ad3dc9da67368d55a96bcf7a2cdfb"
+    },
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_d37ad3dc9da67368d55a96bcf7a2cdfb"
+    },
+    {
+      "canonical_name": "chronic hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic hepatitis B",
+      "chunk_id": "chk_d37ad3dc9da67368d55a96bcf7a2cdfb"
+    },
+    {
+      "canonical_name": "HBs and HBc antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HBs and HBc antigens",
+      "chunk_id": "chk_d37ad3dc9da67368d55a96bcf7a2cdfb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

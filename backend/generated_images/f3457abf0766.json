@@ -1,0 +1,142 @@
+{
+  "job_id": "f3457abf0766",
+  "prompt": "HPV疫苗的作用机制图解",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "optimized_chinese_prompt": "16:9横版手绘图解，浅米白纸面背景。粗颗粒黑色手绘描边，线条略抖动，风格简约平涂。低饱和蓝、绿、黄、橙撞色。画面中心为一个简化的病毒样颗粒（VLP），呈多面体结构，颜色为淡黄色；右侧为人体免疫细胞（如树突状细胞或B细胞），轮廓简单，颜色为淡蓝色。两者之间用虚线箭头连接，表示识别与呈递过程。少量中文手写批注：'VLP模拟'、'免疫记忆'。充分留白，无密集文字，无3D效果，无商业海报感。",
+    "chinese_labels": [
+      "HPV VLP",
+      "免疫细胞",
+      "抗体产生",
+      "免疫记忆"
+    ],
+    "scientific_claims": [
+      "HPV疫苗基于病毒样颗粒（VLP）技术",
+      "VLP不含病毒DNA，无感染性",
+      "VLP可被免疫系统识别为外来抗原",
+      "诱导机体产生特异性中和抗体",
+      "形成免疫记忆以预防真实病毒感染"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "HPV VLP被免疫系统识别"
+      },
+      {
+        "primary_relation": "激活B细胞并产生抗体"
+      }
+    ],
+    "route_reason": "正式快速闭环固定使用 Wan；Crafter 仅保留为 legacy。"
+  },
+  "generation_route": "fast",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "virus",
+    "dendritic",
+    "b_cell",
+    "antibody",
+    "antigen"
+  ],
+  "reference_assets": [
+    "handdrawn-style-reference",
+    "flat-character-sheet",
+    "role-board:virus+dendritic+b_cell+antibody+antigen"
+  ],
+  "aspect_ratio": "16:9",
+  "image_id": "f3457abf0766-v0",
+  "trusted_image": "f3457abf0766-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "画面构图和留白符合要求，但存在严重的科学准确性问题。左侧黄色病毒结构被标注为“VPL模拟”，这不符合HPV疫苗的作用机制（应为真实病毒或病毒样颗粒VLP引发免疫反应）。此外，右侧角色虽符合B细胞设定（蓝色、Y形抗体），但缺乏与左侧抗原/病毒的互动逻辑，导致因果链条断裂，未能清晰展示“疫苗模拟感染→触发免疫记忆”的核心机制。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "issues": [
+      {
+        "issue_type": "scientific_expression",
+        "severity": "high",
+        "description": "潜在科学表达风险（当前未接入证据核验）：左侧标注“VPL模拟”不准确且易引起歧义。HPV疫苗机制通常展示“病毒样颗粒(VLP)”或“病毒颗粒”作为抗原刺激免疫系统。建议将标签修正为“HPV病毒样颗粒”或“抗原刺激”。",
+        "bbox": [
+          0.34,
+          0.3,
+          0.42,
+          0.35
+        ],
+        "confidence": 0.95,
+        "suggested_fix": "将文字‘VPL模拟’修改为‘HPV病毒样颗粒’或‘抗原刺激’，以准确表达疫苗原理。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "layout",
+        "severity": "medium",
+        "description": "因果连接较弱。虚线箭头仅指向B细胞，未体现“识别”或“结合”的过程。B细胞手持抗体显得被动，未展示其被激活后产生抗体的动态或状态变化。",
+        "bbox": [
+          0.45,
+          0.45,
+          0.55,
+          0.55
+        ],
+        "confidence": 0.8,
+        "suggested_fix": "优化箭头路径，使其看起来像是B细胞在识别左侧的病毒颗粒；或者增加B细胞的反应神态（如兴奋、发光），表现免疫激活过程。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-26T03:22:08.657660+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "b5287b1159c2",
+  "trace_events": [
+    {
+      "id": "b5287b1159c2-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-26T03:22:08.657660Z"
+    },
+    {
+      "id": "b5287b1159c2-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：16:9横版手绘图解，浅米白纸面背景。粗颗粒黑色手绘描边，线条略抖动，风格简约平涂。低饱和蓝、绿、黄、橙撞色。画面中心为一个简化的病毒样颗粒（VLP），呈多面体结构，颜色为淡黄色；右侧为人体免疫细胞（如树突状细胞或B细胞），轮廓简单，颜色为淡蓝色。两者之间用虚线箭头连接，表示识别与呈递过程。少量中文手写批注：'VLP模拟'、'免疫记忆'。充分留白，无密集文…",
+      "status": "completed",
+      "created_at": "2026-08-26T03:22:08.664237Z"
+    },
+    {
+      "id": "b5287b1159c2-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-26T03:22:13.626411Z"
+    },
+    {
+      "id": "b5287b1159c2-4",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "画面构图和留白符合要求，但存在严重的科学准确性问题。左侧黄色病毒结构被标注为“VPL模拟”，这不符合HPV疫苗的作用机制（应为真实病毒或病毒样颗粒VLP引发免疫反应）。此外，右侧角色虽符合B细胞设定（蓝色、Y形抗体），但缺乏与左侧抗原/病毒的互动逻辑，导致因果链条断裂，未能清晰展示“疫苗模拟感染→触发免疫记忆”的核心机制。",
+      "status": "warning",
+      "created_at": "2026-08-26T03:22:32.860709Z"
+    },
+    {
+      "id": "b5287b1159c2-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-26T03:22:44.022795Z"
+    }
+  ],
+  "trace_history": []
+}

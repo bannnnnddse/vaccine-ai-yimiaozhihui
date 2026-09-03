@@ -1,0 +1,88 @@
+{
+  "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc",
+  "content_hash": "003e18f5437ddbc20593ca9497862a7d1ba4555ecd2d84f76eb767440a9b852f",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    },
+    {
+      "canonical_name": "smallpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "smallpox",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    },
+    {
+      "canonical_name": "poliomyelitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "poliomyelitis",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    },
+    {
+      "canonical_name": "mumps",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "mumps",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    },
+    {
+      "canonical_name": "rubella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rubella",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b",
+      "chunk_id": "chk_6e873de8468b8922bc2d4cff49ceabbc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

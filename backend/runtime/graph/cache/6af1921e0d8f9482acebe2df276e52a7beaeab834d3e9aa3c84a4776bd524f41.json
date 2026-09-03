@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_5587fd711c3f8b05a5e5f00f3650e8bd",
+  "content_hash": "48e96674f7aa89e80ff75d0a85ecfbde929ec08fe3165d41b08b22618e74b982",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_5587fd711c3f8b05a5e5f00f3650e8bd"
+    },
+    {
+      "canonical_name": "adverse events following immunization",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events following immunization",
+      "chunk_id": "chk_5587fd711c3f8b05a5e5f00f3650e8bd"
+    },
+    {
+      "canonical_name": "adverse reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse reactions",
+      "chunk_id": "chk_5587fd711c3f8b05a5e5f00f3650e8bd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

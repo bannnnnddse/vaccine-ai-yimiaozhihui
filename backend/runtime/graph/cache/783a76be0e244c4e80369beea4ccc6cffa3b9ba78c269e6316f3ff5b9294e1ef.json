@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_6d2f3e7c421f476475eba20044149279",
+  "content_hash": "1c48c52bbfb43289950e31e02f8f07632eb1859a0534dc790d86157134435495",
+  "entities": [
+    {
+      "canonical_name": "pneumococci",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pneumococci",
+      "chunk_id": "chk_6d2f3e7c421f476475eba20044149279"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_6d2f3e7c421f476475eba20044149279"
+    },
+    {
+      "canonical_name": "invasive disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive disease",
+      "chunk_id": "chk_6d2f3e7c421f476475eba20044149279"
+    },
+    {
+      "canonical_name": "13-valent conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "13-valent conjugate vaccine",
+      "chunk_id": "chk_6d2f3e7c421f476475eba20044149279"
+    },
+    {
+      "canonical_name": "invasive pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive pneumococcal disease",
+      "chunk_id": "chk_6d2f3e7c421f476475eba20044149279"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,97 @@
+{
+  "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0",
+  "content_hash": "12634f73ce7ed0800361de0d2394e73a8681182dc7eebb72819abfbbecfe3642",
+  "entities": [
+    {
+      "canonical_name": "Conventional prophylactic vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Conventional prophylactic vaccines",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "healthy individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy individuals",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "communicable diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "communicable diseases",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "Therapeutic vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Therapeutic vaccines",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "chronic infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic infections",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "precancerous lesions",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "precancerous lesions",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "human immune system",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human immune system",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "cell-mediated immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cell-mediated immunity",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "NCDs",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "NCDs",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    },
+    {
+      "canonical_name": "pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogens",
+      "chunk_id": "chk_d9d7f6d86f1db9af40beeedef44b0fe0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

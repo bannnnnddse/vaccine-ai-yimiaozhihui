@@ -1,0 +1,38 @@
+{
+  "chunk_id": "688bf3c532ce335daad62c023f2f327bfd1649d984e8b92f612d98dd4ba313fb",
+  "content_hash": "edf17cf432246d9e658dbbbe0e7f82f3d21112f5f2cb186f0cecde05e1d5b71e",
+  "entities": [
+    {
+      "canonical_name": "ProQuad vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ProQuad vaccine",
+      "chunk_id": "688bf3c532ce335daad62c023f2f327bfd1649d984e8b92f612d98dd4ba313fb"
+    },
+    {
+      "canonical_name": "hyperpyrexia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "hyperpyrexia",
+      "chunk_id": "688bf3c532ce335daad62c023f2f327bfd1649d984e8b92f612d98dd4ba313fb"
+    },
+    {
+      "canonical_name": "Juvenile idiopathic arthritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Juvenile idiopathic arthritis",
+      "chunk_id": "688bf3c532ce335daad62c023f2f327bfd1649d984e8b92f612d98dd4ba313fb"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "688bf3c532ce335daad62c023f2f327bfd1649d984e8b92f612d98dd4ba313fb"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

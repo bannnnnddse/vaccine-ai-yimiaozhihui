@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_6a07d509b11584129a1d817186ce2d7a",
+  "content_hash": "9de3d6b6dbf0c60bcc7237e2398667b78b36d6a14092394c4edc131cf1180d87",
+  "entities": [
+    {
+      "canonical_name": "MenACWY-CRM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenACWY-CRM",
+      "chunk_id": "chk_6a07d509b11584129a1d817186ce2d7a"
+    },
+    {
+      "canonical_name": "anamnestic response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anamnestic response",
+      "chunk_id": "chk_6a07d509b11584129a1d817186ce2d7a"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_6a07d509b11584129a1d817186ce2d7a"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_6a07d509b11584129a1d817186ce2d7a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

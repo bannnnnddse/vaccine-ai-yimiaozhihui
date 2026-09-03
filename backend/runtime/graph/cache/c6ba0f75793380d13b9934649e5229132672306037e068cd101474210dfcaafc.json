@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_3852c23a279dadb00d582af27fbede26",
+  "content_hash": "768e786543af2f70df932b693714d0d4f5ff16340e3fb8bcc0c230bd041fa990",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_3852c23a279dadb00d582af27fbede26"
+    },
+    {
+      "canonical_name": "major depression",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "major depression",
+      "chunk_id": "chk_3852c23a279dadb00d582af27fbede26"
+    },
+    {
+      "canonical_name": "bipolar disorder",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "bipolar disorder",
+      "chunk_id": "chk_3852c23a279dadb00d582af27fbede26"
+    },
+    {
+      "canonical_name": "schizophrenia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "schizophrenia",
+      "chunk_id": "chk_3852c23a279dadb00d582af27fbede26"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

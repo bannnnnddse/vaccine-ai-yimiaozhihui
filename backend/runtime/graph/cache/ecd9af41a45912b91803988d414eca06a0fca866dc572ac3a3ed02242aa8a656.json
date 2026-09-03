@@ -1,0 +1,50 @@
+{
+  "chunk_id": "622c64da8168ab7b4b9cee848481160e94357ec02944f2bf36d81eba699b486c",
+  "content_hash": "c1bf2d36631c72cb8984aaec87c2610af0eab80273a316692f7cf5395cafd1ff",
+  "entities": [
+    {
+      "canonical_name": "国家免疫规划疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "国家免疫规划疫苗",
+      "chunk_id": "622c64da8168ab7b4b9cee848481160e94357ec02944f2bf36d81eba699b486c"
+    },
+    {
+      "canonical_name": "儿童免疫程序表",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "儿童免疫程序表",
+      "chunk_id": "622c64da8168ab7b4b9cee848481160e94357ec02944f2bf36d81eba699b486c"
+    },
+    {
+      "canonical_name": "免疫程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "免疫程序",
+      "chunk_id": "622c64da8168ab7b4b9cee848481160e94357ec02944f2bf36d81eba699b486c"
+    },
+    {
+      "canonical_name": "注射类减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "注射类减毒活疫苗",
+      "chunk_id": "622c64da8168ab7b4b9cee848481160e94357ec02944f2bf36d81eba699b486c"
+    },
+    {
+      "canonical_name": "灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "灭活疫苗",
+      "chunk_id": "622c64da8168ab7b4b9cee848481160e94357ec02944f2bf36d81eba699b486c"
+    },
+    {
+      "canonical_name": "口服类减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "口服类减毒活疫苗",
+      "chunk_id": "622c64da8168ab7b4b9cee848481160e94357ec02944f2bf36d81eba699b486c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_9df6f5d7928eda6dad8ce3c7462c157b",
+  "content_hash": "f5b54e880ba95a881c82a50bdb4df4c511823dbdd7753c1379aeb5246ad3cb6f",
+  "entities": [
+    {
+      "canonical_name": "Thrombotic Thrombocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Thrombotic Thrombocytopenia",
+      "chunk_id": "chk_9df6f5d7928eda6dad8ce3c7462c157b"
+    },
+    {
+      "canonical_name": "ChAdox1 nCov-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdox1 nCov-19 vaccination",
+      "chunk_id": "chk_9df6f5d7928eda6dad8ce3c7462c157b"
+    },
+    {
+      "canonical_name": "Thrombosis and Thrombocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Thrombosis and Thrombocytopenia",
+      "chunk_id": "chk_9df6f5d7928eda6dad8ce3c7462c157b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

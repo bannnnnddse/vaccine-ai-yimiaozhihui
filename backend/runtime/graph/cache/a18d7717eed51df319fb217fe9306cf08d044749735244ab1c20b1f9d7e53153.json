@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2113ee89d7ab8d38e217d970cd30e402",
+  "content_hash": "91d824f6ffd5a0fe44d161e50c623af9db4f620c0400ab9e1c26a9504051d0e7",
+  "entities": [
+    {
+      "canonical_name": "HPV bivalent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV bivalent vaccine",
+      "chunk_id": "chk_2113ee89d7ab8d38e217d970cd30e402"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

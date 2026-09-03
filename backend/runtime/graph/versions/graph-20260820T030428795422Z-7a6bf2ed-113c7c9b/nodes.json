@@ -1,0 +1,29 @@
+[
+  {
+    "aliases": [],
+    "canonical_name": "接种单位",
+    "entity_type": "Vaccine",
+    "id": "node_4997aa305982fe26cbae7d58",
+    "provenance_ids": [
+      "prov_17929a1badb6d303be0e7522"
+    ]
+  },
+  {
+    "aliases": [],
+    "canonical_name": "从事预防接种工作的医疗机构",
+    "entity_type": "Vaccine",
+    "id": "node_716806788258ce9e1e40df25",
+    "provenance_ids": [
+      "prov_17929a1badb6d303be0e7522"
+    ]
+  },
+  {
+    "aliases": [],
+    "canonical_name": "预防接种工作规范（2023年版）",
+    "entity_type": "Guideline",
+    "id": "node_c5cf9b4b72a37a3f3983df30",
+    "provenance_ids": [
+      "prov_17929a1badb6d303be0e7522"
+    ]
+  }
+]

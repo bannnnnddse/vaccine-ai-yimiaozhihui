@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_731af05a6c3d4b69f690fd7228f83f95",
+  "content_hash": "020a7072862bd7e1841327d8efa9aaa7b693af90d21798e6a4e20f28d24e37c8",
+  "entities": [
+    {
+      "canonical_name": "HFMD infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD infection",
+      "chunk_id": "chk_731af05a6c3d4b69f690fd7228f83f95"
+    },
+    {
+      "canonical_name": "CV-A16-specific neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CV-A16-specific neutralizing antibodies",
+      "chunk_id": "chk_731af05a6c3d4b69f690fd7228f83f95"
+    },
+    {
+      "canonical_name": "functional memory T-cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "functional memory T-cells",
+      "chunk_id": "chk_731af05a6c3d4b69f690fd7228f83f95"
+    },
+    {
+      "canonical_name": "inactivated CV-A16 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated CV-A16 vaccine",
+      "chunk_id": "chk_731af05a6c3d4b69f690fd7228f83f95"
+    },
+    {
+      "canonical_name": "young macaque recipient",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young macaque recipient",
+      "chunk_id": "chk_731af05a6c3d4b69f690fd7228f83f95"
+    },
+    {
+      "canonical_name": "rhesus macaques",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "rhesus macaques",
+      "chunk_id": "chk_731af05a6c3d4b69f690fd7228f83f95"
+    },
+    {
+      "canonical_name": "CV-A16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A16",
+      "chunk_id": "chk_731af05a6c3d4b69f690fd7228f83f95"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

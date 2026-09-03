@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_4e1860f3cf504d890930079624bcdc48",
+  "content_hash": "3c99c14815f2ce02d071892755bd1365251bb0a56384248494dba2d123c8f72e",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 Vaccines",
+      "chunk_id": "chk_4e1860f3cf504d890930079624bcdc48"
+    },
+    {
+      "canonical_name": "Immunocompromised Patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Immunocompromised Patients",
+      "chunk_id": "chk_4e1860f3cf504d890930079624bcdc48"
+    },
+    {
+      "canonical_name": "Ad26.COV2.S Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad26.COV2.S Vaccine",
+      "chunk_id": "chk_4e1860f3cf504d890930079624bcdc48"
+    },
+    {
+      "canonical_name": "Covid-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Covid-19",
+      "chunk_id": "chk_4e1860f3cf504d890930079624bcdc48"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

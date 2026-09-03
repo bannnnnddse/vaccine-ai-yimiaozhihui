@@ -1,0 +1,69 @@
+{
+  "chunk_id": "2d67b51fabae106ecb0119ec12807c7d76d4904697a993f39f8adefafa736bf8",
+  "content_hash": "a00b678523c3d3f60ea9d05d35d28484f4b9a722ac32e187dcc4658a78d2877d",
+  "entities": [
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "2d67b51fabae106ecb0119ec12807c7d76d4904697a993f39f8adefafa736bf8"
+    },
+    {
+      "canonical_name": "inactivated vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccine",
+      "chunk_id": "2d67b51fabae106ecb0119ec12807c7d76d4904697a993f39f8adefafa736bf8"
+    },
+    {
+      "canonical_name": "IgG1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG1",
+      "chunk_id": "2d67b51fabae106ecb0119ec12807c7d76d4904697a993f39f8adefafa736bf8"
+    },
+    {
+      "canonical_name": "IgG2a",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG2a",
+      "chunk_id": "2d67b51fabae106ecb0119ec12807c7d76d4904697a993f39f8adefafa736bf8"
+    },
+    {
+      "canonical_name": "Th1/Th2 T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th1/Th2 T-cell",
+      "chunk_id": "2d67b51fabae106ecb0119ec12807c7d76d4904697a993f39f8adefafa736bf8"
+    },
+    {
+      "canonical_name": "WA1/2020",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "WA1/2020",
+      "chunk_id": "2d67b51fabae106ecb0119ec12807c7d76d4904697a993f39f8adefafa736bf8"
+    },
+    {
+      "canonical_name": "Delta",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Delta",
+      "chunk_id": "2d67b51fabae106ecb0119ec12807c7d76d4904697a993f39f8adefafa736bf8"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "2d67b51fabae106ecb0119ec12807c7d76d4904697a993f39f8adefafa736bf8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_1e89afc3fddb45b30cf007aa2cbd5175",
+  "content_hash": "65272bec997eebb199e05232d3dca7d2bb04327006036a2e2c65cf9c40fe00c2",
+  "entities": [
+    {
+      "canonical_name": "glycoprotein vaccine based on mRNA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "glycoprotein vaccine based on mRNA",
+      "chunk_id": "chk_1e89afc3fddb45b30cf007aa2cbd5175"
+    },
+    {
+      "canonical_name": "injection site responses",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "injection site responses",
+      "chunk_id": "chk_1e89afc3fddb45b30cf007aa2cbd5175"
+    },
+    {
+      "canonical_name": "systemic adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "systemic adverse events",
+      "chunk_id": "chk_1e89afc3fddb45b30cf007aa2cbd5175"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

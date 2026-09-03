@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_456f52576f5f79bfaca2b980b6be3598",
+  "content_hash": "399f96b593827464b67fde3d09fc557238dbde37e340c31d846f1a0daca091c1",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_456f52576f5f79bfaca2b980b6be3598"
+    },
+    {
+      "canonical_name": "children's immune systems",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "children's immune systems",
+      "chunk_id": "chk_456f52576f5f79bfaca2b980b6be3598"
+    },
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_456f52576f5f79bfaca2b980b6be3598"
+    },
+    {
+      "canonical_name": "antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigens",
+      "chunk_id": "chk_456f52576f5f79bfaca2b980b6be3598"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

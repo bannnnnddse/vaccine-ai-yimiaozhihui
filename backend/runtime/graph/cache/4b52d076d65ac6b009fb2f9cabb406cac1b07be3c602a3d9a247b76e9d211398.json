@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_cbe912a27e7b007f7b54219c09829a76",
+  "content_hash": "698e280ee52122422a81d879fcd9d14c400b640955e201e966344164c08e9bfb",
+  "entities": [
+    {
+      "canonical_name": "maternal antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "maternal antibody",
+      "chunk_id": "chk_cbe912a27e7b007f7b54219c09829a76"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_cbe912a27e7b007f7b54219c09829a76"
+    },
+    {
+      "canonical_name": "Expanded Programme on Immunization schedule",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Expanded Programme on Immunization schedule",
+      "chunk_id": "chk_cbe912a27e7b007f7b54219c09829a76"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_cbe912a27e7b007f7b54219c09829a76"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

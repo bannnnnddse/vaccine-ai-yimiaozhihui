@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_aef920cbd3993e41f0305e3410f7cb62",
+  "content_hash": "4bd782e5ad9ad8994fe8fe29cef5738fd4395f214ea8b062170fb62489277091",
+  "entities": [
+    {
+      "canonical_name": "Cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Cervical cancer",
+      "chunk_id": "chk_aef920cbd3993e41f0305e3410f7cb62"
+    },
+    {
+      "canonical_name": "human papillomaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomaviruses",
+      "chunk_id": "chk_aef920cbd3993e41f0305e3410f7cb62"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_aef920cbd3993e41f0305e3410f7cb62"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

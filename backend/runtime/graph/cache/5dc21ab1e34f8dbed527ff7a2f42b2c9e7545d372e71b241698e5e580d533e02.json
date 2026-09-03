@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_ad2d1af5ffc2857f28b11b12d4d4ef56",
+  "content_hash": "893e505a1be54f0239bf47bfa394fd4936437ed1f1b87a07cda3dd67b742e2fd",
+  "entities": [
+    {
+      "canonical_name": "severe typhoid",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe typhoid",
+      "chunk_id": "chk_ad2d1af5ffc2857f28b11b12d4d4ef56"
+    },
+    {
+      "canonical_name": "TCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "TCV",
+      "chunk_id": "chk_ad2d1af5ffc2857f28b11b12d4d4ef56"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "chunk_id": "chk_a8891429e2431b8100219689c552395f",
+  "content_hash": "48574fbc0cb4b6ce2826dc8c18adc95366cf42383dcd0c695148410de7b6c9e1",
+  "entities": [
+    {
+      "canonical_name": "21 — 三体综合征",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "21 — 三体综合征",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "唐氏综合征",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "唐氏综合征",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "先天性甲状腺功能减退症",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "先天性甲状腺功能减退症",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "苯丙酮尿症",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "苯丙酮尿症",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "葡萄糖 — 6 — 磷酸脱氢酶缺乏症",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "葡萄糖 — 6 — 磷酸脱氢酶缺乏症",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "新生儿听力筛查异常者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "新生儿听力筛查异常者",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "心功能稳定(包括术后恢 复期)的先天性心脏病患者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "心功能稳定（包括术后恢 复期）的先天性心脏病患者",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "感染 HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "感染 HIV",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "梅毒",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "梅毒",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "巨细胞病毒",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "巨细胞病毒",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "风疹病 毒",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "风疹病 毒",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    },
+    {
+      "canonical_name": "弓形虫",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "弓形虫",
+      "chunk_id": "chk_a8891429e2431b8100219689c552395f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

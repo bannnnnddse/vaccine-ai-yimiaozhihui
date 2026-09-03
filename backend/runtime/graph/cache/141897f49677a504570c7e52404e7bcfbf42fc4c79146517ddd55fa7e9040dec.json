@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6655c53d1ac11bb5a4f0360d3d2081e3",
+  "content_hash": "e1142e5de3bfdac6d5d2a2f0cdfc942379729fab885c4859d5e2cb82de949580",
+  "entities": [
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_6655c53d1ac11bb5a4f0360d3d2081e3"
+    },
+    {
+      "canonical_name": "human rotaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human rotaviruses",
+      "chunk_id": "chk_6655c53d1ac11bb5a4f0360d3d2081e3"
+    },
+    {
+      "canonical_name": "people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "people",
+      "chunk_id": "chk_6655c53d1ac11bb5a4f0360d3d2081e3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_88a7bbcd51c245fdc5cfb1eda2cbe7ec",
+  "content_hash": "bffd3cb796fac2cd5238dd037aad21f6288c824af234222c16cb32d5026e097f",
+  "entities": [
+    {
+      "canonical_name": "Bacteroides",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bacteroides",
+      "chunk_id": "chk_88a7bbcd51c245fdc5cfb1eda2cbe7ec"
+    },
+    {
+      "canonical_name": "Bifidobacterium",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium",
+      "chunk_id": "chk_88a7bbcd51c245fdc5cfb1eda2cbe7ec"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_88a7bbcd51c245fdc5cfb1eda2cbe7ec"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_88a7bbcd51c245fdc5cfb1eda2cbe7ec"
+    },
+    {
+      "canonical_name": "immunoglobulin",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunoglobulin",
+      "chunk_id": "chk_88a7bbcd51c245fdc5cfb1eda2cbe7ec"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

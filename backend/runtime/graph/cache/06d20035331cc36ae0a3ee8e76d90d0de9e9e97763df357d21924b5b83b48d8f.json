@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_59c349d0af9f62973269089333675f72",
+  "content_hash": "417bf0a7616cfdf7875e616b9e6eba50814d2f26c6ddb9fc78059d1d4d1394ff",
+  "entities": [
+    {
+      "canonical_name": "lactating women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "lactating women",
+      "chunk_id": "chk_59c349d0af9f62973269089333675f72"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_5fe561ec929c7e34a25b8606cc31db29",
+  "content_hash": "859fb449b5cf616328a811a78ec5ace6da3f60af66b5e6a923afc5515d71df98",
+  "entities": [
+    {
+      "canonical_name": "Pertactin-negative Bordetella pertussis strains",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Pertactin-negative Bordetella pertussis strains",
+      "chunk_id": "chk_5fe561ec929c7e34a25b8606cc31db29"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_5fe561ec929c7e34a25b8606cc31db29"
+    },
+    {
+      "canonical_name": "CoronaVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoronaVac",
+      "chunk_id": "chk_5fe561ec929c7e34a25b8606cc31db29"
+    },
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_5fe561ec929c7e34a25b8606cc31db29"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

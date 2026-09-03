@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_4d47da192139b8157e8ce836d274c3ae",
+  "content_hash": "2168e256592709160e2276c7e5e222afc32f16a3dc64eb3d7c43f1978b2af6d8",
+  "entities": [
+    {
+      "canonical_name": "birth-dose vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "birth-dose vaccination",
+      "chunk_id": "chk_4d47da192139b8157e8ce836d274c3ae"
+    },
+    {
+      "canonical_name": "HBIG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HBIG",
+      "chunk_id": "chk_4d47da192139b8157e8ce836d274c3ae"
+    },
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "chk_4d47da192139b8157e8ce836d274c3ae"
+    },
+    {
+      "canonical_name": "HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HBV infection",
+      "chunk_id": "chk_4d47da192139b8157e8ce836d274c3ae"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

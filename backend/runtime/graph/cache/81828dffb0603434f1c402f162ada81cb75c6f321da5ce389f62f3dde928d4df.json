@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_7f1f6051e7c3832ea4dab9784cd33a72",
+  "content_hash": "0177d3a9f9f9869fb21b16fff05baa6c5b37ceaac47e49273cfe8d1b32be40bf",
+  "entities": [
+    {
+      "canonical_name": "children under 5 years of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under 5 years of age",
+      "chunk_id": "chk_7f1f6051e7c3832ea4dab9784cd33a72"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

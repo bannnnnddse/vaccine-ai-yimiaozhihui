@@ -1,0 +1,43 @@
+{
+  "chunk_id": "344a07766049f7d97d4dddc744409271f402840241e646e655135eb402e9a2ab",
+  "content_hash": "771a55633272c1d50af18d99e361781dd609ddc24accdd214d7ba4aaf5380cb2",
+  "entities": [
+    {
+      "canonical_name": "routine immunization schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "routine immunization schedules",
+      "chunk_id": "344a07766049f7d97d4dddc744409271f402840241e646e655135eb402e9a2ab"
+    },
+    {
+      "canonical_name": "Universal hepatitis B birth dose",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Universal hepatitis B birth dose",
+      "chunk_id": "344a07766049f7d97d4dddc744409271f402840241e646e655135eb402e9a2ab"
+    },
+    {
+      "canonical_name": "human papillomavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccine",
+      "chunk_id": "344a07766049f7d97d4dddc744409271f402840241e646e655135eb402e9a2ab"
+    },
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "344a07766049f7d97d4dddc744409271f402840241e646e655135eb402e9a2ab"
+    },
+    {
+      "canonical_name": "diphtheria, tetanus, and pertussis–containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria, tetanus, and pertussis–containing vaccine",
+      "chunk_id": "344a07766049f7d97d4dddc744409271f402840241e646e655135eb402e9a2ab"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

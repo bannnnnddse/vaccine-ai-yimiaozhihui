@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_b65b1ca4a02573f0da5632e1a93f1069",
+  "content_hash": "070b70ff796ea2bb0c53726f2a2500cab94b8517c83f0f08b85689d1e3202ed1",
+  "entities": [
+    {
+      "canonical_name": "RV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV vaccine",
+      "chunk_id": "chk_b65b1ca4a02573f0da5632e1a93f1069"
+    },
+    {
+      "canonical_name": "vaccination schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "vaccination schedules",
+      "chunk_id": "chk_b65b1ca4a02573f0da5632e1a93f1069"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

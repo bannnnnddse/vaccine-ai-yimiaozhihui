@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_f5945e004be88f76e9fdcd1c4ce84972",
+  "content_hash": "b0feb472dbc6fa6dc2e07ea24c44dd566dc4a851a4bb2952fe4b13b4868fd7e8",
+  "entities": [
+    {
+      "canonical_name": "水痘疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "水痘疫苗",
+      "chunk_id": "chk_f5945e004be88f76e9fdcd1c4ce84972"
+    },
+    {
+      "canonical_name": "水痘",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "水痘",
+      "chunk_id": "chk_f5945e004be88f76e9fdcd1c4ce84972"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "水痘疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "水痘疫苗",
+        "chunk_id": "chk_f5945e004be88f76e9fdcd1c4ce84972"
+      },
+      "target": {
+        "canonical_name": "水痘",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "水痘",
+        "chunk_id": "chk_f5945e004be88f76e9fdcd1c4ce84972"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "对1～12岁健康儿童接种1剂次水痘疫苗6个月内预防水痘的保护效力为87.1%(95%CI:69.7%～94.5%)。",
+      "confidence": 1.0,
+      "chunk_id": "chk_f5945e004be88f76e9fdcd1c4ce84972"
+    }
+  ],
+  "rejected": []
+}

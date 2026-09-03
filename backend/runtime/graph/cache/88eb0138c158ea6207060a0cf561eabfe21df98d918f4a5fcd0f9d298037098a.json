@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_1ed6bf794287bb7d9c3899daefb0da37",
+  "content_hash": "bcc80f70b6f07e02e6dfb93531a01c16e89ebed196037983af5d0cdec774b108",
+  "entities": [
+    {
+      "canonical_name": "ROTAVAC ®",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ROTAVAC ®",
+      "chunk_id": "chk_1ed6bf794287bb7d9c3899daefb0da37"
+    },
+    {
+      "canonical_name": "childhood vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "childhood vaccines",
+      "chunk_id": "chk_1ed6bf794287bb7d9c3899daefb0da37"
+    },
+    {
+      "canonical_name": "Indian infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Indian infants",
+      "chunk_id": "chk_1ed6bf794287bb7d9c3899daefb0da37"
+    },
+    {
+      "canonical_name": "live attenuated rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live attenuated rotavirus vaccine",
+      "chunk_id": "chk_1ed6bf794287bb7d9c3899daefb0da37"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_0fd5ebb377b341a2946835712dc03abb",
+  "content_hash": "123943ec252b5cda5625fb86ed33e18f248207fead52ea946df4901b0a2b177d",
+  "entities": [
+    {
+      "canonical_name": "Adverse events (AEs)",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Adverse events (AEs)",
+      "chunk_id": "chk_0fd5ebb377b341a2946835712dc03abb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

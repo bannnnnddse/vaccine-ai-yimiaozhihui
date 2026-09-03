@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f1a36203f993b898681d77a5e0228840",
+  "content_hash": "46ba96f6dcce71495a0f6ff3270a21cc1ebee934d1b7a901f30e9b6a462cf9b0",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination",
+      "chunk_id": "chk_f1a36203f993b898681d77a5e0228840"
+    },
+    {
+      "canonical_name": "influenzavaccineavoidant 18-to-49-year-olds",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "influenzavaccineavoidant 18-to-49-year-olds",
+      "chunk_id": "chk_f1a36203f993b898681d77a5e0228840"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

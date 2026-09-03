@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2518f75298f7043c1a1b0d9d2a29d500",
+  "content_hash": "c6231b023b8ad8fb01e9a6596a6a8895130c0afd8bdda98a57a396877f8ccf19",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_2518f75298f7043c1a1b0d9d2a29d500"
+    },
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_2518f75298f7043c1a1b0d9d2a29d500"
+    },
+    {
+      "canonical_name": "infectious disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious disease",
+      "chunk_id": "chk_2518f75298f7043c1a1b0d9d2a29d500"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

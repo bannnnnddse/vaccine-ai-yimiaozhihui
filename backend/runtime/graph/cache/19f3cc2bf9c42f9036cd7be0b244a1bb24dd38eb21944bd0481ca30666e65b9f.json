@@ -1,0 +1,33 @@
+{
+  "chunk_id": "chk_2e2916bba5f6560282b41e408aea3488",
+  "content_hash": "a6c28cef9ca4064be3e8dedb9dea1069b574ebdd98036c123489bb65ffbf108a",
+  "entities": [
+    {
+      "canonical_name": "流脑疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "流脑疫苗",
+      "chunk_id": "chk_2e2916bba5f6560282b41e408aea3488"
+    },
+    {
+      "canonical_name": "适龄儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "适龄儿童",
+      "chunk_id": "chk_2e2916bba5f6560282b41e408aea3488"
+    },
+    {
+      "canonical_name": "小于 24 月龄儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "小于 24 月龄儿童",
+      "chunk_id": "chk_2e2916bba5f6560282b41e408aea3488"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

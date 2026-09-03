@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_988ef398f923ed7480b7cca326574fdd",
+  "content_hash": "679e2d3e936ece037bada7d72b4bfa1421344d545d5b9994d413a24a651ee876",
+  "entities": [
+    {
+      "canonical_name": "influenza strains",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza strains",
+      "chunk_id": "chk_988ef398f923ed7480b7cca326574fdd"
+    },
+    {
+      "canonical_name": "respiratory pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory pathogens",
+      "chunk_id": "chk_988ef398f923ed7480b7cca326574fdd"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_988ef398f923ed7480b7cca326574fdd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

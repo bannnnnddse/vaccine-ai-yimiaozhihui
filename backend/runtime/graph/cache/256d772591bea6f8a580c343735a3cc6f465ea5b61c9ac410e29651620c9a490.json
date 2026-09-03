@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_0887f35092b597f8005fc94a0755171d",
+  "content_hash": "357416d2bdbf780e3cffc9fd0fc10311dbcad934a08f643c7621550b30ea8e6c",
+  "entities": [
+    {
+      "canonical_name": "typhoid vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "typhoid vaccines",
+      "chunk_id": "chk_0887f35092b597f8005fc94a0755171d"
+    },
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_0887f35092b597f8005fc94a0755171d"
+    },
+    {
+      "canonical_name": "TCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "TCV",
+      "chunk_id": "chk_0887f35092b597f8005fc94a0755171d"
+    },
+    {
+      "canonical_name": "younger children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "younger children",
+      "chunk_id": "chk_0887f35092b597f8005fc94a0755171d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

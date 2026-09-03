@@ -1,0 +1,32 @@
+{
+  "chunk_id": "9b18d89c92cd8cad4e0fbfbe692b344fd63b132052415f378c5b0531f4605b3a",
+  "content_hash": "848b98ad2781c95d35a60dbe53b442d6a5e8e78cf7862805c0692134d1bb6122",
+  "entities": [
+    {
+      "canonical_name": "免疫规划疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "免疫规划疫苗",
+      "chunk_id": "9b18d89c92cd8cad4e0fbfbe692b344fd63b132052415f378c5b0531f4605b3a"
+    },
+    {
+      "canonical_name": "非免疫规划疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "非免疫规划疫苗",
+      "chunk_id": "9b18d89c92cd8cad4e0fbfbe692b344fd63b132052415f378c5b0531f4605b3a"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "9b18d89c92cd8cad4e0fbfbe692b344fd63b132052415f378c5b0531f4605b3a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

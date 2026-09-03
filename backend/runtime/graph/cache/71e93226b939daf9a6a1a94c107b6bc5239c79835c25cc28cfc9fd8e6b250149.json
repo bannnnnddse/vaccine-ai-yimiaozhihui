@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_f2bdf37636b03cb75c526ac3ad3e0de9",
+  "content_hash": "08998203df336b861ed23ad4323dedecd1b8be3c678f19d38b9c50f1e83a66fe",
+  "entities": [
+    {
+      "canonical_name": "BCG vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG vaccine",
+      "chunk_id": "chk_f2bdf37636b03cb75c526ac3ad3e0de9"
+    },
+    {
+      "canonical_name": "healthy adult volunteers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adult volunteers",
+      "chunk_id": "chk_f2bdf37636b03cb75c526ac3ad3e0de9"
+    },
+    {
+      "canonical_name": "newborn children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "newborn children",
+      "chunk_id": "chk_f2bdf37636b03cb75c526ac3ad3e0de9"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_f2bdf37636b03cb75c526ac3ad3e0de9"
+    },
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_f2bdf37636b03cb75c526ac3ad3e0de9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

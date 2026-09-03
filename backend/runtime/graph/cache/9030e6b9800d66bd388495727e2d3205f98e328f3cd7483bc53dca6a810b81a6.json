@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7fabce058c84a0150778c8f8adb23129",
+  "content_hash": "d774eb3c7d9341520b8fcd8d113cd4e6b8892fb558b482d40df8fee5558c52ea",
+  "entities": [
+    {
+      "canonical_name": "gp120-NefTat/AS01B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "gp120-NefTat/AS01B vaccine",
+      "chunk_id": "chk_7fabce058c84a0150778c8f8adb23129"
+    },
+    {
+      "canonical_name": "ALVAC-HIV (vCP1521) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ALVAC-HIV (vCP1521) vaccine",
+      "chunk_id": "chk_7fabce058c84a0150778c8f8adb23129"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

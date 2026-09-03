@@ -1,0 +1,66 @@
+{
+  "chunk_id": "2a9ebaa85868394f9903a5707e3ed500c3413e85ca79964456a88989b2486a8c",
+  "content_hash": "9c68abd9b7841780726df1d9ff40c30ab62df373ca26f9f2027283ccce212f78",
+  "entities": [
+    {
+      "canonical_name": "adaptive immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "adaptive immunity",
+      "chunk_id": "2a9ebaa85868394f9903a5707e3ed500c3413e85ca79964456a88989b2486a8c"
+    },
+    {
+      "canonical_name": "secretory antibody responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "secretory antibody responses",
+      "chunk_id": "2a9ebaa85868394f9903a5707e3ed500c3413e85ca79964456a88989b2486a8c"
+    },
+    {
+      "canonical_name": "tissue-resident B and T cells (TRM)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "tissue-resident B and T cells (TRM)",
+      "chunk_id": "2a9ebaa85868394f9903a5707e3ed500c3413e85ca79964456a88989b2486a8c"
+    },
+    {
+      "canonical_name": "TII",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TII",
+      "chunk_id": "2a9ebaa85868394f9903a5707e3ed500c3413e85ca79964456a88989b2486a8c"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "2a9ebaa85868394f9903a5707e3ed500c3413e85ca79964456a88989b2486a8c"
+    },
+    {
+      "canonical_name": "SARS-CoV-2-specific memory B- and T-cell responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2-specific memory B- and T-cell responses",
+      "chunk_id": "2a9ebaa85868394f9903a5707e3ed500c3413e85ca79964456a88989b2486a8c"
+    },
+    {
+      "canonical_name": "SARS-CoV-2-specific germinal centers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2-specific germinal centers",
+      "chunk_id": "2a9ebaa85868394f9903a5707e3ed500c3413e85ca79964456a88989b2486a8c"
+    },
+    {
+      "canonical_name": "follicular helper T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "follicular helper T cells",
+      "chunk_id": "2a9ebaa85868394f9903a5707e3ed500c3413e85ca79964456a88989b2486a8c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

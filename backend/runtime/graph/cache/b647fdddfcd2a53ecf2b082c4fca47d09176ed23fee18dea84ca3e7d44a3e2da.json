@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_42fb19c4ad6270256ccb772c99cda2f7",
+  "content_hash": "4704ed67968690c35fe35aa8e7923a583c82c2c1af1b3507d82fde14a69f9df8",
+  "entities": [
+    {
+      "canonical_name": "quadrivalent human papillomavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent human papillomavirus vaccine",
+      "chunk_id": "chk_42fb19c4ad6270256ccb772c99cda2f7"
+    },
+    {
+      "canonical_name": "HPV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HPV infection",
+      "chunk_id": "chk_42fb19c4ad6270256ccb772c99cda2f7"
+    },
+    {
+      "canonical_name": "anal intraepithelial neoplasia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "anal intraepithelial neoplasia",
+      "chunk_id": "chk_42fb19c4ad6270256ccb772c99cda2f7"
+    },
+    {
+      "canonical_name": "genital warts",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "genital warts",
+      "chunk_id": "chk_42fb19c4ad6270256ccb772c99cda2f7"
+    },
+    {
+      "canonical_name": "human papillomavirus (HPV)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomavirus (HPV)",
+      "chunk_id": "chk_42fb19c4ad6270256ccb772c99cda2f7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

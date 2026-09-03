@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_a8d46377bcb5d354893645ee3c0692c5",
+  "content_hash": "dffe3189bc67827471df69fbfcf62fc267d9995e7d17d884dd22d3c03f2df3d9",
+  "entities": [
+    {
+      "canonical_name": "inactivated vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccine",
+      "chunk_id": "chk_a8d46377bcb5d354893645ee3c0692c5"
+    },
+    {
+      "canonical_name": "serum neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "serum neutralizing antibody",
+      "chunk_id": "chk_a8d46377bcb5d354893645ee3c0692c5"
+    },
+    {
+      "canonical_name": "inactivated SARS-CoV-2 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated SARS-CoV-2 vaccines",
+      "chunk_id": "chk_a8d46377bcb5d354893645ee3c0692c5"
+    },
+    {
+      "canonical_name": "adverse drug events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse drug events",
+      "chunk_id": "chk_a8d46377bcb5d354893645ee3c0692c5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "invalid_domain_range",
+    "target_missing_from_quote"
+  ]
+}

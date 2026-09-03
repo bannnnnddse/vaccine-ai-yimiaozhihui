@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b641586c19cd4c40bd3014637ad112ad",
+  "content_hash": "cdc633b57a4871a2b550de5b32db66f82920afb21623f6a1f7053d0c9f81b4bb",
+  "entities": [
+    {
+      "canonical_name": "male",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "male",
+      "chunk_id": "chk_b641586c19cd4c40bd3014637ad112ad"
+    },
+    {
+      "canonical_name": "female",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "female",
+      "chunk_id": "chk_b641586c19cd4c40bd3014637ad112ad"
+    },
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_b641586c19cd4c40bd3014637ad112ad"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_87f7a31debce374937f9c506a424880a",
+  "content_hash": "af5213dbe8f36c05e019f7ce812ae6bf991ef1e50988b85f2d8a95fe741a5330",
+  "entities": [
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_87f7a31debce374937f9c506a424880a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

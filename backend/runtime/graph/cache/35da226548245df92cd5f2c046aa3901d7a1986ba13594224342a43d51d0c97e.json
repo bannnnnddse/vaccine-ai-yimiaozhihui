@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_aebad9ff3247861ed8c34eaaf1d081ab",
+  "content_hash": "49c688e07dcd88aab42eb5993b55034cd81ad793f0fcfec59ef058297c060a2f",
+  "entities": [
+    {
+      "canonical_name": "Solid Organ Transplant Recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Solid Organ Transplant Recipients",
+      "chunk_id": "chk_aebad9ff3247861ed8c34eaaf1d081ab"
+    },
+    {
+      "canonical_name": "Covid-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Covid-19 vaccine",
+      "chunk_id": "chk_aebad9ff3247861ed8c34eaaf1d081ab"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_aebad9ff3247861ed8c34eaaf1d081ab"
+    },
+    {
+      "canonical_name": "people living with HIV-1",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "people living with HIV-1",
+      "chunk_id": "chk_aebad9ff3247861ed8c34eaaf1d081ab"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

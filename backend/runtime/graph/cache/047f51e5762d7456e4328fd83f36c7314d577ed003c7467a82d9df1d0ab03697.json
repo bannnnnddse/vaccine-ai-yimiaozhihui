@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_dfd3672e680c583fe1eb5716ecce0569",
+  "content_hash": "3f1bb9d13f2f90dbaad6a52189ffafaa108595d76e5fdefd0c179a7e234b3e15",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_dfd3672e680c583fe1eb5716ecce0569"
+    },
+    {
+      "canonical_name": "AZD1222",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AZD1222",
+      "chunk_id": "chk_dfd3672e680c583fe1eb5716ecce0569"
+    },
+    {
+      "canonical_name": "ChAdOx1 nCov-19",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1 nCov-19",
+      "chunk_id": "chk_dfd3672e680c583fe1eb5716ecce0569"
+    },
+    {
+      "canonical_name": "Middle East respiratory syndrome coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Middle East respiratory syndrome coronavirus",
+      "chunk_id": "chk_dfd3672e680c583fe1eb5716ecce0569"
+    },
+    {
+      "canonical_name": "MERS-CoV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "MERS-CoV",
+      "chunk_id": "chk_dfd3672e680c583fe1eb5716ecce0569"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

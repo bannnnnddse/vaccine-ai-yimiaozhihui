@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_591f15d88c6a93efac9135af8a36ddf9",
+  "content_hash": "e07fbf65263d3bff99ec37ca8afd29f90cdc10b71cd0d92d437461fbb0ea8ce3",
+  "entities": [
+    {
+      "canonical_name": "HIV 感染状况儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV 感染状况儿童",
+      "chunk_id": "chk_591f15d88c6a93efac9135af8a36ddf9"
+    },
+    {
+      "canonical_name": "非 HIV 感染母亲所生儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "非 HIV 感染母亲所生儿童",
+      "chunk_id": "chk_591f15d88c6a93efac9135af8a36ddf9"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_591f15d88c6a93efac9135af8a36ddf9"
+    },
+    {
+      "canonical_name": "HIV 感染儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV 感染儿童",
+      "chunk_id": "chk_591f15d88c6a93efac9135af8a36ddf9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

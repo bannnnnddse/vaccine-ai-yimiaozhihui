@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_bf3a9140dca88f6017af6c0cea9a328d",
+  "content_hash": "ce84ab4dea826950f4a4b9c2a1371550258bea595d1704cc1bfe7cab2d11deaf",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_bf3a9140dca88f6017af6c0cea9a328d"
+    },
+    {
+      "canonical_name": "asthma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "asthma",
+      "chunk_id": "chk_bf3a9140dca88f6017af6c0cea9a328d"
+    },
+    {
+      "canonical_name": "influenza A (H1N1pdm09)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza A (H1N1pdm09)",
+      "chunk_id": "chk_bf3a9140dca88f6017af6c0cea9a328d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

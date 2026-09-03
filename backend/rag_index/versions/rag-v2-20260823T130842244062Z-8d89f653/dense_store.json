@@ -1,0 +1,13 @@
+{
+  "schema_version": "4",
+  "backend": "numpy_exact_v1",
+  "collection_name": "vaccine_knowledge",
+  "embedding_model": "BAAI/bge-small-zh-v1.5",
+  "embedding_dimensions": 512,
+  "chunk_size": 600,
+  "chunk_overlap": 100,
+  "index_version": "rag-v2-20260823T130842244062Z-8d89f653",
+  "chunking_version": "structure_v2_docling",
+  "corpus_manifest_hash": "8d89f653b0094d00f6060fba17e6bc8b9660956c01a38b702a3d1a2c4a921e63",
+  "count": 15946
+}

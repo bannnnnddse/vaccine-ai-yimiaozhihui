@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_846a3b9d9aa11d5dba2ea48e16d5b640",
+  "content_hash": "a0e6c5ccaa84ed371ba0d935027cc5c0403e2c0df9daa113e9f85066c755e12a",
+  "entities": [
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_846a3b9d9aa11d5dba2ea48e16d5b640"
+    },
+    {
+      "canonical_name": "immunoglobulin (Ig)A",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunoglobulin (Ig)A",
+      "chunk_id": "chk_846a3b9d9aa11d5dba2ea48e16d5b640"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

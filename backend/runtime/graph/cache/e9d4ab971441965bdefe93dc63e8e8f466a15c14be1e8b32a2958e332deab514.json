@@ -1,0 +1,54 @@
+{
+  "chunk_id": "chk_c57f4c7c06e21df15e0c5e92f6298c21",
+  "content_hash": "22a1f99de1add2547d4fbcafd2c2cacd8282261088e64e45a5d2f713c2988ad9",
+  "entities": [
+    {
+      "canonical_name": "Hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hepatitis B virus",
+      "chunk_id": "chk_c57f4c7c06e21df15e0c5e92f6298c21"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_c57f4c7c06e21df15e0c5e92f6298c21"
+    },
+    {
+      "canonical_name": "chronic liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic liver disease",
+      "chunk_id": "chk_c57f4c7c06e21df15e0c5e92f6298c21"
+    },
+    {
+      "canonical_name": "chronic HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic HBV infection",
+      "chunk_id": "chk_c57f4c7c06e21df15e0c5e92f6298c21"
+    },
+    {
+      "canonical_name": "liver cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver cancer",
+      "chunk_id": "chk_c57f4c7c06e21df15e0c5e92f6298c21"
+    },
+    {
+      "canonical_name": "cirrhosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cirrhosis",
+      "chunk_id": "chk_c57f4c7c06e21df15e0c5e92f6298c21"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "target_missing_from_quote",
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "chunk_id": "chk_36976a03612fd3da2f6a505eff40e0cd",
+  "content_hash": "9e84be983e78e2922f03da80f74f2a13fc75c4b78791af3155e31aaa2e81d346",
+  "entities": [
+    {
+      "canonical_name": "脊灰减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "脊灰减毒活疫苗",
+      "chunk_id": "chk_36976a03612fd3da2f6a505eff40e0cd"
+    },
+    {
+      "canonical_name": "含麻疹成分疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "含麻疹成分疫苗",
+      "chunk_id": "chk_36976a03612fd3da2f6a505eff40e0cd"
+    },
+    {
+      "canonical_name": "甲肝减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "甲肝减毒活疫苗",
+      "chunk_id": "chk_36976a03612fd3da2f6a505eff40e0cd"
+    },
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_36976a03612fd3da2f6a505eff40e0cd"
+    },
+    {
+      "canonical_name": "百白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "百白破疫苗",
+      "chunk_id": "chk_36976a03612fd3da2f6a505eff40e0cd"
+    },
+    {
+      "canonical_name": "白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "白破疫苗",
+      "chunk_id": "chk_36976a03612fd3da2f6a505eff40e0cd"
+    },
+    {
+      "canonical_name": "乙肝疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙肝疫苗",
+      "chunk_id": "chk_36976a03612fd3da2f6a505eff40e0cd"
+    },
+    {
+      "canonical_name": "脊灰灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "脊灰灭活疫苗",
+      "chunk_id": "chk_36976a03612fd3da2f6a505eff40e0cd"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

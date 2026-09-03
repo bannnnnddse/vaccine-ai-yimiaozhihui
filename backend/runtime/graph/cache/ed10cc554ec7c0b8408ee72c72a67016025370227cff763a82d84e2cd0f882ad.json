@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_111345ad1e81561bccad8d5652c4d3a0",
+  "content_hash": "08ed9b2424244d82f0a2a222aedd4d3541d9e6f406dfa6c9f465e7f7a6ee90ec",
+  "entities": [
+    {
+      "canonical_name": "meningococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "meningococcal disease",
+      "chunk_id": "chk_111345ad1e81561bccad8d5652c4d3a0"
+    },
+    {
+      "canonical_name": "childhood",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "childhood",
+      "chunk_id": "chk_111345ad1e81561bccad8d5652c4d3a0"
+    },
+    {
+      "canonical_name": "invasive meningococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive meningococcal disease",
+      "chunk_id": "chk_111345ad1e81561bccad8d5652c4d3a0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

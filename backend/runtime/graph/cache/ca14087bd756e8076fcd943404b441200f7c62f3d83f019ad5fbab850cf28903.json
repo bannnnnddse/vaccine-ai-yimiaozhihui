@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_91b0c68262ba18426dbe925a0173d225",
+  "content_hash": "bb7358891157941865370104e832f3ee8523eebcc179bbc56c7b45a4576782f4",
+  "entities": [
+    {
+      "canonical_name": "anti-HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs",
+      "chunk_id": "chk_91b0c68262ba18426dbe925a0173d225"
+    },
+    {
+      "canonical_name": "immune memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune memory",
+      "chunk_id": "chk_91b0c68262ba18426dbe925a0173d225"
+    },
+    {
+      "canonical_name": "adolescents and adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents and adults",
+      "chunk_id": "chk_91b0c68262ba18426dbe925a0173d225"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

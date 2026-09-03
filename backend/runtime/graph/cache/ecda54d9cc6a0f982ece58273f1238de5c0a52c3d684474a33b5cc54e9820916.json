@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_af87fe478aaf7c4c351d93c09d1368f0",
+  "content_hash": "966d10f0dec0fd063a76cc398dd7960be2afe607991b3e06763d7e133056d637",
+  "entities": [
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_af87fe478aaf7c4c351d93c09d1368f0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

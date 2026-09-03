@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_f7db2d5bc9468ea971fc65849830aa77",
+  "content_hash": "936c775317b5e9eeabf201b65f5db87d29b5c638accf34a7755cd5550566c8fc",
+  "entities": [
+    {
+      "canonical_name": "EV71 疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71 疫苗",
+      "chunk_id": "chk_f7db2d5bc9468ea971fc65849830aa77"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

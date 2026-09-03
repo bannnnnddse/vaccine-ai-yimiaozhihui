@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_0a6a49c87e6042957be67635702a36d6",
+  "content_hash": "ee253e7537097a624d800d193131ec23b513221dd7d8bde9fb8609fd695200f1",
+  "entities": [
+    {
+      "canonical_name": "individuals younger than 65 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals younger than 65 years",
+      "chunk_id": "chk_0a6a49c87e6042957be67635702a36d6"
+    },
+    {
+      "canonical_name": "inactivated influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated influenza vaccines",
+      "chunk_id": "chk_0a6a49c87e6042957be67635702a36d6"
+    },
+    {
+      "canonical_name": "influenza viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza viruses",
+      "chunk_id": "chk_0a6a49c87e6042957be67635702a36d6"
+    },
+    {
+      "canonical_name": "older people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older people",
+      "chunk_id": "chk_0a6a49c87e6042957be67635702a36d6"
+    },
+    {
+      "canonical_name": "elderly individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly individuals",
+      "chunk_id": "chk_0a6a49c87e6042957be67635702a36d6"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_0a6a49c87e6042957be67635702a36d6"
+    },
+    {
+      "canonical_name": "people aged over 65",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "people aged over 65",
+      "chunk_id": "chk_0a6a49c87e6042957be67635702a36d6"
+    },
+    {
+      "canonical_name": "inactivated influenza formulations adjuvanted with an oil-in-water em",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated influenza formulations adjuvanted with an oil-in-water em",
+      "chunk_id": "chk_0a6a49c87e6042957be67635702a36d6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

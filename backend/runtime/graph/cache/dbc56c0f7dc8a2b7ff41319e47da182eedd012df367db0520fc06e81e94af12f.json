@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_61b5f04c24f0ccb2d6551a377f3f6e34",
+  "content_hash": "ca37e3cfd0162a3884bb79adcf9b32ed285aa3c2e59b8bbce3b260cb8713fd55",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV",
+      "chunk_id": "chk_61b5f04c24f0ccb2d6551a377f3f6e34"
+    },
+    {
+      "canonical_name": "anti–SARS-CoV spike protein primary antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti–SARS-CoV spike protein primary antibody",
+      "chunk_id": "chk_61b5f04c24f0ccb2d6551a377f3f6e34"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

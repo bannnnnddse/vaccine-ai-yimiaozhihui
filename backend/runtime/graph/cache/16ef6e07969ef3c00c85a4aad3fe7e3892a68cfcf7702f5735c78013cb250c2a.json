@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_b2d2d554240a619203c4c2ca1a852fed",
+  "content_hash": "66f5f01cd766ce925fb0f8d280a866e9f10f4a576fb9cb8cac23037309dab15b",
+  "entities": [
+    {
+      "canonical_name": "HepB vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB vaccine",
+      "chunk_id": "chk_b2d2d554240a619203c4c2ca1a852fed"
+    },
+    {
+      "canonical_name": "3-dose series at 0, 1, 6 months",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "3-dose series at 0, 1, 6 months",
+      "chunk_id": "chk_b2d2d554240a619203c4c2ca1a852fed"
+    },
+    {
+      "canonical_name": "Newborn infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Newborn infants",
+      "chunk_id": "chk_b2d2d554240a619203c4c2ca1a852fed"
+    },
+    {
+      "canonical_name": "Recombinant (yeast) HepB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Recombinant (yeast) HepB",
+      "chunk_id": "chk_b2d2d554240a619203c4c2ca1a852fed"
+    },
+    {
+      "canonical_name": "Recombinant (CHO cells) HepB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Recombinant (CHO cells) HepB",
+      "chunk_id": "chk_b2d2d554240a619203c4c2ca1a852fed"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

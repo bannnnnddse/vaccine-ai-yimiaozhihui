@@ -1,0 +1,43 @@
+{
+  "chunk_id": "9de63c9506cc6e79873b869e0ecf0d6de27d03cf2be92e643931138498bbdfa8",
+  "content_hash": "23c29e015338d59d1d74e901077b1c4685ff7cfa746dbd155195df3e61385bd8",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 nucleocapsid",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 nucleocapsid",
+      "chunk_id": "9de63c9506cc6e79873b869e0ecf0d6de27d03cf2be92e643931138498bbdfa8"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "9de63c9506cc6e79873b869e0ecf0d6de27d03cf2be92e643931138498bbdfa8"
+    },
+    {
+      "canonical_name": "bone marrow plasma cells (BMPCs)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "bone marrow plasma cells (BMPCs)",
+      "chunk_id": "9de63c9506cc6e79873b869e0ecf0d6de27d03cf2be92e643931138498bbdfa8"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "9de63c9506cc6e79873b869e0ecf0d6de27d03cf2be92e643931138498bbdfa8"
+    },
+    {
+      "canonical_name": "mRNA booster vaccina",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA booster vaccina",
+      "chunk_id": "9de63c9506cc6e79873b869e0ecf0d6de27d03cf2be92e643931138498bbdfa8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

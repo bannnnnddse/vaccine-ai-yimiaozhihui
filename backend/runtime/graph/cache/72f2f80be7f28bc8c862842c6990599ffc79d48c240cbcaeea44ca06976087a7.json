@@ -1,0 +1,18 @@
+{
+  "chunk_id": "chk_382ac91cd2341ec4cea3859d2122b428",
+  "content_hash": "185d6d791a0d872815a390da952e2303e4134f5e395cbf31f55159c7463f10a0",
+  "entities": [
+    {
+      "canonical_name": "疫苗针对疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "疫苗针对疾病",
+      "chunk_id": "chk_382ac91cd2341ec4cea3859d2122b428"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint"
+  ]
+}

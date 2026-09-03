@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_929719c7560fd90f96eb041a3fdbe956",
+  "content_hash": "08b4755e93cb23dfcab1d1e7598d0609b0651bd40c69cfa66e9b966fe109f51a",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_929719c7560fd90f96eb041a3fdbe956"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "chk_929719c7560fd90f96eb041a3fdbe956"
+    },
+    {
+      "canonical_name": "thrombocytopenic purpura",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "thrombocytopenic purpura",
+      "chunk_id": "chk_929719c7560fd90f96eb041a3fdbe956"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_929719c7560fd90f96eb041a3fdbe956"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote"
+  ]
+}

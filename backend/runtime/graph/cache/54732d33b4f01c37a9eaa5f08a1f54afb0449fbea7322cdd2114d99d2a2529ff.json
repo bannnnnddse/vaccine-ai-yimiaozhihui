@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2140f58d87cc9c43afdb5de0ae257c93",
+  "content_hash": "a249da811d3f62daa089581db5a658b85c27e190bcafe3f98fcfc22d0b893b86",
+  "entities": [
+    {
+      "canonical_name": "end-stage kidney disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "end-stage kidney disease",
+      "chunk_id": "chk_2140f58d87cc9c43afdb5de0ae257c93"
+    },
+    {
+      "canonical_name": "latent tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "latent tuberculosis",
+      "chunk_id": "chk_2140f58d87cc9c43afdb5de0ae257c93"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,120 @@
+{
+  "chunk_id": "chk_611719dc7087e8a918d453088141bb67",
+  "content_hash": "36ea2559691e210a7a27cfe9c364b727c4fc8f8b35522163378e9a7214d07ba5",
+  "entities": [
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "M-M-RII",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "M-M-RII",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "varicella",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "VARIVAX",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VARIVAX",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "DTaP",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTaP",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "poliovirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "poliovirus",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "Hib",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hib",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "Infanrix-hexa",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Infanrix-hexa",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "PCV13",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV13",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "Measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Measles",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "mumps",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "mumps",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "rubella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rubella",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "MMRVaxPro",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRVaxPro",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    },
+    {
+      "canonical_name": "Varilrix",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Varilrix",
+      "chunk_id": "chk_611719dc7087e8a918d453088141bb67"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

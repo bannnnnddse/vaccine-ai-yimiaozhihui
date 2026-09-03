@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_fb207633edc6365d912375547ca529cc",
+  "content_hash": "6cd826f442d081bfe90e79686a006dc3d377ddd2337bc4df4ade60be9e8f470c",
+  "entities": [
+    {
+      "canonical_name": "human papillomavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomavirus",
+      "chunk_id": "chk_fb207633edc6365d912375547ca529cc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7d2f50c09f3cec90d680273e876f38b8",
+  "content_hash": "4d2c1646e7316dae60f571e3cd34010f816f81d7190648069c8e1884ee8cff33",
+  "entities": [
+    {
+      "canonical_name": "serum antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "serum antibodies",
+      "chunk_id": "chk_7d2f50c09f3cec90d680273e876f38b8"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_7d2f50c09f3cec90d680273e876f38b8"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b capsular polysaccharide–tetanus toxoid conjugate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b capsular polysaccharide–tetanus toxoid conjugate",
+      "chunk_id": "chk_7d2f50c09f3cec90d680273e876f38b8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

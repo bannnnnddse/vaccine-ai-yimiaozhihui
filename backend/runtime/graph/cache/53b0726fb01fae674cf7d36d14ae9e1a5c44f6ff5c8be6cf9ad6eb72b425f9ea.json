@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_be6b2fcd888e0722ce57376db72eb4cf",
+  "content_hash": "8b77cebdcfe404f5c2f615c2a789d2b370e620d5848d93f4958a39bdcac86328",
+  "entities": [
+    {
+      "canonical_name": "nucleoside-modified mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nucleoside-modified mRNA vaccine",
+      "chunk_id": "chk_be6b2fcd888e0722ce57376db72eb4cf"
+    },
+    {
+      "canonical_name": "influenza B viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza B viruses",
+      "chunk_id": "chk_be6b2fcd888e0722ce57376db72eb4cf"
+    },
+    {
+      "canonical_name": "mRNA-1273 SARS-CoV-2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273 SARS-CoV-2 vaccine",
+      "chunk_id": "chk_be6b2fcd888e0722ce57376db72eb4cf"
+    },
+    {
+      "canonical_name": "BNT162b2 mRNA Covid-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 mRNA Covid-19 vaccine",
+      "chunk_id": "chk_be6b2fcd888e0722ce57376db72eb4cf"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_be6b2fcd888e0722ce57376db72eb4cf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

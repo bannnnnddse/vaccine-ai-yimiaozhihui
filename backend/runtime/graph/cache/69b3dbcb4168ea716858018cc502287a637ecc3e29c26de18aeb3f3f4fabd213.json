@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_eed1176a4860aad4e4a85231d8dcdd51",
+  "content_hash": "ab8e75bd9a58d95d65826ecbd92401107753840ab894d1f7271de8f552cbffde",
+  "entities": [
+    {
+      "canonical_name": "inactivated virus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated virus vaccines",
+      "chunk_id": "chk_eed1176a4860aad4e4a85231d8dcdd51"
+    },
+    {
+      "canonical_name": "recombinant protein vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant protein vaccines",
+      "chunk_id": "chk_eed1176a4860aad4e4a85231d8dcdd51"
+    },
+    {
+      "canonical_name": "viral vector vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "viral vector vaccines",
+      "chunk_id": "chk_eed1176a4860aad4e4a85231d8dcdd51"
+    },
+    {
+      "canonical_name": "nucleic acid vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nucleic acid vaccines",
+      "chunk_id": "chk_eed1176a4860aad4e4a85231d8dcdd51"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

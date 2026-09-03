@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_9c7942b62c81789ac51dca8b59a0f123",
+  "content_hash": "7a3f55a40dc044d03c484d1eff2ff3bae64bad73d71a4fa38b58e50c5b9a47b4",
+  "entities": [
+    {
+      "canonical_name": "DM type 2",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "DM type 2",
+      "chunk_id": "chk_9c7942b62c81789ac51dca8b59a0f123"
+    },
+    {
+      "canonical_name": "IL-1β",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-1β",
+      "chunk_id": "chk_9c7942b62c81789ac51dca8b59a0f123"
+    },
+    {
+      "canonical_name": "hIL1bQb",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hIL1bQb",
+      "chunk_id": "chk_9c7942b62c81789ac51dca8b59a0f123"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

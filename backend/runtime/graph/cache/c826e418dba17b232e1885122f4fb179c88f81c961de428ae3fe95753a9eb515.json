@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d248186b7237feca5e2d7e0d01d363a2",
+  "content_hash": "c3ff0c471015dab6952c1548faf3baf32689f31a884fb63bba94634da2fe68eb",
+  "entities": [
+    {
+      "canonical_name": "rotavirus subunit vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus subunit vaccine",
+      "chunk_id": "chk_d248186b7237feca5e2d7e0d01d363a2"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_d248186b7237feca5e2d7e0d01d363a2"
+    },
+    {
+      "canonical_name": "VP6 subunit rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VP6 subunit rotavirus vaccine",
+      "chunk_id": "chk_d248186b7237feca5e2d7e0d01d363a2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_bcb275dd307d9ced8d99cab69e635378",
+  "content_hash": "05922dbf44232a04ada736e5e41859bf0af92cb77a65920700977ab53be86c38",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_bcb275dd307d9ced8d99cab69e635378"
+    },
+    {
+      "canonical_name": "vaccine antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "vaccine antigens",
+      "chunk_id": "chk_bcb275dd307d9ced8d99cab69e635378"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

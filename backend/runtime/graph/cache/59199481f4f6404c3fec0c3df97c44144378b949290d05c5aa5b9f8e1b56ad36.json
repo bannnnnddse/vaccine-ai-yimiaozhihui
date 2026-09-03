@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_19fbbfa41762b502917466cb9c1f75c9",
+  "content_hash": "1df54a7e012394b00e77e99943444f68af2b26a993073db3a6050a1d57cb3759",
+  "entities": [
+    {
+      "canonical_name": "Haemorrhagic Fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Haemorrhagic Fever",
+      "chunk_id": "chk_19fbbfa41762b502917466cb9c1f75c9"
+    },
+    {
+      "canonical_name": "Haemorrhagic Fever with Renal Syndrome Bivalent Vaccine (Hamster Kidney Cell), Inactivated",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemorrhagic Fever with Renal Syndrome Bivalent Vaccine (Hamster Kidney Cell), Inactivated",
+      "chunk_id": "chk_19fbbfa41762b502917466cb9c1f75c9"
+    },
+    {
+      "canonical_name": "Haemorrhagic Fever with Renal Syndrome Bivalent Vaccine (Gerbil Kidney Cell), Inactivated",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemorrhagic Fever with Renal Syndrome Bivalent Vaccine (Gerbil Kidney Cell), Inactivated",
+      "chunk_id": "chk_19fbbfa41762b502917466cb9c1f75c9"
+    },
+    {
+      "canonical_name": "Zoster",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Zoster",
+      "chunk_id": "chk_19fbbfa41762b502917466cb9c1f75c9"
+    },
+    {
+      "canonical_name": "Recombinant Zoster Vaccine (CHO Cell) Recombinant subunit",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Recombinant Zoster Vaccine (CHO Cell) Recombinant subunit",
+      "chunk_id": "chk_19fbbfa41762b502917466cb9c1f75c9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

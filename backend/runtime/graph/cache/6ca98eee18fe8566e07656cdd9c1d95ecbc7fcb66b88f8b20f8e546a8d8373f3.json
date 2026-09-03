@@ -1,0 +1,9 @@
+{
+  "chunk_id": "chk_ae6d48e9255543c52c63111778efcff3",
+  "content_hash": "373f9a0e7607125f21f3f580bc8c416cdedce487747378da9f4a4c86a17fc538",
+  "entities": [],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch"
+  ]
+}

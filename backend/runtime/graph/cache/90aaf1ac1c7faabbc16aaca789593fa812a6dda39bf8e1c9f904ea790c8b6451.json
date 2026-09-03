@@ -1,0 +1,45 @@
+{
+  "chunk_id": "89d667dbb2474eb9725f1eb06e7db9f1593725615c509be88309db40b4b7aca6",
+  "content_hash": "eeaf2c8e498a67b60b629e95f5d8222e120fa6be9e5c00875bd9698d2ad67556",
+  "entities": [
+    {
+      "canonical_name": "IgG1 antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG1 antibodies",
+      "chunk_id": "89d667dbb2474eb9725f1eb06e7db9f1593725615c509be88309db40b4b7aca6"
+    },
+    {
+      "canonical_name": "IgG3 monoclonal antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG3 monoclonal antibodies",
+      "chunk_id": "89d667dbb2474eb9725f1eb06e7db9f1593725615c509be88309db40b4b7aca6"
+    },
+    {
+      "canonical_name": "ALVAC-HIV (vCP1521)/clade B/E gp120",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ALVAC-HIV (vCP1521)/clade B/E gp120",
+      "chunk_id": "89d667dbb2474eb9725f1eb06e7db9f1593725615c509be88309db40b4b7aca6"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "89d667dbb2474eb9725f1eb06e7db9f1593725615c509be88309db40b4b7aca6"
+    },
+    {
+      "canonical_name": "gp120NefTat/AS01B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "gp120NefTat/AS01B vaccine",
+      "chunk_id": "89d667dbb2474eb9725f1eb06e7db9f1593725615c509be88309db40b4b7aca6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

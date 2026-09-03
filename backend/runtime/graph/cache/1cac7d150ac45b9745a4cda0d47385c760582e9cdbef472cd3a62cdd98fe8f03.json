@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_5c34a2e1f13e52f13912d4fe1f3b9cba",
+  "content_hash": "e0353d8c3de18df7194a6c22705676f1c29e66f737064a2e14d6dfdefe1a9db8",
+  "entities": [
+    {
+      "canonical_name": "paediatric cancer patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "paediatric cancer patients",
+      "chunk_id": "chk_5c34a2e1f13e52f13912d4fe1f3b9cba"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

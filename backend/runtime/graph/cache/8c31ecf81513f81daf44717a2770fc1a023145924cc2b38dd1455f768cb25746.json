@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_95973848c11149200f643b41ee6ee8a3",
+  "content_hash": "5efbbfd2b6edaf3d28b97dd9a7b90f9949cddab381bb0e751b173bea44655507",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_95973848c11149200f643b41ee6ee8a3"
+    },
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_95973848c11149200f643b41ee6ee8a3"
+    },
+    {
+      "canonical_name": "immunoglobulin (IgA)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunoglobulin (IgA)",
+      "chunk_id": "chk_95973848c11149200f643b41ee6ee8a3"
+    },
+    {
+      "canonical_name": "memory plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory plasma cells",
+      "chunk_id": "chk_95973848c11149200f643b41ee6ee8a3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_0321ed5dbec7b2c33f02fe1c6ee64564",
+  "content_hash": "060d2b64d6d5206c9eaad7c95f7a0a4ed241b39265595fff524991151a25673d",
+  "entities": [
+    {
+      "canonical_name": "1E10 anti-idiotype vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "1E10 anti-idiotype vaccine",
+      "chunk_id": "chk_0321ed5dbec7b2c33f02fe1c6ee64564"
+    },
+    {
+      "canonical_name": "small cell lung cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "small cell lung cancer",
+      "chunk_id": "chk_0321ed5dbec7b2c33f02fe1c6ee64564"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

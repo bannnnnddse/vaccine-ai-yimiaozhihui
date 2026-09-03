@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_43de7921b60e85c9a483235fff56b0e6",
+  "content_hash": "896b74cfdefe7d683215402a3bf19fedf13e38a437ce9be73d184c6a95c83f6c",
+  "entities": [
+    {
+      "canonical_name": "HIV-1 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV-1 vaccines",
+      "chunk_id": "chk_43de7921b60e85c9a483235fff56b0e6"
+    },
+    {
+      "canonical_name": "self-replicating RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "self-replicating RNA vaccines",
+      "chunk_id": "chk_43de7921b60e85c9a483235fff56b0e6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

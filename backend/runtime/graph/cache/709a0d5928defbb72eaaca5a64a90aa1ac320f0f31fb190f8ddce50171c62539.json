@@ -1,0 +1,34 @@
+{
+  "chunk_id": "chk_2a8b6ce5c64ddf4a45274d4ca224460b",
+  "content_hash": "5927fafe4f24335754932d43b0aa426aff495f8e7fb1aaa84769f68fc473ce32",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccination",
+      "chunk_id": "chk_2a8b6ce5c64ddf4a45274d4ca224460b"
+    },
+    {
+      "canonical_name": "oropharyngeal cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "oropharyngeal cancers",
+      "chunk_id": "chk_2a8b6ce5c64ddf4a45274d4ca224460b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

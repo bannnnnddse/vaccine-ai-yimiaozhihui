@@ -1,0 +1,81 @@
+{
+  "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec",
+  "content_hash": "a9f7e230f9a002dd6ffd13bcd4dda055d8728cea0577d96cf6edf9e585f6711b",
+  "entities": [
+    {
+      "canonical_name": "psychotropic medication",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "psychotropic medication",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    },
+    {
+      "canonical_name": "Antipsychotics",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Antipsychotics",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    },
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    },
+    {
+      "canonical_name": "people with psychosis",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "people with psychosis",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    },
+    {
+      "canonical_name": "Clozapine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Clozapine",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    },
+    {
+      "canonical_name": "neutropenia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "neutropenia",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    },
+    {
+      "canonical_name": "secondary antibody deficiency",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "secondary antibody deficiency",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    },
+    {
+      "canonical_name": "patients with long-term clozapine use",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients with long-term clozapine use",
+      "chunk_id": "chk_897bac55a1df63ecdb2fbb543963fbec"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

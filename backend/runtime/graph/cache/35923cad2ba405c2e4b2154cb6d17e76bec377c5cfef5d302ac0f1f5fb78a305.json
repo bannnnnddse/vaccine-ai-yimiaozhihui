@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_83241ad3b91f4c06ffbc7403c481990d",
+  "content_hash": "c5f29253b4beef4787f14e9a75992fdd0554e7ebb99b60add0fc8ea8c8ff0ef4",
+  "entities": [
+    {
+      "canonical_name": "Vaccine against human papillomavirus (HPV)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccine against human papillomavirus (HPV)",
+      "chunk_id": "chk_83241ad3b91f4c06ffbc7403c481990d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

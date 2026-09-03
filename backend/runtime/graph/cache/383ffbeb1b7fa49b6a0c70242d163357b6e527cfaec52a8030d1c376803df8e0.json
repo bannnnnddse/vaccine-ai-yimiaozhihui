@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_f57146572fbc2fabcc1c07349f6f4950",
+  "content_hash": "96beb320d6e9cd009a8a44e18b8d43f3de51ff1c5350aabf6459ab100b54bb6c",
+  "entities": [
+    {
+      "canonical_name": "Quadrivalent human papillomavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Quadrivalent human papillomavirus vaccine",
+      "chunk_id": "chk_f57146572fbc2fabcc1c07349f6f4950"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

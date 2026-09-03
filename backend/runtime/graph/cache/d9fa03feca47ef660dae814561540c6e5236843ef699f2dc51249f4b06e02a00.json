@@ -1,0 +1,18 @@
+{
+  "chunk_id": "chk_dc7328da853f156bd966c8fe64c83290",
+  "content_hash": "93d79df380214453736ce101ea0712b14501dcd49893bcad2d310c0eecde918b",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 variants of concern",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 variants of concern",
+      "chunk_id": "chk_dc7328da853f156bd966c8fe64c83290"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint"
+  ]
+}

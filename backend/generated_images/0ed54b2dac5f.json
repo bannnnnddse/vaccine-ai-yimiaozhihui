@@ -1,0 +1,947 @@
+{
+  "job_id": "0ed54b2dac5f",
+  "prompt": "生成免疫全流程图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen",
+      "b_cell",
+      "antibody",
+      "helper_t",
+      "macrophage",
+      "dendritic",
+      "cytotoxic_t"
+    ],
+    "scene_direction": "16:9横版多分区流程图，展示固有免疫到适应性免疫的完整因果链条。背景为浅灰白色，主体由标准化的细胞角色实例构成，通过箭头连接各步骤。风格严谨、简洁，避免过多文字，仅保留必要标签。",
+    "optimized_chinese_prompt": "A scientific mechanism diagram illustrating the full immune response process. The image is divided into sequential stages from left to right. Stage 1: Pathogen entry and recognition by innate immune cells (macrophages/dendritic cells). Stage 2: Antigen presentation and T-cell activation. Stage 3: B-cell activation and antibody production. Stage 4: Neutralization and elimination of pathogens. Use standard biological cell illustrations with distinct colors for different cell types (e.g., blue for lymphocytes, orange for macrophages). Include directional arrows indicating the flow of interaction. Minimal text labels only.",
+    "chinese_labels": [
+      "病原体入侵",
+      "抗原呈递",
+      "T细胞激活",
+      "B细胞与抗体"
+    ],
+    "scientific_claims": [
+      "病原体被固有免疫细胞识别并吞噬。",
+      "抗原呈递细胞将抗原信息传递给T细胞。",
+      "辅助T细胞激活B细胞产生特异性抗体。",
+      "抗体中和病原体或标记其供其他免疫细胞清除。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "固有免疫识别：巨噬细胞/树突状细胞识别病原体相关分子模式(PAMPs)并摄取抗原。"
+      },
+      {
+        "primary_relation": "抗原呈递与T细胞活化：树突状细胞迁移至淋巴结，将处理后的抗原肽-MHC复合物呈递给初始T细胞，使其活化增殖。"
+      },
+      {
+        "primary_relation": "B细胞活化与抗体生成：活化的辅助T细胞(B细胞依赖途径)或抗原直接刺激B细胞，导致B细胞分化为浆细胞并分泌特异性抗体。"
+      },
+      {
+        "primary_relation": "效应阶段：抗体通过中和毒素、阻断感染或调理作用促进病原体清除；细胞毒性T细胞杀伤受感染细胞。"
+      }
+    ],
+    "route_reason": "主题“免疫全流程”涉及多个核心环节（固有免疫、适应性免疫启动、效应阶段），超过两个关系，且包含多种细胞类型（巨噬细胞、树突状细胞、T细胞、B细胞），符合cell_ip_scientific的定义要求，需使用严谨的多分区流程图表达因果顺序。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen",
+    "b_cell",
+    "antibody",
+    "helper_t",
+    "macrophage",
+    "dendritic",
+    "cytotoxic_t"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "T细胞",
+    "病原体被固有免疫细胞",
+    "病原体或标记其供其他免疫细胞",
+    "MHC复合物呈递给初始T细胞"
+  ],
+  "cell_ip_label_layout": {
+    "anchors": [
+      {
+        "role_id": "antigen",
+        "role_bbox": [
+          0.23,
+          0.05,
+          0.35,
+          0.19
+        ],
+        "label_bbox": [
+          0.2554814108674929,
+          0.007503751875937969,
+          0.32411820781696854,
+          0.04352176088044022
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "b_cell",
+        "role_bbox": [
+          0.03,
+          0.38,
+          0.23,
+          0.61
+        ],
+        "label_bbox": [
+          0.0877025738798856,
+          0.33316658329164583,
+          0.17206863679694948,
+          0.36818409204602304
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "antibody",
+        "role_bbox": [
+          0.4,
+          0.39,
+          0.6,
+          0.62
+        ],
+        "label_bbox": [
+          0.4652049571020019,
+          0.6313156578289144,
+          0.5338417540514776,
+          0.6673336668334167
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "helper_t",
+        "role_bbox": [
+          0.76,
+          0.04,
+          0.98,
+          0.26
+        ],
+        "label_bbox": [
+          0.7940896091515729,
+          0.271135567783892,
+          0.9456625357483317,
+          0.30665332666333167
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "macrophage",
+        "role_bbox": [
+          0.0,
+          0.04,
+          0.23,
+          0.26
+        ],
+        "label_bbox": [
+          0.05767397521448999,
+          0.271135567783892,
+          0.17206863679694948,
+          0.3061530765382691
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "dendritic",
+        "role_bbox": [
+          0.4,
+          0.05,
+          0.62,
+          0.27
+        ],
+        "label_bbox": [
+          0.4408960915157293,
+          0.007503751875937969,
+          0.5781696854146806,
+          0.04302151075537769
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "cytotoxic_t",
+        "role_bbox": [
+          0.4,
+          0.73,
+          0.62,
+          0.95
+        ],
+        "label_bbox": [
+          0.4223069590085796,
+          0.9574787393696849,
+          0.5967588179218303,
+          0.992496248124062
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "steps": [
+      {
+        "step_index": 1,
+        "step_bbox": [
+          0.0,
+          0.0,
+          1.0,
+          0.33
+        ],
+        "number_bbox": [
+          0.0109628217349857,
+          0.01150575287643822,
+          0.06291706387035272,
+          0.06603301650825413
+        ],
+        "confidence": 1.0
+      },
+      {
+        "step_index": 2,
+        "step_bbox": [
+          0.0,
+          0.33,
+          1.0,
+          0.66
+        ],
+        "number_bbox": [
+          0.0109628217349857,
+          0.3411705852926463,
+          0.06291706387035272,
+          0.39569784892446225
+        ],
+        "confidence": 1.0
+      },
+      {
+        "step_index": 3,
+        "step_bbox": [
+          0.0,
+          0.66,
+          1.0,
+          1.0
+        ],
+        "number_bbox": [
+          0.0109628217349857,
+          0.671335667833917,
+          0.06291706387035272,
+          0.7258629314657329
+        ],
+        "confidence": 1.0
+      },
+      {
+        "step_index": 4,
+        "step_bbox": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "number_bbox": [
+          0.0109628217349857,
+          0.01150575287643822,
+          0.06291706387035272,
+          0.06603301650825413
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "cell_ip_expected_text": [
+    "抗原",
+    "B细胞",
+    "抗体",
+    "辅助性T细胞",
+    "巨噬细胞",
+    "树突状细胞",
+    "细胞毒性T细胞",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "cell_ip_text_source": "manifest_programmatic",
+  "cell_ip_base_visual_text_audit": {
+    "status": "clear",
+    "has_visible_text": true,
+    "summary": "这是一张关于免疫反应流程的卡通示意图，展示了从抗原识别到免疫细胞激活及抗体产生的过程。图中包含巨噬细胞、树突状细胞、辅助性T细胞、B细胞及效应细胞的拟人化形象，并配有箭头指示流程方向及相关生物学名词标注。",
+    "text_blocks": [
+      {
+        "text": "抗原 抗原",
+        "bbox": [
+          0.23,
+          0.05,
+          0.31,
+          0.08
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "巨噬细胞",
+        "bbox": [
+          0.08,
+          0.27,
+          0.18,
+          0.3
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "插取集疫",
+        "bbox": [
+          0.12,
+          0.31,
+          0.22,
+          0.34
+        ],
+        "confidence": 0.98,
+        "defective": false
+      },
+      {
+        "text": "树突状细胞",
+        "bbox": [
+          0.45,
+          0.27,
+          0.56,
+          0.3
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "迁应至免胞",
+        "bbox": [
+          0.64,
+          0.08,
+          0.74,
+          0.11
+        ],
+        "confidence": 0.98,
+        "defective": false
+      },
+      {
+        "text": "抗巴为",
+        "bbox": [
+          0.64,
+          0.11,
+          0.71,
+          0.14
+        ],
+        "confidence": 0.98,
+        "defective": false
+      },
+      {
+        "text": "呈体",
+        "bbox": [
+          0.64,
+          0.14,
+          0.68,
+          0.17
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "辅助性T细胞",
+        "bbox": [
+          0.8,
+          0.27,
+          0.93,
+          0.3
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "抗原肽-MHG复合物",
+        "bbox": [
+          0.51,
+          0.32,
+          0.72,
+          0.35
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "呈肽-MHG复合物",
+        "bbox": [
+          0.51,
+          0.35,
+          0.7,
+          0.38
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "B细胞",
+        "bbox": [
+          0.08,
+          0.6,
+          0.15,
+          0.63
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "辅助性T细胞",
+        "bbox": [
+          0.24,
+          0.51,
+          0.37,
+          0.54
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "被激活分化态",
+        "bbox": [
+          0.44,
+          0.6,
+          0.57,
+          0.63
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "辅助性T细胞",
+        "bbox": [
+          0.8,
+          0.6,
+          0.93,
+          0.63
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "中和作用",
+        "bbox": [
+          0.15,
+          0.65,
+          0.23,
+          0.68
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "除病细体",
+        "bbox": [
+          0.15,
+          0.68,
+          0.23,
+          0.71
+        ],
+        "confidence": 0.98,
+        "defective": false
+      },
+      {
+        "text": "产生化染",
+        "bbox": [
+          0.08,
+          0.94,
+          0.18,
+          0.97
+        ],
+        "confidence": 0.98,
+        "defective": false
+      },
+      {
+        "text": "抗体",
+        "bbox": [
+          0.08,
+          0.97,
+          0.15,
+          1.0
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "受除病染细胞",
+        "bbox": [
+          0.61,
+          0.74,
+          0.74,
+          0.77
+        ],
+        "confidence": 0.98,
+        "defective": false
+      }
+    ]
+  },
+  "reference_assets": [
+    "role-sheet:antigen+b_cell+antibody+helper_t+macrophage+dendritic+cytotoxic_t"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:antigen+b_cell+antibody+helper_t+macrophage+dendritic+cytotoxic_t"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    },
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    },
+    {
+      "role_id": "helper_t",
+      "asset_id": "canonical:helper_t"
+    },
+    {
+      "role_id": "macrophage",
+      "asset_id": "canonical:macrophage"
+    },
+    {
+      "role_id": "dendritic",
+      "asset_id": "canonical:dendritic"
+    },
+    {
+      "role_id": "cytotoxic_t",
+      "asset_id": "canonical:cytotoxic_t"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n16:9横版多分区流程图，展示固有免疫到适应性免疫的完整因果链条。背景为浅灰白色，主体由标准化的细胞角色实例构成，通过箭头连接各步骤。风格严谨、简洁，避免过多文字，仅保留必要标签。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 固有免疫识别：巨噬细胞/树突状细胞识别病原体相关分子模式(PAMPs)并摄取抗原。；2. 抗原呈递与T细胞活化：树突状细胞迁移至淋巴结，将处理后的抗原肽-MHC复合物呈递给初始T细胞，使其活化增殖。；3. B细胞活化与抗体生成：活化的辅助T细胞(B细胞依赖途径)或抗原直接刺激B细胞，导致B细胞分化为被激活的B细胞并分泌特异性抗体。；4. 效应阶段：抗体通过中和毒素、阻断感染或调理作用促进病原体清除；细胞毒性T细胞杀伤受感染细胞。\n- 禁止生成任何可读文字、字母、数字、伪文字或文字形状。每个命中的固定角色至少保留一次轮廓完整、彼此不遮挡的代表性出场，并在角色四周保留适量自然留白；不要生成底标框，角色名称与圆角底标全部由程序根据角色位置绘制\n- 程序稍后写入的规范角色名称为：抗原、B细胞、抗体、辅助性T细胞、巨噬细胞、树突状细胞、细胞毒性T细胞；这些名称只用于确定程序底标数量和宽度，\n  你不得在画面中书写、临摹或生成其中任何字符\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是仅包含本题命中角色（抗原、B 细胞、抗体、辅助性 T 细胞、巨噬细胞、树突状细胞、细胞毒性 T 细胞）的无字 canonical 角色板；保持其颜色、轮廓、面部和专属道具与角色板完全一致；不得新增其他固定角色，也不得生成文字、事件或照搬角色板构图\n- 本题命中的固定角色：抗原、B 细胞、抗体、辅助性 T 细胞、巨噬细胞、树突状细胞、细胞毒性 T 细胞\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 辅助性 T 细胞：浅绿圆体、单根触角、耳机、斜挎包、加号小旗\n- 巨噬细胞：黄色不规则圆体、白色厨师帽、网兜或清洁工具\n- 树突状细胞：粉色分叉轮廓、发带、斜挎包、星形旗\n- 细胞毒性 T 细胞：橙色圆体、头盔、红披风、短剑\n【无字角色板选取】\n- 图1 是仅含本题命中角色的无字 canonical 角色板。画面所需固定角色必须逐个从该表中找到并原样使用，颜色、轮廓、面部、专属道具与装饰一律以表中为准：\n- 抗原：紫色圆刺团，表情可警觉\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 辅助性 T 细胞：浅绿圆体、单根触角、耳机、斜挎包、加号小旗\n- 巨噬细胞：黄色不规则圆体、白色厨师帽、网兜或清洁工具\n- 树突状细胞：粉色分叉轮廓、发带、斜挎包、星形旗\n- 细胞毒性 T 细胞：橙色圆体、头盔、红披风、短剑\n- 角色板只包含命中的角色：抗原、B 细胞、抗体、辅助性 T 细胞、巨噬细胞、树突状细胞、细胞毒性 T 细胞；不得新增角色板中不存在的固定角色。\n- 未收录的必要细胞：T细胞、病原体被固有免疫细胞、病原体或标记其供其他免疫细胞、MHC复合物呈递给初始T细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，使用分区、无字箭头和流程结构；为程序后续写入步骤编号保留自然位置；每条关系必须有明确主体、方向和结果。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：禁止标题；角色名和必要步骤编号由程序在生成后确定性绘制\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、任何文字字母数字或伪文字\n- 科学关系的完整性、箭头方向和角色身份优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、10 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 4 个核心步骤；为程序后续写入步骤编号保留自然位置；不生成标题或任何文字。\n核心图形主体应覆盖约 70% 的有效画布，避免主体缩成一小排并留下大片空白；整张图不得出现任何文字、字母、数字、伪文字或文字形状；标签、标题与步骤编号全部由程序在生成后绘制，你只提供无字画面。同一核心细胞或抗原角色应在不同步骤中重复出现，用姿态、位置和状态变化表达过程；优先用细胞角色、抗原/抗体图形、箭头和状态图标表达，不要用句子或段落替代画面。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n最后重申：这张图必须完全无字——不能出现标题、标签、步骤编号、字母、数字、伪文字或任何文字形状；\n一切文字均由程序在生成后确定性绘制。\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 10,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 4,
+    "requires_numbered_steps": true,
+    "requires_title": false,
+    "minimum_subject_coverage_percent": 70,
+    "maximum_text_labels": 4,
+    "repeat_core_subjects_across_steps": true
+  },
+  "aspect_ratio": "16:9",
+  "cell_ip_failure_reason": null,
+  "image_id": "0ed54b2dac5f-v0",
+  "trusted_image": "0ed54b2dac5f-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_revision",
+    "summary": "图像存在严重的文字生成错误（伪汉字/乱码）和科学逻辑标注错误。虽然角色IP形象（颜色、道具）基本符合参考图，但图中的说明性文字包含大量无意义或错误的组合（如'迁应至免胞'、'插取集疫'、'MHG'等），且步骤2的箭头标注将B细胞指向抗体的过程错误标记为'辅助性T细胞'，导致图解无法正确传达免疫流程信息。",
+    "recommended_action": "auto_fix",
+    "auto_fixable": true,
+    "human_input_required": false,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "pass",
+        "evidence": "角色轮廓清晰，颜色（如巨噬细胞的黄色、B细胞的蓝色、辅助性T细胞的绿色）与参考图一致，道具（网兜、Y形抗体、加号旗、短剑）绘制准确，无明显崩坏。",
+        "confidence": 0.95
+      },
+      "text_legibility": {
+        "status": "issue",
+        "evidence": "图中存在多处不可读或语义错误的中文文本。例如：右上角箭头旁文字显示为'迁应至免胞 抗巴为 呈体'（应为迁移至淋巴结...）；左侧B细胞旁显示'插取集疫'（语义不通）；中间出现'MHG'拼写错误（应为MHC）；底部显示'受除病染细胞'等。这些伪文字严重阻碍信息读取。",
+        "confidence": 0.98
+      },
+      "layout_hierarchy": {
+        "status": "pass",
+        "evidence": "布局符合复杂度契约，包含至少4个分区（左上抗原识别、左中B细胞、中下抗体/效应、右下效应T细胞），编号1-4（实际可见2,3,4及隐含1）顺序大致可辨，主体覆盖率高。",
+        "confidence": 0.9
+      },
+      "brief_alignment": {
+        "status": "issue",
+        "evidence": "虽然视觉元素覆盖了核心因果链，但文字标签的错误导致流程逻辑混乱。特别是步骤2中，从B细胞指向抗体的箭头被错误标注为'辅助性T细胞'，这在生物学机制上是错误的标注（应为B细胞活化或分化），且文字乱码使得步骤1和步骤4的具体动作描述丢失或错误。",
+        "confidence": 0.96
+      },
+      "causal_step_coverage": {
+        "status": "issue",
+        "evidence": "视觉节点齐全，但关键连接处的文字标签失效。步骤1（固有免疫识别）的文字描述缺失或乱码；步骤2的箭头指向关系因文字错误而产生误导；步骤3和4的文字也存在造词现象（如'产生化染抗体'）。",
+        "confidence": 0.94
+      },
+      "scientific_expression_risk": {
+        "status": "issue",
+        "evidence": "存在明显的术语错误和乱码。'MHG'非标准缩写（应为MHC）；'插取集疫'、'迁应至免胞'等为AI生成的无意义字符组合，不具备科学图解的可信度。",
+        "confidence": 0.99
+      }
+    },
+    "blind_text_audit": {
+      "status": "clear",
+      "has_visible_text": true,
+      "summary": "A cartoon diagram illustrating the immune response process, featuring anthropomorphic cells like macrophages, B cells, T cells, and antibodies. The image contains numbered steps (2, 3, 4) and Chinese labels identifying cell types and actions such as antigen presentation and antibody production.",
+      "text_blocks": [
+        {
+          "text": "4",
+          "bbox": [
+            0.01,
+            0.01,
+            0.08,
+            0.09
+          ],
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "抗原",
+          "bbox": [
+            0.26,
+            0.01,
+            0.33,
+            0.05
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "树突状细胞",
+          "bbox": [
+            0.45,
+            0.01,
+            0.59,
+            0.05
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "抗原 抗原",
+          "bbox": [
+            0.23,
+            0.05,
+            0.33,
+            0.08
+          ],
+          "confidence": 0.97,
+          "defective": false
+        },
+        {
+          "text": "迁应至免胞 抗巴为 呈体",
+          "bbox": [
+            0.64,
+            0.07,
+            0.75,
+            0.15
+          ],
+          "confidence": 0.95,
+          "defective": false
+        },
+        {
+          "text": "巨噬细胞",
+          "bbox": [
+            0.06,
+            0.27,
+            0.17,
+            0.31
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "树突状细胞",
+          "bbox": [
+            0.45,
+            0.27,
+            0.56,
+            0.31
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "辅助性T细胞",
+          "bbox": [
+            0.8,
+            0.27,
+            0.94,
+            0.31
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.01,
+            0.32,
+            0.08,
+            0.4
+          ],
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "插取集疫",
+          "bbox": [
+            0.15,
+            0.31,
+            0.24,
+            0.34
+          ],
+          "confidence": 0.94,
+          "defective": false
+        },
+        {
+          "text": "B细胞",
+          "bbox": [
+            0.1,
+            0.33,
+            0.17,
+            0.37
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "抗原肽-MHG复合物 呈肽-MHG复合物",
+          "bbox": [
+            0.51,
+            0.31,
+            0.72,
+            0.39
+          ],
+          "confidence": 0.96,
+          "defective": false
+        },
+        {
+          "text": "辅助性T细胞",
+          "bbox": [
+            0.24,
+            0.51,
+            0.37,
+            0.54
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "B细胞",
+          "bbox": [
+            0.1,
+            0.61,
+            0.16,
+            0.65
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "被激活分化态",
+          "bbox": [
+            0.45,
+            0.61,
+            0.58,
+            0.65
+          ],
+          "confidence": 0.97,
+          "defective": false
+        },
+        {
+          "text": "辅助性T细胞",
+          "bbox": [
+            0.8,
+            0.61,
+            0.93,
+            0.65
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.01,
+            0.67,
+            0.08,
+            0.75
+          ],
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "中和作用 除病细体",
+          "bbox": [
+            0.15,
+            0.66,
+            0.24,
+            0.71
+          ],
+          "confidence": 0.95,
+          "defective": false
+        },
+        {
+          "text": "抗体",
+          "bbox": [
+            0.47,
+            0.64,
+            0.54,
+            0.68
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "受除病染细胞",
+          "bbox": [
+            0.61,
+            0.73,
+            0.73,
+            0.76
+          ],
+          "confidence": 0.94,
+          "defective": false
+        },
+        {
+          "text": "产生化染 抗体",
+          "bbox": [
+            0.09,
+            0.94,
+            0.18,
+            0.99
+          ],
+          "confidence": 0.96,
+          "defective": false
+        },
+        {
+          "text": "细胞毒性T细胞",
+          "bbox": [
+            0.44,
+            0.95,
+            0.59,
+            0.99
+          ],
+          "confidence": 0.98,
+          "defective": false
+        }
+      ]
+    },
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "图中多处流程说明文字为无意义的伪汉字或严重错别字。例如：'迁应至免胞 抗巴为 呈体'（应为树突状细胞迁移至淋巴结...）、'插取集疫'（应为摄取处理抗原）、'MHG'（应为MHC）、'受除病染细胞'（应为受感染细胞）。",
+        "bbox": [
+          0.64,
+          0.07,
+          0.75,
+          0.15
+        ],
+        "observed_text": "迁应至免胞 抗巴为 呈体",
+        "replacement_text": "迁移至淋巴结并呈递抗原",
+        "confidence": 0.99,
+        "suggested_fix": "重新生成所有流程说明文字，确保使用标准的生物学术语，避免AI生成的乱码汉字。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "步骤2中，从B细胞指向抗体的箭头下方错误地标注了'辅助性T细胞'。根据免疫流程，此处应标注B细胞的活化、分化或抗体分泌过程，而非T细胞名称（T细胞是上游激活者，不是该箭头代表的直接产物或动作）。",
+        "bbox": [
+          0.24,
+          0.51,
+          0.37,
+          0.54
+        ],
+        "observed_text": "辅助性T细胞",
+        "replacement_text": "活化/分化",
+        "confidence": 0.98,
+        "suggested_fix": "修正箭头标签，移除错误的'辅助性T细胞'标注，改为描述B细胞转变为浆细胞/产生抗体的过程。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "medium",
+        "description": "底部左侧文字'产生化染 抗体'语义不通，'化染'并非标准词汇，推测意为'产生特异性抗体'或'产生效应抗体'。",
+        "bbox": [
+          0.09,
+          0.94,
+          0.18,
+          0.99
+        ],
+        "observed_text": "产生化染 抗体",
+        "replacement_text": "产生特异性抗体",
+        "confidence": 0.95,
+        "suggested_fix": "更正为标准术语'产生特异性抗体'。",
+        "auto_fixable": true,
+        "human_input_required": false
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 1,
+  "revision_origin": "initial",
+  "last_revision_bbox": [
+    0.43,
+    0.97,
+    0.91,
+    1.0
+  ],
+  "last_edit_instruction": "仅修改指定矩形区域；矩形外所有像素内容、主体、构图和画风保持不变。\n这是删除任务：完整移除矩形框内全部文字、字母、数字与伪文字（含错字、乱码、残字），用框内周围背景与画面风格自然填充，不留残影、描边或文字痕迹；不要在框内生成任何新文字、标签或编号。",
+  "created_at": "2026-09-01T11:46:39.370007+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "e96896d1c933",
+  "trace_events": [
+    {
+      "id": "e96896d1c933-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-09-01T11:46:39.370007Z"
+    },
+    {
+      "id": "e96896d1c933-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：A scientific mechanism diagram illustrating the full immune response process. The image is divided into sequential stages from left to right. Stage 1: Pathogen entry and recogniti… 详细机制图：至少 4 个信息分区、10 个可辨视觉节点、4 条方向连接。",
+      "status": "completed",
+      "created_at": "2026-09-01T11:46:39.370007Z"
+    },
+    {
+      "id": "e96896d1c933-3",
+      "stage": "generation",
+      "title": "细胞场景已生成",
+      "detail": "正在检查底图文字并定位角色，随后写入规范底标和步骤编号。",
+      "status": "completed",
+      "created_at": "2026-09-01T11:46:45.967934Z"
+    },
+    {
+      "id": "e96896d1c933-4",
+      "stage": "visual_critic",
+      "title": "底图发现错字或乱码",
+      "detail": "视觉模型定位到 2 处问题文字（细胞毒性T细胞、细胞毒性T细胞），正在局部修复。",
+      "status": "completed",
+      "created_at": "2026-09-01T11:46:59.754365Z"
+    },
+    {
+      "id": "e96896d1c933-5",
+      "stage": "auto_revision",
+      "title": "底图文字检查与角色定位完成",
+      "detail": "角色框和流程分区已定位；规范名称与步骤编号已由程序绘制。",
+      "status": "completed",
+      "created_at": "2026-09-01T11:47:36.490699Z"
+    },
+    {
+      "id": "e96896d1c933-6",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "图像存在严重的文字生成错误（伪汉字/乱码）和科学逻辑标注错误。虽然角色IP形象（颜色、道具）基本符合参考图，但图中的说明性文字包含大量无意义或错误的组合（如'迁应至免胞'、'插取集疫'、'MHG'等），且步骤2的箭头标注将B细胞指向抗体的过程错误标记为'辅助性T细胞'，导致图解无法正确传达免疫流程信息。",
+      "status": "warning",
+      "created_at": "2026-09-01T11:48:00.329100Z"
+    },
+    {
+      "id": "e96896d1c933-7",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-09-01T11:48:46.449057Z"
+    }
+  ],
+  "trace_history": []
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "7368531768d160c6d31b6d7ad4c2ab04d78f976f26d432abb2837e0ee2d95bb8",
+  "content_hash": "7e0b3d8b5ed4637822bd73a46936714b822a6aeb35838d849801850b273b95ee",
+  "entities": [
+    {
+      "canonical_name": "chimeric VLPs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "chimeric VLPs",
+      "chunk_id": "7368531768d160c6d31b6d7ad4c2ab04d78f976f26d432abb2837e0ee2d95bb8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

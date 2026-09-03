@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_4820327b2ee9b07833298f0001a59ed6",
+  "content_hash": "8e9406289470e74c6a68f71d1ff336b8d90075e665c804512641bd6398b613c8",
+  "entities": [
+    {
+      "canonical_name": "IL-12",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-12",
+      "chunk_id": "chk_4820327b2ee9b07833298f0001a59ed6"
+    },
+    {
+      "canonical_name": "Tfh Cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Tfh Cell",
+      "chunk_id": "chk_4820327b2ee9b07833298f0001a59ed6"
+    },
+    {
+      "canonical_name": "Salmonella Infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Salmonella Infection",
+      "chunk_id": "chk_4820327b2ee9b07833298f0001a59ed6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_2d5e41b5ae33f686f8b1b0fcf28ff119",
+  "content_hash": "2b884a64a3df0e998f28a74f93b68c4ab06c5ec863fbf0210cdc32ae033707b0",
+  "entities": [
+    {
+      "canonical_name": "BCG Vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG Vaccination",
+      "chunk_id": "chk_2d5e41b5ae33f686f8b1b0fcf28ff119"
+    },
+    {
+      "canonical_name": "viral infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "viral infection",
+      "chunk_id": "chk_2d5e41b5ae33f686f8b1b0fcf28ff119"
+    },
+    {
+      "canonical_name": "BCG vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG vaccine",
+      "chunk_id": "chk_2d5e41b5ae33f686f8b1b0fcf28ff119"
+    },
+    {
+      "canonical_name": "viral infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "viral infections",
+      "chunk_id": "chk_2d5e41b5ae33f686f8b1b0fcf28ff119"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

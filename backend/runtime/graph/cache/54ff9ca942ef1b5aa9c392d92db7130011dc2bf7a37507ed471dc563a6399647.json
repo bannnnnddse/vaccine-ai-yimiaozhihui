@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_47d76a2e9fa79301438f27c54875c464",
+  "content_hash": "594a60617b9306850f4eb92c1085f9b1782be5beb7bb90a39bd7d5e83c36376b",
+  "entities": [
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_47d76a2e9fa79301438f27c54875c464"
+    },
+    {
+      "canonical_name": "pericarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "pericarditis",
+      "chunk_id": "chk_47d76a2e9fa79301438f27c54875c464"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_47d76a2e9fa79301438f27c54875c464"
+    },
+    {
+      "canonical_name": "COVID-19 mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 mRNA vaccines",
+      "chunk_id": "chk_47d76a2e9fa79301438f27c54875c464"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

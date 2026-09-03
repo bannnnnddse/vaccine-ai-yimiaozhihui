@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_075c642d52e93a7326d74a56f7965661",
+  "content_hash": "b1fb2970bcfd05cffece28a6f73c29999839f37cc5b97fc661d3dce91e814204",
+  "entities": [
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_075c642d52e93a7326d74a56f7965661"
+    },
+    {
+      "canonical_name": "invasive meningococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive meningococcal disease",
+      "chunk_id": "chk_075c642d52e93a7326d74a56f7965661"
+    },
+    {
+      "canonical_name": "clostridium difficile",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "clostridium difficile",
+      "chunk_id": "chk_075c642d52e93a7326d74a56f7965661"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_28ee8156d40905609ae9ab746436cd8b",
+  "content_hash": "803b7b1811a69b4750de0b5a3044aa49fd0c866ef40c2afe4693b3d288876002",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine",
+      "chunk_id": "chk_28ee8156d40905609ae9ab746436cd8b"
+    },
+    {
+      "canonical_name": "healthy infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy infants",
+      "chunk_id": "chk_28ee8156d40905609ae9ab746436cd8b"
+    },
+    {
+      "canonical_name": "twenty-valent pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "twenty-valent pneumococcal conjugate vaccine",
+      "chunk_id": "chk_28ee8156d40905609ae9ab746436cd8b"
+    },
+    {
+      "canonical_name": "toddlers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "toddlers",
+      "chunk_id": "chk_28ee8156d40905609ae9ab746436cd8b"
+    },
+    {
+      "canonical_name": "three-dose series",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "three-dose series",
+      "chunk_id": "chk_28ee8156d40905609ae9ab746436cd8b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

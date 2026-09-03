@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ed76fbefd8fc915eb471349fd1e1702c",
+  "content_hash": "f373f076320cd2f2d4cc2a28d4829756ef615c80f13950c50cfebf4a4a2de856",
+  "entities": [
+    {
+      "canonical_name": "under-vaccinated communities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "under-vaccinated communities",
+      "chunk_id": "chk_ed76fbefd8fc915eb471349fd1e1702c"
+    },
+    {
+      "canonical_name": "susceptible populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "susceptible populations",
+      "chunk_id": "chk_ed76fbefd8fc915eb471349fd1e1702c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

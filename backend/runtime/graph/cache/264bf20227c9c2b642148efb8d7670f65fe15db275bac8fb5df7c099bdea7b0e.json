@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_24ea54da0e50590abe4868aa465a4ae2",
+  "content_hash": "c51e42cd2833ccf48f92af0f0bb9e25afbf6b5a58b1c6df472ad0b588d6bfc3b",
+  "entities": [
+    {
+      "canonical_name": "Viral vectored vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Viral vectored vaccines",
+      "chunk_id": "chk_24ea54da0e50590abe4868aa465a4ae2"
+    },
+    {
+      "canonical_name": "recombinant virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "recombinant virus",
+      "chunk_id": "chk_24ea54da0e50590abe4868aa465a4ae2"
+    },
+    {
+      "canonical_name": "pathogen antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pathogen antigens",
+      "chunk_id": "chk_24ea54da0e50590abe4868aa465a4ae2"
+    },
+    {
+      "canonical_name": "humoral and cellular immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral and cellular immune responses",
+      "chunk_id": "chk_24ea54da0e50590abe4868aa465a4ae2"
+    },
+    {
+      "canonical_name": "human adenovirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human adenovirus",
+      "chunk_id": "chk_24ea54da0e50590abe4868aa465a4ae2"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_24ea54da0e50590abe4868aa465a4ae2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "quote_missing"
+  ]
+}

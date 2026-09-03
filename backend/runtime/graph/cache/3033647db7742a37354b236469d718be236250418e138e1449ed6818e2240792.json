@@ -1,0 +1,74 @@
+{
+  "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15",
+  "content_hash": "421f46a3bf68f23123e126e8eb24771ab566eaa987822b98e2d3106bf39307e0",
+  "entities": [
+    {
+      "canonical_name": "IgG V1V2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG V1V2",
+      "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15"
+    },
+    {
+      "canonical_name": "investigational vaccine against HIV-1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "investigational vaccine against HIV-1",
+      "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15"
+    },
+    {
+      "canonical_name": "CD4+ T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4+ T-cell",
+      "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15"
+    },
+    {
+      "canonical_name": "TNFa",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TNFa",
+      "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15"
+    },
+    {
+      "canonical_name": "IFN-c",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-c",
+      "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15"
+    },
+    {
+      "canonical_name": "IL-4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-4",
+      "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15"
+    },
+    {
+      "canonical_name": "IL-2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-2",
+      "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15"
+    },
+    {
+      "canonical_name": "CD40L",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD40L",
+      "chunk_id": "chk_1fe2ca3d77e6b952bd488eeaa0203b15"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing"
+  ]
+}

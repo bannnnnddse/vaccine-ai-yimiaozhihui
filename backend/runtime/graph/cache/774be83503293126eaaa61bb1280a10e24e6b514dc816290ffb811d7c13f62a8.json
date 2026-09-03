@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_6ecb2c7efc60fd5001c399bd15ab8287",
+  "content_hash": "774d892751bd3c56ebf2caee5d374e3dd2d3bf097a655c41b1c95ef3107e52dc",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_6ecb2c7efc60fd5001c399bd15ab8287"
+    },
+    {
+      "canonical_name": "healthcare personnel",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthcare personnel",
+      "chunk_id": "chk_6ecb2c7efc60fd5001c399bd15ab8287"
+    },
+    {
+      "canonical_name": "Coronavirus disease 2019",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Coronavirus disease 2019",
+      "chunk_id": "chk_6ecb2c7efc60fd5001c399bd15ab8287"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_6ecb2c7efc60fd5001c399bd15ab8287"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

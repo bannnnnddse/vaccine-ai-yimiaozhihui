@@ -1,0 +1,71 @@
+{
+  "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886",
+  "content_hash": "505ebada18604abdf94996297423c930063c6331bda8c3fb65dac6850f514630",
+  "entities": [
+    {
+      "canonical_name": "vaccination strategies",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "vaccination strategies",
+      "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886"
+    },
+    {
+      "canonical_name": "Fc functions",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fc functions",
+      "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886"
+    },
+    {
+      "canonical_name": "young, healthy, non-pregnant adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young, healthy, non-pregnant adults",
+      "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886"
+    },
+    {
+      "canonical_name": "elderly individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly individuals",
+      "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886"
+    },
+    {
+      "canonical_name": "patients with various comorbidities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients with various comorbidities",
+      "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886"
+    },
+    {
+      "canonical_name": "impaired protection",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "impaired protection",
+      "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886"
+    },
+    {
+      "canonical_name": "immunomodulatory mechanisms",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunomodulatory mechanisms",
+      "chunk_id": "93430ce7f4728c24600a2ec56d69863c052e1252abe9cc180ec0a646e7262886"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

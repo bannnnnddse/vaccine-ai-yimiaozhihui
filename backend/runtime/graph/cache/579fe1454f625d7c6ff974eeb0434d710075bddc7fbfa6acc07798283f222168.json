@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_a3528dca5475d019d4239900fa751115",
+  "content_hash": "2cf963fcef8b34fd283f63eb218e021ba1f1debc2cccc9872909d31c66f9627c",
+  "entities": [
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_a3528dca5475d019d4239900fa751115"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_a3528dca5475d019d4239900fa751115"
+    },
+    {
+      "canonical_name": "recombinant hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant hepatitis B vaccine",
+      "chunk_id": "chk_a3528dca5475d019d4239900fa751115"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed",
+  "content_hash": "7ebdc850f5edae72dac868a27c77f6eac6e0f5e4a3601b54a56e5d32d64f7cec",
+  "entities": [
+    {
+      "canonical_name": "infants born vaginally",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants born vaginally",
+      "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed"
+    },
+    {
+      "canonical_name": "Lactobacillus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Lactobacillus",
+      "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed"
+    },
+    {
+      "canonical_name": "Prevotella",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Prevotella",
+      "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed"
+    },
+    {
+      "canonical_name": "Bifidobacterium",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium",
+      "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed"
+    },
+    {
+      "canonical_name": "infants born via cesarean section",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants born via cesarean section",
+      "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed"
+    },
+    {
+      "canonical_name": "Staphylococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Staphylococcus",
+      "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed"
+    },
+    {
+      "canonical_name": "Corynebacterium",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Corynebacterium",
+      "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed"
+    },
+    {
+      "canonical_name": "Klebsiella",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Klebsiella",
+      "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed"
+    },
+    {
+      "canonical_name": "Enterococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Enterococcus",
+      "chunk_id": "chk_3241978eb61d8f351b596f6ef19792ed"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

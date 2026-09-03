@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_fc2d3674dd3acd9ef5145024f119b739",
+  "content_hash": "9811b8461e6c0b9e79dd99bf382e2a1b9f3d1ac2a4b0ea17032ec31d90c3558b",
+  "entities": [
+    {
+      "canonical_name": "multiple antigen vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "multiple antigen vaccine",
+      "chunk_id": "chk_fc2d3674dd3acd9ef5145024f119b739"
+    },
+    {
+      "canonical_name": "STEMVAC",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "STEMVAC",
+      "chunk_id": "chk_fc2d3674dd3acd9ef5145024f119b739"
+    },
+    {
+      "canonical_name": "breast cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "breast cancer",
+      "chunk_id": "chk_fc2d3674dd3acd9ef5145024f119b739"
+    },
+    {
+      "canonical_name": "human papillomavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomavirus",
+      "chunk_id": "chk_fc2d3674dd3acd9ef5145024f119b739"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_5e8661e6ec983802fa9f739d5bfad0a4",
+  "content_hash": "79430903a7b9a4c98d527134dec45957f0ec7a215bae2afc55cc26a4898a5926",
+  "entities": [
+    {
+      "canonical_name": "immunogenic fusion PCSK9-tetanus (IFPT)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "immunogenic fusion PCSK9-tetanus (IFPT)",
+      "chunk_id": "chk_5e8661e6ec983802fa9f739d5bfad0a4"
+    },
+    {
+      "canonical_name": "PCSK9",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PCSK9",
+      "chunk_id": "chk_5e8661e6ec983802fa9f739d5bfad0a4"
+    },
+    {
+      "canonical_name": "hypercholesterolemic mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "hypercholesterolemic mice",
+      "chunk_id": "chk_5e8661e6ec983802fa9f739d5bfad0a4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_968aa1efe2ef3cc568c493e96d80506b",
+  "content_hash": "a34ccb0daa33afb194afd10c074b11941b22c037ed645aaa3f2125086d8dbea4",
+  "entities": [
+    {
+      "canonical_name": "HPV infections",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV infections",
+      "chunk_id": "chk_968aa1efe2ef3cc568c493e96d80506b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "entity_surface_missing",
+    "new_entity_canonical_not_surface",
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "source_missing_from_quote",
+    "llm_forbidden_relation"
+  ]
+}

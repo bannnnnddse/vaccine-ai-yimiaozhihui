@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_57297826f4e3b01e9741e9472a4fdea9",
+  "content_hash": "3c8c2258f1951fea9d25e872bcb9a1ddfcb9002c96e16c62d85f62fff3f2ba30",
+  "entities": [
+    {
+      "canonical_name": "rotavirus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccination",
+      "chunk_id": "chk_57297826f4e3b01e9741e9472a4fdea9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

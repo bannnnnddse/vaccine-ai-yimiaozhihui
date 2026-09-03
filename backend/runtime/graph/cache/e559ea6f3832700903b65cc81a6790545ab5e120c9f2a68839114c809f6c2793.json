@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_3bca11f4190b4ad70424de5b7d72e340",
+  "content_hash": "39ba6af036ab7de517eed347723ea14811cff77627cec3bab2bf0d1d87b36c0c",
+  "entities": [
+    {
+      "canonical_name": "Plasmodium falciparum",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Plasmodium falciparum",
+      "chunk_id": "chk_3bca11f4190b4ad70424de5b7d72e340"
+    },
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_3bca11f4190b4ad70424de5b7d72e340"
+    },
+    {
+      "canonical_name": "semi-immune adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "semi-immune adults",
+      "chunk_id": "chk_3bca11f4190b4ad70424de5b7d72e340"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_3bca11f4190b4ad70424de5b7d72e340"
+    },
+    {
+      "canonical_name": "Virosome-formulated Plasmodium falciparum AMA-1 & CSP Derived peptides",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Virosome-formulated Plasmodium falciparum AMA-1 & CSP Derived peptides",
+      "chunk_id": "chk_3bca11f4190b4ad70424de5b7d72e340"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_40de6f0e0e2b55802959a298e56aa38e",
+  "content_hash": "c46af4efc6af9e24328556c03e0eaa69ddbcb4b17562faaf158248343dc0a070",
+  "entities": [
+    {
+      "canonical_name": "febrile seizures",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "febrile seizures",
+      "chunk_id": "chk_40de6f0e0e2b55802959a298e56aa38e"
+    },
+    {
+      "canonical_name": "afebrile seizures",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "afebrile seizures",
+      "chunk_id": "chk_40de6f0e0e2b55802959a298e56aa38e"
+    },
+    {
+      "canonical_name": "mild rotavirus gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "mild rotavirus gastroenteritis",
+      "chunk_id": "chk_40de6f0e0e2b55802959a298e56aa38e"
+    },
+    {
+      "canonical_name": "rotavirus cerebellitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus cerebellitis",
+      "chunk_id": "chk_40de6f0e0e2b55802959a298e56aa38e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

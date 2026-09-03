@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_d672680587d587920680159cd5e7c804",
+  "content_hash": "3d6e002076e2fc1a66325e8b1292959f2f5e6cd2279a14a670662f65707750c9",
+  "entities": [
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "chk_d672680587d587920680159cd5e7c804"
+    },
+    {
+      "canonical_name": "Wuhan SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Wuhan SARS-CoV-2",
+      "chunk_id": "chk_d672680587d587920680159cd5e7c804"
+    },
+    {
+      "canonical_name": "K18-hACE2 mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "K18-hACE2 mice",
+      "chunk_id": "chk_d672680587d587920680159cd5e7c804"
+    },
+    {
+      "canonical_name": "IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG",
+      "chunk_id": "chk_d672680587d587920680159cd5e7c804"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

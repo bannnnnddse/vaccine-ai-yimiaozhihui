@@ -1,0 +1,59 @@
+{
+  "chunk_id": "90264d80189b5c1eb307a287e7783b0442de0fd3d565904b6b48ecc3cb852f82",
+  "content_hash": "e59bd36e270deec18a460dd9f33758d6b1dbb98d58708d77e29b9c6cfc2964c5",
+  "entities": [
+    {
+      "canonical_name": "M-CSF",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "M-CSF",
+      "chunk_id": "90264d80189b5c1eb307a287e7783b0442de0fd3d565904b6b48ecc3cb852f82"
+    },
+    {
+      "canonical_name": "CCL4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CCL4",
+      "chunk_id": "90264d80189b5c1eb307a287e7783b0442de0fd3d565904b6b48ecc3cb852f82"
+    },
+    {
+      "canonical_name": "CXCL1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CXCL1",
+      "chunk_id": "90264d80189b5c1eb307a287e7783b0442de0fd3d565904b6b48ecc3cb852f82"
+    },
+    {
+      "canonical_name": "CCL7",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CCL7",
+      "chunk_id": "90264d80189b5c1eb307a287e7783b0442de0fd3d565904b6b48ecc3cb852f82"
+    },
+    {
+      "canonical_name": "CXCL13",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CXCL13",
+      "chunk_id": "90264d80189b5c1eb307a287e7783b0442de0fd3d565904b6b48ecc3cb852f82"
+    },
+    {
+      "canonical_name": "CXCL10",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CXCL10",
+      "chunk_id": "90264d80189b5c1eb307a287e7783b0442de0fd3d565904b6b48ecc3cb852f82"
+    },
+    {
+      "canonical_name": "vaccinated individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccinated individuals",
+      "chunk_id": "90264d80189b5c1eb307a287e7783b0442de0fd3d565904b6b48ecc3cb852f82"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

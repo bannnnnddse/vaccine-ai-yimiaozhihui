@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_05ab455eacc421844953ca6e7cc5733a",
+  "content_hash": "64d748630b272dc744f7f492a763470c7d467f369f112d6743a7e92c39ca8179",
+  "entities": [
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "chk_05ab455eacc421844953ca6e7cc5733a"
+    },
+    {
+      "canonical_name": "varicella antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "varicella antigens",
+      "chunk_id": "chk_05ab455eacc421844953ca6e7cc5733a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

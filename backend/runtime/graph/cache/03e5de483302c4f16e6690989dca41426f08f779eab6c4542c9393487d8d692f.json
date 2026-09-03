@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_5383152c9428029a6f2e8ddcb775ecc7",
+  "content_hash": "a02f6a28e27a0bd7cd681f4c552216e104d6207d1c266c5ba24f0894a4e73866",
+  "entities": [
+    {
+      "canonical_name": "inactivated SARS -CoV -2 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated SARS -CoV -2 vaccines",
+      "chunk_id": "chk_5383152c9428029a6f2e8ddcb775ecc7"
+    },
+    {
+      "canonical_name": "Delta variant infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Delta variant infection",
+      "chunk_id": "chk_5383152c9428029a6f2e8ddcb775ecc7"
+    },
+    {
+      "canonical_name": "an inactivated SARS -CoV -2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "an inactivated SARS -CoV -2 vaccine",
+      "chunk_id": "chk_5383152c9428029a6f2e8ddcb775ecc7"
+    },
+    {
+      "canonical_name": "healthcare workers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthcare workers",
+      "chunk_id": "chk_5383152c9428029a6f2e8ddcb775ecc7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

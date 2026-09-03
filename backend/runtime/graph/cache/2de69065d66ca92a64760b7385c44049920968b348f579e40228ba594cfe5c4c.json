@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_67bbf4fd8b32dad91f8eb06b2963fc3c",
+  "content_hash": "d3c07b0b577e56697cdfb435cda0985251ff83aaeaa10bbeffd3306b70f86299",
+  "entities": [
+    {
+      "canonical_name": "IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IPV",
+      "chunk_id": "chk_67bbf4fd8b32dad91f8eb06b2963fc3c"
+    },
+    {
+      "canonical_name": "bOPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bOPV",
+      "chunk_id": "chk_67bbf4fd8b32dad91f8eb06b2963fc3c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

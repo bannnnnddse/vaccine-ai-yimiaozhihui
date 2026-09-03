@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_d4b35cad56de5376250142034eb970a3",
+  "content_hash": "f12e52f968010f90cab32447753ed893b79c96c3ac8779a065d31a07579e8d65",
+  "entities": [
+    {
+      "canonical_name": "measles vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles vaccination",
+      "chunk_id": "chk_d4b35cad56de5376250142034eb970a3"
+    },
+    {
+      "canonical_name": "non-measles infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-measles infectious diseases",
+      "chunk_id": "chk_d4b35cad56de5376250142034eb970a3"
+    },
+    {
+      "canonical_name": "childhood infectious disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "childhood infectious disease",
+      "chunk_id": "chk_d4b35cad56de5376250142034eb970a3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

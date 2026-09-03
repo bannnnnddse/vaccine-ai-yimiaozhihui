@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c9c457b76de82a51a76c48ec8c6cbd35",
+  "content_hash": "9d352801a8263dfdd6ebb7e45ab3f3445716e97a59a7e6f61a6791868922df01",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_c9c457b76de82a51a76c48ec8c6cbd35"
+    },
+    {
+      "canonical_name": "nonvaccinated people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "nonvaccinated people",
+      "chunk_id": "chk_c9c457b76de82a51a76c48ec8c6cbd35"
+    },
+    {
+      "canonical_name": "vaccinated people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccinated people",
+      "chunk_id": "chk_c9c457b76de82a51a76c48ec8c6cbd35"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

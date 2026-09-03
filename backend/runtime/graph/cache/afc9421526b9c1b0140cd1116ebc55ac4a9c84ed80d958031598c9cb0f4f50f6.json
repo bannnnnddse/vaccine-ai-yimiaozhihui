@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_86de7d67433b474e2479a678d689f8ff",
+  "content_hash": "8d27feb5d69a64c15055a3ef53ac42d7a6bb1d27f4f77973b43d331d749365e7",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_86de7d67433b474e2479a678d689f8ff"
+    },
+    {
+      "canonical_name": "BCG vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG vaccine",
+      "chunk_id": "chk_86de7d67433b474e2479a678d689f8ff"
+    },
+    {
+      "canonical_name": "African and European children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "African and European children",
+      "chunk_id": "chk_86de7d67433b474e2479a678d689f8ff"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_86de7d67433b474e2479a678d689f8ff"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_86de7d67433b474e2479a678d689f8ff"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

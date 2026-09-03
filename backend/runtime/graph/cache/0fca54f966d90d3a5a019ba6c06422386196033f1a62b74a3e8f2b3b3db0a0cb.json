@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7fcb1e1ec041e1e41f37ec6d51278eae",
+  "content_hash": "54a27fcd8ff684ff8d16064854719c243b8ee51f0392e9998668bae26da149b5",
+  "entities": [
+    {
+      "canonical_name": "Epstein-Barr Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Epstein-Barr Virus",
+      "chunk_id": "chk_7fcb1e1ec041e1e41f37ec6d51278eae"
+    },
+    {
+      "canonical_name": "EBV Subunit Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EBV Subunit Vaccine",
+      "chunk_id": "chk_7fcb1e1ec041e1e41f37ec6d51278eae"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

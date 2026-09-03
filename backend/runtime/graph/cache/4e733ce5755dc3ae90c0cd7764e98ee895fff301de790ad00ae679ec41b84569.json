@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_102770aeefe0df6b9e427d5b9878e48d",
+  "content_hash": "67211c23206c4ba2050181bc9fbf15000d6ec0bc2dd9cd7e288a524ec957b9d1",
+  "entities": [
+    {
+      "canonical_name": "Liver cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Liver cancer",
+      "chunk_id": "chk_102770aeefe0df6b9e427d5b9878e48d"
+    },
+    {
+      "canonical_name": "Hepatocellular carcinoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Hepatocellular carcinoma",
+      "chunk_id": "chk_102770aeefe0df6b9e427d5b9878e48d"
+    },
+    {
+      "canonical_name": "HCC",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HCC",
+      "chunk_id": "chk_102770aeefe0df6b9e427d5b9878e48d"
+    },
+    {
+      "canonical_name": "chronic liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic liver disease",
+      "chunk_id": "chk_102770aeefe0df6b9e427d5b9878e48d"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_102770aeefe0df6b9e427d5b9878e48d"
+    },
+    {
+      "canonical_name": "HCV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HCV",
+      "chunk_id": "chk_102770aeefe0df6b9e427d5b9878e48d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

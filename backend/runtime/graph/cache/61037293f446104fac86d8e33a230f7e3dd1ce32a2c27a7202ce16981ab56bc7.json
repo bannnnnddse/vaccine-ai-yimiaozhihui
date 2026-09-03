@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_1fdfd5e974432082668a68380f7067b4",
+  "content_hash": "b975bd7cb3c7ee8cabec536e85cae6cf7aaed0b3946f7de26ba2a0800ca93d91",
+  "entities": [
+    {
+      "canonical_name": "HIV-infected persons",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-infected persons",
+      "chunk_id": "chk_1fdfd5e974432082668a68380f7067b4"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_1fdfd5e974432082668a68380f7067b4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

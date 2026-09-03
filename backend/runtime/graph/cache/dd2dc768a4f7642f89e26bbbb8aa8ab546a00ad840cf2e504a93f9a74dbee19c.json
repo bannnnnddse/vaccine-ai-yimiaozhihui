@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_a17beacf23c022690c477cdc354f6078",
+  "content_hash": "3ca5087dece69922cd8da395db2e456a928109bf8532550f0fdf54ff6c997232",
+  "entities": [
+    {
+      "canonical_name": "20-valent pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "20-valent pneumococcal conjugate vaccine",
+      "chunk_id": "chk_a17beacf23c022690c477cdc354f6078"
+    },
+    {
+      "canonical_name": "US infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "US infants",
+      "chunk_id": "chk_a17beacf23c022690c477cdc354f6078"
+    },
+    {
+      "canonical_name": "pneumococcal vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal vaccination",
+      "chunk_id": "chk_a17beacf23c022690c477cdc354f6078"
+    },
+    {
+      "canonical_name": "U.S. older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "U.S. older adults",
+      "chunk_id": "chk_a17beacf23c022690c477cdc354f6078"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

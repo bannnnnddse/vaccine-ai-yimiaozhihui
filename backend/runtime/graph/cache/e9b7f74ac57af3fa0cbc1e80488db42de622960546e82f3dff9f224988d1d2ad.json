@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_05effc3553a841d3b091fbd8fabcdf3b",
+  "content_hash": "8f619b53229469c1abe1c88983e964f481dd7c47f4d0ac15fc4f4f10de2f1025",
+  "entities": [
+    {
+      "canonical_name": "myocardial infarction",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "myocardial infarction",
+      "chunk_id": "chk_05effc3553a841d3b091fbd8fabcdf3b"
+    },
+    {
+      "canonical_name": "stroke",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "stroke",
+      "chunk_id": "chk_05effc3553a841d3b091fbd8fabcdf3b"
+    },
+    {
+      "canonical_name": "influenza infection",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza infection",
+      "chunk_id": "chk_05effc3553a841d3b091fbd8fabcdf3b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

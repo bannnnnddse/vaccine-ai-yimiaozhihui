@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_d9435c03a0d1fb304e6ae37d587d2de1",
+  "content_hash": "63d1aeea627296f6886d504830d1d46436200740f067478743a50119b092e2fb",
+  "entities": [
+    {
+      "canonical_name": "complement activating serum IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "complement activating serum IgG",
+      "chunk_id": "chk_d9435c03a0d1fb304e6ae37d587d2de1"
+    },
+    {
+      "canonical_name": "HIV1 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV1 infection",
+      "chunk_id": "chk_d9435c03a0d1fb304e6ae37d587d2de1"
+    },
+    {
+      "canonical_name": "Vaccineinduced plasma IgA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Vaccineinduced plasma IgA",
+      "chunk_id": "chk_d9435c03a0d1fb304e6ae37d587d2de1"
+    },
+    {
+      "canonical_name": "IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG",
+      "chunk_id": "chk_d9435c03a0d1fb304e6ae37d587d2de1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "invalid_domain_range"
+  ]
+}

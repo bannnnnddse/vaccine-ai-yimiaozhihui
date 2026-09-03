@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d8dfb2d720cafa884c71c2ea20555281",
+  "content_hash": "0cc7141f2c0c2cb4e47ad06ebd1f7bdeeaf56a702ae7ef321933e58a620dff8d",
+  "entities": [
+    {
+      "canonical_name": "Flemish",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Flemish",
+      "chunk_id": "chk_d8dfb2d720cafa884c71c2ea20555281"
+    },
+    {
+      "canonical_name": "French",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "French",
+      "chunk_id": "chk_d8dfb2d720cafa884c71c2ea20555281"
+    },
+    {
+      "canonical_name": "German",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "German",
+      "chunk_id": "chk_d8dfb2d720cafa884c71c2ea20555281"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

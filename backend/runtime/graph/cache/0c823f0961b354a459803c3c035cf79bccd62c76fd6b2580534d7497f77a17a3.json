@@ -1,0 +1,1214 @@
+{
+  "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6",
+  "content_hash": "d48e359af6617f7bf2368ff265c2b4cca5563d1d81b2b74542f1eb61649ed120",
+  "entities": [
+    {
+      "canonical_name": "vaccination",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "missed opportunities",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "missed opportunities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "dispensing business model",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "dispensing business model",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "medication profile",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "medication profile",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "contextual and social vulnerabilities",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "illnesses",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "illnesses",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "social determinants of health",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "social determinants of health",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "role expansion",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "role expansion",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "interrelations between illnesses and other social determinants of health",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "interrelations between illnesses and other social determinants of health",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "proxy to vulnerability at large",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "proxy to vulnerability at large",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "simplify the interrelations",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "simplify the interrelations",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that impact access to",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that impact access to",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade, community pharmacies are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "In the past decade, community pharmacies are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating, pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating, pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "are transitioning from a dispensing business model to increased clinical services",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "are transitioning from a dispensing business model to increased clinical services",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Although role expansion is stimulating",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Although role expansion is stimulating",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pharmacists are trained to consider the medication profile as a primary source of information rather than contextual and social vulnerabilities",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic con -ditions become a proxy to vulnerability at large and may simplify the interrelations between illnesses and other social determinants of health that",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "impact access to vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "impact access to vaccination",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Organizational barriers are frequently reported and center around missed opportunities and com",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "In the past decade",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "In the past decade",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    },
+    {
+      "canonical_name": "community pharmacies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "community pharmacies",
+      "chunk_id": "chk_3b4ec80279e34f9a494ae45e46b532c6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

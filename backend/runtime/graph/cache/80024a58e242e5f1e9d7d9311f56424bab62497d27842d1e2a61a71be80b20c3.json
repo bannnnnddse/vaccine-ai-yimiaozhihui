@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2b07a23bfb5473d3c4cc42ce132911b7",
+  "content_hash": "7314236ea4dfbc2d6a68d7347fb44ff62d3a1e1fb53291b9b7a1e834360fd30a",
+  "entities": [
+    {
+      "canonical_name": "typhoid vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "typhoid vaccination",
+      "chunk_id": "chk_2b07a23bfb5473d3c4cc42ce132911b7"
+    },
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_2b07a23bfb5473d3c4cc42ce132911b7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

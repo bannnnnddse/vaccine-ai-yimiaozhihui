@@ -1,0 +1,11 @@
+{
+  "chunk_id": "a916b0197a7bff6d60b30e932dca43d3e3c98e93c58070b5114b0aa380f800f8",
+  "content_hash": "06a72bae92d6eafbc3bc792eed969a695a9685b8afd7ec1b07a90ba000fc4e8b",
+  "entities": [],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "target_missing_from_quote",
+    "target_missing_from_quote"
+  ]
+}

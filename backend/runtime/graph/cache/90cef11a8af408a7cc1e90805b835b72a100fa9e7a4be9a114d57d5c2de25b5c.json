@@ -1,0 +1,29 @@
+{
+  "chunk_id": "28ed387c46636847d2970ab92ec3b7dff3abda6867b8fe68033dfefb963ee337",
+  "content_hash": "7d9ca0f8ac5dd9a9e2ec8406694fb2155d731f9846bedabcac8afa144fdd9a73",
+  "entities": [
+    {
+      "canonical_name": "adjuvanted vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adjuvanted vaccines",
+      "chunk_id": "28ed387c46636847d2970ab92ec3b7dff3abda6867b8fe68033dfefb963ee337"
+    },
+    {
+      "canonical_name": "high-risk groups",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "high-risk groups",
+      "chunk_id": "28ed387c46636847d2970ab92ec3b7dff3abda6867b8fe68033dfefb963ee337"
+    },
+    {
+      "canonical_name": "HEV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HEV vaccine",
+      "chunk_id": "28ed387c46636847d2970ab92ec3b7dff3abda6867b8fe68033dfefb963ee337"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

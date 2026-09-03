@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_69e5c86045802137e2aaa0cc8424a020",
+  "content_hash": "e81e8a6d985604c6cb2a2da04a7721a00de7dccda65998ce458d34cab0eb9fd8",
+  "entities": [
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_69e5c86045802137e2aaa0cc8424a020"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "unknown_endpoint"
+  ]
+}

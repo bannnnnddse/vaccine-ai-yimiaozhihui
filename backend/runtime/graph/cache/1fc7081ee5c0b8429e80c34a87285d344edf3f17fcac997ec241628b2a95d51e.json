@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_b8a8a45e178b183c93fc4afbd954df06",
+  "content_hash": "8d5d2ed2788b462a2fd90980f48f150898cff67eb0f2f014791b36b73633d2d2",
+  "entities": [
+    {
+      "canonical_name": "Wheezing",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Wheezing",
+      "chunk_id": "chk_b8a8a45e178b183c93fc4afbd954df06"
+    },
+    {
+      "canonical_name": "Respiratory tract congestion",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Respiratory tract congestion",
+      "chunk_id": "chk_b8a8a45e178b183c93fc4afbd954df06"
+    },
+    {
+      "canonical_name": "asthma group",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "asthma group",
+      "chunk_id": "chk_b8a8a45e178b183c93fc4afbd954df06"
+    },
+    {
+      "canonical_name": "non-chronic diseases group",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "non-chronic diseases group",
+      "chunk_id": "chk_b8a8a45e178b183c93fc4afbd954df06"
+    },
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_b8a8a45e178b183c93fc4afbd954df06"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

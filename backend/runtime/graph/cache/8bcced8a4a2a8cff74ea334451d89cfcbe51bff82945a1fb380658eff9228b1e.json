@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_8c9495b09fff58b18c4491aa6e6d25cc",
+  "content_hash": "763877f2df77ac36b25aebc263a684ceb8a05c991be9793f5524e851f69ae3cb",
+  "entities": [
+    {
+      "canonical_name": "SFTSV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SFTSV vaccine",
+      "chunk_id": "chk_8c9495b09fff58b18c4491aa6e6d25cc"
+    },
+    {
+      "canonical_name": "SFTS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SFTS",
+      "chunk_id": "chk_8c9495b09fff58b18c4491aa6e6d25cc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

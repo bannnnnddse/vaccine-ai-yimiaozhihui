@@ -1,0 +1,88 @@
+{
+  "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491",
+  "content_hash": "1b09a1bcd8e5ec5c6b5ef5dcbbd3c4ef8328e06567ef4f071b1623cf4d4e8e39",
+  "entities": [
+    {
+      "canonical_name": "HepB-BD",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB-BD",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    },
+    {
+      "canonical_name": "RV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    },
+    {
+      "canonical_name": "PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    },
+    {
+      "canonical_name": "RCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RCV",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    },
+    {
+      "canonical_name": "routine immunization schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "routine immunization schedules",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    },
+    {
+      "canonical_name": "Hib vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hib vaccine",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    },
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    },
+    {
+      "canonical_name": "DTPCV4",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTPCV4",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    },
+    {
+      "canonical_name": "MCV2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MCV2",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    },
+    {
+      "canonical_name": "national immunization schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "national immunization schedules",
+      "chunk_id": "bbe00217451eeea11e5e7a1316cb6c406707376c0a84cd26094db37af2414491"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

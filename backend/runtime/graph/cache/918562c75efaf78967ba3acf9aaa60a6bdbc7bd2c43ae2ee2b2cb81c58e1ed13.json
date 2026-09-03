@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_c2b6c372b2aa38418744ceb72a7abf14",
+  "content_hash": "0098168f4be97fe7b816f4c0fa833038e2f58885c74db5e86a1e60646bc15950",
+  "entities": [
+    {
+      "canonical_name": "Human rotavirus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Human rotavirus vaccines",
+      "chunk_id": "chk_c2b6c372b2aa38418744ceb72a7abf14"
+    },
+    {
+      "canonical_name": "Rotavirus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Rotavirus vaccines",
+      "chunk_id": "chk_c2b6c372b2aa38418744ceb72a7abf14"
+    },
+    {
+      "canonical_name": "rotavirus gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus gastroenteritis",
+      "chunk_id": "chk_c2b6c372b2aa38418744ceb72a7abf14"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_c2b6c372b2aa38418744ceb72a7abf14"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_c2b6c372b2aa38418744ceb72a7abf14"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

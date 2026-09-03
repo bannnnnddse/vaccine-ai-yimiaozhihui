@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_f849997c8a259a3a87f36fc899f619f1",
+  "content_hash": "9f74be771d0b12bc06ca312a22d5393c7972af7b473b5a86b9a5a0fca61bf7a7",
+  "entities": [
+    {
+      "canonical_name": "innate immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immunity",
+      "chunk_id": "chk_f849997c8a259a3a87f36fc899f619f1"
+    },
+    {
+      "canonical_name": "immunological memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunological memory",
+      "chunk_id": "chk_f849997c8a259a3a87f36fc899f619f1"
+    },
+    {
+      "canonical_name": "Dendritic cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Dendritic cells",
+      "chunk_id": "chk_f849997c8a259a3a87f36fc899f619f1"
+    },
+    {
+      "canonical_name": "TH2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TH2",
+      "chunk_id": "chk_f849997c8a259a3a87f36fc899f619f1"
+    },
+    {
+      "canonical_name": "tolerogenic responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "tolerogenic responses",
+      "chunk_id": "chk_f849997c8a259a3a87f36fc899f619f1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_94f3b55ef74db3a4a3bd0649b93111d1",
+  "content_hash": "e9851663c44c6b88e9bfd7565053606738b807098ab7c7ead3262580bdf8afa1",
+  "entities": [
+    {
+      "canonical_name": "Mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Mice",
+      "chunk_id": "chk_94f3b55ef74db3a4a3bd0649b93111d1"
+    },
+    {
+      "canonical_name": "GC B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GC B cells",
+      "chunk_id": "chk_94f3b55ef74db3a4a3bd0649b93111d1"
+    },
+    {
+      "canonical_name": "PCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PCs",
+      "chunk_id": "chk_94f3b55ef74db3a4a3bd0649b93111d1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

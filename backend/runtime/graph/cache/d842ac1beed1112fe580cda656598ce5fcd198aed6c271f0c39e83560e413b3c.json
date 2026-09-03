@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_abde00d9bd3157a653ab657158674d4f",
+  "content_hash": "0db8e0edefd6de264bb374c6bc768c8d6a42f87333557bb5bff005c1642d2ae8",
+  "entities": [
+    {
+      "canonical_name": "unvaccinated population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "unvaccinated population",
+      "chunk_id": "chk_abde00d9bd3157a653ab657158674d4f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

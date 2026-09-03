@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_85fe89b29be5d703445d55eafb2553e9",
+  "content_hash": "988b39c15e4320cbcd6f5909532b97419a3fbe3e41fa775d0616d5851ab7c325",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_85fe89b29be5d703445d55eafb2553e9"
+    },
+    {
+      "canonical_name": "COVID-19 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19 infection",
+      "chunk_id": "chk_85fe89b29be5d703445d55eafb2553e9"
+    },
+    {
+      "canonical_name": "chronic patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "chronic patients",
+      "chunk_id": "chk_85fe89b29be5d703445d55eafb2553e9"
+    },
+    {
+      "canonical_name": "males",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "males",
+      "chunk_id": "chk_85fe89b29be5d703445d55eafb2553e9"
+    },
+    {
+      "canonical_name": "females",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females",
+      "chunk_id": "chk_85fe89b29be5d703445d55eafb2553e9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

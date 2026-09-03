@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_6ad78f94395374b4d85ce3a155aeaf0f",
+  "content_hash": "9228faa58dd64957f1e6f570cdb55973a42e30eb0657a5c93f20648f5068a518",
+  "entities": [
+    {
+      "canonical_name": "vaccine AEs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vaccine AEs",
+      "chunk_id": "chk_6ad78f94395374b4d85ce3a155aeaf0f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

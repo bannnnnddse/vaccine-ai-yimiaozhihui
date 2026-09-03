@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_6c90e30d2ca04734412b70258b367a36",
+  "content_hash": "b49ebb7929955f89a2a444f52f3fc877927f6523ba53eed77da088094c0f73ec",
+  "entities": [
+    {
+      "canonical_name": "Plasma IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Plasma IgG",
+      "chunk_id": "chk_6c90e30d2ca04734412b70258b367a36"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_6c90e30d2ca04734412b70258b367a36"
+    },
+    {
+      "canonical_name": "RV144 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV144 vaccine",
+      "chunk_id": "chk_6c90e30d2ca04734412b70258b367a36"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_6c90e30d2ca04734412b70258b367a36"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

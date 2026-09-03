@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_2d736ce0ed18cd86f7d827fa56ace7b2",
+  "content_hash": "ed369729fc5909009de5cb52a6b221340bb4bf5fdfd2d6faf69699723758cae6",
+  "entities": [
+    {
+      "canonical_name": "influenza infection",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza infection",
+      "chunk_id": "chk_2d736ce0ed18cd86f7d827fa56ace7b2"
+    },
+    {
+      "canonical_name": "West Nile virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "West Nile virus",
+      "chunk_id": "chk_2d736ce0ed18cd86f7d827fa56ace7b2"
+    },
+    {
+      "canonical_name": "HIV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV vaccine",
+      "chunk_id": "chk_2d736ce0ed18cd86f7d827fa56ace7b2"
+    },
+    {
+      "canonical_name": "HIV Abs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HIV Abs",
+      "chunk_id": "chk_2d736ce0ed18cd86f7d827fa56ace7b2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

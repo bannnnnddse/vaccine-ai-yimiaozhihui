@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_9ffa19b24b04f8c2d60705acf74302fd",
+  "content_hash": "c51c263cbaf7ec758aa5c8c29f50eff42246c1e62e4608f52fdf1789b2a6341d",
+  "entities": [
+    {
+      "canonical_name": "influenza A H3N2 viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza A H3N2 viruses",
+      "chunk_id": "chk_9ffa19b24b04f8c2d60705acf74302fd"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_9ffa19b24b04f8c2d60705acf74302fd"
+    },
+    {
+      "canonical_name": "A/Singapore/INFIMH-16-0019/2016 (H3N2)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "A/Singapore/INFIMH-16-0019/2016 (H3N2)",
+      "chunk_id": "chk_9ffa19b24b04f8c2d60705acf74302fd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

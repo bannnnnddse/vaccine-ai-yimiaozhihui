@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_321d67e27d74b83dcc8e5b7ad5ec0cf1",
+  "content_hash": "53dff31a75bdab0bce7e2e39cb95e5345485958f3e93781e9b67f883b986cd23",
+  "entities": [
+    {
+      "canonical_name": "Escherichia coli Nissle 1917",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Escherichia coli Nissle 1917",
+      "chunk_id": "chk_321d67e27d74b83dcc8e5b7ad5ec0cf1"
+    },
+    {
+      "canonical_name": "human rotavirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "human rotavirus infection",
+      "chunk_id": "chk_321d67e27d74b83dcc8e5b7ad5ec0cf1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

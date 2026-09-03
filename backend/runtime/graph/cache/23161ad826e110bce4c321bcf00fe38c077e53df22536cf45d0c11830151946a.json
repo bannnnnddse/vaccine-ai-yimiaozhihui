@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_50661081363d78a956e1ae234c059f81",
+  "content_hash": "33f2fc6b63d3d534a94de3a1458b66a042d31afd9679e83b45b8dd4228c83fe9",
+  "entities": [
+    {
+      "canonical_name": "Dengue",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Dengue",
+      "chunk_id": "chk_50661081363d78a956e1ae234c059f81"
+    },
+    {
+      "canonical_name": "chikungunya virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "chikungunya virus",
+      "chunk_id": "chk_50661081363d78a956e1ae234c059f81"
+    },
+    {
+      "canonical_name": "Aedes-borne virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Aedes-borne virus",
+      "chunk_id": "chk_50661081363d78a956e1ae234c059f81"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_16e1ae9ef82df4b1cebf838457f85faf",
+  "content_hash": "60f5d59e208279bc9492048f9b54e889501a42dbd370de1b482437be1309d13d",
+  "entities": [
+    {
+      "canonical_name": "JE-I",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "JE-I",
+      "chunk_id": "chk_16e1ae9ef82df4b1cebf838457f85faf"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "self_loop"
+  ]
+}

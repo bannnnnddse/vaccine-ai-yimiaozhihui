@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_150fa5fb7fa70c42e0ddc12af629fec6",
+  "content_hash": "13246dd23bcd14d7999be23b86e701970f7f5a39e0fa0531a1716e840dfc8123",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccination",
+      "chunk_id": "chk_150fa5fb7fa70c42e0ddc12af629fec6"
+    },
+    {
+      "canonical_name": "daughter",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "daughter",
+      "chunk_id": "chk_150fa5fb7fa70c42e0ddc12af629fec6"
+    },
+    {
+      "canonical_name": "Siblings",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Siblings",
+      "chunk_id": "chk_150fa5fb7fa70c42e0ddc12af629fec6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

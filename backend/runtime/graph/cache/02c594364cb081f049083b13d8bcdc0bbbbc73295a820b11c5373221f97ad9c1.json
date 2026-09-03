@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_e95c6b06b91e4eec7d3e632773bd71e7",
+  "content_hash": "fcd9c5ad57de26a153858c885296585efa6d6f6ba2f9006ae6e3f796e6ac65ff",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_e95c6b06b91e4eec7d3e632773bd71e7"
+    },
+    {
+      "canonical_name": "pneumococcal",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal",
+      "chunk_id": "chk_e95c6b06b91e4eec7d3e632773bd71e7"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_e95c6b06b91e4eec7d3e632773bd71e7"
+    },
+    {
+      "canonical_name": "diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diabetes",
+      "chunk_id": "chk_e95c6b06b91e4eec7d3e632773bd71e7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

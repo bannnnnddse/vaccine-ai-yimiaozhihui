@@ -1,0 +1,39 @@
+{
+  "chunk_id": "e4325dfbbfbfda1a344db834908285e5bd731453134d25df19ff75f5e5aee506",
+  "content_hash": "c26e2305c51babb956801961676672fe5ae36b691a02592fd55af2b8e9ca326e",
+  "entities": [
+    {
+      "canonical_name": "inactivated EV-A71 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated EV-A71 vaccine",
+      "chunk_id": "e4325dfbbfbfda1a344db834908285e5bd731453134d25df19ff75f5e5aee506"
+    },
+    {
+      "canonical_name": "EV-A71 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "EV-A71 infection",
+      "chunk_id": "e4325dfbbfbfda1a344db834908285e5bd731453134d25df19ff75f5e5aee506"
+    },
+    {
+      "canonical_name": "adverse reaction",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse reaction",
+      "chunk_id": "e4325dfbbfbfda1a344db834908285e5bd731453134d25df19ff75f5e5aee506"
+    },
+    {
+      "canonical_name": "CVA16-associated HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CVA16-associated HFMD",
+      "chunk_id": "e4325dfbbfbfda1a344db834908285e5bd731453134d25df19ff75f5e5aee506"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote"
+  ]
+}

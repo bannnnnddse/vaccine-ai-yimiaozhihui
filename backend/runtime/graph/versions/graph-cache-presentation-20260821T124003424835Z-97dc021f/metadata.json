@@ -1,0 +1,29 @@
+{
+  "build_mode": "cache-presentation-candidate",
+  "cached_chunks": 8141,
+  "chunk_catalog_hash": "97dc021ff202e738311afc8d154492f9ff8897a26c71a05ec1eef884e26001d6",
+  "created_at": "2026-08-21T12:40:03.424835+00:00",
+  "edge_count": 107,
+  "entity_mentions": 535,
+  "files": {
+    "edges.json": "4b788d096c8d193d267f986327e80d497a19d339b8bdb31d4d590a975f2e3d71",
+    "extraction_report.json": "d91de3594f19f7304eadd3fe8803119b89c413c63f11578dd4e9b48da9ad2bc0",
+    "nodes.json": "3a41e0fbb96b0ceabff640e68102dbd7e67cde0253933551a256d23b04900e23",
+    "provenance.json": "3a3434c9e8670a9b3f4d2d7a30c1be6555289c88c7a1508c53b1694a326ac962"
+  },
+  "graph_version": "graph-cache-presentation-20260821T124003424835Z-97dc021f",
+  "knowledge_base_version": "rag-v2-20260816T053040487541Z-32af4353",
+  "model": "qwen3.7-flash-2026-07-15",
+  "node_count": 193,
+  "parent_graph_version": null,
+  "prompt_version": "medical_graph_llm_v2_showcase",
+  "provenance_count": 343,
+  "schema_version": "vaccine_graph_v3",
+  "semantica_version": "0.6.5",
+  "source": "validated-cache-presentation",
+  "source_chunks": 15946,
+  "source_documents": 131,
+  "strict_edges": 11,
+  "validator_version": "medical_graph_validator_v7_relation_endpoint",
+  "visual_edges": 78
+}

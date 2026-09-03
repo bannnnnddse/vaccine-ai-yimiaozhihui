@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_befdc2a6ea16723b9deef2e14b95e036",
+  "content_hash": "4d9856b16227b9508866c389eba42a4256296a6b6210eb59e432d3930966003f",
+  "entities": [
+    {
+      "canonical_name": "Non-live vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Non-live vaccines",
+      "chunk_id": "chk_befdc2a6ea16723b9deef2e14b95e036"
+    },
+    {
+      "canonical_name": "adjuvants",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "adjuvants",
+      "chunk_id": "chk_befdc2a6ea16723b9deef2e14b95e036"
+    },
+    {
+      "canonical_name": "licensed vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "licensed vaccines",
+      "chunk_id": "chk_befdc2a6ea16723b9deef2e14b95e036"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,522 @@
+{
+  "job_id": "d1734addd49e",
+  "prompt": "生成一张免疫全流程图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen",
+      "antibody",
+      "helper_t",
+      "b_cell"
+    ],
+    "scene_direction": "画面为16:9横版科学机制图，分为三个逻辑区域。左侧展示抗原呈递细胞吞噬病原体并展示抗原片段；中间展示T细胞识别抗原并激活；右侧展示B细胞分化为浆细胞分泌抗体。各阶段通过箭头连接，体现免疫反应的先后顺序。主体由多分区、多细胞角色实例构成，风格严谨简洁。画面中不包含任何文字、标签或标题，所有说明性文字均由程序后期添加。",
+    "optimized_chinese_prompt": "Scientific mechanism diagram of the immune response process, horizontal 16:9 aspect ratio. Three distinct sections connected by arrows: 1) Antigen-presenting cell engulfing a pathogen and displaying antigen fragments on its surface; 2) T-cell recognizing the antigen complex and becoming activated; 3) B-cell differentiating into plasma cells secreting Y-shaped antibodies. Clean vector style, realistic cellular details but simplified for clarity, neutral background, no text inside the image.",
+    "chinese_labels": [
+      "抗原呈递",
+      "T细胞激活",
+      "抗体分泌"
+    ],
+    "scientific_claims": [
+      "抗原呈递细胞处理病原体并将抗原片段展示于表面",
+      "T细胞通过受体识别抗原-MHC复合物从而被激活",
+      "活化的辅助T细胞促进B细胞增殖与分化",
+      "浆细胞特异性分泌抗体以中和病原体"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "抗原呈递细胞处理病原体并展示抗原"
+      },
+      {
+        "primary_relation": "T细胞识别抗原并被激活"
+      },
+      {
+        "primary_relation": "B细胞分化为浆细胞"
+      },
+      {
+        "primary_relation": "浆细胞分泌特异性抗体"
+      }
+    ],
+    "route_reason": "用户要求生成“免疫全流程图”，涉及抗原呈递、T细胞激活、B细胞分化及抗体分泌等多个核心生物学关系和细胞类型，符合cell_ip_scientific模式的使用条件（涉及细胞、病毒/抗原、多个关系步骤）。该模式支持16:9横版和多分区流程展示，能够严谨地表达因果链条。遵循规则，画面内不渲染文字，仅描述图形元素。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen",
+    "antibody",
+    "helper_t",
+    "b_cell"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "T细胞"
+  ],
+  "cell_ip_label_layout": {
+    "anchors": [
+      {
+        "role_id": "antigen",
+        "role_bbox": [
+          0.02,
+          0.1,
+          0.31,
+          0.4
+        ],
+        "label_bbox": [
+          0.1301859799713877,
+          0.4114114114114114,
+          0.1988555078683834,
+          0.44744744744744747
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "antibody",
+        "role_bbox": [
+          0.27,
+          0.5,
+          0.5,
+          0.72
+        ],
+        "label_bbox": [
+          0.35050071530758226,
+          0.45245245245245247,
+          0.41917024320457796,
+          0.48848848848848847
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "helper_t",
+        "role_bbox": [
+          0.69,
+          0.08,
+          0.95,
+          0.42
+        ],
+        "label_bbox": [
+          0.7439198855507868,
+          0.4314314314314314,
+          0.8955650929899857,
+          0.466966966966967
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "b_cell",
+        "role_bbox": [
+          0.02,
+          0.55,
+          0.31,
+          0.95
+        ],
+        "label_bbox": [
+          0.12255603242727706,
+          0.503003003003003,
+          0.20696232713400095,
+          0.5380380380380381
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "steps": [
+      {
+        "step_index": 1,
+        "step_bbox": [
+          0.0,
+          0.0,
+          0.33,
+          0.5
+        ],
+        "number_bbox": [
+          0.010968049594659036,
+          0.011511511511511512,
+          0.06294706723891273,
+          0.06606606606606606
+        ],
+        "confidence": 1.0
+      },
+      {
+        "step_index": 2,
+        "step_bbox": [
+          0.33,
+          0.0,
+          0.66,
+          0.5
+        ],
+        "number_bbox": [
+          0.340963280877444,
+          0.011511511511511512,
+          0.39294229852169765,
+          0.06606606606606606
+        ],
+        "confidence": 1.0
+      },
+      {
+        "step_index": 3,
+        "step_bbox": [
+          0.66,
+          0.0,
+          1.0,
+          0.5
+        ],
+        "number_bbox": [
+          0.670958512160229,
+          0.011511511511511512,
+          0.7229375298044826,
+          0.06606606606606606
+        ],
+        "confidence": 1.0
+      },
+      {
+        "step_index": 4,
+        "step_bbox": [
+          0.0,
+          0.5,
+          1.0,
+          1.0
+        ],
+        "number_bbox": [
+          0.010968049594659036,
+          0.5115115115115115,
+          0.06294706723891273,
+          0.566066066066066
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "cell_ip_expected_text": [
+    "抗原",
+    "抗体",
+    "辅助性T细胞",
+    "B细胞",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "cell_ip_text_source": "manifest_programmatic",
+  "cell_ip_base_visual_text_audit": {
+    "status": "clear",
+    "has_visible_text": false,
+    "summary": "该图像为免疫学机制的卡通示意图。上半部分展示了抗原呈递过程：紫色病原体被绿色角色（抗原呈递细胞）处理，随后展示抗原并激活T细胞（手持医疗旗）。下半部分展示了体液免疫过程：蓝色B细胞在辅助下分化为浆细胞，分泌出Y字形的特异性抗体去对抗病原体。",
+    "text_blocks": []
+  },
+  "reference_assets": [
+    "role-sheet:antigen+antibody+helper_t+b_cell"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:antigen+antibody+helper_t+b_cell"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    },
+    {
+      "role_id": "helper_t",
+      "asset_id": "canonical:helper_t"
+    },
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 的无字科学插画：画面中绝对不出现任何\n文字、字母、数字、伪文字或文字形状；角色名、底标、标题和步骤编号全部由程序在生成后绘制。\n\n【仅场景与构图指令】\n- 1. 抗原呈递细胞处理病原体并展示抗原。- 2. T细胞识别抗原并被激活。- 3. B细胞分化为被激活的B细胞。- 4. 被激活的B细胞分泌特异性抗体。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 抗原呈递细胞处理病原体并展示抗原；2. T细胞识别抗原并被激活；3. B细胞分化为被激活的B细胞；4. 被激活的B细胞分泌特异性抗体\n- 禁止生成任何可读文字、字母、数字、伪文字或文字形状。每个命中的固定角色至少保留一次轮廓完整、彼此不遮挡的代表性出场，并在角色四周保留适量自然留白；不要生成底标框，角色名称与圆角底标全部由程序根据角色位置绘制\n- 程序稍后写入的规范角色名称为：抗原、抗体、辅助性T细胞、B细胞；这些名称只用于确定程序底标数量和宽度，\n  你不得在画面中书写、临摹或生成其中任何字符\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是仅包含本题命中角色（抗原、抗体、辅助性 T 细胞、B 细胞）的无字 canonical 角色板；保持其颜色、轮廓、面部和专属道具与角色板完全一致；不得新增其他固定角色，也不得生成文字、事件或照搬角色板构图\n- 本题命中的固定角色：抗原、抗体、辅助性 T 细胞、B 细胞\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 辅助性 T 细胞：浅绿圆体、单根触角、耳机、斜挎包、加号小旗\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n【无字角色板选取】\n- 图1 是仅含本题命中角色的无字 canonical 角色板。画面所需固定角色必须逐个从该表中找到并原样使用，颜色、轮廓、面部、专属道具与装饰一律以表中为准：\n- 抗原：紫色圆刺团，表情可警觉\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 辅助性 T 细胞：浅绿圆体、单根触角、耳机、斜挎包、加号小旗\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 角色板只包含命中的角色：抗原、抗体、辅助性 T 细胞、B 细胞；不得新增角色板中不存在的固定角色。\n- 未收录的必要细胞：T细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，使用分区、无字箭头和流程结构；为程序后续写入步骤编号保留自然位置；每条关系必须有明确主体、方向和结果。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：禁止标题；角色名和必要步骤编号由程序在生成后确定性绘制\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、任何文字字母数字或伪文字\n- 科学关系的完整性、箭头方向和角色身份优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、10 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 4 个核心步骤；为程序后续写入步骤编号保留自然位置；不生成标题或任何文字。\n核心图形主体应覆盖约 70% 的有效画布，避免主体缩成一小排并留下大片空白；整张图不得出现任何文字、字母、数字、伪文字或文字形状；标签、标题与步骤编号全部由程序在生成后绘制，你只提供无字画面。同一核心细胞或抗原角色应在不同步骤中重复出现，用姿态、位置和状态变化表达过程；优先用细胞角色、抗原/抗体图形、箭头和状态图标表达，不要用句子或段落替代画面。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n最后重申：这张图必须完全无字——不能出现标题、标签、步骤编号、字母、数字、伪文字或任何文字形状；\n一切文字均由程序在生成后确定性绘制。\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 10,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 4,
+    "requires_numbered_steps": true,
+    "requires_title": false,
+    "minimum_subject_coverage_percent": 70,
+    "maximum_text_labels": 4,
+    "repeat_core_subjects_across_steps": true
+  },
+  "aspect_ratio": "16:9",
+  "cell_ip_failure_reason": null,
+  "image_id": "d1734addd49e-v0",
+  "trusted_image": "d1734addd49e-v0.png",
+  "candidate_image": "d1734addd49e-v1-rejected.png",
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "局部编辑未完成：目标区域（原图第2步的绿色多触手细胞）仍显示为未修改的原始形象，未变为‘树突状细胞’；同时该位置下方的文字标签仍为‘抗体’，与角色身份及用户意图不符，属于明显的内容遗漏和标签错误。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "issue",
+        "evidence": "目标bbox [0.357, 0.046, 0.652, 0.428] 内的绿色多触手细胞造型与参考图中的‘抗体’（浅蓝Y形）或预期的‘树突状细胞’均不匹配，且保留了原图的错误特征，未见有效替换。",
+        "confidence": 0.98
+      },
+      "text_legibility": {
+        "status": "issue",
+        "evidence": "目标区域下方的文字标签仍清晰显示为‘抗体’，根据审核契约，此处应更新为‘树突状细胞’或相关正确术语，当前文字与画面内容及用户指令冲突。",
+        "confidence": 1.0
+      },
+      "layout_hierarchy": {
+        "status": "pass",
+        "evidence": "整体布局保持编号1-4的流程结构，分区清晰，编号与箭头方向未被破坏。",
+        "confidence": 0.95
+      },
+      "brief_alignment": {
+        "status": "issue",
+        "evidence": "用户明确要求‘改为树突状细胞’，但目标区域内的核心角色未发生相应变化，未能完成指令。",
+        "confidence": 0.99
+      },
+      "causal_step_coverage": {
+        "status": "issue",
+        "evidence": "步骤2作为抗原呈递的关键环节，其核心角色（树突状细胞）缺失或错误，导致免疫全流程的逻辑链条在视觉上断裂。",
+        "confidence": 0.95
+      },
+      "scientific_expression_risk": {
+        "status": "issue",
+        "evidence": "将‘抗体’标签置于一个非Y形的绿色细胞下方，且该细胞未被识别为树突状细胞，存在严重的科学图解表达错误。",
+        "confidence": 0.98
+      }
+    },
+    "blind_text_audit": {
+      "status": "clear",
+      "has_visible_text": true,
+      "summary": "A cartoon illustration depicting the immune response process. It shows an antigen (1) interacting with an antibody (2), which activates a Helper T cell (3). Finally, B cells (4) are shown producing antibodies to fight the antigen.",
+      "text_blocks": [
+        {
+          "text": "1",
+          "bbox": null,
+          "confidence": 1.0,
+          "defective": false
+        },
+        {
+          "text": "抗原",
+          "bbox": null,
+          "confidence": 1.0,
+          "defective": false
+        },
+        {
+          "text": "2",
+          "bbox": null,
+          "confidence": 1.0,
+          "defective": false
+        },
+        {
+          "text": "抗体",
+          "bbox": null,
+          "confidence": 1.0,
+          "defective": false
+        },
+        {
+          "text": "3",
+          "bbox": null,
+          "confidence": 1.0,
+          "defective": false
+        },
+        {
+          "text": "辅助性T细胞",
+          "bbox": null,
+          "confidence": 1.0,
+          "defective": false
+        },
+        {
+          "text": "4",
+          "bbox": null,
+          "confidence": 1.0,
+          "defective": false
+        },
+        {
+          "text": "B细胞",
+          "bbox": null,
+          "confidence": 1.0,
+          "defective": false
+        }
+      ]
+    },
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "步骤2下方的文字标签仍为‘抗体’，未更新为‘树突状细胞’，与用户指令及生物学事实不符。",
+        "bbox": [
+          0.35,
+          0.4,
+          0.45,
+          0.48
+        ],
+        "observed_text": "抗体",
+        "replacement_text": "树突状细胞",
+        "confidence": 1.0,
+        "suggested_fix": "请将步骤2下方的文字标签修改为‘树突状细胞’。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "style_inconsistency",
+        "severity": "high",
+        "description": "目标区域（步骤2）的角色未按要求替换为‘树突状细胞’，仍保留原图错误的绿色多触手形象，且与参考IP中的抗体形象（浅蓝Y形）不一致。",
+        "bbox": [
+          0.35689661187025334,
+          0.04583370057627873,
+          0.6517241825643509,
+          0.4276585793695394
+        ],
+        "observed_text": null,
+        "replacement_text": null,
+        "confidence": 0.98,
+        "suggested_fix": "请重新生成目标区域，将绿色多触手细胞替换为符合‘树突状细胞’特征的卡通形象（通常具有树突状突起），并确保风格与其他细胞一致。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": {
+    "passed": true,
+    "outside_change_score": 0.0,
+    "threshold": 0.05,
+    "changed_outside_bbox": false,
+    "inside_change_score": 0.18592,
+    "minimum_inside_change": 0.01,
+    "insufficient_change_inside_bbox": false,
+    "outside_change_regions": [
+      [
+        0.49976156413924655,
+        0.24974974974974976,
+        0.7496423462088698,
+        0.5
+      ],
+      [
+        0.24988078206962328,
+        0.0,
+        0.49976156413924655,
+        0.24974974974974976
+      ]
+    ],
+    "notes": "框外变化处于当前工程阈值内，且框内检测到有效变化。"
+  },
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": [
+    0.35689661187025334,
+    0.04583370057627873,
+    0.6517241825643509,
+    0.4276585793695394
+  ],
+  "last_edit_instruction": "你正在编辑一张从原图局部裁剪出的区域。只执行用户指定的修改。除用户要求修改的对象外，保持该局部区域中的背景、角色造型、文字、颜色、构图、光影和其他元素不变。不要重新设计整张局部图，不要新增无关元素。\n用户要求：改为树突状细胞",
+  "created_at": "2026-09-01T11:59:12.577077+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "7eaeed0b4f8e",
+  "trace_events": [
+    {
+      "id": "7eaeed0b4f8e-1",
+      "stage": "understanding",
+      "title": "修改要求已确认",
+      "detail": "本轮只处理你框选的目标区域。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:01:20.575475Z"
+    },
+    {
+      "id": "7eaeed0b4f8e-2",
+      "stage": "edit_rewrite",
+      "title": "局部编辑指令已整理",
+      "detail": "已明确目标区域与需要保持不变的内容。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:01:20.575475Z"
+    },
+    {
+      "id": "7eaeed0b4f8e-3",
+      "stage": "auto_revision",
+      "title": "选中区域已修改",
+      "detail": "候选结果尚需通过修改范围检查。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:01:20.848910Z"
+    },
+    {
+      "id": "7eaeed0b4f8e-4",
+      "stage": "scope_guard",
+      "title": "修改范围检查通过",
+      "detail": "目标区域已发生有效变化，其他区域保持稳定。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:01:36.658514Z"
+    },
+    {
+      "id": "7eaeed0b4f8e-5",
+      "stage": "final_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "局部编辑未完成：目标区域（原图第2步的绿色多触手细胞）仍显示为未修改的原始形象，未变为‘树突状细胞’；同时该位置下方的文字标签仍为‘抗体’，与角色身份及用户意图不符，属于明显的内容遗漏和标签错误。",
+      "status": "warning",
+      "created_at": "2026-09-01T12:01:37.064779Z"
+    },
+    {
+      "id": "7eaeed0b4f8e-6",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-09-01T12:02:04.221049Z"
+    }
+  ],
+  "trace_history": [
+    {
+      "trace_id": "b8bc17684422",
+      "events": [
+        {
+          "id": "b8bc17684422-1",
+          "stage": "understanding",
+          "title": "图解需求已确认",
+          "detail": "已确认主题、画面目标与科学表达边界。",
+          "status": "completed",
+          "created_at": "2026-09-01T11:59:12.577077Z"
+        },
+        {
+          "id": "b8bc17684422-2",
+          "stage": "prompt_rewrite",
+          "title": "生成描述已优化",
+          "detail": "已整理视觉指令摘要：Scientific mechanism diagram of the immune response process, horizontal 16:9 aspect ratio. Three distinct sections connected by arrows: 1) Antigen-presenting cell engulfing a path… 详细机制图：至少 4 个信息分区、10 个可辨视觉节点、4 条方向连接。",
+          "status": "completed",
+          "created_at": "2026-09-01T11:59:12.577077Z"
+        },
+        {
+          "id": "b8bc17684422-3",
+          "stage": "generation",
+          "title": "细胞场景已生成",
+          "detail": "正在检查底图文字并定位角色，随后写入规范底标和步骤编号。",
+          "status": "completed",
+          "created_at": "2026-09-01T11:59:27.772826Z"
+        },
+        {
+          "id": "b8bc17684422-4",
+          "stage": "visual_critic",
+          "title": "底图文字检查与角色定位完成",
+          "detail": "角色框和流程分区已定位；规范名称与步骤编号已由程序绘制。",
+          "status": "completed",
+          "created_at": "2026-09-01T11:59:44.872457Z"
+        },
+        {
+          "id": "b8bc17684422-5",
+          "stage": "visual_critic",
+          "title": "视觉审查需要人工确认",
+          "detail": "图像存在严重的科学标签错误和布局问题。1. 标签错位：步骤2中的绿色角色（辅助性T细胞）被错误标记为“抗体”；步骤4中的蓝色角色（B细胞）旁边出现了未标记的Y形抗体，且原标签“B细胞”位置不当。2. 布局不达标：未能满足“至少4个信息分区、核心图形主体覆盖约70%画布”的复杂度契约，画面下半部分出现大片无意义空白，信息密度不足。3. 流程表达不清：步骤4缺乏必要的箭头指示分化或分泌过程。",
+          "status": "warning",
+          "created_at": "2026-09-01T11:59:58.342386Z"
+        },
+        {
+          "id": "b8bc17684422-6",
+          "stage": "human_feedback",
+          "title": "需要你的确认",
+          "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+          "status": "warning",
+          "created_at": "2026-09-01T12:00:32.885509Z"
+        }
+      ]
+    }
+  ]
+}

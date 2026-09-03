@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ea34df167c069857f2007fe1df4e2fb9",
+  "content_hash": "af8f98d9c3e2beff1235c03a679a3af338bacc56217afdfebfbbd0de8b992cc8",
+  "entities": [
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "chk_ea34df167c069857f2007fe1df4e2fb9"
+    },
+    {
+      "canonical_name": "pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine",
+      "chunk_id": "chk_ea34df167c069857f2007fe1df4e2fb9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

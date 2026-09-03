@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_5952aec30a8141e0e8960d3d84c4834e",
+  "content_hash": "d7b41ce2bb0e8416ab9fbaf0bd1b239823c2f1b6a59b137ce65a1109986c2224",
+  "entities": [
+    {
+      "canonical_name": "mRNA-1273 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273 vaccine",
+      "chunk_id": "chk_5952aec30a8141e0e8960d3d84c4834e"
+    },
+    {
+      "canonical_name": "mRNA CVnCoV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA CVnCoV vaccine",
+      "chunk_id": "chk_5952aec30a8141e0e8960d3d84c4834e"
+    },
+    {
+      "canonical_name": "BNT162",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162",
+      "chunk_id": "chk_5952aec30a8141e0e8960d3d84c4834e"
+    },
+    {
+      "canonical_name": "nucleoside-modified mRNA BNT1621b",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nucleoside-modified mRNA BNT1621b",
+      "chunk_id": "chk_5952aec30a8141e0e8960d3d84c4834e"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_5952aec30a8141e0e8960d3d84c4834e"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_5952aec30a8141e0e8960d3d84c4834e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "chunk_id": "chk_3c09045ed43b6eb218ea5e3935f3fa41",
+  "content_hash": "643ca523a3da0089c0390577dee46ea146ef297e08efd7b60399d7074ffadeb3",
+  "entities": [
+    {
+      "canonical_name": "RSV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccine",
+      "chunk_id": "chk_3c09045ed43b6eb218ea5e3935f3fa41"
+    },
+    {
+      "canonical_name": "RSV-related LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related LRTD",
+      "chunk_id": "chk_3c09045ed43b6eb218ea5e3935f3fa41"
+    },
+    {
+      "canonical_name": "RSV-related severe LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related severe LRTD",
+      "chunk_id": "chk_3c09045ed43b6eb218ea5e3935f3fa41"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_3c09045ed43b6eb218ea5e3935f3fa41"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_3c09045ed43b6eb218ea5e3935f3fa41"
+    },
+    {
+      "canonical_name": "RSV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccines",
+      "chunk_id": "chk_3c09045ed43b6eb218ea5e3935f3fa41"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote",
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote"
+  ]
+}

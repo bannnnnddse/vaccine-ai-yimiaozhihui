@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_42ae1c8a8157be68393ef2b4a8036c61",
+  "content_hash": "bbae8ddba3244cca138ff666b9c3be7d654223c538c49a5bdcbe1c226b541c0a",
+  "entities": [
+    {
+      "canonical_name": "HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD",
+      "chunk_id": "chk_42ae1c8a8157be68393ef2b4a8036c61"
+    },
+    {
+      "canonical_name": "5 岁以下儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "5 岁以下儿童",
+      "chunk_id": "chk_42ae1c8a8157be68393ef2b4a8036c61"
+    },
+    {
+      "canonical_name": "6 月龄以下婴儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "6 月龄以下婴儿",
+      "chunk_id": "chk_42ae1c8a8157be68393ef2b4a8036c61"
+    },
+    {
+      "canonical_name": "母传抗体",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "母传抗体",
+      "chunk_id": "chk_42ae1c8a8157be68393ef2b4a8036c61"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

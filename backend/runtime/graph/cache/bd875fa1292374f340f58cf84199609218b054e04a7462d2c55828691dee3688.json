@@ -1,0 +1,78 @@
+{
+  "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef",
+  "content_hash": "ccc9328973bafdb05e989e76b32a88de2854c8f3613fbe9cceb2004eb944b8bd",
+  "entities": [
+    {
+      "canonical_name": "肺癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "肺癌",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    },
+    {
+      "canonical_name": "肝癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "肝癌",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    },
+    {
+      "canonical_name": "胃癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "胃癌",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    },
+    {
+      "canonical_name": "食管癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "食管癌",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    },
+    {
+      "canonical_name": "结直肠癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "结直肠癌",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    },
+    {
+      "canonical_name": "胰腺癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "胰腺癌",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    },
+    {
+      "canonical_name": "前列腺癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "前列腺癌",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    },
+    {
+      "canonical_name": "脑瘤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "脑瘤",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    },
+    {
+      "canonical_name": "白血病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "白血病",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    },
+    {
+      "canonical_name": "淋巴瘤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "淋巴瘤",
+      "chunk_id": "chk_89395f9a42d6cd185b6824d1227884ef"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

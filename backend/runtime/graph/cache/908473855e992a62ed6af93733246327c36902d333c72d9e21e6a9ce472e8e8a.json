@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_81d43878e3376b9848304b84d53ba6b0",
+  "content_hash": "a485394aa33a6ff6351bab37b2cf815c30512e666bf749535d69ff17caff9c0c",
+  "entities": [
+    {
+      "canonical_name": "complement",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "complement",
+      "chunk_id": "chk_81d43878e3376b9848304b84d53ba6b0"
+    },
+    {
+      "canonical_name": "IgG antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG antibodies",
+      "chunk_id": "chk_81d43878e3376b9848304b84d53ba6b0"
+    },
+    {
+      "canonical_name": "Pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Pneumococcal disease",
+      "chunk_id": "chk_81d43878e3376b9848304b84d53ba6b0"
+    },
+    {
+      "canonical_name": "individuals with reduced splenic function",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals with reduced splenic function",
+      "chunk_id": "chk_81d43878e3376b9848304b84d53ba6b0"
+    },
+    {
+      "canonical_name": "sickle cell disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "sickle cell disease",
+      "chunk_id": "chk_81d43878e3376b9848304b84d53ba6b0"
+    },
+    {
+      "canonical_name": "S. pneumoniae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "S. pneumoniae",
+      "chunk_id": "chk_81d43878e3376b9848304b84d53ba6b0"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_81d43878e3376b9848304b84d53ba6b0"
+    },
+    {
+      "canonical_name": "hyposplenism",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hyposplenism",
+      "chunk_id": "chk_81d43878e3376b9848304b84d53ba6b0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

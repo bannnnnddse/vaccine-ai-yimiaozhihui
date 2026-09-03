@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_056fba2d114ec1f17bdb748dbf6ebcb3",
+  "content_hash": "7f5602526e1c98bec321a1c9e1f57caf6102c4be0bd18cf348a38cd9d33855dc",
+  "entities": [
+    {
+      "canonical_name": "flu vac‐ ‐ cines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "flu vac‑ ‑ cines",
+      "chunk_id": "chk_056fba2d114ec1f17bdb748dbf6ebcb3"
+    },
+    {
+      "canonical_name": "NHS flu vaccination program",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "NHS flu vaccination program",
+      "chunk_id": "chk_056fba2d114ec1f17bdb748dbf6ebcb3"
+    },
+    {
+      "canonical_name": "maternal vaccinations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "maternal vaccinations",
+      "chunk_id": "chk_056fba2d114ec1f17bdb748dbf6ebcb3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

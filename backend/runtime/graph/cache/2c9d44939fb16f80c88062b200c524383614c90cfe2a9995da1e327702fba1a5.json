@@ -1,0 +1,57 @@
+{
+  "chunk_id": "8276f5d16ebce7e8b5df55fd6013cd07b39f18abb530fb0355062895ceab50b3",
+  "content_hash": "1e1cde6cc5e77f97b0dc34b98b52b84d861d65d2d3d93edf7e968c2681e41bc2",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B virus vaccine",
+      "chunk_id": "8276f5d16ebce7e8b5df55fd6013cd07b39f18abb530fb0355062895ceab50b3"
+    },
+    {
+      "canonical_name": "hepatitis E virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis E virus vaccine",
+      "chunk_id": "8276f5d16ebce7e8b5df55fd6013cd07b39f18abb530fb0355062895ceab50b3"
+    },
+    {
+      "canonical_name": "human papilloma virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papilloma virus vaccine",
+      "chunk_id": "8276f5d16ebce7e8b5df55fd6013cd07b39f18abb530fb0355062895ceab50b3"
+    },
+    {
+      "canonical_name": "herpes zoster virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "herpes zoster virus",
+      "chunk_id": "8276f5d16ebce7e8b5df55fd6013cd07b39f18abb530fb0355062895ceab50b3"
+    },
+    {
+      "canonical_name": "foot-and-mouth disease virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "foot-and-mouth disease virus",
+      "chunk_id": "8276f5d16ebce7e8b5df55fd6013cd07b39f18abb530fb0355062895ceab50b3"
+    },
+    {
+      "canonical_name": "influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus",
+      "chunk_id": "8276f5d16ebce7e8b5df55fd6013cd07b39f18abb530fb0355062895ceab50b3"
+    },
+    {
+      "canonical_name": "MERS coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "MERS coronavirus",
+      "chunk_id": "8276f5d16ebce7e8b5df55fd6013cd07b39f18abb530fb0355062895ceab50b3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

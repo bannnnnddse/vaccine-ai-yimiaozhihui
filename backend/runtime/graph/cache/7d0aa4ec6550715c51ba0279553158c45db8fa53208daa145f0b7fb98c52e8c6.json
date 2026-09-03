@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_ef959e7915e5c1c106231c0acafa9f30",
+  "content_hash": "d8e45de6b2414bffe140ed3fa167056fb3ce005810f256c185905441bf744a7f",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_ef959e7915e5c1c106231c0acafa9f30"
+    },
+    {
+      "canonical_name": "adolescents 15-16 years of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents 15-16 years of age",
+      "chunk_id": "chk_ef959e7915e5c1c106231c0acafa9f30"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_ef959e7915e5c1c106231c0acafa9f30"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

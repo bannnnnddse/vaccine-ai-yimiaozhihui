@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_e7e797e12c31fb5c3bf77b0fc203cb4c",
+  "content_hash": "a3f38acf8792b092b8572a7b243cb723775defa4dceabaf3a472048053742318",
+  "entities": [
+    {
+      "canonical_name": "县级以上地方人民政府疾控主管部门会同卫生健康主管部门",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "县级以上地方人民政府疾控主管部门会同卫生健康主管部门",
+      "chunk_id": "chk_e7e797e12c31fb5c3bf77b0fc203cb4c"
+    },
+    {
+      "canonical_name": "符合条件的医疗机构",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "符合条件的医疗机构",
+      "chunk_id": "chk_e7e797e12c31fb5c3bf77b0fc203cb4c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "quote_missing"
+  ]
+}

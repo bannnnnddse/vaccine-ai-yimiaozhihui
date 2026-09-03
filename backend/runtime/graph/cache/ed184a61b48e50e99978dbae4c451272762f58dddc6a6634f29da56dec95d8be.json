@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_e33778c871d12afff4027d9611a20ed0",
+  "content_hash": "654c0135da29e350931c0136be2b557dbb35e0eb4fb27ee0ffba80790fff3af9",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_e33778c871d12afff4027d9611a20ed0"
+    },
+    {
+      "canonical_name": "COVID19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID19 vaccines",
+      "chunk_id": "chk_e33778c871d12afff4027d9611a20ed0"
+    },
+    {
+      "canonical_name": "bionic nanoparticle vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bionic nanoparticle vaccine",
+      "chunk_id": "chk_e33778c871d12afff4027d9611a20ed0"
+    },
+    {
+      "canonical_name": "biomimetic simulated virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "biomimetic simulated virus vaccine",
+      "chunk_id": "chk_e33778c871d12afff4027d9611a20ed0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

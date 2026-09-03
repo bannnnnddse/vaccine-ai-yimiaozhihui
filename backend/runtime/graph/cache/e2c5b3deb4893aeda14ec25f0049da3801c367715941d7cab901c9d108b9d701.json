@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_035f5261cab95743992e243204e65c6d",
+  "content_hash": "955d3a7515b559433af6534b5fc9e8942cfc461066d08489f5cf5342c0e52d01",
+  "entities": [
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_035f5261cab95743992e243204e65c6d"
+    },
+    {
+      "canonical_name": "elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly",
+      "chunk_id": "chk_035f5261cab95743992e243204e65c6d"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_035f5261cab95743992e243204e65c6d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

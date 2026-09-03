@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_35eea52d1c4d6dcdeb10e0c822d45f0a",
+  "content_hash": "4dde2b13ea6e4093ea31d7fc70101b634441423b97e1f47fb6e2e396c6c4f709",
+  "entities": [
+    {
+      "canonical_name": "vaccinia virus vector",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccinia virus vector",
+      "chunk_id": "chk_35eea52d1c4d6dcdeb10e0c822d45f0a"
+    },
+    {
+      "canonical_name": "hepatitis B surface antigen (HBsAg)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hepatitis B surface antigen (HBsAg)",
+      "chunk_id": "chk_35eea52d1c4d6dcdeb10e0c822d45f0a"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_35eea52d1c4d6dcdeb10e0c822d45f0a"
+    },
+    {
+      "canonical_name": "chimpanzees",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "chimpanzees",
+      "chunk_id": "chk_35eea52d1c4d6dcdeb10e0c822d45f0a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

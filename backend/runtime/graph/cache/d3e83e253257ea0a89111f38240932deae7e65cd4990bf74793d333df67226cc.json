@@ -1,0 +1,78 @@
+{
+  "chunk_id": "chk_f00def3698899c32efc158da16c743af",
+  "content_hash": "517074bea364da3b292f240bf098b93ce0a0a11e58b1b2a22cb8d44232c0fc19",
+  "entities": [
+    {
+      "canonical_name": "TNF-α",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TNF-α",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    },
+    {
+      "canonical_name": "IL-36",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-36",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    },
+    {
+      "canonical_name": "CCL3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CCL3",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    },
+    {
+      "canonical_name": "CCL20",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CCL20",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    },
+    {
+      "canonical_name": "CCL4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CCL4",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    },
+    {
+      "canonical_name": "CXCL1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CXCL1",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    },
+    {
+      "canonical_name": "unvaccinated individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "unvaccinated individuals",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    },
+    {
+      "canonical_name": "CCL7",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CCL7",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    },
+    {
+      "canonical_name": "CXCL13",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CXCL13",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    },
+    {
+      "canonical_name": "CXCL10",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CXCL10",
+      "chunk_id": "chk_f00def3698899c32efc158da16c743af"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

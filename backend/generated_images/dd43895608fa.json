@@ -1,0 +1,355 @@
+{
+  "job_id": "dd43895608fa",
+  "prompt": "生成一张免疫作用机制图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen"
+    ],
+    "scene_direction": "画面采用16:9横版布局，背景为纯净的浅色调以突出主体。左侧展示一个表面带有特定抗原表位的病原体或异常细胞。中央为一个T细胞受体（TCR）与MHC-抗原复合物特异性结合的特写局部放大图，两者通过清晰的箭头连接表示识别过程。右侧展示T细胞被激活后释放细胞因子并诱导靶细胞凋亡的过程。整个流程从左至右排列，由粗箭头串联各个阶段。画面中除必要的短标签外，不包含任何文字描述、段落或长句。",
+    "optimized_chinese_prompt": "科学机制图解，免疫学原理，16:9横版，极简风格。左侧：病原体或受感染细胞表面展示抗原。中间：T细胞受体与MHC分子结合的微观特写，强调特异性识别。右侧：T细胞激活并导致靶细胞裂解或凋亡。使用简洁的几何图形代表细胞和分子，配色专业清晰（如蓝色代表免疫细胞，红色代表病原体），无背景杂乱元素，无文字渲染，高对比度，矢量插画风格。",
+    "chinese_labels": [
+      "抗原呈递",
+      "受体识别",
+      "T细胞激活",
+      "效应作用"
+    ],
+    "scientific_claims": [
+      "抗原提呈细胞处理并展示抗原肽于MHC分子上。",
+      "T细胞受体特异性识别MHC-抗原复合物。",
+      "T细胞接受信号后被激活并增殖分化。",
+      "活化的T细胞执行免疫功能清除靶标。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "抗原提呈细胞将抗原肽装载至MHC分子并展示于细胞表面"
+      },
+      {
+        "primary_relation": "T细胞受体特异性识别并结合MHC-抗原肽复合物"
+      },
+      {
+        "primary_relation": "T细胞接收共刺激信号后完成激活与克隆扩增"
+      },
+      {
+        "primary_relation": "效应T细胞释放细胞毒性物质或细胞因子杀伤靶细胞"
+      }
+    ],
+    "route_reason": "用户要求生成免疫作用机制图，涉及细胞间相互作用及分子识别，属于复杂的生物学过程且包含多个因果步骤，符合cell_ip_scientific的使用条件。该模式支持16:9横版、多分区、编号和箭头，能够严谨地表达从抗原识别到效应功能的完整链条，同时严格遵守不添加未获输入支持的结论、仅保留必要短标签且不渲染长文本的规则。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "T细胞",
+    "活化的T细胞",
+    "装载至MHC分子并展示于细胞",
+    "效应T细胞释放细胞",
+    "毒性物质或细胞因子杀伤靶细胞"
+  ],
+  "cell_ip_label_layout": null,
+  "cell_ip_expected_text": [],
+  "cell_ip_text_source": "manifest_programmatic",
+  "cell_ip_base_visual_text_audit": {
+    "status": "clear",
+    "has_visible_text": true,
+    "summary": "该图展示了抗原提呈细胞与T细胞相互作用的免疫流程，包含四个主要步骤：抗原提呈、T细胞识别结合、共刺激信号激活以及效应T细胞释放因子杀伤靶细胞。图中文字存在大量错别字和乱码（如“后果洁步程解”、“Dorocerion Scaps”等），且部分描述与参考词表不完全一致。",
+    "text_blocks": [
+      {
+        "text": "抗原提提细胞 后果洁步程解",
+        "bbox": [
+          0.17,
+          0.03,
+          0.34,
+          0.1
+        ],
+        "confidence": 0.95,
+        "defective": false
+      },
+      {
+        "text": "活应T细胞 流程流程序",
+        "bbox": [
+          0.66,
+          0.03,
+          0.81,
+          0.1
+        ],
+        "confidence": 0.94,
+        "defective": false
+      },
+      {
+        "text": "抗原提 T细胞",
+        "bbox": [
+          0.08,
+          0.12,
+          0.16,
+          0.18
+        ],
+        "confidence": 0.96,
+        "defective": false
+      },
+      {
+        "text": "MHC分子 复合物",
+        "bbox": [
+          0.2,
+          0.12,
+          0.3,
+          0.18
+        ],
+        "confidence": 0.97,
+        "defective": false
+      },
+      {
+        "text": "抗原胞 T细胞",
+        "bbox": [
+          0.54,
+          0.12,
+          0.62,
+          0.18
+        ],
+        "confidence": 0.95,
+        "defective": false
+      },
+      {
+        "text": "MHC 抗质复合物",
+        "bbox": [
+          0.64,
+          0.12,
+          0.76,
+          0.18
+        ],
+        "confidence": 0.94,
+        "defective": false
+      },
+      {
+        "text": "抗原提提细胞 抗原提信色 抗原细胞",
+        "bbox": [
+          0.04,
+          0.41,
+          0.2,
+          0.5
+        ],
+        "confidence": 0.93,
+        "defective": false
+      },
+      {
+        "text": "T细胞 识别结合 识别结合",
+        "bbox": [
+          0.3,
+          0.41,
+          0.39,
+          0.5
+        ],
+        "confidence": 0.96,
+        "defective": false
+      },
+      {
+        "text": "活化的T细体 特异性结合MHC- 抗原肽复合物",
+        "bbox": [
+          0.5,
+          0.41,
+          0.7,
+          0.5
+        ],
+        "confidence": 0.92,
+        "defective": false
+      },
+      {
+        "text": "T细胞 识刺结合 专递结合",
+        "bbox": [
+          0.76,
+          0.41,
+          0.85,
+          0.5
+        ],
+        "confidence": 0.91,
+        "defective": false
+      },
+      {
+        "text": "共刺激 信号",
+        "bbox": [
+          0.08,
+          0.53,
+          0.18,
+          0.6
+        ],
+        "confidence": 0.97,
+        "defective": false
+      },
+      {
+        "text": "效应T细胞 专放制伤因子",
+        "bbox": [
+          0.72,
+          0.53,
+          0.87,
+          0.6
+        ],
+        "confidence": 0.9,
+        "defective": false
+      },
+      {
+        "text": "效应T细胞 释异性结质 或细胞扩增",
+        "bbox": [
+          0.06,
+          0.83,
+          0.2,
+          0.92
+        ],
+        "confidence": 0.89,
+        "defective": false
+      },
+      {
+        "text": "T细胞 识别结合 识递结物",
+        "bbox": [
+          0.3,
+          0.83,
+          0.39,
+          0.92
+        ],
+        "confidence": 0.92,
+        "defective": false
+      },
+      {
+        "text": "T细胞 细胞毒性物质 细胞因子",
+        "bbox": [
+          0.56,
+          0.83,
+          0.69,
+          0.92
+        ],
+        "confidence": 0.95,
+        "defective": false
+      },
+      {
+        "text": "T细胞 识别结质 细胞因子",
+        "bbox": [
+          0.74,
+          0.83,
+          0.83,
+          0.92
+        ],
+        "confidence": 0.93,
+        "defective": false
+      },
+      {
+        "text": "靶细胞 被杀伤 状态",
+        "bbox": [
+          0.87,
+          0.76,
+          0.96,
+          0.86
+        ],
+        "confidence": 0.96,
+        "defective": false
+      },
+      {
+        "text": "2. Dorocerion Scaps",
+        "bbox": [
+          0.11,
+          0.94,
+          0.38,
+          0.98
+        ],
+        "confidence": 0.88,
+        "defective": false
+      },
+      {
+        "text": "4.Doocand Stadals",
+        "bbox": [
+          0.61,
+          0.94,
+          0.85,
+          0.98
+        ],
+        "confidence": 0.87,
+        "defective": false
+      }
+    ]
+  },
+  "reference_assets": [
+    "canonical:antigen"
+  ],
+  "reference_assets_actually_sent": [
+    "canonical:antigen"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 的无字科学插画：画面中绝对不出现任何\n文字、字母、数字、伪文字或文字形状；角色名、底标、标题和步骤编号全部由程序在生成后绘制。\n\n【仅场景与构图指令】\n- 1. 抗原提呈细胞将抗原肽装载至MHC分子并展示于细胞表面。- 2. T细胞受体特异性识别并结合MHC-抗原肽复合物。- 3. T细胞接收共刺激信号后完成激活与克隆扩增。- 4. 效应T细胞释放细胞毒性物质或细胞因子杀伤靶细胞。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 抗原提呈细胞将抗原肽装载至MHC分子并展示于细胞表面；2. T细胞受体特异性识别并结合MHC-抗原肽复合物；3. T细胞接收共刺激信号后完成激活与克隆扩增；4. 效应T细胞释放细胞毒性物质或细胞因子杀伤靶细胞\n- 禁止生成任何可读文字、字母、数字、伪文字或文字形状。每个命中的固定角色至少保留一次轮廓完整、彼此不遮挡的代表性出场，并在角色四周保留适量自然留白；不要生成底标框，角色名称与圆角底标全部由程序根据角色位置绘制\n- 科学关系中的英文缩写（如 MHC、TCR、PAMP）也必须画成图形元素或完全省略，\n  绝不能作为文字、注释或装饰性字母写进画面\n- 程序稍后写入的规范角色名称为：抗原；这些名称只用于确定程序底标数量和宽度，\n  你不得在画面中书写、临摹或生成其中任何字符\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是 抗原 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 本题命中的固定角色：抗原\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n\n- 未收录的必要细胞：T细胞、活化的T细胞、装载至MHC分子并展示于细胞、效应T细胞释放细胞、毒性物质或细胞因子杀伤靶细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，使用分区、无字箭头和流程结构；为程序后续写入步骤编号保留自然位置；每条关系必须有明确主体、方向和结果。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：禁止标题；角色名和必要步骤编号由程序在生成后确定性绘制\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、任何文字字母数字或伪文字\n- 科学关系的完整性、箭头方向和角色身份优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、10 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 4 个核心步骤；为程序后续写入步骤编号保留自然位置；不生成标题或任何文字。\n核心图形主体应覆盖约 70% 的有效画布，避免主体缩成一小排并留下大片空白；整张图不得出现任何文字、字母、数字、伪文字或文字形状；标签、标题与步骤编号全部由程序在生成后绘制，你只提供无字画面。同一核心细胞或抗原角色应在不同步骤中重复出现，用姿态、位置和状态变化表达过程；优先用细胞角色、抗原/抗体图形、箭头和状态图标表达，不要用句子或段落替代画面。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n最后重申：这张图必须完全无字——不能出现标题、标签、步骤编号、字母、数字、伪文字或任何文字形状；\n一切文字均由程序在生成后确定性绘制。\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 10,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 4,
+    "requires_numbered_steps": true,
+    "requires_title": false,
+    "minimum_subject_coverage_percent": 70,
+    "maximum_text_labels": 4,
+    "repeat_core_subjects_across_steps": true
+  },
+  "aspect_ratio": "16:9",
+  "cell_ip_failure_reason": "cell IP base text repair failed the scope guard",
+  "image_id": null,
+  "trusted_image": null,
+  "candidate_image": null,
+  "critic_result": null,
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": null,
+  "last_revision_bbox": [
+    0.06,
+    0.41,
+    0.85,
+    0.98
+  ],
+  "last_edit_instruction": "仅修改指定矩形区域；矩形外所有像素内容、主体、构图和画风保持不变。\n这是删除任务：完整移除矩形框内全部文字、字母、数字与伪文字（含错字、乱码、残字），用框内周围背景与画面风格自然填充，不留残影、描边或文字痕迹；不要在框内生成任何新文字、标签或编号。",
+  "created_at": "2026-09-01T12:44:55.116976+00:00",
+  "finished_at": "2026-09-01T12:46:07.226327+00:00",
+  "stage": "failed",
+  "error": "细胞 IP 底图文字检查或角色定位未通过，请重试生成。",
+  "trace_id": "43ee0fa41c78",
+  "trace_events": [
+    {
+      "id": "43ee0fa41c78-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:44:55.116976Z"
+    },
+    {
+      "id": "43ee0fa41c78-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：科学机制图解，免疫学原理，16:9横版，极简风格。左侧：病原体或受感染细胞表面展示抗原。中间：T细胞受体与MHC分子结合的微观特写，强调特异性识别。右侧：T细胞激活并导致靶细胞裂解或凋亡。使用简洁的几何图形代表细胞和分子，配色专业清晰（如蓝色代表免疫细胞，红色代表病原体），无背景杂乱元素，无文字渲染，高对比度，矢量插画风格。 详细机制图：至少 4 个信息分区、10 个可辨视觉节点、4 条方向连接。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:44:55.116976Z"
+    },
+    {
+      "id": "43ee0fa41c78-3",
+      "stage": "generation",
+      "title": "细胞场景已生成",
+      "detail": "正在检查底图文字并定位角色，随后写入规范底标和步骤编号。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:45:08.766673Z"
+    },
+    {
+      "id": "43ee0fa41c78-4",
+      "stage": "visual_critic",
+      "title": "底图发现错字或乱码",
+      "detail": "视觉模型定位到 6 处问题文字（T细胞 识别结合 识别结合、效应T细胞 释异性结质 或细胞扩增、T细胞 识别结合 识递结物、T细胞 细胞毒性物质 细胞因子），正在局部修复。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:45:26.757413Z"
+    }
+  ],
+  "trace_history": []
+}

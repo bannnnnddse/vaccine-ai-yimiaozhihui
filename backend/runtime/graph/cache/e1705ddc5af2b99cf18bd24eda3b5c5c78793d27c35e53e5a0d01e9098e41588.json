@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_96f6949c5c1bb398691f88c42876209a",
+  "content_hash": "93721f04d8132a7c7d3769c372fb578d63f9a4dd6b8a7cccd8e9a2497a05830a",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2 mRNA Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 mRNA Vaccine",
+      "chunk_id": "chk_96f6949c5c1bb398691f88c42876209a"
+    },
+    {
+      "canonical_name": "Covid-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Covid-19",
+      "chunk_id": "chk_96f6949c5c1bb398691f88c42876209a"
+    },
+    {
+      "canonical_name": "Myocarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Myocarditis",
+      "chunk_id": "chk_96f6949c5c1bb398691f88c42876209a"
+    },
+    {
+      "canonical_name": "mRNA COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA COVID-19 vaccines",
+      "chunk_id": "chk_96f6949c5c1bb398691f88c42876209a"
+    },
+    {
+      "canonical_name": "US Military",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "US Military",
+      "chunk_id": "chk_96f6949c5c1bb398691f88c42876209a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

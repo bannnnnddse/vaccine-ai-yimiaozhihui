@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_197b56330fc728ce100d96e8ae1050bf",
+  "content_hash": "9d9ecc2c9c47e548769e40a8a1f6dcf960346545fa801507792e0cfb2d83e858",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_197b56330fc728ce100d96e8ae1050bf"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b vaccine",
+      "chunk_id": "chk_197b56330fc728ce100d96e8ae1050bf"
+    },
+    {
+      "canonical_name": "human papillomavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccine",
+      "chunk_id": "chk_197b56330fc728ce100d96e8ae1050bf"
+    },
+    {
+      "canonical_name": "measles-containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles-containing vaccine",
+      "chunk_id": "chk_197b56330fc728ce100d96e8ae1050bf"
+    },
+    {
+      "canonical_name": "pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine",
+      "chunk_id": "chk_197b56330fc728ce100d96e8ae1050bf"
+    },
+    {
+      "canonical_name": "rubella-containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rubella-containing vaccine",
+      "chunk_id": "chk_197b56330fc728ce100d96e8ae1050bf"
+    },
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "chk_197b56330fc728ce100d96e8ae1050bf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

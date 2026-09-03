@@ -1,0 +1,99 @@
+{
+  "chunk_id": "chk_e432429db9379f05329b66da7b8434e6",
+  "content_hash": "00daab72b83b7605bd388447fa3f886afa34b8860af6b1d0463df19f0087e687",
+  "entities": [
+    {
+      "canonical_name": "immunogen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunogen",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "srRNAs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "srRNAs",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "alphaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "alphaviruses",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "Venezuelan Equine Encephalitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Venezuelan Equine Encephalitis",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "Sindbis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Sindbis",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "Semliki Forest viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Semliki Forest viruses",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "flaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "flaviruses",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "nodamura viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "nodamura viruses",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "nidoviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "nidoviruses",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "mRNAs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mRNAs",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    },
+    {
+      "canonical_name": "mRNA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mRNA",
+      "chunk_id": "chk_e432429db9379f05329b66da7b8434e6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

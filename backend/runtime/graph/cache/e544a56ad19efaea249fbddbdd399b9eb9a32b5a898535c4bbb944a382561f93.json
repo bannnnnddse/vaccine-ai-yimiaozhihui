@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_760bcdcc30a5f317c1c95a78ab7b6e5a",
+  "content_hash": "bfa28de44f0da3c07d7c45277b760d981c0fa6a324cab36e020a24ef6a6273b9",
+  "entities": [
+    {
+      "canonical_name": "HBVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBVac",
+      "chunk_id": "chk_760bcdcc30a5f317c1c95a78ab7b6e5a"
+    },
+    {
+      "canonical_name": "3A-HBV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "3A-HBV",
+      "chunk_id": "chk_760bcdcc30a5f317c1c95a78ab7b6e5a"
+    },
+    {
+      "canonical_name": "CpG-adjuvanted vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CpG-adjuvanted vaccines",
+      "chunk_id": "chk_760bcdcc30a5f317c1c95a78ab7b6e5a"
+    },
+    {
+      "canonical_name": "neonates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "neonates",
+      "chunk_id": "chk_760bcdcc30a5f317c1c95a78ab7b6e5a"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_760bcdcc30a5f317c1c95a78ab7b6e5a"
+    },
+    {
+      "canonical_name": "non-responders",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "non-responders",
+      "chunk_id": "chk_760bcdcc30a5f317c1c95a78ab7b6e5a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

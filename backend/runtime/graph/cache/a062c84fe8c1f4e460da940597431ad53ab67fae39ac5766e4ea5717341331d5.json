@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_6a9634923b2bf60858422ffc68108de7",
+  "content_hash": "f2889a3b29c48861bd43f079d91e3564a1a803e9c78c47fbd0928a666b491c4c",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_6a9634923b2bf60858422ffc68108de7"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_6a9634923b2bf60858422ffc68108de7"
+    },
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_6a9634923b2bf60858422ffc68108de7"
+    },
+    {
+      "canonical_name": "Wuhan-hu-1 strain",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Wuhan-hu-1 strain",
+      "chunk_id": "chk_6a9634923b2bf60858422ffc68108de7"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_6a9634923b2bf60858422ffc68108de7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

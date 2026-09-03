@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_69b2af3eff5c136c2c22b782cb0b15cd",
+  "content_hash": "907837f07c3dfe48b54f4d3df2d8a3bee7118cc5f162e5b9da9933badf6fec19",
+  "entities": [
+    {
+      "canonical_name": "influenza pandemic",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza pandemic",
+      "chunk_id": "chk_69b2af3eff5c136c2c22b782cb0b15cd"
+    },
+    {
+      "canonical_name": "pandemic influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pandemic influenza vaccines",
+      "chunk_id": "chk_69b2af3eff5c136c2c22b782cb0b15cd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

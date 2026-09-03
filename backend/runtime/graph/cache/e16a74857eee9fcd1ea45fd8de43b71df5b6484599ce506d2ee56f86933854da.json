@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2dc93aba0b9f804d38d8d2b1b37f873f",
+  "content_hash": "4116dcf883d781847f341f0475f7f5a51480136574edf3c619596ab8c6d03fc3",
+  "entities": [
+    {
+      "canonical_name": "advanced liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "advanced liver disease",
+      "chunk_id": "chk_2dc93aba0b9f804d38d8d2b1b37f873f"
+    },
+    {
+      "canonical_name": "hepatitis vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis vaccination",
+      "chunk_id": "chk_2dc93aba0b9f804d38d8d2b1b37f873f"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_2dc93aba0b9f804d38d8d2b1b37f873f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

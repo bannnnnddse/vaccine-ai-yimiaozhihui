@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_1a6377fce8f0f278f214393ce5176ea2",
+  "content_hash": "d1e282a3963af7406c5e8e655f36b0a2e1265539a24db6953df35dd1662dc138",
+  "entities": [
+    {
+      "canonical_name": "Serious Adverse Event",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Serious Adverse Event",
+      "chunk_id": "chk_1a6377fce8f0f278f214393ce5176ea2"
+    },
+    {
+      "canonical_name": "SAE",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "SAE",
+      "chunk_id": "chk_1a6377fce8f0f278f214393ce5176ea2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

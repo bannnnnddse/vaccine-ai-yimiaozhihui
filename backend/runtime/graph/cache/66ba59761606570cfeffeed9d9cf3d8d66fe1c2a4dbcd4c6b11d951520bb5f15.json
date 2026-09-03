@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_a0cd1c39b04348255d29d4d8f5a6a313",
+  "content_hash": "0c40e069fad5492ca9fbd7cc20d5386cd9cf07851aad7c7fe4a0ca6cddddcb90",
+  "entities": [
+    {
+      "canonical_name": "prime boost therapeutic vaccination strategy",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "prime boost therapeutic vaccination strategy",
+      "chunk_id": "chk_a0cd1c39b04348255d29d4d8f5a6a313"
+    },
+    {
+      "canonical_name": "HIV-1-infected individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-1-infected individuals",
+      "chunk_id": "chk_a0cd1c39b04348255d29d4d8f5a6a313"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_a0cd1c39b04348255d29d4d8f5a6a313"
+    },
+    {
+      "canonical_name": "hypertension",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hypertension",
+      "chunk_id": "chk_a0cd1c39b04348255d29d4d8f5a6a313"
+    },
+    {
+      "canonical_name": "Vaccine targeted alpha 1D-adrenergic receptor",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccine targeted alpha 1D-adrenergic receptor",
+      "chunk_id": "chk_a0cd1c39b04348255d29d4d8f5a6a313"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

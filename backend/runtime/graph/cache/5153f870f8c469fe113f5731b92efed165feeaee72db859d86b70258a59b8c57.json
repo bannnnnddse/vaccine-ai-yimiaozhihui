@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f3b4b6cb83cc8203fc6ede97a7aab8ce",
+  "content_hash": "e52287767d87e63aae942faa6f233b9336a083a5f531a99a80c41266eca5ab15",
+  "entities": [
+    {
+      "canonical_name": "adult kidney replacement therapy population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adult kidney replacement therapy population",
+      "chunk_id": "chk_f3b4b6cb83cc8203fc6ede97a7aab8ce"
+    },
+    {
+      "canonical_name": "COVID-19 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19 infection",
+      "chunk_id": "chk_f3b4b6cb83cc8203fc6ede97a7aab8ce"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

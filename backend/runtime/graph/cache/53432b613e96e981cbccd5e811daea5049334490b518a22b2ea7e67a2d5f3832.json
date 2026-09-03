@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_83922815bdb0a1f0ff3cfe16abaf2377",
+  "content_hash": "f889aedfc4750c91969b67dff1f3e7bd946abd397251d2e12ffec6925990fd1d",
+  "entities": [
+    {
+      "canonical_name": "Bmem",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Bmem",
+      "chunk_id": "chk_83922815bdb0a1f0ff3cfe16abaf2377"
+    },
+    {
+      "canonical_name": "prime-boost vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "prime-boost vaccines",
+      "chunk_id": "chk_83922815bdb0a1f0ff3cfe16abaf2377"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

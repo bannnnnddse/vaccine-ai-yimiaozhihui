@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_c42941e534cd884912ec65c0c5502627",
+  "content_hash": "a89c72c53d62aae5624ccc2f064d4ec7252446ef09fa71562725d33f6e704fab",
+  "entities": [
+    {
+      "canonical_name": "hexavalent human rotavirus-bovine rotavirus (UK) reassortant vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hexavalent human rotavirus-bovine rotavirus (UK) reassortant vaccine",
+      "chunk_id": "chk_c42941e534cd884912ec65c0c5502627"
+    },
+    {
+      "canonical_name": "intussusception",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "intussusception",
+      "chunk_id": "chk_c42941e534cd884912ec65c0c5502627"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

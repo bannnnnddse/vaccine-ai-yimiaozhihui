@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7bd992e9cee0e7aa4cf8d3feaa1b4f17",
+  "content_hash": "5767b7933541bc4da2e97f4ceb9e3ec5bd2f4b5573b30e57bbadbd646d374940",
+  "entities": [
+    {
+      "canonical_name": "younger women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "younger women",
+      "chunk_id": "chk_7bd992e9cee0e7aa4cf8d3feaa1b4f17"
+    },
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination",
+      "chunk_id": "chk_7bd992e9cee0e7aa4cf8d3feaa1b4f17"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_76a3122ac478a07557686cebdca16982",
+  "content_hash": "5ea09a1e9161557db87a0485d9af3ee3c17e6d1d24f392f7495053fe1e0e523b",
+  "entities": [
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_76a3122ac478a07557686cebdca16982"
+    },
+    {
+      "canonical_name": "RTS, S/AS01",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RTS, S/AS01",
+      "chunk_id": "chk_76a3122ac478a07557686cebdca16982"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

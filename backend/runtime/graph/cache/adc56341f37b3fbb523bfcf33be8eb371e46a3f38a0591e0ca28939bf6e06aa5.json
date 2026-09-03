@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_4e36b3b6d4b0769b69266eeda4c3fc67",
+  "content_hash": "d9008a2bfdb4d97405ff667ca3945feb6bf71eca8881f1761c9671f18ae6a053",
+  "entities": [
+    {
+      "canonical_name": "antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen",
+      "chunk_id": "chk_4e36b3b6d4b0769b69266eeda4c3fc67"
+    },
+    {
+      "canonical_name": "individual cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "individual cancer",
+      "chunk_id": "chk_4e36b3b6d4b0769b69266eeda4c3fc67"
+    },
+    {
+      "canonical_name": "nucleic acid vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nucleic acid vaccine",
+      "chunk_id": "chk_4e36b3b6d4b0769b69266eeda4c3fc67"
+    },
+    {
+      "canonical_name": "subunit vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "subunit vaccine",
+      "chunk_id": "chk_4e36b3b6d4b0769b69266eeda4c3fc67"
+    },
+    {
+      "canonical_name": "viral vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "viral vaccine",
+      "chunk_id": "chk_4e36b3b6d4b0769b69266eeda4c3fc67"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

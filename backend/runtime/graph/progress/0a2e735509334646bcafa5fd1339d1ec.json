@@ -1,0 +1,12 @@
+{
+  "total_chunks": 15946,
+  "candidate_chunks": 12349,
+  "processed_chunks": 636,
+  "cached_chunks": 18,
+  "success_count": 618,
+  "failed_count": 0,
+  "elapsed_seconds": 1606.656,
+  "estimated_remaining_seconds": 29589.248,
+  "failed_chunk_ids": [],
+  "updated_at": "2026-08-21T13:09:56.095788+00:00"
+}

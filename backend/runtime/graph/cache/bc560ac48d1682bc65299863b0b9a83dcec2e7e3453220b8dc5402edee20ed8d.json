@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_42cfb56519ab2389f2869d266809f2e0",
+  "content_hash": "07d2ad0eee4ea4443d3fb5aff55354faa92668a9e96fee357d6d606b01356f6a",
+  "entities": [
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_42cfb56519ab2389f2869d266809f2e0"
+    },
+    {
+      "canonical_name": "RV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV vaccine",
+      "chunk_id": "chk_42cfb56519ab2389f2869d266809f2e0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

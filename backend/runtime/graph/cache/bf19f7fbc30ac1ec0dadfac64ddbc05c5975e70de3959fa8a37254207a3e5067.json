@@ -1,0 +1,29 @@
+{
+  "chunk_id": "25292f8b8a8f57cfc894f50ec89ef8141b4d0f33d8cdbd5261399dfd8c1322ce",
+  "content_hash": "5de04f85854b45e8bcb5a009fd8b4cf4b8aab158592704db8cd7ffd2931cb7e1",
+  "entities": [
+    {
+      "canonical_name": "chronic inflammatory disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic inflammatory disease",
+      "chunk_id": "25292f8b8a8f57cfc894f50ec89ef8141b4d0f33d8cdbd5261399dfd8c1322ce"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "25292f8b8a8f57cfc894f50ec89ef8141b4d0f33d8cdbd5261399dfd8c1322ce"
+    },
+    {
+      "canonical_name": "inflammatory rheumatic diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "inflammatory rheumatic diseases",
+      "chunk_id": "25292f8b8a8f57cfc894f50ec89ef8141b4d0f33d8cdbd5261399dfd8c1322ce"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

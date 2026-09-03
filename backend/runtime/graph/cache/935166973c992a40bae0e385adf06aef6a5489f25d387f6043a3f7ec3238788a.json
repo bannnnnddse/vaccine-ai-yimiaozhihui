@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_78804d9715f5ebf9a3e7a8b196ec212d",
+  "content_hash": "456214c80975fb88f3bd43915b55d263fc4b3c60075d6540dbfcb624b6b98410",
+  "entities": [
+    {
+      "canonical_name": "Hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hepatitis B virus",
+      "chunk_id": "chk_78804d9715f5ebf9a3e7a8b196ec212d"
+    },
+    {
+      "canonical_name": "HIV-infected children and adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-infected children and adolescents",
+      "chunk_id": "chk_78804d9715f5ebf9a3e7a8b196ec212d"
+    },
+    {
+      "canonical_name": "HIV-1 infected and uninfected adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-1 infected and uninfected adults",
+      "chunk_id": "chk_78804d9715f5ebf9a3e7a8b196ec212d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

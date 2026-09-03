@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_d4c011b5874ba4fe5f9c2cbeb616d3aa",
+  "content_hash": "d24ac8efe0b1ad3fc2fa00ec517ceff6ba2116ebcbe0b22e83728cfbcf04a267",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_d4c011b5874ba4fe5f9c2cbeb616d3aa"
+    },
+    {
+      "canonical_name": "cerebral venous thrombosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cerebral venous thrombosis",
+      "chunk_id": "chk_d4c011b5874ba4fe5f9c2cbeb616d3aa"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

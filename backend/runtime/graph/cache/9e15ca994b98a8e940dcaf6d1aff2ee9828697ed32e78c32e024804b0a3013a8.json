@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_04d7f97862e232123998b6a115958798",
+  "content_hash": "80ff8755804e5eb5378356b902c6e0f75a4809bdc7047f21990e35b2c32e4c19",
+  "entities": [
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_04d7f97862e232123998b6a115958798"
+    },
+    {
+      "canonical_name": "naive pluripotent cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "naive pluripotent cells",
+      "chunk_id": "chk_04d7f97862e232123998b6a115958798"
+    },
+    {
+      "canonical_name": "memory CD8 T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory CD8 T cells",
+      "chunk_id": "chk_04d7f97862e232123998b6a115958798"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_426a970395409cc83141b966244f58bc",
+  "content_hash": "70d42ab85a36cbc320893258e64e794e96b984d7921d338b772cd630c0581b31",
+  "entities": [
+    {
+      "canonical_name": "IFN-g",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-g",
+      "chunk_id": "chk_426a970395409cc83141b966244f58bc"
+    },
+    {
+      "canonical_name": "macrophages",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "macrophages",
+      "chunk_id": "chk_426a970395409cc83141b966244f58bc"
+    },
+    {
+      "canonical_name": "IL-12",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-12",
+      "chunk_id": "chk_426a970395409cc83141b966244f58bc"
+    },
+    {
+      "canonical_name": "mouse",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mouse",
+      "chunk_id": "chk_426a970395409cc83141b966244f58bc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "734f94ef2074367e0791a5ecc6b427a2f16ca4a79601d7d5c0b0a4a5db8b1d71",
+  "content_hash": "8eb28cdf8ba8c90fac581045d5ac89696224944b3ca2f343500b9adae282fe76",
+  "entities": [
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "734f94ef2074367e0791a5ecc6b427a2f16ca4a79601d7d5c0b0a4a5db8b1d71"
+    },
+    {
+      "canonical_name": "diarrheal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diarrheal disease",
+      "chunk_id": "734f94ef2074367e0791a5ecc6b427a2f16ca4a79601d7d5c0b0a4a5db8b1d71"
+    },
+    {
+      "canonical_name": "children under 5 years of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under 5 years of age",
+      "chunk_id": "734f94ef2074367e0791a5ecc6b427a2f16ca4a79601d7d5c0b0a4a5db8b1d71"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

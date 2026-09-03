@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_4058e25273451ad42b768d59c9f4f2e0",
+  "content_hash": "0524cd9eefd4263dcee3d77d9d31a1eadb3d0df131e4622770e1b9fad46347f1",
+  "entities": [
+    {
+      "canonical_name": "Live attenuated tetravalent (G1–G4) bovine-human reassortant rotavirus vaccine (BRV-TV)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Live attenuated tetravalent (G1–G4) bovine-human reassortant rotavirus vaccine (BRV-TV)",
+      "chunk_id": "chk_4058e25273451ad42b768d59c9f4f2e0"
+    },
+    {
+      "canonical_name": "Indian infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Indian infants",
+      "chunk_id": "chk_4058e25273451ad42b768d59c9f4f2e0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

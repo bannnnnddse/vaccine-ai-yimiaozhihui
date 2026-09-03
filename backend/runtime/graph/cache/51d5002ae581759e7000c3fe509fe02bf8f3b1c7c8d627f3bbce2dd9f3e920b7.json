@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_65889aa4becc9eb08de7786fbb337ad5",
+  "content_hash": "3ba9cd086b9b0370fcbccfcd111dad8a769e26fbc5df70d3d31bf8ea596d0dd2",
+  "entities": [
+    {
+      "canonical_name": "COVID19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID19",
+      "chunk_id": "chk_65889aa4becc9eb08de7786fbb337ad5"
+    },
+    {
+      "canonical_name": "BNT162b2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 vaccine",
+      "chunk_id": "chk_65889aa4becc9eb08de7786fbb337ad5"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 infection",
+      "chunk_id": "chk_65889aa4becc9eb08de7786fbb337ad5"
+    },
+    {
+      "canonical_name": "severe adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "severe adverse events",
+      "chunk_id": "chk_65889aa4becc9eb08de7786fbb337ad5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

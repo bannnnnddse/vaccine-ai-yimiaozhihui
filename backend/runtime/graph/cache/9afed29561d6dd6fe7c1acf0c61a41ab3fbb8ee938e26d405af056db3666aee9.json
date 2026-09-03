@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_89c8d2954f3093ef8ab12562d068529a",
+  "content_hash": "e5062c4ab8c744f4bb916d28acdc512356bd77399ee392a0a750b43319ffaf36",
+  "entities": [
+    {
+      "canonical_name": "older children and adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older children and adults",
+      "chunk_id": "chk_89c8d2954f3093ef8ab12562d068529a"
+    },
+    {
+      "canonical_name": "immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune responses",
+      "chunk_id": "chk_89c8d2954f3093ef8ab12562d068529a"
+    },
+    {
+      "canonical_name": "the disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "the disease",
+      "chunk_id": "chk_89c8d2954f3093ef8ab12562d068529a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

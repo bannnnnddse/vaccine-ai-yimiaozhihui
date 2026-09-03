@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_7db4d057210057d979fcff7048faf5ff",
+  "content_hash": "4dbde900c967c7dfadd1ee3d7d8674769ca1e69a9a0c41ff635c87cdba8c1fcf",
+  "entities": [
+    {
+      "canonical_name": "systemic lupus erythematosus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "systemic lupus erythematosus",
+      "chunk_id": "chk_7db4d057210057d979fcff7048faf5ff"
+    },
+    {
+      "canonical_name": "anti-dsDNA antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-dsDNA antibodies",
+      "chunk_id": "chk_7db4d057210057d979fcff7048faf5ff"
+    },
+    {
+      "canonical_name": "plasmid",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "plasmid",
+      "chunk_id": "chk_7db4d057210057d979fcff7048faf5ff"
+    },
+    {
+      "canonical_name": "DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccine",
+      "chunk_id": "chk_7db4d057210057d979fcff7048faf5ff"
+    },
+    {
+      "canonical_name": "unwanted immune reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "unwanted immune reactions",
+      "chunk_id": "chk_7db4d057210057d979fcff7048faf5ff"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

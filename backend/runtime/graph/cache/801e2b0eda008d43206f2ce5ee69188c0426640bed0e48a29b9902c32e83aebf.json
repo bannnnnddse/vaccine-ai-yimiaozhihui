@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_bc91e1b0a8f3b338a7b14d7d760a9ade",
+  "content_hash": "bf5dd1ad9e6f76aed75e7cef40ff8759e2faff94206f84c73fbfd9b8ebb02a31",
+  "entities": [
+    {
+      "canonical_name": "Pfizer/BioNTech BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pfizer/BioNTech BNT162b2",
+      "chunk_id": "chk_bc91e1b0a8f3b338a7b14d7d760a9ade"
+    },
+    {
+      "canonical_name": "Moderna mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna mRNA-1273",
+      "chunk_id": "chk_bc91e1b0a8f3b338a7b14d7d760a9ade"
+    },
+    {
+      "canonical_name": "Oxford/Astra Zeneca/Serum Institute of India ChAdOx1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Oxford/Astra Zeneca/Serum Institute of India ChAdOx1",
+      "chunk_id": "chk_bc91e1b0a8f3b338a7b14d7d760a9ade"
+    },
+    {
+      "canonical_name": "Pfizer/BioNTech (BNT162b2)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pfizer/BioNTech (BNT162b2)",
+      "chunk_id": "chk_bc91e1b0a8f3b338a7b14d7d760a9ade"
+    },
+    {
+      "canonical_name": "Moderna (mRNA-1273)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna (mRNA-1273)",
+      "chunk_id": "chk_bc91e1b0a8f3b338a7b14d7d760a9ade"
+    },
+    {
+      "canonical_name": "Oxford/Astra Zeneca/Serum Institute of India (ChAdOx1)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Oxford/Astra Zeneca/Serum Institute of India (ChAdOx1)",
+      "chunk_id": "chk_bc91e1b0a8f3b338a7b14d7d760a9ade"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

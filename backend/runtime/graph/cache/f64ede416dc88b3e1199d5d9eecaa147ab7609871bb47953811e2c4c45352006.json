@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d58c1b919978c60bbffbfd1c785cb9f4",
+  "content_hash": "90ab33e9719e97e9c5bf342653806846cce11ccc467c781e5e537b3a242dd2a0",
+  "entities": [
+    {
+      "canonical_name": "Herpes zoster",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Herpes zoster",
+      "chunk_id": "chk_d58c1b919978c60bbffbfd1c785cb9f4"
+    },
+    {
+      "canonical_name": "Adults > 60 years old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adults > 60 years old",
+      "chunk_id": "chk_d58c1b919978c60bbffbfd1c785cb9f4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

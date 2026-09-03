@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b",
+  "content_hash": "41f8db41a10d76a3363f10a2df49b7eae8d758146983c5b1e65ae5f165d59b26",
+  "entities": [
+    {
+      "canonical_name": "RSV vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccine candidates",
+      "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b"
+    },
+    {
+      "canonical_name": "maternal vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "maternal vaccines",
+      "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b"
+    },
+    {
+      "canonical_name": "infant vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "infant vaccines",
+      "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b"
+    },
+    {
+      "canonical_name": "RSV-specific monoclonal antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RSV-specific monoclonal antibodies",
+      "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b"
+    },
+    {
+      "canonical_name": "licensed RSV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "licensed RSV vaccine",
+      "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b"
+    },
+    {
+      "canonical_name": "CMV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CMV",
+      "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b"
+    },
+    {
+      "canonical_name": "herpesvirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "herpesvirus",
+      "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b"
+    },
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b"
+    },
+    {
+      "canonical_name": "those less than 12months of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "those less than 12months of age",
+      "chunk_id": "chk_d650d432c7a791f3c476bf0270ec671b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

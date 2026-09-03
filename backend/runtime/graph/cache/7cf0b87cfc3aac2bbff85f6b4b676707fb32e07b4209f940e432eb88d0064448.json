@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_21cd64b160748d2d79e8a75ffe9f0802",
+  "content_hash": "269999c13961f74fd61b326d3b63d70cbd10cd3ad1897428c575678c3863c3ec",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_21cd64b160748d2d79e8a75ffe9f0802"
+    },
+    {
+      "canonical_name": "populations of low socio-economic status",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "populations of low socio-economic status",
+      "chunk_id": "chk_21cd64b160748d2d79e8a75ffe9f0802"
+    },
+    {
+      "canonical_name": "vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine candidates",
+      "chunk_id": "chk_21cd64b160748d2d79e8a75ffe9f0802"
+    },
+    {
+      "canonical_name": "more than one vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "more than one vaccine",
+      "chunk_id": "chk_21cd64b160748d2d79e8a75ffe9f0802"
+    },
+    {
+      "canonical_name": "COVID-19 disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19 disease",
+      "chunk_id": "chk_21cd64b160748d2d79e8a75ffe9f0802"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

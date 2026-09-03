@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_06eb1448498b21879cecc5068f7ae487",
+  "content_hash": "58358998f01b719bc48093076bbb778fadf371a7fbd2c99b95aacd7a305177e3",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_06eb1448498b21879cecc5068f7ae487"
+    },
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "chk_06eb1448498b21879cecc5068f7ae487"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "chunk_id": "127167646c35fa7f454e676c52fbb769510b019d8b7a1f6fc1c23419d54f712d",
+  "content_hash": "1bbfe020263f751c79e28c1801032f836bbec00bb1d635a72c1901d39ecdc53c",
+  "entities": [
+    {
+      "canonical_name": "Bionic nanoparticle vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Bionic nanoparticle vaccines",
+      "chunk_id": "127167646c35fa7f454e676c52fbb769510b019d8b7a1f6fc1c23419d54f712d"
+    },
+    {
+      "canonical_name": "antigen molecules",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen molecules",
+      "chunk_id": "127167646c35fa7f454e676c52fbb769510b019d8b7a1f6fc1c23419d54f712d"
+    },
+    {
+      "canonical_name": "immune response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune response",
+      "chunk_id": "127167646c35fa7f454e676c52fbb769510b019d8b7a1f6fc1c23419d54f712d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

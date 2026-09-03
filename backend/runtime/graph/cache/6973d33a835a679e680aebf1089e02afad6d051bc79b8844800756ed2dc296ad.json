@@ -1,0 +1,232 @@
+{
+  "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2",
+  "content_hash": "64c870264cf365da64954569c54372d15f33ac935b1d4114ba1678188d76bf5d",
+  "entities": [
+    {
+      "canonical_name": "Ty 21a vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ty 21a vaccine",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Vi-specific serological correlates of protection",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Vi-specific serological correlates of protection",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "live oral Ty 21a vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live oral Ty 21a vaccine",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "anti-bacterial immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-bacterial immunity",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "T cell-mediated anti-bacterial immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell-mediated anti-bacterial immunity",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "IgA-driven T cell-mediated anti-bacterial immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA-driven T cell-mediated anti-bacterial immunity",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Ty 21a vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ty 21a vaccine",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "T cell-mediated anti-bacterial immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell-mediated anti-bacterial immunity",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "man",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "man",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Vi-specific serological correlates of protection",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Vi-specific serological correlates of protection",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Ty 21a vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ty 21a vaccine",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "T cell-mediated anti-bacterial immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell-mediated anti-bacterial immunity",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "man",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "man",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Vi-specific serological correlates of protection",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Vi-specific serological correlates of protection",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Ty 21a vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ty 21a vaccine",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "T cell-mediated anti-bacterial immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell-mediated anti-bacterial immunity",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "man",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "man",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Vi-specific serological correlates of protection",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Vi-specific serological correlates of protection",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Ty 21a vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ty 21a vaccine",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "T cell-mediated anti-bacterial immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell-mediated anti-bacterial immunity",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "man",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "man",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Vi-specific serological correlates of protection",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Vi-specific serological correlates of protection",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Ty 21a vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ty 21a vaccine",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "T cell-mediated anti-bacterial immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell-mediated anti-bacterial immunity",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "man",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "man",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "Vi-specific serological correlates of protection",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Vi-specific serological correlates of protection",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    },
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_eb7ce4352b918015eb794284ea0a93c2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

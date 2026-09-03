@@ -1,0 +1,22 @@
+{
+  "chunk_id": "a6a8e71ca55c222470ce6b23cf8b716a2748ab9a72c1cc7b84c880f206eeca9f",
+  "content_hash": "0f51666f3abeb92be150d7574eb1e9f52e7147c2590bd7853a47a30c3394ae03",
+  "entities": [
+    {
+      "canonical_name": "rgRSV-L(G1857A)-G(L208A)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rgRSV-L(G1857A)-G(L208A)",
+      "chunk_id": "a6a8e71ca55c222470ce6b23cf8b716a2748ab9a72c1cc7b84c880f206eeca9f"
+    },
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "a6a8e71ca55c222470ce6b23cf8b716a2748ab9a72c1cc7b84c880f206eeca9f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

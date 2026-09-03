@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_43545e6d57c90994a2e84fc5376c2433",
+  "content_hash": "10c64c4684d735d12dd41401c973901ca070457d75278e7992a32dff8a2f1519",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_43545e6d57c90994a2e84fc5376c2433"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_43545e6d57c90994a2e84fc5376c2433"
+    },
+    {
+      "canonical_name": "liver damage",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver damage",
+      "chunk_id": "chk_43545e6d57c90994a2e84fc5376c2433"
+    },
+    {
+      "canonical_name": "CLD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CLD",
+      "chunk_id": "chk_43545e6d57c90994a2e84fc5376c2433"
+    },
+    {
+      "canonical_name": "cirrhosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cirrhosis",
+      "chunk_id": "chk_43545e6d57c90994a2e84fc5376c2433"
+    },
+    {
+      "canonical_name": "non-alcoholic fatty liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-alcoholic fatty liver disease",
+      "chunk_id": "chk_43545e6d57c90994a2e84fc5376c2433"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote"
+  ]
+}

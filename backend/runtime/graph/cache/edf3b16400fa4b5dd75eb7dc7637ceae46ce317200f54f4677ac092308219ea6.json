@@ -1,0 +1,62 @@
+{
+  "chunk_id": "chk_40f6cccd7b063da97ab1811204b0c49c",
+  "content_hash": "4e099fcf2e5b663d1d73e7a2f4e6f86f9471948831ecc3820ccb47d46c3706eb",
+  "entities": [
+    {
+      "canonical_name": "ADRs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "ADRs",
+      "chunk_id": "chk_40f6cccd7b063da97ab1811204b0c49c"
+    },
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_40f6cccd7b063da97ab1811204b0c49c"
+    },
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_40f6cccd7b063da97ab1811204b0c49c"
+    },
+    {
+      "canonical_name": "shivering",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "shivering",
+      "chunk_id": "chk_40f6cccd7b063da97ab1811204b0c49c"
+    },
+    {
+      "canonical_name": "Injection site pain",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Injection site pain",
+      "chunk_id": "chk_40f6cccd7b063da97ab1811204b0c49c"
+    },
+    {
+      "canonical_name": "redness",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "redness",
+      "chunk_id": "chk_40f6cccd7b063da97ab1811204b0c49c"
+    },
+    {
+      "canonical_name": "Covid vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Covid vaccines",
+      "chunk_id": "chk_40f6cccd7b063da97ab1811204b0c49c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote",
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote"
+  ]
+}

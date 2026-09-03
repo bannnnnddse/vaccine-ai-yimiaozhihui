@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_e3a0bc5aa5cd8dfada758ce6b934750c",
+  "content_hash": "3926cec8cd7adb70ff2ebc2c3de913abf9b0449eb6ba825c1e8299ec253de866",
+  "entities": [
+    {
+      "canonical_name": "respiratory syncytial virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus",
+      "chunk_id": "chk_e3a0bc5aa5cd8dfada758ce6b934750c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

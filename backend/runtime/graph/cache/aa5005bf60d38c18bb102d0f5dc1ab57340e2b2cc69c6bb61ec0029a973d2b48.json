@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8879cd7589f08846ea713292fd10d700",
+  "content_hash": "c9440e19757316e8e20b7c84ae0a2db22d70ca77ccf9fbe88588aa61d27ede4a",
+  "entities": [
+    {
+      "canonical_name": "E. muris",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "E. muris",
+      "chunk_id": "chk_8879cd7589f08846ea713292fd10d700"
+    },
+    {
+      "canonical_name": "rheumatoid factor",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "rheumatoid factor",
+      "chunk_id": "chk_8879cd7589f08846ea713292fd10d700"
+    },
+    {
+      "canonical_name": "MRL/lpr lupus-prone mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "MRL/lpr lupus-prone mice",
+      "chunk_id": "chk_8879cd7589f08846ea713292fd10d700"
+    },
+    {
+      "canonical_name": "autoAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "autoAb",
+      "chunk_id": "chk_8879cd7589f08846ea713292fd10d700"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

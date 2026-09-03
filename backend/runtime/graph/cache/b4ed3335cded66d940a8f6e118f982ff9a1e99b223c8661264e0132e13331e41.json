@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d03171b1daeded72f836b4b846c06f69",
+  "content_hash": "bc073d2267a976353899d35a08b79a65ca527b4ff758a57cc31cadc60b9e6bad",
+  "entities": [
+    {
+      "canonical_name": "Bifidobacterium breve UCC2003",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium breve UCC2003",
+      "chunk_id": "chk_d03171b1daeded72f836b4b846c06f69"
+    },
+    {
+      "canonical_name": "probiotic bifidobacterium",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "probiotic bifidobacterium",
+      "chunk_id": "chk_d03171b1daeded72f836b4b846c06f69"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

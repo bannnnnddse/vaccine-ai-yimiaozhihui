@@ -1,0 +1,80 @@
+{
+  "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9",
+  "content_hash": "a45ec4a5cad75e88ed6cc69c4e7830fc3e6d71bd8c1b8d9379e33d0c4236134d",
+  "entities": [
+    {
+      "canonical_name": "swelling",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "swelling",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    },
+    {
+      "canonical_name": "RNA-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA-based vaccines",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    },
+    {
+      "canonical_name": "pain",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "pain",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    },
+    {
+      "canonical_name": "erythema",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "erythema",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    },
+    {
+      "canonical_name": "heacache",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "heacache",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    },
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    },
+    {
+      "canonical_name": "fatigue",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fatigue",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    },
+    {
+      "canonical_name": "myalgia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "myalgia",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    },
+    {
+      "canonical_name": "diarhea",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "diarhea",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    },
+    {
+      "canonical_name": "arthralgia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "arthralgia",
+      "chunk_id": "chk_24c51a1f6e400eba354d2863ddb891f9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

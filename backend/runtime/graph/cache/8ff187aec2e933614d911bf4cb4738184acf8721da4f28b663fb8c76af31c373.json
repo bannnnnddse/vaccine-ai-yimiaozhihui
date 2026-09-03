@@ -1,0 +1,66 @@
+{
+  "chunk_id": "chk_57bbe5d8989e8cd8b233be7a2f0667a1",
+  "content_hash": "f4d7083023e84cfb6389773584c3612838e99970a251d5516cfa70a46bcef300",
+  "entities": [
+    {
+      "canonical_name": "HBV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBV vaccines",
+      "chunk_id": "chk_57bbe5d8989e8cd8b233be7a2f0667a1"
+    },
+    {
+      "canonical_name": "non-viral liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-viral liver disease",
+      "chunk_id": "chk_57bbe5d8989e8cd8b233be7a2f0667a1"
+    },
+    {
+      "canonical_name": "post-transplant populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "post-transplant populations",
+      "chunk_id": "chk_57bbe5d8989e8cd8b233be7a2f0667a1"
+    },
+    {
+      "canonical_name": "HIV-infected individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-infected individuals",
+      "chunk_id": "chk_57bbe5d8989e8cd8b233be7a2f0667a1"
+    },
+    {
+      "canonical_name": "HAV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HAV vaccination",
+      "chunk_id": "chk_57bbe5d8989e8cd8b233be7a2f0667a1"
+    },
+    {
+      "canonical_name": "Hepatitis A, B, and E vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis A, B, and E vaccines",
+      "chunk_id": "chk_57bbe5d8989e8cd8b233be7a2f0667a1"
+    },
+    {
+      "canonical_name": "neonatal hepatitis B vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "neonatal hepatitis B vaccination",
+      "chunk_id": "chk_57bbe5d8989e8cd8b233be7a2f0667a1"
+    },
+    {
+      "canonical_name": "HCV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HCV vaccine",
+      "chunk_id": "chk_57bbe5d8989e8cd8b233be7a2f0667a1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

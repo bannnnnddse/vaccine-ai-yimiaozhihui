@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_1e20a0841d3f1a0623cc9bd8d510b943",
+  "content_hash": "21a9853fb5a774ee6ee5acdcc544cdbc6451695dbed027e0c76ae14d25a4fed4",
+  "entities": [
+    {
+      "canonical_name": "elderly people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly people",
+      "chunk_id": "chk_1e20a0841d3f1a0623cc9bd8d510b943"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

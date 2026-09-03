@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_24e411a0e08597df786b23a3f8a20636",
+  "content_hash": "c8f74cc2a6c426ab5c3398a61d9e9a927cb45550a4b1e78cc20e20507fa5b36e",
+  "entities": [
+    {
+      "canonical_name": "recombinant adenovirus type-5-vectored COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant adenovirus type-5-vectored COVID-19 vaccine",
+      "chunk_id": "chk_24e411a0e08597df786b23a3f8a20636"
+    },
+    {
+      "canonical_name": "healthy adults aged 18 years or older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adults aged 18 years or older",
+      "chunk_id": "chk_24e411a0e08597df786b23a3f8a20636"
+    },
+    {
+      "canonical_name": "Covid-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Covid-19",
+      "chunk_id": "chk_24e411a0e08597df786b23a3f8a20636"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

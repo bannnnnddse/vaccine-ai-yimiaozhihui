@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_c2f63b5e9382e151c928534020322d74",
+  "content_hash": "c78ae08bb0a429db3423be244e0ccf8c857607ca509219792727461313b1adfe",
+  "entities": [
+    {
+      "canonical_name": "dengue",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "dengue",
+      "chunk_id": "chk_c2f63b5e9382e151c928534020322d74"
+    },
+    {
+      "canonical_name": "influenza viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza viruses",
+      "chunk_id": "chk_c2f63b5e9382e151c928534020322d74"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

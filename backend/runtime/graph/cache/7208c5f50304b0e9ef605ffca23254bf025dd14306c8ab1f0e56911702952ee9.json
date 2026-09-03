@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_116c222ca0d041d5229d277836b38577",
+  "content_hash": "1120c65c2e0d7267d61eb8fdb460f86854b6061e4c06e1560bc4fbe44aca3680",
+  "entities": [
+    {
+      "canonical_name": "prostate cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "prostate cancer",
+      "chunk_id": "chk_116c222ca0d041d5229d277836b38577"
+    },
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_116c222ca0d041d5229d277836b38577"
+    },
+    {
+      "canonical_name": "DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccine",
+      "chunk_id": "chk_116c222ca0d041d5229d277836b38577"
+    },
+    {
+      "canonical_name": "antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigens",
+      "chunk_id": "chk_116c222ca0d041d5229d277836b38577"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

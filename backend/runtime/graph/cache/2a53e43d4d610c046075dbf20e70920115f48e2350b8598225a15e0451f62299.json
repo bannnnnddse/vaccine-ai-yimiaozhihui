@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_6f7d860b898e4e4e66ec2dfd7647c4b7",
+  "content_hash": "f8cc19dc1eea51f1f6331efe977300363084f323577cf25e80a40a29971f2c18",
+  "entities": [
+    {
+      "canonical_name": "乙肝疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙肝疫苗",
+      "chunk_id": "chk_6f7d860b898e4e4e66ec2dfd7647c4b7"
+    },
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_6f7d860b898e4e4e66ec2dfd7647c4b7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

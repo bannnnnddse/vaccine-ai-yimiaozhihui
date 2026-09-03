@@ -1,0 +1,19 @@
+{
+  "chunk_id": "chk_8f6821403c638b1a6b2f3425a7b376fe",
+  "content_hash": "8a9ff9811e95578b202d187e7916aca9f46a60691875ef9ed15dc6947aa90807",
+  "entities": [
+    {
+      "canonical_name": "Human Papillomavirus (HPV)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Human Papillomavirus (HPV)",
+      "chunk_id": "chk_8f6821403c638b1a6b2f3425a7b376fe"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_canonical_not_surface",
+    "new_entity_type_lexical_mismatch"
+  ]
+}

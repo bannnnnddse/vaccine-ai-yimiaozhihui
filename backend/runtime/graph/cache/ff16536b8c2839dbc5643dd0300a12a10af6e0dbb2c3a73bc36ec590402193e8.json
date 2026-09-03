@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_1b68c84e9edae2fcbcfc22c57d44491a",
+  "content_hash": "5e6be6eea6ba14715a449a973826794c04154506e2b8e5397044b4485f71c9da",
+  "entities": [
+    {
+      "canonical_name": "pregnancy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pregnancy",
+      "chunk_id": "chk_1b68c84e9edae2fcbcfc22c57d44491a"
+    },
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_1b68c84e9edae2fcbcfc22c57d44491a"
+    },
+    {
+      "canonical_name": "intrapartum fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "intrapartum fever",
+      "chunk_id": "chk_1b68c84e9edae2fcbcfc22c57d44491a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

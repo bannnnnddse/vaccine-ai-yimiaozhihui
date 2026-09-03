@@ -1,0 +1,74 @@
+{
+  "job_id": "9acc4815af06",
+  "prompt": "请生成预防hpv的措施图解",
+  "brief": {
+    "image_type": "graphical_abstract",
+    "generation_route": "fast",
+    "optimized_chinese_prompt": "一张9:16竖版公共卫生科普图解，背景为干净的浅蓝白色调。画面中央垂直排列三个核心防护层级，自上而下依次展示：顶部为HPV病毒颗粒被盾牌阻挡，代表疫苗接种；中部为一对剪影人物保持适当距离并佩戴安全套图标，代表安全性行为；底部为宫颈细胞显微镜视野旁标注定期筛查字样，代表医学筛查。所有文字标签均为醒目的简体中文无衬线字体。整体构图清晰、扁平化风格，强调预防措施的逻辑顺序，无多余装饰元素。",
+    "chinese_labels": [
+      "接种HPV疫苗",
+      "安全性行为",
+      "定期医学筛查"
+    ],
+    "scientific_claims": [
+      "接种HPV疫苗是预防高危型人乳头瘤病毒感染的有效手段。",
+      "正确使用安全套可降低HPV传播风险，但不能完全消除。",
+      "定期进行宫颈癌筛查有助于早期发现病变并及时干预。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "通过接种HPV疫苗诱导机体产生特异性免疫反应以中和病毒"
+      },
+      {
+        "primary_relation": "采取安全性行为减少皮肤黏膜直接接触从而降低感染概率"
+      },
+      {
+        "primary_relation": "实施定期医学筛查以早期识别持续性感染引发的细胞异常"
+      }
+    ],
+    "route_reason": "正式快速闭环固定使用 Wan；Crafter 仅保留为 legacy。"
+  },
+  "generation_route": "fast",
+  "image_model": "wan2.7-image-pro",
+  "image_id": null,
+  "trusted_image": null,
+  "candidate_image": null,
+  "critic_result": null,
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": null,
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-13T13:06:50.674594+00:00",
+  "finished_at": "2026-08-13T13:06:58.975765+00:00",
+  "stage": "cancelled",
+  "error": null,
+  "trace_id": "6952a85450be",
+  "trace_events": [
+    {
+      "id": "6952a85450be-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-13T13:06:50.674594Z"
+    },
+    {
+      "id": "6952a85450be-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：一张9:16竖版公共卫生科普图解，背景为干净的浅蓝白色调。画面中央垂直排列三个核心防护层级，自上而下依次展示：顶部为HPV病毒颗粒被盾牌阻挡，代表疫苗接种；中部为一对剪影人物保持适当距离并佩戴安全套图标，代表安全性行为；底部为宫颈细胞显微镜视野旁标注定期筛查字样，代表医学筛查。所有文字标签均为醒目的简体中文无衬线字体。整体构图清晰、扁平化风格，强调预防措施…",
+      "status": "completed",
+      "created_at": "2026-08-13T13:06:50.674594Z"
+    },
+    {
+      "id": "6952a85450be-3",
+      "stage": "generation",
+      "title": "生成已取消",
+      "detail": "已提交至 Wan 图像生成模型。",
+      "status": "warning",
+      "created_at": "2026-08-13T13:06:55.616859Z"
+    }
+  ],
+  "trace_history": []
+}

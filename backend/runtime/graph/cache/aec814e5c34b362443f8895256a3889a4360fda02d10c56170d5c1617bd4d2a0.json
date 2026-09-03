@@ -1,0 +1,53 @@
+{
+  "chunk_id": "612dfe5bfd94d4f98716144da3d3cc6957426a2fea9832915f4ab9011d74c12a",
+  "content_hash": "5c02ebf589137e87fa4605f6f9067cff5e56e79ff93a08cce819a2a7728246de",
+  "entities": [
+    {
+      "canonical_name": "asthma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "asthma",
+      "chunk_id": "612dfe5bfd94d4f98716144da3d3cc6957426a2fea9832915f4ab9011d74c12a"
+    },
+    {
+      "canonical_name": "MMRV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV vaccination",
+      "chunk_id": "612dfe5bfd94d4f98716144da3d3cc6957426a2fea9832915f4ab9011d74c12a"
+    },
+    {
+      "canonical_name": "epilepsy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "epilepsy",
+      "chunk_id": "612dfe5bfd94d4f98716144da3d3cc6957426a2fea9832915f4ab9011d74c12a"
+    },
+    {
+      "canonical_name": "epileptic seizures",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "epileptic seizures",
+      "chunk_id": "612dfe5bfd94d4f98716144da3d3cc6957426a2fea9832915f4ab9011d74c12a"
+    },
+    {
+      "canonical_name": "respiratory symptoms",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "respiratory symptoms",
+      "chunk_id": "612dfe5bfd94d4f98716144da3d3cc6957426a2fea9832915f4ab9011d74c12a"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "612dfe5bfd94d4f98716144da3d3cc6957426a2fea9832915f4ab9011d74c12a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "invalid_domain_range"
+  ]
+}

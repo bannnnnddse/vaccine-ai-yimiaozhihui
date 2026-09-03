@@ -1,0 +1,55 @@
+{
+  "chunk_id": "chk_468a787c75b9b30a4d57de85397932ac",
+  "content_hash": "6f7e13cac32844070f4f522081c4f412be9e4678efec9687a215069514e678d3",
+  "entities": [
+    {
+      "canonical_name": "bivalent (2vHPV) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bivalent (2vHPV) vaccine",
+      "chunk_id": "chk_468a787c75b9b30a4d57de85397932ac"
+    },
+    {
+      "canonical_name": "4vHPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "4vHPV",
+      "chunk_id": "chk_468a787c75b9b30a4d57de85397932ac"
+    },
+    {
+      "canonical_name": "females",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females",
+      "chunk_id": "chk_468a787c75b9b30a4d57de85397932ac"
+    },
+    {
+      "canonical_name": "males",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "males",
+      "chunk_id": "chk_468a787c75b9b30a4d57de85397932ac"
+    },
+    {
+      "canonical_name": "anal cancer precursors",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "anal cancer precursors",
+      "chunk_id": "chk_468a787c75b9b30a4d57de85397932ac"
+    },
+    {
+      "canonical_name": "genital warts",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "genital warts",
+      "chunk_id": "chk_468a787c75b9b30a4d57de85397932ac"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

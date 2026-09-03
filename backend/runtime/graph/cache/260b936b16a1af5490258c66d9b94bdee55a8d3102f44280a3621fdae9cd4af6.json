@@ -1,0 +1,18 @@
+{
+  "chunk_id": "chk_d2740c28ab8e63243342eee317688c9d",
+  "content_hash": "6408b821e626e32c4a29071ecf65fda8f57fb8e670aef96b6fa99bcabf976d7c",
+  "entities": [
+    {
+      "canonical_name": "quadrivalent human papillomavirus vaccine (HPV4, Gardasil)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent human papillomavirus vaccine (HPV4, Gardasil)",
+      "chunk_id": "chk_d2740c28ab8e63243342eee317688c9d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint"
+  ]
+}

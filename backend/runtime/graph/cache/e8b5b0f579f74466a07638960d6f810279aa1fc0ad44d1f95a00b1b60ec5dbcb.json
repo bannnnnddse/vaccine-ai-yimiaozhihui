@@ -1,0 +1,22 @@
+{
+  "chunk_id": "2d030c029b451587c12946d2cad4829e72ce312e6a82bbb3634b44678e20e8e7",
+  "content_hash": "4258ca9e84d33c461df4043ec17fb82825a584802eea12486c0a66db34cf56ff",
+  "entities": [
+    {
+      "canonical_name": "epilepsy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "epilepsy",
+      "chunk_id": "2d030c029b451587c12946d2cad4829e72ce312e6a82bbb3634b44678e20e8e7"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "2d030c029b451587c12946d2cad4829e72ce312e6a82bbb3634b44678e20e8e7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

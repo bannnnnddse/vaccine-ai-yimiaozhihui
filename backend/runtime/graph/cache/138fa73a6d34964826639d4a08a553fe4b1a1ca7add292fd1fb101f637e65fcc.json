@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_04f68ae803f0fb44cbf365709d9f8366",
+  "content_hash": "23fb8b93ef5d78c996e4b5505e4afada720dbca7bb3fc95b3f1ef392e985a2ac",
+  "entities": [
+    {
+      "canonical_name": "human papillomavirus v accine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus v accine",
+      "chunk_id": "chk_04f68ae803f0fb44cbf365709d9f8366"
+    },
+    {
+      "canonical_name": "US adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "US adults",
+      "chunk_id": "chk_04f68ae803f0fb44cbf365709d9f8366"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

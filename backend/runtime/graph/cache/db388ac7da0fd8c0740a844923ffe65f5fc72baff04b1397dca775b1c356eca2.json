@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_e059794f8290dfa74365a1283f6977e1",
+  "content_hash": "9beaea9acce8792cd782f58aaf8b33adfaf8c1c66d5b318199e3d248a970d633",
+  "entities": [
+    {
+      "canonical_name": "DTPCV4",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTPCV4",
+      "chunk_id": "chk_e059794f8290dfa74365a1283f6977e1"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_e059794f8290dfa74365a1283f6977e1"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_e059794f8290dfa74365a1283f6977e1"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_e059794f8290dfa74365a1283f6977e1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_71f79b000b2f904b1b860d1b10b78ba9",
+  "content_hash": "317b7ca32324f2c6c3d39f87f565c45e2ef0f8ae821921b9da40dd318a2c4a3f",
+  "entities": [
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_71f79b000b2f904b1b860d1b10b78ba9"
+    },
+    {
+      "canonical_name": "HBsAg-positive mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HBsAg-positive mothers",
+      "chunk_id": "chk_71f79b000b2f904b1b860d1b10b78ba9"
+    },
+    {
+      "canonical_name": "Hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Hepatitis B",
+      "chunk_id": "chk_71f79b000b2f904b1b860d1b10b78ba9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

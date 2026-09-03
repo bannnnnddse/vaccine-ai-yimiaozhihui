@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_5d968afd1b31d2faf1874d40a3769e66",
+  "content_hash": "145b2d2f5f1af2af0275ba8fb69f0ef2e2f4ced50c7732d0616bfecaef52cbb2",
+  "entities": [
+    {
+      "canonical_name": "DTaP-HBV-IPV/Hib",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTaP-HBV-IPV/Hib",
+      "chunk_id": "chk_5d968afd1b31d2faf1874d40a3769e66"
+    },
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "chk_5d968afd1b31d2faf1874d40a3769e66"
+    },
+    {
+      "canonical_name": "varicella vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella vaccines",
+      "chunk_id": "chk_5d968afd1b31d2faf1874d40a3769e66"
+    },
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_5d968afd1b31d2faf1874d40a3769e66"
+    },
+    {
+      "canonical_name": "PCV13",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV13",
+      "chunk_id": "chk_5d968afd1b31d2faf1874d40a3769e66"
+    },
+    {
+      "canonical_name": "systemic events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "systemic events",
+      "chunk_id": "chk_5d968afd1b31d2faf1874d40a3769e66"
+    },
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "chk_5d968afd1b31d2faf1874d40a3769e66"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

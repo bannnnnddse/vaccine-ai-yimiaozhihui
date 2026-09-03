@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_ee4a216ceaa430134d4a247d723e6fa3",
+  "content_hash": "16978973dd8a94dbce47dc3757c5298c52855fb6164e48194a1effb612aa5fe6",
+  "entities": [
+    {
+      "canonical_name": "CLD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CLD",
+      "chunk_id": "chk_ee4a216ceaa430134d4a247d723e6fa3"
+    },
+    {
+      "canonical_name": "cirrhosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cirrhosis",
+      "chunk_id": "chk_ee4a216ceaa430134d4a247d723e6fa3"
+    },
+    {
+      "canonical_name": "anti-HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs",
+      "chunk_id": "chk_ee4a216ceaa430134d4a247d723e6fa3"
+    },
+    {
+      "canonical_name": "FENDRIX ®",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "FENDRIX ®",
+      "chunk_id": "chk_ee4a216ceaa430134d4a247d723e6fa3"
+    },
+    {
+      "canonical_name": "HBVAXPRO® 40",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBVAXPRO® 40",
+      "chunk_id": "chk_ee4a216ceaa430134d4a247d723e6fa3"
+    },
+    {
+      "canonical_name": "vaccination schedule",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "vaccination schedule",
+      "chunk_id": "chk_ee4a216ceaa430134d4a247d723e6fa3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

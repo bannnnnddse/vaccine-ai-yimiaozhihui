@@ -1,0 +1,43 @@
+{
+  "chunk_id": "0becd6e7dc6afe7e587bb4c8244c21ffacb6e7b580e74dcbe53943b71b75a43e",
+  "content_hash": "8df88472f4670f8a15106d1f8d3e2ad600dc6ae589c33b52aa5b7fe5b34b0f8e",
+  "entities": [
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "0becd6e7dc6afe7e587bb4c8244c21ffacb6e7b580e74dcbe53943b71b75a43e"
+    },
+    {
+      "canonical_name": "human SFTSV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "human SFTSV infection",
+      "chunk_id": "0becd6e7dc6afe7e587bb4c8244c21ffacb6e7b580e74dcbe53943b71b75a43e"
+    },
+    {
+      "canonical_name": "IFNAR signaling pathway",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFNAR signaling pathway",
+      "chunk_id": "0becd6e7dc6afe7e587bb4c8244c21ffacb6e7b580e74dcbe53943b71b75a43e"
+    },
+    {
+      "canonical_name": "SFTSV vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SFTSV vaccine candidates",
+      "chunk_id": "0becd6e7dc6afe7e587bb4c8244c21ffacb6e7b580e74dcbe53943b71b75a43e"
+    },
+    {
+      "canonical_name": "healthy individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy individuals",
+      "chunk_id": "0becd6e7dc6afe7e587bb4c8244c21ffacb6e7b580e74dcbe53943b71b75a43e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

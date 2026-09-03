@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_17b7caa71a22a17d8758e1f0c6e0e134",
+  "content_hash": "05a12a122a2255568bf1d19480d63cacf7d708ee1f997f1244428af18cd1f728",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_17b7caa71a22a17d8758e1f0c6e0e134"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_17b7caa71a22a17d8758e1f0c6e0e134"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

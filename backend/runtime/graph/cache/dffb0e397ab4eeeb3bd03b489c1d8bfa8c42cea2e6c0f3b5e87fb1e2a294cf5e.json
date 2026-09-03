@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_a26670085db0178d4814cde220299380",
+  "content_hash": "a73605095338f3dfb8eb4b1fa89ae89d8e1591ddcce13d7010780f0013ffdcf6",
+  "entities": [
+    {
+      "canonical_name": "vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccination",
+      "chunk_id": "chk_a26670085db0178d4814cde220299380"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_a26670085db0178d4814cde220299380"
+    },
+    {
+      "canonical_name": "measles disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles disease",
+      "chunk_id": "chk_a26670085db0178d4814cde220299380"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote"
+  ]
+}

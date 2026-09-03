@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_facf5e16f3c8044cdfe2bb8a9d47057a",
+  "content_hash": "44f2ba77ad29e8f0dea7ba72d7de25fc354316c65e2ea743c19f7e7be94fd9fd",
+  "entities": [
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_facf5e16f3c8044cdfe2bb8a9d47057a"
+    },
+    {
+      "canonical_name": "HPV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccines",
+      "chunk_id": "chk_facf5e16f3c8044cdfe2bb8a9d47057a"
+    },
+    {
+      "canonical_name": "cervical intraepithelial neoplasia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical intraepithelial neoplasia",
+      "chunk_id": "chk_facf5e16f3c8044cdfe2bb8a9d47057a"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_facf5e16f3c8044cdfe2bb8a9d47057a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "quote_missing",
+    "quote_missing"
+  ]
+}

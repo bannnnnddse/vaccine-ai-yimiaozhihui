@@ -1,0 +1,43 @@
+{
+  "chunk_id": "91d1904819346e86cbdd8087cbb813d633b48e7a7d799c5bce92e2915ac3c495",
+  "content_hash": "c86bc1ee6ef22efcb3c9965455d96fd9691ecd1cd60145c153ab33070c1005bd",
+  "entities": [
+    {
+      "canonical_name": "ITP",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "ITP",
+      "chunk_id": "91d1904819346e86cbdd8087cbb813d633b48e7a7d799c5bce92e2915ac3c495"
+    },
+    {
+      "canonical_name": "PREVNAR13",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PREVNAR13",
+      "chunk_id": "91d1904819346e86cbdd8087cbb813d633b48e7a7d799c5bce92e2915ac3c495"
+    },
+    {
+      "canonical_name": "thrombocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "thrombocytopenia",
+      "chunk_id": "91d1904819346e86cbdd8087cbb813d633b48e7a7d799c5bce92e2915ac3c495"
+    },
+    {
+      "canonical_name": "IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IPV",
+      "chunk_id": "91d1904819346e86cbdd8087cbb813d633b48e7a7d799c5bce92e2915ac3c495"
+    },
+    {
+      "canonical_name": "hepatitis B vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccines",
+      "chunk_id": "91d1904819346e86cbdd8087cbb813d633b48e7a7d799c5bce92e2915ac3c495"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

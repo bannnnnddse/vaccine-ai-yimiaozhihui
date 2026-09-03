@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_d2a3636962cdc13a953ec24d6434db97",
+  "content_hash": "c566121a1fe9487bbdba189dd04bd938ba358583b1f803b942bfddfc3a186b34",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_d2a3636962cdc13a953ec24d6434db97"
+    },
+    {
+      "canonical_name": "VSV vector expressing a chimeric spike protein",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VSV vector expressing a chimeric spike protein",
+      "chunk_id": "chk_d2a3636962cdc13a953ec24d6434db97"
+    },
+    {
+      "canonical_name": "novel vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "novel vaccine",
+      "chunk_id": "chk_d2a3636962cdc13a953ec24d6434db97"
+    },
+    {
+      "canonical_name": "type 1 diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "type 1 diabetes",
+      "chunk_id": "chk_d2a3636962cdc13a953ec24d6434db97"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

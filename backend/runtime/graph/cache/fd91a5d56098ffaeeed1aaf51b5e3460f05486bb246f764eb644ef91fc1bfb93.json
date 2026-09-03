@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_ef413406b703d10aa968c2d0d174d2a1",
+  "content_hash": "8a839813e34d85570091e18b0abcb1efa44e4101d2aa8fd6cee44c50b0b757f4",
+  "entities": [
+    {
+      "canonical_name": "tetravalent meningococcal serogroups A, C, W-135 and Y tetanus toxoid conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "tetravalent meningococcal serogroups A, C, W-135 and Y tetanus toxoid conjugate vaccine",
+      "chunk_id": "chk_ef413406b703d10aa968c2d0d174d2a1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

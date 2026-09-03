@@ -1,0 +1,63 @@
+{
+  "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22",
+  "content_hash": "4dd9706d31ff2cb6f664ce2fd413517243be6d47b6bc7a01b31e343bcbcdfc8e",
+  "entities": [
+    {
+      "canonical_name": "子宫颈癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "子宫颈癌",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "国产双价HPV疫苗(厦门万泰)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "国产双价HPV疫苗（厦门万泰）",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "HPV16",
+      "entity_type": "Pathogen",
+      "aliases": [
+        "HPV 16",
+        "HPV-16",
+        "HPV16"
+      ],
+      "surface_form": "HPV16",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "高级别生殖器病变",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "高级别生殖器病变",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    },
+    {
+      "canonical_name": "持续感染",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "持续感染",
+      "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "entity_surface_missing",
+    "new_entity_canonical_not_surface",
+    "source_missing_from_quote",
+    "invalid_domain_range",
+    "target_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "unknown_endpoint",
+    "target_missing_from_quote"
+  ]
+}

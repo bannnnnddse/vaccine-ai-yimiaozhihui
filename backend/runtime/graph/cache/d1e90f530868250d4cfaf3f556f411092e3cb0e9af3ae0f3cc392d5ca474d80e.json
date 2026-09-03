@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_a139cc9eb7ab65dd4c7c114664509f27",
+  "content_hash": "52bc58afcfb060c856dc6b0d833f9627bdaa61ae9a268de2b82bf5a0704c10cb",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_a139cc9eb7ab65dd4c7c114664509f27"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_a139cc9eb7ab65dd4c7c114664509f27"
+    },
+    {
+      "canonical_name": "therapeutic vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "therapeutic vaccines",
+      "chunk_id": "chk_a139cc9eb7ab65dd4c7c114664509f27"
+    },
+    {
+      "canonical_name": "NF-kB",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NF-kB",
+      "chunk_id": "chk_a139cc9eb7ab65dd4c7c114664509f27"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

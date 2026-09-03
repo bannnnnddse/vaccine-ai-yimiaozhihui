@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_26c8fc39ca8a30467a5544f0a2efe1ba",
+  "content_hash": "41afcb21c2191f92244e65e3b7876c5e360de110936b7335f4e4212e1ba47b8f",
+  "entities": [
+    {
+      "canonical_name": "rhesus macaques",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "rhesus macaques",
+      "chunk_id": "chk_26c8fc39ca8a30467a5544f0a2efe1ba"
+    },
+    {
+      "canonical_name": "molecular clone 68–1 of rhesus cytomegalovirus (rCMV)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "molecular clone 68–1 of rhesus cytomegalovirus (rCMV)",
+      "chunk_id": "chk_26c8fc39ca8a30467a5544f0a2efe1ba"
+    },
+    {
+      "canonical_name": "SIV immunogens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SIV immunogens",
+      "chunk_id": "chk_26c8fc39ca8a30467a5544f0a2efe1ba"
+    },
+    {
+      "canonical_name": "rhesus CMV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rhesus CMV vaccine",
+      "chunk_id": "chk_26c8fc39ca8a30467a5544f0a2efe1ba"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

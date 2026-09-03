@@ -1,0 +1,20 @@
+{
+  "chunk_id": "chk_02bce6876bf0739b55a3ac9355fb41d1",
+  "content_hash": "5390e1e14d0d6dd227416f97e25bbdcd868a540dd715898cceef57a4a6bbdf67",
+  "entities": [
+    {
+      "canonical_name": "EV71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV71",
+      "chunk_id": "chk_02bce6876bf0739b55a3ac9355fb41d1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "quote_missing"
+  ]
+}

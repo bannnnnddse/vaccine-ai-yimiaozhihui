@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7ed9656290f6ca556027eeca8af3c6f1",
+  "content_hash": "802adda794a3b45e2e63562dc4691bd7464eadf5ed21ddd3083bc3a8733d05b2",
+  "entities": [
+    {
+      "canonical_name": "Rotavirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Rotavirus infection",
+      "chunk_id": "chk_7ed9656290f6ca556027eeca8af3c6f1"
+    },
+    {
+      "canonical_name": "neonatal rat pup",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "neonatal rat pup",
+      "chunk_id": "chk_7ed9656290f6ca556027eeca8af3c6f1"
+    },
+    {
+      "canonical_name": "rhesus rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rhesus rotavirus",
+      "chunk_id": "chk_7ed9656290f6ca556027eeca8af3c6f1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

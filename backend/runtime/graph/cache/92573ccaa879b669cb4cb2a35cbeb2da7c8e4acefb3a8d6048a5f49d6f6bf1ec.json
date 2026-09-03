@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_fd0fe61a90f8b2fe6dc79216e93b55c4",
+  "content_hash": "8281c255789ee6060158caeb413094700d4aaaf2e0baad0e46b0353a66a5b3a7",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_fd0fe61a90f8b2fe6dc79216e93b55c4"
+    },
+    {
+      "canonical_name": "refugee population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "refugee population",
+      "chunk_id": "chk_fd0fe61a90f8b2fe6dc79216e93b55c4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

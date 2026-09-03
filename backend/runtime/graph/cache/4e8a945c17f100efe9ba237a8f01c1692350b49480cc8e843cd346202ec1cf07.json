@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_24a95df41ac964418a7f399ba4428a54",
+  "content_hash": "24d11e512052573092ae165c8d599150829168d5e2a19b8bd558750b2390bb82",
+  "entities": [
+    {
+      "canonical_name": "百白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "百白破疫苗",
+      "chunk_id": "chk_24a95df41ac964418a7f399ba4428a54"
+    },
+    {
+      "canonical_name": "人群",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "人群",
+      "chunk_id": "chk_24a95df41ac964418a7f399ba4428a54"
+    },
+    {
+      "canonical_name": "预防接种工作人员",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "预防接种工作人员",
+      "chunk_id": "chk_24a95df41ac964418a7f399ba4428a54"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

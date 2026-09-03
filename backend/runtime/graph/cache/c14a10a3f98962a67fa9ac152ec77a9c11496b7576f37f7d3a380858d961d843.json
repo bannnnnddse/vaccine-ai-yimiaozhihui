@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_985a26b2274e6e7013eb7dddafe330d2",
+  "content_hash": "4d020a19151cfc0eaa259be5d9f28e4c4a113bc21c7bb276232253adf6434c6a",
+  "entities": [
+    {
+      "canonical_name": "Recombinant Vaccinia Virus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Recombinant Vaccinia Virus",
+      "chunk_id": "chk_985a26b2274e6e7013eb7dddafe330d2"
+    },
+    {
+      "canonical_name": "Neutralising Antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Neutralising Antibodies",
+      "chunk_id": "chk_985a26b2274e6e7013eb7dddafe330d2"
+    },
+    {
+      "canonical_name": "Epstein-Barr Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Epstein-Barr Virus",
+      "chunk_id": "chk_985a26b2274e6e7013eb7dddafe330d2"
+    },
+    {
+      "canonical_name": "Gp340",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Gp340",
+      "chunk_id": "chk_985a26b2274e6e7013eb7dddafe330d2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

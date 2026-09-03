@@ -1,0 +1,67 @@
+{
+  "chunk_id": "e88148122432d3489759b64cbfe0f7b1c71c5a639b36f108e4f8a5559318b665",
+  "content_hash": "b065ca09046a98b0f2778e10c8de569a5eeebb819e0023cb8bf61fdadfbf46f8",
+  "entities": [
+    {
+      "canonical_name": "VLPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VLPs",
+      "chunk_id": "e88148122432d3489759b64cbfe0f7b1c71c5a639b36f108e4f8a5559318b665"
+    },
+    {
+      "canonical_name": "EV-A71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV-A71",
+      "chunk_id": "e88148122432d3489759b64cbfe0f7b1c71c5a639b36f108e4f8a5559318b665"
+    },
+    {
+      "canonical_name": "CV-A16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A16",
+      "chunk_id": "e88148122432d3489759b64cbfe0f7b1c71c5a639b36f108e4f8a5559318b665"
+    },
+    {
+      "canonical_name": "CV-A6",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A6",
+      "chunk_id": "e88148122432d3489759b64cbfe0f7b1c71c5a639b36f108e4f8a5559318b665"
+    },
+    {
+      "canonical_name": "CV-A10",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A10",
+      "chunk_id": "e88148122432d3489759b64cbfe0f7b1c71c5a639b36f108e4f8a5559318b665"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "e88148122432d3489759b64cbfe0f7b1c71c5a639b36f108e4f8a5559318b665"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "e88148122432d3489759b64cbfe0f7b1c71c5a639b36f108e4f8a5559318b665"
+    },
+    {
+      "canonical_name": "lethal viral challenge",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "lethal viral challenge",
+      "chunk_id": "e88148122432d3489759b64cbfe0f7b1c71c5a639b36f108e4f8a5559318b665"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing"
+  ]
+}

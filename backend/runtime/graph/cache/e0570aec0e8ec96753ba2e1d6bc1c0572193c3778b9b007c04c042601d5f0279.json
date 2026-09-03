@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c89f3f15d8154524dac0b9bb183f6602",
+  "content_hash": "efc073e8287f5a73f85e5e0b40194599173e4d9667752aa6fce4b5da82e3b82c",
+  "entities": [
+    {
+      "canonical_name": "maternal antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "maternal antibodies",
+      "chunk_id": "chk_c89f3f15d8154524dac0b9bb183f6602"
+    },
+    {
+      "canonical_name": "preterm and fullterm children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "preterm and fullterm children",
+      "chunk_id": "chk_c89f3f15d8154524dac0b9bb183f6602"
+    },
+    {
+      "canonical_name": "HIV-infected women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-infected women",
+      "chunk_id": "chk_c89f3f15d8154524dac0b9bb183f6602"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_79bab903f2fa06d84e66d64c51bd0daa",
+  "content_hash": "c723b9d9aa80f18b0d276010daf03418f2cf73ad707a6a8b08e90e559e32730f",
+  "entities": [
+    {
+      "canonical_name": "Respiratory Syncytial Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus",
+      "chunk_id": "chk_79bab903f2fa06d84e66d64c51bd0daa"
+    },
+    {
+      "canonical_name": "Pregnancy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Pregnancy",
+      "chunk_id": "chk_79bab903f2fa06d84e66d64c51bd0daa"
+    },
+    {
+      "canonical_name": "Infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Infants",
+      "chunk_id": "chk_79bab903f2fa06d84e66d64c51bd0daa"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

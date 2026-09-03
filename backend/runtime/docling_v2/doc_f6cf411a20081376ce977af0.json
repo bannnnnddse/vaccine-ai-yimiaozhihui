@@ -1,0 +1,3942 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "doc_f6cf411a20081376ce977af0",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 13642890085736433725,
+    "filename": "doc_f6cf411a20081376ce977af0.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/groups/3"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/57"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/59"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/61"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/63"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/69"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/71"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/73"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/75"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/77"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/79"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/81"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/83"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/85"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/87"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/89"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/91"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/93"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/95"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/97"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/99"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/101"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/103"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/105"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/109"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/111"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/texts/113"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/115"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/117"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/119"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/9"
+        },
+        {
+          "$ref": "#/texts/10"
+        },
+        {
+          "$ref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/16"
+        },
+        {
+          "$ref": "#/texts/17"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/31"
+        },
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.89299774169922,
+            "t": 674.199951171875,
+            "r": 96.59700012207031,
+            "b": 668.991943359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "OPEN ACCESS",
+      "text": "OPEN ACCESS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.10099792480469,
+            "t": 658.9335327148438,
+            "r": 77.21044921875,
+            "b": 654.968017578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "EDITED BY",
+      "text": "EDITED BY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.16600036621094,
+            "t": 650.9590454101562,
+            "r": 137.1479949951172,
+            "b": 635.5050048828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Barbora Kozlikova, Masaryk University, Czechia",
+      "text": "Barbora Kozlikova, Masaryk University, Czechia"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.10099792480469,
+            "t": 626.342529296875,
+            "r": 85.471435546875,
+            "b": 622.3770141601562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "REVIEWED BY",
+      "text": "REVIEWED BY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.990997314453125,
+            "t": 618.458984375,
+            "r": 124.69500732421875,
+            "b": 611.9140014648438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Crystal-Leigh Clitheroe,",
+      "text": "Crystal-Leigh Clitheroe,"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.696998596191406,
+            "t": 609.3680419921875,
+            "r": 172.302001953125,
+            "b": 602.9140014648438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Australian National University, Australia",
+      "text": "Australian National University, Australia"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.75449752807617,
+            "t": 593.0054931640625,
+            "r": 104.30339813232422,
+            "b": 588.9135131835938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "*CORRESPONDENCE",
+      "text": "*CORRESPONDENCE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.85099792480469,
+            "t": 584.9650268554688,
+            "r": 101.14700317382812,
+            "b": 579.302001953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Joost M. Bakker,",
+      "text": "Joost M. Bakker,"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.111000061035156,
+            "t": 575.9650268554688,
+            "r": 137.59799194335938,
+            "b": 569.5390014648438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "joost@scicomvisuals.com",
+      "text": "joost@scicomvisuals.com"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.10099792480469,
+            "t": 561.6109619140625,
+            "r": 138.62600708007812,
+            "b": 556.4519653320312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "RECEIVED 22 November 2025",
+      "text": "RECEIVED 22 November 2025"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.61149978637695,
+            "t": 552.6449584960938,
+            "r": 134.468994140625,
+            "b": 537.1339721679688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "REVISED 22 December 2025 ACCEPTED 20 January 2026",
+      "text": "REVISED 22 December 2025 ACCEPTED 20 January 2026"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.10099792480469,
+            "t": 534.7139892578125,
+            "r": 135.94601440429688,
+            "b": 528.1690063476562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "PUBLISHED 13 February 2026",
+      "text": "PUBLISHED 13 February 2026"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.83149719238281,
+            "t": 517.761474609375,
+            "r": 74.80695343017578,
+            "b": 513.6694946289062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "CITATION",
+      "text": "CITATION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.696998596191406,
+            "t": 509.9049987792969,
+            "r": 191.46099853515625,
+            "b": 450.5360107421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            244
+          ]
+        }
+      ],
+      "orig": "Bakker JM, Janse D, van Overbruggen M and van der Sanden MCA (2026) From signal overload to shared insight: creating and structuring scientific visuals for comprehension and dialogue. Front. Bioinform. 6:1752027. doi: 10.3389/fbinf.2026.1752027",
+      "text": "Bakker JM, Janse D, van Overbruggen M and van der Sanden MCA (2026) From signal overload to shared insight: creating and structuring scientific visuals for comprehension and dialogue. Front. Bioinform. 6:1752027. doi: 10.3389/fbinf.2026.1752027"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.83149719238281,
+            "t": 440.8764953613281,
+            "r": 81.70944213867188,
+            "b": 436.7845153808594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "COPYRIGHT",
+      "text": "COPYRIGHT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.696998596191406,
+            "t": 432.927001953125,
+            "r": 195.87103271484375,
+            "b": 327.3819885253906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            506
+          ]
+        }
+      ],
+      "orig": "\u00a9 2026 Bakker, Janse, van Overbruggen and van der Sanden. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+      "text": "\u00a9 2026 Bakker, Janse, van Overbruggen and van der Sanden. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 441.6360168457031,
+            "t": 806.592041015625,
+            "r": 528.7650146484375,
+            "b": 784.0585327148438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            47
+          ]
+        }
+      ],
+      "orig": "TYPE Perspective PUBLISHED 13 February 2026 DOI",
+      "text": "TYPE Perspective PUBLISHED 13 February 2026 DOI"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 456.2430114746094,
+            "t": 789.3900146484375,
+            "r": 544.7369995117188,
+            "b": 783.83203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "10.3389/fbinf.2026.1752027",
+      "text": "10.3389/fbinf.2026.1752027"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 222.56900024414062,
+            "t": 710.2750244140625,
+            "r": 531.0798950195312,
+            "b": 615.8290405273438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": "From signal overload to shared insight: creating and structuring scientific visuals for comprehension and dialogue",
+      "text": "From signal overload to shared insight: creating and structuring scientific visuals for comprehension and dialogue",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 223.2100067138672,
+            "t": 595.7999267578125,
+            "r": 547.4459838867188,
+            "b": 571.6060180664062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "Joost M. Bakker 1\r\n* , Dirma Janse 2 , Martijn van Overbruggen 3 and Maarten C. A. van der Sanden 4",
+      "text": "Joost M. Bakker 1\r\n* , Dirma Janse 2 , Martijn van Overbruggen 3 and Maarten C. A. van der Sanden 4"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 222.65748596191406,
+            "t": 561.1860961914062,
+            "r": 543.2009887695312,
+            "b": 544.9609985351562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            192
+          ]
+        }
+      ],
+      "orig": "1 Scicomvisuals BV, Amsterdam, Netherlands, 2 Studio Dirma Janse, Amsterdam, Netherlands, 3 Neurath Visuele Communicatie, The Hague, Netherlands, 4 Ontwerpatelier LUS, Serooskerke, Netherlands",
+      "text": "1 Scicomvisuals BV, Amsterdam, Netherlands, 2 Studio Dirma Janse, Amsterdam, Netherlands, 3 Neurath Visuele Communicatie, The Hague, Netherlands, 4 Ontwerpatelier LUS, Serooskerke, Netherlands"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 222.07701110839844,
+            "t": 507.19500732421875,
+            "r": 545.5816040039062,
+            "b": 258.8429870605469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1553
+          ]
+        }
+      ],
+      "orig": "Effective communication of scientific content can be challenging due to cognitive overload. This is experienced especially during conferences and poster presentations, where the presence of competing stimuli limits message retention. Scientific visuals offer a means to overcome this limitation by emphasizing the essential components of a narrative in a form that is rapidly and intuitively processed. Rather than serving primarily as demonstrations of complexity or markers of personal accomplishment, scientific visuals should function as tools for idea exchange, enabling broader comprehension and facilitating dialogue. The Gestalt principles are an important guide for the visual creation process. These perceptual principles exploit pre-attentive processing mechanisms that allow viewers to extract essential structure and meaning immediately with minimal conscious effort. Effective development of scientific visuals can be approached in three stages: an initial sketch phase, focused on defining the core content and refining the central message, followed by a design phase and refinement phase, in which form, layout and color are used according to perceptual principles. This structured process ensures that complex narratives can be communicated with clarity and precision. By prioritizing cognitive accessibility over ornamental design, visuals become a central and intrinsic component of scientific discourse, supporting insight generation, fostering dialogue, and contributing to collaborative learning and consecutive knowledge building.",
+      "text": "Effective communication of scientific content can be challenging due to cognitive overload. This is experienced especially during conferences and poster presentations, where the presence of competing stimuli limits message retention. Scientific visuals offer a means to overcome this limitation by emphasizing the essential components of a narrative in a form that is rapidly and intuitively processed. Rather than serving primarily as demonstrations of complexity or markers of personal accomplishment, scientific visuals should function as tools for idea exchange, enabling broader comprehension and facilitating dialogue. The Gestalt principles are an important guide for the visual creation process. These perceptual principles exploit pre-attentive processing mechanisms that allow viewers to extract essential structure and meaning immediately with minimal conscious effort. Effective development of scientific visuals can be approached in three stages: an initial sketch phase, focused on defining the core content and refining the central message, followed by a design phase and refinement phase, in which form, layout and color are used according to perceptual principles. This structured process ensures that complex narratives can be communicated with clarity and precision. By prioritizing cognitive accessibility over ornamental design, visuals become a central and intrinsic component of scientific discourse, supporting insight generation, fostering dialogue, and contributing to collaborative learning and consecutive knowledge building."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 222.4550018310547,
+            "t": 241.36949157714844,
+            "r": 252.3474578857422,
+            "b": 237.27749633789062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "KEYWORDS",
+      "text": "KEYWORDS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 222.17520141601562,
+            "t": 228.39251708984375,
+            "r": 545.171875,
+            "b": 210.771240234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            124
+          ]
+        }
+      ],
+      "orig": "audiences, comprehension, dialogue, gestalt principles, infographics (information design), presentations, scientific visuals",
+      "text": "audiences, comprehension, dialogue, gestalt principles, infographics (information design), presentations, scientific visuals"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 223.25601196289062,
+            "t": 188.54849243164062,
+            "r": 299.7064514160156,
+            "b": 178.7205047607422,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Introduction",
+      "text": "Introduction",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 222.2021026611328,
+            "t": 161.52169799804688,
+            "r": 545.6731567382812,
+            "b": 69.61560821533203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            715
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 805.281982421875,
+            "r": 545.52099609375,
+            "b": 799.7100219726562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            716,
+            756
+          ]
+        }
+      ],
+      "orig": "People attending multi-day scientific and business conferences often face time-pressured schedules filled with presentations, one-to-one meetings, and poster sessions. In addition, mobile phones demanding constant attention further contribute to unnecessary distraction (Skowronek et al., 2023). Although the human brain can selectively focus on relevant information and flexibly shift attention in dynamic environments (Belledonne et al., 2025), cognitive overload experienced during such events may limit the effective uptake and retention of scientific content (Bawden and Robinson, 2008; Roetzel, 2019). Effective visual representations and information graphics can alleviate cognitive constraints by distilling Bakker et\u00a0al. 10.3389/fbinf.2026.1752027",
+      "text": "People attending multi-day scientific and business conferences often face time-pressured schedules filled with presentations, one-to-one meetings, and poster sessions. In addition, mobile phones demanding constant attention further contribute to unnecessary distraction (Skowronek et al., 2023). Although the human brain can selectively focus on relevant information and flexibly shift attention in dynamic environments (Belledonne et al., 2025), cognitive overload experienced during such events may limit the effective uptake and retention of scientific content (Bawden and Robinson, 2008; Roetzel, 2019). Effective visual representations and information graphics can alleviate cognitive constraints by distilling Bakker et\u00a0al. 10.3389/fbinf.2026.1752027"
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 40.552001953125,
+            "r": 134.7119903564453,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Frontiers in Bioinformatics",
+      "text": "Frontiers in Bioinformatics"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 294.1800231933594,
+            "t": 40.60100173950195,
+            "r": 301.3480224609375,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "01",
+      "text": "01"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 499.62298583984375,
+            "t": 40.552001953125,
+            "r": 545.136962890625,
+            "b": 34.03499984741211,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "frontiersin.org",
+      "text": "frontiersin.org"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.84809112548828,
+            "t": 759.9026489257812,
+            "r": 290.11126708984375,
+            "b": 715.255615234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "intricate scientific concepts into accessible, salient formats that facilitate rapid intuitive understanding, enhance memorability, and distinguish key information from surrounding content (Ware, 2008; Healey and Enns, 2012).",
+      "text": "intricate scientific concepts into accessible, salient formats that facilitate rapid intuitive understanding, enhance memorability, and distinguish key information from surrounding content (Ware, 2008; Healey and Enns, 2012)."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.68669509887695,
+            "t": 712.07763671875,
+            "r": 289.94091796875,
+            "b": 643.517578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            340
+          ]
+        }
+      ],
+      "orig": "When creating scientific visuals for presentation, it is essential to analyze the composition of the audience, as this strongly influences the structure and complexity of the visuals. Conference audiences are typically composed of individuals with varying levels of expertise, commonly falling into three categories (Dingwall et al., 2025).",
+      "text": "When creating scientific visuals for presentation, it is essential to analyze the composition of the audience, as this strongly influences the structure and complexity of the visuals. Conference audiences are typically composed of individuals with varying levels of expertise, commonly falling into three categories (Dingwall et al., 2025)."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 62.14381408691406,
+            "t": 628.402587890625,
+            "r": 290.3471374511719,
+            "b": 559.97705078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            324
+          ]
+        }
+      ],
+      "orig": "\u00b7 The primary audience consists of domain experts, mainly scientists in the presenter's field, who constitute a small minority. These individuals are likely familiar with the presenter's work and share a common conceptual framework. They can be very helpful with further deepening and specifying the topic that is presented.",
+      "text": "The primary audience consists of domain experts, mainly scientists in the presenter's field, who constitute a small minority. These individuals are likely familiar with the presenter's work and share a common conceptual framework. They can be very helpful with further deepening and specifying the topic that is presented.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 62.14381408691406,
+            "t": 556.6646118164062,
+            "r": 290.339111328125,
+            "b": 512.1520385742188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            197
+          ]
+        }
+      ],
+      "orig": "\u00b7 The secondary audience is formed by scientists from related but distinct fields. This group often represents the majority of attendees and may approach the research from alternative perspectives.",
+      "text": "The secondary audience is formed by scientists from related but distinct fields. This group often represents the majority of attendees and may approach the research from alternative perspectives.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 62.14381408691406,
+            "t": 508.838623046875,
+            "r": 291.0017395019531,
+            "b": 476.130615234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            178
+          ]
+        }
+      ],
+      "orig": "\u00b7 The hidden audience are often individuals attending out of curiosity, with limited or unrelated expertise. While a minority, they may offer innovative, out-of-the-box insights.",
+      "text": "The hidden audience are often individuals attending out of curiosity, with limited or unrelated expertise. While a minority, they may offer innovative, out-of-the-box insights.",
+      "enumerated": false,
+      "marker": "\u00b7"
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.66876220703125,
+            "t": 460.9967041015625,
+            "r": 290.33538818359375,
+            "b": 69.61560821533203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2123
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 305.1697692871094,
+            "t": 759.9046630859375,
+            "r": 545.6122436523438,
+            "b": 727.2476196289062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            2124,
+            2252
+          ]
+        }
+      ],
+      "orig": "Presenters generally aim to persuade, inform, or entertain their audience, to capture attention and foster engagement, curiosity, and inspiration (Dingwall et al., 2025). However, during preparation many presenters struggle to consider the needs of their audience. In the pursuit of credibility (MacIntosh-Murray, 2007), it may be tempting to fill the presentation with technical depth, publications, or experimental complexity, but neglecting broader accessibility (Pedwell et al., 2017). Such presentations risk alienating all three types of audience, reducing engagement and comprehension. Consequently, much of the communicated information is missed by most, and this is an outcome that should not be acceptable in any presentation. We believe that with careful preparation, presentations can be designed to enhance comprehension across all three types of audiences, fostering dialogue, collaboration, and mutual insight (Corwin et al., 2018; Hutchins, 2020). While refining the design and interpretability of infographics (Guo et al., 2023) undoubtedly enhances understanding, such improvements alone may fall short of actively promoting dialogue and collaborative exchange. We align with Pedwell et al. (2017) in recognizing that audience comprehension is a fundamental objective of poster development. However, we advocate for a broader perspective: presentations should function not merely as vessels for information, but as dynamic platforms for two-way engagement, tools that invite and sustain dialogue rather than simply display. Interestingly, David Bohm, a renowned physicist and philosopher, believed that the strength of dialogue lies in its ability to reveal the hidden assumptions and collective thought patterns that shape our perceptions and interactions. In On Dialogue (Bohm and Nichol, 1996) he defines true dialogue as a collective inquiry into ideas, where the focus shifts from persuasion to shared exploration and learning. According to Bohm, this approach encourages collective knowing and reveals deeper patterns of thought, enabling participants to move beyond individual perspectives. For all types of audience visual design can be a strong entry point to enhance the quality of conversation and hence knowledge building.",
+      "text": "Presenters generally aim to persuade, inform, or entertain their audience, to capture attention and foster engagement, curiosity, and inspiration (Dingwall et al., 2025). However, during preparation many presenters struggle to consider the needs of their audience. In the pursuit of credibility (MacIntosh-Murray, 2007), it may be tempting to fill the presentation with technical depth, publications, or experimental complexity, but neglecting broader accessibility (Pedwell et al., 2017). Such presentations risk alienating all three types of audience, reducing engagement and comprehension. Consequently, much of the communicated information is missed by most, and this is an outcome that should not be acceptable in any presentation. We believe that with careful preparation, presentations can be designed to enhance comprehension across all three types of audiences, fostering dialogue, collaboration, and mutual insight (Corwin et al., 2018; Hutchins, 2020). While refining the design and interpretability of infographics (Guo et al., 2023) undoubtedly enhances understanding, such improvements alone may fall short of actively promoting dialogue and collaborative exchange. We align with Pedwell et al. (2017) in recognizing that audience comprehension is a fundamental objective of poster development. However, we advocate for a broader perspective: presentations should function not merely as vessels for information, but as dynamic platforms for two-way engagement, tools that invite and sustain dialogue rather than simply display. Interestingly, David Bohm, a renowned physicist and philosopher, believed that the strength of dialogue lies in its ability to reveal the hidden assumptions and collective thought patterns that shape our perceptions and interactions. In On Dialogue (Bohm and Nichol, 1996) he defines true dialogue as a collective inquiry into ideas, where the focus shifts from persuasion to shared exploration and learning. According to Bohm, this approach encourages collective knowing and reveals deeper patterns of thought, enabling participants to move beyond individual perspectives. For all types of audience visual design can be a strong entry point to enhance the quality of conversation and hence knowledge building."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 305.0980224609375,
+            "t": 724.086669921875,
+            "r": 546.4998779296875,
+            "b": 489.2466735839844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1270
+          ]
+        }
+      ],
+      "orig": "Scientific visuals and information graphics that capture the essence of the message while omitting extraneous details that merely showcase expertise can truly have a huge effect on understanding and insight. Interestingly, infographics originally developed to help experts communicate with management also improved experts' own insight (personal observation). In collaborative design processes, abstract representations such as diagrams or models are often used to integrate distributed knowledge and reveal interdependencies (Alexiou and Zamenopoulos, 2008). This approach is central to managing complexity in collaborative design and is a cornerstone of design thinking, where visual tools help stakeholders articulate and share their understanding of complex systems (Pira et al., 2024). For instance, in a Master course 'Communication design for innovation' developed at Delft University of Technology, students were taught to create abstract visuals and logos as part of real-life organizational projects. Through abstraction, they learned to distill the essence of complex problems, facilitating shared understanding among various stakeholders and leading to effective implementation of new strategies through dialogue instead of persuasion (personal observation).",
+      "text": "Scientific visuals and information graphics that capture the essence of the message while omitting extraneous details that merely showcase expertise can truly have a huge effect on understanding and insight. Interestingly, infographics originally developed to help experts communicate with management also improved experts' own insight (personal observation). In collaborative design processes, abstract representations such as diagrams or models are often used to integrate distributed knowledge and reveal interdependencies (Alexiou and Zamenopoulos, 2008). This approach is central to managing complexity in collaborative design and is a cornerstone of design thinking, where visual tools help stakeholders articulate and share their understanding of complex systems (Pira et al., 2024). For instance, in a Master course 'Communication design for innovation' developed at Delft University of Technology, students were taught to create abstract visuals and logos as part of real-life organizational projects. Through abstraction, they learned to distill the essence of complex problems, facilitating shared understanding among various stakeholders and leading to effective implementation of new strategies through dialogue instead of persuasion (personal observation)."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 305.1697692871094,
+            "t": 485.3056945800781,
+            "r": 545.8363647460938,
+            "b": 286.2826843261719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1017
+          ]
+        }
+      ],
+      "orig": "Graphic design is a powerful discipline for visual communication, combining aesthetics and meaning to convey ideas effectively. By arranging visual elements such as typography, color, imagery, layout, and iconography, designers create meaningful structures that guide interpretation. Renowned graphic designers, including Saul Bass, Alan Fletcher, Karel Martens, Malika Favre, and Noma Bar, skillfully apply Gestalt principles (e.g., proximity, similarity, closure, and common region), which describe how humans naturally perceive and group visual elements (reviewed by Wagemans et al., 2012). These principles are grounded in pre-attentive processing, the brain's ability to rapidly and automatically detect visual features such as color, shape, and position within a few hundred milliseconds (Treisman, 1985; Treisman and Gormican, 1988). This process enables efficient perception and comprehension in complex visual environments and is extensively described in Colin Ware's Visual Thinking for Design (Ware, 2008).",
+      "text": "Graphic design is a powerful discipline for visual communication, combining aesthetics and meaning to convey ideas effectively. By arranging visual elements such as typography, color, imagery, layout, and iconography, designers create meaningful structures that guide interpretation. Renowned graphic designers, including Saul Bass, Alan Fletcher, Karel Martens, Malika Favre, and Noma Bar, skillfully apply Gestalt principles (e.g., proximity, similarity, closure, and common region), which describe how humans naturally perceive and group visual elements (reviewed by Wagemans et al., 2012). These principles are grounded in pre-attentive processing, the brain's ability to rapidly and automatically detect visual features such as color, shape, and position within a few hundred milliseconds (Treisman, 1985; Treisman and Gormican, 1988). This process enables efficient perception and comprehension in complex visual environments and is extensively described in Colin Ware's Visual Thinking for Design (Ware, 2008)."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 305.18768310546875,
+            "t": 282.3417053222656,
+            "r": 545.6749877929688,
+            "b": 237.74661254882812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            202
+          ]
+        }
+      ],
+      "orig": "Leveraging pre-attentive attributes is crucial for effective information visualization. In full agreement with Ware (2008) , we propose three fundamental design principles for constructing infographics:",
+      "text": "Leveraging pre-attentive attributes is crucial for effective information visualization. In full agreement with Ware (2008) , we propose three fundamental design principles for constructing infographics:"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 310.9453125,
+            "t": 228.60769653320312,
+            "r": 545.6134033203125,
+            "b": 208.0430450439453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            89
+          ]
+        }
+      ],
+      "orig": "A. Minimize visual clutter by using clear, distinct patterns and a limited color palette.",
+      "text": "Minimize visual clutter by using clear, distinct patterns and a limited color palette.",
+      "enumerated": true,
+      "marker": "A."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 312.164794921875,
+            "t": 204.7296905517578,
+            "r": 545.3445434570312,
+            "b": 184.01260375976562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "B. Utilize pre-attentive attributes (e.g., color, size, orientation) to make key patterns immediately recognizable.",
+      "text": "Utilize pre-attentive attributes (e.g., color, size, orientation) to make key patterns immediately recognizable.",
+      "enumerated": true,
+      "marker": "B."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 311.3935241699219,
+            "t": 180.85169982910156,
+            "r": 545.5684814453125,
+            "b": 160.1345977783203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            118
+          ]
+        }
+      ],
+      "orig": "C. Organize information hierarchically, grouping related elements and using spatial layout to highlight relationships.",
+      "text": "Organize information hierarchically, grouping related elements and using spatial layout to highlight relationships.",
+      "enumerated": true,
+      "marker": "C."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 305.7550048828125,
+            "t": 130.01950073242188,
+            "r": 491.0153503417969,
+            "b": 104.9225082397461,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            51
+          ]
+        }
+      ],
+      "orig": "Creating and constructing an \r\nifhi g \r\ninfographic",
+      "text": "Creating and constructing an \r\nifhi g \r\ninfographic",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 305.2594299316406,
+            "t": 90.35062408447266,
+            "r": 545.4381713867188,
+            "b": 69.76803588867188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "The design process typically proceeds in three phases (see also Pettersson, 2010):",
+      "text": "The design process typically proceeds in three phases (see also Pettersson, 2010):"
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 40.552001953125,
+            "r": 134.7119903564453,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Frontiers in Bioinformatics",
+      "text": "Frontiers in Bioinformatics"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 293.8890075683594,
+            "t": 40.60100173950195,
+            "r": 301.4280090332031,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "02",
+      "text": "02"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 499.62298583984375,
+            "t": 40.552001953125,
+            "r": 545.136962890625,
+            "b": 34.03499984741211,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "frontiersin.org",
+      "text": "frontiersin.org"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 805.281982421875,
+            "r": 545.52099609375,
+            "b": 799.7100219726562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "Bakker et\u00a0al. 10.3389/fbinf.2026.1752027",
+      "text": "Bakker et\u00a0al. 10.3389/fbinf.2026.1752027"
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 62.15599822998047,
+            "t": 212.69149780273438,
+            "r": 85.28346252441406,
+            "b": 208.59950256347656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "FIGURE 1",
+      "text": "FIGURE 1",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/pictures/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 61.709999084472656,
+            "t": 206.18800354003906,
+            "r": 541.10498046875,
+            "b": 100.69200134277344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1761
+          ]
+        }
+      ],
+      "orig": "The different phases in creating and constructing an infographic. The aim of this figure was to show the contribution of different cells in the tumor micro-environment with respect to the production of interleukin-1 alpha (IL-1\u03b1) and IL-1\u03b2, leading to enhanced tumor growth. In addition, a distinction had to be made between tumor cells and tumor-associated stromal cells. The information for this figure was obtained from Baker et al. (2019) , R\u00e9b\u00e9 and Ghiringhelli. (2020) , Gelfo et al. (2020) . (A) In phase one of the process, a sketch was developed that showcase the core constituents of the different interactions at play. (B) In phase two of the process, the different constituents were visually developed. A font was chosen, which was easy to read and which included Greek characters. Contrasting colors were chosen so that differences were also seen by colorblind viewers. Robust graphic representations of cells were developed with minimal clutter. Arrow lines were dashed to give enough contrast with the other elements. (C). In phase three the complete figure was created, with a clear difference in color and space between the tumor-associated stromal cells in orange shades and the tumor cell in blue shades. The macrophage and the tumor cell, as main producers of IL-1\u03b2 and IL-1\u03b1, were placed at opposite sites to further balance the figure. There was no visual need to use additional colors to discriminate between the IL-1 effects, because the colors of the cells mostly matched the production of both IL-1 family members. The colored quadrant was added to emphasize a feature of IL-1\u03b1 that seemed to be specific for breast cancer cells. Abbreviations: Treg \u2013 regulatory T cell, MDSC \u2013 myeloid derived suppressor cell, Tkiller \u2013 killer T cell.",
+      "text": "The different phases in creating and constructing an infographic. The aim of this figure was to show the contribution of different cells in the tumor micro-environment with respect to the production of interleukin-1 alpha (IL-1\u03b1) and IL-1\u03b2, leading to enhanced tumor growth. In addition, a distinction had to be made between tumor cells and tumor-associated stromal cells. The information for this figure was obtained from Baker et al. (2019) , R\u00e9b\u00e9 and Ghiringhelli. (2020) , Gelfo et al. (2020) . (A) In phase one of the process, a sketch was developed that showcase the core constituents of the different interactions at play. (B) In phase two of the process, the different constituents were visually developed. A font was chosen, which was easy to read and which included Greek characters. Contrasting colors were chosen so that differences were also seen by colorblind viewers. Robust graphic representations of cells were developed with minimal clutter. Arrow lines were dashed to give enough contrast with the other elements. (C). In phase three the complete figure was created, with a clear difference in color and space between the tumor-associated stromal cells in orange shades and the tumor cell in blue shades. The macrophage and the tumor cell, as main producers of IL-1\u03b2 and IL-1\u03b1, were placed at opposite sites to further balance the figure. There was no visual need to use additional colors to discriminate between the IL-1 effects, because the colors of the cells mostly matched the production of both IL-1 family members. The colored quadrant was added to emphasize a feature of IL-1\u03b1 that seemed to be specific for breast cancer cells. Abbreviations: Treg \u2013 regulatory T cell, MDSC \u2013 myeloid derived suppressor cell, Tkiller \u2013 killer T cell."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 40.552001953125,
+            "r": 134.7119903564453,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Frontiers in Bioinformatics",
+      "text": "Frontiers in Bioinformatics"
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 293.9070129394531,
+            "t": 40.60100173950195,
+            "r": 301.40399169921875,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "03",
+      "text": "03"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 499.62298583984375,
+            "t": 40.552001953125,
+            "r": 545.136962890625,
+            "b": 34.03499984741211,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "frontiersin.org",
+      "text": "frontiersin.org"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 805.281982421875,
+            "r": 545.52099609375,
+            "b": 799.7100219726562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "Bakker et\u00a0al. 10.3389/fbinf.2026.1752027",
+      "text": "Bakker et\u00a0al. 10.3389/fbinf.2026.1752027"
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 62.15599822998047,
+            "t": 159.17250061035156,
+            "r": 85.49795532226562,
+            "b": 155.08050537109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "FIGURE 2",
+      "text": "FIGURE 2",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/pictures/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "caption",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 61.90599822998047,
+            "t": 152.7169952392578,
+            "r": 284.99603271484375,
+            "b": 92.17200469970703,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            469
+          ]
+        }
+      ],
+      "orig": "On using colors. This figure of a local vascularized tumor was developed to demonstrate the power of color contrast and luminance to effectively guide attention. (A) With the blood vessel in red shades and the target cell in green shades, it can be confusing to quickly focus. (B) Following the design principles, the target cell in this example is immediately recognizable. (C) A multi-color visualization could make it extremely difficult to focus on the target cell.",
+      "text": "On using colors. This figure of a local vascularized tumor was developed to demonstrate the power of color contrast and luminance to effectively guide attention. (A) With the blood vessel in red shades and the target cell in green shades, it can be confusing to quickly focus. (B) Following the design principles, the target cell in this example is immediately recognizable. (C) A multi-color visualization could make it extremely difficult to focus on the target cell."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 306.2590026855469,
+            "t": 762.0859985351562,
+            "r": 452.69500732421875,
+            "b": 753.2899780273438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Phase 1: content definition",
+      "text": "Phase 1: content definition",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 305.2504577636719,
+            "t": 735.99365234375,
+            "r": 545.8453369140625,
+            "b": 535.9326171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1105
+          ]
+        }
+      ],
+      "orig": "Start with defining the core message you want to convey to your audience. Then decide which of the data is truly relevant and help to convey this message. Adopt a critical perspective\u2014ask whether each piece of information is essential to understanding the core message. Another way to find the essence could be to explain the topic to a non-expert, or to condense it into a 1-min\u00a0summary talk. Decide whether the information is best presented as a single visual representation or as a sequence of panels (e.g., a strip-like format). When you are to present a more abstract subject, use of metaphors is an option too. However, keep in mind that metaphors are inherently imperfect, as mismatches between the source and target concepts are inevitable. While they can clarify complex scientific ideas, they may also impose limiting or misleading frameworks (Taylor and Dewsbury, 2018). Draft an initial sketch of all components (for example, see Figure\u00a01A) and reassess which elements are truly necessary for comprehension and dialogue. Feedback from colleagues at this or the next phases is often invaluable.",
+      "text": "Start with defining the core message you want to convey to your audience. Then decide which of the data is truly relevant and help to convey this message. Adopt a critical perspective\u2014ask whether each piece of information is essential to understanding the core message. Another way to find the essence could be to explain the topic to a non-expert, or to condense it into a 1-min\u00a0summary talk. Decide whether the information is best presented as a single visual representation or as a sequence of panels (e.g., a strip-like format). When you are to present a more abstract subject, use of metaphors is an option too. However, keep in mind that metaphors are inherently imperfect, as mismatches between the source and target concepts are inevitable. While they can clarify complex scientific ideas, they may also impose limiting or misleading frameworks (Taylor and Dewsbury, 2018). Draft an initial sketch of all components (for example, see Figure\u00a01A) and reassess which elements are truly necessary for comprehension and dialogue. Feedback from colleagues at this or the next phases is often invaluable."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 306.2590026855469,
+            "t": 511.0159912109375,
+            "r": 433.86700439453125,
+            "b": 502.1360168457031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "Phase 2: visual creation",
+      "text": "Phase 2: visual creation",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 305.18768310546875,
+            "t": 484.8406982421875,
+            "r": 545.5763549804688,
+            "b": 284.9320373535156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1096
+          ]
+        }
+      ],
+      "orig": "In the second phase of the design process, the essential visual elements are created (for example, see Figure\u00a01B). In accordance with the principles of pre-attentive processing, these elements should be clear, distinctive, and free from visual clutter. When multiple illustrations are developed to construct a visual narrative, maintaining design consistency across all figures is essential to ensure coherence and facilitate recognition. The resulting graphical components form a visual language that enables the different types of audience to readily identify patterns and follow the logical progression of the argument. Excessive detail reduces legibility and hinders comprehension; therefore, graphical forms should remain as robust as possible to maximize clarity. The same principle applies to the use of color, which should serve at first instance to enhance understanding and direct attention rather than for purely decorative purposes. Color contrast (luminance) is a key determinant of visual focus and can be used effectively to highlight critical aspects of the presented information.",
+      "text": "In the second phase of the design process, the essential visual elements are created (for example, see Figure\u00a01B). In accordance with the principles of pre-attentive processing, these elements should be clear, distinctive, and free from visual clutter. When multiple illustrations are developed to construct a visual narrative, maintaining design consistency across all figures is essential to ensure coherence and facilitate recognition. The resulting graphical components form a visual language that enables the different types of audience to readily identify patterns and follow the logical progression of the argument. Excessive detail reduces legibility and hinders comprehension; therefore, graphical forms should remain as robust as possible to maximize clarity. The same principle applies to the use of color, which should serve at first instance to enhance understanding and direct attention rather than for purely decorative purposes. Color contrast (luminance) is a key determinant of visual focus and can be used effectively to highlight critical aspects of the presented information."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 306.2590026855469,
+            "t": 259.718994140625,
+            "r": 480.2110595703125,
+            "b": 248.7270050048828,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "Phase 3: structural composition",
+      "text": "Phase 3: structural composition",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 305.2594299316406,
+            "t": 233.6876983642578,
+            "r": 545.8416137695312,
+            "b": 177.2410430908203,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            291
+          ]
+        }
+      ],
+      "orig": "Arrange the visual in such a way that related information is easily grouped and recognized (Figure\u00a01C), with the aim to quickly guide the viewer through the visual. Use consistent color schemes, spatial alignment, arrows, and minimal text to guide interpretation and emphasize relationships.",
+      "text": "Arrange the visual in such a way that related information is easily grouped and recognized (Figure\u00a01C), with the aim to quickly guide the viewer through the visual. Use consistent color schemes, spatial alignment, arrows, and minimal text to guide interpretation and emphasize relationships."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 305.7550048828125,
+            "t": 152.46849060058594,
+            "r": 425.8104248046875,
+            "b": 142.47850036621094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "On the use of color",
+      "text": "On the use of color",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 305.1697692871094,
+            "t": 125.19969177246094,
+            "r": 545.576416015625,
+            "b": 80.7080307006836,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            258
+          ]
+        },
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 805.281982421875,
+            "r": 545.52099609375,
+            "b": 799.7100219726562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            259,
+            299
+          ]
+        }
+      ],
+      "orig": "Colors are also conventionally used to represent specific elements, for example, red for blood, green for vegetation, and blue for water. Furthermore, its interpretation might vary across cultural and personal contexts (Kawai et al., 2022) and relate to both Bakker et\u00a0al. 10.3389/fbinf.2026.1752027",
+      "text": "Colors are also conventionally used to represent specific elements, for example, red for blood, green for vegetation, and blue for water. Furthermore, its interpretation might vary across cultural and personal contexts (Kawai et al., 2022) and relate to both Bakker et\u00a0al. 10.3389/fbinf.2026.1752027"
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 40.552001953125,
+            "r": 134.7119903564453,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Frontiers in Bioinformatics",
+      "text": "Frontiers in Bioinformatics"
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 293.77001953125,
+            "t": 40.60100173950195,
+            "r": 301.666015625,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "04",
+      "text": "04"
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 499.62298583984375,
+            "t": 40.552001953125,
+            "r": 545.136962890625,
+            "b": 34.03499984741211,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "frontiersin.org",
+      "text": "frontiersin.org"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.758426666259766,
+            "t": 759.9046630859375,
+            "r": 290.09259033203125,
+            "b": 727.4105834960938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "positive and negative emotions (Wilson, 1966; Mehta and Zhu, 2009; Chang et al., 2018; Jonauskait\u0117 and Mohr, 2025), thereby further complicating their interpretative use in design.",
+      "text": "positive and negative emotions (Wilson, 1966; Mehta and Zhu, 2009; Chang et al., 2018; Jonauskait\u0117 and Mohr, 2025), thereby further complicating their interpretative use in design."
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.66876220703125,
+            "t": 724.3316650390625,
+            "r": 290.1740417480469,
+            "b": 492.45635986328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1280
+          ]
+        }
+      ],
+      "orig": "However, adhering too rigidly to symbolic or cultural associations may detract from the clarity and focus of the intended message. For example, a bright red blood vessel depicted among mostly grey cells will immediately attract the viewer's attention (Figure\u00a02A). If the focus should not be on the blood vessel but instead be directed toward the green cell (the target cell in our example), the red blood vessel may distract the viewer. In such cases, assigning a more subdued tone to the blood vessel (or grey in our example) and even using a saturated red to highlight the target cell is more effective (Figure\u00a02B). We believe viewers are well able to analyze colors in relation to their context, and in our example will understand the target cell was made red solely for the purpose of attention. Furthermore, the number of colors employed should be kept to a minimum, as excessive color variation can introduce visual clutter and reduce the overall clarity of the message (Figure\u00a02C). Also, make sure to use colorblind friendly color schemes (Crameri et al., 2020). In agreement with the design principles, color contrast can be used effectively to guide attention, while allowing creative judgment to determine the optimal color scheme for conveying the intended information.",
+      "text": "However, adhering too rigidly to symbolic or cultural associations may detract from the clarity and focus of the intended message. For example, a bright red blood vessel depicted among mostly grey cells will immediately attract the viewer's attention (Figure\u00a02A). If the focus should not be on the blood vessel but instead be directed toward the green cell (the target cell in our example), the red blood vessel may distract the viewer. In such cases, assigning a more subdued tone to the blood vessel (or grey in our example) and even using a saturated red to highlight the target cell is more effective (Figure\u00a02B). We believe viewers are well able to analyze colors in relation to their context, and in our example will understand the target cell was made red solely for the purpose of attention. Furthermore, the number of colors employed should be kept to a minimum, as excessive color variation can introduce visual clutter and reduce the overall clarity of the message (Figure\u00a02C). Also, make sure to use colorblind friendly color schemes (Crameri et al., 2020). In agreement with the design principles, color contrast can be used effectively to guide attention, while allowing creative judgment to determine the optimal color scheme for conveying the intended information."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.253997802734375,
+            "t": 468.5675048828125,
+            "r": 119.99494934082031,
+            "b": 458.5775146484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "Conclusion",
+      "text": "Conclusion",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.758426666259766,
+            "t": 441.39569091796875,
+            "r": 290.34442138671875,
+            "b": 256.95135498046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1005
+          ]
+        }
+      ],
+      "orig": "When scientific visuals are created and constructed to clearly express the essence of complex ideas, they become tools for dialogue rather than mere displays of information. By prioritizing clarity, coherence, and inclusivity over detail and technical sophistication, presenters can bridge gaps between experts and non-specialists alike, enabling diverse audiences to contribute meaningfully to ongoing discussions. They allow participants to grasp relationships, patterns, and processes more intuitively, which in turn foster more informed questions, novel insights, and collaboration between different disciplines. Ultimately, effective visual design in scientific communication helps to transform the presentation from a unidirectional transfer of information into a collective process of gaining insight through comprehension and dialogue. By consciously using design principles grounded in cognitive science and visual perception, presenters can add surplus value to attending scientific conferences.",
+      "text": "When scientific visuals are created and constructed to clearly express the essence of complex ideas, they become tools for dialogue rather than mere displays of information. By prioritizing clarity, coherence, and inclusivity over detail and technical sophistication, presenters can bridge gaps between experts and non-specialists alike, enabling diverse audiences to contribute meaningfully to ongoing discussions. They allow participants to grasp relationships, patterns, and processes more intuitively, which in turn foster more informed questions, novel insights, and collaboration between different disciplines. Ultimately, effective visual design in scientific communication helps to transform the presentation from a unidirectional transfer of information into a collective process of gaining insight through comprehension and dialogue. By consciously using design principles grounded in cognitive science and visual perception, presenters can add surplus value to attending scientific conferences."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.90199661254883,
+            "t": 232.90048217773438,
+            "r": 213.45538330078125,
+            "b": 220.3994903564453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Data availability statement",
+      "text": "Data availability statement",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.758426666259766,
+            "t": 205.90863037109375,
+            "r": 290.06640625,
+            "b": 173.39759826660156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            164
+          ]
+        }
+      ],
+      "orig": "The original contributions presented in the study are included in the article/supplementary material, further inquiries can be directed to the corresponding author.",
+      "text": "The original contributions presented in the study are included in the article/supplementary material, further inquiries can be directed to the corresponding author."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.90199661254883,
+            "t": 147.98500061035156,
+            "r": 118.84745788574219,
+            "b": 138.08950805664062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "References",
+      "text": "References",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.86499786376953,
+            "t": 119.38899993896484,
+            "r": 290.12103271484375,
+            "b": 98.31099700927734,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            160
+          ]
+        }
+      ],
+      "orig": "Alexiou, K., and Zamenopoulos, T. (2008). Design as a social process: a complex systems perspective. Futures 40 (6), 586\u2013595. doi:10.1016/j.futures.2007. 11.001",
+      "text": "Alexiou, K., and Zamenopoulos, T. (2008). Design as a social process: a complex systems perspective. Futures 40 (6), 586\u2013595. doi:10.1016/j.futures.2007. 11.001"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 49.89299774169922,
+            "t": 91.4939956665039,
+            "r": 289.9110107421875,
+            "b": 76.6709976196289,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            160
+          ]
+        }
+      ],
+      "orig": "Baker, K. J., Houston, A., and Brint, E. (2019). IL-1 family members in cancer; two sides to every story. Front. Immunol. 10, 1197. doi:10.3389/fimmu.2019.01197",
+      "text": "Baker, K. J., Houston, A., and Brint, E. (2019). IL-1 family members in cancer; two sides to every story. Front. Immunol. 10, 1197. doi:10.3389/fimmu.2019.01197"
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.2149963378906,
+            "t": 763.1015014648438,
+            "r": 435.2604064941406,
+            "b": 753.2734985351562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Author contributions",
+      "text": "Author contributions",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.3401184082031,
+            "t": 735.9036865234375,
+            "r": 545.6749877929688,
+            "b": 666.8995971679688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            350
+          ]
+        }
+      ],
+      "orig": "JMB: Conceptualization, Investigation, Validation, Methodology, Data curation, Writing \u2013 review and editing, Supervision, Software, Visualization, Resources, Funding acquisition, Project administration, Formal Analysis, Writing \u2013 original draft. DJ: Writing \u2013 review and editing. MrO: Writing \u2013 review and editing. MCAS: Writing \u2013 review and editing.",
+      "text": "JMB: Conceptualization, Investigation, Validation, Methodology, Data curation, Writing \u2013 review and editing, Supervision, Software, Visualization, Resources, Funding acquisition, Project administration, Formal Analysis, Writing \u2013 original draft. DJ: Writing \u2013 review and editing. MrO: Writing \u2013 review and editing. MCAS: Writing \u2013 review and editing."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 306.4029846191406,
+            "t": 636.7144775390625,
+            "r": 354.8814697265625,
+            "b": 624.2135009765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Funding",
+      "text": "Funding",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.3490905761719,
+            "t": 609.5346069335938,
+            "r": 545.563720703125,
+            "b": 588.8460693359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            100
+          ]
+        }
+      ],
+      "orig": "The author(s) declared that financial support was not received for this work and/or its publication.",
+      "text": "The author(s) declared that financial support was not received for this work and/or its publication."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.7550048828125,
+            "t": 558.6704711914062,
+            "r": 421.7064208984375,
+            "b": 548.6804809570312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "Conflict of interest",
+      "text": "Conflict of interest",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.28631591796875,
+            "t": 531.3106689453125,
+            "r": 545.8453979492188,
+            "b": 486.5500183105469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            195
+          ]
+        }
+      ],
+      "orig": "Author JMB was employed by Scicomvisuals BV. Author DJ was employed by Studio Dirma Janse. Author MrO was employed by Neurath Visuele Communicatie. Author MCAS was employed by Ontwerpatelier LUS.",
+      "text": "Author JMB was employed by Scicomvisuals BV. Author DJ was employed by Studio Dirma Janse. Author MrO was employed by Neurath Visuele Communicatie. Author MCAS was employed by Ontwerpatelier LUS."
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.76849365234375,
+            "t": 456.3735046386719,
+            "r": 455.10540771484375,
+            "b": 446.3835144042969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "Generative AI statement",
+      "text": "Generative AI statement",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.2594299316406,
+            "t": 429.0326232910156,
+            "r": 546.4998779296875,
+            "b": 374.25238037109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            274
+          ]
+        }
+      ],
+      "orig": "The author(s) declared that generative AI was used in the creation of this manuscript. Generative AI was only to support the formal writing process in English. It was not used for the conceptualization of the article or for the retrieval or generation of scientific content.",
+      "text": "The author(s) declared that generative AI was used in the creation of this manuscript. Generative AI was only to support the formal writing process in English. It was not used for the conceptualization of the article or for the retrieval or generation of scientific content."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.1697692871094,
+            "t": 368.7886962890625,
+            "r": 545.4508666992188,
+            "b": 301.9813537597656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            306
+          ]
+        }
+      ],
+      "orig": "Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.",
+      "text": "Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us."
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 306.4029846191406,
+            "t": 269.7615051269531,
+            "r": 403.95391845703125,
+            "b": 259.7715148925781,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "Publisher's note",
+      "text": "Publisher's note",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.1697692871094,
+            "t": 242.40170288085938,
+            "r": 545.5673828125,
+            "b": 173.39759826660156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            346
+          ]
+        }
+      ],
+      "orig": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+      "text": "All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher."
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.37298583984375,
+            "t": 119.40299987792969,
+            "r": 545.3770141601562,
+            "b": 98.08699798583984,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "Bawden, D., and Robinson, L. (2008). The dark side of information: overload, anxiety and other paradoxes and pathologies. J. Inf. Sci. 35 (2), 180\u2013191. doi:10.1177/0165551508095781",
+      "text": "Bawden, D., and Robinson, L. (2008). The dark side of information: overload, anxiety and other paradoxes and pathologies. J. Inf. Sci. 35 (2), 180\u2013191. doi:10.1177/0165551508095781"
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 305.3800048828125,
+            "t": 91.4939956665039,
+            "r": 545.510009765625,
+            "b": 76.6709976196289,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "Belledonne, M., Butkus, E., Scholl, B. J., and Yildirim, I. (2025). Adaptive computation as a new mechanism of dynamic human attention. Psychol. Rev. doi:10.1037/rev0000572",
+      "text": "Belledonne, M., Butkus, E., Scholl, B. J., and Yildirim, I. (2025). Adaptive computation as a new mechanism of dynamic human attention. Psychol. Rev. doi:10.1037/rev0000572"
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 40.552001953125,
+            "r": 134.7119903564453,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Frontiers in Bioinformatics",
+      "text": "Frontiers in Bioinformatics"
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 293.9210205078125,
+            "t": 40.60100173950195,
+            "r": 301.4530029296875,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "05",
+      "text": "05"
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 499.62298583984375,
+            "t": 40.552001953125,
+            "r": 545.136962890625,
+            "b": 34.03499984741211,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "frontiersin.org",
+      "text": "frontiersin.org"
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 805.281982421875,
+            "r": 545.52099609375,
+            "b": 799.7100219726562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "Bakker et\u00a0al. 10.3389/fbinf.2026.1752027",
+      "text": "Bakker et\u00a0al. 10.3389/fbinf.2026.1752027"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 56.832000732421875,
+            "t": 758.4829711914062,
+            "r": 240.65899658203125,
+            "b": 751.6300048828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            64
+          ]
+        }
+      ],
+      "orig": "Bohm, D., and Nichol, L. (1996). On dialogue. London: Routledge.",
+      "text": "Bohm, D., and Nichol, L. (1996). On dialogue. London: Routledge."
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.82999801635742,
+            "t": 746.5549926757812,
+            "r": 290.385986328125,
+            "b": 723.85302734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            187
+          ]
+        }
+      ],
+      "orig": "Chang, B., Xu, R., and Watt, T. (2018). \"The impact of colors on learning,\" in Adult education research conference. Available online at: https://newprairiepress.org/aerc/ 2018/papers/30 .",
+      "text": "Chang, B., Xu, R., and Watt, T. (2018). \"The impact of colors on learning,\" in Adult education research conference. Available online at: https://newprairiepress.org/aerc/ 2018/papers/30 ."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.86499786376953,
+            "t": 718.6319580078125,
+            "r": 290.16998291015625,
+            "b": 695.8389892578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "Corwin, L. A., Prunuske, A., and Seidel, S. B. (2018). Scientific presenting: using evidence-based classroom practices to deliver effective conference presentations. CBE\u2014Life Sci. Educ. 17 (1), es1. doi:10.1187/cbe.17-07-0146",
+      "text": "Corwin, L. A., Prunuske, A., and Seidel, S. B. (2018). Scientific presenting: using evidence-based classroom practices to deliver effective conference presentations. CBE\u2014Life Sci. Educ. 17 (1), es1. doi:10.1187/cbe.17-07-0146"
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.86499786376953,
+            "t": 690.7510375976562,
+            "r": 289.9950256347656,
+            "b": 676.8930053710938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            155
+          ]
+        }
+      ],
+      "orig": "Crameri, F., Shephard, G. E., and Heron, P. J. (2020). The misuse of colour in science communication. Nat. Commun. 11, 5444. doi:10.1038/s41467-020-19160-7",
+      "text": "Crameri, F., Shephard, G. E., and Heron, P. J. (2020). The misuse of colour in science communication. Nat. Commun. 11, 5444. doi:10.1038/s41467-020-19160-7"
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.74599838256836,
+            "t": 670.8109741210938,
+            "r": 290.0,
+            "b": 633.5689697265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            334
+          ]
+        }
+      ],
+      "orig": "Dingwall, J. R., Labrie, C., McLennon, T., Underwood, L., and Johnson, V. (2025). Analyzing your audience. In Communication & Leadership. Pressbooks. Saskatoon, Saskatchewan, Canada: Saskatchewan Open Education Resources (SaskOER). Available online at: https://www.saskoer.ca/communication-leadership/chapter/analyzing-youraudience/ .",
+      "text": "Dingwall, J. R., Labrie, C., McLennon, T., Underwood, L., and Johnson, V. (2025). Analyzing your audience. In Communication & Leadership. Pressbooks. Saskatoon, Saskatchewan, Canada: Saskatchewan Open Education Resources (SaskOER). Available online at: https://www.saskoer.ca/communication-leadership/chapter/analyzing-youraudience/ ."
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.724998474121094,
+            "t": 626.9759521484375,
+            "r": 290.0910339355469,
+            "b": 604.1820068359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            237
+          ]
+        }
+      ],
+      "orig": "Gelfo, V., Romaniello, D., Mazzeschi, M., Sgarzi, M., Grilli, G., Morselli, A., et al. (2020). Roles of IL-1 in cancer: from tumor progression to resistance to targeted therapies. Int. J. Mol. Sci. 21 (17), 6009. doi:10.3390/ijms21176009",
+      "text": "Gelfo, V., Romaniello, D., Mazzeschi, M., Sgarzi, M., Grilli, G., Morselli, A., et al. (2020). Roles of IL-1 in cancer: from tumor progression to resistance to targeted therapies. Int. J. Mol. Sci. 21 (17), 6009. doi:10.3390/ijms21176009"
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.654998779296875,
+            "t": 599.0799560546875,
+            "r": 289.76904296875,
+            "b": 576.2869873046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            223
+          ]
+        }
+      ],
+      "orig": "Guo, B., Huuki-Myers, L. A., Grant-Peters, M., Collado-Torres, L., and Hicks, S. C. (2023). escheR: unified multi-dimensional visualizations with gestalt principles. Bioinform Adv. 3 (1), vbad179. doi:10.1093/bioadv/vbad179",
+      "text": "Guo, B., Huuki-Myers, L. A., Grant-Peters, M., Collado-Torres, L., and Hicks, S. C. (2023). escheR: unified multi-dimensional visualizations with gestalt principles. Bioinform Adv. 3 (1), vbad179. doi:10.1093/bioadv/vbad179"
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.87199783325195,
+            "t": 571.1849975585938,
+            "r": 290.009033203125,
+            "b": 549.8829956054688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            183
+          ]
+        }
+      ],
+      "orig": "Healey, C. G., and Enns, J. T. (2012). Attention and visual memory in visualization and computer graphics. IEEE Trans. Vis. Comput. Graph. 18 (7), 1170\u20131188. doi:10.1109/TVCG.2011.127",
+      "text": "Healey, C. G., and Enns, J. T. (2012). Attention and visual memory in visualization and computer graphics. IEEE Trans. Vis. Comput. Graph. 18 (7), 1170\u20131188. doi:10.1109/TVCG.2011.127"
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.808998107910156,
+            "t": 543.2890014648438,
+            "r": 290.0230712890625,
+            "b": 528.5850219726562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            162
+          ]
+        }
+      ],
+      "orig": "Hutchins, J. A. (2020). Tailoring scientific communications for audience and research narrative. Curr. Protoc. Essent. Lab. Tech. 20 (1), e40. doi:10.1002/cpet.40",
+      "text": "Hutchins, J. A. (2020). Tailoring scientific communications for audience and research narrative. Curr. Protoc. Essent. Lab. Tech. 20 (1), e40. doi:10.1002/cpet.40"
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.619998931884766,
+            "t": 523.3639526367188,
+            "r": 290.27899169921875,
+            "b": 502.06201171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            204
+          ]
+        }
+      ],
+      "orig": "Jonauskait\u0117, D., and Mohr, C. (2025). Do we feel colours? A systematic review of 128 years of psychological research linking colours and emotions. Psychonomic Bull. and Rev. doi:10.3758/s13423-024-02615-z",
+      "text": "Jonauskait\u0117, D., and Mohr, C. (2025). Do we feel colours? A systematic review of 128 years of psychological research linking colours and emotions. Psychonomic Bull. and Rev. doi:10.3758/s13423-024-02615-z"
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.724998474121094,
+            "t": 495.4830017089844,
+            "r": 289.8760070800781,
+            "b": 473.6559753417969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            220
+          ]
+        }
+      ],
+      "orig": "Kawai, C., Zhang, Y., Luk\u00e1cs, G., Chu, W., Zheng, C., Gao, C., et al. (2022). The good, the bad, and the red: implicit color-valence associations across cultures. Psychol. Res. 87, 704\u2013724. doi:10.1007/s00426-022-01697-5",
+      "text": "Kawai, C., Zhang, Y., Luk\u00e1cs, G., Chu, W., Zheng, C., Gao, C., et al. (2022). The good, the bad, and the red: implicit color-valence associations across cultures. Psychol. Res. 87, 704\u2013724. doi:10.1007/s00426-022-01697-5"
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 49.86499786376953,
+            "t": 467.572998046875,
+            "r": 289.99505615234375,
+            "b": 446.27099609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "MacIntosh-Murray, A. (2007). Poster presentations as a genre in knowledge communication: a case study of forms, norms, and values. Sci. Commun. 28, 347\u2013376. doi:10.1177/1075547006298251",
+      "text": "MacIntosh-Murray, A. (2007). Poster presentations as a genre in knowledge communication: a case study of forms, norms, and values. Sci. Commun. 28, 347\u2013376. doi:10.1177/1075547006298251"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.2259826660156,
+            "t": 758.4829711914062,
+            "r": 545.49609375,
+            "b": 743.7780151367188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            163
+          ]
+        }
+      ],
+      "orig": "Mehta, R., and Zhu, R. (2009). Blue or red? Exploring the effect of color on cognitive task performances. Science 323 (5918), 1226\u20131229. doi:10.1126/science.116914",
+      "text": "Mehta, R., and Zhu, R. (2009). Blue or red? Exploring the effect of color on cognitive task performances. Science 323 (5918), 1226\u20131229. doi:10.1126/science.116914"
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.2259826660156,
+            "t": 738.5569458007812,
+            "r": 545.593994140625,
+            "b": 709.2849731445312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            275
+          ]
+        }
+      ],
+      "orig": "Pedwell, R. K., Hardy, J. A., and Rowland, S. L. (2017). Effective visual design and communication practices for research posters: exemplars based on the theory and practice of multimedia learning and rhetoric. Biochem. Mol. Biol. Educ. 45 (3), 249\u2013261. doi:10.1002/bmb.21034",
+      "text": "Pedwell, R. K., Hardy, J. A., and Rowland, S. L. (2017). Effective visual design and communication practices for research posters: exemplars based on the theory and practice of multimedia learning and rhetoric. Biochem. Mol. Biol. Educ. 45 (3), 249\u2013261. doi:10.1002/bmb.21034"
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.8699951171875,
+            "t": 702.6919555664062,
+            "r": 545.3779907226562,
+            "b": 689.3599853515625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            133
+          ]
+        }
+      ],
+      "orig": "Pettersson, R. (2010). Information design\u2013principles and guidelines. J. Vis. Lit. 29 (2), 167\u2013182. doi:10.1080/23796529.2010.11674679",
+      "text": "Pettersson, R. (2010). Information design\u2013principles and guidelines. J. Vis. Lit. 29 (2), 167\u2013182. doi:10.1080/23796529.2010.11674679"
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.37298583984375,
+            "t": 682.7659912109375,
+            "r": 545.6710815429688,
+            "b": 659.9730224609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "Pira, M., Fleet, G., and Moir, R. (2024). Design thinking for social change: exploring stakeholder collaboration in poverty alleviation. J. Sustain. Res. 6 (3), e240037. doi:10.20900/jsr20240037",
+      "text": "Pira, M., Fleet, G., and Moir, R. (2024). Design thinking for social change: exploring stakeholder collaboration in poverty alleviation. J. Sustain. Res. 6 (3), e240037. doi:10.20900/jsr20240037"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.37298583984375,
+            "t": 654.8709716796875,
+            "r": 545.2689819335938,
+            "b": 641.5390014648438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            115
+          ]
+        }
+      ],
+      "orig": "R\u00e9b\u00e9, C., and Ghiringhelli, F. (2020). Interleukin-1\u03b2 and cancer. Cancers 12 (7), 1791. doi:10.3390/cancers12071791",
+      "text": "R\u00e9b\u00e9, C., and Ghiringhelli, F. (2020). Interleukin-1\u03b2 and cancer. Cancers 12 (7), 1791. doi:10.3390/cancers12071791"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.16998291015625,
+            "t": 634.9459838867188,
+            "r": 545.49609375,
+            "b": 605.6729736328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            278
+          ]
+        }
+      ],
+      "orig": "Roetzel, P. G. (2019). Information overload in the information age: a review of the literature from business administration, business psychology, and related disciplines with a bibliometric approach and framework development. Bus. Res. 12, 479\u2013522. doi:10.1007/s40685-018-0069-z",
+      "text": "Roetzel, P. G. (2019). Information overload in the information age: a review of the literature from business administration, business psychology, and related disciplines with a bibliometric approach and framework development. Bus. Res. 12, 479\u2013522. doi:10.1007/s40685-018-0069-z"
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.3379821777344,
+            "t": 599.093994140625,
+            "r": 545.49609375,
+            "b": 578.001953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            175
+          ]
+        }
+      ],
+      "orig": "Skowronek, J., Seifert, A., and Lindberg, S. (2023). The mere presence of a smartphone reduces basal attentional performance. Sci. Rep. 13, 9363. doi:10.1038/s41598-02336256-4",
+      "text": "Skowronek, J., Seifert, A., and Lindberg, S. (2023). The mere presence of a smartphone reduces basal attentional performance. Sci. Rep. 13, 9363. doi:10.1038/s41598-02336256-4"
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.30999755859375,
+            "t": 571.1849975585938,
+            "r": 545.6080932617188,
+            "b": 548.3920288085938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            195
+          ]
+        }
+      ],
+      "orig": "Taylor, C., and Dewsbury, B. M. (2018). On the problem and promise of metaphor use in science and science communication. J. Microbiol. and Biol. Educ. 19 (1), 19.1.46. doi:10.1128/jmbe.v19i1.1538",
+      "text": "Taylor, C., and Dewsbury, B. M. (2018). On the problem and promise of metaphor use in science and science communication. J. Microbiol. and Biol. Educ. 19 (1), 19.1.46. doi:10.1128/jmbe.v19i1.1538"
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.14898681640625,
+            "t": 543.2890014648438,
+            "r": 545.6019897460938,
+            "b": 529.0750122070312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            137
+          ]
+        }
+      ],
+      "orig": "Treisman, A. (1985). Preattentive processing in vision. Comput. Vis. Graph. Image Process. 31, 156\u2013177. doi:10.1016/s0734-189x(85)80004-9",
+      "text": "Treisman, A. (1985). Preattentive processing in vision. Comput. Vis. Graph. Image Process. 31, 156\u2013177. doi:10.1016/s0734-189x(85)80004-9"
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.39398193359375,
+            "t": 523.3639526367188,
+            "r": 545.51708984375,
+            "b": 508.541015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "Treisman, A., and Gormican, S. (1988). Feature analysis in early vision: evidence from search asymmetries. Psychol. Rev. 95 (1), 15\u201348. doi:10.1037/0033-295X.95.1.15",
+      "text": "Treisman, A., and Gormican, S. (1988). Feature analysis in early vision: evidence from search asymmetries. Psychol. Rev. 95 (1), 15\u201348. doi:10.1037/0033-295X.95.1.15"
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.281982421875,
+            "t": 503.4389953613281,
+            "r": 545.5919799804688,
+            "b": 480.64599609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            261
+          ]
+        }
+      ],
+      "orig": "Wagemans, J., Elder, J. H., Kubovy, M., Palmer, S. E., Peterson, M. A., Singh, M., et al. (2012). A century of gestalt psychology in visual perception i. Perceptual grouping and figure\u2013ground organization. Psychol. Bull. 138 (6), 1172\u20131217. doi:10.1037/a0029333",
+      "text": "Wagemans, J., Elder, J. H., Kubovy, M., Palmer, S. E., Peterson, M. A., Singh, M., et al. (2012). A century of gestalt psychology in visual perception i. Perceptual grouping and figure\u2013ground organization. Psychol. Bull. 138 (6), 1172\u20131217. doi:10.1037/a0029333"
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 312.1929931640625,
+            "t": 475.54400634765625,
+            "r": 509.54400634765625,
+            "b": 468.6910095214844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Ware, C. (2008). Visual thinking for design. Boston: Morgan Kaufmann.",
+      "text": "Ware, C. (2008). Visual thinking for design. Boston: Morgan Kaufmann."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 305.59698486328125,
+            "t": 463.5880126953125,
+            "r": 545.2769775390625,
+            "b": 448.8840026855469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            130
+          ]
+        }
+      ],
+      "orig": "Wilson, G. D. (1966). Arousal properties of red versus green. Percept. Motor Skills 23 (3), 947\u2013949. doi:10.2466/pms.1966.23.3.947",
+      "text": "Wilson, G. D. (1966). Arousal properties of red versus green. Percept. Motor Skills 23 (3), 947\u2013949. doi:10.2466/pms.1966.23.3.947"
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 50.27799987792969,
+            "t": 40.552001953125,
+            "r": 134.7119903564453,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "Frontiers in Bioinformatics",
+      "text": "Frontiers in Bioinformatics"
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 293.7950134277344,
+            "t": 40.60100173950195,
+            "r": 301.5790100097656,
+            "b": 35.42100143432617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "06",
+      "text": "06"
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 6,
+          "bbox": {
+            "l": 499.62298583984375,
+            "t": 40.552001953125,
+            "r": 545.136962890625,
+            "b": 34.03499984741211,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "frontiersin.org",
+      "text": "frontiersin.org"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 48.685760498046875,
+            "t": 803.5132026672363,
+            "r": 239.8516845703125,
+            "b": 788.0070610046387,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 48.791038513183594,
+            "t": 710.5826263427734,
+            "r": 122.10441589355469,
+            "b": 694.7201843261719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 48.17341995239258,
+            "t": 758.8119049072266,
+            "r": 544.9262084960938,
+            "b": 90.69915771484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 48.70891189575195,
+            "t": 759.018196105957,
+            "r": 289.3625183105469,
+            "b": 82.65472412109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      },
+      "page_no": 5
+    },
+    "6": {
+      "size": {
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      },
+      "page_no": 6
+    }
+  }
+}

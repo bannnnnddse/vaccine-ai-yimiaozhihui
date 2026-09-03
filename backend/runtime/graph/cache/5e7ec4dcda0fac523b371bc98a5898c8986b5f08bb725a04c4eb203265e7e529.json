@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c375f594d4aa59ef96beae4b7d5103cb",
+  "content_hash": "124e0b3d94980dd19e6acf3071c23af22a2ccbe4fae31949a86f00b1b94797c9",
+  "entities": [
+    {
+      "canonical_name": "IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG",
+      "chunk_id": "chk_c375f594d4aa59ef96beae4b7d5103cb"
+    },
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_c375f594d4aa59ef96beae4b7d5103cb"
+    },
+    {
+      "canonical_name": "human antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human antibody",
+      "chunk_id": "chk_c375f594d4aa59ef96beae4b7d5103cb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

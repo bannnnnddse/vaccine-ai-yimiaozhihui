@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_3f97dde3673db1248d08748b79da0517",
+  "content_hash": "4e74030a2433438989df6e7577563373227fd2c1d4c8af1d7f9d7641251a1c04",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_3f97dde3673db1248d08748b79da0517"
+    },
+    {
+      "canonical_name": "elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly",
+      "chunk_id": "chk_3f97dde3673db1248d08748b79da0517"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

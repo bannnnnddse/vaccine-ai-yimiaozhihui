@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_7058548f4eae0f219222c884fb3bcce2",
+  "content_hash": "e30b23e9098cfa2fc92e58831d2dbb823e16daa64c1499a8c4474686385a31da",
+  "entities": [
+    {
+      "canonical_name": "EV71 疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71 疫苗",
+      "chunk_id": "chk_7058548f4eae0f219222c884fb3bcce2"
+    },
+    {
+      "canonical_name": "两剂次接种程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "两剂次接种程序",
+      "chunk_id": "chk_7058548f4eae0f219222c884fb3bcce2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_target_not_supported_by_cue"
+  ]
+}

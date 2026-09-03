@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_613466ab6ad4479571ff2e6030064956",
+  "content_hash": "df6e8d5acc00d4c5faa3fd25ff0412d102b90c2ebdc22d64a2f5c63f310c73ba",
+  "entities": [
+    {
+      "canonical_name": "Herpes Simplex Virus 1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Herpes Simplex Virus 1",
+      "chunk_id": "chk_613466ab6ad4479571ff2e6030064956"
+    },
+    {
+      "canonical_name": "Cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Cancer",
+      "chunk_id": "chk_613466ab6ad4479571ff2e6030064956"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

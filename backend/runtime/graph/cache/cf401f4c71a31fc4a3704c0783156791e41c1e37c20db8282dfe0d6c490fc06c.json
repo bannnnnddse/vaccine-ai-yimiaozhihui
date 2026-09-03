@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_4d5f39be0817c8639dc21953247ccc02",
+  "content_hash": "0b0270a3df31323d2f1f9c0a85c0a9aca356d4cf77b157a64ebf73790fd5a202",
+  "entities": [
+    {
+      "canonical_name": "Nonhuman Primates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Nonhuman Primates",
+      "chunk_id": "chk_4d5f39be0817c8639dc21953247ccc02"
+    },
+    {
+      "canonical_name": "HIV Envelope Trimer",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV Envelope Trimer",
+      "chunk_id": "chk_4d5f39be0817c8639dc21953247ccc02"
+    },
+    {
+      "canonical_name": "Neutralizing Antibody Responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Neutralizing Antibody Responses",
+      "chunk_id": "chk_4d5f39be0817c8639dc21953247ccc02"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

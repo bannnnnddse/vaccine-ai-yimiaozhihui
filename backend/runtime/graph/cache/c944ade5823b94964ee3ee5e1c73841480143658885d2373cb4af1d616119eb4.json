@@ -1,0 +1,39 @@
+{
+  "chunk_id": "50cc28476095bbf1a2fe5630348bffed203ce7201ce90f288c5ed783a88febc9",
+  "content_hash": "3ce7d0d6e28c9eac1246acc3e11c1b840bdbc68b92957d1868ceced699b37023",
+  "entities": [
+    {
+      "canonical_name": "bacterial pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "bacterial pathogens",
+      "chunk_id": "50cc28476095bbf1a2fe5630348bffed203ce7201ce90f288c5ed783a88febc9"
+    },
+    {
+      "canonical_name": "rotavirus disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus disease",
+      "chunk_id": "50cc28476095bbf1a2fe5630348bffed203ce7201ce90f288c5ed783a88febc9"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "50cc28476095bbf1a2fe5630348bffed203ce7201ce90f288c5ed783a88febc9"
+    },
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "50cc28476095bbf1a2fe5630348bffed203ce7201ce90f288c5ed783a88febc9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "target_missing_from_quote"
+  ]
+}

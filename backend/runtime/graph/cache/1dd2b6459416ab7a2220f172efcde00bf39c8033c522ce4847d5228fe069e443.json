@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_42356a44f031f4f91f0cf535a75cae4d",
+  "content_hash": "50aab67eee73678ffb16ee018643f1fefb23327d8c78fcadd97b32d20aa69271",
+  "entities": [
+    {
+      "canonical_name": "human monoclonal antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human monoclonal antibodies",
+      "chunk_id": "chk_42356a44f031f4f91f0cf535a75cae4d"
+    },
+    {
+      "canonical_name": "SARS coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS coronavirus",
+      "chunk_id": "chk_42356a44f031f4f91f0cf535a75cae4d"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_42356a44f031f4f91f0cf535a75cae4d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

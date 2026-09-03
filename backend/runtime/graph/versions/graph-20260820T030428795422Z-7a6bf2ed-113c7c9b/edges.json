@@ -1,0 +1,32 @@
+[
+  {
+    "confidence": 1.0,
+    "id": "edge_0959364eaf4a373c38661353",
+    "provenance_ids": [
+      "prov_17929a1badb6d303be0e7522"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_716806788258ce9e1e40df25",
+    "target_id": "node_c5cf9b4b72a37a3f3983df30"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_0e59a00f23cd172fe138b89a",
+    "provenance_ids": [
+      "prov_17929a1badb6d303be0e7522"
+    ],
+    "relation_type": "IS_A",
+    "source_id": "node_4997aa305982fe26cbae7d58",
+    "target_id": "node_716806788258ce9e1e40df25"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_d966601410b8a7589dee4a44",
+    "provenance_ids": [
+      "prov_17929a1badb6d303be0e7522"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_4997aa305982fe26cbae7d58",
+    "target_id": "node_c5cf9b4b72a37a3f3983df30"
+  }
+]

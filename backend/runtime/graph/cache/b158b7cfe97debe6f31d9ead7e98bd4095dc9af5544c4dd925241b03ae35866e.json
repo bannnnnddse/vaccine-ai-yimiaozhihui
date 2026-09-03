@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_837b951d56092aabe42e653c5ab25544",
+  "content_hash": "05aace1b9466a70dda7c0c987ddf3bfc7cac15267bd8584dcaeb8e93f623f0d5",
+  "entities": [
+    {
+      "canonical_name": "CHI3L1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CHI3L1",
+      "chunk_id": "chk_837b951d56092aabe42e653c5ab25544"
+    },
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "chk_837b951d56092aabe42e653c5ab25544"
+    },
+    {
+      "canonical_name": "airway obstruction",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "airway obstruction",
+      "chunk_id": "chk_837b951d56092aabe42e653c5ab25544"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_32ecf4b83aae270238831a7cd10083ea",
+  "content_hash": "07f2673de2973c745614dd1e9b2d327c88f400eb6d6ab975cd8c9d19f0a6aa55",
+  "entities": [
+    {
+      "canonical_name": "healthcare workers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthcare workers",
+      "chunk_id": "chk_32ecf4b83aae270238831a7cd10083ea"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_32ecf4b83aae270238831a7cd10083ea"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_32ecf4b83aae270238831a7cd10083ea"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_32ecf4b83aae270238831a7cd10083ea"
+    },
+    {
+      "canonical_name": "immunization schedule",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "immunization schedule",
+      "chunk_id": "chk_32ecf4b83aae270238831a7cd10083ea"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

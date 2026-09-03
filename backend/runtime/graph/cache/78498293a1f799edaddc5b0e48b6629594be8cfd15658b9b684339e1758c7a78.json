@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_575b8254b452998599f44b8be89dbb46",
+  "content_hash": "652cbb945425aea8910f0046022386bc984554ef0fb395c2cc545b96170a81ad",
+  "entities": [
+    {
+      "canonical_name": "mAb E18/19",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mAb E18/19",
+      "chunk_id": "chk_575b8254b452998599f44b8be89dbb46"
+    },
+    {
+      "canonical_name": "EV-A71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV-A71",
+      "chunk_id": "chk_575b8254b452998599f44b8be89dbb46"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

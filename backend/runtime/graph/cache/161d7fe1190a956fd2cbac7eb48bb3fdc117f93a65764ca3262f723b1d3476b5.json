@@ -1,0 +1,15 @@
+{
+  "chunk_id": "86db58e9c0f15aae0a607e75432c41e2b3d011f1a79960d7655675486660edd6",
+  "content_hash": "06fc15d6b978e1ba10b1b67d80cf25a989feaa708f22d2a61430aac9cafdc1d8",
+  "entities": [
+    {
+      "canonical_name": "cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancers",
+      "chunk_id": "86db58e9c0f15aae0a607e75432c41e2b3d011f1a79960d7655675486660edd6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_507296cafe832b8a8aed22449ecb5f65",
+  "content_hash": "b552426932f339dfbdac8d8e3527d4a2ae455d70855cdcb453a173e88c23e0bd",
+  "entities": [
+    {
+      "canonical_name": "polyvalent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "polyvalent vaccine",
+      "chunk_id": "chk_507296cafe832b8a8aed22449ecb5f65"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_507296cafe832b8a8aed22449ecb5f65"
+    },
+    {
+      "canonical_name": "PUUV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "PUUV",
+      "chunk_id": "chk_507296cafe832b8a8aed22449ecb5f65"
+    },
+    {
+      "canonical_name": "HTNV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HTNV",
+      "chunk_id": "chk_507296cafe832b8a8aed22449ecb5f65"
+    },
+    {
+      "canonical_name": "SOCHIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SOCHIV",
+      "chunk_id": "chk_507296cafe832b8a8aed22449ecb5f65"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

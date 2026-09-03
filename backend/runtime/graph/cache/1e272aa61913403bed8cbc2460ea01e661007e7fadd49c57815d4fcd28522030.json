@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_4c8202a9fa99d35b3ace91e49cce9a11",
+  "content_hash": "4a52f4d353f9ec911a3e3b42588016814d2fd8af84f59dc1aab92b1117862449",
+  "entities": [
+    {
+      "canonical_name": "anti-gp350 antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-gp350 antibodies",
+      "chunk_id": "chk_4c8202a9fa99d35b3ace91e49cce9a11"
+    },
+    {
+      "canonical_name": "EBV-neutralizing monoclonal antibody 72A1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "EBV-neutralizing monoclonal antibody 72A1",
+      "chunk_id": "chk_4c8202a9fa99d35b3ace91e49cce9a11"
+    },
+    {
+      "canonical_name": "EBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "EBV infection",
+      "chunk_id": "chk_4c8202a9fa99d35b3ace91e49cce9a11"
+    },
+    {
+      "canonical_name": "serious adverse event",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serious adverse event",
+      "chunk_id": "chk_4c8202a9fa99d35b3ace91e49cce9a11"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

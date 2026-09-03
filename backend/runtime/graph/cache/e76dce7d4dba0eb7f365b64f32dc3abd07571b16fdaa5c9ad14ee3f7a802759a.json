@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_10bdc76083c6a9571ed1b31163ec521f",
+  "content_hash": "4c18f90a9b97990684f30bf22e8cf8ce8e4f00c3833a71f47a4651f0871d61fc",
+  "entities": [
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_10bdc76083c6a9571ed1b31163ec521f"
+    },
+    {
+      "canonical_name": "anaphylaxis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "anaphylaxis",
+      "chunk_id": "chk_10bdc76083c6a9571ed1b31163ec521f"
+    },
+    {
+      "canonical_name": "vaccine recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccine recipients",
+      "chunk_id": "chk_10bdc76083c6a9571ed1b31163ec521f"
+    },
+    {
+      "canonical_name": "vasovagal reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vasovagal reactions",
+      "chunk_id": "chk_10bdc76083c6a9571ed1b31163ec521f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

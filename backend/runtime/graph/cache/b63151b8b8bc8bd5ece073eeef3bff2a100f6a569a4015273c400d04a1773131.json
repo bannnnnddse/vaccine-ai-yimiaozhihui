@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_e6ac10169549493bde56571cdfc2282b",
+  "content_hash": "e994d383815236e675b70177618b741be77025fe7d50568090f31b57808145d6",
+  "entities": [
+    {
+      "canonical_name": "hepatocellular carcinoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatocellular carcinoma",
+      "chunk_id": "chk_e6ac10169549493bde56571cdfc2282b"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_e6ac10169549493bde56571cdfc2282b"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_e6ac10169549493bde56571cdfc2282b"
+    },
+    {
+      "canonical_name": "T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell",
+      "chunk_id": "chk_e6ac10169549493bde56571cdfc2282b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

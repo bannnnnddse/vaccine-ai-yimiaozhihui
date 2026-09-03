@@ -1,0 +1,36 @@
+{
+  "chunk_id": "fdb1f9fb224cd81fbc211569198b07d2200a10cc83a2cd8d24070afe1d8265d6",
+  "content_hash": "f7f7e7f7d5a7feeeab82553f2a729785cdff7f3b17b03012214f5e312460960f",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "fdb1f9fb224cd81fbc211569198b07d2200a10cc83a2cd8d24070afe1d8265d6"
+    },
+    {
+      "canonical_name": "non-alcoholic fatty liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-alcoholic fatty liver disease",
+      "chunk_id": "fdb1f9fb224cd81fbc211569198b07d2200a10cc83a2cd8d24070afe1d8265d6"
+    },
+    {
+      "canonical_name": "healthcare professionals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthcare professionals",
+      "chunk_id": "fdb1f9fb224cd81fbc211569198b07d2200a10cc83a2cd8d24070afe1d8265d6"
+    },
+    {
+      "canonical_name": "liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver disease",
+      "chunk_id": "fdb1f9fb224cd81fbc211569198b07d2200a10cc83a2cd8d24070afe1d8265d6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

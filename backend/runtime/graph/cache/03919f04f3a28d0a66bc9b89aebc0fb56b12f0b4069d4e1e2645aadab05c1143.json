@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_08868fadaa5ba2d75ad4fb82439dc9b8",
+  "content_hash": "39a1929ba1d187358d152d1b35db3e2dabfe94fa71147e4014f99bda7a4fb2c8",
+  "entities": [
+    {
+      "canonical_name": "non-small cell lung cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-small cell lung cancer",
+      "chunk_id": "chk_08868fadaa5ba2d75ad4fb82439dc9b8"
+    },
+    {
+      "canonical_name": "NSCLC",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "NSCLC",
+      "chunk_id": "chk_08868fadaa5ba2d75ad4fb82439dc9b8"
+    },
+    {
+      "canonical_name": "CIMAvax EGF",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CIMAvax EGF",
+      "chunk_id": "chk_08868fadaa5ba2d75ad4fb82439dc9b8"
+    },
+    {
+      "canonical_name": "advancedstage (stages IIIB and IV) NSCLC",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "advancedstage (stages IIIB and IV) NSCLC",
+      "chunk_id": "chk_08868fadaa5ba2d75ad4fb82439dc9b8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

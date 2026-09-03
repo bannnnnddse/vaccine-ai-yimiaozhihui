@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_7526276e5f8ea15b908f5e9867cd91aa",
+  "content_hash": "9617ce150ce70e51b5245acf61e48f3c2889aeccb92f6c267195564e8a8fffb4",
+  "entities": [
+    {
+      "canonical_name": "BAFF",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "BAFF",
+      "chunk_id": "chk_7526276e5f8ea15b908f5e9867cd91aa"
+    },
+    {
+      "canonical_name": "MyD88",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MyD88",
+      "chunk_id": "chk_7526276e5f8ea15b908f5e9867cd91aa"
+    },
+    {
+      "canonical_name": "lupuslike disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "lupuslike disease",
+      "chunk_id": "chk_7526276e5f8ea15b908f5e9867cd91aa"
+    },
+    {
+      "canonical_name": "T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cells",
+      "chunk_id": "chk_7526276e5f8ea15b908f5e9867cd91aa"
+    },
+    {
+      "canonical_name": "B Cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B Cell",
+      "chunk_id": "chk_7526276e5f8ea15b908f5e9867cd91aa"
+    },
+    {
+      "canonical_name": "Rabies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Rabies",
+      "chunk_id": "chk_7526276e5f8ea15b908f5e9867cd91aa"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

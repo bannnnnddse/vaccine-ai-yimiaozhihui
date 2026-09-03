@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_b2e9bd475e5d29ba79a595260e4a7397",
+  "content_hash": "5e2f6fd6c21fba35d31d70ba3ae12cfc73d0021600c69eeb28de8151de7dd562",
+  "entities": [
+    {
+      "canonical_name": "mRNA-based Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-based Vaccines",
+      "chunk_id": "chk_b2e9bd475e5d29ba79a595260e4a7397"
+    },
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_b2e9bd475e5d29ba79a595260e4a7397"
+    },
+    {
+      "canonical_name": "multiple myeloma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "multiple myeloma",
+      "chunk_id": "chk_b2e9bd475e5d29ba79a595260e4a7397"
+    },
+    {
+      "canonical_name": "nucleic acid-based cancer vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nucleic acid-based cancer vaccines",
+      "chunk_id": "chk_b2e9bd475e5d29ba79a595260e4a7397"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_4af1111f9eb943cb509cd5c8fd9f317e",
+  "content_hash": "149b24ed0d1136c4123989f6619e86aaa4733bf2f548ea60f79183d74266433e",
+  "entities": [
+    {
+      "canonical_name": "Japanese Encephalitis vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Japanese Encephalitis vaccine",
+      "chunk_id": "chk_4af1111f9eb943cb509cd5c8fd9f317e"
+    },
+    {
+      "canonical_name": "IXIARO(R)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IXIARO(R)",
+      "chunk_id": "chk_4af1111f9eb943cb509cd5c8fd9f317e"
+    },
+    {
+      "canonical_name": "IC51",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IC51",
+      "chunk_id": "chk_4af1111f9eb943cb509cd5c8fd9f317e"
+    },
+    {
+      "canonical_name": "TBE-vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "TBE-vaccine",
+      "chunk_id": "chk_4af1111f9eb943cb509cd5c8fd9f317e"
+    },
+    {
+      "canonical_name": "TBEvaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "TBEvaccine",
+      "chunk_id": "chk_4af1111f9eb943cb509cd5c8fd9f317e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

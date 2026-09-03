@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_cb03ff17eb43c11ade3034913b7248b4",
+  "content_hash": "52db831ba1f2bd5b6d37499c08129061ff6a0b4eeda1618c81c3683fa96b3ce9",
+  "entities": [
+    {
+      "canonical_name": "human papillomavirus (HPV) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus (HPV) vaccine",
+      "chunk_id": "chk_cb03ff17eb43c11ade3034913b7248b4"
+    },
+    {
+      "canonical_name": "measles-mumps-rubella (MMR) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles-mumps-rubella (MMR) vaccine",
+      "chunk_id": "chk_cb03ff17eb43c11ade3034913b7248b4"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_cb03ff17eb43c11ade3034913b7248b4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

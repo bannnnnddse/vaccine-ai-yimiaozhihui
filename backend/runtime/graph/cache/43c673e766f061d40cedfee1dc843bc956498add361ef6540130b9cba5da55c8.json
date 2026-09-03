@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_7f714a0147916631e34af8d69fdf87c8",
+  "content_hash": "721d7ec7e00bc11be1918c2ec8846e1b871e93a6bd22bb85dafb593358e24308",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_7f714a0147916631e34af8d69fdf87c8"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_7f714a0147916631e34af8d69fdf87c8"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_7f714a0147916631e34af8d69fdf87c8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

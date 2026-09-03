@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_f72fb00e6f010a476d9bb8e6264959ec",
+  "content_hash": "3f145312b9c9b05bfd61ca082897edb966a2b72400ac905c3ca45a6c780deef7",
+  "entities": [
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_f72fb00e6f010a476d9bb8e6264959ec"
+    },
+    {
+      "canonical_name": "IgA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA",
+      "chunk_id": "chk_f72fb00e6f010a476d9bb8e6264959ec"
+    },
+    {
+      "canonical_name": "antibody-secreting cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody-secreting cells",
+      "chunk_id": "chk_f72fb00e6f010a476d9bb8e6264959ec"
+    },
+    {
+      "canonical_name": "memory cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory cells",
+      "chunk_id": "chk_f72fb00e6f010a476d9bb8e6264959ec"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

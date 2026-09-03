@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_605a6a40c90c145bfdd18446eae15f6f",
+  "content_hash": "0de0e4bddba018a3d1e044abc190da3e0e297bc9d664737f43a74463a955b1d5",
+  "entities": [
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_605a6a40c90c145bfdd18446eae15f6f"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_605a6a40c90c145bfdd18446eae15f6f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

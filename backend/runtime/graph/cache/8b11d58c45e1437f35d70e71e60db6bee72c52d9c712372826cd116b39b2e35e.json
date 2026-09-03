@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_7e0b32f26e96ec33472f7a361879ea01",
+  "content_hash": "87d78045dbeb3b2a9e6d0f87adf131c6a35947bd466a9cf1de3644d0dc97f35e",
+  "entities": [
+    {
+      "canonical_name": "diphtheria-tetanus-pertussis",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria-tetanus-pertussis",
+      "chunk_id": "chk_7e0b32f26e96ec33472f7a361879ea01"
+    },
+    {
+      "canonical_name": "measles-mumps-rubella",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles-mumps-rubella",
+      "chunk_id": "chk_7e0b32f26e96ec33472f7a361879ea01"
+    },
+    {
+      "canonical_name": "acute lymphoblastic leukemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute lymphoblastic leukemia",
+      "chunk_id": "chk_7e0b32f26e96ec33472f7a361879ea01"
+    },
+    {
+      "canonical_name": "leukaemic children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "leukaemic children",
+      "chunk_id": "chk_7e0b32f26e96ec33472f7a361879ea01"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_7e0b32f26e96ec33472f7a361879ea01"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_4e2d356a1239e81c8c1c74ca2b7637fa",
+  "content_hash": "2668183008e65ea9b112666084b6cdd6af615bbabcc4a42e1b004eb44f9b81d6",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_4e2d356a1239e81c8c1c74ca2b7637fa"
+    },
+    {
+      "canonical_name": "plasma cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cell",
+      "chunk_id": "chk_4e2d356a1239e81c8c1c74ca2b7637fa"
+    },
+    {
+      "canonical_name": "T FH cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T FH cell",
+      "chunk_id": "chk_4e2d356a1239e81c8c1c74ca2b7637fa"
+    },
+    {
+      "canonical_name": "naive B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "naive B cells",
+      "chunk_id": "chk_4e2d356a1239e81c8c1c74ca2b7637fa"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

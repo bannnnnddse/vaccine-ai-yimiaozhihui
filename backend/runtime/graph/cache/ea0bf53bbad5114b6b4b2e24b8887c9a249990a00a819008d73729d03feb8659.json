@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_1ab94ecfcb9c9a2d18e4cf15b6122258",
+  "content_hash": "b8407fb768bf9a2036c4edf742ab844f116e21200bf28902f6496fcb74e0f13d",
+  "entities": [
+    {
+      "canonical_name": "RV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RV",
+      "chunk_id": "chk_1ab94ecfcb9c9a2d18e4cf15b6122258"
+    },
+    {
+      "canonical_name": "patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients",
+      "chunk_id": "chk_1ab94ecfcb9c9a2d18e4cf15b6122258"
+    },
+    {
+      "canonical_name": "RV gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RV gastroenteritis",
+      "chunk_id": "chk_1ab94ecfcb9c9a2d18e4cf15b6122258"
+    },
+    {
+      "canonical_name": "Benign convulsions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Benign convulsions",
+      "chunk_id": "chk_1ab94ecfcb9c9a2d18e4cf15b6122258"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_1ab94ecfcb9c9a2d18e4cf15b6122258"
+    },
+    {
+      "canonical_name": "mild gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "mild gastroenteritis",
+      "chunk_id": "chk_1ab94ecfcb9c9a2d18e4cf15b6122258"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

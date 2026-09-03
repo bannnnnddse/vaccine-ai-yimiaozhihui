@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_03d7f840d54223d5835837bf239b5654",
+  "content_hash": "fde7cb42de23b30931593288e05276982d1d9e2e6c310f3d297f59831331c59a",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccination",
+      "chunk_id": "chk_03d7f840d54223d5835837bf239b5654"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_03d7f840d54223d5835837bf239b5654"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

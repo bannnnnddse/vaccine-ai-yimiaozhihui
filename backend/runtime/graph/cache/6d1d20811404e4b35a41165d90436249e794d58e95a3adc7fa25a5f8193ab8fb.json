@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_67eed177d612ce7df191d6e89ef06d5e",
+  "content_hash": "8b756c52df2cc6828eabcda5be1e410f3a992345c9be4ca90c04ff7c0564abfd",
+  "entities": [
+    {
+      "canonical_name": "rotavirus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccines",
+      "chunk_id": "chk_67eed177d612ce7df191d6e89ef06d5e"
+    },
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "chk_67eed177d612ce7df191d6e89ef06d5e"
+    },
+    {
+      "canonical_name": "childhood diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "childhood diarrhea",
+      "chunk_id": "chk_67eed177d612ce7df191d6e89ef06d5e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

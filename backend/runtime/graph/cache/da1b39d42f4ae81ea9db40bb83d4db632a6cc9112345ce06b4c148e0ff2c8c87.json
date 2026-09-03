@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_0e3ea80d3ec0dabcf63c70c1182a6cd5",
+  "content_hash": "22d1dd4dd028ef96fa79c33ac804c9baba65259f45ebec706ae3fb649e5e8941",
+  "entities": [
+    {
+      "canonical_name": "vaccine-hesitant parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccine-hesitant parents",
+      "chunk_id": "chk_0e3ea80d3ec0dabcf63c70c1182a6cd5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

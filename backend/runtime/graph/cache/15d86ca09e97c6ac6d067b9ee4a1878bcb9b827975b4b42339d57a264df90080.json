@@ -1,0 +1,113 @@
+{
+  "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f",
+  "content_hash": "867a9876ef9380824fc8f09c8677f456a55ef4683fa5f59c79f04ee14f0a553a",
+  "entities": [
+    {
+      "canonical_name": "Chronic granulomatous disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic granulomatous disease",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "leukocyte adhesion defect",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "leukocyte adhesion defect",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "myeloperoxidase deficiency",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "myeloperoxidase deficiency",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "All inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "All inactivated vaccines",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "Live viral vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Live viral vaccines",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "HIV infected",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV infected",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "varicella",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "inactivated influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated influenza",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "Malignant neoplasm",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Malignant neoplasm",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "Asplenia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Asplenia",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "sickle cell diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "sickle cell diseases",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "All routine vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "All routine vaccines",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    },
+    {
+      "canonical_name": "Chronic renal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Chronic renal disease",
+      "chunk_id": "chk_51a630baf7b691d8e0dc65640c06f81f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

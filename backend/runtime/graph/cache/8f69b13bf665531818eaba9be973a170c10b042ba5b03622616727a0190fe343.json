@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_138360aadc076ce2ebbf0f8c3397172d",
+  "content_hash": "e5fe0ddf169b84cf71ba18d2623c40668caedce43c3d138e4417d7938915cc94",
+  "entities": [
+    {
+      "canonical_name": "immune system",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune system",
+      "chunk_id": "chk_138360aadc076ce2ebbf0f8c3397172d"
+    },
+    {
+      "canonical_name": "pathogen",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogen",
+      "chunk_id": "chk_138360aadc076ce2ebbf0f8c3397172d"
+    },
+    {
+      "canonical_name": "metabolic disorders",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "metabolic disorders",
+      "chunk_id": "chk_138360aadc076ce2ebbf0f8c3397172d"
+    },
+    {
+      "canonical_name": "neurodegenerative conditions",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "neurodegenerative conditions",
+      "chunk_id": "chk_138360aadc076ce2ebbf0f8c3397172d"
+    },
+    {
+      "canonical_name": "allergies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "allergies",
+      "chunk_id": "chk_138360aadc076ce2ebbf0f8c3397172d"
+    },
+    {
+      "canonical_name": "autoimmune disorders",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune disorders",
+      "chunk_id": "chk_138360aadc076ce2ebbf0f8c3397172d"
+    },
+    {
+      "canonical_name": "cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancers",
+      "chunk_id": "chk_138360aadc076ce2ebbf0f8c3397172d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

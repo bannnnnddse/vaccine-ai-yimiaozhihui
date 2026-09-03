@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_e9cd70d6ac2f926110d02a8c9315df4e",
+  "content_hash": "5c04a64fa7f032af19f19d0cdf577d772bc15d8c27ec1d53270df1127a3826d6",
+  "entities": [
+    {
+      "canonical_name": "canarypox vector vaccine expressing HIV-1 antigens (ALVAC-HIV)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "canarypox vector vaccine expressing HIV-1 antigens (ALVAC-HIV)",
+      "chunk_id": "chk_e9cd70d6ac2f926110d02a8c9315df4e"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_e9cd70d6ac2f926110d02a8c9315df4e"
+    },
+    {
+      "canonical_name": "healthy, HIV-uninfected adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy, HIV-uninfected adults",
+      "chunk_id": "chk_e9cd70d6ac2f926110d02a8c9315df4e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

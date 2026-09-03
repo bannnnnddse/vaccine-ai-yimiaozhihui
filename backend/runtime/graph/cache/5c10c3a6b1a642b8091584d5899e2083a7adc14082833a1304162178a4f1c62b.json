@@ -1,0 +1,71 @@
+{
+  "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b",
+  "content_hash": "6c683f494435caca144493e465feccdbc0c342dd7f9afd3a483b91da19af5996",
+  "entities": [
+    {
+      "canonical_name": "HAVacs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HAVacs",
+      "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b"
+    },
+    {
+      "canonical_name": "HBVacs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBVacs",
+      "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b"
+    },
+    {
+      "canonical_name": "chronic liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic liver disease",
+      "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b"
+    },
+    {
+      "canonical_name": "cirrhosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cirrhosis",
+      "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b"
+    },
+    {
+      "canonical_name": "non-alcoholic fatty liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-alcoholic fatty liver disease",
+      "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b"
+    },
+    {
+      "canonical_name": "end-stage liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "end-stage liver disease",
+      "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b"
+    },
+    {
+      "canonical_name": "advanced liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "advanced liver disease",
+      "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "0ccf199a62ad1c1d957e3f2af917bd0f0638f2332306b02480af46779cda440b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

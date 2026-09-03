@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_ec29ec81f83f4ffc14b7431aa3acafd5",
+  "content_hash": "36162bc703296ff0fbdd7215fc84b2490d35cd17883c7c75c7d8e12580394349",
+  "entities": [
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "chk_ec29ec81f83f4ffc14b7431aa3acafd5"
+    },
+    {
+      "canonical_name": "BALB/c mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "BALB/c mice",
+      "chunk_id": "chk_ec29ec81f83f4ffc14b7431aa3acafd5"
+    },
+    {
+      "canonical_name": "CD4 + T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4 + T-cell",
+      "chunk_id": "chk_ec29ec81f83f4ffc14b7431aa3acafd5"
+    },
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_ec29ec81f83f4ffc14b7431aa3acafd5"
+    },
+    {
+      "canonical_name": "GC B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GC B cells",
+      "chunk_id": "chk_ec29ec81f83f4ffc14b7431aa3acafd5"
+    },
+    {
+      "canonical_name": "MBCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MBCs",
+      "chunk_id": "chk_ec29ec81f83f4ffc14b7431aa3acafd5"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_ec29ec81f83f4ffc14b7431aa3acafd5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

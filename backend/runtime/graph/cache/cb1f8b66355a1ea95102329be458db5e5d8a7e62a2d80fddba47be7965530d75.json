@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_25a570aa29706e380d66ce93edb8240b",
+  "content_hash": "4ea88aa03f4d7d5cb14a853d7168d65d11a99d594ebef6010c2cd873508eea64",
+  "entities": [
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_25a570aa29706e380d66ce93edb8240b"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_25a570aa29706e380d66ce93edb8240b"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_25a570aa29706e380d66ce93edb8240b"
+    },
+    {
+      "canonical_name": "viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "viruses",
+      "chunk_id": "chk_25a570aa29706e380d66ce93edb8240b"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_25a570aa29706e380d66ce93edb8240b"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_25a570aa29706e380d66ce93edb8240b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

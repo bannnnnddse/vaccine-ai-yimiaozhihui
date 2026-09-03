@@ -1,0 +1,45 @@
+{
+  "chunk_id": "bafa805cd5c6fc11603aca98851e214cdc9510495be6a19ca1ef3cb0bdf486e4",
+  "content_hash": "8b12ec9de24f3b5a2091c81faa38729bbbc50d56c9e186911d3ca4567828d56e",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B birth dose",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B birth dose",
+      "chunk_id": "bafa805cd5c6fc11603aca98851e214cdc9510495be6a19ca1ef3cb0bdf486e4"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b vaccine",
+      "chunk_id": "bafa805cd5c6fc11603aca98851e214cdc9510495be6a19ca1ef3cb0bdf486e4"
+    },
+    {
+      "canonical_name": "pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine",
+      "chunk_id": "bafa805cd5c6fc11603aca98851e214cdc9510495be6a19ca1ef3cb0bdf486e4"
+    },
+    {
+      "canonical_name": "rubella-containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rubella-containing vaccine",
+      "chunk_id": "bafa805cd5c6fc11603aca98851e214cdc9510495be6a19ca1ef3cb0bdf486e4"
+    },
+    {
+      "canonical_name": "fourth diphtheria, tetanus, and pertussis-containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "fourth diphtheria, tetanus, and pertussis-containing vaccine",
+      "chunk_id": "bafa805cd5c6fc11603aca98851e214cdc9510495be6a19ca1ef3cb0bdf486e4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

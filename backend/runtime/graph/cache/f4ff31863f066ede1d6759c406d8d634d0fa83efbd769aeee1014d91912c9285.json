@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_8b93cbf5057b5d7d89873b557241d4cb",
+  "content_hash": "2730f645018b777ebfd5d3cb691f4d5c1325f45f1c696ca797fb47256a785e08",
+  "entities": [
+    {
+      "canonical_name": "polio vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "polio vaccine",
+      "chunk_id": "chk_8b93cbf5057b5d7d89873b557241d4cb"
+    },
+    {
+      "canonical_name": "IgA antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA antibody",
+      "chunk_id": "chk_8b93cbf5057b5d7d89873b557241d4cb"
+    },
+    {
+      "canonical_name": "influenza A virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza A virus",
+      "chunk_id": "chk_8b93cbf5057b5d7d89873b557241d4cb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c0f1f4b123a1f2be12e8206e0921be72",
+  "content_hash": "5cb9302825960ce3c7eec1749f2293a222c34cce56870d5befaf3094646fa6cc",
+  "entities": [
+    {
+      "canonical_name": "injectable drug users",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "injectable drug users",
+      "chunk_id": "chk_c0f1f4b123a1f2be12e8206e0921be72"
+    },
+    {
+      "canonical_name": "patients receiving an opioid agonist therapy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients receiving an opioid agonist therapy",
+      "chunk_id": "chk_c0f1f4b123a1f2be12e8206e0921be72"
+    },
+    {
+      "canonical_name": "homeless people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "homeless people",
+      "chunk_id": "chk_c0f1f4b123a1f2be12e8206e0921be72"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_db4100947109cdfeda5fb73dd4c8245a",
+  "content_hash": "f89400e7b0277cf14f17db293f2fcefb12e547678835408e0a94dfa90a44e98b",
+  "entities": [
+    {
+      "canonical_name": "Actinobacteria phylum",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Actinobacteria phylum",
+      "chunk_id": "chk_db4100947109cdfeda5fb73dd4c8245a"
+    },
+    {
+      "canonical_name": "Bifidobacterium strains",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium strains",
+      "chunk_id": "chk_db4100947109cdfeda5fb73dd4c8245a"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_db4100947109cdfeda5fb73dd4c8245a"
+    },
+    {
+      "canonical_name": "B longum subspecies infantis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "B longum subspecies infantis",
+      "chunk_id": "chk_db4100947109cdfeda5fb73dd4c8245a"
+    },
+    {
+      "canonical_name": "Bangladeshi infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Bangladeshi infants",
+      "chunk_id": "chk_db4100947109cdfeda5fb73dd4c8245a"
+    },
+    {
+      "canonical_name": "CD8+ TTcell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD8+ TTcell",
+      "chunk_id": "chk_db4100947109cdfeda5fb73dd4c8245a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

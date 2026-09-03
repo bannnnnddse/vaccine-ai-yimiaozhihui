@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_29c03f01c4f64ac544bc02cda56395ec",
+  "content_hash": "03ff5cb65d5ec92f3e5840db2bd929229f79b479d4038d96a82e792e37ec5a19",
+  "entities": [
+    {
+      "canonical_name": "DTaP-HBV-IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTaP-HBV-IPV",
+      "chunk_id": "chk_29c03f01c4f64ac544bc02cda56395ec"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

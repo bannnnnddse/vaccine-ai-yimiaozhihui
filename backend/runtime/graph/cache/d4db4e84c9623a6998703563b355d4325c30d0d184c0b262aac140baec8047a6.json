@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_666898176372c5683f9a2f1388eadf75",
+  "content_hash": "0e6de553851b7e7f2e3cb67698791c4995d042f391b0ba4b638975fdc681f29d",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_666898176372c5683f9a2f1388eadf75"
+    },
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_666898176372c5683f9a2f1388eadf75"
+    },
+    {
+      "canonical_name": "IL-35",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-35",
+      "chunk_id": "chk_666898176372c5683f9a2f1388eadf75"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_666898176372c5683f9a2f1388eadf75"
+    },
+    {
+      "canonical_name": "PD-1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PD-1",
+      "chunk_id": "chk_666898176372c5683f9a2f1388eadf75"
+    },
+    {
+      "canonical_name": "Follicular T Helper Cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Follicular T Helper Cell",
+      "chunk_id": "chk_666898176372c5683f9a2f1388eadf75"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

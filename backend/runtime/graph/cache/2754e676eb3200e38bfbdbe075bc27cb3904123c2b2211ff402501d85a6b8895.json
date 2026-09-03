@@ -1,0 +1,54 @@
+{
+  "chunk_id": "chk_f48037c0f5f178ab160da88216560f27",
+  "content_hash": "6226e2cd3c8dd1ce7c6ba2a4867da98b9d79f5c0854a2340e7933ebf2f37061e",
+  "entities": [
+    {
+      "canonical_name": "trivalent inactivated influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "trivalent inactivated influenza vaccine",
+      "chunk_id": "chk_f48037c0f5f178ab160da88216560f27"
+    },
+    {
+      "canonical_name": "children with inborn errors of metabolism",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children with inborn errors of metabolism",
+      "chunk_id": "chk_f48037c0f5f178ab160da88216560f27"
+    },
+    {
+      "canonical_name": "inborn errors of metabolism",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "inborn errors of metabolism",
+      "chunk_id": "chk_f48037c0f5f178ab160da88216560f27"
+    },
+    {
+      "canonical_name": "decompensation",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "decompensation",
+      "chunk_id": "chk_f48037c0f5f178ab160da88216560f27"
+    },
+    {
+      "canonical_name": "T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cells",
+      "chunk_id": "chk_f48037c0f5f178ab160da88216560f27"
+    },
+    {
+      "canonical_name": "premature senescence",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "premature senescence",
+      "chunk_id": "chk_f48037c0f5f178ab160da88216560f27"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

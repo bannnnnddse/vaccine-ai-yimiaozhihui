@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d7241e245c6626211a30599450eb184c",
+  "content_hash": "9991c1e57b964bc904cd2f6e1d84bf0ae853c4fba38d6ef8ff21893541d85371",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_d7241e245c6626211a30599450eb184c"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_d7241e245c6626211a30599450eb184c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

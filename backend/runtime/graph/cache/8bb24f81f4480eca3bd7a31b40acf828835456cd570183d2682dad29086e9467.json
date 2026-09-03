@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_9a741242dbfd431e619230263722e7f3",
+  "content_hash": "f67865e823df78b58f1f788d027cf87adcd132bb795df8afbd27e90f9ec3a94c",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_9a741242dbfd431e619230263722e7f3"
+    },
+    {
+      "canonical_name": "early infancy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "early infancy",
+      "chunk_id": "chk_9a741242dbfd431e619230263722e7f3"
+    },
+    {
+      "canonical_name": "older children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older children",
+      "chunk_id": "chk_9a741242dbfd431e619230263722e7f3"
+    },
+    {
+      "canonical_name": "maternal anti -body",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "maternal anti -body",
+      "chunk_id": "chk_9a741242dbfd431e619230263722e7f3"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_9a741242dbfd431e619230263722e7f3"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_9a741242dbfd431e619230263722e7f3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

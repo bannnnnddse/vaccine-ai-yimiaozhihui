@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_97488e7a648c5f9f897c24b1b3081b96",
+  "content_hash": "e3905840a72f41188db8729911537df8dc1cdcf1514c0f1b19eb52b1bfc2f3b8",
+  "entities": [
+    {
+      "canonical_name": "intranasal vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "intranasal vaccine",
+      "chunk_id": "chk_97488e7a648c5f9f897c24b1b3081b96"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 variants",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 variants",
+      "chunk_id": "chk_97488e7a648c5f9f897c24b1b3081b96"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_97488e7a648c5f9f897c24b1b3081b96"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

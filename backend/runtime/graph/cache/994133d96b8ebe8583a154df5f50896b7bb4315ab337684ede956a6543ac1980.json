@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_9a6059c827e69740fe514c72258995d7",
+  "content_hash": "004c23683b452c5520d7d944675593d20ffaccb728993ec5cf61c9f34e7d399a",
+  "entities": [
+    {
+      "canonical_name": "human papillomavirus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccination",
+      "chunk_id": "chk_9a6059c827e69740fe514c72258995d7"
+    },
+    {
+      "canonical_name": "BCG vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG vaccination",
+      "chunk_id": "chk_9a6059c827e69740fe514c72258995d7"
+    },
+    {
+      "canonical_name": "tuberculous meningitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculous meningitis",
+      "chunk_id": "chk_9a6059c827e69740fe514c72258995d7"
+    },
+    {
+      "canonical_name": "miliary tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "miliary tuberculosis",
+      "chunk_id": "chk_9a6059c827e69740fe514c72258995d7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

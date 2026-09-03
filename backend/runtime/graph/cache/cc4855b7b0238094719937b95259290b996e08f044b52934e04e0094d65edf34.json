@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_7e03eb544d5601e32b1d33f89573d927",
+  "content_hash": "d4264c66d5e10b7d36dd11e3ce0fe996aa27bc5b9432fc42abfcb6ab595c74db",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 mRNA vaccines",
+      "chunk_id": "chk_7e03eb544d5601e32b1d33f89573d927"
+    },
+    {
+      "canonical_name": "COVID-19 mRNA vaccine (LNP)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 mRNA vaccine (LNP)",
+      "chunk_id": "chk_7e03eb544d5601e32b1d33f89573d927"
+    },
+    {
+      "canonical_name": "adults aged 18 and older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults aged 18 and older",
+      "chunk_id": "chk_7e03eb544d5601e32b1d33f89573d927"
+    },
+    {
+      "canonical_name": "days 0 and 21",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "days 0 and 21",
+      "chunk_id": "chk_7e03eb544d5601e32b1d33f89573d927"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "quote_missing"
+  ]
+}

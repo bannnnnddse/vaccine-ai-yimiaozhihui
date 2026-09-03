@@ -1,0 +1,155 @@
+{
+  "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c",
+  "content_hash": "09a1e04ead5a4c26bb70309c7a4608ec9db65f4094463328420914f00a04b550",
+  "entities": [
+    {
+      "canonical_name": "bNAbs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "bNAbs",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "Broadly Neutralizing Antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Broadly Neutralizing Antibodies",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "CTLA 4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CTLA 4",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "Cytotoxic T-Lymphocyte Antigen 4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Cytotoxic T-Lymphocyte Antigen 4",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "DENV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "DENV",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "Dengue Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Dengue Virus",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "DMAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DMAb",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "DNA-encoded Monoclonal Antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DNA-encoded Monoclonal Antibody",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "EBOV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EBOV",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "Ebola Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Ebola Virus",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "F(ab)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "F(ab)",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "Fragment Antigen-Binding",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fragment Antigen-Binding",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "GBM",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "GBM",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "Glioblastoma Multiforme",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Glioblastoma Multiforme",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "GP96",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GP96",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "HER2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HER2",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "Human Immunodeficiency Virus Type 1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Human Immunodeficiency Virus Type 1",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "Ig-like molecule",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Ig-like molecule",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "Immunoglobulin-like Molecule",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Immunoglobulin-like Molecule",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    },
+    {
+      "canonical_name": "IL 1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL 1",
+      "chunk_id": "chk_072855804507563ce9ee9e51d5c46b7c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

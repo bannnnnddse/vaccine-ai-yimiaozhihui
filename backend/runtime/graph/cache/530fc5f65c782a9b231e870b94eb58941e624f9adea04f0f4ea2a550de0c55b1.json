@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_4b2bb330dbaeba040044e44998335b80",
+  "content_hash": "6d876ab11abe71ed2b9a9d35a6d0e69d29349685b216a35fb43fb41b634cf2f3",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_4b2bb330dbaeba040044e44998335b80"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

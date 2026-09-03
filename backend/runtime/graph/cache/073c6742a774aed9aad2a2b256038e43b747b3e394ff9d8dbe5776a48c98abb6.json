@@ -1,0 +1,80 @@
+{
+  "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5",
+  "content_hash": "6f558b9369a7a25ae8a75168b27efc39f708e779d3fc64239c6fcb61c02f70a4",
+  "entities": [
+    {
+      "canonical_name": "yellow fever vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "yellow fever vaccine",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    },
+    {
+      "canonical_name": "smallpox vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "smallpox vaccine",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    },
+    {
+      "canonical_name": "measles vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles vaccine",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    },
+    {
+      "canonical_name": "poliomyelitis vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "poliomyelitis vaccine",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    },
+    {
+      "canonical_name": "mumps vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mumps vaccine",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    },
+    {
+      "canonical_name": "rubella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rubella vaccine",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    },
+    {
+      "canonical_name": "varicella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella vaccine",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    },
+    {
+      "canonical_name": "inacti -vated virus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inacti -vated virus vaccines",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    },
+    {
+      "canonical_name": "cellular immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cellular immunity",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    },
+    {
+      "canonical_name": "natural viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "natural viruses",
+      "chunk_id": "a11687cb393dab2c6a2051d5898857094d71c28e781a7b9da576fe4d6c854ab5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

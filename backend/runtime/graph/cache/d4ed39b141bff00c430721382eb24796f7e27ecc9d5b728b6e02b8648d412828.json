@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_82cb12d4374967ce44c8fc4f99ac1bce",
+  "content_hash": "8d93f86a3a47debcf6ef6296136f98e832839822378c537480cefd93281b83e5",
+  "entities": [
+    {
+      "canonical_name": "older population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older population",
+      "chunk_id": "chk_82cb12d4374967ce44c8fc4f99ac1bce"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_82cb12d4374967ce44c8fc4f99ac1bce"
+    },
+    {
+      "canonical_name": "those older than 75 years of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "those older than 75 years of age",
+      "chunk_id": "chk_82cb12d4374967ce44c8fc4f99ac1bce"
+    },
+    {
+      "canonical_name": "cytomegalovirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "cytomegalovirus",
+      "chunk_id": "chk_82cb12d4374967ce44c8fc4f99ac1bce"
+    },
+    {
+      "canonical_name": "CMV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CMV",
+      "chunk_id": "chk_82cb12d4374967ce44c8fc4f99ac1bce"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

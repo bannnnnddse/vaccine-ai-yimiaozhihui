@@ -1,0 +1,15 @@
+{
+  "chunk_id": "524192648cc1ca8105f2929cc414de80efa0efab4be0ca0542c5c098303a3815",
+  "content_hash": "623d4f73c2839f2e0156d9b4ff382ed1a910f75796e23483a3591ce12f698882",
+  "entities": [
+    {
+      "canonical_name": "IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG",
+      "chunk_id": "524192648cc1ca8105f2929cc414de80efa0efab4be0ca0542c5c098303a3815"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

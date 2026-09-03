@@ -1,0 +1,73 @@
+{
+  "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a",
+  "content_hash": "e78fb684a233b5d16cf3cf55885d26bc415b3c9695e9a800cbb2b7070ffe5148",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a"
+    },
+    {
+      "canonical_name": "breast cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "breast cancer",
+      "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a"
+    },
+    {
+      "canonical_name": "prostate cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "prostate cancer",
+      "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a"
+    },
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a"
+    },
+    {
+      "canonical_name": "cytotoxic T lymphocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytotoxic T lymphocytes",
+      "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a"
+    },
+    {
+      "canonical_name": "HER2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HER2",
+      "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a"
+    },
+    {
+      "canonical_name": "Mam-A",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Mam-A",
+      "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a"
+    },
+    {
+      "canonical_name": "PAP",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PAP",
+      "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a"
+    },
+    {
+      "canonical_name": "HPV-derived E6/E7 oncoproteins",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HPV-derived E6/E7 oncoproteins",
+      "chunk_id": "376b43c9189278c9d36d6e585e0252d56f9b759a217a6ff7d4cfa5c8234d401a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

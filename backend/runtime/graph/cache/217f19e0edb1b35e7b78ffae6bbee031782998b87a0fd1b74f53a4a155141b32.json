@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_8a169d4c82b4cb5c8ff4f6b9fe4301c1",
+  "content_hash": "8e593a34c4d7093f16c8b6fd7d3c59b922fd0c8d991ef6ea9fda2016255d5ff9",
+  "entities": [
+    {
+      "canonical_name": "鼠疫",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "鼠疫",
+      "chunk_id": "chk_8a169d4c82b4cb5c8ff4f6b9fe4301c1"
+    },
+    {
+      "canonical_name": "霍乱",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "霍乱",
+      "chunk_id": "chk_8a169d4c82b4cb5c8ff4f6b9fe4301c1"
+    },
+    {
+      "canonical_name": "病毒性肝炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "病毒性肝炎",
+      "chunk_id": "chk_8a169d4c82b4cb5c8ff4f6b9fe4301c1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

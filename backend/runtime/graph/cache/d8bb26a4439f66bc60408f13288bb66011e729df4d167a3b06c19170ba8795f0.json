@@ -1,0 +1,55 @@
+{
+  "chunk_id": "chk_b9a119a6b6938d5ce7841a1cd4638108",
+  "content_hash": "2118d8828ab704b53d57258e62c7c60c60cba8dadf9e03ab86c7a53c195d7828",
+  "entities": [
+    {
+      "canonical_name": "Traditional vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Traditional vaccines",
+      "chunk_id": "chk_b9a119a6b6938d5ce7841a1cd4638108"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_b9a119a6b6938d5ce7841a1cd4638108"
+    },
+    {
+      "canonical_name": "smallpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "smallpox",
+      "chunk_id": "chk_b9a119a6b6938d5ce7841a1cd4638108"
+    },
+    {
+      "canonical_name": "poliomyelitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "poliomyelitis",
+      "chunk_id": "chk_b9a119a6b6938d5ce7841a1cd4638108"
+    },
+    {
+      "canonical_name": "Second-generation recombinant vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Second-generation recombinant vaccines",
+      "chunk_id": "chk_b9a119a6b6938d5ce7841a1cd4638108"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_b9a119a6b6938d5ce7841a1cd4638108"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

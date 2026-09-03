@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_e3a000b70592848ab46cd5d76294cfe2",
+  "content_hash": "61f0d14709df0fb5afea8a5a88fd101d7da28174b4d12b2877c73a886d86c9b8",
+  "entities": [
+    {
+      "canonical_name": "meningococcal serogroup A, C, W-135 and Y CRM-197 conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "meningococcal serogroup A, C, W-135 and Y CRM-197 conjugate vaccine",
+      "chunk_id": "chk_e3a000b70592848ab46cd5d76294cfe2"
+    },
+    {
+      "canonical_name": "Menveo",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Menveo",
+      "chunk_id": "chk_e3a000b70592848ab46cd5d76294cfe2"
+    },
+    {
+      "canonical_name": "Menactra",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Menactra",
+      "chunk_id": "chk_e3a000b70592848ab46cd5d76294cfe2"
+    },
+    {
+      "canonical_name": "healthy adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adolescents",
+      "chunk_id": "chk_e3a000b70592848ab46cd5d76294cfe2"
+    },
+    {
+      "canonical_name": "meningococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "meningococcal disease",
+      "chunk_id": "chk_e3a000b70592848ab46cd5d76294cfe2"
+    },
+    {
+      "canonical_name": "quadrivalent conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent conjugate vaccine",
+      "chunk_id": "chk_e3a000b70592848ab46cd5d76294cfe2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

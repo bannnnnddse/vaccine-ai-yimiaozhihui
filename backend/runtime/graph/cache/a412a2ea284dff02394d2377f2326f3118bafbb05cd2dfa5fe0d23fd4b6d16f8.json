@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_add263f68acb24a52070b07be5edd09e",
+  "content_hash": "0e73d4d2b4c2cff4bc45a9b210ce37a1ef35fc5faee88555796bbf15f1f230ea",
+  "entities": [
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_add263f68acb24a52070b07be5edd09e"
+    },
+    {
+      "canonical_name": "acellular vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "acellular vaccine",
+      "chunk_id": "chk_add263f68acb24a52070b07be5edd09e"
+    },
+    {
+      "canonical_name": "whole-cell vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "whole-cell vaccine",
+      "chunk_id": "chk_add263f68acb24a52070b07be5edd09e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

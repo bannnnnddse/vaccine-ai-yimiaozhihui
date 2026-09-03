@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_4208fce6db5001d7fee760876de2e99d",
+  "content_hash": "871a2d2dea238c314ae569c9c9ccaa29297bc284be51cafd10a6b4d506bf4188",
+  "entities": [
+    {
+      "canonical_name": "PBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PBs",
+      "chunk_id": "chk_4208fce6db5001d7fee760876de2e99d"
+    },
+    {
+      "canonical_name": "autoimmune-prone mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "autoimmune-prone mice",
+      "chunk_id": "chk_4208fce6db5001d7fee760876de2e99d"
+    },
+    {
+      "canonical_name": "B cell hybridomas",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell hybridomas",
+      "chunk_id": "chk_4208fce6db5001d7fee760876de2e99d"
+    },
+    {
+      "canonical_name": "B cell clusters",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell clusters",
+      "chunk_id": "chk_4208fce6db5001d7fee760876de2e99d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

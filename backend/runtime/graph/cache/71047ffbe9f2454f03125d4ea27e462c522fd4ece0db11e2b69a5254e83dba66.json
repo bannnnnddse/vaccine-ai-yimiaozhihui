@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2e8413dd9e64c0ca83a521cc26d28ba5",
+  "content_hash": "2214cd6438f98ffcff7e03bdfdf959d78da399232f2cabeee86cb73c5155981f",
+  "entities": [
+    {
+      "canonical_name": "high-dose trivalent inactivated influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "high-dose trivalent inactivated influenza vaccine",
+      "chunk_id": "chk_2e8413dd9e64c0ca83a521cc26d28ba5"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_2e8413dd9e64c0ca83a521cc26d28ba5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

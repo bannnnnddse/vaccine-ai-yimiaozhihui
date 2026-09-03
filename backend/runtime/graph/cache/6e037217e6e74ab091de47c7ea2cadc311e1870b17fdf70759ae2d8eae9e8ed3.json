@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_a970bf080a36d283d2879fa462ffd256",
+  "content_hash": "6e1d0bab886baf51fd6be1e0dc06e87bb82fa4afce848a437cc154d64a6c0fa5",
+  "entities": [
+    {
+      "canonical_name": "influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus",
+      "chunk_id": "chk_a970bf080a36d283d2879fa462ffd256"
+    },
+    {
+      "canonical_name": "obese mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "obese mice",
+      "chunk_id": "chk_a970bf080a36d283d2879fa462ffd256"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_a970bf080a36d283d2879fa462ffd256"
+    },
+    {
+      "canonical_name": "Chimeric antigen receptor-modified T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Chimeric antigen receptor-modified T cells",
+      "chunk_id": "chk_a970bf080a36d283d2879fa462ffd256"
+    },
+    {
+      "canonical_name": "acute lymphoid leukemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute lymphoid leukemia",
+      "chunk_id": "chk_a970bf080a36d283d2879fa462ffd256"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "source_missing_from_quote",
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_93a5f4aad2c761285f4292ff617ae316",
+  "content_hash": "364d2775d3a4a9c714b93c92690838fdc771621fb6e05233e785ec89a3033aa3",
+  "entities": [
+    {
+      "canonical_name": "IL-6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-6",
+      "chunk_id": "chk_93a5f4aad2c761285f4292ff617ae316"
+    },
+    {
+      "canonical_name": "systemic autoimmunity",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "systemic autoimmunity",
+      "chunk_id": "chk_93a5f4aad2c761285f4292ff617ae316"
+    },
+    {
+      "canonical_name": "viral infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "viral infection",
+      "chunk_id": "chk_93a5f4aad2c761285f4292ff617ae316"
+    },
+    {
+      "canonical_name": "antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen",
+      "chunk_id": "chk_93a5f4aad2c761285f4292ff617ae316"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

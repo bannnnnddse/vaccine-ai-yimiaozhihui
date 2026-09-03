@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7a36d982f0dcf6cbbedc07fb5dd3abb4",
+  "content_hash": "5946802bb174fb13dfb3d4b55292731e95f89297ffcb546d1c1465dddfb4683b",
+  "entities": [
+    {
+      "canonical_name": "childhood measles vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "childhood measles vaccination",
+      "chunk_id": "chk_7a36d982f0dcf6cbbedc07fb5dd3abb4"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b vaccination",
+      "chunk_id": "chk_7a36d982f0dcf6cbbedc07fb5dd3abb4"
+    },
+    {
+      "canonical_name": "Indian children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Indian children",
+      "chunk_id": "chk_7a36d982f0dcf6cbbedc07fb5dd3abb4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

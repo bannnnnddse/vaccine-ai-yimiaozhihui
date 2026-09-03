@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_c6f4b20a04c62165ce4ed22bc2d20681",
+  "content_hash": "ba76ed156dedb6a55b7d73beca21b94ab5c392aef3bbd4c316aa26f31118c919",
+  "entities": [
+    {
+      "canonical_name": "乙肝疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙肝疫苗",
+      "chunk_id": "chk_c6f4b20a04c62165ce4ed22bc2d20681"
+    },
+    {
+      "canonical_name": "脊灰减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "脊灰减毒活疫苗",
+      "chunk_id": "chk_c6f4b20a04c62165ce4ed22bc2d20681"
+    },
+    {
+      "canonical_name": "麻疹疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "麻疹疫苗",
+      "chunk_id": "chk_c6f4b20a04c62165ce4ed22bc2d20681"
+    },
+    {
+      "canonical_name": "麻疹",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "麻疹",
+      "chunk_id": "chk_c6f4b20a04c62165ce4ed22bc2d20681"
+    },
+    {
+      "canonical_name": "风疹",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "风疹",
+      "chunk_id": "chk_c6f4b20a04c62165ce4ed22bc2d20681"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "self_loop",
+    "invalid_domain_range"
+  ]
+}

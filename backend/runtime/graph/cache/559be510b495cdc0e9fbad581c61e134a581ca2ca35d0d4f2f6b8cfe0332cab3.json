@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_625308eb69b1d2fd64f0f8c8f9f2c43e",
+  "content_hash": "4faf7b17ccf65de1f7c53d6011ecb7eb7cfdde2f640001cdf9de9c9b576a0a3e",
+  "entities": [
+    {
+      "canonical_name": "RTS,S/AS01 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RTS,S/AS01 vaccine",
+      "chunk_id": "chk_625308eb69b1d2fd64f0f8c8f9f2c43e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

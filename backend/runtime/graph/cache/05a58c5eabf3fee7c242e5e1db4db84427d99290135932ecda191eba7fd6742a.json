@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_8867bd8dedb6f43032f8a242aa14d2f9",
+  "content_hash": "c3933d772b1b3ecf72ebb5833a8cb81e2440a299a9c22f2286788dbc40386a49",
+  "entities": [
+    {
+      "canonical_name": "attenuated rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "attenuated rotavirus vaccine",
+      "chunk_id": "chk_8867bd8dedb6f43032f8a242aa14d2f9"
+    },
+    {
+      "canonical_name": "RIX4414",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RIX4414",
+      "chunk_id": "chk_8867bd8dedb6f43032f8a242aa14d2f9"
+    },
+    {
+      "canonical_name": "Latin American infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Latin American infants",
+      "chunk_id": "chk_8867bd8dedb6f43032f8a242aa14d2f9"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_8867bd8dedb6f43032f8a242aa14d2f9"
+    },
+    {
+      "canonical_name": "rotavirus diarrhoea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus diarrhoea",
+      "chunk_id": "chk_8867bd8dedb6f43032f8a242aa14d2f9"
+    },
+    {
+      "canonical_name": "RIT 4237 attenuated bovine rotavirus strain vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RIT 4237 attenuated bovine rotavirus strain vaccine",
+      "chunk_id": "chk_8867bd8dedb6f43032f8a242aa14d2f9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

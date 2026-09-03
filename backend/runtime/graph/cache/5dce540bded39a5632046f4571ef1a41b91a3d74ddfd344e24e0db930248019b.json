@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_f7227076ec13e436bff704a7855dfd62",
+  "content_hash": "cb477e3894d07b14931ebf12fada8399def4a42402313c2f7c0afdd4d60b399e",
+  "entities": [
+    {
+      "canonical_name": "rabies vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rabies vaccine",
+      "chunk_id": "chk_f7227076ec13e436bff704a7855dfd62"
+    },
+    {
+      "canonical_name": "human volunteers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "human volunteers",
+      "chunk_id": "chk_f7227076ec13e436bff704a7855dfd62"
+    },
+    {
+      "canonical_name": "Zika virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika virus",
+      "chunk_id": "chk_f7227076ec13e436bff704a7855dfd62"
+    },
+    {
+      "canonical_name": "mRNA vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccination",
+      "chunk_id": "chk_f7227076ec13e436bff704a7855dfd62"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_29227c342cfb11bb23188f73c87226dc",
+  "content_hash": "30dcc17854a5f0665e2b94691b7b3e72d8c9eccd218fae86655e27da9f867f2f",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination",
+      "chunk_id": "chk_29227c342cfb11bb23188f73c87226dc"
+    },
+    {
+      "canonical_name": "side effects",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "side effects",
+      "chunk_id": "chk_29227c342cfb11bb23188f73c87226dc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

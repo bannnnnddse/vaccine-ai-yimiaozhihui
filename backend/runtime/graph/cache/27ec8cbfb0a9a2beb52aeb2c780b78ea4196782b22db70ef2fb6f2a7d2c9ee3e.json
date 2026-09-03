@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_a58dae895b8c6618dfc5cd4413fee73d",
+  "content_hash": "c36e075861d451555d6f84525ae9fd224d0a762c1bf853eb46a29a096af3dc01",
+  "entities": [
+    {
+      "canonical_name": "Tfh",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Tfh",
+      "chunk_id": "chk_a58dae895b8c6618dfc5cd4413fee73d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

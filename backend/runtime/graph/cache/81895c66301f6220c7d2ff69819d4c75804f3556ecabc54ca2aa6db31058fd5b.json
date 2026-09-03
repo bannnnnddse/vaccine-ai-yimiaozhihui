@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_703e452941010e2282d54837f7a47518",
+  "content_hash": "bc3ae878d09a0e0b79983eefa470017c36483288fad9545ae0ae4e16f012aac2",
+  "entities": [
+    {
+      "canonical_name": "COVID -19 RNA vaccine BNT162b1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID -19 RNA vaccine BNT162b1",
+      "chunk_id": "chk_703e452941010e2282d54837f7a47518"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_703e452941010e2282d54837f7a47518"
+    },
+    {
+      "canonical_name": "human antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human antibody",
+      "chunk_id": "chk_703e452941010e2282d54837f7a47518"
+    },
+    {
+      "canonical_name": "TH 1 T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TH 1 T cell",
+      "chunk_id": "chk_703e452941010e2282d54837f7a47518"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

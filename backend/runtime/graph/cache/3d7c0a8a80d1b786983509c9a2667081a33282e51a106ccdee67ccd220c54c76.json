@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_44e2bb88a87b17c9e6f708d286198118",
+  "content_hash": "5bed7e7e350023da86180b02abdfefff5e6537fa00d98da2bc0492b674fe191a",
+  "entities": [
+    {
+      "canonical_name": "coronaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "coronaviruses",
+      "chunk_id": "chk_44e2bb88a87b17c9e6f708d286198118"
+    },
+    {
+      "canonical_name": "acute respiratory infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute respiratory infections",
+      "chunk_id": "chk_44e2bb88a87b17c9e6f708d286198118"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_44e2bb88a87b17c9e6f708d286198118"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_44e2bb88a87b17c9e6f708d286198118"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_44e2bb88a87b17c9e6f708d286198118"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_d45c4bedacc0ef76bdc76aa00afe0c17",
+  "content_hash": "0e2fd3146aa10b488ead177513cd21f5ed3fbf65a913c2892203b06ed9e49aa9",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_d45c4bedacc0ef76bdc76aa00afe0c17"
+    },
+    {
+      "canonical_name": "INO -4800 DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "INO -4800 DNA vaccine",
+      "chunk_id": "chk_d45c4bedacc0ef76bdc76aa00afe0c17"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_d45c4bedacc0ef76bdc76aa00afe0c17"
+    },
+    {
+      "canonical_name": "SARS -CoV -2 variants",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2 variants",
+      "chunk_id": "chk_d45c4bedacc0ef76bdc76aa00afe0c17"
+    },
+    {
+      "canonical_name": "DNA vaccine candidate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccine candidate",
+      "chunk_id": "chk_d45c4bedacc0ef76bdc76aa00afe0c17"
+    },
+    {
+      "canonical_name": "COVID -19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID -19",
+      "chunk_id": "chk_d45c4bedacc0ef76bdc76aa00afe0c17"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_77a5e9c5f2ea7946196514f0c6bbecbe",
+  "content_hash": "9837afb78f132f69367b2dd43413146d263a6c3aea5d28db8aa147929af6428a",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal colonization",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumococcal colonization",
+      "chunk_id": "chk_77a5e9c5f2ea7946196514f0c6bbecbe"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_77a5e9c5f2ea7946196514f0c6bbecbe"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

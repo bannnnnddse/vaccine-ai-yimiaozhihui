@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_8aafb706ed38dfc6a6dc3b21d9b166ec",
+  "content_hash": "382e8861be90ed12bf85a261fc4872fdfb266dd8b830e57b3ffcad806c15878a",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_8aafb706ed38dfc6a6dc3b21d9b166ec"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_8aafb706ed38dfc6a6dc3b21d9b166ec"
+    },
+    {
+      "canonical_name": "pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumococcal disease",
+      "chunk_id": "chk_8aafb706ed38dfc6a6dc3b21d9b166ec"
+    },
+    {
+      "canonical_name": "herpes zoster",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "herpes zoster",
+      "chunk_id": "chk_8aafb706ed38dfc6a6dc3b21d9b166ec"
+    },
+    {
+      "canonical_name": "seasonal influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "seasonal influenza",
+      "chunk_id": "chk_8aafb706ed38dfc6a6dc3b21d9b166ec"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_8aafb706ed38dfc6a6dc3b21d9b166ec"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

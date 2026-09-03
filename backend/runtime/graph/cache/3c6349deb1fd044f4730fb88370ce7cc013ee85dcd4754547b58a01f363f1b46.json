@@ -1,0 +1,43 @@
+{
+  "chunk_id": "ca6d055ba4f7004d1a73d0435a6dd4605ebf92e5bbfa56bd5f2a873292e29e6f",
+  "content_hash": "da00ae2bc59411159b986dfec757bb1bbede7356e077f13956353193de0ae1d2",
+  "entities": [
+    {
+      "canonical_name": "Ebola",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Ebola",
+      "chunk_id": "ca6d055ba4f7004d1a73d0435a6dd4605ebf92e5bbfa56bd5f2a873292e29e6f"
+    },
+    {
+      "canonical_name": "Marburg",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Marburg",
+      "chunk_id": "ca6d055ba4f7004d1a73d0435a6dd4605ebf92e5bbfa56bd5f2a873292e29e6f"
+    },
+    {
+      "canonical_name": "rabies",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rabies",
+      "chunk_id": "ca6d055ba4f7004d1a73d0435a6dd4605ebf92e5bbfa56bd5f2a873292e29e6f"
+    },
+    {
+      "canonical_name": "Hendra",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hendra",
+      "chunk_id": "ca6d055ba4f7004d1a73d0435a6dd4605ebf92e5bbfa56bd5f2a873292e29e6f"
+    },
+    {
+      "canonical_name": "Nipah",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Nipah",
+      "chunk_id": "ca6d055ba4f7004d1a73d0435a6dd4605ebf92e5bbfa56bd5f2a873292e29e6f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

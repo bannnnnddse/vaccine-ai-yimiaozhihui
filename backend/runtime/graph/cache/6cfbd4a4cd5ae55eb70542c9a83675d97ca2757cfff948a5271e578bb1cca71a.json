@@ -1,0 +1,48 @@
+{
+  "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d",
+  "content_hash": "1ec02af3f1cfd0ab239b48cef4b92b47ce1b7e805756b50425173d7ab592a305",
+  "entities": [
+    {
+      "canonical_name": "EV71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV71",
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+    },
+    {
+      "canonical_name": "手足口病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "手足口病",
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "EV71",
+        "entity_type": "Pathogen",
+        "aliases": [],
+        "surface_form": "EV71",
+        "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+      },
+      "target": {
+        "canonical_name": "手足口病",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "手足口病",
+        "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+      },
+      "relation_type": "CAUSES",
+      "evidence_quote": "EV71 感染可引起多种疾病 ， 其中以手足口病 （Hand, foot and mouth disease , HFMD）最为常见 。",
+      "confidence": 1.0,
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+    }
+  ],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "entity_surface_missing",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

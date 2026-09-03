@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_9e09bfc47c24e0dcd8253a2235d64568",
+  "content_hash": "25df9b99687b029d0eebf3a6e6d89ec0906201390e9d5c50cc45e928a260ae2b",
+  "entities": [
+    {
+      "canonical_name": "gp120-specific CD4+ T-cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "gp120-specific CD4+ T-cells",
+      "chunk_id": "chk_9e09bfc47c24e0dcd8253a2235d64568"
+    },
+    {
+      "canonical_name": "CD40L",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD40L",
+      "chunk_id": "chk_9e09bfc47c24e0dcd8253a2235d64568"
+    },
+    {
+      "canonical_name": "IL-2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-2",
+      "chunk_id": "chk_9e09bfc47c24e0dcd8253a2235d64568"
+    },
+    {
+      "canonical_name": "TNF-a",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TNF-a",
+      "chunk_id": "chk_9e09bfc47c24e0dcd8253a2235d64568"
+    },
+    {
+      "canonical_name": "IFN-c",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-c",
+      "chunk_id": "chk_9e09bfc47c24e0dcd8253a2235d64568"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

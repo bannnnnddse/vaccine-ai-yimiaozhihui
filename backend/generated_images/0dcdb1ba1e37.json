@@ -1,0 +1,225 @@
+{
+  "job_id": "0dcdb1ba1e37",
+  "prompt": "生成疫苗机制图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen",
+      "b_cell",
+      "antibody"
+    ],
+    "scene_direction": "16:9横版科学机制图，左侧展示疫苗抗原进入体内被抗原呈递细胞（APC）摄取处理，中间展示MHC分子复合物激活T细胞及B细胞识别抗原，右侧展示效应阶段产生抗体或细胞毒性反应。使用固定细胞IP角色代表免疫细胞，保持风格统一但严谨。背景简洁明亮，突出因果流程箭头和编号步骤。",
+    "optimized_chinese_prompt": "16:9横版生物医学机制图解，采用固定细胞IP视觉风格。画面分为三个逻辑区域：左区显示球形病毒样抗原颗粒接近一个手绘风格的树突状细胞（DC），DC伸出伪足进行吞噬；中区显示DC表面呈现肽-MHC复合物，与一个圆形T辅助细胞接触，旁边有一个B细胞直接结合游离抗原；右区显示浆细胞释放Y形抗体中和病毒，以及细胞毒性T细胞攻击感染细胞。包含清晰的黑色细线箭头指示方向，关键节点标注数字1-4。配色为专业的蓝、白、浅灰为主，点缀柔和的生物色，无多余装饰，强调科学准确性。",
+    "chinese_labels": [
+      "抗原摄入",
+      "抗原呈递",
+      "淋巴细胞激活",
+      "免疫应答"
+    ],
+    "scientific_claims": [
+      "疫苗模拟病原体结构以训练免疫系统",
+      "抗原呈递细胞处理并展示抗原片段",
+      "T细胞和B细胞协同识别特定抗原",
+      "激活后产生特异性抗体或记忆细胞"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "疫苗抗原被抗原呈递细胞摄取和处理"
+      },
+      {
+        "primary_relation": "抗原呈递细胞通过MHC分子向T细胞展示抗原肽"
+      },
+      {
+        "primary_relation": "T细胞辅助激活B细胞分化为浆细胞"
+      },
+      {
+        "primary_relation": "浆细胞分泌特异性抗体中和病原体"
+      }
+    ],
+    "route_reason": "主题涉及疫苗、抗原及免疫细胞交互，属于典型的细胞/分子机制图，需严谨表达多步因果关系，故选择cell_ip_scientific模式以兼顾IP资产可用性与科学完整性。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen",
+    "b_cell",
+    "antibody"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "淋巴细胞",
+    "通过MHC分子向T细胞"
+  ],
+  "reference_assets": [
+    "role-sheet:antigen+b_cell+antibody"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:antigen+b_cell+antibody"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    },
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n16:9横版科学机制图，左侧展示疫苗抗原进入体内被抗原呈递细胞（APC）摄取处理，中间展示MHC分子复合物激活T细胞及B细胞识别抗原，右侧展示效应阶段产生抗体或细胞毒性反应。使用固定细胞IP角色代表免疫细胞，保持风格统一但严谨。背景简洁明亮，突出因果流程箭头和编号步骤。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 疫苗抗原被抗原呈递细胞摄取和处理；2. 抗原呈递细胞通过MHC分子向T细胞展示抗原肽；3. T细胞辅助激活B细胞分化为浆细胞；4. 浆细胞分泌特异性抗体中和病原体\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：抗原摄入、抗原呈递、淋巴细胞激活、免疫应答\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是完整细胞 IP 角色总表；只从中提取并使用命中的固定角色（抗原、B 细胞、抗体），保持其颜色、轮廓、面部和专属道具与表中完全一致；不得使用表中其余角色，也不得复制其中的文字、事件或构图\n- 本题命中的固定角色：抗原、B 细胞、抗体\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n【角色总表选取】（仅当参考图为完整角色总表时启用）\n- 图1 是完整细胞 IP 角色总表。画面所需固定角色必须逐个从该表中找到并原样使用，颜色、轮廓、面部、专属道具与装饰一律以表中为准：\n- 抗原：紫色圆刺团，表情可警觉\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 只在总表中提取命中的角色：抗原、B 细胞、抗体；忽略并不得使用表中其余角色，也不得新增表中不存在的固定角色。\n- 未收录的必要细胞：淋巴细胞、通过MHC分子向T细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、5 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 4 个核心步骤；使用编号步骤；保留一个简短中文标题。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 5,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 4,
+    "requires_numbered_steps": true,
+    "requires_title": true
+  },
+  "aspect_ratio": "16:9",
+  "image_id": "0dcdb1ba1e37-v0",
+  "trusted_image": "0dcdb1ba1e37-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "AI 视觉审核未完成：模型返回结果未通过结构校验。请人工确认图片内容后再接受或修改。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "not_assessable",
+        "evidence": "审核服务不可用。",
+        "confidence": 1.0
+      },
+      "text_legibility": {
+        "status": "not_assessable",
+        "evidence": "审核服务不可用。",
+        "confidence": 1.0
+      },
+      "layout_hierarchy": {
+        "status": "not_assessable",
+        "evidence": "审核服务不可用。",
+        "confidence": 1.0
+      },
+      "brief_alignment": {
+        "status": "not_assessable",
+        "evidence": "审核服务不可用。",
+        "confidence": 1.0
+      },
+      "causal_step_coverage": {
+        "status": "not_assessable",
+        "evidence": "审核服务不可用。",
+        "confidence": 1.0
+      },
+      "scientific_expression_risk": {
+        "status": "not_assessable",
+        "evidence": "审核服务不可用。",
+        "confidence": 1.0
+      }
+    },
+    "blind_text_audit": {
+      "status": "unavailable",
+      "summary": "审核服务不可用，未能执行独立文字盲读。",
+      "text_blocks": []
+    },
+    "issues": [
+      {
+        "issue_type": "other",
+        "severity": "medium",
+        "description": "本轮未获得可验证的结构化视觉审核结果（invalid_structured_output）。",
+        "bbox": null,
+        "observed_text": null,
+        "replacement_text": null,
+        "confidence": 1.0,
+        "suggested_fix": "请查看图片并决定接受结果或框选区域修改。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-09-02T06:36:47.153337+00:00",
+  "finished_at": "2026-09-02T06:38:16.791666+00:00",
+  "stage": "completed",
+  "error": null,
+  "trace_id": "6167a8df0769",
+  "trace_events": [
+    {
+      "id": "6167a8df0769-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-09-02T06:36:47.153337Z"
+    },
+    {
+      "id": "6167a8df0769-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：16:9横版生物医学机制图解，采用固定细胞IP视觉风格。画面分为三个逻辑区域：左区显示球形病毒样抗原颗粒接近一个手绘风格的树突状细胞（DC），DC伸出伪足进行吞噬；中区显示DC表面呈现肽-MHC复合物，与一个圆形T辅助细胞接触，旁边有一个B细胞直接结合游离抗原；右区显示浆细胞释放Y形抗体中和病毒，以及细胞毒性T细胞攻击感染细胞。包含清晰的黑色细线箭头指示方… 详细机制图：至少 4 个信息分区、5 个可辨视觉节点、4 条方向连接。",
+      "status": "completed",
+      "created_at": "2026-09-02T06:36:47.157148Z"
+    },
+    {
+      "id": "6167a8df0769-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-09-02T06:36:59.190855Z"
+    },
+    {
+      "id": "6167a8df0769-4",
+      "stage": "visual_critic",
+      "title": "视觉审查暂时不可用",
+      "detail": "未获得可验证的审查结果，请人工确认当前图片。",
+      "status": "warning",
+      "created_at": "2026-09-02T06:37:11.344820Z"
+    },
+    {
+      "id": "6167a8df0769-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-09-02T06:37:34.205058Z"
+    },
+    {
+      "id": "6167a8df0769-6",
+      "stage": "completed",
+      "title": "图解已准备完成",
+      "detail": "最终图片已生成。",
+      "status": "completed",
+      "created_at": "2026-09-02T06:38:16.532225Z"
+    },
+    {
+      "id": "6167a8df0769-7",
+      "stage": "completed",
+      "title": "图解已准备完成",
+      "detail": "最终图片已生成。",
+      "status": "completed",
+      "created_at": "2026-09-02T06:38:16.671446Z"
+    },
+    {
+      "id": "6167a8df0769-8",
+      "stage": "completed",
+      "title": "图解已准备完成",
+      "detail": "最终图片已生成。",
+      "status": "completed",
+      "created_at": "2026-09-02T06:38:16.791666Z"
+    }
+  ],
+  "trace_history": []
+}

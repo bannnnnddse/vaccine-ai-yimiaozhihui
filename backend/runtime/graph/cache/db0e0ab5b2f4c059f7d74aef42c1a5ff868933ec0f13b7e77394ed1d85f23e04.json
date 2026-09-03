@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ece715fa698aea45dd1770ae5816f249",
+  "content_hash": "bd309c36b180e1276a1f81af12c27f8308268f43f5c4cf703a95c6d494190298",
+  "entities": [
+    {
+      "canonical_name": "human",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "human",
+      "chunk_id": "chk_ece715fa698aea45dd1770ae5816f249"
+    },
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "chk_ece715fa698aea45dd1770ae5816f249"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

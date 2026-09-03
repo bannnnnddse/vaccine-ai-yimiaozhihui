@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_ff4abe3823a9924c58a9ac8e73bd94af",
+  "content_hash": "b0e66bf5580e6a551a50ee3309ed8122ae91645fc6a282b0f08df3d426841bd5",
+  "entities": [
+    {
+      "canonical_name": "HAV",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HAV",
+      "chunk_id": "chk_ff4abe3823a9924c58a9ac8e73bd94af"
+    },
+    {
+      "canonical_name": "PLWH",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "PLWH",
+      "chunk_id": "chk_ff4abe3823a9924c58a9ac8e73bd94af"
+    },
+    {
+      "canonical_name": "HBV vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "HBV vaccination",
+      "chunk_id": "chk_ff4abe3823a9924c58a9ac8e73bd94af"
+    },
+    {
+      "canonical_name": "high-dose, 4-dose, intradermal, and CpG-adjuvanted regimens",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "high-dose, 4-dose, intradermal, and CpG-adjuvanted regimens",
+      "chunk_id": "chk_ff4abe3823a9924c58a9ac8e73bd94af"
+    },
+    {
+      "canonical_name": "Revaccination strategies",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Revaccination strategies",
+      "chunk_id": "chk_ff4abe3823a9924c58a9ac8e73bd94af"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_ff4abe3823a9924c58a9ac8e73bd94af"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

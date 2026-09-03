@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_fcf567a040973911e48422905b5778e2",
+  "content_hash": "f66bdf4fc561207048caccf7bd86d958f4844a6c6d3a68409c7be3dca2390196",
+  "entities": [
+    {
+      "canonical_name": "rhesus-human reassortant rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rhesus-human reassortant rotavirus vaccine",
+      "chunk_id": "chk_fcf567a040973911e48422905b5778e2"
+    },
+    {
+      "canonical_name": "severe rotavirus gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe rotavirus gastroenteritis",
+      "chunk_id": "chk_fcf567a040973911e48422905b5778e2"
+    },
+    {
+      "canonical_name": "rhesus rotavirus-based quadrivalent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rhesus rotavirus-based quadrivalent vaccine",
+      "chunk_id": "chk_fcf567a040973911e48422905b5778e2"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_fcf567a040973911e48422905b5778e2"
+    },
+    {
+      "canonical_name": "young children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young children",
+      "chunk_id": "chk_fcf567a040973911e48422905b5778e2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

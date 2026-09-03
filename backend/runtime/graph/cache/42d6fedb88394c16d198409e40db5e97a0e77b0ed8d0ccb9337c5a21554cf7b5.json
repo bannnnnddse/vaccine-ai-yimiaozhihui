@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_fb3d5292eb3a2fb318fa2c2010bfb11d",
+  "content_hash": "72bac4060901a5d3daf9062c3f84ebf1617b5a50fccbbba08c78acba01b4f9cc",
+  "entities": [
+    {
+      "canonical_name": "severe fever with thrombocytopenia syndrome virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "severe fever with thrombocytopenia syndrome virus",
+      "chunk_id": "chk_fb3d5292eb3a2fb318fa2c2010bfb11d"
+    },
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "chk_fb3d5292eb3a2fb318fa2c2010bfb11d"
+    },
+    {
+      "canonical_name": "SFTS Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTS Virus",
+      "chunk_id": "chk_fb3d5292eb3a2fb318fa2c2010bfb11d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

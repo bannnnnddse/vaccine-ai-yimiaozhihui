@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_02a2779c83552d7d952d195ef6471585",
+  "content_hash": "013f22ec6952332336be93f59b60e7e1e7f00acb94a463ac1e73ffc05a446ae8",
+  "entities": [
+    {
+      "canonical_name": "polyvalent vaccine against HFRS",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "polyvalent vaccine against HFRS",
+      "chunk_id": "chk_02a2779c83552d7d952d195ef6471585"
+    },
+    {
+      "canonical_name": "HFRS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFRS",
+      "chunk_id": "chk_02a2779c83552d7d952d195ef6471585"
+    },
+    {
+      "canonical_name": "PUUV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "PUUV",
+      "chunk_id": "chk_02a2779c83552d7d952d195ef6471585"
+    },
+    {
+      "canonical_name": "HTNV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HTNV",
+      "chunk_id": "chk_02a2779c83552d7d952d195ef6471585"
+    },
+    {
+      "canonical_name": "SOCHIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SOCHIV",
+      "chunk_id": "chk_02a2779c83552d7d952d195ef6471585"
+    },
+    {
+      "canonical_name": "BALB/c mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "BALB/c mice",
+      "chunk_id": "chk_02a2779c83552d7d952d195ef6471585"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

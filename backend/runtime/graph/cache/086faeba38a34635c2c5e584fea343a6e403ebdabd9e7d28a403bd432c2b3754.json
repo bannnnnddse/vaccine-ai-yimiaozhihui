@@ -1,0 +1,48 @@
+{
+  "chunk_id": "chk_d1ddf38ed57ca6829e7b2679634294a2",
+  "content_hash": "d7fa67458b4acc6bfb94c03d3af319320a4bd8a18edb0653853fd5cf84b367f7",
+  "entities": [
+    {
+      "canonical_name": "EVA71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EVA71",
+      "chunk_id": "chk_d1ddf38ed57ca6829e7b2679634294a2"
+    },
+    {
+      "canonical_name": "brainstem encephalitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "brainstem encephalitis",
+      "chunk_id": "chk_d1ddf38ed57ca6829e7b2679634294a2"
+    },
+    {
+      "canonical_name": "aseptic meningitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "aseptic meningitis",
+      "chunk_id": "chk_d1ddf38ed57ca6829e7b2679634294a2"
+    },
+    {
+      "canonical_name": "acute flaccid paralysis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute flaccid paralysis",
+      "chunk_id": "chk_d1ddf38ed57ca6829e7b2679634294a2"
+    },
+    {
+      "canonical_name": "cardiopulmonary failure",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cardiopulmonary failure",
+      "chunk_id": "chk_d1ddf38ed57ca6829e7b2679634294a2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

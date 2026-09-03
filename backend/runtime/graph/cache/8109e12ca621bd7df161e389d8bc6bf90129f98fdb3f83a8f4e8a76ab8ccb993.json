@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_9eed78c40dfdddbbe9a684c444089aaf",
+  "content_hash": "52706c633e0c86ca9a26b9fd29f12265fd796ce72333933d13b5cc113c2737f9",
+  "entities": [
+    {
+      "canonical_name": "SARS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS",
+      "chunk_id": "chk_9eed78c40dfdddbbe9a684c444089aaf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

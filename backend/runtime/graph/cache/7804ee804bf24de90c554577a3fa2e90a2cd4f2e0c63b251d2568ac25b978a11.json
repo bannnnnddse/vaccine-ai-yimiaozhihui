@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c88d12d48a4479cf301715f9e6dc6bf8",
+  "content_hash": "f66efea9d4835748147080fee567227c288c2478d8c7fc0c22ebc6707be4c114",
+  "entities": [
+    {
+      "canonical_name": "ESRD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "ESRD",
+      "chunk_id": "chk_c88d12d48a4479cf301715f9e6dc6bf8"
+    },
+    {
+      "canonical_name": "Ad26.COV2.S",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad26.COV2.S",
+      "chunk_id": "chk_c88d12d48a4479cf301715f9e6dc6bf8"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "chk_c88d12d48a4479cf301715f9e6dc6bf8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

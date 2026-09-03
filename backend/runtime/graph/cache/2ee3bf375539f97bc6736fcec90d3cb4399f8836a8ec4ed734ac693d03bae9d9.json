@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_5704fa3787c0c4e422eb56a7ff8e2213",
+  "content_hash": "892d784f23cf5522134043c09358b8bce8f24c85dc84a0141a30cc850a3341c1",
+  "entities": [
+    {
+      "canonical_name": "SARS -CoV -2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2 vaccine",
+      "chunk_id": "chk_5704fa3787c0c4e422eb56a7ff8e2213"
+    },
+    {
+      "canonical_name": "healthy adults aged 18–59 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adults aged 18–59 years",
+      "chunk_id": "chk_5704fa3787c0c4e422eb56a7ff8e2213"
+    },
+    {
+      "canonical_name": "Covaxin vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Covaxin vaccine",
+      "chunk_id": "chk_5704fa3787c0c4e422eb56a7ff8e2213"
+    },
+    {
+      "canonical_name": "SARS -CoV -2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2",
+      "chunk_id": "chk_5704fa3787c0c4e422eb56a7ff8e2213"
+    },
+    {
+      "canonical_name": "inactivated vaccine candidate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccine candidate",
+      "chunk_id": "chk_5704fa3787c0c4e422eb56a7ff8e2213"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

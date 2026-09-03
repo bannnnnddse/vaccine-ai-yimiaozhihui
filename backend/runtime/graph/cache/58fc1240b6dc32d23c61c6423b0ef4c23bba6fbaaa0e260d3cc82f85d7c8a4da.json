@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_cf80562db5f2122e983dd016501b550f",
+  "content_hash": "7a98ddfb94a01e37be5e6eea8f56d0c7af302e48faaa1cd503ee40356343013f",
+  "entities": [
+    {
+      "canonical_name": "immunoglobulin G",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunoglobulin G",
+      "chunk_id": "chk_cf80562db5f2122e983dd016501b550f"
+    },
+    {
+      "canonical_name": "concomitant vaccine antigen",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "concomitant vaccine antigen",
+      "chunk_id": "chk_cf80562db5f2122e983dd016501b550f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_b599f1edb4c56b870ddbc017db3de565",
+  "content_hash": "d4cb7c3084972a4503ab7ae2dc7ac011dcd398e5e7c479a9c7048ad5276e0f7f",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccine",
+      "chunk_id": "chk_b599f1edb4c56b870ddbc017db3de565"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

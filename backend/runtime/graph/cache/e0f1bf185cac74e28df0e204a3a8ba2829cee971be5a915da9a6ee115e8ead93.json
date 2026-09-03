@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_ac2cd3d87c7720b3a034f2d47c58d8f5",
+  "content_hash": "992ef305bfacdc8ba5bb280724d755422f32a0800f9e204d4d023d6bf94720c9",
+  "entities": [
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_ac2cd3d87c7720b3a034f2d47c58d8f5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch"
+  ]
+}

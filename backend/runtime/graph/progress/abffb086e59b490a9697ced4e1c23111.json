@@ -1,0 +1,19 @@
+{
+  "total_chunks": 15946,
+  "candidate_chunks": 12349,
+  "processed_chunks": 12349,
+  "cached_chunks": 6282,
+  "success_count": 6061,
+  "failed_count": 6,
+  "elapsed_seconds": 21699.203,
+  "estimated_remaining_seconds": 0.0,
+  "failed_chunk_ids": [
+    "chk_0b924afef88a25e7dda7977d5cbdc8d8",
+    "chk_4cbbed4c84c21c33dfa88f8542b0b960",
+    "chk_6f3246135d0ee09ff3635eac705e74f1",
+    "chk_93a48ff37cacbdbef8d91d3cd4d3d129",
+    "chk_cb63de3a7a8d615c8056e6895b9789f7",
+    "chk_fd37a244d69a3dffeefc2c7130965b64"
+  ],
+  "updated_at": "2026-08-22T08:15:47.956447+00:00"
+}

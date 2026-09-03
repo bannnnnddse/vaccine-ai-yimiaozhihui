@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_63fa614d2a9393755cb3de3d16b09d38",
+  "content_hash": "c0e8eba87879cd9f207cb81a06f03621cfe262379dbd8f0a6b6ec877896e6223",
+  "entities": [
+    {
+      "canonical_name": "serogroup A Neisseria meningitidis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "serogroup A Neisseria meningitidis",
+      "chunk_id": "chk_63fa614d2a9393755cb3de3d16b09d38"
+    },
+    {
+      "canonical_name": "meningococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "meningococcal conjugate vaccine",
+      "chunk_id": "chk_63fa614d2a9393755cb3de3d16b09d38"
+    },
+    {
+      "canonical_name": "MenAfriVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenAfriVac",
+      "chunk_id": "chk_63fa614d2a9393755cb3de3d16b09d38"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

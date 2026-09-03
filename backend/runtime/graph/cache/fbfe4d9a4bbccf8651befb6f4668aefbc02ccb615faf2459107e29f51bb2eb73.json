@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_520685d637ca4590fecfa710fb9aaf79",
+  "content_hash": "b6a5a813b55cb7f105fda40cffaa2c02b95121c801b1b1bd29d831017274df5f",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_520685d637ca4590fecfa710fb9aaf79"
+    },
+    {
+      "canonical_name": "sheep",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "sheep",
+      "chunk_id": "chk_520685d637ca4590fecfa710fb9aaf79"
+    },
+    {
+      "canonical_name": "CTLA-4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CTLA-4",
+      "chunk_id": "chk_520685d637ca4590fecfa710fb9aaf79"
+    },
+    {
+      "canonical_name": "human",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "human",
+      "chunk_id": "chk_520685d637ca4590fecfa710fb9aaf79"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

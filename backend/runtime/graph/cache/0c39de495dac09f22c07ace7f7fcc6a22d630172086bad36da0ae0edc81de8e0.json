@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_438e7502f3b1e9787669e9bdb709f9dc",
+  "content_hash": "4bb18d745a1af25e600ca47a08b9db61ddc53907a93bcb76d4fb11acd42458d8",
+  "entities": [
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "chk_438e7502f3b1e9787669e9bdb709f9dc"
+    },
+    {
+      "canonical_name": "D25",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "D25",
+      "chunk_id": "chk_438e7502f3b1e9787669e9bdb709f9dc"
+    },
+    {
+      "canonical_name": "AM22",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "AM22",
+      "chunk_id": "chk_438e7502f3b1e9787669e9bdb709f9dc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834",
+  "content_hash": "8b5beeb03d422e1f9c4698729991e74fa68ade34d1dac1033eb7bc792ae0ac6a",
+  "entities": [
+    {
+      "canonical_name": "Naive B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Naive B cells",
+      "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834"
+    },
+    {
+      "canonical_name": "IgM +",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgM +",
+      "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834"
+    },
+    {
+      "canonical_name": "IgG +",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG +",
+      "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834"
+    },
+    {
+      "canonical_name": "CD80",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD80",
+      "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834"
+    },
+    {
+      "canonical_name": "PD-L2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PD-L2",
+      "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834"
+    },
+    {
+      "canonical_name": "CD40 signaling",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD40 signaling",
+      "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834"
+    },
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834"
+    },
+    {
+      "canonical_name": "memory cell subsets",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory cell subsets",
+      "chunk_id": "chk_b7abe28fd358e4e960cb2fa7eff92834"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

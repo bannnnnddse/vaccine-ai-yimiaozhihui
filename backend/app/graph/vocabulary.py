@@ -1,0 +1,47 @@
+from app.graph.models import EntityDefinition
+
+ENTITY_DEFINITIONS: tuple[EntityDefinition, ...] = (
+    EntityDefinition(
+        "九价HPV疫苗",
+        "Vaccine",
+        ("九价HPV疫苗", "九价 HPV 疫苗", "九价人乳头瘤病毒疫苗"),
+    ),
+    EntityDefinition("HPV疫苗", "Vaccine", ("HPV疫苗", "HPV 疫苗", "人乳头瘤病毒疫苗")),
+    EntityDefinition("减毒活疫苗", "Vaccine", ("减毒活疫苗", "活疫苗")),
+    EntityDefinition("HPV16", "Pathogen", ("HPV16", "HPV 16", "HPV-16")),
+    EntityDefinition("HPV18", "Pathogen", ("HPV18", "HPV 18", "HPV-18")),
+    EntityDefinition("高危HPV感染", "Pathogen", ("高危HPV感染", "高危 HPV 感染")),
+    EntityDefinition("HPV感染", "Pathogen", ("HPV感染", "HPV 感染", "人乳头瘤病毒感染")),
+    EntityDefinition("复制型疫苗病毒", "Pathogen", ("复制型疫苗病毒", "可复制疫苗病毒")),
+    EntityDefinition("宫颈癌", "Disease", ("宫颈癌",)),
+    EntityDefinition("免疫缺陷患者", "Population", ("免疫缺陷患者", "免疫缺陷人群")),
+    EntityDefinition("儿童", "Population", ("儿童", "婴幼儿")),
+    EntityDefinition("孕妇", "Population", ("孕妇", "妊娠期人群")),
+    EntityDefinition("老年人", "Population", ("老年人", "老年人群")),
+    EntityDefinition("免疫功能降低", "ImmuneEntity", ("免疫功能降低", "免疫功能低下")),
+    EntityDefinition("树突状细胞", "ImmuneEntity", ("树突状细胞",)),
+    EntityDefinition("B细胞", "ImmuneEntity", ("B细胞", "B 细胞")),
+    EntityDefinition("T细胞", "ImmuneEntity", ("T细胞", "T 细胞")),
+    EntityDefinition("抗体", "ImmuneEntity", ("抗体", "中和抗体")),
+    EntityDefinition("发热", "AdverseEvent", ("发热", "发烧")),
+    EntityDefinition("局部疼痛", "AdverseEvent", ("局部疼痛", "注射部位疼痛")),
+    EntityDefinition("0-1-6月程序", "Schedule", ("0-1-6月程序", "0、1、6月程序", "0-1-6 月程序")),
+)
+
+RELATION_LABELS = {
+    "PREVENTS": "预防",
+    "CAUSES": "导致",
+    "CAN_PROGRESS_TO": "可进展为",
+    "INDICATED_FOR": "适用于",
+    "HAS_SCHEDULE": "接种程序",
+    "HAS_CONTRAINDICATION": "禁忌",
+    "ACTIVATES": "激活",
+    "PRODUCES": "产生",
+    "NEUTRALIZES": "中和",
+    "INCREASES_RISK": "增加风险",
+    "DECREASES_RISK": "降低风险",
+    "IS_A": "属于",
+    "PART_OF": "组成",
+    "SUPPORTED_BY": "来源支持",
+    "CO_MENTIONED": "主题关联",
+}

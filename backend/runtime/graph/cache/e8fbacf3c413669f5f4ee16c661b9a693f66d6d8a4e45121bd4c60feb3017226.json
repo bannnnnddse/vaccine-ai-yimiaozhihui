@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c5614976b4d1d22c03c87f31d48567ce",
+  "content_hash": "e3b3f9af84ca2b70f0bfee84b74f0785180d3f54752c9531d11c7156a5e2f4ce",
+  "entities": [
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_c5614976b4d1d22c03c87f31d48567ce"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_c5614976b4d1d22c03c87f31d48567ce"
+    },
+    {
+      "canonical_name": "local populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "local populations",
+      "chunk_id": "chk_c5614976b4d1d22c03c87f31d48567ce"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

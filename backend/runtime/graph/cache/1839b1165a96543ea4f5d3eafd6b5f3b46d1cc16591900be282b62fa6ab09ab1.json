@@ -1,0 +1,22 @@
+{
+  "chunk_id": "f4ead6331876824f5b1433fe4056c5c2597cf00a9166347be0e0ca8df7887c64",
+  "content_hash": "b56170c0b0bd8956befcca322ca0069b870b3f6edf131ebae50b6f8be6723b20",
+  "entities": [
+    {
+      "canonical_name": "immune response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune response",
+      "chunk_id": "f4ead6331876824f5b1433fe4056c5c2597cf00a9166347be0e0ca8df7887c64"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "f4ead6331876824f5b1433fe4056c5c2597cf00a9166347be0e0ca8df7887c64"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

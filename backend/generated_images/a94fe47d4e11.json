@@ -1,0 +1,383 @@
+{
+  "job_id": "a94fe47d4e11",
+  "prompt": "生成B细胞阻挡抗原图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "b_cell",
+      "antigen",
+      "antibody"
+    ],
+    "scene_direction": "16:9横版科学机制图。画面左侧为表面带有Y型受体的B细胞实体，呈防御姿态面向右侧；画面中央悬浮着具有特定表面结构的抗原实体，正试图靠近；画面右侧为B细胞分泌的抗体分子网络，形成物理屏障拦截抗原。各元素之间通过清晰的箭头指示相互作用方向与空间阻隔关系。背景为纯净的科学风格底色，无杂乱装饰。",
+    "optimized_chinese_prompt": "Scientific mechanism diagram, 16:9 aspect ratio. On the left, a B-cell with surface receptors stands in a defensive posture facing right. In the center, an antigen particle approaches but is blocked. On the right, antibody molecules secreted by the B-cell form a physical barrier network intercepting the antigen. Clear directional arrows indicate interaction and spatial blocking. Clean scientific background, minimal text, high contrast vector style.",
+    "chinese_labels": [
+      "B细胞",
+      "抗原",
+      "抗体",
+      "免疫阻挡"
+    ],
+    "scientific_claims": [
+      "B细胞通过表面受体识别特异性抗原",
+      "B细胞活化后分化为浆细胞并分泌抗体",
+      "分泌的抗体与抗原特异性结合形成复合物",
+      "抗体介导的凝集或中和作用物理性阻挡抗原入侵"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "B细胞识别抗原"
+      },
+      {
+        "primary_relation": "B细胞分泌抗体"
+      },
+      {
+        "primary_relation": "抗体结合并阻挡抗原"
+      }
+    ],
+    "route_reason": "主题涉及B细胞与抗原的相互作用及抗体介导的阻挡机制，属于典型的细胞免疫过程且包含三个以上因果步骤（识别、分泌、阻挡），符合cell_ip_scientific模式要求。使用简体中文描述所有字段以满足语言规范，严格遵循锁定角色契约，仅描述语义角色与动作，不定义外观细节。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "b_cell",
+    "antigen",
+    "antibody"
+  ],
+  "cell_ip_unmatched_cell_terms": [],
+  "cell_ip_label_layout": {
+    "anchors": [
+      {
+        "role_id": "b_cell",
+        "role_bbox": [
+          0.1,
+          0.3,
+          0.4,
+          0.7
+        ],
+        "label_bbox": [
+          0.00715307582260372,
+          0.481981981981982,
+          0.09155937052932761,
+          0.517017017017017
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "antigen",
+        "role_bbox": [
+          0.4,
+          0.45,
+          0.6,
+          0.65
+        ],
+        "label_bbox": [
+          0.46542680019074867,
+          0.6611611611611612,
+          0.5340963280877444,
+          0.6971971971971972
+        ],
+        "confidence": 1.0
+      },
+      {
+        "role_id": "antibody",
+        "role_bbox": [
+          0.65,
+          0.25,
+          0.95,
+          0.6
+        ],
+        "label_bbox": [
+          0.765379113018598,
+          0.2022022022022022,
+          0.8340486409155937,
+          0.23823823823823823
+        ],
+        "confidence": 1.0
+      }
+    ],
+    "steps": [
+      {
+        "step_index": 1,
+        "step_bbox": [
+          0.35,
+          0.4,
+          0.45,
+          0.5
+        ],
+        "number_bbox": [
+          0.3605150214592275,
+          0.4114114114114114,
+          0.41249403910348115,
+          0.46596596596596596
+        ],
+        "confidence": 1.0
+      },
+      {
+        "step_index": 2,
+        "step_bbox": [
+          0.55,
+          0.4,
+          0.65,
+          0.5
+        ],
+        "number_bbox": [
+          0.5608011444921316,
+          0.4114114114114114,
+          0.6127801621363853,
+          0.46596596596596596
+        ],
+        "confidence": 1.0
+      },
+      {
+        "step_index": 3,
+        "step_bbox": [
+          0.85,
+          0.35,
+          0.95,
+          0.45
+        ],
+        "number_bbox": [
+          0.8607534573199809,
+          0.3613613613613614,
+          0.9127324749642346,
+          0.4159159159159159
+        ],
+        "confidence": 1.0
+      }
+    ]
+  },
+  "cell_ip_expected_text": [
+    "B细胞",
+    "抗原",
+    "抗体",
+    "1",
+    "2",
+    "3"
+  ],
+  "cell_ip_text_source": "manifest_programmatic",
+  "cell_ip_base_visual_text_audit": {
+    "status": "clear",
+    "has_visible_text": false,
+    "summary": "这是一幅卡通风格的免疫学原理示意图，描绘了B细胞、抗原和抗体之间的相互作用。左侧是一个蓝色的圆形角色（代表B细胞），背着书包，手持一个黄色的Y形物体；中间是一个紫色的带刺球体（代表抗原/病毒）；右侧是一个拟人化的淡蓝色Y形结构（代表抗体）。图中使用箭头指示了从B细胞到抗原，以及从抗原到抗体的互动流程，形象地展示了免疫反应过程。",
+    "text_blocks": []
+  },
+  "reference_assets": [
+    "canonical:b_cell",
+    "canonical:antigen",
+    "canonical:antibody"
+  ],
+  "reference_assets_actually_sent": [
+    "canonical:b_cell",
+    "canonical:antigen",
+    "canonical:antibody"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    },
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 的无字科学插画：画面中绝对不出现任何\n文字、字母、数字、伪文字或文字形状；角色名、底标、标题和步骤编号全部由程序在生成后绘制。\n\n【仅场景与构图指令】\n16:9横版科学机制图。画面左侧为表面带有Y型受体的B细胞实体。呈防御姿态面向右侧。画面中央悬浮着具有特定表面结构的抗原实体。正试图靠近。画面右侧为B细胞分泌的抗体分子网络。形成物理屏障拦截抗原。各元素之间通过清晰的箭头指示相互作用方向与空间阻隔关系。背景为纯净的科学风格底色。无杂乱装饰。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. B细胞识别抗原；2. B细胞分泌抗体；3. 抗体结合并阻挡抗原\n- 禁止生成任何可读文字、字母、数字、伪文字或文字形状。每个命中的固定角色至少保留一次轮廓完整、彼此不遮挡的代表性出场，并在角色四周保留适量自然留白；不要生成底标框，角色名称与圆角底标全部由程序根据角色位置绘制\n- 科学关系中的英文缩写（如 MHC、TCR、PAMP）也必须画成图形元素或完全省略，\n  绝不能作为文字、注释或装饰性字母写进画面\n- 程序稍后写入的规范角色名称为：B细胞、抗原、抗体；这些名称只用于确定程序底标数量和宽度，\n  你不得在画面中书写、临摹或生成其中任何字符\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是 B 细胞 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 图2是 抗原 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 图3是 抗体 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 本题命中的固定角色：B 细胞、抗原、抗体\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗原：紫色圆刺团，表情可警觉\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n\n- 未收录的必要细胞：未识别到命名的未收录细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，使用分区、无字箭头和流程结构；为程序后续写入步骤编号保留自然位置；每条关系必须有明确主体、方向和结果。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：禁止标题；角色名和必要步骤编号由程序在生成后确定性绘制\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、任何文字字母数字或伪文字\n- 科学关系的完整性、箭头方向和角色身份优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、8 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 3 个核心步骤；为程序后续写入步骤编号保留自然位置；不生成标题或任何文字。\n核心图形主体应覆盖约 70% 的有效画布，避免主体缩成一小排并留下大片空白；整张图不得出现任何文字、字母、数字、伪文字或文字形状；标签、标题与步骤编号全部由程序在生成后绘制，你只提供无字画面。同一核心细胞或抗原角色应在不同步骤中重复出现，用姿态、位置和状态变化表达过程；优先用细胞角色、抗原/抗体图形、箭头和状态图标表达，不要用句子或段落替代画面。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n最后重申：这张图必须完全无字——不能出现标题、标签、步骤编号、字母、数字、伪文字或任何文字形状；\n一切文字均由程序在生成后确定性绘制。\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 8,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 3,
+    "requires_numbered_steps": true,
+    "requires_title": false,
+    "minimum_subject_coverage_percent": 70,
+    "maximum_text_labels": 4,
+    "repeat_core_subjects_across_steps": true
+  },
+  "aspect_ratio": "16:9",
+  "cell_ip_failure_reason": null,
+  "image_id": "a94fe47d4e11-v0",
+  "trusted_image": "a94fe47d4e11-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "pass",
+    "summary": "Image accurately depicts the B cell, antigen, and antibody mechanism diagram as specified. All three fixed characters (B cell, antigen, antibody) match the reference style, colors, and accessories (e.g., B cell's backpack, Y-shape). The flow is correctly ordered from left to right with numbered steps (1, 2, 3) and corresponding labels ('B细胞', '抗原', '抗体') clearly visible and legible. The layout covers the canvas well with distinct zones for each step, arrows indicate direction, and no extraneous/",
+    "recommended_action": "accept",
+    "auto_fixable": false,
+    "human_input_required": false,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "pass",
+        "evidence": "Characters maintain consistent IP features: B cell has blue body, dual antennae, backpack, and holds a yellow Y; antigen is purple spiky sphere with angry face; antibody is light blue Y-shape with purple tips and happy face.",
+        "confidence": 0.98
+      },
+      "text_legibility": {
+        "status": "pass",
+        "evidence": "Labels 'B细胞', '抗原', '抗体' and numbers '1', '2', '3' are clearly rendered, correctly positioned near their respective entities, and fully readable.",
+        "confidence": 0.99
+      },
+      "layout_hierarchy": {
+        "status": "pass",
+        "evidence": "Diagram uses a clear horizontal flow with three main visual zones. Arrows connect the sequence logically (1→2→3). Text labels and numbers are integrated without cluttering the scene.",
+        "confidence": 0.97
+      },
+      "brief_alignment": {
+        "status": "pass",
+        "evidence": "The image strictly follows the user's request for a B cell blocking antigen mechanism. It includes all required elements (B cell, antigen, antibody), the specific color/style constraints, and the 3-step numbered process.",
+        "confidence": 0.99
+      },
+      "causal_step_coverage": {
+        "status": "pass",
+        "evidence": "Step 1 shows B cell interacting with antigen. Step 2 shows the transition/process leading to antibody formation/release. Step 3 shows the antibody ready to act. The causal chain is visually represented by the arrows and character positioning.",
+        "confidence": 0.96
+      },
+      "scientific_expression_risk": {
+        "status": "pass",
+        "evidence": "As a stylized cartoon diagram, it prioritizes clarity and IP consistency over microscopic accuracy. The representation of B cells producing antibodies to fight antigens is scientifically conceptually correct for this level of abstraction.",
+        "confidence": 0.95
+      }
+    },
+    "blind_text_audit": {
+      "status": "clear",
+      "has_visible_text": true,
+      "summary": "A cartoon illustration depicting the immune response process involving a B cell, an antigen, and an antibody. The image features labeled characters and numbered arrows (1, 2, 3) indicating the sequence of interaction.",
+      "text_blocks": [
+        {
+          "text": "B细胞",
+          "bbox": [
+            0.02,
+            0.48,
+            0.09,
+            0.52
+          ],
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "1",
+          "bbox": [
+            0.36,
+            0.41,
+            0.41,
+            0.47
+          ],
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "抗原",
+          "bbox": [
+            0.47,
+            0.66,
+            0.53,
+            0.7
+          ],
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "2",
+          "bbox": [
+            0.56,
+            0.41,
+            0.61,
+            0.47
+          ],
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "抗体",
+          "bbox": [
+            0.77,
+            0.2,
+            0.83,
+            0.24
+          ],
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "3",
+          "bbox": [
+            0.86,
+            0.36,
+            0.91,
+            0.42
+          ],
+          "confidence": 0.99,
+          "defective": false
+        }
+      ]
+    },
+    "issues": []
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-09-01T13:19:50.813610+00:00",
+  "finished_at": "2026-09-01T13:20:54.906540+00:00",
+  "stage": "completed",
+  "error": null,
+  "trace_id": "5ee69d6bd933",
+  "trace_events": [
+    {
+      "id": "5ee69d6bd933-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:19:50.813610Z"
+    },
+    {
+      "id": "5ee69d6bd933-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：Scientific mechanism diagram, 16:9 aspect ratio. On the left, a B-cell with surface receptors stands in a defensive posture facing right. In the center, an antigen particle approa… 详细机制图：至少 4 个信息分区、8 个可辨视觉节点、4 条方向连接。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:19:50.813932Z"
+    },
+    {
+      "id": "5ee69d6bd933-3",
+      "stage": "generation",
+      "title": "细胞场景已生成",
+      "detail": "正在检查底图文字并定位角色，随后写入规范底标和步骤编号。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:20:03.388129Z"
+    },
+    {
+      "id": "5ee69d6bd933-4",
+      "stage": "visual_critic",
+      "title": "底图文字检查与角色定位完成",
+      "detail": "角色框和流程分区已定位；规范名称与步骤编号已由程序绘制。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:20:16.972888Z"
+    },
+    {
+      "id": "5ee69d6bd933-5",
+      "stage": "visual_critic",
+      "title": "AI 审核完成",
+      "detail": "没有发现需要继续修正的明显问题。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:20:31.172463Z"
+    },
+    {
+      "id": "5ee69d6bd933-6",
+      "stage": "completed",
+      "title": "图解已准备完成",
+      "detail": "最终图片已生成。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:20:54.906540Z"
+    }
+  ],
+  "trace_history": []
+}

@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_85e906ef22676b1968a4291fb619b876",
+  "content_hash": "d598e76cf8c439bd99c00f699ec4db4de4b41b14d0bbe7d82b6199cbdb789b26",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 Omicron BA.5",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Omicron BA.5",
+      "chunk_id": "chk_85e906ef22676b1968a4291fb619b876"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch"
+  ]
+}

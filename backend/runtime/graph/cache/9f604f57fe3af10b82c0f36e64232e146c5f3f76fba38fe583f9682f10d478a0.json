@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_50c09a070d6a24b09f47e362bd5dda53",
+  "content_hash": "3c4ef74fe49f15b5b6448e10c9a72513f559659357a28fbac002609035fa0463",
+  "entities": [
+    {
+      "canonical_name": "Omicron variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron variant",
+      "chunk_id": "chk_50c09a070d6a24b09f47e362bd5dda53"
+    },
+    {
+      "canonical_name": "mRNA vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccination",
+      "chunk_id": "chk_50c09a070d6a24b09f47e362bd5dda53"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 omicron BA.2.75",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 omicron BA.2.75",
+      "chunk_id": "chk_50c09a070d6a24b09f47e362bd5dda53"
+    },
+    {
+      "canonical_name": "mRNA-1273 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273 vaccination",
+      "chunk_id": "chk_50c09a070d6a24b09f47e362bd5dda53"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 Omicron subvariants BQ.1, BQ.1.1, BA.4.6, BF.7, and BA.2.75.2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Omicron subvariants BQ.1, BQ.1.1, BA.4.6, BF.7, and BA.2.75.2",
+      "chunk_id": "chk_50c09a070d6a24b09f47e362bd5dda53"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_50c09a070d6a24b09f47e362bd5dda53"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

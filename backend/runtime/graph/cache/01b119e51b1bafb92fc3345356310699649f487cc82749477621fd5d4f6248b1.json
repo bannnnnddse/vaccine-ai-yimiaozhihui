@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_b9c0a8ed7c54b235e54c23fc7d521d10",
+  "content_hash": "4bb92e00ad08eebd6d68e3feddfd9d08451d425474e37fc5d0f68ae57b324949",
+  "entities": [
+    {
+      "canonical_name": "interferon gamma",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "interferon gamma",
+      "chunk_id": "chk_b9c0a8ed7c54b235e54c23fc7d521d10"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

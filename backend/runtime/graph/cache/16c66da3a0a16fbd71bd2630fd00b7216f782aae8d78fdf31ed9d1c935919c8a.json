@@ -1,0 +1,22 @@
+{
+  "chunk_id": "f39cbf61b91e5760f283281d00a61cb085c696f1e79ccc47356ead4c1ed77455",
+  "content_hash": "1fb033b16615f2f4844c6f5118aa805ac8dc9db79c41b9206f113c3bb98dc4ab",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "f39cbf61b91e5760f283281d00a61cb085c696f1e79ccc47356ead4c1ed77455"
+    },
+    {
+      "canonical_name": "adverse events of special interest (AESIs)",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events of special interest (AESIs)",
+      "chunk_id": "f39cbf61b91e5760f283281d00a61cb085c696f1e79ccc47356ead4c1ed77455"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

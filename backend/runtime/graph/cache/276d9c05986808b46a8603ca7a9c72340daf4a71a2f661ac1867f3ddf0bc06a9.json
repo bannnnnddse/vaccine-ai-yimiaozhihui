@@ -1,0 +1,92 @@
+{
+  "chunk_id": "chk_931d28123f48d102af1412d359cb9c01",
+  "content_hash": "7454814b23d04627ea1b71b2602283bee1bc587b6eb6ebd38e55b7f4230cf527",
+  "entities": [
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "Chinese infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Chinese infants",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "B breve",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "B breve",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "polio-specific IgA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "polio-specific IgA",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "oral polio vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "oral polio vaccination",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "B longum BB536",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "B longum BB536",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "Th1 responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th1 responses",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "interferon -γ",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "interferon -γ",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "IFN-γ",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-γ",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_931d28123f48d102af1412d359cb9c01"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

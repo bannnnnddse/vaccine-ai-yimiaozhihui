@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_9ab63576fe31e0a32dd3b58c3eb02b55",
+  "content_hash": "ff4476354edcc641e301bb19c67fdfbf1b2540f7be5f645cdf3c1b334ad6cd11",
+  "entities": [
+    {
+      "canonical_name": "hepatitis A",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis A",
+      "chunk_id": "chk_9ab63576fe31e0a32dd3b58c3eb02b55"
+    },
+    {
+      "canonical_name": "HCV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HCV",
+      "chunk_id": "chk_9ab63576fe31e0a32dd3b58c3eb02b55"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

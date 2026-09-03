@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_33ad59b4ad292ca40488c3ebdf6016d1",
+  "content_hash": "5c3c2f306e17ccb170d7b4ea71c8c1539be45b4ec080e9ded31920e73e7028a9",
+  "entities": [
+    {
+      "canonical_name": "MPSV-A",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MPSV-A",
+      "chunk_id": "chk_33ad59b4ad292ca40488c3ebdf6016d1"
+    },
+    {
+      "canonical_name": "MPSV-AC",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MPSV-AC",
+      "chunk_id": "chk_33ad59b4ad292ca40488c3ebdf6016d1"
+    },
+    {
+      "canonical_name": "HepA-L",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepA-L",
+      "chunk_id": "chk_33ad59b4ad292ca40488c3ebdf6016d1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

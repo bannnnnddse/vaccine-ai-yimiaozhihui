@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c3a8d435738a868ca58772c585d82076",
+  "content_hash": "b60620accb0e420c0fe76575a66aa9020bccc9c01819a0f1c671a48b65c4903a",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_c3a8d435738a868ca58772c585d82076"
+    },
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_c3a8d435738a868ca58772c585d82076"
+    },
+    {
+      "canonical_name": "Older adolescents and young adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Older adolescents and young adults",
+      "chunk_id": "chk_c3a8d435738a868ca58772c585d82076"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

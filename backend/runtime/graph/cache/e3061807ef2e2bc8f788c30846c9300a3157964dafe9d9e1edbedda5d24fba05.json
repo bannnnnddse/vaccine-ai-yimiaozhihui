@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_39a6ed749a971452be35b8bf7aeb4c84",
+  "content_hash": "1867890c22bc337b81bbdc0a4589ef198fef8ae056fb4782d1fdb3437a402d28",
+  "entities": [
+    {
+      "canonical_name": "EV71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV71",
+      "chunk_id": "chk_39a6ed749a971452be35b8bf7aeb4c84"
+    },
+    {
+      "canonical_name": "HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD",
+      "chunk_id": "chk_39a6ed749a971452be35b8bf7aeb4c84"
+    },
+    {
+      "canonical_name": "EV71 疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71 疫苗",
+      "chunk_id": "chk_39a6ed749a971452be35b8bf7aeb4c84"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "EV71",
+        "entity_type": "Pathogen",
+        "aliases": [],
+        "surface_form": "EV71",
+        "chunk_id": "chk_39a6ed749a971452be35b8bf7aeb4c84"
+      },
+      "target": {
+        "canonical_name": "HFMD",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "HFMD",
+        "chunk_id": "chk_39a6ed749a971452be35b8bf7aeb4c84"
+      },
+      "relation_type": "CAUSES",
+      "evidence_quote": "为防控 EV71 感染引起的 HFMD 及相关疾病的流行 ， 多个国 家或地区开展了 EV71 疫苗的研发 ， 疫苗类型包括全病毒灭活",
+      "confidence": 0.88,
+      "chunk_id": "chk_39a6ed749a971452be35b8bf7aeb4c84"
+    }
+  ],
+  "rejected": [
+    "quote_missing"
+  ]
+}

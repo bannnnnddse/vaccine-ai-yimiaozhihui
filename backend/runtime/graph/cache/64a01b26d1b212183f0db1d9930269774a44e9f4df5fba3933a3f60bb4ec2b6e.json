@@ -1,0 +1,29 @@
+{
+  "chunk_id": "ef93b4f1eb436ce1b783e25c687998dd0bb3df02cf97f11a5a6cade4206799f3",
+  "content_hash": "aabdfd0729bf22b1bebc5b47b714c03d1aabf8dd3add9d5b5f29b0a8a5fc0114",
+  "entities": [
+    {
+      "canonical_name": "vaccine associated enhanced disease",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vaccine associated enhanced disease",
+      "chunk_id": "ef93b4f1eb436ce1b783e25c687998dd0bb3df02cf97f11a5a6cade4206799f3"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 infection",
+      "chunk_id": "ef93b4f1eb436ce1b783e25c687998dd0bb3df02cf97f11a5a6cade4206799f3"
+    },
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "ef93b4f1eb436ce1b783e25c687998dd0bb3df02cf97f11a5a6cade4206799f3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

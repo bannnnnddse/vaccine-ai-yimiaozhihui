@@ -1,0 +1,64 @@
+{
+  "chunk_id": "4f06e4635525df056d4ff22282d46cb594666bbae2de1511f341afab96c9fcbf",
+  "content_hash": "3b2e01aa2c195fd4717b85bede30f134e42c3f1d223ea3de1b2c796aed190543",
+  "entities": [
+    {
+      "canonical_name": "chronic hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic hepatitis B",
+      "chunk_id": "4f06e4635525df056d4ff22282d46cb594666bbae2de1511f341afab96c9fcbf"
+    },
+    {
+      "canonical_name": "cytokine",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokine",
+      "chunk_id": "4f06e4635525df056d4ff22282d46cb594666bbae2de1511f341afab96c9fcbf"
+    },
+    {
+      "canonical_name": "chemokine",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "chemokine",
+      "chunk_id": "4f06e4635525df056d4ff22282d46cb594666bbae2de1511f341afab96c9fcbf"
+    },
+    {
+      "canonical_name": "hepatitis B e-Antigen (HBeAg)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hepatitis B e-Antigen (HBeAg)",
+      "chunk_id": "4f06e4635525df056d4ff22282d46cb594666bbae2de1511f341afab96c9fcbf"
+    },
+    {
+      "canonical_name": "HBsAg–HBIG therapeutic vaccine (YIC)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBsAg–HBIG therapeutic vaccine (YIC)",
+      "chunk_id": "4f06e4635525df056d4ff22282d46cb594666bbae2de1511f341afab96c9fcbf"
+    },
+    {
+      "canonical_name": "IL-10",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-10",
+      "chunk_id": "4f06e4635525df056d4ff22282d46cb594666bbae2de1511f341afab96c9fcbf"
+    },
+    {
+      "canonical_name": "IL-33",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-33",
+      "chunk_id": "4f06e4635525df056d4ff22282d46cb594666bbae2de1511f341afab96c9fcbf"
+    },
+    {
+      "canonical_name": "macrophage inflammatory protein-1α (MIP-1α)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "macrophage inflammatory protein-1α (MIP-1α)",
+      "chunk_id": "4f06e4635525df056d4ff22282d46cb594666bbae2de1511f341afab96c9fcbf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

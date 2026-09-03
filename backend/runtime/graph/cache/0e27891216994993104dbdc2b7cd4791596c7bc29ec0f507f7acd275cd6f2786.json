@@ -1,0 +1,29 @@
+{
+  "chunk_id": "1c7f21cd4ea2f0c80a8568191fb4a6d3efaa8d535893953dfa1468c2eb954224",
+  "content_hash": "b35fe15f4507eb22680c04c5e5f1d7d7d5da7957d5b159c0e16dacfcdaceb5ef",
+  "entities": [
+    {
+      "canonical_name": "MCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MCV",
+      "chunk_id": "1c7f21cd4ea2f0c80a8568191fb4a6d3efaa8d535893953dfa1468c2eb954224"
+    },
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "1c7f21cd4ea2f0c80a8568191fb4a6d3efaa8d535893953dfa1468c2eb954224"
+    },
+    {
+      "canonical_name": "autism",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "autism",
+      "chunk_id": "1c7f21cd4ea2f0c80a8568191fb4a6d3efaa8d535893953dfa1468c2eb954224"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

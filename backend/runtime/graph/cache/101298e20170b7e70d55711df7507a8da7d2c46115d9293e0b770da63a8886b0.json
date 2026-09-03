@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_fa2b79b30cdbaf79a4ffdfb7f420b1ba",
+  "content_hash": "8f555911e0287d0cdbcd3e0824abcca5a997f29cec02870b4b24c28a359d80a8",
+  "entities": [
+    {
+      "canonical_name": "Bifidobacterium",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium",
+      "chunk_id": "chk_fa2b79b30cdbaf79a4ffdfb7f420b1ba"
+    },
+    {
+      "canonical_name": "Bacteroides",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bacteroides",
+      "chunk_id": "chk_fa2b79b30cdbaf79a4ffdfb7f420b1ba"
+    },
+    {
+      "canonical_name": "Streptococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Streptococcus",
+      "chunk_id": "chk_fa2b79b30cdbaf79a4ffdfb7f420b1ba"
+    },
+    {
+      "canonical_name": "Enterococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Enterococcus",
+      "chunk_id": "chk_fa2b79b30cdbaf79a4ffdfb7f420b1ba"
+    },
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "chk_fa2b79b30cdbaf79a4ffdfb7f420b1ba"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

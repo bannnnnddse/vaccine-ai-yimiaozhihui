@@ -1,0 +1,122 @@
+{
+  "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848",
+  "content_hash": "1ea59cd657e1176969f98dd6624b34c38216414ac14e044374946b89afa9b61f",
+  "entities": [
+    {
+      "canonical_name": "静脉炎和血栓形成",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "静脉炎和血栓形成",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "下肢静脉曲张",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "下肢静脉曲张",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "急性上呼吸道感染",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性上呼吸道感染",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "流行性感冒",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "流行性感冒",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "肺炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "肺炎",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "慢性鼻窦炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "慢性鼻窦炎",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "慢性扁桃体和腺样体疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "慢性扁桃体和腺样体疾病",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "慢性下呼吸道疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "慢性下呼吸道疾病",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "哮喘",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "哮喘",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "外部物质引起的肺病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "外部物质引起的肺病",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "口腔疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "口腔疾病",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "胃及十二指肠溃疡",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "胃及十二指肠溃疡",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "阑尾疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "阑尾疾病",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "腹股沟疝",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "腹股沟疝",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "肠梗阻",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "肠梗阻",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    },
+    {
+      "canonical_name": "酒精性肝病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "酒精性肝病",
+      "chunk_id": "chk_a2c4258a6408626eca02f63a40d73848"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch"
+  ]
+}

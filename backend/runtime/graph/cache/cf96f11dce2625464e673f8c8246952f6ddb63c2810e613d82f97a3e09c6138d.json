@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_bb74e05756b9174049ac7b62260b7dc7",
+  "content_hash": "1399306e2a5f7033748a9e4dff05ad7c4a782ca01bc925df2449cde75d6f60ea",
+  "entities": [
+    {
+      "canonical_name": "T follicular helper cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T follicular helper cell",
+      "chunk_id": "chk_bb74e05756b9174049ac7b62260b7dc7"
+    },
+    {
+      "canonical_name": "germinal center B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "germinal center B cell",
+      "chunk_id": "chk_bb74e05756b9174049ac7b62260b7dc7"
+    },
+    {
+      "canonical_name": "recycling germinal center cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "recycling germinal center cell",
+      "chunk_id": "chk_bb74e05756b9174049ac7b62260b7dc7"
+    },
+    {
+      "canonical_name": "CCR6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CCR6",
+      "chunk_id": "chk_bb74e05756b9174049ac7b62260b7dc7"
+    },
+    {
+      "canonical_name": "memory B cell precursors",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cell precursors",
+      "chunk_id": "chk_bb74e05756b9174049ac7b62260b7dc7"
+    },
+    {
+      "canonical_name": "germinalcenter cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "germinalcenter cells",
+      "chunk_id": "chk_bb74e05756b9174049ac7b62260b7dc7"
+    },
+    {
+      "canonical_name": "memory B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cell",
+      "chunk_id": "chk_bb74e05756b9174049ac7b62260b7dc7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

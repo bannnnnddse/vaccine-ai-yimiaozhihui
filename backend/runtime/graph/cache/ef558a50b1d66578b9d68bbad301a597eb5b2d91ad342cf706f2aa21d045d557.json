@@ -1,0 +1,45 @@
+{
+  "chunk_id": "0aa51f38842f9d18ed42a76417aadc7d783591b4c78997d93efddda632b195e1",
+  "content_hash": "51c4f810bec524e83b60833e8223fedd87385b57d82a444fd67068ebac621a26",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccine",
+      "chunk_id": "0aa51f38842f9d18ed42a76417aadc7d783591b4c78997d93efddda632b195e1"
+    },
+    {
+      "canonical_name": "mIL-12",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mIL-12",
+      "chunk_id": "0aa51f38842f9d18ed42a76417aadc7d783591b4c78997d93efddda632b195e1"
+    },
+    {
+      "canonical_name": "cellular immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cellular immunity",
+      "chunk_id": "0aa51f38842f9d18ed42a76417aadc7d783591b4c78997d93efddda632b195e1"
+    },
+    {
+      "canonical_name": "IFNAR KO mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "IFNAR KO mice",
+      "chunk_id": "0aa51f38842f9d18ed42a76417aadc7d783591b4c78997d93efddda632b195e1"
+    },
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "0aa51f38842f9d18ed42a76417aadc7d783591b4c78997d93efddda632b195e1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

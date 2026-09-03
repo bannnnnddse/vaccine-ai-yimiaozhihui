@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_960770432ab6d7a58e3678588ec22f24",
+  "content_hash": "6a79e6b83e409910d2671947042899cffcc0fff73d86e55de733db591676e82e",
+  "entities": [
+    {
+      "canonical_name": "SIV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SIV vaccine",
+      "chunk_id": "chk_960770432ab6d7a58e3678588ec22f24"
+    },
+    {
+      "canonical_name": "nonhuman primates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "nonhuman primates",
+      "chunk_id": "chk_960770432ab6d7a58e3678588ec22f24"
+    },
+    {
+      "canonical_name": "IgA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA",
+      "chunk_id": "chk_960770432ab6d7a58e3678588ec22f24"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

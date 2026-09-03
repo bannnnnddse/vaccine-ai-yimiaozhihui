@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_a4e087cda7b2de300fea443970c51d2f",
+  "content_hash": "a9c81725139378997da8dba46878402c6525855e7f9b8ef4a58fa7cb0880ff08",
+  "entities": [
+    {
+      "canonical_name": "Lactobacillus casei WXD030",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Lactobacillus casei WXD030",
+      "chunk_id": "chk_a4e087cda7b2de300fea443970c51d2f"
+    },
+    {
+      "canonical_name": "exopolysaccharides",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "exopolysaccharides",
+      "chunk_id": "chk_a4e087cda7b2de300fea443970c51d2f"
+    },
+    {
+      "canonical_name": "Bacterial membrane vesicles",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Bacterial membrane vesicles",
+      "chunk_id": "chk_a4e087cda7b2de300fea443970c51d2f"
+    },
+    {
+      "canonical_name": "intestinal microbiota-derived microvesicles",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "intestinal microbiota-derived microvesicles",
+      "chunk_id": "chk_a4e087cda7b2de300fea443970c51d2f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

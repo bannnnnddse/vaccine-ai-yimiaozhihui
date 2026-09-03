@@ -1,0 +1,154 @@
+{
+  "job_id": "256fbef9298c",
+  "prompt": "生成一张hpv疫苗机制图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "optimized_chinese_prompt": "16:9横版科普插画，浅米白纸面背景。粗颗粒且略抖动的黑色手绘描边风格，低饱和蓝绿黄橙紫撞色平涂，少量颗粒点纹，充分留白。画面左侧绘制一个黄色外壳、表面有规则几何突起（模拟L1蛋白衣壳）的VLP（病毒样颗粒），呈悬浮状；右侧绘制一个蓝色的不规则多边形细胞膜截面，膜上镶嵌着一个紫色的受体结构。从左侧VLP指向右侧细胞膜受体的方向有一条虚线箭头，表示结合过程。右下角有一行极小的手写中文批注：'VLP模拟真实病毒结构'。无标题，无PPT元素，无3D渲染，无密集文字。",
+    "chinese_labels": [
+      "HPV病毒样颗粒 (VLP)",
+      "L1衣壳蛋白",
+      "细胞膜受体",
+      "免疫识别"
+    ],
+    "scientific_claims": [
+      "HPV疫苗由L1主要衣壳蛋白自组装成病毒样颗粒(VLP)。",
+      "VLP在形态上与天然HPV病毒高度相似，但不含病毒遗传物质。",
+      "VLP能被免疫系统高效识别并诱导产生特异性中和抗体。",
+      "产生的抗体能阻止野生型HPV病毒附着和进入宿主细胞。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "HPV L1蛋白自组装形成病毒样颗粒(VLP)"
+      },
+      {
+        "primary_relation": "VLP作为抗原被免疫系统识别"
+      }
+    ],
+    "route_reason": "正式快速闭环固定使用 Wan；Crafter 仅保留为 legacy。"
+  },
+  "generation_route": "fast",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "virus",
+    "antibody",
+    "antigen"
+  ],
+  "reference_assets": [
+    "handdrawn-style-reference",
+    "flat-character-sheet",
+    "role-board:virus+antibody+antigen"
+  ],
+  "aspect_ratio": "16:9",
+  "image_id": "256fbef9298c-v0",
+  "trusted_image": "256fbef9298c-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "生成的图像存在严重的科学准确性问题，且未遵循用户关于角色设定的具体指令。1. 核心错误：图中黄色带刺球体是典型冠状病毒（SARS-CoV-2）的视觉形象，而非HPV（人乳头瘤病毒）。HPV通常表现为无包膜的二十面体对称结构，不应有类似冠状病毒的膜和刺突。2. 角色不符：用户要求抗体为'浅蓝色Y形、紫色端点'，但图中显示的是紫色不规则团块嵌入细胞膜；抗原描述为'紫色圆刺团'，与图中元素也不匹配。3. 风格偏差：背景使用了大面积渐变色，不符合'浅米白或白底'的要求；缺乏手写批注和留白设计。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "issues": [
+      {
+        "issue_type": "scientific_expression",
+        "severity": "high",
+        "description": "潜在科学表达风险（当前未接入证据核验）：图像描绘的是冠状病毒进入细胞的机制（膜融合/内吞），而非HPV疫苗机制。HPV是无包膜病毒，其疫苗机制主要涉及中和抗体阻断病毒与细胞表面受体结合，防止感染。图中的黄色球体具有明显的包膜和刺突蛋白特征，属于科学事实错误。",
+        "bbox": [
+          0.2,
+          0.3,
+          0.45,
+          0.7
+        ],
+        "confidence": 0.95,
+        "suggested_fix": "重新绘制为无包膜的二十面体病毒颗粒（HPV），表现抗体（Y形）结合在病毒表面，阻断其与细胞膜受体的接触，或者展示病毒被抗体包裹准备被清除的过程。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "style_inconsistency",
+        "severity": "medium",
+        "description": "背景使用了从左上角浅米色到右下角浅蓝色的平滑渐变，不符合'浅米白或白底'的扁平手绘语言要求。此外，缺少必要的中文手写批注和构图上的充分留白。",
+        "bbox": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.85,
+        "suggested_fix": "将背景改为统一的浅米白色或纯白色，去除渐变效果。在画面空白处添加少量手写风格的中文标签（如'抗体'、'受体'等），并调整构图以增加负空间。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "anatomy",
+        "severity": "high",
+        "description": "紫色结构被描绘为嵌入细胞膜的固定通道或受体，而用户指定抗体应为'浅蓝色Y形、紫色端点、小手和表情'。当前的紫色形状既不是Y形抗体，也没有表现出与病毒结合的动作，导致因果逻辑断裂。",
+        "bbox": [
+          0.55,
+          0.4,
+          0.75,
+          0.6
+        ],
+        "confidence": 0.9,
+        "suggested_fix": "移除嵌入膜的紫色团块，改用标准的Y形抗体结构。抗体主体填充浅蓝色，两个臂的末端（结合区）填充紫色，并可添加简单的卡通表情和小手，使其正在抓取或阻挡病毒颗粒。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-26T04:10:22.696888+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "2e0c3beab720",
+  "trace_events": [
+    {
+      "id": "2e0c3beab720-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-26T04:10:22.696888Z"
+    },
+    {
+      "id": "2e0c3beab720-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：16:9横版科普插画，浅米白纸面背景。粗颗粒且略抖动的黑色手绘描边风格，低饱和蓝绿黄橙紫撞色平涂，少量颗粒点纹，充分留白。画面左侧绘制一个黄色外壳、表面有规则几何突起（模拟L1蛋白衣壳）的VLP（病毒样颗粒），呈悬浮状；右侧绘制一个蓝色的不规则多边形细胞膜截面，膜上镶嵌着一个紫色的受体结构。从左侧VLP指向右侧细胞膜受体的方向有一条虚线箭头，表示结合过程。…",
+      "status": "completed",
+      "created_at": "2026-08-26T04:10:22.697961Z"
+    },
+    {
+      "id": "2e0c3beab720-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-26T04:10:27.995840Z"
+    },
+    {
+      "id": "2e0c3beab720-4",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "生成的图像存在严重的科学准确性问题，且未遵循用户关于角色设定的具体指令。1. 核心错误：图中黄色带刺球体是典型冠状病毒（SARS-CoV-2）的视觉形象，而非HPV（人乳头瘤病毒）。HPV通常表现为无包膜的二十面体对称结构，不应有类似冠状病毒的膜和刺突。2. 角色不符：用户要求抗体为'浅蓝色Y形、紫色端点'，但图中显示的是紫色不规则团块嵌入细胞膜；抗原描述为'紫色圆刺团'，与图中元素也不匹配。3. 风格偏差：背景使用了大面积渐变色，不符合'浅米白或白底'的要求；缺乏手写批注和",
+      "status": "warning",
+      "created_at": "2026-08-26T04:10:47.655311Z"
+    },
+    {
+      "id": "2e0c3beab720-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-26T04:11:05.381056Z"
+    }
+  ],
+  "trace_history": []
+}

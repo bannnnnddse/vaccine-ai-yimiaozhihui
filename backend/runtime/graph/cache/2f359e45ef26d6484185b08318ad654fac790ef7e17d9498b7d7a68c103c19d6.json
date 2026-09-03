@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_8d005735160e876b8e2b1bacb7264249",
+  "content_hash": "382a1c0da51a6cb301bd95fcbfbd629aaf2b4db618562212b0d50d2ccc11f27e",
+  "entities": [
+    {
+      "canonical_name": "Rabies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Rabies",
+      "chunk_id": "chk_8d005735160e876b8e2b1bacb7264249"
+    },
+    {
+      "canonical_name": "rabies virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rabies virus",
+      "chunk_id": "chk_8d005735160e876b8e2b1bacb7264249"
+    },
+    {
+      "canonical_name": "RABV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RABV",
+      "chunk_id": "chk_8d005735160e876b8e2b1bacb7264249"
+    },
+    {
+      "canonical_name": "Glycoproteins",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Glycoproteins",
+      "chunk_id": "chk_8d005735160e876b8e2b1bacb7264249"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote"
+  ]
+}

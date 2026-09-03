@@ -1,0 +1,99 @@
+{
+  "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c",
+  "content_hash": "c36fa3f5bc16b74b7f075f74598c2c48b7b354c3d9916d45420b7483da1d9d75",
+  "entities": [
+    {
+      "canonical_name": "原发性和继发性免疫缺陷/免疫低下者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "原发性和继发性免疫缺陷/免疫低下者",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "非减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "非减毒活疫苗",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "减毒活疫苗",
+        "活疫苗"
+      ],
+      "surface_form": "减毒活疫苗",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "补体缺陷者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "补体缺陷者",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "疫苗",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "接受肿瘤化疗和放疗",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "接受肿瘤化疗和放疗",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "实体器官移植",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "实体器官移植",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "造血干细胞移植",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "造血干细胞移植",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "接受抗 B 细胞抗体治疗者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "接受抗 B 细胞抗体治疗者",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "免疫缺陷病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "免疫缺陷病",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    },
+    {
+      "canonical_name": "抗 B 细胞抗体",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "抗 B 细胞抗体",
+      "chunk_id": "chk_962fbe6fb29bf1e6b8d6f79bc1bbf62c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "target_missing_from_quote",
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "source_missing_from_quote",
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "source_missing_from_quote"
+  ]
+}

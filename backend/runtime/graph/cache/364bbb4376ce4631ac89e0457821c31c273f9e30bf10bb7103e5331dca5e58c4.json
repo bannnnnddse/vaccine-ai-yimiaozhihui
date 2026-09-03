@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_e9bf5be11de0a09ea1348e4146c319f4",
+  "content_hash": "906c860d164851d51a83a5a7b2772e6bd70a64e901372ae13fc4018ff7d4f18f",
+  "entities": [
+    {
+      "canonical_name": "HIV-1 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV-1 vaccine",
+      "chunk_id": "chk_e9bf5be11de0a09ea1348e4146c319f4"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_e9bf5be11de0a09ea1348e4146c319f4"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_e9bf5be11de0a09ea1348e4146c319f4"
+    },
+    {
+      "canonical_name": "Monoclonal antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Monoclonal antibodies",
+      "chunk_id": "chk_e9bf5be11de0a09ea1348e4146c319f4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

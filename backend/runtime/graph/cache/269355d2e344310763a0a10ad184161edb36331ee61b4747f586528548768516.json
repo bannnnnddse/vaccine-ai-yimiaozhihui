@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_08e0cc51fd244b3c90595891d0a8325a",
+  "content_hash": "3aea8ae3be24237df93969d4d442f92961654b3191045067f3dc17cf94629c5f",
+  "entities": [
+    {
+      "canonical_name": "Delta × Omicron hybrid mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Delta × Omicron hybrid mRNA vaccine",
+      "chunk_id": "chk_08e0cc51fd244b3c90595891d0a8325a"
+    },
+    {
+      "canonical_name": "broadly neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "broadly neutralizing antibody",
+      "chunk_id": "chk_08e0cc51fd244b3c90595891d0a8325a"
+    },
+    {
+      "canonical_name": "omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "omicron",
+      "chunk_id": "chk_08e0cc51fd244b3c90595891d0a8325a"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 variants",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 variants",
+      "chunk_id": "chk_08e0cc51fd244b3c90595891d0a8325a"
+    },
+    {
+      "canonical_name": "Omicron-specific mRNA vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Omicron-specific mRNA vaccination",
+      "chunk_id": "chk_08e0cc51fd244b3c90595891d0a8325a"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_08e0cc51fd244b3c90595891d0a8325a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

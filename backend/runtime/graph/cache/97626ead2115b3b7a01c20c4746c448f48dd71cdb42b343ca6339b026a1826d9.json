@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_290ce86a9ead231e6c6d1562c212ea1d",
+  "content_hash": "1b0a0017bae573dac004d2b4782582d0203393f5510e79a12e9daf15e5eb32ac",
+  "entities": [
+    {
+      "canonical_name": "streptococcus pneumoniae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "streptococcus pneumoniae",
+      "chunk_id": "chk_290ce86a9ead231e6c6d1562c212ea1d"
+    },
+    {
+      "canonical_name": "RTS,S/AS01",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RTS,S/AS01",
+      "chunk_id": "chk_290ce86a9ead231e6c6d1562c212ea1d"
+    },
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_290ce86a9ead231e6c6d1562c212ea1d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

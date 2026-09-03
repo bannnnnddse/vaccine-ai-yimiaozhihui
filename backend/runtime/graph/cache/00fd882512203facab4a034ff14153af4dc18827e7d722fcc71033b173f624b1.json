@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_ee2398b92f8813edf99cdbefb0d4d453",
+  "content_hash": "2f4af0afe81c206b4ea4516b9e47b8f99e38c26eb0bc4e72e547eb6c746538d4",
+  "entities": [
+    {
+      "canonical_name": "Novel Vaccine Candidate Based on Chimeric Virus-like Particle Displaying Multiple Conserved Epitope Peptides",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Novel Vaccine Candidate Based on Chimeric Virus-like Particle Displaying Multiple Conserved Epitope Peptides",
+      "chunk_id": "chk_ee2398b92f8813edf99cdbefb0d4d453"
+    },
+    {
+      "canonical_name": "Neutralizing Antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Neutralizing Antibodies",
+      "chunk_id": "chk_ee2398b92f8813edf99cdbefb0d4d453"
+    },
+    {
+      "canonical_name": "EBV Infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "EBV Infection",
+      "chunk_id": "chk_ee2398b92f8813edf99cdbefb0d4d453"
+    },
+    {
+      "canonical_name": "gB Nanoparticle Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "gB Nanoparticle Vaccine",
+      "chunk_id": "chk_ee2398b92f8813edf99cdbefb0d4d453"
+    },
+    {
+      "canonical_name": "Neutralizing Antibody Response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Neutralizing Antibody Response",
+      "chunk_id": "chk_ee2398b92f8813edf99cdbefb0d4d453"
+    },
+    {
+      "canonical_name": "EBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EBV",
+      "chunk_id": "chk_ee2398b92f8813edf99cdbefb0d4d453"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

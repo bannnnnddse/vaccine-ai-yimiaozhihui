@@ -1,0 +1,127 @@
+{
+  "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd",
+  "content_hash": "21f0d21dd9c0b50e58496b63ff02ada5259b61f34c84f3bdc8c5ff9a27dca3b0",
+  "entities": [
+    {
+      "canonical_name": "病毒性肝炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "病毒性肝炎",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "浸润性肺结核",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "浸润性肺结核",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "急性心肌梗死",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性心肌梗死",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "充血性心力衰竭",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "充血性心力衰竭",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "细菌性肺炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "细菌性肺炎",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "慢性肺源性心脏病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "慢性肺源性心脏病",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "急性上消化道出血",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性上消化道出血",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "原发性肾病综合征",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "原发性肾病综合征",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "甲状腺功能亢进",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "甲状腺功能亢进",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "脑出血",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "脑出血",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "脑梗死",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "脑梗死",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "再生障碍性贫血",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "再生障碍性贫血",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "急性白血病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性白血病",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "结节性甲状腺肿",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "结节性甲状腺肿",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "急性阑尾炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性阑尾炎",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "急性胆囊炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性胆囊炎",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    },
+    {
+      "canonical_name": "腹股沟疝",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "腹股沟疝",
+      "chunk_id": "chk_166b2a5c0fa1d63ea9e263088ba92ecd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

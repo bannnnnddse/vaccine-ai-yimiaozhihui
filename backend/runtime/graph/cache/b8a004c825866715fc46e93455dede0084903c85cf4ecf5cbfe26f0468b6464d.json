@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_046803bc42a33af42b15e9c257a629d1",
+  "content_hash": "96a92ec9b3a4a55ac31225214f0c2589476cc530833732ab13c2f574fef18eec",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_046803bc42a33af42b15e9c257a629d1"
+    },
+    {
+      "canonical_name": "non-viral vaccine systems",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "non-viral vaccine systems",
+      "chunk_id": "chk_046803bc42a33af42b15e9c257a629d1"
+    },
+    {
+      "canonical_name": "communicable and non-communicable diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "communicable and non-communicable diseases",
+      "chunk_id": "chk_046803bc42a33af42b15e9c257a629d1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,54 @@
+{
+  "chunk_id": "chk_91903f12f9d5ae61feffd53020f17b90",
+  "content_hash": "813d7e2cf3293d9e9b4b318dc0373a50bd8b20fec6c3424a3f68ae5c6c4296e5",
+  "entities": [
+    {
+      "canonical_name": "dengue disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "dengue disease",
+      "chunk_id": "chk_91903f12f9d5ae61feffd53020f17b90"
+    },
+    {
+      "canonical_name": "dengue antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "dengue antibodies",
+      "chunk_id": "chk_91903f12f9d5ae61feffd53020f17b90"
+    },
+    {
+      "canonical_name": "severe disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe disease",
+      "chunk_id": "chk_91903f12f9d5ae61feffd53020f17b90"
+    },
+    {
+      "canonical_name": "high antibody titers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "high antibody titers",
+      "chunk_id": "chk_91903f12f9d5ae61feffd53020f17b90"
+    },
+    {
+      "canonical_name": "sub-neutralizing antibody levels",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "sub-neutralizing antibody levels",
+      "chunk_id": "chk_91903f12f9d5ae61feffd53020f17b90"
+    },
+    {
+      "canonical_name": "cross-reactive memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cross-reactive memory B cells",
+      "chunk_id": "chk_91903f12f9d5ae61feffd53020f17b90"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

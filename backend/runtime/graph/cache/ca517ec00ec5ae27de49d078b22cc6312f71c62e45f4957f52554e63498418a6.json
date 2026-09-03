@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_228a6ca2051e05e49f3e94efdec9bfbf",
+  "content_hash": "50491886310ce561490a0e242ab66cecc754ebce86eec718df9387b53a347424",
+  "entities": [
+    {
+      "canonical_name": "Pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Pertussis",
+      "chunk_id": "chk_228a6ca2051e05e49f3e94efdec9bfbf"
+    },
+    {
+      "canonical_name": "influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccination",
+      "chunk_id": "chk_228a6ca2051e05e49f3e94efdec9bfbf"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_228a6ca2051e05e49f3e94efdec9bfbf"
+    },
+    {
+      "canonical_name": "part D vaccinations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "part D vaccinations",
+      "chunk_id": "chk_228a6ca2051e05e49f3e94efdec9bfbf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

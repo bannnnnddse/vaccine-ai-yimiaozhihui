@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_b31920d406906352e462131448914b22",
+  "content_hash": "8782f52306503002754736cc6565f927c543c968ecd201f5a101ffd3c69af22f",
+  "entities": [
+    {
+      "canonical_name": "HIV/AIDS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV/AIDS",
+      "chunk_id": "chk_b31920d406906352e462131448914b22"
+    },
+    {
+      "canonical_name": "diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diabetes",
+      "chunk_id": "chk_b31920d406906352e462131448914b22"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_40254a369ac57326856546fdd1de2067",
+  "content_hash": "465c26df8ece63606f951b11038e7c31bd6f4b777ead05337de1ad81727979cf",
+  "entities": [
+    {
+      "canonical_name": "GVXN SD133 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GVXN SD133 vaccine",
+      "chunk_id": "chk_40254a369ac57326856546fdd1de2067"
+    },
+    {
+      "canonical_name": "Shigella O1 polysaccharide",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Shigella O1 polysaccharide",
+      "chunk_id": "chk_40254a369ac57326856546fdd1de2067"
+    },
+    {
+      "canonical_name": "functional antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "functional antibodies",
+      "chunk_id": "chk_40254a369ac57326856546fdd1de2067"
+    },
+    {
+      "canonical_name": "Shigella flexneri 2a",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Shigella flexneri 2a",
+      "chunk_id": "chk_40254a369ac57326856546fdd1de2067"
+    },
+    {
+      "canonical_name": "Flexyn2a",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Flexyn2a",
+      "chunk_id": "chk_40254a369ac57326856546fdd1de2067"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

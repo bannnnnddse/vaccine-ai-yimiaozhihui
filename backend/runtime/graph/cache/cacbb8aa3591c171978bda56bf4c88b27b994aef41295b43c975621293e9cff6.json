@@ -1,0 +1,24 @@
+{
+  "chunk_id": "b9e31d9e8b3baa19d847271d80268a45c25fb591d76376481818201ac8fbaa9e",
+  "content_hash": "b0b9e3151ce44b721fa68e69028fc0d38c8d2a529b3d85b4db301dce754b93d0",
+  "entities": [
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "b9e31d9e8b3baa19d847271d80268a45c25fb591d76376481818201ac8fbaa9e"
+    },
+    {
+      "canonical_name": "CD8+/CD38+/HLA-DR+ T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD8+/CD38+/HLA-DR+ T cells",
+      "chunk_id": "b9e31d9e8b3baa19d847271d80268a45c25fb591d76376481818201ac8fbaa9e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

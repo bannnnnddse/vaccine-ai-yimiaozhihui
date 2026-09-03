@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b790a62f8ef5f39bf8e61c28f7109e3c",
+  "content_hash": "ff988f1669ad533af0eea7d1fc20d5d35382c12d5f35da0dce212c6a6be25a2a",
+  "entities": [
+    {
+      "canonical_name": "human papillomavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccine",
+      "chunk_id": "chk_b790a62f8ef5f39bf8e61c28f7109e3c"
+    },
+    {
+      "canonical_name": "males",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "males",
+      "chunk_id": "chk_b790a62f8ef5f39bf8e61c28f7109e3c"
+    },
+    {
+      "canonical_name": "9-valent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "9-valent vaccine",
+      "chunk_id": "chk_b790a62f8ef5f39bf8e61c28f7109e3c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

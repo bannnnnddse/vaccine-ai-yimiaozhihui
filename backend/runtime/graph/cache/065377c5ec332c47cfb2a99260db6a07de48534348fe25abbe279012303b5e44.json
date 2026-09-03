@@ -1,0 +1,52 @@
+{
+  "chunk_id": "ee5afce3be8a02debd689d08058590dafdb72d032594dc240340acf9b3c46c0c",
+  "content_hash": "d4c113f43bb4c4e65d5c8a14d44b6f44d47031497dd900692200b487a2b6f6ac",
+  "entities": [
+    {
+      "canonical_name": "Zika virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika virus",
+      "chunk_id": "ee5afce3be8a02debd689d08058590dafdb72d032594dc240340acf9b3c46c0c"
+    },
+    {
+      "canonical_name": "microcephaly",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "microcephaly",
+      "chunk_id": "ee5afce3be8a02debd689d08058590dafdb72d032594dc240340acf9b3c46c0c"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "ee5afce3be8a02debd689d08058590dafdb72d032594dc240340acf9b3c46c0c"
+    },
+    {
+      "canonical_name": "Guillain–Barré syndrome",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Guillain–Barré syndrome",
+      "chunk_id": "ee5afce3be8a02debd689d08058590dafdb72d032594dc240340acf9b3c46c0c"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "ee5afce3be8a02debd689d08058590dafdb72d032594dc240340acf9b3c46c0c"
+    },
+    {
+      "canonical_name": "nucleoside-modified mRNA-LNP vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nucleoside-modified mRNA-LNP vaccines",
+      "chunk_id": "ee5afce3be8a02debd689d08058590dafdb72d032594dc240340acf9b3c46c0c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

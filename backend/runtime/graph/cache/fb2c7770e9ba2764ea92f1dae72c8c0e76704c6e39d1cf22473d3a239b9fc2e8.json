@@ -1,0 +1,31 @@
+{
+  "chunk_id": "d7e2493dc5ed49c03445bcc3213c8a850d4ec4af5c707c488a31a92fafe707cb",
+  "content_hash": "c5e141ae8c7bffd15044a07fd7be72f8c84c5a83059f137753051f01dd8d1d25",
+  "entities": [
+    {
+      "canonical_name": "depression",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "depression",
+      "chunk_id": "d7e2493dc5ed49c03445bcc3213c8a850d4ec4af5c707c488a31a92fafe707cb"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "d7e2493dc5ed49c03445bcc3213c8a850d4ec4af5c707c488a31a92fafe707cb"
+    },
+    {
+      "canonical_name": "influenza virus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza virus vaccination",
+      "chunk_id": "d7e2493dc5ed49c03445bcc3213c8a850d4ec4af5c707c488a31a92fafe707cb"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote"
+  ]
+}

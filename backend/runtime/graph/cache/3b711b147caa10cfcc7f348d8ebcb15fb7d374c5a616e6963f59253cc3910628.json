@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_a441996603c98a67f032768add550d4b",
+  "content_hash": "f722ef91d59b492a082f326641004c57cf5029dc3e728d3acfdfc56092550e4e",
+  "entities": [
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_a441996603c98a67f032768add550d4b"
+    },
+    {
+      "canonical_name": "acute myocardial infarction",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute myocardial infarction",
+      "chunk_id": "chk_a441996603c98a67f032768add550d4b"
+    },
+    {
+      "canonical_name": "cardiovascular disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cardiovascular disease",
+      "chunk_id": "chk_a441996603c98a67f032768add550d4b"
+    },
+    {
+      "canonical_name": "Influenza-like illness",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Influenza-like illness",
+      "chunk_id": "chk_a441996603c98a67f032768add550d4b"
+    },
+    {
+      "canonical_name": "ischemic stroke",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "ischemic stroke",
+      "chunk_id": "chk_a441996603c98a67f032768add550d4b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "invalid_domain_range"
+  ]
+}

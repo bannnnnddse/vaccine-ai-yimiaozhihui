@@ -1,0 +1,78 @@
+{
+  "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54",
+  "content_hash": "60b2bd5ac0ad7524c3f8537a66d7901e064cc34d0ea63fae8b2e71f9b58235ae",
+  "entities": [
+    {
+      "canonical_name": "HBV vaccine Recombivax ®",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBV vaccine Recombivax ®",
+      "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54"
+    },
+    {
+      "canonical_name": "human papillomavirus (HPV) vaccine Gardasil ®",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus (HPV) vaccine Gardasil ®",
+      "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54"
+    },
+    {
+      "canonical_name": "VLP vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VLP vaccines",
+      "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54"
+    },
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54"
+    },
+    {
+      "canonical_name": "tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis",
+      "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54"
+    },
+    {
+      "canonical_name": "Zika virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika virus",
+      "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_9df1ea5f746606a3bbe6e261a792eb54"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

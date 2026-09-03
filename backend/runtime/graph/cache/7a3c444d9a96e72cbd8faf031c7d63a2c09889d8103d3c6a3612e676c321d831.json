@@ -1,0 +1,85 @@
+{
+  "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01",
+  "content_hash": "aa0741c9acab154f49cae7bfd36b2a3faba8416e7ccea93cecbe2cfd3e59f2fe",
+  "entities": [
+    {
+      "canonical_name": "Haemophilus Influenzae Type b Conjugate Vaccine (Act-HIB)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus Influenzae Type b Conjugate Vaccine (Act-HIB)",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Diphtheria Vaccine for Adults and Adolescents, Adsorbed",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Diphtheria Vaccine for Adults and Adolescents, Adsorbed",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Diphtheria, Tetanus, Pertussis (Acellular, component), poliomyelitis (inactivated) vaccine and Haemophilus type b conjugate vaccine, adsorbed (PENTAXIM)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Diphtheria, Tetanus, Pertussis (Acellular, component), poliomyelitis (inactivated) vaccine and Haemophilus type b conjugate vaccine, adsorbed (PENTAXIM)",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Inactivated Poliomyelitis Vaccine Made From Sabin Strains (Vero cell)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Inactivated Poliomyelitis Vaccine Made From Sabin Strains (Vero cell)",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Poliomyelitis Vaccine in Dragee Candy (Human Diploid Cell), Live",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Poliomyelitis Vaccine in Dragee Candy (Human Diploid Cell), Live",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Poliomyelitis (Live) Vaccine (Human Diploid Cell), Oral",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Poliomyelitis (Live) Vaccine (Human Diploid Cell), Oral",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Poliomyelitis (Live) Vaccine Type I Type III (Human Diploid Cell), Oral",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Poliomyelitis (Live) Vaccine Type Ⅰ Type Ⅲ (Human Diploid Cell), Oral",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Poliomyelitis Vaccine Type I Type III in Dragee Candy (Human Diploid Cell), Live",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Poliomyelitis Vaccine Type I Type III in Dragee Candy (Human Diploid Cell), Live",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Adsorbed Diphtheria Tetanus Pertussis and r-Hepatitis B Combined Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Adsorbed Diphtheria Tetanus Pertussis and r-Hepatitis B Combined Vaccine",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Pertussis Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pertussis Vaccine",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    },
+    {
+      "canonical_name": "Poliomyelitis Vaccine (Imovax Polio)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Poliomyelitis Vaccine (Imovax Polio)",
+      "chunk_id": "chk_116adc956a6e4463e0faca07ae323c01"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,520 @@
+{
+  "job_id": "1117d6f1d22c",
+  "prompt": "生成一张接种流感病毒后可能引起哪些不良反应的图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "virus",
+      "antigen",
+      "b_cell"
+    ],
+    "scene_direction": "横版科学机制图，展示流感疫苗接种后局部与全身免疫反应的因果流程。左侧为注射部位（上臂三角肌），中间为淋巴引流与系统性反应，右侧为症状表现。布局清晰，分区明确，箭头指示时间或因果流向。",
+    "optimized_chinese_prompt": "Scientific mechanism diagram, horizontal layout 16:9. Left panel: Intramuscular injection of influenza vaccine into deltoid muscle, showing local immune cell recruitment. Center panel: Antigen presentation to lymph nodes and systemic circulation. Right panel: Illustrations of common adverse reactions including mild fever, fatigue, headache, and soreness at injection site. Clean vector style, distinct sections, numbered steps corresponding to causal chain. No locked entity visual details, focus on physiological process.",
+    "chinese_labels": [
+      "疫苗注射",
+      "局部炎症反应",
+      "免疫系统激活",
+      "全身性反应"
+    ],
+    "scientific_claims": [
+      "接种流感疫苗后，常见不良反应主要为局部疼痛、红肿及硬结。",
+      "全身性反应包括低热、头痛、肌肉酸痛和疲劳，通常轻微且短暂。",
+      "这些反应是免疫系统对疫苗抗原产生正常应答的标志。",
+      "大多数不良反应在接种后1-2天内自行缓解，无需特殊治疗。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "疫苗注入上臂三角肌，引发局部组织损伤信号和抗原释放"
+      },
+      {
+        "primary_relation": "局部免疫细胞识别抗原，释放细胞因子导致局部红肿热痛"
+      },
+      {
+        "primary_relation": "抗原呈递至淋巴结，激活T细胞和B细胞，启动适应性免疫"
+      },
+      {
+        "primary_relation": "免疫激活伴随全身性细胞因子释放，引起低热、乏力等轻微全身症状"
+      }
+    ],
+    "route_reason": "主题涉及流感病毒（锁定实体）及其引起的免疫反应机制，属于多步骤因果关系（>2个关系），需严谨表达。因此选择 cell_ip_scientific profile。使用 mechanism_diagram 类型以清晰展示从注射到局部及全身反应的因果链条。严格遵守锁定角色契约，不描述病毒外观，仅关注生理过程和症状表现。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "virus",
+    "antigen",
+    "b_cell"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "局部免疫细胞",
+    "释放细胞",
+    "免疫激活伴随全身性细胞"
+  ],
+  "reference_assets": [
+    "role-sheet:virus+antigen+b_cell"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:virus+antigen+b_cell"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "virus",
+      "asset_id": "canonical:virus"
+    },
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    },
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n横版科学机制图，展示流感疫苗接种后局部与全身免疫反应的因果流程。左侧为注射部位（上臂三角肌），中间为淋巴引流与系统性反应，右侧为症状表现。布局清晰，分区明确，箭头指示时间或因果流向。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 疫苗注入上臂三角肌，引发局部组织损伤信号和抗原释放；2. 局部免疫细胞识别抗原，释放细胞因子导致局部红肿热痛；3. 抗原呈递至淋巴结，激活T细胞和B细胞，启动适应性免疫；4. 免疫激活伴随全身性细胞因子释放，引起低热、乏力等轻微全身症状\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：疫苗注射、局部炎症反应、免疫系统激活、全身性反应\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是完整细胞 IP 角色总表；只从中提取并使用命中的固定角色（病毒颗粒、抗原、B 细胞），保持其颜色、轮廓、面部和专属道具与表中完全一致；不得使用表中其余角色，也不得复制其中的文字、事件或构图\n- 本题命中的固定角色：病毒颗粒、抗原、B 细胞\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 病毒颗粒：青绿色多边形带圆刺，可带小盾牌\n- 抗原：紫色圆刺团，表情可警觉\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n【角色总表选取】（仅当参考图为完整角色总表时启用）\n- 图1 是完整细胞 IP 角色总表。画面所需固定角色必须逐个从该表中找到并原样使用，颜色、轮廓、面部、专属道具与装饰一律以表中为准：\n- 病毒颗粒：青绿色多边形带圆刺，可带小盾牌\n- 抗原：紫色圆刺团，表情可警觉\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 只在总表中提取命中的角色：病毒颗粒、抗原、B 细胞；忽略并不得使用表中其余角色，也不得新增表中不存在的固定角色。\n- 未收录的必要细胞：局部免疫细胞、释放细胞、免疫激活伴随全身性细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、5 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 4 个核心步骤；使用编号步骤；保留一个简短中文标题。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 5,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 4,
+    "requires_numbered_steps": true,
+    "requires_title": true
+  },
+  "aspect_ratio": "16:9",
+  "image_id": "1117d6f1d22c-v1",
+  "trusted_image": "1117d6f1d22c-v1.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "局部文字修复已按指令完成，但画面中存在多处严重的科学术语错别字（如'全症力'、'细胞子'、'激活性面正'）以及编号逻辑混乱（两个步骤3）。此外，框外区域存在明显的像素变化（手臂颜色改变），需人工核验。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "issue",
+        "evidence": "目标框外区域检测到像素变化，具体位置为左侧第一栏的手臂皮肤颜色由原图的肉粉色变为更浅的粉白色，且边缘有轻微晕染痕迹，超出ROI掩码范围。",
+        "confidence": 0.95
+      },
+      "text_legibility": {
+        "status": "issue",
+        "evidence": "虽然目标修复区域的文字正确，但图中其他位置存在大量AI生成错别字：1. 右侧栏出现'引起低热全症力'（应为乏力）；2. 底部出现'全身性细胞子释放'（应为因子）；3. 中间栏出现'激活性面正'（语义不通，疑似呈递/表达错误）；4. 标题编号重复，有两个'3.'。",
+        "confidence": 0.99
+      },
+      "layout_hierarchy": {
+        "status": "pass",
+        "evidence": "保持了四栏式布局，箭头流向清晰，符合从左至右的因果顺序。",
+        "confidence": 0.98
+      },
+      "brief_alignment": {
+        "status": "pass",
+        "evidence": "涵盖了注射、局部反应、淋巴结激活、全身症状四个核心阶段，符合用户关于不良反应机制的需求。",
+        "confidence": 0.95
+      },
+      "causal_step_coverage": {
+        "status": "pass",
+        "evidence": "视觉节点与箭头连接完整展示了从抗原识别到全身反应的链条。",
+        "confidence": 0.95
+      },
+      "scientific_expression_risk": {
+        "status": "issue",
+        "evidence": "文字中的错别字导致科学表达严重失真。'全症力'和'细胞子'属于关键术语错误，'激活性面正'完全无法阅读，严重影响图解的专业性和准确性。",
+        "confidence": 0.99
+      }
+    },
+    "blind_text_audit": {
+      "status": "clear",
+      "summary": "The image is a four-panel educational diagram illustrating the biological process of vaccine injection, local inflammation, lymph node activation, and systemic symptoms. It features cartoon representations of immune cells (B cells, T cells), viruses, and cytokines.",
+      "text_blocks": [
+        {
+          "text": "淋巴引流",
+          "bbox": [
+            0.19,
+            0.19,
+            0.34,
+            0.22
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "系统性反应",
+          "bbox": [
+            0.5,
+            0.19,
+            0.61,
+            0.22
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "症状表现",
+          "bbox": [
+            0.81,
+            0.19,
+            0.91,
+            0.22
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "1. 注射部位",
+          "bbox": [
+            0.05,
+            0.24,
+            0.15,
+            0.27
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "2. 局部炎症反应",
+          "bbox": [
+            0.22,
+            0.24,
+            0.37,
+            0.27
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "3. 淋巴结激活",
+          "bbox": [
+            0.49,
+            0.24,
+            0.62,
+            0.27
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "3. 全身性反应",
+          "bbox": [
+            0.78,
+            0.24,
+            0.91,
+            0.27
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "4. 疫苗注射",
+          "bbox": [
+            0.05,
+            0.54,
+            0.13,
+            0.57
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "1. 局部免疫细胞识别抗原、激活B细胞",
+          "bbox": [
+            0.21,
+            0.4,
+            0.38,
+            0.45
+          ],
+          "confidence": 0.98
+        },
+        {
+          "text": "B细胞",
+          "bbox": [
+            0.47,
+            0.47,
+            0.51,
+            0.5
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "抗原激活T细胞、激活性面正",
+          "bbox": [
+            0.57,
+            0.5,
+            0.69,
+            0.57
+          ],
+          "confidence": 0.95
+        },
+        {
+          "text": "2. 局部免疫细胞识别抗原后释放细胞因子，红肿热痛",
+          "bbox": [
+            0.21,
+            0.66,
+            0.37,
+            0.76
+          ],
+          "confidence": 0.98
+        },
+        {
+          "text": "B细胞",
+          "bbox": [
+            0.47,
+            0.73,
+            0.51,
+            0.76
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "病毒颗粒",
+          "bbox": [
+            0.6,
+            0.73,
+            0.67,
+            0.76
+          ],
+          "confidence": 0.99
+        },
+        {
+          "text": "4. 全身性细胞因子释放，引起低热全症力",
+          "bbox": [
+            0.75,
+            0.43,
+            0.96,
+            0.48
+          ],
+          "confidence": 0.97
+        },
+        {
+          "text": "5. 全身性细胞子释放引起低热乏力等轻微全身症状",
+          "bbox": [
+            0.75,
+            0.72,
+            0.98,
+            0.77
+          ],
+          "confidence": 0.98
+        }
+      ]
+    },
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "右侧栏步骤4文字显示为'引起低热全症力'，'全症力'非医学术语，应为'乏力'或'全身症状'。",
+        "bbox": [
+          0.75,
+          0.43,
+          0.96,
+          0.48
+        ],
+        "observed_text": "4. 全身性细胞因子释放，引起低热全症力",
+        "replacement_text": "4. 全身性细胞因子释放，引起低热、乏力",
+        "confidence": 0.99,
+        "suggested_fix": "修正错别字，将'全症力'改为'乏力'。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "右侧栏步骤5文字显示为'全身性细胞子释放'，漏写'因'字。",
+        "bbox": [
+          0.75,
+          0.72,
+          0.98,
+          0.77
+        ],
+        "observed_text": "5. 全身性细胞子释放引起低热乏力等轻微全身症状",
+        "replacement_text": "5. 全身性细胞因子释放引起低热乏力等轻微全身症状",
+        "confidence": 0.99,
+        "suggested_fix": "补全文字，将'细胞子'改为'细胞因子'。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "中间栏紫色病毒旁文字'抗原激活T细胞、激活性面正'语义不通，'面正'疑似'呈递'或'表达'的幻觉错误。",
+        "bbox": [
+          0.57,
+          0.5,
+          0.69,
+          0.57
+        ],
+        "observed_text": "抗原激活T细胞、激活性面正",
+        "replacement_text": "抗原呈递激活T细胞",
+        "confidence": 0.95,
+        "suggested_fix": "重新生成该处文字，确保医学术语准确通顺。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "layout",
+        "severity": "medium",
+        "description": "步骤编号逻辑混乱，第三栏和第四栏的标题均为'3.'，导致流程指引不清。",
+        "bbox": [
+          0.49,
+          0.24,
+          0.91,
+          0.27
+        ],
+        "observed_text": "3. 淋巴结激活 ... 3. 全身性反应",
+        "replacement_text": "3. 淋巴结激活 ... 4. 全身性反应",
+        "confidence": 0.99,
+        "suggested_fix": "将第四个分区的标题编号修正为'4.'，并相应调整后续步骤编号。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "anatomy",
+        "severity": "low",
+        "description": "框外变化：左侧第一栏中上臂的皮肤颜色在编辑后明显变浅，与原图肤色不一致，且边缘过渡不自然。",
+        "bbox": [
+          0.02,
+          0.25,
+          0.18,
+          0.8
+        ],
+        "observed_text": null,
+        "replacement_text": null,
+        "confidence": 0.9,
+        "suggested_fix": "人工修复左侧手臂肤色，使其与原始底图一致。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "other",
+        "severity": "medium",
+        "description": "修订后，范围保护检测到目标框外区域也被修改（框外变化分 0.050735 超过阈值 0.05）。修订图已替换显示，请人工核验框外被修改的其他区域是否可接受。",
+        "bbox": null,
+        "observed_text": null,
+        "replacement_text": null,
+        "confidence": 1.0,
+        "suggested_fix": "请在下方 AI 审核中查看框外变化位置；如需调整，可框选相关区域再次修改，或确认无误后接受当前结果。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": {
+    "passed": false,
+    "outside_change_score": 0.050735,
+    "threshold": 0.05,
+    "changed_outside_bbox": true,
+    "inside_change_score": 0.20275,
+    "minimum_inside_change": 0.01,
+    "insufficient_change_inside_bbox": false,
+    "outside_change_regions": [
+      [
+        0.7496423462088698,
+        0.24974974974974976,
+        1.0,
+        0.5
+      ],
+      [
+        0.7496423462088698,
+        0.5,
+        1.0,
+        0.7497497497497497
+      ],
+      [
+        0.49976156413924655,
+        0.5,
+        0.7496423462088698,
+        0.7497497497497497
+      ],
+      [
+        0.0,
+        0.5,
+        0.24988078206962328,
+        0.7497497497497497
+      ]
+    ],
+    "notes": "本次编辑影响了非目标区域，候选未被接受；请重试或重新框选。"
+  },
+  "auto_revision_count": 1,
+  "revision_origin": "auto",
+  "last_revision_bbox": [
+    0.21,
+    0.38,
+    0.39,
+    0.46
+  ],
+  "last_edit_instruction": "仅修改指定矩形区域；矩形外所有像素内容、主体、构图和文字保持不变。修改后保持原图画风、配色、光影、排版和文字风格一致，不新增无关元素。\n根据审核意见修正：将框内错误文字“1. 抗部免疫细胞识别名淋聚止绝活、B细胞”逐字替换为“1. 局部免疫细胞识别抗原、激活B细胞”，不得保留、增删或改写其他文字。",
+  "created_at": "2026-09-01T16:11:55.021981+00:00",
+  "finished_at": "2026-09-01T16:14:58.114452+00:00",
+  "stage": "completed",
+  "error": null,
+  "trace_id": "5d48bec26d31",
+  "trace_events": [
+    {
+      "id": "5d48bec26d31-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-09-01T16:11:55.021981Z"
+    },
+    {
+      "id": "5d48bec26d31-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：Scientific mechanism diagram, horizontal layout 16:9. Left panel: Intramuscular injection of influenza vaccine into deltoid muscle, showing local immune cell recruitment. Center p… 详细机制图：至少 4 个信息分区、5 个可辨视觉节点、4 条方向连接。",
+      "status": "completed",
+      "created_at": "2026-09-01T16:11:55.021981Z"
+    },
+    {
+      "id": "5d48bec26d31-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-09-01T16:12:00.302791Z"
+    },
+    {
+      "id": "5d48bec26d31-4",
+      "stage": "visual_critic",
+      "title": "视觉审查发现一个可自动修正的问题",
+      "detail": "第二栏步骤1说明文字出现严重乱码/幻觉：‘抗部免疫细胞识别名淋聚止绝活’，语义完全不通，疑似‘局部免疫细胞识别...’的错误生成。",
+      "status": "completed",
+      "created_at": "2026-09-01T16:12:18.012408Z"
+    },
+    {
+      "id": "5d48bec26d31-5",
+      "stage": "auto_revision",
+      "title": "局部修改已生成",
+      "detail": "候选结果尚需通过修改范围检查。",
+      "status": "completed",
+      "created_at": "2026-09-01T16:13:12.521796Z"
+    },
+    {
+      "id": "5d48bec26d31-6",
+      "stage": "scope_guard",
+      "title": "范围保护检测到框外变化",
+      "detail": "已采用修订结果，请在下方审核意见中核验框外被修改的其他区域。",
+      "status": "warning",
+      "created_at": "2026-09-01T16:13:32.854315Z"
+    },
+    {
+      "id": "5d48bec26d31-7",
+      "stage": "final_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "局部文字修复已按指令完成，但画面中存在多处严重的科学术语错别字（如'全症力'、'细胞子'、'激活性面正'）以及编号逻辑混乱（两个步骤3）。此外，框外区域存在明显的像素变化（手臂颜色改变），需人工核验。",
+      "status": "warning",
+      "created_at": "2026-09-01T16:13:33.428707Z"
+    },
+    {
+      "id": "5d48bec26d31-8",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-09-01T16:14:11.837505Z"
+    },
+    {
+      "id": "5d48bec26d31-9",
+      "stage": "completed",
+      "title": "图解已准备完成",
+      "detail": "最终图片已生成。",
+      "status": "completed",
+      "created_at": "2026-09-01T16:14:58.114452Z"
+    }
+  ],
+  "trace_history": []
+}

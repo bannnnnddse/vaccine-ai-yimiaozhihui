@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_0cf97ac6f72b72cd3fb45eb658a19faa",
+  "content_hash": "94deb1bbfcfb8f5db960f82a83863f8216bb60ab8eaf093c08c430f0b8236223",
+  "entities": [
+    {
+      "canonical_name": "plasmodium falciparum",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "plasmodium falciparum",
+      "chunk_id": "chk_0cf97ac6f72b72cd3fb45eb658a19faa"
+    },
+    {
+      "canonical_name": "RTS,S malaria vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RTS,S malaria vaccine",
+      "chunk_id": "chk_0cf97ac6f72b72cd3fb45eb658a19faa"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

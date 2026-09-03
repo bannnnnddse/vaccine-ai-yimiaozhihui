@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_27481fcdeac177f8ff767eeb97d1affa",
+  "content_hash": "339044d3bc17203f0c0a4267c0872182dd01b30aa798a888c9214b8d91923016",
+  "entities": [
+    {
+      "canonical_name": "GLS-5310",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GLS-5310",
+      "chunk_id": "chk_27481fcdeac177f8ff767eeb97d1affa"
+    },
+    {
+      "canonical_name": "GX-19N",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GX-19N",
+      "chunk_id": "chk_27481fcdeac177f8ff767eeb97d1affa"
+    },
+    {
+      "canonical_name": "animal flu vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "animal flu vaccines",
+      "chunk_id": "chk_27481fcdeac177f8ff767eeb97d1affa"
+    },
+    {
+      "canonical_name": "West Nile virus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "West Nile virus vaccines",
+      "chunk_id": "chk_27481fcdeac177f8ff767eeb97d1affa"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

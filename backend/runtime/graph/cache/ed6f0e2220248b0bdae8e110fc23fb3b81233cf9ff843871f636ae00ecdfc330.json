@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_c89e5e9a6d6fbad4aca3aa47bf47e4c5",
+  "content_hash": "6e2c62222c01394c59c26e5026efad99c744c9eb3279879af29d7e238562e756",
+  "entities": [
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_c89e5e9a6d6fbad4aca3aa47bf47e4c5"
+    },
+    {
+      "canonical_name": "MyD88",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MyD88",
+      "chunk_id": "chk_c89e5e9a6d6fbad4aca3aa47bf47e4c5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

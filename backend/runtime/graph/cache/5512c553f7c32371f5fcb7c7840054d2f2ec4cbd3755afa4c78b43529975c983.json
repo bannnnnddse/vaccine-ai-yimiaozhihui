@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_380e392dd59a4fc9d6fd795943fbef6f",
+  "content_hash": "6dd7d230c56061a4153a69f9e4b61b9d3fb922c715018994f77bb70342f54bac",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccine candidate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccine candidate",
+      "chunk_id": "chk_380e392dd59a4fc9d6fd795943fbef6f"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 infection",
+      "chunk_id": "chk_380e392dd59a4fc9d6fd795943fbef6f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

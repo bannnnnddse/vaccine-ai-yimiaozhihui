@@ -1,0 +1,31 @@
+{
+  "chunk_id": "1cb9dac7ac2e17f2fc6607d09116b6e35144bdf2f5bdb2fc3f6c6cd576bace46",
+  "content_hash": "2633fcbadfd88cd929abc6355959a00fce09b0c35cc648677115ca39f68c571a",
+  "entities": [
+    {
+      "canonical_name": "IC patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "IC patients",
+      "chunk_id": "1cb9dac7ac2e17f2fc6607d09116b6e35144bdf2f5bdb2fc3f6c6cd576bace46"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "1cb9dac7ac2e17f2fc6607d09116b6e35144bdf2f5bdb2fc3f6c6cd576bace46"
+    },
+    {
+      "canonical_name": "three doses",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "three doses",
+      "chunk_id": "1cb9dac7ac2e17f2fc6607d09116b6e35144bdf2f5bdb2fc3f6c6cd576bace46"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

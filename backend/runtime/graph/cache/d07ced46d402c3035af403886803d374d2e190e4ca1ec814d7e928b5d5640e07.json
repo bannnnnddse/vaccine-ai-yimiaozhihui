@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_0caea2ab3e26181657590e682d42452c",
+  "content_hash": "9197eb58e5f03aa9faf19631a24c71375986cb33c8b8db23ff78c843ba09921e",
+  "entities": [
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "chk_0caea2ab3e26181657590e682d42452c"
+    },
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_0caea2ab3e26181657590e682d42452c"
+    },
+    {
+      "canonical_name": "GC B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GC B cells",
+      "chunk_id": "chk_0caea2ab3e26181657590e682d42452c"
+    },
+    {
+      "canonical_name": "MBCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MBCs",
+      "chunk_id": "chk_0caea2ab3e26181657590e682d42452c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

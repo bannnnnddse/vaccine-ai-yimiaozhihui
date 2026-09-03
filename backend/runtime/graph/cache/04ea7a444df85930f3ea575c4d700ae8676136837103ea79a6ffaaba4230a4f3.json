@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_e1cc6206a7907904457ea342658f92aa",
+  "content_hash": "9c8a94a96a6416d5494d383e24a27d3720a35a95334441288cc6d6e53fe30bd3",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_e1cc6206a7907904457ea342658f92aa"
+    },
+    {
+      "canonical_name": "viral infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "viral infections",
+      "chunk_id": "chk_e1cc6206a7907904457ea342658f92aa"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

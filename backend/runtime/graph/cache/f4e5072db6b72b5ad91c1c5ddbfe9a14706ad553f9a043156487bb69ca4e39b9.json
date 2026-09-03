@@ -1,0 +1,31 @@
+{
+  "chunk_id": "8d15005e93eb9f2110e1717b7403ae0d3730a4295dfcc30da365d258bb61c929",
+  "content_hash": "c8c8e47e8c35794f7c34f95f56a7703f53d16ce828e62965591d70fcc5fd71de",
+  "entities": [
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "8d15005e93eb9f2110e1717b7403ae0d3730a4295dfcc30da365d258bb61c929"
+    },
+    {
+      "canonical_name": "inflammation",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "inflammation",
+      "chunk_id": "8d15005e93eb9f2110e1717b7403ae0d3730a4295dfcc30da365d258bb61c929"
+    },
+    {
+      "canonical_name": "DTaP-HBV-IPV/Hib combination vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTaP-HBV-IPV/Hib combination vaccine",
+      "chunk_id": "8d15005e93eb9f2110e1717b7403ae0d3730a4295dfcc30da365d258bb61c929"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

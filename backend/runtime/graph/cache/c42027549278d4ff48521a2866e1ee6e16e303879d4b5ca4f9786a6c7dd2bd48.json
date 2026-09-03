@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_95d715633807ec03384b8ee68e9b472d",
+  "content_hash": "6cc8e4d001acf570c7855c3b3f1ef0d12435936924167fb318530762771a89bb",
+  "entities": [
+    {
+      "canonical_name": "bronchial necrosis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "bronchial necrosis",
+      "chunk_id": "chk_95d715633807ec03384b8ee68e9b472d"
+    },
+    {
+      "canonical_name": "bronchial inflammation",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "bronchial inflammation",
+      "chunk_id": "chk_95d715633807ec03384b8ee68e9b472d"
+    },
+    {
+      "canonical_name": "bronchitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "bronchitis",
+      "chunk_id": "chk_95d715633807ec03384b8ee68e9b472d"
+    },
+    {
+      "canonical_name": "epithelial cell destruction",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "epithelial cell destruction",
+      "chunk_id": "chk_95d715633807ec03384b8ee68e9b472d"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_95d715633807ec03384b8ee68e9b472d"
+    },
+    {
+      "canonical_name": "C. difficile infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "C. difficile infections",
+      "chunk_id": "chk_95d715633807ec03384b8ee68e9b472d"
+    },
+    {
+      "canonical_name": "influenza virus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza virus infection",
+      "chunk_id": "chk_95d715633807ec03384b8ee68e9b472d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

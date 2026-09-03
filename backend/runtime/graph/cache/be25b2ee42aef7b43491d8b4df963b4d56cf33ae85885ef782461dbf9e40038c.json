@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_26589d63e03093c3f80de019a7685f74",
+  "content_hash": "fa317dc31bede70b888627e44a4081208129123c6d9188a87b4a9da6b7b915e5",
+  "entities": [
+    {
+      "canonical_name": "HBVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBVac",
+      "chunk_id": "chk_26589d63e03093c3f80de019a7685f74"
+    },
+    {
+      "canonical_name": "HCV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HCV",
+      "chunk_id": "chk_26589d63e03093c3f80de019a7685f74"
+    },
+    {
+      "canonical_name": "anti-HBc",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBc",
+      "chunk_id": "chk_26589d63e03093c3f80de019a7685f74"
+    },
+    {
+      "canonical_name": "anti-HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs",
+      "chunk_id": "chk_26589d63e03093c3f80de019a7685f74"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_26589d63e03093c3f80de019a7685f74"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

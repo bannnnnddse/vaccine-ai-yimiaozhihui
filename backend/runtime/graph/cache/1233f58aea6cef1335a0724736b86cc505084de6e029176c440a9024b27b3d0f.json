@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_13eadb0993efcd702201e0e665413fa0",
+  "content_hash": "53cb219c22745760a3f65cf6dc5bafed4f026560e9f66b86044f6b52dca9edf2",
+  "entities": [
+    {
+      "canonical_name": "anti-tumor immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-tumor immunity",
+      "chunk_id": "chk_13eadb0993efcd702201e0e665413fa0"
+    },
+    {
+      "canonical_name": "immunostimulating single-stranded RNA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunostimulating single-stranded RNA",
+      "chunk_id": "chk_13eadb0993efcd702201e0e665413fa0"
+    },
+    {
+      "canonical_name": "TriMix",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TriMix",
+      "chunk_id": "chk_13eadb0993efcd702201e0e665413fa0"
+    },
+    {
+      "canonical_name": "antigen mRNA-based antitumor therapy",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "antigen mRNA-based antitumor therapy",
+      "chunk_id": "chk_13eadb0993efcd702201e0e665413fa0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

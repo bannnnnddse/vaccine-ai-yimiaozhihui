@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_424e9b0b97d9ea0b5cae21ff46078c86",
+  "content_hash": "dd99048e39f5858b7adb6dd69e021783b4dc6be46bf6d89aef38482540aa7d40",
+  "entities": [
+    {
+      "canonical_name": "Menveo",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Menveo",
+      "chunk_id": "chk_424e9b0b97d9ea0b5cae21ff46078c86"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

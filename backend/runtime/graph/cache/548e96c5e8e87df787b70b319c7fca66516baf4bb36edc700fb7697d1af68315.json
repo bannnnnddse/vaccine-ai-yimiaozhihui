@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f8307db0fa9e6653e57090d73dc14615",
+  "content_hash": "2ab50ffb62a5cc935667cc0036d831213e42ddbd3327d9aa71977ee1a9a00435",
+  "entities": [
+    {
+      "canonical_name": "Hepatitis A Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis A Vaccines",
+      "chunk_id": "chk_f8307db0fa9e6653e57090d73dc14615"
+    },
+    {
+      "canonical_name": "Adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adolescents",
+      "chunk_id": "chk_f8307db0fa9e6653e57090d73dc14615"
+    },
+    {
+      "canonical_name": "hepatitis A",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis A",
+      "chunk_id": "chk_f8307db0fa9e6653e57090d73dc14615"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

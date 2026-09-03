@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_3502e39a4235719bd274be79a6aeeb21",
+  "content_hash": "57746c95f2f60ab9d429675d1f965bccd95be8484c1539cd5204b56fa4944407",
+  "entities": [
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_3502e39a4235719bd274be79a6aeeb21"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_3502e39a4235719bd274be79a6aeeb21"
+    },
+    {
+      "canonical_name": "PCV13",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV13",
+      "chunk_id": "chk_3502e39a4235719bd274be79a6aeeb21"
+    },
+    {
+      "canonical_name": "pediatric vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pediatric vaccines",
+      "chunk_id": "chk_3502e39a4235719bd274be79a6aeeb21"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

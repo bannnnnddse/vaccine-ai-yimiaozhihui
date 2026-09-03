@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_54be993eef08a9c053c405922a7187a3",
+  "content_hash": "026c1bdfaf4cd687cf2e0bcae065835964189a4813798c201571cfa51d0f4dec",
+  "entities": [
+    {
+      "canonical_name": "adolescent subgroup",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescent subgroup",
+      "chunk_id": "chk_54be993eef08a9c053c405922a7187a3"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_54be993eef08a9c053c405922a7187a3"
+    },
+    {
+      "canonical_name": "vaccine-preventable diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "vaccine-preventable diseases",
+      "chunk_id": "chk_54be993eef08a9c053c405922a7187a3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

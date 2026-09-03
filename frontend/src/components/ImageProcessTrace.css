@@ -1,0 +1,26 @@
+.chat-panel .message-list { overflow-x: hidden; }
+.chat-message--image-process { width: 100%; min-width: 0; align-items: flex-start; }
+.chat-message--assistant.chat-message--image-process .chat-message__content { flex: 1 1 auto; width: auto; min-width: 0; max-width: calc(100% - 42px); padding: 2px 4px 0 0; overflow: visible; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+.image-process-trace { width: 100%; min-width: 0; color: #68777c; font-size: 12px; line-height: 1.55; overflow-wrap: anywhere; }
+.chat-message--image-generation .image-process-trace { padding: 10px 14px 0; }
+.image-process-trace__toggle { display: inline-flex; align-items: center; gap: 5px; margin: 0 0 10px; padding: 2px 3px; border: 0; border-radius: 5px; background: transparent; color: #718086; font: inherit; cursor: pointer; transition: color 160ms ease, background-color 160ms ease; }
+.image-process-trace__toggle:hover { color: #44565c; background: rgba(67, 88, 94, .055); }
+.image-process-trace__toggle:focus-visible { outline: 2px solid rgba(24, 165, 196, .45); outline-offset: 2px; }
+.image-process-trace__toggle svg { width: 12px; height: 12px; transition: transform 180ms ease; }
+.image-process-trace.is-expanded .image-process-trace__toggle svg { transform: rotate(180deg); }
+.image-process-trace__viewport { display: grid; grid-template-rows: 1fr; opacity: 1; transition: grid-template-rows 210ms ease, opacity 170ms ease; }
+.image-process-trace:not(.is-expanded) .image-process-trace__viewport { grid-template-rows: 0fr; opacity: 0; }
+.image-process-trace__events { min-height: 0; overflow: hidden; }
+.image-process-event { padding: 0 0 13px; animation: image-process-event-in 180ms ease-out both; }
+.image-process-event:last-child { padding-bottom: 12px; }
+.image-process-event__title { color: #627278; font-weight: 560; letter-spacing: .005em; }
+.image-process-event p { margin: 2px 0 0; color: #8a979b; }
+.image-process-event--warning .image-process-event__title { color: #776f67; }
+.image-process-event__title i { display: inline-block; width: 4px; height: 4px; margin: 0 7px 2px 1px; border-radius: 999px; background: currentColor; opacity: .5; animation: image-process-pulse 1.5s ease-in-out infinite; }
+.image-process-fallback { margin: 0 0 12px; color: #7d8b90; font-size: 12px; }
+@keyframes image-process-event-in { from { opacity: 0; transform: translateY(2px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes image-process-pulse { 0%, 100% { opacity: .28; } 50% { opacity: .7; } }
+@media (prefers-reduced-motion: reduce) {
+  .image-process-trace__toggle, .image-process-trace__toggle svg, .image-process-trace__viewport { transition: none; }
+  .image-process-event, .image-process-event__title i { animation: none; }
+}

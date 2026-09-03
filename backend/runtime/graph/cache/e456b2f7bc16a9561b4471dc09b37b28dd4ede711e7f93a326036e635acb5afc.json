@@ -1,0 +1,78 @@
+{
+  "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c",
+  "content_hash": "14ad9ea5bcef75bb6d44c1ca76bf6d271a0f4fefafac4a281d914edccb252690",
+  "entities": [
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    },
+    {
+      "canonical_name": "newborn babies",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "newborn babies",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    },
+    {
+      "canonical_name": "immune system",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune system",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    },
+    {
+      "canonical_name": "Escherichia",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Escherichia",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    },
+    {
+      "canonical_name": "Lactobacillus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Lactobacillus",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    },
+    {
+      "canonical_name": "Bacteroides",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bacteroides",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    },
+    {
+      "canonical_name": "Bifidobacterium",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    },
+    {
+      "canonical_name": "Streptococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Streptococcus",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    },
+    {
+      "canonical_name": "Staphylococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Staphylococcus",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    },
+    {
+      "canonical_name": "Enterococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Enterococcus",
+      "chunk_id": "chk_efa4fe34fd6680edf1dc1a2add32547c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

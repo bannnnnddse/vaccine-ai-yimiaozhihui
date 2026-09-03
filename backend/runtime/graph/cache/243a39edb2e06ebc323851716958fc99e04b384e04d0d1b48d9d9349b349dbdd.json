@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ad1f8e2784395025f33bc60a2b733691",
+  "content_hash": "05041833f76c7f1948f271c7a13c8d5c730b5700786990c4e24fee00197a062c",
+  "entities": [
+    {
+      "canonical_name": "Whole-cell pertussis",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Whole-cell pertussis",
+      "chunk_id": "chk_ad1f8e2784395025f33bc60a2b733691"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_ad1f8e2784395025f33bc60a2b733691"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

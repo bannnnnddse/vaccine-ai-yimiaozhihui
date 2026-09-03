@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_d6643bf0e4ecc5b17688d042afabb69b",
+  "content_hash": "47c9741290d515af62270d11d73c0b7c7e85331b7e2594d9e66993951e521cf3",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_d6643bf0e4ecc5b17688d042afabb69b"
+    },
+    {
+      "canonical_name": "chronic hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic hepatitis B",
+      "chunk_id": "chk_d6643bf0e4ecc5b17688d042afabb69b"
+    },
+    {
+      "canonical_name": "Hepatitis B Disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Hepatitis B Disease",
+      "chunk_id": "chk_d6643bf0e4ecc5b17688d042afabb69b"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_d6643bf0e4ecc5b17688d042afabb69b"
+    },
+    {
+      "canonical_name": "mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mothers",
+      "chunk_id": "chk_d6643bf0e4ecc5b17688d042afabb69b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

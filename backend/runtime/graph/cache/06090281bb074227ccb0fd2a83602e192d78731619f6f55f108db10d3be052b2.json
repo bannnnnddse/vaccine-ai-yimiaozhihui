@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_0a0e2aabca0ccd81014ac6f29b5cbda0",
+  "content_hash": "2d0fee76298ad26810d37ac46c34ffacefc77ba6a8cd24194f616f82509993bd",
+  "entities": [
+    {
+      "canonical_name": "individuals who are immunocompromised because of their condition or treatment of their condition",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals who are immunocompromised because of their condition or treatment of their condition",
+      "chunk_id": "chk_0a0e2aabca0ccd81014ac6f29b5cbda0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

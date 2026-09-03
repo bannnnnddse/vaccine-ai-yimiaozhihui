@@ -1,0 +1,560 @@
+{
+  "job_id": "4c5c179a90af",
+  "prompt": "生成一张免疫的流程图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen"
+    ],
+    "scene_direction": "画面为16:9横版，分为三个逻辑区域从左至右排列。左侧区域展示一个抗原呈递细胞（APC）吞噬病原体并展示MHC分子；中间区域展示T细胞受体与MHC分子结合，引发T细胞激活和增殖；右侧区域展示效应T细胞识别并杀伤被感染的靶细胞。各步骤间有粗箭头指示流程方向。所有角色均为风格化的固定细胞IP形象，背景简洁无文字。",
+    "optimized_chinese_prompt": "Scientific mechanism diagram, 16:9 aspect ratio, three distinct panels showing cell-cell interaction. Panel 1: An Antigen Presenting Cell (APC) displaying a pathogen fragment on its surface MHC molecule. Panel 2: A T-Cell binding to the APC's MHC complex, showing activation signals. Panel 3: Activated Effector T-Cell attacking an infected Target Cell. Use fixed cell IP style for all cells, clean vector art style, no text inside the image, white background, clear directional arrows between steps.",
+    "chinese_labels": [
+      "抗原呈递",
+      "T细胞激活",
+      "靶向杀伤"
+    ],
+    "scientific_claims": [
+      "抗原呈递细胞处理并展示抗原肽-MHC复合物",
+      "T细胞通过TCR识别特异性抗原信号",
+      "激活的效应T细胞介导细胞毒性免疫应答",
+      "该过程是适应性免疫清除感染细胞的核心机制"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "抗原呈递细胞摄取、加工病原体抗原，并将其以抗原肽-MHC复合物的形式表达于细胞表面"
+      },
+      {
+        "primary_relation": "初始T细胞通过其T细胞受体（TCR）特异性识别并结合抗原呈递细胞表面的抗原肽-MHC复合物"
+      },
+      {
+        "primary_relation": "识别信号触发T细胞活化、增殖并分化为效应T细胞"
+      },
+      {
+        "primary_relation": "效应T细胞识别并接触被同一病原体感染的靶细胞，诱导其凋亡或裂解"
+      }
+    ],
+    "route_reason": "用户要求生成免疫流程图，属于涉及细胞（APC、T细胞、靶细胞）和分子相互作用（MHC、TCR）的科学主题，且包含多个因果步骤，符合cell_ip_scientific模式的定义。使用简体中文输出所有字段以满足语言约束。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "T细胞",
+    "激活的效应T细胞介导细胞",
+    "过程是适应性免疫清除感染细胞",
+    "MHC复合物的形式表达于细胞",
+    "初始T细胞通过其T细胞",
+    "识别信号触发T细胞",
+    "增殖并分化为效应T细胞",
+    "效应T细胞",
+    "接触被同一病原体感染的靶细胞"
+  ],
+  "cell_ip_label_layout": {
+    "anchors": [
+      {
+        "role_id": "antigen",
+        "role_bbox": [
+          0.06,
+          0.15,
+          0.35,
+          0.42
+        ],
+        "label_bbox": [
+          0.36081982840800764,
+          0.2666333166583292,
+          0.4294566253574833,
+          0.3026513256628314
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "steps": [
+      {
+        "step_index": 1,
+        "step_bbox": [
+          0.02,
+          0.02,
+          0.42,
+          0.44
+        ],
+        "number_bbox": [
+          0.030505243088655862,
+          0.031015507753876938,
+          0.08245948522402288,
+          0.08554277138569284
+        ],
+        "confidence": 0.9
+      },
+      {
+        "step_index": 2,
+        "step_bbox": [
+          0.54,
+          0.02,
+          0.98,
+          0.44
+        ],
+        "number_bbox": [
+          0.5505243088655862,
+          0.031015507753876938,
+          0.6024785510009533,
+          0.08554277138569284
+        ],
+        "confidence": 0.9
+      },
+      {
+        "step_index": 3,
+        "step_bbox": [
+          0.68,
+          0.48,
+          0.98,
+          0.98
+        ],
+        "number_bbox": [
+          0.6906577693040992,
+          0.4912456228114057,
+          0.7426120114394662,
+          0.5457728864432216
+        ],
+        "confidence": 0.9
+      },
+      {
+        "step_index": 4,
+        "step_bbox": [
+          0.02,
+          0.55,
+          0.42,
+          0.98
+        ],
+        "number_bbox": [
+          0.030505243088655862,
+          0.5612806403201601,
+          0.08245948522402288,
+          0.615807903951976
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "cell_ip_expected_text": [
+    "抗原",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "cell_ip_text_source": "manifest_programmatic",
+  "cell_ip_base_visual_text_audit": {
+    "status": "clear",
+    "has_visible_text": true,
+    "summary": "这是一张关于免疫反应过程的示意图，包含中文标题和说明文字。图像展示了抗原呈递细胞摄取加工抗原、初始T细胞激活、分化为效应T细胞以及效应T细胞作用于靶细胞的流程。图中部分英文注释为无意义的乱码或拼写错误（如'An pgrn', 'The tirragon be Ceal Rioutact'等），但核心中文术语（如'抗原肽-MHC复合物'、'效应T细胞'、'靶细胞'）清晰可辨且符合免疫学概念。",
+    "text_blocks": [
+      {
+        "text": "抗原呈封细胞摄取并加工 病原体抗原 (An pgrn)",
+        "bbox": [
+          0.06,
+          0.03,
+          0.36,
+          0.1
+        ],
+        "confidence": 0.95,
+        "defective": false
+      },
+      {
+        "text": "抗原肽- -MHC复合物",
+        "bbox": [
+          0.29,
+          0.11,
+          0.41,
+          0.17
+        ],
+        "confidence": 0.98,
+        "defective": false
+      },
+      {
+        "text": "2. 初始T细胞通取 The tirragon be Ceal Rioutact)",
+        "bbox": [
+          0.56,
+          0.03,
+          0.94,
+          0.1
+        ],
+        "confidence": 0.92,
+        "defective": false
+      },
+      {
+        "text": "3. Rembing",
+        "bbox": [
+          0.73,
+          0.49,
+          0.88,
+          0.53
+        ],
+        "confidence": 0.96,
+        "defective": false
+      },
+      {
+        "text": "披同一被 效应T细胞 靶细胞",
+        "bbox": [
+          0.84,
+          0.58,
+          0.96,
+          0.68
+        ],
+        "confidence": 0.94,
+        "defective": false
+      },
+      {
+        "text": "效应T细胞 分导或疲亡",
+        "bbox": [
+          0.42,
+          0.71,
+          0.56,
+          0.79
+        ],
+        "confidence": 0.97,
+        "defective": false
+      },
+      {
+        "text": "4. 效应T细胞 (Fivisction at Everement)",
+        "bbox": [
+          0.03,
+          0.87,
+          0.37,
+          0.94
+        ],
+        "confidence": 0.93,
+        "defective": false
+      },
+      {
+        "text": "效应T细胞 (The Rettogamet (Eattached Ctal Cartecclos)",
+        "bbox": [
+          0.59,
+          0.87,
+          0.95,
+          0.98
+        ],
+        "confidence": 0.9,
+        "defective": false
+      }
+    ]
+  },
+  "reference_assets": [
+    "canonical:antigen"
+  ],
+  "reference_assets_actually_sent": [
+    "canonical:antigen"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 的无字科学插画：画面中绝对不出现任何\n文字、字母、数字、伪文字或文字形状；角色名、底标、标题和步骤编号全部由程序在生成后绘制。\n\n【仅场景与构图指令】\n- 1. 抗原呈递细胞摄取、加工病原体抗原。并将其以抗原肽-MHC复合物的形式表达于细胞表面。- 2. 初始T细胞通过其T细胞受体（TCR）特异性识别并结合抗原呈递细胞表面的抗原肽-MHC复合物。- 3. 识别信号触发T细胞活化、增殖并分化为效应T细胞。- 4. 效应T细胞识别并接触被同一病原体感染的靶细胞。诱导其凋亡或裂解。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 抗原呈递细胞摄取、加工病原体抗原，并将其以抗原肽-MHC复合物的形式表达于细胞表面；2. 初始T细胞通过其T细胞受体（TCR）特异性识别并结合抗原呈递细胞表面的抗原肽-MHC复合物；3. 识别信号触发T细胞活化、增殖并分化为效应T细胞；4. 效应T细胞识别并接触被同一病原体感染的靶细胞，诱导其凋亡或裂解\n- 禁止生成任何可读文字、字母、数字、伪文字或文字形状。每个命中的固定角色至少保留一次轮廓完整、彼此不遮挡的代表性出场，并在角色四周保留适量自然留白；不要生成底标框，角色名称与圆角底标全部由程序根据角色位置绘制\n- 程序稍后写入的规范角色名称为：抗原；这些名称只用于确定程序底标数量和宽度，\n  你不得在画面中书写、临摹或生成其中任何字符\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是 抗原 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 本题命中的固定角色：抗原\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n\n- 未收录的必要细胞：T细胞、激活的效应T细胞介导细胞、过程是适应性免疫清除感染细胞、MHC复合物的形式表达于细胞、初始T细胞通过其T细胞、识别信号触发T细胞、增殖并分化为效应T细胞、效应T细胞、接触被同一病原体感染的靶细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，使用分区、无字箭头和流程结构；为程序后续写入步骤编号保留自然位置；每条关系必须有明确主体、方向和结果。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：禁止标题；角色名和必要步骤编号由程序在生成后确定性绘制\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、任何文字字母数字或伪文字\n- 科学关系的完整性、箭头方向和角色身份优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、10 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 4 个核心步骤；为程序后续写入步骤编号保留自然位置；不生成标题或任何文字。\n核心图形主体应覆盖约 70% 的有效画布，避免主体缩成一小排并留下大片空白；整张图不得出现任何文字、字母、数字、伪文字或文字形状；标签、标题与步骤编号全部由程序在生成后绘制，你只提供无字画面。同一核心细胞或抗原角色应在不同步骤中重复出现，用姿态、位置和状态变化表达过程；优先用细胞角色、抗原/抗体图形、箭头和状态图标表达，不要用句子或段落替代画面。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n最后重申：这张图必须完全无字——不能出现标题、标签、步骤编号、字母、数字、伪文字或任何文字形状；\n一切文字均由程序在生成后确定性绘制。\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 10,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 4,
+    "requires_numbered_steps": true,
+    "requires_title": false,
+    "minimum_subject_coverage_percent": 70,
+    "maximum_text_labels": 4,
+    "repeat_core_subjects_across_steps": true
+  },
+  "aspect_ratio": "16:9",
+  "cell_ip_failure_reason": null,
+  "image_id": "4c5c179a90af-v0",
+  "trusted_image": "4c5c179a90af-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "Image fails on text legibility and brief alignment. Contains multiple instances of nonsensical English gibberish (e.g., 'Fivisction at Everement', 'The tirragon be Ceal Rioutact') and Chinese typos ('呈封', '通取'). The visual layout is acceptable with 4 zones, but the text content renders the diagram scientifically invalid and unreadable.",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "pass",
+        "evidence": "The cartoon antigen character (purple spiky sphere) maintains consistent shape, color, and facial expression across all panels. No anatomical or style artifacts detected in the drawings.",
+        "confidence": 1.0
+      },
+      "text_legibility": {
+        "status": "issue",
+        "evidence": "Severe text corruption. English labels are meaningless hallucinations (e.g., 'Fivisction at Everement', 'Rembing', 'Eattached Ctal Cartecclos'). Chinese text contains typos ('呈封' instead of '呈递', '通取' instead of '识别').",
+        "confidence": 1.0
+      },
+      "layout_hierarchy": {
+        "status": "pass",
+        "evidence": "Diagram uses a clear 4-panel grid layout with numbered steps (1-4). Arrows correctly indicate flow from top-left to bottom-right. Satisfies the minimum complexity requirement for zones and nodes.",
+        "confidence": 0.95
+      },
+      "brief_alignment": {
+        "status": "issue",
+        "evidence": "While the visual sequence matches the intended immune response steps, the accompanying text fails to accurately describe them due to hallucinations. Step 2 text describes 'tirragon' instead of TCR recognition; Step 4 describes 'Fivisction' instead of apoptosis/lysis.",
+        "confidence": 1.0
+      },
+      "causal_step_coverage": {
+        "status": "pass",
+        "evidence": "The visual arrows connect the correct entities in the correct order: APC -> Initial T Cell -> Effector T Cell -> Target Cell. The causal chain is visually present despite the bad text.",
+        "confidence": 0.9
+      },
+      "scientific_expression_risk": {
+        "status": "issue",
+        "evidence": "High risk. The nonsensical text labels ('An pgrn', 'Rettogamet') convey false information. The term '分导或疲亡' (Step 4 bubble) is not standard terminology for effector T cell function (should be differentiation or apoptosis/activation).",
+        "confidence": 1.0
+      }
+    },
+    "blind_text_audit": {
+      "status": "clear",
+      "has_visible_text": true,
+      "summary": "The image is a diagram illustrating T cell activation and immune response steps, featuring cartoon virus-like characters. It contains mixed Chinese and nonsensical English text labels for each numbered stage.",
+      "text_blocks": [
+        {
+          "text": "1 抗原呈封细胞摄取并加工 病原体抗原 (An pgrn)",
+          "bbox": [
+            0.03,
+            0.02,
+            0.4,
+            0.1
+          ],
+          "confidence": 0.95,
+          "defective": false
+        },
+        {
+          "text": "抗原肽- -MHC复合物",
+          "bbox": [
+            0.29,
+            0.11,
+            0.41,
+            0.17
+          ],
+          "confidence": 0.96,
+          "defective": false
+        },
+        {
+          "text": "抗原",
+          "bbox": [
+            0.36,
+            0.26,
+            0.45,
+            0.31
+          ],
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "2. 初始T细胞通取 The tirragon be Ceal Rioutact)",
+          "bbox": [
+            0.56,
+            0.02,
+            0.95,
+            0.08
+          ],
+          "confidence": 0.94,
+          "defective": false
+        },
+        {
+          "text": "3. Rembing",
+          "bbox": [
+            0.73,
+            0.48,
+            0.88,
+            0.53
+          ],
+          "confidence": 0.97,
+          "defective": false
+        },
+        {
+          "text": "披同一被 效应T细胞 靶细胞",
+          "bbox": [
+            0.84,
+            0.58,
+            0.96,
+            0.68
+          ],
+          "confidence": 0.95,
+          "defective": false
+        },
+        {
+          "text": "4",
+          "bbox": [
+            0.03,
+            0.56,
+            0.09,
+            0.62
+          ],
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "效应T细胞 分导或疲亡",
+          "bbox": [
+            0.42,
+            0.71,
+            0.56,
+            0.79
+          ],
+          "confidence": 0.96,
+          "defective": false
+        },
+        {
+          "text": "4. 效应T细胞 (Fivisction at Everement)",
+          "bbox": [
+            0.03,
+            0.87,
+            0.37,
+            0.95
+          ],
+          "confidence": 0.94,
+          "defective": false
+        },
+        {
+          "text": "效应T细胞 (The Rettogamet (Eattached Ctal Cartecclos)",
+          "bbox": [
+            0.59,
+            0.87,
+            0.95,
+            0.98
+          ],
+          "confidence": 0.93,
+          "defective": false
+        }
+      ]
+    },
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "English text is completely nonsensical. 'Fivisction at Everement' (Step 4), 'The tirragon be Ceal Rioutact' (Step 2), 'Rembing' (Step 3), and 'Eattached Ctal Cartecclos' (Target cell label) are gibberish.",
+        "bbox": [
+          0.03,
+          0.87,
+          0.37,
+          0.98
+        ],
+        "observed_text": "(Fivisction at Everement)",
+        "replacement_text": "(Effector T Cell Function / Activation)",
+        "confidence": 1.0,
+        "suggested_fix": "Replace all nonsensical English text with accurate scientific terms corresponding to the immune process steps.",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "medium",
+        "description": "Chinese text contains typos and incorrect terms. '呈封' should be '呈递'. '通取' should be '识别'. Bubble text '分导或疲亡' is unclear/incorrect contextually.",
+        "bbox": [
+          0.03,
+          0.02,
+          0.4,
+          0.1
+        ],
+        "observed_text": "抗原呈封细胞摄取并加工",
+        "replacement_text": "抗原呈递细胞摄取并加工",
+        "confidence": 0.98,
+        "suggested_fix": "Correct Chinese characters to standard biological terminology.",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "scientific_expression",
+        "severity": "high",
+        "description": "潜在科学表达风险（当前未接入证据核验）：The label for the target cell in Step 4/3 area reads '(The Rettogamet (Eattached Ctal Cartecclos)' which is unintelligible. The concept of 'attached target cells' is lost in the noise.",
+        "bbox": [
+          0.59,
+          0.87,
+          0.95,
+          0.98
+        ],
+        "observed_text": "(The Rettogamet (Eattached Ctal Cartecclos)",
+        "replacement_text": "(Infected Target Cell)",
+        "confidence": 1.0,
+        "suggested_fix": "Rewrite label to clearly identify the infected target cell being attacked by the effector T cell.",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 1,
+  "revision_origin": "initial",
+  "last_revision_bbox": [
+    0.08,
+    0.49,
+    0.3,
+    0.56
+  ],
+  "last_edit_instruction": "仅修改指定矩形区域；矩形外所有像素内容、主体、构图和画风保持不变。\n这是删除任务：完整移除矩形框内全部文字、字母、数字与伪文字（含错字、乱码、残字），用框内周围背景与画面风格自然填充，不留残影、描边或文字痕迹；不要在框内生成任何新文字、标签或编号。",
+  "created_at": "2026-09-01T12:18:55.360810+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "7c1beec11bbb",
+  "trace_events": [
+    {
+      "id": "7c1beec11bbb-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:18:55.360810Z"
+    },
+    {
+      "id": "7c1beec11bbb-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：Scientific mechanism diagram, 16:9 aspect ratio, three distinct panels showing cell-cell interaction. Panel 1: An Antigen Presenting Cell (APC) displaying a pathogen fragment on i… 详细机制图：至少 4 个信息分区、10 个可辨视觉节点、4 条方向连接。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:18:55.360810Z"
+    },
+    {
+      "id": "7c1beec11bbb-3",
+      "stage": "generation",
+      "title": "细胞场景已生成",
+      "detail": "正在检查底图文字并定位角色，随后写入规范底标和步骤编号。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:19:06.774851Z"
+    },
+    {
+      "id": "7c1beec11bbb-4",
+      "stage": "visual_critic",
+      "title": "底图发现错字或乱码",
+      "detail": "视觉模型定位到 1 处问题文字（3. T细胞活化、增殖分化 效应T细胞），正在局部修复。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:19:24.989037Z"
+    },
+    {
+      "id": "7c1beec11bbb-5",
+      "stage": "auto_revision",
+      "title": "底图文字检查与角色定位完成",
+      "detail": "角色框和流程分区已定位；规范名称与步骤编号已由程序绘制。",
+      "status": "completed",
+      "created_at": "2026-09-01T12:19:56.703182Z"
+    },
+    {
+      "id": "7c1beec11bbb-6",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "Image fails on text legibility and brief alignment. Contains multiple instances of nonsensical English gibberish (e.g., 'Fivisction at Everement', 'The tirragon be Ceal Rioutact') and Chinese typos ('呈封', '通取'). The visual layout is accepta",
+      "status": "warning",
+      "created_at": "2026-09-01T12:20:15.790653Z"
+    },
+    {
+      "id": "7c1beec11bbb-7",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-09-01T12:20:52.479295Z"
+    }
+  ],
+  "trace_history": []
+}

@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_52b1b586438ad4f9eb4cb0130ea33c66",
+  "content_hash": "f5238a66add593a3a82ae5a8fb13e32fbfc4a54030a133dd1b3b69596d734435",
+  "entities": [
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_52b1b586438ad4f9eb4cb0130ea33c66"
+    },
+    {
+      "canonical_name": "precancerous lesions of the genital tract",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "precancerous lesions of the genital tract",
+      "chunk_id": "chk_52b1b586438ad4f9eb4cb0130ea33c66"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

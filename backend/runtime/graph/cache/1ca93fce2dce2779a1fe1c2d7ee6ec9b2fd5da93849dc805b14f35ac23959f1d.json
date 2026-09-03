@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_d06c648f51f1cf254a79a2ebee2fa3df",
+  "content_hash": "753b045367c385a029c02ccebf3da1eeeab0258695415d887795214ff1e7e710",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_d06c648f51f1cf254a79a2ebee2fa3df"
+    },
+    {
+      "canonical_name": "Tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Tuberculosis",
+      "chunk_id": "chk_d06c648f51f1cf254a79a2ebee2fa3df"
+    },
+    {
+      "canonical_name": "Bacillus Calmette–Guérin (BCG) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Bacillus Calmette–Guérin (BCG) vaccine",
+      "chunk_id": "chk_d06c648f51f1cf254a79a2ebee2fa3df"
+    },
+    {
+      "canonical_name": "Newborns",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Newborns",
+      "chunk_id": "chk_d06c648f51f1cf254a79a2ebee2fa3df"
+    },
+    {
+      "canonical_name": "Mycobacterium tuberculosis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Mycobacterium tuberculosis",
+      "chunk_id": "chk_d06c648f51f1cf254a79a2ebee2fa3df"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "quote_missing"
+  ]
+}

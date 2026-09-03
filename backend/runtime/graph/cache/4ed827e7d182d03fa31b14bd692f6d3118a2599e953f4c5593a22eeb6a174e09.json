@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_b8c74655dcf90e1413b8f2edbf701a83",
+  "content_hash": "f326bc06d59022cb9c5cc4cbe3b772516a8a084a7121fe08bd9341d71f3223d9",
+  "entities": [
+    {
+      "canonical_name": "concomitant infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "concomitant infection",
+      "chunk_id": "chk_b8c74655dcf90e1413b8f2edbf701a83"
+    },
+    {
+      "canonical_name": "febrile seizures",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "febrile seizures",
+      "chunk_id": "chk_b8c74655dcf90e1413b8f2edbf701a83"
+    },
+    {
+      "canonical_name": "MMR/MMRV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR/MMRV vaccine",
+      "chunk_id": "chk_b8c74655dcf90e1413b8f2edbf701a83"
+    },
+    {
+      "canonical_name": "live-attenuated viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "live-attenuated viruses",
+      "chunk_id": "chk_b8c74655dcf90e1413b8f2edbf701a83"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_df1974faaec3c343e85a83cd64bfdf67",
+  "content_hash": "2b0a16f30135a9b4a7690536724a478156177de5e3c2bc816f4d9ec41ed32f51",
+  "entities": [
+    {
+      "canonical_name": "diphtheria, tetanus, and pertussis–containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria, tetanus, and pertussis–containing vaccine",
+      "chunk_id": "chk_df1974faaec3c343e85a83cd64bfdf67"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine birth dose",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine birth dose",
+      "chunk_id": "chk_df1974faaec3c343e85a83cd64bfdf67"
+    },
+    {
+      "canonical_name": "HepB-BD",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB-BD",
+      "chunk_id": "chk_df1974faaec3c343e85a83cd64bfdf67"
+    },
+    {
+      "canonical_name": "human papillomavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccine",
+      "chunk_id": "chk_df1974faaec3c343e85a83cd64bfdf67"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_df1974faaec3c343e85a83cd64bfdf67"
+    },
+    {
+      "canonical_name": "national immunization schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "national immunization schedules",
+      "chunk_id": "chk_df1974faaec3c343e85a83cd64bfdf67"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

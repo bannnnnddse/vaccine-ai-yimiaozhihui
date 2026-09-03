@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d13e36f661f9c94aee53587092b7f732",
+  "content_hash": "d67a5679b4b070fbd21e1bfe478fe2a4c8f7afa9875b755a025edb005c25f581",
+  "entities": [
+    {
+      "canonical_name": "HIV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV infection",
+      "chunk_id": "chk_d13e36f661f9c94aee53587092b7f732"
+    },
+    {
+      "canonical_name": "AIDS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "AIDS",
+      "chunk_id": "chk_d13e36f661f9c94aee53587092b7f732"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

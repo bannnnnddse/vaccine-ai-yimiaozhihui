@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_6fb76823a7343073980c7f0566c020e8",
+  "content_hash": "41e4b4f463702a522cb17ee7d8c127d751101d940e56fe3f0ebd0acff7aa3a0e",
+  "entities": [
+    {
+      "canonical_name": "pathogen",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogen",
+      "chunk_id": "chk_6fb76823a7343073980c7f0566c020e8"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_6fb76823a7343073980c7f0566c020e8"
+    },
+    {
+      "canonical_name": "antibody titres",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody titres",
+      "chunk_id": "chk_6fb76823a7343073980c7f0566c020e8"
+    },
+    {
+      "canonical_name": "disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "disease",
+      "chunk_id": "chk_6fb76823a7343073980c7f0566c020e8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

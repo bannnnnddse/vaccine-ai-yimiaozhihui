@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_634aedb13e11f496261ab7865ed46276",
+  "content_hash": "ca473fb9f9e1a3e699f96fefd678b989b2898d7c9238fac331eded665f3febc2",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_634aedb13e11f496261ab7865ed46276"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_634aedb13e11f496261ab7865ed46276"
+    },
+    {
+      "canonical_name": "deaths",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "deaths",
+      "chunk_id": "chk_634aedb13e11f496261ab7865ed46276"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

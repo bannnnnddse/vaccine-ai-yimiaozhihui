@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_b31bff6c7222b468223aa9e2f48df185",
+  "content_hash": "44ca8fb019a45773dbd958993713e3bfeaf43ba5f7d065ebeec4bb5dc3adbd92",
+  "entities": [
+    {
+      "canonical_name": "IgG3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG3",
+      "chunk_id": "chk_b31bff6c7222b468223aa9e2f48df185"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_b31bff6c7222b468223aa9e2f48df185"
+    },
+    {
+      "canonical_name": "Recombinant gp120 vaccineinduced antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Recombinant gp120 vaccineinduced antibodies",
+      "chunk_id": "chk_b31bff6c7222b468223aa9e2f48df185"
+    },
+    {
+      "canonical_name": "clinical strains of HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "clinical strains of HIV-1",
+      "chunk_id": "chk_b31bff6c7222b468223aa9e2f48df185"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_b31bff6c7222b468223aa9e2f48df185"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

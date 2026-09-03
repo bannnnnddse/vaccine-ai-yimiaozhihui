@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_ebcb2f2e713be5842450608c1be1d610",
+  "content_hash": "d7d3390dc537ab9c85bf9ce1b870aa8fe8056c4187330f26062793e27039d615",
+  "entities": [
+    {
+      "canonical_name": "COVID vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID vaccines",
+      "chunk_id": "chk_ebcb2f2e713be5842450608c1be1d610"
+    },
+    {
+      "canonical_name": "adjuvanted protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "adjuvanted protein",
+      "chunk_id": "chk_ebcb2f2e713be5842450608c1be1d610"
+    },
+    {
+      "canonical_name": "viral-vectored and mRNA lipid nanoparticle vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "viral-vectored and mRNA lipid nanoparticle vaccines",
+      "chunk_id": "chk_ebcb2f2e713be5842450608c1be1d610"
+    },
+    {
+      "canonical_name": "combined heterologous priming schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "combined heterologous priming schedules",
+      "chunk_id": "chk_ebcb2f2e713be5842450608c1be1d610"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

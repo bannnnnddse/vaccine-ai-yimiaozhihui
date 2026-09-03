@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_437d861394d6092faab1d78b77c0a4e2",
+  "content_hash": "79b0639eb5b464b9d145a097d5f7ba72b2499319bb5d6127fbf202740a1a7a0c",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_437d861394d6092faab1d78b77c0a4e2"
+    },
+    {
+      "canonical_name": "new vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "new vaccines",
+      "chunk_id": "chk_437d861394d6092faab1d78b77c0a4e2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

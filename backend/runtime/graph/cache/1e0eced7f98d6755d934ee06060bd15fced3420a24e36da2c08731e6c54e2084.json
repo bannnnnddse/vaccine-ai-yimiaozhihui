@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_d882b4c25975dc4734ed8c23c25583b6",
+  "content_hash": "a73f7418197e811f6ad583114efa741f54d4e28067b0bdab492404838fdca290",
+  "entities": [
+    {
+      "canonical_name": "Respiratory syncytial virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Respiratory syncytial virus",
+      "chunk_id": "chk_d882b4c25975dc4734ed8c23c25583b6"
+    },
+    {
+      "canonical_name": "respiratory tract infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "respiratory tract infection",
+      "chunk_id": "chk_d882b4c25975dc4734ed8c23c25583b6"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_d882b4c25975dc4734ed8c23c25583b6"
+    },
+    {
+      "canonical_name": "the elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "the elderly",
+      "chunk_id": "chk_d882b4c25975dc4734ed8c23c25583b6"
+    },
+    {
+      "canonical_name": "people with poor immune function",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "people with poor immune function",
+      "chunk_id": "chk_d882b4c25975dc4734ed8c23c25583b6"
+    },
+    {
+      "canonical_name": "palivizumab monoclonal antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "palivizumab monoclonal antibody",
+      "chunk_id": "chk_d882b4c25975dc4734ed8c23c25583b6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

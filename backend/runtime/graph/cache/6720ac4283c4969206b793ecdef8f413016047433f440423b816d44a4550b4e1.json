@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d3b7e5b033df80b6cbcd00a99aff632d",
+  "content_hash": "abab6ca33fcf48c5a3bc12d78158a134a916444e5f7f7f1d6aa99598cc606cd2",
+  "entities": [
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_d3b7e5b033df80b6cbcd00a99aff632d"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_d3b7e5b033df80b6cbcd00a99aff632d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

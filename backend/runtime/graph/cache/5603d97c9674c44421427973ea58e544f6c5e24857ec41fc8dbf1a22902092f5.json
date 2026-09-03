@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_b41a96adfd430bb310d9624aa2fa8651",
+  "content_hash": "b65c235812379d1a18f90d9eac38c2b5a67ff60e47679557f9ceeed13793b0d5",
+  "entities": [
+    {
+      "canonical_name": "conjugate vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "conjugate vaccination",
+      "chunk_id": "chk_b41a96adfd430bb310d9624aa2fa8651"
+    },
+    {
+      "canonical_name": "pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumococcal disease",
+      "chunk_id": "chk_b41a96adfd430bb310d9624aa2fa8651"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

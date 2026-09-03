@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_1ef96647dabb3a45584ec4d1365fd6b2",
+  "content_hash": "a97a69ed0c9384ecf80dc13bec50afe6dfb4552506d39f234e32306ffe9e8650",
+  "entities": [
+    {
+      "canonical_name": "Nucleic acid vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Nucleic acid vaccines",
+      "chunk_id": "chk_1ef96647dabb3a45584ec4d1365fd6b2"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_1ef96647dabb3a45584ec4d1365fd6b2"
+    },
+    {
+      "canonical_name": "DNA cancer vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA cancer vaccine candidates",
+      "chunk_id": "chk_1ef96647dabb3a45584ec4d1365fd6b2"
+    },
+    {
+      "canonical_name": "RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA vaccines",
+      "chunk_id": "chk_1ef96647dabb3a45584ec4d1365fd6b2"
+    },
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_1ef96647dabb3a45584ec4d1365fd6b2"
+    },
+    {
+      "canonical_name": "naked tumor antigenencoding mRNA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "naked tumor antigenencoding mRNA",
+      "chunk_id": "chk_1ef96647dabb3a45584ec4d1365fd6b2"
+    },
+    {
+      "canonical_name": "naked mRNA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "naked mRNA",
+      "chunk_id": "chk_1ef96647dabb3a45584ec4d1365fd6b2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

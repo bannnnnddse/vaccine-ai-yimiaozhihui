@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d83237aef0d6ac10d30c6edf67d57ad7",
+  "content_hash": "57c65b60b607696deaa81140c0fc4a4a303a445f100f192ef7c50dcc7a044565",
+  "entities": [
+    {
+      "canonical_name": "Japanese encephalitis virus vaccine IC51",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Japanese encephalitis virus vaccine IC51",
+      "chunk_id": "chk_d83237aef0d6ac10d30c6edf67d57ad7"
+    },
+    {
+      "canonical_name": "Japanese encephalitis vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Japanese encephalitis vaccine",
+      "chunk_id": "chk_d83237aef0d6ac10d30c6edf67d57ad7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_9608f2bf859ef19d0b00bb66b4efa95f",
+  "content_hash": "363af5af00b6d76bbfb475b89f1a8e08ba846f10faaa7fd5ff5b26a273b206fe",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_9608f2bf859ef19d0b00bb66b4efa95f"
+    },
+    {
+      "canonical_name": "adverse reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse reactions",
+      "chunk_id": "chk_9608f2bf859ef19d0b00bb66b4efa95f"
+    },
+    {
+      "canonical_name": "local pain",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "local pain",
+      "chunk_id": "chk_9608f2bf859ef19d0b00bb66b4efa95f"
+    },
+    {
+      "canonical_name": "fatigue",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fatigue",
+      "chunk_id": "chk_9608f2bf859ef19d0b00bb66b4efa95f"
+    },
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_9608f2bf859ef19d0b00bb66b4efa95f"
+    },
+    {
+      "canonical_name": "severe allergic reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "severe allergic reactions",
+      "chunk_id": "chk_9608f2bf859ef19d0b00bb66b4efa95f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

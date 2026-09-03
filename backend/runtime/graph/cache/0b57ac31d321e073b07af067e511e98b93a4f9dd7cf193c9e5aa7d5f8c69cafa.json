@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_5dd21c0dc5956469b4426048f81f69c2",
+  "content_hash": "d9b9a865e59db7b7400f61067f50c4087ca2465efc4ae8dfb600a5e1a096481d",
+  "entities": [
+    {
+      "canonical_name": "ABC-DLBCL",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "ABC-DLBCL",
+      "chunk_id": "chk_5dd21c0dc5956469b4426048f81f69c2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

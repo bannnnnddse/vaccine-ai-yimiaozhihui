@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_378666c56db12b4a5264863c912eb3a6",
+  "content_hash": "201069300663f11e4745317e6c03e9c88ccbb38b0f837cf7b3fe802b470a6579",
+  "entities": [
+    {
+      "canonical_name": "mRNA COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA COVID-19 vaccine",
+      "chunk_id": "chk_378666c56db12b4a5264863c912eb3a6"
+    },
+    {
+      "canonical_name": "pregnancy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnancy",
+      "chunk_id": "chk_378666c56db12b4a5264863c912eb3a6"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_378666c56db12b4a5264863c912eb3a6"
+    },
+    {
+      "canonical_name": "COVID-19-Associated hospitalization",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "COVID-19-Associated hospitalization",
+      "chunk_id": "chk_378666c56db12b4a5264863c912eb3a6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

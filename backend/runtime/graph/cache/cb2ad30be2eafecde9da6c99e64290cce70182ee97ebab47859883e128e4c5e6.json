@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_499fb73654a94d62aeaadd1c482cbf01",
+  "content_hash": "ac7c9ce1a7e9f7a4500d279295f659708a6a281b721bdd1cac0e1bc8be7a8919",
+  "entities": [
+    {
+      "canonical_name": "homologous schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "homologous schedules",
+      "chunk_id": "chk_499fb73654a94d62aeaadd1c482cbf01"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_499fb73654a94d62aeaadd1c482cbf01"
+    },
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_499fb73654a94d62aeaadd1c482cbf01"
+    },
+    {
+      "canonical_name": "ChAdOx1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1",
+      "chunk_id": "chk_499fb73654a94d62aeaadd1c482cbf01"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "target_missing_from_quote"
+  ]
+}

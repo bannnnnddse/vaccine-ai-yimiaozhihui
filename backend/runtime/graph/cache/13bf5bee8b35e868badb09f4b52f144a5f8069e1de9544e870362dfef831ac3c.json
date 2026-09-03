@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d315a8c1ad45b6be4ab4960f82f0eb5e",
+  "content_hash": "8092506aa13ae813c3a483e95f9cec1e2c84368d47433a388a904d826c5bab3e",
+  "entities": [
+    {
+      "canonical_name": "anti-HAV antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HAV antibody",
+      "chunk_id": "chk_d315a8c1ad45b6be4ab4960f82f0eb5e"
+    },
+    {
+      "canonical_name": "live-attenuated hepatitis A vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live-attenuated hepatitis A vaccine",
+      "chunk_id": "chk_d315a8c1ad45b6be4ab4960f82f0eb5e"
+    },
+    {
+      "canonical_name": "Indian Children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Indian Children",
+      "chunk_id": "chk_d315a8c1ad45b6be4ab4960f82f0eb5e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

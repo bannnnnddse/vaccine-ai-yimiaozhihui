@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_ea01bc2b6274e779eed40a7d2a3b6a79",
+  "content_hash": "1f43e26cbb0dc62f0f7d73576ff13d13aec45694cd1c6de53dd09ba9e32d610b",
+  "entities": [
+    {
+      "canonical_name": "Ad26.RSV.preF Investigational Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad26.RSV.preF Investigational Vaccine",
+      "chunk_id": "chk_ea01bc2b6274e779eed40a7d2a3b6a79"
+    },
+    {
+      "canonical_name": "Influenza Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza Vaccine",
+      "chunk_id": "chk_ea01bc2b6274e779eed40a7d2a3b6a79"
+    },
+    {
+      "canonical_name": "Older Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Older Adults",
+      "chunk_id": "chk_ea01bc2b6274e779eed40a7d2a3b6a79"
+    },
+    {
+      "canonical_name": "Sendai virus-based RSV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Sendai virus-based RSV vaccine",
+      "chunk_id": "chk_ea01bc2b6274e779eed40a7d2a3b6a79"
+    },
+    {
+      "canonical_name": "African green monkeys",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "African green monkeys",
+      "chunk_id": "chk_ea01bc2b6274e779eed40a7d2a3b6a79"
+    },
+    {
+      "canonical_name": "RSV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV infection",
+      "chunk_id": "chk_ea01bc2b6274e779eed40a7d2a3b6a79"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

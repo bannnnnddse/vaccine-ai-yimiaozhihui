@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_915c0fcc526894d3e87142c2f5119851",
+  "content_hash": "0990fe29278aa4825c37265c9f54af98c3616f995d2503a2930ae1ee7fea40fd",
+  "entities": [
+    {
+      "canonical_name": "HIV Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV Vaccine",
+      "chunk_id": "chk_915c0fcc526894d3e87142c2f5119851"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

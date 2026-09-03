@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_19ae9a2a7ab2004d861af2463c331141",
+  "content_hash": "f37f9dca8aabed6ecdcb94f46f971f2b9ddd0ee70ded66eb17083fffc8ba41be",
+  "entities": [
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "chk_19ae9a2a7ab2004d861af2463c331141"
+    },
+    {
+      "canonical_name": "Delta",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Delta",
+      "chunk_id": "chk_19ae9a2a7ab2004d861af2463c331141"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "chk_19ae9a2a7ab2004d861af2463c331141"
+    },
+    {
+      "canonical_name": "BALB/c mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "BALB/c mice",
+      "chunk_id": "chk_19ae9a2a7ab2004d861af2463c331141"
+    },
+    {
+      "canonical_name": "SARSCoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2",
+      "chunk_id": "chk_19ae9a2a7ab2004d861af2463c331141"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

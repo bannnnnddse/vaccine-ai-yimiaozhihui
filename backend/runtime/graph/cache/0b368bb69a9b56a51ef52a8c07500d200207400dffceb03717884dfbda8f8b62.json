@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b07b79e38d327fa9d707c427acf8f4be",
+  "content_hash": "8570c79bec80933c81fa632bc86d51fddb209e39b01b90dd59e1f8d1c3be0ee7",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 mRNA vaccines",
+      "chunk_id": "chk_b07b79e38d327fa9d707c427acf8f4be"
+    },
+    {
+      "canonical_name": "Herpes zoster",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Herpes zoster",
+      "chunk_id": "chk_b07b79e38d327fa9d707c427acf8f4be"
+    },
+    {
+      "canonical_name": "mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccine",
+      "chunk_id": "chk_b07b79e38d327fa9d707c427acf8f4be"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

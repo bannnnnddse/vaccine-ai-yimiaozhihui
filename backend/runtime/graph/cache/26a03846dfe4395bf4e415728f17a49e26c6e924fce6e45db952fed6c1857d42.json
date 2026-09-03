@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_de53268dfa8a3354a16aa220665ffcc1",
+  "content_hash": "088630b53dc79dc24b7f493200a225e126eb82b57440436dada839bd50ecc7b7",
+  "entities": [
+    {
+      "canonical_name": "encapsulated bacteria",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "encapsulated bacteria",
+      "chunk_id": "chk_de53268dfa8a3354a16aa220665ffcc1"
+    },
+    {
+      "canonical_name": "childhood meningitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "childhood meningitis",
+      "chunk_id": "chk_de53268dfa8a3354a16aa220665ffcc1"
+    },
+    {
+      "canonical_name": "bacterial pneumonia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "bacterial pneumonia",
+      "chunk_id": "chk_de53268dfa8a3354a16aa220665ffcc1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "unknown_endpoint",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

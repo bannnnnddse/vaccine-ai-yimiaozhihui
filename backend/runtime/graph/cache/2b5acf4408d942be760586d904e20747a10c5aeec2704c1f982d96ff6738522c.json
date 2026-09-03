@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_3936bdd4188bb5912f660bc62d2caca7",
+  "content_hash": "4256e099c7eddec3b9a48bdf9df620581f1b5c4852203c4b28c33ec29aafcefc",
+  "entities": [
+    {
+      "canonical_name": "olanzapine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "olanzapine",
+      "chunk_id": "chk_3936bdd4188bb5912f660bc62d2caca7"
+    },
+    {
+      "canonical_name": "aripiprazole",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "aripiprazole",
+      "chunk_id": "chk_3936bdd4188bb5912f660bc62d2caca7"
+    },
+    {
+      "canonical_name": "Clozapine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Clozapine",
+      "chunk_id": "chk_3936bdd4188bb5912f660bc62d2caca7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

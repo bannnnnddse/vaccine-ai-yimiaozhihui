@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_3794c9adebff6b350a17c585e81f21b7",
+  "content_hash": "9ee51f30467fb3c9833b08239ea52aadc0f847b3a0793c585ef366e445345c14",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_3794c9adebff6b350a17c585e81f21b7"
+    },
+    {
+      "canonical_name": "immunosuppressed individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunosuppressed individuals",
+      "chunk_id": "chk_3794c9adebff6b350a17c585e81f21b7"
+    },
+    {
+      "canonical_name": "young children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young children",
+      "chunk_id": "chk_3794c9adebff6b350a17c585e81f21b7"
+    },
+    {
+      "canonical_name": "the elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "the elderly",
+      "chunk_id": "chk_3794c9adebff6b350a17c585e81f21b7"
+    },
+    {
+      "canonical_name": "immunocompromised",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised",
+      "chunk_id": "chk_3794c9adebff6b350a17c585e81f21b7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

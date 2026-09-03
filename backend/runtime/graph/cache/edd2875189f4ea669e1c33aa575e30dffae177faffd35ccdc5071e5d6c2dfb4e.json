@@ -1,0 +1,17 @@
+{
+  "chunk_id": "8df22675faba4e6a184849c046a5edff5bd7ccfcfa05d2a3b6bdc02f78554f35",
+  "content_hash": "9538afb54f6663feef9efdaf2455b3d567f2a791d9d0711430575388336ce751",
+  "entities": [
+    {
+      "canonical_name": "respiratory diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "respiratory diseases",
+      "chunk_id": "8df22675faba4e6a184849c046a5edff5bd7ccfcfa05d2a3b6bdc02f78554f35"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

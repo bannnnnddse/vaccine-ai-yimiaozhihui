@@ -1,0 +1,164 @@
+[
+  {
+    "confidence": 1.0,
+    "id": "edge_04cf00cb23656470e3ab774b",
+    "provenance_ids": [
+      "prov_dcc3e4c835e80a703fab5faf"
+    ],
+    "relation_type": "HAS_SCHEDULE",
+    "source_id": "node_abc84af1921ad6133bbff1fa",
+    "target_id": "node_511a9fb78cab0d973d53947a"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_0a853332ecbbd0c5101861f1",
+    "provenance_ids": [
+      "prov_0bcc1c62213f933adac5b274",
+      "prov_807cccb9097dcb56541f1c50",
+      "prov_dcc3e4c835e80a703fab5faf"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_511a9fb78cab0d973d53947a",
+    "target_id": "node_2449b7703b1a7af7ec370cc7"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_0f44fee40f5557169cb7ac02",
+    "provenance_ids": [
+      "prov_807cccb9097dcb56541f1c50"
+    ],
+    "relation_type": "HAS_SCHEDULE",
+    "source_id": "node_940b918360118e9bca40db0a",
+    "target_id": "node_511a9fb78cab0d973d53947a"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_17f39616bcd0659c9799024f",
+    "provenance_ids": [
+      "prov_6e2f987a5cbd5a51dc539148"
+    ],
+    "relation_type": "HAS_SCHEDULE",
+    "source_id": "node_c9e5d33dd1da3a4b548437c0",
+    "target_id": "node_5c99b8a2a11639cc74f3af61"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_1cc7630f0b97be37757b0eb9",
+    "provenance_ids": [
+      "prov_f47b978b2d04094ffb59410e"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_cf19295c3e82d74c03cd3628",
+    "target_id": "node_ea89534b5e1f15ae9f3cedce"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_309d3b95ed484ed1acdfbb59",
+    "provenance_ids": [
+      "prov_6e2f987a5cbd5a51dc539148"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_5c99b8a2a11639cc74f3af61",
+    "target_id": "node_2449b7703b1a7af7ec370cc7"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_3216d52759b7aa5e27b7a367",
+    "provenance_ids": [
+      "prov_72774be4aead3bb62dc47a3b"
+    ],
+    "relation_type": "HAS_SCHEDULE",
+    "source_id": "node_cbd3fb4ffaf1d1b12e607539",
+    "target_id": "node_478f5ba93a5f0010f7a33af0"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_32234ae108d3ce246bfae483",
+    "provenance_ids": [
+      "prov_dcc3e4c835e80a703fab5faf"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_abc84af1921ad6133bbff1fa",
+    "target_id": "node_2449b7703b1a7af7ec370cc7"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_64047200a8e4b1eb652fbf93",
+    "provenance_ids": [
+      "prov_6e2f987a5cbd5a51dc539148"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_c9e5d33dd1da3a4b548437c0",
+    "target_id": "node_2449b7703b1a7af7ec370cc7"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_7afde39dc5d469ae522b3a13",
+    "provenance_ids": [
+      "prov_0bcc1c62213f933adac5b274"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_54f61608ff15e006693075da",
+    "target_id": "node_2449b7703b1a7af7ec370cc7"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_7ffb11452d56ab0160120c1f",
+    "provenance_ids": [
+      "prov_72774be4aead3bb62dc47a3b"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_478f5ba93a5f0010f7a33af0",
+    "target_id": "node_2449b7703b1a7af7ec370cc7"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_8ea8f03c6aab412943125f19",
+    "provenance_ids": [
+      "prov_72774be4aead3bb62dc47a3b"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_cbd3fb4ffaf1d1b12e607539",
+    "target_id": "node_2449b7703b1a7af7ec370cc7"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_d01f9995fa678437ed0f4540",
+    "provenance_ids": [
+      "prov_0bcc1c62213f933adac5b274"
+    ],
+    "relation_type": "HAS_SCHEDULE",
+    "source_id": "node_54f61608ff15e006693075da",
+    "target_id": "node_511a9fb78cab0d973d53947a"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_dbf6cf0534154ff39d0c9975",
+    "provenance_ids": [
+      "prov_f47b978b2d04094ffb59410e"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_fe662a7ef1d30f5a9016da56",
+    "target_id": "node_ea89534b5e1f15ae9f3cedce"
+  },
+  {
+    "confidence": 0.95,
+    "id": "edge_de32563033ad6988593e614e",
+    "provenance_ids": [
+      "prov_f47b978b2d04094ffb59410e"
+    ],
+    "relation_type": "PREVENTS",
+    "source_id": "node_fe662a7ef1d30f5a9016da56",
+    "target_id": "node_cf19295c3e82d74c03cd3628"
+  },
+  {
+    "confidence": 1.0,
+    "id": "edge_e4463ef6b14b7cf62af4dac7",
+    "provenance_ids": [
+      "prov_807cccb9097dcb56541f1c50"
+    ],
+    "relation_type": "SUPPORTED_BY",
+    "source_id": "node_940b918360118e9bca40db0a",
+    "target_id": "node_2449b7703b1a7af7ec370cc7"
+  }
+]

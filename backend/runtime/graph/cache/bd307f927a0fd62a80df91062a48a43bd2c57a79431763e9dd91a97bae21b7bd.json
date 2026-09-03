@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_8640b1758db459cd1298bd6be1b0fea4",
+  "content_hash": "ff603ecf20bcbcad9f39234744ad2f2ed248a3602c2ae6b658bccfe703c3ea6e",
+  "entities": [
+    {
+      "canonical_name": "Hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis B vaccine",
+      "chunk_id": "chk_8640b1758db459cd1298bd6be1b0fea4"
+    },
+    {
+      "canonical_name": "healthy young adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy young adults",
+      "chunk_id": "chk_8640b1758db459cd1298bd6be1b0fea4"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_8640b1758db459cd1298bd6be1b0fea4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

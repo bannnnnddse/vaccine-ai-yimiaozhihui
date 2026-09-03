@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_88c92bd4ca31fd2a487d436e08542cf2",
+  "content_hash": "e88d17945f8e7b44de7750da173500cc76ab6dbf25d362c7fd69c098daf7ffaf",
+  "entities": [
+    {
+      "canonical_name": "RV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV vaccine",
+      "chunk_id": "chk_88c92bd4ca31fd2a487d436e08542cf2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

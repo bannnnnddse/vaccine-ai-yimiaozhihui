@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_3e2da8e5319bdc326c1a72e3c7f5525c",
+  "content_hash": "20c2cb15eb235bb8ee197c755f041f32c050a66f5637806faf0d76fc3abaa4be",
+  "entities": [
+    {
+      "canonical_name": "conventional vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "conventional vaccines",
+      "chunk_id": "chk_3e2da8e5319bdc326c1a72e3c7f5525c"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_3e2da8e5319bdc326c1a72e3c7f5525c"
+    },
+    {
+      "canonical_name": "neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibody",
+      "chunk_id": "chk_3e2da8e5319bdc326c1a72e3c7f5525c"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "chk_3e2da8e5319bdc326c1a72e3c7f5525c"
+    },
+    {
+      "canonical_name": "CoronaVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoronaVac",
+      "chunk_id": "chk_3e2da8e5319bdc326c1a72e3c7f5525c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

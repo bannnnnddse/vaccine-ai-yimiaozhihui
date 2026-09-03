@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_92545e22c659599c0ce57fa4055f3ae7",
+  "content_hash": "a4d38e9b1a8e4a52bd055ac788d900ea119525bc2129178393d699c15bceeb98",
+  "entities": [
+    {
+      "canonical_name": "therapeutic vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "therapeutic vaccine",
+      "chunk_id": "chk_92545e22c659599c0ce57fa4055f3ae7"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_92545e22c659599c0ce57fa4055f3ae7"
+    },
+    {
+      "canonical_name": "hepatitis B breakthrough infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B breakthrough infection",
+      "chunk_id": "chk_92545e22c659599c0ce57fa4055f3ae7"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_92545e22c659599c0ce57fa4055f3ae7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

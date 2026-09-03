@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_c50067670b61efb1a6993e4a990d3f56",
+  "content_hash": "cc4c5405f8b86c462511bbb48ce94b6e9a8feffa14de4f23219965aeeb820e90",
+  "entities": [
+    {
+      "canonical_name": "Non-Small Cell Lung Cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Non-Small Cell Lung Cancer",
+      "chunk_id": "chk_c50067670b61efb1a6993e4a990d3f56"
+    },
+    {
+      "canonical_name": "Borrelia burgdorferi",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Borrelia burgdorferi",
+      "chunk_id": "chk_c50067670b61efb1a6993e4a990d3f56"
+    },
+    {
+      "canonical_name": "Plasmid Immunogenic Neoantigen Gene Vaccine Vector",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Plasmid Immunogenic Neoantigen Gene Vaccine Vector",
+      "chunk_id": "chk_c50067670b61efb1a6993e4a990d3f56"
+    },
+    {
+      "canonical_name": "Plasmid DNA Vaccine Encoding HPV Antigens",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Plasmid DNA Vaccine Encoding HPV Antigens",
+      "chunk_id": "chk_c50067670b61efb1a6993e4a990d3f56"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_c50067670b61efb1a6993e4a990d3f56"
+    },
+    {
+      "canonical_name": "PSA-targeting Poxvirus-based Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PSA-targeting Poxvirus-based Vaccine",
+      "chunk_id": "chk_c50067670b61efb1a6993e4a990d3f56"
+    },
+    {
+      "canonical_name": "Renal Cell Carcinoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Renal Cell Carcinoma",
+      "chunk_id": "chk_c50067670b61efb1a6993e4a990d3f56"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

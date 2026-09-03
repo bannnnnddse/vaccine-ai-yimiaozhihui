@@ -1,0 +1,22 @@
+{
+  "chunk_id": "28b1554e5818f8ba065a934dbc672fc3802deb5f3f3cd6683bddf6100aa45b07",
+  "content_hash": "b09fc235052a666d8313883e91ac7a9ee2ec97168e3b275c0c404856d466312d",
+  "entities": [
+    {
+      "canonical_name": "smallpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "smallpox",
+      "chunk_id": "28b1554e5818f8ba065a934dbc672fc3802deb5f3f3cd6683bddf6100aa45b07"
+    },
+    {
+      "canonical_name": "poliomyelitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "poliomyelitis",
+      "chunk_id": "28b1554e5818f8ba065a934dbc672fc3802deb5f3f3cd6683bddf6100aa45b07"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

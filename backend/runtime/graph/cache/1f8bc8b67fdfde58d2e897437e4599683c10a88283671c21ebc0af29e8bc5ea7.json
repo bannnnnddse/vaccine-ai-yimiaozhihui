@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_7a42b3229a7bf12c0513666efa3f4a01",
+  "content_hash": "4410f9e377eb40bb189f4c60d790f0e184413f6300989e7e8158e27b0a895807",
+  "entities": [
+    {
+      "canonical_name": "Hib",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hib",
+      "chunk_id": "chk_7a42b3229a7bf12c0513666efa3f4a01"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_7a42b3229a7bf12c0513666efa3f4a01"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_7a42b3229a7bf12c0513666efa3f4a01"
+    },
+    {
+      "canonical_name": "PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV",
+      "chunk_id": "chk_7a42b3229a7bf12c0513666efa3f4a01"
+    },
+    {
+      "canonical_name": "Td",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Td",
+      "chunk_id": "chk_7a42b3229a7bf12c0513666efa3f4a01"
+    },
+    {
+      "canonical_name": "Tdap",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Tdap",
+      "chunk_id": "chk_7a42b3229a7bf12c0513666efa3f4a01"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

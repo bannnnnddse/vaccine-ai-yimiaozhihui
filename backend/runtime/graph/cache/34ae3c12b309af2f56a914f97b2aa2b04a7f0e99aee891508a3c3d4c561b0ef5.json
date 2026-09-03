@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7060e6d11765f3891a87f9380a0fe94c",
+  "content_hash": "fb91ec841cfe31ee60838c9c534e18bf18ffa5a26afa4869f05368ded4729567",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_7060e6d11765f3891a87f9380a0fe94c"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_7060e6d11765f3891a87f9380a0fe94c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

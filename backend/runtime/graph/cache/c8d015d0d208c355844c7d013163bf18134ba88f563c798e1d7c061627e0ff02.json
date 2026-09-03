@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_bbe13c0320dd545623c3363c5b046e34",
+  "content_hash": "edc54fdce7e82699b3c54b4d8e4be07360b817ca239d75672fb2648041c55107",
+  "entities": [
+    {
+      "canonical_name": "EBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EBV",
+      "chunk_id": "chk_bbe13c0320dd545623c3363c5b046e34"
+    },
+    {
+      "canonical_name": "LMP1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "LMP1",
+      "chunk_id": "chk_bbe13c0320dd545623c3363c5b046e34"
+    },
+    {
+      "canonical_name": "LMP2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "LMP2",
+      "chunk_id": "chk_bbe13c0320dd545623c3363c5b046e34"
+    },
+    {
+      "canonical_name": "EBNA1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "EBNA1",
+      "chunk_id": "chk_bbe13c0320dd545623c3363c5b046e34"
+    },
+    {
+      "canonical_name": "EBV related cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "EBV related cancers",
+      "chunk_id": "chk_bbe13c0320dd545623c3363c5b046e34"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

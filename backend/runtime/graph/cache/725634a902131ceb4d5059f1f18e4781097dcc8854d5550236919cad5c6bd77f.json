@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_d6f4d93b9951f0197047ab2866e0fbfa",
+  "content_hash": "7f6b7a259a3b05f1750fcc71e05e6d996040c1a164bd038931e4eedb00ac0db5",
+  "entities": [
+    {
+      "canonical_name": "patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients",
+      "chunk_id": "chk_d6f4d93b9951f0197047ab2866e0fbfa"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

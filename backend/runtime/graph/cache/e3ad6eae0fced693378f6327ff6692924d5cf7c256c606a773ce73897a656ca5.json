@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_594f2432de7172b600ee6a0333d71c5b",
+  "content_hash": "ed70b01da6f2d0c77d3ffbb92c1a149a28ddba3bfe88b5538c08f651b6cd7573",
+  "entities": [
+    {
+      "canonical_name": "RIX4414 live attenuated human rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RIX4414 live attenuated human rotavirus vaccine",
+      "chunk_id": "chk_594f2432de7172b600ee6a0333d71c5b"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_594f2432de7172b600ee6a0333d71c5b"
+    },
+    {
+      "canonical_name": "toddlers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "toddlers",
+      "chunk_id": "chk_594f2432de7172b600ee6a0333d71c5b"
+    },
+    {
+      "canonical_name": "previously uninfected infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "previously uninfected infants",
+      "chunk_id": "chk_594f2432de7172b600ee6a0333d71c5b"
+    },
+    {
+      "canonical_name": "Rotavirus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Rotavirus vaccines",
+      "chunk_id": "chk_594f2432de7172b600ee6a0333d71c5b"
+    },
+    {
+      "canonical_name": "rotavirus diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus diarrhea",
+      "chunk_id": "chk_594f2432de7172b600ee6a0333d71c5b"
+    },
+    {
+      "canonical_name": "quadrivalent rhesus rotavirus (RRV)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent rhesus rotavirus (RRV)",
+      "chunk_id": "chk_594f2432de7172b600ee6a0333d71c5b"
+    },
+    {
+      "canonical_name": "humanRRV reassortant vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "humanRRV reassortant vaccine",
+      "chunk_id": "chk_594f2432de7172b600ee6a0333d71c5b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

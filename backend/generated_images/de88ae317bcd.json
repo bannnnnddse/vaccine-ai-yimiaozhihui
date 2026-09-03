@@ -1,0 +1,11 @@
+{
+  "job_id": "de88ae317bcd",
+  "prompt": "生成疫苗图片",
+  "brief": null,
+  "generation_route": null,
+  "image_model": null,
+  "created_at": "2026-08-08T13:31:16.101085+00:00",
+  "finished_at": "2026-08-08T13:31:20.536962+00:00",
+  "stage": "cancelled",
+  "error": null
+}

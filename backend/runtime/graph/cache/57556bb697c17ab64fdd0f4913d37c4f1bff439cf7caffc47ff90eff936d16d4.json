@@ -1,0 +1,64 @@
+{
+  "chunk_id": "51ece5e0928751b6749db9cec60b3ae81d2a1ccdbdcd2380dbfb29eaaa4dd170",
+  "content_hash": "bd78a3e505e9cff96e73af6be322bae62995cbf34ed0c7dce5223b5de832339e",
+  "entities": [
+    {
+      "canonical_name": "RBMRNA405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA405",
+      "chunk_id": "51ece5e0928751b6749db9cec60b3ae81d2a1ccdbdcd2380dbfb29eaaa4dd170"
+    },
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "51ece5e0928751b6749db9cec60b3ae81d2a1ccdbdcd2380dbfb29eaaa4dd170"
+    },
+    {
+      "canonical_name": "RBMRNA-404",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-404",
+      "chunk_id": "51ece5e0928751b6749db9cec60b3ae81d2a1ccdbdcd2380dbfb29eaaa4dd170"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "51ece5e0928751b6749db9cec60b3ae81d2a1ccdbdcd2380dbfb29eaaa4dd170"
+    },
+    {
+      "canonical_name": "VOC",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "VOC",
+      "chunk_id": "51ece5e0928751b6749db9cec60b3ae81d2a1ccdbdcd2380dbfb29eaaa4dd170"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "51ece5e0928751b6749db9cec60b3ae81d2a1ccdbdcd2380dbfb29eaaa4dd170"
+    },
+    {
+      "canonical_name": "macrophage",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "macrophage",
+      "chunk_id": "51ece5e0928751b6749db9cec60b3ae81d2a1ccdbdcd2380dbfb29eaaa4dd170"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "51ece5e0928751b6749db9cec60b3ae81d2a1ccdbdcd2380dbfb29eaaa4dd170"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_f78bb30e6803fd81cfe16aae058c699a",
+  "content_hash": "5de94c57c43657f1a72b97620d7a22e56d759046344f683fe762529390394d55",
+  "entities": [
+    {
+      "canonical_name": "leptospirosis vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "leptospirosis vaccine",
+      "chunk_id": "chk_f78bb30e6803fd81cfe16aae058c699a"
+    },
+    {
+      "canonical_name": "bleeding heat vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bleeding heat vaccine",
+      "chunk_id": "chk_f78bb30e6803fd81cfe16aae058c699a"
+    },
+    {
+      "canonical_name": "forest encephalitis vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "forest encephalitis vaccines",
+      "chunk_id": "chk_f78bb30e6803fd81cfe16aae058c699a"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "chk_f78bb30e6803fd81cfe16aae058c699a"
+    },
+    {
+      "canonical_name": "live vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live vaccines",
+      "chunk_id": "chk_f78bb30e6803fd81cfe16aae058c699a"
+    },
+    {
+      "canonical_name": "inactivated virus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated virus vaccines",
+      "chunk_id": "chk_f78bb30e6803fd81cfe16aae058c699a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_7ca5c6a5b19ff7cac6bc6808bfc3ca5b",
+  "content_hash": "c1aec1792830c4ecb7049ccde4aec1902992af51319e26320457beaaa455c698",
+  "entities": [
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_7ca5c6a5b19ff7cac6bc6808bfc3ca5b"
+    },
+    {
+      "canonical_name": "HIV/AIDS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV/AIDS",
+      "chunk_id": "chk_7ca5c6a5b19ff7cac6bc6808bfc3ca5b"
+    },
+    {
+      "canonical_name": "TB",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TB",
+      "chunk_id": "chk_7ca5c6a5b19ff7cac6bc6808bfc3ca5b"
+    },
+    {
+      "canonical_name": "malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "malaria",
+      "chunk_id": "chk_7ca5c6a5b19ff7cac6bc6808bfc3ca5b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

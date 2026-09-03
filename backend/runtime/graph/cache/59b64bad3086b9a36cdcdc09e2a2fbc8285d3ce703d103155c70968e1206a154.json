@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_800af67981ba34d308029618e886890e",
+  "content_hash": "14c837a90fa2ad8bcfacfa129798452b74c326dec77ca4e01c1d715fb473faa5",
+  "entities": [
+    {
+      "canonical_name": "HBsAg 阳性产妇所生新生儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HBsAg 阳性产妇所生新生儿",
+      "chunk_id": "chk_800af67981ba34d308029618e886890e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

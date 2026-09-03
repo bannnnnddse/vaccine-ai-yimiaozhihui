@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_3b8f88078b518629153099c76a81e9b5",
+  "content_hash": "86fcc4e8fa07f33c69707a6406070ec9f0d4670eaf6516ef5021d9c5eff49d6b",
+  "entities": [
+    {
+      "canonical_name": "Hepatitis B Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hepatitis B Virus",
+      "chunk_id": "chk_3b8f88078b518629153099c76a81e9b5"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_3b8f88078b518629153099c76a81e9b5"
+    },
+    {
+      "canonical_name": "HIV-1-Infected Patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-1-Infected Patients",
+      "chunk_id": "chk_3b8f88078b518629153099c76a81e9b5"
+    },
+    {
+      "canonical_name": "Anti-HBV Core Antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti-HBV Core Antibody",
+      "chunk_id": "chk_3b8f88078b518629153099c76a81e9b5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

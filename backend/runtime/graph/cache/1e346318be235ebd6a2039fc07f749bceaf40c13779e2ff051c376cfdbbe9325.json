@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_25447a720d229dd5a83efc918d5d5072",
+  "content_hash": "0d348973530fb4e79d9eee96d6228e3737a6fc85538102d0718ccc3d547c1673",
+  "entities": [
+    {
+      "canonical_name": "ALVAC-HIV (vCP1521) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ALVAC-HIV (vCP1521) vaccine",
+      "chunk_id": "chk_25447a720d229dd5a83efc918d5d5072"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_25447a720d229dd5a83efc918d5d5072"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

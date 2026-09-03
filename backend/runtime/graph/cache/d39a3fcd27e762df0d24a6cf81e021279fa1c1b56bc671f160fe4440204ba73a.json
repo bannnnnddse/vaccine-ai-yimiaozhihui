@@ -1,0 +1,50 @@
+{
+  "chunk_id": "95820f110fcce3d8c658db4d6158f139759ecc901d4874d38ad603f00a0b657e",
+  "content_hash": "db1fc66e6c546df1d4192dd4c1ab274cc50c51b8e2a459274e95654aba2789fa",
+  "entities": [
+    {
+      "canonical_name": "Oral vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Oral vaccines",
+      "chunk_id": "95820f110fcce3d8c658db4d6158f139759ecc901d4874d38ad603f00a0b657e"
+    },
+    {
+      "canonical_name": "cholera",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cholera",
+      "chunk_id": "95820f110fcce3d8c658db4d6158f139759ecc901d4874d38ad603f00a0b657e"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "95820f110fcce3d8c658db4d6158f139759ecc901d4874d38ad603f00a0b657e"
+    },
+    {
+      "canonical_name": "parenteral vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "parenteral vaccines",
+      "chunk_id": "95820f110fcce3d8c658db4d6158f139759ecc901d4874d38ad603f00a0b657e"
+    },
+    {
+      "canonical_name": "rabies vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rabies vaccine",
+      "chunk_id": "95820f110fcce3d8c658db4d6158f139759ecc901d4874d38ad603f00a0b657e"
+    },
+    {
+      "canonical_name": "IgA + B-cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA + B-cells",
+      "chunk_id": "95820f110fcce3d8c658db4d6158f139759ecc901d4874d38ad603f00a0b657e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_214342ade58649d02f2286eee8ecef25",
+  "content_hash": "fca96c0905a2e8ec9eb15282ac13c6893e2da414c83929891d0b070c2c341574",
+  "entities": [
+    {
+      "canonical_name": "Vaccine failure",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Vaccine failure",
+      "chunk_id": "chk_214342ade58649d02f2286eee8ecef25"
+    },
+    {
+      "canonical_name": "tick-borne encephalitis virus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "tick-borne encephalitis virus vaccines",
+      "chunk_id": "chk_214342ade58649d02f2286eee8ecef25"
+    },
+    {
+      "canonical_name": "neutralizing antibody titers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibody titers",
+      "chunk_id": "chk_214342ade58649d02f2286eee8ecef25"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_7e1f6f0a6e25d32c5d32262f942e88b0",
+  "content_hash": "73f163a61157a743ddbc2a8187a4f7a7a3c10534c1218c1098713b1f465bcec6",
+  "entities": [
+    {
+      "canonical_name": "West Nile virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "West Nile virus",
+      "chunk_id": "chk_7e1f6f0a6e25d32c5d32262f942e88b0"
+    },
+    {
+      "canonical_name": "pandemic influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pandemic influenza virus",
+      "chunk_id": "chk_7e1f6f0a6e25d32c5d32262f942e88b0"
+    },
+    {
+      "canonical_name": "Ebola virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Ebola virus",
+      "chunk_id": "chk_7e1f6f0a6e25d32c5d32262f942e88b0"
+    },
+    {
+      "canonical_name": "dengue virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "dengue virus",
+      "chunk_id": "chk_7e1f6f0a6e25d32c5d32262f942e88b0"
+    },
+    {
+      "canonical_name": "Zika virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika virus",
+      "chunk_id": "chk_7e1f6f0a6e25d32c5d32262f942e88b0"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_7e1f6f0a6e25d32c5d32262f942e88b0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

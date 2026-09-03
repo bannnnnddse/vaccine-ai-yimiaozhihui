@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_5a453a5fd353b2a01b15b75ed33c7a01",
+  "content_hash": "ab91b045e61bacc635f57a4ca32f8aab8736f2b6fb0db45fe4df8c7192ea731a",
+  "entities": [
+    {
+      "canonical_name": "Anal human papillomavirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Anal human papillomavirus infection",
+      "chunk_id": "chk_5a453a5fd353b2a01b15b75ed33c7a01"
+    },
+    {
+      "canonical_name": "neoplastic lesions",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "neoplastic lesions",
+      "chunk_id": "chk_5a453a5fd353b2a01b15b75ed33c7a01"
+    },
+    {
+      "canonical_name": "9-valent HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "9-valent HPV vaccine",
+      "chunk_id": "chk_5a453a5fd353b2a01b15b75ed33c7a01"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_a6ff8de6661fa99f4ad9573b172cc741",
+  "content_hash": "5cae9a29f8ff1c754c0c031d39d0be8b581cc8033616741af454456c61a59fab",
+  "entities": [
+    {
+      "canonical_name": "health professionals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "health professionals",
+      "chunk_id": "chk_a6ff8de6661fa99f4ad9573b172cc741"
+    },
+    {
+      "canonical_name": "HCWs",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HCWs",
+      "chunk_id": "chk_a6ff8de6661fa99f4ad9573b172cc741"
+    },
+    {
+      "canonical_name": "doctors",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "doctors",
+      "chunk_id": "chk_a6ff8de6661fa99f4ad9573b172cc741"
+    },
+    {
+      "canonical_name": "nurses",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "nurses",
+      "chunk_id": "chk_a6ff8de6661fa99f4ad9573b172cc741"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

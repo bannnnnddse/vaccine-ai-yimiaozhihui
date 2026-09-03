@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_7bc878c5f3e4b51241d0073e2c04b4c6",
+  "content_hash": "215309cf2d679d9b7dac5097377bb7f616b562c2bf71468547d3456a0862305b",
+  "entities": [
+    {
+      "canonical_name": "quadrivalent formulations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent formulations",
+      "chunk_id": "chk_7bc878c5f3e4b51241d0073e2c04b4c6"
+    },
+    {
+      "canonical_name": "group 1 H1N1 virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "group 1 H1N1 virus",
+      "chunk_id": "chk_7bc878c5f3e4b51241d0073e2c04b4c6"
+    },
+    {
+      "canonical_name": "A/Netherlands/602/2009",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "A/Netherlands/602/2009",
+      "chunk_id": "chk_7bc878c5f3e4b51241d0073e2c04b4c6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "cc5b8f15ec76e9de91735d2385568dbe6002363c952d02d63170f61b06d2edb4",
+  "content_hash": "8e086f10da3d11d9ba80ae59a3b896ee79f2b3366eb34a39710e635ca2bcd910",
+  "entities": [
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "cc5b8f15ec76e9de91735d2385568dbe6002363c952d02d63170f61b06d2edb4"
+    },
+    {
+      "canonical_name": "PCV13",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV13",
+      "chunk_id": "cc5b8f15ec76e9de91735d2385568dbe6002363c952d02d63170f61b06d2edb4"
+    },
+    {
+      "canonical_name": "pediatric vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pediatric vaccines",
+      "chunk_id": "cc5b8f15ec76e9de91735d2385568dbe6002363c952d02d63170f61b06d2edb4"
+    },
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "cc5b8f15ec76e9de91735d2385568dbe6002363c952d02d63170f61b06d2edb4"
+    },
+    {
+      "canonical_name": "toddler",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "toddler",
+      "chunk_id": "cc5b8f15ec76e9de91735d2385568dbe6002363c952d02d63170f61b06d2edb4"
+    },
+    {
+      "canonical_name": "inflammation",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "inflammation",
+      "chunk_id": "cc5b8f15ec76e9de91735d2385568dbe6002363c952d02d63170f61b06d2edb4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

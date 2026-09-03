@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_cb2243043dddc49269c344fb9fa384c1",
+  "content_hash": "646d472667a2084f8ccd4bc70f01c5e73139763fd9f81e7ff92dc523731717b8",
+  "entities": [
+    {
+      "canonical_name": "specific immunity to viral neuraminidase",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "specific immunity to viral neuraminidase",
+      "chunk_id": "chk_cb2243043dddc49269c344fb9fa384c1"
+    },
+    {
+      "canonical_name": "influenza virus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza virus infection",
+      "chunk_id": "chk_cb2243043dddc49269c344fb9fa384c1"
+    },
+    {
+      "canonical_name": "adjuvanted recombinant neuraminidase",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adjuvanted recombinant neuraminidase",
+      "chunk_id": "chk_cb2243043dddc49269c344fb9fa384c1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing"
+  ]
+}

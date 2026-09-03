@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_158759621da76ae4405b3a60aeb6cd19",
+  "content_hash": "7cbc7cfa053edb84749ecf84ba2c5ed8aeb17a6f4e53648695bdd6aa434ff589",
+  "entities": [
+    {
+      "canonical_name": "RV A",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RV A",
+      "chunk_id": "chk_158759621da76ae4405b3a60aeb6cd19"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_158759621da76ae4405b3a60aeb6cd19"
+    },
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_158759621da76ae4405b3a60aeb6cd19"
+    },
+    {
+      "canonical_name": "vomiting",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vomiting",
+      "chunk_id": "chk_158759621da76ae4405b3a60aeb6cd19"
+    },
+    {
+      "canonical_name": "convulsions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "convulsions",
+      "chunk_id": "chk_158759621da76ae4405b3a60aeb6cd19"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "827c52ec6d479952ad890a0aa5dd77bc4566b8494bf77b94b5c634f61faab35b",
+  "content_hash": "d34c5fcefd6d00158fe0ed3429fc2af4e60f5b942fa8850f1ebb57c0b91b90ce",
+  "entities": [
+    {
+      "canonical_name": "oral vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "oral vaccines",
+      "chunk_id": "827c52ec6d479952ad890a0aa5dd77bc4566b8494bf77b94b5c634f61faab35b"
+    },
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "827c52ec6d479952ad890a0aa5dd77bc4566b8494bf77b94b5c634f61faab35b"
+    },
+    {
+      "canonical_name": "Bacteroides vulgatus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bacteroides vulgatus",
+      "chunk_id": "827c52ec6d479952ad890a0aa5dd77bc4566b8494bf77b94b5c634f61faab35b"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "827c52ec6d479952ad890a0aa5dd77bc4566b8494bf77b94b5c634f61faab35b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

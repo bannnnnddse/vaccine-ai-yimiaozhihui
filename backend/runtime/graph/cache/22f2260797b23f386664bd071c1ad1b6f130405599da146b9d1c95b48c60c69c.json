@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_883e37bb675712a4985adc6d3dda977b",
+  "content_hash": "f97e2eeede7acd852b7544ae53719da104f4d43f918eaa7d181ce73428b0eaa6",
+  "entities": [
+    {
+      "canonical_name": "formaldehydeinactivated whole-virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "formaldehydeinactivated whole-virus vaccine",
+      "chunk_id": "chk_883e37bb675712a4985adc6d3dda977b"
+    },
+    {
+      "canonical_name": "coxsackievirus A10",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "coxsackievirus A10",
+      "chunk_id": "chk_883e37bb675712a4985adc6d3dda977b"
+    },
+    {
+      "canonical_name": "coxsackievirus A6",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "coxsackievirus A6",
+      "chunk_id": "chk_883e37bb675712a4985adc6d3dda977b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

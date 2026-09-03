@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_91200f13ed1afd2ff01a22e07d8bb963",
+  "content_hash": "9a370c72e2fd8d901ffe6276f73790e9dd439561068ef3c44933bf2161e2ee05",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_91200f13ed1afd2ff01a22e07d8bb963"
+    },
+    {
+      "canonical_name": "GC B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GC B cells",
+      "chunk_id": "chk_91200f13ed1afd2ff01a22e07d8bb963"
+    },
+    {
+      "canonical_name": "PCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PCs",
+      "chunk_id": "chk_91200f13ed1afd2ff01a22e07d8bb963"
+    },
+    {
+      "canonical_name": "IgG1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG1",
+      "chunk_id": "chk_91200f13ed1afd2ff01a22e07d8bb963"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

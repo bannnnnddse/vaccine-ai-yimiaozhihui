@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_b685c27455c0a922c43a1222b6f0b03e",
+  "content_hash": "bbb5b10d60f51eb04880446d713638e3927e56c3e3a78f7f63c88a33d24be988",
+  "entities": [
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_b685c27455c0a922c43a1222b6f0b03e"
+    },
+    {
+      "canonical_name": "SIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SIV",
+      "chunk_id": "chk_b685c27455c0a922c43a1222b6f0b03e"
+    },
+    {
+      "canonical_name": "effector memory T-cell vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "effector memory T-cell vaccine",
+      "chunk_id": "chk_b685c27455c0a922c43a1222b6f0b03e"
+    },
+    {
+      "canonical_name": "Interleukin-15",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Interleukin-15",
+      "chunk_id": "chk_b685c27455c0a922c43a1222b6f0b03e"
+    },
+    {
+      "canonical_name": "RhCMV/SIV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RhCMV/SIV vaccine",
+      "chunk_id": "chk_b685c27455c0a922c43a1222b6f0b03e"
+    },
+    {
+      "canonical_name": "rhesus macaques",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "rhesus macaques",
+      "chunk_id": "chk_b685c27455c0a922c43a1222b6f0b03e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

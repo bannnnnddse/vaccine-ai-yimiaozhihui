@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_a8d4b7be4903d7bec0f28eba9b77f9a0",
+  "content_hash": "4796be96284c8793b37649467b930a19b7e9285ff265bc3dfaf942b4e17f3e27",
+  "entities": [
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_a8d4b7be4903d7bec0f28eba9b77f9a0"
+    },
+    {
+      "canonical_name": "measles vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles vaccines",
+      "chunk_id": "chk_a8d4b7be4903d7bec0f28eba9b77f9a0"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_a8d4b7be4903d7bec0f28eba9b77f9a0"
+    },
+    {
+      "canonical_name": "young children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young children",
+      "chunk_id": "chk_a8d4b7be4903d7bec0f28eba9b77f9a0"
+    },
+    {
+      "canonical_name": "TB",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TB",
+      "chunk_id": "chk_a8d4b7be4903d7bec0f28eba9b77f9a0"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_a8d4b7be4903d7bec0f28eba9b77f9a0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

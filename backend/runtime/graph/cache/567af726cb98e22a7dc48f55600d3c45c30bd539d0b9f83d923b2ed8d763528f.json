@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_ddbd0019591de50c8b18c47d2ec5d19c",
+  "content_hash": "a7e7d00db30eb461d434bc2cb3b2c47af0fd228c09a3f95df1ecf31803963469",
+  "entities": [
+    {
+      "canonical_name": "individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals",
+      "chunk_id": "chk_ddbd0019591de50c8b18c47d2ec5d19c"
+    },
+    {
+      "canonical_name": "adolescence",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescence",
+      "chunk_id": "chk_ddbd0019591de50c8b18c47d2ec5d19c"
+    },
+    {
+      "canonical_name": "IMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "IMD",
+      "chunk_id": "chk_ddbd0019591de50c8b18c47d2ec5d19c"
+    },
+    {
+      "canonical_name": "meningococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "meningococcal disease",
+      "chunk_id": "chk_ddbd0019591de50c8b18c47d2ec5d19c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

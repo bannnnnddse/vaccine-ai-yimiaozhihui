@@ -1,0 +1,15 @@
+{
+  "chunk_id": "a46124daa1d1702c92237854e51f46c9fab89beaa43350238690a736b8a4da58",
+  "content_hash": "1f744fc670cc341446016f29979f8c8bfab9b643f617c3a7d0a722c90c802653",
+  "entities": [
+    {
+      "canonical_name": "第一类疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "第一类疫苗",
+      "chunk_id": "a46124daa1d1702c92237854e51f46c9fab89beaa43350238690a736b8a4da58"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

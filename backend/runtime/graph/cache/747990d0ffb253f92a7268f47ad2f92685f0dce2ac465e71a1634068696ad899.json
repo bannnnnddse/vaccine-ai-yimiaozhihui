@@ -1,0 +1,67 @@
+{
+  "chunk_id": "chk_655ea621a602f49d81732ff2a2d40b98",
+  "content_hash": "2049ba4e2664cde5cb326e4e1f28c0877856d93c9854caf3d68afd6c1329b07a",
+  "entities": [
+    {
+      "canonical_name": "Cellular immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Cellular immunity",
+      "chunk_id": "chk_655ea621a602f49d81732ff2a2d40b98"
+    },
+    {
+      "canonical_name": "coronavirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "coronavirus infection",
+      "chunk_id": "chk_655ea621a602f49d81732ff2a2d40b98"
+    },
+    {
+      "canonical_name": "recombinant protein vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant protein vaccines",
+      "chunk_id": "chk_655ea621a602f49d81732ff2a2d40b98"
+    },
+    {
+      "canonical_name": "humoral and mucosal immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral and mucosal immunity",
+      "chunk_id": "chk_655ea621a602f49d81732ff2a2d40b98"
+    },
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_655ea621a602f49d81732ff2a2d40b98"
+    },
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_655ea621a602f49d81732ff2a2d40b98"
+    },
+    {
+      "canonical_name": "systemic immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "systemic immune responses",
+      "chunk_id": "chk_655ea621a602f49d81732ff2a2d40b98"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_655ea621a602f49d81732ff2a2d40b98"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "unknown_endpoint"
+  ]
+}

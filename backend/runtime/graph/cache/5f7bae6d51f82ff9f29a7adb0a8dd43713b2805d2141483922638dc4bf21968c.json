@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_71ac110970ae68d25b4300a459a298bc",
+  "content_hash": "33a98eaba04c5c7b41110beecf9376cc9c9339aaea991cd80bca8138c0a4ba8d",
+  "entities": [
+    {
+      "canonical_name": "NVX",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "NVX",
+      "chunk_id": "chk_71ac110970ae68d25b4300a459a298bc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

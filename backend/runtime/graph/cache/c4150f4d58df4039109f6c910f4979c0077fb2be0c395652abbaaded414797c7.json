@@ -1,0 +1,68 @@
+{
+  "chunk_id": "chk_b6ad08278d603ea1f054352d8379093d",
+  "content_hash": "c780e2da2cca95ccdd72d09c49befd88c55928345170e09d98cb295351f9cad6",
+  "entities": [
+    {
+      "canonical_name": "Rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Rotavirus",
+      "chunk_id": "chk_b6ad08278d603ea1f054352d8379093d"
+    },
+    {
+      "canonical_name": "severe acute gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe acute gastroenteritis",
+      "chunk_id": "chk_b6ad08278d603ea1f054352d8379093d"
+    },
+    {
+      "canonical_name": "children under five years of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under five years of age",
+      "chunk_id": "chk_b6ad08278d603ea1f054352d8379093d"
+    },
+    {
+      "canonical_name": "type 1 diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "type 1 diabetes",
+      "chunk_id": "chk_b6ad08278d603ea1f054352d8379093d"
+    },
+    {
+      "canonical_name": "celiac disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "celiac disease",
+      "chunk_id": "chk_b6ad08278d603ea1f054352d8379093d"
+    },
+    {
+      "canonical_name": "biliary atresia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "biliary atresia",
+      "chunk_id": "chk_b6ad08278d603ea1f054352d8379093d"
+    },
+    {
+      "canonical_name": "diarrhea",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "diarrhea",
+      "chunk_id": "chk_b6ad08278d603ea1f054352d8379093d"
+    },
+    {
+      "canonical_name": "vomiting",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vomiting",
+      "chunk_id": "chk_b6ad08278d603ea1f054352d8379093d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

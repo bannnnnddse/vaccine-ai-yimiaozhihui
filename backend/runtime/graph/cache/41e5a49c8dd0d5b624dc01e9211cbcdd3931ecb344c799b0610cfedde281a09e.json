@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_64fc556830fa57b79d2b47e528b32916",
+  "content_hash": "22f6667ee2ed695a0be493e8b6f58d521c63cc7f5f80a727f4312601f7d82504",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_64fc556830fa57b79d2b47e528b32916"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_64fc556830fa57b79d2b47e528b32916"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

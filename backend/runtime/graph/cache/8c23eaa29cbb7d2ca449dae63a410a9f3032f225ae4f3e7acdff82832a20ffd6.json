@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_9ad4fa9b291f39df3df7fcb65c74bc7b",
+  "content_hash": "4390a0645e4df18986b3f019290d42d22a14b30b1bf18baee59db361fdb274a5",
+  "entities": [
+    {
+      "canonical_name": "IgG1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG1",
+      "chunk_id": "chk_9ad4fa9b291f39df3df7fcb65c74bc7b"
+    },
+    {
+      "canonical_name": "IgG2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG2",
+      "chunk_id": "chk_9ad4fa9b291f39df3df7fcb65c74bc7b"
+    },
+    {
+      "canonical_name": "haemophilus influenzae type b",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "haemophilus influenzae type b",
+      "chunk_id": "chk_9ad4fa9b291f39df3df7fcb65c74bc7b"
+    },
+    {
+      "canonical_name": "human IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human IgG",
+      "chunk_id": "chk_9ad4fa9b291f39df3df7fcb65c74bc7b"
+    },
+    {
+      "canonical_name": "IgM",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgM",
+      "chunk_id": "chk_9ad4fa9b291f39df3df7fcb65c74bc7b"
+    },
+    {
+      "canonical_name": "IgA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA",
+      "chunk_id": "chk_9ad4fa9b291f39df3df7fcb65c74bc7b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

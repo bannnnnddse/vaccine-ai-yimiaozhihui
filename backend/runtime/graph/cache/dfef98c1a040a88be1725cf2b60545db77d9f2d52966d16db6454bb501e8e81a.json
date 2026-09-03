@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_df2c66976e21223c7158c41c5aed6e42",
+  "content_hash": "8435e65c17e3989187789fa29fdbe360079df14fba745d96f603cc0a72bded00",
+  "entities": [
+    {
+      "canonical_name": "减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "减毒活疫苗",
+        "活疫苗"
+      ],
+      "surface_form": "减毒活疫苗",
+      "chunk_id": "chk_df2c66976e21223c7158c41c5aed6e42"
+    },
+    {
+      "canonical_name": "灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "灭活疫苗",
+      "chunk_id": "chk_df2c66976e21223c7158c41c5aed6e42"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

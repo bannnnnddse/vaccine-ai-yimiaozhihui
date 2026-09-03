@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_3fbc586cb907742ee2d39a6926a1bfb5",
+  "content_hash": "14e80fa2d98fb6d31364876032a1fca71d2b1d0c64d0d45a2e39627abaeb9847",
+  "entities": [
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "chk_3fbc586cb907742ee2d39a6926a1bfb5"
+    },
+    {
+      "canonical_name": "messeneger ribonucleic acid (mRNA)-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "messeneger ribonucleic acid (mRNA)-based vaccines",
+      "chunk_id": "chk_3fbc586cb907742ee2d39a6926a1bfb5"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_3fbc586cb907742ee2d39a6926a1bfb5"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_3fbc586cb907742ee2d39a6926a1bfb5"
+    },
+    {
+      "canonical_name": "certain cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "certain cancers",
+      "chunk_id": "chk_3fbc586cb907742ee2d39a6926a1bfb5"
+    },
+    {
+      "canonical_name": "Coronavirus disease 2019 (COVID-19)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Coronavirus disease 2019 (COVID-19)",
+      "chunk_id": "chk_3fbc586cb907742ee2d39a6926a1bfb5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

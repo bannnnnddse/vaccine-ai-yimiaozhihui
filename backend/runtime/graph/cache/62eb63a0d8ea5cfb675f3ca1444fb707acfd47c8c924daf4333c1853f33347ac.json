@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_28ad28117288e8fbafabcc8cb429bd8a",
+  "content_hash": "16ad87537d473a68fc149953b7ae310eeff434b2d3fc235919d1e1062e40d530",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_28ad28117288e8fbafabcc8cb429bd8a"
+    },
+    {
+      "canonical_name": "pattern recognition receptors (PRRs)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pattern recognition receptors (PRRs)",
+      "chunk_id": "chk_28ad28117288e8fbafabcc8cb429bd8a"
+    },
+    {
+      "canonical_name": "type I interferon",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "type I interferon",
+      "chunk_id": "chk_28ad28117288e8fbafabcc8cb429bd8a"
+    },
+    {
+      "canonical_name": "NF-κB signaling pathways",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NF-κB signaling pathways",
+      "chunk_id": "chk_28ad28117288e8fbafabcc8cb429bd8a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

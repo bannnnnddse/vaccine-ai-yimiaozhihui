@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_2cc53f8dd50e92db9a26ee70a0ef4518",
+  "content_hash": "6fedf60db8bc601bcf5c42305e17d03418d44f2cbbddbe717ed225717f2fca7a",
+  "entities": [
+    {
+      "canonical_name": "adverse events following immunisation (AEFI)",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events following immunisation (AEFI)",
+      "chunk_id": "chk_2cc53f8dd50e92db9a26ee70a0ef4518"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

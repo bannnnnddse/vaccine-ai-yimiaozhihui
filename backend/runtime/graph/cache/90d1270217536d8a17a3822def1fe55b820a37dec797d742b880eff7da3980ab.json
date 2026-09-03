@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_3141df74608e803ebe627471bb34e5a2",
+  "content_hash": "394b82d6938e74ad2acf31403cbf171f41e2bf9a76c8ae27f76760c6f525fc06",
+  "entities": [
+    {
+      "canonical_name": "flu",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "flu",
+      "chunk_id": "chk_3141df74608e803ebe627471bb34e5a2"
+    },
+    {
+      "canonical_name": "Vaccine AEs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Vaccine AEs",
+      "chunk_id": "chk_3141df74608e803ebe627471bb34e5a2"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "chk_3141df74608e803ebe627471bb34e5a2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

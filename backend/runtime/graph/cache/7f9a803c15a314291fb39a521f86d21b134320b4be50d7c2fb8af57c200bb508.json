@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_0795fc81dfeeb5c7d879c3dcbdf427c3",
+  "content_hash": "8d38b86dc9c495dd2d8a31b7b58441f7081edbcaba72d012d8cebffcbac510cc",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_0795fc81dfeeb5c7d879c3dcbdf427c3"
+    },
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_0795fc81dfeeb5c7d879c3dcbdf427c3"
+    },
+    {
+      "canonical_name": "Guillain-Barré syndrome",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Guillain-Barré syndrome",
+      "chunk_id": "chk_0795fc81dfeeb5c7d879c3dcbdf427c3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

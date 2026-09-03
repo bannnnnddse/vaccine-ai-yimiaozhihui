@@ -1,0 +1,52 @@
+{
+  "chunk_id": "81692a576c13fdd22be27619f64b2a3d8d4fbd5e51bebfce1c9b35d654a57614",
+  "content_hash": "28e53e36b64afc0d3faefe80c5c2658e34ebdac4d5a7ffc53dd5265507023108",
+  "entities": [
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "81692a576c13fdd22be27619f64b2a3d8d4fbd5e51bebfce1c9b35d654a57614"
+    },
+    {
+      "canonical_name": "Gn, Gc, N, and NSs DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Gn, Gc, N, and NSs DNA vaccine",
+      "chunk_id": "81692a576c13fdd22be27619f64b2a3d8d4fbd5e51bebfce1c9b35d654a57614"
+    },
+    {
+      "canonical_name": "fatality",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fatality",
+      "chunk_id": "81692a576c13fdd22be27619f64b2a3d8d4fbd5e51bebfce1c9b35d654a57614"
+    },
+    {
+      "canonical_name": "body weight loss",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "body weight loss",
+      "chunk_id": "81692a576c13fdd22be27619f64b2a3d8d4fbd5e51bebfce1c9b35d654a57614"
+    },
+    {
+      "canonical_name": "thrombocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "thrombocytopenia",
+      "chunk_id": "81692a576c13fdd22be27619f64b2a3d8d4fbd5e51bebfce1c9b35d654a57614"
+    },
+    {
+      "canonical_name": "serum viremia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serum viremia",
+      "chunk_id": "81692a576c13fdd22be27619f64b2a3d8d4fbd5e51bebfce1c9b35d654a57614"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

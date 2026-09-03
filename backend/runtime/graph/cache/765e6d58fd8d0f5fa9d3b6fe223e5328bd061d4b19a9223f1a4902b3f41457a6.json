@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_14986b724a4b7fe3b2b75607a6454945",
+  "content_hash": "f88864c7a91642f175c2694ba135d674b9688004e0b9f8e173ce0e1df7fb0892",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_14986b724a4b7fe3b2b75607a6454945"
+    },
+    {
+      "canonical_name": "prophylactic mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "prophylactic mRNA vaccines",
+      "chunk_id": "chk_14986b724a4b7fe3b2b75607a6454945"
+    },
+    {
+      "canonical_name": "nonreplicating mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nonreplicating mRNA vaccine",
+      "chunk_id": "chk_14986b724a4b7fe3b2b75607a6454945"
+    },
+    {
+      "canonical_name": "self-amplifying mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "self-amplifying mRNA vaccines",
+      "chunk_id": "chk_14986b724a4b7fe3b2b75607a6454945"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

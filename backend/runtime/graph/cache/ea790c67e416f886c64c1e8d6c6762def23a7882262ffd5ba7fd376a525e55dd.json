@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6cf9e8fed399964722e9e321a6d25454",
+  "content_hash": "26a827ac4e84c8790af838833bc3119635c64a91f6cd55d64d6f99689fb8861b",
+  "entities": [
+    {
+      "canonical_name": "general population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general population",
+      "chunk_id": "chk_6cf9e8fed399964722e9e321a6d25454"
+    },
+    {
+      "canonical_name": "vaccine-hesitant mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccine-hesitant mothers",
+      "chunk_id": "chk_6cf9e8fed399964722e9e321a6d25454"
+    },
+    {
+      "canonical_name": "mothers supporting vaccination",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mothers supporting vaccination",
+      "chunk_id": "chk_6cf9e8fed399964722e9e321a6d25454"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

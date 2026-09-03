@@ -1,0 +1,59 @@
+{
+  "chunk_id": "chk_bea88caadd1423edf1fa1b35a5d74309",
+  "content_hash": "9087b613eba3396ee9794a1478469e025e12d92eb2bcab7b96c9ed818cee92ba",
+  "entities": [
+    {
+      "canonical_name": "routine vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "routine vaccines",
+      "chunk_id": "chk_bea88caadd1423edf1fa1b35a5d74309"
+    },
+    {
+      "canonical_name": "measles vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles vaccine",
+      "chunk_id": "chk_bea88caadd1423edf1fa1b35a5d74309"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_bea88caadd1423edf1fa1b35a5d74309"
+    },
+    {
+      "canonical_name": "protective immune memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "protective immune memory",
+      "chunk_id": "chk_bea88caadd1423edf1fa1b35a5d74309"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_bea88caadd1423edf1fa1b35a5d74309"
+    },
+    {
+      "canonical_name": "pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogens",
+      "chunk_id": "chk_bea88caadd1423edf1fa1b35a5d74309"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_bea88caadd1423edf1fa1b35a5d74309"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_fc8b64142ca2db4394457bd035341f69",
+  "content_hash": "2f1e5662be667a75e0d8b97ee53d6c454978a484c576387e270597526bf20ed6",
+  "entities": [
+    {
+      "canonical_name": "GX-188E",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GX-188E",
+      "chunk_id": "chk_fc8b64142ca2db4394457bd035341f69"
+    },
+    {
+      "canonical_name": "HPV-16/18",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV-16/18",
+      "chunk_id": "chk_fc8b64142ca2db4394457bd035341f69"
+    },
+    {
+      "canonical_name": "advanced cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "advanced cervical cancer",
+      "chunk_id": "chk_fc8b64142ca2db4394457bd035341f69"
+    },
+    {
+      "canonical_name": "persistent or metastatic cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "persistent or metastatic cervical cancer",
+      "chunk_id": "chk_fc8b64142ca2db4394457bd035341f69"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

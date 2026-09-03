@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_2ebd0569b54f334878514ccd2dbf0c84",
+  "content_hash": "1530913db8c6e4ca7ff1f85815e30c0d0957413fd82942f07c1ca92963043d31",
+  "entities": [
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_2ebd0569b54f334878514ccd2dbf0c84"
+    },
+    {
+      "canonical_name": "caries",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "caries",
+      "chunk_id": "chk_2ebd0569b54f334878514ccd2dbf0c84"
+    },
+    {
+      "canonical_name": "elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly",
+      "chunk_id": "chk_2ebd0569b54f334878514ccd2dbf0c84"
+    },
+    {
+      "canonical_name": "Human papillomavirus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Human papillomavirus vaccination",
+      "chunk_id": "chk_2ebd0569b54f334878514ccd2dbf0c84"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

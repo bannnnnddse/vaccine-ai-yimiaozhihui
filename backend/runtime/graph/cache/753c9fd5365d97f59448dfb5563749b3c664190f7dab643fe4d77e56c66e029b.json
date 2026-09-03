@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_fe29df1fe5952854ab685d9f7648d811",
+  "content_hash": "b487e9c0ccd6c469ba0f494916efb5183562476facc87666b1746add03cf8169",
+  "entities": [
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_fe29df1fe5952854ab685d9f7648d811"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_fe29df1fe5952854ab685d9f7648d811"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

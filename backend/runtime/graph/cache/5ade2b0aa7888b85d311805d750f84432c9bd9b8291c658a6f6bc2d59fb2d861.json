@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_09658de6ef78a989852bffe6430ec7cb",
+  "content_hash": "ead17d2c2294c8e28909fce661370ec90a32be7112d6b8ba4645c7e9561275fd",
+  "entities": [
+    {
+      "canonical_name": "biomimetic simulated virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "biomimetic simulated virus vaccine",
+      "chunk_id": "chk_09658de6ef78a989852bffe6430ec7cb"
+    },
+    {
+      "canonical_name": "real virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "real virus",
+      "chunk_id": "chk_09658de6ef78a989852bffe6430ec7cb"
+    },
+    {
+      "canonical_name": "antigen protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen protein",
+      "chunk_id": "chk_09658de6ef78a989852bffe6430ec7cb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

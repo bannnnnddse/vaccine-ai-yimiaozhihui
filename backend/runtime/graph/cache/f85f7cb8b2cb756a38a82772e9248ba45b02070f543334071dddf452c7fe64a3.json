@@ -1,0 +1,22 @@
+{
+  "chunk_id": "f4e560fb09c92450a020d784ad8ef09ba2b9316a5476c664092a6c1e1c57c6fd",
+  "content_hash": "5ed156f36330ba68c1151f3f2257c1b7ca1c4d50e63347e9320b70cd302b46c9",
+  "entities": [
+    {
+      "canonical_name": "Tm cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Tm cells",
+      "chunk_id": "f4e560fb09c92450a020d784ad8ef09ba2b9316a5476c664092a6c1e1c57c6fd"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "f4e560fb09c92450a020d784ad8ef09ba2b9316a5476c664092a6c1e1c57c6fd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

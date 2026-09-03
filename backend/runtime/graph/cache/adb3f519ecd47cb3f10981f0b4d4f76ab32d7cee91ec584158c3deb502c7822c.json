@@ -1,0 +1,99 @@
+{
+  "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2",
+  "content_hash": "c2478e93c475b679e04ae43aa1a11882b102fbed3b38888647ab4143a1321bc1",
+  "entities": [
+    {
+      "canonical_name": "Cervical Intraepithelial Neoplasia Grades 2/3",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Cervical Intraepithelial Neoplasia Grades 2/3",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Dengue Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Dengue Virus",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Ebola Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Ebola Virus",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Glioblastoma Multiforme",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Glioblastoma Multiforme",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "GX-188E",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GX-188E",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Hepatocellular Carcinoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Hepatocellular Carcinoma",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Anti-Programmed Death-1 Antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti-Programmed Death-1 Antibody",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Cytotoxic T-Lymphocyte Antigen 4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Cytotoxic T-Lymphocyte Antigen 4",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "DNA-encoded Monoclonal Antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DNA-encoded Monoclonal Antibody",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Fragment Antigen-Binding",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fragment Antigen-Binding",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Granulocyte-Macrophage Colony-Stimulating Factor",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Granulocyte-Macrophage Colony-Stimulating Factor",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Glycoprotein B",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Glycoprotein B",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    },
+    {
+      "canonical_name": "Human Epidermal Growth Factor Receptor 2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Human Epidermal Growth Factor Receptor 2",
+      "chunk_id": "chk_6a4f941f9bf27f422e473878e8a74fd2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

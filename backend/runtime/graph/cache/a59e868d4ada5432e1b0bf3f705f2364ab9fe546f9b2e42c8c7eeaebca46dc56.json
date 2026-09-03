@@ -1,0 +1,54 @@
+{
+  "chunk_id": "a66da3594b8d8efd3ede3cb546728200d6af35103c7bd7d29ae582b75f276fda",
+  "content_hash": "a99fd0232661639d48f77553e9ea280e6d7505fa412be187d872d73ade0f45ed",
+  "entities": [
+    {
+      "canonical_name": "L350-ferritin nanoparticle vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "L350-ferritin nanoparticle vaccine",
+      "chunk_id": "a66da3594b8d8efd3ede3cb546728200d6af35103c7bd7d29ae582b75f276fda"
+    },
+    {
+      "canonical_name": "humoral response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral response",
+      "chunk_id": "a66da3594b8d8efd3ede3cb546728200d6af35103c7bd7d29ae582b75f276fda"
+    },
+    {
+      "canonical_name": "gp350D123 protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "gp350D123 protein",
+      "chunk_id": "a66da3594b8d8efd3ede3cb546728200d6af35103c7bd7d29ae582b75f276fda"
+    },
+    {
+      "canonical_name": "L350 protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "L350 protein",
+      "chunk_id": "a66da3594b8d8efd3ede3cb546728200d6af35103c7bd7d29ae582b75f276fda"
+    },
+    {
+      "canonical_name": "gp350D123 protein-specific antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "gp350D123 protein-specific antibody",
+      "chunk_id": "a66da3594b8d8efd3ede3cb546728200d6af35103c7bd7d29ae582b75f276fda"
+    },
+    {
+      "canonical_name": "L350 protein-specific antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "L350 protein-specific antibody",
+      "chunk_id": "a66da3594b8d8efd3ede3cb546728200d6af35103c7bd7d29ae582b75f276fda"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

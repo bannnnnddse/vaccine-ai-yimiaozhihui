@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_5515359d36790debdaa68abd2212f328",
+  "content_hash": "34b40148de4ea9b99faa647e61bb8cc0b8e0223eb35f3ce13aea1b08efad68d8",
+  "entities": [
+    {
+      "canonical_name": "rep RNA TB vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rep RNA TB vaccine",
+      "chunk_id": "chk_5515359d36790debdaa68abd2212f328"
+    },
+    {
+      "canonical_name": "ID91 TB vaccine candidate antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ID91 TB vaccine candidate antigens",
+      "chunk_id": "chk_5515359d36790debdaa68abd2212f328"
+    },
+    {
+      "canonical_name": "TB",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TB",
+      "chunk_id": "chk_5515359d36790debdaa68abd2212f328"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

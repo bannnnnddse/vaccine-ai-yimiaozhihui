@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_b1974a7da519cd908bb14392f4869075",
+  "content_hash": "988af53353275ad28bb1320d7b6c4fc5610b60ce6413599e52ad737c8fb87703",
+  "entities": [
+    {
+      "canonical_name": "CoviVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoviVac",
+      "chunk_id": "chk_b1974a7da519cd908bb14392f4869075"
+    },
+    {
+      "canonical_name": "ChAdOx1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1",
+      "chunk_id": "chk_b1974a7da519cd908bb14392f4869075"
+    },
+    {
+      "canonical_name": "inactivated coronavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated coronavirus vaccine",
+      "chunk_id": "chk_b1974a7da519cd908bb14392f4869075"
+    },
+    {
+      "canonical_name": "coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "coronavirus",
+      "chunk_id": "chk_b1974a7da519cd908bb14392f4869075"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

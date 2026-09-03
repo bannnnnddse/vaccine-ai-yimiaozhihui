@@ -1,0 +1,60 @@
+{
+  "chunk_id": "chk_8f78b0a9a18fca1df7691abdef78a0d3",
+  "content_hash": "0c88ae93c90c0986de58680a49cacd31fc06342df423a18bd2d5fa5ce3b113c7",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_8f78b0a9a18fca1df7691abdef78a0d3"
+    },
+    {
+      "canonical_name": "NAb titers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NAb titers",
+      "chunk_id": "chk_8f78b0a9a18fca1df7691abdef78a0d3"
+    },
+    {
+      "canonical_name": "LPS",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "LPS",
+      "chunk_id": "chk_8f78b0a9a18fca1df7691abdef78a0d3"
+    },
+    {
+      "canonical_name": "Shigella flexneri 2a",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Shigella flexneri 2a",
+      "chunk_id": "chk_8f78b0a9a18fca1df7691abdef78a0d3"
+    },
+    {
+      "canonical_name": "S. flexneri 2a",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "S. flexneri 2a",
+      "chunk_id": "chk_8f78b0a9a18fca1df7691abdef78a0d3"
+    },
+    {
+      "canonical_name": "HFRS vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HFRS vaccine",
+      "chunk_id": "chk_8f78b0a9a18fca1df7691abdef78a0d3"
+    },
+    {
+      "canonical_name": "HFRS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFRS",
+      "chunk_id": "chk_8f78b0a9a18fca1df7691abdef78a0d3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "invalid_domain_range"
+  ]
+}

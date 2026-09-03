@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_9cfe168b9a1f235733a46608f8d98197",
+  "content_hash": "8685273e0e2cfcf220d4a45e3d59f9f0c4341e942d9ac1e99b067e264a750d76",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_9cfe168b9a1f235733a46608f8d98197"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

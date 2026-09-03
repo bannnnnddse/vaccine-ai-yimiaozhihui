@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_5d37190112d3eef743c912deade92f8b",
+  "content_hash": "95399553023ab1ae5c72a42f15b73e0507c2e2ad0286e7057d986b1134e3428f",
+  "entities": [
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_5d37190112d3eef743c912deade92f8b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

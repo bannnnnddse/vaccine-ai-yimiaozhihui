@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_0bfa2899a7c59159e09207bc9ca6fc9a",
+  "content_hash": "200684295577d6c6e66b3f52a5b0383262d1776259e76e200c38c0a4f23b68d6",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccine encoding Gn and Gc",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccine encoding Gn and Gc",
+      "chunk_id": "chk_0bfa2899a7c59159e09207bc9ca6fc9a"
+    },
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "chk_0bfa2899a7c59159e09207bc9ca6fc9a"
+    },
+    {
+      "canonical_name": "aged ferrets",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "aged ferrets",
+      "chunk_id": "chk_0bfa2899a7c59159e09207bc9ca6fc9a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

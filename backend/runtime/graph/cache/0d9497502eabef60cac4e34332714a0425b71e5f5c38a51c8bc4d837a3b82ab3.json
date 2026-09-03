@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_f1ef297dd421c0fe8bb37d52c5f30d37",
+  "content_hash": "c2f98832c81baff7d50d570113343061dcd5ff4fdf853a48d893489f43699a30",
+  "entities": [
+    {
+      "canonical_name": "M types of Strep A",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "M types of Strep A",
+      "chunk_id": "chk_f1ef297dd421c0fe8bb37d52c5f30d37"
+    },
+    {
+      "canonical_name": "multivalent vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "multivalent vaccines",
+      "chunk_id": "chk_f1ef297dd421c0fe8bb37d52c5f30d37"
+    },
+    {
+      "canonical_name": "M antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "M antibodies",
+      "chunk_id": "chk_f1ef297dd421c0fe8bb37d52c5f30d37"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_f1ef297dd421c0fe8bb37d52c5f30d37"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

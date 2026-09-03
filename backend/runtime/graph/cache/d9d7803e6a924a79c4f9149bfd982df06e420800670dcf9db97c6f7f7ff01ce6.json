@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_153bf88d1bb51cf1cd4feb7cc7b96984",
+  "content_hash": "5f4e515cf2cc63c50894b6db6dad096b176612efe3df5fe82e21a4fb2800a162",
+  "entities": [
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_153bf88d1bb51cf1cd4feb7cc7b96984"
+    },
+    {
+      "canonical_name": "influenza A (H1N1) virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza A (H1N1) virus",
+      "chunk_id": "chk_153bf88d1bb51cf1cd4feb7cc7b96984"
+    },
+    {
+      "canonical_name": "H1N1 influenza",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "H1N1 influenza",
+      "chunk_id": "chk_153bf88d1bb51cf1cd4feb7cc7b96984"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_52535afe5c0a94429b0600a600e623ce",
+  "content_hash": "c74b7c5c208484e6b6c363a6ba3964b27428c8cff7d98f8ed7917a787b897252",
+  "entities": [
+    {
+      "canonical_name": "IXIARO",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IXIARO",
+      "chunk_id": "chk_52535afe5c0a94429b0600a600e623ce"
+    },
+    {
+      "canonical_name": "JE virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "JE virus",
+      "chunk_id": "chk_52535afe5c0a94429b0600a600e623ce"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

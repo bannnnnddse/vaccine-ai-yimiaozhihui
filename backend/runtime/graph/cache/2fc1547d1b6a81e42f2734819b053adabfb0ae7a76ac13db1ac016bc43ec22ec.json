@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_e178d6f5004d213a1849d7a7452099df",
+  "content_hash": "42dcda5131d94960bcfe96cbcc9eebc0345de221b1f1d6ac29f4e055f74ebb59",
+  "entities": [
+    {
+      "canonical_name": "interferon (IFN)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "interferon (IFN)",
+      "chunk_id": "chk_e178d6f5004d213a1849d7a7452099df"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

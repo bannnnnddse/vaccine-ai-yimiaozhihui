@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_b24e099b0373029a69462d618cbbfad2",
+  "content_hash": "9fbc0f533d079994ae3998ecca1075598d8b0a488a7228ef624ac553383395b0",
+  "entities": [
+    {
+      "canonical_name": "HPV DNA Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV DNA Vaccine",
+      "chunk_id": "chk_b24e099b0373029a69462d618cbbfad2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_canonical_not_surface"
+  ]
+}

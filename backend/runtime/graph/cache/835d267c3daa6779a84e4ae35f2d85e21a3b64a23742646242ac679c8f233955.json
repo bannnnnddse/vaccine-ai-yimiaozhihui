@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_f9952f968e6f57b9f7e9b6ed6d2c0c7d",
+  "content_hash": "797fcfb3930f6fcc05c5a5f75fda38fadaab260bc71b79a1efdc39e7a408f449",
+  "entities": [
+    {
+      "canonical_name": "Shingrix",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Shingrix",
+      "chunk_id": "chk_f9952f968e6f57b9f7e9b6ed6d2c0c7d"
+    },
+    {
+      "canonical_name": "FLU3",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "FLU3",
+      "chunk_id": "chk_f9952f968e6f57b9f7e9b6ed6d2c0c7d"
+    },
+    {
+      "canonical_name": "Influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza vaccine",
+      "chunk_id": "chk_f9952f968e6f57b9f7e9b6ed6d2c0c7d"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "chk_f9952f968e6f57b9f7e9b6ed6d2c0c7d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "f4dac059b4381b95c48668026d84d7fda829008dab575fa8b0149ca7935c62db",
+  "content_hash": "8b3b50b436b7a08c5699dda4cf69c0affdc6beab3fd799d84a5859cd5fd6d599",
+  "entities": [
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "f4dac059b4381b95c48668026d84d7fda829008dab575fa8b0149ca7935c62db"
+    },
+    {
+      "canonical_name": "anti-HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs",
+      "chunk_id": "f4dac059b4381b95c48668026d84d7fda829008dab575fa8b0149ca7935c62db"
+    },
+    {
+      "canonical_name": "healthy adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adults",
+      "chunk_id": "f4dac059b4381b95c48668026d84d7fda829008dab575fa8b0149ca7935c62db"
+    },
+    {
+      "canonical_name": "neonates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "neonates",
+      "chunk_id": "f4dac059b4381b95c48668026d84d7fda829008dab575fa8b0149ca7935c62db"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

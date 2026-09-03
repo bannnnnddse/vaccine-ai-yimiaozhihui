@@ -1,0 +1,81 @@
+{
+  "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72",
+  "content_hash": "77ad04d94a93ffb3213351d01a98cb3cf320f1be13309349fdfd9e84e88d6ee1",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    },
+    {
+      "canonical_name": "SARSCoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    },
+    {
+      "canonical_name": "CoronaVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoronaVac",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    },
+    {
+      "canonical_name": "neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibody",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    },
+    {
+      "canonical_name": "CD4+ and CD8+ T-cell immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4⁺ and CD8⁺ T-cell immunity",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    },
+    {
+      "canonical_name": "administration schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "administration schedules",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    },
+    {
+      "canonical_name": "Extended intervals between priming and boosting",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Extended intervals between priming and boosting",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    },
+    {
+      "canonical_name": "Hybrid immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Hybrid immunity",
+      "chunk_id": "bc4874cd71f4d5de1d52f8668082ae53d00210fb23910681307e88a67b513c72"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing"
+  ]
+}

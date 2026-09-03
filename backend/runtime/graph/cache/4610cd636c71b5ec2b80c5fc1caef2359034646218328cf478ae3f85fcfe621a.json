@@ -1,0 +1,92 @@
+{
+  "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3",
+  "content_hash": "f9f32cbae99020dc81d55b0715d7e737a80576f35827ed99fdad6e1c8d17899d",
+  "entities": [
+    {
+      "canonical_name": "Pakistani infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Pakistani infants",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "Clostridium cluster XI",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Clostridium cluster XI",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "Proteobacteria",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Proteobacteria",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "Serratia",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Serratia",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "Escherichia",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Escherichia",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "Ghanaian infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Ghanaian infants",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "Streptococcus bovis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Streptococcus bovis",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "Bacteroidetes",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bacteroidetes",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "Malawi and India infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Malawi and India infants",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "oral rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "oral rotavirus vaccine",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    },
+    {
+      "canonical_name": "UK infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "UK infants",
+      "chunk_id": "chk_b03fed9ac6d028156ca767e91ebc22f3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

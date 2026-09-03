@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b380b688a04ab15aa87d3f1acf9b7c6b",
+  "content_hash": "5433df8bb0e93f888b2007a5c680fc3c404d38f39ffcb613a9a63d7912801f32",
+  "entities": [
+    {
+      "canonical_name": "spike-specific memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "spike-specific memory B cells",
+      "chunk_id": "chk_b380b688a04ab15aa87d3f1acf9b7c6b"
+    },
+    {
+      "canonical_name": "spike-binding memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "spike-binding memory B cells",
+      "chunk_id": "chk_b380b688a04ab15aa87d3f1acf9b7c6b"
+    },
+    {
+      "canonical_name": "RBD + memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RBD + memory B cells",
+      "chunk_id": "chk_b380b688a04ab15aa87d3f1acf9b7c6b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

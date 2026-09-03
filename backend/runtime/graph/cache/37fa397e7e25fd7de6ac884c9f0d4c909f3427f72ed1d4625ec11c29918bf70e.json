@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_920f3cd09ac70185e0da8eb92242ba10",
+  "content_hash": "f205d40e9def61ccc02d4f0ca168827ac9169eb95fce189d79281f2b060955d1",
+  "entities": [
+    {
+      "canonical_name": "meningococcal serogroup C vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "meningococcal serogroup C vaccine",
+      "chunk_id": "chk_920f3cd09ac70185e0da8eb92242ba10"
+    },
+    {
+      "canonical_name": "haemophilus influenzae type b vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "haemophilus influenzae type b vaccine",
+      "chunk_id": "chk_920f3cd09ac70185e0da8eb92242ba10"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_6bc8984cc08f1b5c939b63cf6fda8f76",
+  "content_hash": "437d67b2edf9bee86e6e7a173748e3749731aea5f4407ec701ad0713809c0943",
+  "entities": [
+    {
+      "canonical_name": "Pentavalent UK-BRV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pentavalent UK-BRV",
+      "chunk_id": "chk_6bc8984cc08f1b5c939b63cf6fda8f76"
+    },
+    {
+      "canonical_name": "G1P[8], inactivated Inactivated human RV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "G1P[8], inactivated Inactivated human RV vaccine",
+      "chunk_id": "chk_6bc8984cc08f1b5c939b63cf6fda8f76"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_6bc8984cc08f1b5c939b63cf6fda8f76"
+    },
+    {
+      "canonical_name": "severe RV diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe RV diarrhea",
+      "chunk_id": "chk_6bc8984cc08f1b5c939b63cf6fda8f76"
+    },
+    {
+      "canonical_name": "trivalent P2-VP8",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "trivalent P2-VP8",
+      "chunk_id": "chk_6bc8984cc08f1b5c939b63cf6fda8f76"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

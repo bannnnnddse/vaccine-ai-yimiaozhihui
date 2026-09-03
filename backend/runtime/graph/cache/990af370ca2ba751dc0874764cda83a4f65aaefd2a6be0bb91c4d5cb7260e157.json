@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_9480bfa65f55374e087ea79e3efcf361",
+  "content_hash": "fce01317c8503876aef319ae768c79d7b4afbe9e494615e02742694002e7fa7d",
+  "entities": [
+    {
+      "canonical_name": "varicella zoster virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "varicella zoster virus",
+      "chunk_id": "chk_9480bfa65f55374e087ea79e3efcf361"
+    },
+    {
+      "canonical_name": "chickenpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chickenpox",
+      "chunk_id": "chk_9480bfa65f55374e087ea79e3efcf361"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "quote_missing"
+  ]
+}

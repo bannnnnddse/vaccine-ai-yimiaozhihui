@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_708201dad474d8aabffcbdf076303d19",
+  "content_hash": "b3111f9586edd8ec578f5ef6ba43de35ae76371b84077bd0cc349d64208e4579",
+  "entities": [
+    {
+      "canonical_name": "mRNA-LNP vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-LNP vaccines",
+      "chunk_id": "chk_708201dad474d8aabffcbdf076303d19"
+    },
+    {
+      "canonical_name": "NA monovalent formulation",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "NA monovalent formulation",
+      "chunk_id": "chk_708201dad474d8aabffcbdf076303d19"
+    },
+    {
+      "canonical_name": "prime-only regimen",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "prime-only regimen",
+      "chunk_id": "chk_708201dad474d8aabffcbdf076303d19"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_708201dad474d8aabffcbdf076303d19"
+    },
+    {
+      "canonical_name": "A/Switzerland/9715293/2013 (H3N2) virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "A/Switzerland/9715293/2013 (H3N2) virus",
+      "chunk_id": "chk_708201dad474d8aabffcbdf076303d19"
+    },
+    {
+      "canonical_name": "group 2 influenza viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "group 2 influenza viruses",
+      "chunk_id": "chk_708201dad474d8aabffcbdf076303d19"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

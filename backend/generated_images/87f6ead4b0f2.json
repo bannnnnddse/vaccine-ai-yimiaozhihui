@@ -1,0 +1,12 @@
+{
+  "job_id": "87f6ead4b0f2",
+  "prompt": "??????????",
+  "brief": null,
+  "generation_route": null,
+  "image_model": null,
+  "reference_asset": null,
+  "created_at": "2026-08-06T12:45:24.437133+00:00",
+  "finished_at": "2026-08-06T12:45:26.469925+00:00",
+  "stage": "failed",
+  "error": "ScienceImageOrganizerError"
+}

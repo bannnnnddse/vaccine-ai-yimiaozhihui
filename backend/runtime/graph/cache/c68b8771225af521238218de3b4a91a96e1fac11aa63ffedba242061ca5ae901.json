@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_1691e3002edce4aa222b8df97d18e1e5",
+  "content_hash": "a6d44f6f568201f7264d6a2da4dd0795ec4f87df247761e614eec5384c76378f",
+  "entities": [
+    {
+      "canonical_name": "Hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hepatitis B virus",
+      "chunk_id": "chk_1691e3002edce4aa222b8df97d18e1e5"
+    },
+    {
+      "canonical_name": "Viral hepatitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Viral hepatitis",
+      "chunk_id": "chk_1691e3002edce4aa222b8df97d18e1e5"
+    },
+    {
+      "canonical_name": "hepatocellular carcinoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatocellular carcinoma",
+      "chunk_id": "chk_1691e3002edce4aa222b8df97d18e1e5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

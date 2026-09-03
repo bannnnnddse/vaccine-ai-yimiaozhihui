@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_3aea3ffbfa5b97e9fd4af80a2aa0d0f8",
+  "content_hash": "d88cf0c8013fbe761eae7edc613bb8a1e8a3dd6f668f830cf9897692842ef389",
+  "entities": [
+    {
+      "canonical_name": "H10N8",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "H10N8",
+      "chunk_id": "chk_3aea3ffbfa5b97e9fd4af80a2aa0d0f8"
+    },
+    {
+      "canonical_name": "H7N9",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "H7N9",
+      "chunk_id": "chk_3aea3ffbfa5b97e9fd4af80a2aa0d0f8"
+    },
+    {
+      "canonical_name": "H10N8 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "H10N8 vaccine",
+      "chunk_id": "chk_3aea3ffbfa5b97e9fd4af80a2aa0d0f8"
+    },
+    {
+      "canonical_name": "H7N9 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "H7N9 vaccine",
+      "chunk_id": "chk_3aea3ffbfa5b97e9fd4af80a2aa0d0f8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

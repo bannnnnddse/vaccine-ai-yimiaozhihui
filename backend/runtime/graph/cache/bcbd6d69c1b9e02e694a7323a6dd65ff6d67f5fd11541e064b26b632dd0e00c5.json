@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8cbe9bfb9bcffef0344fb14d0b96c49a",
+  "content_hash": "32967be6c7bd8734e865af350987df061f2be1d159b9d52ef759f0a6073da813",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_8cbe9bfb9bcffef0344fb14d0b96c49a"
+    },
+    {
+      "canonical_name": "mRNA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mRNA",
+      "chunk_id": "chk_8cbe9bfb9bcffef0344fb14d0b96c49a"
+    },
+    {
+      "canonical_name": "Moderna vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna vaccines",
+      "chunk_id": "chk_8cbe9bfb9bcffef0344fb14d0b96c49a"
+    },
+    {
+      "canonical_name": "allergic reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "allergic reactions",
+      "chunk_id": "chk_8cbe9bfb9bcffef0344fb14d0b96c49a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

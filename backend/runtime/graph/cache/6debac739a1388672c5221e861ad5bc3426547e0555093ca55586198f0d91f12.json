@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_800f8e7279ea7ad87e247bd27245b0ea",
+  "content_hash": "fc22d5c92601030457e013f417b310c44a1c3e1b23c862a3684f9c14d750b80b",
+  "entities": [
+    {
+      "canonical_name": "RV Gastroenteritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RV Gastroenteritis",
+      "chunk_id": "chk_800f8e7279ea7ad87e247bd27245b0ea"
+    },
+    {
+      "canonical_name": "Children Older than 5 Years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Children Older than 5 Years",
+      "chunk_id": "chk_800f8e7279ea7ad87e247bd27245b0ea"
+    },
+    {
+      "canonical_name": "RotaTeq",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RotaTeq",
+      "chunk_id": "chk_800f8e7279ea7ad87e247bd27245b0ea"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

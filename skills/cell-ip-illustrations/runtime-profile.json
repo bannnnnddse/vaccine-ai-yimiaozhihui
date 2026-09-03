@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "skill_version": "2.0.0",
+  "profiles": {
+    "cell_ip_editorial": {
+      "aspect_ratio": "16:9",
+      "composition": "single_scene",
+      "max_causal_steps": 2,
+      "max_reference_images": 2,
+      "include_style_reference": true,
+      "include_role_board": true,
+      "allow_title": false,
+      "style_instruction": "浅米白或白色纸面，粗颗粒且略抖动的黑色手绘线，低饱和蓝绿黄橙紫粉撞色，平涂、少量点纹和排线，充分留白。",
+      "composition_instruction": "把不超过两个核心科学关系组织成触发、行动、可见结果清楚的横版单场景；用视线、动作方向、移动痕迹和道具状态表达因果。",
+      "prohibitions": ["标题", "3D", "商业海报", "PPT", "UI面板", "密集文字", "角色摆拍", "无关剧情"]
+    },
+    "cell_ip_scientific": {
+      "aspect_ratio": "16:9",
+      "composition": "causal_diagram",
+      "max_causal_steps": 4,
+      "max_reference_images": 2,
+      "include_style_reference": false,
+      "include_role_board": true,
+      "allow_title": true,
+      "style_instruction": "使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。",
+      "composition_instruction": "完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。",
+      "prohibitions": ["3D", "错误箭头", "未获支持的分子连接", "疗效保证", "装饰性无关角色", "密集长段文字"]
+    }
+  }
+}

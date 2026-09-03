@@ -1,0 +1,22 @@
+{
+  "chunk_id": "5da702196d53ae17e694f03dedff299cbd2850717786ff27c3af18cd7456bf3a",
+  "content_hash": "b762d15b28d16d05e5be05877e94603ec324ba084d2e28181c2f8c584add11ec",
+  "entities": [
+    {
+      "canonical_name": "flu",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "flu",
+      "chunk_id": "5da702196d53ae17e694f03dedff299cbd2850717786ff27c3af18cd7456bf3a"
+    },
+    {
+      "canonical_name": "flu vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "flu vaccination",
+      "chunk_id": "5da702196d53ae17e694f03dedff299cbd2850717786ff27c3af18cd7456bf3a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

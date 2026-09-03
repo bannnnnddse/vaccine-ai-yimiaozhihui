@@ -1,0 +1,120 @@
+{
+  "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12",
+  "content_hash": "9476c5d2c05753f0df0159f440b3c08b16cbd2f1a0676a3100829b255cca6a12",
+  "entities": [
+    {
+      "canonical_name": "hand-foot-mouth vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hand-foot-mouth vaccine",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "EV71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV71",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "hepatitis E vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis E vaccine",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "Ebola vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ebola vaccine",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "varicella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "varicella",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "meningococcal meningitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "meningococcal meningitis",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "hepatitis A",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis A",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "hepatitis E",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis E",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "rabies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rabies",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    },
+    {
+      "canonical_name": "haemophilus influenzae type b",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "haemophilus influenzae type b",
+      "chunk_id": "chk_0d060e0af496a5ff1b4b9d14e28a7a12"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

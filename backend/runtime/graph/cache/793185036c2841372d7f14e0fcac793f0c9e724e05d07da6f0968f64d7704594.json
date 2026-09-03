@@ -1,0 +1,24 @@
+{
+  "chunk_id": "82d9e92c3458c82e3e9b6edbf12fc9d661462d990ef9a9754f460a5e5cb99c2e",
+  "content_hash": "2c74f1cec4c261c3345a72ace3aa5661a595301b9e9eb914741848bededc445a",
+  "entities": [
+    {
+      "canonical_name": "RBMRNA405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA405",
+      "chunk_id": "82d9e92c3458c82e3e9b6edbf12fc9d661462d990ef9a9754f460a5e5cb99c2e"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "82d9e92c3458c82e3e9b6edbf12fc9d661462d990ef9a9754f460a5e5cb99c2e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

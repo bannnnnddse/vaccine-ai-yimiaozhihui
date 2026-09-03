@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_f9bd5ebf6c759b9706d98c59741f293a",
+  "content_hash": "cdffe6001fe6e0859ef184f8242fa3635b384d0d49a35c22ba008079560c5156",
+  "entities": [
+    {
+      "canonical_name": "HAV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HAV vaccination",
+      "chunk_id": "chk_f9bd5ebf6c759b9706d98c59741f293a"
+    },
+    {
+      "canonical_name": "CLD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CLD",
+      "chunk_id": "chk_f9bd5ebf6c759b9706d98c59741f293a"
+    },
+    {
+      "canonical_name": "pediatric and adult CLD populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pediatric and adult CLD populations",
+      "chunk_id": "chk_f9bd5ebf6c759b9706d98c59741f293a"
+    },
+    {
+      "canonical_name": "children with CLD",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children with CLD",
+      "chunk_id": "chk_f9bd5ebf6c759b9706d98c59741f293a"
+    },
+    {
+      "canonical_name": "adult ESLD patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adult ESLD patients",
+      "chunk_id": "chk_f9bd5ebf6c759b9706d98c59741f293a"
+    },
+    {
+      "canonical_name": "healthy individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy individuals",
+      "chunk_id": "chk_f9bd5ebf6c759b9706d98c59741f293a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

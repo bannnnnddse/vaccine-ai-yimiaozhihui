@@ -1,0 +1,85 @@
+{
+  "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0",
+  "content_hash": "0cb214f7350919438158c64f5499128c14bd7ed4cf05fbde6c3c637f873bcf2c",
+  "entities": [
+    {
+      "canonical_name": "RSVpreF",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSVpreF",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "unsolicited adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "unsolicited adverse events",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "mRNA-1345",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1345",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "treatmentemergent adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "treatmentemergent adverse events",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "RSVPreF3 OA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSVPreF3 OA",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "serious adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serious adverse events",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    },
+    {
+      "canonical_name": "RSV-related LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related LRTD",
+      "chunk_id": "chk_bb72eb6208741684fed5787e19c4c8f0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

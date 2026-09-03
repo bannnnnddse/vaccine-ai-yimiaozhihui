@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_ac99a3b7874e98d083cab364fef0a54c",
+  "content_hash": "78dee2b0920d7919bcc37361693b2235b0db8ba27560a2348c60f2552e076ba7",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_ac99a3b7874e98d083cab364fef0a54c"
+    },
+    {
+      "canonical_name": "Kidney disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Kidney disease",
+      "chunk_id": "chk_ac99a3b7874e98d083cab364fef0a54c"
+    },
+    {
+      "canonical_name": "Liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Liver disease",
+      "chunk_id": "chk_ac99a3b7874e98d083cab364fef0a54c"
+    },
+    {
+      "canonical_name": "Immunocompromised",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Immunocompromised",
+      "chunk_id": "chk_ac99a3b7874e98d083cab364fef0a54c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

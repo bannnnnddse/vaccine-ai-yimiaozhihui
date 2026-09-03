@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_2228629decaa4a61922233cce6aad173",
+  "content_hash": "a0184c1256bf463b0fd8211e3e87320c4e8ff9b0fe460648c06cedc6ceca18fb",
+  "entities": [
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_2228629decaa4a61922233cce6aad173"
+    },
+    {
+      "canonical_name": "炭疽疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "炭疽疫苗",
+      "chunk_id": "chk_2228629decaa4a61922233cce6aad173"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

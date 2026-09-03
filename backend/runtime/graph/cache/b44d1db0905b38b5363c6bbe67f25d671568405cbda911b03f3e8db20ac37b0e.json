@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_1b59f61a252c013d0b519911df2b4f12",
+  "content_hash": "f6e13887cd49aa6dbb6ded64d711ad54233bb9dc4bc4474b91bd149b52d30f63",
+  "entities": [
+    {
+      "canonical_name": "children <5 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children <5 years",
+      "chunk_id": "chk_1b59f61a252c013d0b519911df2b4f12"
+    },
+    {
+      "canonical_name": "young infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young infants",
+      "chunk_id": "chk_1b59f61a252c013d0b519911df2b4f12"
+    },
+    {
+      "canonical_name": "MCV1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MCV1",
+      "chunk_id": "chk_1b59f61a252c013d0b519911df2b4f12"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

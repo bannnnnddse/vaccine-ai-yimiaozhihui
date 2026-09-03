@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_0738f613883f35c0d361cee4825e0986",
+  "content_hash": "d68ac5eaab99b3abe6863cdaca1505719461f1fc7190601f94e22d07097891cb",
+  "entities": [
+    {
+      "canonical_name": "influenza virus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza virus vaccines",
+      "chunk_id": "chk_0738f613883f35c0d361cee4825e0986"
+    },
+    {
+      "canonical_name": "influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus",
+      "chunk_id": "chk_0738f613883f35c0d361cee4825e0986"
+    },
+    {
+      "canonical_name": "H3N2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "H3N2",
+      "chunk_id": "chk_0738f613883f35c0d361cee4825e0986"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

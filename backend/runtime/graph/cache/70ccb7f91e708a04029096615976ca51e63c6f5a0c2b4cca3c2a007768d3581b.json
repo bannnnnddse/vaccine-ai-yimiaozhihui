@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_5be2bd184e95c5b56a20e834f6a7ce6d",
+  "content_hash": "f5354cb32484b9fa31a031dc53b5d83eb8ea57336e56e11a153e6b2ae22172f3",
+  "entities": [
+    {
+      "canonical_name": "group C disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "group C disease",
+      "chunk_id": "chk_5be2bd184e95c5b56a20e834f6a7ce6d"
+    },
+    {
+      "canonical_name": "meningococcal group B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "meningococcal group B",
+      "chunk_id": "chk_5be2bd184e95c5b56a20e834f6a7ce6d"
+    },
+    {
+      "canonical_name": "capsule polysaccharide",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "capsule polysaccharide",
+      "chunk_id": "chk_5be2bd184e95c5b56a20e834f6a7ce6d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

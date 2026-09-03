@@ -1,0 +1,36 @@
+{
+  "chunk_id": "5f20c8fb0ca43cb6448f3e18194287f2c9cc786d799ebc757c1f9d74c81313a1",
+  "content_hash": "8ec592ad92364447d49dc529fff3244972e426ff5ca8d73eeed1d2e2e1dface0",
+  "entities": [
+    {
+      "canonical_name": "novel coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "novel coronavirus",
+      "chunk_id": "5f20c8fb0ca43cb6448f3e18194287f2c9cc786d799ebc757c1f9d74c81313a1"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "5f20c8fb0ca43cb6448f3e18194287f2c9cc786d799ebc757c1f9d74c81313a1"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 vaccine",
+      "chunk_id": "5f20c8fb0ca43cb6448f3e18194287f2c9cc786d799ebc757c1f9d74c81313a1"
+    },
+    {
+      "canonical_name": "COVID-19 mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 mRNA vaccines",
+      "chunk_id": "5f20c8fb0ca43cb6448f3e18194287f2c9cc786d799ebc757c1f9d74c81313a1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

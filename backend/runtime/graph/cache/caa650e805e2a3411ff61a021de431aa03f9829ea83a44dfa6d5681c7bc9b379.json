@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_492a5f22c5d792cda5b967dd7242c59d",
+  "content_hash": "0b1cb32a5c961d14b040b244f5a4c31a6f2cb372ac3729711738bccca149b23a",
+  "entities": [
+    {
+      "canonical_name": "H1N1 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "H1N1 vaccine",
+      "chunk_id": "chk_492a5f22c5d792cda5b967dd7242c59d"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_492a5f22c5d792cda5b967dd7242c59d"
+    },
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_492a5f22c5d792cda5b967dd7242c59d"
+    },
+    {
+      "canonical_name": "young adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young adults",
+      "chunk_id": "chk_492a5f22c5d792cda5b967dd7242c59d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

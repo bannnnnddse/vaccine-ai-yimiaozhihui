@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_05b581b9dcb3f23878b6b58cfbd2fc3e",
+  "content_hash": "ef8d6c4b1065dd033f878ab5a06d4e78fc684f99b216b29bd962f5f2f565f8a9",
+  "entities": [
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_05b581b9dcb3f23878b6b58cfbd2fc3e"
+    },
+    {
+      "canonical_name": "diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diarrhea",
+      "chunk_id": "chk_05b581b9dcb3f23878b6b58cfbd2fc3e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

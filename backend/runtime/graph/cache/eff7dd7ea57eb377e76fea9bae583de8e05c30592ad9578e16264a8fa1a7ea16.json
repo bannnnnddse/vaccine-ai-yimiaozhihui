@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_6ebe2c8a3d1cd06a3ce4ab90f8b26fb5",
+  "content_hash": "46528cd1e782880b0486e734845486aec22b642438822e285bb103a937282b68",
+  "entities": [
+    {
+      "canonical_name": "E. coli",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "E. coli",
+      "chunk_id": "chk_6ebe2c8a3d1cd06a3ce4ab90f8b26fb5"
+    },
+    {
+      "canonical_name": "Pam3CSK4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Pam3CSK4",
+      "chunk_id": "chk_6ebe2c8a3d1cd06a3ce4ab90f8b26fb5"
+    },
+    {
+      "canonical_name": "IgA+ B-cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA⁺ B-cells",
+      "chunk_id": "chk_6ebe2c8a3d1cd06a3ce4ab90f8b26fb5"
+    },
+    {
+      "canonical_name": "CD11b",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD11b",
+      "chunk_id": "chk_6ebe2c8a3d1cd06a3ce4ab90f8b26fb5"
+    },
+    {
+      "canonical_name": "B-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B-cell",
+      "chunk_id": "chk_6ebe2c8a3d1cd06a3ce4ab90f8b26fb5"
+    },
+    {
+      "canonical_name": "IgA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgA",
+      "chunk_id": "chk_6ebe2c8a3d1cd06a3ce4ab90f8b26fb5"
+    },
+    {
+      "canonical_name": "NOD2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NOD2",
+      "chunk_id": "chk_6ebe2c8a3d1cd06a3ce4ab90f8b26fb5"
+    },
+    {
+      "canonical_name": "Bifidobacterium species",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium species",
+      "chunk_id": "chk_6ebe2c8a3d1cd06a3ce4ab90f8b26fb5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

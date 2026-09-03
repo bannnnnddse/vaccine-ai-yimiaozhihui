@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_76e7097d9aaf5b00c04d32015a477c03",
+  "content_hash": "eb3d53e2c0c8a8193ceff803107b13c0321807d37686bde362f222a9411cc22f",
+  "entities": [
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_76e7097d9aaf5b00c04d32015a477c03"
+    },
+    {
+      "canonical_name": "diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diseases",
+      "chunk_id": "chk_76e7097d9aaf5b00c04d32015a477c03"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_dd8ff99fd380c4348dad66e20ceab9ff",
+  "content_hash": "a7e0ac12f3f32277677a24776dd8c8c0f189fb1ab53b469ffd9f806b39db2273",
+  "entities": [
+    {
+      "canonical_name": "measles–mumps–rubella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles–mumps–rubella vaccine",
+      "chunk_id": "chk_dd8ff99fd380c4348dad66e20ceab9ff"
+    },
+    {
+      "canonical_name": "varicella zos -ter vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella zos -ter vaccine",
+      "chunk_id": "chk_dd8ff99fd380c4348dad66e20ceab9ff"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

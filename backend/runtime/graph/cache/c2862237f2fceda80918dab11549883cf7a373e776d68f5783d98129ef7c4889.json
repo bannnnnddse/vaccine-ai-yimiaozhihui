@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_715205f7e660048ddc0b6d28fda42d83",
+  "content_hash": "686b1e5ec7af48eae3fcbce032716b7f0acd8cdda70717c37a262307e0683578",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_715205f7e660048ddc0b6d28fda42d83"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

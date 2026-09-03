@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f28b78c3ab3d933ed37b5de53006eeb3",
+  "content_hash": "8950989a20f9ad78a92277bf2e857f33537b72f51d75a09eb08ca47f560ae947",
+  "entities": [
+    {
+      "canonical_name": "Nigerians",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Nigerians",
+      "chunk_id": "chk_f28b78c3ab3d933ed37b5de53006eeb3"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_f28b78c3ab3d933ed37b5de53006eeb3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

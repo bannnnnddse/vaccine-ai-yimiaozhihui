@@ -1,0 +1,60 @@
+{
+  "chunk_id": "chk_43bb8ea02034fd3fc7b0a70e94133bf9",
+  "content_hash": "2ac153a8e39b546e608021a12fa621a5bb467cb799ccf9f316920b8d1051e3b7",
+  "entities": [
+    {
+      "canonical_name": "Pseudomonas aeruginosa",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Pseudomonas aeruginosa",
+      "chunk_id": "chk_43bb8ea02034fd3fc7b0a70e94133bf9"
+    },
+    {
+      "canonical_name": "pneumonia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumonia",
+      "chunk_id": "chk_43bb8ea02034fd3fc7b0a70e94133bf9"
+    },
+    {
+      "canonical_name": "Borrelia burgdorferi",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Borrelia burgdorferi",
+      "chunk_id": "chk_43bb8ea02034fd3fc7b0a70e94133bf9"
+    },
+    {
+      "canonical_name": "Lyme disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Lyme disease",
+      "chunk_id": "chk_43bb8ea02034fd3fc7b0a70e94133bf9"
+    },
+    {
+      "canonical_name": "DMAbs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DMAbs",
+      "chunk_id": "chk_43bb8ea02034fd3fc7b0a70e94133bf9"
+    },
+    {
+      "canonical_name": "DNA-encoded antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DNA-encoded antibody",
+      "chunk_id": "chk_43bb8ea02034fd3fc7b0a70e94133bf9"
+    },
+    {
+      "canonical_name": "DMAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DMAb",
+      "chunk_id": "chk_43bb8ea02034fd3fc7b0a70e94133bf9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

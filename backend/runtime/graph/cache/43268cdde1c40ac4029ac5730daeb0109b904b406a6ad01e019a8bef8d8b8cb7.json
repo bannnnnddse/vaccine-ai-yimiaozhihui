@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_52e40859c57a30ab91adee15e2c754ac",
+  "content_hash": "6fcf1db26840d6947a6addaf1318b87ca938561b803aae17692f427ba54c14b6",
+  "entities": [
+    {
+      "canonical_name": "self-amplifying RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "self-amplifying RNA vaccines",
+      "chunk_id": "chk_52e40859c57a30ab91adee15e2c754ac"
+    },
+    {
+      "canonical_name": "RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA vaccines",
+      "chunk_id": "chk_52e40859c57a30ab91adee15e2c754ac"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_52e40859c57a30ab91adee15e2c754ac"
+    },
+    {
+      "canonical_name": "mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccine",
+      "chunk_id": "chk_52e40859c57a30ab91adee15e2c754ac"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

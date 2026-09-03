@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_9aca2654e0951d002ab7c04a57b43b27",
+  "content_hash": "e291baf1a3fab7b62c5cb5db77426b9c7fb9393e7a85f86345f0ae81c0de6e39",
+  "entities": [
+    {
+      "canonical_name": "heat-killed Streptococcus pneumoniae",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "heat-killed Streptococcus pneumoniae",
+      "chunk_id": "chk_9aca2654e0951d002ab7c04a57b43b27"
+    },
+    {
+      "canonical_name": "IgM-secreting B-cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgM-secreting B-cells",
+      "chunk_id": "chk_9aca2654e0951d002ab7c04a57b43b27"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_9aca2654e0951d002ab7c04a57b43b27"
+    },
+    {
+      "canonical_name": "XX mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "XX mice",
+      "chunk_id": "chk_9aca2654e0951d002ab7c04a57b43b27"
+    },
+    {
+      "canonical_name": "XY mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "XY mice",
+      "chunk_id": "chk_9aca2654e0951d002ab7c04a57b43b27"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

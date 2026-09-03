@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_9a7d84ec897a46937d3ee7b5b017970e",
+  "content_hash": "5258a186ef79ae8151f8d829c165cdc54a42d1ceabeef9f76b020daf23a8fcbf",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_9a7d84ec897a46937d3ee7b5b017970e"
+    },
+    {
+      "canonical_name": "health care workers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "health care workers",
+      "chunk_id": "chk_9a7d84ec897a46937d3ee7b5b017970e"
+    },
+    {
+      "canonical_name": "Hepatitis B surface antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Hepatitis B surface antigen",
+      "chunk_id": "chk_9a7d84ec897a46937d3ee7b5b017970e"
+    },
+    {
+      "canonical_name": "T and B cell memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T and B cell memory",
+      "chunk_id": "chk_9a7d84ec897a46937d3ee7b5b017970e"
+    },
+    {
+      "canonical_name": "protective antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "protective antibodies",
+      "chunk_id": "chk_9a7d84ec897a46937d3ee7b5b017970e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

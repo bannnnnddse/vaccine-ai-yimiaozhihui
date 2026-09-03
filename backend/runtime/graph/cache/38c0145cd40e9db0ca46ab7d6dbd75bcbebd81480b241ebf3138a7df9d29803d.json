@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_02b7ebebae63e19773510ac8c0bb8656",
+  "content_hash": "7f897903cf5f0527592f8031f533ba4112b336d7a911759ae9c774a3a9bb6b00",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_02b7ebebae63e19773510ac8c0bb8656"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 variants of concern",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 variants of concern",
+      "chunk_id": "chk_02b7ebebae63e19773510ac8c0bb8656"
+    },
+    {
+      "canonical_name": "humoral and T-cell responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral and T-cell responses",
+      "chunk_id": "chk_02b7ebebae63e19773510ac8c0bb8656"
+    },
+    {
+      "canonical_name": "spikecentric monovalent vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "spikecentric monovalent vaccines",
+      "chunk_id": "chk_02b7ebebae63e19773510ac8c0bb8656"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

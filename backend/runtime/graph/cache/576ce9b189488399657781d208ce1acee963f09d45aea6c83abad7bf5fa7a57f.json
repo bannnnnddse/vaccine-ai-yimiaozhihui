@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_5929b4b0a47d8388603e8f2468287540",
+  "content_hash": "431c54541ef77b3bde098ee1df75971293f48d5b10f13df2643314cad039ebba",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccination",
+      "chunk_id": "chk_5929b4b0a47d8388603e8f2468287540"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_5929b4b0a47d8388603e8f2468287540"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_5929b4b0a47d8388603e8f2468287540"
+    },
+    {
+      "canonical_name": "death",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "death",
+      "chunk_id": "chk_5929b4b0a47d8388603e8f2468287540"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

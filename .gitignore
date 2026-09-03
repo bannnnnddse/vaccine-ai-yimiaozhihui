@@ -1,0 +1,31 @@
+# Local environment and secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python virtualenvs
+.venv/
+.venv-graph/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# OS metadata
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Agent / worktree state
+.worktrees/
+.superpowers/
+.playwright-mcp/

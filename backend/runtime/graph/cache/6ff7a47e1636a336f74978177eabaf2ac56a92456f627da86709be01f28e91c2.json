@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2591997b947d65321216b50cc80327e8",
+  "content_hash": "1d150dcaeb5d85428b94f44bbbca023687dce51426c2d0246f3eede75057be4b",
+  "entities": [
+    {
+      "canonical_name": "Pfizer -BioNTech COVID -19 Vac ‐ cine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pfizer -BioNTech COVID -19 Vac ‑ cine",
+      "chunk_id": "chk_2591997b947d65321216b50cc80327e8"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_2591997b947d65321216b50cc80327e8"
+    },
+    {
+      "canonical_name": "multiple sclerosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "multiple sclerosis",
+      "chunk_id": "chk_2591997b947d65321216b50cc80327e8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

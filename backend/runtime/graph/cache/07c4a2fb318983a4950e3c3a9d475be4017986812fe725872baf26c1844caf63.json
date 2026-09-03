@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_db8136d3a66fce1473df76f86ca0f369",
+  "content_hash": "e94870b0b3b887488f67415d9aa9416ee655f226cc320e1c7f62a6b4c63923e7",
+  "entities": [
+    {
+      "canonical_name": "EV71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV71",
+      "chunk_id": "chk_db8136d3a66fce1473df76f86ca0f369"
+    },
+    {
+      "canonical_name": "EV71 疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71 疫苗",
+      "chunk_id": "chk_db8136d3a66fce1473df76f86ca0f369"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

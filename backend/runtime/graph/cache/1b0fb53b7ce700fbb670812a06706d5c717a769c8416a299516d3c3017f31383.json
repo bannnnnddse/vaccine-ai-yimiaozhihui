@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_0802976bab69e58606c35e734ef1617b",
+  "content_hash": "b7accb4134513786805eb68f664af1dcb9f4229469456f3b75a8e58e7118167f",
+  "entities": [
+    {
+      "canonical_name": "ZyCoV-D",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ZyCoV-D",
+      "chunk_id": "chk_0802976bab69e58606c35e734ef1617b"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_0802976bab69e58606c35e734ef1617b"
+    },
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_0802976bab69e58606c35e734ef1617b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

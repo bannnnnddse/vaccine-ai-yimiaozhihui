@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_4505373e6d531ae1e5c337d3f54b93e6",
+  "content_hash": "0aee1d378f287d1696ba94ef8ac8f97e8b1606947ab188ca345697481f95333a",
+  "entities": [
+    {
+      "canonical_name": "herpes zoster",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "herpes zoster",
+      "chunk_id": "chk_4505373e6d531ae1e5c337d3f54b93e6"
+    },
+    {
+      "canonical_name": "postherpetic neuralgia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "postherpetic neuralgia",
+      "chunk_id": "chk_4505373e6d531ae1e5c337d3f54b93e6"
+    },
+    {
+      "canonical_name": "zoster vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "zoster vaccine",
+      "chunk_id": "chk_4505373e6d531ae1e5c337d3f54b93e6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

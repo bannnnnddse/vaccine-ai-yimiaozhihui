@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_662b7ab84ab6cd38fbbf87b1a9e8cf70",
+  "content_hash": "fc5bf1f1547fe3132fa38b21625ef6010883af80ba51d8ec5c4be1e36fb2e864",
+  "entities": [
+    {
+      "canonical_name": "Infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Infants",
+      "chunk_id": "chk_662b7ab84ab6cd38fbbf87b1a9e8cf70"
+    },
+    {
+      "canonical_name": "Respiratory Syncytial Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus",
+      "chunk_id": "chk_662b7ab84ab6cd38fbbf87b1a9e8cf70"
+    },
+    {
+      "canonical_name": "Bronchiolitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Bronchiolitis",
+      "chunk_id": "chk_662b7ab84ab6cd38fbbf87b1a9e8cf70"
+    },
+    {
+      "canonical_name": "Respiratory Failure",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Respiratory Failure",
+      "chunk_id": "chk_662b7ab84ab6cd38fbbf87b1a9e8cf70"
+    },
+    {
+      "canonical_name": "IFN Responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN Responses",
+      "chunk_id": "chk_662b7ab84ab6cd38fbbf87b1a9e8cf70"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

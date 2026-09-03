@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_a9ec7aeb272499a59468ecf327f2f20a",
+  "content_hash": "c31202a3e301c693c357eace0a9901df9412f67a23a279501b84b6096c60365a",
+  "entities": [
+    {
+      "canonical_name": "HER-2 mimotope anticancer vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HER-2 mimotope anticancer vaccine",
+      "chunk_id": "chk_a9ec7aeb272499a59468ecf327f2f20a"
+    },
+    {
+      "canonical_name": "Plant viral nanoparticles-based HER2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Plant viral nanoparticles-based HER2 vaccine",
+      "chunk_id": "chk_a9ec7aeb272499a59468ecf327f2f20a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

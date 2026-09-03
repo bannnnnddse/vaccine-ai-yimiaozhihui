@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_7085aba6402920d21017308f720ec8a4",
+  "content_hash": "37efddabc679b83f9ff2d50184a840244f8176c8eb50226a82d940c259077270",
+  "entities": [
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_7085aba6402920d21017308f720ec8a4"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 B.1.351",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 B.1.351",
+      "chunk_id": "chk_7085aba6402920d21017308f720ec8a4"
+    },
+    {
+      "canonical_name": "nonhuman primates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "nonhuman primates",
+      "chunk_id": "chk_7085aba6402920d21017308f720ec8a4"
+    },
+    {
+      "canonical_name": "moderna and pfizerBioNTech COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "moderna and pfizerBioNTech COVID-19 vaccines",
+      "chunk_id": "chk_7085aba6402920d21017308f720ec8a4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

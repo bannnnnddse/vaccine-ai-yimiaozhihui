@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8bf57a6a485d258841822d69a92853f7",
+  "content_hash": "ba3d660bce3d11d290d83f37bc9cbac9f5df7ff8a8c5b9c7c1e7162dcd2c9081",
+  "entities": [
+    {
+      "canonical_name": "WOKVAC",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "WOKVAC",
+      "chunk_id": "chk_8bf57a6a485d258841822d69a92853f7"
+    },
+    {
+      "canonical_name": "breast cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "breast cancer",
+      "chunk_id": "chk_8bf57a6a485d258841822d69a92853f7"
+    },
+    {
+      "canonical_name": "HER2-positive breast cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HER2-positive breast cancer",
+      "chunk_id": "chk_8bf57a6a485d258841822d69a92853f7"
+    },
+    {
+      "canonical_name": "T-bet + CD4 + and CD8 + tumor-infiltrating lymphocytes (TILs)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-bet + CD4 + and CD8 + tumor-infiltrating lymphocytes (TILs)",
+      "chunk_id": "chk_8bf57a6a485d258841822d69a92853f7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

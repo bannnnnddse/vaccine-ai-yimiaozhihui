@@ -1,0 +1,61 @@
+{
+  "chunk_id": "b1efa5bc1c6541b3bdad8eba72ddb28bd689603311b86da3c4b3dc35e4d0b8ba",
+  "content_hash": "dc0cf027b4666a70fc477e4a4a3f08a19f70e30a0bb212c070087a05a1012b18",
+  "entities": [
+    {
+      "canonical_name": "epilepsy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "epilepsy",
+      "chunk_id": "b1efa5bc1c6541b3bdad8eba72ddb28bd689603311b86da3c4b3dc35e4d0b8ba"
+    },
+    {
+      "canonical_name": "asthma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "asthma",
+      "chunk_id": "b1efa5bc1c6541b3bdad8eba72ddb28bd689603311b86da3c4b3dc35e4d0b8ba"
+    },
+    {
+      "canonical_name": "chronic kidney disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic kidney disease",
+      "chunk_id": "b1efa5bc1c6541b3bdad8eba72ddb28bd689603311b86da3c4b3dc35e4d0b8ba"
+    },
+    {
+      "canonical_name": "Seizure",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Seizure",
+      "chunk_id": "b1efa5bc1c6541b3bdad8eba72ddb28bd689603311b86da3c4b3dc35e4d0b8ba"
+    },
+    {
+      "canonical_name": "MMRV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV",
+      "chunk_id": "b1efa5bc1c6541b3bdad8eba72ddb28bd689603311b86da3c4b3dc35e4d0b8ba"
+    },
+    {
+      "canonical_name": "Children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Children",
+      "chunk_id": "b1efa5bc1c6541b3bdad8eba72ddb28bd689603311b86da3c4b3dc35e4d0b8ba"
+    },
+    {
+      "canonical_name": "febrile seizures",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "febrile seizures",
+      "chunk_id": "b1efa5bc1c6541b3bdad8eba72ddb28bd689603311b86da3c4b3dc35e4d0b8ba"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

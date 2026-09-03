@@ -1,0 +1,41 @@
+{
+  "job_id": "05d790deca7c",
+  "prompt": "?????????????",
+  "brief": {
+    "image_type": "science_poster",
+    "generation_route": "fast",
+    "optimized_chinese_prompt": "生成一张9:16竖版公共卫生科普海报。画面顶部为醒目的简体中文大标题“传染病防控三部曲”。画面主体分为上中下三个垂直区域，依次展示：1. 上方区域显示病毒颗粒被口罩物理阻挡的示意图；2. 中间区域显示肥皂分子破坏病毒脂质包膜的过程；3. 下方区域显示人群保持社交距离的空间布局。整体风格简洁、扁平化矢量插画，色彩清晰，所有文字标签均为简体中文，确保高可读性。",
+    "chinese_labels": [
+      "佩戴口罩",
+      "阻断飞沫",
+      "勤洗手",
+      "破坏包膜",
+      "社交距离",
+      "降低传播风险"
+    ],
+    "scientific_claims": [
+      "口罩可有效阻挡含病原体的飞沫传播",
+      "肥皂能破坏许多病毒的脂质包膜使其失活",
+      "保持社交距离可减少近距离接触传播机会",
+      "综合防护措施能显著降低感染概率"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "物理屏障阻挡含有病原体的飞沫进入呼吸道"
+      },
+      {
+        "primary_relation": "表面活性剂破坏病毒脂质包膜导致病毒结构解体"
+      },
+      {
+        "primary_relation": "增加人际空间距离减少易感者与传染源的接触频率"
+      }
+    ],
+    "route_reason": "主题主要为并列的公共卫生行为建议，不涉及复杂的跨层级分子机制依赖，适合快速生成。"
+  },
+  "generation_route": "fast",
+  "image_model": "wan2.7-image-pro",
+  "created_at": "2026-08-06T15:08:56.442629+00:00",
+  "finished_at": "2026-08-06T15:10:34.158040+00:00",
+  "stage": "failed",
+  "error": "Wan task 2efb253d-8e23-4b timed out while polling"
+}

@@ -1,0 +1,155 @@
+{
+  "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae",
+  "content_hash": "6d1333d415abfaaf7021ab989c93f7312f31e4b6a37b870f2ddc2b89ab91811f",
+  "entities": [
+    {
+      "canonical_name": "D25",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "D25",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "MEDI8897",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MEDI8897",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "Nirsevimab",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Nirsevimab",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "Palivizumab",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Palivizumab",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "motavizumab",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "motavizumab",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "MEDI - 557",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MEDI - 557",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "Suptavumab",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Suptavumab",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "REGN-2222",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "REGN-2222",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "RB1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RB1",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "MK - 1654",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MK - 1654",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "MPE8",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MPE8",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "ALX - 0171",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ALX - 0171",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "F - VHH - 4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "F - VHH - 4",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "F - VHH - L66",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "F - VHH - L66",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "3G3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "3G3",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "131 - 2G",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "131 - 2G",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "5H6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "5H6",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "3A5",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "3A5",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "RSV pre-F protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RSV pre-F protein",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "RSV F protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RSV F protein",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    },
+    {
+      "canonical_name": "CCR of the RSV G protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CCR of the RSV G protein",
+      "chunk_id": "chk_b08d1b94e9409181f7fe5595f93a3dae"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

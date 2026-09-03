@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_1c38888426102fd986609edec6d26f79",
+  "content_hash": "3c23c6f61fbed54515ba5b99185ccf4803250ce9a1f4faf89939ba1b614e7134",
+  "entities": [
+    {
+      "canonical_name": "Vector-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vector-based vaccines",
+      "chunk_id": "chk_1c38888426102fd986609edec6d26f79"
+    },
+    {
+      "canonical_name": "recombinant viral vector vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant viral vector vaccine",
+      "chunk_id": "chk_1c38888426102fd986609edec6d26f79"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 surface proteins",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 surface proteins",
+      "chunk_id": "chk_1c38888426102fd986609edec6d26f79"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_1c38888426102fd986609edec6d26f79"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_265fcc00a0e5bb68dc8df0d54fe9ea45",
+  "content_hash": "6af009c958854fa30283c920c3b7849df87e1ba5695b85ab162b1a123b9e3d8c",
+  "entities": [
+    {
+      "canonical_name": "百日咳-白喉-破伤风联合疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "百日咳-白喉-破伤风联合疫苗",
+      "chunk_id": "chk_265fcc00a0e5bb68dc8df0d54fe9ea45"
+    },
+    {
+      "canonical_name": "脊灰疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "脊灰疫苗",
+      "chunk_id": "chk_265fcc00a0e5bb68dc8df0d54fe9ea45"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

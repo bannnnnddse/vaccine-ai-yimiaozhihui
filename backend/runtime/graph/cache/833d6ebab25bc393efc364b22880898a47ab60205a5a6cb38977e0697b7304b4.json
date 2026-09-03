@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_dae16fb2cf8619bc1bca6b0367017867",
+  "content_hash": "29790a2609b14f3873823b97915f351056ba80186d77d657304bf7e77396688d",
+  "entities": [
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_dae16fb2cf8619bc1bca6b0367017867"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_dae16fb2cf8619bc1bca6b0367017867"
+    },
+    {
+      "canonical_name": "Ad26.COV2.S",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad26.COV2.S",
+      "chunk_id": "chk_dae16fb2cf8619bc1bca6b0367017867"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_dae16fb2cf8619bc1bca6b0367017867"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

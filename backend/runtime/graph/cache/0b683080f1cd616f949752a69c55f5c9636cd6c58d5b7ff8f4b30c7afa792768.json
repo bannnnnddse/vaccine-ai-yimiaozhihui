@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_6ac3d2c25f0cfb57224704308942a796",
+  "content_hash": "489407dd33214a8d8f9da70d05d88af588c72088c8cb1ad2ef4ff6a486edd942",
+  "entities": [
+    {
+      "canonical_name": "百白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "百白破疫苗",
+      "chunk_id": "chk_6ac3d2c25f0cfb57224704308942a796"
+    },
+    {
+      "canonical_name": "免疫程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "免疫程序",
+      "chunk_id": "chk_6ac3d2c25f0cfb57224704308942a796"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

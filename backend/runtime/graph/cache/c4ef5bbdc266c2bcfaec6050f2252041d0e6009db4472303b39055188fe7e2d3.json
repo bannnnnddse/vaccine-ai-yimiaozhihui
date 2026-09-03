@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_7a28d68883055d4879d9af28e0e261bf",
+  "content_hash": "5bc6e7cc8a4fc5f61a81bc1db538b2f2b21ce74726b7a318315c869e554f28d2",
+  "entities": [
+    {
+      "canonical_name": "Deoxyribonucleic acid (DNA) vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Deoxyribonucleic acid (DNA) vaccines",
+      "chunk_id": "chk_7a28d68883055d4879d9af28e0e261bf"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_7a28d68883055d4879d9af28e0e261bf"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_7a28d68883055d4879d9af28e0e261bf"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_7a28d68883055d4879d9af28e0e261bf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

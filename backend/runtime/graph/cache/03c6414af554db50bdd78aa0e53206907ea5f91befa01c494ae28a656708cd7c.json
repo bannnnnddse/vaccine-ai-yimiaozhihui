@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c9e90ed79c03afd8a9cbadcb0709a18f",
+  "content_hash": "c04140914e7fb4880ddb00c582b11d7fc6f8417a9f870784f23f45d2334faad8",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_c9e90ed79c03afd8a9cbadcb0709a18f"
+    },
+    {
+      "canonical_name": "Cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Cancer",
+      "chunk_id": "chk_c9e90ed79c03afd8a9cbadcb0709a18f"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_c9e90ed79c03afd8a9cbadcb0709a18f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

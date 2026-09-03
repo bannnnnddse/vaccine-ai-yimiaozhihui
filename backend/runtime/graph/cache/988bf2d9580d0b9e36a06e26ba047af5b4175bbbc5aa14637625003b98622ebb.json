@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_9eeea3a0f6edcdab4ba1a68a4f08e9e2",
+  "content_hash": "4c606038adead18873bda534731153d4612ef3ac86f6b827f746193c1252570a",
+  "entities": [
+    {
+      "canonical_name": "smallpox vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "smallpox vaccine",
+      "chunk_id": "chk_9eeea3a0f6edcdab4ba1a68a4f08e9e2"
+    },
+    {
+      "canonical_name": "yellow fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "yellow fever",
+      "chunk_id": "chk_9eeea3a0f6edcdab4ba1a68a4f08e9e2"
+    },
+    {
+      "canonical_name": "smallpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "smallpox",
+      "chunk_id": "chk_9eeea3a0f6edcdab4ba1a68a4f08e9e2"
+    },
+    {
+      "canonical_name": "nonliving vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nonliving vaccines",
+      "chunk_id": "chk_9eeea3a0f6edcdab4ba1a68a4f08e9e2"
+    },
+    {
+      "canonical_name": "cellular immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cellular immunity",
+      "chunk_id": "chk_9eeea3a0f6edcdab4ba1a68a4f08e9e2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

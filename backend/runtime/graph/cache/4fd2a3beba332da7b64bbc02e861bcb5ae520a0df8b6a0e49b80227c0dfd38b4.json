@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_d8c19f76d22463468677dc97dcfcd80e",
+  "content_hash": "901b25bc2e88a4abcd345cc2a4e951d432ba2f9915687db871e7bc3483cb546f",
+  "entities": [
+    {
+      "canonical_name": "糖尿病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "糖尿病",
+      "chunk_id": "chk_d8c19f76d22463468677dc97dcfcd80e"
+    },
+    {
+      "canonical_name": "恶性肿瘤计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "恶性肿瘤计",
+      "chunk_id": "chk_d8c19f76d22463468677dc97dcfcd80e"
+    },
+    {
+      "canonical_name": "传染病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "传染病计",
+      "chunk_id": "chk_d8c19f76d22463468677dc97dcfcd80e"
+    },
+    {
+      "canonical_name": "寄生虫病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "寄生虫病计",
+      "chunk_id": "chk_d8c19f76d22463468677dc97dcfcd80e"
+    },
+    {
+      "canonical_name": "良性肿瘤计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "良性肿瘤计",
+      "chunk_id": "chk_d8c19f76d22463468677dc97dcfcd80e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

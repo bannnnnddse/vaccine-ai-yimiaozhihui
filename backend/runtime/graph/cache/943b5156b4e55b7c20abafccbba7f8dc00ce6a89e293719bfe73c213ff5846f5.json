@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_1d0f521ba7c698dd8690d5adfb145163",
+  "content_hash": "d608aefb4e1e63caebb9f28a0bc23830472e39bd7afb7541ffbd793cc91e8736",
+  "entities": [
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_1d0f521ba7c698dd8690d5adfb145163"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

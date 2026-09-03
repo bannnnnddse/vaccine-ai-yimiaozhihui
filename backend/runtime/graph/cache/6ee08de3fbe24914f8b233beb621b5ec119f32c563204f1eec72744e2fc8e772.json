@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_01b21a9f833011017288e6820a895140",
+  "content_hash": "431cf0e88d24599fc20d6a36da3c28bdff5b674fcc0a8c6faba200e820d230e4",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_01b21a9f833011017288e6820a895140"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_01b21a9f833011017288e6820a895140"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

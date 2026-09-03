@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_d2ec1d4bb3f913e445540aa3c0095fa7",
+  "content_hash": "3eebd1c3e222b3fc9d3fa073af3107653c2a4e27610e66f16422f61e4872435b",
+  "entities": [
+    {
+      "canonical_name": "adverse pregnancy outcome",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse pregnancy outcome",
+      "chunk_id": "chk_d2ec1d4bb3f913e445540aa3c0095fa7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

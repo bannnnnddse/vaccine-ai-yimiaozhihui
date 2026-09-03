@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_f977eb710fa6c49f1101d05992bad71f",
+  "content_hash": "98bab460a2614d333a4e387c1a0c733f15e1384389e7c663a7039b98d74f4e13",
+  "entities": [
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_f977eb710fa6c49f1101d05992bad71f"
+    },
+    {
+      "canonical_name": "febrile convulsions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "febrile convulsions",
+      "chunk_id": "chk_f977eb710fa6c49f1101d05992bad71f"
+    },
+    {
+      "canonical_name": "seasonal influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "seasonal influenza vaccines",
+      "chunk_id": "chk_f977eb710fa6c49f1101d05992bad71f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

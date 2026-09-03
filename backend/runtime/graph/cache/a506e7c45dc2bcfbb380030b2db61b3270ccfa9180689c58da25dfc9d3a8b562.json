@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_fb1ef5d0f3c8b871c23ecdf7f8b20da3",
+  "content_hash": "fd7321a7183efac1c78ce6bf03893070cc4229fbb3aad125f95965da58f25146",
+  "entities": [
+    {
+      "canonical_name": "Bacterial membrane vesicle",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Bacterial membrane vesicle",
+      "chunk_id": "chk_fb1ef5d0f3c8b871c23ecdf7f8b20da3"
+    },
+    {
+      "canonical_name": "Bacterial outer membrane vesicles",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Bacterial outer membrane vesicles",
+      "chunk_id": "chk_fb1ef5d0f3c8b871c23ecdf7f8b20da3"
+    },
+    {
+      "canonical_name": "Bacteroides thetaiotaomicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bacteroides thetaiotaomicron",
+      "chunk_id": "chk_fb1ef5d0f3c8b871c23ecdf7f8b20da3"
+    },
+    {
+      "canonical_name": "inflammatory bowel disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "inflammatory bowel disease",
+      "chunk_id": "chk_fb1ef5d0f3c8b871c23ecdf7f8b20da3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

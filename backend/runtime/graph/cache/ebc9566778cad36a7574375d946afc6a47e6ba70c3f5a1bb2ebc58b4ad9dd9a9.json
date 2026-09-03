@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_d5f0b8d3a2881045211a7c5e93dd8339",
+  "content_hash": "581b902af2f2ddd83e197026d8105b17b5509acf3c574707755f3c332fc98711",
+  "entities": [
+    {
+      "canonical_name": "RV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV vaccine",
+      "chunk_id": "chk_d5f0b8d3a2881045211a7c5e93dd8339"
+    },
+    {
+      "canonical_name": "preterm infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "preterm infants",
+      "chunk_id": "chk_d5f0b8d3a2881045211a7c5e93dd8339"
+    },
+    {
+      "canonical_name": "adverse events (AEs)",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events (AEs)",
+      "chunk_id": "chk_d5f0b8d3a2881045211a7c5e93dd8339"
+    },
+    {
+      "canonical_name": "term infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "term infants",
+      "chunk_id": "chk_d5f0b8d3a2881045211a7c5e93dd8339"
+    },
+    {
+      "canonical_name": "standard schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "standard schedules",
+      "chunk_id": "chk_d5f0b8d3a2881045211a7c5e93dd8339"
+    },
+    {
+      "canonical_name": "RV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV vaccines",
+      "chunk_id": "chk_d5f0b8d3a2881045211a7c5e93dd8339"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

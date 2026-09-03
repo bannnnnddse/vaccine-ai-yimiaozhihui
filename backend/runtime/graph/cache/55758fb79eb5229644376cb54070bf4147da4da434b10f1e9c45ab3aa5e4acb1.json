@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e3e979651245f8d9e42cad6a61574405",
+  "content_hash": "4703897ae22904f08736aaeeefc039a58e388499023981a3a06e22e574ad9dc1",
+  "entities": [
+    {
+      "canonical_name": "generally healthy subjects",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "generally healthy subjects",
+      "chunk_id": "chk_e3e979651245f8d9e42cad6a61574405"
+    },
+    {
+      "canonical_name": "primary vaccination course",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "primary vaccination course",
+      "chunk_id": "chk_e3e979651245f8d9e42cad6a61574405"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

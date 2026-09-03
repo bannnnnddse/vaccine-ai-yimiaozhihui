@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_9fe0f8bfa84117a73a34ee6c83a210e2",
+  "content_hash": "8a280533eb7a3c0f5fc2c6f9f32da24ff43c3e60aa24387300ae35702471c2ea",
+  "entities": [
+    {
+      "canonical_name": "childhood vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "childhood vaccination",
+      "chunk_id": "chk_9fe0f8bfa84117a73a34ee6c83a210e2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_ff76150625ea3a69e28aa8ecdb9f73c2",
+  "content_hash": "11582e08a00bb0115b73bfe88148b608189d2115665a693159f56b4be7d5035d",
+  "entities": [
+    {
+      "canonical_name": "influenza-specific antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "influenza-specific antibodies",
+      "chunk_id": "chk_ff76150625ea3a69e28aa8ecdb9f73c2"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_ff76150625ea3a69e28aa8ecdb9f73c2"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_ff76150625ea3a69e28aa8ecdb9f73c2"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_ff76150625ea3a69e28aa8ecdb9f73c2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

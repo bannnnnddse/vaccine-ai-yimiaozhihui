@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_61117ba1476dd90bb56893a443b10044",
+  "content_hash": "f44570768c01ce90ec3c579c6b0dd9ca647c1257399e5ada875f4705f0bb31ac",
+  "entities": [
+    {
+      "canonical_name": "Epstein-Barr Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Epstein-Barr Virus",
+      "chunk_id": "chk_61117ba1476dd90bb56893a443b10044"
+    },
+    {
+      "canonical_name": "Carcinomas",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Carcinomas",
+      "chunk_id": "chk_61117ba1476dd90bb56893a443b10044"
+    },
+    {
+      "canonical_name": "Nasopharyngeal Carcinoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Nasopharyngeal Carcinoma",
+      "chunk_id": "chk_61117ba1476dd90bb56893a443b10044"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

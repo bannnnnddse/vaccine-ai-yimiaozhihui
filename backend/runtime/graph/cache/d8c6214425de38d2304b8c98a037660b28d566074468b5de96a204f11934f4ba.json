@@ -1,0 +1,50 @@
+{
+  "chunk_id": "6624c5b1d986dce4658544d2b87e27c2201b0d1bec341fc2e9460a3876ec2974",
+  "content_hash": "6bcb0d656519ea44c74a85187bccad47770795fa8f1ac2e08345684f26f093f4",
+  "entities": [
+    {
+      "canonical_name": "Omicron live virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron live virus",
+      "chunk_id": "6624c5b1d986dce4658544d2b87e27c2201b0d1bec341fc2e9460a3876ec2974"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 variant",
+      "chunk_id": "6624c5b1d986dce4658544d2b87e27c2201b0d1bec341fc2e9460a3876ec2974"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "6624c5b1d986dce4658544d2b87e27c2201b0d1bec341fc2e9460a3876ec2974"
+    },
+    {
+      "canonical_name": "Delta variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Delta variant",
+      "chunk_id": "6624c5b1d986dce4658544d2b87e27c2201b0d1bec341fc2e9460a3876ec2974"
+    },
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "6624c5b1d986dce4658544d2b87e27c2201b0d1bec341fc2e9460a3876ec2974"
+    },
+    {
+      "canonical_name": "RBMRNA-404",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-404",
+      "chunk_id": "6624c5b1d986dce4658544d2b87e27c2201b0d1bec341fc2e9460a3876ec2974"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

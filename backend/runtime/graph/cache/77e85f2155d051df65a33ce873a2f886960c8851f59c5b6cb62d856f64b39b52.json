@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c68f3cfe83056d00b70a4982c2cc38bf",
+  "content_hash": "df020b3aeacd7af797985575c14d47d67ea4fc4c6bd7628b993ef6a286a3fa78",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_c68f3cfe83056d00b70a4982c2cc38bf"
+    },
+    {
+      "canonical_name": "lineage B betacoronaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "lineage B betacoronaviruses",
+      "chunk_id": "chk_c68f3cfe83056d00b70a4982c2cc38bf"
+    },
+    {
+      "canonical_name": "acute respiratory syndrome coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "acute respiratory syndrome coronavirus",
+      "chunk_id": "chk_c68f3cfe83056d00b70a4982c2cc38bf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

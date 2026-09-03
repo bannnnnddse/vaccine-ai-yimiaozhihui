@@ -1,0 +1,67 @@
+{
+  "chunk_id": "chk_783e5e55f7c694d5e48af5e13b23634e",
+  "content_hash": "58d617cf7e511ed4cf4cf1b615f38ea8260a988702f1dd7a506004a8fd50fdb9",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccine",
+      "chunk_id": "chk_783e5e55f7c694d5e48af5e13b23634e"
+    },
+    {
+      "canonical_name": "pregnancy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pregnancy",
+      "chunk_id": "chk_783e5e55f7c694d5e48af5e13b23634e"
+    },
+    {
+      "canonical_name": "Flu vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Flu vaccination",
+      "chunk_id": "chk_783e5e55f7c694d5e48af5e13b23634e"
+    },
+    {
+      "canonical_name": "Adolescent from 10 - 18 years old on Medicaid",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adolescent from 10 - 18 years old on Medicaid",
+      "chunk_id": "chk_783e5e55f7c694d5e48af5e13b23634e"
+    },
+    {
+      "canonical_name": "Pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Pregnant women",
+      "chunk_id": "chk_783e5e55f7c694d5e48af5e13b23634e"
+    },
+    {
+      "canonical_name": "COPD patients of 40 - of 40-80 years old, taking > 5 medica ‐ tions or > 12 doses per day",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "COPD patients of 40 - of 40-80 years old, taking > 5 medica ‑ tions or > 12 doses per day",
+      "chunk_id": "chk_783e5e55f7c694d5e48af5e13b23634e"
+    },
+    {
+      "canonical_name": "Human papilloma virus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Human papilloma virus",
+      "chunk_id": "chk_783e5e55f7c694d5e48af5e13b23634e"
+    },
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_783e5e55f7c694d5e48af5e13b23634e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

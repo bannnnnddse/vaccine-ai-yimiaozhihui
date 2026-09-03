@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_578967ef744b12546e7184c875035fbe",
+  "content_hash": "2af525f70d2bc39ed4326df5450b22e5807412a98380437437d30ec801ff2865",
+  "entities": [
+    {
+      "canonical_name": "yellow fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "yellow fever",
+      "chunk_id": "chk_578967ef744b12546e7184c875035fbe"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_578967ef744b12546e7184c875035fbe"
+    },
+    {
+      "canonical_name": "measles containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles containing vaccine",
+      "chunk_id": "chk_578967ef744b12546e7184c875035fbe"
+    },
+    {
+      "canonical_name": "varicella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "varicella",
+      "chunk_id": "chk_578967ef744b12546e7184c875035fbe"
+    },
+    {
+      "canonical_name": "varicella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella vaccine",
+      "chunk_id": "chk_578967ef744b12546e7184c875035fbe"
+    },
+    {
+      "canonical_name": "healthy children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy children",
+      "chunk_id": "chk_578967ef744b12546e7184c875035fbe"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

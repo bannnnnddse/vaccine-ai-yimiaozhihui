@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_7292fe44524d70a585252ab3cad9140f",
+  "content_hash": "a4763bf9a43e3e75ec3979e625f8410911c7df7f24066800598cbe23937223ca",
+  "entities": [
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_7292fe44524d70a585252ab3cad9140f"
+    },
+    {
+      "canonical_name": "PCV13",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV13",
+      "chunk_id": "chk_7292fe44524d70a585252ab3cad9140f"
+    },
+    {
+      "canonical_name": "AEs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEs",
+      "chunk_id": "chk_7292fe44524d70a585252ab3cad9140f"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_7292fe44524d70a585252ab3cad9140f"
+    },
+    {
+      "canonical_name": "rotavirus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccines",
+      "chunk_id": "chk_7292fe44524d70a585252ab3cad9140f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

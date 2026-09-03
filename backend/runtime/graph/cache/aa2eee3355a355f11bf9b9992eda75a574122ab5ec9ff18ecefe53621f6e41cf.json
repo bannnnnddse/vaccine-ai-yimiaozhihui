@@ -1,0 +1,54 @@
+{
+  "chunk_id": "chk_5ff025cd33101b11ac018864b8e72713",
+  "content_hash": "7f06a52c55e7dae1df5cb325e7fb52de1811477bbeff019b609a5a898de6bf42",
+  "entities": [
+    {
+      "canonical_name": "measles–mumps–rubella vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles–mumps–rubella vaccination",
+      "chunk_id": "chk_5ff025cd33101b11ac018864b8e72713"
+    },
+    {
+      "canonical_name": "12-month-old infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "12-month-old infants",
+      "chunk_id": "chk_5ff025cd33101b11ac018864b8e72713"
+    },
+    {
+      "canonical_name": "viraemia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "viraemia",
+      "chunk_id": "chk_5ff025cd33101b11ac018864b8e72713"
+    },
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_5ff025cd33101b11ac018864b8e72713"
+    },
+    {
+      "canonical_name": "rash",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "rash",
+      "chunk_id": "chk_5ff025cd33101b11ac018864b8e72713"
+    },
+    {
+      "canonical_name": "febrile convulsions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "febrile convulsions",
+      "chunk_id": "chk_5ff025cd33101b11ac018864b8e72713"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "quote_missing",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

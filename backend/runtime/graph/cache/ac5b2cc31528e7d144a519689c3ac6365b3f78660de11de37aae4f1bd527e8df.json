@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_4ed1c751e7ac77381f4d37911e058b8e",
+  "content_hash": "ab680fac61f8856e16631416666a1797e2105b6fdec9d0e717232bf59d616f06",
+  "entities": [
+    {
+      "canonical_name": "RV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV vaccine",
+      "chunk_id": "chk_4ed1c751e7ac77381f4d37911e058b8e"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_4ed1c751e7ac77381f4d37911e058b8e"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_4ed1c751e7ac77381f4d37911e058b8e"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_4ed1c751e7ac77381f4d37911e058b8e"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_4ed1c751e7ac77381f4d37911e058b8e"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b",
+      "chunk_id": "chk_4ed1c751e7ac77381f4d37911e058b8e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

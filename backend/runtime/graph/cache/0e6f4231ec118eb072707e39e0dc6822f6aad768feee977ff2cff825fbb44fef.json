@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_3997f6b2a8195914a0590f6124b3e3b2",
+  "content_hash": "ce24bd407cc666ad4a43e13c5720172becc270342bc131020cd3467fe9114857",
+  "entities": [
+    {
+      "canonical_name": "BNT162 Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162 Vaccines",
+      "chunk_id": "chk_3997f6b2a8195914a0590f6124b3e3b2"
+    },
+    {
+      "canonical_name": "COVID-2019",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-2019",
+      "chunk_id": "chk_3997f6b2a8195914a0590f6124b3e3b2"
+    },
+    {
+      "canonical_name": "Healthy Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Healthy Adults",
+      "chunk_id": "chk_3997f6b2a8195914a0590f6124b3e3b2"
+    },
+    {
+      "canonical_name": "aCOVID-19 RNA Vaccine Candidate (BNT162b1)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "aCOVID-19 RNA Vaccine Candidate (BNT162b1)",
+      "chunk_id": "chk_3997f6b2a8195914a0590f6124b3e3b2"
+    },
+    {
+      "canonical_name": "Adults 18 to 55 Years of Age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adults 18 to 55 Years of Age",
+      "chunk_id": "chk_3997f6b2a8195914a0590f6124b3e3b2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

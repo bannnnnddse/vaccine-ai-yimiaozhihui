@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f5df8b68e6bff060d41f328b22c05314",
+  "content_hash": "a77c56a6a318ad0a0100282c02eac24e914319d3a07dc3fa483bdb2687c2c83b",
+  "entities": [
+    {
+      "canonical_name": "zika vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "zika vaccine",
+      "chunk_id": "chk_f5df8b68e6bff060d41f328b22c05314"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_f5df8b68e6bff060d41f328b22c05314"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

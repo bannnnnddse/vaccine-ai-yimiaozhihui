@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_be7d6eedc3d243467ed995a4cc5dfc4f",
+  "content_hash": "380621f8f647078870065420425f9177ccb50c47be4d758c81901ec928daf17c",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccinations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccinations",
+      "chunk_id": "chk_be7d6eedc3d243467ed995a4cc5dfc4f"
+    },
+    {
+      "canonical_name": "Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adults",
+      "chunk_id": "chk_be7d6eedc3d243467ed995a4cc5dfc4f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

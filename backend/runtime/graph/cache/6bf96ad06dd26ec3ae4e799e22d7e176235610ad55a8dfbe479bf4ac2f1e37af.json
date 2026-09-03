@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_fe633bba6db3c5f84db5a67f83892c17",
+  "content_hash": "37f4e203968231c88592ed2127d0a89a6ea917adaec7e05f1f4f90f0e2a9076a",
+  "entities": [
+    {
+      "canonical_name": "Adjuvants",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Adjuvants",
+      "chunk_id": "chk_fe633bba6db3c5f84db5a67f83892c17"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_fe633bba6db3c5f84db5a67f83892c17"
+    },
+    {
+      "canonical_name": "monophosphoryl lipid A (MPL) adjuvant",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monophosphoryl lipid A (MPL) adjuvant",
+      "chunk_id": "chk_fe633bba6db3c5f84db5a67f83892c17"
+    },
+    {
+      "canonical_name": "Th1 cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th1 cells",
+      "chunk_id": "chk_fe633bba6db3c5f84db5a67f83892c17"
+    },
+    {
+      "canonical_name": "intracellular pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "intracellular pathogens",
+      "chunk_id": "chk_fe633bba6db3c5f84db5a67f83892c17"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

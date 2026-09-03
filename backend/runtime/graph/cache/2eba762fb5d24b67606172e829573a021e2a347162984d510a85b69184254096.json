@@ -1,0 +1,62 @@
+{
+  "chunk_id": "chk_5f652e26e8e9e7a1cc2a05665ace5a6f",
+  "content_hash": "497d262380aa3ec5a9411fb954b69ae41c608892d6bf72e18be0fdd0d587644d",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_5f652e26e8e9e7a1cc2a05665ace5a6f"
+    },
+    {
+      "canonical_name": "falls",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "falls",
+      "chunk_id": "chk_5f652e26e8e9e7a1cc2a05665ace5a6f"
+    },
+    {
+      "canonical_name": "fractures",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fractures",
+      "chunk_id": "chk_5f652e26e8e9e7a1cc2a05665ace5a6f"
+    },
+    {
+      "canonical_name": "hip fracture",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "hip fracture",
+      "chunk_id": "chk_5f652e26e8e9e7a1cc2a05665ace5a6f"
+    },
+    {
+      "canonical_name": "mobility impairments",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "mobility impairments",
+      "chunk_id": "chk_5f652e26e8e9e7a1cc2a05665ace5a6f"
+    },
+    {
+      "canonical_name": "long-stay and nursing home residents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "long-stay and nursing home residents",
+      "chunk_id": "chk_5f652e26e8e9e7a1cc2a05665ace5a6f"
+    },
+    {
+      "canonical_name": "influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccination",
+      "chunk_id": "chk_5f652e26e8e9e7a1cc2a05665ace5a6f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

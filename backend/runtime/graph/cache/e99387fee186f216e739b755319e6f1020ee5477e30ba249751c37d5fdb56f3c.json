@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_6e1e459fdc12c4fc5240d2ea916e49a4",
+  "content_hash": "9ab191427183f28d75668d12ee2921f8be7df5a0165ea3c66b1eeab0e417a021",
+  "entities": [
+    {
+      "canonical_name": "inactivated middle East respiratory syndrome coronavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated middle East respiratory syndrome coronavirus vaccine",
+      "chunk_id": "chk_6e1e459fdc12c4fc5240d2ea916e49a4"
+    },
+    {
+      "canonical_name": "lung immunopathology",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "lung immunopathology",
+      "chunk_id": "chk_6e1e459fdc12c4fc5240d2ea916e49a4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

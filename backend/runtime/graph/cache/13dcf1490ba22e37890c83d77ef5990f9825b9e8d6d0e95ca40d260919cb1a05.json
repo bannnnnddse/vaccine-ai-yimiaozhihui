@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d52d9c5229d6dbfab8589d28d037dfd7",
+  "content_hash": "824c278f3fca7cbba7bf8cf5eae9a8405c88f614510979bcdd444e2040ec1be3",
+  "entities": [
+    {
+      "canonical_name": "autism",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autism",
+      "chunk_id": "chk_d52d9c5229d6dbfab8589d28d037dfd7"
+    },
+    {
+      "canonical_name": "whole-cell pertussis vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "whole-cell pertussis vaccines",
+      "chunk_id": "chk_d52d9c5229d6dbfab8589d28d037dfd7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

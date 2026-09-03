@@ -1,0 +1,36 @@
+{
+  "chunk_id": "f91e7acac857e3de677ec3dbdbb7077e85a2d811ad44ade23b40a428ee06078b",
+  "content_hash": "e593a926bd514c55600e0114275092e25facd421041521de88202ea96cdf5540",
+  "entities": [
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "f91e7acac857e3de677ec3dbdbb7077e85a2d811ad44ade23b40a428ee06078b"
+    },
+    {
+      "canonical_name": "nAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "nAb",
+      "chunk_id": "f91e7acac857e3de677ec3dbdbb7077e85a2d811ad44ade23b40a428ee06078b"
+    },
+    {
+      "canonical_name": "participants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "participants",
+      "chunk_id": "f91e7acac857e3de677ec3dbdbb7077e85a2d811ad44ade23b40a428ee06078b"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "f91e7acac857e3de677ec3dbdbb7077e85a2d811ad44ade23b40a428ee06078b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,55 @@
+{
+  "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d",
+  "content_hash": "1ec02af3f1cfd0ab239b48cef4b92b47ce1b7e805756b50425173d7ab592a305",
+  "entities": [
+    {
+      "canonical_name": "肠道病毒 71 型",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "肠道病毒 71 型",
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+    },
+    {
+      "canonical_name": "手足口病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "手足口病",
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+    },
+    {
+      "canonical_name": "EV71 疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71 疫苗",
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "EV71 疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "EV71 疫苗",
+        "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+      },
+      "target": {
+        "canonical_name": "肠道病毒 71 型",
+        "entity_type": "Pathogen",
+        "aliases": [],
+        "surface_form": "肠道病毒 71 型",
+        "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "为指导临床医生 、 疾病预防控制专业人员和预防接种人员 合理使用 EV71 疫苗 ， 做好受种儿童家长沟通与咨询 ， 中国疾 病预防控制中心在对现有科学文献进行评估和专家论证基础 上 ， 制定了《肠道病毒 71 型灭活疫苗使用技术指南》（以下简 称指南）。",
+      "confidence": 0.88,
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+    }
+  ],
+  "rejected": [
+    "entity_surface_missing",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

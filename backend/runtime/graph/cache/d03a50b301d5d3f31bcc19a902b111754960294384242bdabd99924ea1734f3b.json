@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_875dd2a8185328e5e366598e3c037f49",
+  "content_hash": "340aedb8463478372c6e77d14db67296dbdf30eec5cf9392f9fd16d16c69a33b",
+  "entities": [
+    {
+      "canonical_name": "inactivated enterovirus 71 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated enterovirus 71 vaccine",
+      "chunk_id": "chk_875dd2a8185328e5e366598e3c037f49"
+    },
+    {
+      "canonical_name": "children aged 6–71 months",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children aged 6–71 months",
+      "chunk_id": "chk_875dd2a8185328e5e366598e3c037f49"
+    },
+    {
+      "canonical_name": "inactivated enterovirus A71 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated enterovirus A71 vaccine",
+      "chunk_id": "chk_875dd2a8185328e5e366598e3c037f49"
+    },
+    {
+      "canonical_name": "children aged from two months to 11 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children aged from two months to 11 years",
+      "chunk_id": "chk_875dd2a8185328e5e366598e3c037f49"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

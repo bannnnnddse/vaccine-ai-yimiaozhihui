@@ -1,0 +1,68 @@
+{
+  "chunk_id": "02d12f714a895c75596e69622b0eeb0c4d7d0ef2baf0064715a17a0d43eb04d9",
+  "content_hash": "716ab96f4075bc3443e6f881c5fbf8f93069b69a1586ff597b7a5cf5260c8f09",
+  "entities": [
+    {
+      "canonical_name": "RSV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccines",
+      "chunk_id": "02d12f714a895c75596e69622b0eeb0c4d7d0ef2baf0064715a17a0d43eb04d9"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "02d12f714a895c75596e69622b0eeb0c4d7d0ef2baf0064715a17a0d43eb04d9"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "02d12f714a895c75596e69622b0eeb0c4d7d0ef2baf0064715a17a0d43eb04d9"
+    },
+    {
+      "canonical_name": "Pfizer RSVpreF",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pfizer RSVpreF",
+      "chunk_id": "02d12f714a895c75596e69622b0eeb0c4d7d0ef2baf0064715a17a0d43eb04d9"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "02d12f714a895c75596e69622b0eeb0c4d7d0ef2baf0064715a17a0d43eb04d9"
+    },
+    {
+      "canonical_name": "GlaxoSmithKline RSVPreF3 OA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GlaxoSmithKline RSVPreF3 OA",
+      "chunk_id": "02d12f714a895c75596e69622b0eeb0c4d7d0ef2baf0064715a17a0d43eb04d9"
+    },
+    {
+      "canonical_name": "Moderna mRNA-1345",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna mRNA-1345",
+      "chunk_id": "02d12f714a895c75596e69622b0eeb0c4d7d0ef2baf0064715a17a0d43eb04d9"
+    },
+    {
+      "canonical_name": "Janssen Ad26.RSV.preF",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Janssen Ad26.RSV.preF",
+      "chunk_id": "02d12f714a895c75596e69622b0eeb0c4d7d0ef2baf0064715a17a0d43eb04d9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

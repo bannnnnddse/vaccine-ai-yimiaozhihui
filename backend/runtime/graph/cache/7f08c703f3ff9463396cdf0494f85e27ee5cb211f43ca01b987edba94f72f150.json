@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_b2784cd61e481f2303a4529830a207e9",
+  "content_hash": "5925e1aeac46f5dc7847b7286b7a3d7d874eee14666644989e06e756af30019a",
+  "entities": [
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "chk_b2784cd61e481f2303a4529830a207e9"
+    },
+    {
+      "canonical_name": "Delta",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Delta",
+      "chunk_id": "chk_b2784cd61e481f2303a4529830a207e9"
+    },
+    {
+      "canonical_name": "T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell",
+      "chunk_id": "chk_b2784cd61e481f2303a4529830a207e9"
+    },
+    {
+      "canonical_name": "B-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B-cell",
+      "chunk_id": "chk_b2784cd61e481f2303a4529830a207e9"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_b2784cd61e481f2303a4529830a207e9"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 VOCs",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 VOCs",
+      "chunk_id": "chk_b2784cd61e481f2303a4529830a207e9"
+    },
+    {
+      "canonical_name": "transgenic mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "transgenic mice",
+      "chunk_id": "chk_b2784cd61e481f2303a4529830a207e9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

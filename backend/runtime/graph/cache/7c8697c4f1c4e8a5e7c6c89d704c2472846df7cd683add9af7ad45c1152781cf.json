@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_71dc158a7eefd9bdc7da7cb2eb85d909",
+  "content_hash": "882cb4f5bc33a4cbd5057147a345cec68378f7e32acebababb73981b863b8108",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_71dc158a7eefd9bdc7da7cb2eb85d909"
+    },
+    {
+      "canonical_name": "daughters",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "daughters",
+      "chunk_id": "chk_71dc158a7eefd9bdc7da7cb2eb85d909"
+    },
+    {
+      "canonical_name": "sons",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "sons",
+      "chunk_id": "chk_71dc158a7eefd9bdc7da7cb2eb85d909"
+    },
+    {
+      "canonical_name": "child",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "child",
+      "chunk_id": "chk_71dc158a7eefd9bdc7da7cb2eb85d909"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

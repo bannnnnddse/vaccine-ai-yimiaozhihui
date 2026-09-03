@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_68ecd4680783f9ff40bc8427641d2336",
+  "content_hash": "ab49cb522e992b4ed9216a4ed18ea00b6746ae172eb4d439099da7ec7919d4a9",
+  "entities": [
+    {
+      "canonical_name": "Bmems",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Bmems",
+      "chunk_id": "chk_68ecd4680783f9ff40bc8427641d2336"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

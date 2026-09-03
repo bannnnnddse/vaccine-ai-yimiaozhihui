@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_053710011db02462ae25aafe3ab1ee32",
+  "content_hash": "d70ceac99dea70e001b51b568e2ddb1632ad903720ea212030abd0bb4e0fbb53",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_053710011db02462ae25aafe3ab1ee32"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_053710011db02462ae25aafe3ab1ee32"
+    },
+    {
+      "canonical_name": "world's population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "world's population",
+      "chunk_id": "chk_053710011db02462ae25aafe3ab1ee32"
+    },
+    {
+      "canonical_name": "common pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "common pathogens",
+      "chunk_id": "chk_053710011db02462ae25aafe3ab1ee32"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

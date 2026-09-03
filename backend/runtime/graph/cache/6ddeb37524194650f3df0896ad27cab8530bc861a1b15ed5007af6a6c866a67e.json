@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_529d4d5cf28bfc912c04b1922b3aa17d",
+  "content_hash": "cf54b08ba7bb1c15669756d6efae313f00571e20b3a6c0463ae548edbc6fa669",
+  "entities": [
+    {
+      "canonical_name": "E. muris",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "E. muris",
+      "chunk_id": "chk_529d4d5cf28bfc912c04b1922b3aa17d"
+    },
+    {
+      "canonical_name": "AFCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "AFCs",
+      "chunk_id": "chk_529d4d5cf28bfc912c04b1922b3aa17d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_cb95bd2b530f04b388779012881752d2",
+  "content_hash": "d73fd6037be656039e6469509d74cbfab4cb3f51785ed4bf8ae4194e2091f3f8",
+  "entities": [
+    {
+      "canonical_name": "inactivated EV-A71 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated EV-A71 vaccines",
+      "chunk_id": "chk_cb95bd2b530f04b388779012881752d2"
+    },
+    {
+      "canonical_name": "CV-A6",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A6",
+      "chunk_id": "chk_cb95bd2b530f04b388779012881752d2"
+    },
+    {
+      "canonical_name": "EV-A71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV-A71",
+      "chunk_id": "chk_cb95bd2b530f04b388779012881752d2"
+    },
+    {
+      "canonical_name": "CV-A16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A16",
+      "chunk_id": "chk_cb95bd2b530f04b388779012881752d2"
+    },
+    {
+      "canonical_name": "CVA10",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CVA10",
+      "chunk_id": "chk_cb95bd2b530f04b388779012881752d2"
+    },
+    {
+      "canonical_name": "HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD",
+      "chunk_id": "chk_cb95bd2b530f04b388779012881752d2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

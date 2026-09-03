@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_042f6c559054aeacac3614c9fae9ef4e",
+  "content_hash": "6d121c475411178f950f40ff20250c4b77cc995257e5c3e642741826a484ad5a",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_042f6c559054aeacac3614c9fae9ef4e"
+    },
+    {
+      "canonical_name": "psychiatric disorders",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "psychiatric disorders",
+      "chunk_id": "chk_042f6c559054aeacac3614c9fae9ef4e"
+    },
+    {
+      "canonical_name": "severe mental illness",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe mental illness",
+      "chunk_id": "chk_042f6c559054aeacac3614c9fae9ef4e"
+    },
+    {
+      "canonical_name": "people with psychiatric disorders",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "people with psychiatric disorders",
+      "chunk_id": "chk_042f6c559054aeacac3614c9fae9ef4e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

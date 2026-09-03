@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "overrides": {
+    "免疫学基础/《全民健康十万个为什么：免疫与接种》.pdf": {
+      "source_type": "incomplete_preview",
+      "issuer": "中国科协科普部、中华预防医学会",
+      "authority_level": 0,
+      "evidence_level": "science_communication",
+      "publication_year": 2016,
+      "version": "2016年第1版",
+      "parse_status": "ocr_parsed",
+      "text_char_count": 3204,
+      "text_page_count": 8,
+      "low_text_page_count": 9,
+      "metadata_confidence": "high",
+      "notes_append": [
+        "已使用 Docling + RapidOCR 解析扫描页；OCR 共识别 3204 个非空白字符。",
+        "文件第5页明确标注‘此为试读，需要完整PDF’，后续主要为目录/预览，并非完整图书。",
+        "保留 provenance，但 authority_level=0，冻结版正式回答索引排除该不完整预览。"
+      ]
+    },
+    "常见疫苗相关介绍文件/EV71 手足口疫苗（肠道病毒 71 型灭活疫苗使用技术指南 PDF 永久有效）.pdf": {
+      "source_type": "official_document",
+      "issuer": "中国疾病预防控制中心",
+      "authority_level": 4,
+      "evidence_level": "guideline",
+      "publication_year": 2016,
+      "metadata_confidence": "high",
+      "notes_append": [
+        "封面明确标注中国疾病预防控制中心、二〇一六年五月；人工核验来源身份。"
+      ]
+    },
+    "常见疫苗相关介绍文件/HPV/中国 CDC 官方 HPV 纳入免疫规划技术指南（英文原版 PDF，国内唯一完整技术细则，含补种、混用、禁忌症、特殊孩子接种）.pdf": {
+      "source_type": "official_document",
+      "issuer": "中国疾病预防控制中心",
+      "authority_level": 4,
+      "evidence_level": "guideline",
+      "publication_year": 2025,
+      "metadata_confidence": "high",
+      "notes_append": [
+        "首页明确说明 China CDC 技术工作组制定并于 2025 年 11 月正式发布。"
+      ]
+    },
+    "常见疫苗相关介绍文件/麻腮风（MMR）专项技术文件（两剂程序、出疹发热、大龄补种）.pdf": {
+      "source_type": "official_document",
+      "issuer": "中国疾病预防控制中心",
+      "authority_level": 4,
+      "evidence_level": "guideline",
+      "publication_year": 2020,
+      "metadata_confidence": "high",
+      "notes_append": [
+        "正文明确为中国疾病预防控制中心制定的含麻疹成分疫苗免疫程序调整技术方案。"
+      ]
+    },
+    "国家政策与免疫规划/疫苗流通和预防接种管理条例（2016修正）.md": {
+      "is_superseded": true,
+      "version": "2016修订",
+      "metadata_confidence": "high",
+      "notes_append": [
+        "经官方资料核验：该条例已于2020-03-27被国务院令第726号废止；仅保留历史 provenance，非历史查询默认排除。",
+        "核验来源：https://www.npc.gov.cn/npc/c2/kgfb/202111/t20211110_314542.html"
+      ]
+    },
+    "国家政策与免疫规划/中华人民共和国疫苗管理法.md": {
+      "publication_date": "2019-06-29",
+      "publication_year": 2019,
+      "effective_date": "2019-12-01",
+      "version": "2019",
+      "metadata_confidence": "high",
+      "notes_append": [
+        "有效性与实施日期经政府公开页面核验。"
+      ]
+    },
+    "免疫学基础/预防接种工作规范（2023年版）.pdf": {
+      "publication_date": "2023-11-30",
+      "publication_year": 2023,
+      "version": "2023年版",
+      "metadata_confidence": "high",
+      "notes_append": [
+        "国家疾控局与国家卫生健康委正式修订发布，替代2016年版工作规范。"
+      ]
+    },
+    "国家政策与免疫规划/国家免疫规划疫苗儿童免疫程序及说明（2026年版）.pdf": {
+      "publication_date": "2026-07-03",
+      "publication_year": 2026,
+      "version": "2026年版",
+      "metadata_confidence": "high",
+      "notes_append": [
+        "国家疾控局、国家卫生健康委对2021年版修订形成的当前版本。"
+      ]
+    }
+  }
+}

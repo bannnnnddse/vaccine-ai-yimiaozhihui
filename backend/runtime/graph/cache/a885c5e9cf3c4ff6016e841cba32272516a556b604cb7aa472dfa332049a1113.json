@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6804ee9165e4d2c4b13fc7380644b32e",
+  "content_hash": "9966d2ccf08b6dd1bf5bd82d56d2dd6d89b3eac019bcd3329c342425624c1cd5",
+  "entities": [
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "chk_6804ee9165e4d2c4b13fc7380644b32e"
+    },
+    {
+      "canonical_name": "AEs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEs",
+      "chunk_id": "chk_6804ee9165e4d2c4b13fc7380644b32e"
+    },
+    {
+      "canonical_name": "patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients",
+      "chunk_id": "chk_6804ee9165e4d2c4b13fc7380644b32e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_3e5ccf33eac46b78a7f062196a152957",
+  "content_hash": "3643b3985901db043eda8670ba8b77c08c357c528440d5f527b63e908c617d9a",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_3e5ccf33eac46b78a7f062196a152957"
+    },
+    {
+      "canonical_name": "vaccine-hesitant people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccine-hesitant people",
+      "chunk_id": "chk_3e5ccf33eac46b78a7f062196a152957"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

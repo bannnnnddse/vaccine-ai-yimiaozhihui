@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_31fadccb880a775352b20e4668b60f3c",
+  "content_hash": "c111fbded5b07c1aba28a9f0680137bfdce0baf6ffbfe87174da57a060aa166e",
+  "entities": [
+    {
+      "canonical_name": "anti‐HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti‐HBs",
+      "chunk_id": "chk_31fadccb880a775352b20e4668b60f3c"
+    },
+    {
+      "canonical_name": "re‐ combinant HBsAg vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "re‐ combinant HBsAg vaccine",
+      "chunk_id": "chk_31fadccb880a775352b20e4668b60f3c"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_31fadccb880a775352b20e4668b60f3c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

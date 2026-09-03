@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_6f29713c4bd0fc9392243356b7e6b5b7",
+  "content_hash": "64e7fe3871c188a85a58fd5a7dd77b3692af7d09ed2c34a93892a311089d2d40",
+  "entities": [
+    {
+      "canonical_name": "HepB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB",
+      "chunk_id": "chk_6f29713c4bd0fc9392243356b7e6b5b7"
+    },
+    {
+      "canonical_name": "infants born to HBsAg positive mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants born to HBsAg positive mothers",
+      "chunk_id": "chk_6f29713c4bd0fc9392243356b7e6b5b7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

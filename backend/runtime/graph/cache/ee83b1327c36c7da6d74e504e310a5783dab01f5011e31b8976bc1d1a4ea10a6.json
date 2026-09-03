@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b49a91f92555ebc581a66646b2886617",
+  "content_hash": "bea9eb04cc46d825e9a517ff54cebd85de2eb3ceeb84dfc15b4487827a3dcd48",
+  "entities": [
+    {
+      "canonical_name": "Respiratory Syncytial Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus",
+      "chunk_id": "chk_b49a91f92555ebc581a66646b2886617"
+    },
+    {
+      "canonical_name": "Respiratory Syncytial Virus Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus Vaccine",
+      "chunk_id": "chk_b49a91f92555ebc581a66646b2886617"
+    },
+    {
+      "canonical_name": "Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adults",
+      "chunk_id": "chk_b49a91f92555ebc581a66646b2886617"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

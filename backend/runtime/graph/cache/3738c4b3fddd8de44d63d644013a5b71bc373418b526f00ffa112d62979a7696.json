@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_4c64fd9de59f911d51c5d44b359f5aea",
+  "content_hash": "3d54aabd5a048591e41f10cb496d2e3cdf67709f69bf775eb338ceac70de1a90",
+  "entities": [
+    {
+      "canonical_name": "hepatitis C virus-like particles",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis C virus-like particles",
+      "chunk_id": "chk_4c64fd9de59f911d51c5d44b359f5aea"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_4c64fd9de59f911d51c5d44b359f5aea"
+    },
+    {
+      "canonical_name": "recombinant hepatitis C virus-vaccinia infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "recombinant hepatitis C virus-vaccinia infection",
+      "chunk_id": "chk_4c64fd9de59f911d51c5d44b359f5aea"
+    },
+    {
+      "canonical_name": "Virus-like Particles",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Virus-like Particles",
+      "chunk_id": "chk_4c64fd9de59f911d51c5d44b359f5aea"
+    },
+    {
+      "canonical_name": "MHC Class I-Restricted T-Cell Responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MHC Class I-Restricted T-Cell Responses",
+      "chunk_id": "chk_4c64fd9de59f911d51c5d44b359f5aea"
+    },
+    {
+      "canonical_name": "hepatitis B small surface antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hepatitis B small surface antigen",
+      "chunk_id": "chk_4c64fd9de59f911d51c5d44b359f5aea"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

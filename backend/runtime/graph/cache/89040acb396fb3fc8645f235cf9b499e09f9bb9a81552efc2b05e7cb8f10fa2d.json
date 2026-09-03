@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_d75fc44c78fd67ce7aeb36c704f448b5",
+  "content_hash": "eb04dc462294d850510175549260e545abcb2562cfe7696c9ae4f77d55c45e5b",
+  "entities": [
+    {
+      "canonical_name": "VLP",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VLP",
+      "chunk_id": "chk_d75fc44c78fd67ce7aeb36c704f448b5"
+    },
+    {
+      "canonical_name": "NP vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "NP vaccines",
+      "chunk_id": "chk_d75fc44c78fd67ce7aeb36c704f448b5"
+    },
+    {
+      "canonical_name": "toxoid vaccine formulations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "toxoid vaccine formulations",
+      "chunk_id": "chk_d75fc44c78fd67ce7aeb36c704f448b5"
+    },
+    {
+      "canonical_name": "diphtheria, tetanus and pertussis (DTaP) inactivated subunit vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria, tetanus and pertussis (DTaP) inactivated subunit vaccine",
+      "chunk_id": "chk_d75fc44c78fd67ce7aeb36c704f448b5"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_d75fc44c78fd67ce7aeb36c704f448b5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

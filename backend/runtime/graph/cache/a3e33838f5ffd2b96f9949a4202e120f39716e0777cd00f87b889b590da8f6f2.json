@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_5d650701c24ffb14aefc5bc61726da49",
+  "content_hash": "cb4da310fdda20c08362283ba4ca04faa7445ed681af6fa5db98295f79f4e710",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_5d650701c24ffb14aefc5bc61726da49"
+    },
+    {
+      "canonical_name": "population defined as vulnerable",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "population defined as vulnerable",
+      "chunk_id": "chk_5d650701c24ffb14aefc5bc61726da49"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

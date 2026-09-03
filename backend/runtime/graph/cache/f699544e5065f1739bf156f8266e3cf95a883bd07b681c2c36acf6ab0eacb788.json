@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_9cf9172c90cd19568d1af8bc3d9d1bec",
+  "content_hash": "f9867bc54da01ebb4cb95d2e73c66ee18b26dc219e34ac154d4871d78ca7f146",
+  "entities": [
+    {
+      "canonical_name": "varicella-zoster virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "varicella-zoster virus",
+      "chunk_id": "chk_9cf9172c90cd19568d1af8bc3d9d1bec"
+    },
+    {
+      "canonical_name": "VZV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VZV vaccine",
+      "chunk_id": "chk_9cf9172c90cd19568d1af8bc3d9d1bec"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote"
+  ]
+}

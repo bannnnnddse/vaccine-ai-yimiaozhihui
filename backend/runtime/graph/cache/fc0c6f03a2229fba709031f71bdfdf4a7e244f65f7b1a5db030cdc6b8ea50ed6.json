@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_cc314e4afb3743d13fbfdbc79ca3d203",
+  "content_hash": "b1239b716431106e2055ae77b8262afbd1f0862f2edafcdb48f75eb6b4e4cf9f",
+  "entities": [
+    {
+      "canonical_name": "naive B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "naive B cells",
+      "chunk_id": "chk_cc314e4afb3743d13fbfdbc79ca3d203"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

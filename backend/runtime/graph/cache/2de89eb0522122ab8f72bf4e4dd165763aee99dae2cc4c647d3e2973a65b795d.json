@@ -1,0 +1,59 @@
+{
+  "chunk_id": "chk_bdc419b8ca937e675ef014c48e8a2800",
+  "content_hash": "e07937cfaa7379c76f7166c10e5c7c008ef6df0b52ea25de2eb403118ededa89",
+  "entities": [
+    {
+      "canonical_name": "BA.2.75.2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BA.2.75.2",
+      "chunk_id": "chk_bdc419b8ca937e675ef014c48e8a2800"
+    },
+    {
+      "canonical_name": "BQ.1.1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BQ.1.1",
+      "chunk_id": "chk_bdc419b8ca937e675ef014c48e8a2800"
+    },
+    {
+      "canonical_name": "XBB.1.5",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "XBB.1.5",
+      "chunk_id": "chk_bdc419b8ca937e675ef014c48e8a2800"
+    },
+    {
+      "canonical_name": "WA.1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "WA.1",
+      "chunk_id": "chk_bdc419b8ca937e675ef014c48e8a2800"
+    },
+    {
+      "canonical_name": "nAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "nAb",
+      "chunk_id": "chk_bdc419b8ca937e675ef014c48e8a2800"
+    },
+    {
+      "canonical_name": "booster vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "booster vaccination",
+      "chunk_id": "chk_bdc419b8ca937e675ef014c48e8a2800"
+    },
+    {
+      "canonical_name": "memory B and T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B and T cells",
+      "chunk_id": "chk_bdc419b8ca937e675ef014c48e8a2800"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

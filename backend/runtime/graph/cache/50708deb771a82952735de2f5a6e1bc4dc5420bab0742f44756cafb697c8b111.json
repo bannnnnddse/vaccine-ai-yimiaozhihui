@@ -1,0 +1,49 @@
+{
+  "chunk_id": "chk_357d3121d6ad8d7f01fbcfde8b022da4",
+  "content_hash": "e3914c12a7ae8aee883eb51e2702f98fe8e9521c164ee7ac13accb26e954645c",
+  "entities": [
+    {
+      "canonical_name": "Cervarix",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Cervarix",
+      "chunk_id": "chk_357d3121d6ad8d7f01fbcfde8b022da4"
+    },
+    {
+      "canonical_name": "Gardasil",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Gardasil",
+      "chunk_id": "chk_357d3121d6ad8d7f01fbcfde8b022da4"
+    },
+    {
+      "canonical_name": "HPV-associated cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HPV-associated cancers",
+      "chunk_id": "chk_357d3121d6ad8d7f01fbcfde8b022da4"
+    },
+    {
+      "canonical_name": "genital warts",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "genital warts",
+      "chunk_id": "chk_357d3121d6ad8d7f01fbcfde8b022da4"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_357d3121d6ad8d7f01fbcfde8b022da4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

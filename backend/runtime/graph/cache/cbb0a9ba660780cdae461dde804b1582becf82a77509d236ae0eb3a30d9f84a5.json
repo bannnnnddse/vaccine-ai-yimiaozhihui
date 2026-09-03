@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_85f1884a61ae9e3c1f483411f558541c",
+  "content_hash": "ac3c4c176a978e28d5a670ff8faef763c020bbf2e69690ba93be50891b336895",
+  "entities": [
+    {
+      "canonical_name": "HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HBV infection",
+      "chunk_id": "chk_85f1884a61ae9e3c1f483411f558541c"
+    },
+    {
+      "canonical_name": "U.S. adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "U.S. adolescents",
+      "chunk_id": "chk_85f1884a61ae9e3c1f483411f558541c"
+    },
+    {
+      "canonical_name": "15-year-old girls",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "15-year-old girls",
+      "chunk_id": "chk_85f1884a61ae9e3c1f483411f558541c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,174 @@
+{
+  "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321",
+  "content_hash": "3770d447a8968bc38472ae6963b8600d9eef229c4d06dca4e5ee6223246c5b14",
+  "entities": [
+    {
+      "canonical_name": "白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "白破疫苗",
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "canonical_name": "乙脑减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙脑减毒活疫苗",
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "canonical_name": "两剂次接种程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "两剂次接种程序",
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "canonical_name": "乙脑灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙脑灭活疫苗",
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "canonical_name": "四剂次接种程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "四剂次接种程序",
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "canonical_name": "甲肝减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "甲肝减毒活疫苗",
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "canonical_name": "一剂次接种程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "一剂次接种程序",
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "canonical_name": "甲肝灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "甲肝灭活疫苗",
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "canonical_name": "双价人乳头瘤病毒疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "双价人乳头瘤病毒疫苗",
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "乙脑减毒活疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "乙脑减毒活疫苗",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "target": {
+        "canonical_name": "两剂次接种程序",
+        "entity_type": "Schedule",
+        "aliases": [],
+        "surface_form": "两剂次接种程序",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "relation_type": "HAS_SCHEDULE",
+      "evidence_quote": "选择乙脑减毒活疫苗接种时 ， 采用两剂次接种程序；",
+      "confidence": 1.0,
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "source": {
+        "canonical_name": "乙脑灭活疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "乙脑灭活疫苗",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "target": {
+        "canonical_name": "四剂次接种程序",
+        "entity_type": "Schedule",
+        "aliases": [],
+        "surface_form": "四剂次接种程序",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "relation_type": "HAS_SCHEDULE",
+      "evidence_quote": "选择乙脑灭活疫苗接种时 ， 采用四剂次接种程序 ，",
+      "confidence": 1.0,
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "source": {
+        "canonical_name": "甲肝减毒活疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "甲肝减毒活疫苗",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "target": {
+        "canonical_name": "一剂次接种程序",
+        "entity_type": "Schedule",
+        "aliases": [],
+        "surface_form": "一剂次接种程序",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "relation_type": "HAS_SCHEDULE",
+      "evidence_quote": "选择甲肝减毒活疫苗接种时 ， 采用一剂次接种程序；",
+      "confidence": 1.0,
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "source": {
+        "canonical_name": "甲肝灭活疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "甲肝灭活疫苗",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "target": {
+        "canonical_name": "两剂次接种程序",
+        "entity_type": "Schedule",
+        "aliases": [],
+        "surface_form": "两剂次接种程序",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "relation_type": "HAS_SCHEDULE",
+      "evidence_quote": "选择甲肝灭活疫苗接种时 ， 采用两剂次接种程序 。",
+      "confidence": 1.0,
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    },
+    {
+      "source": {
+        "canonical_name": "双价人乳头瘤病毒疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "双价人乳头瘤病毒疫苗",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "target": {
+        "canonical_name": "两剂次接种程序",
+        "entity_type": "Schedule",
+        "aliases": [],
+        "surface_form": "两剂次接种程序",
+        "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+      },
+      "relation_type": "HAS_SCHEDULE",
+      "evidence_quote": "双价人乳头瘤病毒疫苗采用两剂次接种程序 ，",
+      "confidence": 1.0,
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321"
+    }
+  ],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

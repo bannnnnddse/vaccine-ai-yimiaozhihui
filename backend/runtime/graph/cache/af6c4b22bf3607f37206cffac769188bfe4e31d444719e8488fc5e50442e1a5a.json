@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_b9ad77692a05b89eac669daa51b32886",
+  "content_hash": "4c3400f97ff7bf9ef8946672b17cdb66eacccdc3e1ff0a3fdefe9ee815074041",
+  "entities": [
+    {
+      "canonical_name": "Provenge",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Provenge",
+      "chunk_id": "chk_b9ad77692a05b89eac669daa51b32886"
+    },
+    {
+      "canonical_name": "anticancer vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "anticancer vaccines",
+      "chunk_id": "chk_b9ad77692a05b89eac669daa51b32886"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

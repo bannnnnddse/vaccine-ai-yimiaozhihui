@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_0bbabebac59a9e9a349edb71d08ebcaf",
+  "content_hash": "fd9e6c643a12043588d652f6a549b3b7d024c4c96332ed595ed83504243c9a35",
+  "entities": [
+    {
+      "canonical_name": "measles-mumps-rubella (MMR) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles-mumps-rubella (MMR) vaccine",
+      "chunk_id": "chk_0bbabebac59a9e9a349edb71d08ebcaf"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_0bbabebac59a9e9a349edb71d08ebcaf"
+    },
+    {
+      "canonical_name": "vaccine-reluctant community",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccine-reluctant community",
+      "chunk_id": "chk_0bbabebac59a9e9a349edb71d08ebcaf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

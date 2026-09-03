@@ -1,0 +1,50 @@
+{
+  "chunk_id": "cde4139d58aa9b287186326baabc55612a324bdc98d04740437abc0a7c9f401d",
+  "content_hash": "a4de8c49cc0c793fb95751482ca5ee704d1d0531aad6707e4fe9fe8d1d5883dd",
+  "entities": [
+    {
+      "canonical_name": "Measles, mumps, rubella, and varicella (MMRV) vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Measles, mumps, rubella, and varicella (MMRV) vaccines",
+      "chunk_id": "cde4139d58aa9b287186326baabc55612a324bdc98d04740437abc0a7c9f401d"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "cde4139d58aa9b287186326baabc55612a324bdc98d04740437abc0a7c9f401d"
+    },
+    {
+      "canonical_name": "adverse events following immunization(AEFIs)",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events following immunization(AEFIs)",
+      "chunk_id": "cde4139d58aa9b287186326baabc55612a324bdc98d04740437abc0a7c9f401d"
+    },
+    {
+      "canonical_name": "asthma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "asthma",
+      "chunk_id": "cde4139d58aa9b287186326baabc55612a324bdc98d04740437abc0a7c9f401d"
+    },
+    {
+      "canonical_name": "epilepsy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "epilepsy",
+      "chunk_id": "cde4139d58aa9b287186326baabc55612a324bdc98d04740437abc0a7c9f401d"
+    },
+    {
+      "canonical_name": "chronic kidney disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic kidney disease",
+      "chunk_id": "cde4139d58aa9b287186326baabc55612a324bdc98d04740437abc0a7c9f401d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

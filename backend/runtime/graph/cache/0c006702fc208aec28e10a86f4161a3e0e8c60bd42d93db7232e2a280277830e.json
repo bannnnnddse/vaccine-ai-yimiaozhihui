@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_bc9308a4c2cec76df5c5384fcb10e394",
+  "content_hash": "be0002d8a66581a99a2b276e785111e7844b1de67eeab736be4b9475c5ff6791",
+  "entities": [
+    {
+      "canonical_name": "dengue vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "dengue vaccines",
+      "chunk_id": "chk_bc9308a4c2cec76df5c5384fcb10e394"
+    },
+    {
+      "canonical_name": "Pre-existing infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Pre-existing infections",
+      "chunk_id": "chk_bc9308a4c2cec76df5c5384fcb10e394"
+    },
+    {
+      "canonical_name": "cross-reactivity",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "cross-reactivity",
+      "chunk_id": "chk_bc9308a4c2cec76df5c5384fcb10e394"
+    },
+    {
+      "canonical_name": "dengue virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "dengue virus",
+      "chunk_id": "chk_bc9308a4c2cec76df5c5384fcb10e394"
+    },
+    {
+      "canonical_name": "innate immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immunity",
+      "chunk_id": "chk_bc9308a4c2cec76df5c5384fcb10e394"
+    },
+    {
+      "canonical_name": "Inflammatory and innate immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Inflammatory and innate immune responses",
+      "chunk_id": "chk_bc9308a4c2cec76df5c5384fcb10e394"
+    },
+    {
+      "canonical_name": "dengue infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "dengue infection",
+      "chunk_id": "chk_bc9308a4c2cec76df5c5384fcb10e394"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,19 @@
+{
+  "chunk_id": "chk_6b8349499b6432d1794bcf3ae807d772",
+  "content_hash": "191bf32a9d1972f313f87be8e282fb0b535b28e6ae835f61f282e07fab7d0e16",
+  "entities": [
+    {
+      "canonical_name": "乙脑疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙脑疫苗",
+      "chunk_id": "chk_6b8349499b6432d1794bcf3ae807d772"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "entity_surface_missing",
+    "unknown_endpoint"
+  ]
+}

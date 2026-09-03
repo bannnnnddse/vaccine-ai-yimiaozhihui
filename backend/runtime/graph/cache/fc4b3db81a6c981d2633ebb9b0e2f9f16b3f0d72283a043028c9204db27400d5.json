@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_5360d69c184eb2443ec1a32a35c9ec3e",
+  "content_hash": "34d1bbad517aa124cbc2cf97ae3353d6a6e3344a32008853eb4bfe04c24da78a",
+  "entities": [
+    {
+      "canonical_name": "Anti‐HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti‐HBs",
+      "chunk_id": "chk_5360d69c184eb2443ec1a32a35c9ec3e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

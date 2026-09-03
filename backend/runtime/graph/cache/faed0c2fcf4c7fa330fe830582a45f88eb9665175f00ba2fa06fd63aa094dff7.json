@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_07068cc0896b858b449aed02c2be85c2",
+  "content_hash": "bc5748deeeee9c4444ebf449b4230e3e63a995aedc0c802295cfc45436a3d761",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_07068cc0896b858b449aed02c2be85c2"
+    },
+    {
+      "canonical_name": "infectious diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious diseases",
+      "chunk_id": "chk_07068cc0896b858b449aed02c2be85c2"
+    },
+    {
+      "canonical_name": "under vaccinated communities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "under vaccinated communities",
+      "chunk_id": "chk_07068cc0896b858b449aed02c2be85c2"
+    },
+    {
+      "canonical_name": "vulnerable communities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vulnerable communities",
+      "chunk_id": "chk_07068cc0896b858b449aed02c2be85c2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e690b6d08e1c046c847e905af1f3a4d8",
+  "content_hash": "a3df9751f980f19bc1d6de25872e280faba5927eb9c8de4ca8c8377571be003f",
+  "entities": [
+    {
+      "canonical_name": "immunocompromised children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised children",
+      "chunk_id": "chk_e690b6d08e1c046c847e905af1f3a4d8"
+    },
+    {
+      "canonical_name": "preterm infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "preterm infants",
+      "chunk_id": "chk_e690b6d08e1c046c847e905af1f3a4d8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_8bc8fdf110725f9cbe197064fb98742a",
+  "content_hash": "bb983d6693d1ef06b842bec05ef77497e10a04827adc2a7de4b56dee6ced2980",
+  "entities": [
+    {
+      "canonical_name": "self-amplifying RNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "self-amplifying RNA vaccine",
+      "chunk_id": "chk_8bc8fdf110725f9cbe197064fb98742a"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_8bc8fdf110725f9cbe197064fb98742a"
+    },
+    {
+      "canonical_name": "covac1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "covac1",
+      "chunk_id": "chk_8bc8fdf110725f9cbe197064fb98742a"
+    },
+    {
+      "canonical_name": "selfamplifying RNA COVID-19 vaccine (ARCT-154)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "selfamplifying RNA COVID-19 vaccine (ARCT-154)",
+      "chunk_id": "chk_8bc8fdf110725f9cbe197064fb98742a"
+    },
+    {
+      "canonical_name": "BNT162b2 mRNA COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 mRNA COVID-19 vaccine",
+      "chunk_id": "chk_8bc8fdf110725f9cbe197064fb98742a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

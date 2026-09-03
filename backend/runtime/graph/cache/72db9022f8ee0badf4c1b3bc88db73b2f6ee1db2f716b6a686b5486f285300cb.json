@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_d42e8a96e1778ef3999ab4a56720a09f",
+  "content_hash": "2dde90110fc614ba0a12b4c51b656dde6a05bb212a65fbce4cd6c9a3b02d9b05",
+  "entities": [
+    {
+      "canonical_name": "infancy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infancy",
+      "chunk_id": "chk_d42e8a96e1778ef3999ab4a56720a09f"
+    },
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_d42e8a96e1778ef3999ab4a56720a09f"
+    },
+    {
+      "canonical_name": "capsular group C meningococcal vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "capsular group C meningococcal vaccine",
+      "chunk_id": "chk_d42e8a96e1778ef3999ab4a56720a09f"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_d42e8a96e1778ef3999ab4a56720a09f"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_d42e8a96e1778ef3999ab4a56720a09f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

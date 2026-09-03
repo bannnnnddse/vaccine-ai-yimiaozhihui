@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_17a09017f8b19c2b2ffb2ebc47531e24",
+  "content_hash": "4b8f565a8ab66ec50c7b258d93fe58d3edbf482eb0849cc453851cc52c6b8e7e",
+  "entities": [
+    {
+      "canonical_name": "CVnCoV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CVnCoV",
+      "chunk_id": "chk_17a09017f8b19c2b2ffb2ebc47531e24"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_17a09017f8b19c2b2ffb2ebc47531e24"
+    },
+    {
+      "canonical_name": "Virus-Neutralising Antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Virus-Neutralising Antibodies",
+      "chunk_id": "chk_17a09017f8b19c2b2ffb2ebc47531e24"
+    },
+    {
+      "canonical_name": "Rodents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Rodents",
+      "chunk_id": "chk_17a09017f8b19c2b2ffb2ebc47531e24"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

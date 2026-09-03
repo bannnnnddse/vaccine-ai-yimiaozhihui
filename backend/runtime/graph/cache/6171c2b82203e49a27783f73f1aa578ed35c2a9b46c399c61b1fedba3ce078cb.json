@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_9f6bb8218257e231e31beb80ed66f2d0",
+  "content_hash": "320fec95a0c48f4e374d06a0ef635ac875639a8b4c71201b89cfe059e7fd18d8",
+  "entities": [
+    {
+      "canonical_name": "smallpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "smallpox",
+      "chunk_id": "chk_9f6bb8218257e231e31beb80ed66f2d0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,108 @@
+{
+  "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1",
+  "content_hash": "4e97aed1a113323f0ac6db5818bde0e7c05811e59f78c9af602b1e160ecd07cd",
+  "entities": [
+    {
+      "canonical_name": "COVID - 19 Vaccine AstraZeneca",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID - 19 Vaccine AstraZeneca",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "Gam - COVID - Vac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Gam - COVID - Vac",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "Sputnik V",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Sputnik V",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "AV - COVID - 19",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AV - COVID - 19",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "Covid - 19/aAPC vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Covid - 19/aAPC vaccine",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "COH04S1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COH04S1",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "GRAd - CoV2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GRAd - CoV2",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "ZyCoV - D",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ZyCoV - D",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "INO - 4800",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "INO - 4800",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "GLS - 5310",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GLS - 5310",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "GX - 19",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GX - 19",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "GX - 19N",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GX - 19N",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "CORV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CORV",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    },
+    {
+      "canonical_name": "SARS - CoV - 2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS - CoV - 2",
+      "chunk_id": "chk_a8223fdbc98d700e96805f9fb6898aa1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

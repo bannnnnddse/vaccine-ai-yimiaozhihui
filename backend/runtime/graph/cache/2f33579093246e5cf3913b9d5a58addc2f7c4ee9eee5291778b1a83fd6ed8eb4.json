@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_24b50d976d0b19b730071bc36760a6d0",
+  "content_hash": "5d1fe51f8aa6137c2fb977509c434ce7d9b370aa6d27db21b4d250eb28505f6b",
+  "entities": [
+    {
+      "canonical_name": "23valent pneumococcal polysaccharide vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "23valent pneumococcal polysaccharide vaccine",
+      "chunk_id": "chk_24b50d976d0b19b730071bc36760a6d0"
+    },
+    {
+      "canonical_name": "invasive pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive pneumococcal disease",
+      "chunk_id": "chk_24b50d976d0b19b730071bc36760a6d0"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_24b50d976d0b19b730071bc36760a6d0"
+    },
+    {
+      "canonical_name": "hepatitis B virus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B virus infection",
+      "chunk_id": "chk_24b50d976d0b19b730071bc36760a6d0"
+    },
+    {
+      "canonical_name": "diabetes mellitus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diabetes mellitus",
+      "chunk_id": "chk_24b50d976d0b19b730071bc36760a6d0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

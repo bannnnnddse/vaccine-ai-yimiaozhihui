@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_5f5cfdf5705c36e3954101205f1b4192",
+  "content_hash": "9e1f1f93064efac342ec472f8022b62abe0a9ab065f2258df5deea9c889ff5c1",
+  "entities": [
+    {
+      "canonical_name": "systemic lupus erythematosus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "systemic lupus erythematosus",
+      "chunk_id": "chk_5f5cfdf5705c36e3954101205f1b4192"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

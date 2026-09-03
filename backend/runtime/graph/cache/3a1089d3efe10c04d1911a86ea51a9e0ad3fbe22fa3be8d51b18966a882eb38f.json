@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_c17612c4ee2c0063198da9219cdddcf3",
+  "content_hash": "cc27d6ed994384fddf22799378f4ccfd8ccc99e33a1c5638da5e5ba53e344906",
+  "entities": [
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_c17612c4ee2c0063198da9219cdddcf3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

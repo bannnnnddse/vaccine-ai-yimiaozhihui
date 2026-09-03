@@ -1,0 +1,22 @@
+{
+  "chunk_id": "e01beb18b3b2fe5cf8fe4992e3b60efdcadf729b901dd246001ed20523a412e9",
+  "content_hash": "fc281b6355b32a6ba114b4d4c265f380b68a18266e3eea7f32087f83042673e5",
+  "entities": [
+    {
+      "canonical_name": "ITP",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "ITP",
+      "chunk_id": "e01beb18b3b2fe5cf8fe4992e3b60efdcadf729b901dd246001ed20523a412e9"
+    },
+    {
+      "canonical_name": "vaccine-related thrombocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vaccine-related thrombocytopenia",
+      "chunk_id": "e01beb18b3b2fe5cf8fe4992e3b60efdcadf729b901dd246001ed20523a412e9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

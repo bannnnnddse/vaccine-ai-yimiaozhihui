@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_10155e358019f529ef716f7fc20f6583",
+  "content_hash": "9db90c21ae6cd07b9165507c858c3a5afda89584fae1a84086ff39a62aca495f",
+  "entities": [
+    {
+      "canonical_name": "hyperglycemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hyperglycemia",
+      "chunk_id": "chk_10155e358019f529ef716f7fc20f6583"
+    },
+    {
+      "canonical_name": "type 1 diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "type 1 diabetes",
+      "chunk_id": "chk_10155e358019f529ef716f7fc20f6583"
+    },
+    {
+      "canonical_name": "BCG vaccinations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG vaccinations",
+      "chunk_id": "chk_10155e358019f529ef716f7fc20f6583"
+    },
+    {
+      "canonical_name": "herpes zoster subunit vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "herpes zoster subunit vaccine",
+      "chunk_id": "chk_10155e358019f529ef716f7fc20f6583"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_10155e358019f529ef716f7fc20f6583"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

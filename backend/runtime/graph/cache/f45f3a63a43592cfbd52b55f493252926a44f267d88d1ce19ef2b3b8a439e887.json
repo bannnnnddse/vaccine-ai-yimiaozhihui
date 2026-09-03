@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_474aa227351211ae85e5ca566447efff",
+  "content_hash": "b245c2547b2d115334548b74d86c7b104a33601d3b4dc54ce25399b7517d3fcf",
+  "entities": [
+    {
+      "canonical_name": "immunocompromised infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised infants",
+      "chunk_id": "chk_474aa227351211ae85e5ca566447efff"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

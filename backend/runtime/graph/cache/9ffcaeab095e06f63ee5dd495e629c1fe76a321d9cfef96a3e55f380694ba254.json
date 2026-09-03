@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_1cbf65f3c7d68f4c4b06122865923f28",
+  "content_hash": "1113358c93f4d82f44869ca71da9343dca4d27721a1f4aa13791069dfe9d13c7",
+  "entities": [
+    {
+      "canonical_name": "inactivated hepatitis A virus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated hepatitis A virus vaccination",
+      "chunk_id": "chk_1cbf65f3c7d68f4c4b06122865923f28"
+    },
+    {
+      "canonical_name": "people living with HIV",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "people living with HIV",
+      "chunk_id": "chk_1cbf65f3c7d68f4c4b06122865923f28"
+    },
+    {
+      "canonical_name": "acute hepatitis A",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute hepatitis A",
+      "chunk_id": "chk_1cbf65f3c7d68f4c4b06122865923f28"
+    },
+    {
+      "canonical_name": "Hepatitis B Vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis B Vaccination",
+      "chunk_id": "chk_1cbf65f3c7d68f4c4b06122865923f28"
+    },
+    {
+      "canonical_name": "People Living with Human Immunodeficiency Virus",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "People Living with Human Immunodeficiency Virus",
+      "chunk_id": "chk_1cbf65f3c7d68f4c4b06122865923f28"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

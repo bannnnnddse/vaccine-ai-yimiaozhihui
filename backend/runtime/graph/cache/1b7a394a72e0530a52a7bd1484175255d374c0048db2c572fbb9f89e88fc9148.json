@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_6be8544972859e6468df0c09ba8eea77",
+  "content_hash": "12c4accf60f00aac3a64f5d5eeb718c03662b53ebc9a4d431dacad9c39f018e2",
+  "entities": [
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_6be8544972859e6468df0c09ba8eea77"
+    },
+    {
+      "canonical_name": "events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "events",
+      "chunk_id": "chk_6be8544972859e6468df0c09ba8eea77"
+    },
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_6be8544972859e6468df0c09ba8eea77"
+    },
+    {
+      "canonical_name": "pediatric vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pediatric vaccines",
+      "chunk_id": "chk_6be8544972859e6468df0c09ba8eea77"
+    },
+    {
+      "canonical_name": "participants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "participants",
+      "chunk_id": "chk_6be8544972859e6468df0c09ba8eea77"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_6be8544972859e6468df0c09ba8eea77"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_6be8544972859e6468df0c09ba8eea77"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

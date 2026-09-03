@@ -1,0 +1,2232 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "doc_3f941dbb24961d91c7083521",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 4678195337446051788,
+    "filename": "doc_3f941dbb24961d91c7083521.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/49"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/51"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/53"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/55"
+      },
+      {
+        "$ref": "#/groups/2"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/67"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/54"
+        }
+      ],
+      "content_layer": "body",
+      "name": "group",
+      "label": "key_value_area"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        },
+        {
+          "$ref": "#/texts/65"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 56.29199981689453,
+            "t": 741.6339721679688,
+            "r": 120.86399841308594,
+            "b": 730.3299560546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Policy Notes",
+      "text": "Policy Notes"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 263.343994140625,
+            "t": 771.218994140625,
+            "r": 332.0769958496094,
+            "b": 762.75,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "China CDC Weekly",
+      "text": "China CDC Weekly"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 54.86000061035156,
+            "t": 699.677978515625,
+            "r": 540.6519775390625,
+            "b": 647.7259521484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            137
+          ]
+        }
+      ],
+      "orig": "Technical and Implementation Guidelines for the Introduction of Human Papillomavirus Vaccine into China ' s National Immunization Program",
+      "text": "Technical and Implementation Guidelines for the Introduction of Human Papillomavirus Vaccine into China ' s National Immunization Program",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 80.84849548339844,
+            "t": 632.0029907226562,
+            "r": 514.6954956054688,
+            "b": 608.5659790039062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            193
+          ]
+        }
+      ],
+      "orig": "Fuzhen\u00a0Wang 1 ; Lei\u00a0Cao1;\u00a0 Keli\u00a0Li 1 ; Guomin\u00a0Zhang 1 ; Lixin\u00a0Hao 1 ; Chao\u00a0Ma1;\u00a0 Ning\u00a0Wen 1 ; Xiaoxue\u00a0Liu 1 ; Jiakai\u00a0Ye 1 ; Yan\u00a0Li 1 ; Yudan\u00a0Song 1 ; Zhijie\u00a0An 1 ; Wenzhou\u00a0Yu1;\u00a0 Zundong\u00a0Yin 1,#",
+      "text": "Fuzhen\u00a0Wang 1 ; Lei\u00a0Cao1;\u00a0 Keli\u00a0Li 1 ; Guomin\u00a0Zhang 1 ; Lixin\u00a0Hao 1 ; Chao\u00a0Ma1;\u00a0 Ning\u00a0Wen 1 ; Xiaoxue\u00a0Liu 1 ; Jiakai\u00a0Ye 1 ; Yan\u00a0Li 1 ; Yudan\u00a0Song 1 ; Zhijie\u00a0An 1 ; Wenzhou\u00a0Yu1;\u00a0 Zundong\u00a0Yin 1,#"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 135.0050048828125,
+            "t": 582.7990112304688,
+            "r": 200.45999145507812,
+            "b": 573.2570190429688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "ABSTRACT",
+      "text": "ABSTRACT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.96699905395508,
+            "t": 554.9760131835938,
+            "r": 286.828857421875,
+            "b": 293.3429870605469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1035
+          ]
+        }
+      ],
+      "orig": "Human \u00a0papillomavirus \u00a0(HPV) \u00a0vaccination administered\u00a0before\u00a0viral\u00a0exposure\u00a0(i.e.,\u00a0prior\u00a0to\u00a0sexual debut)\u00a0effectively\u00a0prevents\u00a0infection\u00a0with\u00a0vaccine-type HPV\u00a0strains\u00a0and\u00a0associated\u00a0diseases,\u00a0including\u00a0cervical cancer. \u00a0To \u00a0advance \u00a0HPV \u00a0vaccination \u00a0efforts \u00a0and cervical\u00a0cancer\u00a0prevention,\u00a0China\u00a0has\u00a0incorporated\u00a0the bivalent \u00a0HPV \u00a0vaccine \u00a0(types \u00a016/18) \u00a0into \u00a0its \u00a0National Immunization \u00a0Program \u00a0(NIP) \u00a0as \u00a0a \u00a0program \u00a0vaccine. This\u00a0Policy\u00a0Note\u00a0presents\u00a0comprehensive\u00a0technical\u00a0and implementation \u00a0guidelines \u00a0for \u00a0HPV \u00a0vaccine deployment, \u00a0encompassing \u00a0guidance \u00a0development methodology, \u00a0target \u00a0population \u00a0definition, \u00a0routine vaccination \u00a0schedules, \u00a0catch -up \u00a0vaccination \u00a0protocols, implementation \u00a0strategies, \u00a0vaccine \u00a0coverage \u00a0and adverse \u00a0event \u00a0monitoring \u00a0plans, \u00a0and \u00a0anticipated implementation \u00a0challenges \u00a0with \u00a0proposed \u00a0mitigation measures.\u00a0The\u00a0Vaccine\u00a0Technical\u00a0Working\u00a0Groups\u00a0of the \u00a0China \u00a0CDC \u00a0developed \u00a0relevant \u00a0technical recommendations\u00a0and\u00a0guidelines,\u00a0which\u00a0were\u00a0officially issued\u00a0in\u00a0November\u00a02025.",
+      "text": "Human \u00a0papillomavirus \u00a0(HPV) \u00a0vaccination administered\u00a0before\u00a0viral\u00a0exposure\u00a0(i.e.,\u00a0prior\u00a0to\u00a0sexual debut)\u00a0effectively\u00a0prevents\u00a0infection\u00a0with\u00a0vaccine-type HPV\u00a0strains\u00a0and\u00a0associated\u00a0diseases,\u00a0including\u00a0cervical cancer. \u00a0To \u00a0advance \u00a0HPV \u00a0vaccination \u00a0efforts \u00a0and cervical\u00a0cancer\u00a0prevention,\u00a0China\u00a0has\u00a0incorporated\u00a0the bivalent \u00a0HPV \u00a0vaccine \u00a0(types \u00a016/18) \u00a0into \u00a0its \u00a0National Immunization \u00a0Program \u00a0(NIP) \u00a0as \u00a0a \u00a0program \u00a0vaccine. This\u00a0Policy\u00a0Note\u00a0presents\u00a0comprehensive\u00a0technical\u00a0and implementation \u00a0guidelines \u00a0for \u00a0HPV \u00a0vaccine deployment, \u00a0encompassing \u00a0guidance \u00a0development methodology, \u00a0target \u00a0population \u00a0definition, \u00a0routine vaccination \u00a0schedules, \u00a0catch -up \u00a0vaccination \u00a0protocols, implementation \u00a0strategies, \u00a0vaccine \u00a0coverage \u00a0and adverse \u00a0event \u00a0monitoring \u00a0plans, \u00a0and \u00a0anticipated implementation \u00a0challenges \u00a0with \u00a0proposed \u00a0mitigation measures.\u00a0The\u00a0Vaccine\u00a0Technical\u00a0Working\u00a0Groups\u00a0of the \u00a0China \u00a0CDC \u00a0developed \u00a0relevant \u00a0technical recommendations\u00a0and\u00a0guidelines,\u00a0which\u00a0were\u00a0officially issued\u00a0in\u00a0November\u00a02025."
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 118.44300079345703,
+            "t": 273.5789794921875,
+            "r": 216.37200927734375,
+            "b": 264.0369873046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "INTRODUCTION",
+      "text": "INTRODUCTION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 71.62999725341797,
+            "t": 243.43600463867188,
+            "r": 264.218017578125,
+            "b": 234.1479949951172,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Burden of Cervical Cancer in China",
+      "text": "Burden of Cervical Cancer in China",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.933998107910156,
+            "t": 228.45599365234375,
+            "r": 286.828857421875,
+            "b": 65.60200500488281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            657
+          ]
+        }
+      ],
+      "orig": "China\u00a0faces\u00a0a\u00a0substantial\u00a0burden\u00a0of\u00a0cervical\u00a0cancer, with \u00a0rising \u00a0incidence \u00a0and \u00a0mortality \u00a0rates \u00a0and \u00a0a decreasing \u00a0average \u00a0age \u00a0of \u00a0onset \u00a0(1). \u00a0In \u00a02023, \u00a0the country \u00a0recorded \u00a0155,700 \u00a0new \u00a0cervical \u00a0cancer \u00a0cases and \u00a055,700 \u00a0deaths \u00a0from \u00a0the \u00a0disease \u00a0(2). \u00a0A \u00a0recent national \u00a0study \u00a0estimated \u00a0the \u00a0average \u00a0total \u00a0cost \u00a0of cervical \u00a0cancer \u00a0treatment \u00a0at \u00a0105,000 \u00a0to \u00a0191,000 Chinese\u00a0yuan\u00a0(CNY)\u00a0[approximately\u00a014,500\u00a0to\u00a026,400 US\u00a0Dollars\u00a0(USD)]\u00a0(3).\u00a0Persistent\u00a0infection\u00a0with\u00a0highrisk\u00a0human\u00a0papillomavirus\u00a0(HPV)\u00a0types\u00a0causes\u00a0nearly all \u00a0cervical \u00a0cancers \u00a0(4), \u00a0with \u00a0HPV \u00a0types \u00a016 \u00a0and \u00a018 accounting \u00a0for \u00a070% to \u00a075% of \u00a0cases \u00a0(5). \u00a0HPV",
+      "text": "China\u00a0faces\u00a0a\u00a0substantial\u00a0burden\u00a0of\u00a0cervical\u00a0cancer, with \u00a0rising \u00a0incidence \u00a0and \u00a0mortality \u00a0rates \u00a0and \u00a0a decreasing \u00a0average \u00a0age \u00a0of \u00a0onset \u00a0(1). \u00a0In \u00a02023, \u00a0the country \u00a0recorded \u00a0155,700 \u00a0new \u00a0cervical \u00a0cancer \u00a0cases and \u00a055,700 \u00a0deaths \u00a0from \u00a0the \u00a0disease \u00a0(2). \u00a0A \u00a0recent national \u00a0study \u00a0estimated \u00a0the \u00a0average \u00a0total \u00a0cost \u00a0of cervical \u00a0cancer \u00a0treatment \u00a0at \u00a0105,000 \u00a0to \u00a0191,000 Chinese\u00a0yuan\u00a0(CNY)\u00a0[approximately\u00a014,500\u00a0to\u00a026,400 US\u00a0Dollars\u00a0(USD)]\u00a0(3).\u00a0Persistent\u00a0infection\u00a0with\u00a0highrisk\u00a0human\u00a0papillomavirus\u00a0(HPV)\u00a0types\u00a0causes\u00a0nearly all \u00a0cervical \u00a0cancers \u00a0(4), \u00a0with \u00a0HPV \u00a0types \u00a016 \u00a0and \u00a018 accounting \u00a0for \u00a070% to \u00a075% of \u00a0cases \u00a0(5). \u00a0HPV"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 309.5469970703125,
+            "t": 583.5960083007812,
+            "r": 545.473876953125,
+            "b": 546.6069946289062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            142
+          ]
+        }
+      ],
+      "orig": "vaccination \u00a0generates \u00a0high-titer, \u00a0long-lasting neutralizing \u00a0antibodies \u00a0that \u00a0effectively \u00a0prevent \u00a0HPV infection\u00a0and\u00a0associated\u00a0diseases.",
+      "text": "vaccination \u00a0generates \u00a0high-titer, \u00a0long-lasting neutralizing \u00a0antibodies \u00a0that \u00a0effectively \u00a0prevent \u00a0HPV infection\u00a0and\u00a0associated\u00a0diseases."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 338.0299987792969,
+            "t": 524.85205078125,
+            "r": 516.9739990234375,
+            "b": 515.7080078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "HPV Vaccines Available in China",
+      "text": "HPV Vaccines Available in China",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 309.5469970703125,
+            "t": 509.94598388671875,
+            "r": 545.47412109375,
+            "b": 349.0769958496094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            601
+          ]
+        }
+      ],
+      "orig": "All \u00a0currently \u00a0available \u00a0HPV \u00a0vaccines \u00a0utilize \u00a0viruslike \u00a0particles \u00a0composed \u00a0of \u00a0the \u00a0HPV \u00a0L1 \u00a0major structural \u00a0protein \u00a0as \u00a0antigens. \u00a0By \u00a0valency, \u00a0these vaccines \u00a0are \u00a0classified \u00a0as: \u00a0bivalent \u00a0(targeting \u00a0types 16/18),\u00a0quadrivalent\u00a0(types\u00a06/11/16/18),\u00a0or\u00a0nonavalent (types \u00a06/11/16/18/31/33/45/52/58). \u00a0Seven \u00a0HPV vaccines \u00a0have \u00a0been \u00a0approved \u00a0for \u00a0use \u00a0in \u00a0China, comprising \u00a0three \u00a0bivalent, \u00a0two \u00a0quadrivalent, \u00a0and \u00a0two nonavalent \u00a0formulations. \u00a0The \u00a0HPV \u00a0vaccines incorporated\u00a0into\u00a0the\u00a0National\u00a0Immunization\u00a0Program (NIP) \u00a0are \u00a0bivalent \u00a0vaccines \u00a0targeting \u00a0HPV \u00a0types \u00a016 and\u00a018.",
+      "text": "All \u00a0currently \u00a0available \u00a0HPV \u00a0vaccines \u00a0utilize \u00a0viruslike \u00a0particles \u00a0composed \u00a0of \u00a0the \u00a0HPV \u00a0L1 \u00a0major structural \u00a0protein \u00a0as \u00a0antigens. \u00a0By \u00a0valency, \u00a0these vaccines \u00a0are \u00a0classified \u00a0as: \u00a0bivalent \u00a0(targeting \u00a0types 16/18),\u00a0quadrivalent\u00a0(types\u00a06/11/16/18),\u00a0or\u00a0nonavalent (types \u00a06/11/16/18/31/33/45/52/58). \u00a0Seven \u00a0HPV vaccines \u00a0have \u00a0been \u00a0approved \u00a0for \u00a0use \u00a0in \u00a0China, comprising \u00a0three \u00a0bivalent, \u00a0two \u00a0quadrivalent, \u00a0and \u00a0two nonavalent \u00a0formulations. \u00a0The \u00a0HPV \u00a0vaccines incorporated\u00a0into\u00a0the\u00a0National\u00a0Immunization\u00a0Program (NIP) \u00a0are \u00a0bivalent \u00a0vaccines \u00a0targeting \u00a0HPV \u00a0types \u00a016 and\u00a018."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 396.5899963378906,
+            "t": 327.708984375,
+            "r": 458.72998046875,
+            "b": 318.1669921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "METHODS",
+      "text": "METHODS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 309.4919738769531,
+            "t": 299.3269958496094,
+            "r": 547.9708862304688,
+            "b": 68.59300231933594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            849
+          ]
+        }
+      ],
+      "orig": "China \u00a0CDC \u00a0issued \u00a0the Technical and Implementation Guidelines for the Introduction of Human Papillomavirus Vaccine into China ' 's National Immunization Program. \u00a0The \u00a0HPV \u00a0Vaccine \u00a0Technical Working \u00a0Group \u00a0(TWG) \u00a0and \u00a0other \u00a0implementation groups\u00a0within\u00a0China\u00a0CDC\u00a0developed\u00a0these\u00a0guidelines based\u00a0on\u00a0comprehensive\u00a0evidence\u00a0including\u00a0the\u00a0burden of \u00a0HPV \u00a0infection \u00a0and \u00a0HPV -related \u00a0diseases, \u00a0premarket \u00a0clinical \u00a0trial \u00a0data, \u00a0and \u00a0post-marketing \u00a0realworld \u00a0data \u00a0on \u00a0HPV \u00a0vaccine \u00a0immunogenicity, effectiveness,\u00a0safety,\u00a0and\u00a0health\u00a0economics.\u00a0The\u00a0TWGs consulted \u00a0extensively \u00a0with \u00a0experts \u00a0and \u00a0government officials \u00a0to \u00a0incorporate \u00a0lessons \u00a0learned \u00a0from \u00a0HPV vaccination \u00a0programs \u00a0implemented \u00a0in \u00a0various municipalities\u00a0and\u00a0provinces.\u00a0The\u00a0TWGs\u00a0finalized\u00a0the recommendations\u00a0and\u00a0guidelines,\u00a0which\u00a0were\u00a0officially issued\u00a0in\u00a0November\u00a02025.",
+      "text": "China \u00a0CDC \u00a0issued \u00a0the Technical and Implementation Guidelines for the Introduction of Human Papillomavirus Vaccine into China ' 's National Immunization Program. \u00a0The \u00a0HPV \u00a0Vaccine \u00a0Technical Working \u00a0Group \u00a0(TWG) \u00a0and \u00a0other \u00a0implementation groups\u00a0within\u00a0China\u00a0CDC\u00a0developed\u00a0these\u00a0guidelines based\u00a0on\u00a0comprehensive\u00a0evidence\u00a0including\u00a0the\u00a0burden of \u00a0HPV \u00a0infection \u00a0and \u00a0HPV -related \u00a0diseases, \u00a0premarket \u00a0clinical \u00a0trial \u00a0data, \u00a0and \u00a0post-marketing \u00a0realworld \u00a0data \u00a0on \u00a0HPV \u00a0vaccine \u00a0immunogenicity, effectiveness,\u00a0safety,\u00a0and\u00a0health\u00a0economics.\u00a0The\u00a0TWGs consulted \u00a0extensively \u00a0with \u00a0experts \u00a0and \u00a0government officials \u00a0to \u00a0incorporate \u00a0lessons \u00a0learned \u00a0from \u00a0HPV vaccination \u00a0programs \u00a0implemented \u00a0in \u00a0various municipalities\u00a0and\u00a0provinces.\u00a0The\u00a0TWGs\u00a0finalized\u00a0the recommendations\u00a0and\u00a0guidelines,\u00a0which\u00a0were\u00a0officially issued\u00a0in\u00a0November\u00a02025."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 50.28799819946289,
+            "t": 41.85599899291992,
+            "r": 287.9919738769531,
+            "b": 34.2400016784668,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "Copyright \u00a9 2025 by Chinese Center for Disease Control and Prevention",
+      "text": "Copyright \u00a9 2025 by Chinese Center for Disease Control and Prevention"
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 393.0480041503906,
+            "t": 41.768001556396484,
+            "r": 544.6099853515625,
+            "b": 34.2400016784668,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "CCDC Weekly / Vol. 7 / No. 50 1545",
+      "text": "CCDC Weekly / Vol. 7 / No. 50 1545"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 263.343994140625,
+            "t": 771.218994140625,
+            "r": 332.0769958496094,
+            "b": 762.75,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "China CDC Weekly",
+      "text": "China CDC Weekly"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 103.38999938964844,
+            "t": 734.4920043945312,
+            "r": 232.822021484375,
+            "b": 725.3479614257812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "Rationale and Evidence",
+      "text": "Rationale and Evidence",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.933998107910156,
+            "t": 720.3060302734375,
+            "r": 285.54205322265625,
+            "b": 538.4429931640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            757
+          ]
+        }
+      ],
+      "orig": "Cervical\u00a0cancer\u00a0ranks\u00a0second\u00a0in\u00a0both\u00a0morbidity\u00a0and mortality \u00a0among \u00a0gynecological \u00a0cancers \u00a0in \u00a0China \u00a0(6). HPV \u00a0vaccination \u00a0effectively \u00a0prevents \u00a0infection \u00a0from vaccine -covered \u00a0HPV \u00a0types \u00a0and \u00a0associated \u00a0HPVrelated \u00a0diseases, \u00a0including \u00a0cervical \u00a0cancer. \u00a0Real-world international \u00a0studies \u00a0have \u00a0demonstrated \u00a0significant protection\u00a0conferred\u00a0by\u00a0bivalent\u00a0HPV\u00a0vaccines.\u00a0Health economic\u00a0evaluations\u00a0consistently\u00a0show\u00a0favorable\u00a0costeffectiveness \u00a0for \u00a0vaccinating \u00a0adolescent \u00a0girls. Vaccination\u00a0administered\u00a0before\u00a0sexual\u00a0debut\u00a0provides maximum \u00a0protection \u00a0(7). \u00a0Immune \u00a0response \u00a0induced by\u00a0a\u00a0two-dose\u00a0schedule\u00a0in\u00a0girls\u00a0aged\u00a0<15\u00a0years\u00a0is\u00a0noninferior\u00a0to\u00a0a\u00a0three -dose\u00a0schedule\u00a0in\u00a015 -26 -year -old women\u00a0and\u00a0provides\u00a0durable\u00a0protection\u00a0(8\u2013 8\u2013 10).",
+      "text": "Cervical\u00a0cancer\u00a0ranks\u00a0second\u00a0in\u00a0both\u00a0morbidity\u00a0and mortality \u00a0among \u00a0gynecological \u00a0cancers \u00a0in \u00a0China \u00a0(6). HPV \u00a0vaccination \u00a0effectively \u00a0prevents \u00a0infection \u00a0from vaccine -covered \u00a0HPV \u00a0types \u00a0and \u00a0associated \u00a0HPVrelated \u00a0diseases, \u00a0including \u00a0cervical \u00a0cancer. \u00a0Real-world international \u00a0studies \u00a0have \u00a0demonstrated \u00a0significant protection\u00a0conferred\u00a0by\u00a0bivalent\u00a0HPV\u00a0vaccines.\u00a0Health economic\u00a0evaluations\u00a0consistently\u00a0show\u00a0favorable\u00a0costeffectiveness \u00a0for \u00a0vaccinating \u00a0adolescent \u00a0girls. Vaccination\u00a0administered\u00a0before\u00a0sexual\u00a0debut\u00a0provides maximum \u00a0protection \u00a0(7). \u00a0Immune \u00a0response \u00a0induced by\u00a0a\u00a0two-dose\u00a0schedule\u00a0in\u00a0girls\u00a0aged\u00a0<15\u00a0years\u00a0is\u00a0noninferior\u00a0to\u00a0a\u00a0three -dose\u00a0schedule\u00a0in\u00a015 -26 -year -old women\u00a0and\u00a0provides\u00a0durable\u00a0protection\u00a0(8\u2013 8\u2013 10)."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.36199951171875,
+            "t": 536.406005859375,
+            "r": 286.8310241699219,
+            "b": 332.60198974609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            849
+          ]
+        }
+      ],
+      "orig": "HPV\u00a0vaccination\u00a0represents\u00a0a\u00a0fundamental\u00a0pillar\u00a0of the \u00a0World \u00a0Health \u00a0Organization ' s Global Strategy to Accelerate the Elimination of Cervical Cancer as a Public Health Problem. \u00a0Similarly, \u00a0vaccination \u00a0of \u00a0girls constitutes \u00a0a \u00a0core \u00a0prevention \u00a0measure \u00a0in \u00a0the \u00a0Chinese government ' s Action Plan for Accelerating the Elimination of Cervical Cancer (2023\u20132030).\u00a0Free\u00a0and subsidized \u00a0HPV \u00a0vaccination \u00a0pilot \u00a0programs implemented \u00a0across \u00a0various \u00a0municipalities \u00a0and provinces \u00a0have \u00a0generated \u00a0critical \u00a0evidence \u00a0regarding public \u00a0acceptance, \u00a0effective \u00a0school-based \u00a0vaccination delivery \u00a0models, \u00a0adverse \u00a0event \u00a0surveillance \u00a0systems, costeffectiveness, \u00a0and \u00a0inter -sectoral \u00a0coordination mechanisms. \u00a0As \u00a0a \u00a0program \u00a0vaccine, \u00a0government provision\u00a0ensures\u00a0equitable,\u00a0convenient,\u00a0and\u00a0free\u00a0access to\u00a0HPV\u00a0vaccines\u00a0for\u00a0all\u00a0eligible\u00a0girls.",
+      "text": "HPV\u00a0vaccination\u00a0represents\u00a0a\u00a0fundamental\u00a0pillar\u00a0of the \u00a0World \u00a0Health \u00a0Organization ' s Global Strategy to Accelerate the Elimination of Cervical Cancer as a Public Health Problem. \u00a0Similarly, \u00a0vaccination \u00a0of \u00a0girls constitutes \u00a0a \u00a0core \u00a0prevention \u00a0measure \u00a0in \u00a0the \u00a0Chinese government ' s Action Plan for Accelerating the Elimination of Cervical Cancer (2023\u20132030).\u00a0Free\u00a0and subsidized \u00a0HPV \u00a0vaccination \u00a0pilot \u00a0programs implemented \u00a0across \u00a0various \u00a0municipalities \u00a0and provinces \u00a0have \u00a0generated \u00a0critical \u00a0evidence \u00a0regarding public \u00a0acceptance, \u00a0effective \u00a0school-based \u00a0vaccination delivery \u00a0models, \u00a0adverse \u00a0event \u00a0surveillance \u00a0systems, costeffectiveness, \u00a0and \u00a0inter -sectoral \u00a0coordination mechanisms. \u00a0As \u00a0a \u00a0program \u00a0vaccine, \u00a0government provision\u00a0ensures\u00a0equitable,\u00a0convenient,\u00a0and\u00a0free\u00a0access to\u00a0HPV\u00a0vaccines\u00a0for\u00a0all\u00a0eligible\u00a0girls."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 81.11000061035156,
+            "t": 315.1159973144531,
+            "r": 254.64202880859375,
+            "b": 289.39801025390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Main Contents of the Technical Recommendations",
+      "text": "Main Contents of the Technical Recommendations",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.96699905395508,
+            "t": 284.3559875488281,
+            "r": 285.89581298828125,
+            "b": 181.44300842285156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            418
+          ]
+        }
+      ],
+      "orig": "The \u00a0technical \u00a0recommendations \u00a0for \u00a0HPV vaccination \u00a0establish \u00a0comprehensive \u00a0guidance \u00a0for proper\u00a0use\u00a0of\u00a0program\u00a0HPV\u00a0vaccines.\u00a0These\u00a0guidelines address \u00a0eligibility \u00a0criteria, \u00a0dosing \u00a0specifications, administration \u00a0routes, \u00a0routine \u00a0and \u00a0catch -up vaccination \u00a0schedules, \u00a0product \u00a0interchangeability considerations, \u00a0co -administration \u00a0with \u00a0other \u00a0vaccines, and\u00a0vaccination\u00a0approaches\u00a0for\u00a0special\u00a0populations.",
+      "text": "The \u00a0technical \u00a0recommendations \u00a0for \u00a0HPV vaccination \u00a0establish \u00a0comprehensive \u00a0guidance \u00a0for proper\u00a0use\u00a0of\u00a0program\u00a0HPV\u00a0vaccines.\u00a0These\u00a0guidelines address \u00a0eligibility \u00a0criteria, \u00a0dosing \u00a0specifications, administration \u00a0routes, \u00a0routine \u00a0and \u00a0catch -up vaccination \u00a0schedules, \u00a0product \u00a0interchangeability considerations, \u00a0co -administration \u00a0with \u00a0other \u00a0vaccines, and\u00a0vaccination\u00a0approaches\u00a0for\u00a0special\u00a0populations."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.933998107910156,
+            "t": 179.39599609375,
+            "r": 285.82806396484375,
+            "b": 65.7229995727539,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            485
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 309.9319763183594,
+            "t": 734.4660034179688,
+            "r": 545.133056640625,
+            "b": 646.4119873046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            486,
+            841
+          ]
+        }
+      ],
+      "orig": "Girls \u00a0born \u00a0after \u00a0November \u00a010, \u00a02011, \u00a0become eligible\u00a0for\u00a0vaccination\u00a0upon\u00a0reaching\u00a013\u00a0years\u00a0of\u00a0age. The\u00a0program\u00a0HPV\u00a0vaccine\u00a0follows\u00a0a\u00a0two-dose\u00a0schedule with \u00a0a \u00a06 -month \u00a0interval \u00a0between \u00a0doses. \u00a0The \u00a0second dose\u00a0should\u00a0be\u00a0administered\u00a0within\u00a012\u00a0months\u00a0of\u00a0the first \u00a0dose. \u00a0Each \u00a00.5 \u00a0mL \u00a0dose \u00a0is \u00a0administered \u00a0by intramuscular \u00a0injection \u00a0into \u00a0the \u00a0deltoid \u00a0muscle. \u00a0Girls born \u00a0after \u00a0November \u00a010, \u00a02011, \u00a0who \u00a0have \u00a0not completed \u00a0the \u00a0two-dose \u00a0routine \u00a0schedule \u00a0should receive \u00a0missed \u00a0doses \u00a0as \u00a0soon \u00a0as \u00a0possible \u00a0before \u00a0their 18th \u00a0birthday. \u00a0Immunocompromised \u00a0individuals \u00a0or those \u00a0living \u00a0with \u00a0human \u00a0immunodeficiency \u00a0virus (HIV)\u00a0should\u00a0follow\u00a0a\u00a0three -dose\u00a0schedule\u00a0as\u00a0specified in\u00a0the\u00a0prescribing\u00a0information.\u00a0HPV\u00a0vaccines\u00a0may\u00a0be coadministered \u00a0with \u00a0other \u00a0vaccines \u00a0when \u00a0given \u00a0at different\u00a0injection\u00a0sites.",
+      "text": "Girls \u00a0born \u00a0after \u00a0November \u00a010, \u00a02011, \u00a0become eligible\u00a0for\u00a0vaccination\u00a0upon\u00a0reaching\u00a013\u00a0years\u00a0of\u00a0age. The\u00a0program\u00a0HPV\u00a0vaccine\u00a0follows\u00a0a\u00a0two-dose\u00a0schedule with \u00a0a \u00a06 -month \u00a0interval \u00a0between \u00a0doses. \u00a0The \u00a0second dose\u00a0should\u00a0be\u00a0administered\u00a0within\u00a012\u00a0months\u00a0of\u00a0the first \u00a0dose. \u00a0Each \u00a00.5 \u00a0mL \u00a0dose \u00a0is \u00a0administered \u00a0by intramuscular \u00a0injection \u00a0into \u00a0the \u00a0deltoid \u00a0muscle. \u00a0Girls born \u00a0after \u00a0November \u00a010, \u00a02011, \u00a0who \u00a0have \u00a0not completed \u00a0the \u00a0two-dose \u00a0routine \u00a0schedule \u00a0should receive \u00a0missed \u00a0doses \u00a0as \u00a0soon \u00a0as \u00a0possible \u00a0before \u00a0their 18th \u00a0birthday. \u00a0Immunocompromised \u00a0individuals \u00a0or those \u00a0living \u00a0with \u00a0human \u00a0immunodeficiency \u00a0virus (HIV)\u00a0should\u00a0follow\u00a0a\u00a0three -dose\u00a0schedule\u00a0as\u00a0specified in\u00a0the\u00a0prescribing\u00a0information.\u00a0HPV\u00a0vaccines\u00a0may\u00a0be coadministered \u00a0with \u00a0other \u00a0vaccines \u00a0when \u00a0given \u00a0at different\u00a0injection\u00a0sites."
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 309.8769836425781,
+            "t": 644.4860229492188,
+            "r": 545.2676391601562,
+            "b": 453.8219909667969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            826
+          ]
+        }
+      ],
+      "orig": "The \u00a0two -dose \u00a0schedule \u00a0should \u00a0be \u00a0completed \u00a0using bivalent \u00a0HPV \u00a0vaccine \u00a0from \u00a0the \u00a0same \u00a0manufacturer. Substituting \u00a0subsequent \u00a0doses \u00a0with \u00a0vaccines \u00a0from different \u00a0manufacturers \u00a0is \u00a0not \u00a0recommended. However,\u00a0when\u00a0completing\u00a0the\u00a0schedule\u00a0with\u00a0the\u00a0same manufacturer ' s\u00a0vaccine\u00a0is\u00a0not\u00a0feasible,\u00a0remaining\u00a0doses may \u00a0be \u00a0administered \u00a0using \u00a0a \u00a0bivalent \u00a0HPV \u00a0vaccine from \u00a0a \u00a0different \u00a0manufacturer \u00a0following \u00a0informed consent. \u00a0Age-eligible \u00a0girls \u00a0who \u00a0previously \u00a0received \u00a0a dose \u00a0of \u00a0non -program \u00a0HPV \u00a0vaccine \u00a0and \u00a0desire \u00a0to receive \u00a0the \u00a0second \u00a0dose \u00a0with \u00a0program \u00a0HPV \u00a0vaccine may \u00a0do \u00a0so, \u00a0after \u00a0informed \u00a0consent. \u00a0Individuals \u00a0who complete \u00a0a \u00a0full \u00a0vaccination \u00a0course \u00a0with \u00a0any \u00a0licensed HPV \u00a0vaccine, \u00a0regardless \u00a0of \u00a0valency, \u00a0require \u00a0no additional\u00a0doses\u00a0and\u00a0are\u00a0considered\u00a0fully\u00a0vaccinated.",
+      "text": "The \u00a0two -dose \u00a0schedule \u00a0should \u00a0be \u00a0completed \u00a0using bivalent \u00a0HPV \u00a0vaccine \u00a0from \u00a0the \u00a0same \u00a0manufacturer. Substituting \u00a0subsequent \u00a0doses \u00a0with \u00a0vaccines \u00a0from different \u00a0manufacturers \u00a0is \u00a0not \u00a0recommended. However,\u00a0when\u00a0completing\u00a0the\u00a0schedule\u00a0with\u00a0the\u00a0same manufacturer ' s\u00a0vaccine\u00a0is\u00a0not\u00a0feasible,\u00a0remaining\u00a0doses may \u00a0be \u00a0administered \u00a0using \u00a0a \u00a0bivalent \u00a0HPV \u00a0vaccine from \u00a0a \u00a0different \u00a0manufacturer \u00a0following \u00a0informed consent. \u00a0Age-eligible \u00a0girls \u00a0who \u00a0previously \u00a0received \u00a0a dose \u00a0of \u00a0non -program \u00a0HPV \u00a0vaccine \u00a0and \u00a0desire \u00a0to receive \u00a0the \u00a0second \u00a0dose \u00a0with \u00a0program \u00a0HPV \u00a0vaccine may \u00a0do \u00a0so, \u00a0after \u00a0informed \u00a0consent. \u00a0Individuals \u00a0who complete \u00a0a \u00a0full \u00a0vaccination \u00a0course \u00a0with \u00a0any \u00a0licensed HPV \u00a0vaccine, \u00a0regardless \u00a0of \u00a0valency, \u00a0require \u00a0no additional\u00a0doses\u00a0and\u00a0are\u00a0considered\u00a0fully\u00a0vaccinated."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 309.5469970703125,
+            "t": 451.385986328125,
+            "r": 545.473876953125,
+            "b": 403.7749938964844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "Province -level \u00a0immunization \u00a0programs \u00a0are encouraged\u00a0to\u00a0expand\u00a0the\u00a0target\u00a0population\u00a0to\u00a0include multi -age\u00a0cohorts\u00a0of\u00a0girls\u00a0over\u00a013\u00a0years\u00a0of\u00a0age\u00a0for\u00a0HPV vaccination.",
+      "text": "Province -level \u00a0immunization \u00a0programs \u00a0are encouraged\u00a0to\u00a0expand\u00a0the\u00a0target\u00a0population\u00a0to\u00a0include multi -age\u00a0cohorts\u00a0of\u00a0girls\u00a0over\u00a013\u00a0years\u00a0of\u00a0age\u00a0for\u00a0HPV vaccination."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 321.739990234375,
+            "t": 383.5159912109375,
+            "r": 533.2640380859375,
+            "b": 357.7980041503906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "Main Contents of the Implementation Guidelines",
+      "text": "Main Contents of the Implementation Guidelines",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 309.78900146484375,
+            "t": 352.7659912109375,
+            "r": 545.121826171875,
+            "b": 226.22500610351562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            479
+          ]
+        }
+      ],
+      "orig": "The\u00a0implementation\u00a0guidelines\u00a0establish\u00a0procedures to \u00a0promote \u00a0smooth, \u00a0full \u00a0vaccination \u00a0of \u00a0the \u00a0target population. \u00a0These \u00a0guidelines \u00a0address \u00a0vaccine procurement, \u00a0target \u00a0population \u00a0enumeration, mobilization\u00a0and\u00a0organization\u00a0of\u00a0vaccination\u00a0activities, public\u00a0communications,\u00a0adverse\u00a0event\u00a0monitoring\u00a0and management, \u00a0use \u00a0of \u00a0Immunization \u00a0Information Systems \u00a0(IIS) \u00a0for \u00a0recording \u00a0vaccinations, \u00a0and monitoring \u00a0of \u00a0vaccine \u00a0supply, \u00a0demand, \u00a0and \u00a0coverage over\u00a0time.",
+      "text": "The\u00a0implementation\u00a0guidelines\u00a0establish\u00a0procedures to \u00a0promote \u00a0smooth, \u00a0full \u00a0vaccination \u00a0of \u00a0the \u00a0target population. \u00a0These \u00a0guidelines \u00a0address \u00a0vaccine procurement, \u00a0target \u00a0population \u00a0enumeration, mobilization\u00a0and\u00a0organization\u00a0of\u00a0vaccination\u00a0activities, public\u00a0communications,\u00a0adverse\u00a0event\u00a0monitoring\u00a0and management, \u00a0use \u00a0of \u00a0Immunization \u00a0Information Systems \u00a0(IIS) \u00a0for \u00a0recording \u00a0vaccinations, \u00a0and monitoring \u00a0of \u00a0vaccine \u00a0supply, \u00a0demand, \u00a0and \u00a0coverage over\u00a0time."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 309.5469970703125,
+            "t": 221.22601318359375,
+            "r": 545.1218872070312,
+            "b": 147.3050079345703,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            286
+          ]
+        }
+      ],
+      "orig": "Province -level \u00a0immunization \u00a0programs \u00a0formulate procurement \u00a0plans, \u00a0while \u00a0China \u00a0CDC \u00a0organizes centralized \u00a0tender \u00a0procurement. \u00a0Local \u00a0CDCs \u00a0and vaccination \u00a0units \u00a0should \u00a0evaluate \u00a0vaccine \u00a0storage \u00a0and transportation \u00a0capacity \u00a0to \u00a0ensure \u00a0proper \u00a0management of\u00a0HPV\u00a0vaccines.",
+      "text": "Province -level \u00a0immunization \u00a0programs \u00a0formulate procurement \u00a0plans, \u00a0while \u00a0China \u00a0CDC \u00a0organizes centralized \u00a0tender \u00a0procurement. \u00a0Local \u00a0CDCs \u00a0and vaccination \u00a0units \u00a0should \u00a0evaluate \u00a0vaccine \u00a0storage \u00a0and transportation \u00a0capacity \u00a0to \u00a0ensure \u00a0proper \u00a0management of\u00a0HPV\u00a0vaccines."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 309.51397705078125,
+            "t": 142.30599975585938,
+            "r": 545.2427978515625,
+            "b": 65.7229995727539,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            304
+          ]
+        }
+      ],
+      "orig": "CDCs \u00a0and \u00a0vaccination \u00a0units \u00a0should \u00a0record \u00a0vaccine inventory\u00a0movements\u00a0in\u00a0their\u00a0provincial\u00a0IIS,\u00a0monitor vaccine \u00a0supply \u00a0and \u00a0demand \u00a0to \u00a0ensure \u00a0balanced distribution, \u00a0and \u00a0exchange \u00a0vaccine \u00a0distribution \u00a0data with\u00a0both\u00a0the\u00a0vaccine\u00a0traceability\u00a0collaborative\u00a0service platform\u00a0and\u00a0the\u00a0National\u00a0IIS.",
+      "text": "CDCs \u00a0and \u00a0vaccination \u00a0units \u00a0should \u00a0record \u00a0vaccine inventory\u00a0movements\u00a0in\u00a0their\u00a0provincial\u00a0IIS,\u00a0monitor vaccine \u00a0supply \u00a0and \u00a0demand \u00a0to \u00a0ensure \u00a0balanced distribution, \u00a0and \u00a0exchange \u00a0vaccine \u00a0distribution \u00a0data with\u00a0both\u00a0the\u00a0vaccine\u00a0traceability\u00a0collaborative\u00a0service platform\u00a0and\u00a0the\u00a0National\u00a0IIS."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 50.832000732421875,
+            "t": 41.768001556396484,
+            "r": 202.1079864501953,
+            "b": 34.2400016784668,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "1546 CCDC Weekly / Vol. 7 / No. 50",
+      "text": "1546 CCDC Weekly / Vol. 7 / No. 50"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 377.2179870605469,
+            "t": 41.85599899291992,
+            "r": 544.5859985351562,
+            "b": 35.91999816894531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Chinese Center for Disease Control and Prevention",
+      "text": "Chinese Center for Disease Control and Prevention"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 263.343994140625,
+            "t": 771.218994140625,
+            "r": 332.0769958496094,
+            "b": 762.75,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "China CDC Weekly",
+      "text": "China CDC Weekly"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.30799865722656,
+            "t": 734.4660034179688,
+            "r": 285.82806396484375,
+            "b": 578.9129638671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            644
+          ]
+        }
+      ],
+      "orig": "Local\u00a0departments\u00a0of\u00a0disease\u00a0control\u00a0and\u00a0prevention, education,\u00a0and\u00a0health\u00a0should\u00a0collaborate\u00a0to\u00a0conduct\u00a0a census \u00a0of \u00a0the \u00a0target \u00a0population \u00a0and \u00a0develop coordinated \u00a0plans \u00a0for \u00a0school \u00a0engagement, \u00a0public outreach, \u00a0and \u00a0social \u00a0mobilization. \u00a0They \u00a0should maintain \u00a0regular \u00a0communication \u00a0regarding \u00a0the number\u00a0of\u00a0eligible\u00a0girls\u00a0and\u00a0those\u00a0vaccinated\u00a0to\u00a0enable timely \u00a0remobilization \u00a0efforts \u00a0when \u00a0needed. \u00a0For \u00a0ageeligible \u00a0girls \u00a0not \u00a0enrolled \u00a0in \u00a0schools, \u00a0township \u00a0and streetlevel \u00a0government \u00a0departments \u00a0should \u00a0identify these\u00a0individuals\u00a0within\u00a0their\u00a0jurisdictions\u00a0and\u00a0conduct appropriate\u00a0outreach\u00a0and\u00a0mobilization\u00a0activities.",
+      "text": "Local\u00a0departments\u00a0of\u00a0disease\u00a0control\u00a0and\u00a0prevention, education,\u00a0and\u00a0health\u00a0should\u00a0collaborate\u00a0to\u00a0conduct\u00a0a census \u00a0of \u00a0the \u00a0target \u00a0population \u00a0and \u00a0develop coordinated \u00a0plans \u00a0for \u00a0school \u00a0engagement, \u00a0public outreach, \u00a0and \u00a0social \u00a0mobilization. \u00a0They \u00a0should maintain \u00a0regular \u00a0communication \u00a0regarding \u00a0the number\u00a0of\u00a0eligible\u00a0girls\u00a0and\u00a0those\u00a0vaccinated\u00a0to\u00a0enable timely \u00a0remobilization \u00a0efforts \u00a0when \u00a0needed. \u00a0For \u00a0ageeligible \u00a0girls \u00a0not \u00a0enrolled \u00a0in \u00a0schools, \u00a0township \u00a0and streetlevel \u00a0government \u00a0departments \u00a0should \u00a0identify these\u00a0individuals\u00a0within\u00a0their\u00a0jurisdictions\u00a0and\u00a0conduct appropriate\u00a0outreach\u00a0and\u00a0mobilization\u00a0activities."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.96699905395508,
+            "t": 576.5660400390625,
+            "r": 285.5438232421875,
+            "b": 513.1129760742188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            244
+          ]
+        }
+      ],
+      "orig": "County-level \u00a0CDCs \u00a0should \u00a0integrate \u00a0target population\u00a0lists\u00a0from\u00a0both\u00a0in-school\u00a0and\u00a0out-of-school sources \u00a0into \u00a0the \u00a0IIS \u00a0and \u00a0share \u00a0these \u00a0data \u00a0with vaccination\u00a0units.\u00a0Any\u00a0individuals\u00a0not\u00a0yet\u00a0included\u00a0in the\u00a0IIS\u00a0should\u00a0be\u00a0added\u00a0promptly.",
+      "text": "County-level \u00a0CDCs \u00a0should \u00a0integrate \u00a0target population\u00a0lists\u00a0from\u00a0both\u00a0in-school\u00a0and\u00a0out-of-school sources \u00a0into \u00a0the \u00a0IIS \u00a0and \u00a0share \u00a0these \u00a0data \u00a0with vaccination\u00a0units.\u00a0Any\u00a0individuals\u00a0not\u00a0yet\u00a0included\u00a0in the\u00a0IIS\u00a0should\u00a0be\u00a0added\u00a0promptly."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.94499969482422,
+            "t": 510.7659912109375,
+            "r": 285.8276062011719,
+            "b": 394.6929931640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            465
+          ]
+        }
+      ],
+      "orig": "All \u00a0vaccination \u00a0units \u00a0providing \u00a0routine immunization \u00a0services \u00a0should \u00a0offer \u00a0HPV \u00a0vaccination. Vaccination \u00a0units \u00a0should \u00a0provide \u00a0convenient appointment\u00a0scheduling\u00a0options,\u00a0such\u00a0as\u00a0smartphonebased \u00a0vaccination \u00a0applications. \u00a0When \u00a0vaccination services \u00a0in \u00a0schools \u00a0are \u00a0desired, \u00a0temporary \u00a0vaccination sites \u00a0may \u00a0be \u00a0established \u00a0in \u00a0schools \u00a0upon \u00a0approval \u00a0by county \u00a0or \u00a0district \u00a0disease \u00a0control \u00a0and \u00a0prevention departments\u00a0and\u00a0health\u00a0authorities.",
+      "text": "All \u00a0vaccination \u00a0units \u00a0providing \u00a0routine immunization \u00a0services \u00a0should \u00a0offer \u00a0HPV \u00a0vaccination. Vaccination \u00a0units \u00a0should \u00a0provide \u00a0convenient appointment\u00a0scheduling\u00a0options,\u00a0such\u00a0as\u00a0smartphonebased \u00a0vaccination \u00a0applications. \u00a0When \u00a0vaccination services \u00a0in \u00a0schools \u00a0are \u00a0desired, \u00a0temporary \u00a0vaccination sites \u00a0may \u00a0be \u00a0established \u00a0in \u00a0schools \u00a0upon \u00a0approval \u00a0by county \u00a0or \u00a0district \u00a0disease \u00a0control \u00a0and \u00a0prevention departments\u00a0and\u00a0health\u00a0authorities."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.96699905395508,
+            "t": 392.3459777832031,
+            "r": 285.521484375,
+            "b": 289.4230041503906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            428
+          ]
+        }
+      ],
+      "orig": "All \u00a0regions \u00a0and \u00a0localities \u00a0must \u00a0adhere \u00a0to \u00a0standard informed\u00a0consent\u00a0principles.\u00a0For\u00a0in-school\u00a0vaccination, schools \u00a0should \u00a0distribute \u00a0informed \u00a0consent \u00a0forms \u00a0in advance, \u00a0and \u00a0eligible \u00a0girls \u00a0must \u00a0present \u00a0identification documents \u00a0and \u00a0guardian-signed \u00a0consent \u00a0forms \u00a0before vaccination. \u00a0For \u00a0out -offschool \u00a0vaccination, \u00a0guardians must\u00a0accompany\u00a0the\u00a0girl\u00a0to\u00a0the\u00a0vaccination\u00a0unit\u00a0with appropriate\u00a0documentation.",
+      "text": "All \u00a0regions \u00a0and \u00a0localities \u00a0must \u00a0adhere \u00a0to \u00a0standard informed\u00a0consent\u00a0principles.\u00a0For\u00a0in-school\u00a0vaccination, schools \u00a0should \u00a0distribute \u00a0informed \u00a0consent \u00a0forms \u00a0in advance, \u00a0and \u00a0eligible \u00a0girls \u00a0must \u00a0present \u00a0identification documents \u00a0and \u00a0guardian-signed \u00a0consent \u00a0forms \u00a0before vaccination. \u00a0For \u00a0out -offschool \u00a0vaccination, \u00a0guardians must\u00a0accompany\u00a0the\u00a0girl\u00a0to\u00a0the\u00a0vaccination\u00a0unit\u00a0with appropriate\u00a0documentation."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 49.96699905395508,
+            "t": 287.07598876953125,
+            "r": 285.5528564453125,
+            "b": 134.0869903564453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            623
+          ]
+        }
+      ],
+      "orig": "Vaccination\u00a0must\u00a0adhere\u00a0to\u00a0standardized\u00a0protocols: Three \u00a0Checks \u00a0(check \u00a0recipient ' s \u00a0health \u00a0status \u00a0and absence \u00a0of \u00a0contraindications, \u00a0vaccination \u00a0certificates, vaccine \u00a0appearance \u00a0/lot \u00a0number \u00a0/expiration \u00a0date); Seven \u00a0Verifications \u00a0(verify \u00a0recipient ' s \u00a0name, \u00a0age, vaccine\u00a0type,\u00a0specifications,\u00a0dosage,\u00a0injection\u00a0site,\u00a0and administration \u00a0route); \u00a0and \u00a0One \u00a0Confirmation (confirm\u00a0the\u00a0correct\u00a0vaccine\u00a0is\u00a0being\u00a0administered\u00a0and has \u00a0not \u00a0expired). \u00a0All \u00a0recipients \u00a0must \u00a0remain \u00a0under observation\u00a0for\u00a030\u00a0minutes\u00a0post-vaccination\u00a0to\u00a0enable prompt \u00a0detection \u00a0and \u00a0management \u00a0of \u00a0immediate adverse\u00a0reactions.",
+      "text": "Vaccination\u00a0must\u00a0adhere\u00a0to\u00a0standardized\u00a0protocols: Three \u00a0Checks \u00a0(check \u00a0recipient ' s \u00a0health \u00a0status \u00a0and absence \u00a0of \u00a0contraindications, \u00a0vaccination \u00a0certificates, vaccine \u00a0appearance \u00a0/lot \u00a0number \u00a0/expiration \u00a0date); Seven \u00a0Verifications \u00a0(verify \u00a0recipient ' s \u00a0name, \u00a0age, vaccine\u00a0type,\u00a0specifications,\u00a0dosage,\u00a0injection\u00a0site,\u00a0and administration \u00a0route); \u00a0and \u00a0One \u00a0Confirmation (confirm\u00a0the\u00a0correct\u00a0vaccine\u00a0is\u00a0being\u00a0administered\u00a0and has \u00a0not \u00a0expired). \u00a0All \u00a0recipients \u00a0must \u00a0remain \u00a0under observation\u00a0for\u00a030\u00a0minutes\u00a0post-vaccination\u00a0to\u00a0enable prompt \u00a0detection \u00a0and \u00a0management \u00a0of \u00a0immediate adverse\u00a0reactions."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.0,
+            "t": 129.177001953125,
+            "r": 285.5196228027344,
+            "b": 65.60200500488281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            286
+          ]
+        },
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 309.3709716796875,
+            "t": 734.4660034179688,
+            "r": 546.1888427734375,
+            "b": 579.5120239257812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            287,
+            932
+          ]
+        }
+      ],
+      "orig": "Following Guidelines for Vaccination Practices (2023 Edition),\u00a0vaccination\u00a0clinic\u00a0staff\u00a0shall\u00a0enter\u00a0vaccination information \u00a0into \u00a0the \u00a0IIS \u00a0in \u00a0a \u00a0timely \u00a0manner \u00a0and provide \u00a0printed \u00a0vaccination \u00a0certificates \u00a0to \u00a0guardians. Provincial \u00a0CDCs \u00a0are \u00a0responsible \u00a0for \u00a0completing \u00a0local IIS \u00a0upgrades \u00a0and \u00a0conducting \u00a0necessary \u00a0professional training. \u00a0In \u00a0accordance \u00a0with \u00a0the National Immunization Program Vaccination Coverage Monitoring Plan (Trial), \u00a0localities \u00a0should \u00a0analyze \u00a0and report \u00a0vaccination \u00a0coverage \u00a0monthly, \u00a0monitor \u00a0HPV vaccination \u00a0progress \u00a0closely, \u00a0and \u00a0maintain \u00a0active information \u00a0sharing \u00a0and \u00a0collaboration \u00a0with \u00a0education departments.\u00a0Vaccination\u00a0units\u00a0should\u00a0regularly\u00a0review the \u00a0list \u00a0of \u00a0unvaccinated \u00a0and \u00a0under -vaccinated \u00a0ageappropriate\u00a0girls\u00a0through\u00a0the\u00a0IIS \uff0c notify\u00a0their\u00a0guardians or \u00a0provide \u00a0feedback \u00a0to \u00a0the \u00a0schools \u00a0for \u00a0encouraging guardians\u00a0to\u00a0catch-up\u00a0vaccination\u00a0of\u00a0the\u00a0girls.",
+      "text": "Following Guidelines for Vaccination Practices (2023 Edition),\u00a0vaccination\u00a0clinic\u00a0staff\u00a0shall\u00a0enter\u00a0vaccination information \u00a0into \u00a0the \u00a0IIS \u00a0in \u00a0a \u00a0timely \u00a0manner \u00a0and provide \u00a0printed \u00a0vaccination \u00a0certificates \u00a0to \u00a0guardians. Provincial \u00a0CDCs \u00a0are \u00a0responsible \u00a0for \u00a0completing \u00a0local IIS \u00a0upgrades \u00a0and \u00a0conducting \u00a0necessary \u00a0professional training. \u00a0In \u00a0accordance \u00a0with \u00a0the National Immunization Program Vaccination Coverage Monitoring Plan (Trial), \u00a0localities \u00a0should \u00a0analyze \u00a0and report \u00a0vaccination \u00a0coverage \u00a0monthly, \u00a0monitor \u00a0HPV vaccination \u00a0progress \u00a0closely, \u00a0and \u00a0maintain \u00a0active information \u00a0sharing \u00a0and \u00a0collaboration \u00a0with \u00a0education departments.\u00a0Vaccination\u00a0units\u00a0should\u00a0regularly\u00a0review the \u00a0list \u00a0of \u00a0unvaccinated \u00a0and \u00a0under -vaccinated \u00a0ageappropriate\u00a0girls\u00a0through\u00a0the\u00a0IIS \uff0c notify\u00a0their\u00a0guardians or \u00a0provide \u00a0feedback \u00a0to \u00a0the \u00a0schools \u00a0for \u00a0encouraging guardians\u00a0to\u00a0catch-up\u00a0vaccination\u00a0of\u00a0the\u00a0girls."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 309.5799865722656,
+            "t": 577.3460083007812,
+            "r": 547.970947265625,
+            "b": 449.73699951171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            517
+          ]
+        }
+      ],
+      "orig": "All \u00a0CDCs, \u00a0vaccination \u00a0units, \u00a0and \u00a0medical institutions\u00a0shall\u00a0strengthen\u00a0training\u00a0on\u00a0adverse\u00a0events following\u00a0immunization\u00a0(AEFI)\u00a0monitoring,\u00a0reporting, investigation,\u00a0diagnosis,\u00a0and\u00a0data\u00a0analysis\u00a0according\u00a0to their \u00a0designated \u00a0responsibilities, \u00a0as \u00a0mandated \u00a0by \u00a0the Vaccine Administration Law of the People ' 's Republic of China, \u00a0the Measures for the Identification of Adverse Events Following Immunization, \u00a0and \u00a0the National Surveillance Guideline for Adverse Events Following Immunization (2022 Edition) .",
+      "text": "All \u00a0CDCs, \u00a0vaccination \u00a0units, \u00a0and \u00a0medical institutions\u00a0shall\u00a0strengthen\u00a0training\u00a0on\u00a0adverse\u00a0events following\u00a0immunization\u00a0(AEFI)\u00a0monitoring,\u00a0reporting, investigation,\u00a0diagnosis,\u00a0and\u00a0data\u00a0analysis\u00a0according\u00a0to their \u00a0designated \u00a0responsibilities, \u00a0as \u00a0mandated \u00a0by \u00a0the Vaccine Administration Law of the People ' 's Republic of China, \u00a0the Measures for the Identification of Adverse Events Following Immunization, \u00a0and \u00a0the National Surveillance Guideline for Adverse Events Following Immunization (2022 Edition) ."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 309.78900146484375,
+            "t": 446.4159851074219,
+            "r": 545.4078369140625,
+            "b": 304.7820129394531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            572
+          ]
+        }
+      ],
+      "orig": "Vaccination \u00a0should \u00a0be \u00a0scheduled \u00a0to \u00a0avoid examination \u00a0periods \u00a0and \u00a0times \u00a0when \u00a0students \u00a0may experience \u00a0excessive \u00a0stress, \u00a0fatigue, \u00a0or \u00a0hunger. Following\u00a0vaccination,\u00a0all\u00a0recipients\u00a0should\u00a0undergo\u00a0a 30 -minute \u00a0on -site \u00a0observation \u00a0period \u00a0to \u00a0monitor \u00a0for immediate \u00a0reactions \u00a0such \u00a0as \u00a0acute \u00a0allergic \u00a0reaction \u00a0or fainting. \u00a0AEFIs \u00a0occurring \u00a0during \u00a0observation \u00a0shall \u00a0be managed \u00a0properly, \u00a0taking \u00a0care \u00a0to \u00a0avoid \u00a0mass psychogenic \u00a0reactions. \u00a0In \u00a0case \u00a0of \u00a0a \u00a0suspected \u00a0mass psychogenic \u00a0reaction, \u00a0response \u00a0measures \u00a0should \u00a0be taken\u00a0immediately.",
+      "text": "Vaccination \u00a0should \u00a0be \u00a0scheduled \u00a0to \u00a0avoid examination \u00a0periods \u00a0and \u00a0times \u00a0when \u00a0students \u00a0may experience \u00a0excessive \u00a0stress, \u00a0fatigue, \u00a0or \u00a0hunger. Following\u00a0vaccination,\u00a0all\u00a0recipients\u00a0should\u00a0undergo\u00a0a 30 -minute \u00a0on -site \u00a0observation \u00a0period \u00a0to \u00a0monitor \u00a0for immediate \u00a0reactions \u00a0such \u00a0as \u00a0acute \u00a0allergic \u00a0reaction \u00a0or fainting. \u00a0AEFIs \u00a0occurring \u00a0during \u00a0observation \u00a0shall \u00a0be managed \u00a0properly, \u00a0taking \u00a0care \u00a0to \u00a0avoid \u00a0mass psychogenic \u00a0reactions. \u00a0In \u00a0case \u00a0of \u00a0a \u00a0suspected \u00a0mass psychogenic \u00a0reaction, \u00a0response \u00a0measures \u00a0should \u00a0be taken\u00a0immediately."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 309.78900146484375,
+            "t": 302.39599609375,
+            "r": 545.1326293945312,
+            "b": 176.32699584960938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            526
+          ]
+        }
+      ],
+      "orig": "Provinces \u00a0may \u00a0conduct \u00a0public \u00a0communication \u00a0and media \u00a0engagement \u00a0activities \u00a0based \u00a0on \u00a0this \u00a0technical plan\u00a0and\u00a0according\u00a0to\u00a0locality\u00a0situations.\u00a0Efforts\u00a0should be\u00a0made\u00a0to\u00a0promote\u00a0public\u00a0awareness\u00a0of\u00a0the\u00a0rationale and \u00a0significance \u00a0of \u00a0incorporating \u00a0HPV \u00a0vaccination into \u00a0the \u00a0National \u00a0Immunization \u00a0Program, \u00a0distribute educational\u00a0materials,\u00a0and\u00a0monitor\u00a0and\u00a0analyze\u00a0public sentiment.\u00a0Guidance\u00a0on\u00a0public\u00a0media\u00a0platforms\u00a0should be \u00a0strengthened \u00a0to \u00a0ensure \u00a0dissemination \u00a0of \u00a0accurate, evidence -based\u00a0information.",
+      "text": "Provinces \u00a0may \u00a0conduct \u00a0public \u00a0communication \u00a0and media \u00a0engagement \u00a0activities \u00a0based \u00a0on \u00a0this \u00a0technical plan\u00a0and\u00a0according\u00a0to\u00a0locality\u00a0situations.\u00a0Efforts\u00a0should be\u00a0made\u00a0to\u00a0promote\u00a0public\u00a0awareness\u00a0of\u00a0the\u00a0rationale and \u00a0significance \u00a0of \u00a0incorporating \u00a0HPV \u00a0vaccination into \u00a0the \u00a0National \u00a0Immunization \u00a0Program, \u00a0distribute educational\u00a0materials,\u00a0and\u00a0monitor\u00a0and\u00a0analyze\u00a0public sentiment.\u00a0Guidance\u00a0on\u00a0public\u00a0media\u00a0platforms\u00a0should be \u00a0strengthened \u00a0to \u00a0ensure \u00a0dissemination \u00a0of \u00a0accurate, evidence -based\u00a0information."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 389.77001953125,
+            "t": 156.50900268554688,
+            "r": 464.9620056152344,
+            "b": 146.9669952392578,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "DISCUSSION",
+      "text": "DISCUSSION",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 309.5469970703125,
+            "t": 128.906005859375,
+            "r": 545.47412109375,
+            "b": 65.7229995727539,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            261
+          ]
+        },
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.96699905395508,
+            "t": 734.4660034179688,
+            "r": 285.51983642578125,
+            "b": 634.5270385742188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            262,
+            646
+          ]
+        }
+      ],
+      "orig": "The\u00a0introduction\u00a0of\u00a0HPV\u00a0vaccine\u00a0into\u00a0China ' s\u00a0NIP marks \u00a0the \u00a0first \u00a0expansion \u00a0of \u00a0the \u00a0program ' s \u00a0protective scope\u00a0since\u00a02007.\u00a0These\u00a0technical\u00a0and\u00a0implementation guidelines \u00a0define \u00a0the \u00a0target \u00a0population \u00a0for \u00a0HPV vaccination \u00a0and \u00a0provide \u00a0comprehensive recommendations \u00a0for \u00a0both \u00a0routine \u00a0and \u00a0catch -up vaccination, \u00a0and \u00a0provide \u00a0recommendations \u00a0for \u00a0the special \u00a0populations \u00a0of \u00a0immunocompromised individuals \u00a0and \u00a0individuals \u00a0living \u00a0with \u00a0HIV. \u00a0The implementation\u00a0guidelines\u00a0delineate\u00a0the\u00a0responsibilities of \u00a0relevant \u00a0entities \u00a0and \u00a0their \u00a0specific \u00a0tasks \u00a0while offering\u00a0practical\u00a0strategies\u00a0to\u00a0ensure\u00a0smooth\u00a0program rollout.",
+      "text": "The\u00a0introduction\u00a0of\u00a0HPV\u00a0vaccine\u00a0into\u00a0China ' s\u00a0NIP marks \u00a0the \u00a0first \u00a0expansion \u00a0of \u00a0the \u00a0program ' s \u00a0protective scope\u00a0since\u00a02007.\u00a0These\u00a0technical\u00a0and\u00a0implementation guidelines \u00a0define \u00a0the \u00a0target \u00a0population \u00a0for \u00a0HPV vaccination \u00a0and \u00a0provide \u00a0comprehensive recommendations \u00a0for \u00a0both \u00a0routine \u00a0and \u00a0catch -up vaccination, \u00a0and \u00a0provide \u00a0recommendations \u00a0for \u00a0the special \u00a0populations \u00a0of \u00a0immunocompromised individuals \u00a0and \u00a0individuals \u00a0living \u00a0with \u00a0HIV. \u00a0The implementation\u00a0guidelines\u00a0delineate\u00a0the\u00a0responsibilities of \u00a0relevant \u00a0entities \u00a0and \u00a0their \u00a0specific \u00a0tasks \u00a0while offering\u00a0practical\u00a0strategies\u00a0to\u00a0ensure\u00a0smooth\u00a0program rollout."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 50.28799819946289,
+            "t": 41.85599899291992,
+            "r": 217.65599060058594,
+            "b": 35.91999816894531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Chinese Center for Disease Control and Prevention",
+      "text": "Chinese Center for Disease Control and Prevention"
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 393.0480041503906,
+            "t": 41.768001556396484,
+            "r": 544.7779541015625,
+            "b": 34.2400016784668,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "CCDC Weekly / Vol. 7 / No. 50 1547",
+      "text": "CCDC Weekly / Vol. 7 / No. 50 1547"
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 263.343994140625,
+            "t": 771.218994140625,
+            "r": 332.0769958496094,
+            "b": 762.75,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "China CDC Weekly",
+      "text": "China CDC Weekly"
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.198001861572266,
+            "t": 629.666015625,
+            "r": 286.8291320800781,
+            "b": 409.1319885253906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            935
+          ]
+        }
+      ],
+      "orig": "The\u00a0NIP ' s\u00a0policy\u00a0of\u00a0providing\u00a0two\u00a0doses\u00a0of\u00a0bivalent HPV \u00a0vaccine \u00a0(types \u00a016/18) \u00a0to \u00a013-year-old \u00a0females aligns\u00a0with\u00a0current\u00a0regulatory\u00a0prescribing\u00a0information and\u00a0is\u00a0grounded\u00a0in\u00a0robust\u00a0evidence\u00a0for\u00a0cervical\u00a0cancer prevention,\u00a0supported\u00a0by\u00a0a\u00a0sufficient\u00a0and\u00a0secure\u00a0supply of \u00a0affordable \u00a0vaccines. \u00a0The \u00a0guidelines \u00a0do \u00a0not recommend \u00a0vaccination \u00a0using \u00a0two \u00a0different manufacturers ' vaccines \u00a0for \u00a0an \u00a0individual \u00a0because \u00a0of sparse \u00a0data \u00a0especially \u00a0domestic \u00a0evidences \u00a0on interchangeability \u00a0of \u00a0vaccines \u00a0with \u00a0different \u00a0valencies and\u00a0same\u00a0valencies\u00a0from\u00a0different\u00a0manufacturers.\u00a0With the\u00a0current\u00a0and\u00a0impending\u00a0availability\u00a0of\u00a0new\u00a0domestic higher-valency \u00a0HPV \u00a0vaccines, \u00a0evidences \u00a0of \u00a0additional evidence \u00a0regarding \u00a0the \u00a0immunogenicity, \u00a0effectiveness, and \u00a0safety \u00a0of \u00a0vaccine \u00a0interchangeability \u2014 as \u00a0well \u00a0as the\u00a0potential\u00a0efficacy\u00a0of\u00a0a\u00a0one-dose\u00a0regimen \u2014 will\u00a0be needed\u00a0for\u00a0refining\u00a0future\u00a0HPV\u00a0vaccination\u00a0policies.",
+      "text": "The\u00a0NIP ' s\u00a0policy\u00a0of\u00a0providing\u00a0two\u00a0doses\u00a0of\u00a0bivalent HPV \u00a0vaccine \u00a0(types \u00a016/18) \u00a0to \u00a013-year-old \u00a0females aligns\u00a0with\u00a0current\u00a0regulatory\u00a0prescribing\u00a0information and\u00a0is\u00a0grounded\u00a0in\u00a0robust\u00a0evidence\u00a0for\u00a0cervical\u00a0cancer prevention,\u00a0supported\u00a0by\u00a0a\u00a0sufficient\u00a0and\u00a0secure\u00a0supply of \u00a0affordable \u00a0vaccines. \u00a0The \u00a0guidelines \u00a0do \u00a0not recommend \u00a0vaccination \u00a0using \u00a0two \u00a0different manufacturers ' vaccines \u00a0for \u00a0an \u00a0individual \u00a0because \u00a0of sparse \u00a0data \u00a0especially \u00a0domestic \u00a0evidences \u00a0on interchangeability \u00a0of \u00a0vaccines \u00a0with \u00a0different \u00a0valencies and\u00a0same\u00a0valencies\u00a0from\u00a0different\u00a0manufacturers.\u00a0With the\u00a0current\u00a0and\u00a0impending\u00a0availability\u00a0of\u00a0new\u00a0domestic higher-valency \u00a0HPV \u00a0vaccines, \u00a0evidences \u00a0of \u00a0additional evidence \u00a0regarding \u00a0the \u00a0immunogenicity, \u00a0effectiveness, and \u00a0safety \u00a0of \u00a0vaccine \u00a0interchangeability \u2014 as \u00a0well \u00a0as the\u00a0potential\u00a0efficacy\u00a0of\u00a0a\u00a0one-dose\u00a0regimen \u2014 will\u00a0be needed\u00a0for\u00a0refining\u00a0future\u00a0HPV\u00a0vaccination\u00a0policies."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.96699905395508,
+            "t": 406.96600341796875,
+            "r": 285.8959045410156,
+            "b": 225.73199462890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            747
+          ]
+        }
+      ],
+      "orig": "The \u00a0anticipated \u00a0impact \u00a0of \u00a0incorporating \u00a0HPV vaccine\u00a0into\u00a0the\u00a0NIP\u00a0is\u00a0marked\u00a0reduction\u00a0of\u00a0infection and\u00a0persistent\u00a0infection\u00a0of\u00a0HPV\u00a0types\u00a0covered\u00a0by\u00a0the program \u00a0vaccines \u00a0and \u00a0reduction \u00a0in \u00a0associated \u00a0cervical cancer \u00a0precursors \u00a0and \u00a0cervical \u00a0cancer \u00a0throughout \u00a0the lifetimes\u00a0of\u00a0vaccinated\u00a0cohorts.\u00a0China\u00a0maintains\u00a0robust systems\u00a0for\u00a0monitoring\u00a0vaccination\u00a0coverage\u00a0and\u00a0AEFI. Moving \u00a0forward, \u00a0further \u00a0research \u00a0is \u00a0needed \u00a0to \u00a0track HPV \u00a0type \u00a0prevalence \u00a0shifts, \u00a0pathogen-spectrum evolution,\u00a0and\u00a0other\u00a0real -world\u00a0evidence\u00a0of\u00a0vaccination impact.\u00a0Establishing\u00a0a\u00a0comprehensive\u00a0monitoring\u00a0and evaluation \u00a0framework \u00a0will \u00a0be \u00a0essential \u00a0for \u00a0informing future\u00a0updates\u00a0to\u00a0HPV\u00a0vaccination\u00a0policies,\u00a0practices, and\u00a0implementation\u00a0strategies.",
+      "text": "The \u00a0anticipated \u00a0impact \u00a0of \u00a0incorporating \u00a0HPV vaccine\u00a0into\u00a0the\u00a0NIP\u00a0is\u00a0marked\u00a0reduction\u00a0of\u00a0infection and\u00a0persistent\u00a0infection\u00a0of\u00a0HPV\u00a0types\u00a0covered\u00a0by\u00a0the program \u00a0vaccines \u00a0and \u00a0reduction \u00a0in \u00a0associated \u00a0cervical cancer \u00a0precursors \u00a0and \u00a0cervical \u00a0cancer \u00a0throughout \u00a0the lifetimes\u00a0of\u00a0vaccinated\u00a0cohorts.\u00a0China\u00a0maintains\u00a0robust systems\u00a0for\u00a0monitoring\u00a0vaccination\u00a0coverage\u00a0and\u00a0AEFI. Moving \u00a0forward, \u00a0further \u00a0research \u00a0is \u00a0needed \u00a0to \u00a0track HPV \u00a0type \u00a0prevalence \u00a0shifts, \u00a0pathogen-spectrum evolution,\u00a0and\u00a0other\u00a0real -world\u00a0evidence\u00a0of\u00a0vaccination impact.\u00a0Establishing\u00a0a\u00a0comprehensive\u00a0monitoring\u00a0and evaluation \u00a0framework \u00a0will \u00a0be \u00a0essential \u00a0for \u00a0informing future\u00a0updates\u00a0to\u00a0HPV\u00a0vaccination\u00a0policies,\u00a0practices, and\u00a0implementation\u00a0strategies."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 60.974002838134766,
+            "t": 223.56600952148438,
+            "r": 252.48402404785156,
+            "b": 215.41500854492188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Conflicts\u00a0of\u00a0interest:\u00a0\u00a0No\u00a0conflicts\u00a0of\u00a0interest.",
+      "text": "Conflicts\u00a0of\u00a0interest:\u00a0\u00a0No\u00a0conflicts\u00a0of\u00a0interest."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 49.933998107910156,
+            "t": 210.46600341796875,
+            "r": 286.8288879394531,
+            "b": 94.73200225830078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            463
+          ]
+        },
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 309.98699951171875,
+            "t": 734.4660034179688,
+            "r": 544.9569091796875,
+            "b": 710.281982421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            464,
+            527
+          ]
+        }
+      ],
+      "orig": "Acknowledgments:\u00a0\u00a0All \u00a0experts, \u00a0working \u00a0group members, \u00a0National \u00a0Immunization \u00a0Advisory Committee \u00a0(NIAC) \u00a0members, \u00a0and \u00a0government officials \u00a0for \u00a0their \u00a0dedicated \u00a0contributions \u00a0throughout the\u00a0guideline\u00a0development\u00a0process;\u00a0Lance\u00a0Rodewald\u00a0of China \u00a0CDC \u00a0for \u00a0his \u00a0invaluable \u00a0English \u00a0editing assistance \u00a0and \u00a0substantive \u00a0suggestions \u00a0that strengthened \u00a0these \u00a0guidelines; \u00a0all \u00a0field \u00a0practitioners whose\u00a0tireless\u00a0efforts\u00a0have\u00a0advanced\u00a0the\u00a0integration\u00a0of HPV \u00a0vaccines \u00a0into \u00a0China ' s \u00a0National \u00a0Immunization Program.",
+      "text": "Acknowledgments:\u00a0\u00a0All \u00a0experts, \u00a0working \u00a0group members, \u00a0National \u00a0Immunization \u00a0Advisory Committee \u00a0(NIAC) \u00a0members, \u00a0and \u00a0government officials \u00a0for \u00a0their \u00a0dedicated \u00a0contributions \u00a0throughout the\u00a0guideline\u00a0development\u00a0process;\u00a0Lance\u00a0Rodewald\u00a0of China \u00a0CDC \u00a0for \u00a0his \u00a0invaluable \u00a0English \u00a0editing assistance \u00a0and \u00a0substantive \u00a0suggestions \u00a0that strengthened \u00a0these \u00a0guidelines; \u00a0all \u00a0field \u00a0practitioners whose\u00a0tireless\u00a0efforts\u00a0have\u00a0advanced\u00a0the\u00a0integration\u00a0of HPV \u00a0vaccines \u00a0into \u00a0China ' s \u00a0National \u00a0Immunization Program."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 309.8774719238281,
+            "t": 697.5010375976562,
+            "r": 410.83197021484375,
+            "b": 690.760498046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            27
+          ]
+        }
+      ],
+      "orig": "doi:\u00a010.46234/ccdcw2025.262",
+      "text": "doi:\u00a010.46234/ccdcw2025.262"
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 309.625,
+            "t": 683.094970703125,
+            "r": 505.5655212402344,
+            "b": 674.1519775390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "# Corresponding\u00a0author: Zundong\u00a0Yin, yinzd@chinacdc.cn .",
+      "text": "# Corresponding\u00a0author: Zundong\u00a0Yin, yinzd@chinacdc.cn ."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 309.8774719238281,
+            "t": 663.1300048828125,
+            "r": 545.01904296875,
+            "b": 636.7525024414062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": "1 National\u00a0Immunization\u00a0Program,\u00a0Chinese\u00a0Center\u00a0for\u00a0Disease\u00a0Control and\u00a0Prevention\u00a0&\u00a0Chinese\u00a0Academy\u00a0of\u00a0Preventive\u00a0Medicine,\u00a0Beijing, China .",
+      "text": "1 National\u00a0Immunization\u00a0Program,\u00a0Chinese\u00a0Center\u00a0for\u00a0Disease\u00a0Control and\u00a0Prevention\u00a0&\u00a0Chinese\u00a0Academy\u00a0of\u00a0Preventive\u00a0Medicine,\u00a0Beijing, China ."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 309.3504943847656,
+            "t": 623.301025390625,
+            "r": 545.1121826171875,
+            "b": 596.2429809570312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            190
+          ]
+        }
+      ],
+      "orig": "Copyright \u00a0\u00a9 \u00a02025 \u00a0by \u00a0Chinese \u00a0Center \u00a0for \u00a0Disease \u00a0Control \u00a0and Prevention. \u00a0All \u00a0content \u00a0is \u00a0distributed \u00a0under \u00a0a \u00a0Creative \u00a0Commons Attribution\u00a0Non\u00a0Commercial\u00a0License\u00a04.0\u00a0(CC\u00a0BYYNC).",
+      "text": "Copyright \u00a0\u00a9 \u00a02025 \u00a0by \u00a0Chinese \u00a0Center \u00a0for \u00a0Disease \u00a0Control \u00a0and Prevention. \u00a0All \u00a0content \u00a0is \u00a0distributed \u00a0under \u00a0a \u00a0Creative \u00a0Commons Attribution\u00a0Non\u00a0Commercial\u00a0License\u00a04.0\u00a0(CC\u00a0BYYNC)."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 309.3504943847656,
+            "t": 584.041015625,
+            "r": 413.5434875488281,
+            "b": 557.3499755859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            82
+          ]
+        }
+      ],
+      "orig": "Submitted:\u00a0December\u00a001,\u00a02025 Accepted:\u00a0December\u00a004,\u00a02025 Issued:\u00a0December\u00a012,\u00a02025",
+      "text": "Submitted:\u00a0December\u00a001,\u00a02025 Accepted:\u00a0December\u00a004,\u00a02025 Issued:\u00a0December\u00a012,\u00a02025"
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 389.8800048828125,
+            "t": 538.1489868164062,
+            "r": 465.4229736328125,
+            "b": 528.6069946289062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "REFERENCES",
+      "text": "REFERENCES",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.9900207519531,
+            "t": 511.5080261230469,
+            "r": 545.0107421875,
+            "b": 463.7559814453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            334
+          ]
+        }
+      ],
+      "orig": "Chinese \u00a0Preventive \u00a0Medicine \u00a0Association, \u00a0Vaccine \u00a0and \u00a0Immunization Branch,\u00a0Chinese\u00a0Preventive\u00a0Medicine\u00a0Association . Expert\u00a0consensus\u00a0on immunoprophylaxis\u00a0of\u00a0cervical\u00a0cancer\u00a0and\u00a0other\u00a0human\u00a0papillomavirusrelated\u00a0diseases\u00a0(2025\u00a0edition) . Chin\u00a0Prev\u00a0Med 2025;26(7):775 \u2212 812 . https://doi.org/10.16506/j.1009-6639.2025.07.002 . 1 .",
+      "text": "Chinese \u00a0Preventive \u00a0Medicine \u00a0Association, \u00a0Vaccine \u00a0and \u00a0Immunization Branch,\u00a0Chinese\u00a0Preventive\u00a0Medicine\u00a0Association . Expert\u00a0consensus\u00a0on immunoprophylaxis\u00a0of\u00a0cervical\u00a0cancer\u00a0and\u00a0other\u00a0human\u00a0papillomavirusrelated\u00a0diseases\u00a0(2025\u00a0edition) . Chin\u00a0Prev\u00a0Med 2025;26(7):775 \u2212 812 . https://doi.org/10.16506/j.1009-6639.2025.07.002 . 1 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.27801513671875,
+            "t": 461.7580261230469,
+            "r": 545.0108642578125,
+            "b": 433.89599609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            175
+          ]
+        }
+      ],
+      "orig": "Wei \u00a0LH, \u00a0Zhao \u00a0C . Journey \u00a0of \u00a0the \u00a0elimination \u00a0of \u00a0cervical \u00a0cancer \u00a0in China . Gynecol\u00a0Obstet\u00a0Clin\u00a0Med 2024;4(3):e000052 . https://doi.org/ 10.1136/gocm-2024-000052 . 2 .",
+      "text": "Wei \u00a0LH, \u00a0Zhao \u00a0C . Journey \u00a0of \u00a0the \u00a0elimination \u00a0of \u00a0cervical \u00a0cancer \u00a0in China . Gynecol\u00a0Obstet\u00a0Clin\u00a0Med 2024;4(3):e000052 . https://doi.org/ 10.1136/gocm-2024-000052 . 2 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.39801025390625,
+            "t": 431.89801025390625,
+            "r": 545.0189208984375,
+            "b": 384.14599609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            340
+          ]
+        }
+      ],
+      "orig": "Chen\u00a0H,\u00a0Zhao\u00a0XL,\u00a0Hu\u00a0SY,\u00a0You\u00a0TT,\u00a0Xia\u00a0CF,\u00a0Gao\u00a0M,\u00a0et\u00a0al . Estimation of \u00a0economic \u00a0burden \u00a0throughout \u00a0course \u00a0of \u00a0cervical \u00a0squamous intraepithelial \u00a0lesion \u00a0and \u00a0cervical \u00a0cancer \u00a0in \u00a0China: \u00a0a \u00a0nationwide multicenter\u00a0cross -sectional\u00a0study . Chin\u00a0J\u00a0Cancer\u00a0Res 2023;35(6):675 \u2212 85 . https://doi.org/10.21147/j.issn.1000-9604.2023.06.11 . 3 .",
+      "text": "Chen\u00a0H,\u00a0Zhao\u00a0XL,\u00a0Hu\u00a0SY,\u00a0You\u00a0TT,\u00a0Xia\u00a0CF,\u00a0Gao\u00a0M,\u00a0et\u00a0al . Estimation of \u00a0economic \u00a0burden \u00a0throughout \u00a0course \u00a0of \u00a0cervical \u00a0squamous intraepithelial \u00a0lesion \u00a0and \u00a0cervical \u00a0cancer \u00a0in \u00a0China: \u00a0a \u00a0nationwide multicenter\u00a0cross -sectional\u00a0study . Chin\u00a0J\u00a0Cancer\u00a0Res 2023;35(6):675 \u2212 85 . https://doi.org/10.21147/j.issn.1000-9604.2023.06.11 . 3 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.2300109863281,
+            "t": 382.14801025390625,
+            "r": 545.0189819335938,
+            "b": 344.3459777832031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            276
+          ]
+        }
+      ],
+      "orig": "Bray\u00a0F,\u00a0Laversanne\u00a0M,\u00a0Sung\u00a0H,\u00a0Ferlay\u00a0J,\u00a0Siegel\u00a0RL,\u00a0Soerjomataram\u00a0I, et\u00a0al . Global\u00a0cancer\u00a0statistics\u00a02022:\u00a0GLOBOCAN\u00a0estimates\u00a0of\u00a0incidence and\u00a0mortality\u00a0worldwide\u00a0for\u00a036\u00a0cancers\u00a0in\u00a0185\u00a0countries . CA\u00a0Cancer\u00a0J Clin 2024;74(3):229 \u2212 63 . https://doi.org/10.3322/caac.21834 . 4 .",
+      "text": "Bray\u00a0F,\u00a0Laversanne\u00a0M,\u00a0Sung\u00a0H,\u00a0Ferlay\u00a0J,\u00a0Siegel\u00a0RL,\u00a0Soerjomataram\u00a0I, et\u00a0al . Global\u00a0cancer\u00a0statistics\u00a02022:\u00a0GLOBOCAN\u00a0estimates\u00a0of\u00a0incidence and\u00a0mortality\u00a0worldwide\u00a0for\u00a036\u00a0cancers\u00a0in\u00a0185\u00a0countries . CA\u00a0Cancer\u00a0J Clin 2024;74(3):229 \u2212 63 . https://doi.org/10.3322/caac.21834 . 4 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.5500183105469,
+            "t": 342.3480224609375,
+            "r": 545.1392211914062,
+            "b": 304.5459899902344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            243
+          ]
+        }
+      ],
+      "orig": "Bzhalava\u00a0D,\u00a0Guan\u00a0P,\u00a0Franceschi\u00a0S,\u00a0Dillner\u00a0J,\u00a0Clifford\u00a0G . A\u00a0systematic review \u00a0of \u00a0the \u00a0prevalence \u00a0of \u00a0mucosal \u00a0and \u00a0cutaneous \u00a0human papillomavirus \u00a0types . Virology 2013;445(1-2):224 \u2212 31 . https://doi. org/10.1016/j.virol.2013.07.015 . 5 .",
+      "text": "Bzhalava\u00a0D,\u00a0Guan\u00a0P,\u00a0Franceschi\u00a0S,\u00a0Dillner\u00a0J,\u00a0Clifford\u00a0G . A\u00a0systematic review \u00a0of \u00a0the \u00a0prevalence \u00a0of \u00a0mucosal \u00a0and \u00a0cutaneous \u00a0human papillomavirus \u00a0types . Virology 2013;445(1-2):224 \u2212 31 . https://doi. org/10.1016/j.virol.2013.07.015 . 5 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.3900146484375,
+            "t": 302.5480041503906,
+            "r": 545.1311645507812,
+            "b": 274.69598388671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            216
+          ]
+        }
+      ],
+      "orig": "Han \u00a0BF, \u00a0Zheng \u00a0RS, \u00a0Zeng \u00a0HM, \u00a0Wang \u00a0SM, \u00a0Sun \u00a0KX, \u00a0Chen \u00a0R, \u00a0et\u00a0al . Cancer \u00a0incidence \u00a0and \u00a0mortality \u00a0in \u00a0China, \u00a02022 . J \u00a0Natl \u00a0Cancer \u00a0Cent 2024;4(1):47 \u2212 53 . https://doi.org/10.1016/j.jncc.2024.01.006 . 6 .",
+      "text": "Han \u00a0BF, \u00a0Zheng \u00a0RS, \u00a0Zeng \u00a0HM, \u00a0Wang \u00a0SM, \u00a0Sun \u00a0KX, \u00a0Chen \u00a0R, \u00a0et\u00a0al . Cancer \u00a0incidence \u00a0and \u00a0mortality \u00a0in \u00a0China, \u00a02022 . J \u00a0Natl \u00a0Cancer \u00a0Cent 2024;4(1):47 \u2212 53 . https://doi.org/10.1016/j.jncc.2024.01.006 . 6 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.302001953125,
+            "t": 272.6980285644531,
+            "r": 544.9151611328125,
+            "b": 244.9340057373047,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "World \u00a0Health \u00a0Organization. \u00a0Human \u00a0papillomavirus \u00a0vaccines: \u00a0WHO position \u00a0paper, \u00a0December \u00a02022. \u00a02022. \u00a0https://www.who.int/ publications/i/item/who-wer9750-645-672.\u00a0[2025-9-27]. 7 .",
+      "text": "World \u00a0Health \u00a0Organization. \u00a0Human \u00a0papillomavirus \u00a0vaccines: \u00a0WHO position \u00a0paper, \u00a0December \u00a02022. \u00a02022. \u00a0https://www.who.int/ publications/i/item/who-wer9750-645-672.\u00a0[2025-9-27]. 7 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.53399658203125,
+            "t": 242.84799194335938,
+            "r": 545.1306762695312,
+            "b": 195.08599853515625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            343
+          ]
+        }
+      ],
+      "orig": "Puthanakit\u00a0T,\u00a0Huang\u00a0LM,\u00a0Chiu\u00a0CH,\u00a0Tang\u00a0RB,\u00a0Schwarz\u00a0TF,\u00a0Esposito S, \u00a0et\u00a0al . Randomized \u00a0open \u00a0trial \u00a0comparing \u00a02-dose \u00a0regimens \u00a0of \u00a0the human\u00a0papillomavirus\u00a016/18\u00a0AS04-adjuvanted\u00a0vaccine\u00a0in\u00a0girls\u00a0aged\u00a0914\u00a0years\u00a0versus\u00a0a\u00a03-dose\u00a0regimen\u00a0in\u00a0women\u00a0aged\u00a015-25\u00a0years . J\u00a0Infect Dis 2016;214(4):525 \u2212 36 . https://doi.org/10.1093/infdis/jiw036 . 8 .",
+      "text": "Puthanakit\u00a0T,\u00a0Huang\u00a0LM,\u00a0Chiu\u00a0CH,\u00a0Tang\u00a0RB,\u00a0Schwarz\u00a0TF,\u00a0Esposito S, \u00a0et\u00a0al . Randomized \u00a0open \u00a0trial \u00a0comparing \u00a02-dose \u00a0regimens \u00a0of \u00a0the human\u00a0papillomavirus\u00a016/18\u00a0AS04-adjuvanted\u00a0vaccine\u00a0in\u00a0girls\u00a0aged\u00a0914\u00a0years\u00a0versus\u00a0a\u00a03-dose\u00a0regimen\u00a0in\u00a0women\u00a0aged\u00a015-25\u00a0years . J\u00a0Infect Dis 2016;214(4):525 \u2212 36 . https://doi.org/10.1093/infdis/jiw036 . 8 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 312.4460144042969,
+            "t": 193.08799743652344,
+            "r": 545.0186767578125,
+            "b": 146.94400024414062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            281
+          ]
+        }
+      ],
+      "orig": "Iversen \u00a0OE, \u00a0Miranda \u00a0MJ, \u00a0Ulied \u00a0A, \u00a0Soerdal \u00a0T, \u00a0Lazarus \u00a0E, Chokephaibulkit\u00a0K,\u00a0et\u00a0al . Immunogenicity\u00a0of\u00a0the\u00a09-valent\u00a0HPV\u00a0vaccine using\u00a02-dose\u00a0regimens\u00a0in\u00a0girls\u00a0and\u00a0boys\u00a0vs\u00a0a\u00a03-dose\u00a0regimen\u00a0in\u00a0women . JAMA 2016;316(22):2411 \u2212 21 . https://doi.org/10.1001/jama.2016. 17615 . 9 .",
+      "text": "Iversen \u00a0OE, \u00a0Miranda \u00a0MJ, \u00a0Ulied \u00a0A, \u00a0Soerdal \u00a0T, \u00a0Lazarus \u00a0E, Chokephaibulkit\u00a0K,\u00a0et\u00a0al . Immunogenicity\u00a0of\u00a0the\u00a09-valent\u00a0HPV\u00a0vaccine using\u00a02-dose\u00a0regimens\u00a0in\u00a0girls\u00a0and\u00a0boys\u00a0vs\u00a0a\u00a03-dose\u00a0regimen\u00a0in\u00a0women . JAMA 2016;316(22):2411 \u2212 21 . https://doi.org/10.1001/jama.2016. 17615 . 9 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 308.9900207519531,
+            "t": 143.33799743652344,
+            "r": 545.0267944335938,
+            "b": 97.62600708007812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            287
+          ]
+        }
+      ],
+      "orig": "Yao\u00a0XM,\u00a0He\u00a0WG,\u00a0Wu\u00a0XH,\u00a0Gu\u00a0JX,\u00a0Zhang\u00a0J,\u00a0Lin\u00a0BZ,\u00a0et\u00a0al . Long-Term immunopersistence\u00a0and\u00a0safety\u00a0of\u00a0the Escherichia coli-produced\u00a0HPV-16/ 18 \u00a0bivalent \u00a0vaccine \u00a0in \u00a0Chinese \u00a0adolescent \u00a0girls . Hum \u00a0Vaccin Immunother 2022;18(5):2061248 . https://doi.org/10.1080/21645515. 2022.2061248 . 10 .",
+      "text": "Yao\u00a0XM,\u00a0He\u00a0WG,\u00a0Wu\u00a0XH,\u00a0Gu\u00a0JX,\u00a0Zhang\u00a0J,\u00a0Lin\u00a0BZ,\u00a0et\u00a0al . Long-Term immunopersistence\u00a0and\u00a0safety\u00a0of\u00a0the Escherichia coli-produced\u00a0HPV-16/ 18 \u00a0bivalent \u00a0vaccine \u00a0in \u00a0Chinese \u00a0adolescent \u00a0girls . Hum \u00a0Vaccin Immunother 2022;18(5):2061248 . https://doi.org/10.1080/21645515. 2022.2061248 . 10 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 50.832000732421875,
+            "t": 41.768001556396484,
+            "r": 202.1079864501953,
+            "b": 34.2400016784668,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "1548 CCDC Weekly / Vol. 7 / No. 50",
+      "text": "1548 CCDC Weekly / Vol. 7 / No. 50"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 377.2179870605469,
+            "t": 41.85599899291992,
+            "r": 544.5859985351562,
+            "b": 35.91999816894531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Chinese Center for Disease Control and Prevention",
+      "text": "Chinese Center for Disease Control and Prevention"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 595.1500244140625,
+        "height": 807.97998046875
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 595.1500244140625,
+        "height": 807.97998046875
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 595.1500244140625,
+        "height": 807.97998046875
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 595.1500244140625,
+        "height": 807.97998046875
+      },
+      "page_no": 4
+    }
+  }
+}

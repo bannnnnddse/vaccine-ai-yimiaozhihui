@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f7ae75413330475147ea39a879ae3d48",
+  "content_hash": "d4593a222d208ec7e601b7dbb7bcc0b52fbe5cccdf870ae8cc802af59986296b",
+  "entities": [
+    {
+      "canonical_name": "recombinant hepatitis B vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant hepatitis B vaccines",
+      "chunk_id": "chk_f7ae75413330475147ea39a879ae3d48"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_f7ae75413330475147ea39a879ae3d48"
+    },
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "chk_f7ae75413330475147ea39a879ae3d48"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

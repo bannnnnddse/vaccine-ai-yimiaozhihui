@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_cca605ffda4144fae73be40417fcb1de",
+  "content_hash": "3f04f272feea8892684b515d8afa5c1e5bd1697abb85003821f22ea6c0984e1d",
+  "entities": [
+    {
+      "canonical_name": "白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "白破疫苗",
+      "chunk_id": "chk_cca605ffda4144fae73be40417fcb1de"
+    },
+    {
+      "canonical_name": "百白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "百白破疫苗",
+      "chunk_id": "chk_cca605ffda4144fae73be40417fcb1de"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_cca605ffda4144fae73be40417fcb1de"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

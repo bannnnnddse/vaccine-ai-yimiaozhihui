@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d6f5bec95e14860a31bef26e4b8c7dd1",
+  "content_hash": "25ae2fe4dd8dfca89aedb3997309749aa805b2bbea00d236551b048f0fe0479e",
+  "entities": [
+    {
+      "canonical_name": "tetanus toxoid",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "tetanus toxoid",
+      "chunk_id": "chk_d6f5bec95e14860a31bef26e4b8c7dd1"
+    },
+    {
+      "canonical_name": "women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "women",
+      "chunk_id": "chk_d6f5bec95e14860a31bef26e4b8c7dd1"
+    },
+    {
+      "canonical_name": "men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "men",
+      "chunk_id": "chk_d6f5bec95e14860a31bef26e4b8c7dd1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

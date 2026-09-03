@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_df9952a1818b8ffe7487e7046c175b01",
+  "content_hash": "3718edc5ccfb76c159156478354102f300c2986ca3382236ee722c3a7a09b68b",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_df9952a1818b8ffe7487e7046c175b01"
+    },
+    {
+      "canonical_name": "adverse reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse reactions",
+      "chunk_id": "chk_df9952a1818b8ffe7487e7046c175b01"
+    },
+    {
+      "canonical_name": "mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccine",
+      "chunk_id": "chk_df9952a1818b8ffe7487e7046c175b01"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

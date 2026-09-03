@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_f07fa632f5d3a6e71612bdca5bc9bc7e",
+  "content_hash": "beae7f47ea3ede8d2a825beb489c4098f6a3e03736fb07f966f78cc766a5ff68",
+  "entities": [
+    {
+      "canonical_name": "human rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human rotavirus",
+      "chunk_id": "chk_f07fa632f5d3a6e71612bdca5bc9bc7e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

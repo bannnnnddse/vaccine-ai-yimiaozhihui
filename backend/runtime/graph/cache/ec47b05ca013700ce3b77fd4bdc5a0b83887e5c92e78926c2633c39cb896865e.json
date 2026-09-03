@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_7eab49c248266a9b171e91f7c771a057",
+  "content_hash": "18356bcf4509f485960c1681c4a42700e9264afcdd4d40f6081d664db8d03f57",
+  "entities": [
+    {
+      "canonical_name": "live-attenuated tetravalent dengue vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live-attenuated tetravalent dengue vaccine",
+      "chunk_id": "chk_7eab49c248266a9b171e91f7c771a057"
+    },
+    {
+      "canonical_name": "TAK-003",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "TAK-003",
+      "chunk_id": "chk_7eab49c248266a9b171e91f7c771a057"
+    },
+    {
+      "canonical_name": "inactivated hepatitis a (HAV) virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated hepatitis a (HAV) virus vaccine",
+      "chunk_id": "chk_7eab49c248266a9b171e91f7c771a057"
+    },
+    {
+      "canonical_name": "dengue",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "dengue",
+      "chunk_id": "chk_7eab49c248266a9b171e91f7c771a057"
+    },
+    {
+      "canonical_name": "hepatitis a",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis a",
+      "chunk_id": "chk_7eab49c248266a9b171e91f7c771a057"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

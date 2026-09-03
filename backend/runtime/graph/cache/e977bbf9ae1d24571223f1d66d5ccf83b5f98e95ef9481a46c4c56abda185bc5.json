@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_cbc1a728540113bf507cc980939e010c",
+  "content_hash": "fbd68e612992c14c8526ed1780a2daa7aae0e768ba8fce469443cbb5004f7886",
+  "entities": [
+    {
+      "canonical_name": "Zika virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika virus",
+      "chunk_id": "chk_cbc1a728540113bf507cc980939e010c"
+    },
+    {
+      "canonical_name": "rhesus monkeys",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "rhesus monkeys",
+      "chunk_id": "chk_cbc1a728540113bf507cc980939e010c"
+    },
+    {
+      "canonical_name": "INO -4800 DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "INO -4800 DNA vaccine",
+      "chunk_id": "chk_cbc1a728540113bf507cc980939e010c"
+    },
+    {
+      "canonical_name": "SARS -CoV -2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2",
+      "chunk_id": "chk_cbc1a728540113bf507cc980939e010c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

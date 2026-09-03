@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_55d8b1f990d7c529d4c879328e21cf4f",
+  "content_hash": "be3df30300fa2ad6381d6ad100e9049ab9b7ca107192cdfff68c4113d94b67e2",
+  "entities": [
+    {
+      "canonical_name": "Toll-like receptors",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Toll-like receptors",
+      "chunk_id": "chk_55d8b1f990d7c529d4c879328e21cf4f"
+    },
+    {
+      "canonical_name": "C-type lectin receptors",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "C-type lectin receptors",
+      "chunk_id": "chk_55d8b1f990d7c529d4c879328e21cf4f"
+    },
+    {
+      "canonical_name": "NLRs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NLRs",
+      "chunk_id": "chk_55d8b1f990d7c529d4c879328e21cf4f"
+    },
+    {
+      "canonical_name": "cytoplasmic sensors",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytoplasmic sensors",
+      "chunk_id": "chk_55d8b1f990d7c529d4c879328e21cf4f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f1e9b182ddaf6d0de6d57c42c3db39b7",
+  "content_hash": "445e90a1760f2d8e2ea47520251ddce937b5bbb5e25f0b4b6d6c1ff0f022a716",
+  "entities": [
+    {
+      "canonical_name": "general population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general population",
+      "chunk_id": "chk_f1e9b182ddaf6d0de6d57c42c3db39b7"
+    },
+    {
+      "canonical_name": "target populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "target populations",
+      "chunk_id": "chk_f1e9b182ddaf6d0de6d57c42c3db39b7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

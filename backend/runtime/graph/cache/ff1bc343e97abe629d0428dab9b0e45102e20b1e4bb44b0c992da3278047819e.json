@@ -1,0 +1,22 @@
+{
+  "chunk_id": "b0f51ef3889f7e1d39a7ab8046ef1c5220aeff9099e256109286592f7d6b6641",
+  "content_hash": "5bf53da90443d08d59291a8b883ddf97e117681a82fb367e73589ec223b1d1da",
+  "entities": [
+    {
+      "canonical_name": "adverse events of special interest",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events of special interest",
+      "chunk_id": "b0f51ef3889f7e1d39a7ab8046ef1c5220aeff9099e256109286592f7d6b6641"
+    },
+    {
+      "canonical_name": "adverse events following immunization",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events following immunization",
+      "chunk_id": "b0f51ef3889f7e1d39a7ab8046ef1c5220aeff9099e256109286592f7d6b6641"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

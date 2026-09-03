@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_bd356bcd529aa86b33f8d3d273a13dde",
+  "content_hash": "bac75a6673c57d6e39cd3342f0739f5ade6401473f326edc422d49a7927b8775",
+  "entities": [
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "chk_bd356bcd529aa86b33f8d3d273a13dde"
+    },
+    {
+      "canonical_name": "SFTS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SFTS",
+      "chunk_id": "chk_bd356bcd529aa86b33f8d3d273a13dde"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

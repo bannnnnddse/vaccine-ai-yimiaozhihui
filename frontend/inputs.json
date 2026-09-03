@@ -1,0 +1,6 @@
+{
+  "brand": { "name": "疫苗智绘", "mark": "V", "tagline": "Make immunity visible.", "description": "面向公共卫生与微观免疫学科普的 AI 可视化实训平台。", "location": "中国", "license": "Apache-2.0", "version": "2026.08", "year": "2026", "primary_url": "http://198.18.0.1:5173/", "contact_email": "" },
+  "nav": ["首页", "AI问答", "互动体验", "科普视频"],
+  "imagery": { "strategy": "placeholder", "assets_path": "public/assets" },
+  "note": "首屏文案为可编辑英文占位；其余模块内容基于产品已有功能整理，图片均为代码占位板，待替换。"
+}

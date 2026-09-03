@@ -1,0 +1,22 @@
+{
+  "chunk_id": "21089a0dbbfc9023659e8bae3dc24d3a57706f84261c20212fba0a953cf89a8e",
+  "content_hash": "3bf023db26155969d8d3737e91176dc109d12e08499bc137aae21b893f4b3a02",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "21089a0dbbfc9023659e8bae3dc24d3a57706f84261c20212fba0a953cf89a8e"
+    },
+    {
+      "canonical_name": "novel coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "novel coronavirus",
+      "chunk_id": "21089a0dbbfc9023659e8bae3dc24d3a57706f84261c20212fba0a953cf89a8e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

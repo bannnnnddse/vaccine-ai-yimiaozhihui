@@ -1,0 +1,52 @@
+{
+  "chunk_id": "668482f305276fe4511da65ef5881da2c7d50e191e0cf4d1f96b80b244cfdce3",
+  "content_hash": "5ecf161c6f6073ba24126f02cedfa2529f6b6f7fe3a36868ed48c269f42fb198",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "668482f305276fe4511da65ef5881da2c7d50e191e0cf4d1f96b80b244cfdce3"
+    },
+    {
+      "canonical_name": "Wuhan strain",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Wuhan strain",
+      "chunk_id": "668482f305276fe4511da65ef5881da2c7d50e191e0cf4d1f96b80b244cfdce3"
+    },
+    {
+      "canonical_name": "omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "omicron",
+      "chunk_id": "668482f305276fe4511da65ef5881da2c7d50e191e0cf4d1f96b80b244cfdce3"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "668482f305276fe4511da65ef5881da2c7d50e191e0cf4d1f96b80b244cfdce3"
+    },
+    {
+      "canonical_name": "Delta strain",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Delta strain",
+      "chunk_id": "668482f305276fe4511da65ef5881da2c7d50e191e0cf4d1f96b80b244cfdce3"
+    },
+    {
+      "canonical_name": "mRNA vaccine BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccine BNT162b2",
+      "chunk_id": "668482f305276fe4511da65ef5881da2c7d50e191e0cf4d1f96b80b244cfdce3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

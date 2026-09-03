@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_91347a4734700df1575ddd5d119bbec6",
+  "content_hash": "42db8ae64e40693ff9302a48c55a01efc9b7fb047d4f13b0d056033c980d5584",
+  "entities": [
+    {
+      "canonical_name": "Varicella-zoster virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Varicella-zoster virus",
+      "chunk_id": "chk_91347a4734700df1575ddd5d119bbec6"
+    },
+    {
+      "canonical_name": "herpes zoster vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "herpes zoster vaccine",
+      "chunk_id": "chk_91347a4734700df1575ddd5d119bbec6"
+    },
+    {
+      "canonical_name": "elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly",
+      "chunk_id": "chk_91347a4734700df1575ddd5d119bbec6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

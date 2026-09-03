@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_43126f77fe315cedb3996d94065534ec",
+  "content_hash": "95774aa66342ee727f709f94e7298b3acf4608d753adabd5529b19610af15fc2",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine",
+      "chunk_id": "chk_43126f77fe315cedb3996d94065534ec"
+    },
+    {
+      "canonical_name": "antimicrobial resistance",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "antimicrobial resistance",
+      "chunk_id": "chk_43126f77fe315cedb3996d94065534ec"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

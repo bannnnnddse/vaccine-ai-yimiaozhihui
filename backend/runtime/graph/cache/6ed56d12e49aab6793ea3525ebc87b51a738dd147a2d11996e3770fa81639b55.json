@@ -1,0 +1,53 @@
+{
+  "chunk_id": "581f4c570b58f5d3c4673a139f020f1f496dd505299572f12f3e5a6434153461",
+  "content_hash": "2d8e4e69d7aadae7daa627d6f3b6abb796a35a8998ccca07ef8e284d00710e8c",
+  "entities": [
+    {
+      "canonical_name": "SAEs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "SAEs",
+      "chunk_id": "581f4c570b58f5d3c4673a139f020f1f496dd505299572f12f3e5a6434153461"
+    },
+    {
+      "canonical_name": "RSV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccines",
+      "chunk_id": "581f4c570b58f5d3c4673a139f020f1f496dd505299572f12f3e5a6434153461"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "581f4c570b58f5d3c4673a139f020f1f496dd505299572f12f3e5a6434153461"
+    },
+    {
+      "canonical_name": "AEs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEs",
+      "chunk_id": "581f4c570b58f5d3c4673a139f020f1f496dd505299572f12f3e5a6434153461"
+    },
+    {
+      "canonical_name": "RSVPreF3 OA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSVPreF3 OA",
+      "chunk_id": "581f4c570b58f5d3c4673a139f020f1f496dd505299572f12f3e5a6434153461"
+    },
+    {
+      "canonical_name": "mRNA-1345",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1345",
+      "chunk_id": "581f4c570b58f5d3c4673a139f020f1f496dd505299572f12f3e5a6434153461"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

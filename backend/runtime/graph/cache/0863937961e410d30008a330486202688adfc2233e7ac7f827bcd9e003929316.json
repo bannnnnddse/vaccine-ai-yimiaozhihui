@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_0d1158d574b30c760ec64b6ec3a4c01c",
+  "content_hash": "3eac59f6c633a19e2b6eedb950a2253a63879977ac51adc79a8a37ccd71700ea",
+  "entities": [
+    {
+      "canonical_name": "high-dose recombinant hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "high-dose recombinant hepatitis B vaccine",
+      "chunk_id": "chk_0d1158d574b30c760ec64b6ec3a4c01c"
+    },
+    {
+      "canonical_name": "human immunodeficiency virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human immunodeficiency virus",
+      "chunk_id": "chk_0d1158d574b30c760ec64b6ec3a4c01c"
+    },
+    {
+      "canonical_name": "adults infected with human immunodeficiency virus",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults infected with human immunodeficiency virus",
+      "chunk_id": "chk_0d1158d574b30c760ec64b6ec3a4c01c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,65 @@
+{
+  "chunk_id": "chk_ff9fa14a65c4a977f6e3a8d57eeb94e4",
+  "content_hash": "6772d0627a9a8e32d4e799899ed1e5c38b0ce6f67b4c15863da1e094eb0cfb30",
+  "entities": [
+    {
+      "canonical_name": "9-valent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "9-valent vaccine",
+      "chunk_id": "chk_ff9fa14a65c4a977f6e3a8d57eeb94e4"
+    },
+    {
+      "canonical_name": "9vHPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "9vHPV",
+      "chunk_id": "chk_ff9fa14a65c4a977f6e3a8d57eeb94e4"
+    },
+    {
+      "canonical_name": "4vHPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "4vHPV vaccine",
+      "chunk_id": "chk_ff9fa14a65c4a977f6e3a8d57eeb94e4"
+    },
+    {
+      "canonical_name": "HPV type 6",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV type 6",
+      "chunk_id": "chk_ff9fa14a65c4a977f6e3a8d57eeb94e4"
+    },
+    {
+      "canonical_name": "HPV11",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV11",
+      "chunk_id": "chk_ff9fa14a65c4a977f6e3a8d57eeb94e4"
+    },
+    {
+      "canonical_name": "HPV16",
+      "entity_type": "Pathogen",
+      "aliases": [
+        "HPV 16",
+        "HPV-16",
+        "HPV16"
+      ],
+      "surface_form": "HPV16",
+      "chunk_id": "chk_ff9fa14a65c4a977f6e3a8d57eeb94e4"
+    },
+    {
+      "canonical_name": "HPV18",
+      "entity_type": "Pathogen",
+      "aliases": [
+        "HPV 18",
+        "HPV-18",
+        "HPV18"
+      ],
+      "surface_form": "HPV18",
+      "chunk_id": "chk_ff9fa14a65c4a977f6e3a8d57eeb94e4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

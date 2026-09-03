@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_9cc22fb0c71eb6a17903779b21f1bd14",
+  "content_hash": "b89c6d68b50cef0fbfbc1cdd6b797db8bd3048ada6f1b143269bd9b6e6b3342e",
+  "entities": [
+    {
+      "canonical_name": "Severe acute respiratory syndrome coronavirus 2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Severe acute respiratory syndrome coronavirus 2",
+      "chunk_id": "chk_9cc22fb0c71eb6a17903779b21f1bd14"
+    },
+    {
+      "canonical_name": "Coronavirus disease 2019",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Coronavirus disease 2019",
+      "chunk_id": "chk_9cc22fb0c71eb6a17903779b21f1bd14"
+    },
+    {
+      "canonical_name": "Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccine",
+      "chunk_id": "chk_9cc22fb0c71eb6a17903779b21f1bd14"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_4b341ed7e8d56bf030c7fd08e7cb13c3",
+  "content_hash": "717f6395adf28562c10c7d88773306126d0c2a555e50b10868a89cc09c3b42e3",
+  "entities": [
+    {
+      "canonical_name": "girls",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "girls",
+      "chunk_id": "chk_4b341ed7e8d56bf030c7fd08e7cb13c3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

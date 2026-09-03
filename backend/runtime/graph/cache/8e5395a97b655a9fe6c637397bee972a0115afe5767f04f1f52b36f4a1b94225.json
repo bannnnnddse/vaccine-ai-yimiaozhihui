@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_1aaf12630a554c0d2ae34b46ccd80a07",
+  "content_hash": "c45de1ade4208a36d8eacc9e511b3d279923f9aa662db0283ef2bae6f1b798ec",
+  "entities": [
+    {
+      "canonical_name": "VGX-3100",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VGX-3100",
+      "chunk_id": "chk_1aaf12630a554c0d2ae34b46ccd80a07"
+    },
+    {
+      "canonical_name": "HSIL",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HSIL",
+      "chunk_id": "chk_1aaf12630a554c0d2ae34b46ccd80a07"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_1aaf12630a554c0d2ae34b46ccd80a07"
+    },
+    {
+      "canonical_name": "cervical HSIL",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical HSIL",
+      "chunk_id": "chk_1aaf12630a554c0d2ae34b46ccd80a07"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

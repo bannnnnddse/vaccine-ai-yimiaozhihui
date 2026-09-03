@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_960597a63a86574b61a4c80b1e84f70f",
+  "content_hash": "57c1134b291fe0caa5e877a98f34abc2aba22b2732c09e55956e0da6c11878d9",
+  "entities": [
+    {
+      "canonical_name": "homosexual/bisexual men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "homosexual/bisexual men",
+      "chunk_id": "chk_960597a63a86574b61a4c80b1e84f70f"
+    },
+    {
+      "canonical_name": "AIDS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "AIDS",
+      "chunk_id": "chk_960597a63a86574b61a4c80b1e84f70f"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_960597a63a86574b61a4c80b1e84f70f"
+    },
+    {
+      "canonical_name": "human immunodeficiency virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human immunodeficiency virus",
+      "chunk_id": "chk_960597a63a86574b61a4c80b1e84f70f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_74524b8a49ec237f337d7153d9257bed",
+  "content_hash": "14a9c1005c54eea5006887fb7a71bbcf58cd59aab7491adbbd48371724cc8a27",
+  "entities": [
+    {
+      "canonical_name": "RV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV vaccine",
+      "chunk_id": "chk_74524b8a49ec237f337d7153d9257bed"
+    },
+    {
+      "canonical_name": "rotavirus-related disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus-related disease",
+      "chunk_id": "chk_74524b8a49ec237f337d7153d9257bed"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

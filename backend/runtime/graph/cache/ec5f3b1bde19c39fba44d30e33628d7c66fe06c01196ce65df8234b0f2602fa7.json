@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_1da4d90d8266fabafaf754dc896caa57",
+  "content_hash": "5af5f12bb4d8749f18702f948f91c3c9d38b7b82207135684f79d4b9c39c7335",
+  "entities": [
+    {
+      "canonical_name": "Prime-Boost Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Prime-Boost Vaccine",
+      "chunk_id": "chk_1da4d90d8266fabafaf754dc896caa57"
+    },
+    {
+      "canonical_name": "Circumsporozoite Proteins",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Circumsporozoite Proteins",
+      "chunk_id": "chk_1da4d90d8266fabafaf754dc896caa57"
+    },
+    {
+      "canonical_name": "Plasmodium vivax",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Plasmodium vivax",
+      "chunk_id": "chk_1da4d90d8266fabafaf754dc896caa57"
+    },
+    {
+      "canonical_name": "Rodents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Rodents",
+      "chunk_id": "chk_1da4d90d8266fabafaf754dc896caa57"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

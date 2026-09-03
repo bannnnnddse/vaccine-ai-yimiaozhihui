@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_aa5c56ae9cfd6368a79226755156af4f",
+  "content_hash": "ac28413c9b1f8fa4ccf661d4d8b59f328ef4df763c3c937619501792f9269189",
+  "entities": [
+    {
+      "canonical_name": "适龄儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "适龄儿童",
+      "chunk_id": "chk_aa5c56ae9cfd6368a79226755156af4f"
+    },
+    {
+      "canonical_name": "国家免疫规划疫苗免疫程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "国家免疫规划疫苗免疫程序",
+      "chunk_id": "chk_aa5c56ae9cfd6368a79226755156af4f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

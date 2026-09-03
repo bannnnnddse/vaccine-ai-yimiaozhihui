@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d",
+  "content_hash": "1ec02af3f1cfd0ab239b48cef4b92b47ce1b7e805756b50425173d7ab592a305",
+  "entities": [
+    {
+      "canonical_name": "手足口病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "手足口病",
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "婴幼儿",
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation"
+  ]
+}

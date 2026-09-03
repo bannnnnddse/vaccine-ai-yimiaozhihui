@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8138488dc376ffd7f6e8d6d0b6adec10",
+  "content_hash": "9896112940033a0af1f2b469e61fc046180921b324b3a51303299bd00afaba22",
+  "entities": [
+    {
+      "canonical_name": "Respiratory Syncytial Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus",
+      "chunk_id": "chk_8138488dc376ffd7f6e8d6d0b6adec10"
+    },
+    {
+      "canonical_name": "Infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Infants",
+      "chunk_id": "chk_8138488dc376ffd7f6e8d6d0b6adec10"
+    },
+    {
+      "canonical_name": "RSV F Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV F Vaccine",
+      "chunk_id": "chk_8138488dc376ffd7f6e8d6d0b6adec10"
+    },
+    {
+      "canonical_name": "Older Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Older Adults",
+      "chunk_id": "chk_8138488dc376ffd7f6e8d6d0b6adec10"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

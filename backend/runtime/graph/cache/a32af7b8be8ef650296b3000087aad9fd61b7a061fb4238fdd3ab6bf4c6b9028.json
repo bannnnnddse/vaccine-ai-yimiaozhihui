@@ -1,0 +1,29 @@
+{
+  "chunk_id": "1372bd4cd33cddfa24a16eabd041eaeaf8cf5fb20abb7e76c76cc223d584d19b",
+  "content_hash": "0d5e7fbe4b7b1841daf36eb038dfb8e1b4315d49342ec54ab4100cfa8d29e71a",
+  "entities": [
+    {
+      "canonical_name": "monoclonal antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monoclonal antibodies",
+      "chunk_id": "1372bd4cd33cddfa24a16eabd041eaeaf8cf5fb20abb7e76c76cc223d584d19b"
+    },
+    {
+      "canonical_name": "anti– PD-1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti– PD-1",
+      "chunk_id": "1372bd4cd33cddfa24a16eabd041eaeaf8cf5fb20abb7e76c76cc223d584d19b"
+    },
+    {
+      "canonical_name": "anti–CTLA-4 antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti–CTLA-4 antibodies",
+      "chunk_id": "1372bd4cd33cddfa24a16eabd041eaeaf8cf5fb20abb7e76c76cc223d584d19b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

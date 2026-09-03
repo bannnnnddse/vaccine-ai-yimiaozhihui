@@ -1,0 +1,141 @@
+{
+  "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d",
+  "content_hash": "816e7bf448c156fee16e0542ec33c3c2bd0c32ac2d3e35d363b6298e7883dc15",
+  "entities": [
+    {
+      "canonical_name": "男性生殖器官疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "男性生殖器官疾病",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "前列腺增生",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "前列腺增生",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "乳房疾患",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "乳房疾患",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "女性盆腔器官炎性疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "女性盆腔器官炎性疾病",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "子宫内膜异位",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "子宫内膜异位",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "女性生殖器脱垂",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "女性生殖器脱垂",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "异位妊娠",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "异位妊娠",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "医疗性流产",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "医疗性流产",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "妊娠高血压",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "妊娠高血压",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "前置胎盘、胎盘早剥和产前出血",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "前置胎盘、胎盘早剥和产前出血",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "梗阻性分娩",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "梗阻性分娩",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "分娩时会阴、阴道裂伤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "分娩时会阴、阴道裂伤",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "产后出血",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "产后出血",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "顺产",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "顺产",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "妊娠、分娩和产褥期小计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "妊娠、分娩和产褥期小计",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "起源于围生期疾病小计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "起源于围生期疾病小计",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "产伤",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "产伤",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "出生窒息",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "出生窒息",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    },
+    {
+      "canonical_name": "新生儿吸入综合征",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "新生儿吸入综合征",
+      "chunk_id": "chk_4b6dfe084ddd8910e1792c54a7eafd6d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

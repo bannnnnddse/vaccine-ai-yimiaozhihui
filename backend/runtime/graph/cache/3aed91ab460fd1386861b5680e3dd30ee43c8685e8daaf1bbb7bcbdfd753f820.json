@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f9b7230835c430217360472110ad6267",
+  "content_hash": "6e6ea8c686d3fadae40d6a86b1f3cf0fc0da82a85b307833d6b88f51e87e133a",
+  "entities": [
+    {
+      "canonical_name": "Epstein-Barr Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Epstein-Barr Virus",
+      "chunk_id": "chk_f9b7230835c430217360472110ad6267"
+    },
+    {
+      "canonical_name": "Cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Cancer",
+      "chunk_id": "chk_f9b7230835c430217360472110ad6267"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

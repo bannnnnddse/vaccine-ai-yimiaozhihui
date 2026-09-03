@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_28b28b2beebd941a4cce0ae23f8fa3e7",
+  "content_hash": "4b81b606b9113920c963a6f0c8f58227e2089e0c54c9d11292e3ed5aef27599e",
+  "entities": [
+    {
+      "canonical_name": "quadrivalent meningococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent meningococcal conjugate vaccine",
+      "chunk_id": "chk_28b28b2beebd941a4cce0ae23f8fa3e7"
+    },
+    {
+      "canonical_name": "meningococcal ACWY conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "meningococcal ACWY conjugate vaccine",
+      "chunk_id": "chk_28b28b2beebd941a4cce0ae23f8fa3e7"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_28b28b2beebd941a4cce0ae23f8fa3e7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

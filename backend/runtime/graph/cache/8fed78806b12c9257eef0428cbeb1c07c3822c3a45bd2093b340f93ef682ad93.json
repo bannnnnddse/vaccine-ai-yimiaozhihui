@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_5776457e035aa71ebb3ed3b3762f6d3f",
+  "content_hash": "9f3ed27c6e4766f9246d8d58c8e760e58ab0137420b4a00e7d521bb1f1d4e26f",
+  "entities": [
+    {
+      "canonical_name": "monophosphoryl lipid A (MPL)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monophosphoryl lipid A (MPL)",
+      "chunk_id": "chk_5776457e035aa71ebb3ed3b3762f6d3f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

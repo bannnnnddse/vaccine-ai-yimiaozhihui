@@ -1,0 +1,64 @@
+{
+  "chunk_id": "9804be55ece8a1b25cc6b1417052076ddfbee4c26f44b5e4380425bd4bdd1deb",
+  "content_hash": "7a649523bc1d1d43a3360d2d71fb60849e781e828864f15a3c84b94d8d9e41ad",
+  "entities": [
+    {
+      "canonical_name": "PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV",
+      "chunk_id": "9804be55ece8a1b25cc6b1417052076ddfbee4c26f44b5e4380425bd4bdd1deb"
+    },
+    {
+      "canonical_name": "PPSV23",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PPSV23",
+      "chunk_id": "9804be55ece8a1b25cc6b1417052076ddfbee4c26f44b5e4380425bd4bdd1deb"
+    },
+    {
+      "canonical_name": "Rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Rotavirus vaccine",
+      "chunk_id": "9804be55ece8a1b25cc6b1417052076ddfbee4c26f44b5e4380425bd4bdd1deb"
+    },
+    {
+      "canonical_name": "EV71 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71 vaccine",
+      "chunk_id": "9804be55ece8a1b25cc6b1417052076ddfbee4c26f44b5e4380425bd4bdd1deb"
+    },
+    {
+      "canonical_name": "Varicella",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Varicella",
+      "chunk_id": "9804be55ece8a1b25cc6b1417052076ddfbee4c26f44b5e4380425bd4bdd1deb"
+    },
+    {
+      "canonical_name": "flu vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "flu vaccine",
+      "chunk_id": "9804be55ece8a1b25cc6b1417052076ddfbee4c26f44b5e4380425bd4bdd1deb"
+    },
+    {
+      "canonical_name": "PPSV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PPSV vaccine",
+      "chunk_id": "9804be55ece8a1b25cc6b1417052076ddfbee4c26f44b5e4380425bd4bdd1deb"
+    },
+    {
+      "canonical_name": "PCV13 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV13 vaccine",
+      "chunk_id": "9804be55ece8a1b25cc6b1417052076ddfbee4c26f44b5e4380425bd4bdd1deb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

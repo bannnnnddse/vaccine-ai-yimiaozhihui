@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_21076c5fb5a1c5409742af9b332e9af9",
+  "content_hash": "1e60a7a11c024701c668cab282323c454d37e8c6efd4570ee5b88727d8f19e8e",
+  "entities": [
+    {
+      "canonical_name": "流腮",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "流腮",
+      "chunk_id": "chk_21076c5fb5a1c5409742af9b332e9af9"
+    },
+    {
+      "canonical_name": "流腮病毒",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "流腮病毒",
+      "chunk_id": "chk_21076c5fb5a1c5409742af9b332e9af9"
+    },
+    {
+      "canonical_name": "含流腮成分疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "含流腮成分疫苗",
+      "chunk_id": "chk_21076c5fb5a1c5409742af9b332e9af9"
+    },
+    {
+      "canonical_name": "≥1岁儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "≥1岁儿童",
+      "chunk_id": "chk_21076c5fb5a1c5409742af9b332e9af9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

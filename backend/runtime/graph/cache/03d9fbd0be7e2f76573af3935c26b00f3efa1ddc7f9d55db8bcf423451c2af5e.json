@@ -1,0 +1,41 @@
+{
+  "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56",
+  "content_hash": "8e97dcdc4f505e527aab0759665a192d8b6432326e7feea855536ef9fb455a3a",
+  "entities": [
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    },
+    {
+      "canonical_name": "麻腮风疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "麻腮风疫苗",
+      "chunk_id": "chk_aa0d3e151586a92c9ecd6b40d5994b56"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "new_entity_canonical_not_surface",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "chunk_id": "chk_aeb022f2306c3dc6cd3d2d57aecb25c7",
+  "content_hash": "e49981080af10bb49ea663542128c3a90aa9fb336c93960759a90b08a08fde27",
+  "entities": [
+    {
+      "canonical_name": "innate immune cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune cells",
+      "chunk_id": "chk_aeb022f2306c3dc6cd3d2d57aecb25c7"
+    },
+    {
+      "canonical_name": "NK-cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NK-cells",
+      "chunk_id": "chk_aeb022f2306c3dc6cd3d2d57aecb25c7"
+    },
+    {
+      "canonical_name": "trained immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "trained immunity",
+      "chunk_id": "chk_aeb022f2306c3dc6cd3d2d57aecb25c7"
+    },
+    {
+      "canonical_name": "classical immunological memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "classical immunological memory",
+      "chunk_id": "chk_aeb022f2306c3dc6cd3d2d57aecb25c7"
+    },
+    {
+      "canonical_name": "T- and B-lymphocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T- and B-lymphocytes",
+      "chunk_id": "chk_aeb022f2306c3dc6cd3d2d57aecb25c7"
+    },
+    {
+      "canonical_name": "immune cell activation",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune cell activation",
+      "chunk_id": "chk_aeb022f2306c3dc6cd3d2d57aecb25c7"
+    },
+    {
+      "canonical_name": "immune cell differentiation",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune cell differentiation",
+      "chunk_id": "chk_aeb022f2306c3dc6cd3d2d57aecb25c7"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

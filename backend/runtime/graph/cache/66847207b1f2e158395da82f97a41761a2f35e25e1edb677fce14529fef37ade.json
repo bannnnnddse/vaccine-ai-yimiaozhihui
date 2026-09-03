@@ -1,0 +1,41 @@
+{
+  "chunk_id": "chk_968aa1efe2ef3cc568c493e96d80506b",
+  "content_hash": "a34ccb0daa33afb194afd10c074b11941b22c037ed645aaa3f2125086d8dbea4",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_968aa1efe2ef3cc568c493e96d80506b"
+    },
+    {
+      "canonical_name": "cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancers",
+      "chunk_id": "chk_968aa1efe2ef3cc568c493e96d80506b"
+    },
+    {
+      "canonical_name": "precancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "precancers",
+      "chunk_id": "chk_968aa1efe2ef3cc568c493e96d80506b"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_968aa1efe2ef3cc568c493e96d80506b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "source_missing_from_quote",
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

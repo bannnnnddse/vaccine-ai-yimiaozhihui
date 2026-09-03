@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_1c9b8fb01eb9f9214a92fc78c3c21c40",
+  "content_hash": "ecbf7e058119687ed38c9556a914bba70fe781b91dbb7701ec9c75cac65416b6",
+  "entities": [
+    {
+      "canonical_name": "rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccine",
+      "chunk_id": "chk_1c9b8fb01eb9f9214a92fc78c3c21c40"
+    },
+    {
+      "canonical_name": "Hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis B vaccine",
+      "chunk_id": "chk_1c9b8fb01eb9f9214a92fc78c3c21c40"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_1c9b8fb01eb9f9214a92fc78c3c21c40"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

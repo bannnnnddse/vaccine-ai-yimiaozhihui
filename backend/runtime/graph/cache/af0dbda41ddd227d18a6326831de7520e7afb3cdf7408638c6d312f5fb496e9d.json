@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_c50463cfb5f18bd192920f405a5fe28d",
+  "content_hash": "9282f9eeea835389482f8a6b6db2a79e7593e4343b9aa854aef161876e052c56",
+  "entities": [
+    {
+      "canonical_name": "IgG2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG2",
+      "chunk_id": "chk_c50463cfb5f18bd192920f405a5fe28d"
+    },
+    {
+      "canonical_name": "IgG4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG4",
+      "chunk_id": "chk_c50463cfb5f18bd192920f405a5fe28d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

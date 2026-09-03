@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_4d81fd1315afc192aec02248f5ef2c96",
+  "content_hash": "488212e3d542ffd27acfc68774d0773ab617400f25713224cecee858768f5ade",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_4d81fd1315afc192aec02248f5ef2c96"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_4d81fd1315afc192aec02248f5ef2c96"
+    },
+    {
+      "canonical_name": "cell-mediated immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cell-mediated immune responses",
+      "chunk_id": "chk_4d81fd1315afc192aec02248f5ef2c96"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

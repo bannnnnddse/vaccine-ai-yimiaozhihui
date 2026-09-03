@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_62d640a26b2ef02946fc02498dcdd81c",
+  "content_hash": "bfd1f1ff4d89f06c66c7fc0d38febd380e81981b9be4f8456b445758571a1323",
+  "entities": [
+    {
+      "canonical_name": "dengue",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "dengue",
+      "chunk_id": "chk_62d640a26b2ef02946fc02498dcdd81c"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_62d640a26b2ef02946fc02498dcdd81c"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_62d640a26b2ef02946fc02498dcdd81c"
+    },
+    {
+      "canonical_name": "pathogen",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogen",
+      "chunk_id": "chk_62d640a26b2ef02946fc02498dcdd81c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

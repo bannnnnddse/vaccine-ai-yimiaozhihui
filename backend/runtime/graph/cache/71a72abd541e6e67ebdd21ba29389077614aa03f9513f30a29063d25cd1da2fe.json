@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_698c86fff6947ae5b2a9f924743e818d",
+  "content_hash": "5c0e584df372b61fec19f32708cc41e466df7847d0c53c6e71839f08b6d5c7b5",
+  "entities": [
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_698c86fff6947ae5b2a9f924743e818d"
+    },
+    {
+      "canonical_name": "innate immune receptors",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune receptors",
+      "chunk_id": "chk_698c86fff6947ae5b2a9f924743e818d"
+    },
+    {
+      "canonical_name": "TLRs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLRs",
+      "chunk_id": "chk_698c86fff6947ae5b2a9f924743e818d"
+    },
+    {
+      "canonical_name": "cytokine",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokine",
+      "chunk_id": "chk_698c86fff6947ae5b2a9f924743e818d"
+    },
+    {
+      "canonical_name": "IL-21",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-21",
+      "chunk_id": "chk_698c86fff6947ae5b2a9f924743e818d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

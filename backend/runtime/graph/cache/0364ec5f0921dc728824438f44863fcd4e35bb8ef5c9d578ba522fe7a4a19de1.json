@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_3f85326ec4b9c3923fec38d5ff751cb1",
+  "content_hash": "bb4fa892efa1989620165b12e4439bc84074c0c7247c6a2e1d14e886eed40e9b",
+  "entities": [
+    {
+      "canonical_name": "Travelling vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Travelling vaccines",
+      "chunk_id": "chk_3f85326ec4b9c3923fec38d5ff751cb1"
+    },
+    {
+      "canonical_name": "Children vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Children vaccines",
+      "chunk_id": "chk_3f85326ec4b9c3923fec38d5ff751cb1"
+    },
+    {
+      "canonical_name": "Travelers to high - risk destinations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Travelers to high - risk destinations",
+      "chunk_id": "chk_3f85326ec4b9c3923fec38d5ff751cb1"
+    },
+    {
+      "canonical_name": "Medically under ‐ served adults and children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Medically under ‑ served adults and children",
+      "chunk_id": "chk_3f85326ec4b9c3923fec38d5ff751cb1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

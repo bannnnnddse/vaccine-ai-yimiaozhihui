@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6ad6f34e87010b4aff8e462e3f33dff4",
+  "content_hash": "9e98efe0369e9d357d143dbfb0a55c7596c588ac1887455a7973fd8cb6161758",
+  "entities": [
+    {
+      "canonical_name": "cardiovascular disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cardiovascular disease",
+      "chunk_id": "chk_6ad6f34e87010b4aff8e462e3f33dff4"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_6ad6f34e87010b4aff8e462e3f33dff4"
+    },
+    {
+      "canonical_name": "kidney transplant recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "kidney transplant recipients",
+      "chunk_id": "chk_6ad6f34e87010b4aff8e462e3f33dff4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

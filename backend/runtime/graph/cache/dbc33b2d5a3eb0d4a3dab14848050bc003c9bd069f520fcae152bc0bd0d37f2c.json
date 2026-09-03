@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_1ec61457a7c15279f1c3288b9a3e3af7",
+  "content_hash": "6908a04623e7e6221de53238be128553c2f951ecff9a5889b0f3d2118cadb605",
+  "entities": [
+    {
+      "canonical_name": "thromboembolic adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "thromboembolic adverse events",
+      "chunk_id": "chk_1ec61457a7c15279f1c3288b9a3e3af7"
+    },
+    {
+      "canonical_name": "acute COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute COVID-19",
+      "chunk_id": "chk_1ec61457a7c15279f1c3288b9a3e3af7"
+    },
+    {
+      "canonical_name": "IVIG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IVIG",
+      "chunk_id": "chk_1ec61457a7c15279f1c3288b9a3e3af7"
+    },
+    {
+      "canonical_name": "COVID-19-associated ARDS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19-associated ARDS",
+      "chunk_id": "chk_1ec61457a7c15279f1c3288b9a3e3af7"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

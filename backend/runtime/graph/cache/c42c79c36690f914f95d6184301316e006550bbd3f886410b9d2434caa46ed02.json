@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_b89978e807a250988910c84f89b35094",
+  "content_hash": "136ad4c0a61a78e8c3b824b40bf5efbcf639ceb5b743df11232a745d729f18a1",
+  "entities": [
+    {
+      "canonical_name": "Omicron (B.1.1.529)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron (B.1.1.529)",
+      "chunk_id": "chk_b89978e807a250988910c84f89b35094"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

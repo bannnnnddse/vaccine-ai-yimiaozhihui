@@ -1,0 +1,29 @@
+{
+  "chunk_id": "508fa764d8924167bdc0b573f7741c201891962cafc1024590a1400865954eca",
+  "content_hash": "602f5429e26599f720009d97a99b2aa1cbd4b059c6d77ede2d82bb4658e9e50d",
+  "entities": [
+    {
+      "canonical_name": "vaccine administration",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "vaccine administration",
+      "chunk_id": "508fa764d8924167bdc0b573f7741c201891962cafc1024590a1400865954eca"
+    },
+    {
+      "canonical_name": "gestation",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "gestation",
+      "chunk_id": "508fa764d8924167bdc0b573f7741c201891962cafc1024590a1400865954eca"
+    },
+    {
+      "canonical_name": "infancy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infancy",
+      "chunk_id": "508fa764d8924167bdc0b573f7741c201891962cafc1024590a1400865954eca"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

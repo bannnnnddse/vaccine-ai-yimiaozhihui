@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_1c0c0e46e44cfecd908db2a1e8cc7360",
+  "content_hash": "bbd2ef907803563d46460b9e247e18628f1e7b3643faedd6563a0f9114b0a4db",
+  "entities": [
+    {
+      "canonical_name": "autoimmune disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune disease",
+      "chunk_id": "chk_1c0c0e46e44cfecd908db2a1e8cc7360"
+    },
+    {
+      "canonical_name": "TLR9",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR9",
+      "chunk_id": "chk_1c0c0e46e44cfecd908db2a1e8cc7360"
+    },
+    {
+      "canonical_name": "CpG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CpG",
+      "chunk_id": "chk_1c0c0e46e44cfecd908db2a1e8cc7360"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_1c0c0e46e44cfecd908db2a1e8cc7360"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

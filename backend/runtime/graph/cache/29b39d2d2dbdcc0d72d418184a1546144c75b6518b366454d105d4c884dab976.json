@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8e0e5a2845b42bc8f2c282c45c1d0b60",
+  "content_hash": "0055257dad6e0d7e6556bd59efe6c6bfaf5937e6e0de5712088a80f7103f4489",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_8e0e5a2845b42bc8f2c282c45c1d0b60"
+    },
+    {
+      "canonical_name": "nAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "nAb",
+      "chunk_id": "chk_8e0e5a2845b42bc8f2c282c45c1d0b60"
+    },
+    {
+      "canonical_name": "males",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "males",
+      "chunk_id": "chk_8e0e5a2845b42bc8f2c282c45c1d0b60"
+    },
+    {
+      "canonical_name": "females",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females",
+      "chunk_id": "chk_8e0e5a2845b42bc8f2c282c45c1d0b60"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

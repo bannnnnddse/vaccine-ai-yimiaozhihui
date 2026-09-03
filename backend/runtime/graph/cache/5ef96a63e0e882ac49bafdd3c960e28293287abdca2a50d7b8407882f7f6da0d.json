@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_f69dbae50ae8726330690b3b10c8963c",
+  "content_hash": "e1b62eaf7ecbacae28844f827544f052fe9fc12acf01a716131fbd2196ed5c6d",
+  "entities": [
+    {
+      "canonical_name": "infectious disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious disease",
+      "chunk_id": "chk_f69dbae50ae8726330690b3b10c8963c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

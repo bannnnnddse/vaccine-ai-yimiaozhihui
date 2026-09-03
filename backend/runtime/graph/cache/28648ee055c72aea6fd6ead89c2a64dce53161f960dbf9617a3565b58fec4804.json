@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_526d6917bc9050dec70ac9626885d652",
+  "content_hash": "fd720fe036811b3615020c57630d8dc55069d5025a46304a2934577721b580d8",
+  "entities": [
+    {
+      "canonical_name": "RV3-BB human neonatal rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV3-BB human neonatal rotavirus vaccine",
+      "chunk_id": "chk_526d6917bc9050dec70ac9626885d652"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

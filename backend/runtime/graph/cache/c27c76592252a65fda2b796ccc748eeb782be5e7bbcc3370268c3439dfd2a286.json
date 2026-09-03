@@ -1,0 +1,36 @@
+{
+  "chunk_id": "7325a0865e838764aa2268ce0ebb1735e605b7212134536cde1c1c12f22e2b0e",
+  "content_hash": "ae7cb5f9d55bf3df471c5c5ecde8d75ba8795b0f09bf44b8398f2a3ad25bc268",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "7325a0865e838764aa2268ce0ebb1735e605b7212134536cde1c1c12f22e2b0e"
+    },
+    {
+      "canonical_name": "CD4 helper T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4 helper T cells",
+      "chunk_id": "7325a0865e838764aa2268ce0ebb1735e605b7212134536cde1c1c12f22e2b0e"
+    },
+    {
+      "canonical_name": "dendritic cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "dendritic cells",
+      "chunk_id": "7325a0865e838764aa2268ce0ebb1735e605b7212134536cde1c1c12f22e2b0e"
+    },
+    {
+      "canonical_name": "DCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "DCs",
+      "chunk_id": "7325a0865e838764aa2268ce0ebb1735e605b7212134536cde1c1c12f22e2b0e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

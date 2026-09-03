@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d1f3c0a974ac6d5a607cd3ab8e38bbe2",
+  "content_hash": "6edc10b123d9a4c5ebe6dab832307a5ccfabeaa3b3426d4e3f01f4e3db60fa16",
+  "entities": [
+    {
+      "canonical_name": "RV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RV",
+      "chunk_id": "chk_d1f3c0a974ac6d5a607cd3ab8e38bbe2"
+    },
+    {
+      "canonical_name": "murine RV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "murine RV",
+      "chunk_id": "chk_d1f3c0a974ac6d5a607cd3ab8e38bbe2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

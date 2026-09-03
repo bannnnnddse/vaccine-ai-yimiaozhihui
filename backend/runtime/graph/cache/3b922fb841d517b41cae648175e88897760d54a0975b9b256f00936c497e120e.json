@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_4a05dfcd9f444666b3453033a349a0f5",
+  "content_hash": "c75a5c913e6415e1eb3f3af871ae69b636ea0de5cbc38d3104e23fa232cada85",
+  "entities": [
+    {
+      "canonical_name": "mRNAbased dendritic cell vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNAbased dendritic cell vaccines",
+      "chunk_id": "chk_4a05dfcd9f444666b3453033a349a0f5"
+    },
+    {
+      "canonical_name": "vaccine RNA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "vaccine RNA",
+      "chunk_id": "chk_4a05dfcd9f444666b3453033a349a0f5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

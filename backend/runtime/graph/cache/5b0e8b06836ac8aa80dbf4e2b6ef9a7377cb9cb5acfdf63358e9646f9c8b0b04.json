@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_45e2245831fb71ae969db701bb455ce4",
+  "content_hash": "3944994db7ba1f59ce6ef9b134eba8b8589cab999871388172ff4d8ce8a1f043",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_45e2245831fb71ae969db701bb455ce4"
+    },
+    {
+      "canonical_name": "pneumococcal vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal vaccines",
+      "chunk_id": "chk_45e2245831fb71ae969db701bb455ce4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

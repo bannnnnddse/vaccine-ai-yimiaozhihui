@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "graph_version": "graph-20260820T030428795422Z-7a6bf2ed-113c7c9b",
+    "knowledge_base_version": "validation-30-rag-v2-20260816T053040487541Z-32af4353",
+    "parent_graph_version": null,
+    "created_at": "2026-08-20T03:04:28.795422+00:00",
+    "source_documents": 7,
+    "source_chunks": 30,
+    "node_count": 3,
+    "edge_count": 3,
+    "provenance_count": 1,
+    "schema_version": "vaccine_graph_v2",
+    "model": "qwen3.7-flash",
+    "prompt_version": "medical_graph_llm_v1",
+    "validator_version": "medical_graph_validator_v1",
+    "semantica_version": "0.6.5",
+    "chunk_catalog_hash": "7a6bf2ede7dca3e90b21d7a868838d2c4be3ad3385633f486d216cf0acaf5d42",
+    "build_mode": "validation-30",
+    "rejected_chunks": 13,
+    "failed_chunks": 0,
+    "reused_chunks": 24,
+    "extracted_chunks": 6,
+    "files": {
+      "nodes.json": "f56a8f74c5bb439a8a397c411867f9689e5f831d55c0fbca63b14a19463a2856",
+      "edges.json": "ffb510416e7552569cbbeb767596975fcfd9a30dc42d93563581097bfebf3af7",
+      "provenance.json": "110f5b5cd5901a8a4fc41659227d1f980653d406fa8513194019b6d287158db2",
+      "extraction_report.json": "ee840466d0570135071a850b8588d29d430d66c2e4c5fa849f59633ba7f33995"
+    }
+  },
+  "sample": [
+    {
+      "chunk_id": "chk_bab3233d50a59e0ad03639158e41c556",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 1,
+      "section": "预防接种工作规范",
+      "characters": 30,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_7c59ff24d5f013f8ce974fd66661b0fa",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 4,
+      "section": "1 疾控主管部门和卫生健康主管部门",
+      "characters": 504,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_6a756bfe2b072a6c050d700a0fe4e8ea",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 4,
+      "section": "2 疾控机构",
+      "characters": 93,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_f30c21e797ac41c9d86d68cc1cc674df",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 4,
+      "section": "2.1 中国疾控中心",
+      "characters": 107,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_9384ba035bbe1681f0a815ae79a0812c",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 5,
+      "section": "2.1 中国疾控中心",
+      "characters": 329,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_052f996d21659b3c7636ca30841c924f",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 5,
+      "section": "2.2 省级疾控机构",
+      "characters": 508,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_1cc89c1608fc858151677a01c6d2d3fa",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 6,
+      "section": "2.3 市级疾控机构",
+      "characters": 494,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_ab2022d50fa823e7fd228090e58dceac",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 6,
+      "section": "2.4 县级疾控机构",
+      "characters": 369,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_61c5a9d544ddf199456889be636c2d94",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 7,
+      "section": "2.4 县级疾控机构",
+      "characters": 137,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_aa5c56ae9cfd6368a79226755156af4f",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 7,
+      "section": "3 医疗机构",
+      "characters": 518,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_5d8f94e96167fdf585121b42d2adc44d",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 8,
+      "section": "1 接种单位定义",
+      "characters": 168,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_e7e797e12c31fb5c3bf77b0fc203cb4c",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 8,
+      "section": "2.1 接种单位的指定",
+      "characters": 152,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_a2b891eddea334f2800a300001217013",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 8,
+      "section": "2.2 接种单位的备案",
+      "characters": 253,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_1d179bc2dacb349456c1f2b1dcf07fda",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 8,
+      "section": "3 接种单位工作内容",
+      "characters": 53,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_0d67171ea9b55c673e7e6a60b8c05c3d",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 9,
+      "section": "第二章 接种单位建设和管理",
+      "characters": 328,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_b0d41b12f8d0e1d4b1003aeabd4a54a5",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 9,
+      "section": "4.1 人员资质",
+      "characters": 192,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_665e1a8394ae1072d013934d97c13f18",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 9,
+      "section": "4.2 人员培训",
+      "characters": 137,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_a0e501c3dbd1de543aa91c22e57e6c43",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 10,
+      "section": "5.1 服务半径和服务周期",
+      "characters": 123,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_847d7bd852cdded98ffe2a10bdaee830",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 10,
+      "section": "5.2 功能区域设置",
+      "characters": 451,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_9f2f9ff4ac39583fb6d3de0da5292abf",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 10,
+      "section": "5.3 冷链设备配备",
+      "characters": 23,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_58dd13a9221c15b692c56c5f5a442988",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 10,
+      "section": "5.4 人员配备",
+      "characters": 79,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_310a5ae793b3904fedfa8764f89f5a98",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 10,
+      "section": "5.5 信息化设备配备",
+      "characters": 78,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_082d71769b06db45b8ef4bd6ee082dc3",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 11,
+      "section": "5.5 信息化设备配备",
+      "characters": 132,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_13cf0be558b572c849aa8b6fb601ecc6",
+      "file_name": "预防接种工作规范（2023年版）.pdf",
+      "page": 11,
+      "section": "5.6 场所公示",
+      "characters": 201,
+      "reused_expected": true
+    },
+    {
+      "chunk_id": "chk_68d674e1bb3e75066b658dbf12ae3321",
+      "file_name": "国家免疫规划疫苗儿童免疫程序及说明（2026年版）.pdf",
+      "page": 2,
+      "section": "国家免疫规划疫苗儿童免疫程序表（2026 年版）",
+      "characters": 253,
+      "reused_expected": false
+    },
+    {
+      "chunk_id": "chk_663b28192335023b4ebebd3f82739c3d",
+      "file_name": "EV71 手足口疫苗（肠道病毒 71 型灭活疫苗使用技术指南 PDF 永久有效）.pdf",
+      "page": 4,
+      "section": "目 录",
+      "characters": 521,
+      "reused_expected": false
+    },
+    {
+      "chunk_id": "chk_26ee5503b558f6dd7a0987356a751ccc",
+      "file_name": "中国疾控中心《百白破程序调整实施技术方案 PDF》（最全补种手册，RAG 必存）.pdf",
+      "page": 1,
+      "section": "免疫程序调整实施技术方案",
+      "characters": 342,
+      "reused_expected": false
+    },
+    {
+      "chunk_id": "chk_bed5d250ec9803fd4bc2c8b62b3abc34",
+      "file_name": "脊髓灰质炎（IPVbOPV）技术方案（新旧程序、免疫缺陷禁忌、补种）.pdf",
+      "page": 1,
+      "section": "脊髓灰质炎疫苗免疫策略调整技术方案",
+      "characters": 227,
+      "reused_expected": false
+    },
+    {
+      "chunk_id": "chk_af2cd9f5537f080be3734f7127f661e2",
+      "file_name": "麻腮风（MMR）专项技术文件（两剂程序、出疹发热、大龄补种）.pdf",
+      "page": 1,
+      "section": "含麻疹成分疫苗免疫程序调整技术方案",
+      "characters": 245,
+      "reused_expected": false
+    },
+    {
+      "chunk_id": "d1724ee3c7a12a9d2a5a640e5d8af33c5a9561f9fe3bfe941a8d2270d158839c",
+      "file_name": "中国疾控 免疫基础 + 疫苗原理专题问答.md",
+      "page": null,
+      "section": "免疫服务知识问答",
+      "characters": 573,
+      "reused_expected": false
+    }
+  ]
+}

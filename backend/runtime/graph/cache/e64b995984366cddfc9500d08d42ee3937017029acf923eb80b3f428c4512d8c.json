@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_dc7e930c6a657e9bc462018181bb79b4",
+  "content_hash": "74c57f5116c76ea32aafd0b4203f60782d6849f78ef9565f7440b20bf47814db",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_dc7e930c6a657e9bc462018181bb79b4"
+    },
+    {
+      "canonical_name": "autoimmune disorders",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune disorders",
+      "chunk_id": "chk_dc7e930c6a657e9bc462018181bb79b4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

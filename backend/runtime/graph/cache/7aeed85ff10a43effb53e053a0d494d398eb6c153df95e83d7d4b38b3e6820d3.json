@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_de54c14abd23232d91cdc4652680782c",
+  "content_hash": "a9ce8234343c7160d9550341627c0ee9d81dba3e868c752bb74c5a112a8ac43c",
+  "entities": [
+    {
+      "canonical_name": "COIVD‐19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COIVD‐19 vaccine",
+      "chunk_id": "chk_de54c14abd23232d91cdc4652680782c"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_de54c14abd23232d91cdc4652680782c"
+    },
+    {
+      "canonical_name": "women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "women",
+      "chunk_id": "chk_de54c14abd23232d91cdc4652680782c"
+    },
+    {
+      "canonical_name": "men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "men",
+      "chunk_id": "chk_de54c14abd23232d91cdc4652680782c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

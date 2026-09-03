@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_3c5aef63a313e8cbded4c386adc4eb5f",
+  "content_hash": "f95d8b80064d8872c04202d064e07f1760208309e75da54c537a97fdaa205058",
+  "entities": [
+    {
+      "canonical_name": "cancer vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "cancer vaccine",
+      "chunk_id": "chk_3c5aef63a313e8cbded4c386adc4eb5f"
+    },
+    {
+      "canonical_name": "therapeutic cancer vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "therapeutic cancer vaccines",
+      "chunk_id": "chk_3c5aef63a313e8cbded4c386adc4eb5f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

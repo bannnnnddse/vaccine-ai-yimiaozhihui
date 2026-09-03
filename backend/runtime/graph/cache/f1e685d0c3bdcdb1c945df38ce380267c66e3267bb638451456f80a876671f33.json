@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_29852540f4dd377acd876350627229db",
+  "content_hash": "08f01eb1edee467c4be155107cbb38d63a3552161657a33484550122ff6794e9",
+  "entities": [
+    {
+      "canonical_name": "慢性阻塞性肺部疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "慢性阻塞性肺部疾病",
+      "chunk_id": "chk_29852540f4dd377acd876350627229db"
+    },
+    {
+      "canonical_name": "急性胃炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性胃炎",
+      "chunk_id": "chk_29852540f4dd377acd876350627229db"
+    },
+    {
+      "canonical_name": "肝病硬化",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "肝病硬化",
+      "chunk_id": "chk_29852540f4dd377acd876350627229db"
+    },
+    {
+      "canonical_name": "胆囊疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "胆囊疾病",
+      "chunk_id": "chk_29852540f4dd377acd876350627229db"
+    },
+    {
+      "canonical_name": "类风湿性关节炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "类风湿性关节炎",
+      "chunk_id": "chk_29852540f4dd377acd876350627229db"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_54b575970d0ffd571bd6171ec09694ae",
+  "content_hash": "2d5bd986a683d52d97cef4f567c16cc52f22efb1488652f02d3fdb4d62aba288",
+  "entities": [
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "chk_54b575970d0ffd571bd6171ec09694ae"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

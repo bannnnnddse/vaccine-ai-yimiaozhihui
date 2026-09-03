@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_6fc317ff7beaa9c21364c92179457775",
+  "content_hash": "3a5650343c4f913708b81a212384d581f7de6e09246202aac93e4abe0d50fbb6",
+  "entities": [
+    {
+      "canonical_name": "diphtheria–tetanus–pertussis vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria–tetanus–pertussis vaccine",
+      "chunk_id": "chk_6fc317ff7beaa9c21364c92179457775"
+    },
+    {
+      "canonical_name": "UK immunization schedule",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "UK immunization schedule",
+      "chunk_id": "chk_6fc317ff7beaa9c21364c92179457775"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

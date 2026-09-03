@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d3f6181f667df7623fc91f9e297e1c80",
+  "content_hash": "5ffd5638f94ef1b9e6cd6571abc29f8e8f54999ec3d9cbf27eee5463f9bc9b00",
+  "entities": [
+    {
+      "canonical_name": "Intradermal DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Intradermal DNA vaccine",
+      "chunk_id": "chk_d3f6181f667df7623fc91f9e297e1c80"
+    },
+    {
+      "canonical_name": "healthy volunteers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy volunteers",
+      "chunk_id": "chk_d3f6181f667df7623fc91f9e297e1c80"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

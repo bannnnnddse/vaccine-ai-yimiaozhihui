@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_c6ed65e3a7530bffd9f80e4a503bce1e",
+  "content_hash": "25319d9171ee56924a233f01cd60baa70f7fc7019d4e166dbb4b6684ce4a34cc",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_c6ed65e3a7530bffd9f80e4a503bce1e"
+    },
+    {
+      "canonical_name": "Healthcare professionals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Healthcare professionals",
+      "chunk_id": "chk_c6ed65e3a7530bffd9f80e4a503bce1e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

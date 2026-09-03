@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_ac666084a8315008e41aca33ad572151",
+  "content_hash": "7d80bf0720e14e18dd58e107aada574ea7cff69caf4b0667ad967803051c21dc",
+  "entities": [
+    {
+      "canonical_name": "mother–infant pairs",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mother–infant pairs",
+      "chunk_id": "chk_ac666084a8315008e41aca33ad572151"
+    },
+    {
+      "canonical_name": "HBIG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HBIG",
+      "chunk_id": "chk_ac666084a8315008e41aca33ad572151"
+    },
+    {
+      "canonical_name": "HBVacs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBVacs",
+      "chunk_id": "chk_ac666084a8315008e41aca33ad572151"
+    },
+    {
+      "canonical_name": "HepB vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "HepB vaccination",
+      "chunk_id": "chk_ac666084a8315008e41aca33ad572151"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

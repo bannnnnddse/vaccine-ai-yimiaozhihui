@@ -1,0 +1,46 @@
+{
+  "chunk_id": "0fe2847bbe249fd5ce99a9244bc3b5f055e1e16bfbe586f975334eedf14d1110",
+  "content_hash": "35227f54a93202d12c9b9b97a3fbace47740ff9c038362b5ebcb815f6fc355b6",
+  "entities": [
+    {
+      "canonical_name": "Tularemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Tularemia",
+      "chunk_id": "0fe2847bbe249fd5ce99a9244bc3b5f055e1e16bfbe586f975334eedf14d1110"
+    },
+    {
+      "canonical_name": "Francisella tularensis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Francisella tularensis",
+      "chunk_id": "0fe2847bbe249fd5ce99a9244bc3b5f055e1e16bfbe586f975334eedf14d1110"
+    },
+    {
+      "canonical_name": "Francisella tularensis LVS",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Francisella tularensis LVS",
+      "chunk_id": "0fe2847bbe249fd5ce99a9244bc3b5f055e1e16bfbe586f975334eedf14d1110"
+    },
+    {
+      "canonical_name": "live attenuated vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live attenuated vaccine",
+      "chunk_id": "0fe2847bbe249fd5ce99a9244bc3b5f055e1e16bfbe586f975334eedf14d1110"
+    },
+    {
+      "canonical_name": "cholera",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cholera",
+      "chunk_id": "0fe2847bbe249fd5ce99a9244bc3b5f055e1e16bfbe586f975334eedf14d1110"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_71891ca2374b3279fcfc962d27508594",
+  "content_hash": "1e0c0510fbbf969579428b0c93f8cf3e209dc7ad473f7d510b70256bb3e807ec",
+  "entities": [
+    {
+      "canonical_name": "Interleukin 6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Interleukin 6",
+      "chunk_id": "chk_71891ca2374b3279fcfc962d27508594"
+    },
+    {
+      "canonical_name": "C3 complement component",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "C3 complement component",
+      "chunk_id": "chk_71891ca2374b3279fcfc962d27508594"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_71891ca2374b3279fcfc962d27508594"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f351ba2f9476e059bb002817afb51810",
+  "content_hash": "fa37832d83e0989da9fe19746d349d291ea6f0691c698fef80e1310b718a077c",
+  "entities": [
+    {
+      "canonical_name": "rotavirus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus vaccines",
+      "chunk_id": "chk_f351ba2f9476e059bb002817afb51810"
+    },
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_f351ba2f9476e059bb002817afb51810"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_f351ba2f9476e059bb002817afb51810"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

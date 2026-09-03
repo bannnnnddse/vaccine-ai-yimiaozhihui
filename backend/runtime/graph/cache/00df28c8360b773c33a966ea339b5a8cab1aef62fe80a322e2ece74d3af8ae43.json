@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_11905bca6cc8b0f8629f766640b90367",
+  "content_hash": "b9f0c0d45e34cacd6b80975788e93749b09ae0ca957c47da963147573265fa42",
+  "entities": [
+    {
+      "canonical_name": "hepatitis A",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis A",
+      "chunk_id": "chk_11905bca6cc8b0f8629f766640b90367"
+    },
+    {
+      "canonical_name": "HIV-infected men who have sex with men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-infected men who have sex with men",
+      "chunk_id": "chk_11905bca6cc8b0f8629f766640b90367"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

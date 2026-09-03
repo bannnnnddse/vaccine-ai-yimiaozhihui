@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_cf7150dcc5084024d486840433364da5",
+  "content_hash": "697e781538aa7a674c31fcdf6b2279a5f5d6e7e536776a6d30873c2734f1494a",
+  "entities": [
+    {
+      "canonical_name": "live viral vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live viral vaccines",
+      "chunk_id": "chk_cf7150dcc5084024d486840433364da5"
+    },
+    {
+      "canonical_name": "severely immunocompromised patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "severely immunocompromised patients",
+      "chunk_id": "chk_cf7150dcc5084024d486840433364da5"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "chk_cf7150dcc5084024d486840433364da5"
+    },
+    {
+      "canonical_name": "intussusception",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "intussusception",
+      "chunk_id": "chk_cf7150dcc5084024d486840433364da5"
+    },
+    {
+      "canonical_name": "oral rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "oral rotavirus vaccine",
+      "chunk_id": "chk_cf7150dcc5084024d486840433364da5"
+    },
+    {
+      "canonical_name": "anaphylaxis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "anaphylaxis",
+      "chunk_id": "chk_cf7150dcc5084024d486840433364da5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "invalid_domain_range"
+  ]
+}

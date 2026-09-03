@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_76b9b3e19e4c6c0846a6eb16a04bfc22",
+  "content_hash": "4ca9b8de932f73263abc2ad2072b2dc08617b9abd93a7fbb4cb817d205cc6714",
+  "entities": [
+    {
+      "canonical_name": "neoantigen DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "neoantigen DNA vaccines",
+      "chunk_id": "chk_76b9b3e19e4c6c0846a6eb16a04bfc22"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_48e73a03ccc663e4b76389de2be904a2",
+  "content_hash": "813d44bbb8f905e42c0cc468a2b7bddaab26604e4536de6ff84f490bfd884e95",
+  "entities": [
+    {
+      "canonical_name": "individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals",
+      "chunk_id": "chk_48e73a03ccc663e4b76389de2be904a2"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_48e73a03ccc663e4b76389de2be904a2"
+    },
+    {
+      "canonical_name": "AEs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEs",
+      "chunk_id": "chk_48e73a03ccc663e4b76389de2be904a2"
+    },
+    {
+      "canonical_name": "general population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general population",
+      "chunk_id": "chk_48e73a03ccc663e4b76389de2be904a2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

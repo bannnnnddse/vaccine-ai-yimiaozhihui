@@ -1,0 +1,73 @@
+{
+  "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd",
+  "content_hash": "a8bc8d1ce494866b89c25668d0fc48738c309491b870f2675322d9a8fd48a5bc",
+  "entities": [
+    {
+      "canonical_name": "RSV vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccine candidates",
+      "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd"
+    },
+    {
+      "canonical_name": "RSV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccines",
+      "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd"
+    },
+    {
+      "canonical_name": "RSV postfusion F protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RSV postfusion F protein",
+      "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd"
+    },
+    {
+      "canonical_name": "nanoparticle-based RSV-F vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nanoparticle-based RSV-F vaccine",
+      "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd"
+    },
+    {
+      "canonical_name": "adults aged 60 years or older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults aged 60 years or older",
+      "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd"
+    },
+    {
+      "canonical_name": "RSV-related illness",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related illness",
+      "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd"
+    },
+    {
+      "canonical_name": "infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infections",
+      "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "13d44772372b476e37b91ef7a462088a133b8e41c3c60b02081423cf255394bd"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

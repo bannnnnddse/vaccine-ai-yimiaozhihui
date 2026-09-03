@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_44979fa81a2aeb6c86365dae82e5b598",
+  "content_hash": "bb61561182f6b50f35cf9f0e24e1b8bef08ffd73092b91f8849746b1b7b0cfd6",
+  "entities": [
+    {
+      "canonical_name": "Influenzaassociated",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Influenzaassociated",
+      "chunk_id": "chk_44979fa81a2aeb6c86365dae82e5b598"
+    },
+    {
+      "canonical_name": "cardiovascular diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cardiovascular diseases",
+      "chunk_id": "chk_44979fa81a2aeb6c86365dae82e5b598"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

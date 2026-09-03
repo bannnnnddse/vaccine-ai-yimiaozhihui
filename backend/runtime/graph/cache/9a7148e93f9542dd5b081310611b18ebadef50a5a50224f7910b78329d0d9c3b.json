@@ -1,0 +1,36 @@
+{
+  "chunk_id": "8ee196b3658fdbf0d60269acc80302310620ba51f6a25e187b5caa7e37beeea6",
+  "content_hash": "a3270ebe634c5be79ecece121140667cc94bc823707b65d04d61d371f93acf53",
+  "entities": [
+    {
+      "canonical_name": "Recombinant protein vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Recombinant protein vaccines",
+      "chunk_id": "8ee196b3658fdbf0d60269acc80302310620ba51f6a25e187b5caa7e37beeea6"
+    },
+    {
+      "canonical_name": "pathogenic microorganisms",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogenic microorganisms",
+      "chunk_id": "8ee196b3658fdbf0d60269acc80302310620ba51f6a25e187b5caa7e37beeea6"
+    },
+    {
+      "canonical_name": "antigen proteins",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen proteins",
+      "chunk_id": "8ee196b3658fdbf0d60269acc80302310620ba51f6a25e187b5caa7e37beeea6"
+    },
+    {
+      "canonical_name": "recombinant viral surface proteins",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "recombinant viral surface proteins",
+      "chunk_id": "8ee196b3658fdbf0d60269acc80302310620ba51f6a25e187b5caa7e37beeea6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

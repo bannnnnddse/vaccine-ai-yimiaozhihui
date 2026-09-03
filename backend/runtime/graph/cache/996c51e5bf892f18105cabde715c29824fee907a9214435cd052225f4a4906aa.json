@@ -1,0 +1,99 @@
+{
+  "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f",
+  "content_hash": "938a6ca45bb8105f968296e7c87de7bd62ba397d20a274045627ea40dc702a7c",
+  "entities": [
+    {
+      "canonical_name": "ADE",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "ADE",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "Ebola",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Ebola",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "IL-12",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-12",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "TNF-a",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TNF-a",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "IFN-g",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-g",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "nitric oxide radical",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "nitric oxide radical",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "IL-6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-6",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "IL-10",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-10",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "suppressor of cytokine signaling-3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "suppressor of cytokine signaling-3",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "SOC3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SOC3",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "JAK/STAT pathway",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "JAK/STAT pathway",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    },
+    {
+      "canonical_name": "Th2-type immune respond",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th2-type immune respond",
+      "chunk_id": "chk_8c51a74e9e2eca5db5adbf833c26f27f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_f007def7f7a566e962d9e386a8e2e2ef",
+  "content_hash": "5d9dad48c39bc1896d4322ac6bd10514577c9541776a5c116dea8cccca13f127",
+  "entities": [
+    {
+      "canonical_name": "Hepavax-Gene TF",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepavax-Gene TF",
+      "chunk_id": "chk_f007def7f7a566e962d9e386a8e2e2ef"
+    },
+    {
+      "canonical_name": "Engerix-B Recombinant Hepatitis B Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Engerix-B Recombinant Hepatitis B Vaccines",
+      "chunk_id": "chk_f007def7f7a566e962d9e386a8e2e2ef"
+    },
+    {
+      "canonical_name": "Neonates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Neonates",
+      "chunk_id": "chk_f007def7f7a566e962d9e386a8e2e2ef"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_f007def7f7a566e962d9e386a8e2e2ef"
+    },
+    {
+      "canonical_name": "mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mothers",
+      "chunk_id": "chk_f007def7f7a566e962d9e386a8e2e2ef"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_8a036a87c0f2536a8662be5b8a112742",
+  "content_hash": "25ec441b0dd36209e38f050d3d1183e52dec5f18b4bcc3801e856fab4db3a092",
+  "entities": [
+    {
+      "canonical_name": "smallpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "smallpox",
+      "chunk_id": "chk_8a036a87c0f2536a8662be5b8a112742"
+    },
+    {
+      "canonical_name": "yellow fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "yellow fever",
+      "chunk_id": "chk_8a036a87c0f2536a8662be5b8a112742"
+    },
+    {
+      "canonical_name": "nanoparticle-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nanoparticle-based vaccines",
+      "chunk_id": "chk_8a036a87c0f2536a8662be5b8a112742"
+    },
+    {
+      "canonical_name": "viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "viruses",
+      "chunk_id": "chk_8a036a87c0f2536a8662be5b8a112742"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_8a036a87c0f2536a8662be5b8a112742"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_8a036a87c0f2536a8662be5b8a112742"
+    },
+    {
+      "canonical_name": "plasma cell responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cell responses",
+      "chunk_id": "chk_8a036a87c0f2536a8662be5b8a112742"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

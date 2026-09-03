@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_8d9c72ff8a23435eff4c009646bfadf5",
+  "content_hash": "e6b3cd50de2c836041a84e02d5f9f6aeed82e05349dc0a930de555f04afb224f",
+  "entities": [
+    {
+      "canonical_name": "serious events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serious events",
+      "chunk_id": "chk_8d9c72ff8a23435eff4c009646bfadf5"
+    },
+    {
+      "canonical_name": "adults 65 years of age or older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults 65 years of age or older",
+      "chunk_id": "chk_8d9c72ff8a23435eff4c009646bfadf5"
+    },
+    {
+      "canonical_name": "high-dose and standard-dose inactivated influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "high-dose and standard-dose inactivated influenza vaccines",
+      "chunk_id": "chk_8d9c72ff8a23435eff4c009646bfadf5"
+    },
+    {
+      "canonical_name": "high-dose versus standard-dose influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "high-dose versus standard-dose influenza vaccination",
+      "chunk_id": "chk_8d9c72ff8a23435eff4c009646bfadf5"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_8d9c72ff8a23435eff4c009646bfadf5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

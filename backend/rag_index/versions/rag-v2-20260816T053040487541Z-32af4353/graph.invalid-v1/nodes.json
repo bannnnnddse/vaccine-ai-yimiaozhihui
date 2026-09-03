@@ -1,0 +1,51 @@
+[
+  {
+    "aliases": [
+      "HPV 疫苗",
+      "HPV疫苗",
+      "人乳头瘤病毒疫苗"
+    ],
+    "canonical_name": "HPV疫苗",
+    "entity_type": "Vaccine",
+    "id": "node_1cace2c71e8f3aed320412ee",
+    "provenance_ids": [
+      "prov_63b04b2a4e552becf0a989d9"
+    ]
+  },
+  {
+    "aliases": [
+      "减毒活疫苗",
+      "活疫苗"
+    ],
+    "canonical_name": "减毒活疫苗",
+    "entity_type": "Vaccine",
+    "id": "node_4c6e7292fe1bb2ffdf5336c4",
+    "provenance_ids": [
+      "prov_7cbeb21e6597781f088b9f9b"
+    ]
+  },
+  {
+    "aliases": [
+      "儿童",
+      "婴幼儿"
+    ],
+    "canonical_name": "儿童",
+    "entity_type": "Population",
+    "id": "node_aff02319a960a2882ca61821",
+    "provenance_ids": [
+      "prov_7cbeb21e6597781f088b9f9b",
+      "prov_dac2fcdc5da08bae7686e421"
+    ]
+  },
+  {
+    "aliases": [
+      "宫颈癌"
+    ],
+    "canonical_name": "宫颈癌",
+    "entity_type": "Disease",
+    "id": "node_f6a98ec6345ca9302e99f331",
+    "provenance_ids": [
+      "prov_63b04b2a4e552becf0a989d9"
+    ]
+  }
+]

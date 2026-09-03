@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_3b370165cfc307f98e6855b9978f76d6",
+  "content_hash": "300f463cf60cb1cf0c6b60dd8f97da03046b83e4b12eaa0eeb5215e65468942f",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_3b370165cfc307f98e6855b9978f76d6"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_3b370165cfc307f98e6855b9978f76d6"
+    },
+    {
+      "canonical_name": "healthcare worker",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthcare worker",
+      "chunk_id": "chk_3b370165cfc307f98e6855b9978f76d6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

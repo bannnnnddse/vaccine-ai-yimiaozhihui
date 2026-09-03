@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_975e0f00b467e351bb919a5e788e8dec",
+  "content_hash": "1fd2ad126ebef36880b218e45fc43ecbde11d75dc8ba1f7f1f7690130bba18cc",
+  "entities": [
+    {
+      "canonical_name": "RNA cancer vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA cancer vaccines",
+      "chunk_id": "chk_975e0f00b467e351bb919a5e788e8dec"
+    },
+    {
+      "canonical_name": "prostate cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "prostate cancer",
+      "chunk_id": "chk_975e0f00b467e351bb919a5e788e8dec"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

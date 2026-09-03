@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_a81178fe163cde97c3fbbff072191fbb",
+  "content_hash": "a163992ca27a31ca2ffe1e86957a839ac104dc3bd6e05a34cd9c04185f1acd50",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2 mRNA vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 mRNA vaccination",
+      "chunk_id": "chk_a81178fe163cde97c3fbbff072191fbb"
+    },
+    {
+      "canonical_name": "innate immune cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune cells",
+      "chunk_id": "chk_a81178fe163cde97c3fbbff072191fbb"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 vaccines",
+      "chunk_id": "chk_a81178fe163cde97c3fbbff072191fbb"
+    },
+    {
+      "canonical_name": "three major antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "three major antibodies",
+      "chunk_id": "chk_a81178fe163cde97c3fbbff072191fbb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

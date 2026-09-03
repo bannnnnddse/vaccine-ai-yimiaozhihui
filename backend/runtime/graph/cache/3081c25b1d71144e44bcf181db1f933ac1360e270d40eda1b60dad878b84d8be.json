@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7c69927f788f704ff96e27421e04c5e2",
+  "content_hash": "fb53a39b036822f9c72f4105b7d802c83c280112427254a7ba352bed07671d9e",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_7c69927f788f704ff96e27421e04c5e2"
+    },
+    {
+      "canonical_name": "infertility",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "infertility",
+      "chunk_id": "chk_7c69927f788f704ff96e27421e04c5e2"
+    },
+    {
+      "canonical_name": "death",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "death",
+      "chunk_id": "chk_7c69927f788f704ff96e27421e04c5e2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

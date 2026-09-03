@@ -1,0 +1,60 @@
+{
+  "chunk_id": "chk_1c3d8ab175b17a4e9877e0440d9cfbeb",
+  "content_hash": "5f74d7925af0c32aa9349b9f876dd14054607b04172945886cfca9be7a77cb4b",
+  "entities": [
+    {
+      "canonical_name": "immune response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune response",
+      "chunk_id": "chk_1c3d8ab175b17a4e9877e0440d9cfbeb"
+    },
+    {
+      "canonical_name": "Preexisting immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Preexisting immunity",
+      "chunk_id": "chk_1c3d8ab175b17a4e9877e0440d9cfbeb"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_1c3d8ab175b17a4e9877e0440d9cfbeb"
+    },
+    {
+      "canonical_name": "adverse reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse reactions",
+      "chunk_id": "chk_1c3d8ab175b17a4e9877e0440d9cfbeb"
+    },
+    {
+      "canonical_name": "harmful reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "harmful reactions",
+      "chunk_id": "chk_1c3d8ab175b17a4e9877e0440d9cfbeb"
+    },
+    {
+      "canonical_name": "highly virulent pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "highly virulent pathogens",
+      "chunk_id": "chk_1c3d8ab175b17a4e9877e0440d9cfbeb"
+    },
+    {
+      "canonical_name": "Adjuvant",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Adjuvant",
+      "chunk_id": "chk_1c3d8ab175b17a4e9877e0440d9cfbeb"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

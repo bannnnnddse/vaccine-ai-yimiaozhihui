@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_9514e304e50fa67829dec8df56f94f43",
+  "content_hash": "eb57f08c52dd29397c0738e82dd0ca983214c909d24f5479694aa82455ccac1a",
+  "entities": [
+    {
+      "canonical_name": "MenACWY-CRM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenACWY-CRM",
+      "chunk_id": "chk_9514e304e50fa67829dec8df56f94f43"
+    },
+    {
+      "canonical_name": "healthy 40- and 60-month-olds",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy 40- and 60-month-olds",
+      "chunk_id": "chk_9514e304e50fa67829dec8df56f94f43"
+    },
+    {
+      "canonical_name": "3 + 1 schedule",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "3 + 1 schedule",
+      "chunk_id": "chk_9514e304e50fa67829dec8df56f94f43"
+    },
+    {
+      "canonical_name": "single-dose schedule",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "single-dose schedule",
+      "chunk_id": "chk_9514e304e50fa67829dec8df56f94f43"
+    },
+    {
+      "canonical_name": "MenACWY vaccine-naïve children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "MenACWY vaccine-naïve children",
+      "chunk_id": "chk_9514e304e50fa67829dec8df56f94f43"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_51936ee7552cd404f17f42f9381bfeb6",
+  "content_hash": "7ef6747a5e507eadf626bda70df9eb042b00a5bbc47ccb391d51c0da5dd1deb9",
+  "entities": [
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_51936ee7552cd404f17f42f9381bfeb6"
+    },
+    {
+      "canonical_name": "Typhoid",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Typhoid",
+      "chunk_id": "chk_51936ee7552cd404f17f42f9381bfeb6"
+    },
+    {
+      "canonical_name": "Salmonellosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Salmonellosis",
+      "chunk_id": "chk_51936ee7552cd404f17f42f9381bfeb6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

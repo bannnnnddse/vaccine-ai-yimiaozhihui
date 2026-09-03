@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_ad41c545ed905f17bdfa416641442a7f",
+  "content_hash": "5d8896eb81eced4056edab393aaaf3b449a16589e657376fa0c8e193f1505522",
+  "entities": [
+    {
+      "canonical_name": "rindopepimut (CDX-110)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rindopepimut (CDX-110)",
+      "chunk_id": "chk_ad41c545ed905f17bdfa416641442a7f"
+    },
+    {
+      "canonical_name": "glioblastoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "glioblastoma",
+      "chunk_id": "chk_ad41c545ed905f17bdfa416641442a7f"
+    },
+    {
+      "canonical_name": "prostate cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "prostate cancer",
+      "chunk_id": "chk_ad41c545ed905f17bdfa416641442a7f"
+    },
+    {
+      "canonical_name": "prostate-specific antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "prostate-specific antigen",
+      "chunk_id": "chk_ad41c545ed905f17bdfa416641442a7f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

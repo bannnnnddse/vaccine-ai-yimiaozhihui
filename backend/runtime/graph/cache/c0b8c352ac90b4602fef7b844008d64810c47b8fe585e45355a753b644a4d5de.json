@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_f90054025d53db3f08f0d3c50ebe2d5e",
+  "content_hash": "9769a5837d8d2d46c219e7249224fbe2acdc8186b8a6ed9fc8867b104b8de161",
+  "entities": [
+    {
+      "canonical_name": "T follicular helper cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T follicular helper cells",
+      "chunk_id": "chk_f90054025d53db3f08f0d3c50ebe2d5e"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_f90054025d53db3f08f0d3c50ebe2d5e"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_f90054025d53db3f08f0d3c50ebe2d5e"
+    },
+    {
+      "canonical_name": "Follicular helper cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Follicular helper cell",
+      "chunk_id": "chk_f90054025d53db3f08f0d3c50ebe2d5e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_c8a1dcb8609031cf75dbc69076a4459b",
+  "content_hash": "4c0b8f532a959104862b75c644b18c359f70cc953dbff79dc1408060d7692224",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis B virus",
+      "chunk_id": "chk_c8a1dcb8609031cf75dbc69076a4459b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

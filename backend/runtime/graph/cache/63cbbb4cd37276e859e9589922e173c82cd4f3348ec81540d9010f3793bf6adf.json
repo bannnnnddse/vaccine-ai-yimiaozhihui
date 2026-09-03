@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_b18ead82ba2ef78085d9b24016054eac",
+  "content_hash": "b992fcdb8e1ac01ed634beebdc68a6197cbaa6e1028872108fe641fc95804a64",
+  "entities": [
+    {
+      "canonical_name": "BCG vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG vaccination",
+      "chunk_id": "chk_b18ead82ba2ef78085d9b24016054eac"
+    },
+    {
+      "canonical_name": "M. tuberculosis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "M. tuberculosis",
+      "chunk_id": "chk_b18ead82ba2ef78085d9b24016054eac"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_b18ead82ba2ef78085d9b24016054eac"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_b18ead82ba2ef78085d9b24016054eac"
+    },
+    {
+      "canonical_name": "miliary TB",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "miliary TB",
+      "chunk_id": "chk_b18ead82ba2ef78085d9b24016054eac"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

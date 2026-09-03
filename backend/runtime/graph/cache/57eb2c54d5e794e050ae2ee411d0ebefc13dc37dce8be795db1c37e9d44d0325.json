@@ -1,0 +1,190 @@
+{
+  "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238",
+  "content_hash": "fa05877fac34c45335d7fdfa116989d9e72ad9e13f4c53553e1527123a0f0444",
+  "entities": [
+    {
+      "canonical_name": "Hib",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hib",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "human papillomavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "HZ",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HZ",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "herpes zoster vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "herpes zoster vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "Ig",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Ig",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "immunoglobulin",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunoglobulin",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IPV",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "inactivated poliovirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated poliovirus vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "LAIV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "LAIV",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "live attenuated influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live attenuated influenza vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "MMR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "measles, mumps and rubella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles, mumps and rubella vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "MMRV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "MMRvaricella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRvaricella vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "OPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "OPV",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "oral poliovirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "oral poliovirus vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "PPSV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PPSV",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "pneumococcal polysaccharide vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal polysaccharide vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "Td",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Td",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "tetanus toxoid, reduced diphtheria toxoid",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "tetanus toxoid, reduced diphtheria toxoid",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "VAR",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VAR",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    },
+    {
+      "canonical_name": "varicella vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella vaccine",
+      "chunk_id": "chk_4174f5354b818e82f2ce2f0867ea7238"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

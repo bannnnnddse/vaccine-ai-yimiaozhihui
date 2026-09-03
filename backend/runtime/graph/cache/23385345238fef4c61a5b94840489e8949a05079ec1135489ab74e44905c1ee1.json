@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_7979264e659c8f14c64c0455d6ab6387",
+  "content_hash": "05366539eedb47d105ceccb72edb1dcca6fe4fc85148a9dff8e4524d5aa522fc",
+  "entities": [
+    {
+      "canonical_name": "People With HIV",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "People With HIV",
+      "chunk_id": "chk_7979264e659c8f14c64c0455d6ab6387"
+    },
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination",
+      "chunk_id": "chk_7979264e659c8f14c64c0455d6ab6387"
+    },
+    {
+      "canonical_name": "immunocompromised patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised patients",
+      "chunk_id": "chk_7979264e659c8f14c64c0455d6ab6387"
+    },
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_7979264e659c8f14c64c0455d6ab6387"
+    },
+    {
+      "canonical_name": "anti-CD20-depleting therapy",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "anti-CD20-depleting therapy",
+      "chunk_id": "chk_7979264e659c8f14c64c0455d6ab6387"
+    },
+    {
+      "canonical_name": "autoimmune diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune diseases",
+      "chunk_id": "chk_7979264e659c8f14c64c0455d6ab6387"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

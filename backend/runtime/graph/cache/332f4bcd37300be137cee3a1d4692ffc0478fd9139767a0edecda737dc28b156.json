@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_77f18335533183c790ab341c0bb067e0",
+  "content_hash": "aa68eed3f5d65669ee5dea432a1be4ef5b164ab0e591af6cb973125ed1c4b05a",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_77f18335533183c790ab341c0bb067e0"
+    },
+    {
+      "canonical_name": "females",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females",
+      "chunk_id": "chk_77f18335533183c790ab341c0bb067e0"
+    },
+    {
+      "canonical_name": "males",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "males",
+      "chunk_id": "chk_77f18335533183c790ab341c0bb067e0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

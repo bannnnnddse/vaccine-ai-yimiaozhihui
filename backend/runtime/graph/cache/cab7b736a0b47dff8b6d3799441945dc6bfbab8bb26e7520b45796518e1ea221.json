@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_3311dbc1359291e16ad5299e4dec2f15",
+  "content_hash": "aca6818365c79ddb7cd5271a8a0953fa110d3990fe44474b8eb08aef15dfc420",
+  "entities": [
+    {
+      "canonical_name": "AstraZeneca COVID-19 Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AstraZeneca COVID-19 Vaccine",
+      "chunk_id": "chk_3311dbc1359291e16ad5299e4dec2f15"
+    },
+    {
+      "canonical_name": "Vaxzevria",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaxzevria",
+      "chunk_id": "chk_3311dbc1359291e16ad5299e4dec2f15"
+    },
+    {
+      "canonical_name": "Covishield",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Covishield",
+      "chunk_id": "chk_3311dbc1359291e16ad5299e4dec2f15"
+    },
+    {
+      "canonical_name": "blood coagulation events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "blood coagulation events",
+      "chunk_id": "chk_3311dbc1359291e16ad5299e4dec2f15"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_d65bbc0a3ea592dafbcece64aa36299f",
+  "content_hash": "9dd5110904a73526b3e6acfcf107644492881cbc9b18832a41de2260db0e96f9",
+  "entities": [
+    {
+      "canonical_name": "peptide vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "peptide vaccines",
+      "chunk_id": "chk_d65bbc0a3ea592dafbcece64aa36299f"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_d65bbc0a3ea592dafbcece64aa36299f"
+    },
+    {
+      "canonical_name": "Alzheimer's disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Alzheimer's disease",
+      "chunk_id": "chk_d65bbc0a3ea592dafbcece64aa36299f"
+    },
+    {
+      "canonical_name": "Hepatitis C virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hepatitis C virus",
+      "chunk_id": "chk_d65bbc0a3ea592dafbcece64aa36299f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

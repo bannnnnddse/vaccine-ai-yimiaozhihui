@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_0a2a0c5377f5525c59467ccfea9b0b34",
+  "content_hash": "08a8952416ee525dee86c418aa963d1148a152c1716d677730f698552c194796",
+  "entities": [
+    {
+      "canonical_name": "BCG re-vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "BCG re-vaccination",
+      "chunk_id": "chk_0a2a0c5377f5525c59467ccfea9b0b34"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_0a2a0c5377f5525c59467ccfea9b0b34"
+    },
+    {
+      "canonical_name": "healthcare workers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthcare workers",
+      "chunk_id": "chk_0a2a0c5377f5525c59467ccfea9b0b34"
+    },
+    {
+      "canonical_name": "Interleukin-1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Interleukin-1",
+      "chunk_id": "chk_0a2a0c5377f5525c59467ccfea9b0b34"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_0a2a0c5377f5525c59467ccfea9b0b34"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_0a2a0c5377f5525c59467ccfea9b0b34"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

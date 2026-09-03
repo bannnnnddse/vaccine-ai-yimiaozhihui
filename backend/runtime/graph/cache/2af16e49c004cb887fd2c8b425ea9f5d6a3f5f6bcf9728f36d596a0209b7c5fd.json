@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_8ce9109ed676d850a7b98a829cbf253e",
+  "content_hash": "14d62e18cfee078e7c90a83027f04154a1a70adffe25547eda9a1f7f82197405",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19 infection",
+      "chunk_id": "chk_8ce9109ed676d850a7b98a829cbf253e"
+    },
+    {
+      "canonical_name": "anti-nucleocapsid IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-nucleocapsid IgG",
+      "chunk_id": "chk_8ce9109ed676d850a7b98a829cbf253e"
+    },
+    {
+      "canonical_name": "anti-spike IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-spike IgG",
+      "chunk_id": "chk_8ce9109ed676d850a7b98a829cbf253e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

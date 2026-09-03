@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d2cac6b506b02aff82020ce8c386081e",
+  "content_hash": "0d4a1d3b717bf37541c3a91d6c2dc2b30bf1ba8ab3c598504d1889c7c0778d62",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B virus (HBV)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis B virus (HBV)",
+      "chunk_id": "chk_d2cac6b506b02aff82020ce8c386081e"
+    },
+    {
+      "canonical_name": "human immunodeficiency virus (HIV)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human immunodeficiency virus (HIV)",
+      "chunk_id": "chk_d2cac6b506b02aff82020ce8c386081e"
+    },
+    {
+      "canonical_name": "HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HBV infection",
+      "chunk_id": "chk_d2cac6b506b02aff82020ce8c386081e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

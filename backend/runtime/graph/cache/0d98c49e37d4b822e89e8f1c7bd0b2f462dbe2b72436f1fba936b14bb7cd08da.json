@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_f491c4e95f9eeeddf1bbef9643a2ff53",
+  "content_hash": "862a98d64d3af0ed58baff89e4191fafd44ad33bc0a490620bed0ec729413956",
+  "entities": [
+    {
+      "canonical_name": "Herpesvirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Herpesvirus",
+      "chunk_id": "chk_f491c4e95f9eeeddf1bbef9643a2ff53"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

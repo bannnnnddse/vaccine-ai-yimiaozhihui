@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_0fdb27c54f84f22f1ecd4fb62c314258",
+  "content_hash": "076770b2eb668ed2f0973abc928f62cafcf441890ece2572ec32c30fe86efe13",
+  "entities": [
+    {
+      "canonical_name": "hepatitis A vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis A vaccines",
+      "chunk_id": "chk_0fdb27c54f84f22f1ecd4fb62c314258"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_0fdb27c54f84f22f1ecd4fb62c314258"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

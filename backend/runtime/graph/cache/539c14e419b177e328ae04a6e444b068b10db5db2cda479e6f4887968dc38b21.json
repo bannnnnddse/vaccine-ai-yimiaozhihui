@@ -1,0 +1,15 @@
+{
+  "chunk_id": "76f9b797664bc6f57c77eea5722581126f56c10a6dba87b9508d25c2f064f75d",
+  "content_hash": "d8847429c430bef0e05a64ffadad6e7066d55eb937493094cebe2764e22e84ae",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine-hesitant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine-hesitant",
+      "chunk_id": "76f9b797664bc6f57c77eea5722581126f56c10a6dba87b9508d25c2f064f75d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

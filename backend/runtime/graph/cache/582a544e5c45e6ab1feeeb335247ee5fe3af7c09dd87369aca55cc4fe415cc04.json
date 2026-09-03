@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_b15c79476fbd7813425b9ff419aeb738",
+  "content_hash": "7910e50babc543f60fe9e7a7e870ee31c0fd80b3e8660870cebc6015b3dd8498",
+  "entities": [
+    {
+      "canonical_name": "Memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Memory B cells",
+      "chunk_id": "chk_b15c79476fbd7813425b9ff419aeb738"
+    },
+    {
+      "canonical_name": "long-lived plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "long-lived plasma cells",
+      "chunk_id": "chk_b15c79476fbd7813425b9ff419aeb738"
+    },
+    {
+      "canonical_name": "influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus",
+      "chunk_id": "chk_b15c79476fbd7813425b9ff419aeb738"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_b15c79476fbd7813425b9ff419aeb738"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

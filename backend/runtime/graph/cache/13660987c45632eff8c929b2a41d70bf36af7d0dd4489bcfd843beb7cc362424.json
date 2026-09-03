@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_51e3f1327920a34b7222747c9844aa4a",
+  "content_hash": "56c41f60e284d4f6cbabc5ba0e5ed7fba150bbb3834b51675e69e18e94acdadb",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination",
+      "chunk_id": "chk_51e3f1327920a34b7222747c9844aa4a"
+    },
+    {
+      "canonical_name": "general population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general population",
+      "chunk_id": "chk_51e3f1327920a34b7222747c9844aa4a"
+    },
+    {
+      "canonical_name": "mortality",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "mortality",
+      "chunk_id": "chk_51e3f1327920a34b7222747c9844aa4a"
+    },
+    {
+      "canonical_name": "disease severity",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "disease severity",
+      "chunk_id": "chk_51e3f1327920a34b7222747c9844aa4a"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_51e3f1327920a34b7222747c9844aa4a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

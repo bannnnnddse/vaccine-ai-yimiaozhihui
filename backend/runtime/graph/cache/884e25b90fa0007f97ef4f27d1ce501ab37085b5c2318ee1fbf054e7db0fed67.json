@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463",
+  "content_hash": "7f101c98b1592a777a48e309e026c8b55c56443ca0d7de5a25252c9d097d5571",
+  "entities": [
+    {
+      "canonical_name": "elderly population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly population",
+      "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463"
+    },
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463"
+    },
+    {
+      "canonical_name": "SFTS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SFTS",
+      "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463"
+    },
+    {
+      "canonical_name": "live-attenuated vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live-attenuated vaccine",
+      "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463"
+    },
+    {
+      "canonical_name": "DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccine",
+      "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463"
+    },
+    {
+      "canonical_name": "whole inactivated virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "whole inactivated virus vaccine",
+      "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463"
+    },
+    {
+      "canonical_name": "viral vector vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "viral vector vaccine",
+      "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463"
+    },
+    {
+      "canonical_name": "protein subunit vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "protein subunit vaccine",
+      "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463"
+    },
+    {
+      "canonical_name": "mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccine",
+      "chunk_id": "chk_bac2fb8c9103ac6df832c6c55bb58463"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

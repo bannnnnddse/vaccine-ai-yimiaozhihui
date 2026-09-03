@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_698373e3098a6ab3b97b736d88490717",
+  "content_hash": "13f9ef791099c9813dc9aca85559567e4a07c6234e5356e774cdd60a695118f5",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_698373e3098a6ab3b97b736d88490717"
+    },
+    {
+      "canonical_name": "hepatic diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatic diseases",
+      "chunk_id": "chk_698373e3098a6ab3b97b736d88490717"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

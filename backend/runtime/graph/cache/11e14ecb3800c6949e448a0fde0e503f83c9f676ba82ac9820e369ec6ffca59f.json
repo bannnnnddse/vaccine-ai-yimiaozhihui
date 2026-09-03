@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_6266659cf7904a756ec2218dabbdc481",
+  "content_hash": "c02ca1667888ff78a34cbb26e3967e68ad75f72040c17e6c48653031f6cc3dd8",
+  "entities": [
+    {
+      "canonical_name": "Anti-V1V2 IgG3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti-V1V2 IgG3",
+      "chunk_id": "chk_6266659cf7904a756ec2218dabbdc481"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_6266659cf7904a756ec2218dabbdc481"
+    },
+    {
+      "canonical_name": "clade C strains",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "clade C strains",
+      "chunk_id": "chk_6266659cf7904a756ec2218dabbdc481"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

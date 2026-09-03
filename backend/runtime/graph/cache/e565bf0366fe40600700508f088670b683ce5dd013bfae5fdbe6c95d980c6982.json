@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_9ddea828e687da95ce766eb30ade2ba3",
+  "content_hash": "b7541d230d770acba2252fbb5802d0a4aa7f3469b00cd299400511684c534cbb",
+  "entities": [
+    {
+      "canonical_name": "multivalent vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "multivalent vaccines",
+      "chunk_id": "chk_9ddea828e687da95ce766eb30ade2ba3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_8a72612bc2469ffed7b0fc203ec378b5",
+  "content_hash": "203c8605302f4b8b3b9a6836a16674767f30d7aaf0247334e0606e6e2a9a5cc1",
+  "entities": [
+    {
+      "canonical_name": "RSV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccines",
+      "chunk_id": "chk_8a72612bc2469ffed7b0fc203ec378b5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

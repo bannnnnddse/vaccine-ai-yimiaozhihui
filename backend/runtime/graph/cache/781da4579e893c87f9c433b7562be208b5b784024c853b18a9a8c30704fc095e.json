@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_5658b9409b4db5e371511da2be70ca08",
+  "content_hash": "899492f8abdd0190feb2be4110e59efa098e112e91d1e427fede547a061e7d27",
+  "entities": [
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "chk_5658b9409b4db5e371511da2be70ca08"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_5658b9409b4db5e371511da2be70ca08"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

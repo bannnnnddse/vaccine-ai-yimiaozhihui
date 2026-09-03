@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7b092a50e1cb701c5b37ee60c624be36",
+  "content_hash": "56b846a762c86bf4b46e5fccd43cd6b1408b445307700af95c3baadc4d64a5a2",
+  "entities": [
+    {
+      "canonical_name": "mRNA-1273 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273 vaccine",
+      "chunk_id": "chk_7b092a50e1cb701c5b37ee60c624be36"
+    },
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_7b092a50e1cb701c5b37ee60c624be36"
+    },
+    {
+      "canonical_name": "homologous schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "homologous schedules",
+      "chunk_id": "chk_7b092a50e1cb701c5b37ee60c624be36"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

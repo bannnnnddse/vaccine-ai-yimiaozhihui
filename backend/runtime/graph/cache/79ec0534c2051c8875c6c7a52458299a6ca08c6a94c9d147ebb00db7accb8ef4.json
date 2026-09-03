@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_2cbc715322424b838025779a4a20f401",
+  "content_hash": "036cb1f3105a9fa1116edcf5a368fd2543456901c68b94842d85db6a430a8911",
+  "entities": [
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "chk_2cbc715322424b838025779a4a20f401"
+    },
+    {
+      "canonical_name": "F protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "F protein",
+      "chunk_id": "chk_2cbc715322424b838025779a4a20f401"
+    },
+    {
+      "canonical_name": "pre-F",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pre-F",
+      "chunk_id": "chk_2cbc715322424b838025779a4a20f401"
+    },
+    {
+      "canonical_name": "post-F",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "post-F",
+      "chunk_id": "chk_2cbc715322424b838025779a4a20f401"
+    },
+    {
+      "canonical_name": "DS-Cav1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DS-Cav1",
+      "chunk_id": "chk_2cbc715322424b838025779a4a20f401"
+    },
+    {
+      "canonical_name": "RBD-sc-dimer",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBD-sc-dimer",
+      "chunk_id": "chk_2cbc715322424b838025779a4a20f401"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

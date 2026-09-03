@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_3280b88a484c0827840a831a05b1d0a9",
+  "content_hash": "ddb1d01a8580902ca4e638370f8af6d1f5e7d13daa36dbce1c190aeacac09b21",
+  "entities": [
+    {
+      "canonical_name": "disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "disease",
+      "chunk_id": "chk_3280b88a484c0827840a831a05b1d0a9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

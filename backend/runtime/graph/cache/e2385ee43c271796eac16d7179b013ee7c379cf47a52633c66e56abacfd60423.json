@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_3e7ed94499eae13080f8d50a0791752e",
+  "content_hash": "c702172b1b55bb923b5680a0114c9abcf1d8e2aa07a1d886882c8033e1da6de3",
+  "entities": [
+    {
+      "canonical_name": "RSVA2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSVA2",
+      "chunk_id": "chk_3e7ed94499eae13080f8d50a0791752e"
+    },
+    {
+      "canonical_name": "acute lower respiratory infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute lower respiratory infections",
+      "chunk_id": "chk_3e7ed94499eae13080f8d50a0791752e"
+    },
+    {
+      "canonical_name": "RSV disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV disease",
+      "chunk_id": "chk_3e7ed94499eae13080f8d50a0791752e"
+    },
+    {
+      "canonical_name": "healthy adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adults",
+      "chunk_id": "chk_3e7ed94499eae13080f8d50a0791752e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

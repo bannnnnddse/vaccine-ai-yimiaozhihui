@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_581d7b02e8a65b49b7c414698acf0eab",
+  "content_hash": "2a3e1c08a83289077327c0b271ea93f85b38b0cb1ef1dc28d93614c28fe47290",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_581d7b02e8a65b49b7c414698acf0eab"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

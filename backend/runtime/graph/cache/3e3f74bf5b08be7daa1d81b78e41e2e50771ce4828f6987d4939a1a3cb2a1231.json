@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_cf1881b64afd524eedae2acacd41d1bc",
+  "content_hash": "e9c79eee58326b2573d5262b2fef93d0c89d0d68c16dfab7f1045c35c653d36e",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_cf1881b64afd524eedae2acacd41d1bc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,207 @@
+{
+  "job_id": "165642807b36",
+  "prompt": "叙述疫苗机制",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen",
+      "helper_t",
+      "b_cell",
+      "antibody",
+      "memory_b"
+    ],
+    "scene_direction": "A clean, educational cross-section of a human arm showing the injection site. The left side depicts the vaccine introduction (mRNA or antigen) entering the body. The right side illustrates the immune response cascade: Antigen Presenting Cells (APCs) capturing the antigen, presenting it to Helper T cells, which then activate B cells to produce Y-shaped antibodies and Memory B cells. Use a split-screen or sequential flow layout with clear directional arrows.",
+    "optimized_chinese_prompt": "科学机制图解，16:9横版。左侧展示疫苗成分（如抗原或mRNA）通过注射进入人体组织。右侧详细展示免疫级联反应：抗原呈递细胞（APC）吞噬并处理抗原，将其展示给辅助性T细胞；辅助性T细胞激活B细胞；B细胞分化为浆细胞分泌Y型抗体，并形成记忆B细胞。风格为清晰的生物医学插画，色彩柔和但对比度高，突出关键分子结构，无杂乱背景，包含必要的中文标签和流程箭头。",
+    "chinese_labels": [
+      "疫苗抗原",
+      "抗原呈递细胞",
+      "辅助性T细胞",
+      "B细胞",
+      "浆细胞",
+      "特异性抗体",
+      "记忆B细胞"
+    ],
+    "scientific_claims": [
+      "疫苗引入的抗原被抗原呈递细胞识别和处理。",
+      "抗原呈递细胞将信息传递给辅助性T细胞以启动适应性免疫。",
+      "辅助性T细胞激活B细胞使其增殖和分化。",
+      "活化的B细胞分化为浆细胞并产生特异性抗体。",
+      "部分B细胞分化为记忆细胞以提供长期免疫保护。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "疫苗抗原进入体内并被抗原呈递细胞摄取"
+      },
+      {
+        "primary_relation": "抗原呈递细胞激活辅助性T细胞"
+      },
+      {
+        "primary_relation": "辅助性T细胞刺激B细胞活化与分化"
+      },
+      {
+        "primary_relation": "B细胞分化为浆细胞分泌抗体及形成记忆细胞"
+      }
+    ],
+    "route_reason": "用户请求叙述疫苗机制，属于涉及细胞、抗原、抗体相互作用的复杂生物学过程，且包含超过两个的核心因果步骤，符合 cell_ip_scientific 的定义要求，需清晰展示多步骤免疫应答流程。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen",
+    "helper_t",
+    "b_cell",
+    "antibody",
+    "memory_b"
+  ],
+  "cell_ip_unmatched_cell_terms": [],
+  "reference_assets": [
+    "role-sheet:antigen+helper_t+b_cell+antibody+memory_b"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:antigen+helper_t+b_cell+antibody+memory_b"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    },
+    {
+      "role_id": "helper_t",
+      "asset_id": "canonical:helper_t"
+    },
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    },
+    {
+      "role_id": "memory_b",
+      "asset_id": "canonical:memory_b"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\nA clean, educational cross-section of a human arm showing the injection site. The left side depicts the vaccine introduction (mRNA or antigen) entering the body. The right side illustrates the immune response cascade: Antigen Presenting Cells (APCs) capturing the antigen, presenting it to Helper T cells, which then activate B cells to produce Y-shaped antibodies and Memory B cells. Use a split-screen or sequential flow layout with clear directional arrows.\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 疫苗抗原进入体内并被抗原呈递细胞摄取；2. 抗原呈递细胞激活辅助性T细胞；3. 辅助性T细胞刺激B细胞活化与分化；4. B细胞分化为浆细胞分泌抗体及形成记忆细胞\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：疫苗抗原、抗原呈递细胞、辅助性T细胞、B细胞、浆细胞、特异性抗体、记忆B细胞\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是完整细胞 IP 角色总表；只从中提取并使用命中的固定角色（抗原、辅助性 T 细胞、B 细胞、抗体、记忆 B 细胞），保持其颜色、轮廓、面部和专属道具与表中完全一致；不得使用表中其余角色，也不得复制其中的文字、事件或构图\n- 本题命中的固定角色：抗原、辅助性 T 细胞、B 细胞、抗体、记忆 B 细胞\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n- 辅助性 T 细胞：浅绿圆体、单根触角、耳机、斜挎包、加号小旗\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 记忆 B 细胞：浅紫圆体、眼镜、学士帽、绿色书本\n【角色总表选取】（仅当参考图为完整角色总表时启用）\n- 图1 是完整细胞 IP 角色总表。画面所需固定角色必须逐个从该表中找到并原样使用，颜色、轮廓、面部、专属道具与装饰一律以表中为准：\n- 抗原：紫色圆刺团，表情可警觉\n- 辅助性 T 细胞：浅绿圆体、单根触角、耳机、斜挎包、加号小旗\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 记忆 B 细胞：浅紫圆体、眼镜、学士帽、绿色书本\n- 只在总表中提取命中的角色：抗原、辅助性 T 细胞、B 细胞、抗体、记忆 B 细胞；忽略并不得使用表中其余角色，也不得新增表中不存在的固定角色。\n- 未收录的必要细胞：未识别到命名的未收录细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "aspect_ratio": "16:9",
+  "image_id": "165642807b36-v0",
+  "trusted_image": "165642807b36-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "图1的流程图存在明显的文字错误（‘呈对’应为‘呈递’），且未能完整展示核心因果链。流程图中缺少了关键的‘浆细胞’角色，导致‘分泌抗体’的步骤与后续环节断裂。此外，最终环节仅展示了‘记忆B细胞形成’，遗漏了产生抗体的效应B细胞（浆细胞）及其分泌抗体的过程，无法完整叙述疫苗机制。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "第二步的文字标签存在错别字，将‘抗原呈递细胞’误写为‘抗原呈对细胞’。",
+        "bbox": [
+          0.25,
+          0.6,
+          0.38,
+          0.66
+        ],
+        "observed_text": "抗原呈对细胞",
+        "replacement_text": "抗原呈递细胞",
+        "confidence": 0.99,
+        "suggested_fix": "将‘呈对’修正为‘呈递’，这是免疫学中的标准术语。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "scientific_expression",
+        "severity": "high",
+        "description": "潜在科学表达风险（当前未接入证据核验）：流程图逻辑缺失关键环节。在‘刺激B细胞活化’之后，直接跳到了‘记忆B细胞形成’，中间缺少了B细胞分化为浆细胞并分泌抗体的步骤。这导致图示无法解释疫苗如何产生即时保护（抗体）。",
+        "bbox": [
+          0.6,
+          0.3,
+          0.95,
+          0.7
+        ],
+        "observed_text": "刺激B细胞活化 -> 记忆B细胞形成",
+        "replacement_text": "刺激B细胞活化 -> 分化为浆细胞和记忆B细胞 -> 浆细胞分泌特异性抗体",
+        "confidence": 0.98,
+        "suggested_fix": "在B细胞活化后增加‘浆细胞’角色（参考图2中的绿色多面体角色），并展示其分泌Y形抗体的过程，最后再指向记忆B细胞的形成。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "style_inconsistency",
+        "severity": "medium",
+        "description": "图1中代表‘浆细胞’的角色（右上角绿色多面体）虽然出现了，但缺乏对应的文字标签说明，且其分泌的抗体线条简单，未使用图2中定义的标准化‘抗体’IP形象（浅蓝色Y形带表情）。",
+        "bbox": [
+          0.65,
+          0.3,
+          0.85,
+          0.5
+        ],
+        "observed_text": "浆细胞分泌特异性抗体",
+        "replacement_text": "浆细胞分泌特异性抗体",
+        "confidence": 0.95,
+        "suggested_fix": "确保该角色使用图2中定义的‘病毒颗粒/疫苗颗粒’或专门的浆细胞IP形象，并使用标准化的抗体IP进行描绘，保持视觉风格统一。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-27T02:41:04.226555+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "1644af6a1fa5",
+  "trace_events": [
+    {
+      "id": "1644af6a1fa5-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-27T02:41:04.226555Z"
+    },
+    {
+      "id": "1644af6a1fa5-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：科学机制图解，16:9横版。左侧展示疫苗成分（如抗原或mRNA）通过注射进入人体组织。右侧详细展示免疫级联反应：抗原呈递细胞（APC）吞噬并处理抗原，将其展示给辅助性T细胞；辅助性T细胞激活B细胞；B细胞分化为浆细胞分泌Y型抗体，并形成记忆B细胞。风格为清晰的生物医学插画，色彩柔和但对比度高，突出关键分子结构，无杂乱背景，包含必要的中文标签和流程箭头。",
+      "status": "completed",
+      "created_at": "2026-08-27T02:41:04.230201Z"
+    },
+    {
+      "id": "1644af6a1fa5-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-27T02:41:10.372491Z"
+    },
+    {
+      "id": "1644af6a1fa5-4",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "图1的流程图存在明显的文字错误（‘呈对’应为‘呈递’），且未能完整展示核心因果链。流程图中缺少了关键的‘浆细胞’角色，导致‘分泌抗体’的步骤与后续环节断裂。此外，最终环节仅展示了‘记忆B细胞形成’，遗漏了产生抗体的效应B细胞（浆细胞）及其分泌抗体的过程，无法完整叙述疫苗机制。",
+      "status": "warning",
+      "created_at": "2026-08-27T02:41:29.491571Z"
+    },
+    {
+      "id": "1644af6a1fa5-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-27T02:41:47.613615Z"
+    }
+  ],
+  "trace_history": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_f3a0dc3eac81d33ad064419ed1f674c2",
+  "content_hash": "1a4ab11231a4804bb0c922d8b01f30ebe39cf7edfa9b9b4968125a7bc714b535",
+  "entities": [
+    {
+      "canonical_name": "PfizerBioNTech",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PfizerBioNTech",
+      "chunk_id": "chk_f3a0dc3eac81d33ad064419ed1f674c2"
+    },
+    {
+      "canonical_name": "Moderna",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna",
+      "chunk_id": "chk_f3a0dc3eac81d33ad064419ed1f674c2"
+    },
+    {
+      "canonical_name": "Oxford/Astrazeneca",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Oxford/Astrazeneca",
+      "chunk_id": "chk_f3a0dc3eac81d33ad064419ed1f674c2"
+    },
+    {
+      "canonical_name": "Miscarriages",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Miscarriages",
+      "chunk_id": "chk_f3a0dc3eac81d33ad064419ed1f674c2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_6c77fb77b1ac6e8093f9c75de491c458",
+  "content_hash": "012d941ec191438f3252c8b1ea270849b0a2b26e374a4904105b680bf4770737",
+  "entities": [
+    {
+      "canonical_name": "Invasive meningococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Invasive meningococcal disease",
+      "chunk_id": "chk_6c77fb77b1ac6e8093f9c75de491c458"
+    },
+    {
+      "canonical_name": "Neisseria meningitidis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Neisseria meningitidis",
+      "chunk_id": "chk_6c77fb77b1ac6e8093f9c75de491c458"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

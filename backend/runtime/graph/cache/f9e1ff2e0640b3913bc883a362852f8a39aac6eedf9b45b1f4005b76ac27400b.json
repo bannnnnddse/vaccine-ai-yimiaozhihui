@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_35fb832ba69ebc26ba902024899aa6cb",
+  "content_hash": "c70658066cd06e54844c64f2ebaf347f27cfd9a4e99e0ed6fdb37ed901f269e0",
+  "entities": [
+    {
+      "canonical_name": "Epidermal Growth Factor (EGF) based cancer vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Epidermal Growth Factor (EGF) based cancer vaccine",
+      "chunk_id": "chk_35fb832ba69ebc26ba902024899aa6cb"
+    },
+    {
+      "canonical_name": "advanced non small cell lung cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "advanced non small cell lung cancer",
+      "chunk_id": "chk_35fb832ba69ebc26ba902024899aa6cb"
+    },
+    {
+      "canonical_name": "NSCLC",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "NSCLC",
+      "chunk_id": "chk_35fb832ba69ebc26ba902024899aa6cb"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_35fb832ba69ebc26ba902024899aa6cb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,51 @@
+{
+  "chunk_id": "5b8f885016da1ba75641928833eb75db573698295440a896f4fdbb3cd4a5e600",
+  "content_hash": "a0176fc2bdc6fd0c942aeffd36349931a63243f3d44ac31cb6079d85bf5a77e8",
+  "entities": [
+    {
+      "canonical_name": "进口四价HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "进口四价HPV疫苗",
+      "chunk_id": "5b8f885016da1ba75641928833eb75db573698295440a896f4fdbb3cd4a5e600"
+    },
+    {
+      "canonical_name": "九价HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "九价 HPV 疫苗",
+        "九价HPV疫苗",
+        "九价人乳头瘤病毒疫苗"
+      ],
+      "surface_form": "九价HPV疫苗",
+      "chunk_id": "5b8f885016da1ba75641928833eb75db573698295440a896f4fdbb3cd4a5e600"
+    },
+    {
+      "canonical_name": "人乳头瘤病毒(HPV)疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "人乳头瘤病毒（HPV）疫苗",
+      "chunk_id": "5b8f885016da1ba75641928833eb75db573698295440a896f4fdbb3cd4a5e600"
+    },
+    {
+      "canonical_name": "双价HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "双价HPV疫苗",
+      "chunk_id": "5b8f885016da1ba75641928833eb75db573698295440a896f4fdbb3cd4a5e600"
+    },
+    {
+      "canonical_name": "人类免疫缺陷病毒(HIV)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "人类免疫缺陷病毒（HIV）",
+      "chunk_id": "5b8f885016da1ba75641928833eb75db573698295440a896f4fdbb3cd4a5e600"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "source_missing_from_quote",
+    "unknown_endpoint"
+  ]
+}

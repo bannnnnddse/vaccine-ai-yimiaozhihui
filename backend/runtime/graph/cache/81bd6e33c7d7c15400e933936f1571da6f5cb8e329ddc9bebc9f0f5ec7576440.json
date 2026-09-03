@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_c685782d1efc3e0258970970041bd759",
+  "content_hash": "61834325bebee09b889022b342f339afb9474606fefde514d3fae6576d274e52",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine",
+      "chunk_id": "chk_c685782d1efc3e0258970970041bd759"
+    },
+    {
+      "canonical_name": "pneumococcal polysaccharide vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal polysaccharide vaccine",
+      "chunk_id": "chk_c685782d1efc3e0258970970041bd759"
+    },
+    {
+      "canonical_name": "13-valent pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "13-valent pneumococcal conjugate vaccine",
+      "chunk_id": "chk_c685782d1efc3e0258970970041bd759"
+    },
+    {
+      "canonical_name": "23-valent pneumococcal polysaccharide vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "23-valent pneumococcal polysaccharide vaccine",
+      "chunk_id": "chk_c685782d1efc3e0258970970041bd759"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_c685782d1efc3e0258970970041bd759"
+    },
+    {
+      "canonical_name": "immunocompromising conditions",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "immunocompromising conditions",
+      "chunk_id": "chk_c685782d1efc3e0258970970041bd759"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

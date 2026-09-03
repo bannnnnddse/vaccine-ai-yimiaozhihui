@@ -1,0 +1,62 @@
+{
+  "chunk_id": "chk_eb417b20a4de5ee41934c9c9d6a3fffb",
+  "content_hash": "a36685fe0400b6a0668e139efdcad476c97eef2a9b6cbb29d689854d8e64e316",
+  "entities": [
+    {
+      "canonical_name": "NS1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "NS1",
+      "chunk_id": "chk_eb417b20a4de5ee41934c9c9d6a3fffb"
+    },
+    {
+      "canonical_name": "vascular permeability",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vascular permeability",
+      "chunk_id": "chk_eb417b20a4de5ee41934c9c9d6a3fffb"
+    },
+    {
+      "canonical_name": "coagulopathy",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "coagulopathy",
+      "chunk_id": "chk_eb417b20a4de5ee41934c9c9d6a3fffb"
+    },
+    {
+      "canonical_name": "thrombocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "thrombocytopenia",
+      "chunk_id": "chk_eb417b20a4de5ee41934c9c9d6a3fffb"
+    },
+    {
+      "canonical_name": "severe dengue",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe dengue",
+      "chunk_id": "chk_eb417b20a4de5ee41934c9c9d6a3fffb"
+    },
+    {
+      "canonical_name": "vascular leakage",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vascular leakage",
+      "chunk_id": "chk_eb417b20a4de5ee41934c9c9d6a3fffb"
+    },
+    {
+      "canonical_name": "TLR4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR4",
+      "chunk_id": "chk_eb417b20a4de5ee41934c9c9d6a3fffb"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

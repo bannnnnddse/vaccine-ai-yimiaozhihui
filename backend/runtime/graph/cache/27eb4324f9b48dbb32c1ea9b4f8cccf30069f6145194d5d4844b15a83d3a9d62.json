@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_e602ff26b59ed249f363b456cedfee58",
+  "content_hash": "a0f7dce09fecfa8bb96e0328aecdd216feee4b70604a6c52743593cbbb1b607b",
+  "entities": [
+    {
+      "canonical_name": "typhoid fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "typhoid fever",
+      "chunk_id": "chk_e602ff26b59ed249f363b456cedfee58"
+    },
+    {
+      "canonical_name": "typhoid conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "typhoid conjugate vaccine",
+      "chunk_id": "chk_e602ff26b59ed249f363b456cedfee58"
+    },
+    {
+      "canonical_name": "Typbar TCV®",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Typbar TCV®",
+      "chunk_id": "chk_e602ff26b59ed249f363b456cedfee58"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

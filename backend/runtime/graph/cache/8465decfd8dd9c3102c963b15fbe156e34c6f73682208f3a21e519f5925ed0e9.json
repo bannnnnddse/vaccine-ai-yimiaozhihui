@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_206a1964c8381ddeaaf30488e458e822",
+  "content_hash": "d66be557a1b3b98bdfd9069239816969158e772e7971a6733d7ee6149bf1cb24",
+  "entities": [
+    {
+      "canonical_name": "immunocompromised child",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised child",
+      "chunk_id": "chk_206a1964c8381ddeaaf30488e458e822"
+    },
+    {
+      "canonical_name": "yellow fever vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "yellow fever vaccine",
+      "chunk_id": "chk_206a1964c8381ddeaaf30488e458e822"
+    },
+    {
+      "canonical_name": "viscerotropic disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "viscerotropic disease",
+      "chunk_id": "chk_206a1964c8381ddeaaf30488e458e822"
+    },
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "chk_206a1964c8381ddeaaf30488e458e822"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

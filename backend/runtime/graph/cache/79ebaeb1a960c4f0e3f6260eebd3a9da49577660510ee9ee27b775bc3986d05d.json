@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_c75c06e22cf28056a70a6f6052ee800e",
+  "content_hash": "acd080bce8fc6e87baaef0d8b91453013cefc55c09c92820027b31292cdfc468",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_c75c06e22cf28056a70a6f6052ee800e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

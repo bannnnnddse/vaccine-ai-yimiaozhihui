@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_b3f199e55a92f607f32949eb0862200e",
+  "content_hash": "f492d719b22d8b34335cac6f4170fa8978ea8f15977b5b169f25c3daf067ac54",
+  "entities": [
+    {
+      "canonical_name": "influenza A virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza A virus",
+      "chunk_id": "chk_b3f199e55a92f607f32949eb0862200e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "4858ddc312481f6238164fa532cbfaa1adff7989cacdd0fcb2d56396d88395f2",
+  "content_hash": "e27d75d38d4667a673101a611b7a673b4337ae314f0fbd1581f643b244129eb2",
+  "entities": [
+    {
+      "canonical_name": "non-Hispanic White",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "non-Hispanic White",
+      "chunk_id": "4858ddc312481f6238164fa532cbfaa1adff7989cacdd0fcb2d56396d88395f2"
+    },
+    {
+      "canonical_name": "non-Hispanic African American",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "non-Hispanic African American",
+      "chunk_id": "4858ddc312481f6238164fa532cbfaa1adff7989cacdd0fcb2d56396d88395f2"
+    },
+    {
+      "canonical_name": "English-speaking Hispanic",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "English-speaking Hispanic",
+      "chunk_id": "4858ddc312481f6238164fa532cbfaa1adff7989cacdd0fcb2d56396d88395f2"
+    },
+    {
+      "canonical_name": "Spanish-speaking Hispanic",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Spanish-speaking Hispanic",
+      "chunk_id": "4858ddc312481f6238164fa532cbfaa1adff7989cacdd0fcb2d56396d88395f2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

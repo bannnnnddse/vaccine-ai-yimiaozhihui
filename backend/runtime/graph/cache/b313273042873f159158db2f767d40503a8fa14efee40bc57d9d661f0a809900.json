@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_66e2d0a84f9f8bcaa1460d483a9f1f2d",
+  "content_hash": "a0fb66a7f5bbc3d8dae2645475cafc186311b897478d01c8458fe99a125845eb",
+  "entities": [
+    {
+      "canonical_name": "enterovirus 71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "enterovirus 71",
+      "chunk_id": "chk_66e2d0a84f9f8bcaa1460d483a9f1f2d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

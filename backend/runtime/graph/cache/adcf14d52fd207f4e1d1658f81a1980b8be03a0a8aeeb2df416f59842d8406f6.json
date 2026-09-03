@@ -1,0 +1,22 @@
+{
+  "chunk_id": "60b0192ff1fb3f58250712f64ad30331a0c82d4d143a97b108983a4e1591086e",
+  "content_hash": "9b83cec3e504289e22bea435593860778c031c6228c6f96096263c3485e664f8",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "60b0192ff1fb3f58250712f64ad30331a0c82d4d143a97b108983a4e1591086e"
+    },
+    {
+      "canonical_name": "autoimmune diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune diseases",
+      "chunk_id": "60b0192ff1fb3f58250712f64ad30331a0c82d4d143a97b108983a4e1591086e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

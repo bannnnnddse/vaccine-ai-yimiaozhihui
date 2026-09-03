@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_e80e8447cec93b09cf44fdd028571af3",
+  "content_hash": "4787a46eaccea18cf8dc27b052bf34bd9656fc20f6f72a698cfc06ca81eb3f17",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_e80e8447cec93b09cf44fdd028571af3"
+    },
+    {
+      "canonical_name": "B cell activating factor of the tumor necrosis factor family",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell activating factor of the tumor necrosis factor family",
+      "chunk_id": "chk_e80e8447cec93b09cf44fdd028571af3"
+    },
+    {
+      "canonical_name": "B cell maturation antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell maturation antigen",
+      "chunk_id": "chk_e80e8447cec93b09cf44fdd028571af3"
+    },
+    {
+      "canonical_name": "rheumatoid arthritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rheumatoid arthritis",
+      "chunk_id": "chk_e80e8447cec93b09cf44fdd028571af3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

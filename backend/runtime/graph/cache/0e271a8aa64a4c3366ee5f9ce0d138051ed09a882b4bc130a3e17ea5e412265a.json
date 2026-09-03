@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_a891bfe184838594adecc1cf78e9e274",
+  "content_hash": "3d6c9993ec21ea456610348453c70a65cbf6bb3a4d33db63249151b06c596770",
+  "entities": [
+    {
+      "canonical_name": "白喉杆菌",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "白喉杆菌",
+      "chunk_id": "chk_a891bfe184838594adecc1cf78e9e274"
+    },
+    {
+      "canonical_name": "白喉",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "白喉",
+      "chunk_id": "chk_a891bfe184838594adecc1cf78e9e274"
+    },
+    {
+      "canonical_name": "破伤风杆菌",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "破伤风杆菌",
+      "chunk_id": "chk_a891bfe184838594adecc1cf78e9e274"
+    },
+    {
+      "canonical_name": "破伤风",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "破伤风",
+      "chunk_id": "chk_a891bfe184838594adecc1cf78e9e274"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_target_not_supported_by_cue",
+    "relation_target_not_supported_by_cue"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_5718bd3bb79e7292aee8b47aa475a519",
+  "content_hash": "981268dc37a2179505eb4a56d865e57eb5789d2ba5c690fafad97b0d2706b856",
+  "entities": [
+    {
+      "canonical_name": "mRNA-1273 SARS-CoV-2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273 SARS-CoV-2 vaccine",
+      "chunk_id": "chk_5718bd3bb79e7292aee8b47aa475a519"
+    },
+    {
+      "canonical_name": "adults aged 18 years and older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults aged 18 years and older",
+      "chunk_id": "chk_5718bd3bb79e7292aee8b47aa475a519"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_3316494625038db3bed8198e47d55d1f",
+  "content_hash": "60ddf2831c6611f076cc2679e3948dd1258091abcecd25e07d49fd1feaa0bf51",
+  "entities": [
+    {
+      "canonical_name": "HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD",
+      "chunk_id": "chk_3316494625038db3bed8198e47d55d1f"
+    },
+    {
+      "canonical_name": "EV71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV71",
+      "chunk_id": "chk_3316494625038db3bed8198e47d55d1f"
+    },
+    {
+      "canonical_name": "病人",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "病人",
+      "chunk_id": "chk_3316494625038db3bed8198e47d55d1f"
+    },
+    {
+      "canonical_name": "隐性感染者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "隐性感染者",
+      "chunk_id": "chk_3316494625038db3bed8198e47d55d1f"
+    },
+    {
+      "canonical_name": "易感者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "易感者",
+      "chunk_id": "chk_3316494625038db3bed8198e47d55d1f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "e305832b9648f2d49b1e1d649110fcf5beb7e8769212934c1f84abe04ee5c43e",
+  "content_hash": "7fe9db75a1c02bb360bb9362eb7d363231ae659d4bd7a6847fdff2f5ecb29b83",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccination",
+      "chunk_id": "e305832b9648f2d49b1e1d649110fcf5beb7e8769212934c1f84abe04ee5c43e"
+    },
+    {
+      "canonical_name": "recombinant hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant hepatitis B vaccine",
+      "chunk_id": "e305832b9648f2d49b1e1d649110fcf5beb7e8769212934c1f84abe04ee5c43e"
+    },
+    {
+      "canonical_name": "HBsAg vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBsAg vaccine",
+      "chunk_id": "e305832b9648f2d49b1e1d649110fcf5beb7e8769212934c1f84abe04ee5c43e"
+    },
+    {
+      "canonical_name": "Engerix‐B",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Engerix‐B",
+      "chunk_id": "e305832b9648f2d49b1e1d649110fcf5beb7e8769212934c1f84abe04ee5c43e"
+    },
+    {
+      "canonical_name": "Men and women 40‐60 years old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Men and women 40‐60 years old",
+      "chunk_id": "e305832b9648f2d49b1e1d649110fcf5beb7e8769212934c1f84abe04ee5c43e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

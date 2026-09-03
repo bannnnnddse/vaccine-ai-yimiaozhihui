@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_5af2dc07972dec7decd0d1a4b8c03686",
+  "content_hash": "886bb2c2beb99d5290cef2ae4b7066b6a81c1c3819904a82514cd84417acb245",
+  "entities": [
+    {
+      "canonical_name": "4-valent HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "4-valent HPV vaccine",
+      "chunk_id": "chk_5af2dc07972dec7decd0d1a4b8c03686"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

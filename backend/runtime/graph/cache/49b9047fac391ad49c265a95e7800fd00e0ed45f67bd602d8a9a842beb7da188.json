@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_d1f01a83089f54544099e4945fafc78e",
+  "content_hash": "5d0108f6e0da64d47bb3a45dea3655daa26f86ebc639538868bad7b2b2d4526c",
+  "entities": [
+    {
+      "canonical_name": "IgM MBC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgM MBC",
+      "chunk_id": "chk_d1f01a83089f54544099e4945fafc78e"
+    },
+    {
+      "canonical_name": "B. burgdorferi",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "B. burgdorferi",
+      "chunk_id": "chk_d1f01a83089f54544099e4945fafc78e"
+    },
+    {
+      "canonical_name": "MBC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MBC",
+      "chunk_id": "chk_d1f01a83089f54544099e4945fafc78e"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_d1f01a83089f54544099e4945fafc78e"
+    },
+    {
+      "canonical_name": "Ag-specific MBC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Ag-specific MBC",
+      "chunk_id": "chk_d1f01a83089f54544099e4945fafc78e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_ff23808f31fc05bd2058539168dbb768",
+  "content_hash": "47a7d3e2fce143b1f9d11f71c3b2614f5bbb43e58f0380ba0c01c410b602b34c",
+  "entities": [
+    {
+      "canonical_name": "LNP-nCOV saRNA-02 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "LNP-nCOV saRNA-02 vaccine",
+      "chunk_id": "chk_ff23808f31fc05bd2058539168dbb768"
+    },
+    {
+      "canonical_name": "CoV2 SAM (LNP)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoV2 SAM (LNP)",
+      "chunk_id": "chk_ff23808f31fc05bd2058539168dbb768"
+    },
+    {
+      "canonical_name": "Spike",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Spike",
+      "chunk_id": "chk_ff23808f31fc05bd2058539168dbb768"
+    },
+    {
+      "canonical_name": "RBD",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RBD",
+      "chunk_id": "chk_ff23808f31fc05bd2058539168dbb768"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_302eb1535777585f33c02463adad7520",
+  "content_hash": "be7e4a4232bfb9a2b8ffc0b77f26abfffea514a40e93477963f2f661e8103ca7",
+  "entities": [
+    {
+      "canonical_name": "host innate and adaptive immune response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "host innate and adaptive immune response",
+      "chunk_id": "chk_302eb1535777585f33c02463adad7520"
+    },
+    {
+      "canonical_name": "RSV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV infection",
+      "chunk_id": "chk_302eb1535777585f33c02463adad7520"
+    },
+    {
+      "canonical_name": "monoclonal antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monoclonal antibodies",
+      "chunk_id": "chk_302eb1535777585f33c02463adad7520"
+    },
+    {
+      "canonical_name": "vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine candidates",
+      "chunk_id": "chk_302eb1535777585f33c02463adad7520"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

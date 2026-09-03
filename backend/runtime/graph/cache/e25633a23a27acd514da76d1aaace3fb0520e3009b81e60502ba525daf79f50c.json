@@ -1,0 +1,50 @@
+{
+  "chunk_id": "74be5bbac87b49409ebb25d772dc448d8788f7f7db36e9a3a9d17cf5920a687b",
+  "content_hash": "f8b6be51c2f5b3f4d548da1b6679f3f46e449fd4a5014120928147bb35ecd54f",
+  "entities": [
+    {
+      "canonical_name": "Astrazeneca",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Astrazeneca",
+      "chunk_id": "74be5bbac87b49409ebb25d772dc448d8788f7f7db36e9a3a9d17cf5920a687b"
+    },
+    {
+      "canonical_name": "miscarriages",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "miscarriages",
+      "chunk_id": "74be5bbac87b49409ebb25d772dc448d8788f7f7db36e9a3a9d17cf5920a687b"
+    },
+    {
+      "canonical_name": "Moderna",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna",
+      "chunk_id": "74be5bbac87b49409ebb25d772dc448d8788f7f7db36e9a3a9d17cf5920a687b"
+    },
+    {
+      "canonical_name": "Pfizer",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pfizer",
+      "chunk_id": "74be5bbac87b49409ebb25d772dc448d8788f7f7db36e9a3a9d17cf5920a687b"
+    },
+    {
+      "canonical_name": "Astrazeneca",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Astrazeneca",
+      "chunk_id": "74be5bbac87b49409ebb25d772dc448d8788f7f7db36e9a3a9d17cf5920a687b"
+    },
+    {
+      "canonical_name": "miscarriages",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "miscarriages",
+      "chunk_id": "74be5bbac87b49409ebb25d772dc448d8788f7f7db36e9a3a9d17cf5920a687b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_38b552ca89acc3e92e43fe21c4031d4b",
+  "content_hash": "6cc61bef4070cfdbbf7dcabca55e12b945b020ea9e44b082e6f7a411bc3c16ed",
+  "entities": [
+    {
+      "canonical_name": "T follicular helper cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T follicular helper cells",
+      "chunk_id": "chk_38b552ca89acc3e92e43fe21c4031d4b"
+    },
+    {
+      "canonical_name": "Hepatitis B virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis B virus vaccine",
+      "chunk_id": "chk_38b552ca89acc3e92e43fe21c4031d4b"
+    },
+    {
+      "canonical_name": "HIV-1 infected children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-1 infected children",
+      "chunk_id": "chk_38b552ca89acc3e92e43fe21c4031d4b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

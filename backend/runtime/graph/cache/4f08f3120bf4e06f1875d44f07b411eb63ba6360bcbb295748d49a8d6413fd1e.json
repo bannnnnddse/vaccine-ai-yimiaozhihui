@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_6bfe0617052eca46c960fedc847fe0cd",
+  "content_hash": "a5a3226000cdf2a5150a5f31e406136039ff1cb1feefd59bc63e2a4f33dc2dfb",
+  "entities": [
+    {
+      "canonical_name": "Influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza vaccination",
+      "chunk_id": "chk_6bfe0617052eca46c960fedc847fe0cd"
+    },
+    {
+      "canonical_name": "heart failure",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "heart failure",
+      "chunk_id": "chk_6bfe0617052eca46c960fedc847fe0cd"
+    },
+    {
+      "canonical_name": "myocardial infarction",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "myocardial infarction",
+      "chunk_id": "chk_6bfe0617052eca46c960fedc847fe0cd"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

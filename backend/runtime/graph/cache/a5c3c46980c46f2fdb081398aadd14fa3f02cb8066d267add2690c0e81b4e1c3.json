@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_aec0ac0c9d4cc78d77adc990eed1f294",
+  "content_hash": "767b81fa1efddb58085cf1bb3937b407efffdbc4f7d64d484d3b294b2e97d3d0",
+  "entities": [
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_aec0ac0c9d4cc78d77adc990eed1f294"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

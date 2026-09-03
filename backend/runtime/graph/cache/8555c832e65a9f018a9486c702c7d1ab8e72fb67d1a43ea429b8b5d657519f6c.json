@@ -1,0 +1,18 @@
+{
+  "chunk_id": "chk_8177e736d9eb44bef427c075d469aac9",
+  "content_hash": "e5332a7507116df8bb5e1b3dc332f749e09f4adc6f877e56e7984bc53b87dddc",
+  "entities": [
+    {
+      "canonical_name": "liver cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver cancer",
+      "chunk_id": "chk_8177e736d9eb44bef427c075d469aac9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "quote_missing"
+  ]
+}

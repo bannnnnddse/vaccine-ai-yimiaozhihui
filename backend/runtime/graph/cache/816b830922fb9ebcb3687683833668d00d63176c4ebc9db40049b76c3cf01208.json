@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_25518d47340961d9d3f22e30cdebb6d6",
+  "content_hash": "64becc2d1df5b45e47f2d1d5358e2cfb63d54d7a2c48ed3d07ced8e0daf8f9aa",
+  "entities": [
+    {
+      "canonical_name": "children and young adults (up to 19years of age)",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children and young adults (up to 19years of age)",
+      "chunk_id": "chk_25518d47340961d9d3f22e30cdebb6d6"
+    },
+    {
+      "canonical_name": "capsular group C meningococcal vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "capsular group C meningococcal vaccine",
+      "chunk_id": "chk_25518d47340961d9d3f22e30cdebb6d6"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_25518d47340961d9d3f22e30cdebb6d6"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_25518d47340961d9d3f22e30cdebb6d6"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_25518d47340961d9d3f22e30cdebb6d6"
+    },
+    {
+      "canonical_name": "capsular groups A, C, W and Y meningococci",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "capsular groups A, C, W and Y meningococci",
+      "chunk_id": "chk_25518d47340961d9d3f22e30cdebb6d6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

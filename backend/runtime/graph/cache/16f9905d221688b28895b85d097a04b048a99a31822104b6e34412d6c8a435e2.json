@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d77cd79b7ee0e2be5f756b743b511bc8",
+  "content_hash": "b97b66b093ba748b7112c45a95ba3d471f9b389171b5e9f8b285ffb619e9a8b7",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_d77cd79b7ee0e2be5f756b743b511bc8"
+    },
+    {
+      "canonical_name": "ACIP",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "ACIP",
+      "chunk_id": "chk_d77cd79b7ee0e2be5f756b743b511bc8"
+    },
+    {
+      "canonical_name": "patients with chronic medical problems",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients with chronic medical problems",
+      "chunk_id": "chk_d77cd79b7ee0e2be5f756b743b511bc8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

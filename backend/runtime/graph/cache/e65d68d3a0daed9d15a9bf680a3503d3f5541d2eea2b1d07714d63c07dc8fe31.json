@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_d6733df6e2b66de56ac368a127cb071b",
+  "content_hash": "f42fc4910571cc73cc436115ae867dc8737d2735367f0dc4130366feab739e51",
+  "entities": [
+    {
+      "canonical_name": "NS1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NS1",
+      "chunk_id": "chk_d6733df6e2b66de56ac368a127cb071b"
+    },
+    {
+      "canonical_name": "NS2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NS2",
+      "chunk_id": "chk_d6733df6e2b66de56ac368a127cb071b"
+    },
+    {
+      "canonical_name": "type I interferon",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "type Ⅰ interferon",
+      "chunk_id": "chk_d6733df6e2b66de56ac368a127cb071b"
+    },
+    {
+      "canonical_name": "IFN-I",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-Ⅰ",
+      "chunk_id": "chk_d6733df6e2b66de56ac368a127cb071b"
+    },
+    {
+      "canonical_name": "retinoic acid-inducible gene I",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "retinoic acid-inducible gene I",
+      "chunk_id": "chk_d6733df6e2b66de56ac368a127cb071b"
+    },
+    {
+      "canonical_name": "RIG-I",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RIG-I",
+      "chunk_id": "chk_d6733df6e2b66de56ac368a127cb071b"
+    },
+    {
+      "canonical_name": "Toll-like receptor",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Toll-like receptor",
+      "chunk_id": "chk_d6733df6e2b66de56ac368a127cb071b"
+    },
+    {
+      "canonical_name": "TLR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR",
+      "chunk_id": "chk_d6733df6e2b66de56ac368a127cb071b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

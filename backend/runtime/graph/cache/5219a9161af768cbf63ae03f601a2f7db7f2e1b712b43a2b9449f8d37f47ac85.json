@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_55df921089013f7c466921cc1c05a188",
+  "content_hash": "a12fa59c44e6ce8b698d2ed7cbfce353f9bab96cfce86fa5849bfd5eb135438e",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2-specific T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2-specific T cells",
+      "chunk_id": "chk_55df921089013f7c466921cc1c05a188"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_55df921089013f7c466921cc1c05a188"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_55df921089013f7c466921cc1c05a188"
+    },
+    {
+      "canonical_name": "memory T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory T cells",
+      "chunk_id": "chk_55df921089013f7c466921cc1c05a188"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,284 @@
+{
+  "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27",
+  "content_hash": "abd9692858b7ea2ee68696d959ae8f165fd7b5a73eb7d1319ba1325b222c4c99",
+  "entities": [
+    {
+      "canonical_name": "双价HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "双价HPV疫苗",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "HPV 疫苗",
+        "HPV疫苗",
+        "人乳头瘤病毒疫苗"
+      ],
+      "surface_form": "HPV疫苗",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "感染",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "感染",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "生殖器疣",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "生殖器疣",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "癌前病变",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "癌前病变",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "子宫颈癌",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "子宫颈癌",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "宫颈癌",
+      "entity_type": "Disease",
+      "aliases": [
+        "宫颈癌"
+      ],
+      "surface_form": "宫颈癌",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "高级别宫颈病变",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "高级别宫颈病变",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "CIN2/3级",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CIN2/3级",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "接种部位疼痛",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "接种部位疼痛",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "红肿",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "红肿",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "硬结",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "硬结",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "疲倦乏力",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "疲倦乏力",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "肌痛",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "肌痛",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "头痛",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "头痛",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "发热",
+      "entity_type": "AdverseEvent",
+      "aliases": [
+        "发烧",
+        "发热"
+      ],
+      "surface_form": "发热",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "关节痛",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "关节痛",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "胃肠道症状",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "胃肠道症状",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "过敏性皮疹",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "过敏性皮疹",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "canonical_name": "急性严重过敏反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "急性严重过敏反应",
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "HPV 疫苗",
+          "HPV疫苗",
+          "人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "HPV疫苗",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "target": {
+        "canonical_name": "感染",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "感染",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "在HPV疫苗上市后实际应用中，瑞典、丹麦、美国、澳大利亚等引入HPV疫苗较早的国家显示了疫苗对相关基因型引起的HPV相关疾病良好的保护效果，可有效预防感染、生殖器疣、癌前病变和子宫颈癌。",
+      "confidence": 1.0,
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "source": {
+        "canonical_name": "HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "HPV 疫苗",
+          "HPV疫苗",
+          "人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "HPV疫苗",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "target": {
+        "canonical_name": "生殖器疣",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "生殖器疣",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "在HPV疫苗上市后实际应用中，瑞典、丹麦、美国、澳大利亚等引入HPV疫苗较早的国家显示了疫苗对相关基因型引起的HPV相关疾病良好的保护效果，可有效预防感染、生殖器疣、癌前病变和子宫颈癌。",
+      "confidence": 1.0,
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "source": {
+        "canonical_name": "HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "HPV 疫苗",
+          "HPV疫苗",
+          "人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "HPV疫苗",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "target": {
+        "canonical_name": "癌前病变",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "癌前病变",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "在HPV疫苗上市后实际应用中，瑞典、丹麦、美国、澳大利亚等引入HPV疫苗较早的国家显示了疫苗对相关基因型引起的HPV相关疾病良好的保护效果，可有效预防感染、生殖器疣、癌前病变和子宫颈癌。",
+      "confidence": 1.0,
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "source": {
+        "canonical_name": "HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "HPV 疫苗",
+          "HPV疫苗",
+          "人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "HPV疫苗",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "target": {
+        "canonical_name": "子宫颈癌",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "子宫颈癌",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "在HPV疫苗上市后实际应用中，瑞典、丹麦、美国、澳大利亚等引入HPV疫苗较早的国家显示了疫苗对相关基因型引起的HPV相关疾病良好的保护效果，可有效预防感染、生殖器疣、癌前病变和子宫颈癌。",
+      "confidence": 1.0,
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    },
+    {
+      "source": {
+        "canonical_name": "HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "HPV 疫苗",
+          "HPV疫苗",
+          "人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "HPV疫苗",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "target": {
+        "canonical_name": "宫颈癌",
+        "entity_type": "Disease",
+        "aliases": [
+          "宫颈癌"
+        ],
+        "surface_form": "宫颈癌",
+        "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "在HPV疫苗上市后实际应用中，瑞典、丹麦、美国、澳大利亚等引入HPV疫苗较早的国家显示了疫苗对相关基因型引起的HPV相关疾病良好的保护效果，可有效预防感染、生殖器疣、癌前病变和子宫颈癌。",
+      "confidence": 0.88,
+      "chunk_id": "3f1e81a02db9a34b49f0e556294eb6f9c0160f65c50224d3b198f0d92d46da27"
+    }
+  ],
+  "rejected": [
+    "relation_target_not_supported_by_cue",
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote"
+  ]
+}

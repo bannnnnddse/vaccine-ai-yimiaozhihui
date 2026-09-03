@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_9523001973cc990fbb12a1bacc485dab",
+  "content_hash": "49dfbc5349e4baf80e7473bed6a2afc30e6b5921fe657ede61cbd829eaccb1c6",
+  "entities": [
+    {
+      "canonical_name": "hSBA titers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hSBA titers",
+      "chunk_id": "chk_9523001973cc990fbb12a1bacc485dab"
+    },
+    {
+      "canonical_name": "rSBA titers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "rSBA titers",
+      "chunk_id": "chk_9523001973cc990fbb12a1bacc485dab"
+    },
+    {
+      "canonical_name": "serogroup A",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "serogroup A",
+      "chunk_id": "chk_9523001973cc990fbb12a1bacc485dab"
+    },
+    {
+      "canonical_name": "serogroups C and W",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "serogroups C and W",
+      "chunk_id": "chk_9523001973cc990fbb12a1bacc485dab"
+    },
+    {
+      "canonical_name": "serogroup Y",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "serogroup Y",
+      "chunk_id": "chk_9523001973cc990fbb12a1bacc485dab"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

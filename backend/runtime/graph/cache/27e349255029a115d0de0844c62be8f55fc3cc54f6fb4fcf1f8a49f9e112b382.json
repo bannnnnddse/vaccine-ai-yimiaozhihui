@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_1fb4dad451cd38da2fc210994c35c887",
+  "content_hash": "9cc0986b735771aab116c12970783166f99a3790dcd3a31a0fbc4ff67d255c70",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccine",
+      "chunk_id": "chk_1fb4dad451cd38da2fc210994c35c887"
+    },
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_1fb4dad451cd38da2fc210994c35c887"
+    },
+    {
+      "canonical_name": "T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell",
+      "chunk_id": "chk_1fb4dad451cd38da2fc210994c35c887"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

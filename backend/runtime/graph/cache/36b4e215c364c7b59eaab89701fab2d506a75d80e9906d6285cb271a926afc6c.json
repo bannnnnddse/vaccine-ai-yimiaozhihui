@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_66c432f8e90c45559ae9a66590092626",
+  "content_hash": "d76bf933ae059a9d14f18b827ffffed36c6216f5f8b1258829ee8d8d057d64e2",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_66c432f8e90c45559ae9a66590092626"
+    },
+    {
+      "canonical_name": "SARSCoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2",
+      "chunk_id": "chk_66c432f8e90c45559ae9a66590092626"
+    },
+    {
+      "canonical_name": "Renal Transplant Recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Renal Transplant Recipients",
+      "chunk_id": "chk_66c432f8e90c45559ae9a66590092626"
+    },
+    {
+      "canonical_name": "kidney transplant recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "kidney transplant recipients",
+      "chunk_id": "chk_66c432f8e90c45559ae9a66590092626"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

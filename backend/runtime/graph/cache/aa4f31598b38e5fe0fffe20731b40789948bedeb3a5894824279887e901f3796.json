@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_fc3ff20730bbdada5ec6c643eb3700a2",
+  "content_hash": "caee923a619ed7d3ff86ca1d62de9fb6b957ea38ba6af0da2d30c9e4100c34e9",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_fc3ff20730bbdada5ec6c643eb3700a2"
+    },
+    {
+      "canonical_name": "memory cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory cells",
+      "chunk_id": "chk_fc3ff20730bbdada5ec6c643eb3700a2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,33 @@
+{
+  "chunk_id": "chk_a2b891eddea334f2800a300001217013",
+  "content_hash": "6369f9291091ddd36223fe050a581862bdf050418c5bb9853b7d83c402764cc4",
+  "entities": [
+    {
+      "canonical_name": "承担非免疫规划疫苗接种工作的医疗机构",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "承担非免疫规划疫苗接种工作的医疗机构",
+      "chunk_id": "chk_a2b891eddea334f2800a300001217013"
+    },
+    {
+      "canonical_name": "颁发其医疗机构执业许可证的卫生健康主管部门",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "颁发其医疗机构执业许可证的卫生健康主管部门",
+      "chunk_id": "chk_a2b891eddea334f2800a300001217013"
+    },
+    {
+      "canonical_name": "疾控机构",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "疾控机构",
+      "chunk_id": "chk_a2b891eddea334f2800a300001217013"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

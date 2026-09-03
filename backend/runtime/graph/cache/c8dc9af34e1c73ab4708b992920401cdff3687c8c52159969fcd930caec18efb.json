@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_790765a5458194d591f757766a9d2aaa",
+  "content_hash": "84c4fddb96428c63aaeecd5d059d5fe7ae77c9cac97ad1eee28d009393619113",
+  "entities": [
+    {
+      "canonical_name": "乙型肝炎(乙肝)疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "乙型肝炎（乙肝）疫苗",
+      "chunk_id": "chk_790765a5458194d591f757766a9d2aaa"
+    },
+    {
+      "canonical_name": "卡介苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "卡介苗",
+      "chunk_id": "chk_790765a5458194d591f757766a9d2aaa"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_790765a5458194d591f757766a9d2aaa"
+    },
+    {
+      "canonical_name": "流动儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "流动儿童",
+      "chunk_id": "chk_790765a5458194d591f757766a9d2aaa"
+    },
+    {
+      "canonical_name": "新生儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "新生儿",
+      "chunk_id": "chk_790765a5458194d591f757766a9d2aaa"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

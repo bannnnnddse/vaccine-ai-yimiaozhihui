@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_b7b251ba4091938d8c1a355a413c8fed",
+  "content_hash": "73de6670b2b33399f98f3250e2eaa845d088db93264d3df4724a28498a07c9cd",
+  "entities": [
+    {
+      "canonical_name": "inactivated influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated influenza vaccine",
+      "chunk_id": "chk_b7b251ba4091938d8c1a355a413c8fed"
+    },
+    {
+      "canonical_name": "Tdap",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Tdap",
+      "chunk_id": "chk_b7b251ba4091938d8c1a355a413c8fed"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_b7b251ba4091938d8c1a355a413c8fed"
+    },
+    {
+      "canonical_name": "pregnant patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant patients",
+      "chunk_id": "chk_b7b251ba4091938d8c1a355a413c8fed"
+    },
+    {
+      "canonical_name": "influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccine",
+      "chunk_id": "chk_b7b251ba4091938d8c1a355a413c8fed"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "unknown_endpoint"
+  ]
+}

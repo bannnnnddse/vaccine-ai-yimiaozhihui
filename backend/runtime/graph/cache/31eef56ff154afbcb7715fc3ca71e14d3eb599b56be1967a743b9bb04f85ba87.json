@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6cecbd63f7a19be197c7a8b85aec8a56",
+  "content_hash": "ed871d3fee4a091c0b50d37c2847084460422e80aaf066b2f07b732348d2d7f0",
+  "entities": [
+    {
+      "canonical_name": "subunit vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "subunit vaccines",
+      "chunk_id": "chk_6cecbd63f7a19be197c7a8b85aec8a56"
+    },
+    {
+      "canonical_name": "virus-like particle (VLP) vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "virus-like particle (VLP) vaccines",
+      "chunk_id": "chk_6cecbd63f7a19be197c7a8b85aec8a56"
+    },
+    {
+      "canonical_name": "nanoparticle (NP) vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nanoparticle (NP) vaccines",
+      "chunk_id": "chk_6cecbd63f7a19be197c7a8b85aec8a56"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

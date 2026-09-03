@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_aa751f44bc38165a9c3d85c59915bc9f",
+  "content_hash": "f5190f09f311ef7dde56c8a94ed353a1f96752fb58b7dbc882ec4914ed4fb119",
+  "entities": [
+    {
+      "canonical_name": "Gn piglets",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Gn piglets",
+      "chunk_id": "chk_aa751f44bc38165a9c3d85c59915bc9f"
+    },
+    {
+      "canonical_name": "Rotarix vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Rotarix vaccine",
+      "chunk_id": "chk_aa751f44bc38165a9c3d85c59915bc9f"
+    },
+    {
+      "canonical_name": "Wa RV strain",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Wa RV strain",
+      "chunk_id": "chk_aa751f44bc38165a9c3d85c59915bc9f"
+    },
+    {
+      "canonical_name": "Wa AttHRV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Wa AttHRV",
+      "chunk_id": "chk_aa751f44bc38165a9c3d85c59915bc9f"
+    },
+    {
+      "canonical_name": "rhesus RVs",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rhesus RVs",
+      "chunk_id": "chk_aa751f44bc38165a9c3d85c59915bc9f"
+    },
+    {
+      "canonical_name": "rRRV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rRRV",
+      "chunk_id": "chk_aa751f44bc38165a9c3d85c59915bc9f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_c6b98ac43f7b70b5c9c4906d827a0b88",
+  "content_hash": "e929bb8b2850d3a53bddda93f8d119780317e2d8e539ee37b46d693f6b0049f6",
+  "entities": [
+    {
+      "canonical_name": "基础免疫程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "基础免疫程序",
+      "chunk_id": "chk_c6b98ac43f7b70b5c9c4906d827a0b88"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

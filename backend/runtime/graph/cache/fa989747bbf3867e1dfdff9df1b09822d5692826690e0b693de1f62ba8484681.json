@@ -1,0 +1,36 @@
+{
+  "chunk_id": "7c1b11652a78761f5bf41116b4acb0e350cb2e08b3d97eac442a28a9bdd265b5",
+  "content_hash": "44a774129ad16c059d578a5bd9649a1ee5ab841ae20a346391c830855a452bf3",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccine",
+      "chunk_id": "7c1b11652a78761f5bf41116b4acb0e350cb2e08b3d97eac442a28a9bdd265b5"
+    },
+    {
+      "canonical_name": "anti-spike antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-spike antibodies",
+      "chunk_id": "7c1b11652a78761f5bf41116b4acb0e350cb2e08b3d97eac442a28a9bdd265b5"
+    },
+    {
+      "canonical_name": "common variable immunodeficiency",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "common variable immunodeficiency",
+      "chunk_id": "7c1b11652a78761f5bf41116b4acb0e350cb2e08b3d97eac442a28a9bdd265b5"
+    },
+    {
+      "canonical_name": "older patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older patients",
+      "chunk_id": "7c1b11652a78761f5bf41116b4acb0e350cb2e08b3d97eac442a28a9bdd265b5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

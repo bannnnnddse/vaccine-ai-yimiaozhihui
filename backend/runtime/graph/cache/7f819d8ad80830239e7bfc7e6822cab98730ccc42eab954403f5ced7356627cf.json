@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6ffcfefc75a1386e767d2a316a456bd1",
+  "content_hash": "a1f6fb4dbe01483543a810fef58b8651f2db345a739c206ed67a82b921614749",
+  "entities": [
+    {
+      "canonical_name": "memory B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cell",
+      "chunk_id": "chk_6ffcfefc75a1386e767d2a316a456bd1"
+    },
+    {
+      "canonical_name": "adenovirus -influenza H5 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adenovirus -influenza H5 vaccine",
+      "chunk_id": "chk_6ffcfefc75a1386e767d2a316a456bd1"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_6ffcfefc75a1386e767d2a316a456bd1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

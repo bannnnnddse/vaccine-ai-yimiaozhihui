@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_b617ca7b3bfc218f7b7a4af52f62a638",
+  "content_hash": "37802d1389b27266a088c6d8ef59f3c7a5a4acc5365acc716f5363817a9c89e0",
+  "entities": [
+    {
+      "canonical_name": "Respiratory Syncytial Virus (RSV) Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus (RSV) Vaccine",
+      "chunk_id": "chk_b617ca7b3bfc218f7b7a4af52f62a638"
+    },
+    {
+      "canonical_name": "Pregnant Individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Pregnant Individuals",
+      "chunk_id": "chk_b617ca7b3bfc218f7b7a4af52f62a638"
+    },
+    {
+      "canonical_name": "Infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Infants",
+      "chunk_id": "chk_b617ca7b3bfc218f7b7a4af52f62a638"
+    },
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "chk_b617ca7b3bfc218f7b7a4af52f62a638"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

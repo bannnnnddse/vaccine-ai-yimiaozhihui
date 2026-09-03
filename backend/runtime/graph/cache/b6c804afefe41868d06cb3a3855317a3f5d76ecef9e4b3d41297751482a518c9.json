@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_45e7b11bb7440260703ba5791378f7b4",
+  "content_hash": "ec2056abd2430b5510e43bf13aa1e62d53032b62e1458b046912e64e9f896e21",
+  "entities": [
+    {
+      "canonical_name": "AstraZeneca",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AstraZeneca",
+      "chunk_id": "chk_45e7b11bb7440260703ba5791378f7b4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

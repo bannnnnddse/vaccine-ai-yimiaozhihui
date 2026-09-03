@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_7252cdff05a1ec778bcf6d124cada3f9",
+  "content_hash": "6dd5ac6933c1fe89aff93b15aa6d27224d55d279bc5d66a1a61f36778b208b3d",
+  "entities": [
+    {
+      "canonical_name": "adenovirus type-5 vector-based COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adenovirus type-5 vector-based COVID-19 vaccine",
+      "chunk_id": "chk_7252cdff05a1ec778bcf6d124cada3f9"
+    },
+    {
+      "canonical_name": "Ad5-nCoV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad5-nCoV",
+      "chunk_id": "chk_7252cdff05a1ec778bcf6d124cada3f9"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_7252cdff05a1ec778bcf6d124cada3f9"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_7252cdff05a1ec778bcf6d124cada3f9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

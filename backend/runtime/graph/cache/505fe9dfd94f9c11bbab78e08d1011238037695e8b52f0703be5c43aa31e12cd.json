@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_a29cd4cd5b671767af24a6285461d385",
+  "content_hash": "74cd9aecd99e12e18601b65b496a71eb45d0d88cdd00951237b46de9232ff709",
+  "entities": [
+    {
+      "canonical_name": "DNA-based cancer vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA-based cancer vaccines",
+      "chunk_id": "chk_a29cd4cd5b671767af24a6285461d385"
+    },
+    {
+      "canonical_name": "inflammation",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "inflammation",
+      "chunk_id": "chk_a29cd4cd5b671767af24a6285461d385"
+    },
+    {
+      "canonical_name": "immune-stimulatory adjuvants",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune-stimulatory adjuvants",
+      "chunk_id": "chk_a29cd4cd5b671767af24a6285461d385"
+    },
+    {
+      "canonical_name": "immune cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune cells",
+      "chunk_id": "chk_a29cd4cd5b671767af24a6285461d385"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

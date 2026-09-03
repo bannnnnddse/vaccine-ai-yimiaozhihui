@@ -1,0 +1,45 @@
+{
+  "chunk_id": "661ef503af0039c04f0b072a6743c71aa83c18b418a214b350192172627a64cc",
+  "content_hash": "0e35039810767aad29675f7daddd3b228f556d8c9c5dcd3214458ea9b71293dd",
+  "entities": [
+    {
+      "canonical_name": "adapted bivalent booster vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adapted bivalent booster vaccination",
+      "chunk_id": "661ef503af0039c04f0b072a6743c71aa83c18b418a214b350192172627a64cc"
+    },
+    {
+      "canonical_name": "BA.4/BA.5 variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BA.4/BA.5 variant",
+      "chunk_id": "661ef503af0039c04f0b072a6743c71aa83c18b418a214b350192172627a64cc"
+    },
+    {
+      "canonical_name": "BQ.1.1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BQ.1.1",
+      "chunk_id": "661ef503af0039c04f0b072a6743c71aa83c18b418a214b350192172627a64cc"
+    },
+    {
+      "canonical_name": "XBB.1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "XBB.1",
+      "chunk_id": "661ef503af0039c04f0b072a6743c71aa83c18b418a214b350192172627a64cc"
+    },
+    {
+      "canonical_name": "Fc-effector functions",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fc-effector functions",
+      "chunk_id": "661ef503af0039c04f0b072a6743c71aa83c18b418a214b350192172627a64cc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

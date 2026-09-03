@@ -1,0 +1,43 @@
+{
+  "chunk_id": "3081fd5b5a356166219dc6b162e1125c0be4671dcfe9792a73e304a689bce68a",
+  "content_hash": "1f8446a4cdfd6cc58c60845e7c296bd1c558974cde9e6b1025670990263648a5",
+  "entities": [
+    {
+      "canonical_name": "预防接种工作规范",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "预防接种工作规范",
+      "chunk_id": "3081fd5b5a356166219dc6b162e1125c0be4671dcfe9792a73e304a689bce68a"
+    },
+    {
+      "canonical_name": "免疫程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "免疫程序",
+      "chunk_id": "3081fd5b5a356166219dc6b162e1125c0be4671dcfe9792a73e304a689bce68a"
+    },
+    {
+      "canonical_name": "疫苗使用指导原则",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "疫苗使用指导原则",
+      "chunk_id": "3081fd5b5a356166219dc6b162e1125c0be4671dcfe9792a73e304a689bce68a"
+    },
+    {
+      "canonical_name": "接种方案",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "接种方案",
+      "chunk_id": "3081fd5b5a356166219dc6b162e1125c0be4671dcfe9792a73e304a689bce68a"
+    },
+    {
+      "canonical_name": "不良反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "不良反应",
+      "chunk_id": "3081fd5b5a356166219dc6b162e1125c0be4671dcfe9792a73e304a689bce68a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

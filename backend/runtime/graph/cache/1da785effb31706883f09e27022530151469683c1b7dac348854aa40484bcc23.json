@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_58977e3daa86c845d43cb2577dd1da0a",
+  "content_hash": "59ea1273b0fbe1038ae0f3f6f95e07177dd0bba26db74e8d695d5fec038bfa3e",
+  "entities": [
+    {
+      "canonical_name": "middle east respiratory syndrome coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "middle east respiratory syndrome coronavirus",
+      "chunk_id": "chk_58977e3daa86c845d43cb2577dd1da0a"
+    },
+    {
+      "canonical_name": "SARS -CoV -2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2 vaccine",
+      "chunk_id": "chk_58977e3daa86c845d43cb2577dd1da0a"
+    },
+    {
+      "canonical_name": "CoronaVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoronaVac",
+      "chunk_id": "chk_58977e3daa86c845d43cb2577dd1da0a"
+    },
+    {
+      "canonical_name": "healthy children and adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy children and adolescents",
+      "chunk_id": "chk_58977e3daa86c845d43cb2577dd1da0a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

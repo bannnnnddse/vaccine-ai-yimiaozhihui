@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_ac2a3ed7013cd8affa286bc4324bb2b4",
+  "content_hash": "b85dfe518d16eb465f11d1ebbc08ad3b7f41f230aa33f53212cab211336ac2ac",
+  "entities": [
+    {
+      "canonical_name": "GBS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "GBS",
+      "chunk_id": "chk_ac2a3ed7013cd8affa286bc4324bb2b4"
+    },
+    {
+      "canonical_name": "ChAdOx1",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1",
+      "chunk_id": "chk_ac2a3ed7013cd8affa286bc4324bb2b4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

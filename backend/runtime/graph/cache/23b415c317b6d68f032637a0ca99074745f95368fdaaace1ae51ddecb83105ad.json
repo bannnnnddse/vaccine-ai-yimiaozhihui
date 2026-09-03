@@ -1,0 +1,36 @@
+{
+  "chunk_id": "0db461a181529112c8bf379d138e580d973d4a9e63e02ca51115acb4b0ea51d7",
+  "content_hash": "077392ab5caf1be524ed4618565025323147e943a045a2d86902017836792407",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal conjugate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccines",
+      "chunk_id": "0db461a181529112c8bf379d138e580d973d4a9e63e02ca51115acb4b0ea51d7"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b vaccines",
+      "chunk_id": "0db461a181529112c8bf379d138e580d973d4a9e63e02ca51115acb4b0ea51d7"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "0db461a181529112c8bf379d138e580d973d4a9e63e02ca51115acb4b0ea51d7"
+    },
+    {
+      "canonical_name": "antibody titers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody titers",
+      "chunk_id": "0db461a181529112c8bf379d138e580d973d4a9e63e02ca51115acb4b0ea51d7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

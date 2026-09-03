@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_401b4f9eafbf21f14d7ac58e767cf757",
+  "content_hash": "0c15bc60743ac53c1ed569356279bf75916cb1106a85367a72139d11bc80d7dc",
+  "entities": [
+    {
+      "canonical_name": "hantavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hantavirus",
+      "chunk_id": "chk_401b4f9eafbf21f14d7ac58e767cf757"
+    },
+    {
+      "canonical_name": "nonhuman primates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "nonhuman primates",
+      "chunk_id": "chk_401b4f9eafbf21f14d7ac58e767cf757"
+    },
+    {
+      "canonical_name": "SFTS virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTS virus",
+      "chunk_id": "chk_401b4f9eafbf21f14d7ac58e767cf757"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

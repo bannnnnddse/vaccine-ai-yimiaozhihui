@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f123a8b3e07533517cb387a84253ed2f",
+  "content_hash": "7032c733b0cb1305e111a8267412ecf3d62ba4c22d91c5c6164e478bef13096c",
+  "entities": [
+    {
+      "canonical_name": "APRIL",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "APRIL",
+      "chunk_id": "chk_f123a8b3e07533517cb387a84253ed2f"
+    },
+    {
+      "canonical_name": "plasmablast",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasmablast",
+      "chunk_id": "chk_f123a8b3e07533517cb387a84253ed2f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

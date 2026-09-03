@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ddc77312a82641a0dd78abebb4bee4eb",
+  "content_hash": "40b26dd34e5a1f5499252e3b416f63d2597774aaab5b3a608045bfc560887ec1",
+  "entities": [
+    {
+      "canonical_name": "Rotaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Rotaviruses",
+      "chunk_id": "chk_ddc77312a82641a0dd78abebb4bee4eb"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_ddc77312a82641a0dd78abebb4bee4eb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

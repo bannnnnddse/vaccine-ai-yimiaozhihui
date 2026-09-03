@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_7a3f544e13eb5139e61a0f02e3a59bba",
+  "content_hash": "96f797f7ff506b5f8344d7d1494230a07bb31d0679b39bb839aa0d36fceb7edc",
+  "entities": [
+    {
+      "canonical_name": "Human Immunodeficiency Virus Type 1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Human Immunodeficiency Virus Type 1",
+      "chunk_id": "chk_7a3f544e13eb5139e61a0f02e3a59bba"
+    },
+    {
+      "canonical_name": "Borrelia burgdorferi",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Borrelia burgdorferi",
+      "chunk_id": "chk_7a3f544e13eb5139e61a0f02e3a59bba"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_7a3f544e13eb5139e61a0f02e3a59bba"
+    },
+    {
+      "canonical_name": "Zika Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika Virus",
+      "chunk_id": "chk_7a3f544e13eb5139e61a0f02e3a59bba"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_869117e5358655be14e5e1255fb94563",
+  "content_hash": "f20baa8f018b25ff5026db2d368857f859df1b2c54ea2552fe39df8812e4251e",
+  "entities": [
+    {
+      "canonical_name": "chronic HBV infectionrelated diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic HBV infectionrelated diseases",
+      "chunk_id": "chk_869117e5358655be14e5e1255fb94563"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_869117e5358655be14e5e1255fb94563"
+    },
+    {
+      "canonical_name": "chronic HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic HBV infection",
+      "chunk_id": "chk_869117e5358655be14e5e1255fb94563"
+    },
+    {
+      "canonical_name": "children under 5 years of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children under 5 years of age",
+      "chunk_id": "chk_869117e5358655be14e5e1255fb94563"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

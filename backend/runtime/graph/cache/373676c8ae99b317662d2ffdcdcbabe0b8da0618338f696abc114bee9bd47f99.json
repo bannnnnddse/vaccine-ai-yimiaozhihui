@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_9f7ce099ff51a49dc54c6635cf46262c",
+  "content_hash": "43ddeaa0a2e90cbd1f734894dc8f8fe9db2073b92d451cd9159dd8ac40e7a532",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_9f7ce099ff51a49dc54c6635cf46262c"
+    },
+    {
+      "canonical_name": "bionic nanoparticle vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bionic nanoparticle vaccines",
+      "chunk_id": "chk_9f7ce099ff51a49dc54c6635cf46262c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

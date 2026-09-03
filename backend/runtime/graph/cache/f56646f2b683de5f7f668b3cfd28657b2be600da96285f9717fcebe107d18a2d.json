@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7b879b300b01693947c4a303900cf7ab",
+  "content_hash": "47895bb99da61e3eea93f3f3b507acd6ef3c7cdf5927d37fb118febe5245cccd",
+  "entities": [
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_7b879b300b01693947c4a303900cf7ab"
+    },
+    {
+      "canonical_name": "acute AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "acute AEFIs",
+      "chunk_id": "chk_7b879b300b01693947c4a303900cf7ab"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_14d036c2850d9ba6f1dfe1813b71d369",
+  "content_hash": "3e7b1cc8837d32a41367524224a4382a0929410be528fd0e8230a07270f3d9fd",
+  "entities": [
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_14d036c2850d9ba6f1dfe1813b71d369"
+    },
+    {
+      "canonical_name": "fatigue",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fatigue",
+      "chunk_id": "chk_14d036c2850d9ba6f1dfe1813b71d369"
+    },
+    {
+      "canonical_name": "headache",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "headache",
+      "chunk_id": "chk_14d036c2850d9ba6f1dfe1813b71d369"
+    },
+    {
+      "canonical_name": "Pain",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Pain",
+      "chunk_id": "chk_14d036c2850d9ba6f1dfe1813b71d369"
+    },
+    {
+      "canonical_name": "swelling",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "swelling",
+      "chunk_id": "chk_14d036c2850d9ba6f1dfe1813b71d369"
+    },
+    {
+      "canonical_name": "redness",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "redness",
+      "chunk_id": "chk_14d036c2850d9ba6f1dfe1813b71d369"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

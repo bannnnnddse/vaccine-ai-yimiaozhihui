@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_7c7a3aa730732be2d77f55da07678feb",
+  "content_hash": "03d53367fcfa143f2e392288c2b542f118bafb0d9c4a8528d75b3df2444d3b47",
+  "entities": [
+    {
+      "canonical_name": "HCWs",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HCWs",
+      "chunk_id": "chk_7c7a3aa730732be2d77f55da07678feb"
+    },
+    {
+      "canonical_name": "side effects",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "side effects",
+      "chunk_id": "chk_7c7a3aa730732be2d77f55da07678feb"
+    },
+    {
+      "canonical_name": "men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "men",
+      "chunk_id": "chk_7c7a3aa730732be2d77f55da07678feb"
+    },
+    {
+      "canonical_name": "older individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older individuals",
+      "chunk_id": "chk_7c7a3aa730732be2d77f55da07678feb"
+    },
+    {
+      "canonical_name": "women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "women",
+      "chunk_id": "chk_7c7a3aa730732be2d77f55da07678feb"
+    },
+    {
+      "canonical_name": "younger age groups",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "younger age groups",
+      "chunk_id": "chk_7c7a3aa730732be2d77f55da07678feb"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_a8846685d03ec6ad8ff37d4b6c40c295",
+  "content_hash": "d25cbf1799c8b8d9e4e03acab2d8bed5a06dd99feb168b9beab6208996acf26a",
+  "entities": [
+    {
+      "canonical_name": "anti-HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs",
+      "chunk_id": "chk_a8846685d03ec6ad8ff37d4b6c40c295"
+    },
+    {
+      "canonical_name": "choronic hepatitis C",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "choronic hepatitis C",
+      "chunk_id": "chk_a8846685d03ec6ad8ff37d4b6c40c295"
+    },
+    {
+      "canonical_name": "healthy control",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy control",
+      "chunk_id": "chk_a8846685d03ec6ad8ff37d4b6c40c295"
+    },
+    {
+      "canonical_name": "anti-HBV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "anti-HBV vaccine",
+      "chunk_id": "chk_a8846685d03ec6ad8ff37d4b6c40c295"
+    },
+    {
+      "canonical_name": "non-cirrhotic chronic HCV",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-cirrhotic chronic HCV",
+      "chunk_id": "chk_a8846685d03ec6ad8ff37d4b6c40c295"
+    },
+    {
+      "canonical_name": "double dose regimen",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "double dose regimen",
+      "chunk_id": "chk_a8846685d03ec6ad8ff37d4b6c40c295"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

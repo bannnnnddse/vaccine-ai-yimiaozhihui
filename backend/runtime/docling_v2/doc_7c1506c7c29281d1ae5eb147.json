@@ -1,0 +1,1978 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "doc_7c1506c7c29281d1ae5eb147",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 2522928796472390672,
+    "filename": "doc_7c1506c7c29281d1ae5eb147.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/texts/57"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/28"
+        },
+        {
+          "$ref": "#/texts/29"
+        },
+        {
+          "$ref": "#/texts/30"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/32"
+        },
+        {
+          "$ref": "#/texts/33"
+        },
+        {
+          "$ref": "#/texts/34"
+        },
+        {
+          "$ref": "#/texts/35"
+        },
+        {
+          "$ref": "#/texts/36"
+        },
+        {
+          "$ref": "#/texts/37"
+        },
+        {
+          "$ref": "#/texts/38"
+        },
+        {
+          "$ref": "#/texts/39"
+        },
+        {
+          "$ref": "#/texts/40"
+        },
+        {
+          "$ref": "#/texts/41"
+        },
+        {
+          "$ref": "#/texts/42"
+        },
+        {
+          "$ref": "#/texts/43"
+        },
+        {
+          "$ref": "#/texts/44"
+        },
+        {
+          "$ref": "#/texts/45"
+        },
+        {
+          "$ref": "#/texts/46"
+        },
+        {
+          "$ref": "#/texts/47"
+        },
+        {
+          "$ref": "#/texts/48"
+        },
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.77199935913086,
+            "t": 763.58935546875,
+            "r": 168.9440155029297,
+            "b": 754.6013793945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Clinical Infectious Diseases",
+      "text": "Clinical Infectious Diseases"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": -224.4720001220703,
+            "t": 325.8961181640625,
+            "r": -165.56399536132812,
+            "b": 317.74810791015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "OA-BY-IGO",
+      "text": "OA-BY-IGO"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 57.90800094604492,
+            "t": 742.1427001953125,
+            "r": 210.18797302246094,
+            "b": 733.106689453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "SUPPLEMENT ARTICLE",
+      "text": "SUPPLEMENT ARTICLE",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.89799880981445,
+            "t": 697.8252563476562,
+            "r": 411.744873046875,
+            "b": 677.4972534179688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            41
+          ]
+        }
+      ],
+      "orig": "Revised Global Typhoid Vaccination\u00a0Policy",
+      "text": "Revised Global Typhoid Vaccination\u00a0Policy",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.163997650146484,
+            "t": 670.6492309570312,
+            "r": 204.19601440429688,
+            "b": 664.7852172851562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Adwoa D.\u00a0Bentsi-Enchill and Joachim\u00a0Hombach",
+      "text": "Adwoa D.\u00a0Bentsi-Enchill and Joachim\u00a0Hombach"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.625,
+            "t": 657.0252075195312,
+            "r": 311.452392578125,
+            "b": 650.5152587890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            100
+          ]
+        }
+      ],
+      "orig": "Department of Immunization, Vaccines and Biologicals, World Health Organization, Geneva, Switzerland",
+      "text": "Department of Immunization, Vaccines and Biologicals, World Health Organization, Geneva, Switzerland"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.09049987792969,
+            "t": 638.13720703125,
+            "r": 544.8821411132812,
+            "b": 532.9532470703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1105
+          ]
+        }
+      ],
+      "orig": "Typhoid fever is a continuing public health problem in many low- and middle-income countries; however, routine vaccination as a recommended control strategy has not been implemented in the past in most countries. Greater understanding of the typhoid fever burden, the increasing threat of antimicrobial resistance, and licensure of a new generation of typhoid conjugate vaccines (TCVs) were instrumental in paving the way for the World Health Organization (WHO) to issue a revised global policy on typhoid vaccines in March 2018. The new policy follows evidence-based recommendations by the WHO Strategic Advisory Group of Experts on immunization for routine and catch-up vaccination with TCVs and highlights considerations for universal, risk-based, or phased vaccination strategies in different settings. Further, the first WHO-prequalified TCV and Gavi funding for eligible countries make vaccination a realistic control strategy for many affected countries, especially if combined with improved water and sanitation services, strengthened surveillance systems, and appropriate antimicrobial treatment.",
+      "text": "Typhoid fever is a continuing public health problem in many low- and middle-income countries; however, routine vaccination as a recommended control strategy has not been implemented in the past in most countries. Greater understanding of the typhoid fever burden, the increasing threat of antimicrobial resistance, and licensure of a new generation of typhoid conjugate vaccines (TCVs) were instrumental in paving the way for the World Health Organization (WHO) to issue a revised global policy on typhoid vaccines in March 2018. The new policy follows evidence-based recommendations by the WHO Strategic Advisory Group of Experts on immunization for routine and catch-up vaccination with TCVs and highlights considerations for universal, risk-based, or phased vaccination strategies in different settings. Further, the first WHO-prequalified TCV and Gavi funding for eligible countries make vaccination a realistic control strategy for many affected countries, especially if combined with improved water and sanitation services, strengthened surveillance systems, and appropriate antimicrobial treatment."
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.261497497558594,
+            "t": 530.1506958007812,
+            "r": 544.6932373046875,
+            "b": 509.1177062988281,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            125
+          ]
+        }
+      ],
+      "orig": "Keywords. typhoid fever; typhoid conjugate vaccines; immunization policy; vaccination strategies; WHO vaccine position paper.",
+      "text": "Keywords. typhoid fever; typhoid conjugate vaccines; immunization policy; vaccination strategies; WHO vaccine position paper."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.099998474121094,
+            "t": 480.1522216796875,
+            "r": 287.9063415527344,
+            "b": 276.0162048339844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1040
+          ]
+        }
+      ],
+      "orig": "An estimated 11 to 21 million cases and more than 128 000 deaths from typhoid fever occur annually across many low- and middle-income countries, primarily in South and Southeast Asia and sub-Saharan Africa [1\u20133]. Effective control strategies against typhoid, caused by Salmonella enterica serovar Typhi, include access to safe water, adequate sanitation, personal and food hygiene, health education, appropriate antimicrobial treatment, and vaccination. While water, sanitation, and hygiene (WASH) strategies are powerful tools for typhoid control, the major financial investments required for infrastructure development and maintenance limit WASH solutions in the short to medium term in most typhoid-endemic countries [4 , 5]. Weighed against WASH, vaccination is more affordable to governments, does not require substantial behavioral change, and provides a shorter-term control strategy. Here, we describe the context and procedure for the recent revision of the global typhoid vaccination policy by the World Health Organization (WHO).",
+      "text": "An estimated 11 to 21 million cases and more than 128 000 deaths from typhoid fever occur annually across many low- and middle-income countries, primarily in South and Southeast Asia and sub-Saharan Africa [1\u20133]. Effective control strategies against typhoid, caused by Salmonella enterica serovar Typhi, include access to safe water, adequate sanitation, personal and food hygiene, health education, appropriate antimicrobial treatment, and vaccination. While water, sanitation, and hygiene (WASH) strategies are powerful tools for typhoid control, the major financial investments required for infrastructure development and maintenance limit WASH solutions in the short to medium term in most typhoid-endemic countries [4 , 5]. Weighed against WASH, vaccination is more affordable to governments, does not require substantial behavioral change, and provides a shorter-term control strategy. Here, we describe the context and procedure for the recent revision of the global typhoid vaccination policy by the World Health Organization (WHO)."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.365997314453125,
+            "t": 272.2162170410156,
+            "r": 288.1940002441406,
+            "b": 185.04421997070312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            405
+          ]
+        }
+      ],
+      "orig": "WHO is mandated to provide global vaccine policy recommendations based on a transparent and systematic evidence review process by the Strategic Advisory Group of Experts (SAGE) on Immunization, an independent advisory committee that advises the WHO on the development of policy related to vaccines and immunization [6 , 7]. WHO then issues global policy through position papers that represent its official",
+      "text": "WHO is mandated to provide global vaccine policy recommendations based on a transparent and systematic evidence review process by the Strategic Advisory Group of Experts (SAGE) on Immunization, an independent advisory committee that advises the WHO on the development of policy related to vaccines and immunization [6 , 7]. WHO then issues global policy through position papers that represent its official"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.57600021362305,
+            "t": 164.06719970703125,
+            "r": 287.6404724121094,
+            "b": 139.99420166015625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            236
+          ]
+        }
+      ],
+      "orig": "Correspondence: A.\u00a0D. Bentsi-Enchill, Department of Immunization, Vaccines and Biologicals, Family, Women's and Children's Health Cluster, World Health Organization, 20 Avenue Appia, 1211 Geneva 27, Switzerland (bentsienchilla@who.int).",
+      "text": "Correspondence: A.\u00a0D. Bentsi-Enchill, Department of Immunization, Vaccines and Biologicals, Family, Women's and Children's Health Cluster, World Health Organization, 20 Avenue Appia, 1211 Geneva 27, Switzerland (bentsienchilla@who.int)."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.537696838378906,
+            "t": 132.3005828857422,
+            "r": 195.91250610351562,
+            "b": 124.91950225830078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            48
+          ]
+        }
+      ],
+      "orig": "Clinical Infectious Diseases \u00ae 2019;68(S1):S31\u20133",
+      "text": "Clinical Infectious Diseases \u00ae 2019;68(S1):S31\u20133",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 49.236000061035156,
+            "t": 120.05650329589844,
+            "r": 288.04107666015625,
+            "b": 68.51549530029297,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            434
+          ]
+        }
+      ],
+      "orig": "\u00a9 The Author(s) 2019. Published by Oxford University Press for the Infectious Diseases Society of America.This is an Open Access article distributed under the terms of the Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO) License (https:// creativecommons.org/licenses/by/3.0/igo/) which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited. DOI: 10.1093/cid/ciy927",
+      "text": "\u00a9 The Author(s) 2019. Published by Oxford University Press for the Infectious Diseases Society of America.This is an Open Access article distributed under the terms of the Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO) License (https:// creativecommons.org/licenses/by/3.0/igo/) which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited. DOI: 10.1093/cid/ciy927"
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 306.1700134277344,
+            "t": 480.2377014160156,
+            "r": 544.6911010742188,
+            "b": 458.20721435546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            99
+          ]
+        }
+      ],
+      "orig": "position on vaccines or vaccine-related issues that have an international public health impact [8].",
+      "text": "position on vaccines or vaccine-related issues that have an international public health impact [8]."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 305.7710266113281,
+            "t": 454.2456970214844,
+            "r": 545.7772216796875,
+            "b": 174.46119689941406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1313
+          ]
+        }
+      ],
+      "orig": "In 2008, WHO updated its policy on the parenteral unconjugated Vi polysaccharide and oral live attenuated Ty21a typhoid vaccines and emphasized their programmatic use to control endemic and epidemic typhoid fever where the disease remained a significant public health problem. Public health use of the Vi polysaccharide vaccine in 2 large demonstration projects in Asia, in 2003\u20132004 and 2010\u20132012, provided evidence of vaccine effectiveness and safety, feasibility of community- and school-based delivery strategies, and acceptability of the vaccine in the target populations [9 , 10]. However, in the 5\u00a0 years (2009\u20132013) following the 2008 global policy recommendations, very limited vaccine uptake in routine immunization programs occurred in typhoid-endemic countries in the WHO South-East Asia region and Western Pacific region where a review was conducted [11]. Of note, that review found only 1 other example of large-scale typhoid vaccination (outside of the demonstration projects) initiated since the updated policy; in Fiji, a successful mass vaccination campaign with the Vi polysaccharide vaccine was conducted in 2010 in high-risk areas following a category 4 cyclone [12]. Further, there was no significant change in the trend of typhoid vaccination in endemic countries in the rest of the decade.",
+      "text": "In 2008, WHO updated its policy on the parenteral unconjugated Vi polysaccharide and oral live attenuated Ty21a typhoid vaccines and emphasized their programmatic use to control endemic and epidemic typhoid fever where the disease remained a significant public health problem. Public health use of the Vi polysaccharide vaccine in 2 large demonstration projects in Asia, in 2003\u20132004 and 2010\u20132012, provided evidence of vaccine effectiveness and safety, feasibility of community- and school-based delivery strategies, and acceptability of the vaccine in the target populations [9 , 10]. However, in the 5\u00a0 years (2009\u20132013) following the 2008 global policy recommendations, very limited vaccine uptake in routine immunization programs occurred in typhoid-endemic countries in the WHO South-East Asia region and Western Pacific region where a review was conducted [11]. Of note, that review found only 1 other example of large-scale typhoid vaccination (outside of the demonstration projects) initiated since the updated policy; in Fiji, a successful mass vaccination campaign with the Vi polysaccharide vaccine was conducted in 2010 in high-risk areas following a category 4 cyclone [12]. Further, there was no significant change in the trend of typhoid vaccination in endemic countries in the rest of the decade."
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 306.1700134277344,
+            "t": 168.33370971679688,
+            "r": 544.8679809570312,
+            "b": 68.16571807861328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            489
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.261497497558594,
+            "t": 742.9275512695312,
+            "r": 287.94140625,
+            "b": 720.735595703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            490,
+            569
+          ]
+        }
+      ],
+      "orig": "Several key developments over the last decade refocused attention on the potential for routine vaccine use as a critical public health tool, especially when integrated with WASH and other strategies, for the control of typhoid fever. Crucially, data from the Typhoid Surveillance in Africa Program showed moderate to high disease incidence in some sub-Saharan Africa countries, rivalling rates previously described in parts of Asia [13]. These gains in understanding of typhoid burden have contributed to defining the global and regional priorities for typhoid control.",
+      "text": "Several key developments over the last decade refocused attention on the potential for routine vaccine use as a critical public health tool, especially when integrated with WASH and other strategies, for the control of typhoid fever. Crucially, data from the Typhoid Surveillance in Africa Program showed moderate to high disease incidence in some sub-Saharan Africa countries, rivalling rates previously described in parts of Asia [13]. These gains in understanding of typhoid burden have contributed to defining the global and regional priorities for typhoid control."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 321.1580810546875,
+            "t": 49.80860137939453,
+            "r": 544.134033203125,
+            "b": 42.04859924316406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "Global Typhoid Vaccination\u00a0Policy \u00b7 CID 2019:68 (Suppl 1) \u00b7 S31",
+      "text": "Global Typhoid Vaccination\u00a0Policy \u00b7 CID 2019:68 (Suppl 1) \u00b7 S31"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.166500091552734,
+            "t": 716.935546875,
+            "r": 288.16552734375,
+            "b": 539.6845703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            813
+          ]
+        }
+      ],
+      "orig": "Second, there has been a growing body of evidence about the threat of antimicrobial-resistant strains of Salmonella Typhi, including spread of the H58 haplotype, which has been responsible for much of the recent and current spread of resistant strains [14] and emergence of additional resistant haplotypes [15]. Concerns about a potential looming public health crisis with respect to \"untreatable typhoid fever\" and the possibility of reversal to preantibiotic case fatality rates were heightened in recent months following a report that described a Salmonella Typhi H58 strain with resistance to the traditional first-line antibiotics of ampicillin, chloramphenicol, and trimethoprim-sulfamethoxazole, as well as additional resistance to fluoroquinolones and ceftriaxone, in an ongoing outbreak in Pakistan [16].",
+      "text": "Second, there has been a growing body of evidence about the threat of antimicrobial-resistant strains of Salmonella Typhi, including spread of the H58 haplotype, which has been responsible for much of the recent and current spread of resistant strains [14] and emergence of additional resistant haplotypes [15]. Concerns about a potential looming public health crisis with respect to \"untreatable typhoid fever\" and the possibility of reversal to preantibiotic case fatality rates were heightened in recent months following a report that described a Salmonella Typhi H58 strain with resistance to the traditional first-line antibiotics of ampicillin, chloramphenicol, and trimethoprim-sulfamethoxazole, as well as additional resistance to fluoroquinolones and ceftriaxone, in an ongoing outbreak in Pakistan [16]."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.09049987792969,
+            "t": 535.0105590820312,
+            "r": 288.2044677734375,
+            "b": 304.8635559082031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1069
+          ]
+        }
+      ],
+      "orig": "Third, the long-anticipated availability of a newer generation of typhoid conjugate vaccines (TCVs) moved closer to reality with licensure in India of 2 Vi-tetanus toxoid conjugate vaccine products in 2008 and 2013. An earlier Vi-rEPA conjugate vaccine had provided extensive clinical trial data that demonstrated safety, immunogenicity, and clinical efficacy of 89.0% (95% confidence interval, 76.0, 96.9) over 46\u00a0months follow-up in Vietnamese children aged 2\u20135\u00a0 years [17]. However, the Vi-rEPA vaccine was not licensed, and delays in TCV clinical development coupled with lack of funding support and apparent limited interest by decision makers in endemic countries to use the Vi polysaccharide and Ty21a vaccines meant that no real progress could be made toward a revised vaccination policy in the last decade. The first TCVs to receive national licensure therefore signalled a breakthrough toward a possible routine childhood typhoid vaccination strategy. Furthermore, TCVs have the additional value of longer duration of protection compared to existing vaccines.",
+      "text": "Third, the long-anticipated availability of a newer generation of typhoid conjugate vaccines (TCVs) moved closer to reality with licensure in India of 2 Vi-tetanus toxoid conjugate vaccine products in 2008 and 2013. An earlier Vi-rEPA conjugate vaccine had provided extensive clinical trial data that demonstrated safety, immunogenicity, and clinical efficacy of 89.0% (95% confidence interval, 76.0, 96.9) over 46\u00a0months follow-up in Vietnamese children aged 2\u20135\u00a0 years [17]. However, the Vi-rEPA vaccine was not licensed, and delays in TCV clinical development coupled with lack of funding support and apparent limited interest by decision makers in endemic countries to use the Vi polysaccharide and Ty21a vaccines meant that no real progress could be made toward a revised vaccination policy in the last decade. The first TCVs to receive national licensure therefore signalled a breakthrough toward a possible routine childhood typhoid vaccination strategy. Furthermore, TCVs have the additional value of longer duration of protection compared to existing vaccines."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.09049987792969,
+            "t": 301.0635681152344,
+            "r": 288.90765380859375,
+            "b": 70.93567657470703,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1130
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.1510009765625,
+            "t": 743.1271362304688,
+            "r": 544.8099975585938,
+            "b": 668.951171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            1131,
+            1467
+          ]
+        }
+      ],
+      "orig": "Focus on typhoid conjugate vaccines necessitated a review of the (hitherto limited evidence on) age-specific burden in infants and children aged <2\u00a0years and the key considerations for the optimum schedule and delivery strategies for that age group. Revision of the typhoid vaccine policy followed the standard SAGE process for the development of vaccine recommendations, which incorporates review of the best available evidence on the clinical and epidemiologic characteristics of the targeted disease in different settings; vaccine characteristics and performance; and immunization, economic, health-system, legal, and ethical considerations, as well as social values and preferences regarding the target vaccine. This evidence review is combined with assessment of the quality of evidence on critical policy questions and, where needed, expert interpretation and judgment on specific programmatic questions to guide the resulting public health decision-making [7]. As with other vaccines, the typhoid vaccine policy development relied and built on specific reviews of data by other technical advisory bodies to WHO, such as the Global Advisory Committee on Vaccine Safety [18], and the Immunization and Vaccine-related Implementation Research Advisory Committee [19]. SAGE issued recommendations for TCVs (and updated those for the unconjugated Vi polysaccharide and Ty21a vaccines) in October 2017 [20], and the revised WHO policy was released in March 2018 [21].",
+      "text": "Focus on typhoid conjugate vaccines necessitated a review of the (hitherto limited evidence on) age-specific burden in infants and children aged <2\u00a0years and the key considerations for the optimum schedule and delivery strategies for that age group. Revision of the typhoid vaccine policy followed the standard SAGE process for the development of vaccine recommendations, which incorporates review of the best available evidence on the clinical and epidemiologic characteristics of the targeted disease in different settings; vaccine characteristics and performance; and immunization, economic, health-system, legal, and ethical considerations, as well as social values and preferences regarding the target vaccine. This evidence review is combined with assessment of the quality of evidence on critical policy questions and, where needed, expert interpretation and judgment on specific programmatic questions to guide the resulting public health decision-making [7]. As with other vaccines, the typhoid vaccine policy development relied and built on specific reviews of data by other technical advisory bodies to WHO, such as the Global Advisory Committee on Vaccine Safety [18], and the Immunization and Vaccine-related Implementation Research Advisory Committee [19]. SAGE issued recommendations for TCVs (and updated those for the unconjugated Vi polysaccharide and Ty21a vaccines) in October 2017 [20], and the revised WHO policy was released in March 2018 [21]."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.1414794921875,
+            "t": 665.1702270507812,
+            "r": 544.8167114257812,
+            "b": 539.1526489257812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            568
+          ]
+        }
+      ],
+      "orig": "The new WHO policy recommendations reemphasize programmatic use of typhoid vaccines for the control of typhoid fever and specify that among the available typhoid vaccines, TCV is preferred at all ages in view of its improved immunological properties, suitability for use in younger children, and expected longer duration of protection. Recommendations for routine and catch-up vaccination as well as the specific considerations for national decisions on the preferred vaccination strategy (universal, risk-based, or phased) are laid out in the WHO position paper [21].",
+      "text": "The new WHO policy recommendations reemphasize programmatic use of typhoid vaccines for the control of typhoid fever and specify that among the available typhoid vaccines, TCV is preferred at all ages in view of its improved immunological properties, suitability for use in younger children, and expected longer duration of protection. Recommendations for routine and catch-up vaccination as well as the specific considerations for national decisions on the preferred vaccination strategy (universal, risk-based, or phased) are laid out in the WHO position paper [21]."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.06549072265625,
+            "t": 535.191162109375,
+            "r": 544.9021606445312,
+            "b": 344.0511779785156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            889
+          ]
+        }
+      ],
+      "orig": "With the first WHO prequalification of a TCV [22] and a decision by Gavi, the Vaccine Alliance, to provide funding support to eligible countries [23], a firm pathway to routine TCV use in the populations at most risk is set. Much work remains, particularly for national decision-makers and immunization providers to leverage the recent momentum to demonstrate and benefit from the real value of vaccination to reduce the burden of typhoid fever. Further, efforts must be made to combine vaccination with improved water and sanitation services, strengthened surveillance, and appropriate antimicrobial treatment. Equally crucial are the ongoing studies to further improve knowledge on the burden of severe typhoid [24\u201327] as well as research by the Typhoid Vaccine Acceleration Consortium to evaluate the effectiveness and impact of TCV in reducing typhoid burden in endemic countries [28].",
+      "text": "With the first WHO prequalification of a TCV [22] and a decision by Gavi, the Vaccine Alliance, to provide funding support to eligible countries [23], a firm pathway to routine TCV use in the populations at most risk is set. Much work remains, particularly for national decision-makers and immunization providers to leverage the recent momentum to demonstrate and benefit from the real value of vaccination to reduce the burden of typhoid fever. Further, efforts must be made to combine vaccination with improved water and sanitation services, strengthened surveillance, and appropriate antimicrobial treatment. Equally crucial are the ongoing studies to further improve knowledge on the burden of severe typhoid [24\u201327] as well as research by the Typhoid Vaccine Acceleration Consortium to evaluate the effectiveness and impact of TCV in reducing typhoid burden in endemic countries [28]."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.5360107421875,
+            "t": 332.93951416015625,
+            "r": 330.57598876953125,
+            "b": 327.05950927734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "Notes",
+      "text": "Notes",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.2959899902344,
+            "t": 320.8755187988281,
+            "r": 544.8120727539062,
+            "b": 293.1155090332031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "Author Contributions. A.\u00a0 B. E.\u00a0 and J.\u00a0 H.\u00a0 wrote the manuscript. The development of WHO vaccine policy relies on SAGE on immunization and other advisory bodies as described here.",
+      "text": "Author Contributions. A.\u00a0 B. E.\u00a0 and J.\u00a0 H.\u00a0 wrote the manuscript. The development of WHO vaccine policy relies on SAGE on immunization and other advisory bodies as described here."
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.2640075683594,
+            "t": 290.8755187988281,
+            "r": 545.0696411132812,
+            "b": 263.25152587890625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            201
+          ]
+        }
+      ],
+      "orig": "Disclaimer. A.\u00a0B. E.\u00a0and J.\u00a0H.\u00a0are staff members of the WHO. The authors alone are responsible for the views expressed and they do not necessarily represent the decisions, policies or views of the WHO.",
+      "text": "Disclaimer. A.\u00a0B. E.\u00a0and J.\u00a0H.\u00a0are staff members of the WHO. The authors alone are responsible for the views expressed and they do not necessarily represent the decisions, policies or views of the WHO."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.31201171875,
+            "t": 260.8755187988281,
+            "r": 545.0512084960938,
+            "b": 235.0755157470703,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            141
+          ]
+        }
+      ],
+      "orig": "Supplement Sponsorship. This supplement was sponsored by Coalition against Typhoid, Sabin Vaccine Institute, Bill & Melinda Gates Foundation.",
+      "text": "Supplement Sponsorship. This supplement was sponsored by Coalition against Typhoid, Sabin Vaccine Institute, Bill & Melinda Gates Foundation."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.1199951171875,
+            "t": 230.85951232910156,
+            "r": 545.6264038085938,
+            "b": 183.2515106201172,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            352
+          ]
+        }
+      ],
+      "orig": "Potential conflicts of interest. A.\u00a0B. E.\u00a0and J.\u00a0H.\u00a0are staff members of the WHO, which receives grants from the BMGF to support typhoid-related and other work. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+      "text": "Potential conflicts of interest. A.\u00a0B. E.\u00a0and J.\u00a0H.\u00a0are staff members of the WHO, which receives grants from the BMGF to support typhoid-related and other work. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 306.5039978027344,
+            "t": 170.96351623535156,
+            "r": 352.7760009765625,
+            "b": 165.05950927734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "References",
+      "text": "References",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 311.76300048828125,
+            "t": 159.14759826660156,
+            "r": 544.7432861328125,
+            "b": 126.33860778808594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            276
+          ]
+        }
+      ],
+      "orig": "1. GBD 2013 DALYs and HALE Collaborators. Global, regional, and national disability-adjusted life years (DALYs) for 306 diseases and injuries and healthy life expectancy (HALE) for 188 countries, 1990\u20132013: quantifying the epidemiological transition. Lancet 2015; 386:2145\u201391.",
+      "text": "GBD 2013 DALYs and HALE Collaborators. Global, regional, and national disability-adjusted life years (DALYs) for 306 diseases and injuries and healthy life expectancy (HALE) for 188 countries, 1990\u20132013: quantifying the epidemiological transition. Lancet 2015; 386:2145\u201391.",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 311.2239990234375,
+            "t": 123.13961029052734,
+            "r": 544.7971801757812,
+            "b": 98.3595962524414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "2. Kirk MD, Pires SM, Black RE, et\u00a0al. World Health Organization estimates of the global and regional disease burden of 22 foodborne bacterial, protozoal and viral diseases, 2010: a data synthesis. PLoS Med 2015; 12:e1001921.",
+      "text": "Kirk MD, Pires SM, Black RE, et\u00a0al. World Health Organization estimates of the global and regional disease burden of 22 foodborne bacterial, protozoal and viral diseases, 2010: a data synthesis. PLoS Med 2015; 12:e1001921.",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 311.3080139160156,
+            "t": 96.13359832763672,
+            "r": 544.9154663085938,
+            "b": 71.35359954833984,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            230
+          ]
+        }
+      ],
+      "orig": "3. GBD 2016 Causes of Death Collaborators. Global, regional, and national age-sex specific mortality for 264 causes of death, 1980\u20132016: a systematic analysis for the Global Burden of Disease Study 2016. Lancet 2017; 390:1151\u2013210.",
+      "text": "GBD 2016 Causes of Death Collaborators. Global, regional, and national age-sex specific mortality for 264 causes of death, 1980\u20132016: a systematic analysis for the Global Burden of Disease Study 2016. Lancet 2017; 390:1151\u2013210.",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 49.42799758911133,
+            "t": 49.80860137939453,
+            "r": 254.68240356445312,
+            "b": 42.26459884643555,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "S32 \u00b7 CID 2019:68 (Suppl 1) \u00b7 Bentsi-Enchill and Hombach",
+      "text": "S32 \u00b7 CID 2019:68 (Suppl 1) \u00b7 Bentsi-Enchill and Hombach"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.23999786376953,
+            "t": 742.965087890625,
+            "r": 287.7782287597656,
+            "b": 718.3040771484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            183
+          ]
+        }
+      ],
+      "orig": "4. Steele AD, Hay Burgess DC, Diaz Z, Carey ME, Zaidi AK. Challenges and opportunities for typhoid fever control: a call for coordinated action. Clin Infect Dis 2016; 62 Suppl 1:S4\u20138.",
+      "text": "Steele AD, Hay Burgess DC, Diaz Z, Carey ME, Zaidi AK. Challenges and opportunities for typhoid fever control: a call for coordinated action. Clin Infect Dis 2016; 62 Suppl 1:S4\u20138.",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.43598937988281,
+            "t": 715.9591064453125,
+            "r": 287.9490051269531,
+            "b": 700.1810913085938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            143
+          ]
+        }
+      ],
+      "orig": "5. Luby SP. Urban slums: a supportive ecosystem for typhoidal Salmonellae. J Infect Dis 2018; doi: 10.1093/infdis/jiy324. [Epub ahead of print]",
+      "text": "Luby SP. Urban slums: a supportive ecosystem for typhoidal Salmonellae. J Infect Dis 2018; doi: 10.1093/infdis/jiy324. [Epub ahead of print]",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.35898971557617,
+            "t": 697.955078125,
+            "r": 287.62841796875,
+            "b": 673.2940673828125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "6. Duclos P, Okwo-Bele JM, Salisbury D. Establishing global policy recommendations: the role of the Strategic Advisory Group of Experts on immunization. Expert Rev Vaccines 2011; 10:163\u201373.",
+      "text": "Duclos P, Okwo-Bele JM, Salisbury D. Establishing global policy recommendations: the role of the Strategic Advisory Group of Experts on immunization. Expert Rev Vaccines 2011; 10:163\u201373.",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.42898941040039,
+            "t": 670.9490966796875,
+            "r": 287.64105224609375,
+            "b": 656.1441040039062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            157
+          ]
+        }
+      ],
+      "orig": "7. Duclos P, Durrheim DN, Reingold AL, Bhutta ZA, Vannice K, Rees H. Developing evidence-based immunization recommendations and GRADE. Vaccine 2012; 31:12\u20139.",
+      "text": "Duclos P, Durrheim DN, Reingold AL, Bhutta ZA, Vannice K, Rees H. Developing evidence-based immunization recommendations and GRADE. Vaccine 2012; 31:12\u20139.",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.41498947143555,
+            "t": 652.945068359375,
+            "r": 287.77117919921875,
+            "b": 637.1670532226562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            123
+          ]
+        }
+      ],
+      "orig": "8. WHO vaccine position papers. Available at http://www.who.int/immunization/ policy/position_papers/en/ accessed May 2018.",
+      "text": "WHO vaccine position papers. Available at http://www.who.int/immunization/ policy/position_papers/en/ accessed May 2018.",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 54.365989685058594,
+            "t": 634.9410400390625,
+            "r": 287.6934814453125,
+            "b": 610.2800903320312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            172
+          ]
+        }
+      ],
+      "orig": "9. Khan MI, Pach A 3rd, Khan GM, et\u00a0 al. Typhoid vaccine introduction: an evidence-based pilot implementation project in Nepal and Pakistan. Vaccine 2015; 33 Suppl 3:C62\u20137.",
+      "text": "Khan MI, Pach A 3rd, Khan GM, et\u00a0 al. Typhoid vaccine introduction: an evidence-based pilot implementation project in Nepal and Pakistan. Vaccine 2015; 33 Suppl 3:C62\u20137.",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.558990478515625,
+            "t": 607.93505859375,
+            "r": 287.795654296875,
+            "b": 592.276123046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            140
+          ]
+        }
+      ],
+      "orig": "10. Ochiai RL, Acosta CJ, Agtini M, et\u00a0al. The use of typhoid vaccines in Asia: the DOMI experience. Clin Infect Dis 2007; 45 Suppl 1:S34\u20138.",
+      "text": "Ochiai RL, Acosta CJ, Agtini M, et\u00a0al. The use of typhoid vaccines in Asia: the DOMI experience. Clin Infect Dis 2007; 45 Suppl 1:S34\u20138.",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.558990478515625,
+            "t": 589.9310913085938,
+            "r": 287.8628845214844,
+            "b": 574.153076171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            144
+          ]
+        }
+      ],
+      "orig": "11. WHO. Typhoid fever surveillance and vaccine use, South-East Asia and Western Pacific Regions, 2009\u20132013. Wkly Epidemiol Rec 2014; 40:429\u201339.",
+      "text": "WHO. Typhoid fever surveillance and vaccine use, South-East Asia and Western Pacific Regions, 2009\u20132013. Wkly Epidemiol Rec 2014; 40:429\u201339.",
+      "enumerated": true,
+      "marker": "11."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.558990478515625,
+            "t": 571.9271240234375,
+            "r": 287.9972229003906,
+            "b": 548.1201171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            174
+          ]
+        }
+      ],
+      "orig": "12. Scobie HM, Nilles E, Kama M, et\u00a0 al. Impact of a targeted typhoid vaccination campaign following cyclone Tomas, Republic of Fiji, 2010. Am J Trop Med Hyg 2014; 90:1031\u20138.",
+      "text": "Scobie HM, Nilles E, Kama M, et\u00a0 al. Impact of a targeted typhoid vaccination campaign following cyclone Tomas, Republic of Fiji, 2010. Am J Trop Med Hyg 2014; 90:1031\u20138.",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.558990478515625,
+            "t": 544.921142578125,
+            "r": 287.9385070800781,
+            "b": 521.1141357421875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": "13. Marks F, von Kalckreuth V, Aaby P, et\u00a0al. Incidence of invasive salmonella disease in sub-Saharan Africa: a multicentre population-based surveillance study. Lancet Glob Health 2017; 5:e310\u201323.",
+      "text": "Marks F, von Kalckreuth V, Aaby P, et\u00a0al. Incidence of invasive salmonella disease in sub-Saharan Africa: a multicentre population-based surveillance study. Lancet Glob Health 2017; 5:e310\u201323.",
+      "enumerated": true,
+      "marker": "13."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.558990478515625,
+            "t": 517.9151611328125,
+            "r": 287.94830322265625,
+            "b": 494.1081237792969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            219
+          ]
+        }
+      ],
+      "orig": "14. Wong VK, Baker S, Pickard DJ, et\u00a0al. Phylogeographical analysis of the dominant multidrug-resistant H58 clade of Salmonella Typhi identifies inter- and intracontinental transmission events. Nat Genet 2015; 47:632\u20139.",
+      "text": "Wong VK, Baker S, Pickard DJ, et\u00a0al. Phylogeographical analysis of the dominant multidrug-resistant H58 clade of Salmonella Typhi identifies inter- and intracontinental transmission events. Nat Genet 2015; 47:632\u20139.",
+      "enumerated": true,
+      "marker": "14."
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.558990478515625,
+            "t": 490.9091491699219,
+            "r": 287.7278137207031,
+            "b": 467.1021423339844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            184
+          ]
+        }
+      ],
+      "orig": "15. International Typhoid Consortium, Wong VK, Holt KE, et\u00a0al. Molecular surveillance identifies multiple transmissions of typhoid in West Africa. PLoS Negl Trop Dis 2016; 10:e0004781.",
+      "text": "International Typhoid Consortium, Wong VK, Holt KE, et\u00a0al. Molecular surveillance identifies multiple transmissions of typhoid in West Africa. PLoS Negl Trop Dis 2016; 10:e0004781.",
+      "enumerated": true,
+      "marker": "15."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.558990478515625,
+            "t": 463.9031677246094,
+            "r": 287.7991638183594,
+            "b": 448.1251525878906,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "16. Levine MM, Simon R. The gathering storm: is untreatable typhoid fever on the way? mBio 2018; 9:e00482\u201318.",
+      "text": "Levine MM, Simon R. The gathering storm: is untreatable typhoid fever on the way? mBio 2018; 9:e00482\u201318.",
+      "enumerated": true,
+      "marker": "16."
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.558990478515625,
+            "t": 445.899169921875,
+            "r": 287.9531555175781,
+            "b": 430.1211853027344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            150
+          ]
+        }
+      ],
+      "orig": "17. Lanh MN, Bay PV, Ho VA, et\u00a0al. Persistent efficacy of Vi conjugate vaccine against typhoid fever in young children. N Engl J Med 2003; 349:1390\u20131.",
+      "text": "Lanh MN, Bay PV, Ho VA, et\u00a0al. Persistent efficacy of Vi conjugate vaccine against typhoid fever in young children. N Engl J Med 2003; 349:1390\u20131.",
+      "enumerated": true,
+      "marker": "17."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 51.558990478515625,
+            "t": 427.8951721191406,
+            "r": 287.7704162597656,
+            "b": 412.1171875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            146
+          ]
+        }
+      ],
+      "orig": "18. WHO. The Global Advisory Committee on Vaccine Safety. Available at http:// www.who.int/vaccine_safety/committee/en/. Accessed 22 October 2018.",
+      "text": "WHO. The Global Advisory Committee on Vaccine Safety. Available at http:// www.who.int/vaccine_safety/committee/en/. Accessed 22 October 2018.",
+      "enumerated": true,
+      "marker": "18."
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 308.458984375,
+            "t": 742.8952026367188,
+            "r": 545.01416015625,
+            "b": 719.0391845703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "19. WHO. Immunization and Vaccine-related Implementation Research Advisory Committee. Available at http://www.who.int/immunization/research/committees/ivir_ac/en/. Accessed 22 October 2018.",
+      "text": "WHO. Immunization and Vaccine-related Implementation Research Advisory Committee. Available at http://www.who.int/immunization/research/committees/ivir_ac/en/. Accessed 22 October 2018.",
+      "enumerated": true,
+      "marker": "19."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.91998291015625,
+            "t": 715.88916015625,
+            "r": 544.5949096679688,
+            "b": 692.8031616210938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            158
+          ]
+        }
+      ],
+      "orig": "20. WHO. Meeting of the Strategic Advisory Group of Experts on immunization, October 2017\u2013conclusions and recommendations. Wkly Epidemiol Rec 2017; 48:729\u201348.",
+      "text": "WHO. Meeting of the Strategic Advisory Group of Experts on immunization, October 2017\u2013conclusions and recommendations. Wkly Epidemiol Rec 2017; 48:729\u201348.",
+      "enumerated": true,
+      "marker": "20."
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.91998291015625,
+            "t": 688.8831787109375,
+            "r": 544.8056030273438,
+            "b": 674.0781860351562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "21. WHO. Typhoid vaccines: WHO position paper\u2013March 2018. Wkly Epidemiol Rec 2018; 13:153\u201372.",
+      "text": "WHO. Typhoid vaccines: WHO position paper\u2013March 2018. Wkly Epidemiol Rec 2018; 13:153\u201372.",
+      "enumerated": true,
+      "marker": "21."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.91998291015625,
+            "t": 670.879150390625,
+            "r": 545.0281982421875,
+            "b": 647.8141479492188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            159
+          ]
+        }
+      ],
+      "orig": "22. WHO. Typhoid vaccine prequalified. Available at http://www.who.int/medicines/ news/2017/WHOprequalifies-breakthrough-typhoid-vaccine/en/ Accessed May 2018.",
+      "text": "WHO. Typhoid vaccine prequalified. Available at http://www.who.int/medicines/ news/2017/WHOprequalifies-breakthrough-typhoid-vaccine/en/ Accessed May 2018.",
+      "enumerated": true,
+      "marker": "22."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.91998291015625,
+            "t": 643.8731689453125,
+            "r": 544.5640258789062,
+            "b": 619.0931396484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            182
+          ]
+        }
+      ],
+      "orig": "23. Gavi. New typhoid vaccine to receive Gavi support. Available at https://www.gavi. org/library/news/statements/2018/new-typhoid-vaccine-to-receive-gavi-support/ accessed May 2018.",
+      "text": "Gavi. New typhoid vaccine to receive Gavi support. Available at https://www.gavi. org/library/news/statements/2018/new-typhoid-vaccine-to-receive-gavi-support/ accessed May 2018.",
+      "enumerated": true,
+      "marker": "23."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.91998291015625,
+            "t": 616.8671875,
+            "r": 544.7642822265625,
+            "b": 575.7981567382812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            321
+          ]
+        }
+      ],
+      "orig": "24. Darton TC, Meiring JE, Tonks S, et\u00a0 al.; STRATAA Study Consortium. The STRATAA study protocol: a programme to assess the burden of enteric fever in Bangladesh, Malawi and Nepal using prospective population census, passive surveillance, serological studies and healthcare utilisation surveys. BMJ Open 2017; 7:e016283.",
+      "text": "Darton TC, Meiring JE, Tonks S, et\u00a0 al.; STRATAA Study Consortium. The STRATAA study protocol: a programme to assess the burden of enteric fever in Bangladesh, Malawi and Nepal using prospective population census, passive surveillance, serological studies and healthcare utilisation surveys. BMJ Open 2017; 7:e016283.",
+      "enumerated": true,
+      "marker": "24."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.9199523925781,
+            "t": 571.857177734375,
+            "r": 544.8391723632812,
+            "b": 520.1902465820312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            434
+          ]
+        }
+      ],
+      "orig": "25. Park SE. Severe Typhoid Fever Surveillance in Africa (SETA) Program: first data from the six African sites. In: Proceedings of the 10th International Conference on Typhoid and Other Invasive Salmonelloses (Kampala, Uganda). Washington, DC: Sabin Vaccine Institute, 2017. Available at: http://www.coalitionagainsttyphoid.org/wp-content/uploads/2016/07/22-SETA-The-First-Data-from-the-SixAfrican-Sites.pdf. Accessed 19 October 2018.",
+      "text": "Park SE. Severe Typhoid Fever Surveillance in Africa (SETA) Program: first data from the six African sites. In: Proceedings of the 10th International Conference on Typhoid and Other Invasive Salmonelloses (Kampala, Uganda). Washington, DC: Sabin Vaccine Institute, 2017. Available at: http://www.coalitionagainsttyphoid.org/wp-content/uploads/2016/07/22-SETA-The-First-Data-from-the-SixAfrican-Sites.pdf. Accessed 19 October 2018.",
+      "enumerated": true,
+      "marker": "25."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.9199523925781,
+            "t": 517.84521484375,
+            "r": 544.760986328125,
+            "b": 485.0362243652344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            240
+          ]
+        }
+      ],
+      "orig": "26. John J, Bavdekar A, Rongsen-Chandola T, Dutta S, Kang G; NSSEFI Collaborators. Estimating the incidence of enteric fever in children in India: a multi-site, active fever surveillance of pediatric cohorts. BMC Public Health 2018; 18:594.",
+      "text": "John J, Bavdekar A, Rongsen-Chandola T, Dutta S, Kang G; NSSEFI Collaborators. Estimating the incidence of enteric fever in children in India: a multi-site, active fever surveillance of pediatric cohorts. BMC Public Health 2018; 18:594.",
+      "enumerated": true,
+      "marker": "26."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.9199523925781,
+            "t": 481.8372497558594,
+            "r": 544.8167114257812,
+            "b": 457.0572509765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            211
+          ]
+        }
+      ],
+      "orig": "27. Barkume C, Date K, Saha SK, et\u00a0al. Phase I\u00a0of the Surveillance for Enteric fever in Asia Project (SEAP): an overview and lessons learned. J Infect Dis 2018. doi: 10.1093/infdis/jiy522. [Epub ahead of print].",
+      "text": "Barkume C, Date K, Saha SK, et\u00a0al. Phase I\u00a0of the Surveillance for Enteric fever in Asia Project (SEAP): an overview and lessons learned. J Infect Dis 2018. doi: 10.1093/infdis/jiy522. [Epub ahead of print].",
+      "enumerated": true,
+      "marker": "27."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 307.9199523925781,
+            "t": 454.8312683105469,
+            "r": 544.7425537109375,
+            "b": 413.020263671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            343
+          ]
+        }
+      ],
+      "orig": "28. Meiring JE, Gibani M; TyVAC Consortium Meeting Group. The Typhoid Vaccine Acceleration Consortium (TyVAC): vaccine effectiveness study designs: accelerating the introduction of typhoid conjugate vaccines and reducing the global burden of enteric fever. Report from a meeting held on 26-27 October 2016, Oxford, UK. Vaccine 2017; 35:5081\u20138.",
+      "text": "Meiring JE, Gibani M; TyVAC Consortium Meeting Group. The Typhoid Vaccine Acceleration Consortium (TyVAC): vaccine effectiveness study designs: accelerating the introduction of typhoid conjugate vaccines and reducing the global burden of enteric fever. Report from a meeting held on 26-27 October 2016, Oxford, UK. Vaccine 2017; 35:5081\u20138.",
+      "enumerated": true,
+      "marker": "28."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 321.1580810546875,
+            "t": 49.80860137939453,
+            "r": 544.4540405273438,
+            "b": 42.04859924316406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            63
+          ]
+        }
+      ],
+      "orig": "Global Typhoid Vaccination\u00a0Policy \u00b7 CID 2019:68 (Suppl 1) \u00b7 S33",
+      "text": "Global Typhoid Vaccination\u00a0Policy \u00b7 CID 2019:68 (Suppl 1) \u00b7 S33"
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 337.6334533691406,
+            "t": 759.8739337921143,
+            "r": 442.3331604003906,
+            "b": 730.7997169494629,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 447.83135986328125,
+            "t": 759.9631748199463,
+            "r": 546.0033569335938,
+            "b": 731.3846740722656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 594.0,
+        "height": 782.6400146484375
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 594.0,
+        "height": 782.6400146484375
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 594.0,
+        "height": 782.6400146484375
+      },
+      "page_no": 3
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "c2f28744bfa0251cb15c6f8595becfd00c586806ed4891a582a7fa4cd52c8c8d",
+  "content_hash": "e5bfe8c1febc0ccbb395719150a25aa57ae21cd17311b82d3df0644998527d52",
+  "entities": [
+    {
+      "canonical_name": "gp120-NefTat/AS01B vaccine candidate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "gp120-NefTat/AS01B vaccine candidate",
+      "chunk_id": "c2f28744bfa0251cb15c6f8595becfd00c586806ed4891a582a7fa4cd52c8c8d"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "c2f28744bfa0251cb15c6f8595becfd00c586806ed4891a582a7fa4cd52c8c8d"
+    },
+    {
+      "canonical_name": "HIV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-2",
+      "chunk_id": "c2f28744bfa0251cb15c6f8595becfd00c586806ed4891a582a7fa4cd52c8c8d"
+    },
+    {
+      "canonical_name": "investigational HIV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "investigational HIV vaccine",
+      "chunk_id": "c2f28744bfa0251cb15c6f8595becfd00c586806ed4891a582a7fa4cd52c8c8d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_a214deb1e666ad5385fe6f7184914c11",
+  "content_hash": "d3e754c7604a9355e692f775e3ddf81ee4de06e80bb826ac0c94f40e068f598c",
+  "entities": [
+    {
+      "canonical_name": "molecular adjuvants",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "molecular adjuvants",
+      "chunk_id": "chk_a214deb1e666ad5385fe6f7184914c11"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_a214deb1e666ad5385fe6f7184914c11"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

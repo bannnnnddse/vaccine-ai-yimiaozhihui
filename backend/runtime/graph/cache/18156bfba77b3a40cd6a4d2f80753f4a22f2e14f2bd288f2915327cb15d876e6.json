@@ -1,0 +1,43 @@
+{
+  "chunk_id": "c06a091850d6d02a6184b8cbf49632f86414a85f9ccb9946e157fd520f4030ee",
+  "content_hash": "663fbc97d138ff84faf57ee4fea5b0aa6e9ac1ada6498298ec5676b3d576cb4b",
+  "entities": [
+    {
+      "canonical_name": "seasonal influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "seasonal influenza vaccines",
+      "chunk_id": "c06a091850d6d02a6184b8cbf49632f86414a85f9ccb9946e157fd520f4030ee"
+    },
+    {
+      "canonical_name": "hemagglutinin-specific IgG1/IgA titers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hemagglutinin-specific IgG1/IgA titers",
+      "chunk_id": "c06a091850d6d02a6184b8cbf49632f86414a85f9ccb9946e157fd520f4030ee"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "c06a091850d6d02a6184b8cbf49632f86414a85f9ccb9946e157fd520f4030ee"
+    },
+    {
+      "canonical_name": "hepatitis B virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B virus vaccine",
+      "chunk_id": "c06a091850d6d02a6184b8cbf49632f86414a85f9ccb9946e157fd520f4030ee"
+    },
+    {
+      "canonical_name": "anti-HBsAg titers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBsAg titers",
+      "chunk_id": "c06a091850d6d02a6184b8cbf49632f86414a85f9ccb9946e157fd520f4030ee"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

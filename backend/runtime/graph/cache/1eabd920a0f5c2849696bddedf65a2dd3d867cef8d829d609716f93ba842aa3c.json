@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_dbfae6ce42b6ae9e9dcdc90cf7fb2bff",
+  "content_hash": "efbdcfabf6ed2e4a163213421973e30a09069f24a05bb3b86550652246dfe197",
+  "entities": [
+    {
+      "canonical_name": "肌肉、骨骼结缔组织",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "肌肉、骨骼结缔组织",
+      "chunk_id": "chk_dbfae6ce42b6ae9e9dcdc90cf7fb2bff"
+    },
+    {
+      "canonical_name": "类风湿性关节炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "类风湿性关节炎",
+      "chunk_id": "chk_dbfae6ce42b6ae9e9dcdc90cf7fb2bff"
+    },
+    {
+      "canonical_name": "先天异常 围生期疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "先天异常 围生期疾病",
+      "chunk_id": "chk_dbfae6ce42b6ae9e9dcdc90cf7fb2bff"
+    },
+    {
+      "canonical_name": "损伤和中毒",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "损伤和中毒",
+      "chunk_id": "chk_dbfae6ce42b6ae9e9dcdc90cf7fb2bff"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

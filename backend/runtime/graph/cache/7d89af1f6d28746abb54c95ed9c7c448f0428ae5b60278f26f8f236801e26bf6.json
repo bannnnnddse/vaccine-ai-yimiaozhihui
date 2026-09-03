@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_fae46b89f593ac7b34f6cb3c6703940d",
+  "content_hash": "f84f603c00861947bee076c29aa774a480106694939a968ea169d20af04083c1",
+  "entities": [
+    {
+      "canonical_name": "Pfizer-BioNTech (mRNA)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pfizer-BioNTech (mRNA)",
+      "chunk_id": "chk_fae46b89f593ac7b34f6cb3c6703940d"
+    },
+    {
+      "canonical_name": "Moderna (mRNA)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna (mRNA)",
+      "chunk_id": "chk_fae46b89f593ac7b34f6cb3c6703940d"
+    },
+    {
+      "canonical_name": "Oxford-AstraZeneca (viral vector)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Oxford-AstraZeneca (viral vector)",
+      "chunk_id": "chk_fae46b89f593ac7b34f6cb3c6703940d"
+    },
+    {
+      "canonical_name": "Obesity",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Obesity",
+      "chunk_id": "chk_fae46b89f593ac7b34f6cb3c6703940d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

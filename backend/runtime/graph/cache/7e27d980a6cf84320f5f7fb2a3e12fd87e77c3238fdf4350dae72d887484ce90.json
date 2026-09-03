@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_cea207ae27e07258806f7d46cdd78b0c",
+  "content_hash": "5e7a2f3bced088f7c0f2c6e55bc21874d189e70cababc8d35eb66d592045955c",
+  "entities": [
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_cea207ae27e07258806f7d46cdd78b0c"
+    },
+    {
+      "canonical_name": "influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccination",
+      "chunk_id": "chk_cea207ae27e07258806f7d46cdd78b0c"
+    },
+    {
+      "canonical_name": "pregnancy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnancy",
+      "chunk_id": "chk_cea207ae27e07258806f7d46cdd78b0c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

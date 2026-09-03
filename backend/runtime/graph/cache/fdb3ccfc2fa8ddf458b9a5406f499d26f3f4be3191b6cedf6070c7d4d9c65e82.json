@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_c7f0dfb8e225d4af4f281831cb60209e",
+  "content_hash": "dda3c6bbf1b1222cac303ed39cbf04cfc11153fecba0f50249c3b213b09f6f52",
+  "entities": [
+    {
+      "canonical_name": "human papillomavirus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccination",
+      "chunk_id": "chk_c7f0dfb8e225d4af4f281831cb60209e"
+    },
+    {
+      "canonical_name": "11- to 12-year-old girls",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "11- to 12-year-old girls",
+      "chunk_id": "chk_c7f0dfb8e225d4af4f281831cb60209e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

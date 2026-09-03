@@ -1,0 +1,15 @@
+{
+  "chunk_id": "f58d9dbc8ba9764adf054736359b9287dbc312e7c19bc32bcaadfd23329736fc",
+  "content_hash": "71fad38f2db5f86afa7153b6b1caf90854749d9218255edc96bbf9b12c066abc",
+  "entities": [
+    {
+      "canonical_name": "typhoid vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "typhoid vaccines",
+      "chunk_id": "f58d9dbc8ba9764adf054736359b9287dbc312e7c19bc32bcaadfd23329736fc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

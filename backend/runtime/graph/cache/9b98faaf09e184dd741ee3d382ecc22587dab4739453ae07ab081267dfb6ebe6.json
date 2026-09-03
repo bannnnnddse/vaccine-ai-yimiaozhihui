@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_a363b55a22857499b48861da9435be46",
+  "content_hash": "5abf45bdcf869ff4e046bbd0cf3605784757b9ac44e9819d791b837bfb9ab32a",
+  "entities": [
+    {
+      "canonical_name": "viral vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "viral vaccines",
+      "chunk_id": "chk_a363b55a22857499b48861da9435be46"
+    },
+    {
+      "canonical_name": "Celiac disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Celiac disease",
+      "chunk_id": "chk_a363b55a22857499b48861da9435be46"
+    },
+    {
+      "canonical_name": "neurological diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "neurological diseases",
+      "chunk_id": "chk_a363b55a22857499b48861da9435be46"
+    },
+    {
+      "canonical_name": "food allergy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "food allergy",
+      "chunk_id": "chk_a363b55a22857499b48861da9435be46"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

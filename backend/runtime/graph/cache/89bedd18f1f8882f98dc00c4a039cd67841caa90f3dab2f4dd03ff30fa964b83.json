@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_5851fff3d940c1654b57155d3adf1899",
+  "content_hash": "0f7e3c42426c46717dcc55740943473f0c4b79f40bb109ed186740f208c3c023",
+  "entities": [
+    {
+      "canonical_name": "human norovirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human norovirus",
+      "chunk_id": "chk_5851fff3d940c1654b57155d3adf1899"
+    },
+    {
+      "canonical_name": "Yellow fever 17D -vectored vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Yellow fever 17D -vectored vaccines",
+      "chunk_id": "chk_5851fff3d940c1654b57155d3adf1899"
+    },
+    {
+      "canonical_name": "Lassa virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Lassa virus",
+      "chunk_id": "chk_5851fff3d940c1654b57155d3adf1899"
+    },
+    {
+      "canonical_name": "fatal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "fatal disease",
+      "chunk_id": "chk_5851fff3d940c1654b57155d3adf1899"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

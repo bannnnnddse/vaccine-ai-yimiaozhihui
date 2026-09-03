@@ -1,0 +1,59 @@
+{
+  "chunk_id": "chk_a4197a5f5cf270f0ae75854c3ad565d7",
+  "content_hash": "9ea5f833ffc183c7685b26b945af8c0c0a490d438fdb0c277e24cfd64987ee1b",
+  "entities": [
+    {
+      "canonical_name": "LT patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "LT patients",
+      "chunk_id": "chk_a4197a5f5cf270f0ae75854c3ad565d7"
+    },
+    {
+      "canonical_name": "recipients of living-donor liver transplants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "recipients of living-donor liver transplants",
+      "chunk_id": "chk_a4197a5f5cf270f0ae75854c3ad565d7"
+    },
+    {
+      "canonical_name": "HBV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBV vaccination",
+      "chunk_id": "chk_a4197a5f5cf270f0ae75854c3ad565d7"
+    },
+    {
+      "canonical_name": "OLT recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "OLT recipients",
+      "chunk_id": "chk_a4197a5f5cf270f0ae75854c3ad565d7"
+    },
+    {
+      "canonical_name": "acute HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute HBV infection",
+      "chunk_id": "chk_a4197a5f5cf270f0ae75854c3ad565d7"
+    },
+    {
+      "canonical_name": "chronic HBV carriers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "chronic HBV carriers",
+      "chunk_id": "chk_a4197a5f5cf270f0ae75854c3ad565d7"
+    },
+    {
+      "canonical_name": "anti-HBs antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs antibody",
+      "chunk_id": "chk_a4197a5f5cf270f0ae75854c3ad565d7"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

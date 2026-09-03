@@ -1,0 +1,28 @@
+{
+  "chunk_id": "chk_350d8b5b93ebf0db3801f60dbc6be136",
+  "content_hash": "82a3490db1977c037e6281bbb2cf7516b5307442779b3174efc9cc8496b23572",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 omicron BA.2.75.2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 omicron BA.2.75.2",
+      "chunk_id": "chk_350d8b5b93ebf0db3801f60dbc6be136"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "unknown_endpoint",
+    "target_missing_from_quote",
+    "target_missing_from_quote",
+    "unknown_endpoint"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8bc10419585754774163af4c89811106",
+  "content_hash": "07d2c23e90cc6eb4eda1dc23cc4433d6438a29a20f4e7a29af01ae7d430be933",
+  "entities": [
+    {
+      "canonical_name": "mRNA COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA COVID-19 vaccine",
+      "chunk_id": "chk_8bc10419585754774163af4c89811106"
+    },
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_8bc10419585754774163af4c89811106"
+    },
+    {
+      "canonical_name": "GuillainBarr ́ ́e syndrome",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "GuillainBarr ´ ´e syndrome",
+      "chunk_id": "chk_8bc10419585754774163af4c89811106"
+    },
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_8bc10419585754774163af4c89811106"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

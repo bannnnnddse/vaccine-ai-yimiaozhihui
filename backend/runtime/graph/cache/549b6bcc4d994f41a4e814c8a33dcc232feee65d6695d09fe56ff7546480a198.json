@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2a9d04b151897d271a5c78150c706aa0",
+  "content_hash": "f87b6ffc2dfd6ead53f001704bcb0c7748293a75e68f0aaf1fc2edb33117af5e",
+  "entities": [
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_2a9d04b151897d271a5c78150c706aa0"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_2a9d04b151897d271a5c78150c706aa0"
+    },
+    {
+      "canonical_name": "viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "viruses",
+      "chunk_id": "chk_2a9d04b151897d271a5c78150c706aa0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

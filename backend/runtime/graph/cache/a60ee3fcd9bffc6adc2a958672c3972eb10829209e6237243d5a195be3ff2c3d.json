@@ -1,0 +1,92 @@
+{
+  "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5",
+  "content_hash": "be8513920de167b52b7f45679facc18e3141ebab5b58e50f4aa0f33a10ecc87c",
+  "entities": [
+    {
+      "canonical_name": "贫血",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "贫血",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "甲状腺疾患",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "甲状腺疾患",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "糖尿病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "糖尿病",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "痴呆",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "痴呆",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "脑膜炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "脑膜炎",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "帕金森病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "帕金森病",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "心脏病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "心脏病计",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "慢性风湿性心脏病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "慢性风湿性心脏病",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "高血压性心脏病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "高血压性心脏病",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "冠心病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "冠心病",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "急性心肌梗死",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性心肌梗死",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    },
+    {
+      "canonical_name": "其他高血压病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "其他高血压病",
+      "chunk_id": "chk_bb3b4ac56bfa79a38395aa8f4c559ec5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_09ce8c14b4dadbb771775527929ba1ff",
+  "content_hash": "19b71e3870b04e44c74a9490b2f5013df80fba8f3a89297167e540ec885a2411",
+  "entities": [
+    {
+      "canonical_name": "hemorrhagic fever with renal syndrome",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hemorrhagic fever with renal syndrome",
+      "chunk_id": "chk_09ce8c14b4dadbb771775527929ba1ff"
+    },
+    {
+      "canonical_name": "Hantavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hantavirus",
+      "chunk_id": "chk_09ce8c14b4dadbb771775527929ba1ff"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_10b4cd520d544f034347d142aaf3e5e7",
+  "content_hash": "bf36e11e7ec633fdef57487cd12a5b3d442f7ea7d139f394fce32aab0b5da4b1",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_10b4cd520d544f034347d142aaf3e5e7"
+    },
+    {
+      "canonical_name": "COVID vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID vaccination",
+      "chunk_id": "chk_10b4cd520d544f034347d142aaf3e5e7"
+    },
+    {
+      "canonical_name": "COVID vaccination programs",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "COVID vaccination programs",
+      "chunk_id": "chk_10b4cd520d544f034347d142aaf3e5e7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

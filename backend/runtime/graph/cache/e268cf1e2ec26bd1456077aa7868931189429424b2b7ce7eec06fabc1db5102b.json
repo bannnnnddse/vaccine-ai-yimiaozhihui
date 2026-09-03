@@ -1,0 +1,31 @@
+{
+  "chunk_id": "bfa1679d8b7550971ef7aae08813dd1816a727e026d89ca29252d2adf7c39015",
+  "content_hash": "89f4e6a0939392c947db5d519c1e13affa4f6e682cbf334a5e605422b6e3f43b",
+  "entities": [
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "bfa1679d8b7550971ef7aae08813dd1816a727e026d89ca29252d2adf7c39015"
+    },
+    {
+      "canonical_name": "diarrhea",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diarrhea",
+      "chunk_id": "bfa1679d8b7550971ef7aae08813dd1816a727e026d89ca29252d2adf7c39015"
+    },
+    {
+      "canonical_name": "rotavirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus infection",
+      "chunk_id": "bfa1679d8b7550971ef7aae08813dd1816a727e026d89ca29252d2adf7c39015"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

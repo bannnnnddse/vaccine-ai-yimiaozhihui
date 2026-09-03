@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8054707f913e23b6a21fc3fc3d70fffd",
+  "content_hash": "2230b1b0df2cc3a152b09c30464e31cdb3c761a75f543a61b575d998ec5e6804",
+  "entities": [
+    {
+      "canonical_name": "受种者或其监护人",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "受种者或其监护人",
+      "chunk_id": "chk_8054707f913e23b6a21fc3fc3d70fffd"
+    },
+    {
+      "canonical_name": "疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "疫苗",
+      "chunk_id": "chk_8054707f913e23b6a21fc3fc3d70fffd"
+    },
+    {
+      "canonical_name": "不良反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "不良反应",
+      "chunk_id": "chk_8054707f913e23b6a21fc3fc3d70fffd"
+    },
+    {
+      "canonical_name": "预防接种异常反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "预防接种异常反应",
+      "chunk_id": "chk_8054707f913e23b6a21fc3fc3d70fffd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

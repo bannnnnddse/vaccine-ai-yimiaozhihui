@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_dc223efc65dd498a9b2f0926f76c2fc3",
+  "content_hash": "c7d0b046fde07083570471b68976fe2cf7122fd30c28eeff17d93956d4166b47",
+  "entities": [
+    {
+      "canonical_name": "post-sepsis immune paralysis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "post-sepsis immune paralysis",
+      "chunk_id": "chk_dc223efc65dd498a9b2f0926f76c2fc3"
+    },
+    {
+      "canonical_name": "cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancers",
+      "chunk_id": "chk_dc223efc65dd498a9b2f0926f76c2fc3"
+    },
+    {
+      "canonical_name": "autoimmune diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune diseases",
+      "chunk_id": "chk_dc223efc65dd498a9b2f0926f76c2fc3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

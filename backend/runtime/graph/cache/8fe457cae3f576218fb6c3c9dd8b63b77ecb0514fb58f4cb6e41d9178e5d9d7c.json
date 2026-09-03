@@ -1,0 +1,96 @@
+{
+  "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0",
+  "content_hash": "1777afc4e8bd0899f42a3155f00560473127126a00bb34792621aa6ba9d8c95f",
+  "entities": [
+    {
+      "canonical_name": "EV71 疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71 疫苗",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "对 EV71 疫苗任何一种成分过敏者",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "对 EV71 疫苗任何一种成分过敏者",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "急性疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性疾病",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "慢性疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "慢性疾病",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "血小板减少症",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "血小板减少症",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "出血性疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "出血性疾病",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "本疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "本疫苗",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "注射部位出血",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "注射部位出血",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "免疫功能缺陷",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "免疫功能缺陷",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "癫痫",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "癫痫",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "进行性神经系统疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "进行性神经系统疾病",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    },
+    {
+      "canonical_name": "格林 巴利综合征",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "格林 巴利综合征",
+      "chunk_id": "chk_e11ef7bae444fc95159825120f0531d0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "known_entity_type_mismatch",
+    "relation_evidence_cue_missing",
+    "uncertain_statement"
+  ]
+}

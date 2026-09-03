@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f7d4ea1d632315bc95a599e89335cd0a",
+  "content_hash": "cc12cdcdb9ba768342c00958076eeb82f62d61504141b34c9254791907c0855b",
+  "entities": [
+    {
+      "canonical_name": "autoimmune disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune disease",
+      "chunk_id": "chk_f7d4ea1d632315bc95a599e89335cd0a"
+    },
+    {
+      "canonical_name": "B-T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B-T cell",
+      "chunk_id": "chk_f7d4ea1d632315bc95a599e89335cd0a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_4b90e50d5dbd0389be155ae7c82b0730",
+  "content_hash": "eda6399968ca299fd3108b3ad5724dbc83a5d6485bdf992b7a3824cd03763d84",
+  "entities": [
+    {
+      "canonical_name": "HBIG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HBIG",
+      "chunk_id": "chk_4b90e50d5dbd0389be155ae7c82b0730"
+    },
+    {
+      "canonical_name": "HepB vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB vaccine",
+      "chunk_id": "chk_4b90e50d5dbd0389be155ae7c82b0730"
+    },
+    {
+      "canonical_name": "infants born to HBsAg-positive mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants born to HBsAg-positive mothers",
+      "chunk_id": "chk_4b90e50d5dbd0389be155ae7c82b0730"
+    },
+    {
+      "canonical_name": "neonates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "neonates",
+      "chunk_id": "chk_4b90e50d5dbd0389be155ae7c82b0730"
+    },
+    {
+      "canonical_name": "anti-HBs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-HBs",
+      "chunk_id": "chk_4b90e50d5dbd0389be155ae7c82b0730"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

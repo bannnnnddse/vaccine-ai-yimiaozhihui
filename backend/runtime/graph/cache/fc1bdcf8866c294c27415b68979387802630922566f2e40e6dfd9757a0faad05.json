@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_a073c6d8313756832c6392c233abcb08",
+  "content_hash": "300de709755336864e5bed7f88331b108ff28e4b8b7b08f289f8f20837b0d0cf",
+  "entities": [
+    {
+      "canonical_name": "boys",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "boys",
+      "chunk_id": "chk_a073c6d8313756832c6392c233abcb08"
+    },
+    {
+      "canonical_name": "girls",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "girls",
+      "chunk_id": "chk_a073c6d8313756832c6392c233abcb08"
+    },
+    {
+      "canonical_name": "oncogenic human papillomavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "oncogenic human papillomavirus",
+      "chunk_id": "chk_a073c6d8313756832c6392c233abcb08"
+    },
+    {
+      "canonical_name": "9-valent HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "9-valent HPV vaccine",
+      "chunk_id": "chk_a073c6d8313756832c6392c233abcb08"
+    },
+    {
+      "canonical_name": "men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "men",
+      "chunk_id": "chk_a073c6d8313756832c6392c233abcb08"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

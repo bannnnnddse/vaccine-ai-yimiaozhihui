@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_500487ecdb836aecbc248855f3677d23",
+  "content_hash": "b830eb693d4a2a40f2504e08b1be0dfbc331c1e7432f41250cfdfb884b6f0273",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_500487ecdb836aecbc248855f3677d23"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_500487ecdb836aecbc248855f3677d23"
+    },
+    {
+      "canonical_name": "occult HBV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "occult HBV infection",
+      "chunk_id": "chk_500487ecdb836aecbc248855f3677d23"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_500487ecdb836aecbc248855f3677d23"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

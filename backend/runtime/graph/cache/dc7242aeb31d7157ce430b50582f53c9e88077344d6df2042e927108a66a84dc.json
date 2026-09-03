@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_31e4e4af8e116824d15af3ade67ced3e",
+  "content_hash": "de1a50df05ab88b5fa5e5f100388a929b9ff7356754242c7ac3062970d3ac778",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B immunoglobulin (HBIG)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hepatitis B immunoglobulin (HBIG)",
+      "chunk_id": "chk_31e4e4af8e116824d15af3ade67ced3e"
+    },
+    {
+      "canonical_name": "liver cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver cancer",
+      "chunk_id": "chk_31e4e4af8e116824d15af3ade67ced3e"
+    },
+    {
+      "canonical_name": "neonatal HBV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "neonatal HBV vaccination",
+      "chunk_id": "chk_31e4e4af8e116824d15af3ade67ced3e"
+    },
+    {
+      "canonical_name": "hepatitis C",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis C",
+      "chunk_id": "chk_31e4e4af8e116824d15af3ade67ced3e"
+    },
+    {
+      "canonical_name": "Hepatitis E vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis E vaccines",
+      "chunk_id": "chk_31e4e4af8e116824d15af3ade67ced3e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

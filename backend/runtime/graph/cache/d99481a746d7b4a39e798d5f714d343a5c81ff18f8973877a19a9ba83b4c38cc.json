@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_fc81eccd5ce1afb9996fe6ec4799af06",
+  "content_hash": "fdcf94c0ce0291bc9827fec5f55148daf5824ddf9feede7ded642299d7ca976d",
+  "entities": [
+    {
+      "canonical_name": "immune system",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune system",
+      "chunk_id": "chk_fc81eccd5ce1afb9996fe6ec4799af06"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_fc81eccd5ce1afb9996fe6ec4799af06"
+    },
+    {
+      "canonical_name": "Th1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th1",
+      "chunk_id": "chk_fc81eccd5ce1afb9996fe6ec4799af06"
+    },
+    {
+      "canonical_name": "Th17",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th17",
+      "chunk_id": "chk_fc81eccd5ce1afb9996fe6ec4799af06"
+    },
+    {
+      "canonical_name": "IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG",
+      "chunk_id": "chk_fc81eccd5ce1afb9996fe6ec4799af06"
+    },
+    {
+      "canonical_name": "IgM",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgM",
+      "chunk_id": "chk_fc81eccd5ce1afb9996fe6ec4799af06"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

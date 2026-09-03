@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_d9199e7fa71b61adc1774b6dfa4c75e4",
+  "content_hash": "baf6ec4aee009898bcd799cad244450b7bdd16d67b4c7d249251c97c9b0938cc",
+  "entities": [
+    {
+      "canonical_name": "hepatitis A vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis A vaccine",
+      "chunk_id": "chk_d9199e7fa71b61adc1774b6dfa4c75e4"
+    },
+    {
+      "canonical_name": "three-dose schedule",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "three-dose schedule",
+      "chunk_id": "chk_d9199e7fa71b61adc1774b6dfa4c75e4"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_d9199e7fa71b61adc1774b6dfa4c75e4"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_d9199e7fa71b61adc1774b6dfa4c75e4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

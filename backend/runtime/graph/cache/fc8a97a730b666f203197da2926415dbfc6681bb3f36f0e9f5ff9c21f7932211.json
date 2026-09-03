@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_af09687fea5a1642825e85c19ae54c17",
+  "content_hash": "55013a055341a3c36eb3df398621095483a8db3b6c015bf5b55dd4db22c2100c",
+  "entities": [
+    {
+      "canonical_name": "complex regional pain syndrome",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "complex regional pain syndrome",
+      "chunk_id": "chk_af09687fea5a1642825e85c19ae54c17"
+    },
+    {
+      "canonical_name": "HPV16/18-adjuvanted vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV16/18-adjuvanted vaccine",
+      "chunk_id": "chk_af09687fea5a1642825e85c19ae54c17"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

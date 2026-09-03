@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_d1a90cf1437efb88a384237062ab9072",
+  "content_hash": "f1567aa999ada882ac048ac0cc637e418fbfb8ee1461c4c85ecc4ab4bdedfa66",
+  "entities": [
+    {
+      "canonical_name": "dendritic cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "dendritic cells",
+      "chunk_id": "chk_d1a90cf1437efb88a384237062ab9072"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

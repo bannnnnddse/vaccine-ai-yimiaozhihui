@@ -1,0 +1,12 @@
+{
+  "job_id": "19ebafb0e45c",
+  "prompt": "疫苗如何建立免疫记忆",
+  "brief": null,
+  "generation_route": null,
+  "image_model": null,
+  "reference_asset": null,
+  "created_at": "2026-08-06T12:43:07.790141+00:00",
+  "finished_at": "2026-08-06T12:43:10.589909+00:00",
+  "stage": "failed",
+  "error": "ScienceImageOrganizerError"
+}

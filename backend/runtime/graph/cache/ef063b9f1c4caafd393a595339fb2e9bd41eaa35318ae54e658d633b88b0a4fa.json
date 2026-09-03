@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_1783c5786af5ba00eb4fa325d351ffb3",
+  "content_hash": "62cf21ee31f24d2b3f0bdc16f8664cb0b7ef86f464b90664998fb178217c5957",
+  "entities": [
+    {
+      "canonical_name": "Hib infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Hib infection",
+      "chunk_id": "chk_1783c5786af5ba00eb4fa325d351ffb3"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_1783c5786af5ba00eb4fa325d351ffb3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing"
+  ]
+}

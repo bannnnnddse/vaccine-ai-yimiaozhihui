@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_d0c4f2ea4256bed27520f6657a8bcceb",
+  "content_hash": "689d229cd2c0ae947c65947583e322912b610774fc321b77fb1127090dfa863b",
+  "entities": [
+    {
+      "canonical_name": "influenza pandemic",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza pandemic",
+      "chunk_id": "chk_d0c4f2ea4256bed27520f6657a8bcceb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

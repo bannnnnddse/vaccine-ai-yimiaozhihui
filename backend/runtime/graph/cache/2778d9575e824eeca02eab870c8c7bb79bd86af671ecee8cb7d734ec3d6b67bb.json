@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_bcbd03db38a6042cfb19c4d8ff912f2c",
+  "content_hash": "fcc4ea03fd7a8ecad53e8edcd585d6a46ee33ea308320129a8b9b91066f45813",
+  "entities": [
+    {
+      "canonical_name": "Pregnancy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Pregnancy",
+      "chunk_id": "chk_bcbd03db38a6042cfb19c4d8ff912f2c"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_bcbd03db38a6042cfb19c4d8ff912f2c"
+    },
+    {
+      "canonical_name": "pregnant women living with HIV-1 (WLWH)",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women living with HIV-1 (WLWH)",
+      "chunk_id": "chk_bcbd03db38a6042cfb19c4d8ff912f2c"
+    },
+    {
+      "canonical_name": "Influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza vaccine",
+      "chunk_id": "chk_bcbd03db38a6042cfb19c4d8ff912f2c"
+    },
+    {
+      "canonical_name": "pregnant WLWH",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant WLWH",
+      "chunk_id": "chk_bcbd03db38a6042cfb19c4d8ff912f2c"
+    },
+    {
+      "canonical_name": "otherwise healthy pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "otherwise healthy pregnant women",
+      "chunk_id": "chk_bcbd03db38a6042cfb19c4d8ff912f2c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

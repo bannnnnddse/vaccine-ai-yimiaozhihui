@@ -1,0 +1,122 @@
+{
+  "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93",
+  "content_hash": "6366b37a743dabb827f7f3744855312554ceb8ba1309090738f9a625963d5c1d",
+  "entities": [
+    {
+      "canonical_name": "苯丙酮尿症",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "苯丙酮尿症",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "唐氏综合征",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "唐氏综合征",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "先天性心脏病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "先天性心脏病",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "先天性感染",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "先天性感染",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "梅毒",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "梅毒",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "巨细胞病毒",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "巨细胞病毒",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "风疹病毒",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "风疹病毒",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "特殊健康状况儿童",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "特殊健康状况儿童",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "疫苗",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "免疫程序",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "免疫程序",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    },
+    {
+      "canonical_name": "严重不良反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "严重不良反应",
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "疫苗",
+        "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+      },
+      "target": {
+        "canonical_name": "儿童",
+        "entity_type": "Population",
+        "aliases": [
+          "儿童",
+          "婴幼儿"
+        ],
+        "surface_form": "儿童",
+        "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+      },
+      "relation_type": "INDICATED_FOR",
+      "evidence_quote": "儿童接种疫苗前后，建议如实向接种人员提供儿童的健康状况、疾病史及用药史等信息。",
+      "confidence": 0.88,
+      "chunk_id": "3924aec2ca006abc803ae0f6bf6df34a78d443d7829b839dc3668efda6741e93"
+    }
+  ],
+  "rejected": [
+    "relation_target_not_supported_by_cue",
+    "invalid_domain_range"
+  ]
+}

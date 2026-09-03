@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_6d9d5e5dae4efb07fef796164a3d9c51",
+  "content_hash": "763c16f167d4f3fa3cffc2d52a18ecf9b6a86cfd45055fc66f0d1ca14c31fdda",
+  "entities": [
+    {
+      "canonical_name": "vaccines against nicotine and cocaine addictions",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines against nicotine and cocaine addictions",
+      "chunk_id": "chk_6d9d5e5dae4efb07fef796164a3d9c51"
+    },
+    {
+      "canonical_name": "cocaine addiction",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cocaine addiction",
+      "chunk_id": "chk_6d9d5e5dae4efb07fef796164a3d9c51"
+    },
+    {
+      "canonical_name": "neutralizing antibody titers",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibody titers",
+      "chunk_id": "chk_6d9d5e5dae4efb07fef796164a3d9c51"
+    },
+    {
+      "canonical_name": "patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients",
+      "chunk_id": "chk_6d9d5e5dae4efb07fef796164a3d9c51"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "target_missing_from_quote",
+    "relation_evidence_cue_missing"
+  ]
+}

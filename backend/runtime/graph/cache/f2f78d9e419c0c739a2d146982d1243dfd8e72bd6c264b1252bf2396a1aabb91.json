@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_976e0eb81268371a3c2d37cd82d7bbe5",
+  "content_hash": "74664169728366735e21bec1adc93f8a7d60a09cc2e763991a5ce741813f4739",
+  "entities": [
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_976e0eb81268371a3c2d37cd82d7bbe5"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_976e0eb81268371a3c2d37cd82d7bbe5"
+    },
+    {
+      "canonical_name": "mumps",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mumps",
+      "chunk_id": "chk_976e0eb81268371a3c2d37cd82d7bbe5"
+    },
+    {
+      "canonical_name": "rubella",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rubella",
+      "chunk_id": "chk_976e0eb81268371a3c2d37cd82d7bbe5"
+    },
+    {
+      "canonical_name": "polio-diphtheria-tetanus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "polio-diphtheria-tetanus",
+      "chunk_id": "chk_976e0eb81268371a3c2d37cd82d7bbe5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

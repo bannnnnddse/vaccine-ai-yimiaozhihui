@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2",
+  "content_hash": "cb7e83f8369bbc108e9a65ab958312fb17edd089334d1714e9b033c11951ef43",
+  "entities": [
+    {
+      "canonical_name": "Older Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Older Adults",
+      "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2"
+    },
+    {
+      "canonical_name": "age ≥60 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "age ≥60 years",
+      "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2"
+    },
+    {
+      "canonical_name": "age ≥65 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "age ≥65 years",
+      "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2"
+    },
+    {
+      "canonical_name": "RSVPreF3 OA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSVPreF3 OA",
+      "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2"
+    },
+    {
+      "canonical_name": "mRNA-1345",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1345",
+      "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2"
+    },
+    {
+      "canonical_name": "Ad26.RSV.preF",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad26.RSV.preF",
+      "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2"
+    },
+    {
+      "canonical_name": "MEDI7510",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MEDI7510",
+      "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2"
+    },
+    {
+      "canonical_name": "adjuvanted inactivated influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adjuvanted inactivated influenza vaccine",
+      "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2"
+    },
+    {
+      "canonical_name": "RSV F vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV F vaccine",
+      "chunk_id": "chk_b294445bb9a3e96465be2032ae975af2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

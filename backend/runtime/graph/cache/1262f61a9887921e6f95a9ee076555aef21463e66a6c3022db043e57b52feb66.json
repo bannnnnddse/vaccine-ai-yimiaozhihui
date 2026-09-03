@@ -1,0 +1,38 @@
+{
+  "chunk_id": "6741584069ba3a7a2101b02657e728fe799d3f851478ea359b14f7cf5432eb14",
+  "content_hash": "8339e7b8cccabc87d074fbde1421c0209795a6acf4a23794a519a262ab8425db",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "6741584069ba3a7a2101b02657e728fe799d3f851478ea359b14f7cf5432eb14"
+    },
+    {
+      "canonical_name": "clade B envelope immunogens",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "clade B envelope immunogens",
+      "chunk_id": "6741584069ba3a7a2101b02657e728fe799d3f851478ea359b14f7cf5432eb14"
+    },
+    {
+      "canonical_name": "MF59 adjuvant",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MF59 adjuvant",
+      "chunk_id": "6741584069ba3a7a2101b02657e728fe799d3f851478ea359b14f7cf5432eb14"
+    },
+    {
+      "canonical_name": "memory T- and B-cell responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory T- and B-cell responses",
+      "chunk_id": "6741584069ba3a7a2101b02657e728fe799d3f851478ea359b14f7cf5432eb14"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

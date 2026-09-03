@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_bc9fd1dda422cbff9dc9a57e563dba1a",
+  "content_hash": "6db111aa25d98f23f28643e209b92e4f11879763562cbed506fb4fc0c41a2db5",
+  "entities": [
+    {
+      "canonical_name": "adverse drug reaction",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse drug reaction",
+      "chunk_id": "chk_bc9fd1dda422cbff9dc9a57e563dba1a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

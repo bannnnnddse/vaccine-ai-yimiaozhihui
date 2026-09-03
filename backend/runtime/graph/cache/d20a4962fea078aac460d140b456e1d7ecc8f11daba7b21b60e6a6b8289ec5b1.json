@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_00a11023723413563527ff99ad1e76dc",
+  "content_hash": "8a5d6b0bac4dbe13a10a1518f57e5ac1dd17b10b63464c1700d22b30222e6b0f",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_00a11023723413563527ff99ad1e76dc"
+    },
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_00a11023723413563527ff99ad1e76dc"
+    },
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "chk_00a11023723413563527ff99ad1e76dc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "quote_missing",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

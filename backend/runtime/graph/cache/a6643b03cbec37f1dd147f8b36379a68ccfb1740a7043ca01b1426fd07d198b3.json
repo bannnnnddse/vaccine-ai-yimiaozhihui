@@ -1,0 +1,57 @@
+{
+  "chunk_id": "128e245eff463f2a81bcab98d90d510d49b82c434bda406657d60b0c1bab856a",
+  "content_hash": "f3bb61c2e4324dffa54e5920b3bf048366f4c169bc81413e0c5735b8015dd430",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "128e245eff463f2a81bcab98d90d510d49b82c434bda406657d60b0c1bab856a"
+    },
+    {
+      "canonical_name": "T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cells",
+      "chunk_id": "128e245eff463f2a81bcab98d90d510d49b82c434bda406657d60b0c1bab856a"
+    },
+    {
+      "canonical_name": "BCR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "BCR",
+      "chunk_id": "128e245eff463f2a81bcab98d90d510d49b82c434bda406657d60b0c1bab856a"
+    },
+    {
+      "canonical_name": "CCR7",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CCR7",
+      "chunk_id": "128e245eff463f2a81bcab98d90d510d49b82c434bda406657d60b0c1bab856a"
+    },
+    {
+      "canonical_name": "EBI2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "EBI2",
+      "chunk_id": "128e245eff463f2a81bcab98d90d510d49b82c434bda406657d60b0c1bab856a"
+    },
+    {
+      "canonical_name": "S1PR1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "S1PR1",
+      "chunk_id": "128e245eff463f2a81bcab98d90d510d49b82c434bda406657d60b0c1bab856a"
+    },
+    {
+      "canonical_name": "CD4 helper T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4 helper T cells",
+      "chunk_id": "128e245eff463f2a81bcab98d90d510d49b82c434bda406657d60b0c1bab856a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7e42e51bcf393490069f358596b216d4",
+  "content_hash": "de17a3c01c43d686baf37a983bff74a83bfbf04760fb7daf016d59aa2c66d9aa",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_7e42e51bcf393490069f358596b216d4"
+    },
+    {
+      "canonical_name": "Black Americans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Black Americans",
+      "chunk_id": "chk_7e42e51bcf393490069f358596b216d4"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_7e42e51bcf393490069f358596b216d4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_528a21d1eff5dc96a84d02e3d3f5fb65",
+  "content_hash": "207d804365e630c5bd3745cb5ca78b59e6610a83305b5ed850a9176aff631002",
+  "entities": [
+    {
+      "canonical_name": "diphtheria–tetanus–pertussis immunization",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria–tetanus–pertussis immunization",
+      "chunk_id": "chk_528a21d1eff5dc96a84d02e3d3f5fb65"
+    },
+    {
+      "canonical_name": "invasive bacterial infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive bacterial infection",
+      "chunk_id": "chk_528a21d1eff5dc96a84d02e3d3f5fb65"
+    },
+    {
+      "canonical_name": "measles immunisation",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles immunisation",
+      "chunk_id": "chk_528a21d1eff5dc96a84d02e3d3f5fb65"
+    },
+    {
+      "canonical_name": "non-vaccine-targeted infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "non-vaccine-targeted infections",
+      "chunk_id": "chk_528a21d1eff5dc96a84d02e3d3f5fb65"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

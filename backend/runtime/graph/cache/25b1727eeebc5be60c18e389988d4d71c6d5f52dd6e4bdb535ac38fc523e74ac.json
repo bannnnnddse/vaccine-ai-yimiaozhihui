@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_bc8d7f8dd4abb4170c7b66d210e17aa9",
+  "content_hash": "1a2b9bcf0462e404e66c1b57f0e9fbb498795e9ae927817bfd7a1af3821662af",
+  "entities": [
+    {
+      "canonical_name": "EV71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV71",
+      "chunk_id": "chk_bc8d7f8dd4abb4170c7b66d210e17aa9"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_bc8d7f8dd4abb4170c7b66d210e17aa9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

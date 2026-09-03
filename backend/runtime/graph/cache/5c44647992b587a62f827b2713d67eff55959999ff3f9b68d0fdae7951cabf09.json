@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_60783bb7c2e7eb626d3be4f43f607b61",
+  "content_hash": "d5150641d26e122cccc9ec4b78aef8a02ad58112857a7ae278bf19b1c7aa6c72",
+  "entities": [
+    {
+      "canonical_name": "RhCMV/SIV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RhCMV/SIV vaccine",
+      "chunk_id": "chk_60783bb7c2e7eb626d3be4f43f607b61"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

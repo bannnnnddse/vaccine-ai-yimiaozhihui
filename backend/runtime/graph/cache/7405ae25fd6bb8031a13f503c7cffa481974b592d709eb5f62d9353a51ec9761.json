@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_fd10e77d0c63b74c6e22a7ddc02396e2",
+  "content_hash": "79d8dc2c5d8526c5d2b55ff6424920efdfaefeab55852aafde4ba28757849f31",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_fd10e77d0c63b74c6e22a7ddc02396e2"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_fd10e77d0c63b74c6e22a7ddc02396e2"
+    },
+    {
+      "canonical_name": "IgM + memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgM + memory B cells",
+      "chunk_id": "chk_fd10e77d0c63b74c6e22a7ddc02396e2"
+    },
+    {
+      "canonical_name": "GC B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GC B cells",
+      "chunk_id": "chk_fd10e77d0c63b74c6e22a7ddc02396e2"
+    },
+    {
+      "canonical_name": "C57BL/6 mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "C57BL/6 mice",
+      "chunk_id": "chk_fd10e77d0c63b74c6e22a7ddc02396e2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

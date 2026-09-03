@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_b702cb06b9b732a147ba6fc505bce751",
+  "content_hash": "66e195252c697df51a7dae59630d1fde50312269519ea96833e493d6345f7bc4",
+  "entities": [
+    {
+      "canonical_name": "diabetic patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "diabetic patients",
+      "chunk_id": "chk_b702cb06b9b732a147ba6fc505bce751"
+    },
+    {
+      "canonical_name": "Adults > 65 years old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adults > 65 years old",
+      "chunk_id": "chk_b702cb06b9b732a147ba6fc505bce751"
+    },
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_b702cb06b9b732a147ba6fc505bce751"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

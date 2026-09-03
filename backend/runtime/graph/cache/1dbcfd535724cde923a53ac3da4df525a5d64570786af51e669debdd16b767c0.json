@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_9ac55b762b9cf99c268bb0ea059e89a4",
+  "content_hash": "68cec4b350806e9745815ecfc0fd8e8d166a33f3a06977f64b966e86536e574c",
+  "entities": [
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_9ac55b762b9cf99c268bb0ea059e89a4"
+    },
+    {
+      "canonical_name": "IgG1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG1",
+      "chunk_id": "chk_9ac55b762b9cf99c268bb0ea059e89a4"
+    },
+    {
+      "canonical_name": "FcgR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "FcgR",
+      "chunk_id": "chk_9ac55b762b9cf99c268bb0ea059e89a4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

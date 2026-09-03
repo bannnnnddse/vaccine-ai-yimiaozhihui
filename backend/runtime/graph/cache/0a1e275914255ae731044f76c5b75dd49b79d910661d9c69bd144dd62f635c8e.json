@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_66119d493810ddc9acb9a6256391110b",
+  "content_hash": "c836e6c98e8d1da55abf44d4421d9bd63b170d14e9745a65d14b61265f22a8ab",
+  "entities": [
+    {
+      "canonical_name": "non-viral DNA-RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "non-viral DNA-RNA vaccines",
+      "chunk_id": "chk_66119d493810ddc9acb9a6256391110b"
+    },
+    {
+      "canonical_name": "nanoparticle vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nanoparticle vaccines",
+      "chunk_id": "chk_66119d493810ddc9acb9a6256391110b"
+    },
+    {
+      "canonical_name": "virus-like particle vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "virus-like particle vaccines",
+      "chunk_id": "chk_66119d493810ddc9acb9a6256391110b"
+    },
+    {
+      "canonical_name": "cancer vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "cancer vaccines",
+      "chunk_id": "chk_66119d493810ddc9acb9a6256391110b"
+    },
+    {
+      "canonical_name": "substance abuse",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "substance abuse",
+      "chunk_id": "chk_66119d493810ddc9acb9a6256391110b"
+    },
+    {
+      "canonical_name": "noncommunicable disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "noncommunicable disease",
+      "chunk_id": "chk_66119d493810ddc9acb9a6256391110b"
+    },
+    {
+      "canonical_name": "infectious disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infectious disease",
+      "chunk_id": "chk_66119d493810ddc9acb9a6256391110b"
+    },
+    {
+      "canonical_name": "COVID19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID19",
+      "chunk_id": "chk_66119d493810ddc9acb9a6256391110b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

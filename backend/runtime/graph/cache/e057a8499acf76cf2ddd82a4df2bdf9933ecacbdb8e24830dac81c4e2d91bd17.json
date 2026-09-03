@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891",
+  "content_hash": "72e881e903fa1b995dde700ca207ddc98d8575071ffb26b03be3a1e86026ed3c",
+  "entities": [
+    {
+      "canonical_name": "Self-replicating RNA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Self-replicating RNA",
+      "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891"
+    },
+    {
+      "canonical_name": "RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA vaccines",
+      "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891"
+    },
+    {
+      "canonical_name": "animal models",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "animal models",
+      "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891"
+    },
+    {
+      "canonical_name": "rabies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rabies",
+      "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891"
+    },
+    {
+      "canonical_name": "patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients",
+      "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891"
+    },
+    {
+      "canonical_name": "mild to moderate reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "mild to moderate reactions",
+      "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891"
+    },
+    {
+      "canonical_name": "severe reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "severe reactions",
+      "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891"
+    },
+    {
+      "canonical_name": "neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibody",
+      "chunk_id": "chk_c1bd4950fe15e434dbc687f629d35891"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

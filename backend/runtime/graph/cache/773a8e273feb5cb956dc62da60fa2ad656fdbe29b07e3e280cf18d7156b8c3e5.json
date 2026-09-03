@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_4318c740583bc3d0db26595e7dea8142",
+  "content_hash": "8a7c1298afff157e440a42988553a11033aa33982950b82bb9ff199200dbb3ad",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_4318c740583bc3d0db26595e7dea8142"
+    },
+    {
+      "canonical_name": "severe mental illness",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "severe mental illness",
+      "chunk_id": "chk_4318c740583bc3d0db26595e7dea8142"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

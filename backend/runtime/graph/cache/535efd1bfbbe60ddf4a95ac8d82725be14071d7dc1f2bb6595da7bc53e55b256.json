@@ -1,0 +1,79 @@
+{
+  "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739",
+  "content_hash": "e5fb78fd23f0de8f6324e7f227ac47df6f9dfa5d2a8020713ac1e12a9b3bc435",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccine candidates",
+      "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739"
+    },
+    {
+      "canonical_name": "Zika virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika virus",
+      "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739"
+    },
+    {
+      "canonical_name": "influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus",
+      "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739"
+    },
+    {
+      "canonical_name": "CMV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CMV",
+      "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739"
+    },
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739"
+    },
+    {
+      "canonical_name": "Chikungunya virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Chikungunya virus",
+      "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739"
+    },
+    {
+      "canonical_name": "Rabies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Rabies",
+      "chunk_id": "chk_4e860db12ffc11d3e1736d544fb78739"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

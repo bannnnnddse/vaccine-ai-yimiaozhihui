@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_b77914c00d2721d44bb9a87d1b93187a",
+  "content_hash": "8a7d6c9e644255e05ce94299d7a8acdcc8ddf57224239ea7866394ed02a3b815",
+  "entities": [
+    {
+      "canonical_name": "nAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "nAb",
+      "chunk_id": "chk_b77914c00d2721d44bb9a87d1b93187a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

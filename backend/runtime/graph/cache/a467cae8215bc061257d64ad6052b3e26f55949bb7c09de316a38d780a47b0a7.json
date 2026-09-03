@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_1b7a84e98c178714ab5480d6a997d855",
+  "content_hash": "5576b476ea8db8145aa6451c6aad3701dbeec9e9dfedb5e9bef1c042401abfcd",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B virus vaccine",
+      "chunk_id": "chk_1b7a84e98c178714ab5480d6a997d855"
+    },
+    {
+      "canonical_name": "HIV-infected patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-infected patients",
+      "chunk_id": "chk_1b7a84e98c178714ab5480d6a997d855"
+    },
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_1b7a84e98c178714ab5480d6a997d855"
+    },
+    {
+      "canonical_name": "HIV infected",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV infected",
+      "chunk_id": "chk_1b7a84e98c178714ab5480d6a997d855"
+    },
+    {
+      "canonical_name": "high-risk HIV uninfected adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "high-risk HIV uninfected adolescents",
+      "chunk_id": "chk_1b7a84e98c178714ab5480d6a997d855"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_e91e75137a307f643c0cb9ba71346ba7",
+  "content_hash": "6ac233b887422c514bc11143556a46930e6e038ee7035091b061fd026e6fc2f8",
+  "entities": [
+    {
+      "canonical_name": "MVA85A",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MVA85A",
+      "chunk_id": "chk_e91e75137a307f643c0cb9ba71346ba7"
+    },
+    {
+      "canonical_name": "tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis",
+      "chunk_id": "chk_e91e75137a307f643c0cb9ba71346ba7"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_e91e75137a307f643c0cb9ba71346ba7"
+    },
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_e91e75137a307f643c0cb9ba71346ba7"
+    },
+    {
+      "canonical_name": "M72/AS01(E)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "M72/AS01(E)",
+      "chunk_id": "chk_e91e75137a307f643c0cb9ba71346ba7"
+    },
+    {
+      "canonical_name": "group B streptococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "group B streptococcus",
+      "chunk_id": "chk_e91e75137a307f643c0cb9ba71346ba7"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

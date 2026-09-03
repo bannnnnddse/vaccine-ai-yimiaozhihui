@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f0c94e0573750cebc838abb18cf8fab0",
+  "content_hash": "a4b5bf44bb7b863fb392c9cda45188ca9a5f3d65ea2770c60134549c1a3c7f99",
+  "entities": [
+    {
+      "canonical_name": "oral attenuated human rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "oral attenuated human rotavirus vaccine",
+      "chunk_id": "chk_f0c94e0573750cebc838abb18cf8fab0"
+    },
+    {
+      "canonical_name": "human infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "human infant",
+      "chunk_id": "chk_f0c94e0573750cebc838abb18cf8fab0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

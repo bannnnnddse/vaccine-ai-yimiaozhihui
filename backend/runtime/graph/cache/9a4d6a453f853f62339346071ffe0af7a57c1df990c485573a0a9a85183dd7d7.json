@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_e0bd11815359a47d5de8489091935028",
+  "content_hash": "98b93b46e29da511c2237142aac1b53f91dcda1a447cb567e5ea98db42e5b276",
+  "entities": [
+    {
+      "canonical_name": "Zostavax TM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Zostavax TM",
+      "chunk_id": "chk_e0bd11815359a47d5de8489091935028"
+    },
+    {
+      "canonical_name": "herpes zoster",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "herpes zoster",
+      "chunk_id": "chk_e0bd11815359a47d5de8489091935028"
+    },
+    {
+      "canonical_name": "post-herpetic neuralgia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "post-herpetic neuralgia",
+      "chunk_id": "chk_e0bd11815359a47d5de8489091935028"
+    },
+    {
+      "canonical_name": "adults aged 60 years or older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults aged 60 years or older",
+      "chunk_id": "chk_e0bd11815359a47d5de8489091935028"
+    },
+    {
+      "canonical_name": "immunocompetent adults aged 60 years or older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompetent adults aged 60 years or older",
+      "chunk_id": "chk_e0bd11815359a47d5de8489091935028"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "invalid_domain_range",
+    "source_missing_from_quote"
+  ]
+}

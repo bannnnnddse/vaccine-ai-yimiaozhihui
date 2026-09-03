@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f0544a3c3dad59c50448d3c77761abe6",
+  "content_hash": "74619987315ea4c5a3c07769840b74468df724a36381400baf5cd93764faa229",
+  "entities": [
+    {
+      "canonical_name": "LT recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "LT recipients",
+      "chunk_id": "chk_f0544a3c3dad59c50448d3c77761abe6"
+    },
+    {
+      "canonical_name": "HBIG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HBIG",
+      "chunk_id": "chk_f0544a3c3dad59c50448d3c77761abe6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,73 @@
+{
+  "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8",
+  "content_hash": "c15324ce4333fae2a0c52125950d6a237238a911161d37d0ae4e4a142c2dd7e2",
+  "entities": [
+    {
+      "canonical_name": "sub-neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "sub-neutralizing antibodies",
+      "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8"
+    },
+    {
+      "canonical_name": "DENV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "DENV",
+      "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8"
+    },
+    {
+      "canonical_name": "anti-E",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-E",
+      "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8"
+    },
+    {
+      "canonical_name": "antiprM antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antiprM antibodies",
+      "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8"
+    },
+    {
+      "canonical_name": "ADE",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "ADE",
+      "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8"
+    },
+    {
+      "canonical_name": "EDIII",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "EDIII",
+      "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8"
+    },
+    {
+      "canonical_name": "tetravalent viruslike particle vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "tetravalent viruslike particle vaccine",
+      "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8"
+    },
+    {
+      "canonical_name": "DENV serotypes",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "DENV serotypes",
+      "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_1feed69958c3cd393ce4f6aa77a101f8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

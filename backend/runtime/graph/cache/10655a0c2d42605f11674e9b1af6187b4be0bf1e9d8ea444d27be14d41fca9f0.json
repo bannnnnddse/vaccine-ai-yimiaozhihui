@@ -1,0 +1,41 @@
+{
+  "chunk_id": "chk_7fd2e8dcc84769ba1b6dcd646e3ec282",
+  "content_hash": "83d56b33237cb59bbeff334233be46ce269ecdcfe0298a2f27051cbd46b069cd",
+  "entities": [
+    {
+      "canonical_name": "Viral hepatitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Viral hepatitis",
+      "chunk_id": "chk_7fd2e8dcc84769ba1b6dcd646e3ec282"
+    },
+    {
+      "canonical_name": "chronic liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic liver disease",
+      "chunk_id": "chk_7fd2e8dcc84769ba1b6dcd646e3ec282"
+    },
+    {
+      "canonical_name": "hepatitis A",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis A",
+      "chunk_id": "chk_7fd2e8dcc84769ba1b6dcd646e3ec282"
+    },
+    {
+      "canonical_name": "HIV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV infection",
+      "chunk_id": "chk_7fd2e8dcc84769ba1b6dcd646e3ec282"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "invalid_domain_range"
+  ]
+}

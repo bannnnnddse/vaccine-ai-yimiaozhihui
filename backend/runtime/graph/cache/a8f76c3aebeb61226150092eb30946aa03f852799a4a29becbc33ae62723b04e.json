@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_0fa94f98b5a2291d794de62202e8f09c",
+  "content_hash": "04528142d0a25bb2f5d8ba94bf2b1eea38adfcc1153db7bc6fafebb89a6bccf8",
+  "entities": [
+    {
+      "canonical_name": "adenovirus type 5 HIV-1 clade B gag/pol/nef vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "adenovirus type 5 HIV-1 clade B gag/pol/nef vaccine",
+      "chunk_id": "chk_0fa94f98b5a2291d794de62202e8f09c"
+    },
+    {
+      "canonical_name": "Ad26.COV2.S vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad26.COV2.S vaccine",
+      "chunk_id": "chk_0fa94f98b5a2291d794de62202e8f09c"
+    },
+    {
+      "canonical_name": "ChAdOx1 nCoV-19 (AZD1222) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1 nCoV-19 (AZD1222) vaccine",
+      "chunk_id": "chk_0fa94f98b5a2291d794de62202e8f09c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

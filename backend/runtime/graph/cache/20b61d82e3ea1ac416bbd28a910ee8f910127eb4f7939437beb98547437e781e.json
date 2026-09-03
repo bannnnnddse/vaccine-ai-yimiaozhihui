@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_f135d562b906e3e2f2bcfa78d8dbb891",
+  "content_hash": "781dc6101ea7b2e58e4e4aa07b476228f6c0ad996793d880e60c672944f30632",
+  "entities": [
+    {
+      "canonical_name": "Antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Antibody",
+      "chunk_id": "chk_f135d562b906e3e2f2bcfa78d8dbb891"
+    },
+    {
+      "canonical_name": "cytomegalovirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "cytomegalovirus",
+      "chunk_id": "chk_f135d562b906e3e2f2bcfa78d8dbb891"
+    },
+    {
+      "canonical_name": "natural killer",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "natural killer",
+      "chunk_id": "chk_f135d562b906e3e2f2bcfa78d8dbb891"
+    },
+    {
+      "canonical_name": "macrophage",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "macrophage",
+      "chunk_id": "chk_f135d562b906e3e2f2bcfa78d8dbb891"
+    },
+    {
+      "canonical_name": "V1V2-specific complement activating serum IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "V1V2-specific complement activating serum IgG",
+      "chunk_id": "chk_f135d562b906e3e2f2bcfa78d8dbb891"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_f135d562b906e3e2f2bcfa78d8dbb891"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_7e072e657f7c530f1d9964d6f455e2aa",
+  "content_hash": "30923d673da92a6f93eee73ad291cd8883eae29509ae22a4022dfbc020a4db7d",
+  "entities": [
+    {
+      "canonical_name": "hepatitis A vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis A vaccines",
+      "chunk_id": "chk_7e072e657f7c530f1d9964d6f455e2aa"
+    },
+    {
+      "canonical_name": "Healive®",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Healive®",
+      "chunk_id": "chk_7e072e657f7c530f1d9964d6f455e2aa"
+    },
+    {
+      "canonical_name": "Havrix®",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Havrix®",
+      "chunk_id": "chk_7e072e657f7c530f1d9964d6f455e2aa"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_7e072e657f7c530f1d9964d6f455e2aa"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

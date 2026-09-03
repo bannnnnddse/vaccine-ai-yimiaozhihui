@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_5cc81104624072e747e1cb3700ce7d4f",
+  "content_hash": "cf071131071fe5cd4ded71b431c25fbba37407f7ba6f0f80f6286a8e61e53408",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_5cc81104624072e747e1cb3700ce7d4f"
+    },
+    {
+      "canonical_name": "vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccination",
+      "chunk_id": "chk_5cc81104624072e747e1cb3700ce7d4f"
+    },
+    {
+      "canonical_name": "schizophrenia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "schizophrenia",
+      "chunk_id": "chk_5cc81104624072e747e1cb3700ce7d4f"
+    },
+    {
+      "canonical_name": "H1N1 influenza",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "H1N1 influenza",
+      "chunk_id": "chk_5cc81104624072e747e1cb3700ce7d4f"
+    },
+    {
+      "canonical_name": "severe mental illness",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe mental illness",
+      "chunk_id": "chk_5cc81104624072e747e1cb3700ce7d4f"
+    },
+    {
+      "canonical_name": "vaccinations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccinations",
+      "chunk_id": "chk_5cc81104624072e747e1cb3700ce7d4f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

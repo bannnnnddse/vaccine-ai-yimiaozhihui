@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_59a103e8e12fa655b48a9557a68df143",
+  "content_hash": "844ff4a7436ff9d16710ee1db0c89166443d6a6a49fe001b7948605a276f43c2",
+  "entities": [
+    {
+      "canonical_name": "Rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Rotavirus",
+      "chunk_id": "chk_59a103e8e12fa655b48a9557a68df143"
+    },
+    {
+      "canonical_name": "interferon",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "interferon",
+      "chunk_id": "chk_59a103e8e12fa655b48a9557a68df143"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

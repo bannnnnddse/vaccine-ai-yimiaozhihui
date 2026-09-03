@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_61d4bccf59a700868b00bd73dcb2bd5f",
+  "content_hash": "2f5cbcd2bb06c0f910d918f0359c9f6583df16912a7d6b791487577cc6a2b291",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_61d4bccf59a700868b00bd73dcb2bd5f"
+    },
+    {
+      "canonical_name": "clinically vulnerable people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "clinically vulnerable people",
+      "chunk_id": "chk_61d4bccf59a700868b00bd73dcb2bd5f"
+    },
+    {
+      "canonical_name": "frontline workers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "frontline workers",
+      "chunk_id": "chk_61d4bccf59a700868b00bd73dcb2bd5f"
+    },
+    {
+      "canonical_name": "border staff",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "border staff",
+      "chunk_id": "chk_61d4bccf59a700868b00bd73dcb2bd5f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

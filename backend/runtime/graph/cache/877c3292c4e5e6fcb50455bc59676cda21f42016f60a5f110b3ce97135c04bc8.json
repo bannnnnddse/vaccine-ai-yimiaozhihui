@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b54ea75fbc984051d06d5c343274afec",
+  "content_hash": "2981d00c7764cfa0080f145c5e1634d4e091ad01f9f84caaf7d8197b60860be2",
+  "entities": [
+    {
+      "canonical_name": "HIV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HIV vaccine",
+      "chunk_id": "chk_b54ea75fbc984051d06d5c343274afec"
+    },
+    {
+      "canonical_name": "T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell",
+      "chunk_id": "chk_b54ea75fbc984051d06d5c343274afec"
+    },
+    {
+      "canonical_name": "Antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Antibody",
+      "chunk_id": "chk_b54ea75fbc984051d06d5c343274afec"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_bd03bf1b4d71306e5737084025ebf420",
+  "content_hash": "97404e41833e303d97bbd6929f370eecce4f5160c981d5c981828bc166706bb4",
+  "entities": [
+    {
+      "canonical_name": "vaccinia virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "vaccinia virus",
+      "chunk_id": "chk_bd03bf1b4d71306e5737084025ebf420"
+    },
+    {
+      "canonical_name": "Wyeth vaccine strain",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Wyeth vaccine strain",
+      "chunk_id": "chk_bd03bf1b4d71306e5737084025ebf420"
+    },
+    {
+      "canonical_name": "EBV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EBV vaccines",
+      "chunk_id": "chk_bd03bf1b4d71306e5737084025ebf420"
+    },
+    {
+      "canonical_name": "recombinant WR-gp340 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant WR-gp340 vaccine",
+      "chunk_id": "chk_bd03bf1b4d71306e5737084025ebf420"
+    },
+    {
+      "canonical_name": "recombinant Wyeth-gp340 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant Wyeth-gp340 vaccine",
+      "chunk_id": "chk_bd03bf1b4d71306e5737084025ebf420"
+    },
+    {
+      "canonical_name": "Anti-gp340 antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti-gp340 antibodies",
+      "chunk_id": "chk_bd03bf1b4d71306e5737084025ebf420"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

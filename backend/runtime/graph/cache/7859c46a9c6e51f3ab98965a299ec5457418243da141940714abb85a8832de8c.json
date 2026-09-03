@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_ee6945f1ffd95925529b9025af405708",
+  "content_hash": "8b6eb66e5bab48288dc43b34f94bfbc0b41a12729d00c0719e5b6692e9b914b8",
+  "entities": [
+    {
+      "canonical_name": "pathogen",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogen",
+      "chunk_id": "chk_ee6945f1ffd95925529b9025af405708"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

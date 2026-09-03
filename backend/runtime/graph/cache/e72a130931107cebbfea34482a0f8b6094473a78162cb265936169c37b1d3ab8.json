@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_ebebe1b33050435c2f0c39878c4dc785",
+  "content_hash": "0ba2f885966c58ed83e55e50b5509a39a319706f69565251bfc10b31b1615e11",
+  "entities": [
+    {
+      "canonical_name": "immune systems",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune systems",
+      "chunk_id": "chk_ebebe1b33050435c2f0c39878c4dc785"
+    },
+    {
+      "canonical_name": "TLR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR",
+      "chunk_id": "chk_ebebe1b33050435c2f0c39878c4dc785"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_ebebe1b33050435c2f0c39878c4dc785"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

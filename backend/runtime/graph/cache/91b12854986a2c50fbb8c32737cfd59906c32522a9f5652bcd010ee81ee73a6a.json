@@ -1,0 +1,50 @@
+{
+  "chunk_id": "2e27c64b9f3fe8c876c895033e7c44df7cf53402a614fd57a28f24d6fb1fa88f",
+  "content_hash": "2571967b8dc22fcb100aadacd935dd6e52c3aa9f5727967a5e8d74a4dce358a7",
+  "entities": [
+    {
+      "canonical_name": "body weight loss",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "body weight loss",
+      "chunk_id": "2e27c64b9f3fe8c876c895033e7c44df7cf53402a614fd57a28f24d6fb1fa88f"
+    },
+    {
+      "canonical_name": "serum viremia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serum viremia",
+      "chunk_id": "2e27c64b9f3fe8c876c895033e7c44df7cf53402a614fd57a28f24d6fb1fa88f"
+    },
+    {
+      "canonical_name": "thrombocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "thrombocytopenia",
+      "chunk_id": "2e27c64b9f3fe8c876c895033e7c44df7cf53402a614fd57a28f24d6fb1fa88f"
+    },
+    {
+      "canonical_name": "fatality",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fatality",
+      "chunk_id": "2e27c64b9f3fe8c876c895033e7c44df7cf53402a614fd57a28f24d6fb1fa88f"
+    },
+    {
+      "canonical_name": "multiorgan failure",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "multiorgan failure",
+      "chunk_id": "2e27c64b9f3fe8c876c895033e7c44df7cf53402a614fd57a28f24d6fb1fa88f"
+    },
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "2e27c64b9f3fe8c876c895033e7c44df7cf53402a614fd57a28f24d6fb1fa88f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

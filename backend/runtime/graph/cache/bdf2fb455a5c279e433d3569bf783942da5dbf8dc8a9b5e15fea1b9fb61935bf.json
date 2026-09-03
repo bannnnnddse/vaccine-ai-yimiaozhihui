@@ -1,0 +1,59 @@
+{
+  "chunk_id": "chk_653c3d5ed07a02e152b77d87a30fd9a7",
+  "content_hash": "15e4e90f123a350e3d59f402782c6389349efd7bb9b435ee2dd49581d3499717",
+  "entities": [
+    {
+      "canonical_name": "HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD",
+      "chunk_id": "chk_653c3d5ed07a02e152b77d87a30fd9a7"
+    },
+    {
+      "canonical_name": "EV71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV71",
+      "chunk_id": "chk_653c3d5ed07a02e152b77d87a30fd9a7"
+    },
+    {
+      "canonical_name": "EV71 疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71 疫苗",
+      "chunk_id": "chk_653c3d5ed07a02e152b77d87a30fd9a7"
+    },
+    {
+      "canonical_name": "CV-A16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A16",
+      "chunk_id": "chk_653c3d5ed07a02e152b77d87a30fd9a7"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "EV71",
+        "entity_type": "Pathogen",
+        "aliases": [],
+        "surface_form": "EV71",
+        "chunk_id": "chk_653c3d5ed07a02e152b77d87a30fd9a7"
+      },
+      "target": {
+        "canonical_name": "HFMD",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "HFMD",
+        "chunk_id": "chk_653c3d5ed07a02e152b77d87a30fd9a7"
+      },
+      "relation_type": "CAUSES",
+      "evidence_quote": "HFMD 是由多病原引起的症候群 ， 但重症 HFMD 和相关死亡 主要由 EV71 感染所致 。",
+      "confidence": 1.0,
+      "chunk_id": "chk_653c3d5ed07a02e152b77d87a30fd9a7"
+    }
+  ],
+  "rejected": [
+    "relation_target_not_supported_by_cue"
+  ]
+}

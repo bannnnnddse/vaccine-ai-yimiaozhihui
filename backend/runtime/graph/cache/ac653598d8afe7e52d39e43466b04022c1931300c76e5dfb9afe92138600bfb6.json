@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d50f9b1978139d3e8af113bfb512a0e9",
+  "content_hash": "450f221e98399956d641197f4d4e7a4550711302b8bff963553c8adb8e2b439a",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_d50f9b1978139d3e8af113bfb512a0e9"
+    },
+    {
+      "canonical_name": "Ethiopian population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Ethiopian population",
+      "chunk_id": "chk_d50f9b1978139d3e8af113bfb512a0e9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

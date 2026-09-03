@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_635b3deb056fb0b5a82a1841cd1dc93f",
+  "content_hash": "c1dfd41553baf2aa00fd8eff5a5df0f2b88bf2b67cd32de97fcc338570ef32ee",
+  "entities": [
+    {
+      "canonical_name": "anti-idiotype vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "anti-idiotype vaccine",
+      "chunk_id": "chk_635b3deb056fb0b5a82a1841cd1dc93f"
+    },
+    {
+      "canonical_name": "melanoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "melanoma",
+      "chunk_id": "chk_635b3deb056fb0b5a82a1841cd1dc93f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

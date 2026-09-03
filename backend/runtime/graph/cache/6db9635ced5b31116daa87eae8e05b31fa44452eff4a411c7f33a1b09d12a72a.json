@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_63fbf77af2dde4edf6b8b1b22cfbd7b3",
+  "content_hash": "fd52ecb5dce3f5a139ef257640a5b0ddfc5006f78f359f2634a69e64e5f3da5b",
+  "entities": [
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_63fbf77af2dde4edf6b8b1b22cfbd7b3"
+    },
+    {
+      "canonical_name": "RSV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccine",
+      "chunk_id": "chk_63fbf77af2dde4edf6b8b1b22cfbd7b3"
+    },
+    {
+      "canonical_name": "RSV-related LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related LRTD",
+      "chunk_id": "chk_63fbf77af2dde4edf6b8b1b22cfbd7b3"
+    },
+    {
+      "canonical_name": "RSV-related severe LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related severe LRTD",
+      "chunk_id": "chk_63fbf77af2dde4edf6b8b1b22cfbd7b3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote"
+  ]
+}

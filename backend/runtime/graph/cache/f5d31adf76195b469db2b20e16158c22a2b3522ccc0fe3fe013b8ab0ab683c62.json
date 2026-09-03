@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_f4e31527b20aff67bedc87b3bee0921b",
+  "content_hash": "bc8b1047ef0ca520862d1673e647ce2866bbecc3d8793c1af84b6341d092a39f",
+  "entities": [
+    {
+      "canonical_name": "enterovirus A vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "enterovirus A vaccine candidates",
+      "chunk_id": "chk_f4e31527b20aff67bedc87b3bee0921b"
+    },
+    {
+      "canonical_name": "hand, foot, and mouth disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hand, foot, and mouth disease",
+      "chunk_id": "chk_f4e31527b20aff67bedc87b3bee0921b"
+    },
+    {
+      "canonical_name": "Enterovirus 71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Enterovirus 71",
+      "chunk_id": "chk_f4e31527b20aff67bedc87b3bee0921b"
+    },
+    {
+      "canonical_name": "mouse",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mouse",
+      "chunk_id": "chk_f4e31527b20aff67bedc87b3bee0921b"
+    },
+    {
+      "canonical_name": "enterovirus 71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "enterovirus 71",
+      "chunk_id": "chk_f4e31527b20aff67bedc87b3bee0921b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

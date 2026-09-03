@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_f9516a8522beaee4809d4f29d65727b6",
+  "content_hash": "0847052ecaaa768e7f48427c91e405b22ea801f3dd04c9510d689913b52d5c5c",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal",
+      "chunk_id": "chk_f9516a8522beaee4809d4f29d65727b6"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_f9516a8522beaee4809d4f29d65727b6"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_f9516a8522beaee4809d4f29d65727b6"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_f9516a8522beaee4809d4f29d65727b6"
+    },
+    {
+      "canonical_name": "poliomyelitis",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "poliomyelitis",
+      "chunk_id": "chk_f9516a8522beaee4809d4f29d65727b6"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b",
+      "chunk_id": "chk_f9516a8522beaee4809d4f29d65727b6"
+    },
+    {
+      "canonical_name": "Hib",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hib",
+      "chunk_id": "chk_f9516a8522beaee4809d4f29d65727b6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

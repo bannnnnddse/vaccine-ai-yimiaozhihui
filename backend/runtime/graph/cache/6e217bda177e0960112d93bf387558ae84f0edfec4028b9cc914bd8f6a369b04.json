@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_604891af72de3406fa4bc46da53c8b0b",
+  "content_hash": "28a557b5228653dca7c89fe3f2933a251f3147c6a17160e67828b2a3d048c338",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccination programs",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "HPV vaccination programs",
+      "chunk_id": "chk_604891af72de3406fa4bc46da53c8b0b"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_604891af72de3406fa4bc46da53c8b0b"
+    },
+    {
+      "canonical_name": "girls",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "girls",
+      "chunk_id": "chk_604891af72de3406fa4bc46da53c8b0b"
+    },
+    {
+      "canonical_name": "boys",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "boys",
+      "chunk_id": "chk_604891af72de3406fa4bc46da53c8b0b"
+    },
+    {
+      "canonical_name": "9-valent Gardasil 9 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "9-valent Gardasil 9 vaccine",
+      "chunk_id": "chk_604891af72de3406fa4bc46da53c8b0b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7aadd4031f9d815192b6b86c81f56381",
+  "content_hash": "ead27cede9447650adb4fb53d275f9ca4177de9ad5764471a265f97d57210914",
+  "entities": [
+    {
+      "canonical_name": "Moderna'S COVID -19 vaccine candidate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna'S COVID -19 vaccine candidate",
+      "chunk_id": "chk_7aadd4031f9d815192b6b86c81f56381"
+    },
+    {
+      "canonical_name": "mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccine",
+      "chunk_id": "chk_7aadd4031f9d815192b6b86c81f56381"
+    },
+    {
+      "canonical_name": "SARS -CoV -2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2",
+      "chunk_id": "chk_7aadd4031f9d815192b6b86c81f56381"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

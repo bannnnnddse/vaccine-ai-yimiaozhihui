@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_0c9ba7dbd38f56d936206405591d6d7e",
+  "content_hash": "6c49e97f4f375f0b1bddd59069815d5992ae85921fed191a19eb4c4cc6eaa827",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_0c9ba7dbd38f56d936206405591d6d7e"
+    },
+    {
+      "canonical_name": "vaccine-preventable diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "vaccine-preventable diseases",
+      "chunk_id": "chk_0c9ba7dbd38f56d936206405591d6d7e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_2dcfb3a22101ca78bfbda4f8be7087bf",
+  "content_hash": "69a3977488207078bb890f1c1125b0ce54f85e810942fd6266b0996099be1e1a",
+  "entities": [
+    {
+      "canonical_name": "enterovirus 71 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "enterovirus 71 vaccine",
+      "chunk_id": "chk_2dcfb3a22101ca78bfbda4f8be7087bf"
+    },
+    {
+      "canonical_name": "healthy children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy children",
+      "chunk_id": "chk_2dcfb3a22101ca78bfbda4f8be7087bf"
+    },
+    {
+      "canonical_name": "Sinovac Enterovirus 71 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Sinovac Enterovirus 71 vaccine",
+      "chunk_id": "chk_2dcfb3a22101ca78bfbda4f8be7087bf"
+    },
+    {
+      "canonical_name": "hand, foot and mouth disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hand, foot and mouth disease",
+      "chunk_id": "chk_2dcfb3a22101ca78bfbda4f8be7087bf"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_2dcfb3a22101ca78bfbda4f8be7087bf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

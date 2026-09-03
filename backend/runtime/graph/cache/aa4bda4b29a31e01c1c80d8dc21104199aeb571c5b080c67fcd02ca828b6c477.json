@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f2162f7511372ad9d37a55aba7fc3e63",
+  "content_hash": "898243a67b687bf2a4c048cf8a43bea24310488c641b31224cb5945513d9ec8a",
+  "entities": [
+    {
+      "canonical_name": "polio v accine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "polio v accine",
+      "chunk_id": "chk_f2162f7511372ad9d37a55aba7fc3e63"
+    },
+    {
+      "canonical_name": "Japanese individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Japanese individuals",
+      "chunk_id": "chk_f2162f7511372ad9d37a55aba7fc3e63"
+    },
+    {
+      "canonical_name": "Pakistani parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Pakistani parents",
+      "chunk_id": "chk_f2162f7511372ad9d37a55aba7fc3e63"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

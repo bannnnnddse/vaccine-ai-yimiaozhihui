@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_43a90d6db25fab91d65a3f242ac667cf",
+  "content_hash": "b225ea3fc1d2ab5b6e488b93b7989bd3c5e9486a44a58e99755a1b35e1a28e89",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2 mRNA Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 mRNA Vaccine",
+      "chunk_id": "chk_43a90d6db25fab91d65a3f242ac667cf"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_43a90d6db25fab91d65a3f242ac667cf"
+    },
+    {
+      "canonical_name": "ChAdOx1 nCoV-19 (AZD1222) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1 nCoV-19 (AZD1222) vaccine",
+      "chunk_id": "chk_43a90d6db25fab91d65a3f242ac667cf"
+    },
+    {
+      "canonical_name": "SARSCoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2",
+      "chunk_id": "chk_43a90d6db25fab91d65a3f242ac667cf"
+    },
+    {
+      "canonical_name": "HIV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV infection",
+      "chunk_id": "chk_43a90d6db25fab91d65a3f242ac667cf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

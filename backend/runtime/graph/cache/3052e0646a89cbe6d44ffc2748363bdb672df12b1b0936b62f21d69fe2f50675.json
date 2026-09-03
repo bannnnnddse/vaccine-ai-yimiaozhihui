@@ -1,0 +1,71 @@
+{
+  "chunk_id": "chk_b4a95ca2d8621a9f431e91808d0720f0",
+  "content_hash": "93606fd283c8a1f1d15663bd0cca40843a573f88f7f6f4ad5ab608c872296d33",
+  "entities": [
+    {
+      "canonical_name": "viral hepatitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "viral hepatitis",
+      "chunk_id": "chk_b4a95ca2d8621a9f431e91808d0720f0"
+    },
+    {
+      "canonical_name": "liver inflammation",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver inflammation",
+      "chunk_id": "chk_b4a95ca2d8621a9f431e91808d0720f0"
+    },
+    {
+      "canonical_name": "fibrosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "fibrosis",
+      "chunk_id": "chk_b4a95ca2d8621a9f431e91808d0720f0"
+    },
+    {
+      "canonical_name": "cirrhosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cirrhosis",
+      "chunk_id": "chk_b4a95ca2d8621a9f431e91808d0720f0"
+    },
+    {
+      "canonical_name": "HCC",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HCC",
+      "chunk_id": "chk_b4a95ca2d8621a9f431e91808d0720f0"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_b4a95ca2d8621a9f431e91808d0720f0"
+    },
+    {
+      "canonical_name": "HCV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HCV",
+      "chunk_id": "chk_b4a95ca2d8621a9f431e91808d0720f0"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_b4a95ca2d8621a9f431e91808d0720f0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

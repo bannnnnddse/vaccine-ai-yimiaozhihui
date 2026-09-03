@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_04581242f7dd2dfa547b173955155eee",
+  "content_hash": "01b30342867719d107f246076150ea2e9e092e7a116f529c09f107e46837dc87",
+  "entities": [
+    {
+      "canonical_name": "RNA virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RNA virus",
+      "chunk_id": "chk_04581242f7dd2dfa547b173955155eee"
+    },
+    {
+      "canonical_name": "PKR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PKR",
+      "chunk_id": "chk_04581242f7dd2dfa547b173955155eee"
+    },
+    {
+      "canonical_name": "oligoadenylate synthetase",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "oligoadenylate synthetase",
+      "chunk_id": "chk_04581242f7dd2dfa547b173955155eee"
+    },
+    {
+      "canonical_name": "OAS",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "OAS",
+      "chunk_id": "chk_04581242f7dd2dfa547b173955155eee"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

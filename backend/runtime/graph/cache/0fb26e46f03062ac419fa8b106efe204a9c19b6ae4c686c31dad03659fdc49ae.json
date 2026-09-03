@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_05c80a2e536e3d2a656e8024950bed8d",
+  "content_hash": "d7baf8e1b950881935686dbb82984591d635e6dd8904d1b11d5dae84c4a7aad0",
+  "entities": [
+    {
+      "canonical_name": "haematological malignancies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "haematological malignancies",
+      "chunk_id": "chk_05c80a2e536e3d2a656e8024950bed8d"
+    },
+    {
+      "canonical_name": "stem cell transplantation",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "stem cell transplantation",
+      "chunk_id": "chk_05c80a2e536e3d2a656e8024950bed8d"
+    },
+    {
+      "canonical_name": "Multiple myeloma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Multiple myeloma",
+      "chunk_id": "chk_05c80a2e536e3d2a656e8024950bed8d"
+    },
+    {
+      "canonical_name": "chronic lymphocytic leukaemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic lymphocytic leukaemia",
+      "chunk_id": "chk_05c80a2e536e3d2a656e8024950bed8d"
+    },
+    {
+      "canonical_name": "Solid organ transplant (SOT) recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Solid organ transplant (SOT) recipients",
+      "chunk_id": "chk_05c80a2e536e3d2a656e8024950bed8d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_8d5d326196d6fe953e609a625454057d",
+  "content_hash": "853f28c2a60acb4b549ba99229ab2ed21040775948e9e114f647eacd1fad5a81",
+  "entities": [
+    {
+      "canonical_name": "freeze-dried vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "freeze-dried vaccine",
+      "chunk_id": "chk_8d5d326196d6fe953e609a625454057d"
+    },
+    {
+      "canonical_name": "gE-specific IgG antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "gE-specific IgG antibodies",
+      "chunk_id": "chk_8d5d326196d6fe953e609a625454057d"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

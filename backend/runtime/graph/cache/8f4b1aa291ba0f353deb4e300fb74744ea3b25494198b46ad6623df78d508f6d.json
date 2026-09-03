@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_2ce065fb43ed88149880e318946a4eda",
+  "content_hash": "6e0063b0c24df7637429a72614cb9c4f885053edadfd38368631a8dbf3fa60bc",
+  "entities": [
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_2ce065fb43ed88149880e318946a4eda"
+    },
+    {
+      "canonical_name": "liver cirrhosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver cirrhosis",
+      "chunk_id": "chk_2ce065fb43ed88149880e318946a4eda"
+    },
+    {
+      "canonical_name": "HCC",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HCC",
+      "chunk_id": "chk_2ce065fb43ed88149880e318946a4eda"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_2ce065fb43ed88149880e318946a4eda"
+    },
+    {
+      "canonical_name": "HBVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBVac",
+      "chunk_id": "chk_2ce065fb43ed88149880e318946a4eda"
+    },
+    {
+      "canonical_name": "liver cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver cancer",
+      "chunk_id": "chk_2ce065fb43ed88149880e318946a4eda"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

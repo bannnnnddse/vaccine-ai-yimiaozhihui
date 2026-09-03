@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_2360172fe54a2fc9b304bdad5b0c588c",
+  "content_hash": "ac577377bdc1d12327e7edfda14c4546db9e701050d35ce46f9fa9137451935a",
+  "entities": [
+    {
+      "canonical_name": "polio vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "polio vaccine",
+      "chunk_id": "chk_2360172fe54a2fc9b304bdad5b0c588c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

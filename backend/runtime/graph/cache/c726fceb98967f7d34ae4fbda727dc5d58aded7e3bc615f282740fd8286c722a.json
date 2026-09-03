@@ -1,0 +1,128 @@
+{
+  "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223",
+  "content_hash": "06dca1ef5c41b66f819e8d4f9827fbcfd3900a396bfa34ba0d2f58e8b8f44292",
+  "entities": [
+    {
+      "canonical_name": "HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "HPV 疫苗",
+        "HPV疫苗",
+        "人乳头瘤病毒疫苗"
+      ],
+      "surface_form": "HPV疫苗",
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    },
+    {
+      "canonical_name": "双价HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "双价HPV疫苗",
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    },
+    {
+      "canonical_name": "急性严重过敏反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "急性严重过敏反应",
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    },
+    {
+      "canonical_name": "适龄女孩",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "适龄女孩",
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    },
+    {
+      "canonical_name": "女性",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "女性",
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    },
+    {
+      "canonical_name": "进口四价HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "进口四价HPV疫苗",
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    },
+    {
+      "canonical_name": "九价HPV疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [
+        "九价 HPV 疫苗",
+        "九价HPV疫苗",
+        "九价人乳头瘤病毒疫苗"
+      ],
+      "surface_form": "九价HPV疫苗",
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    },
+    {
+      "canonical_name": "男性",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "男性",
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "九价HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "九价 HPV 疫苗",
+          "九价HPV疫苗",
+          "九价人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "九价HPV疫苗",
+        "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+      },
+      "target": {
+        "canonical_name": "男性",
+        "entity_type": "Population",
+        "aliases": [],
+        "surface_form": "男性",
+        "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+      },
+      "relation_type": "INDICATED_FOR",
+      "evidence_quote": "2种疫苗（进口四价和九价HPV疫苗）获批用于男性，常规推荐程序为3剂次，分别适用于9～26岁和16～26岁男性",
+      "confidence": 0.9,
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    },
+    {
+      "source": {
+        "canonical_name": "HPV疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [
+          "HPV 疫苗",
+          "HPV疫苗",
+          "人乳头瘤病毒疫苗"
+        ],
+        "surface_form": "HPV疫苗",
+        "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+      },
+      "target": {
+        "canonical_name": "男性",
+        "entity_type": "Population",
+        "aliases": [],
+        "surface_form": "男性",
+        "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+      },
+      "relation_type": "INDICATED_FOR",
+      "evidence_quote": "2种疫苗（进口四价和九价HPV疫苗）获批用于男性，常规推荐程序为3剂次，分别适用于9～26岁和16～26岁男性。",
+      "confidence": 0.88,
+      "chunk_id": "bc6ee1ba05732c9588da4326852053a26a1a02ed9f7a36f406dca68b0ddaf223"
+    }
+  ],
+  "rejected": [
+    "source_missing_from_quote",
+    "target_missing_from_quote",
+    "relation_target_not_supported_by_cue",
+    "relation_target_not_supported_by_cue",
+    "relation_target_not_supported_by_cue",
+    "source_missing_from_quote"
+  ]
+}

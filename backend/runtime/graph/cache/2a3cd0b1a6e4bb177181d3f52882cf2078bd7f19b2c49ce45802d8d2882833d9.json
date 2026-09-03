@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_d5e514a337e382c8b2bedf604138fc95",
+  "content_hash": "b0d10c1d5db0c0391d5ed1cdd547c752bf38b99acbfc49e8d40bc21ee6c6c08b",
+  "entities": [
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_d5e514a337e382c8b2bedf604138fc95"
+    },
+    {
+      "canonical_name": "T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cells",
+      "chunk_id": "chk_d5e514a337e382c8b2bedf604138fc95"
+    },
+    {
+      "canonical_name": "Bmems",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Bmems",
+      "chunk_id": "chk_d5e514a337e382c8b2bedf604138fc95"
+    },
+    {
+      "canonical_name": "IgG Bmems",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG Bmems",
+      "chunk_id": "chk_d5e514a337e382c8b2bedf604138fc95"
+    },
+    {
+      "canonical_name": "IgG BCR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG BCR",
+      "chunk_id": "chk_d5e514a337e382c8b2bedf604138fc95"
+    },
+    {
+      "canonical_name": "'naïve' IgG B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "'naïve' IgG B cells",
+      "chunk_id": "chk_d5e514a337e382c8b2bedf604138fc95"
+    },
+    {
+      "canonical_name": "memory IgG B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory IgG B cells",
+      "chunk_id": "chk_d5e514a337e382c8b2bedf604138fc95"
+    },
+    {
+      "canonical_name": "LLPCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "LLPCs",
+      "chunk_id": "chk_d5e514a337e382c8b2bedf604138fc95"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,57 @@
+{
+  "chunk_id": "289dccbec08a98132904a28d591b1d77e125b689ddeee2240c2f174823c76473",
+  "content_hash": "44b0731f53a1bcb92e9ef7c7d0099f4a495484a97b390643bbe9697992cbc378",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 mRNA vaccine",
+      "chunk_id": "289dccbec08a98132904a28d591b1d77e125b689ddeee2240c2f174823c76473"
+    },
+    {
+      "canonical_name": "humoral response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral response",
+      "chunk_id": "289dccbec08a98132904a28d591b1d77e125b689ddeee2240c2f174823c76473"
+    },
+    {
+      "canonical_name": "mRNA COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA COVID-19 vaccination",
+      "chunk_id": "289dccbec08a98132904a28d591b1d77e125b689ddeee2240c2f174823c76473"
+    },
+    {
+      "canonical_name": "vasculitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "vasculitis",
+      "chunk_id": "289dccbec08a98132904a28d591b1d77e125b689ddeee2240c2f174823c76473"
+    },
+    {
+      "canonical_name": "B-cell lymphoma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "B-cell lymphoma",
+      "chunk_id": "289dccbec08a98132904a28d591b1d77e125b689ddeee2240c2f174823c76473"
+    },
+    {
+      "canonical_name": "rheumatoid arthritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rheumatoid arthritis",
+      "chunk_id": "289dccbec08a98132904a28d591b1d77e125b689ddeee2240c2f174823c76473"
+    },
+    {
+      "canonical_name": "chronic inflammatory disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic inflammatory disease",
+      "chunk_id": "289dccbec08a98132904a28d591b1d77e125b689ddeee2240c2f174823c76473"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

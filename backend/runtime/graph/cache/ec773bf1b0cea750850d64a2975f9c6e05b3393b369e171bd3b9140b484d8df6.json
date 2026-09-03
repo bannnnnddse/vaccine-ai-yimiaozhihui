@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_b0b79ce6dbb07da84156eef6c10db1dc",
+  "content_hash": "43061619d760fae82a0895a216c2467da1351d31334e12428fe3a88c739c7b67",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2 mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 mRNA vaccine",
+      "chunk_id": "chk_b0b79ce6dbb07da84156eef6c10db1dc"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Omicron",
+      "chunk_id": "chk_b0b79ce6dbb07da84156eef6c10db1dc"
+    },
+    {
+      "canonical_name": "SARSCoV-2 Omicron Variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2 Omicron Variant",
+      "chunk_id": "chk_b0b79ce6dbb07da84156eef6c10db1dc"
+    },
+    {
+      "canonical_name": "SARS CoV 2 Multivalent RNA Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS CoV 2 Multivalent RNA Vaccine",
+      "chunk_id": "chk_b0b79ce6dbb07da84156eef6c10db1dc"
+    },
+    {
+      "canonical_name": "Healthy Participants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Healthy Participants",
+      "chunk_id": "chk_b0b79ce6dbb07da84156eef6c10db1dc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "invalid_domain_range",
+    "source_missing_from_quote"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_9ca2a779ec80dce3a21e1e0a0c5693fc",
+  "content_hash": "685ca08e450861e34ff58affbbf6ce02624b8bd45f4fc85faa0443ef7ee5ce0c",
+  "entities": [
+    {
+      "canonical_name": "Natural killer cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Natural killer cell",
+      "chunk_id": "chk_9ca2a779ec80dce3a21e1e0a0c5693fc"
+    },
+    {
+      "canonical_name": "respiratory syncytial virus-specific antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus-specific antibodies",
+      "chunk_id": "chk_9ca2a779ec80dce3a21e1e0a0c5693fc"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_9ca2a779ec80dce3a21e1e0a0c5693fc"
+    },
+    {
+      "canonical_name": "severe respiratory infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "severe respiratory infections",
+      "chunk_id": "chk_9ca2a779ec80dce3a21e1e0a0c5693fc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

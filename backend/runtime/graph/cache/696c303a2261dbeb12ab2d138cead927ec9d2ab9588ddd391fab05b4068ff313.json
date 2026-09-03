@@ -1,0 +1,57 @@
+{
+  "chunk_id": "6049f69c25114bd4aa48b9a14bc93c54b7e7e3cf7c2cbb75641d931a4fe359a3",
+  "content_hash": "f7377f6756d782d34c61787348f3730bb44d096882496ceeef1b361cc4baf758",
+  "entities": [
+    {
+      "canonical_name": "inactivated HAVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated HAVac",
+      "chunk_id": "6049f69c25114bd4aa48b9a14bc93c54b7e7e3cf7c2cbb75641d931a4fe359a3"
+    },
+    {
+      "canonical_name": "Live-attenuated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Live-attenuated vaccines",
+      "chunk_id": "6049f69c25114bd4aa48b9a14bc93c54b7e7e3cf7c2cbb75641d931a4fe359a3"
+    },
+    {
+      "canonical_name": "HAV-specific memory B and T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HAV-specific memory B and T cells",
+      "chunk_id": "6049f69c25114bd4aa48b9a14bc93c54b7e7e3cf7c2cbb75641d931a4fe359a3"
+    },
+    {
+      "canonical_name": "interleukin (IL)-6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "interleukin (IL)-6",
+      "chunk_id": "6049f69c25114bd4aa48b9a14bc93c54b7e7e3cf7c2cbb75641d931a4fe359a3"
+    },
+    {
+      "canonical_name": "IL-10",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-10",
+      "chunk_id": "6049f69c25114bd4aa48b9a14bc93c54b7e7e3cf7c2cbb75641d931a4fe359a3"
+    },
+    {
+      "canonical_name": "tumor necrosis factor (TNF)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "tumor necrosis factor (TNF)",
+      "chunk_id": "6049f69c25114bd4aa48b9a14bc93c54b7e7e3cf7c2cbb75641d931a4fe359a3"
+    },
+    {
+      "canonical_name": "interferon gamma (IFN-γ)",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "interferon gamma (IFN-γ)",
+      "chunk_id": "6049f69c25114bd4aa48b9a14bc93c54b7e7e3cf7c2cbb75641d931a4fe359a3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

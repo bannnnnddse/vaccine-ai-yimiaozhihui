@@ -1,0 +1,29 @@
+{
+  "chunk_id": "4f9abcac9c17c8232136b6fec418b20946722db1dd47f944f79aa8f73482c7c5",
+  "content_hash": "9eaa58c53a740b4cc3b0581212eb40da5c7da11697dbf2c1c6d17558a2f5514f",
+  "entities": [
+    {
+      "canonical_name": "PLWH",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "PLWH",
+      "chunk_id": "4f9abcac9c17c8232136b6fec418b20946722db1dd47f944f79aa8f73482c7c5"
+    },
+    {
+      "canonical_name": "HAV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HAV infection",
+      "chunk_id": "4f9abcac9c17c8232136b6fec418b20946722db1dd47f944f79aa8f73482c7c5"
+    },
+    {
+      "canonical_name": "men who have sex with men (MSM)",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "men who have sex with men (MSM)",
+      "chunk_id": "4f9abcac9c17c8232136b6fec418b20946722db1dd47f944f79aa8f73482c7c5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,69 @@
+{
+  "chunk_id": "chk_a0df3668f479e78be49fd1698e69856b",
+  "content_hash": "c061f166857b95681b0973308f9d768e2b545dbb524f0fa623671ed4f5ddf205",
+  "entities": [
+    {
+      "canonical_name": "HPV infection",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV infection",
+      "chunk_id": "chk_a0df3668f479e78be49fd1698e69856b"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_a0df3668f479e78be49fd1698e69856b"
+    },
+    {
+      "canonical_name": "males",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "males",
+      "chunk_id": "chk_a0df3668f479e78be49fd1698e69856b"
+    },
+    {
+      "canonical_name": "men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "men",
+      "chunk_id": "chk_a0df3668f479e78be49fd1698e69856b"
+    },
+    {
+      "canonical_name": "penile cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "penile cancers",
+      "chunk_id": "chk_a0df3668f479e78be49fd1698e69856b"
+    },
+    {
+      "canonical_name": "anal cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "anal cancers",
+      "chunk_id": "chk_a0df3668f479e78be49fd1698e69856b"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_a0df3668f479e78be49fd1698e69856b"
+    },
+    {
+      "canonical_name": "oropharyngeal cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "oropharyngeal cancers",
+      "chunk_id": "chk_a0df3668f479e78be49fd1698e69856b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7",
+  "content_hash": "9078245db5b6f9b61d2c71741117e930a8f35e3119e2e9e3156a35cd82f792d5",
+  "entities": [
+    {
+      "canonical_name": "Bifidobacterium",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "Bacteroides",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bacteroides",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "Clostridium cluster XI",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Clostridium cluster XI",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "Proteobacteria",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Proteobacteria",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "Bifidobacterium infantis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacterium infantis",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "gnotobiotic mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "gnotobiotic mice",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    },
+    {
+      "canonical_name": "pedialtric vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pedialtric vaccines",
+      "chunk_id": "chk_216cddfd724c68eab5169c1c147512a7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

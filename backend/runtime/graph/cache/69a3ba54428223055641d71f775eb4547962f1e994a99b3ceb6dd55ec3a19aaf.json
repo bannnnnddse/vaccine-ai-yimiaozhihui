@@ -1,0 +1,134 @@
+{
+  "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1",
+  "content_hash": "47d6c34ae97634268a91d1bca656b3c28446de30a50725f78cb7e21a651e8180",
+  "entities": [
+    {
+      "canonical_name": "血液、造血器官疾病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "血液、造血器官疾病计",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "精神病小计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "精神病小计",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "神经系统疾病计",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "神经系统疾病计",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "眼及附器疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "眼及附器疾病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "耳和乳突疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "耳和乳突疾病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "循环系统疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "循环系统疾病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "心脏病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "心脏病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "高血压",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "高血压",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "脑血管病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "脑血管病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "呼吸系统疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "呼吸系统疾病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "慢性阻塞性肺部疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "慢性阻塞性肺部疾病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "消化系统疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "消化系统疾病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "急性胃炎",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "急性胃炎",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "肝硬化",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "肝硬化",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "胆囊疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "胆囊疾病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "泌尿生殖系统疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "泌尿生殖系统疾病",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "妊娠、分娩病及产褥期并发症",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "妊娠、分娩病及产褥期并发症",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    },
+    {
+      "canonical_name": "皮肤皮下组织",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "皮肤皮下组织",
+      "chunk_id": "chk_797b031769e31c31ca81cb4d623df8e1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "68c0f23b9409baf341e30c8e47853fa535acc77b0ba931adf478a91b82c6845b",
+  "content_hash": "8e53d9fad60dd3dbb543cb0c6cc20e9a03e744005ca41c9fa8fd10605d9afdf4",
+  "entities": [
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "68c0f23b9409baf341e30c8e47853fa535acc77b0ba931adf478a91b82c6845b"
+    },
+    {
+      "canonical_name": "humoral immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral immunity",
+      "chunk_id": "68c0f23b9409baf341e30c8e47853fa535acc77b0ba931adf478a91b82c6845b"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "68c0f23b9409baf341e30c8e47853fa535acc77b0ba931adf478a91b82c6845b"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "68c0f23b9409baf341e30c8e47853fa535acc77b0ba931adf478a91b82c6845b"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "68c0f23b9409baf341e30c8e47853fa535acc77b0ba931adf478a91b82c6845b"
+    },
+    {
+      "canonical_name": "polio",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "polio",
+      "chunk_id": "68c0f23b9409baf341e30c8e47853fa535acc77b0ba931adf478a91b82c6845b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

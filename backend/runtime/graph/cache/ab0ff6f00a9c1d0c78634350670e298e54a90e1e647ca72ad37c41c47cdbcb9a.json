@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_a67a0166293bb6ca1d67b418d1d1fafb",
+  "content_hash": "52e542a8374df73410d1d0e9de1c89c5955d3d15698206e1edf948db6d7bd6ec",
+  "entities": [
+    {
+      "canonical_name": "hepatic diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatic diseases",
+      "chunk_id": "chk_a67a0166293bb6ca1d67b418d1d1fafb"
+    },
+    {
+      "canonical_name": "viral hepatitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "viral hepatitis",
+      "chunk_id": "chk_a67a0166293bb6ca1d67b418d1d1fafb"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_a67a0166293bb6ca1d67b418d1d1fafb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

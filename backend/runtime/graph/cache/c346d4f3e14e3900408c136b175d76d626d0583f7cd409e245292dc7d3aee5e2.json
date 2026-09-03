@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_b06f36a9f8fbf8072d091bd755c22520",
+  "content_hash": "545ffc4c0d25681cc4e0c8ea4cb015a1bf054f979b7d42f1394d718add65b547",
+  "entities": [
+    {
+      "canonical_name": "rabies virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rabies virus",
+      "chunk_id": "chk_b06f36a9f8fbf8072d091bd755c22520"
+    },
+    {
+      "canonical_name": "West Nile Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "West Nile Virus",
+      "chunk_id": "chk_b06f36a9f8fbf8072d091bd755c22520"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

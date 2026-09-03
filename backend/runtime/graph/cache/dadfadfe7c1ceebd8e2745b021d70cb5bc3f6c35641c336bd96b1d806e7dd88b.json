@@ -1,0 +1,15 @@
+{
+  "chunk_id": "9cc97efe4abc4589073d5652f229d7a1cd5b484a476aa98659b3dac4df054280",
+  "content_hash": "1f9bb5a840896657657b92da1a8f0233ec98ea0dd13b5d9cd4b4e62843aeae5c",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccination in pregnant and lactating women",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination in pregnant and lactating women",
+      "chunk_id": "9cc97efe4abc4589073d5652f229d7a1cd5b484a476aa98659b3dac4df054280"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

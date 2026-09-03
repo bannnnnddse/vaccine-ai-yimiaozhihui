@@ -1,0 +1,37 @@
+{
+  "chunk_id": "chk_67518e8ce48b49c2531b4c7fd68bd3a5",
+  "content_hash": "da064c1cf7f75141e4bd8ce4f677feaf3b274892c47171b455cf09250da40546",
+  "entities": [
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_67518e8ce48b49c2531b4c7fd68bd3a5"
+    },
+    {
+      "canonical_name": "IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IPV",
+      "chunk_id": "chk_67518e8ce48b49c2531b4c7fd68bd3a5"
+    },
+    {
+      "canonical_name": "bOPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bOPV",
+      "chunk_id": "chk_67518e8ce48b49c2531b4c7fd68bd3a5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_canonical_not_surface",
+    "entity_surface_missing",
+    "llm_forbidden_relation"
+  ]
+}

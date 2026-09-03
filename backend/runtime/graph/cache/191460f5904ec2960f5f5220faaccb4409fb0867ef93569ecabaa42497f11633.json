@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_d29370f029591184b7e9a0698450d550",
+  "content_hash": "4e1109d5f9779959df8445b56f50e64e2ff6edf459ac414fdfe946285f8fbd4e",
+  "entities": [
+    {
+      "canonical_name": "A/Singapore/INFIMH-16-0019/ 2016 (H3N2, IVR-186) virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "A/Singapore/INFIMH-16-0019/ 2016 (H3N2, IVR-186) virus",
+      "chunk_id": "chk_d29370f029591184b7e9a0698450d550"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,89 @@
+{
+  "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4",
+  "content_hash": "fc40b332c2dfc42dc6da7a0c64a92b4486d2a71fa2565a662ee8213e9e594bf1",
+  "entities": [
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diseases",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "group B streptococci",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "group B streptococci",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "res -piratory syncytial virus (RSV)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "res -piratory syncytial virus (RSV)",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "neonatal or infant infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "neonatal or infant infection",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "youngest infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "youngest infants",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "specific neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "specific neutralizing antibodies",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "immune donors",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immune donors",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "varicella zoster virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "varicella zoster virus",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_78e6ac729a2510b1ed8df3dfa7c73ca4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

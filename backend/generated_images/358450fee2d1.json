@@ -1,0 +1,383 @@
+{
+  "job_id": "358450fee2d1",
+  "prompt": "我想了解一下hpv疫苗作用机制",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "virus",
+      "b_cell",
+      "antibody",
+      "memory_b",
+      "antigen"
+    ],
+    "scene_direction": "16:9横版科学机制图，分为三个主要步骤区域。左侧为HPV病毒颗粒与人体细胞接触，中间展示L1蛋白自组装形成的病毒样颗粒（VLP），右侧展示免疫系统识别VLP并产生抗体及记忆B细胞的过程。画面需体现严谨的科学逻辑，避免复杂背景，突出分子和细胞间的相互作用。",
+    "optimized_chinese_prompt": "Scientific mechanism diagram showing HPV vaccine action. Step 1: HPV virion approaching a host cell surface receptor. Step 2: L1 capsid proteins self-assembling into Virus-Like Particles (VLPs) without viral DNA. Step 3: Immune system recognition of VLPs by B cells, leading to the production of neutralizing antibodies and memory B cells. Clean layout, 16:9 aspect ratio, scientific style, minimal text labels.",
+    "chinese_labels": [
+      "HPV病毒颗粒",
+      "L1衣壳蛋白",
+      "病毒样颗粒(VLP)",
+      "B淋巴细胞",
+      "中和抗体",
+      "记忆B细胞"
+    ],
+    "scientific_claims": [
+      "HPV疫苗主要由L1衣壳蛋白自组装成的病毒样颗粒（VLP）构成。",
+      "VLP在结构上与天然HPV病毒高度相似，但不含病毒DNA，无感染性。",
+      "VLP作为抗原被免疫系统识别，刺激B细胞产生特异性中和抗体。",
+      "产生的记忆B细胞可在未来遇到真实HPV病毒感染时快速响应。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "HPV病毒颗粒通过L1蛋白介导的构象特征与宿主细胞受体相互作用，但疫苗中的成分仅包含L1蛋白。"
+      },
+      {
+        "primary_relation": "重组表达的L1衣壳蛋白在体外或体内自发组装成高免疫原性的病毒样颗粒（VLP）。"
+      },
+      {
+        "primary_relation": "免疫系统识别VLP表面的抗原表位，激活B淋巴细胞进行克隆扩增和分化。"
+      },
+      {
+        "primary_relation": "分化的浆细胞分泌针对HPV型别的高亲和力中和抗体，同时形成记忆B细胞以提供长期保护。"
+      }
+    ],
+    "route_reason": "主题涉及病毒（HPV）及其与免疫系统的相互作用，属于严格的生物医学机制解释。根据规则，此类主题默认使用cell_ip_scientific profile，要求16:9横版、多分区展示因果步骤，并严格遵循锁定角色契约，不描述病毒外观细节，仅关注其语义角色和科学过程。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "virus",
+    "b_cell",
+    "antibody",
+    "memory_b",
+    "antigen"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "蛋白介导的构象特征与宿主细胞"
+  ],
+  "cell_ip_label_layout": {
+    "anchors": [
+      {
+        "role_id": "virus",
+        "role_bbox": [
+          0.03,
+          0.02,
+          0.28,
+          0.26
+        ],
+        "label_bbox": [
+          0.29075309818875117,
+          0.12206103051525763,
+          0.4051477597712107,
+          0.15757878939469736
+        ],
+        "confidence": 0.99
+      },
+      {
+        "role_id": "b_cell",
+        "role_bbox": [
+          0.34,
+          0.03,
+          0.57,
+          0.25
+        ],
+        "label_bbox": [
+          0.4127740705433746,
+          0.26113056528264134,
+          0.4971401334604385,
+          0.2961480740370185
+        ],
+        "confidence": 0.98
+      },
+      {
+        "role_id": "antibody",
+        "role_bbox": [
+          0.14,
+          0.58,
+          0.32,
+          0.76
+        ],
+        "label_bbox": [
+          0.1954242135367016,
+          0.7713856928464232,
+          0.2640610104861773,
+          0.8074037018509255
+        ],
+        "confidence": 0.99
+      },
+      {
+        "role_id": "memory_b",
+        "role_bbox": [
+          0.83,
+          0.33,
+          1.0,
+          0.52
+        ],
+        "label_bbox": [
+          0.8498570066730219,
+          0.5312656328164082,
+          0.9799809342230696,
+          0.5667833916958479
+        ],
+        "confidence": 0.97
+      },
+      {
+        "role_id": "antigen",
+        "role_bbox": [
+          0.03,
+          0.27,
+          0.18,
+          0.42
+        ],
+        "label_bbox": [
+          0.19065776930409914,
+          0.3266633316658329,
+          0.25929456625357483,
+          0.3626813406703352
+        ],
+        "confidence": 0.96
+      }
+    ]
+  },
+  "reference_assets": [
+    "role-sheet:virus+b_cell+antibody+memory_b+antigen"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:virus+b_cell+antibody+memory_b+antigen"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "virus",
+      "asset_id": "canonical:virus"
+    },
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    },
+    {
+      "role_id": "memory_b",
+      "asset_id": "canonical:memory_b"
+    },
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n16:9横版科学机制图，分为三个主要步骤区域。左侧为HPV病毒颗粒与人体细胞接触，中间展示L1蛋白自组装形成的病毒样颗粒（VLP），右侧展示免疫系统识别VLP并产生抗体及记忆B细胞的过程。画面需体现严谨的科学逻辑，避免复杂背景，突出分子和细胞间的相互作用。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. HPV病毒颗粒通过L1蛋白介导的构象特征与宿主细胞受体相互作用，但疫苗中的成分仅包含L1蛋白。；2. 重组表达的L1衣壳蛋白在体外或体内自发组装成高免疫原性的病毒样颗粒（VLP）。；3. 免疫系统识别VLP表面的抗原表位，激活B淋巴细胞进行克隆扩增和分化。；4. 分化的浆细胞分泌针对HPV型别的高亲和力中和抗体，同时形成记忆B细胞以提供长期保护。\n- 禁止生成任何可读文字、字母、数字、伪文字或文字形状。每个命中的固定角色至少保留一次轮廓完整、彼此不遮挡的代表性出场，并在角色四周保留适量自然留白；不要生成底标框，角色名称与圆角底标全部由程序根据角色位置绘制\n- 程序稍后写入的规范角色名称为：病毒颗粒、B细胞、抗体、记忆B细胞、抗原；这些名称只用于确定程序底标数量和宽度，\n  你不得在画面中书写、临摹或生成其中任何字符\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是完整细胞 IP 角色总表；只从中提取并使用命中的固定角色（病毒颗粒、B 细胞、抗体、记忆 B 细胞、抗原），保持其颜色、轮廓、面部和专属道具与表中完全一致；不得使用表中其余角色，也不得复制其中的文字、事件或构图\n- 本题命中的固定角色：病毒颗粒、B 细胞、抗体、记忆 B 细胞、抗原\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 病毒颗粒：青绿色多边形带圆刺，可带小盾牌\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 记忆 B 细胞：浅紫圆体、眼镜、学士帽、绿色书本\n- 抗原：紫色圆刺团，表情可警觉\n【角色总表选取】（仅当参考图为完整角色总表时启用）\n- 图1 是完整细胞 IP 角色总表。画面所需固定角色必须逐个从该表中找到并原样使用，颜色、轮廓、面部、专属道具与装饰一律以表中为准：\n- 病毒颗粒：青绿色多边形带圆刺，可带小盾牌\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 记忆 B 细胞：浅紫圆体、眼镜、学士帽、绿色书本\n- 抗原：紫色圆刺团，表情可警觉\n- 只在总表中提取命中的角色：病毒颗粒、B 细胞、抗体、记忆 B 细胞、抗原；忽略并不得使用表中其余角色，也不得新增表中不存在的固定角色。\n- 未收录的必要细胞：蛋白介导的构象特征与宿主细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：禁止标题；标题和角色名均由程序在生成后确定性绘制\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和角色身份优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、10 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 4 个核心步骤；使用编号步骤；不强制标题。\n核心图形主体应覆盖约 70% 的有效画布，避免主体缩成一小排并留下大片空白；整张图最多出现 4 个短文字标签。同一核心细胞或抗原角色应在不同步骤中重复出现，用姿态、位置和状态变化表达过程；优先用细胞角色、抗原/抗体图形、箭头、编号和状态图标表达，不要用句子或段落替代画面。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 10,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 4,
+    "requires_numbered_steps": true,
+    "requires_title": false,
+    "minimum_subject_coverage_percent": 70,
+    "maximum_text_labels": 4,
+    "repeat_core_subjects_across_steps": true
+  },
+  "aspect_ratio": "16:9",
+  "image_id": "358450fee2d1-v1",
+  "trusted_image": "358450fee2d1-v1.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "图像存在严重的科学事实错误和角色IP不一致问题。1. 核心机制错误：图中将‘抗原’（紫色多刺团）描绘为与B细胞相互作用并触发反应的主体，而HPV疫苗机制应为‘病毒样颗粒（VLP，青绿色多边形）’被免疫系统识别。2. 角色混淆：图1中的‘记忆B细胞’（戴学士帽）在流程末端变成了手持剑盾的超级英雄形象，且该形象未在图2的角色定义中出现，属于AI幻觉生成的无关元素。3. 布局混乱：未能按照指令构建4个信息分区和清晰的步骤编号，因果关系链断裂。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "issue",
+        "evidence": "图1右下角出现了一个手持剑盾的橙色/黄色战士角色，该角色在图2的角色设定表中不存在，属于生成幻觉。此外，图1中的‘记忆B细胞’（学士帽）与图2中的形象一致，但在流程图中发生了不合理的形态变化或重复出现。",
+        "confidence": 0.95
+      },
+      "text_legibility": {
+        "status": "pass",
+        "evidence": "画面中可见的中文标签（如‘病毒颗粒’、‘B细胞’、‘抗原’、‘抗体’、‘记忆B细胞’）字形清晰，无乱码或伪文字，符合规范简体中文要求。",
+        "confidence": 1.0
+      },
+      "layout_hierarchy": {
+        "status": "issue",
+        "evidence": "未满足复杂度契约。画面缺乏明确的编号步骤（1-4步）和清晰的信息分区。箭头流向混乱，例如‘抗原’直接指向‘B细胞’再指向‘抗体’，缺失了‘VLP组装’和‘浆细胞分泌’等关键中间环节的逻辑表达，导致信息密度不足且逻辑不通。",
+        "confidence": 0.9
+      },
+      "brief_alignment": {
+        "status": "issue",
+        "evidence": "严重偏离用户关于HPV疫苗作用机制的需求。用户明确要求展示‘L1蛋白组装成VLP’及‘VLP激活B细胞’的过程。当前图像错误地使用了通用的‘抗原’（紫色球体）代替特指的‘病毒颗粒/VLP’（青绿色多边形），且完全缺失了VLP组装这一核心步骤的视觉表达。",
+        "confidence": 0.98
+      },
+      "causal_step_coverage": {
+        "status": "issue",
+        "evidence": "核心因果链缺失。指令要求的步骤2（VLP组装）和步骤4（浆细胞分泌+记忆细胞形成）在图中未被正确可视化。图中仅展示了简单的线性流动，且使用了错误的实体（抗原而非VLP）作为起始点。",
+        "confidence": 0.95
+      },
+      "scientific_expression_risk": {
+        "status": "issue",
+        "evidence": "科学表达风险高。将‘抗原’（通常指被识别的片段或通用病原体形象）直接等同于疫苗的核心成分‘VLP’是不准确的。HPV疫苗的特异性在于L1蛋白自组装成的VLP结构，图中用紫色多刺球体代表抗原来启动B细胞反应，容易误导读者认为疫苗是直接注射抗原，而非疫苗颗粒（VLP）。",
+        "confidence": 0.9
+      }
+    },
+    "blind_text_audit": {
+      "status": "unavailable",
+      "summary": "独立文字盲读暂时不可用，已继续进行完整视觉审核。",
+      "text_blocks": []
+    },
+    "issues": [
+      {
+        "issue_type": "scientific_expression",
+        "severity": "high",
+        "description": "潜在科学表达风险（当前未接入证据核验）：核心概念错误：图中使用紫色的‘抗原’角色代替了青绿色的‘病毒颗粒（VLP）’作为免疫反应的启动者。HPV疫苗机制应展示VLP（L1蛋白组装）被识别，而非普通抗原。",
+        "bbox": [
+          0.2,
+          0.3,
+          0.4,
+          0.5
+        ],
+        "observed_text": "抗原",
+        "replacement_text": "病毒样颗粒 (VLP)",
+        "confidence": 0.95,
+        "suggested_fix": "将触发B细胞活化的紫色‘抗原’角色替换为青绿色多边形‘病毒颗粒’，并在其旁增加‘VLP’标识或说明文字，以符合HPV疫苗机制。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "style_inconsistency",
+        "severity": "high",
+        "description": "角色IP不一致：图1流程图中出现了图2角色设定表中不存在的‘持剑盾战士’形象（位于右下角），破坏了固定细胞IP的统一性。",
+        "bbox": [
+          0.8,
+          0.6,
+          1.0,
+          0.8
+        ],
+        "observed_text": null,
+        "replacement_text": null,
+        "confidence": 0.98,
+        "suggested_fix": "删除右下角的持剑盾战士形象。若需表现‘清除病毒’，应使用图2中定义的‘细胞毒性T细胞’（若适用）或仅通过箭头和抗体结合来表示，严禁新增未定义的IP角色。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "layout",
+        "severity": "medium",
+        "description": "流程结构不完整：未按指令构建4个信息分区和编号步骤。缺失‘VLP组装’步骤的视觉表达，导致从原料到功能的逻辑链条断裂。",
+        "bbox": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "observed_text": null,
+        "replacement_text": null,
+        "confidence": 0.9,
+        "suggested_fix": "重新规划布局，明确划分为：1. L1蛋白表达；2. VLP组装；3. 免疫识别（VLP与B细胞）；4. 分化与效应（浆细胞分泌抗体+记忆B细胞）。添加数字编号1-4引导阅读顺序。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "other",
+        "severity": "medium",
+        "description": "图片文字盲读服务不可用，无法自动定位文字修复范围。",
+        "bbox": null,
+        "observed_text": null,
+        "replacement_text": null,
+        "confidence": 1.0,
+        "suggested_fix": "请人工核验图片，并补充明确的问题区域或接受结果。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": {
+    "passed": true,
+    "outside_change_score": 0.0,
+    "threshold": 0.05,
+    "changed_outside_bbox": false,
+    "inside_change_score": 0.064619,
+    "minimum_inside_change": 0.01,
+    "insufficient_change_inside_bbox": false,
+    "outside_change_regions": [],
+    "notes": "框外变化处于当前工程阈值内，且框内检测到有效变化。"
+  },
+  "auto_revision_count": 1,
+  "revision_origin": "auto",
+  "last_revision_bbox": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "last_edit_instruction": "仅修改指定矩形区域；矩形外所有像素内容、主体、构图和文字保持不变。修改后保持原图画风、配色、光影、排版和文字风格一致，不新增无关元素。\n根据审核意见修正：清除框内所有乱码、错字、缺字、残影和不可读文字；严格按审核契约重新排版完整、清晰的规范简体中文标签与步骤。\n这是固定细胞 IP 的无字底图重整：清除画面内全部现有文字、字母、数字、伪文字及旧底标，不要生成任何新文字或底标；程序会在编辑完成后重新定位角色并绘制规范中文底标。",
+  "created_at": "2026-09-01T07:22:56.110584+00:00",
+  "finished_at": "2026-09-01T07:24:48.742849+00:00",
+  "stage": "failed",
+  "error": "文字质检未通过：图片仍含错字、乱码、缺字、不可读文字，或 OCR 审查不可用。本次图片未发布，请重试生成。",
+  "trace_id": "edeba20d0d02",
+  "trace_events": [
+    {
+      "id": "edeba20d0d02-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-09-01T07:22:56.110584Z"
+    },
+    {
+      "id": "edeba20d0d02-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：Scientific mechanism diagram showing HPV vaccine action. Step 1: HPV virion approaching a host cell surface receptor. Step 2: L1 capsid proteins self-assembling into Virus-Like Pa… 详细机制图：至少 4 个信息分区、10 个可辨视觉节点、4 条方向连接。",
+      "status": "completed",
+      "created_at": "2026-09-01T07:22:56.110584Z"
+    },
+    {
+      "id": "edeba20d0d02-3",
+      "stage": "generation",
+      "title": "细胞场景已生成",
+      "detail": "正在识别固定角色并写入规范中文底标。",
+      "status": "completed",
+      "created_at": "2026-09-01T07:23:03.343497Z"
+    },
+    {
+      "id": "edeba20d0d02-4",
+      "stage": "visual_critic",
+      "title": "视觉审查发现一个可自动修正的问题",
+      "detail": "Label '记忆B细胞克整胞' contains garbled characters at the end.",
+      "status": "completed",
+      "created_at": "2026-09-01T07:23:23.344617Z"
+    },
+    {
+      "id": "edeba20d0d02-5",
+      "stage": "auto_revision",
+      "title": "局部修改已生成",
+      "detail": "候选结果尚需通过修改范围检查。",
+      "status": "completed",
+      "created_at": "2026-09-01T07:23:51.753723Z"
+    },
+    {
+      "id": "edeba20d0d02-6",
+      "stage": "scope_guard",
+      "title": "修改范围检查通过",
+      "detail": "目标区域已发生有效变化，其他区域保持稳定。",
+      "status": "completed",
+      "created_at": "2026-09-01T07:24:18.845672Z"
+    },
+    {
+      "id": "edeba20d0d02-7",
+      "stage": "final_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "图像存在严重的科学事实错误和角色IP不一致问题。1. 核心机制错误：图中将‘抗原’（紫色多刺团）描绘为与B细胞相互作用并触发反应的主体，而HPV疫苗机制应为‘病毒样颗粒（VLP，青绿色多边形）’被免疫系统识别。2. 角色混淆：图1中的‘记忆B细胞’（戴学士帽）在流程末端变成了手持剑盾的超级英雄形象，且该形象未在图2的角色定义中出现，属于AI幻觉生成的无关元素。3. 布局混乱：未能按照指令构建4个信息分区和清晰的步骤编号，因果关系链断裂。",
+      "status": "warning",
+      "created_at": "2026-09-01T07:24:19.258055Z"
+    }
+  ],
+  "trace_history": []
+}

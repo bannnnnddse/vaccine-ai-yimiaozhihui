@@ -1,0 +1,78 @@
+{
+  "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38",
+  "content_hash": "f6bb5de30f1ad3ee51d5bb46cdb14d12775df8e25c736f4ad2ae9b31c401774e",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    },
+    {
+      "canonical_name": "adverse reactions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse reactions",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    },
+    {
+      "canonical_name": "toll-like receptor 7",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "toll-like receptor 7",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    },
+    {
+      "canonical_name": "B-cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B-cells",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 vaccine",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    },
+    {
+      "canonical_name": "men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "men",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    },
+    {
+      "canonical_name": "lymphocyte",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "lymphocyte",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    },
+    {
+      "canonical_name": "dendritic cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "dendritic cell",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    },
+    {
+      "canonical_name": "undernourished populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "undernourished populations",
+      "chunk_id": "chk_a16d3f599be1f6623c3decc45dc03d38"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

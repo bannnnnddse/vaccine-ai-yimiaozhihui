@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_22832ad6a5e1efad0fe6db9a5e1db798",
+  "content_hash": "939270903ec354b6a25bf810b333c07b1aeca2fa9348a4a526463b48d1c9ce37",
+  "entities": [
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_22832ad6a5e1efad0fe6db9a5e1db798"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

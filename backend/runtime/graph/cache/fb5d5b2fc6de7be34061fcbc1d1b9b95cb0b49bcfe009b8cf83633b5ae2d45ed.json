@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_05eae2ad5ae37180039a91410c3e1a96",
+  "content_hash": "2cc91c076934bb6d71a6fc9f2f443348a972c2575873312cbdaa5975c41583b5",
+  "entities": [
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_05eae2ad5ae37180039a91410c3e1a96"
+    },
+    {
+      "canonical_name": "killed vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "killed vaccine",
+      "chunk_id": "chk_05eae2ad5ae37180039a91410c3e1a96"
+    },
+    {
+      "canonical_name": "dengue virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "dengue virus",
+      "chunk_id": "chk_05eae2ad5ae37180039a91410c3e1a96"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

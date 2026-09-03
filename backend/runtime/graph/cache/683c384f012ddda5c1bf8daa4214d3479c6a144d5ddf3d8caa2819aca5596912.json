@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_042b83ed33c92d61d1afdf9ac4115aea",
+  "content_hash": "dd09488b8f7fd6f4f3ab5be36b5c4439ae3a121631e265411a37a970a1d050a5",
+  "entities": [
+    {
+      "canonical_name": "seasonal flu vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "seasonal flu vaccine",
+      "chunk_id": "chk_042b83ed33c92d61d1afdf9ac4115aea"
+    },
+    {
+      "canonical_name": "COVID‐19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID‐19 vaccine",
+      "chunk_id": "chk_042b83ed33c92d61d1afdf9ac4115aea"
+    },
+    {
+      "canonical_name": "coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "coronavirus",
+      "chunk_id": "chk_042b83ed33c92d61d1afdf9ac4115aea"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_042b83ed33c92d61d1afdf9ac4115aea"
+    },
+    {
+      "canonical_name": "COVID ‐ 19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID ‐ 19",
+      "chunk_id": "chk_042b83ed33c92d61d1afdf9ac4115aea"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

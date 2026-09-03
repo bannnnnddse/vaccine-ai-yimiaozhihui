@@ -1,0 +1,36 @@
+{
+  "chunk_id": "9d8096a642afe93e65bd73d600eb8f4a468e8f53585e2006d96db9fc70c054ce",
+  "content_hash": "42a2171689fbb9360e61dd58994f90ee7694175df6e8ef866c7b6cbfd0a0fd0e",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccine",
+      "chunk_id": "9d8096a642afe93e65bd73d600eb8f4a468e8f53585e2006d96db9fc70c054ce"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "9d8096a642afe93e65bd73d600eb8f4a468e8f53585e2006d96db9fc70c054ce"
+    },
+    {
+      "canonical_name": "pneumococcal vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal vaccines",
+      "chunk_id": "9d8096a642afe93e65bd73d600eb8f4a468e8f53585e2006d96db9fc70c054ce"
+    },
+    {
+      "canonical_name": "aging populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "aging populations",
+      "chunk_id": "9d8096a642afe93e65bd73d600eb8f4a468e8f53585e2006d96db9fc70c054ce"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

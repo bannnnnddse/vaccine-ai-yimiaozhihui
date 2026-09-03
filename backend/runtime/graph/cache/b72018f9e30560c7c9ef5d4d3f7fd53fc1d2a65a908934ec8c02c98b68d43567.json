@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_25a92647cae3fa806a82d086d705ec45",
+  "content_hash": "b72bdfb805c27dac67fd8c760a2e19f0a7d84a692d58ee8f6f4340434e2dbcad",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal",
+      "chunk_id": "chk_25a92647cae3fa806a82d086d705ec45"
+    },
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_25a92647cae3fa806a82d086d705ec45"
+    },
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_25a92647cae3fa806a82d086d705ec45"
+    },
+    {
+      "canonical_name": "new target population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "new target population",
+      "chunk_id": "chk_25a92647cae3fa806a82d086d705ec45"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

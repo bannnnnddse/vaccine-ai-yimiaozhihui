@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b82500d2350c4028a8af0765e7f5e7ad",
+  "content_hash": "033d16008d272f8911ff08610f13f582854e5165688589af36907993121f6dfd",
+  "entities": [
+    {
+      "canonical_name": "RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA vaccines",
+      "chunk_id": "chk_b82500d2350c4028a8af0765e7f5e7ad"
+    },
+    {
+      "canonical_name": "viral vector-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "viral vector-based vaccines",
+      "chunk_id": "chk_b82500d2350c4028a8af0765e7f5e7ad"
+    },
+    {
+      "canonical_name": "pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogens",
+      "chunk_id": "chk_b82500d2350c4028a8af0765e7f5e7ad"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

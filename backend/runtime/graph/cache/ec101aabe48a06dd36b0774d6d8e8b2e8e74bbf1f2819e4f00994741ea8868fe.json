@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_9afcd7fa4c7423bf1474743bf18ac1e3",
+  "content_hash": "673f494baa60788c19589ab677fbb44340fc6e3954874ae635520d32f86425c5",
+  "entities": [
+    {
+      "canonical_name": "Tdap",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Tdap",
+      "chunk_id": "chk_9afcd7fa4c7423bf1474743bf18ac1e3"
+    },
+    {
+      "canonical_name": "chorioamnionitis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "chorioamnionitis",
+      "chunk_id": "chk_9afcd7fa4c7423bf1474743bf18ac1e3"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_9afcd7fa4c7423bf1474743bf18ac1e3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_8ebabb0f751c5ad4682704f8a418fd7f",
+  "content_hash": "b28d4d6a4f07cf8f9e054c32afdb8795a571b6639e9b25a66412e708f92d2182",
+  "entities": [
+    {
+      "canonical_name": "rHB2912aaNSs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rHB2912aaNSs",
+      "chunk_id": "chk_8ebabb0f751c5ad4682704f8a418fd7f"
+    },
+    {
+      "canonical_name": "rHB29NSsP 102 A",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rHB29NSsP 102 A",
+      "chunk_id": "chk_8ebabb0f751c5ad4682704f8a418fd7f"
+    },
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "chk_8ebabb0f751c5ad4682704f8a418fd7f"
+    },
+    {
+      "canonical_name": "aged ferrets",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "aged ferrets",
+      "chunk_id": "chk_8ebabb0f751c5ad4682704f8a418fd7f"
+    },
+    {
+      "canonical_name": "severe body weight loss",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "severe body weight loss",
+      "chunk_id": "chk_8ebabb0f751c5ad4682704f8a418fd7f"
+    },
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_8ebabb0f751c5ad4682704f8a418fd7f"
+    },
+    {
+      "canonical_name": "serum viremia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serum viremia",
+      "chunk_id": "chk_8ebabb0f751c5ad4682704f8a418fd7f"
+    },
+    {
+      "canonical_name": "fatality",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fatality",
+      "chunk_id": "chk_8ebabb0f751c5ad4682704f8a418fd7f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_a7e47fd33d3ce2b09d2a13c1c1ba2722",
+  "content_hash": "a3d44fb5d121f46fe8f48bbf3cac333f33179506b58b0af18090b3db61438b6a",
+  "entities": [
+    {
+      "canonical_name": "重组(酵母)HepB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "重组（酵母）HepB",
+      "chunk_id": "chk_a7e47fd33d3ce2b09d2a13c1c1ba2722"
+    },
+    {
+      "canonical_name": "重组[中国仓鼠卵巢(CHO)细胞]HepB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "重组[中国仓鼠卵巢（CHO）细胞]HepB",
+      "chunk_id": "chk_a7e47fd33d3ce2b09d2a13c1c1ba2722"
+    },
+    {
+      "canonical_name": "HepB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB",
+      "chunk_id": "chk_a7e47fd33d3ce2b09d2a13c1c1ba2722"
+    },
+    {
+      "canonical_name": "新生儿",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "新生儿",
+      "chunk_id": "chk_a7e47fd33d3ce2b09d2a13c1c1ba2722"
+    },
+    {
+      "canonical_name": "0 — 1 — 6 个月",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "0 — 1 — 6 个月",
+      "chunk_id": "chk_a7e47fd33d3ce2b09d2a13c1c1ba2722"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

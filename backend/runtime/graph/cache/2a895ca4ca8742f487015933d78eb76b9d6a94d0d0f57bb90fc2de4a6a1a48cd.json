@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d10bb26859eee056ba60bf99f9e79887",
+  "content_hash": "1dd16eebe5625769ad7ae71b4d8c5fb22fed3d51a1790c5cdfcfb27e39377731",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_d10bb26859eee056ba60bf99f9e79887"
+    },
+    {
+      "canonical_name": "mRNA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mRNA",
+      "chunk_id": "chk_d10bb26859eee056ba60bf99f9e79887"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

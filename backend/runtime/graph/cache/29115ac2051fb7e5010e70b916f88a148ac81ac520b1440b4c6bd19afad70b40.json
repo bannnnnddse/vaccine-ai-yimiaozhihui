@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_5074ebca350b9cb59d5570b7e1459a69",
+  "content_hash": "83a21018b5ea12cc12b53f65e4c091359aaf269f2261cf47e8dcf88fe3b0ef8b",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_5074ebca350b9cb59d5570b7e1459a69"
+    },
+    {
+      "canonical_name": "Strep A infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Strep A infections",
+      "chunk_id": "chk_5074ebca350b9cb59d5570b7e1459a69"
+    },
+    {
+      "canonical_name": "autoimmunity",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "autoimmunity",
+      "chunk_id": "chk_5074ebca350b9cb59d5570b7e1459a69"
+    },
+    {
+      "canonical_name": "Strep A",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Strep A",
+      "chunk_id": "chk_5074ebca350b9cb59d5570b7e1459a69"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

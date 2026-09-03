@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_e1001a067e7ca171339d01ed47023f67",
+  "content_hash": "f62e7be6888191e7fe7a4bf10611789ce20b0ecfb401761455fb83ed68267dec",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 mRNA vaccine",
+      "chunk_id": "chk_e1001a067e7ca171339d01ed47023f67"
+    },
+    {
+      "canonical_name": "kidney transplant recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "kidney transplant recipients",
+      "chunk_id": "chk_e1001a067e7ca171339d01ed47023f67"
+    },
+    {
+      "canonical_name": "BNT162b2 mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 mRNA vaccine",
+      "chunk_id": "chk_e1001a067e7ca171339d01ed47023f67"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_122ab30f047699d88ea63b4da5a11208",
+  "content_hash": "f4c46946abf46f49ff15e84a8ca7b75962cac89385a089067095321125fd8358",
+  "entities": [
+    {
+      "canonical_name": "meningococcal C conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "meningococcal C conjugate vaccine",
+      "chunk_id": "chk_122ab30f047699d88ea63b4da5a11208"
+    },
+    {
+      "canonical_name": "meningococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "meningococcus",
+      "chunk_id": "chk_122ab30f047699d88ea63b4da5a11208"
+    },
+    {
+      "canonical_name": "humoral antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral antibodies",
+      "chunk_id": "chk_122ab30f047699d88ea63b4da5a11208"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,4898 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "doc_546b550f8a8de851a3aaa42d",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 1053580223020963322,
+    "filename": "doc_546b550f8a8de851a3aaa42d.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/29"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/31"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/33"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/35"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/pictures/7"
+      },
+      {
+        "$ref": "#/texts/37"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/39"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/41"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/43"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/45"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/47"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/groups/0"
+      },
+      {
+        "$ref": "#/texts/65"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/groups/1"
+      },
+      {
+        "$ref": "#/pictures/8"
+      },
+      {
+        "$ref": "#/texts/107"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/groups/2"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/49"
+        },
+        {
+          "$ref": "#/texts/50"
+        },
+        {
+          "$ref": "#/texts/51"
+        },
+        {
+          "$ref": "#/texts/52"
+        },
+        {
+          "$ref": "#/texts/53"
+        },
+        {
+          "$ref": "#/texts/54"
+        },
+        {
+          "$ref": "#/texts/55"
+        },
+        {
+          "$ref": "#/texts/56"
+        },
+        {
+          "$ref": "#/texts/57"
+        },
+        {
+          "$ref": "#/texts/58"
+        },
+        {
+          "$ref": "#/texts/59"
+        },
+        {
+          "$ref": "#/texts/60"
+        },
+        {
+          "$ref": "#/texts/61"
+        },
+        {
+          "$ref": "#/texts/62"
+        },
+        {
+          "$ref": "#/texts/63"
+        },
+        {
+          "$ref": "#/texts/64"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/67"
+        },
+        {
+          "$ref": "#/texts/68"
+        },
+        {
+          "$ref": "#/texts/69"
+        },
+        {
+          "$ref": "#/texts/70"
+        },
+        {
+          "$ref": "#/texts/71"
+        },
+        {
+          "$ref": "#/texts/72"
+        },
+        {
+          "$ref": "#/texts/73"
+        },
+        {
+          "$ref": "#/texts/74"
+        },
+        {
+          "$ref": "#/texts/75"
+        },
+        {
+          "$ref": "#/texts/76"
+        },
+        {
+          "$ref": "#/texts/77"
+        },
+        {
+          "$ref": "#/texts/78"
+        },
+        {
+          "$ref": "#/texts/79"
+        },
+        {
+          "$ref": "#/texts/80"
+        },
+        {
+          "$ref": "#/texts/81"
+        },
+        {
+          "$ref": "#/texts/82"
+        },
+        {
+          "$ref": "#/texts/83"
+        },
+        {
+          "$ref": "#/texts/84"
+        },
+        {
+          "$ref": "#/texts/85"
+        },
+        {
+          "$ref": "#/texts/86"
+        },
+        {
+          "$ref": "#/texts/87"
+        },
+        {
+          "$ref": "#/texts/88"
+        },
+        {
+          "$ref": "#/texts/89"
+        },
+        {
+          "$ref": "#/texts/90"
+        },
+        {
+          "$ref": "#/texts/91"
+        },
+        {
+          "$ref": "#/texts/92"
+        },
+        {
+          "$ref": "#/texts/93"
+        },
+        {
+          "$ref": "#/texts/94"
+        },
+        {
+          "$ref": "#/texts/95"
+        },
+        {
+          "$ref": "#/texts/96"
+        },
+        {
+          "$ref": "#/texts/97"
+        },
+        {
+          "$ref": "#/texts/98"
+        },
+        {
+          "$ref": "#/texts/99"
+        },
+        {
+          "$ref": "#/texts/100"
+        },
+        {
+          "$ref": "#/texts/101"
+        },
+        {
+          "$ref": "#/texts/102"
+        },
+        {
+          "$ref": "#/texts/103"
+        },
+        {
+          "$ref": "#/texts/104"
+        },
+        {
+          "$ref": "#/texts/105"
+        },
+        {
+          "$ref": "#/texts/106"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/109"
+        },
+        {
+          "$ref": "#/texts/110"
+        },
+        {
+          "$ref": "#/texts/111"
+        },
+        {
+          "$ref": "#/texts/112"
+        },
+        {
+          "$ref": "#/texts/113"
+        },
+        {
+          "$ref": "#/texts/114"
+        },
+        {
+          "$ref": "#/texts/115"
+        },
+        {
+          "$ref": "#/texts/116"
+        },
+        {
+          "$ref": "#/texts/117"
+        },
+        {
+          "$ref": "#/texts/118"
+        },
+        {
+          "$ref": "#/texts/119"
+        },
+        {
+          "$ref": "#/texts/120"
+        },
+        {
+          "$ref": "#/texts/121"
+        },
+        {
+          "$ref": "#/texts/122"
+        },
+        {
+          "$ref": "#/texts/123"
+        },
+        {
+          "$ref": "#/texts/124"
+        },
+        {
+          "$ref": "#/texts/125"
+        },
+        {
+          "$ref": "#/texts/126"
+        },
+        {
+          "$ref": "#/texts/127"
+        },
+        {
+          "$ref": "#/texts/128"
+        },
+        {
+          "$ref": "#/texts/129"
+        },
+        {
+          "$ref": "#/texts/130"
+        },
+        {
+          "$ref": "#/texts/131"
+        },
+        {
+          "$ref": "#/texts/132"
+        },
+        {
+          "$ref": "#/texts/133"
+        },
+        {
+          "$ref": "#/texts/134"
+        },
+        {
+          "$ref": "#/texts/135"
+        },
+        {
+          "$ref": "#/texts/136"
+        },
+        {
+          "$ref": "#/texts/137"
+        },
+        {
+          "$ref": "#/texts/138"
+        },
+        {
+          "$ref": "#/texts/139"
+        },
+        {
+          "$ref": "#/texts/140"
+        },
+        {
+          "$ref": "#/texts/141"
+        },
+        {
+          "$ref": "#/texts/142"
+        }
+      ],
+      "content_layer": "body",
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.31219482421875,
+            "t": 749.1675415039062,
+            "r": 171.8279266357422,
+            "b": 734.100830078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "HUMAN VACCINES & IMMUNOTHERAPEUTICS 2020, VOL. 16, NO. 8, 1900\u20131904",
+      "text": "HUMAN VACCINES & IMMUNOTHERAPEUTICS 2020, VOL. 16, NO. 8, 1900\u20131904"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.522193908691406,
+            "t": 731.2958984375,
+            "r": 179.29788208007812,
+            "b": 724.4710083007812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "https://doi.org/10.1080/21645515.2019.1708669",
+      "text": "https://doi.org/10.1080/21645515.2019.1708669"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.36470413208008,
+            "t": 709.1616821289062,
+            "r": 101.14532470703125,
+            "b": 702.2116088867188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "COMMENTARY",
+      "text": "COMMENTARY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.214698791503906,
+            "t": 688.2706298828125,
+            "r": 518.6727294921875,
+            "b": 659.5845947265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            118
+          ]
+        }
+      ],
+      "orig": "Why vaccines matter: understanding the broader health, economic, and child development benefits of routine vaccination",
+      "text": "Why vaccines matter: understanding the broader health, economic, and child development benefits of routine vaccination",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.2672004699707,
+            "t": 651.0831298828125,
+            "r": 205.93984985351562,
+            "b": 643.075927734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            32
+          ]
+        }
+      ],
+      "orig": "Arindam Nandi a and Anita Shet b",
+      "text": "Arindam Nandi a and Anita Shet b"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.19847106933594,
+            "t": 631.6666259765625,
+            "r": 555.3344116210938,
+            "b": 613.8405151367188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            177
+          ]
+        }
+      ],
+      "orig": "a Center for Disease Dynamics, Economics & Policy, Washington, DC, USA; b Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA",
+      "text": "a Center for Disease Dynamics, Economics & Policy, Washington, DC, USA; b Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.12858581542969,
+            "t": 591.1719360351562,
+            "r": 87.62310028076172,
+            "b": 585.95947265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "ABSTRACT",
+      "text": "ABSTRACT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 51.02358627319336,
+            "t": 582.5455322265625,
+            "r": 446.9335021972656,
+            "b": 443.9994812011719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1399
+          ]
+        }
+      ],
+      "orig": "The direct benefits of childhood vaccination in reducing the burden of disease morbidity and mortality in a cost-effective manner are well-established. By preventing episodes of vaccine-preventable diseases, vaccination can also help avert associated out-of-pocket medical expenses, healthcare provider costs, and losses in wages of patients and caregivers. Studies have associated vaccines positively with cognition and school attainment, suggesting benefits of long-term improved economic productivity. New evidence suggests that the measles vaccine may improve immunological memory and prevent coinfections, thereby forming a protective shield against other infections, and consequently improving health, cognition, schooling and productivity outcomes well into the adolescence and adulthood in lowincome settings. Systematically documenting these broader health, economic, and child development benefits of vaccines is important from a policy perspective, not only in low and middle-income countries where the burden of vaccine-preventable diseases is high and public resources are constrained, but also in high-income settings where the emergence of vaccine hesitancy poses a threat to benefits gained from reducing vaccine-preventable diseases. In this paper, we provide a brief summary of the recent evidence on the benefits of vaccines, and discuss the policy implications of these findings.",
+      "text": "The direct benefits of childhood vaccination in reducing the burden of disease morbidity and mortality in a cost-effective manner are well-established. By preventing episodes of vaccine-preventable diseases, vaccination can also help avert associated out-of-pocket medical expenses, healthcare provider costs, and losses in wages of patients and caregivers. Studies have associated vaccines positively with cognition and school attainment, suggesting benefits of long-term improved economic productivity. New evidence suggests that the measles vaccine may improve immunological memory and prevent coinfections, thereby forming a protective shield against other infections, and consequently improving health, cognition, schooling and productivity outcomes well into the adolescence and adulthood in lowincome settings. Systematically documenting these broader health, economic, and child development benefits of vaccines is important from a policy perspective, not only in low and middle-income countries where the burden of vaccine-preventable diseases is high and public resources are constrained, but also in high-income settings where the emergence of vaccine hesitancy poses a threat to benefits gained from reducing vaccine-preventable diseases. In this paper, we provide a brief summary of the recent evidence on the benefits of vaccines, and discuss the policy implications of these findings."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.69769287109375,
+            "t": 403.9651794433594,
+            "r": 97.46924591064453,
+            "b": 396.40509033203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "Introduction",
+      "text": "Introduction",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.07106399536133,
+            "t": 385.6585693359375,
+            "r": 291.1878356933594,
+            "b": 90.43022155761719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1422
+          ]
+        }
+      ],
+      "orig": "Childhood vaccines save an estimated 2 \u2013 3 million lives worldwide every year, which has contributed substantially to the reduction in global infant mortality rate from 65 per 1,000 live births in 1990 to 29 in 2018. 1,2 Vaccines are found to be the most cost-effective approach for reducing childhood disease burden, especially when compared with interventions such as clean water and improved sanitation which can also reduce disease transmission but require expensive and timeconsuming infrastructural investment. 3 Cross-national policy efforts such as the World Health Organization ' s (WHO) Expanded Programme on Immunization (EPI) of 1974, and the multi-agency Global Alliance for Vaccines and Immunization (Gavi), established in 1999, have supported several countries with research, logistical planning, supply chain management, and financing of national vaccination programs. In recent times, routine vaccination has been supplemented with additional efforts to optimize community coverage. An example is the government of India ' s Mission Indradhanush campaign initiated in 2015, that resulted in an increase of full vaccination coverage in target districts by 10 percentage points in just six months. 4 As a result of these combined in-country and international initiatives, full vaccination rates of children in low-income countries have increased from under 50% to close to 80% during the past two decades. 5",
+      "text": "Childhood vaccines save an estimated 2 \u2013 3 million lives worldwide every year, which has contributed substantially to the reduction in global infant mortality rate from 65 per 1,000 live births in 1990 to 29 in 2018. 1,2 Vaccines are found to be the most cost-effective approach for reducing childhood disease burden, especially when compared with interventions such as clean water and improved sanitation which can also reduce disease transmission but require expensive and timeconsuming infrastructural investment. 3 Cross-national policy efforts such as the World Health Organization ' s (WHO) Expanded Programme on Immunization (EPI) of 1974, and the multi-agency Global Alliance for Vaccines and Immunization (Gavi), established in 1999, have supported several countries with research, logistical planning, supply chain management, and financing of national vaccination programs. In recent times, routine vaccination has been supplemented with additional efforts to optimize community coverage. An example is the government of India ' s Mission Indradhanush campaign initiated in 2015, that resulted in an increase of full vaccination coverage in target districts by 10 percentage points in just six months. 4 As a result of these combined in-country and international initiatives, full vaccination rates of children in low-income countries have increased from under 50% to close to 80% during the past two decades. 5"
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.173465728759766,
+            "t": 85.6397705078125,
+            "r": 290.885986328125,
+            "b": 63.93955612182617,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "With such improvements in vaccination rates and reduction in child mortality, future changes in the global child",
+      "text": "With such improvements in vaccination rates and reduction in child mortality, future changes in the global child"
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 141.73397827148438,
+            "t": 46.68553161621094,
+            "r": 195.26931762695312,
+            "b": 39.40562057495117,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "nandi@cddep.org",
+      "text": "nandi@cddep.org"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 464.5898742675781,
+            "t": 591.1719360351562,
+            "r": 526.6515502929688,
+            "b": 585.95947265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "ARTICLE HISTORY",
+      "text": "ARTICLE HISTORY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 464.6768493652344,
+            "t": 582.6602783203125,
+            "r": 554.2517700195312,
+            "b": 557.4844970703125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            75
+          ]
+        }
+      ],
+      "orig": "Received 8 November 2019 Revised 30 November 2019 Accepted 18 December 2019",
+      "text": "Received 8 November 2019 Revised 30 November 2019 Accepted 18 December 2019"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 464.9498596191406,
+            "t": 548.1420288085938,
+            "r": 504.3543395996094,
+            "b": 542.9295654296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "KEYWORDS",
+      "text": "KEYWORDS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 464.5888671875,
+            "t": 539.6870727539062,
+            "r": 554.2037353515625,
+            "b": 497.9675598144531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "Routine immunization; child development; broader benefits of vaccines; measles vaccine; cost-effectiveness; benefit-cost",
+      "text": "Routine immunization; child development; broader benefits of vaccines; measles vaccine; cost-effectiveness; benefit-cost"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 302.7774658203125,
+            "t": 402.55291748046875,
+            "r": 555.9500122070312,
+            "b": 141.04066467285156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1299
+          ]
+        }
+      ],
+      "orig": "health policy can be envisaged in three broad areas. First, as vaccine coverage improves, and there is increasing protection of both vaccinated and unvaccinated populations through the phenomenon of community immunity, we are likely to see fewer vaccine-preventable diseases in the general population. For example, polio has been eliminated from almost all countries and is at the verge of complete global eradication. However, the growing recognition of the importance of health equity has shown that clusters of susceptible populations within vaccinated societies can preempt disease outbreaks, such as the reemergence of diphtheria infections in Bangladesh and India. 6 , 7 Second, the decreasing incidence of vaccine-preventable diseases has diminished the public ' s memory of the devastation caused by the diseases, leading to a rise in vaccine hesitancy. Therefore, national programs will have to refocus on maintaining the momentum, although in a world with limited government resources, health policymakers may find it difficult to financially and operationally justify large vaccination programs. Third, the shifting focus from child mortality to morbidity will lead to a greater emphasis on children ' s physical, cognitive, and socioemotional development as compared with survival. 8 , 9",
+      "text": "health policy can be envisaged in three broad areas. First, as vaccine coverage improves, and there is increasing protection of both vaccinated and unvaccinated populations through the phenomenon of community immunity, we are likely to see fewer vaccine-preventable diseases in the general population. For example, polio has been eliminated from almost all countries and is at the verge of complete global eradication. However, the growing recognition of the importance of health equity has shown that clusters of susceptible populations within vaccinated societies can preempt disease outbreaks, such as the reemergence of diphtheria infections in Bangladesh and India. 6 , 7 Second, the decreasing incidence of vaccine-preventable diseases has diminished the public ' s memory of the devastation caused by the diseases, leading to a rise in vaccine hesitancy. Therefore, national programs will have to refocus on maintaining the momentum, although in a world with limited government resources, health policymakers may find it difficult to financially and operationally justify large vaccination programs. Third, the shifting focus from child mortality to morbidity will lead to a greater emphasis on children ' s physical, cognitive, and socioemotional development as compared with survival. 8 , 9"
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 303.01556396484375,
+            "t": 138.59097290039062,
+            "r": 555.9480590820312,
+            "b": 68.87026977539062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            357
+          ]
+        }
+      ],
+      "orig": "Due to changing focus from child survival benefits of vaccines to child development benefits, along with greater reliance on multi-criteria decision-making tools, it is more important than ever before to quantify the broader social and individual benefits of vaccination. In this paper, we discuss evidence from a few key studies, and summarize the benefits",
+      "text": "Due to changing focus from child survival benefits of vaccines to child development benefits, along with greater reliance on multi-criteria decision-making tools, it is more important than ever before to quantify the broader social and individual benefits of vaccination. In this paper, we discuss evidence from a few key studies, and summarize the benefits"
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 211.40438842773438,
+            "t": 46.76552963256836,
+            "r": 550.751953125,
+            "b": 39.30962371826172,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "Center for Disease Dynamics, Economics & Policy, 1400 Eye St. NW, Suite 500, Washington, DC 20005, USA",
+      "text": "Center for Disease Dynamics, Economics & Policy, 1400 Eye St. NW, Suite 500, Washington, DC 20005, USA"
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.2846794128418,
+            "t": 46.68553161621094,
+            "r": 123.5316162109375,
+            "b": 40.96560287475586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "CONTACT Arindam Nandi",
+      "text": "CONTACT Arindam Nandi"
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.2496337890625,
+            "t": 34.98212814331055,
+            "r": 253.61453247070312,
+            "b": 28.528221130371094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "\u00a9 2020 The Author(s). Published with license by Taylor & Francis Group, LLC.",
+      "text": "\u00a9 2020 The Author(s). Published with license by Taylor & Francis Group, LLC."
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 39.03263854980469,
+            "t": 27.058238983154297,
+            "r": 545.8533935546875,
+            "b": 12.540452003479004,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            273
+          ]
+        }
+      ],
+      "orig": "This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+      "text": "This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited."
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 364.99200439453125,
+            "t": 764.1419677734375,
+            "r": 512.2547607421875,
+            "b": 758.9295043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "HUMAN VACCINES & IMMUNOTHERAPEUTICS",
+      "text": "HUMAN VACCINES & IMMUNOTHERAPEUTICS"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 540.0428466796875,
+            "t": 763.9619750976562,
+            "r": 553.574951171875,
+            "b": 758.9295043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "1901",
+      "text": "1901"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 39.37470245361328,
+            "t": 739.1954345703125,
+            "r": 290.42724609375,
+            "b": 717.4953002929688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "of childhood vaccines beyond the intended reduction in disease burden and child mortality.",
+      "text": "of childhood vaccines beyond the intended reduction in disease burden and child mortality."
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 39.09920120239258,
+            "t": 690.3798828125,
+            "r": 266.73089599609375,
+            "b": 670.7446899414062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "Economic, equity, and global health benefits of vaccines",
+      "text": "Economic, equity, and global health benefits of vaccines",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 38.75114440917969,
+            "t": 661.5303955078125,
+            "r": 291.18048095703125,
+            "b": 434.4284362792969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1141
+          ]
+        }
+      ],
+      "orig": "Vaccines can have several economic benefits. 3 , 10 One of the most discernible benefits is averted medical expenditure. By preventing an episode of the disease through a vaccine, the economic costs of treatment, such as physician fees, drugs and hospitalization expenses, and associated travel costs and wage loss of caregivers could be averted. This is particularly important for low and middle-income countries (LMICs) where a large part of medical expenditure is out-of-pocket. A clear example is the situation in India, where 65% of health expenditure is private, with extreme costs in some cases, which thrusts 51 million people into poverty every year. 2 , 11 , 12 It is estimated that the measles, rotavirus, and pneumococcal conjugate vaccines could help avert $4.6 billion (2016 US$, adjusted for purchasing power parity) in out-of-pocket medical expenses in 41 Gavi-eligible LMICs during 2016\u20132030. 13 Vaccines could also reduce the number of people who fall into poverty due to a catastrophic medical expense which is defined as a large proportion (typically, more than 10% to 25%) of household income or expenditure. 12 , 14 -20",
+      "text": "Vaccines can have several economic benefits. 3 , 10 One of the most discernible benefits is averted medical expenditure. By preventing an episode of the disease through a vaccine, the economic costs of treatment, such as physician fees, drugs and hospitalization expenses, and associated travel costs and wage loss of caregivers could be averted. This is particularly important for low and middle-income countries (LMICs) where a large part of medical expenditure is out-of-pocket. A clear example is the situation in India, where 65% of health expenditure is private, with extreme costs in some cases, which thrusts 51 million people into poverty every year. 2 , 11 , 12 It is estimated that the measles, rotavirus, and pneumococcal conjugate vaccines could help avert $4.6 billion (2016 US$, adjusted for purchasing power parity) in out-of-pocket medical expenses in 41 Gavi-eligible LMICs during 2016\u20132030. 13 Vaccines could also reduce the number of people who fall into poverty due to a catastrophic medical expense which is defined as a large proportion (typically, more than 10% to 25%) of household income or expenditure. 12 , 14 -20"
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 39.17348098754883,
+            "t": 431.91998291015625,
+            "r": 290.911865234375,
+            "b": 314.4686584472656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            572
+          ]
+        }
+      ],
+      "orig": "The protection which vaccines provide against the financial risk from a large medical expense can be measured in additional ways. The so-called extended cost-effectiveness (ECEA) studies have estimated large money-metric value of insurance provided by vaccines. 13 , 14 , 16 , 19 The value of insurance is equivalent to risk premium, which is defined as the amount of money one would be willing to pay in order to avoid the financial uncertainty from a vaccine-preventable disease. 21 Paying for vaccines, in this context, is akin to paying for a health insurance premium.",
+      "text": "The protection which vaccines provide against the financial risk from a large medical expense can be measured in additional ways. The so-called extended cost-effectiveness (ECEA) studies have estimated large money-metric value of insurance provided by vaccines. 13 , 14 , 16 , 19 The value of insurance is equivalent to risk premium, which is defined as the amount of money one would be willing to pay in order to avoid the financial uncertainty from a vaccine-preventable disease. 21 Paying for vaccines, in this context, is akin to paying for a health insurance premium."
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 51.384822845458984,
+            "t": 311.9586181640625,
+            "r": 290.9071960449219,
+            "b": 302.2785339355469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            56
+          ]
+        }
+      ],
+      "orig": "Benefit-cost analysis (BCA) studies of vaccines consider",
+      "text": "Benefit-cost analysis (BCA) studies of vaccines consider"
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 39.09469985961914,
+            "t": 299.93853759765625,
+            "r": 291.01727294921875,
+            "b": 112.70854187011719,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            927
+          ]
+        }
+      ],
+      "orig": "a full range benefits as measured by gains in economic productivity. Several alternative BCA methods exist, including a human capital approach which uses the average annual economic contribution of workers, and a friction cost approach which considers productivity lost during the period when a job position remains unfilled due to sickness. 22 , 23 Mortality and morbidity risk reduction benefits of vaccines have also been measured in terms the value of statistical life year (VSLY). 24 , 25 VSLY is equivalent to the willingness to pay in order to avoid one disability adjusted life year (DALY) from the disease. 26 , 27 It is typically measured as a multiple (approximately 2\u20134 times) of the per capita national income of a country. 28 -30 Newer studies such as those commissioned by the Copenhagen Consensus Center have considered a fixed value of either $1,000 or $5,000 per DALY across all countries and contexts. 29 -31",
+      "text": "a full range benefits as measured by gains in economic productivity. Several alternative BCA methods exist, including a human capital approach which uses the average annual economic contribution of workers, and a friction cost approach which considers productivity lost during the period when a job position remains unfilled due to sickness. 22 , 23 Mortality and morbidity risk reduction benefits of vaccines have also been measured in terms the value of statistical life year (VSLY). 24 , 25 VSLY is equivalent to the willingness to pay in order to avoid one disability adjusted life year (DALY) from the disease. 26 , 27 It is typically measured as a multiple (approximately 2\u20134 times) of the per capita national income of a country. 28 -30 Newer studies such as those commissioned by the Copenhagen Consensus Center have considered a fixed value of either $1,000 or $5,000 per DALY across all countries and contexts. 29 -31"
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 39.01347732543945,
+            "t": 107.97676849365234,
+            "r": 291.1159973144531,
+            "b": 38.25607681274414,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            336
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 303.00775146484375,
+            "t": 740.7302856445312,
+            "r": 555.9612426757812,
+            "b": 489.6464538574219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            337,
+            1611
+          ]
+        }
+      ],
+      "orig": "One of the most comprehensive vaccine BCA studies published recently used the VSLY method and examined the economic benefits of 10 vaccines \u2013 for Haemophilus influenzae type b, hepatitis B, human papillomavirus, Japanese encephalitis, measles, Neisseria meningitidis serogroup A, rotavirus, rubella, Streptococcus pneumoniae, and yellow fever \u2013 in 73 LMICs. 10 The authors considered averted medical expenses, transportation costs, and productivity gains in their analysis, and estimated that during 2001\u20132020, the vaccines together would provide a social and economic value of $820 billion (2010 US$). 10 During 2011 \u2013 2020, the rate of return for investment on these vaccines was estimated to be up to 44 times of the initial cost. 32 Routine vaccination has a positive effect on social and health equity among populations. Infectious disease incidence and mortality are often associated with poverty, and exacerbated by lack of access to clean water, sanitation, and basic hygiene among the poor. Routine childhood vaccinations are, thus, estimated to avert the largest burden of diseases, associated medical expenses, and loss in economic productivity in the poorest segments of the society. 13 , 14 , 17 -19 , 33 , 34 A recent study in 41 Gavi-eligible LMICs found that universal coverage of the measles, rotavirus, and pneumococcal conjugate vaccines would avert a total of 12.6 million cases of catastrophic health expenditure which might have otherwise propelled patients into poverty. 13 Of those, 75%, 40%, and 22% of cases respectively for the three diseases were from the poorest wealth quintile. 13",
+      "text": "One of the most comprehensive vaccine BCA studies published recently used the VSLY method and examined the economic benefits of 10 vaccines \u2013 for Haemophilus influenzae type b, hepatitis B, human papillomavirus, Japanese encephalitis, measles, Neisseria meningitidis serogroup A, rotavirus, rubella, Streptococcus pneumoniae, and yellow fever \u2013 in 73 LMICs. 10 The authors considered averted medical expenses, transportation costs, and productivity gains in their analysis, and estimated that during 2001\u20132020, the vaccines together would provide a social and economic value of $820 billion (2010 US$). 10 During 2011 \u2013 2020, the rate of return for investment on these vaccines was estimated to be up to 44 times of the initial cost. 32 Routine vaccination has a positive effect on social and health equity among populations. Infectious disease incidence and mortality are often associated with poverty, and exacerbated by lack of access to clean water, sanitation, and basic hygiene among the poor. Routine childhood vaccinations are, thus, estimated to avert the largest burden of diseases, associated medical expenses, and loss in economic productivity in the poorest segments of the society. 13 , 14 , 17 -19 , 33 , 34 A recent study in 41 Gavi-eligible LMICs found that universal coverage of the measles, rotavirus, and pneumococcal conjugate vaccines would avert a total of 12.6 million cases of catastrophic health expenditure which might have otherwise propelled patients into poverty. 13 Of those, 75%, 40%, and 22% of cases respectively for the three diseases were from the poorest wealth quintile. 13"
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 303.1155700683594,
+            "t": 487.19549560546875,
+            "r": 554.9481201171875,
+            "b": 393.4974365234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            461
+          ]
+        }
+      ],
+      "orig": "New research shows that vaccines can also tackle global health threats such as antimicrobial resistance (AMR). If left unchecked, AMR-related infections are estimated to result in as many as 10 million deaths per year worldwide by 2050, with an associated global economic cost of US$100 trillion. 35 Vaccines could prevent infections \u2013 either sensitive or resistant \u2013 and also reduce the use of antimicrobials, which in turn could slow the growth of AMR. 36 -46",
+      "text": "New research shows that vaccines can also tackle global health threats such as antimicrobial resistance (AMR). If left unchecked, AMR-related infections are estimated to result in as many as 10 million deaths per year worldwide by 2050, with an associated global economic cost of US$100 trillion. 35 Vaccines could prevent infections \u2013 either sensitive or resistant \u2013 and also reduce the use of antimicrobials, which in turn could slow the growth of AMR. 36 -46"
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 303.3909912109375,
+            "t": 366.3799743652344,
+            "r": 491.395263671875,
+            "b": 356.7408752441406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Child development benefits of vaccines",
+      "text": "Child development benefits of vaccines",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 303.0924987792969,
+            "t": 347.957763671875,
+            "r": 554.926025390625,
+            "b": 172.74673461914062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            883
+          ]
+        }
+      ],
+      "orig": "Persistent or recurrent infections in early life can lead to poor growth and stunting, which in turn can adversely affect adult health, cognitive capacity, and economic productivity. 47 -49 The theoretical basis of the long-term benefits of vaccines is anchored in the widely accepted \" fetal origins \" hypothesis 50 , 51 which links conditions in utero and during early childhood with later life outcomes. 48 , 49 , 52 -66 Malnutrition, infection, pregnancy and birth complications, and under-stimulation during the first 1000 days of life can have lasting impact on health, cognitive, and economic outcomes well into the old age. In addition to appropriate nutrition and nurturing, health interventions such as routine vaccinations could reduce infectious disease burden in early childhood and thereby help break the intergenerational cycle of poverty, poor health, and low income.",
+      "text": "Persistent or recurrent infections in early life can lead to poor growth and stunting, which in turn can adversely affect adult health, cognitive capacity, and economic productivity. 47 -49 The theoretical basis of the long-term benefits of vaccines is anchored in the widely accepted \" fetal origins \" hypothesis 50 , 51 which links conditions in utero and during early childhood with later life outcomes. 48 , 49 , 52 -66 Malnutrition, infection, pregnancy and birth complications, and under-stimulation during the first 1000 days of life can have lasting impact on health, cognitive, and economic outcomes well into the old age. In addition to appropriate nutrition and nurturing, health interventions such as routine vaccinations could reduce infectious disease burden in early childhood and thereby help break the intergenerational cycle of poverty, poor health, and low income."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 303.0124816894531,
+            "t": 167.95669555664062,
+            "r": 555.9851684570312,
+            "b": 38.25887680053711,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            648
+          ]
+        }
+      ],
+      "orig": "There is a small but growing literature on the potential child development benefits of routine vaccines. The measles vaccine is especially important in this context as episodes of measles could damage protective immune memory for a period of 2\u20133 years, increasing susceptibility to future measles and non-measles infections. 67 -69 Using sophisticated techniques, scientists have showed that measles infection in children wipes out preexisting antibodies to different pathogens in the months after the infectious episode, leaving them vulnerable to multiple other infections and possible death. 70 A recent longitudinal study of approximately 2,000",
+      "text": "There is a small but growing literature on the potential child development benefits of routine vaccines. The measles vaccine is especially important in this context as episodes of measles could damage protective immune memory for a period of 2\u20133 years, increasing susceptibility to future measles and non-measles infections. 67 -69 Using sophisticated techniques, scientists have showed that measles infection in children wipes out preexisting antibodies to different pathogens in the months after the infectious episode, leaving them vulnerable to multiple other infections and possible death. 70 A recent longitudinal study of approximately 2,000"
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 39.78466033935547,
+            "t": 763.9619750976562,
+            "r": 53.996971130371094,
+            "b": 758.9295043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "1902",
+      "text": "1902"
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 81.20157623291016,
+            "t": 764.1419677734375,
+            "r": 156.6468048095703,
+            "b": 758.9295043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "A. NANDI AND A. SHET",
+      "text": "A. NANDI AND A. SHET"
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 39.18470001220703,
+            "t": 739.53564453125,
+            "r": 290.8701171875,
+            "b": 633.8174438476562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            478
+          ]
+        }
+      ],
+      "orig": "children each in Ethiopia, India, and Vietnam has linked measles vaccination at ages 6\u201318 months of life with 0.1\u20130.2 higher anthropometric z-scores, 1.7\u20134.5 percentage points higher scores on standardized cognition tests, and 0.2\u20130.3 additional schooling grades at ages 7\u20138 and 11\u201312 years. 71 The vaccine has also been associated with 0.2 more schooling grade attainment among South African children and 7.4% higher school enrollment rate among children in Bangladesh. 72 , 73",
+      "text": "children each in Ethiopia, India, and Vietnam has linked measles vaccination at ages 6\u201318 months of life with 0.1\u20130.2 higher anthropometric z-scores, 1.7\u20134.5 percentage points higher scores on standardized cognition tests, and 0.2\u20130.3 additional schooling grades at ages 7\u20138 and 11\u201312 years. 71 The vaccine has also been associated with 0.2 more schooling grade attainment among South African children and 7.4% higher school enrollment rate among children in Bangladesh. 72 , 73"
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 38.99339294433594,
+            "t": 631.53564453125,
+            "r": 290.9178771972656,
+            "b": 525.8174438476562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            570
+          ]
+        }
+      ],
+      "orig": "Similar growth, cognition, and schooling benefits have been observed among Haemophilus influenzae type B (Hib) vaccinated children in India, 74 , 75 and fully vaccinated children in the Philippines. 76 Another study found that exposure to tetanus vaccination in utero increased schooling attainment by 0.3 years for some children in Bangladesh. 77 At the aggregate level, India ' s national vaccination program has been associated with 0.3\u20130.5 higher height-for-age and weight-for-age z-scores at ages 0 \u2013 4 years, 78 and 0.2 additional schooling grades among adults. 79",
+      "text": "Similar growth, cognition, and schooling benefits have been observed among Haemophilus influenzae type B (Hib) vaccinated children in India, 74 , 75 and fully vaccinated children in the Philippines. 76 Another study found that exposure to tetanus vaccination in utero increased schooling attainment by 0.3 years for some children in Bangladesh. 77 At the aggregate level, India ' s national vaccination program has been associated with 0.3\u20130.5 higher height-for-age and weight-for-age z-scores at ages 0 \u2013 4 years, 78 and 0.2 additional schooling grades among adults. 79"
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 39.3722038269043,
+            "t": 492.85968017578125,
+            "r": 134.11459350585938,
+            "b": 483.2205810546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Concluding remarks",
+      "text": "Concluding remarks",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 39.07469940185547,
+            "t": 474.49639892578125,
+            "r": 290.897216796875,
+            "b": 392.8138427734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            408
+          ]
+        }
+      ],
+      "orig": "Childhood vaccines have numerous positive effects beyond disease prevention. The concept of broader benefits of vaccines which would include cognition, schooling, economic productivity, fertility, and related outcomes was first proposed by a key 2005 article. 80 During the present decade, researchers have utilized and expanded this framework across several dimensions and country contexts. 76 , 77 , 81 -85",
+      "text": "Childhood vaccines have numerous positive effects beyond disease prevention. The concept of broader benefits of vaccines which would include cognition, schooling, economic productivity, fertility, and related outcomes was first proposed by a key 2005 article. 80 During the present decade, researchers have utilized and expanded this framework across several dimensions and country contexts. 76 , 77 , 81 -85"
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 39.07415008544922,
+            "t": 390.5341796875,
+            "r": 291.9399719238281,
+            "b": 188.83358764648438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            899
+          ]
+        }
+      ],
+      "orig": "A new online database called the Value of Immunization Compendium Evidence (VoICE), created and maintained by the International Vaccine Access Center at the Johns Hopkins University, Bloomberg School of Public Health, now tracks research on the broader benefits of vaccines on health, educational, economic, and equity outcomes worldwide. 86 The Immunization Economics community of research and practice compiles similar and related information. 87 Finally, the World Health Organization is developing an approach for systematically measuring the broader benefits, known as the Full Public Health Value Propositions (FPHVP), in the context of LMICs. 88 , 89 Regardless of income level, countries around the world are facing a crises in the acceptance of the societal benefits of routine vaccines. Going forward, we hope that these new frameworks will be widely used for child health policy globally.",
+      "text": "A new online database called the Value of Immunization Compendium Evidence (VoICE), created and maintained by the International Vaccine Access Center at the Johns Hopkins University, Bloomberg School of Public Health, now tracks research on the broader benefits of vaccines on health, educational, economic, and equity outcomes worldwide. 86 The Immunization Economics community of research and practice compiles similar and related information. 87 Finally, the World Health Organization is developing an approach for systematically measuring the broader benefits, known as the Full Public Health Value Propositions (FPHVP), in the context of LMICs. 88 , 89 Regardless of income level, countries around the world are facing a crises in the acceptance of the societal benefits of routine vaccines. Going forward, we hope that these new frameworks will be widely used for child health policy globally."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 39.69770812988281,
+            "t": 155.99256896972656,
+            "r": 242.79063415527344,
+            "b": 146.3534698486328,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "Disclosure of potential conflicts of interest",
+      "text": "Disclosure of potential conflicts of interest",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/43",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 39.17469787597656,
+            "t": 138.42990112304688,
+            "r": 207.03271484375,
+            "b": 130.34640502929688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "No potential conflicts of interest were disclosed.",
+      "text": "No potential conflicts of interest were disclosed."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 39.69770812988281,
+            "t": 109.84246826171875,
+            "r": 77.64506530761719,
+            "b": 100.20337677001953,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "Funding",
+      "text": "Funding",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/45",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 39.23419952392578,
+            "t": 90.46770477294922,
+            "r": 291.1402282714844,
+            "b": 44.287200927734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            284
+          ]
+        }
+      ],
+      "orig": "This work was supported by the Value of Vaccination Research Network (VoVRN) through a grant from the Bill & Melinda Gates Foundation (Grant OPP1158136). The content is solely the responsibility of the authors and does not necessarily reflect the views of the VoVRN or the foundation.",
+      "text": "This work was supported by the Value of Vaccination Research Network (VoVRN) through a grant from the Bill & Melinda Gates Foundation (Grant OPP1158136). The content is solely the responsibility of the authors and does not necessarily reflect the views of the VoVRN or the foundation."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 303.3909912109375,
+            "t": 738.9277954101562,
+            "r": 332.96978759765625,
+            "b": 731.6302490234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "ORCID",
+      "text": "ORCID",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/47",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 303.1935119628906,
+            "t": 721.7432250976562,
+            "r": 502.15380859375,
+            "b": 703.5371704101562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "Arindam Nandi http://orcid.org/0000-0002-3967-2424 Anita Shet http://orcid.org/0000-0002-7204-8164",
+      "text": "Arindam Nandi http://orcid.org/0000-0002-3967-2424 Anita Shet http://orcid.org/0000-0002-7204-8164"
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 303.7164611816406,
+            "t": 670.2538452148438,
+            "r": 354.116943359375,
+            "b": 662.5783081054688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "References",
+      "text": "References",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/49",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 316.4224853515625,
+            "t": 650.7636108398438,
+            "r": 554.7794799804688,
+            "b": 624.32861328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            169
+          ]
+        }
+      ],
+      "orig": "1. World Health Organization. World Health Organization: 10 facts on immunization; 2018 [accessed 2019 Apr 9]. https://www.who. int/features/factfiles/immunization/en/ .",
+      "text": "World Health Organization. World Health Organization: 10 facts on immunization; 2018 [accessed 2019 Apr 9]. https://www.who. int/features/factfiles/immunization/en/ .",
+      "enumerated": true,
+      "marker": "1."
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.7679748535156,
+            "t": 620.76708984375,
+            "r": 554.9240112304688,
+            "b": 592.6660766601562,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            158
+          ]
+        }
+      ],
+      "orig": "2. World DataBank: World Development Indicators. The World Bank; 2017 . http://databank.worldbank.org/data/reports.aspx? source=world-development-indicators .",
+      "text": "World DataBank: World Development Indicators. The World Bank; 2017 . http://databank.worldbank.org/data/reports.aspx? source=world-development-indicators .",
+      "enumerated": true,
+      "marker": "2."
+    },
+    {
+      "self_ref": "#/texts/51",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.8699645996094,
+            "t": 590.7706298828125,
+            "r": 554.9239501953125,
+            "b": 552.486572265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "3. Ozawa S, Mirelman A, Stack ML, Walker DG, Levine OS. Costeffectiveness and economic benefits of vaccines in low- and middle-income countries: a systematic review. Vaccine. 2012;31:96 \u2013 108. doi:10.1016/j.vaccine.2012.10.103 .",
+      "text": "Ozawa S, Mirelman A, Stack ML, Walker DG, Levine OS. Costeffectiveness and economic benefits of vaccines in low- and middle-income countries: a systematic review. Vaccine. 2012;31:96 \u2013 108. doi:10.1016/j.vaccine.2012.10.103 .",
+      "enumerated": true,
+      "marker": "3."
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.657470703125,
+            "t": 550.735595703125,
+            "r": 554.8991088867188,
+            "b": 512.5110473632812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            259
+          ]
+        }
+      ],
+      "orig": "4. Pramanik S, Agrahari K, Srivastava A, Varanasi V, Setia M, Laxminarayan R. Integrated child health and immunization surveyrounds 1 & 2. New Delhi (India): Immunization Technical Support Unit,Ministry of Health and FamilyWelfare, Government of India; 2016 .",
+      "text": "Pramanik S, Agrahari K, Srivastava A, Varanasi V, Setia M, Laxminarayan R. Integrated child health and immunization surveyrounds 1 & 2. New Delhi (India): Immunization Technical Support Unit,Ministry of Health and FamilyWelfare, Government of India; 2016 .",
+      "enumerated": true,
+      "marker": "4."
+    },
+    {
+      "self_ref": "#/texts/53",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.89544677734375,
+            "t": 510.7005920410156,
+            "r": 554.8134765625,
+            "b": 472.62060546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            207
+          ]
+        }
+      ],
+      "orig": "5. World Health Organization. Progress towards global immunization goals - 2016. Geneva (Switzerland); 2016 . http://who.int/entity/ immunization/monitoring_surveillance/SlidesGlobalImmunization. pptx?ua=1 .",
+      "text": "World Health Organization. Progress towards global immunization goals - 2016. Geneva (Switzerland); 2016 . http://who.int/entity/ immunization/monitoring_surveillance/SlidesGlobalImmunization. pptx?ua=1 .",
+      "enumerated": true,
+      "marker": "5."
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.8019714355469,
+            "t": 470.72509765625,
+            "r": 554.5244750976562,
+            "b": 442.4796142578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            168
+          ]
+        }
+      ],
+      "orig": "6. Murhekar M. Epidemiology of diphtheria in India, 1996\u20132016: implications for prevention and control. Am J Trop Med Hyg. 2017;97:313 \u2013 18. doi:10.4269/ajtmh.17-0047 .",
+      "text": "Murhekar M. Epidemiology of diphtheria in India, 1996\u20132016: implications for prevention and control. Am J Trop Med Hyg. 2017;97:313 \u2013 18. doi:10.4269/ajtmh.17-0047 .",
+      "enumerated": true,
+      "marker": "6."
+    },
+    {
+      "self_ref": "#/texts/55",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.8954772949219,
+            "t": 440.7286071777344,
+            "r": 554.991943359375,
+            "b": 392.4656066894531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            315
+          ]
+        }
+      ],
+      "orig": "7. Jalloh MF, Bennett SD, Alam D, Kouta P, Louren\u00e7o D, Alamgir M, Feldstein LR, Ehlman DC, Abad N, Kapil N. Rapid behavioral assessment of barriers and opportunities to improve vaccination coverage among displaced Rohingyas in Bangladesh, January 2018. Vaccine. 2019;37:833 \u2013 38. doi:10.1016/j.vaccine.2018.12.042 .",
+      "text": "Jalloh MF, Bennett SD, Alam D, Kouta P, Louren\u00e7o D, Alamgir M, Feldstein LR, Ehlman DC, Abad N, Kapil N. Rapid behavioral assessment of barriers and opportunities to improve vaccination coverage among displaced Rohingyas in Bangladesh, January 2018. Vaccine. 2019;37:833 \u2013 38. doi:10.1016/j.vaccine.2018.12.042 .",
+      "enumerated": true,
+      "marker": "7."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.8699645996094,
+            "t": 390.714599609375,
+            "r": 554.62646484375,
+            "b": 363.2086181640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            166
+          ]
+        }
+      ],
+      "orig": "8. Chan M. Linking child survival and child development for health, equity, and sustainable development. Lancet. 2013;381:1514\u201315. doi:10.1016/S0140-6736(13)60944-7 .",
+      "text": "Chan M. Linking child survival and child development for health, equity, and sustainable development. Lancet. 2013;381:1514\u201315. doi:10.1016/S0140-6736(13)60944-7 .",
+      "enumerated": true,
+      "marker": "8."
+    },
+    {
+      "self_ref": "#/texts/57",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 315.8104553222656,
+            "t": 360.7181091308594,
+            "r": 554.9801635742188,
+            "b": 322.57861328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            200
+          ]
+        }
+      ],
+      "orig": "9. Shonkoff JP, Richter L, van der Gaag J, Bhutta ZA. An integrated scientific framework for child survival and early childhood development. PEDIATRICS. 2012;129:e460\u201372. doi:10.1542/ peds.2011-0366 .",
+      "text": "Shonkoff JP, Richter L, van der Gaag J, Bhutta ZA. An integrated scientific framework for child survival and early childhood development. PEDIATRICS. 2012;129:e460\u201372. doi:10.1542/ peds.2011-0366 .",
+      "enumerated": true,
+      "marker": "9."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 312.34246826171875,
+            "t": 320.68310546875,
+            "r": 554.8798217773438,
+            "b": 274.5025939941406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            269
+          ]
+        }
+      ],
+      "orig": "10. Ozawa S, Clark S, Portnoy A, Grewal S, Stack ML, Sinha A, Mirelman A, Franklin H, Friberg IK, Tam Y. Estimated economic impact of vaccinations in 73 low- and middle-income countries, 2001 \u2013 2020. Bull World Health Organ. 2017;95:629\u201338. doi:10.2471/ BLT.16.178475 .",
+      "text": "Ozawa S, Clark S, Portnoy A, Grewal S, Stack ML, Sinha A, Mirelman A, Franklin H, Friberg IK, Tam Y. Estimated economic impact of vaccinations in 73 low- and middle-income countries, 2001 \u2013 2020. Bull World Health Organ. 2017;95:629\u201338. doi:10.2471/ BLT.16.178475 .",
+      "enumerated": true,
+      "marker": "10."
+    },
+    {
+      "self_ref": "#/texts/59",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 312.3509826660156,
+            "t": 270.6690979003906,
+            "r": 554.5159912109375,
+            "b": 252.4621124267578,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            122
+          ]
+        }
+      ],
+      "orig": "11. Hooda SK. Out-of-pocket payments for healthcare in India. J Health Manag. 2017;19:1\u201315. doi:10.1177/0972063416682535 .",
+      "text": "Hooda SK. Out-of-pocket payments for healthcare in India. J Health Manag. 2017;19:1\u201315. doi:10.1177/0972063416682535 .",
+      "enumerated": true,
+      "marker": "11."
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 312.3509826660156,
+            "t": 250.65159606933594,
+            "r": 554.87255859375,
+            "b": 213.25460815429688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            240
+          ]
+        }
+      ],
+      "orig": "12. Wagstaff A, Flores G, Smitz M-F, Hsu J, Chepynoga K, Eozenou P. Progress on impoverishing health spending in 122 countries: a retrospective observational study. Lancet Global Health. 2018;6:e180 \u2013 92. doi:10.1016/S2214-109X(17)30486-2 .",
+      "text": "Wagstaff A, Flores G, Smitz M-F, Hsu J, Chepynoga K, Eozenou P. Progress on impoverishing health spending in 122 countries: a retrospective observational study. Lancet Global Health. 2018;6:e180 \u2013 92. doi:10.1016/S2214-109X(17)30486-2 .",
+      "enumerated": true,
+      "marker": "12."
+    },
+    {
+      "self_ref": "#/texts/61",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 312.3420715332031,
+            "t": 210.76409912109375,
+            "r": 555.799072265625,
+            "b": 162.5010986328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            292
+          ]
+        }
+      ],
+      "orig": "13. Riumallo-Herl C, Chang AY, Clark S, Constenla D, Clark A, Brenzel L, Verguet S. Poverty reduction and equity benefits of introducing or scaling up measles, rotavirus and pneumococcal vaccines in low-income and middle-income countries: a modelling study. BMJ Global Health. 2018;3:e000613.",
+      "text": "Riumallo-Herl C, Chang AY, Clark S, Constenla D, Clark A, Brenzel L, Verguet S. Poverty reduction and equity benefits of introducing or scaling up measles, rotavirus and pneumococcal vaccines in low-income and middle-income countries: a modelling study. BMJ Global Health. 2018;3:e000613.",
+      "enumerated": true,
+      "marker": "13."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 312.3420715332031,
+            "t": 160.75010681152344,
+            "r": 554.838623046875,
+            "b": 122.67009735107422,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            231
+          ]
+        }
+      ],
+      "orig": "14. Megiddo I, AR C, Nandi A, Chatterjee S, Prinja S, Khera A, Laxminarayan R. Analysis of the universal immunization programme and introduction of a rotavirus vaccine in India with IndiaSim. Vaccine. 2014;32(Supplement 1):A151\u201361.",
+      "text": "Megiddo I, AR C, Nandi A, Chatterjee S, Prinja S, Khera A, Laxminarayan R. Analysis of the universal immunization programme and introduction of a rotavirus vaccine in India with IndiaSim. Vaccine. 2014;32(Supplement 1):A151\u201361.",
+      "enumerated": true,
+      "marker": "14."
+    },
+    {
+      "self_ref": "#/texts/63",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 312.3335876464844,
+            "t": 120.71510314941406,
+            "r": 555.0426025390625,
+            "b": 82.4906005859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            272
+          ]
+        }
+      ],
+      "orig": "15. Megiddo I, Klein E, Laxminarayan R. Potential impact of introducing the pneumococcal conjugate vaccine into national immunisation programmes: an economic-epidemiological analysis using data from India. BMJ Global Health. 2018;3:e000636. doi:10.1136/bmjgh-2017-000636 .",
+      "text": "Megiddo I, Klein E, Laxminarayan R. Potential impact of introducing the pneumococcal conjugate vaccine into national immunisation programmes: an economic-epidemiological analysis using data from India. BMJ Global Health. 2018;3:e000636. doi:10.1136/bmjgh-2017-000636 .",
+      "enumerated": true,
+      "marker": "15."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 312.3335876464844,
+            "t": 80.7396011352539,
+            "r": 554.923583984375,
+            "b": 42.51510238647461,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            240
+          ]
+        }
+      ],
+      "orig": "16. Verguet S, Murphy S, Anderson B, Johansson KA, Glass R, Rheingans R. Public finance of rotavirus vaccination in India and Ethiopia: an extended cost-effectiveness analysis. Vaccine. 2013;31:4902 \u2013 10. doi:10.1016/j.vaccine.2013.07.014 .",
+      "text": "Verguet S, Murphy S, Anderson B, Johansson KA, Glass R, Rheingans R. Public finance of rotavirus vaccination in India and Ethiopia: an extended cost-effectiveness analysis. Vaccine. 2013;31:4902 \u2013 10. doi:10.1016/j.vaccine.2013.07.014 .",
+      "enumerated": true,
+      "marker": "16."
+    },
+    {
+      "self_ref": "#/texts/65",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 364.99200439453125,
+            "t": 764.1419677734375,
+            "r": 512.2547607421875,
+            "b": 758.9295043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "HUMAN VACCINES & IMMUNOTHERAPEUTICS",
+      "text": "HUMAN VACCINES & IMMUNOTHERAPEUTICS"
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 540.0427856445312,
+            "t": 763.9619750976562,
+            "r": 554.52734375,
+            "b": 758.9295043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "1903",
+      "text": "1903"
+    },
+    {
+      "self_ref": "#/texts/67",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 48.32169723510742,
+            "t": 739.1478881835938,
+            "r": 290.80120849609375,
+            "b": 700.92333984375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            250
+          ]
+        }
+      ],
+      "orig": "17. Johansson KA, Memirie ST, Pecenka C, Jamison DT, Verguet S. Health gains and financial protection from pneumococcal vaccination and pneumonia treatment in Ethiopia: results from an extended cost-effectiveness analysis. PLoS One. 2015;10:e0142691.",
+      "text": "Johansson KA, Memirie ST, Pecenka C, Jamison DT, Verguet S. Health gains and financial protection from pneumococcal vaccination and pneumonia treatment in Ethiopia: results from an extended cost-effectiveness analysis. PLoS One. 2015;10:e0142691.",
+      "enumerated": true,
+      "marker": "17."
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 48.32168197631836,
+            "t": 699.1129150390625,
+            "r": 291.77020263671875,
+            "b": 641.6103515625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            344
+          ]
+        }
+      ],
+      "orig": "18. Verguet S, Olson ZD, Babigumira JB, Desalegn D, Johansson KA, Kruk ME, Levin CE, Nugent RA, Pecenka C, Shrime MG. Health gains and financial risk protection afforded by public financing of selected interventions in Ethiopia: an extended cost-effectiveness analysis. Lancet Global Health. 2015;3:e288\u201396. doi:10.1016/ S2214-109X(14)70346-8 .",
+      "text": "Verguet S, Olson ZD, Babigumira JB, Desalegn D, Johansson KA, Kruk ME, Levin CE, Nugent RA, Pecenka C, Shrime MG. Health gains and financial risk protection afforded by public financing of selected interventions in Ethiopia: an extended cost-effectiveness analysis. Lancet Global Health. 2015;3:e288\u201396. doi:10.1016/ S2214-109X(14)70346-8 .",
+      "enumerated": true,
+      "marker": "18."
+    },
+    {
+      "self_ref": "#/texts/69",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 48.330177307128906,
+            "t": 639.119873046875,
+            "r": 291.1581726074219,
+            "b": 592.6674194335938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            277
+          ]
+        }
+      ],
+      "orig": "19. Chang AY, Riumallo-Herl C, Perales NA, Clark S, Clark A, Constenla D, Garske T, Jackson ML, Jean K, Jit M. The equity impact vaccines may have on averting deaths and medical impoverishment in developing countries. Health Aff. 2018;37:316\u201324. doi:10.1377/hlthaff.2017.0861 .",
+      "text": "Chang AY, Riumallo-Herl C, Perales NA, Clark S, Clark A, Constenla D, Garske T, Jackson ML, Jean K, Jit M. The equity impact vaccines may have on averting deaths and medical impoverishment in developing countries. Health Aff. 2018;37:316\u201324. doi:10.1377/hlthaff.2017.0861 .",
+      "enumerated": true,
+      "marker": "19."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.684165954589844,
+            "t": 589.1058959960938,
+            "r": 290.8607177734375,
+            "b": 552.0628662109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            221
+          ]
+        }
+      ],
+      "orig": "20. Wagstaff A, Flores G, Hsu J, Smitz MF, Chepynoga K, Buisman LR, van Wilgenburg K. Progress on catastrophic health spending in 133 countries: a retrospective observational study. Lancet Global Health. 2018;6:e169 \u2013 79.",
+      "text": "Wagstaff A, Flores G, Hsu J, Smitz MF, Chepynoga K, Buisman LR, van Wilgenburg K. Progress on catastrophic health spending in 133 countries: a retrospective observational study. Lancet Global Health. 2018;6:e169 \u2013 79.",
+      "enumerated": true,
+      "marker": "20."
+    },
+    {
+      "self_ref": "#/texts/71",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.684165954589844,
+            "t": 549.0709228515625,
+            "r": 290.8351745605469,
+            "b": 520.8253784179688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": "21. Verguet S, Laxminarayan R, Jamison DT. Universal public finance of tuberculosis treatment in India: an extended cost-effectiveness analysis. Health Econ. 2014;24:318\u201332. doi:10.1002/hec.3019 .",
+      "text": "Verguet S, Laxminarayan R, Jamison DT. Universal public finance of tuberculosis treatment in India: an extended cost-effectiveness analysis. Health Econ. 2014;24:318\u201332. doi:10.1002/hec.3019 .",
+      "enumerated": true,
+      "marker": "21."
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.68415451049805,
+            "t": 519.0744018554688,
+            "r": 290.7841491699219,
+            "b": 482.6604309082031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "22. Park M, Jit M, Wu JT. Cost-benefit analysis of vaccination: a comparative analysis of eight approaches for valuing changes to mortality and morbidity risks. BMC Med. 2018;16:139. doi:10.1186/s12916-018-1130-7 .",
+      "text": "Park M, Jit M, Wu JT. Cost-benefit analysis of vaccination: a comparative analysis of eight approaches for valuing changes to mortality and morbidity risks. BMC Med. 2018;16:139. doi:10.1186/s12916-018-1130-7 .",
+      "enumerated": true,
+      "marker": "22."
+    },
+    {
+      "self_ref": "#/texts/73",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.684146881103516,
+            "t": 479.0989074707031,
+            "r": 290.8436584472656,
+            "b": 430.98040771484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            261
+          ]
+        }
+      ],
+      "orig": "23. Zhou F, Shefer A, Wenger J, Messonnier M, Wang LY, Lopez A, Moore M, Murphy TV, Cortese M, Rodewald L. Economic evaluation of the routine childhood immunization program in the United States, 2009. Pediatrics. 2014;133:577 \u2013 85. doi:10.1542/ peds.2013-0698 .",
+      "text": "Zhou F, Shefer A, Wenger J, Messonnier M, Wang LY, Lopez A, Moore M, Murphy TV, Cortese M, Rodewald L. Economic evaluation of the routine childhood immunization program in the United States, 2009. Pediatrics. 2014;133:577 \u2013 85. doi:10.1542/ peds.2013-0698 .",
+      "enumerated": true,
+      "marker": "23."
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.69263458251953,
+            "t": 429.08489990234375,
+            "r": 291.064697265625,
+            "b": 392.6114196777344,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            212
+          ]
+        }
+      ],
+      "orig": "24. Robinson LA, Hammitt JK, Jamison DT, Walker DG. Conducting benefit-cost analysis in low- and middle-income countries: introduction to the special issue. J Ben Cost Anal. 2019;10:1\u201314. doi:10.1017/bca.2019.4 .",
+      "text": "Robinson LA, Hammitt JK, Jamison DT, Walker DG. Conducting benefit-cost analysis in low- and middle-income countries: introduction to the special issue. J Ben Cost Anal. 2019;10:1\u201314. doi:10.1017/bca.2019.4 .",
+      "enumerated": true,
+      "marker": "24."
+    },
+    {
+      "self_ref": "#/texts/75",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.69261932373047,
+            "t": 389.0499267578125,
+            "r": 291.15814208984375,
+            "b": 361.9859313964844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            169
+          ]
+        }
+      ],
+      "orig": "25. Robinson LA, Hammitt JK, O ' Keeffe L. Valuing mortality risk reductions in global benefit-cost analysis. J Ben Cost Anal. 2019;10:15 \u2013 50. doi:10.1017/bca.2018.26 .",
+      "text": "Robinson LA, Hammitt JK, O ' Keeffe L. Valuing mortality risk reductions in global benefit-cost analysis. J Ben Cost Anal. 2019;10:15 \u2013 50. doi:10.1017/bca.2018.26 .",
+      "enumerated": true,
+      "marker": "25."
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.69261932373047,
+            "t": 359.0534362792969,
+            "r": 290.5631408691406,
+            "b": 330.80792236328125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            179
+          ]
+        }
+      ],
+      "orig": "26. Laxminarayan R, Jamison DT, Krupnick AJ, Norheim OF. Valuing vaccines using value of statistical life measures. Vaccine. 2014;32:5065 \u2013 70. doi:10.1016/j.vaccine.2014.07.003 .",
+      "text": "Laxminarayan R, Jamison DT, Krupnick AJ, Norheim OF. Valuing vaccines using value of statistical life measures. Vaccine. 2014;32:5065 \u2013 70. doi:10.1016/j.vaccine.2014.07.003 .",
+      "enumerated": true,
+      "marker": "26."
+    },
+    {
+      "self_ref": "#/texts/77",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.69261932373047,
+            "t": 329.05694580078125,
+            "r": 290.58013916015625,
+            "b": 302.6219177246094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            166
+          ]
+        }
+      ],
+      "orig": "27. Laxminarayan R, Klein EY, Darley SR, Adeyi O. Global investments in TB control: economic benefits. Health Aff. 2009;28: w730 \u2013 42. doi:10.1377/hlthaff.28.4.w730 .",
+      "text": "Laxminarayan R, Klein EY, Darley SR, Adeyi O. Global investments in TB control: economic benefits. Health Aff. 2009;28: w730 \u2013 42. doi:10.1377/hlthaff.28.4.w730 .",
+      "enumerated": true,
+      "marker": "27."
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.69260025024414,
+            "t": 299.0604248046875,
+            "r": 291.149658203125,
+            "b": 271.9964294433594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            183
+          ]
+        }
+      ],
+      "orig": "28. Viscusi WKK, Aldy JEJ. The value of a statistical life: a critical review of market estimates throughout the world. J Risk Uncertain. 2003;27:5 \u2013 76. doi:10.1023/A:1025598106257 .",
+      "text": "Viscusi WKK, Aldy JEJ. The value of a statistical life: a critical review of market estimates throughout the world. J Risk Uncertain. 2003;27:5 \u2013 76. doi:10.1023/A:1025598106257 .",
+      "enumerated": true,
+      "marker": "28."
+    },
+    {
+      "self_ref": "#/texts/79",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.661502838134766,
+            "t": 269.1031799316406,
+            "r": 290.4980163574219,
+            "b": 240.9171905517578,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            159
+          ]
+        }
+      ],
+      "orig": "29. Jamison DT, Jha P, Bloom D. The challenge of diseases. Copenhagen consensus 2008 challenge paper: diseases. Copenhagen: Copenhagen Consensus Center; 2008 .",
+      "text": "Jamison DT, Jha P, Bloom D. The challenge of diseases. Copenhagen consensus 2008 challenge paper: diseases. Copenhagen: Copenhagen Consensus Center; 2008 .",
+      "enumerated": true,
+      "marker": "29."
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.763511657714844,
+            "t": 239.106689453125,
+            "r": 290.82952880859375,
+            "b": 212.04269409179688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            146
+          ]
+        }
+      ],
+      "orig": "30. Jamison DT, Jha P, Laxminarayan R, Ord T. Infectious disease, injury, and reproductive health. Copenhagen: Copenhagen Consensus Center; 2012 .",
+      "text": "Jamison DT, Jha P, Laxminarayan R, Ord T. Infectious disease, injury, and reproductive health. Copenhagen: Copenhagen Consensus Center; 2012 .",
+      "enumerated": true,
+      "marker": "30."
+    },
+    {
+      "self_ref": "#/texts/81",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.755008697509766,
+            "t": 209.11019897460938,
+            "r": 290.73602294921875,
+            "b": 170.88571166992188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            230
+          ]
+        }
+      ],
+      "orig": "31. Jha P, Hum R, Gauvreau CL, Jordan K. Benefits and costs of the health targets for the post-2015 development agenda. In: Lomborg B, editor. Prioritizing development. 1st ed. Cambridge: Cambridge University Press;2018. p.219\u201330.",
+      "text": "Jha P, Hum R, Gauvreau CL, Jordan K. Benefits and costs of the health targets for the post-2015 development agenda. In: Lomborg B, editor. Prioritizing development. 1st ed. Cambridge: Cambridge University Press;2018. p.219\u201330.",
+      "enumerated": true,
+      "marker": "31."
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.75502395629883,
+            "t": 169.0751953125,
+            "r": 290.8975524902344,
+            "b": 132.6612091064453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            224
+          ]
+        }
+      ],
+      "orig": "32. Ozawa S, Clark S, Portnoy A, Grewal S, Brenzel L, Walker DG. Return on investment from childhood immunization in low- and middle-income countries, 2011 \u2013 20. Health Aff. 2016;35:199 \u2013 207. doi:10.1377/hlthaff.2015.1086 .",
+      "text": "Ozawa S, Clark S, Portnoy A, Grewal S, Brenzel L, Walker DG. Return on investment from childhood immunization in low- and middle-income countries, 2011 \u2013 20. Health Aff. 2016;35:199 \u2013 207. doi:10.1377/hlthaff.2015.1086 .",
+      "enumerated": true,
+      "marker": "32."
+    },
+    {
+      "self_ref": "#/texts/83",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.763519287109375,
+            "t": 129.09970092773438,
+            "r": 290.906005859375,
+            "b": 92.05670928955078,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            231
+          ]
+        }
+      ],
+      "orig": "33. Levin CE, Sharma M, Olson Z, Verguet S, Shi JF, Wang SM, Qiao YL, Jamison DT, Kim JJ. An extended cost-effectiveness analysis of publicly financed HPV vaccination to prevent cervical cancer in China. Vaccine. 2015;33:2830 \u2013 41.",
+      "text": "Levin CE, Sharma M, Olson Z, Verguet S, Shi JF, Wang SM, Qiao YL, Jamison DT, Kim JJ. An extended cost-effectiveness analysis of publicly financed HPV vaccination to prevent cervical cancer in China. Vaccine. 2015;33:2830 \u2013 41.",
+      "enumerated": true,
+      "marker": "33."
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 47.763511657714844,
+            "t": 89.06471252441406,
+            "r": 290.85504150390625,
+            "b": 50.8402214050293,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            257
+          ]
+        }
+      ],
+      "orig": "34. Driessen J, Olson ZD, Jamison DT, Verguet S. Comparing the health and social protection effects of measles vaccination strategies in Ethiopia: an extended cost-effectiveness analysis. Soc Sci Med. 2015;139:115 \u2013 22. doi:10.1016/j.socscimed.2015.06.018 .",
+      "text": "Driessen J, Olson ZD, Jamison DT, Verguet S. Comparing the health and social protection effects of measles vaccination strategies in Ethiopia: an extended cost-effectiveness analysis. Soc Sci Med. 2015;139:115 \u2013 22. doi:10.1016/j.socscimed.2015.06.018 .",
+      "enumerated": true,
+      "marker": "34."
+    },
+    {
+      "self_ref": "#/texts/85",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.7820129394531,
+            "t": 738.4222412109375,
+            "r": 554.7034912109375,
+            "b": 700.13818359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            244
+          ]
+        }
+      ],
+      "orig": "35. Interagency Coordination Group on Antimicrobial Resistance. No time to wait: securing the future from drug-resistant infections; 2019 https://www.who.int/antimicrobial-resistance/interagencycoordination-group/IACG_final_report_EN.pdf?ua=1 .",
+      "text": "Interagency Coordination Group on Antimicrobial Resistance. No time to wait: securing the future from drug-resistant infections; 2019 https://www.who.int/antimicrobial-resistance/interagencycoordination-group/IACG_final_report_EN.pdf?ua=1 .",
+      "enumerated": true,
+      "marker": "35."
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.7820129394531,
+            "t": 698.38720703125,
+            "r": 554.8055419921875,
+            "b": 672.19873046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "36. Goossens H. Antibiotic consumption and link to resistance. Clin Microbiol Infect. 2009;15(Suppl 3):12\u201315. doi:10.1111/j.14690691.2009.02725.x .",
+      "text": "Goossens H. Antibiotic consumption and link to resistance. Clin Microbiol Infect. 2009;15(Suppl 3):12\u201315. doi:10.1111/j.14690691.2009.02725.x .",
+      "enumerated": true,
+      "marker": "36."
+    },
+    {
+      "self_ref": "#/texts/87",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.7820129394531,
+            "t": 668.3907470703125,
+            "r": 554.8990478515625,
+            "b": 631.3477783203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            213
+          ]
+        }
+      ],
+      "orig": "37. van de Sande-bruinsma N, Grundmann H, Verloo D. Tiemersma E, Monen J, Goossens H, Ferech M. Antimicrobial drug use and resistance in Europe. Emerging Infect Dis. 2008;14:1722 \u2013 30. doi:10.3201/eid1411.070467 .",
+      "text": "van de Sande-bruinsma N, Grundmann H, Verloo D. Tiemersma E, Monen J, Goossens H, Ferech M. Antimicrobial drug use and resistance in Europe. Emerging Infect Dis. 2008;14:1722 \u2013 30. doi:10.3201/eid1411.070467 .",
+      "enumerated": true,
+      "marker": "37."
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.7820129394531,
+            "t": 628.355712890625,
+            "r": 554.8650512695312,
+            "b": 600.1697387695312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            134
+          ]
+        }
+      ],
+      "orig": "38. World Health Organization. Antimicrobial resistance: global report on surveillance 2014. Geneva: World Health Organization; 2014 .",
+      "text": "World Health Organization. Antimicrobial resistance: global report on surveillance 2014. Geneva: World Health Organization; 2014 .",
+      "enumerated": true,
+      "marker": "38."
+    },
+    {
+      "self_ref": "#/texts/89",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.7735290527344,
+            "t": 598.3592529296875,
+            "r": 554.5165405273438,
+            "b": 580.1522216796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            119
+          ]
+        }
+      ],
+      "orig": "39. CDDEP. State of the world ' s antibiotics. Washington (DC): Center for Disease Dynamics, Economics & Policy; 2015 .",
+      "text": "CDDEP. State of the world ' s antibiotics. Washington (DC): Center for Disease Dynamics, Economics & Policy; 2015 .",
+      "enumerated": true,
+      "marker": "39."
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.569580078125,
+            "t": 578.341796875,
+            "r": 554.9161376953125,
+            "b": 551.3372802734375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            182
+          ]
+        }
+      ],
+      "orig": "40. Utt E, Wells C. The global response to the threat of antimicrobial resistance and the important role of vaccines. Pharm Policy and Law. 2016;18:179 \u2013 97. doi:10.3233/PPL-160442 .",
+      "text": "Utt E, Wells C. The global response to the threat of antimicrobial resistance and the important role of vaccines. Pharm Policy and Law. 2016;18:179 \u2013 97. doi:10.3233/PPL-160442 .",
+      "enumerated": true,
+      "marker": "40."
+    },
+    {
+      "self_ref": "#/texts/91",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.569580078125,
+            "t": 548.3452758789062,
+            "r": 554.87353515625,
+            "b": 511.30224609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            193
+          ]
+        }
+      ],
+      "orig": "41. The Review on Antimicrobial Resistance chaired by Jim O ' Neill. Tackling drug-resistant infections globally: final report and recommendations. London: HM Government, Wellcome Trust; 2016 .",
+      "text": "The Review on Antimicrobial Resistance chaired by Jim O ' Neill. Tackling drug-resistant infections globally: final report and recommendations. London: HM Government, Wellcome Trust; 2016 .",
+      "enumerated": true,
+      "marker": "41."
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.569580078125,
+            "t": 508.3697814941406,
+            "r": 554.8821411132812,
+            "b": 480.2239074707031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            189
+          ]
+        }
+      ],
+      "orig": "42. Bloom DE, Brenzel L, Cadarette D, Sullivan J. Moving beyond traditional valuation of vaccination: needs and opportunities. Vaccine. 2017;35:A29 \u2013 35. doi:10.1016/j.vaccine.2016.12.001 .",
+      "text": "Bloom DE, Brenzel L, Cadarette D, Sullivan J. Moving beyond traditional valuation of vaccination: needs and opportunities. Vaccine. 2017;35:A29 \u2013 35. doi:10.1016/j.vaccine.2016.12.001 .",
+      "enumerated": true,
+      "marker": "42."
+    },
+    {
+      "self_ref": "#/texts/93",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.58563232421875,
+            "t": 478.41339111328125,
+            "r": 554.881103515625,
+            "b": 451.4089050292969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "43. Global Antibiotic Resistance Partnership. Rationalizing antibiotic use to limit antibiotic resistance in India(+). Indian J Med Res 2011;134:281 \u2013 94.",
+      "text": "Global Antibiotic Resistance Partnership. Rationalizing antibiotic use to limit antibiotic resistance in India(+). Indian J Med Res 2011;134:281 \u2013 94.",
+      "enumerated": true,
+      "marker": "43."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.58563232421875,
+            "t": 448.4169006347656,
+            "r": 554.8301391601562,
+            "b": 422.25390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "44. Laxminarayan R. Antibiotic effectiveness: balancing conservation against innovation. Science. 2014;345:1299\u2013301. doi:10.1126/ science.1254163 .",
+      "text": "Laxminarayan R. Antibiotic effectiveness: balancing conservation against innovation. Science. 2014;345:1299\u2013301. doi:10.1126/ science.1254163 .",
+      "enumerated": true,
+      "marker": "44."
+    },
+    {
+      "self_ref": "#/texts/95",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.58563232421875,
+            "t": 418.42041015625,
+            "r": 554.9491577148438,
+            "b": 380.3404235839844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            213
+          ]
+        }
+      ],
+      "orig": "45. Sevilla JP, Bloom DE, Cadarette D, Jit M, Lipsitch M. Toward economic evaluation of the value of vaccines and other health technologies in addressing AMR. PNAS. 2018;115:12911\u201319. doi:10.1073/pnas.1717161115 .",
+      "text": "Sevilla JP, Bloom DE, Cadarette D, Jit M, Lipsitch M. Toward economic evaluation of the value of vaccines and other health technologies in addressing AMR. PNAS. 2018;115:12911\u201319. doi:10.1073/pnas.1717161115 .",
+      "enumerated": true,
+      "marker": "45."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.5856018066406,
+            "t": 378.4449157714844,
+            "r": 554.5411376953125,
+            "b": 350.34393310546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            173
+          ]
+        }
+      ],
+      "orig": "46. Bloom DE, Black S, Salisbury D, Rappuoli R. Antimicrobial resistance and the role of vaccines. Proc Natl Acad Sci USA. 2018;115:12868 \u2013 71. doi:10.1073/pnas.1717157115 .",
+      "text": "Bloom DE, Black S, Salisbury D, Rappuoli R. Antimicrobial resistance and the role of vaccines. Proc Natl Acad Sci USA. 2018;115:12868 \u2013 71. doi:10.1073/pnas.1717157115 .",
+      "enumerated": true,
+      "marker": "46."
+    },
+    {
+      "self_ref": "#/texts/97",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.5771179199219,
+            "t": 348.388916015625,
+            "r": 554.84716796875,
+            "b": 322.285400390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            145
+          ]
+        }
+      ],
+      "orig": "47. Dewey KG, Begum K. Long-term consequences of stunting in early life. Mat Child Nutr. 2011;7(Suppl 3):5\u201318. doi:10.1111/ mcn.2011.7.issue-s3 .",
+      "text": "Dewey KG, Begum K. Long-term consequences of stunting in early life. Mat Child Nutr. 2011;7(Suppl 3):5\u201318. doi:10.1111/ mcn.2011.7.issue-s3 .",
+      "enumerated": true,
+      "marker": "47."
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.57708740234375,
+            "t": 318.3924255371094,
+            "r": 554.4985961914062,
+            "b": 300.1854248046875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            132
+          ]
+        }
+      ],
+      "orig": "48. Almond D, Currie J. Killing me softly: the fetal origins hypothesis. J Econ Perspect. 2011;25:153\u201372. doi:10.1257/jep.25.3.153 .",
+      "text": "Almond D, Currie J. Killing me softly: the fetal origins hypothesis. J Econ Perspect. 2011;25:153\u201372. doi:10.1257/jep.25.3.153 .",
+      "enumerated": true,
+      "marker": "48."
+    },
+    {
+      "self_ref": "#/texts/99",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.5856018066406,
+            "t": 298.37493896484375,
+            "r": 554.7706298828125,
+            "b": 271.9994201660156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            163
+          ]
+        }
+      ],
+      "orig": "49. Currie J, Vogl T. Early-life health and adult circumstance in developing countries. Annu Rev Econom. 2013;5:1\u201336. doi:10.1146/annurev-economics-081412-103704 .",
+      "text": "Currie J, Vogl T. Early-life health and adult circumstance in developing countries. Annu Rev Econom. 2013;5:1\u201336. doi:10.1146/annurev-economics-081412-103704 .",
+      "enumerated": true,
+      "marker": "49."
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.8320617675781,
+            "t": 268.37841796875,
+            "r": 554.4985961914062,
+            "b": 250.1714324951172,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "50. Barker DJ. The fetal and infant origins of adult disease. BMJ. 1990;301:1111 \u2013 1111. doi:10.1136/bmj.301.6761.1111 .",
+      "text": "Barker DJ. The fetal and infant origins of adult disease. BMJ. 1990;301:1111 \u2013 1111. doi:10.1136/bmj.301.6761.1111 .",
+      "enumerated": true,
+      "marker": "50."
+    },
+    {
+      "self_ref": "#/texts/101",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.83209228515625,
+            "t": 248.36093139648438,
+            "r": 554.55810546875,
+            "b": 230.15394592285156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        }
+      ],
+      "orig": "51. Barker DJ. Fetal origins of coronary heart disease. BMJ. 1995;311:171 \u2013 74. doi:10.1136/bmj.311.6998.171 .",
+      "text": "Barker DJ. Fetal origins of coronary heart disease. BMJ. 1995;311:171 \u2013 74. doi:10.1136/bmj.311.6998.171 .",
+      "enumerated": true,
+      "marker": "51."
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.83209228515625,
+            "t": 228.40292358398438,
+            "r": 555.7991333007812,
+            "b": 170.90042114257812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            359
+          ]
+        }
+      ],
+      "orig": "52. Adair LS, Fall CH, Osmond C, Stein AD, Martorell R, RamirezZea M, Sachdev HS, Dahly DL, Bas I, Norris SA. Associations of linear growth and relative weight gain during early life with adult health and human capital in countries of low and middle income: findings from five birth cohort studies. Lancet. 2013;382:525\u201334. doi:10.1016/S0140-6736(13)60103-8 .",
+      "text": "Adair LS, Fall CH, Osmond C, Stein AD, Martorell R, RamirezZea M, Sachdev HS, Dahly DL, Bas I, Norris SA. Associations of linear growth and relative weight gain during early life with adult health and human capital in countries of low and middle income: findings from five birth cohort studies. Lancet. 2013;382:525\u201334. doi:10.1016/S0140-6736(13)60103-8 .",
+      "enumerated": true,
+      "marker": "52."
+    },
+    {
+      "self_ref": "#/texts/103",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.83209228515625,
+            "t": 168.35043334960938,
+            "r": 555.8076171875,
+            "b": 140.1644287109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": "53. Alderman H, Hoddinott J, Kinsey B. Long term consequences of early childhood malnutrition. Oxf Econ Pap. 2006;58:450\u201374. doi:10.1093/oep/gpl008 .",
+      "text": "Alderman H, Hoddinott J, Kinsey B. Long term consequences of early childhood malnutrition. Oxf Econ Pap. 2006;58:450\u201374. doi:10.1093/oep/gpl008 .",
+      "enumerated": true,
+      "marker": "53."
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.8406066894531,
+            "t": 138.35394287109375,
+            "r": 554.8046264648438,
+            "b": 100.2103042602539,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            251
+          ]
+        }
+      ],
+      "orig": "54. Behrman JR, Calderon MC, Preston SH, Hoddinott J, Martorell R, Stein AD. Nutritional supplementation in girls influences the growth of their children: prospective study in Guatemala. Am J Clin Nutr. 2009;90:1372 \u2013 79. doi:10.3945/ajcn.2009.27524 .",
+      "text": "Behrman JR, Calderon MC, Preston SH, Hoddinott J, Martorell R, Stein AD. Nutritional supplementation in girls influences the growth of their children: prospective study in Guatemala. Am J Clin Nutr. 2009;90:1372 \u2013 79. doi:10.3945/ajcn.2009.27524 .",
+      "enumerated": true,
+      "marker": "54."
+    },
+    {
+      "self_ref": "#/texts/105",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.8236083984375,
+            "t": 98.45930480957031,
+            "r": 554.7791748046875,
+            "b": 70.21379852294922,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            164
+          ]
+        }
+      ],
+      "orig": "55. Dercon S, Porter C. Live aid revisited: long-term impacts of the 1984 Ethiopian famine on children. J Eur Econ Assoc. 2014;12:927 \u2013 48. doi:10.1111/jeea.12088 .",
+      "text": "Dercon S, Porter C. Live aid revisited: long-term impacts of the 1984 Ethiopian famine on children. J Eur Econ Assoc. 2014;12:927 \u2013 48. doi:10.1111/jeea.12088 .",
+      "enumerated": true,
+      "marker": "55."
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 311.8236083984375,
+            "t": 68.40330505371094,
+            "r": 554.5411376953125,
+            "b": 50.19630813598633,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            120
+          ]
+        }
+      ],
+      "orig": "56. Hoddinott J, Alderman H, Behrman JR, Haddad L, Horton S. The economic rationale for investing in stunting reduction.",
+      "text": "Hoddinott J, Alderman H, Behrman JR, Haddad L, Horton S. The economic rationale for investing in stunting reduction.",
+      "enumerated": true,
+      "marker": "56."
+    },
+    {
+      "self_ref": "#/texts/107",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 39.784690856933594,
+            "t": 763.9619750976562,
+            "r": 54.229496002197266,
+            "b": 758.9295043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "1904",
+      "text": "1904"
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 81.20159912109375,
+            "t": 764.1419677734375,
+            "r": 156.64682006835938,
+            "b": 758.9295043945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "A. NANDI AND A. SHET",
+      "text": "A. NANDI AND A. SHET"
+    },
+    {
+      "self_ref": "#/texts/109",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 63.20680236816406,
+            "t": 739.1478881835938,
+            "r": 290.7008056640625,
+            "b": 722.9383544921875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            76
+          ]
+        }
+      ],
+      "orig": "Matern Child Nutr. 2013;9(Suppl 2):69\u201382. doi:10.1111/ mcn.2013.9.issue-s2 .",
+      "text": "Matern Child Nutr. 2013;9(Suppl 2):69\u201382. doi:10.1111/ mcn.2013.9.issue-s2 .",
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.8047981262207,
+            "t": 719.13037109375,
+            "r": 290.90484619140625,
+            "b": 692.06640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            170
+          ]
+        }
+      ],
+      "orig": "57. Maccini S, Yang D. Under the weather: health, schooling, and economic consequences of early-life rainfall. Am Econ Rev. 2009;99:1006 \u2013 26. doi:10.1257/aer.99.3.1006 .",
+      "text": "Maccini S, Yang D. Under the weather: health, schooling, and economic consequences of early-life rainfall. Am Econ Rev. 2009;99:1006 \u2013 26. doi:10.1257/aer.99.3.1006 .",
+      "enumerated": true,
+      "marker": "57."
+    },
+    {
+      "self_ref": "#/texts/111",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.804805755615234,
+            "t": 689.1339111328125,
+            "r": 290.8453369140625,
+            "b": 650.9093627929688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "58. Maluccio J, Hoddinott J, Behrman J, Quisumbing A, Martorell R, Stein AD. The impact of nutrition during early childhood on education among guatemalan adults. Econ J. 2009;119:734\u201363. doi:10.1111/j.1468-0297.2009.02220.x .",
+      "text": "Maluccio J, Hoddinott J, Behrman J, Quisumbing A, Martorell R, Stein AD. The impact of nutrition during early childhood on education among guatemalan adults. Econ J. 2009;119:734\u201363. doi:10.1111/j.1468-0297.2009.02220.x .",
+      "enumerated": true,
+      "marker": "58."
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.81329345703125,
+            "t": 649.098876953125,
+            "r": 290.8708801269531,
+            "b": 590.8568725585938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            340
+          ]
+        }
+      ],
+      "orig": "59. Martorell R, Horta BL, Adair LS, Stein AD, Richter L, Fall CHD, Bhargava SK, Biswas SKD, Perez L, Barros FC. Weight gain in the first two years of life is an important predictor of schooling outcomes in pooled analyses from five birth cohorts from low- and middle-income countries. J Nutr. 2010;140:348 \u2013 54. doi:10.3945/jn.109.112300 .",
+      "text": "Martorell R, Horta BL, Adair LS, Stein AD, Richter L, Fall CHD, Bhargava SK, Biswas SKD, Perez L, Barros FC. Weight gain in the first two years of life is an important predictor of schooling outcomes in pooled analyses from five birth cohorts from low- and middle-income countries. J Nutr. 2010;140:348 \u2013 54. doi:10.3945/jn.109.112300 .",
+      "enumerated": true,
+      "marker": "59."
+    },
+    {
+      "self_ref": "#/texts/113",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.719783782958984,
+            "t": 589.1058959960938,
+            "r": 290.8792724609375,
+            "b": 550.88134765625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            230
+          ]
+        }
+      ],
+      "orig": "60. Nandi A, Ashok A, Kinra S, JR B, Laxminarayan R. Early childhood nutrition is positively associated with adolescent educational outcomes: evidence from the Andhra Pradesh child and parents study (APCAPS). J Nutr. 2016;146:1\u20138.",
+      "text": "Nandi A, Ashok A, Kinra S, JR B, Laxminarayan R. Early childhood nutrition is positively associated with adolescent educational outcomes: evidence from the Andhra Pradesh child and parents study (APCAPS). J Nutr. 2016;146:1\u20138.",
+      "enumerated": true,
+      "marker": "60."
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.719783782958984,
+            "t": 549.0709228515625,
+            "r": 291.7887878417969,
+            "b": 490.9734191894531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            329
+          ]
+        }
+      ],
+      "orig": "61. Nandi A, Behrman JR, Bhalotra S, Deolalikar AB, Laxminarayan R. Human capital and productivity benefits of early childhood nutritional interventions. In: Bundy DAP, et al., editors. Disease control priorities third edition, volume 8: child & adolescent development. Washington (DC): World Bank Publications; 2017. p. 385\u2013402.",
+      "text": "Nandi A, Behrman JR, Bhalotra S, Deolalikar AB, Laxminarayan R. Human capital and productivity benefits of early childhood nutritional interventions. In: Bundy DAP, et al., editors. Disease control priorities third edition, volume 8: child & adolescent development. Washington (DC): World Bank Publications; 2017. p. 385\u2013402.",
+      "enumerated": true,
+      "marker": "61."
+    },
+    {
+      "self_ref": "#/texts/115",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.719791412353516,
+            "t": 489.07794189453125,
+            "r": 290.9813232421875,
+            "b": 450.8534240722656,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            257
+          ]
+        }
+      ],
+      "orig": "62. Stein AD, Barros FC, Bhargava SK, Hao W, Horta BL, Lee N, Kuzawa CW, Martorell R, Ramji S, Stein A. Birth status, child growth, and adult outcomes in low- and middle-income countries. J Pediatr. 2013;163:1740 \u2013 1746.e4. doi:10.1016/j.jpeds.2013.08.012 .",
+      "text": "Stein AD, Barros FC, Bhargava SK, Hao W, Horta BL, Lee N, Kuzawa CW, Martorell R, Ramji S, Stein A. Birth status, child growth, and adult outcomes in low- and middle-income countries. J Pediatr. 2013;163:1740 \u2013 1746.e4. doi:10.1016/j.jpeds.2013.08.012 .",
+      "enumerated": true,
+      "marker": "62."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.72827911376953,
+            "t": 449.04290771484375,
+            "r": 290.82830810546875,
+            "b": 400.83941650390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            298
+          ]
+        }
+      ],
+      "orig": "63. Stein AD, Wang M, Martorell R, Norris SA, Adair LS, Bas I, Sachdev HS, Bhargava SK, Fall CHD, Gigante DP. Growth patterns in early childhood and final attained stature: data from five birth cohorts from low- and middle-income countries. Am J Hum Biol. 2010;22:353 \u2013 59. doi:10.1002/ajhb.20998 .",
+      "text": "Stein AD, Wang M, Martorell R, Norris SA, Adair LS, Bas I, Sachdev HS, Bhargava SK, Fall CHD, Gigante DP. Growth patterns in early childhood and final attained stature: data from five birth cohorts from low- and middle-income countries. Am J Hum Biol. 2010;22:353 \u2013 59. doi:10.1002/ajhb.20998 .",
+      "enumerated": true,
+      "marker": "63."
+    },
+    {
+      "self_ref": "#/texts/117",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.728275299072266,
+            "t": 399.0289306640625,
+            "r": 290.9728088378906,
+            "b": 370.9874267578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            188
+          ]
+        }
+      ],
+      "orig": "64. Victora CG, Adair L, Fall C, Hallal PC, Martorell R, Richter L, Sachdev HS. Maternal and child undernutrition: consequences for adult health and human capital. Lancet. 2008;371:340\u201357.",
+      "text": "Victora CG, Adair L, Fall C, Hallal PC, Martorell R, Richter L, Sachdev HS. Maternal and child undernutrition: consequences for adult health and human capital. Lancet. 2008;371:340\u201357.",
+      "enumerated": true,
+      "marker": "64."
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.72826385498047,
+            "t": 369.0324401855469,
+            "r": 290.9047546386719,
+            "b": 320.8289489746094,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            319
+          ]
+        }
+      ],
+      "orig": "65. Nandi A, Behrman JR, Kinra S, Laxminarayan R. Early-life nutrition is associated positively with schooling and labor market outcomes and negatively with marriage rates at age 20\u201325 years: evidence from the Andhra Pradesh children and parents study (APCAPS) in India. J Nutr. 2018;148:140\u201346. doi:10.1093/jn/nxx012 .",
+      "text": "Nandi A, Behrman JR, Kinra S, Laxminarayan R. Early-life nutrition is associated positively with schooling and labor market outcomes and negatively with marriage rates at age 20\u201325 years: evidence from the Andhra Pradesh children and parents study (APCAPS) in India. J Nutr. 2018;148:140\u201346. doi:10.1093/jn/nxx012 .",
+      "enumerated": true,
+      "marker": "65."
+    },
+    {
+      "self_ref": "#/texts/119",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.72826385498047,
+            "t": 319.0184326171875,
+            "r": 290.8962707519531,
+            "b": 282.60443115234375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            221
+          ]
+        }
+      ],
+      "orig": "66. Nandi A, Behrman J, Laxminarayan R. The impact of a national early childhood development program on future schooling attainment: evidence from ICDS in India. Econ Dev Cult Change. 2019 . In Press. doi:10.1086/703078 .",
+      "text": "Nandi A, Behrman J, Laxminarayan R. The impact of a national early childhood development program on future schooling attainment: evidence from ICDS in India. Econ Dev Cult Change. 2019 . In Press. doi:10.1086/703078 .",
+      "enumerated": true,
+      "marker": "66."
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.72823715209961,
+            "t": 279.0429382324219,
+            "r": 291.7972412109375,
+            "b": 240.92210388183594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            225
+          ]
+        }
+      ],
+      "orig": "67. S\u00f8rup S, Benn CS, Poulsen A, Krause TG, Aaby P, Ravn H. Live vaccine against measles, mumps, and rubella and the risk of hospital admissions for nontargeted infections. JAMA. 2014;311:826 \u2013 35. doi:10.1001/jama.2014.470 .",
+      "text": "S\u00f8rup S, Benn CS, Poulsen A, Krause TG, Aaby P, Ravn H. Live vaccine against measles, mumps, and rubella and the risk of hospital admissions for nontargeted infections. JAMA. 2014;311:826 \u2013 35. doi:10.1001/jama.2014.470 .",
+      "enumerated": true,
+      "marker": "67."
+    },
+    {
+      "self_ref": "#/texts/121",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.7113037109375,
+            "t": 239.11160278320312,
+            "r": 290.9302978515625,
+            "b": 211.60560607910156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            179
+          ]
+        }
+      ],
+      "orig": "68. Mina MJ. Measles, immune suppression and vaccination: direct and indirect nonspecific vaccine benefits. J Infect. 2017;74(Suppl 1):S10 \u2013 7. doi:10.1016/S0163-4453(17)30185-8 .",
+      "text": "Mina MJ. Measles, immune suppression and vaccination: direct and indirect nonspecific vaccine benefits. J Infect. 2017;74(Suppl 1):S10 \u2013 7. doi:10.1016/S0163-4453(17)30185-8 .",
+      "enumerated": true,
+      "marker": "68."
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.70280838012695,
+            "t": 209.1151123046875,
+            "r": 290.81134033203125,
+            "b": 172.07211303710938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            226
+          ]
+        }
+      ],
+      "orig": "69. Mina MJ, Metcalf CJE, de Swart RL, Osterhaus ADME, Grenfell BT. Long-term measles-induced immunomodulation increases overall childhood infectious disease mortality. Science. 2015;348:694 \u2013 99. doi:10.1126/science.aaa3662 .",
+      "text": "Mina MJ, Metcalf CJE, de Swart RL, Osterhaus ADME, Grenfell BT. Long-term measles-induced immunomodulation increases overall childhood infectious disease mortality. Science. 2015;348:694 \u2013 99. doi:10.1126/science.aaa3662 .",
+      "enumerated": true,
+      "marker": "69."
+    },
+    {
+      "self_ref": "#/texts/123",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.787811279296875,
+            "t": 169.08010864257812,
+            "r": 290.73480224609375,
+            "b": 130.85562133789062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            259
+          ]
+        }
+      ],
+      "orig": "70. Mina MJ, Kula T, Leng Y, Li M, de Vries RD, Knip M, Siljander H, Rewers M, Choy DF, Wilson MS. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. Science. 2019;366:599 \u2013 606. doi:10.1126/science.aay6485 .",
+      "text": "Mina MJ, Kula T, Leng Y, Li M, de Vries RD, Knip M, Siljander H, Rewers M, Choy DF, Wilson MS. Measles virus infection diminishes preexisting antibodies that offer protection from other pathogens. Science. 2019;366:599 \u2013 606. doi:10.1126/science.aay6485 .",
+      "enumerated": true,
+      "marker": "70."
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.79631423950195,
+            "t": 129.1046142578125,
+            "r": 290.8197937011719,
+            "b": 90.88011932373047,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            232
+          ]
+        }
+      ],
+      "orig": "71. Nandi A, Shet A, Behrman JR, Black MM, Bloom DE, Laxminarayan R Anthropometric, cognitive, and educational benefits of measles vaccination: longitudinal cohort analysis in Ethiopia, India, and Vietnam; 2018. CDDEP Working paper.",
+      "text": "Nandi A, Shet A, Behrman JR, Black MM, Bloom DE, Laxminarayan R Anthropometric, cognitive, and educational benefits of measles vaccination: longitudinal cohort analysis in Ethiopia, India, and Vietnam; 2018. CDDEP Working paper.",
+      "enumerated": true,
+      "marker": "71."
+    },
+    {
+      "self_ref": "#/texts/125",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 47.79630661010742,
+            "t": 89.06962585449219,
+            "r": 290.9439392089844,
+            "b": 62.06511688232422,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            201
+          ]
+        }
+      ],
+      "orig": "72. Driessen J, Razzaque A, Walker D, Canning D. The effect of childhood measles vaccination on school enrolment in Matlab, Bangladesh. Appl Econ. 2015;47:6019 \u2013 40. doi:10.1080/00036846.2015.1061647 .",
+      "text": "Driessen J, Razzaque A, Walker D, Canning D. The effect of childhood measles vaccination on school enrolment in Matlab, Bangladesh. Appl Econ. 2015;47:6019 \u2013 40. doi:10.1080/00036846.2015.1061647 .",
+      "enumerated": true,
+      "marker": "72."
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.82330322265625,
+            "t": 739.1071166992188,
+            "r": 554.8893432617188,
+            "b": 700.8826293945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            256
+          ]
+        }
+      ],
+      "orig": "73. Anekwe TD, Newell M-L, Tanser F, Pillay D, B\u00e4rnighausen T. The causal effect of childhood measles vaccination on educational attainment: A mother fixed-effects study in rural South Africa. Vaccine. 2015;33:5020 \u2013 26. doi:10.1016/j.vaccine.2015.04.072 .",
+      "text": "Anekwe TD, Newell M-L, Tanser F, Pillay D, B\u00e4rnighausen T. The causal effect of childhood measles vaccination on educational attainment: A mother fixed-effects study in rural South Africa. Vaccine. 2015;33:5020 \u2013 26. doi:10.1016/j.vaccine.2015.04.072 .",
+      "enumerated": true,
+      "marker": "73."
+    },
+    {
+      "self_ref": "#/texts/127",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.8147888183594,
+            "t": 699.0721435546875,
+            "r": 554.8043823242188,
+            "b": 660.8475952148438,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            234
+          ]
+        }
+      ],
+      "orig": "74. Nandi A, Deolalikar AB, Bloom DE, Laxminarayan R. Haemophilus influenzae type b vaccination and anthropometric, cognitive, and schooling outcomes among Indian children. Ann N Y Acad Sci. 2019;1449:70 \u2013 82. doi:10.1111/nyas.14127 .",
+      "text": "Nandi A, Deolalikar AB, Bloom DE, Laxminarayan R. Haemophilus influenzae type b vaccination and anthropometric, cognitive, and schooling outcomes among Indian children. Ann N Y Acad Sci. 2019;1449:70 \u2013 82. doi:10.1111/nyas.14127 .",
+      "enumerated": true,
+      "marker": "74."
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.8147888183594,
+            "t": 659.0966186523438,
+            "r": 554.7872924804688,
+            "b": 612.9161376953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            259
+          ]
+        }
+      ],
+      "orig": "75. Upadhyay AK, Srivastava S. Association between Haemophilus influenza type B (Hib) vaccination and child anthropometric outcomes in Andhra Pradesh (India): evidence from the young lives study. J Public Health. 2017;25:581\u201389. doi:10.1007/s10389-0170824-1 .",
+      "text": "Upadhyay AK, Srivastava S. Association between Haemophilus influenza type B (Hib) vaccination and child anthropometric outcomes in Andhra Pradesh (India): evidence from the young lives study. J Public Health. 2017;25:581\u201389. doi:10.1007/s10389-0170824-1 .",
+      "enumerated": true,
+      "marker": "75."
+    },
+    {
+      "self_ref": "#/texts/129",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.8148193359375,
+            "t": 609.0826416015625,
+            "r": 554.8043212890625,
+            "b": 580.9816284179688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            195
+          ]
+        }
+      ],
+      "orig": "76. Bloom DE, Canning D, Shenoy ES. The effect of vaccination on children ' s physical and cognitive development in the Philippines. Appl Econ. 2012;44:2777\u201383. doi:10.1080/00036846.2011.566203 .",
+      "text": "Bloom DE, Canning D, Shenoy ES. The effect of vaccination on children ' s physical and cognitive development in the Philippines. Appl Econ. 2012;44:2777\u201383. doi:10.1080/00036846.2011.566203 .",
+      "enumerated": true,
+      "marker": "76."
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.8233337402344,
+            "t": 579.0266723632812,
+            "r": 554.787353515625,
+            "b": 530.8316040039062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            278
+          ]
+        }
+      ],
+      "orig": "77. Canning D, Razzaque A, Driessen J, Walker DG, Streatfield PK, Yunus M. The effect of maternal tetanus immunization on children ' s schooling attainment in Matlab, Bangladesh: followup of a randomized trial. Soc Sci Med. 2011;72:1429\u201336. doi:10.1016/j.socscimed.2011.02.043 .",
+      "text": "Canning D, Razzaque A, Driessen J, Walker DG, Streatfield PK, Yunus M. The effect of maternal tetanus immunization on children ' s schooling attainment in Matlab, Bangladesh: followup of a randomized trial. Soc Sci Med. 2011;72:1429\u201336. doi:10.1016/j.socscimed.2011.02.043 .",
+      "enumerated": true,
+      "marker": "77."
+    },
+    {
+      "self_ref": "#/texts/131",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.8149108886719,
+            "t": 529.0968017578125,
+            "r": 554.898681640625,
+            "b": 491.0168151855469,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "78. Anekwe TD, Kumar S. The effect of a vaccination program on child anthropometry: evidence from India ' s Universal Immunization Program. J Public Health (Oxf). 2012;34:489\u201397. doi:10.1093/pubmed/fds032 .",
+      "text": "Anekwe TD, Kumar S. The effect of a vaccination program on child anthropometry: evidence from India ' s Universal Immunization Program. J Public Health (Oxf). 2012;34:489\u201397. doi:10.1093/pubmed/fds032 .",
+      "enumerated": true,
+      "marker": "78."
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.8241882324219,
+            "t": 489.1213073730469,
+            "r": 554.6929321289062,
+            "b": 432.93634033203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            299
+          ]
+        }
+      ],
+      "orig": "79. Nandi A, Kumar S, Shet A, Bloom DE, Laxminarayan R. Childhood vaccinations and adult schooling attainment: longterm evidence from india ' s universal immunisation programme. Rochester (NY): Social Science Research Network; 2019 [accessed 2019 Oct 29]. https://papers.ssrn.com/abstract= 3379828 .",
+      "text": "Nandi A, Kumar S, Shet A, Bloom DE, Laxminarayan R. Childhood vaccinations and adult schooling attainment: longterm evidence from india ' s universal immunisation programme. Rochester (NY): Social Science Research Network; 2019 [accessed 2019 Oct 29]. https://papers.ssrn.com/abstract= 3379828 .",
+      "enumerated": true,
+      "marker": "79."
+    },
+    {
+      "self_ref": "#/texts/133",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.80718994140625,
+            "t": 429.1283264160156,
+            "r": 554.5161743164062,
+            "b": 412.0433349609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "80. Bloom DE, Canning D, Weston M. The value of vaccination. World Econ. 2005;6:15.",
+      "text": "Bloom DE, Canning D, Weston M. The value of vaccination. World Econ. 2005;6:15.",
+      "enumerated": true,
+      "marker": "80."
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.80718994140625,
+            "t": 409.11083984375,
+            "r": 555.03466796875,
+            "b": 372.06781005859375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            252
+          ]
+        }
+      ],
+      "orig": "81. Deogaonkar R, Hutubessy R, van der Putten I, Evers S, Jit M. Systematic review of studies evaluating the broader economic impact of vaccination in low and middle income countries. BMC Public Health. 2012;12:878 \u2013 878. doi:10.1186/1471-2458-12-878 .",
+      "text": "Deogaonkar R, Hutubessy R, van der Putten I, Evers S, Jit M. Systematic review of studies evaluating the broader economic impact of vaccination in low and middle income countries. BMC Public Health. 2012;12:878 \u2013 878. doi:10.1186/1471-2458-12-878 .",
+      "enumerated": true,
+      "marker": "81."
+    },
+    {
+      "self_ref": "#/texts/135",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.80718994140625,
+            "t": 369.0758361816406,
+            "r": 554.7711791992188,
+            "b": 340.8303527832031,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            152
+          ]
+        }
+      ],
+      "orig": "82. Bloom DE, Fan VY, Sevilla JP. The broad socioeconomic benefits of vaccination. Sci Transl Med. 2018;10:eaaj2345. doi:10.1126/ scitranslmed.aaj2345 .",
+      "text": "Bloom DE, Fan VY, Sevilla JP. The broad socioeconomic benefits of vaccination. Sci Transl Med. 2018;10:eaaj2345. doi:10.1126/ scitranslmed.aaj2345 .",
+      "enumerated": true,
+      "marker": "82."
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.80718994140625,
+            "t": 339.079345703125,
+            "r": 555.84228515625,
+            "b": 302.9118347167969,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            210
+          ]
+        }
+      ],
+      "orig": "83. Constenla D, Garcia C, Lefcourt N. Assessing the economics of dengue: results from a systematic review of the literature and expert survey. Pharmacoeconomics. 2015;33:1107\u201335. doi:10.1007/s40273015-0294-7 .",
+      "text": "Constenla D, Garcia C, Lefcourt N. Assessing the economics of dengue: results from a systematic review of the literature and expert survey. Pharmacoeconomics. 2015;33:1107\u201335. doi:10.1007/s40273015-0294-7 .",
+      "enumerated": true,
+      "marker": "83."
+    },
+    {
+      "self_ref": "#/texts/137",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.80718994140625,
+            "t": 299.1038513183594,
+            "r": 554.6437377929688,
+            "b": 261.5593566894531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            228
+          ]
+        }
+      ],
+      "orig": "84. B\u00e4rnighausen T, Berkley S, Bhutta ZA, Bishai DM, Black MM, Bloom DE, Constenla D, Driessen J, Edmunds J, Evans D, Reassessing the value of vaccines. Lancet Global Health. 2014;2: e251 \u2013 2. doi:10.1016/S2214-109X(13)70170-0 .",
+      "text": "B\u00e4rnighausen T, Berkley S, Bhutta ZA, Bishai DM, Black MM, Bloom DE, Constenla D, Driessen J, Edmunds J, Evans D, Reassessing the value of vaccines. Lancet Global Health. 2014;2: e251 \u2013 2. doi:10.1016/S2214-109X(13)70170-0 .",
+      "enumerated": true,
+      "marker": "84."
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.7987060546875,
+            "t": 259.06884765625,
+            "r": 554.9837646484375,
+            "b": 210.80584716796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            266
+          ]
+        }
+      ],
+      "orig": "85. Nandi A, Shet A, Behrman JR, Black MM, Bloom DE, Laxminarayan R. Anthropometric, cognitive, and schooling benefits of measles vaccination: longitudinal cohort analysis in Ethiopia, India, and Vietnam. Vaccine. 2019;37:4336\u201343. doi:10.1016/j.vaccine.2019.06.025 .",
+      "text": "Nandi A, Shet A, Behrman JR, Black MM, Bloom DE, Laxminarayan R. Anthropometric, cognitive, and schooling benefits of measles vaccination: longitudinal cohort analysis in Ethiopia, India, and Vietnam. Vaccine. 2019;37:4336\u201343. doi:10.1016/j.vaccine.2019.06.025 .",
+      "enumerated": true,
+      "marker": "85."
+    },
+    {
+      "self_ref": "#/texts/139",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.79022216796875,
+            "t": 209.05484008789062,
+            "r": 554.7966918945312,
+            "b": 180.80935668945312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            162
+          ]
+        }
+      ],
+      "orig": "86. International Vaccine Access Center. The value of immunization compendium of evidence. VoICE; 2019 [accessed 2019 Oct 30]. https://immunizationevidence.org/ .",
+      "text": "International Vaccine Access Center. The value of immunization compendium of evidence. VoICE; 2019 [accessed 2019 Oct 30]. https://immunizationevidence.org/ .",
+      "enumerated": true,
+      "marker": "86."
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.7987060546875,
+            "t": 179.058349609375,
+            "r": 554.7540283203125,
+            "b": 150.8128662109375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            195
+          ]
+        }
+      ],
+      "orig": "87. Harvard TH Chan School of Public Health, Bill & Melinda Gates Foundation. ImmunizationEconomics.org. ImmunizationEconomics. org; 2019 [accessed 2019 Nov 7]. http://immunizationeconomics.org .",
+      "text": "Harvard TH Chan School of Public Health, Bill & Melinda Gates Foundation. ImmunizationEconomics.org. ImmunizationEconomics. org; 2019 [accessed 2019 Nov 7]. http://immunizationeconomics.org .",
+      "enumerated": true,
+      "marker": "87."
+    },
+    {
+      "self_ref": "#/texts/141",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.7987060546875,
+            "t": 149.06185913085938,
+            "r": 554.91552734375,
+            "b": 102.88135528564453,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            246
+          ]
+        }
+      ],
+      "orig": "88. Saadatian-Elahi M, Horstick O, Breiman RF, Gessner BD, Gubler DJ, Louis J, Parashar UD, Tapia R, Picot V, Zinsou J-A. Beyond efficacy: the full public health impact of vaccines. Vaccine. 2016;34:1139 \u2013 47. doi:10.1016/j.vaccine. 2016.01.021 .",
+      "text": "Saadatian-Elahi M, Horstick O, Breiman RF, Gessner BD, Gubler DJ, Louis J, Parashar UD, Tapia R, Picot V, Zinsou J-A. Beyond efficacy: the full public health impact of vaccines. Vaccine. 2016;34:1139 \u2013 47. doi:10.1016/j.vaccine. 2016.01.021 .",
+      "enumerated": true,
+      "marker": "88."
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 5,
+          "bbox": {
+            "l": 311.7901916503906,
+            "t": 99.14070129394531,
+            "r": 555.005615234375,
+            "b": 62.72669982910156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            217
+          ]
+        }
+      ],
+      "orig": "89. Jit M, Hutubessy R, ME P, Sundaram N, Audimulam J, Salim S, Yoong J. The broader economic impact of vaccination: reviewing and appraising the strength of evidence. BMC Med. 2015:13. doi:10.1186/s12916-015-0446-9 .",
+      "text": "Jit M, Hutubessy R, ME P, Sundaram N, Audimulam J, Salim S, Yoong J. The broader economic impact of vaccination: reviewing and appraising the strength of evidence. BMC Med. 2015:13. doi:10.1186/s12916-015-0446-9 .",
+      "enumerated": true,
+      "marker": "89."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 452.1351623535156,
+            "t": 751.0787391662598,
+            "r": 555.3948364257812,
+            "b": 725.8554458618164,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 419.05267333984375,
+            "t": 712.8120498657227,
+            "r": 554.214599609375,
+            "b": 700.0060348510742,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 193.54388427734375,
+            "t": 651.7375335693359,
+            "r": 206.3298797607422,
+            "b": 641.4867248535156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 108.75132751464844,
+            "t": 651.6392974853516,
+            "r": 121.10240173339844,
+            "b": 641.6507568359375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 127.9239501953125,
+            "t": 49.651123046875,
+            "r": 138.87232971191406,
+            "b": 38.21270751953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 197.64231872558594,
+            "t": 49.40423583984375,
+            "r": 208.7984161376953,
+            "b": 38.3035888671875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 519.619384765625,
+            "t": 768.5328521728516,
+            "r": 531.8466186523438,
+            "b": 755.8896179199219,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 3,
+          "bbox": {
+            "l": 61.445980072021484,
+            "t": 768.0515365600586,
+            "r": 73.82686614990234,
+            "b": 755.9823188781738,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 4,
+          "bbox": {
+            "l": 519.673583984375,
+            "t": 768.5673332214355,
+            "r": 531.9580688476562,
+            "b": 755.8163070678711,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 593.9719848632812,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 593.9719848632812,
+        "height": 792.0
+      },
+      "page_no": 2
+    },
+    "3": {
+      "size": {
+        "width": 593.9719848632812,
+        "height": 792.0
+      },
+      "page_no": 3
+    },
+    "4": {
+      "size": {
+        "width": 593.9719848632812,
+        "height": 792.0
+      },
+      "page_no": 4
+    },
+    "5": {
+      "size": {
+        "width": 593.9719848632812,
+        "height": 792.0
+      },
+      "page_no": 5
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "job_id": "9c8b3892c449",
+  "prompt": "疫苗诱导免疫机制原理图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen",
+      "helper_t",
+      "b_cell",
+      "antibody"
+    ],
+    "scene_direction": "16:9横版，展示疫苗抗原进入人体后，被抗原呈递细胞处理并激活T细胞和B细胞的免疫应答流程。背景为浅灰或白色，确保科学关系清晰可见。",
+    "optimized_chinese_prompt": "一张科学机制图解，展示疫苗诱导的适应性免疫反应。画面左侧为注射的疫苗抗原（Y形结构），中间为树突状细胞吞噬抗原并迁移至淋巴结，右侧显示树突状细胞激活辅助性T细胞，进而激活B细胞分化为浆细胞产生抗体以及形成记忆细胞。风格为现代扁平化医学插画，色彩专业，箭头指示因果流向。",
+    "chinese_labels": [
+      "疫苗抗原",
+      "抗原呈递细胞",
+      "辅助性T细胞",
+      "B细胞",
+      "浆细胞",
+      "抗体",
+      "记忆细胞"
+    ],
+    "scientific_claims": [
+      "疫苗抗原被抗原呈递细胞识别并摄取。",
+      "抗原呈递细胞将抗原信息传递给辅助性T细胞。",
+      "辅助性T细胞激活B细胞进行增殖和分化。",
+      "活化的B细胞分化为浆细胞分泌特异性抗体并形成记忆细胞。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "疫苗抗原被抗原呈递细胞识别与摄取"
+      },
+      {
+        "primary_relation": "抗原呈递细胞激活辅助性T细胞"
+      },
+      {
+        "primary_relation": "辅助性T细胞促进B细胞活化与分化"
+      },
+      {
+        "primary_relation": "B细胞分化为浆细胞产生抗体及记忆细胞"
+      }
+    ],
+    "route_reason": "用户请求的是‘疫苗诱导免疫机制原理图’，属于典型的细胞、病毒/抗原相关的复杂生物学过程，涉及多个步骤和相互依赖的细胞类型，符合cell_ip_scientific的定义，且需要严谨表达因果关系，故选择此模式。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen",
+    "helper_t",
+    "b_cell",
+    "antibody"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "记忆细胞"
+  ],
+  "reference_assets": [
+    "role-sheet:antigen+helper_t+b_cell+antibody"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:antigen+helper_t+b_cell+antibody"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    },
+    {
+      "role_id": "helper_t",
+      "asset_id": "canonical:helper_t"
+    },
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n- 1. 疫苗抗原被抗原呈递细胞识别与摄取\n- 2. 抗原呈递细胞激活辅助性T细胞\n- 3. 辅助性T细胞促进B细胞活化与分化\n- 4. B细胞分化为浆细胞产生抗体及记忆细胞\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 疫苗抗原被抗原呈递细胞识别与摄取；2. 抗原呈递细胞激活辅助性T细胞；3. 辅助性T细胞促进B细胞活化与分化；4. B细胞分化为浆细胞产生抗体及记忆细胞\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：疫苗抗原、抗原呈递细胞、辅助性T细胞、B细胞、浆细胞、抗体、记忆细胞\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是完整细胞 IP 角色总表；只从中提取并使用命中的固定角色（抗原、辅助性 T 细胞、B 细胞、抗体），保持其颜色、轮廓、面部和专属道具与表中完全一致；不得使用表中其余角色，也不得复制其中的文字、事件或构图\n- 本题命中的固定角色：抗原、辅助性 T 细胞、B 细胞、抗体\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n- 辅助性 T 细胞：浅绿圆体、单根触角、耳机、斜挎包、加号小旗\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n【角色总表选取】（仅当参考图为完整角色总表时启用）\n- 图1 是完整细胞 IP 角色总表。画面所需固定角色必须逐个从该表中找到并原样使用，颜色、轮廓、面部、专属道具与装饰一律以表中为准：\n- 抗原：紫色圆刺团，表情可警觉\n- 辅助性 T 细胞：浅绿圆体、单根触角、耳机、斜挎包、加号小旗\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 只在总表中提取命中的角色：抗原、辅助性 T 细胞、B 细胞、抗体；忽略并不得使用表中其余角色，也不得新增表中不存在的固定角色。\n- 未收录的必要细胞：记忆细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "aspect_ratio": "16:9",
+  "image_id": "9c8b3892c449-v0",
+  "trusted_image": "9c8b3892c449-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "图1（流程图解）存在多处关键科学术语拼写错误及角色视觉一致性（IP）问题。1. 文字错误：步骤2标题中“树抗细胞”应为“树突状细胞”；正文标签中将“树突状细胞”误写为“树原呈除细胞”，将“抗原呈递细胞”误写为“抗原呈除细胞”。2. IP不一致：图1中的辅助性T细胞缺少固定的耳机和斜挎包道具，B细胞缺少蓝色背包和Y形抗体道具，与参考图设定的固定形象不符。3. 分类错误：图1底部将两个不同颜色的细胞（蓝、绿）均标记为“记忆细胞”，未区分浆细胞、记忆B细胞等具体类型。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "步骤2标题出现错别字，将‘树突状细胞’误写为‘树抗细胞’。",
+        "bbox": [
+          0.5,
+          0.15,
+          0.9,
+          0.2
+        ],
+        "confidence": 0.99,
+        "suggested_fix": "将标题修正为‘抗原呈递细胞激活辅助性树突状细胞’或根据免疫学原理修正为‘抗原呈递细胞激活辅助性T细胞’。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "图1中多个专业术语书写错误：‘树原呈除细胞’（应为树突状细胞）、‘抗原呈除细胞’（应为抗原呈递细胞）。",
+        "bbox": [
+          0.4,
+          0.35,
+          0.7,
+          0.45
+        ],
+        "confidence": 0.98,
+        "suggested_fix": "统一修正所有标签中的错别字，确保使用标准的‘树突状细胞’和‘抗原呈递细胞’。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "ip_identity_mismatch",
+        "severity": "medium",
+        "description": "图1中的辅助性T细胞缺失固定IP特征：未佩戴绿色耳机，未斜挎棕色包，未手持加号小旗。",
+        "bbox": [
+          0.75,
+          0.15,
+          0.95,
+          0.4
+        ],
+        "confidence": 0.95,
+        "suggested_fix": "依据参考图重绘辅助性T细胞，补全绿色耳机、斜挎包和加号小旗等标志性道具。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "ip_identity_mismatch",
+        "severity": "medium",
+        "description": "图1中的B细胞缺失固定IP特征：未背负蓝色背包，手中未持有黄色Y形抗体。",
+        "bbox": [
+          0.75,
+          0.45,
+          0.95,
+          0.7
+        ],
+        "confidence": 0.95,
+        "suggested_fix": "依据参考图重绘B细胞，添加蓝色背包和手中的黄色Y形抗体道具。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "scientific_expression",
+        "severity": "high",
+        "description": "潜在科学表达风险（当前未接入证据核验）：图1底部步骤4中，出现了两个分别被标记为‘记忆细胞’的实体（一个蓝色、一个黄绿色），导致标签指代混乱且科学性存疑。",
+        "bbox": [
+          0.5,
+          0.75,
+          1.0,
+          0.95
+        ],
+        "confidence": 0.9,
+        "suggested_fix": "明确区分分化产物，通常应标记为‘浆细胞’（产生抗体）和‘记忆B细胞’，避免重复或错误的标签。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-26T07:48:35.331385+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "c12092d3fedd",
+  "trace_events": [
+    {
+      "id": "c12092d3fedd-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-26T07:48:35.331385Z"
+    },
+    {
+      "id": "c12092d3fedd-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：一张科学机制图解，展示疫苗诱导的适应性免疫反应。画面左侧为注射的疫苗抗原（Y形结构），中间为树突状细胞吞噬抗原并迁移至淋巴结，右侧显示树突状细胞激活辅助性T细胞，进而激活B细胞分化为浆细胞产生抗体以及形成记忆细胞。风格为现代扁平化医学插画，色彩专业，箭头指示因果流向。",
+      "status": "completed",
+      "created_at": "2026-08-26T07:48:35.331912Z"
+    },
+    {
+      "id": "c12092d3fedd-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-26T07:48:40.273574Z"
+    },
+    {
+      "id": "c12092d3fedd-4",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "图1（流程图解）存在多处关键科学术语拼写错误及角色视觉一致性（IP）问题。1. 文字错误：步骤2标题中“树抗细胞”应为“树突状细胞”；正文标签中将“树突状细胞”误写为“树原呈除细胞”，将“抗原呈递细胞”误写为“抗原呈除细胞”。2. IP不一致：图1中的辅助性T细胞缺少固定的耳机和斜挎包道具，B细胞缺少蓝色背包和Y形抗体道具，与参考图设定的固定形象不符。3. 分类错误：图1底部将两个不同颜色的细胞（蓝、绿）均标记为“记忆细胞”，未区分浆细胞、记忆B细胞等具体类型。",
+      "status": "warning",
+      "created_at": "2026-08-26T07:48:56.663648Z"
+    },
+    {
+      "id": "c12092d3fedd-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-26T07:49:10.745728Z"
+    }
+  ],
+  "trace_history": []
+}

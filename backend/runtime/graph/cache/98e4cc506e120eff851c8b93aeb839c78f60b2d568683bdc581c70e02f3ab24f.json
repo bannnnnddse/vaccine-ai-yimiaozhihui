@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_350529949d9ee2a8a062bfdd37996841",
+  "content_hash": "ddc14c5ad61daf849bad6d89a489f0890d3f4997bcce71992e31dae2c6591c16",
+  "entities": [
+    {
+      "canonical_name": "paramyxoviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "paramyxoviruses",
+      "chunk_id": "chk_350529949d9ee2a8a062bfdd37996841"
+    },
+    {
+      "canonical_name": "human monoclonal antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human monoclonal antibody",
+      "chunk_id": "chk_350529949d9ee2a8a062bfdd37996841"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_5a7ab7765c42cccac55fb20138b65c51",
+  "content_hash": "65bdeebeaac515c572803c0d5d3ee0c97bedbc3e2a14501e894c5c0d211ba5cb",
+  "entities": [
+    {
+      "canonical_name": "IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG",
+      "chunk_id": "chk_5a7ab7765c42cccac55fb20138b65c51"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_5a7ab7765c42cccac55fb20138b65c51"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_5f3121dff28a4d19eb22f09144dd7755",
+  "content_hash": "3da71f1f808e3816cb0a95a28df49eb00e210c10c42da15d7175ecc1ac5d0580",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_5f3121dff28a4d19eb22f09144dd7755"
+    },
+    {
+      "canonical_name": "infertility",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infertility",
+      "chunk_id": "chk_5f3121dff28a4d19eb22f09144dd7755"
+    },
+    {
+      "canonical_name": "COVID ‐ 19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID ‐ 19 vaccine",
+      "chunk_id": "chk_5f3121dff28a4d19eb22f09144dd7755"
+    },
+    {
+      "canonical_name": "women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "women",
+      "chunk_id": "chk_5f3121dff28a4d19eb22f09144dd7755"
+    },
+    {
+      "canonical_name": "men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "men",
+      "chunk_id": "chk_5f3121dff28a4d19eb22f09144dd7755"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

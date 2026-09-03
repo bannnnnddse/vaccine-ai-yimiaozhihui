@@ -1,0 +1,30 @@
+{
+  "chunk_id": "chk_675afcfe9550ce1084cbcb73c90893f3",
+  "content_hash": "b9d9fbe805db03472289a01d81f3d81c0200138e2bb2e21c7c061f3de523112c",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_675afcfe9550ce1084cbcb73c90893f3"
+    },
+    {
+      "canonical_name": "BCG Vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG Vaccination",
+      "chunk_id": "chk_675afcfe9550ce1084cbcb73c90893f3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "quote_missing",
+    "quote_missing",
+    "unknown_endpoint"
+  ]
+}

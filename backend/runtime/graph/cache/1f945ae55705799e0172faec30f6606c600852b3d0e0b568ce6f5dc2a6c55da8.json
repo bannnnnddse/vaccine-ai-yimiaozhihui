@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_37cd1cd44d02fc28ac10aad5c343e91b",
+  "content_hash": "4e170d339bec03093b6a9813054c1fd82305386406becc1e488c957d3a8dbcc7",
+  "entities": [
+    {
+      "canonical_name": "haematological malignancies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "haematological malignancies",
+      "chunk_id": "chk_37cd1cd44d02fc28ac10aad5c343e91b"
+    },
+    {
+      "canonical_name": "influenza-like illness",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza-like illness",
+      "chunk_id": "chk_37cd1cd44d02fc28ac10aad5c343e91b"
+    },
+    {
+      "canonical_name": "influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccination",
+      "chunk_id": "chk_37cd1cd44d02fc28ac10aad5c343e91b"
+    },
+    {
+      "canonical_name": "oncohematological children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "oncohematological children",
+      "chunk_id": "chk_37cd1cd44d02fc28ac10aad5c343e91b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

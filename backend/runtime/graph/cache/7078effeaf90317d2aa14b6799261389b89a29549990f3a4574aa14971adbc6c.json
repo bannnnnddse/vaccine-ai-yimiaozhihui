@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_9cd96f68d973f8fbcef720dfc4208b60",
+  "content_hash": "ff90733b87cec35ec85b0efc4a45953cafc6b2b7c2764c36aab2e462692bb09c",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 IgG",
+      "chunk_id": "chk_9cd96f68d973f8fbcef720dfc4208b60"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_9cd96f68d973f8fbcef720dfc4208b60"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_9cd96f68d973f8fbcef720dfc4208b60"
+    },
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_9cd96f68d973f8fbcef720dfc4208b60"
+    },
+    {
+      "canonical_name": "COVID-19 Omicron Infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19 Omicron Infection",
+      "chunk_id": "chk_9cd96f68d973f8fbcef720dfc4208b60"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 BA.2.12.1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 BA.2.12.1",
+      "chunk_id": "chk_9cd96f68d973f8fbcef720dfc4208b60"
+    },
+    {
+      "canonical_name": "BA.4",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BA.4",
+      "chunk_id": "chk_9cd96f68d973f8fbcef720dfc4208b60"
+    },
+    {
+      "canonical_name": "BA.5",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BA.5",
+      "chunk_id": "chk_9cd96f68d973f8fbcef720dfc4208b60"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

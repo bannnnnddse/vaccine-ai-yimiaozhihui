@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_285ac8b345c1f923c769d9c174188ab9",
+  "content_hash": "95508a492efdc39fc7810f60f86233dce1a824ebe888a328c02f785da022364b",
+  "entities": [
+    {
+      "canonical_name": "quadrivalent vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent vaccine",
+      "chunk_id": "chk_285ac8b345c1f923c769d9c174188ab9"
+    },
+    {
+      "canonical_name": "A/Singapore/INFIMH-160019/2016 (H3N2, IVR-186) influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "A/Singapore/INFIMH-160019/2016 (H3N2, IVR-186) influenza virus",
+      "chunk_id": "chk_285ac8b345c1f923c769d9c174188ab9"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_285ac8b345c1f923c769d9c174188ab9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

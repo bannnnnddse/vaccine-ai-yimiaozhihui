@@ -1,0 +1,22 @@
+{
+  "chunk_id": "8c929a68551a3c429c3bf118d5893f89c77a2ac4a987f816b40f5cee6e31b6da",
+  "content_hash": "bbe2c88d95aea097b6538b4b456281f903447375c08caff551882d78f59902b6",
+  "entities": [
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "8c929a68551a3c429c3bf118d5893f89c77a2ac4a987f816b40f5cee6e31b6da"
+    },
+    {
+      "canonical_name": "HBV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBV vaccine",
+      "chunk_id": "8c929a68551a3c429c3bf118d5893f89c77a2ac4a987f816b40f5cee6e31b6da"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

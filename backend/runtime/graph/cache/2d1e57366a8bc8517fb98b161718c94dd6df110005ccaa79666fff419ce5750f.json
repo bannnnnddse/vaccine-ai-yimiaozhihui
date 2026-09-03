@@ -1,0 +1,32 @@
+{
+  "chunk_id": "31c339944f95bd84b8b13fc0babcb9b391e4dad209c8a2c570091aec1dcbd558",
+  "content_hash": "d87676d096787350132caae8ee48f70da2126f22f893ac6d513fc7a6847733ec",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "31c339944f95bd84b8b13fc0babcb9b391e4dad209c8a2c570091aec1dcbd558"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "31c339944f95bd84b8b13fc0babcb9b391e4dad209c8a2c570091aec1dcbd558"
+    },
+    {
+      "canonical_name": "natural killer cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "natural killer cell",
+      "chunk_id": "31c339944f95bd84b8b13fc0babcb9b391e4dad209c8a2c570091aec1dcbd558"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote"
+  ]
+}

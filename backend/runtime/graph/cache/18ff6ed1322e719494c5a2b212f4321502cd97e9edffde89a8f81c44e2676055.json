@@ -1,0 +1,22 @@
+{
+  "chunk_id": "732edb672c85be49531cc331231abb82974c2835473bf342fee86b88993e25a6",
+  "content_hash": "5a52b86851fbdf3d9f02dbb1850d7fede6b259fe3960b4d6768ea2d881b66e95",
+  "entities": [
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "732edb672c85be49531cc331231abb82974c2835473bf342fee86b88993e25a6"
+    },
+    {
+      "canonical_name": "fatality",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fatality",
+      "chunk_id": "732edb672c85be49531cc331231abb82974c2835473bf342fee86b88993e25a6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

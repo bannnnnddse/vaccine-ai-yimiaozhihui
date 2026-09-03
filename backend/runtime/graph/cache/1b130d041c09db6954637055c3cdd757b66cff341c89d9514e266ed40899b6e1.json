@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_4268028d584e34c5b5dff8cafe9b4a79",
+  "content_hash": "a1164993d754f457f362f9f5ae3928424f12dcb9b7b4a048d20dfef05baa057e",
+  "entities": [
+    {
+      "canonical_name": "Ad26.COV2.S Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad26.COV2.S Vaccine",
+      "chunk_id": "chk_4268028d584e34c5b5dff8cafe9b4a79"
+    },
+    {
+      "canonical_name": "COVID -19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID -19",
+      "chunk_id": "chk_4268028d584e34c5b5dff8cafe9b4a79"
+    },
+    {
+      "canonical_name": "Thrombotic thrombocytopenia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Thrombotic thrombocytopenia",
+      "chunk_id": "chk_4268028d584e34c5b5dff8cafe9b4a79"
+    },
+    {
+      "canonical_name": "cerebral sinus venous thrombosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cerebral sinus venous thrombosis",
+      "chunk_id": "chk_4268028d584e34c5b5dff8cafe9b4a79"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

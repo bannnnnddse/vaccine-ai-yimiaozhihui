@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_b101eb7b278fed7a421d7e6ac736f404",
+  "content_hash": "463cb84a1ff605cbd52604972103d44ab8c2f5365c4a4d7ac4769d0032453786",
+  "entities": [
+    {
+      "canonical_name": "热性惊厥",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "热性惊厥",
+      "chunk_id": "chk_b101eb7b278fed7a421d7e6ac736f404"
+    },
+    {
+      "canonical_name": "癫痫",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "癫痫",
+      "chunk_id": "chk_b101eb7b278fed7a421d7e6ac736f404"
+    },
+    {
+      "canonical_name": "中枢神经系统疾病后遗症期",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "中枢神经系统疾病后遗症期",
+      "chunk_id": "chk_b101eb7b278fed7a421d7e6ac736f404"
+    },
+    {
+      "canonical_name": "脑性 瘫痪",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "脑性 瘫痪",
+      "chunk_id": "chk_b101eb7b278fed7a421d7e6ac736f404"
+    },
+    {
+      "canonical_name": "抽动障碍",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "抽动障碍",
+      "chunk_id": "chk_b101eb7b278fed7a421d7e6ac736f404"
+    },
+    {
+      "canonical_name": "脑发育不良",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "脑发育不良",
+      "chunk_id": "chk_b101eb7b278fed7a421d7e6ac736f404"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

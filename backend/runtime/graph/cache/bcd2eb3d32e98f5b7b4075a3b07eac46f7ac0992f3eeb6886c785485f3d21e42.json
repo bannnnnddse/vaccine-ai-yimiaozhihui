@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_147ca04cfea3de0e77dba9e295f5f0b2",
+  "content_hash": "a96a15cfa19146a82c0cc4c7275668b35cc7e8f1d634a97af4b6f6b0d075b1b9",
+  "entities": [
+    {
+      "canonical_name": "IXIARO",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IXIARO",
+      "chunk_id": "chk_147ca04cfea3de0e77dba9e295f5f0b2"
+    },
+    {
+      "canonical_name": "TBE",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TBE",
+      "chunk_id": "chk_147ca04cfea3de0e77dba9e295f5f0b2"
+    },
+    {
+      "canonical_name": "travelers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "travelers",
+      "chunk_id": "chk_147ca04cfea3de0e77dba9e295f5f0b2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_c3e3334d90569c0e33e2423e97c6c966",
+  "content_hash": "0332e14a08c93dc741e3c824cd4add8b7b7b63c4516fcfb2a228eb35c66ec967",
+  "entities": [
+    {
+      "canonical_name": "inactivated coxsackievirus A6, A10, and A16 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated coxsackievirus A6, A10, and A16 vaccine",
+      "chunk_id": "chk_c3e3334d90569c0e33e2423e97c6c966"
+    },
+    {
+      "canonical_name": "hand, foot, and mouth disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hand, foot, and mouth disease",
+      "chunk_id": "chk_c3e3334d90569c0e33e2423e97c6c966"
+    },
+    {
+      "canonical_name": "inactivated whole-cell oral cholera vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated whole-cell oral cholera vaccine",
+      "chunk_id": "chk_c3e3334d90569c0e33e2423e97c6c966"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

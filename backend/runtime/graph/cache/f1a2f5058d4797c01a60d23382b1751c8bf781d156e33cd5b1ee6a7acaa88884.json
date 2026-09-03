@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_07d84982fea155ea5d31dc404ecac31a",
+  "content_hash": "07df8693f620a968f4b63fa319a7e5506e8c07f2b205ef8b283e120e0b9ab696",
+  "entities": [
+    {
+      "canonical_name": "lymphocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "lymphocytes",
+      "chunk_id": "chk_07d84982fea155ea5d31dc404ecac31a"
+    },
+    {
+      "canonical_name": "VLPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VLPs",
+      "chunk_id": "chk_07d84982fea155ea5d31dc404ecac31a"
+    },
+    {
+      "canonical_name": "NPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "NPs",
+      "chunk_id": "chk_07d84982fea155ea5d31dc404ecac31a"
+    },
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_07d84982fea155ea5d31dc404ecac31a"
+    },
+    {
+      "canonical_name": "systemic inflammation",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "systemic inflammation",
+      "chunk_id": "chk_07d84982fea155ea5d31dc404ecac31a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

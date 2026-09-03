@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_e37baccdd07991f92da6009a938b576f",
+  "content_hash": "0f7fe2e13220e81ba8ea0990888088dde73cfcb72aef31804590104ada9c1bc3",
+  "entities": [
+    {
+      "canonical_name": "Special populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Special populations",
+      "chunk_id": "chk_e37baccdd07991f92da6009a938b576f"
+    },
+    {
+      "canonical_name": "vaccine-preventable diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "vaccine-preventable diseases",
+      "chunk_id": "chk_e37baccdd07991f92da6009a938b576f"
+    },
+    {
+      "canonical_name": "World Health Organization",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "World Health Organization",
+      "chunk_id": "chk_e37baccdd07991f92da6009a938b576f"
+    },
+    {
+      "canonical_name": "US Centers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "US Centers",
+      "chunk_id": "chk_e37baccdd07991f92da6009a938b576f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

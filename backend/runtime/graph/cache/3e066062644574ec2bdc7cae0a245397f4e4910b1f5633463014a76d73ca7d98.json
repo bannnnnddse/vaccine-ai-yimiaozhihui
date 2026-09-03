@@ -1,0 +1,50 @@
+{
+  "chunk_id": "73fcf7e9dbd730b700806a048b692f3b765ddda9a0155b58ca96b79b1ebee44d",
+  "content_hash": "f62fb8d3c98ce0a5466b78bda0455e3eda1fe40d28abfaee59e7a62a80f48e78",
+  "entities": [
+    {
+      "canonical_name": "diphtheria, tetanus, and pertussis–containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria, tetanus, and pertussis–containing vaccine",
+      "chunk_id": "73fcf7e9dbd730b700806a048b692f3b765ddda9a0155b58ca96b79b1ebee44d"
+    },
+    {
+      "canonical_name": "Pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pneumococcal conjugate vaccine",
+      "chunk_id": "73fcf7e9dbd730b700806a048b692f3b765ddda9a0155b58ca96b79b1ebee44d"
+    },
+    {
+      "canonical_name": "rubella-containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "rubella-containing vaccine",
+      "chunk_id": "73fcf7e9dbd730b700806a048b692f3b765ddda9a0155b58ca96b79b1ebee44d"
+    },
+    {
+      "canonical_name": "measles-containing vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles-containing vaccine",
+      "chunk_id": "73fcf7e9dbd730b700806a048b692f3b765ddda9a0155b58ca96b79b1ebee44d"
+    },
+    {
+      "canonical_name": "Haemophilus influenzae type b vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus influenzae type b vaccine",
+      "chunk_id": "73fcf7e9dbd730b700806a048b692f3b765ddda9a0155b58ca96b79b1ebee44d"
+    },
+    {
+      "canonical_name": "COVID-19 pandemic",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19 pandemic",
+      "chunk_id": "73fcf7e9dbd730b700806a048b692f3b765ddda9a0155b58ca96b79b1ebee44d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

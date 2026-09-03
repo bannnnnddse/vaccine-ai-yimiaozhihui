@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_c9f1b0a4ba94d92570e62a4f9ea280f5",
+  "content_hash": "e70eb1538f9e2a04d3e2595419cffc2f55cbb2c087323938324ccd294bd30c6f",
+  "entities": [
+    {
+      "canonical_name": "oculomotor palsy",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "oculomotor palsy",
+      "chunk_id": "chk_c9f1b0a4ba94d92570e62a4f9ea280f5"
+    },
+    {
+      "canonical_name": "anti-GQ1b antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-GQ1b antibody",
+      "chunk_id": "chk_c9f1b0a4ba94d92570e62a4f9ea280f5"
+    },
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_c9f1b0a4ba94d92570e62a4f9ea280f5"
+    },
+    {
+      "canonical_name": "tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis",
+      "chunk_id": "chk_c9f1b0a4ba94d92570e62a4f9ea280f5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

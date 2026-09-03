@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_e01f67573b71eb6b6fc4c5f6a7553b86",
+  "content_hash": "44bae407c41e1ecdbef41def6d2df3d9ade3a3e2921e470fdc9fcb9db858fcf0",
+  "entities": [
+    {
+      "canonical_name": "RNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA vaccines",
+      "chunk_id": "chk_e01f67573b71eb6b6fc4c5f6a7553b86"
+    },
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_e01f67573b71eb6b6fc4c5f6a7553b86"
+    },
+    {
+      "canonical_name": "innate immune cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune cells",
+      "chunk_id": "chk_e01f67573b71eb6b6fc4c5f6a7553b86"
+    },
+    {
+      "canonical_name": "RNA-transfected dendritic cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RNA-transfected dendritic cells",
+      "chunk_id": "chk_e01f67573b71eb6b6fc4c5f6a7553b86"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

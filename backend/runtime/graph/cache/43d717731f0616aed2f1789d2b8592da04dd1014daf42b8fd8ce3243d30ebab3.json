@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_9b1ee088e4469ff85ee972cd7b9aca78",
+  "content_hash": "16d019aad65977ce6667fa58efed7378bba71929cdd64c52371e6959d84520fb",
+  "entities": [
+    {
+      "canonical_name": "nCoV/ USA_WA1/2020",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "nCoV/ USA_WA1/2020",
+      "chunk_id": "chk_9b1ee088e4469ff85ee972cd7b9aca78"
+    },
+    {
+      "canonical_name": "WA/1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "WA/1",
+      "chunk_id": "chk_9b1ee088e4469ff85ee972cd7b9aca78"
+    },
+    {
+      "canonical_name": "SARSCoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2",
+      "chunk_id": "chk_9b1ee088e4469ff85ee972cd7b9aca78"
+    },
+    {
+      "canonical_name": "icSARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "icSARS-CoV-2",
+      "chunk_id": "chk_9b1ee088e4469ff85ee972cd7b9aca78"
+    },
+    {
+      "canonical_name": "BA.1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BA.1",
+      "chunk_id": "chk_9b1ee088e4469ff85ee972cd7b9aca78"
+    },
+    {
+      "canonical_name": "Omicron subvariants",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron subvariants",
+      "chunk_id": "chk_9b1ee088e4469ff85ee972cd7b9aca78"
+    },
+    {
+      "canonical_name": "BA.5",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "BA.5",
+      "chunk_id": "chk_9b1ee088e4469ff85ee972cd7b9aca78"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,106 @@
+{
+  "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae",
+  "content_hash": "2eb9879378b47b6dd78762fe09fc5e8c137fe663c3fbc8dcf973c961df5bf753",
+  "entities": [
+    {
+      "canonical_name": "Alcoholic Liver Disease*",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Alcoholic Liver Disease*",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Alcoholic Fatty Liver",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Alcoholic Fatty Liver",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Alcoholic Hepatitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Alcoholic Hepatitis",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Alcoholic Liver Cirrhosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Alcoholic Liver Cirrhosis",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Fibrosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Fibrosis",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Non-alcoholic Fatty Liver Disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Non-alcoholic Fatty Liver Disease",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Liver Failure",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Liver Failure",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Liver Neoplasms",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Liver Neoplasms",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Hepatocellular Carcinoma*",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Hepatocellular Carcinoma*",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Hepatitis A Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis A Vaccines",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Hepatitis B Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis B Vaccines",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Hepatitis C Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis C Vaccines",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Hepatitis E Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Hepatitis E Vaccines",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    },
+    {
+      "canonical_name": "Viral Hepatitis Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Viral Hepatitis Vaccines",
+      "chunk_id": "chk_5dbd0833b5be5a8ae111cf50eb9852ae"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

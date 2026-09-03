@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_a1ae49019ee17e65d8b4ee77d893d4c3",
+  "content_hash": "456b9936a74ae749fe5c38469a29012121834d7b0ffb10604b7224c433d407ba",
+  "entities": [
+    {
+      "canonical_name": "INO-4800 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "INO-4800 vaccine",
+      "chunk_id": "chk_a1ae49019ee17e65d8b4ee77d893d4c3"
+    },
+    {
+      "canonical_name": "GX-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GX-19 vaccine",
+      "chunk_id": "chk_a1ae49019ee17e65d8b4ee77d893d4c3"
+    },
+    {
+      "canonical_name": "AG0301-COVID19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AG0301-COVID19 vaccine",
+      "chunk_id": "chk_a1ae49019ee17e65d8b4ee77d893d4c3"
+    },
+    {
+      "canonical_name": "rhesus macaques",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "rhesus macaques",
+      "chunk_id": "chk_a1ae49019ee17e65d8b4ee77d893d4c3"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_a1ae49019ee17e65d8b4ee77d893d4c3"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_a1ae49019ee17e65d8b4ee77d893d4c3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "relation_evidence_cue_missing"
+  ]
+}

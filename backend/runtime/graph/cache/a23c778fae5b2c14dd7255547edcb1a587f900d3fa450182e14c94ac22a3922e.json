@@ -1,0 +1,52 @@
+{
+  "chunk_id": "af423ec3cc83c1ca9635f95b62844c773eb4b989598d8f82c7ac2c92db237cd3",
+  "content_hash": "2bce94d76a7675c4a1b6afc9e76094b886fc7fab7adbd0d9da87ada811cf597f",
+  "entities": [
+    {
+      "canonical_name": "follicular helper T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "follicular helper T cells",
+      "chunk_id": "af423ec3cc83c1ca9635f95b62844c773eb4b989598d8f82c7ac2c92db237cd3"
+    },
+    {
+      "canonical_name": "nonOmicron SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "nonOmicron SARS-CoV-2",
+      "chunk_id": "af423ec3cc83c1ca9635f95b62844c773eb4b989598d8f82c7ac2c92db237cd3"
+    },
+    {
+      "canonical_name": "Omicron infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Omicron infection",
+      "chunk_id": "af423ec3cc83c1ca9635f95b62844c773eb4b989598d8f82c7ac2c92db237cd3"
+    },
+    {
+      "canonical_name": "hybrid immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hybrid immunity",
+      "chunk_id": "af423ec3cc83c1ca9635f95b62844c773eb4b989598d8f82c7ac2c92db237cd3"
+    },
+    {
+      "canonical_name": "nextgeneration vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "nextgeneration vaccines",
+      "chunk_id": "af423ec3cc83c1ca9635f95b62844c773eb4b989598d8f82c7ac2c92db237cd3"
+    },
+    {
+      "canonical_name": "RM tripartite immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RM tripartite immunity",
+      "chunk_id": "af423ec3cc83c1ca9635f95b62844c773eb4b989598d8f82c7ac2c92db237cd3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

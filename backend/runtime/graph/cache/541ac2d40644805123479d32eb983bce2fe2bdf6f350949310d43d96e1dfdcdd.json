@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_279adf15537be873cf21f62f693c8b73",
+  "content_hash": "182a5f783bd06f3a9480acc5cb1a0c179a7e2712d29fea343d29de4bea231334",
+  "entities": [
+    {
+      "canonical_name": "T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cells",
+      "chunk_id": "chk_279adf15537be873cf21f62f693c8b73"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_279adf15537be873cf21f62f693c8b73"
+    },
+    {
+      "canonical_name": "elderly populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly populations",
+      "chunk_id": "chk_279adf15537be873cf21f62f693c8b73"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

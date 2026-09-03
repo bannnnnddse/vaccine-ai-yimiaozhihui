@@ -1,0 +1,43 @@
+{
+  "chunk_id": "867e3f9f20f17f9808e4284fd7f4df32af63f97be449f03f2e548e740e198107",
+  "content_hash": "c64530dba263be18a21c165d9320216182370c0c552f3a277ae94beb703a37cd",
+  "entities": [
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "867e3f9f20f17f9808e4284fd7f4df32af63f97be449f03f2e548e740e198107"
+    },
+    {
+      "canonical_name": "influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccine",
+      "chunk_id": "867e3f9f20f17f9808e4284fd7f4df32af63f97be449f03f2e548e740e198107"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "867e3f9f20f17f9808e4284fd7f4df32af63f97be449f03f2e548e740e198107"
+    },
+    {
+      "canonical_name": "rabies",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rabies",
+      "chunk_id": "867e3f9f20f17f9808e4284fd7f4df32af63f97be449f03f2e548e740e198107"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "867e3f9f20f17f9808e4284fd7f4df32af63f97be449f03f2e548e740e198107"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

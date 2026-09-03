@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_1032b3f01dd80a3c9838a3a2f29ee472",
+  "content_hash": "96af99c2016ae869a43f24455784749dca40de45beaf5e1df2ca422d4b4db249",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_1032b3f01dd80a3c9838a3a2f29ee472"
+    },
+    {
+      "canonical_name": "mRNA-1273",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273",
+      "chunk_id": "chk_1032b3f01dd80a3c9838a3a2f29ee472"
+    },
+    {
+      "canonical_name": "cardiac arrhythmias",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "cardiac arrhythmias",
+      "chunk_id": "chk_1032b3f01dd80a3c9838a3a2f29ee472"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_9a396b9a81c883508982c755b3ae500f",
+  "content_hash": "336ed27ac2c0d82e046deaae6684705a26fb20f8f2da3727760da87d383eb129",
+  "entities": [
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_9a396b9a81c883508982c755b3ae500f"
+    },
+    {
+      "canonical_name": "tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis",
+      "chunk_id": "chk_9a396b9a81c883508982c755b3ae500f"
+    },
+    {
+      "canonical_name": "Bacille Calmette-Guerin",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Bacille Calmette-Guerin",
+      "chunk_id": "chk_9a396b9a81c883508982c755b3ae500f"
+    },
+    {
+      "canonical_name": "monocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monocytes",
+      "chunk_id": "chk_9a396b9a81c883508982c755b3ae500f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

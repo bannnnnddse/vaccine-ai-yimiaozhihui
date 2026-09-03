@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_203d52af796485764fb084b69cc9c37d",
+  "content_hash": "c6a725c5e6f6027f24e72d66adbf15de20a96789f55c183f677dc3076a31feb9",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_203d52af796485764fb084b69cc9c37d"
+    },
+    {
+      "canonical_name": "monoclonal antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monoclonal antibodies",
+      "chunk_id": "chk_203d52af796485764fb084b69cc9c37d"
+    },
+    {
+      "canonical_name": "EBNA1 specific memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "EBNA1 specific memory B cells",
+      "chunk_id": "chk_203d52af796485764fb084b69cc9c37d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

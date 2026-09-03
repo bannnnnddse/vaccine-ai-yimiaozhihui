@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_be23d24bf0c20dcebfe709b3b00294e1",
+  "content_hash": "9cdbc7743628acdfb5d79ec9c31fa2152066f592d9fc825d8205b71316368891",
+  "entities": [
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "chk_be23d24bf0c20dcebfe709b3b00294e1"
+    },
+    {
+      "canonical_name": "antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigens",
+      "chunk_id": "chk_be23d24bf0c20dcebfe709b3b00294e1"
+    },
+    {
+      "canonical_name": "immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune responses",
+      "chunk_id": "chk_be23d24bf0c20dcebfe709b3b00294e1"
+    },
+    {
+      "canonical_name": "older population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older population",
+      "chunk_id": "chk_be23d24bf0c20dcebfe709b3b00294e1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

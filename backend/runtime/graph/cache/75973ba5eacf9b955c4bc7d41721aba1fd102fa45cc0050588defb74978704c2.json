@@ -1,0 +1,36 @@
+{
+  "chunk_id": "b8abd7c59853aabe585fac9b14a83c6d2071a0b82d8bdfcea12ea919426d935a",
+  "content_hash": "9c479b03f8f7255f9d7fee57c75f0a44b091436574e8a03f1f3bb6a1e1e3dd77",
+  "entities": [
+    {
+      "canonical_name": "measles-containing-vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles-containing-vaccine",
+      "chunk_id": "b8abd7c59853aabe585fac9b14a83c6d2071a0b82d8bdfcea12ea919426d935a"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "b8abd7c59853aabe585fac9b14a83c6d2071a0b82d8bdfcea12ea919426d935a"
+    },
+    {
+      "canonical_name": "minority/migrant communities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "minority/migrant communities",
+      "chunk_id": "b8abd7c59853aabe585fac9b14a83c6d2071a0b82d8bdfcea12ea919426d935a"
+    },
+    {
+      "canonical_name": "incompletely/non-vaccinated individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "incompletely/non-vaccinated individuals",
+      "chunk_id": "b8abd7c59853aabe585fac9b14a83c6d2071a0b82d8bdfcea12ea919426d935a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

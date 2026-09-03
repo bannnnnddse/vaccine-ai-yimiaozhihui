@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_27a59fda089594f9dde307da48dbf6b5",
+  "content_hash": "5fe34cbeef32e287ef1fc0ebd9a7f5bb1c8d10543f993c246d6002ed027a2f6c",
+  "entities": [
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "chk_27a59fda089594f9dde307da48dbf6b5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_02f7f503708ef7fd2cca8e6353139901",
+  "content_hash": "87a887dda62c58740afc6dbdb9c29e61b8a9469618e091ae39b5bdf0dfcb70af",
+  "entities": [
+    {
+      "canonical_name": "ChAdOx1 RVF",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAdOx1 RVF",
+      "chunk_id": "chk_02f7f503708ef7fd2cca8e6353139901"
+    },
+    {
+      "canonical_name": "Rift Valley Fever virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Rift Valley Fever virus",
+      "chunk_id": "chk_02f7f503708ef7fd2cca8e6353139901"
+    },
+    {
+      "canonical_name": "sheep",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "sheep",
+      "chunk_id": "chk_02f7f503708ef7fd2cca8e6353139901"
+    },
+    {
+      "canonical_name": "goats",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "goats",
+      "chunk_id": "chk_02f7f503708ef7fd2cca8e6353139901"
+    },
+    {
+      "canonical_name": "cattle",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "cattle",
+      "chunk_id": "chk_02f7f503708ef7fd2cca8e6353139901"
+    },
+    {
+      "canonical_name": "humans",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "humans",
+      "chunk_id": "chk_02f7f503708ef7fd2cca8e6353139901"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

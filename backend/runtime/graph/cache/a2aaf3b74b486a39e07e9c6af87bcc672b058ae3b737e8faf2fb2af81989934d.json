@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_3ebf733caa7f1aaf3dbe7a8a66c0b74f",
+  "content_hash": "764510090a8eb544377355a2a9b82caa2978b2523336fd6328c1c5a1fb8603cf",
+  "entities": [
+    {
+      "canonical_name": "rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rotavirus",
+      "chunk_id": "chk_3ebf733caa7f1aaf3dbe7a8a66c0b74f"
+    },
+    {
+      "canonical_name": "Wa human rotavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Wa human rotavirus",
+      "chunk_id": "chk_3ebf733caa7f1aaf3dbe7a8a66c0b74f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_3fa9f668d3bf7dae5c670fd9fd4cec36",
+  "content_hash": "bd29054737016a7ed84b498026bbab5240917604d7e133ae0aed614b4606eea1",
+  "entities": [
+    {
+      "canonical_name": "synthetic DNA, multi-neoantigen vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "synthetic DNA, multi-neoantigen vaccine",
+      "chunk_id": "chk_3fa9f668d3bf7dae5c670fd9fd4cec36"
+    },
+    {
+      "canonical_name": "MHC class I CD8 + T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MHC class I CD8 + T-cell",
+      "chunk_id": "chk_3fa9f668d3bf7dae5c670fd9fd4cec36"
+    },
+    {
+      "canonical_name": "tumor",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tumor",
+      "chunk_id": "chk_3fa9f668d3bf7dae5c670fd9fd4cec36"
+    },
+    {
+      "canonical_name": "cancer vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "cancer vaccines",
+      "chunk_id": "chk_3fa9f668d3bf7dae5c670fd9fd4cec36"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

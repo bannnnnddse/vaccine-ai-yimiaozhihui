@@ -1,0 +1,26 @@
+{
+  "chunk_id": "chk_320daa26449d432ec28f4df3c12ef565",
+  "content_hash": "e1369f19aefa2e0e743a7aa1b4cd3294f32f843f069f561540133aeb752fccb6",
+  "entities": [
+    {
+      "canonical_name": "甲型肝炎灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "甲型肝炎灭活疫苗",
+      "chunk_id": "chk_320daa26449d432ec28f4df3c12ef565"
+    },
+    {
+      "canonical_name": "甲肝灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "甲肝灭活疫苗",
+      "chunk_id": "chk_320daa26449d432ec28f4df3c12ef565"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint"
+  ]
+}

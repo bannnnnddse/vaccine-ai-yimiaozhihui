@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ef0da25fb4351cd56294c8ffec96581c",
+  "content_hash": "ff07456f38231f7d09d5593a8c978cd39889b9df3484d97f4da2afddb7e87710",
+  "entities": [
+    {
+      "canonical_name": "anaphylaxis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "anaphylaxis",
+      "chunk_id": "chk_ef0da25fb4351cd56294c8ffec96581c"
+    },
+    {
+      "canonical_name": "autism",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autism",
+      "chunk_id": "chk_ef0da25fb4351cd56294c8ffec96581c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

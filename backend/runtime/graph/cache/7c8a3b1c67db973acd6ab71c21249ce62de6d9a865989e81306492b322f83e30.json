@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_4b98e8ed5362670c2aaba85fea905b8c",
+  "content_hash": "f67d724bbddc146c021fbc2f54b626ba0be28bcbff60f942f67026e485cc73d5",
+  "entities": [
+    {
+      "canonical_name": "Vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccination",
+      "chunk_id": "chk_4b98e8ed5362670c2aaba85fea905b8c"
+    },
+    {
+      "canonical_name": "antibiotic resistance",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "antibiotic resistance",
+      "chunk_id": "chk_4b98e8ed5362670c2aaba85fea905b8c"
+    },
+    {
+      "canonical_name": "Streptococcus pneumoniae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Streptococcus pneumoniae",
+      "chunk_id": "chk_4b98e8ed5362670c2aaba85fea905b8c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

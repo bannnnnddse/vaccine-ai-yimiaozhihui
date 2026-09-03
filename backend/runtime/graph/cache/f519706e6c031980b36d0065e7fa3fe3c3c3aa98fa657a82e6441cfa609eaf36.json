@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_19c8dc42c95cb2e83ef8c76d53f2a9e4",
+  "content_hash": "8e7c3c1e5f5aa232b79b2bf7a657868e9a6d40ca7a8bfa2ba71fa8f1a7bdde1d",
+  "entities": [
+    {
+      "canonical_name": "T and B lymphocyte",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T and B lymphocyte",
+      "chunk_id": "chk_19c8dc42c95cb2e83ef8c76d53f2a9e4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_ebd46214cf54b6006cb87683ef85b778",
+  "content_hash": "2445a5d713a78d5bfc5d014055b23ccd4b28a09435cfaa1c5f42d0f2c4500af7",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 omicron virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 omicron virus",
+      "chunk_id": "chk_ebd46214cf54b6006cb87683ef85b778"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 omicron variant BA.1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 omicron variant BA.1",
+      "chunk_id": "chk_ebd46214cf54b6006cb87683ef85b778"
+    },
+    {
+      "canonical_name": "Neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Neutralizing antibodies",
+      "chunk_id": "chk_ebd46214cf54b6006cb87683ef85b778"
+    },
+    {
+      "canonical_name": "CoronaVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoronaVac",
+      "chunk_id": "chk_ebd46214cf54b6006cb87683ef85b778"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_ebd46214cf54b6006cb87683ef85b778"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_52771d60bc5d5ea42058dbaf87911b26",
+  "content_hash": "cdcf90499668618b1e4f4cd1368b8bedf78c5da472ad858a9ddfc766044c0e2b",
+  "entities": [
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "chk_52771d60bc5d5ea42058dbaf87911b26"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

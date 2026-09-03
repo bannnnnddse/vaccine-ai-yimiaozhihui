@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_dd8d46e2124014bff538e428a5a20185",
+  "content_hash": "b028590a8feafed0a3ded0a80f7fe3a78a70a8f247d019f268546e8771109f86",
+  "entities": [
+    {
+      "canonical_name": "live attenuated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live attenuated vaccines",
+      "chunk_id": "chk_dd8d46e2124014bff538e428a5a20185"
+    },
+    {
+      "canonical_name": "healthy persons",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy persons",
+      "chunk_id": "chk_dd8d46e2124014bff538e428a5a20185"
+    },
+    {
+      "canonical_name": "immunocompromised patient",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised patient",
+      "chunk_id": "chk_dd8d46e2124014bff538e428a5a20185"
+    },
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "chk_dd8d46e2124014bff538e428a5a20185"
+    },
+    {
+      "canonical_name": "viral infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "viral infections",
+      "chunk_id": "chk_dd8d46e2124014bff538e428a5a20185"
+    },
+    {
+      "canonical_name": "hematological malignancies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hematological malignancies",
+      "chunk_id": "chk_dd8d46e2124014bff538e428a5a20185"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_0fc4c0d8e2fb4b1f084cfc8520ca9d58",
+  "content_hash": "28e9ec6e6223290a2aba3beaa496f5558b902f407a82aed13286a11c8816e026",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B primary vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B primary vaccination",
+      "chunk_id": "chk_0fc4c0d8e2fb4b1f084cfc8520ca9d58"
+    },
+    {
+      "canonical_name": "women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "women",
+      "chunk_id": "chk_0fc4c0d8e2fb4b1f084cfc8520ca9d58"
+    },
+    {
+      "canonical_name": "men",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "men",
+      "chunk_id": "chk_0fc4c0d8e2fb4b1f084cfc8520ca9d58"
+    },
+    {
+      "canonical_name": "healthcare workers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthcare workers",
+      "chunk_id": "chk_0fc4c0d8e2fb4b1f084cfc8520ca9d58"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

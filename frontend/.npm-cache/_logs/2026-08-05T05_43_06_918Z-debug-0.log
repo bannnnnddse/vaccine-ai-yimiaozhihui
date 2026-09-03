@@ -1,0 +1,19 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\project\挑战杯\frontend\.worktrees\codex\level-three-contact-holds\.npmrc
+5 silly config load:file:C:\Users\雷任飞豪\.npmrc
+6 silly config load:file:C:\Users\雷任飞豪\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm test --run src/components/immune-experience/LymphScene.test.tsx src/components/immune-experience/LevelThree.lifecycle.test.tsx src/components/immune-experience/LevelThree.test.tsx src/components/immune-experience/BCellActivationSequence.test.tsx src/components/immune-experience/levelThreeState.test.ts
+8 verbose argv "test" "--" "--run" "src/components/immune-experience/LymphScene.test.tsx" "src/components/immune-experience/LevelThree.lifecycle.test.tsx" "src/components/immune-experience/LevelThree.test.tsx" "src/components/immune-experience/BCellActivationSequence.test.tsx" "src/components/immune-experience/levelThreeState.test.ts"
+9 verbose logfile logs-max:10 dir:D:\project\挑战杯\frontend\.npm-cache\_logs\2026-08-05T05_43_06_918Z-
+10 verbose logfile D:\project\挑战杯\frontend\.npm-cache\_logs\2026-08-05T05_43_06_918Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd D:\project\挑战杯\frontend\.worktrees\codex\level-three-contact-holds
+14 verbose os Windows_NT 10.0.26200
+15 verbose node v24.13.0
+16 verbose npm  v11.6.2
+17 verbose exit 0
+18 info ok

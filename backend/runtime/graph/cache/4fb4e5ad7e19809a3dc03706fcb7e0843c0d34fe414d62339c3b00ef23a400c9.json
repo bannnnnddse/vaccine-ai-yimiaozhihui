@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_59cccdf9838ab9a78f24142865b28791",
+  "content_hash": "f76e872662852c1155e513abcc486f17ff88505b5bf0b3dc55dface89339e2e6",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination",
+      "chunk_id": "chk_59cccdf9838ab9a78f24142865b28791"
+    },
+    {
+      "canonical_name": "acute neurological events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "acute neurological events",
+      "chunk_id": "chk_59cccdf9838ab9a78f24142865b28791"
+    },
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_59cccdf9838ab9a78f24142865b28791"
+    },
+    {
+      "canonical_name": "Neurological complications",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Neurological complications",
+      "chunk_id": "chk_59cccdf9838ab9a78f24142865b28791"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 infection",
+      "chunk_id": "chk_59cccdf9838ab9a78f24142865b28791"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

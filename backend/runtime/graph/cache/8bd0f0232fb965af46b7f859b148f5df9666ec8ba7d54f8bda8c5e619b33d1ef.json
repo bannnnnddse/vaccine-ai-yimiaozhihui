@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_f19de34fbbaf5e62845207924703eecc",
+  "content_hash": "9c0e8e524fe01cd55bf0233842f0d3bc0d3157e11cdd26f5585d10ec1f0ae380",
+  "entities": [
+    {
+      "canonical_name": "GnH or GnH-FT-encoding mRNA-LNPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GnH or GnH-FT-encoding mRNA-LNPs",
+      "chunk_id": "chk_f19de34fbbaf5e62845207924703eecc"
+    },
+    {
+      "canonical_name": "SFTSV-neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SFTSV-neutralizing antibody",
+      "chunk_id": "chk_f19de34fbbaf5e62845207924703eecc"
+    },
+    {
+      "canonical_name": "GnH-FT mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GnH-FT mRNA vaccine",
+      "chunk_id": "chk_f19de34fbbaf5e62845207924703eecc"
+    },
+    {
+      "canonical_name": "anti-GnH IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-GnH IgG",
+      "chunk_id": "chk_f19de34fbbaf5e62845207924703eecc"
+    },
+    {
+      "canonical_name": "SFTSV-neutralizing antibody responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SFTSV-neutralizing antibody responses",
+      "chunk_id": "chk_f19de34fbbaf5e62845207924703eecc"
+    },
+    {
+      "canonical_name": "GnH mRNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "GnH mRNA vaccine",
+      "chunk_id": "chk_f19de34fbbaf5e62845207924703eecc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

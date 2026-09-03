@@ -1,0 +1,43 @@
+{
+  "chunk_id": "0b5a41a5ccff042bb375531a72f2614e9fbbbdf495096ace55f01cdf9d3f1b42",
+  "content_hash": "c832c011ddfdeaf1cc8a892edbc3bf0835dbcaf0c2d35526fbfba4673bdf531a",
+  "entities": [
+    {
+      "canonical_name": "yellow fever 17D vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "yellow fever 17D vaccine",
+      "chunk_id": "0b5a41a5ccff042bb375531a72f2614e9fbbbdf495096ace55f01cdf9d3f1b42"
+    },
+    {
+      "canonical_name": "Prevotella",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Prevotella",
+      "chunk_id": "0b5a41a5ccff042bb375531a72f2614e9fbbbdf495096ace55f01cdf9d3f1b42"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "0b5a41a5ccff042bb375531a72f2614e9fbbbdf495096ace55f01cdf9d3f1b42"
+    },
+    {
+      "canonical_name": "urban recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "urban recipients",
+      "chunk_id": "0b5a41a5ccff042bb375531a72f2614e9fbbbdf495096ace55f01cdf9d3f1b42"
+    },
+    {
+      "canonical_name": "rural recipients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "rural recipients",
+      "chunk_id": "0b5a41a5ccff042bb375531a72f2614e9fbbbdf495096ace55f01cdf9d3f1b42"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

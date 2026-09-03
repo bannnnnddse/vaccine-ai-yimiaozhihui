@@ -1,0 +1,15 @@
+{
+  "chunk_id": "1558de8070650fbed050fadb31f970e0cfb27076a85d291bf282a4c51bab6c08",
+  "content_hash": "24fb8649faa6e4f345f93307e926c4651e92d623a2968b60935218b4ff36e914",
+  "entities": [
+    {
+      "canonical_name": "female BALB/c mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "female BALB/c mice",
+      "chunk_id": "1558de8070650fbed050fadb31f970e0cfb27076a85d291bf282a4c51bab6c08"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

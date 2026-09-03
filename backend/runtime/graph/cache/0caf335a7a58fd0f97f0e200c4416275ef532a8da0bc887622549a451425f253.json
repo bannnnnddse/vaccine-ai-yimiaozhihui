@@ -1,0 +1,36 @@
+{
+  "chunk_id": "ddd74677117dc33dd1bf0bcc555a33693163bd4ccbf48dac3750de24eeae56ce",
+  "content_hash": "738da524732c4085ff64b422374f39eaa7a344d2ef3ce37c6d77635d717faf81",
+  "entities": [
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "ddd74677117dc33dd1bf0bcc555a33693163bd4ccbf48dac3750de24eeae56ce"
+    },
+    {
+      "canonical_name": "pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogens",
+      "chunk_id": "ddd74677117dc33dd1bf0bcc555a33693163bd4ccbf48dac3750de24eeae56ce"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "ddd74677117dc33dd1bf0bcc555a33693163bd4ccbf48dac3750de24eeae56ce"
+    },
+    {
+      "canonical_name": "atherosclerosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "atherosclerosis",
+      "chunk_id": "ddd74677117dc33dd1bf0bcc555a33693163bd4ccbf48dac3750de24eeae56ce"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f5ef2980c4516384195cae1fa217bb5e",
+  "content_hash": "a9e9fa81f1e08332943712c193520b29cddaa5a2ca83b46205c3904a17679b7d",
+  "entities": [
+    {
+      "canonical_name": "Novavax NVX-CoV2373",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Novavax NVX-CoV2373",
+      "chunk_id": "chk_f5ef2980c4516384195cae1fa217bb5e"
+    },
+    {
+      "canonical_name": "Matrix M adjuvant",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Matrix M adjuvant",
+      "chunk_id": "chk_f5ef2980c4516384195cae1fa217bb5e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

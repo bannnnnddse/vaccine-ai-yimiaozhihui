@@ -1,0 +1,29 @@
+{
+  "chunk_id": "d98915a6bbfdc27e3f153ee2f4ff69f09a9b3bcf7e9a97a647b3b1f41b55d720",
+  "content_hash": "83acb1a1fb710bdef15500b6706341ad759775f11ebc465d52e1c2ff03e00af3",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV Nucleocapsid protein subunit vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV Nucleocapsid protein subunit vaccine",
+      "chunk_id": "d98915a6bbfdc27e3f153ee2f4ff69f09a9b3bcf7e9a97a647b3b1f41b55d720"
+    },
+    {
+      "canonical_name": "recombinant vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant vaccine",
+      "chunk_id": "d98915a6bbfdc27e3f153ee2f4ff69f09a9b3bcf7e9a97a647b3b1f41b55d720"
+    },
+    {
+      "canonical_name": "recombinant protein vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "recombinant protein vaccines",
+      "chunk_id": "d98915a6bbfdc27e3f153ee2f4ff69f09a9b3bcf7e9a97a647b3b1f41b55d720"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

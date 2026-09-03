@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_12148de0c743ee1f7d7403d867f36bc7",
+  "content_hash": "8d7feada6dbd49db5565ef60909fb1999ec91edd95fb373690ef85b62b6ad0c7",
+  "entities": [
+    {
+      "canonical_name": "Recombinant virus-vector vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Recombinant virus-vector vaccines",
+      "chunk_id": "chk_12148de0c743ee1f7d7403d867f36bc7"
+    },
+    {
+      "canonical_name": "T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell",
+      "chunk_id": "chk_12148de0c743ee1f7d7403d867f36bc7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

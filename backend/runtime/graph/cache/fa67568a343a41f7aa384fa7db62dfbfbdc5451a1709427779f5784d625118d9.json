@@ -1,0 +1,67 @@
+{
+  "chunk_id": "chk_f430a017e9c537318c8a92b647512f90",
+  "content_hash": "76749bdc9c7f7ba391d42dc1c69a68ac7895b2320d2e9b20586ac4b7350aab5a",
+  "entities": [
+    {
+      "canonical_name": "HRSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HRSV",
+      "chunk_id": "chk_f430a017e9c537318c8a92b647512f90"
+    },
+    {
+      "canonical_name": "HMPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HMPV",
+      "chunk_id": "chk_f430a017e9c537318c8a92b647512f90"
+    },
+    {
+      "canonical_name": "MPE8",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MPE8",
+      "chunk_id": "chk_f430a017e9c537318c8a92b647512f90"
+    },
+    {
+      "canonical_name": "newborns",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "newborns",
+      "chunk_id": "chk_f430a017e9c537318c8a92b647512f90"
+    },
+    {
+      "canonical_name": "immunocompromised adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised adults",
+      "chunk_id": "chk_f430a017e9c537318c8a92b647512f90"
+    },
+    {
+      "canonical_name": "ALX-0171",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ALX-0171",
+      "chunk_id": "chk_f430a017e9c537318c8a92b647512f90"
+    },
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "chk_f430a017e9c537318c8a92b647512f90"
+    },
+    {
+      "canonical_name": "palivizumab",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "palivizumab",
+      "chunk_id": "chk_f430a017e9c537318c8a92b647512f90"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

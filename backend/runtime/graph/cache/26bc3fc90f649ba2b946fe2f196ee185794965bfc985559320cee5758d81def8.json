@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_c873b2411d5788d88b1bb09c65b9831f",
+  "content_hash": "194a430820620277265640670ea1e14772d93fbfe6150ed04ef3fbde4893b15f",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 vaccination",
+      "chunk_id": "chk_c873b2411d5788d88b1bb09c65b9831f"
+    },
+    {
+      "canonical_name": "immunological T cell memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunological T cell memory",
+      "chunk_id": "chk_c873b2411d5788d88b1bb09c65b9831f"
+    },
+    {
+      "canonical_name": "variants from Alpha to Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "variants from Alpha to Omicron",
+      "chunk_id": "chk_c873b2411d5788d88b1bb09c65b9831f"
+    },
+    {
+      "canonical_name": "type 1 IFN",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "type 1 IFN",
+      "chunk_id": "chk_c873b2411d5788d88b1bb09c65b9831f"
+    },
+    {
+      "canonical_name": "virus-specific T cell responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "virus-specific T cell responses",
+      "chunk_id": "chk_c873b2411d5788d88b1bb09c65b9831f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

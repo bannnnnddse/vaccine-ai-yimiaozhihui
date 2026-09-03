@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_3d2f4f1375daf83e909909f1b28eb97b",
+  "content_hash": "ce0cc47ddaa65b3d0a89ab7d7e34635a63731fc9bf389aca59da5ce58b7a315f",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_3d2f4f1375daf83e909909f1b28eb97b"
+    },
+    {
+      "canonical_name": "young adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young adults",
+      "chunk_id": "chk_3d2f4f1375daf83e909909f1b28eb97b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

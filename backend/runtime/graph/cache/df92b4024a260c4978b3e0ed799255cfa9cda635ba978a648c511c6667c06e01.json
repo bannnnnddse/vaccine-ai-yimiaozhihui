@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_49ca3ccf9131b4761fd62e8e6da30b90",
+  "content_hash": "f58b6a8753b27a8dde50a72a2315a5fb6c2a75d5cbd4a51f272ae7af15e2e3eb",
+  "entities": [
+    {
+      "canonical_name": "arthropod-borne disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "arthropod-borne disease",
+      "chunk_id": "chk_49ca3ccf9131b4761fd62e8e6da30b90"
+    },
+    {
+      "canonical_name": "arboviral diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "arboviral diseases",
+      "chunk_id": "chk_49ca3ccf9131b4761fd62e8e6da30b90"
+    },
+    {
+      "canonical_name": "dengue",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "dengue",
+      "chunk_id": "chk_49ca3ccf9131b4761fd62e8e6da30b90"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

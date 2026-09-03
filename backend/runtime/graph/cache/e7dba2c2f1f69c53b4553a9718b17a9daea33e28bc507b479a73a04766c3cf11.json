@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_ff5fc375289e02b7a7dd7c19ad2d341b",
+  "content_hash": "ee06f6345229f8e3b73d6f1698b8ae966af1fb8ce817fa7cb6ef105e9ec12b53",
+  "entities": [
+    {
+      "canonical_name": "CHIKV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CHIKV vaccines",
+      "chunk_id": "chk_ff5fc375289e02b7a7dd7c19ad2d341b"
+    },
+    {
+      "canonical_name": "IXCHIQ",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IXCHIQ",
+      "chunk_id": "chk_ff5fc375289e02b7a7dd7c19ad2d341b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

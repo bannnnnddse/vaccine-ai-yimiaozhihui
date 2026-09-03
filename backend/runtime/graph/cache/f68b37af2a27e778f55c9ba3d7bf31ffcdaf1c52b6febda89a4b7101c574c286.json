@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_8f7644361cbb2fa485ba203bb3db5248",
+  "content_hash": "71099aab25bfffd816db1229f56cf1cd676f48a1c287a3e258a655cfce51b52b",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine",
+      "chunk_id": "chk_8f7644361cbb2fa485ba203bb3db5248"
+    },
+    {
+      "canonical_name": "seasonal influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "seasonal influenza vaccine",
+      "chunk_id": "chk_8f7644361cbb2fa485ba203bb3db5248"
+    },
+    {
+      "canonical_name": "high-risk groups",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "high-risk groups",
+      "chunk_id": "chk_8f7644361cbb2fa485ba203bb3db5248"
+    },
+    {
+      "canonical_name": "wider population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "wider population",
+      "chunk_id": "chk_8f7644361cbb2fa485ba203bb3db5248"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

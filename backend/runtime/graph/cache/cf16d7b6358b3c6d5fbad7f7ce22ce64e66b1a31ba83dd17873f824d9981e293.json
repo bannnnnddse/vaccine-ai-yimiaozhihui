@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_3769a04f271b982e4efe508c2b4e559a",
+  "content_hash": "ad0b2d9115445e5a1fd726b208562c863cbe16c19e75048839044a2f5578ada8",
+  "entities": [
+    {
+      "canonical_name": "HavrixTM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Havrix™",
+      "chunk_id": "chk_3769a04f271b982e4efe508c2b4e559a"
+    },
+    {
+      "canonical_name": "inactivated hepatitis A vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated hepatitis A vaccine",
+      "chunk_id": "chk_3769a04f271b982e4efe508c2b4e559a"
+    },
+    {
+      "canonical_name": "hepatitis A",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hepatitis A",
+      "chunk_id": "chk_3769a04f271b982e4efe508c2b4e559a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

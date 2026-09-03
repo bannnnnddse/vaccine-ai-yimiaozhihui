@@ -1,0 +1,173 @@
+{
+  "job_id": "4f040b5b0477",
+  "prompt": "生成一张免疫机制图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen"
+    ],
+    "scene_direction": "9:16竖版科学机制图。画面中心展示抗原呈递与T细胞激活的因果流程。顶部为抗原提呈细胞（APC）吞噬并处理抗原，中间通过箭头指向MHC-II分子复合物，底部显示初始T细胞识别该复合物并分化为效应T细胞。布局清晰，分区明确，使用标准科学图标风格，无多余装饰。",
+    "optimized_chinese_prompt": "一张专业的生物医学科学机制图，9:16竖版构图。内容展示适应性免疫反应的早期阶段：上方绘制一个巨噬细胞或树突状细胞作为抗原提呈细胞，正在处理病原体抗原；中间部分特写MHC-II类分子将抗原肽展示在细胞表面；下方绘制一个初始CD4+ T细胞，其TCR受体正在识别MHC-抗原复合物。使用清晰的箭头指示信号传导和细胞相互作用方向。配色采用冷色调的科学插图风格，背景简洁，突出核心分子结构。",
+    "chinese_labels": [
+      "抗原提呈细胞",
+      "MHC-II/抗原复合物",
+      "初始T细胞",
+      "免疫突触"
+    ],
+    "scientific_claims": [
+      "抗原提呈细胞摄取并加工外源性抗原。",
+      "加工后的抗原肽被装载至MHC-II类分子。",
+      "MHC-II-抗原复合物表达于APC表面。",
+      "初始T细胞通过TCR特异性识别MHC-II复合物。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "APC processing antigen and loading onto MHC-II"
+      },
+      {
+        "primary_relation": "Presentation of MHC-II-peptide complex on cell surface"
+      },
+      {
+        "primary_relation": "Recognition by naive T cell receptor (TCR)"
+      },
+      {
+        "primary_relation": "Initiation of T cell activation signal"
+      }
+    ],
+    "route_reason": "用户请求生成“免疫机制图”，属于典型的科学过程描述，不涉及特定固定IP角色需求，且需要严谨的逻辑表达，因此选择 scientific_diagram 模式以确保信息的准确性和结构的清晰度。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "初始T细胞"
+  ],
+  "cell_ip_label_layout": null,
+  "cell_ip_expected_text": [],
+  "cell_ip_text_source": "manifest_programmatic",
+  "cell_ip_base_visual_text_audit": {
+    "status": "clear",
+    "has_visible_text": true,
+    "summary": "The image is a cartoon diagram illustrating the antigen presentation process in five numbered steps. It depicts an antigen-presenting cell engulfing an antigen, forming an MHC-II complex, and subsequently interacting with an initial T cell to trigger an activation signal.",
+    "text_blocks": [
+      {
+        "text": "1. 抗原提传细胞",
+        "bbox": null,
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "吞噬并处理抗原",
+        "bbox": null,
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "3. 抗原提得细胞",
+        "bbox": null,
+        "confidence": 0.98,
+        "defective": false
+      },
+      {
+        "text": "2. MHC-II分复合物",
+        "bbox": null,
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "4. 初始T细胞识别",
+        "bbox": null,
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "5. 启动激活信号",
+        "bbox": null,
+        "confidence": 0.99,
+        "defective": false
+      }
+    ]
+  },
+  "reference_assets": [
+    "canonical:antigen"
+  ],
+  "reference_assets_actually_sent": [
+    "canonical:antigen"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 的无字科学插画：画面中绝对不出现任何\n中文、英文、字母、单词、伪文字或文字形状；允许无字箭头和纯阿拉伯数字步骤编号，但为避免重复，\n步骤编号最好留空并由程序在生成后统一绘制。角色名、底标和标题全部由程序绘制。\n\n【仅场景与构图指令】\n9:16竖版科学机制图。画面中心展示抗原呈递与T细胞激活的因果流程。顶部为抗原提呈细胞（APC）吞噬并处理抗原。中间通过箭头指向MHC-II分子复合物。底部显示初始T细胞识别该复合物并分化为效应T细胞。布局清晰。分区明确。使用标准科学图标风格。无多余装饰。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. APC processing antigen and loading onto MHC-II；2. Presentation of MHC-II-peptide complex on cell surface；3. Recognition by naive T cell receptor (TCR)；4. Initiation of T cell activation signal\n- 禁止生成任何中文、英文、字母、单词、伪文字或文字形状；纯图形箭头和纯阿拉伯数字步骤编号允许。每个命中的固定角色至少保留一次轮廓完整、彼此不遮挡的代表性出场，并在角色四周保留适量自然留白；不要生成底标框，角色名称与圆角底标全部由程序根据角色位置绘制\n- 科学关系中的英文缩写（如 MHC、TCR、PAMP）也必须画成图形元素或完全省略，\n  绝不能作为文字、注释或装饰性字母写进画面\n- 提示词中出现的所有术语和角色称呼都只是语义指令，不是待排版文案；不得临摹提示词字符\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是 抗原 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 本题命中的固定角色：抗原\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n\n- 未收录的必要细胞：初始T细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，使用分区、无字箭头和流程结构；为程序后续写入步骤编号保留自然位置；每条关系必须有明确主体、方向和结果。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：禁止标题；角色名和必要步骤编号由程序在生成后确定性绘制\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、任何中英文文字字母或伪文字\n- 画面只由角色、生物学对象、纯图形分区、箭头和状态图标组成；不要生成标题栏、说明卡片、\n  对话框、图例、表格、坐标轴、海报排版、UI 面板、空白标签框或任何暗示应填文字的容器\n- 科学关系的完整性、箭头方向和角色身份优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、10 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 4 个核心步骤；为程序后续写入步骤编号保留自然位置；不生成标题或任何文字。\n核心图形主体应覆盖约 70% 的有效画布，避免主体缩成一小排并留下大片空白；整张图不得出现任何中文、英文、字母、单词、伪文字或文字形状；允许纯图形箭头和纯阿拉伯数字步骤编号，标签与标题由程序在生成后绘制。同一核心细胞或抗原角色应在不同步骤中重复出现，用姿态、位置和状态变化表达过程；优先用细胞角色、抗原/抗体图形、箭头和状态图标表达，不要用句子或段落替代画面。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n最后重申：这张图不得出现任何中文、英文、字母、单词、标题、标签、伪文字或文字形状；\n纯图形箭头和纯阿拉伯数字步骤编号不属于文字违规，其余文字均由程序在生成后确定性绘制。\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 10,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 4,
+    "requires_numbered_steps": true,
+    "requires_title": false,
+    "minimum_subject_coverage_percent": 70,
+    "maximum_text_labels": 4,
+    "repeat_core_subjects_across_steps": true
+  },
+  "aspect_ratio": "16:9",
+  "cell_ip_failure_reason": "cell IP base contains unlocatable provider-authored text",
+  "image_id": null,
+  "trusted_image": null,
+  "candidate_image": null,
+  "critic_result": null,
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": null,
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-09-01T15:48:14.430314+00:00",
+  "finished_at": "2026-09-01T15:49:01.780220+00:00",
+  "stage": "failed",
+  "error": "细胞 IP 底图文字检查或角色定位未通过，请重试生成。",
+  "trace_id": "51009aff0386",
+  "trace_events": [
+    {
+      "id": "51009aff0386-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-09-01T15:48:14.430314Z"
+    },
+    {
+      "id": "51009aff0386-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：一张专业的生物医学科学机制图，9:16竖版构图。内容展示适应性免疫反应的早期阶段：上方绘制一个巨噬细胞或树突状细胞作为抗原提呈细胞，正在处理病原体抗原；中间部分特写MHC-II类分子将抗原肽展示在细胞表面；下方绘制一个初始CD4+ T细胞，其TCR受体正在识别MHC-抗原复合物。使用清晰的箭头指示信号传导和细胞相互作用方向。配色采用冷色调的科学插图风格，背… 详细机制图：至少 4 个信息分区、10 个可辨视觉节点、4 条方向连接。",
+      "status": "completed",
+      "created_at": "2026-09-01T15:48:14.430314Z"
+    },
+    {
+      "id": "51009aff0386-3",
+      "stage": "generation",
+      "title": "细胞场景已生成",
+      "detail": "正在检查底图文字并定位角色，随后写入规范底标和步骤编号。",
+      "status": "completed",
+      "created_at": "2026-09-01T15:48:19.957774Z"
+    },
+    {
+      "id": "51009aff0386-4",
+      "stage": "visual_critic",
+      "title": "底图发现模型文字",
+      "detail": "视觉模型定位到 4 处中英文或伪文字（APC、2. MHC-II Molece、3. Initial T cell、4. Effectve T cell），正在本地擦除。",
+      "status": "completed",
+      "created_at": "2026-09-01T15:48:31.620797Z"
+    }
+  ],
+  "trace_history": []
+}

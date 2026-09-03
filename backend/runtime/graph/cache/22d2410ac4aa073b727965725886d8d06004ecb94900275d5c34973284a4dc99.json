@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_74f17fc61a51358fe339b3d46154a715",
+  "content_hash": "f44af8804e875013d53531c957690d24bcec1d5edad1e317751caf3fbec01f1b",
+  "entities": [
+    {
+      "canonical_name": "Polio",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Polio",
+      "chunk_id": "chk_74f17fc61a51358fe339b3d46154a715"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_74f17fc61a51358fe339b3d46154a715"
+    },
+    {
+      "canonical_name": "whooping cough",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "whooping cough",
+      "chunk_id": "chk_74f17fc61a51358fe339b3d46154a715"
+    },
+    {
+      "canonical_name": "Hib",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hib",
+      "chunk_id": "chk_74f17fc61a51358fe339b3d46154a715"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_74f17fc61a51358fe339b3d46154a715"
+    },
+    {
+      "canonical_name": "rubella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rubella",
+      "chunk_id": "chk_74f17fc61a51358fe339b3d46154a715"
+    },
+    {
+      "canonical_name": "mumps",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "mumps",
+      "chunk_id": "chk_74f17fc61a51358fe339b3d46154a715"
+    },
+    {
+      "canonical_name": "younger children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "younger children",
+      "chunk_id": "chk_74f17fc61a51358fe339b3d46154a715"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

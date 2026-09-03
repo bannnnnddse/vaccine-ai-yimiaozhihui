@@ -1,0 +1,157 @@
+{
+  "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9",
+  "content_hash": "214f738864c5ea52365a97dce6d45c495bf53eb5fd65c963e10ad5858dd800fb",
+  "entities": [
+    {
+      "canonical_name": "BBIBP-CorV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BBIBP-CorV",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "CoronaVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoronaVac",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "Pain",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Pain",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "itching",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "itching",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "redness",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "redness",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "swelling",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "swelling",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "Fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Fever",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "coughing",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "coughing",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "diarrhea",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "diarrhea",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "fatigue",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fatigue",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "headache",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "headache",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "pruritus",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "pruritus",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "nausea",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "nausea",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "vomiting",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vomiting",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "inappetence",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "inappetence",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "joint pain",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "joint pain",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "rash",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "rash",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "muscle pain",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "muscle pain",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "hypersensitivity",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "hypersensitivity",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "discoloration",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "discoloration",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    },
+    {
+      "canonical_name": "itch",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "itch",
+      "chunk_id": "chk_2104f2e1e39fbda4aa0a185c8aaf0dd9"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

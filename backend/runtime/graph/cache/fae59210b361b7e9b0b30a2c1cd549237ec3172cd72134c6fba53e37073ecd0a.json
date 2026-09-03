@@ -1,0 +1,60 @@
+{
+  "chunk_id": "59bf2fe69ba27085751c81e2984f0812b3cea2f868950241b9e17594199425df",
+  "content_hash": "754a9ab33f77c8c96d189c305610dec45c7971384a8932bae36b8d0587aae212",
+  "entities": [
+    {
+      "canonical_name": "lipopolysaccharide",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "lipopolysaccharide",
+      "chunk_id": "59bf2fe69ba27085751c81e2984f0812b3cea2f868950241b9e17594199425df"
+    },
+    {
+      "canonical_name": "MyD88",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MyD88",
+      "chunk_id": "59bf2fe69ba27085751c81e2984f0812b3cea2f868950241b9e17594199425df"
+    },
+    {
+      "canonical_name": "proinflammatory cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "proinflammatory cytokines",
+      "chunk_id": "59bf2fe69ba27085751c81e2984f0812b3cea2f868950241b9e17594199425df"
+    },
+    {
+      "canonical_name": "toxicity",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "toxicity",
+      "chunk_id": "59bf2fe69ba27085751c81e2984f0812b3cea2f868950241b9e17594199425df"
+    },
+    {
+      "canonical_name": "T H 1 response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T H 1 response",
+      "chunk_id": "59bf2fe69ba27085751c81e2984f0812b3cea2f868950241b9e17594199425df"
+    },
+    {
+      "canonical_name": "Gardasil",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Gardasil",
+      "chunk_id": "59bf2fe69ba27085751c81e2984f0812b3cea2f868950241b9e17594199425df"
+    },
+    {
+      "canonical_name": "human papillomavirus type 16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomavirus type 16",
+      "chunk_id": "59bf2fe69ba27085751c81e2984f0812b3cea2f868950241b9e17594199425df"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "unknown_endpoint"
+  ]
+}

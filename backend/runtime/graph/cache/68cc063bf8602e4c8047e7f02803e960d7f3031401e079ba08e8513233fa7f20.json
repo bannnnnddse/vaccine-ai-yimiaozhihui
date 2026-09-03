@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_94351773123a628071ecd271b4c57cc6",
+  "content_hash": "79579215a3a82bdcf5bde13928c88620af7056461bafd6efc9a9835d161898fa",
+  "entities": [
+    {
+      "canonical_name": "Measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Measles",
+      "chunk_id": "chk_94351773123a628071ecd271b4c57cc6"
+    },
+    {
+      "canonical_name": "HBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HBV",
+      "chunk_id": "chk_94351773123a628071ecd271b4c57cc6"
+    },
+    {
+      "canonical_name": "Pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Pertussis",
+      "chunk_id": "chk_94351773123a628071ecd271b4c57cc6"
+    },
+    {
+      "canonical_name": "neonates <3 months old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "neonates <3 months old",
+      "chunk_id": "chk_94351773123a628071ecd271b4c57cc6"
+    },
+    {
+      "canonical_name": "Parents of neonates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Parents of neonates",
+      "chunk_id": "chk_94351773123a628071ecd271b4c57cc6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

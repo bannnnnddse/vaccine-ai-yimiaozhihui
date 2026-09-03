@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_224d4941d753be1f800bc2395a790257",
+  "content_hash": "d0e37e816b4eb263bf5be7b1d92a243e031afbf58461ecd300a11a1f29aa1ad5",
+  "entities": [
+    {
+      "canonical_name": "hepatitis B vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccine",
+      "chunk_id": "chk_224d4941d753be1f800bc2395a790257"
+    },
+    {
+      "canonical_name": "HIV-1-positive subjects",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-1-positive subjects",
+      "chunk_id": "chk_224d4941d753be1f800bc2395a790257"
+    },
+    {
+      "canonical_name": "HIV-positive subjects",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HIV-positive subjects",
+      "chunk_id": "chk_224d4941d753be1f800bc2395a790257"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

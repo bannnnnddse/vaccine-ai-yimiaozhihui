@@ -1,0 +1,60 @@
+{
+  "chunk_id": "chk_6bebecd691e72aede18c921cbcc9ce5c",
+  "content_hash": "71819243ffa3efd801286c2fb02a2c79dc09830becf0d81020617dc2c97ea9ab",
+  "entities": [
+    {
+      "canonical_name": "anaphylaxis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "anaphylaxis",
+      "chunk_id": "chk_6bebecd691e72aede18c921cbcc9ce5c"
+    },
+    {
+      "canonical_name": "children and adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children and adolescents",
+      "chunk_id": "chk_6bebecd691e72aede18c921cbcc9ce5c"
+    },
+    {
+      "canonical_name": "AS03 adjuvanted AH1N1 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AS03 adjuvanted AH1N1 vaccine",
+      "chunk_id": "chk_6bebecd691e72aede18c921cbcc9ce5c"
+    },
+    {
+      "canonical_name": "childhood narcolepsy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "childhood narcolepsy",
+      "chunk_id": "chk_6bebecd691e72aede18c921cbcc9ce5c"
+    },
+    {
+      "canonical_name": "narcolepsy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "narcolepsy",
+      "chunk_id": "chk_6bebecd691e72aede18c921cbcc9ce5c"
+    },
+    {
+      "canonical_name": "children and young people",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children and young people",
+      "chunk_id": "chk_6bebecd691e72aede18c921cbcc9ce5c"
+    },
+    {
+      "canonical_name": "AS03 adjuvanted pandemic A/H1N1 2009 influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "AS03 adjuvanted pandemic A/H1N1 2009 influenza vaccine",
+      "chunk_id": "chk_6bebecd691e72aede18c921cbcc9ce5c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

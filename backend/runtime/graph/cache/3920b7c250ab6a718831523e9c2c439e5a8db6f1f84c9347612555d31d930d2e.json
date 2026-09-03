@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_18bc55c43904c1200e4514dd25342106",
+  "content_hash": "35426c8fc9d826f22e35e6ca7b33be3c000689d7107fc467f06951791b9853d0",
+  "entities": [
+    {
+      "canonical_name": "infant fulminant hepatitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infant fulminant hepatitis",
+      "chunk_id": "chk_18bc55c43904c1200e4514dd25342106"
+    },
+    {
+      "canonical_name": "catch-up vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "catch-up vaccination",
+      "chunk_id": "chk_18bc55c43904c1200e4514dd25342106"
+    },
+    {
+      "canonical_name": "neonatal vaccination",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "neonatal vaccination",
+      "chunk_id": "chk_18bc55c43904c1200e4514dd25342106"
+    },
+    {
+      "canonical_name": "adolescent booster dose",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "adolescent booster dose",
+      "chunk_id": "chk_18bc55c43904c1200e4514dd25342106"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_18bc55c43904c1200e4514dd25342106"
+    },
+    {
+      "canonical_name": "HBsAg-positive mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "HBsAg-positive mothers",
+      "chunk_id": "chk_18bc55c43904c1200e4514dd25342106"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

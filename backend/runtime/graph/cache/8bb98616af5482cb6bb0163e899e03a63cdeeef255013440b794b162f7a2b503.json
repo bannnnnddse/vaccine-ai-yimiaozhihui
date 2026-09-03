@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_940fc4f4cecce3ae434487696d9fd37d",
+  "content_hash": "31298215a50f13f20896b9cbf00a7f558e87854a881ccaf3937da5f2a61cded4",
+  "entities": [
+    {
+      "canonical_name": "Ebola outbreak",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Ebola outbreak",
+      "chunk_id": "chk_940fc4f4cecce3ae434487696d9fd37d"
+    },
+    {
+      "canonical_name": "simian adenovirusbased Ebola vaccine ChAd3-EBO-Z",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "simian adenovirusbased Ebola vaccine ChAd3-EBO-Z",
+      "chunk_id": "chk_940fc4f4cecce3ae434487696d9fd37d"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_940fc4f4cecce3ae434487696d9fd37d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

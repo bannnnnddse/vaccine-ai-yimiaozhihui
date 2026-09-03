@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_558371f7da9b49c8bd58c9bd4fc80993",
+  "content_hash": "30a2ffed6043281bda43b277477738b7f2a819daa7f77bfd539f9f8a069f2e45",
+  "entities": [
+    {
+      "canonical_name": "Ebola Virus Disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Ebola Virus Disease",
+      "chunk_id": "chk_558371f7da9b49c8bd58c9bd4fc80993"
+    },
+    {
+      "canonical_name": "Zika Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika Virus",
+      "chunk_id": "chk_558371f7da9b49c8bd58c9bd4fc80993"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

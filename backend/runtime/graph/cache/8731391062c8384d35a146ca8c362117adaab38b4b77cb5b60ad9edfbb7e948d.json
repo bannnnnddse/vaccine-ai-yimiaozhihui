@@ -1,0 +1,67 @@
+{
+  "chunk_id": "chk_79ddae02f71c1ee3d0e503f75fb3bab6",
+  "content_hash": "60365efb79204fb67cfb9c96fd0d68da18f2f544ce1b29f6eacb72642f4dd095",
+  "entities": [
+    {
+      "canonical_name": "group B Streptococcus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "group B Streptococcus",
+      "chunk_id": "chk_79ddae02f71c1ee3d0e503f75fb3bab6"
+    },
+    {
+      "canonical_name": "neonatal meningitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "neonatal meningitis",
+      "chunk_id": "chk_79ddae02f71c1ee3d0e503f75fb3bab6"
+    },
+    {
+      "canonical_name": "RSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV",
+      "chunk_id": "chk_79ddae02f71c1ee3d0e503f75fb3bab6"
+    },
+    {
+      "canonical_name": "CMV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CMV",
+      "chunk_id": "chk_79ddae02f71c1ee3d0e503f75fb3bab6"
+    },
+    {
+      "canonical_name": "Group B Streptococcus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Group B Streptococcus vaccines",
+      "chunk_id": "chk_79ddae02f71c1ee3d0e503f75fb3bab6"
+    },
+    {
+      "canonical_name": "maternal antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "maternal antibodies",
+      "chunk_id": "chk_79ddae02f71c1ee3d0e503f75fb3bab6"
+    },
+    {
+      "canonical_name": "lower respiratory tract infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "lower respiratory tract infection",
+      "chunk_id": "chk_79ddae02f71c1ee3d0e503f75fb3bab6"
+    },
+    {
+      "canonical_name": "bronchiolitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "bronchiolitis",
+      "chunk_id": "chk_79ddae02f71c1ee3d0e503f75fb3bab6"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

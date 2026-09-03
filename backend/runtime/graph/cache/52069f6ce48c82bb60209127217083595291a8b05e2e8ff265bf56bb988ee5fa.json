@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_a71256bfbba04501749f41c9bec9cff5",
+  "content_hash": "38505c170a4f9534b182c7b167931a52fe80504c24d55dfa3eb16d33ac531de5",
+  "entities": [
+    {
+      "canonical_name": "pneumonia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumonia",
+      "chunk_id": "chk_a71256bfbba04501749f41c9bec9cff5"
+    },
+    {
+      "canonical_name": "SARSCoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2",
+      "chunk_id": "chk_a71256bfbba04501749f41c9bec9cff5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

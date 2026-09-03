@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_12cd114aa2759c9bb087004802c11fe1",
+  "content_hash": "f0de268c1e6c5494cc1db6505f880eb5965c2a56f2d214398a1344062a26bd62",
+  "entities": [
+    {
+      "canonical_name": "MBC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MBC",
+      "chunk_id": "chk_12cd114aa2759c9bb087004802c11fe1"
+    },
+    {
+      "canonical_name": "E. muris",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "E. muris",
+      "chunk_id": "chk_12cd114aa2759c9bb087004802c11fe1"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "chk_12cd114aa2759c9bb087004802c11fe1"
+    },
+    {
+      "canonical_name": "Malaria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Malaria",
+      "chunk_id": "chk_12cd114aa2759c9bb087004802c11fe1"
+    },
+    {
+      "canonical_name": "IgM MBC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgM MBC",
+      "chunk_id": "chk_12cd114aa2759c9bb087004802c11fe1"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

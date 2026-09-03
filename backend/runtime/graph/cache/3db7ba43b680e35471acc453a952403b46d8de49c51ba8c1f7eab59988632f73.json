@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_6550718c384cb79bb5d43705d940952d",
+  "content_hash": "b7837ae5f29cf17fc937fa9f34ffd64d5fc291ca942714ddcb660e596e135fec",
+  "entities": [
+    {
+      "canonical_name": "psychiatric disorders",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "psychiatric disorders",
+      "chunk_id": "chk_6550718c384cb79bb5d43705d940952d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

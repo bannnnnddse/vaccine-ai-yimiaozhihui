@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_a8c97a87c4a160fb6b9afc6746a17b42",
+  "content_hash": "5d476a5dbe3d16cdc70303cbe4fa06735312e8e6aa1ed1a5e9a9ed768014b42d",
+  "entities": [
+    {
+      "canonical_name": "Memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Memory B cells",
+      "chunk_id": "chk_a8c97a87c4a160fb6b9afc6746a17b42"
+    },
+    {
+      "canonical_name": "Bcl6-deficient B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Bcl6-deficient B cells",
+      "chunk_id": "chk_a8c97a87c4a160fb6b9afc6746a17b42"
+    },
+    {
+      "canonical_name": "germline-targeting HIV vaccine immunogens",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "germline-targeting HIV vaccine immunogens",
+      "chunk_id": "chk_a8c97a87c4a160fb6b9afc6746a17b42"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

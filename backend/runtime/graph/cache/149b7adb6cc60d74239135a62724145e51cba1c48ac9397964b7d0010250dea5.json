@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_090e71e7620ffab64ad2fe207e6e22b2",
+  "content_hash": "390210c9e237394ddc2427c731c9a66ca010f7a01b99012cb2c85fdaf71681ae",
+  "entities": [
+    {
+      "canonical_name": "MenB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenB",
+      "chunk_id": "chk_090e71e7620ffab64ad2fe207e6e22b2"
+    },
+    {
+      "canonical_name": "MenB-4C",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenB-4C",
+      "chunk_id": "chk_090e71e7620ffab64ad2fe207e6e22b2"
+    },
+    {
+      "canonical_name": "Bexsero ®",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Bexsero ®",
+      "chunk_id": "chk_090e71e7620ffab64ad2fe207e6e22b2"
+    },
+    {
+      "canonical_name": "4CMenB",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "4CMenB",
+      "chunk_id": "chk_090e71e7620ffab64ad2fe207e6e22b2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

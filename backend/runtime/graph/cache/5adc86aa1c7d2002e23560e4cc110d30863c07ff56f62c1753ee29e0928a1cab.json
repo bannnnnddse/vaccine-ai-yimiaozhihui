@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_33bf8cdb7cacabd8a74dfdab9de2b3cb",
+  "content_hash": "6b9886607a26c77df2f7a1584021d0a0534b86a2adaba7f1d295920f065c1684",
+  "entities": [
+    {
+      "canonical_name": "solid organ transplant candidates",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "solid organ transplant candidates",
+      "chunk_id": "chk_33bf8cdb7cacabd8a74dfdab9de2b3cb"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_33bf8cdb7cacabd8a74dfdab9de2b3cb"
+    },
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_33bf8cdb7cacabd8a74dfdab9de2b3cb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

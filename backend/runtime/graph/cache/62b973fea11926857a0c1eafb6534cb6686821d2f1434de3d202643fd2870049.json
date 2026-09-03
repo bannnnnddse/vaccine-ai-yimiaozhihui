@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_178cf970b9b86277e1aa16b2893dc9e2",
+  "content_hash": "35873d29249ef85b789f6cd30689bf90c0f17df285a5a94393d382566744d1d0",
+  "entities": [
+    {
+      "canonical_name": "gp120-NefTat/AS01B vaccine candidate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "gp120-NefTat/AS01B vaccine candidate",
+      "chunk_id": "chk_178cf970b9b86277e1aa16b2893dc9e2"
+    },
+    {
+      "canonical_name": "humoral binding immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral binding immunity",
+      "chunk_id": "chk_178cf970b9b86277e1aa16b2893dc9e2"
+    },
+    {
+      "canonical_name": "cellular immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cellular immunity",
+      "chunk_id": "chk_178cf970b9b86277e1aa16b2893dc9e2"
+    },
+    {
+      "canonical_name": "volunteers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "volunteers",
+      "chunk_id": "chk_178cf970b9b86277e1aa16b2893dc9e2"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

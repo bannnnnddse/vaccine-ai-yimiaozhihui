@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_f3f479f84226ffb341abda49683ce9ed",
+  "content_hash": "5409fb799cc36b25198c37ed113c29acaa78da9d57b4161952b1d0ac15606e31",
+  "entities": [
+    {
+      "canonical_name": "pathogens",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogens",
+      "chunk_id": "chk_f3f479f84226ffb341abda49683ce9ed"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_f3f479f84226ffb341abda49683ce9ed"
+    },
+    {
+      "canonical_name": "hepatitis C virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis C virus",
+      "chunk_id": "chk_f3f479f84226ffb341abda49683ce9ed"
+    },
+    {
+      "canonical_name": "antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen",
+      "chunk_id": "chk_f3f479f84226ffb341abda49683ce9ed"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_f3f479f84226ffb341abda49683ce9ed"
+    },
+    {
+      "canonical_name": "virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "virus",
+      "chunk_id": "chk_f3f479f84226ffb341abda49683ce9ed"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

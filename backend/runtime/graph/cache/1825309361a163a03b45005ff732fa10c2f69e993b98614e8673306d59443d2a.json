@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_3208f2b8b936927061eca50762340a5d",
+  "content_hash": "959865010f2e44b72ffff4dfc9adc2da05d7bda05ff065639195730e8cf8ad2b",
+  "entities": [
+    {
+      "canonical_name": "study vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "study vaccine",
+      "chunk_id": "chk_3208f2b8b936927061eca50762340a5d"
+    },
+    {
+      "canonical_name": "AS02A",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "AS02A",
+      "chunk_id": "chk_3208f2b8b936927061eca50762340a5d"
+    },
+    {
+      "canonical_name": "AS02V",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "AS02V",
+      "chunk_id": "chk_3208f2b8b936927061eca50762340a5d"
+    },
+    {
+      "canonical_name": "AS01B",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "AS01B",
+      "chunk_id": "chk_3208f2b8b936927061eca50762340a5d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

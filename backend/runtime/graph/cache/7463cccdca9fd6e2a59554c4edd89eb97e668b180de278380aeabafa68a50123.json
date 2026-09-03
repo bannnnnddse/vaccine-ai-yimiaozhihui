@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_eac60a58dd1e8d6ac7f69da64356beee",
+  "content_hash": "fcebfdcf8351d0d1f5493f54c410a494cf2532c1fa869c43d5d151c305020735",
+  "entities": [
+    {
+      "canonical_name": "IL-1b",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-1b",
+      "chunk_id": "chk_eac60a58dd1e8d6ac7f69da64356beee"
+    },
+    {
+      "canonical_name": "IL-12",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-12",
+      "chunk_id": "chk_eac60a58dd1e8d6ac7f69da64356beee"
+    },
+    {
+      "canonical_name": "IFN-g",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-g",
+      "chunk_id": "chk_eac60a58dd1e8d6ac7f69da64356beee"
+    },
+    {
+      "canonical_name": "IL12",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL12",
+      "chunk_id": "chk_eac60a58dd1e8d6ac7f69da64356beee"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

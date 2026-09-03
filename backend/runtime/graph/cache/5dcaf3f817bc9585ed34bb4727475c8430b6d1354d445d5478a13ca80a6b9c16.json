@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_da6ffc54b1686638e341abbd253a1204",
+  "content_hash": "9e64995ad3355d3dc8856341beee2d3fac8ef415ce39635629709495be440188",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_da6ffc54b1686638e341abbd253a1204"
+    },
+    {
+      "canonical_name": "Black, Asian, and minority ethnic (BAME) populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Black, Asian, and minority ethnic (BAME) populations",
+      "chunk_id": "chk_da6ffc54b1686638e341abbd253a1204"
+    },
+    {
+      "canonical_name": "general population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general population",
+      "chunk_id": "chk_da6ffc54b1686638e341abbd253a1204"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

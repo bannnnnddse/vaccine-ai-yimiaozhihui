@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_9616900d13bb533c54c8914a244d5c11",
+  "content_hash": "43ef6cd3bd8cae37506802994f5d2dcc09f7f3400698da4da1a9f90f7d489431",
+  "entities": [
+    {
+      "canonical_name": "individuals of all ages",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals of all ages",
+      "chunk_id": "chk_9616900d13bb533c54c8914a244d5c11"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

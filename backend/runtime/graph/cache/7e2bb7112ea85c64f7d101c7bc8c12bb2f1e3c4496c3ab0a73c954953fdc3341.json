@@ -1,0 +1,29 @@
+{
+  "chunk_id": "ec2dc86fc6a3ac1078d08ba1a7a13efc3d83bb942887baa21d5470c1f94b424b",
+  "content_hash": "cee064caad01ad5b6680b2c9764ee40b6f685870d75e39516a06e83e05fef113",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "ec2dc86fc6a3ac1078d08ba1a7a13efc3d83bb942887baa21d5470c1f94b424b"
+    },
+    {
+      "canonical_name": "HPV-related precancerous lesion",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HPV-related precancerous lesion",
+      "chunk_id": "ec2dc86fc6a3ac1078d08ba1a7a13efc3d83bb942887baa21d5470c1f94b424b"
+    },
+    {
+      "canonical_name": "cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancers",
+      "chunk_id": "ec2dc86fc6a3ac1078d08ba1a7a13efc3d83bb942887baa21d5470c1f94b424b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

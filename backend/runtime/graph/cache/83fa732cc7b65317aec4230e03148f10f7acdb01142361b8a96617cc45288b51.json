@@ -1,0 +1,15 @@
+{
+  "chunk_id": "9ee97ad57080914bb4d44e017978c1d9f019f0742746b26e312f5de64a55e705",
+  "content_hash": "31f12c11b38081f1894790608547f754fa206e8261cae1c30c8a113628cd5c43",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal vaccination",
+      "chunk_id": "9ee97ad57080914bb4d44e017978c1d9f019f0742746b26e312f5de64a55e705"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

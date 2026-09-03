@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_80d87b74c9980dca2dd7d30fa45539d8",
+  "content_hash": "e9f7a3b6fc71c5e9945f6e815046ff4680f41e566cbe32ba100c5ea18e0b3e4c",
+  "entities": [
+    {
+      "canonical_name": "MenACWYCRM",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenACWYCRM",
+      "chunk_id": "chk_80d87b74c9980dca2dd7d30fa45539d8"
+    },
+    {
+      "canonical_name": "MenACWY-TT",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MenACWY-TT",
+      "chunk_id": "chk_80d87b74c9980dca2dd7d30fa45539d8"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_80d87b74c9980dca2dd7d30fa45539d8"
+    },
+    {
+      "canonical_name": "toddlers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "toddlers",
+      "chunk_id": "chk_80d87b74c9980dca2dd7d30fa45539d8"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_80d87b74c9980dca2dd7d30fa45539d8"
+    },
+    {
+      "canonical_name": "serogroup A",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "serogroup A",
+      "chunk_id": "chk_80d87b74c9980dca2dd7d30fa45539d8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,177 @@
+{
+  "job_id": "8003f4beaa0a",
+  "prompt": "制作一张解释疫苗接种后免疫记忆如何形成的中文机制图。要求按顺序清楚展示：疫苗抗原被免疫细胞识别、B细胞产生抗体、形成免疫记忆；使用箭头和简短中文标签。",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen",
+      "b_cell",
+      "antibody",
+      "memory_b"
+    ],
+    "scene_direction": "16:9横版科学机制图。左侧展示疫苗抗原进入机体，中央为B细胞识别抗原并活化，右侧展示浆细胞分泌抗体及记忆B细胞的形成。整体布局从左至右呈现因果流程，背景简洁无干扰元素，确保三个核心步骤清晰可见且逻辑连贯。",
+    "optimized_chinese_prompt": "A scientific mechanism diagram illustrating the formation of immune memory after vaccination. The scene is a clean, white background with a horizontal flow from left to right. Step 1: A vaccine antigen (canonical IP) is shown entering and being recognized by an immune cell. Step 2: A B-cell (canonical IP) activates upon recognition. Step 3: The activated B-cell differentiates into plasma cells secreting antibodies (canonical IP) and memory B-cells. Use clear arrows connecting these stages. Minimalist style, high contrast, educational poster aesthetic, no clutter.",
+    "chinese_labels": [
+      "疫苗抗原",
+      "免疫识别",
+      "B细胞活化",
+      "抗体分泌",
+      "免疫记忆"
+    ],
+    "scientific_claims": [
+      "疫苗抗原被免疫系统特异性识别",
+      "B细胞在抗原刺激下发生活化与增殖",
+      "活化的B细胞分化为浆细胞以产生抗体",
+      "部分分化后的细胞成为记忆B细胞以维持长期免疫保护"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "疫苗抗原被免疫细胞识别"
+      },
+      {
+        "primary_relation": "B细胞产生抗体"
+      },
+      {
+        "primary_relation": "形成免疫记忆"
+      }
+    ],
+    "route_reason": "用户要求解释疫苗接种后免疫记忆形成的机制，涉及抗原、B细胞和抗体等生物实体，符合cell_ip_scientific的使用条件（细胞/病毒/抗原/抗体相关主题）。需要按顺序展示三个核心步骤，因此选择包含编号和箭头的机制图模式，以确保科学关系的完整性。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen",
+    "b_cell",
+    "antibody",
+    "memory_b"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "部分分化后的细胞"
+  ],
+  "reference_assets": [
+    "role-sheet:antigen+b_cell+antibody+memory_b"
+  ],
+  "reference_assets_actually_sent": [
+    "role-sheet:antigen+b_cell+antibody+memory_b"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    },
+    {
+      "role_id": "b_cell",
+      "asset_id": "canonical:b_cell"
+    },
+    {
+      "role_id": "antibody",
+      "asset_id": "canonical:antibody"
+    },
+    {
+      "role_id": "memory_b",
+      "asset_id": "canonical:memory_b"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n16:9横版科学机制图。左侧展示疫苗抗原进入机体，中央为B细胞识别抗原并活化，右侧展示浆细胞分泌抗体及记忆B细胞的形成。整体布局从左至右呈现因果流程，背景简洁无干扰元素，确保三个核心步骤清晰可见且逻辑连贯。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 疫苗抗原被免疫细胞识别；2. B细胞产生抗体；3. 形成免疫记忆\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：疫苗抗原、免疫识别、B细胞活化、抗体分泌、免疫记忆\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是完整细胞 IP 角色总表；只从中提取并使用命中的固定角色（抗原、B 细胞、抗体、记忆 B 细胞），保持其颜色、轮廓、面部和专属道具与表中完全一致；不得使用表中其余角色，也不得复制其中的文字、事件或构图\n- 本题命中的固定角色：抗原、B 细胞、抗体、记忆 B 细胞\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 记忆 B 细胞：浅紫圆体、眼镜、学士帽、绿色书本\n【角色总表选取】（仅当参考图为完整角色总表时启用）\n- 图1 是完整细胞 IP 角色总表。画面所需固定角色必须逐个从该表中找到并原样使用，颜色、轮廓、面部、专属道具与装饰一律以表中为准：\n- 抗原：紫色圆刺团，表情可警觉\n- B 细胞：蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体\n- 抗体：浅蓝色 Y 形、紫色端点、小手和表情\n- 记忆 B 细胞：浅紫圆体、眼镜、学士帽、绿色书本\n- 只在总表中提取命中的角色：抗原、B 细胞、抗体、记忆 B 细胞；忽略并不得使用表中其余角色，也不得新增表中不存在的固定角色。\n- 未收录的必要细胞：部分分化后的细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "aspect_ratio": "16:9",
+  "image_id": "8003f4beaa0a-v0",
+  "trusted_image": "8003f4beaa0a-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "pass",
+    "summary": "图1作为机制流程图，准确且清晰地展示了用户要求的免疫记忆形成步骤。角色设计（紫色抗原、蓝色B细胞、浅蓝抗体、戴学士帽的记忆B细胞）与IP参考图高度一致，道具细节（如B细胞手中的Y形抗体）还原准确。流程顺序（抗原→识别/活化→抗体分泌→记忆B细胞）逻辑正确，箭头指向清晰，中文标签可读且符合科学术语规范。图2作为角色参考表，元素齐全，文字清晰。整体内容完全符合审核契约要求。",
+    "recommended_action": "accept",
+    "auto_fixable": false,
+    "human_input_required": false,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "pass",
+        "evidence": "所有核心角色（抗原、B细胞、抗体、记忆B细胞）的视觉特征（颜色、形状、配饰）在两张图中保持一致且清晰可辨。",
+        "confidence": 1.0
+      },
+      "text_legibility": {
+        "status": "pass",
+        "evidence": "图1中的关键流程标签（疫苗抗原、免疫识别、B细胞活化、抗体分泌、免疫记忆）字体清晰，无乱码或模糊。",
+        "confidence": 1.0
+      },
+      "layout_hierarchy": {
+        "status": "pass",
+        "evidence": "图1采用从左至右的线性流程图布局，配合明确的黑色箭头，步骤顺序一目了然，符合机制图解的层级要求。",
+        "confidence": 1.0
+      },
+      "brief_alignment": {
+        "status": "pass",
+        "evidence": "图片内容完整覆盖了用户要求的三个核心步骤：抗原识别、B细胞产抗体、形成免疫记忆，且使用了指定的中文术语。",
+        "confidence": 1.0
+      },
+      "causal_step_coverage": {
+        "status": "pass",
+        "evidence": "因果链可视化完整：抗原指向B细胞（标注识别/活化），B细胞指向抗体（标注分泌），抗体指向记忆B细胞（隐含记忆形成），逻辑闭环。",
+        "confidence": 1.0
+      },
+      "scientific_expression_risk": {
+        "status": "pass",
+        "evidence": "虽然使用了卡通形象，但关键生物学实体（B细胞、抗体、记忆细胞）及其功能关系表达准确，符合科普机制图的表达规范。",
+        "confidence": 1.0
+      }
+    },
+    "issues": []
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-31T04:51:36.909348+00:00",
+  "finished_at": "2026-08-31T04:52:18.348333+00:00",
+  "stage": "completed",
+  "error": null,
+  "trace_id": "3610987ff117",
+  "trace_events": [
+    {
+      "id": "3610987ff117-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-31T04:51:36.909348Z"
+    },
+    {
+      "id": "3610987ff117-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：A scientific mechanism diagram illustrating the formation of immune memory after vaccination. The scene is a clean, white background with a horizontal flow from left to right. Ste…",
+      "status": "completed",
+      "created_at": "2026-08-31T04:51:36.909348Z"
+    },
+    {
+      "id": "3610987ff117-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-31T04:51:41.727872Z"
+    },
+    {
+      "id": "3610987ff117-4",
+      "stage": "visual_critic",
+      "title": "视觉审查完成",
+      "detail": "没有发现需要继续修正的明显问题。",
+      "status": "completed",
+      "created_at": "2026-08-31T04:51:56.367195Z"
+    },
+    {
+      "id": "3610987ff117-5",
+      "stage": "completed",
+      "title": "图解已准备完成",
+      "detail": "最终图片已生成。",
+      "status": "completed",
+      "created_at": "2026-08-31T04:52:18.348333Z"
+    }
+  ],
+  "trace_history": []
+}

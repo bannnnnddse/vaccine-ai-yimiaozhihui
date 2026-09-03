@@ -1,0 +1,57 @@
+{
+  "chunk_id": "bf8a18939954af239bef8afd38f848e64896aaf1eb380ff73f48138250b9fe95",
+  "content_hash": "ba5827cfac7deaaae6070cccaf00fb00c24bd914901bcb4b61440e2e3cdbe91b",
+  "entities": [
+    {
+      "canonical_name": "Anti-mouse CSF1R mAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti-mouse CSF1R mAb",
+      "chunk_id": "bf8a18939954af239bef8afd38f848e64896aaf1eb380ff73f48138250b9fe95"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "bf8a18939954af239bef8afd38f848e64896aaf1eb380ff73f48138250b9fe95"
+    },
+    {
+      "canonical_name": "anti-CSF1R",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-CSF1R",
+      "chunk_id": "bf8a18939954af239bef8afd38f848e64896aaf1eb380ff73f48138250b9fe95"
+    },
+    {
+      "canonical_name": "Anti-mouse CD40L mAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti-mouse CD40L mAb",
+      "chunk_id": "bf8a18939954af239bef8afd38f848e64896aaf1eb380ff73f48138250b9fe95"
+    },
+    {
+      "canonical_name": "anti-CD40L",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti-CD40L",
+      "chunk_id": "bf8a18939954af239bef8afd38f848e64896aaf1eb380ff73f48138250b9fe95"
+    },
+    {
+      "canonical_name": "polyclonal Armenian hamster IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "polyclonal Armenian hamster IgG",
+      "chunk_id": "bf8a18939954af239bef8afd38f848e64896aaf1eb380ff73f48138250b9fe95"
+    },
+    {
+      "canonical_name": "antimouse CXCR3 mAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antimouse CXCR3 mAb",
+      "chunk_id": "bf8a18939954af239bef8afd38f848e64896aaf1eb380ff73f48138250b9fe95"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

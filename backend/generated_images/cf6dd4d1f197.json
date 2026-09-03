@@ -1,0 +1,393 @@
+{
+  "job_id": "cf6dd4d1f197",
+  "prompt": "生成一张免疫机制图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [
+      "antigen"
+    ],
+    "scene_direction": "画面为9:16竖版科学机制图。背景为纯白或极浅的灰色网格，确保高对比度。主体展示免疫识别过程：左侧为抗原呈递细胞（APC），表面展示MHC分子复合物；右侧为T细胞，其TCR受体与APC表面的MHC-抗原复合物结合。中间由粗箭头连接，表示信号传递方向。顶部居中放置简短标题。底部按步骤排列编号圆圈和对应文字标签。整体风格严谨、扁平化、矢量插画风格，无多余装饰。",
+    "optimized_chinese_prompt": "一张垂直构图的科学机制图解，展示适应性免疫中的抗原呈递过程。左侧是一个大尺寸的抗原呈递细胞（如树突状细胞），其细胞膜上清晰画出MHC II类分子负载着肽段抗原。右侧是一个较小的T细胞，其表面的T细胞受体（TCR）正与左侧的MHC-抗原复合物特异性结合。两者之间有一个醒目的双向箭头或单向流程箭头，指示相互作用。图像采用扁平化矢量风格，色彩区分不同细胞类型（例如APC为橙色系，T细胞为蓝色系）。画面布局整洁，上方有主标题区域，下方有分步说明区域。高分辨率，清晰的线条，科学插图风格。",
+    "chinese_labels": [
+      "抗原呈递细胞 (APC)",
+      "MHC-II/抗原复合物",
+      "T细胞",
+      "T细胞受体 (TCR)",
+      "免疫突触形成"
+    ],
+    "scientific_claims": [
+      "抗原呈递细胞摄取并处理外源性抗原。",
+      "处理后的抗原肽段被装载到MHC II类分子上。",
+      "MHC-抗原复合物呈递于细胞表面供T细胞识别。",
+      "T细胞受体特异性识别MHC-抗原复合物以启动免疫应答。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "抗原呈递细胞处理并加载抗原至MHC分子"
+      },
+      {
+        "primary_relation": "MHC-抗原复合物在细胞表面稳定呈递"
+      },
+      {
+        "primary_relation": "T细胞通过TCR识别并结合MHC-抗原复合物"
+      }
+    ],
+    "route_reason": "用户请求生成免疫机制图，涉及细胞间相互作用（APC与T细胞）及分子识别（MHC与TCR），属于典型的细胞/分子相关主题且包含明确的因果步骤，符合cell_ip_scientific的定义。但鉴于要求输出严格JSON且通常机制图更适合结构化展示，这里选择scientific_diagram作为视觉配置以确保逻辑清晰和标签可读性，同时严格遵守简体中文要求。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [
+    "antigen"
+  ],
+  "cell_ip_unmatched_cell_terms": [
+    "T细胞",
+    "表面供T细胞"
+  ],
+  "cell_ip_label_layout": {
+    "anchors": [
+      {
+        "role_id": "antigen",
+        "role_bbox": [
+          0.17,
+          0.46,
+          0.39,
+          0.68
+        ],
+        "label_bbox": [
+          0.2451120648545541,
+          0.4124124124124124,
+          0.3137815927515498,
+          0.44844844844844844
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "steps": [
+      {
+        "step_index": 1,
+        "step_bbox": [
+          0.15,
+          0.05,
+          0.92,
+          0.25
+        ],
+        "number_bbox": [
+          0.16070577014783025,
+          0.06106106106106106,
+          0.21268478779208394,
+          0.11561561561561562
+        ],
+        "confidence": 0.9
+      },
+      {
+        "step_index": 2,
+        "step_bbox": [
+          0.35,
+          0.45,
+          0.65,
+          0.55
+        ],
+        "number_bbox": [
+          0.3605150214592275,
+          0.46146146146146144,
+          0.41249403910348115,
+          0.516016016016016
+        ],
+        "confidence": 0.9
+      },
+      {
+        "step_index": 3,
+        "step_bbox": [
+          0.45,
+          0.7,
+          0.65,
+          0.8
+        ],
+        "number_bbox": [
+          0.46065808297567956,
+          0.7112112112112112,
+          0.5126371006199333,
+          0.7657657657657657
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "cell_ip_expected_text": [
+    "抗原",
+    "1",
+    "2",
+    "3"
+  ],
+  "cell_ip_text_source": "manifest_programmatic",
+  "cell_ip_base_visual_text_audit": {
+    "status": "clear",
+    "has_visible_text": true,
+    "summary": "该图展示了抗原呈递细胞（APC）与T细胞的相互作用。左侧为APC，内部含有病毒状抗原，表面通过MHC受体展示抗原；右侧为T细胞。箭头指示了两者之间的识别与信号传递过程，底部标注有“MHC 受体”和“T细胞”。",
+    "text_blocks": [
+      {
+        "text": "APC",
+        "bbox": [
+          0.05,
+          0.06,
+          0.38,
+          0.14
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "T细胞",
+        "bbox": [
+          0.62,
+          0.13,
+          0.92,
+          0.23
+        ],
+        "confidence": 0.99,
+        "defective": false
+      },
+      {
+        "text": "MHC 受体",
+        "bbox": [
+          0.07,
+          0.85,
+          0.48,
+          0.95
+        ],
+        "confidence": 0.98,
+        "defective": false
+      },
+      {
+        "text": "T细胞",
+        "bbox": [
+          0.62,
+          0.83,
+          0.88,
+          0.93
+        ],
+        "confidence": 0.99,
+        "defective": false
+      }
+    ]
+  },
+  "reference_assets": [
+    "canonical:antigen"
+  ],
+  "reference_assets_actually_sent": [
+    "canonical:antigen"
+  ],
+  "locked_ip_contracts": [
+    {
+      "role_id": "antigen",
+      "asset_id": "canonical:antigen"
+    }
+  ],
+  "final_compiled_prompt": "请生成一张 16:9 的无字科学插画：画面中绝对不出现任何\n文字、字母、数字、伪文字或文字形状；角色名、底标、标题和步骤编号全部由程序在生成后绘制。\n\n【仅场景与构图指令】\n画面为9:16竖版科学机制图。背景为纯白或极浅的灰色网格。确保高对比度。主体展示免疫识别过程：左侧为抗原呈递细胞（APC）。表面展示MHC分子复合物。右侧为T细胞。其TCR受体与APC表面的MHC-抗原复合物结合。中间由粗箭头连接。表示信号传递方向。整体风格严谨、扁平化、矢量插画风格。无多余装饰。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 抗原呈递细胞处理并加载抗原至MHC分子；2. MHC-抗原复合物在细胞表面稳定呈递；3. T细胞通过TCR识别并结合MHC-抗原复合物\n- 禁止生成任何可读文字、字母、数字、伪文字或文字形状。每个命中的固定角色至少保留一次轮廓完整、彼此不遮挡的代表性出场，并在角色四周保留适量自然留白；不要生成底标框，角色名称与圆角底标全部由程序根据角色位置绘制\n- 科学关系中的英文缩写（如 MHC、TCR、PAMP）也必须画成图形元素或完全省略，\n  绝不能作为文字、注释或装饰性字母写进画面\n- 程序稍后写入的规范角色名称为：抗原；这些名称只用于确定程序底标数量和宽度，\n  你不得在画面中书写、临摹或生成其中任何字符\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1是 抗原 的独立 canonical 身份参考；必须保持其颜色、轮廓、面部和专属道具完全一致，不得重新设计；不得复制其中的文字、事件或构图\n- 本题命中的固定角色：抗原\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 抗原：紫色圆刺团，表情可警觉\n\n- 未收录的必要细胞：T细胞、表面供T细胞。它们没有独立资产，应沿用与角色总表一致的整体\n  扁平手绘画风（圆润或生物学可辨识的轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂），\n  但不得使用任何固定角色的专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，使用分区、无字箭头和流程结构；为程序后续写入步骤编号保留自然位置；每条关系必须有明确主体、方向和结果。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：禁止标题；角色名和必要步骤编号由程序在生成后确定性绘制\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、任何文字字母数字或伪文字\n- 科学关系的完整性、箭头方向和角色身份优先于装饰风格；不得为了套用IP而删减关系\n\n【信息密度与完整性契约】\n复杂度等级：详细机制图。至少设置 4 个信息分区、8 个可辨视觉节点、4 条有方向的箭头或连接，并清楚呈现不少于 3 个核心步骤；为程序后续写入步骤编号保留自然位置；不生成标题或任何文字。\n核心图形主体应覆盖约 70% 的有效画布，避免主体缩成一小排并留下大片空白；整张图不得出现任何文字、字母、数字、伪文字或文字形状；标签、标题与步骤编号全部由程序在生成后绘制，你只提供无字画面。同一核心细胞或抗原角色应在不同步骤中重复出现，用姿态、位置和状态变化表达过程；优先用细胞角色、抗原/抗体图形、箭头和状态图标表达，不要用句子或段落替代画面。\n这些数量只可通过同一核心因果链的起点、过程、结果、状态变化、分区和箭头来实现；不得为满足复杂度而新增未经支持的实体、医学机制、数据或结论。\n\n最后重申：这张图必须完全无字——不能出现标题、标签、步骤编号、字母、数字、伪文字或任何文字形状；\n一切文字均由程序在生成后确定性绘制。\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "visual_complexity_contract": {
+    "tier": "详细机制图",
+    "minimum_information_zones": 4,
+    "minimum_visual_nodes": 8,
+    "minimum_directional_connectors": 4,
+    "minimum_labeled_steps": 3,
+    "requires_numbered_steps": true,
+    "requires_title": false,
+    "minimum_subject_coverage_percent": 70,
+    "maximum_text_labels": 4,
+    "repeat_core_subjects_across_steps": true
+  },
+  "aspect_ratio": "16:9",
+  "cell_ip_failure_reason": null,
+  "image_id": "cf6dd4d1f197-v0",
+  "trusted_image": "cf6dd4d1f197-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "图像存在严重的文字违规和科学标签错误。1. 文字违规：程序契约明确禁止出现标题、字母和额外底标，但画面中出现了“APC”、“MHC 受体”以及重复的“T细胞”标签（共7个文本块），超出了允许的“抗原、1、2、3”范围。2. 标签错误：底部的“MHC 受体”指向了细胞表面的黄色受体结构，但在免疫机制中，结合并呈递抗原的是MHC分子，受体通常指T细胞上的TCR，此处标签具有误导性且不符合核心因果链描述。3. 布局问题：虽然信息密度尚可，但多余的文字破坏了图解的简洁性。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "audit_checks": {
+      "visual_integrity": {
+        "status": "pass",
+        "evidence": "角色轮廓清晰，抗原（紫色刺团）与T细胞的视觉特征一致，无明显的生成伪影或解剖结构崩坏。",
+        "confidence": 0.95
+      },
+      "text_legibility": {
+        "status": "issue",
+        "evidence": "可见文字包括'1 APC', 'T细胞', '抗原', '2', '3', 'MHC 受体'。其中'APC'和'MHC 受体'属于未授权文字，且'T细胞'标签重复出现，违反了程序允许的文字多重集契约。",
+        "confidence": 1.0
+      },
+      "layout_hierarchy": {
+        "status": "pass",
+        "evidence": "画面分为左右两大主体及底部标注区，符合至少4个信息分区的要求。主体覆盖约70%画布，步骤编号1-3引导了阅读顺序。",
+        "confidence": 0.9
+      },
+      "brief_alignment": {
+        "status": "issue",
+        "evidence": "核心流程（抗原处理、呈递、识别）通过图形表达基本准确，但附加了非必要的文字标签（APC, MHC 受体），导致画面内容超出‘详细机制图’对文字密度的限制，且引入了可能引起歧义的术语。",
+        "confidence": 0.85
+      },
+      "causal_step_coverage": {
+        "status": "pass",
+        "evidence": "步骤1展示了APC内部抗原加载，步骤2展示了表面复合物，步骤3展示了与T细胞的交互方向。视觉因果链完整。",
+        "confidence": 0.92
+      },
+      "scientific_expression_risk": {
+        "status": "issue",
+        "evidence": "底部标签‘MHC 受体’指向APC表面的黄色结构是不准确的（应为MHC分子或抗原-MHC复合物），且‘APC’作为英文缩写出现在中文语境图解中，不符合纯中文或特定标签的规范要求。",
+        "confidence": 0.9
+      }
+    },
+    "blind_text_audit": {
+      "status": "clear",
+      "has_visible_text": true,
+      "summary": "A cartoon diagram illustrating the interaction between an Antigen-Presenting Cell (APC) and a T cell. The APC contains an angry virus-like antigen and displays MHC receptors. Arrows indicate signaling steps labeled 1, 2, and 3 between the cells and their components.",
+      "text_blocks": [
+        {
+          "text": "1 APC",
+          "bbox": null,
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "T细胞",
+          "bbox": null,
+          "confidence": 0.98,
+          "defective": false
+        },
+        {
+          "text": "抗原",
+          "bbox": null,
+          "confidence": 0.97,
+          "defective": false
+        },
+        {
+          "text": "2",
+          "bbox": null,
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "3",
+          "bbox": null,
+          "confidence": 0.99,
+          "defective": false
+        },
+        {
+          "text": "MHC 受体",
+          "bbox": null,
+          "confidence": 0.96,
+          "defective": false
+        },
+        {
+          "text": "T细胞",
+          "bbox": null,
+          "confidence": 0.98,
+          "defective": false
+        }
+      ]
+    },
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "违反文字可见性契约。画面中出现了未授权的文本标签：'APC'（英文缩写）、'MHC 受体'（中文术语）。程序仅允许‘抗原、1、2、3’出现。此外，'T细胞'标签重复出现。",
+        "bbox": [
+          0.15,
+          0.05,
+          0.35,
+          0.15
+        ],
+        "observed_text": "1 APC",
+        "replacement_text": "移除 'APC'，仅保留数字编号 '1' 或根据契约删除该区域文字。",
+        "confidence": 1.0,
+        "suggested_fix": "必须移除所有非契约允许的文字（APC, MHC 受体, 第二个T细胞）。若需标识细胞类型，应依靠视觉特征（如颜色、形状）而非文字标签。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "scientific_expression",
+        "severity": "medium",
+        "description": "潜在科学表达风险（当前未接入证据核验）：科学标签准确性风险。底部文字‘MHC 受体’指向APC表面的分子结构。在免疫学中，APC表面展示抗原的是MHC分子，‘受体’一词通常用于描述T细胞表面的TCR。该标签容易造成概念混淆。",
+        "bbox": [
+          0.05,
+          0.85,
+          0.45,
+          0.95
+        ],
+        "observed_text": "MHC 受体",
+        "replacement_text": "建议移除该文字标签，或修正为‘MHC分子’（如果契约允许更多文字）。鉴于文字契约严格，建议直接移除。",
+        "confidence": 0.9,
+        "suggested_fix": "移除‘MHC 受体’标签。该结构已通过位置和形态（连接抗原）暗示其功能，无需额外易错标签。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-09-01T13:18:09.455136+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "92bbef12eb77",
+  "trace_events": [
+    {
+      "id": "92bbef12eb77-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:18:09.455136Z"
+    },
+    {
+      "id": "92bbef12eb77-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：一张垂直构图的科学机制图解，展示适应性免疫中的抗原呈递过程。左侧是一个大尺寸的抗原呈递细胞（如树突状细胞），其细胞膜上清晰画出MHC II类分子负载着肽段抗原。右侧是一个较小的T细胞，其表面的T细胞受体（TCR）正与左侧的MHC-抗原复合物特异性结合。两者之间有一个醒目的双向箭头或单向流程箭头，指示相互作用。图像采用扁平化矢量风格，色彩区分不同细胞类型（例… 详细机制图：至少 4 个信息分区、8 个可辨视觉节点、4 条方向连接。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:18:09.455136Z"
+    },
+    {
+      "id": "92bbef12eb77-3",
+      "stage": "generation",
+      "title": "细胞场景已生成",
+      "detail": "正在检查底图文字并定位角色，随后写入规范底标和步骤编号。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:18:24.195017Z"
+    },
+    {
+      "id": "92bbef12eb77-4",
+      "stage": "visual_critic",
+      "title": "底图文字检查与角色定位完成",
+      "detail": "角色框和流程分区已定位；规范名称与步骤编号已由程序绘制。",
+      "status": "completed",
+      "created_at": "2026-09-01T13:18:35.711059Z"
+    },
+    {
+      "id": "92bbef12eb77-5",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "图像存在严重的文字违规和科学标签错误。1. 文字违规：程序契约明确禁止出现标题、字母和额外底标，但画面中出现了“APC”、“MHC 受体”以及重复的“T细胞”标签（共7个文本块），超出了允许的“抗原、1、2、3”范围。2. 标签错误：底部的“MHC 受体”指向了细胞表面的黄色受体结构，但在免疫机制中，结合并呈递抗原的是MHC分子，受体通常指T细胞上的TCR，此处标签具有误导性且不符合核心因果链描述。3. 布局问题：虽然信息密度尚可，但多余的文字破坏了图解的简洁性。",
+      "status": "warning",
+      "created_at": "2026-09-01T13:18:51.665140Z"
+    },
+    {
+      "id": "92bbef12eb77-6",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-09-01T13:19:20.749088Z"
+    }
+  ],
+  "trace_history": []
+}

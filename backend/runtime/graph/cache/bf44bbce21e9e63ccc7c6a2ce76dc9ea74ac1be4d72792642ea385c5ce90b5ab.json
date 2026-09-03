@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_d438dea27cd1ad2dca933b901cbdad7b",
+  "content_hash": "093fb52987d57ab110b7e8ae1571fba0aa1c4b8dd1e07f7fcadeacaa95407822",
+  "entities": [
+    {
+      "canonical_name": "20-valent pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "20-valent pneumococcal conjugate vaccine",
+      "chunk_id": "chk_d438dea27cd1ad2dca933b901cbdad7b"
+    },
+    {
+      "canonical_name": "healthy adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "healthy adults",
+      "chunk_id": "chk_d438dea27cd1ad2dca933b901cbdad7b"
+    },
+    {
+      "canonical_name": "20-valent pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "20-valent pneumococcal conjugate vaccine",
+      "chunk_id": "chk_d438dea27cd1ad2dca933b901cbdad7b"
+    },
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_d438dea27cd1ad2dca933b901cbdad7b"
+    },
+    {
+      "canonical_name": "adults 60 to 64 years of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults 60 to 64 years of age",
+      "chunk_id": "chk_d438dea27cd1ad2dca933b901cbdad7b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

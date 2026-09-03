@@ -1,0 +1,33 @@
+{
+  "chunk_id": "chk_afc9da569c086060d703e2a7278da2af",
+  "content_hash": "072acb15a7256acc1b29ecd794d6638d84b2097d687ff6c5b257c92019b24797",
+  "entities": [
+    {
+      "canonical_name": "S. pneumoniae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "S. pneumoniae",
+      "chunk_id": "chk_afc9da569c086060d703e2a7278da2af"
+    },
+    {
+      "canonical_name": "antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibodies",
+      "chunk_id": "chk_afc9da569c086060d703e2a7278da2af"
+    },
+    {
+      "canonical_name": "T H cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T H cells",
+      "chunk_id": "chk_afc9da569c086060d703e2a7278da2af"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "unknown_endpoint"
+  ]
+}

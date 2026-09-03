@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e5d1736f7bab96be4b369464eaa1d1d3",
+  "content_hash": "23a758270ceb328f156d0ac77aa6fdc7786c6d8be214253b5d8556527dbc8506",
+  "entities": [
+    {
+      "canonical_name": "infant population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant population",
+      "chunk_id": "chk_e5d1736f7bab96be4b369464eaa1d1d3"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_e5d1736f7bab96be4b369464eaa1d1d3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

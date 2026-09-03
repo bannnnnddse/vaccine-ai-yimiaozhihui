@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_04693fa2b28849c97e10ba6583177ab0",
+  "content_hash": "c121fa532fffdbb2bf016345254473007c8fd3115701f8ffaf7d524d8f2e7e6c",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_04693fa2b28849c97e10ba6583177ab0"
+    },
+    {
+      "canonical_name": "RV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RV vaccine",
+      "chunk_id": "chk_04693fa2b28849c97e10ba6583177ab0"
+    },
+    {
+      "canonical_name": "DTPCV4",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DTPCV4",
+      "chunk_id": "chk_04693fa2b28849c97e10ba6583177ab0"
+    },
+    {
+      "canonical_name": "HepB-BD",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB-BD",
+      "chunk_id": "chk_04693fa2b28849c97e10ba6583177ab0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

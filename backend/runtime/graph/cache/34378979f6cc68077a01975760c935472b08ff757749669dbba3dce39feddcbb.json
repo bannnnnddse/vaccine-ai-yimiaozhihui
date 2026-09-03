@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_4448823ec59289e7866b62b7cc56ba71",
+  "content_hash": "d5580dc8993e6f444dece83a110e327b790219d7dfb110c9b890b03c696e33b4",
+  "entities": [
+    {
+      "canonical_name": "self-antigen Sm/RNP",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "self-antigen Sm/RNP",
+      "chunk_id": "chk_4448823ec59289e7866b62b7cc56ba71"
+    },
+    {
+      "canonical_name": "autoreactive B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "autoreactive B cell",
+      "chunk_id": "chk_4448823ec59289e7866b62b7cc56ba71"
+    },
+    {
+      "canonical_name": "SHP1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SHP1",
+      "chunk_id": "chk_4448823ec59289e7866b62b7cc56ba71"
+    },
+    {
+      "canonical_name": "BCR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "BCR",
+      "chunk_id": "chk_4448823ec59289e7866b62b7cc56ba71"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

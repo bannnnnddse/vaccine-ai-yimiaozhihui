@@ -1,0 +1,29 @@
+{
+  "chunk_id": "b1ebcb8e6b20b2f0ee1ddeafdcb1728e124783709db30a314f8180e55a4c7e42",
+  "content_hash": "5512c138a2bd63578650b30e88fb898da218d3251880f51216578aa47cbfa438",
+  "entities": [
+    {
+      "canonical_name": "AEFI",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFI",
+      "chunk_id": "b1ebcb8e6b20b2f0ee1ddeafdcb1728e124783709db30a314f8180e55a4c7e42"
+    },
+    {
+      "canonical_name": "VITT",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "VITT",
+      "chunk_id": "b1ebcb8e6b20b2f0ee1ddeafdcb1728e124783709db30a314f8180e55a4c7e42"
+    },
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "b1ebcb8e6b20b2f0ee1ddeafdcb1728e124783709db30a314f8180e55a4c7e42"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,47 @@
+{
+  "chunk_id": "chk_b28d49d4969a6eca569f7ba539f3a9ff",
+  "content_hash": "8d909d6f6d6770000a4097f7a538baa9767c0f8e79722fd57280aee0651602bf",
+  "entities": [
+    {
+      "canonical_name": "general population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general population",
+      "chunk_id": "chk_b28d49d4969a6eca569f7ba539f3a9ff"
+    },
+    {
+      "canonical_name": "cardiovascular diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cardiovascular diseases",
+      "chunk_id": "chk_b28d49d4969a6eca569f7ba539f3a9ff"
+    },
+    {
+      "canonical_name": "type 2 diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "type 2 diabetes",
+      "chunk_id": "chk_b28d49d4969a6eca569f7ba539f3a9ff"
+    },
+    {
+      "canonical_name": "respiratory tract diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "respiratory tract diseases",
+      "chunk_id": "chk_b28d49d4969a6eca569f7ba539f3a9ff"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_b28d49d4969a6eca569f7ba539f3a9ff"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

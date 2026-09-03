@@ -1,0 +1,17 @@
+{
+  "chunk_catalog_hash": "97dc021ff202e738311afc8d154492f9ff8897a26c71a05ec1eef884e26001d6",
+  "chunks_seen": 15946,
+  "chunks_without_explicit_relations": 15943,
+  "created_at": "2026-08-20T01:19:41.590242+00:00",
+  "edge_count": 3,
+  "extraction_rules_version": "vaccine_rules_v1",
+  "files": {
+    "edges.json": "ea0b531f34e7a02d4254f242dfcf732a1f2fe76006e719feff7165f0cf2f2393",
+    "nodes.json": "fe6b9d25c22d8f344b8823c88ee9968781233b4f329d2fc2ec26615c616fb551",
+    "provenance.json": "9a4ed4b3ead6543370d200dae4d39a6193451542c06e80fa3e7e4fa06450b03c"
+  },
+  "index_version": "rag-v2-20260816T053040487541Z-32af4353",
+  "node_count": 4,
+  "provenance_count": 3,
+  "schema_version": "vaccine_graph_v1"
+}

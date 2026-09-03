@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_665d2cd2dd8591802e8eef8277cea767",
+  "content_hash": "93028064ca5c7012612ebdf44941a31c4de93f52dcf134db29218f618879ecba",
+  "entities": [
+    {
+      "canonical_name": "ChAd vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "ChAd vaccine",
+      "chunk_id": "chk_665d2cd2dd8591802e8eef8277cea767"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_665d2cd2dd8591802e8eef8277cea767"
+    },
+    {
+      "canonical_name": "rhesus macaques",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "rhesus macaques",
+      "chunk_id": "chk_665d2cd2dd8591802e8eef8277cea767"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

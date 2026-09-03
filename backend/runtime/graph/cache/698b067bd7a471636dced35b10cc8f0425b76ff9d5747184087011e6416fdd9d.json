@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_5cded10a1cfb48aa8a91717a952d8eba",
+  "content_hash": "26a0d7ae4b32f96f2d95d3d8c7b0dfd72cd709cb6b869969fed23a238ee8cc92",
+  "entities": [
+    {
+      "canonical_name": "Influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Influenza",
+      "chunk_id": "chk_5cded10a1cfb48aa8a91717a952d8eba"
+    },
+    {
+      "canonical_name": "chronic hyperglycemia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic hyperglycemia",
+      "chunk_id": "chk_5cded10a1cfb48aa8a91717a952d8eba"
+    },
+    {
+      "canonical_name": "diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diabetes",
+      "chunk_id": "chk_5cded10a1cfb48aa8a91717a952d8eba"
+    },
+    {
+      "canonical_name": "influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus",
+      "chunk_id": "chk_5cded10a1cfb48aa8a91717a952d8eba"
+    },
+    {
+      "canonical_name": "Influenza complications",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Influenza complications",
+      "chunk_id": "chk_5cded10a1cfb48aa8a91717a952d8eba"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

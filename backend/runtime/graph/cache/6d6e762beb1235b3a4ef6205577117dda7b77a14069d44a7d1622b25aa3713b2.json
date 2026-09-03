@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_ec062abe8529356067c7b0110825fc88",
+  "content_hash": "d93e9a869bb7a8ebc4b203c4e62539b54ef14267ac61b08d85e3480ee01ee7a4",
+  "entities": [
+    {
+      "canonical_name": "natural killer cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "natural killer cells",
+      "chunk_id": "chk_ec062abe8529356067c7b0110825fc88"
+    },
+    {
+      "canonical_name": "nonmucosal mononuclear phagocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "nonmucosal mononuclear phagocytes",
+      "chunk_id": "chk_ec062abe8529356067c7b0110825fc88"
+    },
+    {
+      "canonical_name": "sepsis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "sepsis",
+      "chunk_id": "chk_ec062abe8529356067c7b0110825fc88"
+    },
+    {
+      "canonical_name": "post-septic immunosuppression",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "post-septic immunosuppression",
+      "chunk_id": "chk_ec062abe8529356067c7b0110825fc88"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

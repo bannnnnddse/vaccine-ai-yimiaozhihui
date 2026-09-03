@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_baaf6244cd78b5dda60395383167f973",
+  "content_hash": "5885e08eceefe353ba13954ac27d49244c3a7ed9aa36e47276f7e550c9ed32c6",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_baaf6244cd78b5dda60395383167f973"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "new_entity_type_lexical_mismatch",
+    "entity_surface_missing",
+    "new_entity_canonical_not_surface",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation"
+  ]
+}

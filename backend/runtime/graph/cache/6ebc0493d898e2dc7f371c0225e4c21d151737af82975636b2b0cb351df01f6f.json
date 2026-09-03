@@ -1,0 +1,29 @@
+{
+  "chunk_id": "bd5dbff45a4acc2a3acaefb47da2e46b1f3f476aaf0aa175e7ed92bd9554bf88",
+  "content_hash": "f48fe1c0ee2f3bee9ec5dec8b6a5d24a34474e83b04ec5d224882a7c83d16ae7",
+  "entities": [
+    {
+      "canonical_name": "HEL 3X -OVA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HEL 3X -OVA",
+      "chunk_id": "bd5dbff45a4acc2a3acaefb47da2e46b1f3f476aaf0aa175e7ed92bd9554bf88"
+    },
+    {
+      "canonical_name": "HEL-gp61",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HEL-gp61",
+      "chunk_id": "bd5dbff45a4acc2a3acaefb47da2e46b1f3f476aaf0aa175e7ed92bd9554bf88"
+    },
+    {
+      "canonical_name": "HEL-OVA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HEL-OVA",
+      "chunk_id": "bd5dbff45a4acc2a3acaefb47da2e46b1f3f476aaf0aa175e7ed92bd9554bf88"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

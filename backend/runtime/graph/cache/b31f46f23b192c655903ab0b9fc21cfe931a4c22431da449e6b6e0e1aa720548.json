@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_05b337683839a4627fa7da3d18491a97",
+  "content_hash": "92a85be5e374d6294ea3987d51e2f456ee81a9352a1436fdc38845fc51a8a68d",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_05b337683839a4627fa7da3d18491a97"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "chk_05b337683839a4627fa7da3d18491a97"
+    },
+    {
+      "canonical_name": "RBMRNA-176",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-176",
+      "chunk_id": "chk_05b337683839a4627fa7da3d18491a97"
+    },
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "chk_05b337683839a4627fa7da3d18491a97"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 Delta",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Delta",
+      "chunk_id": "chk_05b337683839a4627fa7da3d18491a97"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

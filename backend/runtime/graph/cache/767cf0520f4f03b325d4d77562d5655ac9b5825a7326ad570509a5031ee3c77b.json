@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_c09c46bfd025d7b7dad01e8e15bf23ee",
+  "content_hash": "21c3ced10df090e97c26d0909945344ac49a0ac455f6c21115a306e9a31cb60a",
+  "entities": [
+    {
+      "canonical_name": "pneumococcal polysaccharide vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal polysaccharide vaccine",
+      "chunk_id": "chk_c09c46bfd025d7b7dad01e8e15bf23ee"
+    },
+    {
+      "canonical_name": "at-risk populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "at-risk populations",
+      "chunk_id": "chk_c09c46bfd025d7b7dad01e8e15bf23ee"
+    },
+    {
+      "canonical_name": "chronic diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic diseases",
+      "chunk_id": "chk_c09c46bfd025d7b7dad01e8e15bf23ee"
+    },
+    {
+      "canonical_name": "Italian children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Italian children",
+      "chunk_id": "chk_c09c46bfd025d7b7dad01e8e15bf23ee"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

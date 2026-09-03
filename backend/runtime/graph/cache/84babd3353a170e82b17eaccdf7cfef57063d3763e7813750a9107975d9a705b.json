@@ -1,0 +1,56 @@
+{
+  "chunk_id": "chk_e6b81a05e9ecae87f6f42f0119344a0e",
+  "content_hash": "b729e88e7511969e2b1670af98c4fb7f138820cc26b5f83ddb741d646f1d98b0",
+  "entities": [
+    {
+      "canonical_name": "Invasive meningococcal disease (IMD)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Invasive meningococcal disease (IMD)",
+      "chunk_id": "chk_e6b81a05e9ecae87f6f42f0119344a0e"
+    },
+    {
+      "canonical_name": "Neisseria meningitidis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Neisseria meningitidis",
+      "chunk_id": "chk_e6b81a05e9ecae87f6f42f0119344a0e"
+    },
+    {
+      "canonical_name": "meningitis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "meningitis",
+      "chunk_id": "chk_e6b81a05e9ecae87f6f42f0119344a0e"
+    },
+    {
+      "canonical_name": "septicemia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "septicemia",
+      "chunk_id": "chk_e6b81a05e9ecae87f6f42f0119344a0e"
+    },
+    {
+      "canonical_name": "unconsciousness",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "unconsciousness",
+      "chunk_id": "chk_e6b81a05e9ecae87f6f42f0119344a0e"
+    },
+    {
+      "canonical_name": "death",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "death",
+      "chunk_id": "chk_e6b81a05e9ecae87f6f42f0119344a0e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "quote_missing",
+    "quote_missing",
+    "quote_missing",
+    "quote_missing"
+  ]
+}

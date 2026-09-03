@@ -1,0 +1,67 @@
+{
+  "chunk_id": "314aad959892de0ef5ef5bbd536263e790afa16093998b3e6cdd0982930789c5",
+  "content_hash": "827502c1356efcef76db87d27bd4c087b239ef8d5e79bf0d829932737ad90370",
+  "entities": [
+    {
+      "canonical_name": "IgG1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG1",
+      "chunk_id": "314aad959892de0ef5ef5bbd536263e790afa16093998b3e6cdd0982930789c5"
+    },
+    {
+      "canonical_name": "IgG2a",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG2a",
+      "chunk_id": "314aad959892de0ef5ef5bbd536263e790afa16093998b3e6cdd0982930789c5"
+    },
+    {
+      "canonical_name": "RBMRNA405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA405",
+      "chunk_id": "314aad959892de0ef5ef5bbd536263e790afa16093998b3e6cdd0982930789c5"
+    },
+    {
+      "canonical_name": "RBMRNA-405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405",
+      "chunk_id": "314aad959892de0ef5ef5bbd536263e790afa16093998b3e6cdd0982930789c5"
+    },
+    {
+      "canonical_name": "Omicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron",
+      "chunk_id": "314aad959892de0ef5ef5bbd536263e790afa16093998b3e6cdd0982930789c5"
+    },
+    {
+      "canonical_name": "Delta",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Delta",
+      "chunk_id": "314aad959892de0ef5ef5bbd536263e790afa16093998b3e6cdd0982930789c5"
+    },
+    {
+      "canonical_name": "RBMRNA-Delta",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-Delta",
+      "chunk_id": "314aad959892de0ef5ef5bbd536263e790afa16093998b3e6cdd0982930789c5"
+    },
+    {
+      "canonical_name": "RBMRNA-404",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-404",
+      "chunk_id": "314aad959892de0ef5ef5bbd536263e790afa16093998b3e6cdd0982930789c5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

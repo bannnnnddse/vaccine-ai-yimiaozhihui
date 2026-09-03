@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7fb39db9c7efd91f355427f894d295f7",
+  "content_hash": "2fe5d267d6a9863e7b80388c05dc177f37d23e02e3ffc3e06f8e534c27aea63e",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_7fb39db9c7efd91f355427f894d295f7"
+    },
+    {
+      "canonical_name": "adolescents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescents",
+      "chunk_id": "chk_7fb39db9c7efd91f355427f894d295f7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,189 @@
+{
+  "job_id": "24ebfbbd7ed9",
+  "prompt": "生成一张水痘疫苗机制图",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "visual_profile": "cell_ip_scientific",
+    "governed_role_ids": [],
+    "scene_direction": "横版科学机制图，展示水痘疫苗诱导免疫应答的核心流程。画面分为三个区域：左侧为减毒水痘带状疱疹病毒（VZV）颗粒进入机体；中间为抗原呈递细胞（如树突状细胞）处理并激活T淋巴细胞的过程；右侧为效应T细胞和B细胞分化，产生特异性抗体和记忆细胞。背景简洁，突出分子与细胞的相互作用，色彩以蓝、紫、橙为主，体现生物医学科技感。",
+    "optimized_chinese_prompt": "Scientific mechanism diagram, landscape orientation, 16:9. Left side: Live-attenuated Varicella-Zoster Virus (VZV) particles approaching a cell membrane. Center: Dendritic cell presenting viral antigens to T-cells via MHC molecules, with activation signals indicated by arrows. Right side: Differentiation into Cytotoxic T-cells and B-cells producing Y-shaped antibodies; Memory cells shown for long-term immunity. Clean background, professional medical illustration style, clear labels, blue and orange color palette, high detail on molecular interactions.",
+    "chinese_labels": [
+      "减毒水痘带状疱疹病毒",
+      "抗原呈递细胞",
+      "T淋巴细胞激活",
+      "B淋巴细胞",
+      "特异性抗体",
+      "记忆细胞"
+    ],
+    "scientific_claims": [
+      "减毒活疫苗模拟自然感染过程",
+      "抗原呈递细胞摄取并处理病毒抗原",
+      "激活特异性T细胞和B细胞免疫应答",
+      "产生中和抗体以阻断病毒感染",
+      "形成记忆细胞提供长期保护"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "减毒水痘带状疱疹病毒刺激免疫系统"
+      },
+      {
+        "primary_relation": "抗原呈递细胞激活T淋巴细胞"
+      },
+      {
+        "primary_relation": "B淋巴细胞分化为浆细胞分泌抗体"
+      },
+      {
+        "primary_relation": "生成记忆细胞维持长期免疫监视"
+      }
+    ],
+    "route_reason": "主题为疫苗作用机制，涉及病毒、抗原呈递、T/B细胞及抗体等多个生物学实体和步骤，符合cell_ip_scientific profile中关于细胞/分子相关主题且需严谨表达的要求。fast route足以满足常规科普或教育用途的清晰度需求，无需crafter级别的复杂跨层级渲染。"
+  },
+  "generation_route": "fast",
+  "visual_profile": "cell_ip_scientific",
+  "image_model": "wan2.7-image-pro",
+  "cell_ip_enabled": true,
+  "cell_ip_role_ids": [],
+  "cell_ip_unmatched_cell_terms": [
+    "T淋巴细胞",
+    "B淋巴细胞",
+    "记忆细胞",
+    "形成记忆细胞",
+    "B淋巴细胞分化为浆细胞",
+    "生成记忆细胞"
+  ],
+  "reference_assets": [
+    "generic-cell-style-anchor"
+  ],
+  "reference_assets_actually_sent": [
+    "generic-cell-style-anchor"
+  ],
+  "locked_ip_contracts": [],
+  "final_compiled_prompt": "请生成一张 16:9 中文图解。\n\n【仅场景与构图指令】\n横版科学机制图，展示水痘疫苗诱导免疫应答的核心流程。画面分为三个区域：左侧为减毒水痘带状疱疹病毒（VZV）颗粒进入机体；中间为抗原呈递细胞（如树突状细胞）处理并激活T淋巴细胞的过程；右侧为效应T细胞和B细胞分化，产生特异性抗体和记忆细胞。背景简洁，突出分子与细胞的相互作用，色彩以蓝、紫、橙为主，体现生物医学科技感。\n\n【科学边界】\n- 只表现以下核心关系，不得增加未给出的角色、分子连接、机制、治疗承诺或精确数值：\n1. 减毒水痘带状疱疹病毒刺激免疫系统；2. 抗原呈递细胞激活T淋巴细胞；3. B淋巴细胞分化为浆细胞分泌抗体；4. 生成记忆细胞维持长期免疫监视\n- 可使用必要的简短中文标题、步骤和实体标签，候选词为：减毒水痘带状疱疹病毒、抗原呈递细胞、T淋巴细胞激活、B淋巴细胞、特异性抗体、记忆细胞\n- 不要因为参考图中存在某个角色就把它加入画面；只有科学关系真正需要时才使用\n\n【固定细胞 IP 与参考图】\n- 图1仅用于参考未收录细胞的通用画风；不得改变 fixed canonical IP，不得复制其中的文字、事件或构图\n- 本题命中的固定角色：无明确命中\n- 固定角色外观契约（只能由下列 canonical reference 决定，场景指令无权重设计或重述）：\n- 本题没有命中固定角色；不要擅自复刻角色板中的任何角色。\n- 未收录的必要细胞：T淋巴细胞、B淋巴细胞、记忆细胞、形成记忆细胞、B淋巴细胞分化为浆细胞、生成记忆细胞。它们只参考通用细胞画风锚点，使用圆润或生物学可辨识的\n  扁平轮廓、短小四肢、黑色圆眼、粉色腮红、深色手绘描边和平涂风格；不得使用任何固定角色的\n  专属颜色组合、轮廓或道具，也不得被标注为固定角色\n\n【构图与风格契约】\n- 完整保留核心因果链的每一步，可使用分区、编号、箭头和流程结构；每条关系必须有明确主体、方向和结果，不得为了留白或故事感删减步骤。\n- 使用固定细胞IP的颜色、轮廓和道具，但保持专业、克制、清晰的科学图解语言；角色造型不能取代生物学结构和关系表达。\n- 标题策略：允许一个必要的简短中文标题\n- 禁止：3D、错误箭头、未获支持的分子连接、疗效保证、装饰性无关角色、密集长段文字\n- 科学关系的完整性、箭头方向和实体标签优先于装饰风格；不得为了套用IP而删减关系\n\n禁止使用用户原始请求、Refiner 文本或标签中的自由外观描述重新设计固定角色。",
+  "aspect_ratio": "16:9",
+  "image_id": "24ebfbbd7ed9-v0",
+  "trusted_image": "24ebfbbd7ed9-v0.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "needs_human_review",
+    "summary": "图1存在明显的文字错误（'抗原呈讨细胞'应为'抗原呈递细胞'），且免疫流程图的箭头逻辑不清晰，未能准确表达T细胞与B细胞的相互作用及分化方向。图2的角色设计（红色血球、黄色不规则细胞）与图1中的病毒、抗原呈递细胞、B细胞等核心实体不一致，未命中固定角色IP规范。整体科学图解的因果链和标签准确性需修正。",
+    "recommended_action": "request_human_feedback",
+    "auto_fixable": false,
+    "human_input_required": true,
+    "issues": [
+      {
+        "issue_type": "text_error",
+        "severity": "high",
+        "description": "图1中间下方文字将'抗原呈递细胞'误写为'抗原呈讨细胞'，属于关键术语错误。",
+        "bbox": [
+          0.35,
+          0.75,
+          0.6,
+          0.85
+        ],
+        "confidence": 0.99,
+        "suggested_fix": "将'抗原呈讨细胞'更正为'抗原呈递细胞'。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "layout",
+        "severity": "high",
+        "description": "图1中抗原呈递细胞（黄色）与橙色细胞（推测为T细胞或B细胞）之间的双向箭头含义不明，且橙色细胞到蓝色B细胞的单向箭头缺乏明确的激活/分化标注，导致免疫应答因果链断裂。",
+        "bbox": [
+          0.4,
+          0.4,
+          0.65,
+          0.6
+        ],
+        "confidence": 0.95,
+        "suggested_fix": "明确箭头方向：抗原呈递细胞指向T细胞（激活），T细胞指向B细胞（辅助激活），B细胞分化为浆细胞和记忆细胞。",
+        "auto_fixable": true,
+        "human_input_required": false
+      },
+      {
+        "issue_type": "anatomy",
+        "severity": "medium",
+        "description": "图2展示了三个新角色（红色圆形、黄色不规则、浅蓝多突触），但图1流程中并未出现红色圆形角色，且黄色角色在图1中作为抗原呈递细胞，在图2中形态相似但无标签，导致IP角色体系混乱，未命中固定角色规范。",
+        "bbox": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "confidence": 0.9,
+        "suggested_fix": "统一图1与图2的角色设计：确保图1中的病毒（蓝色齿轮状）、抗原呈递细胞（黄色）、B细胞（浅蓝多突触）与图2角色一一对应，并补充缺失的T细胞、浆细胞、记忆细胞形象。",
+        "auto_fixable": false,
+        "human_input_required": true
+      },
+      {
+        "issue_type": "scientific_expression",
+        "severity": "medium",
+        "description": "潜在科学表达风险（当前未接入证据核验）：图1中'特异性抗体'标签指向浆细胞表面的Y形结构，但未明确标注该结构为抗体分子，易造成概念混淆。",
+        "bbox": [
+          0.75,
+          0.25,
+          0.9,
+          0.35
+        ],
+        "confidence": 0.85,
+        "suggested_fix": "在Y形结构旁添加'抗体'标签，并用箭头从浆细胞指向该结构，明确其分泌功能。",
+        "auto_fixable": false,
+        "human_input_required": true
+      }
+    ]
+  },
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": "initial",
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-26T04:56:55.708002+00:00",
+  "finished_at": null,
+  "stage": "awaiting_human_feedback",
+  "error": null,
+  "trace_id": "bbbf0dd3f1ed",
+  "trace_events": [
+    {
+      "id": "bbbf0dd3f1ed-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-26T04:56:55.708002Z"
+    },
+    {
+      "id": "bbbf0dd3f1ed-2",
+      "stage": "prompt_rewrite",
+      "title": "生成描述已优化",
+      "detail": "已整理视觉指令摘要：Scientific mechanism diagram, landscape orientation, 16:9. Left side: Live-attenuated Varicella-Zoster Virus (VZV) particles approaching a cell membrane. Center: Dendritic cell pr…",
+      "status": "completed",
+      "created_at": "2026-08-26T04:56:55.709030Z"
+    },
+    {
+      "id": "bbbf0dd3f1ed-3",
+      "stage": "generation",
+      "title": "第一版图像已生成",
+      "detail": "正在准备视觉质量审查。",
+      "status": "completed",
+      "created_at": "2026-08-26T04:57:03.402860Z"
+    },
+    {
+      "id": "bbbf0dd3f1ed-4",
+      "stage": "visual_critic",
+      "title": "视觉审查需要人工确认",
+      "detail": "图1存在明显的文字错误（'抗原呈讨细胞'应为'抗原呈递细胞'），且免疫流程图的箭头逻辑不清晰，未能准确表达T细胞与B细胞的相互作用及分化方向。图2的角色设计（红色血球、黄色不规则细胞）与图1中的病毒、抗原呈递细胞、B细胞等核心实体不一致，未命中固定角色IP规范。整体科学图解的因果链和标签准确性需修正。",
+      "status": "warning",
+      "created_at": "2026-08-26T04:57:19.177275Z"
+    },
+    {
+      "id": "bbbf0dd3f1ed-5",
+      "stage": "human_feedback",
+      "title": "需要你的确认",
+      "detail": "当前问题不适合继续自动修改，你可以在图片上框选区域并提出修改要求。",
+      "status": "warning",
+      "created_at": "2026-08-26T04:57:37.904853Z"
+    }
+  ],
+  "trace_history": []
+}

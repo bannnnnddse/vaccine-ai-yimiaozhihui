@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_0d620989fbc1c6e8cb220445e9c1be95",
+  "content_hash": "af14fd78376022495be826e9fb63f816739ab195764d30a365afd536e18aed00",
+  "entities": [
+    {
+      "canonical_name": "HBsAg",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBsAg",
+      "chunk_id": "chk_0d620989fbc1c6e8cb220445e9c1be95"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

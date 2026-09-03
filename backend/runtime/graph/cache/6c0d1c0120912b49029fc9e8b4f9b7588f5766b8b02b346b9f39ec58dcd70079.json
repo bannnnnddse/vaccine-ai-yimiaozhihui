@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_7d3c67f53af7ea719e658d1feb94bb6b",
+  "content_hash": "9e592c99c30f8f87379ad4166c005bb56431855efbea2853b02125764686a91f",
+  "entities": [
+    {
+      "canonical_name": "HPV-vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV-vaccination",
+      "chunk_id": "chk_7d3c67f53af7ea719e658d1feb94bb6b"
+    },
+    {
+      "canonical_name": "boys aged 12",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "boys aged 12",
+      "chunk_id": "chk_7d3c67f53af7ea719e658d1feb94bb6b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

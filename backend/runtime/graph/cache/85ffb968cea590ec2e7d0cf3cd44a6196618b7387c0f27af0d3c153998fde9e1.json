@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_49ff176ae9adc890659a32d507b30587",
+  "content_hash": "855ef93e9708f0e80204d4e51e1714b45b04fc637e524cf6949d4bafee354750",
+  "entities": [
+    {
+      "canonical_name": "MBC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MBC",
+      "chunk_id": "chk_49ff176ae9adc890659a32d507b30587"
+    },
+    {
+      "canonical_name": "LLPC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "LLPC",
+      "chunk_id": "chk_49ff176ae9adc890659a32d507b30587"
+    },
+    {
+      "canonical_name": "E. muris",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "E. muris",
+      "chunk_id": "chk_49ff176ae9adc890659a32d507b30587"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

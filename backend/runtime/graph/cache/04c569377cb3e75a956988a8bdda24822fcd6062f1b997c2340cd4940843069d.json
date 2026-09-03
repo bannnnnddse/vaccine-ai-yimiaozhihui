@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d3c65f56ca767140dac20366362da19a",
+  "content_hash": "a39f3e28ac9176b65a8b0c3b90bc6b89413d0b1075533231d2729f5e9bbc50c9",
+  "entities": [
+    {
+      "canonical_name": "Influenza Travel vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza Travel vaccines",
+      "chunk_id": "chk_d3c65f56ca767140dac20366362da19a"
+    },
+    {
+      "canonical_name": "Adults > 50, years old, chronic condition (cardiac, pulmonary, immune - compro ‐ mised, diabetic, kidney patients), institu - tionalized patients, healthcare p",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adults > 50, years old, chronic condition (cardiac, pulmonary, immune - compro ‑ mised, diabetic, kidney patients), institu - tionalized patients, healthcare p",
+      "chunk_id": "chk_d3c65f56ca767140dac20366362da19a"
+    },
+    {
+      "canonical_name": "Travelers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Travelers",
+      "chunk_id": "chk_d3c65f56ca767140dac20366362da19a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

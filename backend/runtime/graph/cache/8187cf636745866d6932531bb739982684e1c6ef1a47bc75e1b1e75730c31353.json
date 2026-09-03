@@ -1,0 +1,22 @@
+{
+  "chunk_id": "f50970ac458816e96d98d4c54d10b372061e0a008d809dfa42ed3bb582780032",
+  "content_hash": "db049a7ea2aa8d18a7e801f453ff3d66cda6768504267fd01da9b73b53ea925d",
+  "entities": [
+    {
+      "canonical_name": "Vesicular stomatitis virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Vesicular stomatitis virus",
+      "chunk_id": "f50970ac458816e96d98d4c54d10b372061e0a008d809dfa42ed3bb582780032"
+    },
+    {
+      "canonical_name": "Yellow fever virus 17D",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Yellow fever virus 17D",
+      "chunk_id": "f50970ac458816e96d98d4c54d10b372061e0a008d809dfa42ed3bb582780032"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

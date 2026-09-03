@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_93b7836049aff3811f0f5686d5886653",
+  "content_hash": "0d9b8e3403959ddb40854bb52ba506497a7bc8cafbd36af0b8cd4d80588a2cb3",
+  "entities": [
+    {
+      "canonical_name": "measlesmumps-rubella",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measlesmumps-rubella",
+      "chunk_id": "chk_93b7836049aff3811f0f5686d5886653"
+    },
+    {
+      "canonical_name": "patients on chemotherapy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients on chemotherapy",
+      "chunk_id": "chk_93b7836049aff3811f0f5686d5886653"
+    },
+    {
+      "canonical_name": "fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "fever",
+      "chunk_id": "chk_93b7836049aff3811f0f5686d5886653"
+    },
+    {
+      "canonical_name": "vaccine disease",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vaccine disease",
+      "chunk_id": "chk_93b7836049aff3811f0f5686d5886653"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

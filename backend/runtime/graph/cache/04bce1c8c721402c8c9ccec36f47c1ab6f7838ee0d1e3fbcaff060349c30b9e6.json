@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_be4743e2b545da943340b4d8fc477ab8",
+  "content_hash": "751aeb4143296c18f7166287dbaf27222280880f0fefcf4789f08e694945d47b",
+  "entities": [
+    {
+      "canonical_name": "PHiD-CV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PHiD-CV",
+      "chunk_id": "chk_be4743e2b545da943340b4d8fc477ab8"
+    },
+    {
+      "canonical_name": "13-valent pneumococcal conjugate vaccinations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "13-valent pneumococcal conjugate vaccinations",
+      "chunk_id": "chk_be4743e2b545da943340b4d8fc477ab8"
+    },
+    {
+      "canonical_name": "Chinese infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Chinese infants",
+      "chunk_id": "chk_be4743e2b545da943340b4d8fc477ab8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

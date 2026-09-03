@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_4912dbddd5c0311dcb1229d82ba024b2",
+  "content_hash": "5bcd5e53f564e4e7c0a5f466e0c1981f324c75e2567def4e7523892695c0b876",
+  "entities": [
+    {
+      "canonical_name": "immune system",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune system",
+      "chunk_id": "chk_4912dbddd5c0311dcb1229d82ba024b2"
+    },
+    {
+      "canonical_name": "B-cell receptor sequences",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B-cell receptor sequences",
+      "chunk_id": "chk_4912dbddd5c0311dcb1229d82ba024b2"
+    },
+    {
+      "canonical_name": "specific antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "specific antibodies",
+      "chunk_id": "chk_4912dbddd5c0311dcb1229d82ba024b2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

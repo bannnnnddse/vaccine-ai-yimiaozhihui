@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e287940fda9b378af8ee063d93dae5df",
+  "content_hash": "c7e3289971ed2d3020540da088d18bc0eb533f02bba094f7f5ac5f1be6e76274",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccination",
+      "chunk_id": "chk_e287940fda9b378af8ee063d93dae5df"
+    },
+    {
+      "canonical_name": "COPD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COPD",
+      "chunk_id": "chk_e287940fda9b378af8ee063d93dae5df"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

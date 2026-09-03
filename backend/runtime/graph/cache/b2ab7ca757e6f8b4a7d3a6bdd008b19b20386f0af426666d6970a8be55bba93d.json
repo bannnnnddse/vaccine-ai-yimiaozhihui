@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_63041f643bfdfb5515463cbc51511591",
+  "content_hash": "b77f1a7cc4847621ae83e3a52d5d81c19c0bbacfd9e170eb5553e13c68b2aa8f",
+  "entities": [
+    {
+      "canonical_name": "HBsAg-HBIG immunogenic complex therapeutic vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HBsAg-HBIG immunogenic complex therapeutic vaccine",
+      "chunk_id": "chk_63041f643bfdfb5515463cbc51511591"
+    },
+    {
+      "canonical_name": "chronic hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic hepatitis B",
+      "chunk_id": "chk_63041f643bfdfb5515463cbc51511591"
+    },
+    {
+      "canonical_name": "fusion peptide-directed antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "fusion peptide-directed antibodies",
+      "chunk_id": "chk_63041f643bfdfb5515463cbc51511591"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_63041f643bfdfb5515463cbc51511591"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

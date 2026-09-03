@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_6d3b2a3419489e8c3430082a57ac87a6",
+  "content_hash": "4a3dde7d231290816bc24fac300acffd89f440305f0fc3796d00a8ac9ead9e78",
+  "entities": [
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_6d3b2a3419489e8c3430082a57ac87a6"
+    },
+    {
+      "canonical_name": "human marginal zone B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human marginal zone B cells",
+      "chunk_id": "chk_6d3b2a3419489e8c3430082a57ac87a6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

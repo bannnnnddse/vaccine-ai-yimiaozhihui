@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_25089bfcd2fafd6b9dc5ead4c64751ad",
+  "content_hash": "34b9813d899d1f93462dda00d6684f61acecf02b64e4b9ae8cc8ab314de392ea",
+  "entities": [
+    {
+      "canonical_name": "children aged < 7 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children aged < 7 years",
+      "chunk_id": "chk_25089bfcd2fafd6b9dc5ead4c64751ad"
+    },
+    {
+      "canonical_name": "recommended vaccination schedules",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "recommended vaccination schedules",
+      "chunk_id": "chk_25089bfcd2fafd6b9dc5ead4c64751ad"
+    },
+    {
+      "canonical_name": "18 – 64 age group",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "18 – 64 age group",
+      "chunk_id": "chk_25089bfcd2fafd6b9dc5ead4c64751ad"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

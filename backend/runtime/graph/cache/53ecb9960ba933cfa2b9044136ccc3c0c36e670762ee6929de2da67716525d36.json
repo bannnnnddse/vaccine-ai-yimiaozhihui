@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_3470cff5d3db052b9c4af45a41a7dc6b",
+  "content_hash": "d38aab6d1cfff2c186cdbbe9ce8ef2f9c2b89916966bc4a4d9c53cc4a177c331",
+  "entities": [
+    {
+      "canonical_name": "HIV-1 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV-1 infection",
+      "chunk_id": "chk_3470cff5d3db052b9c4af45a41a7dc6b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

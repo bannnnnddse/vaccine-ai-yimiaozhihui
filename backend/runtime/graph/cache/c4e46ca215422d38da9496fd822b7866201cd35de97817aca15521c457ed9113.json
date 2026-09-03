@@ -1,0 +1,25 @@
+{
+  "chunk_id": "chk_932d54fd17464354c59dc1ef926f02d5",
+  "content_hash": "279f80213a1649ec7fbfc161d871f3b2fc15cf42070fed4560ed557d1d2a2744",
+  "entities": [
+    {
+      "canonical_name": "Cervical Cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Cervical Cancer",
+      "chunk_id": "chk_932d54fd17464354c59dc1ef926f02d5"
+    },
+    {
+      "canonical_name": "girls",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "girls",
+      "chunk_id": "chk_932d54fd17464354c59dc1ef926f02d5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "quote_missing"
+  ]
+}

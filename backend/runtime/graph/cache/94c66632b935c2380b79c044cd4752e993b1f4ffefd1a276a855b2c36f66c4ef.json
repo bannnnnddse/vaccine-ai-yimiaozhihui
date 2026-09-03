@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_a3bc911667c405332d4ac6977547de07",
+  "content_hash": "a734c82d2d52cc8dbaa0e1ae822d4c0d9e4dc7987ffe44393e2d670d4abe852f",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2–naive individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2–naive individuals",
+      "chunk_id": "chk_a3bc911667c405332d4ac6977547de07"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

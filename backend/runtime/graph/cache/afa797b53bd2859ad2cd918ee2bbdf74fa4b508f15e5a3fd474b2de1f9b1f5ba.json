@@ -1,0 +1,123 @@
+{
+  "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4",
+  "content_hash": "1ff005cad90c03b2ceecbfadf5785592ab8263c69e2dca3eb371e1bd8212d26b",
+  "entities": [
+    {
+      "canonical_name": "Th2‐type immune cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th2‐type immune cells",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "Foxp3+ regulatory T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Foxp3+ regulatory T cells",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "regulatory M2 macrophages",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "regulatory M2 macrophages",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "pro‐inflammatory T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pro‐inflammatory T cells",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "testosterone",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "testosterone",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "males",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "males",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "Th1 response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Th1 response",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "mast cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mast cell",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "anti ‐ inflammatory cell populations",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "anti ‐ inflammatory cell populations",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "complement pathways",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "complement pathways",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "pro‐inflammatory cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pro‐inflammatory cytokines",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "IL‐1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL‐1",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "IL ‐ 18",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL ‐ 18",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "second dose",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "second dose",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    },
+    {
+      "canonical_name": "first dose",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "first dose",
+      "chunk_id": "chk_3a29a1f06fcadd90b3583367c8ceaed4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

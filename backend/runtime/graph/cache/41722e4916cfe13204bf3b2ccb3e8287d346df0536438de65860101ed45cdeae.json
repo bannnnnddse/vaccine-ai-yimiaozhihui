@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_f0b59af5acadbffe14f219ba744c9bac",
+  "content_hash": "9787498cc06f1709173e4e9de1ec0dacf324385f5c7087ddff30d4d3ece672e4",
+  "entities": [
+    {
+      "canonical_name": "lupus-like disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "lupus-like disease",
+      "chunk_id": "chk_f0b59af5acadbffe14f219ba744c9bac"
+    },
+    {
+      "canonical_name": "nephritis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "nephritis",
+      "chunk_id": "chk_f0b59af5acadbffe14f219ba744c9bac"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_f0b59af5acadbffe14f219ba744c9bac"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

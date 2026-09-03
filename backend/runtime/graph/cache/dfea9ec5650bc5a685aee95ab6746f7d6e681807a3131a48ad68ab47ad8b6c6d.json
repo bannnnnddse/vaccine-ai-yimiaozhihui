@@ -1,0 +1,22 @@
+{
+  "chunk_id": "477e5e5e389375074c40ce4482a465f2456b756fd382a2f698796fc86704ba67",
+  "content_hash": "e3de3255e1d4b3f4b8449283888234b46d38cdb00a0d77c4b05899c11e446cfe",
+  "entities": [
+    {
+      "canonical_name": "side effects",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "side effects",
+      "chunk_id": "477e5e5e389375074c40ce4482a465f2456b756fd382a2f698796fc86704ba67"
+    },
+    {
+      "canonical_name": "adverse event",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse event",
+      "chunk_id": "477e5e5e389375074c40ce4482a465f2456b756fd382a2f698796fc86704ba67"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

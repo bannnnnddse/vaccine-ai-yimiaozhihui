@@ -1,0 +1,15 @@
+{
+  "chunk_id": "749d72c99e13963aa87f9cbe3d3885b81959753c87addfd21cabf058be4a8c4d",
+  "content_hash": "a4ab56bdd9281df5a513d6c23b4968247910725605ef63082691cca832141695",
+  "entities": [
+    {
+      "canonical_name": "JE vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "JE vaccine",
+      "chunk_id": "749d72c99e13963aa87f9cbe3d3885b81959753c87addfd21cabf058be4a8c4d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

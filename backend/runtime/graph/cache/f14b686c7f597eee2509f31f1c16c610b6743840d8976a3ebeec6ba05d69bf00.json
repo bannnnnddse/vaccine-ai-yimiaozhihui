@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_99ae58f0da65ac8ffb5ff69074aa7501",
+  "content_hash": "184d12b35364b0ee47ff2ab9a60e02f0a6e5d3bffeda5676954b39de9581f45c",
+  "entities": [
+    {
+      "canonical_name": "脊灰疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "脊灰疫苗",
+      "chunk_id": "chk_99ae58f0da65ac8ffb5ff69074aa7501"
+    },
+    {
+      "canonical_name": "IPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IPV",
+      "chunk_id": "chk_99ae58f0da65ac8ffb5ff69074aa7501"
+    },
+    {
+      "canonical_name": "bOPV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bOPV",
+      "chunk_id": "chk_99ae58f0da65ac8ffb5ff69074aa7501"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

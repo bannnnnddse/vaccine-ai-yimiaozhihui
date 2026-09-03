@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_bc2dd75a8e5e6851cf24775df6b68328",
+  "content_hash": "3d92de9cda9c672d4b2c0dbe12be36cb83f6246db3d789ff46f167fa08920233",
+  "entities": [
+    {
+      "canonical_name": "Anti-Human Cytomegalovirus Monoclonal Antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Anti-Human Cytomegalovirus Monoclonal Antibodies",
+      "chunk_id": "chk_bc2dd75a8e5e6851cf24775df6b68328"
+    },
+    {
+      "canonical_name": "Human Cytomegalovirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Human Cytomegalovirus",
+      "chunk_id": "chk_bc2dd75a8e5e6851cf24775df6b68328"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

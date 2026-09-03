@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_78c5ef3ab0d0d6999949eb85b79954e4",
+  "content_hash": "769f0fc99235db15f06cd08f8f20f7fdb3f32d323626eae162a1bf651deb311d",
+  "entities": [
+    {
+      "canonical_name": "IL-6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-6",
+      "chunk_id": "chk_78c5ef3ab0d0d6999949eb85b79954e4"
+    },
+    {
+      "canonical_name": "IL-10",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-10",
+      "chunk_id": "chk_78c5ef3ab0d0d6999949eb85b79954e4"
+    },
+    {
+      "canonical_name": "TNF-α",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TNF-α",
+      "chunk_id": "chk_78c5ef3ab0d0d6999949eb85b79954e4"
+    },
+    {
+      "canonical_name": "IFN-γ",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-γ",
+      "chunk_id": "chk_78c5ef3ab0d0d6999949eb85b79954e4"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_78c5ef3ab0d0d6999949eb85b79954e4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

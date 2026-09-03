@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_c06a333a09f33f729dd023efd6cff5d7",
+  "content_hash": "34303eb1417dbc157a11c686ab9f88df9d73a4a141c723780a3fe165b0cfd49e",
+  "entities": [
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_c06a333a09f33f729dd023efd6cff5d7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

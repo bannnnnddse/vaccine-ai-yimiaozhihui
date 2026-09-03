@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_561861cdb7cf3be6f395aaa686b84236",
+  "content_hash": "3c703d24144769a02ee0f7fc3a326c9d95e08956d336795325578f5d077f983d",
+  "entities": [
+    {
+      "canonical_name": "Chinese adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Chinese adults",
+      "chunk_id": "chk_561861cdb7cf3be6f395aaa686b84236"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

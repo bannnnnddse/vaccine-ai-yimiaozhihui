@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_3e971856cc80c9f411c24390ef3791fc",
+  "content_hash": "2b05639b9ec1f342bb12a1cf28933126a42ff9460df97bf6f01493279327246e",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_3e971856cc80c9f411c24390ef3791fc"
+    },
+    {
+      "canonical_name": "Tdap",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Tdap",
+      "chunk_id": "chk_3e971856cc80c9f411c24390ef3791fc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

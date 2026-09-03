@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_88dae5923dc9a87bcbceddb5cb25f008",
+  "content_hash": "5ca8e4760caedfbae515ac1e622ae24b9d4cfabaae9e4f54806a3820f1c93f0b",
+  "entities": [
+    {
+      "canonical_name": "long-lived plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "long-lived plasma cells",
+      "chunk_id": "chk_88dae5923dc9a87bcbceddb5cb25f008"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_88dae5923dc9a87bcbceddb5cb25f008"
+    },
+    {
+      "canonical_name": "CD4 + Th cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4 + Th cells",
+      "chunk_id": "chk_88dae5923dc9a87bcbceddb5cb25f008"
+    },
+    {
+      "canonical_name": "Igs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Igs",
+      "chunk_id": "chk_88dae5923dc9a87bcbceddb5cb25f008"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

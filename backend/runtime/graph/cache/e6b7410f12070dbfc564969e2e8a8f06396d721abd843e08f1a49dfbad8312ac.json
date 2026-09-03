@@ -1,0 +1,56 @@
+{
+  "chunk_id": "chk_f6d2941a171aa218e441b17849478138",
+  "content_hash": "5b52f517b54a041de1c2140c51991bc456d77cb4574cfd6707840bf502b620c4",
+  "entities": [
+    {
+      "canonical_name": "water-in-oil emulsion adjuvants",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "water-in-oil emulsion adjuvants",
+      "chunk_id": "chk_f6d2941a171aa218e441b17849478138"
+    },
+    {
+      "canonical_name": "mycobacterium cord factor",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mycobacterium cord factor",
+      "chunk_id": "chk_f6d2941a171aa218e441b17849478138"
+    },
+    {
+      "canonical_name": "IL-6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-6",
+      "chunk_id": "chk_f6d2941a171aa218e441b17849478138"
+    },
+    {
+      "canonical_name": "Tfh cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Tfh cells",
+      "chunk_id": "chk_f6d2941a171aa218e441b17849478138"
+    },
+    {
+      "canonical_name": "germinal centre B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "germinal centre B cells",
+      "chunk_id": "chk_f6d2941a171aa218e441b17849478138"
+    },
+    {
+      "canonical_name": "IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgG",
+      "chunk_id": "chk_f6d2941a171aa218e441b17849478138"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

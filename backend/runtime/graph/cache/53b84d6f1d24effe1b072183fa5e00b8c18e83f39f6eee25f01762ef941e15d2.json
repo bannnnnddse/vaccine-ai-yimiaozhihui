@@ -1,0 +1,73 @@
+{
+  "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451",
+  "content_hash": "f9da7e7793b5bee62833cef4d833369cf7656d4edc34d4b95abc187f0b0d4815",
+  "entities": [
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451"
+    },
+    {
+      "canonical_name": "immunocompromised",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "immunocompromised",
+      "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451"
+    },
+    {
+      "canonical_name": "cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancer",
+      "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451"
+    },
+    {
+      "canonical_name": "human immunodeficiency virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human immunodeficiency virus",
+      "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451"
+    },
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451"
+    },
+    {
+      "canonical_name": "autoimmune disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune disease",
+      "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451"
+    },
+    {
+      "canonical_name": "primary immunodeficiencies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "primary immunodeficiencies",
+      "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451"
+    },
+    {
+      "canonical_name": "liver disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "liver disease",
+      "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451"
+    },
+    {
+      "canonical_name": "pediatric population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pediatric population",
+      "chunk_id": "62760fb7db89e4eca4f82bf1e8a717d8065c8ac719668305b1325749cac39451"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

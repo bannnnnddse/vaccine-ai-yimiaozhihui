@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_79845c77c847be0a78851c4f28e942f8",
+  "content_hash": "a654c0479a8727dd28b83309d87cd3162235a37d1aa21422f14562150ab44db2",
+  "entities": [
+    {
+      "canonical_name": "flavivirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "flavivirus infection",
+      "chunk_id": "chk_79845c77c847be0a78851c4f28e942f8"
+    },
+    {
+      "canonical_name": "Dengue virus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Dengue virus infection",
+      "chunk_id": "chk_79845c77c847be0a78851c4f28e942f8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

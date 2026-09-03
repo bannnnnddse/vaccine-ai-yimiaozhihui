@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_fd145f383c9d06ae555811a6f24018bd",
+  "content_hash": "a1302939415e08a900430fa1ddbdb768b70e4a67a63d79f7ad879b23f39661db",
+  "entities": [
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_fd145f383c9d06ae555811a6f24018bd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

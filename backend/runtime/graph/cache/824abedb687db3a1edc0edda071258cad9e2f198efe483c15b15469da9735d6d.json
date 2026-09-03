@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_6716495a3cd0f9d4aa2a3df68ad4ad6e",
+  "content_hash": "32aa6610c248d23c5106ef860903e4019afdefa25cb55e16e704ea1ed3dd37cc",
+  "entities": [
+    {
+      "canonical_name": "VARZOS",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VARZOS",
+      "chunk_id": "chk_6716495a3cd0f9d4aa2a3df68ad4ad6e"
+    },
+    {
+      "canonical_name": "Shingrix",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Shingrix",
+      "chunk_id": "chk_6716495a3cd0f9d4aa2a3df68ad4ad6e"
+    },
+    {
+      "canonical_name": "AEFIs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "AEFIs",
+      "chunk_id": "chk_6716495a3cd0f9d4aa2a3df68ad4ad6e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

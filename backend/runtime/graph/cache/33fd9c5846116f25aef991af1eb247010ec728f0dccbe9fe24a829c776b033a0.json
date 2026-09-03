@@ -1,0 +1,38 @@
+{
+  "chunk_id": "048a7c8ed1ecd81a21279eb762d016f34c84223709756adf21fe782561503116",
+  "content_hash": "91d27f9d285737fae67bc7e78b4924ff79e89769d4d130fcea7236681ef1a424",
+  "entities": [
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "048a7c8ed1ecd81a21279eb762d016f34c84223709756adf21fe782561503116"
+    },
+    {
+      "canonical_name": "females who were not previously vaccinated",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females who were not previously vaccinated",
+      "chunk_id": "048a7c8ed1ecd81a21279eb762d016f34c84223709756adf21fe782561503116"
+    },
+    {
+      "canonical_name": "females ages 16 to 23 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females ages 16 to 23 years",
+      "chunk_id": "048a7c8ed1ecd81a21279eb762d016f34c84223709756adf21fe782561503116"
+    },
+    {
+      "canonical_name": "females older than 12 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "females older than 12 years",
+      "chunk_id": "048a7c8ed1ecd81a21279eb762d016f34c84223709756adf21fe782561503116"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

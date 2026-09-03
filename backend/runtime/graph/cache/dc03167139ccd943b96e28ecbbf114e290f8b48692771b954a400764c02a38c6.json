@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_4ba3a893872f6389763a92244a34c8b2",
+  "content_hash": "3c356afc3faaa2cb90402fdb6c8dbfbe2110851321f5edba9c65c7fd7a1d39c6",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_4ba3a893872f6389763a92244a34c8b2"
+    },
+    {
+      "canonical_name": "Staphylococcus aureus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Staphylococcus aureus",
+      "chunk_id": "chk_4ba3a893872f6389763a92244a34c8b2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

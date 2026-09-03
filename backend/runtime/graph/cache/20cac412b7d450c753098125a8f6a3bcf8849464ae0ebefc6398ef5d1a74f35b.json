@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_ade33e48b2abf14e8a93f3247ceff9f3",
+  "content_hash": "f154b358a522d9f80ee4996219695038c00347e995d65d5e5a657e325ec84085",
+  "entities": [
+    {
+      "canonical_name": "SFTSV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SFTSV",
+      "chunk_id": "chk_ade33e48b2abf14e8a93f3247ceff9f3"
+    },
+    {
+      "canonical_name": "cytokine storm",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "cytokine storm",
+      "chunk_id": "chk_ade33e48b2abf14e8a93f3247ceff9f3"
+    },
+    {
+      "canonical_name": "multiorgan failure",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "multiorgan failure",
+      "chunk_id": "chk_ade33e48b2abf14e8a93f3247ceff9f3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

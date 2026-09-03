@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_df3e078aabd4468dbe63d00089e44136",
+  "content_hash": "f5ff945ba3f152a218e3e4244b9c99631fa2fa9e59dc76c6718601214881fd9d",
+  "entities": [
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_df3e078aabd4468dbe63d00089e44136"
+    },
+    {
+      "canonical_name": "disease[s]",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "disease[s]",
+      "chunk_id": "chk_df3e078aabd4468dbe63d00089e44136"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

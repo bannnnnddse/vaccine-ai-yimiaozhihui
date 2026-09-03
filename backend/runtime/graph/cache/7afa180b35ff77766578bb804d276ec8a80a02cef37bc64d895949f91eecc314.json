@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_6dbd4b2159d05c83ab442af01e5319b4",
+  "content_hash": "c826946c0eb60e111b3cbaad48d2f614dbfae1a62ca03119d6193d9620db2c97",
+  "entities": [
+    {
+      "canonical_name": "MMR vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR vaccine",
+      "chunk_id": "chk_6dbd4b2159d05c83ab442af01e5319b4"
+    },
+    {
+      "canonical_name": "febrile seizures",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "febrile seizures",
+      "chunk_id": "chk_6dbd4b2159d05c83ab442af01e5319b4"
+    },
+    {
+      "canonical_name": "infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants",
+      "chunk_id": "chk_6dbd4b2159d05c83ab442af01e5319b4"
+    },
+    {
+      "canonical_name": "bronchiolitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "bronchiolitis",
+      "chunk_id": "chk_6dbd4b2159d05c83ab442af01e5319b4"
+    },
+    {
+      "canonical_name": "childhood asthma",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "childhood asthma",
+      "chunk_id": "chk_6dbd4b2159d05c83ab442af01e5319b4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

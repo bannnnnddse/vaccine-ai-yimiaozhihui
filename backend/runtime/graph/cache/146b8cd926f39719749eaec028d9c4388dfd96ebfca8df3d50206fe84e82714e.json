@@ -1,0 +1,15 @@
+{
+  "chunk_id": "4cd74f9b5487ffe117c8688cba2cc8ebb29d226536baf513656c1b618eafd503",
+  "content_hash": "9e237b357618c0ca94044da998c65890184f11b59178162aa14ecdac973236cf",
+  "entities": [
+    {
+      "canonical_name": "IXCHIQ vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "IXCHIQ vaccine",
+      "chunk_id": "4cd74f9b5487ffe117c8688cba2cc8ebb29d226536baf513656c1b618eafd503"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_9b87e4941f26b59a4faff98f2eb91833",
+  "content_hash": "dfad0847cd6072b0a239e297664282009a8578077f9c1a8449cd2f3786bdd245",
+  "entities": [
+    {
+      "canonical_name": "Mycobacterium bovis bacillus Calmette–Guérin (BCG) vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Mycobacterium bovis bacillus Calmette–Guérin (BCG) vaccine",
+      "chunk_id": "chk_9b87e4941f26b59a4faff98f2eb91833"
+    },
+    {
+      "canonical_name": "TB",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TB",
+      "chunk_id": "chk_9b87e4941f26b59a4faff98f2eb91833"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "entity_surface_missing",
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "unknown_endpoint",
+    "relation_evidence_cue_missing",
+    "source_missing_from_quote"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_41097804c8b80a386874e3aaf7a39d58",
+  "content_hash": "31945eac13b3b2ea1c3c54b20fc265a777b94b1ccf749ca785a4bc8ff9e1d0b2",
+  "entities": [
+    {
+      "canonical_name": "Fc response",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fc response",
+      "chunk_id": "chk_41097804c8b80a386874e3aaf7a39d58"
+    },
+    {
+      "canonical_name": "afucosylated IgG",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "afucosylated IgG",
+      "chunk_id": "chk_41097804c8b80a386874e3aaf7a39d58"
+    },
+    {
+      "canonical_name": "ADCC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ADCC",
+      "chunk_id": "chk_41097804c8b80a386874e3aaf7a39d58"
+    },
+    {
+      "canonical_name": "dengue fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "dengue fever",
+      "chunk_id": "chk_41097804c8b80a386874e3aaf7a39d58"
+    },
+    {
+      "canonical_name": "HIV-1",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV-1",
+      "chunk_id": "chk_41097804c8b80a386874e3aaf7a39d58"
+    },
+    {
+      "canonical_name": "Tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Tuberculosis",
+      "chunk_id": "chk_41097804c8b80a386874e3aaf7a39d58"
+    },
+    {
+      "canonical_name": "vulnerable populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vulnerable populations",
+      "chunk_id": "chk_41097804c8b80a386874e3aaf7a39d58"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

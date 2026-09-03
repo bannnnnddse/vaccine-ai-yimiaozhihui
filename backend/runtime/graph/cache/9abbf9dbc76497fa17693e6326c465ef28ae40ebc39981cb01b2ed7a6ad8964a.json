@@ -1,0 +1,68 @@
+{
+  "chunk_id": "chk_f8c8f240a149e89ba08867fd072028e4",
+  "content_hash": "73d7bce29890eb54883e23cb59e748b8180c7ebb53372a1918cedae10a2eb954",
+  "entities": [
+    {
+      "canonical_name": "coronaviruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "coronaviruses",
+      "chunk_id": "chk_f8c8f240a149e89ba08867fd072028e4"
+    },
+    {
+      "canonical_name": "cell-mediated immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cell-mediated immunity",
+      "chunk_id": "chk_f8c8f240a149e89ba08867fd072028e4"
+    },
+    {
+      "canonical_name": "humoral immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral immunity",
+      "chunk_id": "chk_f8c8f240a149e89ba08867fd072028e4"
+    },
+    {
+      "canonical_name": "Inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Inactivated vaccines",
+      "chunk_id": "chk_f8c8f240a149e89ba08867fd072028e4"
+    },
+    {
+      "canonical_name": "live attenuated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live attenuated vaccines",
+      "chunk_id": "chk_f8c8f240a149e89ba08867fd072028e4"
+    },
+    {
+      "canonical_name": "inactivated flu vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated flu vaccines",
+      "chunk_id": "chk_f8c8f240a149e89ba08867fd072028e4"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_f8c8f240a149e89ba08867fd072028e4"
+    },
+    {
+      "canonical_name": "elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly",
+      "chunk_id": "chk_f8c8f240a149e89ba08867fd072028e4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

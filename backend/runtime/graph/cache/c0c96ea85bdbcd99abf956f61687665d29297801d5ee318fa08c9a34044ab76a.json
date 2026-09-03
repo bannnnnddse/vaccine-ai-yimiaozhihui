@@ -1,0 +1,64 @@
+{
+  "chunk_id": "75815bb85633befa9b7c1cb6d640886fde5b6bf0a6e58964a8d931a402772261",
+  "content_hash": "a0fdcfa8a41b993887cf588098e6d6cc725c95812cb30d91b59a306f4507a9c4",
+  "entities": [
+    {
+      "canonical_name": "individuals aged 18–29 years",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals aged 18–29 years",
+      "chunk_id": "75815bb85633befa9b7c1cb6d640886fde5b6bf0a6e58964a8d931a402772261"
+    },
+    {
+      "canonical_name": "HepB vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HepB vaccine",
+      "chunk_id": "75815bb85633befa9b7c1cb6d640886fde5b6bf0a6e58964a8d931a402772261"
+    },
+    {
+      "canonical_name": "HBBI",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HBBI",
+      "chunk_id": "75815bb85633befa9b7c1cb6d640886fde5b6bf0a6e58964a8d931a402772261"
+    },
+    {
+      "canonical_name": "young adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young adults",
+      "chunk_id": "75815bb85633befa9b7c1cb6d640886fde5b6bf0a6e58964a8d931a402772261"
+    },
+    {
+      "canonical_name": "HBV infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HBV infections",
+      "chunk_id": "75815bb85633befa9b7c1cb6d640886fde5b6bf0a6e58964a8d931a402772261"
+    },
+    {
+      "canonical_name": "chronic hepatitis B",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic hepatitis B",
+      "chunk_id": "75815bb85633befa9b7c1cb6d640886fde5b6bf0a6e58964a8d931a402772261"
+    },
+    {
+      "canonical_name": "cytokine",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokine",
+      "chunk_id": "75815bb85633befa9b7c1cb6d640886fde5b6bf0a6e58964a8d931a402772261"
+    },
+    {
+      "canonical_name": "chemokine",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "chemokine",
+      "chunk_id": "75815bb85633befa9b7c1cb6d640886fde5b6bf0a6e58964a8d931a402772261"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

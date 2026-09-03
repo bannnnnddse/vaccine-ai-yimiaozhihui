@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_4153fe5e2d7341baded311c3e388f6ca",
+  "content_hash": "03295337b0cb3467595b499ea3276eae73f82fc83d5a0d0023d94fa234ead967",
+  "entities": [
+    {
+      "canonical_name": "inactivated hepatitis A vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated hepatitis A vaccine",
+      "chunk_id": "chk_4153fe5e2d7341baded311c3e388f6ca"
+    },
+    {
+      "canonical_name": "HAV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HAV",
+      "chunk_id": "chk_4153fe5e2d7341baded311c3e388f6ca"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

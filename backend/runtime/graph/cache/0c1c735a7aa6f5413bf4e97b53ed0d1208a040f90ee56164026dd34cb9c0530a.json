@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_119ee17d0f1e6146299da1876a35e68d",
+  "content_hash": "6657231f3e699b7065634287014a850f3d7664a24ea2f32109223d3678302e02",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_119ee17d0f1e6146299da1876a35e68d"
+    },
+    {
+      "canonical_name": "winter respiratory disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "winter respiratory disease",
+      "chunk_id": "chk_119ee17d0f1e6146299da1876a35e68d"
+    },
+    {
+      "canonical_name": "general population",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "general population",
+      "chunk_id": "chk_119ee17d0f1e6146299da1876a35e68d"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_119ee17d0f1e6146299da1876a35e68d"
+    },
+    {
+      "canonical_name": "virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "virus",
+      "chunk_id": "chk_119ee17d0f1e6146299da1876a35e68d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

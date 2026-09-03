@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_7892350fe4e7d8996ba8a8a9e46de125",
+  "content_hash": "15401cbfe081391910c6311b04aa983746264eb42213d195a425364dbaa439a1",
+  "entities": [
+    {
+      "canonical_name": "non-human primate",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "non-human primate",
+      "chunk_id": "chk_7892350fe4e7d8996ba8a8a9e46de125"
+    },
+    {
+      "canonical_name": "neonatal rhesus monkeys",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "neonatal rhesus monkeys",
+      "chunk_id": "chk_7892350fe4e7d8996ba8a8a9e46de125"
+    },
+    {
+      "canonical_name": "EV-A71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV-A71",
+      "chunk_id": "chk_7892350fe4e7d8996ba8a8a9e46de125"
+    },
+    {
+      "canonical_name": "CV-A16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A16",
+      "chunk_id": "chk_7892350fe4e7d8996ba8a8a9e46de125"
+    },
+    {
+      "canonical_name": "HFMD-liked vesicular lesions",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "HFMD-liked vesicular lesions",
+      "chunk_id": "chk_7892350fe4e7d8996ba8a8a9e46de125"
+    },
+    {
+      "canonical_name": "oral mucosa and limb vesicles",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "oral mucosa and limb vesicles",
+      "chunk_id": "chk_7892350fe4e7d8996ba8a8a9e46de125"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

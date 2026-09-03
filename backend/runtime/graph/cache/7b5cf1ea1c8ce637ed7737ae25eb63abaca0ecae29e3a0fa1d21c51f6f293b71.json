@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c75d8c9981b18815b3e2c92d831c2fae",
+  "content_hash": "851f3e5b157b168401385c416dbc430e99fdf636e4b47d65f3f115720a9bf103",
+  "entities": [
+    {
+      "canonical_name": "older adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "older adults",
+      "chunk_id": "chk_c75d8c9981b18815b3e2c92d831c2fae"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_c75d8c9981b18815b3e2c92d831c2fae"
+    },
+    {
+      "canonical_name": "oldest adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "oldest adults",
+      "chunk_id": "chk_c75d8c9981b18815b3e2c92d831c2fae"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_481963d4acdb64cc1e22628c55acfb40",
+  "content_hash": "16daff4920717e274d6588f3c13721dd7ce81b4023da62e8763e69c778cf99d8",
+  "entities": [
+    {
+      "canonical_name": "Clostridium difficile",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Clostridium difficile",
+      "chunk_id": "chk_481963d4acdb64cc1e22628c55acfb40"
+    },
+    {
+      "canonical_name": "Clostridium difficile infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Clostridium difficile infections",
+      "chunk_id": "chk_481963d4acdb64cc1e22628c55acfb40"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

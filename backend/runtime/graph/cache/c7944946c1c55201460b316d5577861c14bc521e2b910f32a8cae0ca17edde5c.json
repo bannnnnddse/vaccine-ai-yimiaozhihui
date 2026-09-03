@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f6b51d059b5f9f261d0b90939d0ff036",
+  "content_hash": "2a6b51e9caaaa334f375308b47f714e999f5af264c9411c913ab0c926d92cd5c",
+  "entities": [
+    {
+      "canonical_name": "COVI-VAC",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVI-VAC",
+      "chunk_id": "chk_f6b51d059b5f9f261d0b90939d0ff036"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_f6b51d059b5f9f261d0b90939d0ff036"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

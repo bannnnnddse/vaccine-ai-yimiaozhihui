@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_370ea4c13ef507c1b83119239370d302",
+  "content_hash": "a27b03397a615253d803dddf9f1cdf9a43686a74b0cc685783593ed64a01d425",
+  "entities": [
+    {
+      "canonical_name": "Asplenia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Asplenia",
+      "chunk_id": "chk_370ea4c13ef507c1b83119239370d302"
+    },
+    {
+      "canonical_name": "schistosomiasis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "schistosomiasis",
+      "chunk_id": "chk_370ea4c13ef507c1b83119239370d302"
+    },
+    {
+      "canonical_name": "sickle cell disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "sickle cell disease",
+      "chunk_id": "chk_370ea4c13ef507c1b83119239370d302"
+    },
+    {
+      "canonical_name": "S. pneumoniae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "S. pneumoniae",
+      "chunk_id": "chk_370ea4c13ef507c1b83119239370d302"
+    },
+    {
+      "canonical_name": "Neisseria meningitidis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Neisseria meningitidis",
+      "chunk_id": "chk_370ea4c13ef507c1b83119239370d302"
+    },
+    {
+      "canonical_name": "Hib",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Hib",
+      "chunk_id": "chk_370ea4c13ef507c1b83119239370d302"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

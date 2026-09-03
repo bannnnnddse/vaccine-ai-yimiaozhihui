@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_b7d9dfcfeb20b161ee1a56ec55335ab8",
+  "content_hash": "8772df42aa7e7814c794ab04d2ab334704db38dce91e1e748048f5501ee73ac2",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccination",
+      "chunk_id": "chk_b7d9dfcfeb20b161ee1a56ec55335ab8"
+    },
+    {
+      "canonical_name": "secondary bacterial infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "secondary bacterial infections",
+      "chunk_id": "chk_b7d9dfcfeb20b161ee1a56ec55335ab8"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_b7d9dfcfeb20b161ee1a56ec55335ab8"
+    },
+    {
+      "canonical_name": "pneumococcal vaccinations",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal vaccinations",
+      "chunk_id": "chk_b7d9dfcfeb20b161ee1a56ec55335ab8"
+    },
+    {
+      "canonical_name": "pneumonia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumonia",
+      "chunk_id": "chk_b7d9dfcfeb20b161ee1a56ec55335ab8"
+    },
+    {
+      "canonical_name": "mortality",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "mortality",
+      "chunk_id": "chk_b7d9dfcfeb20b161ee1a56ec55335ab8"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

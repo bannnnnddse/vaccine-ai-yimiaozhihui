@@ -1,0 +1,60 @@
+{
+  "chunk_id": "19856759d3b4fec0d9a64db6d626346e22b3a2254bfe276287c08d3ce6db11bd",
+  "content_hash": "4c25cd56fe8a070c417d300e6a4acc95f97ad70e657dab2453b50d371af5fe27",
+  "entities": [
+    {
+      "canonical_name": "yellow fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "yellow fever",
+      "chunk_id": "19856759d3b4fec0d9a64db6d626346e22b3a2254bfe276287c08d3ce6db11bd"
+    },
+    {
+      "canonical_name": "YF-17D",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "YF-17D",
+      "chunk_id": "19856759d3b4fec0d9a64db6d626346e22b3a2254bfe276287c08d3ce6db11bd"
+    },
+    {
+      "canonical_name": "smallpox",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "smallpox",
+      "chunk_id": "19856759d3b4fec0d9a64db6d626346e22b3a2254bfe276287c08d3ce6db11bd"
+    },
+    {
+      "canonical_name": "influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus",
+      "chunk_id": "19856759d3b4fec0d9a64db6d626346e22b3a2254bfe276287c08d3ce6db11bd"
+    },
+    {
+      "canonical_name": "T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cells",
+      "chunk_id": "19856759d3b4fec0d9a64db6d626346e22b3a2254bfe276287c08d3ce6db11bd"
+    },
+    {
+      "canonical_name": "DNA-based vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA-based vaccines",
+      "chunk_id": "19856759d3b4fec0d9a64db6d626346e22b3a2254bfe276287c08d3ce6db11bd"
+    },
+    {
+      "canonical_name": "viral vectors",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "viral vectors",
+      "chunk_id": "19856759d3b4fec0d9a64db6d626346e22b3a2254bfe276287c08d3ce6db11bd"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

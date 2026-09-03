@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_1c3bad91d12ebcd8447cff54503e896a",
+  "content_hash": "9cc614447f41675b3ed4870f5d11d871e400449592580e0bb69696b33704b286",
+  "entities": [
+    {
+      "canonical_name": "Candida infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Candida infection",
+      "chunk_id": "chk_1c3bad91d12ebcd8447cff54503e896a"
+    },
+    {
+      "canonical_name": "Vaccinia virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Vaccinia virus",
+      "chunk_id": "chk_1c3bad91d12ebcd8447cff54503e896a"
+    },
+    {
+      "canonical_name": "HIV-1 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV-1 infection",
+      "chunk_id": "chk_1c3bad91d12ebcd8447cff54503e896a"
+    },
+    {
+      "canonical_name": "CMV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CMV infection",
+      "chunk_id": "chk_1c3bad91d12ebcd8447cff54503e896a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e0168c84d2db65edff39ac7cabbef812",
+  "content_hash": "6e6a15ef5db8bb60b32fe2f5291bcd778d2a5d3133224df777cfe468fda28fc2",
+  "entities": [
+    {
+      "canonical_name": "respiratory syncytial virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "respiratory syncytial virus",
+      "chunk_id": "chk_e0168c84d2db65edff39ac7cabbef812"
+    },
+    {
+      "canonical_name": "young children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "young children",
+      "chunk_id": "chk_e0168c84d2db65edff39ac7cabbef812"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

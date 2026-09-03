@@ -1,0 +1,45 @@
+{
+  "chunk_id": "68acea4cade2f835681c6a2432c003b29a917da6776aa920afe9c16c0b4c14d7",
+  "content_hash": "3d1b3c007adfff10d59d1f5b67e14a6c5648273f5f5ad25293d3e016a3de3e19",
+  "entities": [
+    {
+      "canonical_name": "RSV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSV vaccines",
+      "chunk_id": "68acea4cade2f835681c6a2432c003b29a917da6776aa920afe9c16c0b4c14d7"
+    },
+    {
+      "canonical_name": "RSV-related LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related LRTD",
+      "chunk_id": "68acea4cade2f835681c6a2432c003b29a917da6776aa920afe9c16c0b4c14d7"
+    },
+    {
+      "canonical_name": "Ad26.RSV.preF",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad26.RSV.preF",
+      "chunk_id": "68acea4cade2f835681c6a2432c003b29a917da6776aa920afe9c16c0b4c14d7"
+    },
+    {
+      "canonical_name": "RSV-LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-LRTD",
+      "chunk_id": "68acea4cade2f835681c6a2432c003b29a917da6776aa920afe9c16c0b4c14d7"
+    },
+    {
+      "canonical_name": "RSV-related ARI",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related ARI",
+      "chunk_id": "68acea4cade2f835681c6a2432c003b29a917da6776aa920afe9c16c0b4c14d7"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

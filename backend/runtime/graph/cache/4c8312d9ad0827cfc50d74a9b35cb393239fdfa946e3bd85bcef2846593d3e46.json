@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_290c8af87fc9a425f281610898a9290f",
+  "content_hash": "4f82ef2b1714ba7cc33be792fae4fbf8766fdc4b82cbce4d6cd1358e22929102",
+  "entities": [
+    {
+      "canonical_name": "Vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Vaccines",
+      "chunk_id": "chk_290c8af87fc9a425f281610898a9290f"
+    },
+    {
+      "canonical_name": "allergy",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "allergy",
+      "chunk_id": "chk_290c8af87fc9a425f281610898a9290f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote"
+  ]
+}

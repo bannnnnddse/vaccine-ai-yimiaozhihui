@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_a047e3e2288f215aa03f87252118d379",
+  "content_hash": "843e3749b217ff6875ea52fea2acf3783abc693d218552fcdaee6b006324301b",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_a047e3e2288f215aa03f87252118d379"
+    },
+    {
+      "canonical_name": "IL-2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-2",
+      "chunk_id": "chk_a047e3e2288f215aa03f87252118d379"
+    },
+    {
+      "canonical_name": "TNF",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TNF",
+      "chunk_id": "chk_a047e3e2288f215aa03f87252118d379"
+    },
+    {
+      "canonical_name": "CD4 + T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4 + T cells",
+      "chunk_id": "chk_a047e3e2288f215aa03f87252118d379"
+    },
+    {
+      "canonical_name": "IFN-γ",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFN-γ",
+      "chunk_id": "chk_a047e3e2288f215aa03f87252118d379"
+    },
+    {
+      "canonical_name": "memory T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory T cells",
+      "chunk_id": "chk_a047e3e2288f215aa03f87252118d379"
+    },
+    {
+      "canonical_name": "IL-4",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-4",
+      "chunk_id": "chk_a047e3e2288f215aa03f87252118d379"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

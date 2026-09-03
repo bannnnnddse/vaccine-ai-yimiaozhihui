@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_ccd9f30c7dee4615f2d6599d773b87f3",
+  "content_hash": "e6d933578383f6c0ea6045b4cdb7dee6f7b7f7756c749ff7f9a83ea818604a67",
+  "entities": [
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_ccd9f30c7dee4615f2d6599d773b87f3"
+    },
+    {
+      "canonical_name": "elderly",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly",
+      "chunk_id": "chk_ccd9f30c7dee4615f2d6599d773b87f3"
+    },
+    {
+      "canonical_name": "Obesity",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Obesity",
+      "chunk_id": "chk_ccd9f30c7dee4615f2d6599d773b87f3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,16 @@
+# Local environment and secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Vite / test tooling cache
+.vite/
+coverage/
+.eslintcache
+
+# OS and editor metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

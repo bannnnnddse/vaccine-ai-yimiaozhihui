@@ -1,0 +1,92 @@
+{
+  "authority_levels": {
+    "0": 5,
+    "2": 114,
+    "4": 21
+  },
+  "document_count": 140,
+  "duplicate_file_count": 3,
+  "duplicate_files": [
+    {
+      "duplicate_of": "doc_b2f476d0167806c9ce519949",
+      "relative_path": "国家政策与免疫规划/预防接种工作规范 .pdf"
+    },
+    {
+      "duplicate_of": "doc_ec5fec58f6722b0285540b24",
+      "relative_path": "常见疫苗相关介绍文件/百白破/《国家免疫规划疫苗儿童免疫程序及说明（2026 年版）PDF》（全国法定接种总表，HPV + 百白破双收录）.pdf"
+    },
+    {
+      "duplicate_of": "doc_bf38f1acf5ccd4045c23a74e",
+      "relative_path": "疫苗犹豫健康科普传播/针对疫苗错误信息的沟通干预措施.pdf"
+    }
+  ],
+  "evidence_levels": {
+    "cohort": 1,
+    "cross_sectional": 1,
+    "guideline": 12,
+    "narrative_review": 1,
+    "official_policy_or_reference": 3,
+    "randomized_controlled_trial": 1,
+    "review_unspecified": 6,
+    "science_communication": 6,
+    "systematic_review_meta_analysis": 11,
+    "unknown": 98
+  },
+  "generated_at": "2026-08-23T09:49:13.562238+00:00",
+  "low_text_page_count": 41,
+  "missing_metadata": {
+    "evidence_unknown": 98,
+    "issuer_unknown": 58,
+    "publication_date_unknown": 117,
+    "publication_year_unknown": 3,
+    "version_unknown": 132
+  },
+  "page_count": 2198,
+  "parse_failures": [],
+  "parse_status": {
+    "ocr_parsed": 1,
+    "parsed": 129,
+    "partial": 10
+  },
+  "publication_years": {
+    "1960": 1,
+    "1965": 1,
+    "1995": 1,
+    "2000": 2,
+    "2005": 1,
+    "2009": 2,
+    "2010": 1,
+    "2012": 3,
+    "2014": 2,
+    "2015": 1,
+    "2016": 8,
+    "2017": 2,
+    "2018": 3,
+    "2019": 8,
+    "2020": 20,
+    "2021": 8,
+    "2022": 18,
+    "2023": 13,
+    "2024": 18,
+    "2025": 16,
+    "2026": 8,
+    "unknown": 3
+  },
+  "review_status": {
+    "auto_classified": 1,
+    "existing_approved": 138,
+    "needs_review": 1
+  },
+  "source_types": {
+    "academic_paper": 114,
+    "download_placeholder": 4,
+    "incomplete_preview": 1,
+    "official_document": 10,
+    "official_web": 11
+  },
+  "suspected_superseded": [
+    "国家政策与免疫规划/疫苗流通和预防接种管理条例（2016修正）.md"
+  ],
+  "text_page_count": 2157,
+  "unique_content_count": 137
+}

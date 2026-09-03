@@ -1,0 +1,75 @@
+{
+  "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5",
+  "content_hash": "286bb8ba941859ee5419d798c9ab2ec47b37c1da1c9021c188233e2263d42ffb",
+  "entities": [
+    {
+      "canonical_name": "yellow fever",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "yellow fever",
+      "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5"
+    },
+    {
+      "canonical_name": "varicella zoster",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "varicella zoster",
+      "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5"
+    },
+    {
+      "canonical_name": "BCG",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG",
+      "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5"
+    },
+    {
+      "canonical_name": "measles vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles vaccines",
+      "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5"
+    },
+    {
+      "canonical_name": "thymus disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "thymus disease",
+      "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5"
+    },
+    {
+      "canonical_name": "severe viscerotropic or neurotropic disease",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "severe viscerotropic or neurotropic disease",
+      "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5"
+    },
+    {
+      "canonical_name": "live attenuated, replicating vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live attenuated, replicating vaccines",
+      "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5"
+    },
+    {
+      "canonical_name": "live vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live vaccines",
+      "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5"
+    },
+    {
+      "canonical_name": "yellow fever vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "yellow fever vaccine",
+      "chunk_id": "chk_1996791c79bf79f58da1f3930d4a56f5"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing",
+    "quote_missing",
+    "source_missing_from_quote"
+  ]
+}

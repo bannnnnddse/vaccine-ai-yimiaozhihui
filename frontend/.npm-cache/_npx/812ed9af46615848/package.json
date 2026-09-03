@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/server-github": "^2025.4.8"
+  },
+  "_npx": {
+    "packages": [
+      "@modelcontextprotocol/server-github@2025.4.8"
+    ]
+  }
+}

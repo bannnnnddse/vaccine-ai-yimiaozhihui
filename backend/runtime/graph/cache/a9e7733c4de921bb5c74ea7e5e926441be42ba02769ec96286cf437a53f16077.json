@@ -1,0 +1,19 @@
+{
+  "chunk_id": "chk_b67fef66b0c7bc6d33aaccbea73e452b",
+  "content_hash": "e116df898ad14ca2adab596786ff5ada551d3e89670d8aef18b8ff90abecc075",
+  "entities": [
+    {
+      "canonical_name": "SARSCoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARSCoV-2",
+      "chunk_id": "chk_b67fef66b0c7bc6d33aaccbea73e452b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "llm_forbidden_relation",
+    "llm_forbidden_relation"
+  ]
+}

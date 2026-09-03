@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_1891c43c8b5bbc2d20967bc6e1b2a517",
+  "content_hash": "bb17785703f995aec2ee463c7bebff140bb26585ef937a5c233830c50797f5ed",
+  "entities": [
+    {
+      "canonical_name": "Pfizer-BioNTech",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pfizer-BioNTech",
+      "chunk_id": "chk_1891c43c8b5bbc2d20967bc6e1b2a517"
+    },
+    {
+      "canonical_name": "Moderna vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Moderna vaccines",
+      "chunk_id": "chk_1891c43c8b5bbc2d20967bc6e1b2a517"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "chk_1891c43c8b5bbc2d20967bc6e1b2a517"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f9792d042a0dd343542e3a1a77085bdf",
+  "content_hash": "2e15ff337ba3836e2ddd4d08e55d55221ea25dde1862734bb320799ae73dfde2",
+  "entities": [
+    {
+      "canonical_name": "NK cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NK cells",
+      "chunk_id": "chk_f9792d042a0dd343542e3a1a77085bdf"
+    },
+    {
+      "canonical_name": "monocytes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "monocytes",
+      "chunk_id": "chk_f9792d042a0dd343542e3a1a77085bdf"
+    },
+    {
+      "canonical_name": "cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cytokines",
+      "chunk_id": "chk_f9792d042a0dd343542e3a1a77085bdf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

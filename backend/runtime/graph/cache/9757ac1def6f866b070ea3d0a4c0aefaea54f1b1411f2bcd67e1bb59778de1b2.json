@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_d47f7e0b559805bec77965fe61d9a12a",
+  "content_hash": "5b1db10f9bcc963d524592bb8666d15a176e95f74f3f5d9755956343c601a663",
+  "entities": [
+    {
+      "canonical_name": "influenza A/ H1N1 pandemic",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza A/ H1N1 pandemic",
+      "chunk_id": "chk_d47f7e0b559805bec77965fe61d9a12a"
+    },
+    {
+      "canonical_name": "diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diabetes",
+      "chunk_id": "chk_d47f7e0b559805bec77965fe61d9a12a"
+    },
+    {
+      "canonical_name": "patients with diabetes",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients with diabetes",
+      "chunk_id": "chk_d47f7e0b559805bec77965fe61d9a12a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

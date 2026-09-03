@@ -1,0 +1,43 @@
+{
+  "chunk_id": "b0fb26837b9eebb86611326cfb55c68827d23b2588dd2020e6006ae58f2aabd5",
+  "content_hash": "76b4842a8f71ebc4f25addcc3ca9eb51b631f677a6df8790e8f82e32c58b856e",
+  "entities": [
+    {
+      "canonical_name": "RSV-related LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related LRTD",
+      "chunk_id": "b0fb26837b9eebb86611326cfb55c68827d23b2588dd2020e6006ae58f2aabd5"
+    },
+    {
+      "canonical_name": "RSV-related ARI",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related ARI",
+      "chunk_id": "b0fb26837b9eebb86611326cfb55c68827d23b2588dd2020e6006ae58f2aabd5"
+    },
+    {
+      "canonical_name": "RSV-related severe LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-related severe LRTD",
+      "chunk_id": "b0fb26837b9eebb86611326cfb55c68827d23b2588dd2020e6006ae58f2aabd5"
+    },
+    {
+      "canonical_name": "adverse events",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "adverse events",
+      "chunk_id": "b0fb26837b9eebb86611326cfb55c68827d23b2588dd2020e6006ae58f2aabd5"
+    },
+    {
+      "canonical_name": "serious AEs",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "serious AEs",
+      "chunk_id": "b0fb26837b9eebb86611326cfb55c68827d23b2588dd2020e6006ae58f2aabd5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

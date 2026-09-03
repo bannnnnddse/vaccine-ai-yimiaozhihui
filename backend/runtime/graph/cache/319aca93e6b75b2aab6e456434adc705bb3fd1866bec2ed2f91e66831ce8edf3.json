@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_35ff57f31c8b77565fbb7829e536ec02",
+  "content_hash": "60f2b8d989cad624cbb27bcd64271d24491a0134f61c226c430ef311e88d15b4",
+  "entities": [
+    {
+      "canonical_name": "Only females",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Only females",
+      "chunk_id": "chk_35ff57f31c8b77565fbb7829e536ec02"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

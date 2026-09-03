@@ -1,0 +1,39 @@
+{
+  "chunk_id": "chk_a3da3d684969dd0d7c79fe5bd081298e",
+  "content_hash": "cd53be76793d41495b402d702d5a369346f516c407f9b8731e2ea0096f739f6d",
+  "entities": [
+    {
+      "canonical_name": "TB vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "TB vaccine",
+      "chunk_id": "chk_a3da3d684969dd0d7c79fe5bd081298e"
+    },
+    {
+      "canonical_name": "Convidecia Air",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Convidecia Air",
+      "chunk_id": "chk_a3da3d684969dd0d7c79fe5bd081298e"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_a3da3d684969dd0d7c79fe5bd081298e"
+    },
+    {
+      "canonical_name": "T-cell immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell immunity",
+      "chunk_id": "chk_a3da3d684969dd0d7c79fe5bd081298e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

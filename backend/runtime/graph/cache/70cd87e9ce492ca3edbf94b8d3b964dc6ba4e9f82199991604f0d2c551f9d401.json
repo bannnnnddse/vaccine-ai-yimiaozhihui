@@ -1,0 +1,99 @@
+{
+  "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2",
+  "content_hash": "26516af39bda21826fcab200c883a99495afe71ad12862f5f359531346e2d5c5",
+  "entities": [
+    {
+      "canonical_name": "Sinopharm",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Sinopharm",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "Acute Coronary Syndrome",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Acute Coronary Syndrome",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "Double vessel coronary artery disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Double vessel coronary artery disease",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "GBS",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "GBS",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "CVA",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CVA",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "TIA",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "TIA",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "High Blood pressure",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "High Blood pressure",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "Dizziness and Unconsciousness",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Dizziness and Unconsciousness",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "Severe vomiting and Chest discomfort & pain Heart attack",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Severe vomiting and Chest discomfort & pain Heart attack",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "Unconscious and Lower Limb Paralysis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Unconscious and Lower Limb Paralysis",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "Heaviness of Tongue, Weakness left side of body, Fever, Severe headache, High Blood pressure",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Heaviness of Tongue, Weakness left side of body, Fever, Severe headache, High Blood pressure",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "Severe Headache, Heaviness of Tongue, High-Grade fever, Diplopia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Severe Headache, Heaviness of Tongue, High-Grade fever, Diplopia",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    },
+    {
+      "canonical_name": "Slurring of speech, Severe Headache, High Blood pressure, Right Side body weakness",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Slurring of speech, Severe Headache, High Blood pressure, Right Side body weakness",
+      "chunk_id": "chk_7d30b40967e53e97320b10483fb251f2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

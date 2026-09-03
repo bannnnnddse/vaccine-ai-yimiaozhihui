@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_b2cc4bac391ed6e8680588ff24bd432e",
+  "content_hash": "21e2b81a14b511f1a3bac1b119ebc02dfed67b0ef34cadc5c851f8594b07242c",
+  "entities": [
+    {
+      "canonical_name": "interleukin-12-enhanced multiantigen DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "interleukin-12-enhanced multiantigen DNA vaccine",
+      "chunk_id": "chk_b2cc4bac391ed6e8680588ff24bd432e"
+    },
+    {
+      "canonical_name": "HIV-1 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HIV-1 infection",
+      "chunk_id": "chk_b2cc4bac391ed6e8680588ff24bd432e"
+    },
+    {
+      "canonical_name": "therapeutic DNA vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "therapeutic DNA vaccination",
+      "chunk_id": "chk_b2cc4bac391ed6e8680588ff24bd432e"
+    },
+    {
+      "canonical_name": "acute/early HIV-1 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "acute/early HIV-1 infection",
+      "chunk_id": "chk_b2cc4bac391ed6e8680588ff24bd432e"
+    },
+    {
+      "canonical_name": "CD8þ T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD8þ T cells",
+      "chunk_id": "chk_b2cc4bac391ed6e8680588ff24bd432e"
+    },
+    {
+      "canonical_name": "T helper cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T helper cells",
+      "chunk_id": "chk_b2cc4bac391ed6e8680588ff24bd432e"
+    },
+    {
+      "canonical_name": "hepatitis B virus DNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B virus DNA vaccine",
+      "chunk_id": "chk_b2cc4bac391ed6e8680588ff24bd432e"
+    },
+    {
+      "canonical_name": "hepatitis B virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "hepatitis B virus",
+      "chunk_id": "chk_b2cc4bac391ed6e8680588ff24bd432e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

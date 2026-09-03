@@ -1,0 +1,40 @@
+{
+  "chunk_id": "chk_c24c7b5b8a0b65ea5a0881fba10bf649",
+  "content_hash": "01dba3acd4a227d7c6fe8df6d4a970fd10b0a025bb4876382cb2958f64e5b51c",
+  "entities": [
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_c24c7b5b8a0b65ea5a0881fba10bf649"
+    },
+    {
+      "canonical_name": "viral infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "viral infections",
+      "chunk_id": "chk_c24c7b5b8a0b65ea5a0881fba10bf649"
+    },
+    {
+      "canonical_name": "cancers",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cancers",
+      "chunk_id": "chk_c24c7b5b8a0b65ea5a0881fba10bf649"
+    },
+    {
+      "canonical_name": "autoimmune disorders",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune disorders",
+      "chunk_id": "chk_c24c7b5b8a0b65ea5a0881fba10bf649"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "invalid_domain_range",
+    "invalid_domain_range"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_af279c66af880ac3f32ae18ac7d79374",
+  "content_hash": "cda4b4b1c7f12fc51de536f2edc631d603e21eae88790357b6e6bff8d467532b",
+  "entities": [
+    {
+      "canonical_name": "daughters",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "daughters",
+      "chunk_id": "chk_af279c66af880ac3f32ae18ac7d79374"
+    },
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_af279c66af880ac3f32ae18ac7d79374"
+    },
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_af279c66af880ac3f32ae18ac7d79374"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

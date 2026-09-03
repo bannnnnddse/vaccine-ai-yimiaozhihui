@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_283732ff7ba40678267cb2c26157bf7c",
+  "content_hash": "7b51d35c8dd1c5087b667d059bdd2c686c2ce6c95e61bbeffeba2a9ac99f12a6",
+  "entities": [
+    {
+      "canonical_name": "Plasmodium chabaudi chabaudi",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Plasmodium chabaudi chabaudi",
+      "chunk_id": "chk_283732ff7ba40678267cb2c26157bf7c"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_283732ff7ba40678267cb2c26157bf7c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

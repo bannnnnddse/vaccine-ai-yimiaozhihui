@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_8fdecdad3f1f3fad4f9f35dec76e068c",
+  "content_hash": "8eeff790974902e771859dce5ca7c01825b0c2ce0e7e4dee7fd3d7a4758145db",
+  "entities": [
+    {
+      "canonical_name": "INO-4800",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "INO-4800",
+      "chunk_id": "chk_8fdecdad3f1f3fad4f9f35dec76e068c"
+    },
+    {
+      "canonical_name": "vaccinated volunteers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vaccinated volunteers",
+      "chunk_id": "chk_8fdecdad3f1f3fad4f9f35dec76e068c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_7defa45cb65d26e14ea38885b8403203",
+  "content_hash": "eeaef496f01cac3f9806bfef3608d12b4d02ec89e70a61c8e86e085b82f2c476",
+  "entities": [
+    {
+      "canonical_name": "alphavirus-derived replicon RNA vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "alphavirus-derived replicon RNA vaccine",
+      "chunk_id": "chk_7defa45cb65d26e14ea38885b8403203"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 neutralizing antibody",
+      "chunk_id": "chk_7defa45cb65d26e14ea38885b8403203"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_7defa45cb65d26e14ea38885b8403203"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "relation_evidence_cue_missing"
+  ]
+}

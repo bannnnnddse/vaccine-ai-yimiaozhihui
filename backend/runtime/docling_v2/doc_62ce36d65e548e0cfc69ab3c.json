@@ -1,0 +1,1051 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.10.0",
+  "name": "doc_62ce36d65e548e0cfc69ab3c",
+  "origin": {
+    "mimetype": "application/pdf",
+    "binary_hash": 14785675799184433759,
+    "filename": "doc_62ce36d65e548e0cfc69ab3c.pdf"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/1"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/3"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/texts/5"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/7"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/9"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/11"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/13"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/15"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/17"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/19"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/21"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/23"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/25"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/27"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 30.17597198486328,
+            "t": 749.3184204101562,
+            "r": 159.02120971679688,
+            "b": 734.3314819335938,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            67
+          ]
+        }
+      ],
+      "orig": "HUMAN VACCINES & IMMUNOTHERAPEUTICS 2018, VOL. 14, NO. 5, 1216\u20131217",
+      "text": "HUMAN VACCINES & IMMUNOTHERAPEUTICS 2018, VOL. 14, NO. 5, 1216\u20131217"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 30.385181427001953,
+            "t": 731.5609741210938,
+            "r": 166.8643798828125,
+            "b": 724.7615966796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "https://doi.org/10.1080/21645515.2017.1403701",
+      "text": "https://doi.org/10.1080/21645515.2017.1403701"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 30.235754013061523,
+            "t": 709.20263671875,
+            "r": 91.46290588378906,
+            "b": 702.2686767578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            10
+          ]
+        }
+      ],
+      "orig": "COMMENTARY",
+      "text": "COMMENTARY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 30.867380142211914,
+            "t": 688.5001831054688,
+            "r": 292.2928466796875,
+            "b": 675.3894653320312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "Public policy for meningococcal vaccination",
+      "text": "Public policy for meningococcal vaccination",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 29.918943405151367,
+            "t": 659.96240234375,
+            "r": 104.2359390258789,
+            "b": 652.4306640625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "J. Claire Cameron",
+      "text": "J. Claire Cameron",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 30.513708114624023,
+            "t": 640.9415283203125,
+            "r": 359.1187744140625,
+            "b": 632.7822265625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "Health Protection Scotland, NHS National Services Scotland, Glasgow, Scotland, United Kingdom",
+      "text": "Health Protection Scotland, NHS National Services Scotland, Glasgow, Scotland, United Kingdom"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 41.944007873535156,
+            "t": 602.7747802734375,
+            "r": 77.9842300415039,
+            "b": 597.5819091796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "ABSTRACT",
+      "text": "ABSTRACT",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 42.00079345703125,
+            "t": 594.143310546875,
+            "r": 438.3004150390625,
+            "b": 545.9171142578125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            474
+          ]
+        }
+      ],
+      "orig": "On an individual basis, meningococcal disease is consistently shown to be one of the most feared potential childhood infections. On a population level, any clustering of cases or increase in disease requires proactive health protection management, while epidemics can be devastating. It is therefore no surprise that developing protective meningococcal vaccines and effective strategies for their implementation has been a continuing public health priority for some decades.",
+      "text": "On an individual basis, meningococcal disease is consistently shown to be one of the most feared potential childhood infections. On a population level, any clustering of cases or increase in disease requires proactive health protection management, while epidemics can be devastating. It is therefore no surprise that developing protective meningococcal vaccines and effective strategies for their implementation has been a continuing public health priority for some decades."
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 29.96676254272461,
+            "t": 508.5987854003906,
+            "r": 282.2716979980469,
+            "b": 415.2771301269531,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            474
+          ]
+        }
+      ],
+      "orig": "On an individual basis, meningococcal disease is consistently shown to be one of the most feared potential childhood infections. On a population level, any clustering of cases or increase in disease requires proactive health protection management, while epidemics can be devastating. It is therefore no surprise that developing protective meningococcal vaccines and effective strategies for their implementation has been a continuing public health priority for some decades.",
+      "text": "On an individual basis, meningococcal disease is consistently shown to be one of the most feared potential childhood infections. On a population level, any clustering of cases or increase in disease requires proactive health protection management, while epidemics can be devastating. It is therefore no surprise that developing protective meningococcal vaccines and effective strategies for their implementation has been a continuing public health priority for some decades."
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 30.056427001953125,
+            "t": 412.9588317871094,
+            "r": 282.2598571777344,
+            "b": 319.63714599609375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            526
+          ]
+        }
+      ],
+      "orig": "On an individual basis, meningococcal disease is consistently shown to be one of the most feared potential childhood infections. On a population level, any clustering of cases or increase in disease requires proactive health protection management, while epidemics, notably Group A in the African ' meningitis belt ' can be devastating. It is therefore no surprise that developing protective meningococcal vaccines and effective strategies for their implementation has been a continuing public health priority for some decades.",
+      "text": "On an individual basis, meningococcal disease is consistently shown to be one of the most feared potential childhood infections. On a population level, any clustering of cases or increase in disease requires proactive health protection management, while epidemics, notably Group A in the African ' meningitis belt ' can be devastating. It is therefore no surprise that developing protective meningococcal vaccines and effective strategies for their implementation has been a continuing public health priority for some decades."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 29.868125915527344,
+            "t": 317.31884765625,
+            "r": 282.3184509277344,
+            "b": 128.35719299316406,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1028
+          ]
+        }
+      ],
+      "orig": "Peaks of increased meningococcal disease coincided with the two World Wars, highlighting links between disease and wider social contexts. Initial vaccines were therefore predominantly pioneered by the military, with the development of polysaccharide products targeting meningococcal group A, C W and Y polysaccharide capsular antigens. In the civilian population, eligibility for vaccination was largely based on individual clinical risk factors or health protection grounds for incident management. Wider, population-based approaches, were not employed, due to relatively low incidence, and also limited duration of protection, poor immunity in the youngest age groups, who generally, second only to adolescents, had the highest incidence of infection, and increasing evidence of hyporesponsiveness. Exceptions were measures to counter large-scale epidemics, particularly in sub-Saharan Africa, where immediate prevention of disease overrode any of these other considerations, and travel to high risk contexts such as the Hajj.",
+      "text": "Peaks of increased meningococcal disease coincided with the two World Wars, highlighting links between disease and wider social contexts. Initial vaccines were therefore predominantly pioneered by the military, with the development of polysaccharide products targeting meningococcal group A, C W and Y polysaccharide capsular antigens. In the civilian population, eligibility for vaccination was largely based on individual clinical risk factors or health protection grounds for incident management. Wider, population-based approaches, were not employed, due to relatively low incidence, and also limited duration of protection, poor immunity in the youngest age groups, who generally, second only to adolescents, had the highest incidence of infection, and increasing evidence of hyporesponsiveness. Exceptions were measures to counter large-scale epidemics, particularly in sub-Saharan Africa, where immediate prevention of disease overrode any of these other considerations, and travel to high risk contexts such as the Hajj."
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 29.946819305419922,
+            "t": 126.03892517089844,
+            "r": 282.04449462890625,
+            "b": 80.56566619873047,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            238
+          ]
+        }
+      ],
+      "orig": "The approach to vaccination changed with the development of meningococcal conjugate vaccines. These products followed the same approach pioneered for Haemophilus influenzae type b, whereby binding outer membrane polysaccharide to a larger",
+      "text": "The approach to vaccination changed with the development of meningococcal conjugate vaccines. These products followed the same approach pioneered for Haemophilus influenzae type b, whereby binding outer membrane polysaccharide to a larger"
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 456.709228515625,
+            "t": 602.7822875976562,
+            "r": 517.2913208007812,
+            "b": 597.5819091796875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "ARTICLE HISTORY",
+      "text": "ARTICLE HISTORY",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 456.7958984375,
+            "t": 594.318115234375,
+            "r": 541.024169921875,
+            "b": 578.1871948242188,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "Received 12 October 2017 Accepted 7 November 2017",
+      "text": "Received 12 October 2017 Accepted 7 November 2017"
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 457.06787109375,
+            "t": 568.9365844726562,
+            "r": 496.0758972167969,
+            "b": 563.7362060546875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "KEYWORDS",
+      "text": "KEYWORDS",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 456.660400390625,
+            "t": 560.472412109375,
+            "r": 543.4734497070312,
+            "b": 526.1941528320312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            85
+          ]
+        }
+      ],
+      "orig": "Public Policy; Meningococcal Disease; Immunisation; Meningitis; Vaccines; Vaccinology",
+      "text": "Public Policy; Meningococcal Disease; Immunisation; Meningitis; Vaccines; Vaccinology"
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 294.3940734863281,
+            "t": 508.6017761230469,
+            "r": 545.89697265625,
+            "b": 463.12847900390625,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "carrier protein, such as modified tetanus or diphtheria toxoid, altered the immune response to a T-cell dependant process, resulting in immunity being achieved even for young infants, and this being longer lasting.",
+      "text": "carrier protein, such as modified tetanus or diphtheria toxoid, altered the immune response to a T-cell dependant process, resulting in immunity being achieved even for young infants, and this being longer lasting."
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 294.0553283691406,
+            "t": 460.8102111816406,
+            "r": 547.2250366210938,
+            "b": 104.4928207397461,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1818
+          ]
+        }
+      ],
+      "orig": "The final impetus for the development of conjugate vaccines was increasing incidence of group C disease in the UK and North America in the late 1990s. Features included exponentially increasing disease, with notable severity, including high case fatality and outbreaks in schools and universities. Even with these concerning rates of disease, though, vaccine licensure and policy decisions had to be based on immunological correlates, rather than disease endpoints. Such decisions for vaccine implementation represented new territory for decision-making, the correct judgement of which has been firmly borne out as group C disease in the UK plummeted following implementation. This was the result of not just vaccinated individuals being directly protected against disease, but also through the indirect protection achieved through reduction of carriage, since the intensive campaign eventually reached all aged less than 25 years across the whole UK in a relatively short time period. The knowledge gained from this experience on the importance of considering the impact of vaccination not just on an individual basis, but also in the context of its impact on meningococcal population biology, through carriage, was seminal, informing the approach of other countries. For example, The Netherlands introduced MenC vaccine from age 14 months only, plus a catch-up campaign for those up to age 19 years, relying on herd immunity for wider population protection, including in young children. Subsequently, the UK has evolved its MenC schedule, progressively reducing the number of infant dose from three to two to one and eventually itself having routine vaccination against MenC from age 12 months only, while adding an adolescent booster in recognition of waning immunity for those originally vaccinated at a young age.",
+      "text": "The final impetus for the development of conjugate vaccines was increasing incidence of group C disease in the UK and North America in the late 1990s. Features included exponentially increasing disease, with notable severity, including high case fatality and outbreaks in schools and universities. Even with these concerning rates of disease, though, vaccine licensure and policy decisions had to be based on immunological correlates, rather than disease endpoints. Such decisions for vaccine implementation represented new territory for decision-making, the correct judgement of which has been firmly borne out as group C disease in the UK plummeted following implementation. This was the result of not just vaccinated individuals being directly protected against disease, but also through the indirect protection achieved through reduction of carriage, since the intensive campaign eventually reached all aged less than 25 years across the whole UK in a relatively short time period. The knowledge gained from this experience on the importance of considering the impact of vaccination not just on an individual basis, but also in the context of its impact on meningococcal population biology, through carriage, was seminal, informing the approach of other countries. For example, The Netherlands introduced MenC vaccine from age 14 months only, plus a catch-up campaign for those up to age 19 years, relying on herd immunity for wider population protection, including in young children. Subsequently, the UK has evolved its MenC schedule, progressively reducing the number of infant dose from three to two to one and eventually itself having routine vaccination against MenC from age 12 months only, while adding an adolescent booster in recognition of waning immunity for those originally vaccinated at a young age."
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 294.3542175292969,
+            "t": 102.17454528808594,
+            "r": 546.3592529296875,
+            "b": 80.56865692138672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            110
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 48.21642303466797,
+            "t": 739.3388671875,
+            "r": 299.4902038574219,
+            "b": 717.7329711914062,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            111,
+            209
+          ]
+        }
+      ],
+      "orig": "These examples illustrate that our immunisation programmes must continue to be dynamic in response to emerging scientific information, which itself must be purposively gathered, according to agreed priorities.",
+      "text": "These examples illustrate that our immunisation programmes must continue to be dynamic in response to emerging scientific information, which itself must be purposively gathered, according to agreed priorities."
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 30.155040740966797,
+            "t": 56.926090240478516,
+            "r": 136.9326171875,
+            "b": 39.6953125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "CONTACT J. Claire Cameron G2 6QE, Scotland, United Kingdom.",
+      "text": "CONTACT J. Claire Cameron G2 6QE, Scotland, United Kingdom."
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 30.121183395385742,
+            "t": 36.04092788696289,
+            "r": 92.74241638183594,
+            "b": 29.611083984375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "\u00a9 2018 Taylor & Francis",
+      "text": "\u00a9 2018 Taylor & Francis"
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 137.93722534179688,
+            "t": 56.926090240478516,
+            "r": 211.74844360351562,
+            "b": 50.486167907714844,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "clairecameron1@nhs.net",
+      "text": "clairecameron1@nhs.net"
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_footer",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 228.3579864501953,
+            "t": 56.926090240478516,
+            "r": 541.9669799804688,
+            "b": 49.6732063293457,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "NHS National Services Scotland, Health Protection Scotland, Meridian Court, 5 Cadogan Street, Glasgow",
+      "text": "NHS National Services Scotland, Health Protection Scotland, Meridian Court, 5 Cadogan Street, Glasgow"
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 381.7633972167969,
+            "t": 764.30029296875,
+            "r": 522.079345703125,
+            "b": 759.0999145507812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "HUMAN VACCINES & IMMUNOTHERAPEUTICS",
+      "text": "HUMAN VACCINES & IMMUNOTHERAPEUTICS"
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "page_header",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 549.6776123046875,
+            "t": 764.1134643554688,
+            "r": 563.82177734375,
+            "b": 759.1746215820312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            4
+          ]
+        }
+      ],
+      "orig": "1217",
+      "text": "1217"
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 47.83783721923828,
+            "t": 715.4146728515625,
+            "r": 300.2234191894531,
+            "b": 478.60467529296875,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1175
+          ]
+        }
+      ],
+      "orig": "As group C disease declined, attention in the UK turned to group B, while, for other areas of the world, this had already been the case, according to their epidemiology, group B often being the predominant endemic strain. Internationally, there are well-known dispersed examples of countries with particular group B hyper-incidence, including New Zealand, Norway and Cuba. Vaccination against meningococcal group B has always been more challenging, as the capsule polysaccharide has marked homology to glycosylated human brain tissue, necessitating a different approach than hitherto taken for groups A, C, W and Y. Historically, efforts against B were focussed on targeted approaches to the locally prevalent B clone. However, not everywhere has group B disease been associated predominantly with expansion of a single clone. So for countries where strains are more diverse, an alternative, more generic approach was required. This became possible with the application of reverse genetics, identifying functionally key core components which could be incorporated into a vaccine covering more B strains, an approach which has been applied to both currently licensed products.",
+      "text": "As group C disease declined, attention in the UK turned to group B, while, for other areas of the world, this had already been the case, according to their epidemiology, group B often being the predominant endemic strain. Internationally, there are well-known dispersed examples of countries with particular group B hyper-incidence, including New Zealand, Norway and Cuba. Vaccination against meningococcal group B has always been more challenging, as the capsule polysaccharide has marked homology to glycosylated human brain tissue, necessitating a different approach than hitherto taken for groups A, C, W and Y. Historically, efforts against B were focussed on targeted approaches to the locally prevalent B clone. However, not everywhere has group B disease been associated predominantly with expansion of a single clone. So for countries where strains are more diverse, an alternative, more generic approach was required. This became possible with the application of reverse genetics, identifying functionally key core components which could be incorporated into a vaccine covering more B strains, an approach which has been applied to both currently licensed products."
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 48.17655944824219,
+            "t": 476.2863464355469,
+            "r": 299.9864196777344,
+            "b": 418.8509521484375,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            289
+          ]
+        },
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 312.0489807128906,
+            "t": 739.3408203125,
+            "r": 564.3975830078125,
+            "b": 574.24658203125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            290,
+            1075
+          ]
+        }
+      ],
+      "orig": "Policy decisions on these vaccines initially focussed around their utility for outbreak control, as exemplified in several US universities. More widespread introduction required careful analysis of the estimated coverage of the vaccine against B strains, and to add to the complexity, also potentially against other serogroups which contained the targeted proteins, since these were not solely anti-B vaccines, but rather optimised against these strains. The UK was again the first country to universally vaccinate against group B disease. The process for this was heavily dependent on modelling and cost-effectiveness analysis, the complexity of which meaning decisions could not be taken quickly, but rather over a period of time, and in consultation with stakeholders who provided feedback. Initial indications are that this programme has also been highly successful, among vaccinated cohorts; efforts to establish any impact against carriage, upon which any wider recommendation for adolescents may depend, given the potential resultant impact on herd immunity, continue.",
+      "text": "Policy decisions on these vaccines initially focussed around their utility for outbreak control, as exemplified in several US universities. More widespread introduction required careful analysis of the estimated coverage of the vaccine against B strains, and to add to the complexity, also potentially against other serogroups which contained the targeted proteins, since these were not solely anti-B vaccines, but rather optimised against these strains. The UK was again the first country to universally vaccinate against group B disease. The process for this was heavily dependent on modelling and cost-effectiveness analysis, the complexity of which meaning decisions could not be taken quickly, but rather over a period of time, and in consultation with stakeholders who provided feedback. Initial indications are that this programme has also been highly successful, among vaccinated cohorts; efforts to establish any impact against carriage, upon which any wider recommendation for adolescents may depend, given the potential resultant impact on herd immunity, continue."
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 2,
+          "bbox": {
+            "l": 311.96832275390625,
+            "t": 571.9282836914062,
+            "r": 564.123779296875,
+            "b": 418.8528747558594,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            766
+          ]
+        }
+      ],
+      "orig": "Vaccination against meningococcal disease has been a notable public policy success in many developed countries, particularly those with sufficiently high incidence to introduce universal programmes. Efforts must continue to be made to extend this protection to more countries where indicated, something that will be further facilitated should wider spectrum vaccines become available. Meanwhile, public policy for meningococcal vaccination must continue to be highly responsive to any emerging disease, through robust and comprehensive active enhanced surveillance. Even within the past few years, increases in W disease internationally, including the UK, for which an emergency vaccination programme for adolescents and new students was introduced, testify to this.",
+      "text": "Vaccination against meningococcal disease has been a notable public policy success in many developed countries, particularly those with sufficiently high incidence to introduce universal programmes. Efforts must continue to be made to extend this protection to more countries where indicated, something that will be further facilitated should wider spectrum vaccines become available. Meanwhile, public policy for meningococcal vaccination must continue to be highly responsive to any emerging disease, through robust and comprehensive active enhanced surveillance. Even within the past few years, increases in W disease internationally, including the UK, for which an emergency vaccination programme for adolescents and new students was introduced, testify to this."
+    }
+  ],
+  "pictures": [
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 125.1047134399414,
+            "t": 60.32232666015625,
+            "r": 135.99806213378906,
+            "b": 48.85772705078125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 215.06381225585938,
+            "t": 60.468994140625,
+            "r": 225.87908935546875,
+            "b": 48.8564453125,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 443.3553466796875,
+            "t": 751.068115234375,
+            "r": 547.059326171875,
+            "b": 725.9201583862305,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 487.7452087402344,
+            "t": 713.3616790771484,
+            "r": 546.6428833007812,
+            "b": 700.4822006225586,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "annotations": []
+    }
+  ],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 593.9719848632812,
+        "height": 792.0
+      },
+      "page_no": 1
+    },
+    "2": {
+      "size": {
+        "width": 593.9719848632812,
+        "height": 792.0
+      },
+      "page_no": 2
+    }
+  }
+}

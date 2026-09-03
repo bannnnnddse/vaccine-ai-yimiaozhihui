@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_79f2ca57eb54a08e23e11dac9dddb23a",
+  "content_hash": "d6216407e6c3912e3086f644b09e98853bf810c79d3afdc3654e3d2d6796da18",
+  "entities": [
+    {
+      "canonical_name": "vulnerable patient populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "vulnerable patient populations",
+      "chunk_id": "chk_79f2ca57eb54a08e23e11dac9dddb23a"
+    },
+    {
+      "canonical_name": "RNA-based COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RNA-based COVID-19 vaccines",
+      "chunk_id": "chk_79f2ca57eb54a08e23e11dac9dddb23a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

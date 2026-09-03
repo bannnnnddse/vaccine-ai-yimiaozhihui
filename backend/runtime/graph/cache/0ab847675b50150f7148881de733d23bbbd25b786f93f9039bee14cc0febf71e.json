@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2a17a96538e0a0471b5a5f84a12c787c",
+  "content_hash": "f93cfeb4ae1e967c12ec05aec74be04c051cb6513a977f2f11a083807c053313",
+  "entities": [
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_2a17a96538e0a0471b5a5f84a12c787c"
+    },
+    {
+      "canonical_name": "memory B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "memory B cells",
+      "chunk_id": "chk_2a17a96538e0a0471b5a5f84a12c787c"
+    },
+    {
+      "canonical_name": "antigen-specific B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen-specific B cells",
+      "chunk_id": "chk_2a17a96538e0a0471b5a5f84a12c787c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_d18010e45ef7f2955c3cf5effa5101f8",
+  "content_hash": "6d849089936c910bfafc882a1dfdbd28caefdbad5df348f458896a0309fd5398",
+  "entities": [
+    {
+      "canonical_name": "traveller",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "traveller",
+      "chunk_id": "chk_d18010e45ef7f2955c3cf5effa5101f8"
+    },
+    {
+      "canonical_name": "houseboat communities",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "houseboat communities",
+      "chunk_id": "chk_d18010e45ef7f2955c3cf5effa5101f8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

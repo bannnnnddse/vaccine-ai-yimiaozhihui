@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_cdf82756c339a2b6907c03d5688bd750",
+  "content_hash": "cd17f687a25ba239edecf0610200fcda49bc5e5ffd4b6c67795c576873d4f51f",
+  "entities": [
+    {
+      "canonical_name": "Omicron variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron variant",
+      "chunk_id": "chk_cdf82756c339a2b6907c03d5688bd750"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_cdf82756c339a2b6907c03d5688bd750"
+    },
+    {
+      "canonical_name": "bivalent LNP-encapsulated mRNA vaccine, RBMRNA405",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "bivalent LNP-encapsulated mRNA vaccine, RBMRNA405",
+      "chunk_id": "chk_cdf82756c339a2b6907c03d5688bd750"
+    },
+    {
+      "canonical_name": "pseudouridine nucleoside-modified mRNAs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pseudouridine nucleoside-modified mRNAs",
+      "chunk_id": "chk_cdf82756c339a2b6907c03d5688bd750"
+    },
+    {
+      "canonical_name": "Omicron and Delta spike protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Omicron and Delta spike protein",
+      "chunk_id": "chk_cdf82756c339a2b6907c03d5688bd750"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

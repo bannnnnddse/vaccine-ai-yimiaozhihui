@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_6ebd3ab04bf88f64be16f58b724842e8",
+  "content_hash": "0cc4694f50bac03a970e2f10b88730fc7f29b0ee7f204156e00913be5b223033",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 vaccine",
+      "chunk_id": "chk_6ebd3ab04bf88f64be16f58b724842e8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

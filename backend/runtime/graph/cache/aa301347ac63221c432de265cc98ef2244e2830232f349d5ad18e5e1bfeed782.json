@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_d84158f8772d1f16bc6fbd05d61b78a0",
+  "content_hash": "86d699cbb8745feecd5b4d4619642fbc468b039f6807d08ab914b1211a3acf22",
+  "entities": [
+    {
+      "canonical_name": "live attenuated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "live attenuated vaccines",
+      "chunk_id": "chk_d84158f8772d1f16bc6fbd05d61b78a0"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "chk_d84158f8772d1f16bc6fbd05d61b78a0"
+    },
+    {
+      "canonical_name": "pandemic vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pandemic vaccines",
+      "chunk_id": "chk_d84158f8772d1f16bc6fbd05d61b78a0"
+    },
+    {
+      "canonical_name": "vaccine candidates",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine candidates",
+      "chunk_id": "chk_d84158f8772d1f16bc6fbd05d61b78a0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

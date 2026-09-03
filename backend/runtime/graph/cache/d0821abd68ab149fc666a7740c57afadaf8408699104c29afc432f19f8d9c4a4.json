@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_35b4a04d57faaf1e934fa22d125931ea",
+  "content_hash": "1e55898d9fd3c7f9482b49d5ebf9e6c415220a9393564ad388fd0cf22090b415",
+  "entities": [
+    {
+      "canonical_name": "non-vaccinated participants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "non-vaccinated participants",
+      "chunk_id": "chk_35b4a04d57faaf1e934fa22d125931ea"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

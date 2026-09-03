@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_34fd1bd05262364eb1bf5f25fd956d0f",
+  "content_hash": "2d858a10dcc75bbdf289c6d3f4962ad1b51cc1b6af5e086b47e35b9910b0dc74",
+  "entities": [
+    {
+      "canonical_name": "diabetes-associated cardiovascular diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diabetes-associated cardiovascular diseases",
+      "chunk_id": "chk_34fd1bd05262364eb1bf5f25fd956d0f"
+    },
+    {
+      "canonical_name": "fibrosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "fibrosis",
+      "chunk_id": "chk_34fd1bd05262364eb1bf5f25fd956d0f"
+    },
+    {
+      "canonical_name": "alpha-galactosylceramide",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "alpha-galactosylceramide",
+      "chunk_id": "chk_34fd1bd05262364eb1bf5f25fd956d0f"
+    },
+    {
+      "canonical_name": "ovalbumin",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ovalbumin",
+      "chunk_id": "chk_34fd1bd05262364eb1bf5f25fd956d0f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

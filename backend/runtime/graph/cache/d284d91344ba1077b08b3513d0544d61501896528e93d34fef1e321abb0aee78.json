@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_1c652cae2d8395850385c1bbd4f4fe95",
+  "content_hash": "d796e8b1a79f6a40ab93e544e5d4f0b5cc10c3722f61f5e9a0b01cbc742870e9",
+  "entities": [
+    {
+      "canonical_name": "EBV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EBV",
+      "chunk_id": "chk_1c652cae2d8395850385c1bbd4f4fe95"
+    },
+    {
+      "canonical_name": "EBV vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EBV vaccines",
+      "chunk_id": "chk_1c652cae2d8395850385c1bbd4f4fe95"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

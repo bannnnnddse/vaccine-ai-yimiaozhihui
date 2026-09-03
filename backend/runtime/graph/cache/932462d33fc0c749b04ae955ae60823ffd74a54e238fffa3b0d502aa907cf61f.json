@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_c06377d6e6ec396274284ef47a7e78e4",
+  "content_hash": "f762342846e36d0fd865648c622b3ec59b22cea690aa0eea628005d7e928d396",
+  "entities": [
+    {
+      "canonical_name": "parents",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "parents",
+      "chunk_id": "chk_c06377d6e6ec396274284ef47a7e78e4"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_c06377d6e6ec396274284ef47a7e78e4"
+    },
+    {
+      "canonical_name": "adolescent",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescent",
+      "chunk_id": "chk_c06377d6e6ec396274284ef47a7e78e4"
+    },
+    {
+      "canonical_name": "cervical cancer",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical cancer",
+      "chunk_id": "chk_c06377d6e6ec396274284ef47a7e78e4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

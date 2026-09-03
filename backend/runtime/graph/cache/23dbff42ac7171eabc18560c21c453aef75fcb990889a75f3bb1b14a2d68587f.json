@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_08a5d59fdfdf5e7583afde466f8f7bad",
+  "content_hash": "2fb9650e7797690efee6c7aca054d74dc3f189ef04c280d09578d129abdb6e9d",
+  "entities": [
+    {
+      "canonical_name": "mRNA-1345",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1345",
+      "chunk_id": "chk_08a5d59fdfdf5e7583afde466f8f7bad"
+    },
+    {
+      "canonical_name": "RSVPreF3 OA",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RSVPreF3 OA",
+      "chunk_id": "chk_08a5d59fdfdf5e7583afde466f8f7bad"
+    },
+    {
+      "canonical_name": "RSV-LRTD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV-LRTD",
+      "chunk_id": "chk_08a5d59fdfdf5e7583afde466f8f7bad"
+    },
+    {
+      "canonical_name": "Severe disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Severe disease",
+      "chunk_id": "chk_08a5d59fdfdf5e7583afde466f8f7bad"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

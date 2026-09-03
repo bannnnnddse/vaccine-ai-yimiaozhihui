@@ -1,0 +1,50 @@
+{
+  "chunk_id": "70395144d7e4dbde5d39a7619ac1712d642b55bfafde326f34658e5e228ac849",
+  "content_hash": "504de3aa252ecce6a90b7d2ea1e8a7fc389487298eee5b88572ad30c72b0676d",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "70395144d7e4dbde5d39a7619ac1712d642b55bfafde326f34658e5e228ac849"
+    },
+    {
+      "canonical_name": "pregnancy",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnancy",
+      "chunk_id": "70395144d7e4dbde5d39a7619ac1712d642b55bfafde326f34658e5e228ac849"
+    },
+    {
+      "canonical_name": "Lactating women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Lactating women",
+      "chunk_id": "70395144d7e4dbde5d39a7619ac1712d642b55bfafde326f34658e5e228ac849"
+    },
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination",
+      "chunk_id": "70395144d7e4dbde5d39a7619ac1712d642b55bfafde326f34658e5e228ac849"
+    },
+    {
+      "canonical_name": "SARS antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SARS antibodies",
+      "chunk_id": "70395144d7e4dbde5d39a7619ac1712d642b55bfafde326f34658e5e228ac849"
+    },
+    {
+      "canonical_name": "pregnant women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "pregnant women",
+      "chunk_id": "70395144d7e4dbde5d39a7619ac1712d642b55bfafde326f34658e5e228ac849"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

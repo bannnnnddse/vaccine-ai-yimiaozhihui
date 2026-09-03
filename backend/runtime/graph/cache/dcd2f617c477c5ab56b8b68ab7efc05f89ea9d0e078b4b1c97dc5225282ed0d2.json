@@ -1,0 +1,102 @@
+{
+  "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c",
+  "content_hash": "476313a1498b48e1c9df592974d1fd75c9c2aeedd2b2b0f3be3746005f9beb6a",
+  "entities": [
+    {
+      "canonical_name": "interferon-alpha/ beta receptor",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "interferon-alpha/ beta receptor",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "MDA5",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MDA5",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "NF-kB",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NF-kB",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "pro–caspase-1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pro–caspase-1",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "pro–interleukin (IL)-1b",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pro–interleukin (IL)-1b",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "pro–IL-18",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pro–IL-18",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "NLRP3",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NLRP3",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "active caspase-1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "active caspase-1",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "pro–IL-1b",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pro–IL-1b",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "pro–IL-18",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pro–IL-18",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "IL-1b",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-1b",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "IL-18",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-18",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    },
+    {
+      "canonical_name": "gasdermin D",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "gasdermin D",
+      "chunk_id": "chk_a87b6c9e0364b841b7b188beb958605c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing",
+    "relation_evidence_cue_missing"
+  ]
+}

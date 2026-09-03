@@ -1,0 +1,52 @@
+{
+  "chunk_id": "chk_12b37121b1a784d55f4da289a713acb3",
+  "content_hash": "e8d04af6cac296555a11acb0e3c5e0d9734461682758995db03db3eff12905e9",
+  "entities": [
+    {
+      "canonical_name": "Bacteroides",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bacteroides",
+      "chunk_id": "chk_12b37121b1a784d55f4da289a713acb3"
+    },
+    {
+      "canonical_name": "Bacteroides thetaiotaomicron",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bacteroides thetaiotaomicron",
+      "chunk_id": "chk_12b37121b1a784d55f4da289a713acb3"
+    },
+    {
+      "canonical_name": "hepatitis B virus antigenspecific antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "hepatitis B virus antigenspecific antibodies",
+      "chunk_id": "chk_12b37121b1a784d55f4da289a713acb3"
+    },
+    {
+      "canonical_name": "hepatitis B virus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B virus vaccine",
+      "chunk_id": "chk_12b37121b1a784d55f4da289a713acb3"
+    },
+    {
+      "canonical_name": "CD4+ 4+ T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4+ 4+ T cells",
+      "chunk_id": "chk_12b37121b1a784d55f4da289a713acb3"
+    },
+    {
+      "canonical_name": "E coli",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "E coli",
+      "chunk_id": "chk_12b37121b1a784d55f4da289a713acb3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

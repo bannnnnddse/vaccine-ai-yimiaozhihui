@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_117d8813df2d0156e616c734b0322983",
+  "content_hash": "ac62ebd5264c857370bcf1c24017e74e722f9bec1d96fde8c21b174f91b086a7",
+  "entities": [
+    {
+      "canonical_name": "poliomyelitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "poliomyelitis",
+      "chunk_id": "chk_117d8813df2d0156e616c734b0322983"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_117d8813df2d0156e616c734b0322983"
+    },
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_117d8813df2d0156e616c734b0322983"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_117d8813df2d0156e616c734b0322983"
+    },
+    {
+      "canonical_name": "paediatric malignancy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "paediatric malignancy",
+      "chunk_id": "chk_117d8813df2d0156e616c734b0322983"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

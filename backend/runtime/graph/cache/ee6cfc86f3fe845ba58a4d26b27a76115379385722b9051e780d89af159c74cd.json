@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_c2e5c33240c7b1c47876da551e704ee8",
+  "content_hash": "61b2401bf2e5556544a5af7982c3fc88a174f807581413a7c1c22255ada59b57",
+  "entities": [
+    {
+      "canonical_name": "disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "disease",
+      "chunk_id": "chk_c2e5c33240c7b1c47876da551e704ee8"
+    },
+    {
+      "canonical_name": "pathogen",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogen",
+      "chunk_id": "chk_c2e5c33240c7b1c47876da551e704ee8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

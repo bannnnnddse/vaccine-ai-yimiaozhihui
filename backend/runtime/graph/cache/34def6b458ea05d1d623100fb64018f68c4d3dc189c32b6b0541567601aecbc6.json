@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_872706bc5477d33d6d187e812002a82b",
+  "content_hash": "f430cf8bcb2af7726fcebedbbd83c8211a0849547abee0827489268333a2b102",
+  "entities": [
+    {
+      "canonical_name": "M72/AS01E vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "M72/AS01E vaccine",
+      "chunk_id": "chk_872706bc5477d33d6d187e812002a82b"
+    },
+    {
+      "canonical_name": "tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis",
+      "chunk_id": "chk_872706bc5477d33d6d187e812002a82b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

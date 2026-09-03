@@ -1,0 +1,99 @@
+{
+  "chunk_id": "chk_835af9b06fa14565519a9c735b20348e",
+  "content_hash": "9928658ea30a82c54ff467efc0906e1b3693421b97e79b8f5bbed4d09b2606f7",
+  "entities": [
+    {
+      "canonical_name": "PPSV23",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PPSV23",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "7-valent PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "7-valent PCV",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "PCV7",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV7",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "10-valent PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "10-valent PCV",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "PCV10",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV10",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "13-valent PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "13-valent PCV",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "PCV13",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV13",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "15-valent PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "15-valent PCV",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "PCV15",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV15",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "20-valent PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "20-valent PCV",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "PCV20",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV20",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "21-valent PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "21-valent PCV",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    },
+    {
+      "canonical_name": "PCV21",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV21",
+      "chunk_id": "chk_835af9b06fa14565519a9c735b20348e"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

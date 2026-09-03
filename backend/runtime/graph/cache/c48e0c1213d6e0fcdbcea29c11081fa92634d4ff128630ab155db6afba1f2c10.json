@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_8331f0f27fc70fe4c5fd787c90d8aeae",
+  "content_hash": "1c357eda480cb23cc682f98882aba0c4a74240d86d962a6d16b1878af7fb13a8",
+  "entities": [
+    {
+      "canonical_name": "myocarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "myocarditis",
+      "chunk_id": "chk_8331f0f27fc70fe4c5fd787c90d8aeae"
+    },
+    {
+      "canonical_name": "pericarditis",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "pericarditis",
+      "chunk_id": "chk_8331f0f27fc70fe4c5fd787c90d8aeae"
+    },
+    {
+      "canonical_name": "mRNA COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA COVID-19 vaccination",
+      "chunk_id": "chk_8331f0f27fc70fe4c5fd787c90d8aeae"
+    },
+    {
+      "canonical_name": "BNT162b2",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2",
+      "chunk_id": "chk_8331f0f27fc70fe4c5fd787c90d8aeae"
+    },
+    {
+      "canonical_name": "mRNA-1273 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA-1273 vaccines",
+      "chunk_id": "chk_8331f0f27fc70fe4c5fd787c90d8aeae"
+    },
+    {
+      "canonical_name": "COVID-19 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccination",
+      "chunk_id": "chk_8331f0f27fc70fe4c5fd787c90d8aeae"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

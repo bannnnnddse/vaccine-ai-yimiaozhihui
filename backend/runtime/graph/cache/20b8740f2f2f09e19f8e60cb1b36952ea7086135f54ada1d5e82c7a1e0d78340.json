@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_306dc7dcb3bb8261f13eead01bde2ad9",
+  "content_hash": "3c9610e409e9c204df94364cde9878fbd61db78fa2b5d4d950465425d6e556fe",
+  "entities": [
+    {
+      "canonical_name": "百白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "百白破疫苗",
+      "chunk_id": "chk_306dc7dcb3bb8261f13eead01bde2ad9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

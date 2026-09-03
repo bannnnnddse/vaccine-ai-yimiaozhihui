@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_c5e876253ef4ae97f3380293fcea55f0",
+  "content_hash": "8fa9c6756312cb1cc6c2c8f3ff71d726dbe3c6e140868798324041f97db742f6",
+  "entities": [
+    {
+      "canonical_name": "severe acute respiratory syndrome (SARS)-associated coronavirus (SARS-CoV) nucleocapsid protein",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "severe acute respiratory syndrome (SARS)-associated coronavirus (SARS-CoV) nucleocapsid protein",
+      "chunk_id": "chk_c5e876253ef4ae97f3380293fcea55f0"
+    },
+    {
+      "canonical_name": "severe pneumonia",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "severe pneumonia",
+      "chunk_id": "chk_c5e876253ef4ae97f3380293fcea55f0"
+    },
+    {
+      "canonical_name": "SARS-CoV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV",
+      "chunk_id": "chk_c5e876253ef4ae97f3380293fcea55f0"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

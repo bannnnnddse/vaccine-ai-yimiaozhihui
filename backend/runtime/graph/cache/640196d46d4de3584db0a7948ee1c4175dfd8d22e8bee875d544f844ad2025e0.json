@@ -1,0 +1,52 @@
+{
+  "chunk_id": "e5fc6b53e34a9c6fff6a547e9472c26efd886a1c27353e13f29a2256d80664a3",
+  "content_hash": "6d42bb741d998654f73c85b772ac6f60462a999def4134c4e09c8978bcedcf21",
+  "entities": [
+    {
+      "canonical_name": "VLP vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "VLP vaccines",
+      "chunk_id": "e5fc6b53e34a9c6fff6a547e9472c26efd886a1c27353e13f29a2256d80664a3"
+    },
+    {
+      "canonical_name": "HFMD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HFMD",
+      "chunk_id": "e5fc6b53e34a9c6fff6a547e9472c26efd886a1c27353e13f29a2256d80664a3"
+    },
+    {
+      "canonical_name": "B cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cell",
+      "chunk_id": "e5fc6b53e34a9c6fff6a547e9472c26efd886a1c27353e13f29a2256d80664a3"
+    },
+    {
+      "canonical_name": "inactivated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated vaccines",
+      "chunk_id": "e5fc6b53e34a9c6fff6a547e9472c26efd886a1c27353e13f29a2256d80664a3"
+    },
+    {
+      "canonical_name": "EV71VLPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71VLPs",
+      "chunk_id": "e5fc6b53e34a9c6fff6a547e9472c26efd886a1c27353e13f29a2256d80664a3"
+    },
+    {
+      "canonical_name": "EV71-VLPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71-VLPs",
+      "chunk_id": "e5fc6b53e34a9c6fff6a547e9472c26efd886a1c27353e13f29a2256d80664a3"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

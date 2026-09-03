@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_e1f2a312c8b40a87be644fa9c4142ceb",
+  "content_hash": "609aa96a5b6c812ba3ff10c726e085aadcde62be13a54fde501546324f5fa00c",
+  "entities": [
+    {
+      "canonical_name": "国家免疫规划疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "国家免疫规划疫苗",
+      "chunk_id": "chk_e1f2a312c8b40a87be644fa9c4142ceb"
+    },
+    {
+      "canonical_name": "注射类减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "注射类减毒活疫苗",
+      "chunk_id": "chk_e1f2a312c8b40a87be644fa9c4142ceb"
+    },
+    {
+      "canonical_name": "灭活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "灭活疫苗",
+      "chunk_id": "chk_e1f2a312c8b40a87be644fa9c4142ceb"
+    },
+    {
+      "canonical_name": "口服类减毒活疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "口服类减毒活疫苗",
+      "chunk_id": "chk_e1f2a312c8b40a87be644fa9c4142ceb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

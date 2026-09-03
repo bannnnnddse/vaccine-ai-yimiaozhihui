@@ -1,0 +1,43 @@
+{
+  "chunk_id": "b9490e17db0faaf6802626a2cf6a44eb383aaa1cdb0e7a7b21da293a67db83bb",
+  "content_hash": "f6fc4f26843b706169cfc2bd45f4b548296681d0da8437dd0a86ce25810b2fbc",
+  "entities": [
+    {
+      "canonical_name": "Virus-like particles (VLPs)",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Virus-like particles (VLPs)",
+      "chunk_id": "b9490e17db0faaf6802626a2cf6a44eb383aaa1cdb0e7a7b21da293a67db83bb"
+    },
+    {
+      "canonical_name": "non-enveloped viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "non-enveloped viruses",
+      "chunk_id": "b9490e17db0faaf6802626a2cf6a44eb383aaa1cdb0e7a7b21da293a67db83bb"
+    },
+    {
+      "canonical_name": "EV VLPs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV VLPs",
+      "chunk_id": "b9490e17db0faaf6802626a2cf6a44eb383aaa1cdb0e7a7b21da293a67db83bb"
+    },
+    {
+      "canonical_name": "EV-A71",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EV-A71",
+      "chunk_id": "b9490e17db0faaf6802626a2cf6a44eb383aaa1cdb0e7a7b21da293a67db83bb"
+    },
+    {
+      "canonical_name": "CV-A16",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "CV-A16",
+      "chunk_id": "b9490e17db0faaf6802626a2cf6a44eb383aaa1cdb0e7a7b21da293a67db83bb"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

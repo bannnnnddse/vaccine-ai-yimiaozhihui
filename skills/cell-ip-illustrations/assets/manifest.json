@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "aspect_ratio": "16:9",
+  "style_reference": "assets/handdrawn-style-reference.jpg",
+  "character_sheet": "assets/flat-character-sheet.png",
+  "roles": [
+    {
+      "id": "helper_t",
+      "name": "辅助性 T 细胞",
+      "aliases": ["辅助性T细胞", "辅助 T 细胞", "辅助T细胞", "helper t cell", "helper t-cell", "cd4 t cell", "cd4+ t cell", "th细胞"],
+      "asset": "assets/flat-characters/helper-t.png",
+      "appearance": "浅绿圆体、单根触角、耳机、斜挎包、加号小旗"
+    },
+    {
+      "id": "b_cell",
+      "name": "B 细胞",
+      "aliases": ["B细胞", "B 细胞", "B淋巴细胞", "B 淋巴细胞", "浆细胞", "浆 B 细胞", "b cell", "b-cell", "plasma cell", "plasma cells"],
+      "asset": "assets/flat-characters/b-cell.png",
+      "appearance": "蓝色圆体、双圆触角、蓝色背包、黄色 Y 形抗体"
+    },
+    {
+      "id": "memory_b",
+      "name": "记忆 B 细胞",
+      "aliases": ["记忆B细胞", "记忆 B 细胞", "memory b cell", "memory b-cell"],
+      "asset": "assets/flat-characters/memory-b.png",
+      "appearance": "浅紫圆体、眼镜、学士帽、绿色书本"
+    },
+    {
+      "id": "cytotoxic_t",
+      "name": "细胞毒性 T 细胞",
+      "aliases": ["细胞毒性T细胞", "细胞毒性 T 细胞", "细胞毒T细胞", "杀伤性T细胞", "cytotoxic t cell", "cytotoxic t-cell", "killer t cell", "cd8 t cell", "cd8+ t cell"],
+      "asset": "assets/flat-characters/cytotoxic-t.png",
+      "appearance": "橙色圆体、头盔、红披风、短剑"
+    },
+    {
+      "id": "macrophage",
+      "name": "巨噬细胞",
+      "aliases": ["巨噬细胞", "macrophage", "macrophages"],
+      "asset": "assets/flat-characters/macrophage.png",
+      "appearance": "黄色不规则圆体、白色厨师帽、网兜或清洁工具"
+    },
+    {
+      "id": "dendritic",
+      "name": "树突状细胞",
+      "aliases": ["树突状细胞", "树突细胞", "dendritic cell", "dendritic cells"],
+      "asset": "assets/flat-characters/dendritic.png",
+      "appearance": "粉色分叉轮廓、发带、斜挎包、星形旗"
+    },
+    {
+      "id": "red_blood_cell",
+      "name": "红细胞",
+      "aliases": ["红细胞", "红血球", "red blood cell", "red blood cells", "erythrocyte", "erythrocytes"],
+      "asset": "assets/flat-characters/red-blood-cell.png",
+      "appearance": "红色双凹圆盘、小拳头和小脚"
+    },
+    {
+      "id": "virus",
+      "name": "病毒颗粒",
+      "aliases": ["病毒颗粒", "病毒粒子", "病毒", "HPV", "HPV病毒", "human papillomavirus", "virus particle", "virus particles", "virus", "viruses"],
+      "asset": "assets/flat-characters/virus.png",
+      "appearance": "青绿色多边形带圆刺，可带小盾牌"
+    },
+    {
+      "id": "antigen",
+      "name": "抗原",
+      "aliases": ["抗原", "antigen", "antigens"],
+      "asset": "assets/flat-characters/antigen.png",
+      "appearance": "紫色圆刺团，表情可警觉"
+    },
+    {
+      "id": "antibody",
+      "name": "抗体",
+      "aliases": ["抗体", "免疫球蛋白", "antibody", "antibodies", "immunoglobulin", "immunoglobulins"],
+      "asset": "assets/flat-characters/antibody.png",
+      "appearance": "浅蓝色 Y 形、紫色端点、小手和表情"
+    }
+  ]
+}

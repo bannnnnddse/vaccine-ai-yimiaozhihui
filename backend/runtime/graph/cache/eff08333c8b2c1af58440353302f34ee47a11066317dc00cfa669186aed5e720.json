@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_49866cb5f85d3f3443566e91a2a9a6b2",
+  "content_hash": "85d289948cf683c76ea65e135c64c94a4936694bb8853ee0a30a56d3795a14dc",
+  "entities": [
+    {
+      "canonical_name": "Japanese encephalitis (JE) vaccine IXIARO",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Japanese encephalitis (JE) vaccine IXIARO",
+      "chunk_id": "chk_49866cb5f85d3f3443566e91a2a9a6b2"
+    },
+    {
+      "canonical_name": "tick-borne encephalitis (TBE)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tick-borne encephalitis (TBE)",
+      "chunk_id": "chk_49866cb5f85d3f3443566e91a2a9a6b2"
+    },
+    {
+      "canonical_name": "JE",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "JE",
+      "chunk_id": "chk_49866cb5f85d3f3443566e91a2a9a6b2"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

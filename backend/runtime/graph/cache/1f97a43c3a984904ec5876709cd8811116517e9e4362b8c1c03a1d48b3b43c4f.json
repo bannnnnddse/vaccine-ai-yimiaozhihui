@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_71fa82cf18c06b29deda1e11f1b11852",
+  "content_hash": "baf564f5542b930f6222045b35df075f8180e72b4cde1ac2c4736db89da1913e",
+  "entities": [
+    {
+      "canonical_name": "mucosal immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mucosal immune responses",
+      "chunk_id": "chk_71fa82cf18c06b29deda1e11f1b11852"
+    },
+    {
+      "canonical_name": "enteric viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "enteric viruses",
+      "chunk_id": "chk_71fa82cf18c06b29deda1e11f1b11852"
+    },
+    {
+      "canonical_name": "rotavirus infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rotavirus infection",
+      "chunk_id": "chk_71fa82cf18c06b29deda1e11f1b11852"
+    },
+    {
+      "canonical_name": "Rotavirus vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Rotavirus vaccines",
+      "chunk_id": "chk_71fa82cf18c06b29deda1e11f1b11852"
+    },
+    {
+      "canonical_name": "Rotavirus anti-VP6 secretory immunoglobulin A",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Rotavirus anti-VP6 secretory immunoglobulin A",
+      "chunk_id": "chk_71fa82cf18c06b29deda1e11f1b11852"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "target_missing_from_quote"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_6b8b116eea2c022ff708e5cf73601068",
+  "content_hash": "65a3b1ae7f66f2cb5f715871e328829958ca91b471f2cbda06fa2c44e7f79822",
+  "entities": [
+    {
+      "canonical_name": "diphtheria",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diphtheria",
+      "chunk_id": "chk_6b8b116eea2c022ff708e5cf73601068"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_6b8b116eea2c022ff708e5cf73601068"
+    },
+    {
+      "canonical_name": "tetanus",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tetanus",
+      "chunk_id": "chk_6b8b116eea2c022ff708e5cf73601068"
+    },
+    {
+      "canonical_name": "poliomyelitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "poliomyelitis",
+      "chunk_id": "chk_6b8b116eea2c022ff708e5cf73601068"
+    },
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_6b8b116eea2c022ff708e5cf73601068"
+    },
+    {
+      "canonical_name": "tuberculosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis",
+      "chunk_id": "chk_6b8b116eea2c022ff708e5cf73601068"
+    },
+    {
+      "canonical_name": "diphtheria–tetanus–pertussis vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "diphtheria–tetanus–pertussis vaccine",
+      "chunk_id": "chk_6b8b116eea2c022ff708e5cf73601068"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_6b8b116eea2c022ff708e5cf73601068"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

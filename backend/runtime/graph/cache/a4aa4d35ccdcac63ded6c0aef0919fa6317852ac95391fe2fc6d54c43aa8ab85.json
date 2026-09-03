@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_b1c8c1609a665c0b5fa8dd347ccf4307",
+  "content_hash": "245f446ce55e6f52d7d5ec208055f98f1d8fedddf47fb6c3e58e5227f0b88729",
+  "entities": [
+    {
+      "canonical_name": "inactivated COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated COVID-19 vaccines",
+      "chunk_id": "chk_b1c8c1609a665c0b5fa8dd347ccf4307"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_b1c8c1609a665c0b5fa8dd347ccf4307"
+    },
+    {
+      "canonical_name": "inactivated COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated COVID-19 vaccine",
+      "chunk_id": "chk_b1c8c1609a665c0b5fa8dd347ccf4307"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

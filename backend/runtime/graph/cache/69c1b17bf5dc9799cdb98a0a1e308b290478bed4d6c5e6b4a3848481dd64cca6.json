@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_394193097d701dc2c69103995078ec9f",
+  "content_hash": "b7a10512ecc307105fa2dcfe321aa207c815d5a2c5d4b355f15b67307ad47f9c",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_394193097d701dc2c69103995078ec9f"
+    },
+    {
+      "canonical_name": "B and T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B and T cell",
+      "chunk_id": "chk_394193097d701dc2c69103995078ec9f"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_394193097d701dc2c69103995078ec9f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

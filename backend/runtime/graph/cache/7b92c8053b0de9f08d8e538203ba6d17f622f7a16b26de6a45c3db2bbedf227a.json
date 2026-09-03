@@ -1,0 +1,45 @@
+{
+  "chunk_id": "chk_e2b2a6705ad62d82613b5a73ab7f409e",
+  "content_hash": "60ff74c591c7ce44c73acf0105dc4bf0d7736224ca340324960ca6bb2beb6050",
+  "entities": [
+    {
+      "canonical_name": "PDS0101",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PDS0101",
+      "chunk_id": "chk_e2b2a6705ad62d82613b5a73ab7f409e"
+    },
+    {
+      "canonical_name": "MUC1",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MUC1",
+      "chunk_id": "chk_e2b2a6705ad62d82613b5a73ab7f409e"
+    },
+    {
+      "canonical_name": "R-1,2-dioleoyl-3-trimethyl-ammonium-propane",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "R-1,2-dioleoyl-3-trimethyl-ammonium-propane",
+      "chunk_id": "chk_e2b2a6705ad62d82613b5a73ab7f409e"
+    },
+    {
+      "canonical_name": "TLR7",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TLR7",
+      "chunk_id": "chk_e2b2a6705ad62d82613b5a73ab7f409e"
+    },
+    {
+      "canonical_name": "CIN",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CIN",
+      "chunk_id": "chk_e2b2a6705ad62d82613b5a73ab7f409e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

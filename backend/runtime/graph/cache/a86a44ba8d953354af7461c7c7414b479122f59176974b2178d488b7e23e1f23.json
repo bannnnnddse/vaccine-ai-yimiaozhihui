@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_2f2fa02843782402004c016250d95142",
+  "content_hash": "ae05204bf759ea6332bbc8be98ba17c5d7c047438aa3495ce85372a145b8564b",
+  "entities": [
+    {
+      "canonical_name": "pneumonia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumonia",
+      "chunk_id": "chk_2f2fa02843782402004c016250d95142"
+    },
+    {
+      "canonical_name": "new coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "new coronavirus",
+      "chunk_id": "chk_2f2fa02843782402004c016250d95142"
+    },
+    {
+      "canonical_name": "severe acute respiratory syndrome -related coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "severe acute respiratory syndrome -related coronavirus",
+      "chunk_id": "chk_2f2fa02843782402004c016250d95142"
+    },
+    {
+      "canonical_name": "SARS -CoV -2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS -CoV -2",
+      "chunk_id": "chk_2f2fa02843782402004c016250d95142"
+    },
+    {
+      "canonical_name": "novel corona ‐ virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "novel corona ‑ virus",
+      "chunk_id": "chk_2f2fa02843782402004c016250d95142"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

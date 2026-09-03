@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_74a3f1c5e119ba8aeabb73327a505bea",
+  "content_hash": "b2a2a36636489fb5f6080e0f78977f981e4410cf8cbf578a74aa5483031ab1ba",
+  "entities": [
+    {
+      "canonical_name": "influenza vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccines",
+      "chunk_id": "chk_74a3f1c5e119ba8aeabb73327a505bea"
+    },
+    {
+      "canonical_name": "individuals 65 years or older",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "individuals 65 years or older",
+      "chunk_id": "chk_74a3f1c5e119ba8aeabb73327a505bea"
+    },
+    {
+      "canonical_name": "influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza vaccine",
+      "chunk_id": "chk_74a3f1c5e119ba8aeabb73327a505bea"
+    },
+    {
+      "canonical_name": "Australian children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Australian children",
+      "chunk_id": "chk_74a3f1c5e119ba8aeabb73327a505bea"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_cb2560f01bcf4acad6cb5e0aefc97bdc",
+  "content_hash": "b55a2fd0ec25f9d422363d471b17b995970e60cfe43d92bfe8989eb8397af7eb",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_cb2560f01bcf4acad6cb5e0aefc97bdc"
+    },
+    {
+      "canonical_name": "DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DNA vaccines",
+      "chunk_id": "chk_cb2560f01bcf4acad6cb5e0aefc97bdc"
+    },
+    {
+      "canonical_name": "mRNA",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "mRNA",
+      "chunk_id": "chk_cb2560f01bcf4acad6cb5e0aefc97bdc"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

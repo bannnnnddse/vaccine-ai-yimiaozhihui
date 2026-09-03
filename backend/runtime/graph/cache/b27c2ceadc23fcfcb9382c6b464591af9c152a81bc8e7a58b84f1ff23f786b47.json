@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_007718df533127fe2841808d92005251",
+  "content_hash": "4ed6e691b5b1cb25b909d31129afcbb8ff295a31c27eed318b8a724f26d6a226",
+  "entities": [
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_007718df533127fe2841808d92005251"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_007718df533127fe2841808d92005251"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_265955ca231def429566c61b653be3b7",
+  "content_hash": "e81f27b4987d38e2e894a06f32e44e081db31bf758274a841a24e0b4f4fbae7a",
+  "entities": [
+    {
+      "canonical_name": "BCR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "BCR",
+      "chunk_id": "chk_265955ca231def429566c61b653be3b7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

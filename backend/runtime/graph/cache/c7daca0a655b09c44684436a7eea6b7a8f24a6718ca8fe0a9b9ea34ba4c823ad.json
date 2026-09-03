@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_180b6abedf34596264726eb8865e8913",
+  "content_hash": "fedfbc6fd0e5523005ac1b87068728ddad146f707f73fed17d20554c0f4b2cbf",
+  "entities": [
+    {
+      "canonical_name": "损伤和中毒外部原因",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "损伤和中毒外部原因",
+      "chunk_id": "chk_180b6abedf34596264726eb8865e8913"
+    },
+    {
+      "canonical_name": "诊断不明",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "诊断不明",
+      "chunk_id": "chk_180b6abedf34596264726eb8865e8913"
+    },
+    {
+      "canonical_name": "其他疾病",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "其他疾病",
+      "chunk_id": "chk_180b6abedf34596264726eb8865e8913"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

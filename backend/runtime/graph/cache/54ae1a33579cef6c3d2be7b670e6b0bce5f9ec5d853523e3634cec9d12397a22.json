@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_022f2f2de698bf9794b6ecdbcccddb52",
+  "content_hash": "8ec170cebf9edb16a452aac23f9a2223050ee8200117f1ae2fb5ed1a739579bc",
+  "entities": [
+    {
+      "canonical_name": "BNT162b2 vaccine booster",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 vaccine booster",
+      "chunk_id": "chk_022f2f2de698bf9794b6ecdbcccddb52"
+    },
+    {
+      "canonical_name": "covid-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "covid-19",
+      "chunk_id": "chk_022f2f2de698bf9794b6ecdbcccddb52"
+    },
+    {
+      "canonical_name": "covid-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "covid-19 vaccines",
+      "chunk_id": "chk_022f2f2de698bf9794b6ecdbcccddb52"
+    },
+    {
+      "canonical_name": "B.1.617.2 (Delta) variant",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "B.1.617.2 (Delta) variant",
+      "chunk_id": "chk_022f2f2de698bf9794b6ecdbcccddb52"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

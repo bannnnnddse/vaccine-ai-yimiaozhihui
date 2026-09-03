@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_2ed9be6c66eacfc54994f503385be8dc",
+  "content_hash": "0a0f185a884f06903fa553e0d3242df7ee1804eacec5d9852522fc9259253786",
+  "entities": [
+    {
+      "canonical_name": "vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccines",
+      "chunk_id": "chk_2ed9be6c66eacfc54994f503385be8dc"
+    },
+    {
+      "canonical_name": "disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "disease",
+      "chunk_id": "chk_2ed9be6c66eacfc54994f503385be8dc"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_2ed9be6c66eacfc54994f503385be8dc"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

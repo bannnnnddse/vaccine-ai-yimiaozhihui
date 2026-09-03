@@ -1,0 +1,153 @@
+{
+  "status": "completed",
+  "validator_version": "medical_graph_validator_v3",
+  "sample_size": 100,
+  "index_version": "rag-v2-20260816T053040487541Z-32af4353",
+  "results": [
+    {
+      "profile": "A",
+      "batch_size": 2,
+      "batch_chars": 6000,
+      "batches": 50,
+      "total_runtime_seconds": 105.566,
+      "average_batch_latency_seconds": 41.986,
+      "throughput_chunks_per_minute": 56.836,
+      "timeout_count": 0,
+      "json_schema_failures": 0,
+      "request_failures": 0,
+      "retry_count": 0,
+      "validator_rejection_count": 274,
+      "accepted_medical_relations": 2,
+      "provenance_complete_count": 2,
+      "edges_for_review": [
+        {
+          "chunk_id": "chk_da1813e5c197d2be1f3a6066d464ee93",
+          "file_name": "卡介苗（BCG）接种科普 + 实操规范（化脓护理、补种、PPD）.md",
+          "source_title": "卡疤，宝宝出生第一针的美好“logo”",
+          "source_url": "https://tb.chinacdc.cn/2019dfdt/202304/t20230423_265554.html",
+          "page": null,
+          "source": "乙肝疫苗",
+          "source_type": "Vaccine",
+          "target": "乙型肝炎病毒",
+          "target_type": "Pathogen",
+          "relation": "PREVENTS",
+          "quote": "乙肝疫苗是为了预防乙型肝炎病毒感染"
+        },
+        {
+          "chunk_id": "chk_f5945e004be88f76e9fdcd1c4ce84972",
+          "file_name": "水痘疫苗国家疾控权威接种规范.md",
+          "source_title": "疫苗免疫预防（水痘）",
+          "source_url": "https://www.chinacdc.cn/jkyj/mygh02/ymkyfjb/sd/202606/t20260622_1837288.html",
+          "page": null,
+          "source": "水痘疫苗",
+          "source_type": "Vaccine",
+          "target": "水痘",
+          "target_type": "Disease",
+          "relation": "PREVENTS",
+          "quote": "对1～12岁健康儿童接种1剂次水痘疫苗6个月内预防水痘的保护效力为87.1%(95%CI:69.7%～94.5%)。"
+        }
+      ]
+    },
+    {
+      "profile": "B",
+      "batch_size": 4,
+      "batch_chars": 8000,
+      "batches": 25,
+      "total_runtime_seconds": 283.284,
+      "average_batch_latency_seconds": 55.378,
+      "throughput_chunks_per_minute": 21.18,
+      "timeout_count": 0,
+      "json_schema_failures": 0,
+      "request_failures": 0,
+      "retry_count": 1,
+      "validator_rejection_count": 235,
+      "accepted_medical_relations": 1,
+      "provenance_complete_count": 1,
+      "edges_for_review": [
+        {
+          "chunk_id": "chk_f5945e004be88f76e9fdcd1c4ce84972",
+          "file_name": "水痘疫苗国家疾控权威接种规范.md",
+          "source_title": "疫苗免疫预防（水痘）",
+          "source_url": "https://www.chinacdc.cn/jkyj/mygh02/ymkyfjb/sd/202606/t20260622_1837288.html",
+          "page": null,
+          "source": "水痘疫苗",
+          "source_type": "Vaccine",
+          "target": "水痘",
+          "target_type": "Disease",
+          "relation": "PREVENTS",
+          "quote": "对1～12岁健康儿童接种1剂次水痘疫苗6个月内预防水痘的保护效力为87.1%(95%CI:69.7%～94.5%)。"
+        }
+      ]
+    },
+    {
+      "profile": "C",
+      "batch_size": 6,
+      "batch_chars": 10000,
+      "batches": 17,
+      "total_runtime_seconds": 92.8,
+      "average_batch_latency_seconds": 58.385,
+      "throughput_chunks_per_minute": 64.655,
+      "timeout_count": 0,
+      "json_schema_failures": 0,
+      "request_failures": 0,
+      "retry_count": 0,
+      "validator_rejection_count": 178,
+      "accepted_medical_relations": 4,
+      "provenance_complete_count": 4,
+      "edges_for_review": [
+        {
+          "chunk_id": "chk_da1813e5c197d2be1f3a6066d464ee93",
+          "file_name": "卡介苗（BCG）接种科普 + 实操规范（化脓护理、补种、PPD）.md",
+          "source_title": "卡疤，宝宝出生第一针的美好“logo”",
+          "source_url": "https://tb.chinacdc.cn/2019dfdt/202304/t20230423_265554.html",
+          "page": null,
+          "source": "乙肝疫苗",
+          "source_type": "Vaccine",
+          "target": "乙型肝炎病毒",
+          "target_type": "Pathogen",
+          "relation": "PREVENTS",
+          "quote": "乙肝疫苗是为了预防乙型肝炎病毒感染"
+        },
+        {
+          "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53",
+          "file_name": "国家疾控局百白破大众知识问答（面向家长口语化细则，适合大厅快速检索）.md",
+          "source_title": "国家免疫规划百白破疫苗和白破疫苗免疫程序调整相关知识问答",
+          "source_url": "https://www.ndcpa.gov.cn/jbkzzx/c100040/common/content/content_1877524874852421632.html",
+          "page": null,
+          "source": "百白破疫苗",
+          "source_type": "Vaccine",
+          "target": "百日咳",
+          "target_type": "Disease",
+          "relation": "PREVENTS",
+          "quote": "接种百白破疫苗是预防儿童百日咳、白喉和破伤风的有效手段。"
+        },
+        {
+          "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53",
+          "file_name": "国家疾控局百白破大众知识问答（面向家长口语化细则，适合大厅快速检索）.md",
+          "source_title": "国家免疫规划百白破疫苗和白破疫苗免疫程序调整相关知识问答",
+          "source_url": "https://www.ndcpa.gov.cn/jbkzzx/c100040/common/content/content_1877524874852421632.html",
+          "page": null,
+          "source": "百白破疫苗",
+          "source_type": "Vaccine",
+          "target": "白喉",
+          "target_type": "Disease",
+          "relation": "PREVENTS",
+          "quote": "接种百白破疫苗是预防儿童百日咳、白喉和破伤风的有效手段。"
+        },
+        {
+          "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53",
+          "file_name": "国家疾控局百白破大众知识问答（面向家长口语化细则，适合大厅快速检索）.md",
+          "source_title": "国家免疫规划百白破疫苗和白破疫苗免疫程序调整相关知识问答",
+          "source_url": "https://www.ndcpa.gov.cn/jbkzzx/c100040/common/content/content_1877524874852421632.html",
+          "page": null,
+          "source": "百白破疫苗",
+          "source_type": "Vaccine",
+          "target": "破伤风",
+          "target_type": "Disease",
+          "relation": "PREVENTS",
+          "quote": "接种百白破疫苗是预防儿童百日咳、白喉和破伤风的有效手段。"
+        }
+      ]
+    }
+  ]
+}

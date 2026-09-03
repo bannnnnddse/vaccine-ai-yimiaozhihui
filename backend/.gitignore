@@ -1,0 +1,25 @@
+# Local environment and secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Python virtualenvs
+.venv/
+.venv-graph/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# OS and editor metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

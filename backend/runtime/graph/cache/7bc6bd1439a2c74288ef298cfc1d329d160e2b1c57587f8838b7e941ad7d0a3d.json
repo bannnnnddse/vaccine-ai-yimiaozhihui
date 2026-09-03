@@ -1,0 +1,38 @@
+{
+  "chunk_id": "e1d05f38cfbbe8c1a87c62555eb3dc2c0a58514d30eb06fa84198e1bbaba682c",
+  "content_hash": "ce340f8b7c261ed96ffa21ec957fdf7f79a8d28bee396338025c5f75e10a77be",
+  "entities": [
+    {
+      "canonical_name": "measles vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "measles vaccine",
+      "chunk_id": "e1d05f38cfbbe8c1a87c62555eb3dc2c0a58514d30eb06fa84198e1bbaba682c"
+    },
+    {
+      "canonical_name": "coinfections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "coinfections",
+      "chunk_id": "e1d05f38cfbbe8c1a87c62555eb3dc2c0a58514d30eb06fa84198e1bbaba682c"
+    },
+    {
+      "canonical_name": "immunological memory",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immunological memory",
+      "chunk_id": "e1d05f38cfbbe8c1a87c62555eb3dc2c0a58514d30eb06fa84198e1bbaba682c"
+    },
+    {
+      "canonical_name": "adolescence and adulthood",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adolescence and adulthood",
+      "chunk_id": "e1d05f38cfbbe8c1a87c62555eb3dc2c0a58514d30eb06fa84198e1bbaba682c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

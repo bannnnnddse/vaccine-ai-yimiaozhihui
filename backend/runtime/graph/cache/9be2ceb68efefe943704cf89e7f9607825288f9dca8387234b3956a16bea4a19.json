@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_e9362930e292d06d855e67a6122dbf98",
+  "content_hash": "2085fd818e3127676d6e115c982c4bd661e33453bea3c5caacb6db1b5d42048b",
+  "entities": [
+    {
+      "canonical_name": "B Cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B Cell",
+      "chunk_id": "chk_e9362930e292d06d855e67a6122dbf98"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

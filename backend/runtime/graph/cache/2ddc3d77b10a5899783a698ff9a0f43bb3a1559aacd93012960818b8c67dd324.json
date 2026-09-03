@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_f726a1c7aa4228f0d956d10694634340",
+  "content_hash": "43c6f43801432e2aca234397d3fdd77d2b5b9c00ce86aff5d5d6d536f5e014fc",
+  "entities": [
+    {
+      "canonical_name": "Fc-dependent antibody effector functions",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fc-dependent antibody effector functions",
+      "chunk_id": "chk_f726a1c7aa4228f0d956d10694634340"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_f726a1c7aa4228f0d956d10694634340"
+    },
+    {
+      "canonical_name": "spike protein neutralizing antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "spike protein neutralizing antibody",
+      "chunk_id": "chk_f726a1c7aa4228f0d956d10694634340"
+    },
+    {
+      "canonical_name": "Omicron sublineages",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron sublineages",
+      "chunk_id": "chk_f726a1c7aa4228f0d956d10694634340"
+    },
+    {
+      "canonical_name": "T-cell recognition epitopes",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell recognition epitopes",
+      "chunk_id": "chk_f726a1c7aa4228f0d956d10694634340"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

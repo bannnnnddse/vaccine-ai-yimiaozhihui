@@ -1,0 +1,297 @@
+Graph Build Started
+
+Index: rag-v2-20260824T024746251335Z-8d89f653
+Candidates: 12583
+Cached: 12349
+Estimated batches: 39
+Profile: C (6 chunks / 10000 chars)
+Model: qwen3.7-flash-2026-07-15
+Workers: 2
+Timeout: 3m00s
+
+Progress:
+processed: 12349/12583
+success: 0
+failed: 0
+cached: 12349
+ETA: 0s
+
+Progress:
+processed: 12355/12583
+success: 6
+failed: 0
+cached: 12349
+ETA: 0s
+
+Progress:
+processed: 12361/12583
+success: 12
+failed: 0
+cached: 12349
+ETA: 1s
+
+Progress:
+processed: 12367/12583
+success: 18
+failed: 0
+cached: 12349
+ETA: 1s
+
+Progress:
+processed: 12373/12583
+success: 24
+failed: 0
+cached: 12349
+ETA: 1s
+
+Progress:
+processed: 12379/12583
+success: 30
+failed: 0
+cached: 12349
+ETA: 1s
+
+Progress:
+processed: 12385/12583
+success: 36
+failed: 0
+cached: 12349
+ETA: 1s
+
+Progress:
+processed: 12391/12583
+success: 42
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12397/12583
+success: 48
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12403/12583
+success: 54
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12409/12583
+success: 60
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12415/12583
+success: 66
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12421/12583
+success: 72
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12427/12583
+success: 78
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12433/12583
+success: 84
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12439/12583
+success: 90
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12445/12583
+success: 96
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12451/12583
+success: 102
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12457/12583
+success: 108
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12463/12583
+success: 114
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12469/12583
+success: 120
+failed: 0
+cached: 12349
+ETA: 4s
+
+Progress:
+processed: 12475/12583
+success: 126
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12481/12583
+success: 132
+failed: 0
+cached: 12349
+ETA: 4s
+
+Progress:
+processed: 12487/12583
+success: 138
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12493/12583
+success: 144
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12499/12583
+success: 150
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12505/12583
+success: 156
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12511/12583
+success: 162
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12517/12583
+success: 168
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12523/12583
+success: 174
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12529/12583
+success: 180
+failed: 0
+cached: 12349
+ETA: 3s
+
+Progress:
+processed: 12535/12583
+success: 186
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12541/12583
+success: 192
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12547/12583
+success: 198
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12553/12583
+success: 204
+failed: 0
+cached: 12349
+ETA: 2s
+
+Progress:
+processed: 12559/12583
+success: 210
+failed: 0
+cached: 12349
+ETA: 1s
+
+Progress:
+processed: 12565/12583
+success: 216
+failed: 0
+cached: 12349
+ETA: 1s
+
+Progress:
+processed: 12571/12583
+success: 222
+failed: 0
+cached: 12349
+ETA: 1s
+
+Progress:
+processed: 12577/12583
+success: 228
+failed: 0
+cached: 12349
+ETA: 0s
+
+Progress:
+processed: 12583/12583
+success: 234
+failed: 0
+cached: 12349
+ETA: 0s
+Semantica is building: Knowledge graph from 1 source(s) kg GraphBuilder |???????????????| 0.0% ETA: - Rate: - Time: 0.00s Extracted: -Semantica is building: Processing entities... 400/8006 kg GraphBuilder |???????????????| 5.0% ETA: - Time: 0.00s Extracted: -Semantica is building: Processing entities... 800/8006 kg GraphBuilder |¨€??????????????| 10.0% ETA: - Time: 0.00s Extracted: -Semantica is building: Processing entities... 1200/8006 kg GraphBuilder |¨€¨€?????????????| 15.0% ETA: - Time: 0.00s Extracted: -Semantica is building: Processing entities... 1600/8006 kg GraphBuilder |¨€¨€?????????????| 20.0% ETA: 0.0s Rate: 1598972.2/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 2000/8006 kg GraphBuilder |¨€¨€¨€????????????| 25.0% ETA: 0.0s Rate: 1998715.3/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 2400/8006 kg GraphBuilder |¨€¨€¨€¨€???????????| 30.0% ETA: 0.0s Rate: 2398458.3/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 2800/8006 kg GraphBuilder |¨€¨€¨€¨€¨€??????????| 35.0% ETA: 0.0s Rate: 1399934.6/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 3200/8006 kg GraphBuilder |¨€¨€¨€¨€¨€??????????| 40.0% ETA: 0.0s Rate: 1599925.2/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 3600/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€?????????| 45.0% ETA: 0.0s Rate: 1799915.9/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 4000/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€????????| 50.0% ETA: 0.0s Rate: 1999906.5/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 4400/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€???????| 55.0% ETA: 0.0s Rate: 2199897.2/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 4800/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€???????| 60.0% ETA: 0.0s Rate: 1599861.7/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 5200/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€??????| 65.0% ETA: 0.0s Rate: 1733183.5/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 5600/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€?????| 69.9% ETA: 0.0s Rate: 1866505.3/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 6000/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€????| 74.9% ETA: 0.0s Rate: 1999827.1/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 6400/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€????| 79.9% ETA: 0.0s Rate: 1599925.2/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 6800/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€???| 84.9% ETA: 0.0s Rate: 1699920.6/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 7200/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€??| 89.9% ETA: 0.0s Rate: 1799915.9/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 7600/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€?| 94.9% ETA: 0.0s Rate: 1899911.2/s Time: 0.00s Extracted: -Semantica is building: Processing entities... 8000/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€?| 99.9% ETA: 0.0s Rate: 1599353.3/s Time: 0.01s Extracted: -Semantica is building: Processing entities... 8006/8006 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 100.0% ETA: - Rate: 1600552.8/s Time: 0.01s Extracted: -Semantica is building: Processing relationships... 89/89 kg GraphBuilder |¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 100.0% ETA: - Time: 0.00s Extracted: -
+Build completed.
+
+Candidate graph snapshot created:
+runtime/graph/versions/graph-20260824T032039458153Z-7a0729a2-2558bd4d
+
+Activation requires manual approval.

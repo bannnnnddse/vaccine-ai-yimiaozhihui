@@ -1,0 +1,24 @@
+{
+  "chunk_id": "chk_121081cc67c947c3cd6d946459228b33",
+  "content_hash": "180ab42533ccd3f5a17b6be5c3abc6b1e1479c94cad8b914400abfa5b5dcbb15",
+  "entities": [
+    {
+      "canonical_name": "Cancer DNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Cancer DNA vaccines",
+      "chunk_id": "chk_121081cc67c947c3cd6d946459228b33"
+    },
+    {
+      "canonical_name": "Cancer vaccine immunotherapy",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Cancer vaccine immunotherapy",
+      "chunk_id": "chk_121081cc67c947c3cd6d946459228b33"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

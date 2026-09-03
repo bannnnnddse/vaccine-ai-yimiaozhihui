@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_235276e067bd8f19875d112ec392fe25",
+  "content_hash": "0b3a746c9bf36f284cbce8634ec7fa581720c35c25ae7f027468e58d242d0324",
+  "entities": [
+    {
+      "canonical_name": "mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mRNA vaccines",
+      "chunk_id": "chk_235276e067bd8f19875d112ec392fe25"
+    },
+    {
+      "canonical_name": "COVID-19 virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "COVID-19 virus",
+      "chunk_id": "chk_235276e067bd8f19875d112ec392fe25"
+    },
+    {
+      "canonical_name": "influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "influenza virus",
+      "chunk_id": "chk_235276e067bd8f19875d112ec392fe25"
+    },
+    {
+      "canonical_name": "rabies virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "rabies virus",
+      "chunk_id": "chk_235276e067bd8f19875d112ec392fe25"
+    },
+    {
+      "canonical_name": "Zika virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Zika virus",
+      "chunk_id": "chk_235276e067bd8f19875d112ec392fe25"
+    },
+    {
+      "canonical_name": "human immunodeficiency virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human immunodeficiency virus",
+      "chunk_id": "chk_235276e067bd8f19875d112ec392fe25"
+    },
+    {
+      "canonical_name": "Mycobacterium tuberculosis (M.tb)",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Mycobacterium tuberculosis (M.tb)",
+      "chunk_id": "chk_235276e067bd8f19875d112ec392fe25"
+    },
+    {
+      "canonical_name": "tuberculosis (TB)",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "tuberculosis (TB)",
+      "chunk_id": "chk_235276e067bd8f19875d112ec392fe25"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f909ac74541542d967be3d8b5f863d71",
+  "content_hash": "f81a08c5b3ab05988230c7f81ed685784d70b1446fa9d3e276c5ac3ee779df41",
+  "entities": [
+    {
+      "canonical_name": "HPV-associated malignancies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "HPV-associated malignancies",
+      "chunk_id": "chk_f909ac74541542d967be3d8b5f863d71"
+    },
+    {
+      "canonical_name": "Ad5-GUCY2C-PADRE vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Ad5-GUCY2C-PADRE vaccine",
+      "chunk_id": "chk_f909ac74541542d967be3d8b5f863d71"
+    },
+    {
+      "canonical_name": "colon cancer patients",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "colon cancer patients",
+      "chunk_id": "chk_f909ac74541542d967be3d8b5f863d71"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

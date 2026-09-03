@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_498b1dffce4ab25c986006b6a2c40cff",
+  "content_hash": "12c22ae15a7a4a09ecad4d39e01cedb4741d28bccecf1912b4f0752ac874d197",
+  "entities": [
+    {
+      "canonical_name": "linearly modified mRNA (modRNA) vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "linearly modified mRNA (modRNA) vaccines",
+      "chunk_id": "chk_498b1dffce4ab25c986006b6a2c40cff"
+    },
+    {
+      "canonical_name": "traditional mRNA vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "traditional mRNA vaccines",
+      "chunk_id": "chk_498b1dffce4ab25c986006b6a2c40cff"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f2fd6feea9939dde11573ab6bc67880a",
+  "content_hash": "6a0ea9b95634f9b99b59093e6b85b781437751b603045df737482313902be65e",
+  "entities": [
+    {
+      "canonical_name": "RSV subtypes",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "RSV subtypes",
+      "chunk_id": "chk_f2fd6feea9939dde11573ab6bc67880a"
+    },
+    {
+      "canonical_name": "vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccine",
+      "chunk_id": "chk_f2fd6feea9939dde11573ab6bc67880a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

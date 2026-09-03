@@ -1,0 +1,32 @@
+{
+  "chunk_id": "chk_49c9c544cb264c602b08477bfb2ab3ee",
+  "content_hash": "4693d4f4d2945717310583c5d9c3e80216f31a9261b3b227861a033bc7a26003",
+  "entities": [
+    {
+      "canonical_name": "EV71 疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "EV71 疫苗",
+      "chunk_id": "chk_49c9c544cb264c602b08477bfb2ab3ee"
+    },
+    {
+      "canonical_name": "不良反应",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "不良反应",
+      "chunk_id": "chk_49c9c544cb264c602b08477bfb2ab3ee"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_49c9c544cb264c602b08477bfb2ab3ee"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

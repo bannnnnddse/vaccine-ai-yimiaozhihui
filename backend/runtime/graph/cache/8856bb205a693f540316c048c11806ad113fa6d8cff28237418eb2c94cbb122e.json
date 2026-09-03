@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_d4a33a1958cef5694588b137384b31b4",
+  "content_hash": "99cb1e4a7b28d220cddf222700d6602850dc9e01dfd9ccd00c57e89e0ca7231a",
+  "entities": [
+    {
+      "canonical_name": "MBC",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "MBC",
+      "chunk_id": "chk_d4a33a1958cef5694588b137384b31b4"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f6663c2b38810a7e072ee7ca065fc55f",
+  "content_hash": "8ecc2560a01f31559ca55c552655b4018b3db59f0cb51b7affb1994afa091c23",
+  "entities": [
+    {
+      "canonical_name": "P(8)G1 strains",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "P(8)G1 strains",
+      "chunk_id": "chk_f6663c2b38810a7e072ee7ca065fc55f"
+    },
+    {
+      "canonical_name": "P(8)G9 viruses",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "P(8)G9 viruses",
+      "chunk_id": "chk_f6663c2b38810a7e072ee7ca065fc55f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

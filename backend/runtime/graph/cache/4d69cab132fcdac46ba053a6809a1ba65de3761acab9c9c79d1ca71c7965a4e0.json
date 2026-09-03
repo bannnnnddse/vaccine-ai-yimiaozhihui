@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_25c9f12d8fcdaabe11f78f9c47d84814",
+  "content_hash": "ae3def6ff30fbd5aad3d7609415ca4c630a1040a757bc25dea86f631c167c9f0",
+  "entities": [
+    {
+      "canonical_name": "bNAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "bNAb",
+      "chunk_id": "chk_25c9f12d8fcdaabe11f78f9c47d84814"
+    },
+    {
+      "canonical_name": "BNT162b2 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BNT162b2 vaccine",
+      "chunk_id": "chk_25c9f12d8fcdaabe11f78f9c47d84814"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

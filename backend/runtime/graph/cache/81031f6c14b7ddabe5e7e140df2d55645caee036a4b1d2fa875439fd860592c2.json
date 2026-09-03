@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_30037158ae1686ea59792dea5bce5cd3",
+  "content_hash": "4cbf2aa2a89c4a37e6cd9f75f29c7b1b9119b5b9cfd45de353fda86310332318",
+  "entities": [
+    {
+      "canonical_name": "human papillomavirus vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "human papillomavirus vaccination",
+      "chunk_id": "chk_30037158ae1686ea59792dea5bce5cd3"
+    },
+    {
+      "canonical_name": "fathers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "fathers",
+      "chunk_id": "chk_30037158ae1686ea59792dea5bce5cd3"
+    },
+    {
+      "canonical_name": "mothers",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mothers",
+      "chunk_id": "chk_30037158ae1686ea59792dea5bce5cd3"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

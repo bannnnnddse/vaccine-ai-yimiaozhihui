@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_7ee5499ad13551ac327aed30262aface",
+  "content_hash": "073d6833f754fd987a21bcc5293a72e9564cad3c426b02a0579f555d385383a9",
+  "entities": [
+    {
+      "canonical_name": "measles",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "measles",
+      "chunk_id": "chk_7ee5499ad13551ac327aed30262aface"
+    },
+    {
+      "canonical_name": "rubella",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "rubella",
+      "chunk_id": "chk_7ee5499ad13551ac327aed30262aface"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_7ee5499ad13551ac327aed30262aface"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_36f8c5448509ea8464a0cd3b94401aa7",
+  "content_hash": "57b8a4a54b75456010ce5a38b3f128d3cc6df0308d685f31b7b9f0a3eea9da1d",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 Variants of Concern",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 Variants of Concern",
+      "chunk_id": "chk_36f8c5448509ea8464a0cd3b94401aa7"
+    },
+    {
+      "canonical_name": "COVID-19-Naive Children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "COVID-19-Naive Children",
+      "chunk_id": "chk_36f8c5448509ea8464a0cd3b94401aa7"
+    },
+    {
+      "canonical_name": "Adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Adults",
+      "chunk_id": "chk_36f8c5448509ea8464a0cd3b94401aa7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

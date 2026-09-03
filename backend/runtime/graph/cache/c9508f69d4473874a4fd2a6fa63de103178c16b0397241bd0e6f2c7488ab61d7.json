@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_5139b443fa0f5a3362a8f7f7e7cd4aef",
+  "content_hash": "bcbb0db515bd3cab1728e6dfe13d90c145e0f28175a18118e094418066dd02f1",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 vaccination",
+      "chunk_id": "chk_5139b443fa0f5a3362a8f7f7e7cd4aef"
+    },
+    {
+      "canonical_name": "Pregnant and lactating women",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Pregnant and lactating women",
+      "chunk_id": "chk_5139b443fa0f5a3362a8f7f7e7cd4aef"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_0737954d78eb8bf58003919e9408517b",
+  "content_hash": "95abdc8bad313f0ae60c9bf71e5bbedc717c99638b82fe8474e91e0200b9f689",
+  "entities": [
+    {
+      "canonical_name": "cervical lesions",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical lesions",
+      "chunk_id": "chk_0737954d78eb8bf58003919e9408517b"
+    },
+    {
+      "canonical_name": "HPV vaccination program",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "HPV vaccination program",
+      "chunk_id": "chk_0737954d78eb8bf58003919e9408517b"
+    },
+    {
+      "canonical_name": "HPV vaccination program",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "HPV vaccination program",
+      "chunk_id": "chk_0737954d78eb8bf58003919e9408517b"
+    },
+    {
+      "canonical_name": "cervical abnormalities",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cervical abnormalities",
+      "chunk_id": "chk_0737954d78eb8bf58003919e9408517b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

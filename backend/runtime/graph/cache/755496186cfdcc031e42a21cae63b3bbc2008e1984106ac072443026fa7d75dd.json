@@ -1,0 +1,15 @@
+{
+  "chunk_id": "b1c0145b9f4532aef6fec23cc9636018301cf1625a084065870656834e7899bf",
+  "content_hash": "2c67662749459ccc282ffa7db570ba93defce85c0a02433357526468d96621ab",
+  "entities": [
+    {
+      "canonical_name": "TCVs",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "TCVs",
+      "chunk_id": "b1c0145b9f4532aef6fec23cc9636018301cf1625a084065870656834e7899bf"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

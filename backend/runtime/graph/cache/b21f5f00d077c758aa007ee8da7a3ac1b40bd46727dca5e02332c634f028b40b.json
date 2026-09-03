@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_8b7a864b674710c4b386d404b4d8d3cd",
+  "content_hash": "5734769b308a3e3bfc26730bf43cd6fd3bcae0c10f12dba5266f3da101e59533",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_8b7a864b674710c4b386d404b4d8d3cd"
+    },
+    {
+      "canonical_name": "vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "vaccination",
+      "chunk_id": "chk_8b7a864b674710c4b386d404b4d8d3cd"
+    },
+    {
+      "canonical_name": "b cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "b cell",
+      "chunk_id": "chk_8b7a864b674710c4b386d404b4d8d3cd"
+    },
+    {
+      "canonical_name": "SARSCoV-2 mRNA vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "SARSCoV-2 mRNA vaccination",
+      "chunk_id": "chk_8b7a864b674710c4b386d404b4d8d3cd"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_8b7a864b674710c4b386d404b4d8d3cd"
+    },
+    {
+      "canonical_name": "antibody",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody",
+      "chunk_id": "chk_8b7a864b674710c4b386d404b4d8d3cd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

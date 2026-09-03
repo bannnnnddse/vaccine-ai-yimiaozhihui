@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_1af0ffcdfa86e868c352ccb434bb06e1",
+  "content_hash": "ccc9446e5194355e5d7b0247e48c1241a9780e5c15349d924d38015f944c0bba",
+  "entities": [
+    {
+      "canonical_name": "vaccinepreventable infections",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "vaccinepreventable infections",
+      "chunk_id": "chk_1af0ffcdfa86e868c352ccb434bb06e1"
+    },
+    {
+      "canonical_name": "diabetes",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "diabetes",
+      "chunk_id": "chk_1af0ffcdfa86e868c352ccb434bb06e1"
+    },
+    {
+      "canonical_name": "cystic fibrosis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "cystic fibrosis",
+      "chunk_id": "chk_1af0ffcdfa86e868c352ccb434bb06e1"
+    },
+    {
+      "canonical_name": "pneumonia",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pneumonia",
+      "chunk_id": "chk_1af0ffcdfa86e868c352ccb434bb06e1"
+    },
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_1af0ffcdfa86e868c352ccb434bb06e1"
+    },
+    {
+      "canonical_name": "bacterial meningitis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "bacterial meningitis",
+      "chunk_id": "chk_1af0ffcdfa86e868c352ccb434bb06e1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

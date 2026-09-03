@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_8cea2fcb8ef33eb2ff8c33186e358578",
+  "content_hash": "bda01f6aa79d0396286fe77681169e9f6a95ef247a8fcaf497afed38f49545ba",
+  "entities": [
+    {
+      "canonical_name": "Insect Bite Hypersensitivity",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Insect Bite Hypersensitivity",
+      "chunk_id": "chk_8cea2fcb8ef33eb2ff8c33186e358578"
+    },
+    {
+      "canonical_name": "Recombinant Allergens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Recombinant Allergens",
+      "chunk_id": "chk_8cea2fcb8ef33eb2ff8c33186e358578"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

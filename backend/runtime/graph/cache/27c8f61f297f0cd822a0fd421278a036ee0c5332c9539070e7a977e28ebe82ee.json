@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_c984aa742de68aeeff2c31d23255305d",
+  "content_hash": "06f374de32041b9c29d1bdd1d57695e63cf4044488ffde2016d4fd83bef32742",
+  "entities": [
+    {
+      "canonical_name": "MMR vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMR vaccine",
+      "chunk_id": "chk_c984aa742de68aeeff2c31d23255305d"
+    },
+    {
+      "canonical_name": "20-month-old children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "20-month-old children",
+      "chunk_id": "chk_c984aa742de68aeeff2c31d23255305d"
+    },
+    {
+      "canonical_name": "childhood immunizations",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "childhood immunizations",
+      "chunk_id": "chk_c984aa742de68aeeff2c31d23255305d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

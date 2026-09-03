@@ -1,0 +1,36 @@
+{
+  "chunk_id": "chk_1f1d18e5643c32419a41406dfd73aeef",
+  "content_hash": "d99355986ca249f661ef2bc1bd64e079c8cdc202c65db8a4fd47ea0dbb4dbec2",
+  "entities": [
+    {
+      "canonical_name": "invasive pneumococcal disease",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "invasive pneumococcal disease",
+      "chunk_id": "chk_1f1d18e5643c32419a41406dfd73aeef"
+    },
+    {
+      "canonical_name": "conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "conjugate vaccine",
+      "chunk_id": "chk_1f1d18e5643c32419a41406dfd73aeef"
+    },
+    {
+      "canonical_name": "Pneumococcal conjugate vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Pneumococcal conjugate vaccines",
+      "chunk_id": "chk_1f1d18e5643c32419a41406dfd73aeef"
+    },
+    {
+      "canonical_name": "infants and children under 5 years of age",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infants and children under 5 years of age",
+      "chunk_id": "chk_1f1d18e5643c32419a41406dfd73aeef"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

@@ -1,0 +1,59 @@
+{
+  "chunk_id": "chk_1562a3fd1def07f9b94d2c6ded997918",
+  "content_hash": "e6b1171968f2ae87bb4942bc6a01189c6d372a31fb65324f74846abe51f0ca52",
+  "entities": [
+    {
+      "canonical_name": "IgE B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IgE B cells",
+      "chunk_id": "chk_1562a3fd1def07f9b94d2c6ded997918"
+    },
+    {
+      "canonical_name": "PCs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "PCs",
+      "chunk_id": "chk_1562a3fd1def07f9b94d2c6ded997918"
+    },
+    {
+      "canonical_name": "autoantigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "autoantigen",
+      "chunk_id": "chk_1562a3fd1def07f9b94d2c6ded997918"
+    },
+    {
+      "canonical_name": "B cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "B cells",
+      "chunk_id": "chk_1562a3fd1def07f9b94d2c6ded997918"
+    },
+    {
+      "canonical_name": "antigen",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antigen",
+      "chunk_id": "chk_1562a3fd1def07f9b94d2c6ded997918"
+    },
+    {
+      "canonical_name": "T cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cell",
+      "chunk_id": "chk_1562a3fd1def07f9b94d2c6ded997918"
+    },
+    {
+      "canonical_name": "GC cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "GC cell",
+      "chunk_id": "chk_1562a3fd1def07f9b94d2c6ded997918"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "entity_surface_missing"
+  ]
+}

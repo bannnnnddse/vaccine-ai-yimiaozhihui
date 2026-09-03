@@ -1,0 +1,100 @@
+{
+  "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53",
+  "content_hash": "31b0bcc3a8ed7a4c09ec66b3b7a3e058c1561524ee0aaea4ddefc2fa7d987fcf",
+  "entities": [
+    {
+      "canonical_name": "百白破疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "百白破疫苗",
+      "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+    },
+    {
+      "canonical_name": "百日咳",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "百日咳",
+      "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+    },
+    {
+      "canonical_name": "白喉",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "白喉",
+      "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+    },
+    {
+      "canonical_name": "破伤风",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "破伤风",
+      "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+    }
+  ],
+  "relations": [
+    {
+      "source": {
+        "canonical_name": "百白破疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "百白破疫苗",
+        "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+      },
+      "target": {
+        "canonical_name": "百日咳",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "百日咳",
+        "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "接种百白破疫苗是预防儿童百日咳、白喉和破伤风的有效手段。",
+      "confidence": 1.0,
+      "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+    },
+    {
+      "source": {
+        "canonical_name": "百白破疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "百白破疫苗",
+        "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+      },
+      "target": {
+        "canonical_name": "白喉",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "白喉",
+        "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "接种百白破疫苗是预防儿童百日咳、白喉和破伤风的有效手段。",
+      "confidence": 1.0,
+      "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+    },
+    {
+      "source": {
+        "canonical_name": "百白破疫苗",
+        "entity_type": "Vaccine",
+        "aliases": [],
+        "surface_form": "百白破疫苗",
+        "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+      },
+      "target": {
+        "canonical_name": "破伤风",
+        "entity_type": "Disease",
+        "aliases": [],
+        "surface_form": "破伤风",
+        "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+      },
+      "relation_type": "PREVENTS",
+      "evidence_quote": "接种百白破疫苗是预防儿童百日咳、白喉和破伤风的有效手段。",
+      "confidence": 1.0,
+      "chunk_id": "2ec0167a9797ad14967b6ee55f69c99ae7f4bf666c7678c06efd8391bcb6da53"
+    }
+  ],
+  "rejected": [
+    "new_entity_type_lexical_mismatch",
+    "unknown_endpoint"
+  ]
+}

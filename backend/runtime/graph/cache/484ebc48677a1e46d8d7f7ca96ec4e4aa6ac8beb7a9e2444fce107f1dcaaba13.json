@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_f466c10d28bede2035356d08fac18ea8",
+  "content_hash": "df9eee5ac48678736b0d180e25d06d6dd118d6043ad42cb1afcb68ea2cccf5bf",
+  "entities": [
+    {
+      "canonical_name": "HPV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HPV vaccine",
+      "chunk_id": "chk_f466c10d28bede2035356d08fac18ea8"
+    },
+    {
+      "canonical_name": "quadrivalent human papillomavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "quadrivalent human papillomavirus vaccine",
+      "chunk_id": "chk_f466c10d28bede2035356d08fac18ea8"
+    },
+    {
+      "canonical_name": "grade 8 girls",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "grade 8 girls",
+      "chunk_id": "chk_f466c10d28bede2035356d08fac18ea8"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

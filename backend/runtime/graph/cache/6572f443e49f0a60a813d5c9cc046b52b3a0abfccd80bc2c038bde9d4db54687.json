@@ -1,0 +1,22 @@
+{
+  "chunk_id": "5353c407fba547af5ef2abd80308d5ff068ecaaf5755386c1d3a201c74e599d7",
+  "content_hash": "49d37e3d4a8b72b116774a652b93d32b02660c1bfab5f9d421aecbfe402da8e4",
+  "entities": [
+    {
+      "canonical_name": "metabolic syndrome",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "metabolic syndrome",
+      "chunk_id": "5353c407fba547af5ef2abd80308d5ff068ecaaf5755386c1d3a201c74e599d7"
+    },
+    {
+      "canonical_name": "neurodegeneration",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "neurodegeneration",
+      "chunk_id": "5353c407fba547af5ef2abd80308d5ff068ecaaf5755386c1d3a201c74e599d7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

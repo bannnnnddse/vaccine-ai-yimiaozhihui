@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_bc182414a8427e038cb1b1f62c633dcd",
+  "content_hash": "185d935595a5263dbc10518c810bf575e24b358673812d83f76ae342f4361e29",
+  "entities": [
+    {
+      "canonical_name": "antibody responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody responses",
+      "chunk_id": "chk_bc182414a8427e038cb1b1f62c633dcd"
+    },
+    {
+      "canonical_name": "innate immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immunity",
+      "chunk_id": "chk_bc182414a8427e038cb1b1f62c633dcd"
+    },
+    {
+      "canonical_name": "Basophils",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Basophils",
+      "chunk_id": "chk_bc182414a8427e038cb1b1f62c633dcd"
+    },
+    {
+      "canonical_name": "plasma cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "plasma cells",
+      "chunk_id": "chk_bc182414a8427e038cb1b1f62c633dcd"
+    },
+    {
+      "canonical_name": "mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "mice",
+      "chunk_id": "chk_bc182414a8427e038cb1b1f62c633dcd"
+    },
+    {
+      "canonical_name": "Adenovirus type 5",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Adenovirus type 5",
+      "chunk_id": "chk_bc182414a8427e038cb1b1f62c633dcd"
+    },
+    {
+      "canonical_name": "dendritic cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "dendritic cells",
+      "chunk_id": "chk_bc182414a8427e038cb1b1f62c633dcd"
+    },
+    {
+      "canonical_name": "gut-homing CD8 T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "gut-homing CD8 T cells",
+      "chunk_id": "chk_bc182414a8427e038cb1b1f62c633dcd"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

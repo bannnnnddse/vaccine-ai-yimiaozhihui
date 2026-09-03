@@ -1,0 +1,99 @@
+{
+  "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82",
+  "content_hash": "063ae335ba6ff7bff93b8a8a4d81467d6042025098578dd3a0a26a772629511c",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "Fc functions",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fc functions",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "FcgR",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "FcgR",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "innate immune system",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "innate immune system",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "cytokine storms",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "cytokine storms",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "Salmonella Typhi",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Salmonella Typhi",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "ADNP",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ADNP",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "antibody-dependent neutrophil oxidative burst",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antibody-dependent neutrophil oxidative burst",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "ADNOB",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ADNOB",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "breakthrough infection",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "breakthrough infection",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "ADCD",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ADCD",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    },
+    {
+      "canonical_name": "ADCP",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "ADCP",
+      "chunk_id": "chk_d95c45b2254f22064cd2ba1f8d275a82"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

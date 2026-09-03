@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f57aef56e5a6781243cc4b2c1651713f",
+  "content_hash": "12721dcbb1e351401079332315b55e976c48d22bc99f495353336f1ba0a21ed7",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccine",
+      "chunk_id": "chk_f57aef56e5a6781243cc4b2c1651713f"
+    },
+    {
+      "canonical_name": "BBIBP-CORV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BBIBP-CORV",
+      "chunk_id": "chk_f57aef56e5a6781243cc4b2c1651713f"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

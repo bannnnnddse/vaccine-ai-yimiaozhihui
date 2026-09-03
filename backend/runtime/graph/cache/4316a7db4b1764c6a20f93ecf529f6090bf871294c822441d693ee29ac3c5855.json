@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_692872e1066cb326fdf3314f3d9930a9",
+  "content_hash": "85a55b26fa606f2f015e8107b0c488fb57ab98bb1aa7faf8c17a31f743616b1e",
+  "entities": [
+    {
+      "canonical_name": "Respiratory Syncytial Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus",
+      "chunk_id": "chk_692872e1066cb326fdf3314f3d9930a9"
+    },
+    {
+      "canonical_name": "Preterm Infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Preterm Infants",
+      "chunk_id": "chk_692872e1066cb326fdf3314f3d9930a9"
+    },
+    {
+      "canonical_name": "human IgG1s",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "human IgG1s",
+      "chunk_id": "chk_692872e1066cb326fdf3314f3d9930a9"
+    },
+    {
+      "canonical_name": "neonatal Fc receptor",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neonatal Fc receptor",
+      "chunk_id": "chk_692872e1066cb326fdf3314f3d9930a9"
+    },
+    {
+      "canonical_name": "FcRn",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "FcRn",
+      "chunk_id": "chk_692872e1066cb326fdf3314f3d9930a9"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

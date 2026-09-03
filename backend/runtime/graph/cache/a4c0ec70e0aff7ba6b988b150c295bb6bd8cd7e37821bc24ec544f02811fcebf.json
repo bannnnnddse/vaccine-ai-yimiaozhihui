@@ -1,0 +1,78 @@
+{
+  "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65",
+  "content_hash": "b47c9403b70e01f66e3ba5c7a881ed677a5c867c42e671cadedca8734473a273",
+  "entities": [
+    {
+      "canonical_name": "INFANRIX",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "INFANRIX",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    },
+    {
+      "canonical_name": "KINRIX",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "KINRIX",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    },
+    {
+      "canonical_name": "DAPTACEL",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "DAPTACEL",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    },
+    {
+      "canonical_name": "Fluarix Quadrivalent",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Fluarix Quadrivalent",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    },
+    {
+      "canonical_name": "RabAvert",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RabAvert",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    },
+    {
+      "canonical_name": "Imovax",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Imovax",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    },
+    {
+      "canonical_name": "Inlive",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Inlive",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    },
+    {
+      "canonical_name": "CoronaVac",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "CoronaVac",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    },
+    {
+      "canonical_name": "WIBP-CorV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "WIBP-CorV",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    },
+    {
+      "canonical_name": "BBIBP-Cor",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BBIBP-Cor",
+      "chunk_id": "8fa967fdce334ea416748920baa364af9a207b988957bf1432b1e1265ea7bd65"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

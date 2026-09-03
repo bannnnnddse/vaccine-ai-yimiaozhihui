@@ -1,0 +1,31 @@
+{
+  "chunk_id": "chk_d05068c6c1e6b7fa356b2a7afe9bbc0f",
+  "content_hash": "5bb0f73398988bd11c738ff70072ed2cc5fadb6830486289012ccaa585cdeba0",
+  "entities": [
+    {
+      "canonical_name": "vaccine -enhanced diseases",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "vaccine -enhanced diseases",
+      "chunk_id": "chk_d05068c6c1e6b7fa356b2a7afe9bbc0f"
+    },
+    {
+      "canonical_name": "RSV infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "RSV infection",
+      "chunk_id": "chk_d05068c6c1e6b7fa356b2a7afe9bbc0f"
+    },
+    {
+      "canonical_name": "RSV antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "RSV antibodies",
+      "chunk_id": "chk_d05068c6c1e6b7fa356b2a7afe9bbc0f"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

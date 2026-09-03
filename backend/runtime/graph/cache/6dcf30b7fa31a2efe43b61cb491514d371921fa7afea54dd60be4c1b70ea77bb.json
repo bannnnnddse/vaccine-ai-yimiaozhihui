@@ -1,0 +1,50 @@
+{
+  "chunk_id": "chk_8a9287752ef9c84bac54155ff801aee7",
+  "content_hash": "44991b6d255ae72c7654ef90c330531f4d74cae13c173c55011020ca9674a907",
+  "entities": [
+    {
+      "canonical_name": "Respiratory Syncytial Virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus",
+      "chunk_id": "chk_8a9287752ef9c84bac54155ff801aee7"
+    },
+    {
+      "canonical_name": "Respiratory Syncytial Virus Vaccine Candidate",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Respiratory Syncytial Virus Vaccine Candidate",
+      "chunk_id": "chk_8a9287752ef9c84bac54155ff801aee7"
+    },
+    {
+      "canonical_name": "Coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Coronavirus",
+      "chunk_id": "chk_8a9287752ef9c84bac54155ff801aee7"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_8a9287752ef9c84bac54155ff801aee7"
+    },
+    {
+      "canonical_name": "Cotton Rats",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Cotton Rats",
+      "chunk_id": "chk_8a9287752ef9c84bac54155ff801aee7"
+    },
+    {
+      "canonical_name": "Rhesus Macaque",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Rhesus Macaque",
+      "chunk_id": "chk_8a9287752ef9c84bac54155ff801aee7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

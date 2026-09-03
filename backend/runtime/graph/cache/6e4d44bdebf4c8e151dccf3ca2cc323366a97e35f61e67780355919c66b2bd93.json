@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_9830bf21b0e88b7b4da5a9e4073a225c",
+  "content_hash": "bec03ec95a08f8875b59cf2fe625dbe7b1fe4afb081187ef9832ee2a2bcf614f",
+  "entities": [
+    {
+      "canonical_name": "hematologic malignancies",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "hematologic malignancies",
+      "chunk_id": "chk_9830bf21b0e88b7b4da5a9e4073a225c"
+    },
+    {
+      "canonical_name": "solid tumors",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "solid tumors",
+      "chunk_id": "chk_9830bf21b0e88b7b4da5a9e4073a225c"
+    },
+    {
+      "canonical_name": "proinflammatory cytokines",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "proinflammatory cytokines",
+      "chunk_id": "chk_9830bf21b0e88b7b4da5a9e4073a225c"
+    },
+    {
+      "canonical_name": "severe side effects",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "severe side effects",
+      "chunk_id": "chk_9830bf21b0e88b7b4da5a9e4073a225c"
+    },
+    {
+      "canonical_name": "T cells",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T cells",
+      "chunk_id": "chk_9830bf21b0e88b7b4da5a9e4073a225c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

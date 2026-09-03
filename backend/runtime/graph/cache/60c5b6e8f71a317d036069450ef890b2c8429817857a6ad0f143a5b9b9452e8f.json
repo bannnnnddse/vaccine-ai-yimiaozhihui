@@ -1,0 +1,17 @@
+{
+  "chunk_id": "chk_ab0531bbb6bf0b620bd3cc020c40cf8a",
+  "content_hash": "b9f55642e2fa7f626ab3d8078f99fcd5534417c008fb3d322ec9a4f612aff902",
+  "entities": [
+    {
+      "canonical_name": "SARS coronavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS coronavirus",
+      "chunk_id": "chk_ab0531bbb6bf0b620bd3cc020c40cf8a"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "new_entity_type_lexical_mismatch"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_229260b5d292e0b71456d78a137adba5",
+  "content_hash": "8d8c28e311bd6dea00bdbe07f5cc4155a6a105163b3deb2480e0e6c62e534020",
+  "entities": [
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_229260b5d292e0b71456d78a137adba5"
+    },
+    {
+      "canonical_name": "Influenza virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Influenza virus",
+      "chunk_id": "chk_229260b5d292e0b71456d78a137adba5"
+    },
+    {
+      "canonical_name": "Vesicular stomatitis virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Vesicular stomatitis virus",
+      "chunk_id": "chk_229260b5d292e0b71456d78a137adba5"
+    },
+    {
+      "canonical_name": "IL-6",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IL-6",
+      "chunk_id": "chk_229260b5d292e0b71456d78a137adba5"
+    },
+    {
+      "canonical_name": "TFH",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TFH",
+      "chunk_id": "chk_229260b5d292e0b71456d78a137adba5"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

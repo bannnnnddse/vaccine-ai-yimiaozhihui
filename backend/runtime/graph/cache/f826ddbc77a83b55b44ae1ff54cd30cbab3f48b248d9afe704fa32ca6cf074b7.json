@@ -1,0 +1,52 @@
+{
+  "chunk_id": "a76cf533fcf176d597e99943a9023ed3c3c6dfee3002fa0a2207232a1cb2515c",
+  "content_hash": "c45a8e63ca9605e6149dabb7804398b61a8ab5ec78aeaf1757bd85f513dde5e9",
+  "entities": [
+    {
+      "canonical_name": "SARS-CoV-2 infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 infection",
+      "chunk_id": "a76cf533fcf176d597e99943a9023ed3c3c6dfee3002fa0a2207232a1cb2515c"
+    },
+    {
+      "canonical_name": "patients undergoing dialysis",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "patients undergoing dialysis",
+      "chunk_id": "a76cf533fcf176d597e99943a9023ed3c3c6dfee3002fa0a2207232a1cb2515c"
+    },
+    {
+      "canonical_name": "death",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "death",
+      "chunk_id": "a76cf533fcf176d597e99943a9023ed3c3c6dfee3002fa0a2207232a1cb2515c"
+    },
+    {
+      "canonical_name": "CKD",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "CKD",
+      "chunk_id": "a76cf533fcf176d597e99943a9023ed3c3c6dfee3002fa0a2207232a1cb2515c"
+    },
+    {
+      "canonical_name": "Diabetic nephropathy",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "Diabetic nephropathy",
+      "chunk_id": "a76cf533fcf176d597e99943a9023ed3c3c6dfee3002fa0a2207232a1cb2515c"
+    },
+    {
+      "canonical_name": "recipients of kidney transplants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "recipients of kidney transplants",
+      "chunk_id": "a76cf533fcf176d597e99943a9023ed3c3c6dfee3002fa0a2207232a1cb2515c"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

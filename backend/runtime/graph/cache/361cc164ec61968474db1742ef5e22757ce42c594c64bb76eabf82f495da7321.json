@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_2676cb2e24bd8eae134137720d2de0ae",
+  "content_hash": "4fab46be9d171a5b5a2775ff451a4687f6840ad7f42819a8acaf9f28f54c6c64",
+  "entities": [
+    {
+      "canonical_name": "MMRV vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "MMRV vaccine",
+      "chunk_id": "chk_2676cb2e24bd8eae134137720d2de0ae"
+    },
+    {
+      "canonical_name": "wheezing",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "wheezing",
+      "chunk_id": "chk_2676cb2e24bd8eae134137720d2de0ae"
+    },
+    {
+      "canonical_name": "seizure",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "seizure",
+      "chunk_id": "chk_2676cb2e24bd8eae134137720d2de0ae"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

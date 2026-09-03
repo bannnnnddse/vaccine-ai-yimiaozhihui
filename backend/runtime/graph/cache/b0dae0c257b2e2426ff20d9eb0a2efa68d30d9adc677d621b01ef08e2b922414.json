@@ -1,0 +1,43 @@
+{
+  "chunk_id": "chk_87ffbfd507788933c8b227feedc685ec",
+  "content_hash": "3269f0f526bb468c8931ae17abe3fab1fe7c8947bd6ff566ab26e803ff4ce13d",
+  "entities": [
+    {
+      "canonical_name": "Ab513",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Ab513",
+      "chunk_id": "chk_87ffbfd507788933c8b227feedc685ec"
+    },
+    {
+      "canonical_name": "EDIII domains",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "EDIII domains",
+      "chunk_id": "chk_87ffbfd507788933c8b227feedc685ec"
+    },
+    {
+      "canonical_name": "DENV serotypes",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "DENV serotypes",
+      "chunk_id": "chk_87ffbfd507788933c8b227feedc685ec"
+    },
+    {
+      "canonical_name": "cross-reactive antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "cross-reactive antibodies",
+      "chunk_id": "chk_87ffbfd507788933c8b227feedc685ec"
+    },
+    {
+      "canonical_name": "DHF symptom severity",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "DHF symptom severity",
+      "chunk_id": "chk_87ffbfd507788933c8b227feedc685ec"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

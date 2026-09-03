@@ -1,0 +1,85 @@
+{
+  "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b",
+  "content_hash": "6ab4763ed7267a058f5a11365904aed1c16d7d0c2618a4cf1133cc0a3d5f8fbe",
+  "entities": [
+    {
+      "canonical_name": "influenza",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "influenza",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "pneumococcal",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "Td/Tdap",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Td/Tdap",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "HZ",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "HZ",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "hepatitis B",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "adults ≥19 - years old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults ≥19 - years old",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "adults 19–64 at increased risk",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults 19–64 at increased risk",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "adults ≥19 years old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults ≥19 years old",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "adults >60 years old",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults >60 years old",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "minority racial and ethnic groups",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "minority racial and ethnic groups",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    },
+    {
+      "canonical_name": "non-Hispanic white populations",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "non-Hispanic white populations",
+      "chunk_id": "chk_d43d1c417cc520aadbf9a7cfd3a5ad4b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

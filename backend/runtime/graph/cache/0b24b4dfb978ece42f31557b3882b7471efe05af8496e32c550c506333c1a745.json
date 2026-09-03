@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_e25e46a40f0473f5a2036785f91b8b3c",
+  "content_hash": "c07e3d708fe6400f11d8f969cfedf9f6b6fbb00145ac808cc47d210556e3961d",
+  "entities": [
+    {
+      "canonical_name": "UK infants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "UK infants",
+      "chunk_id": "chk_e25e46a40f0473f5a2036785f91b8b3c"
+    },
+    {
+      "canonical_name": "oral rotavirus vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "oral rotavirus vaccine",
+      "chunk_id": "chk_e25e46a40f0473f5a2036785f91b8b3c"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

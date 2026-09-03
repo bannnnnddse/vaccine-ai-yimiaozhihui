@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_122e1e27c650626d4887c204fa5a412d",
+  "content_hash": "72cac58171227fc76fe0b201d28381280e81123f6e86b7bb769ffde68b9cb349",
+  "entities": [
+    {
+      "canonical_name": "inactivated influenza vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "inactivated influenza vaccine",
+      "chunk_id": "chk_122e1e27c650626d4887c204fa5a412d"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

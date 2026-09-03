@@ -1,0 +1,15 @@
+{
+  "chunk_id": "chk_bac41f17039c3b825a3b940832cd1a61",
+  "content_hash": "5041d8ad3ba00304bca0b02a2f899b5923335cbaf552ca9e74fe16de716879dc",
+  "entities": [
+    {
+      "canonical_name": "yellow fever",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "yellow fever",
+      "chunk_id": "chk_bac41f17039c3b825a3b940832cd1a61"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

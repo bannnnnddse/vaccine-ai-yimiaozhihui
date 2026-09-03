@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_9dd99b4ecdc196991fc17f405ceb7045",
+  "content_hash": "da26de4ec13af70d26fbd701b144a3f619a8a24fdb308e6d0acec60ba0f9e938",
+  "entities": [
+    {
+      "canonical_name": "prime-boost vaccination regimens",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "prime-boost vaccination regimens",
+      "chunk_id": "chk_9dd99b4ecdc196991fc17f405ceb7045"
+    },
+    {
+      "canonical_name": "Fc functions",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fc functions",
+      "chunk_id": "chk_9dd99b4ecdc196991fc17f405ceb7045"
+    },
+    {
+      "canonical_name": "Fc functional capacity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "Fc functional capacity",
+      "chunk_id": "chk_9dd99b4ecdc196991fc17f405ceb7045"
+    },
+    {
+      "canonical_name": "COVID-19 convalescent vaccinated individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "COVID-19 convalescent vaccinated individuals",
+      "chunk_id": "chk_9dd99b4ecdc196991fc17f405ceb7045"
+    },
+    {
+      "canonical_name": "Individuals with hybrid immunity",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Individuals with hybrid immunity",
+      "chunk_id": "chk_9dd99b4ecdc196991fc17f405ceb7045"
+    },
+    {
+      "canonical_name": "SARS-CoV-2 infected individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2 infected individuals",
+      "chunk_id": "chk_9dd99b4ecdc196991fc17f405ceb7045"
+    },
+    {
+      "canonical_name": "otherwise healthy individuals",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "otherwise healthy individuals",
+      "chunk_id": "chk_9dd99b4ecdc196991fc17f405ceb7045"
+    },
+    {
+      "canonical_name": "SARS-CoV-2",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "SARS-CoV-2",
+      "chunk_id": "chk_9dd99b4ecdc196991fc17f405ceb7045"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

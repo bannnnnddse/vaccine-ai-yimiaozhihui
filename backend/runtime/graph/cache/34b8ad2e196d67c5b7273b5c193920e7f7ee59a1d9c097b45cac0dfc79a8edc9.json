@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_809e19147c06dedbd5f9f566fbbeede0",
+  "content_hash": "ac04faf57d780afcce2f191021ba6f9ec9dd9a20e290e599a203b47ab7e1bb67",
+  "entities": [
+    {
+      "canonical_name": "BCG Vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "BCG Vaccination",
+      "chunk_id": "chk_809e19147c06dedbd5f9f566fbbeede0"
+    },
+    {
+      "canonical_name": "pertussis",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "pertussis",
+      "chunk_id": "chk_809e19147c06dedbd5f9f566fbbeede0"
+    },
+    {
+      "canonical_name": "Live attenuated vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Live attenuated vaccines",
+      "chunk_id": "chk_809e19147c06dedbd5f9f566fbbeede0"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

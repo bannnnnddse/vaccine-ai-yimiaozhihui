@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_08395354f0831e53d2cd78c46dc61e13",
+  "content_hash": "6f844d39322916753794654b3695015fab9df83b6fa42d974e72d03c144cda0c",
+  "entities": [
+    {
+      "canonical_name": "T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "T-cell",
+      "chunk_id": "chk_08395354f0831e53d2cd78c46dc61e13"
+    },
+    {
+      "canonical_name": "pathogenic bacteria",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "pathogenic bacteria",
+      "chunk_id": "chk_08395354f0831e53d2cd78c46dc61e13"
+    },
+    {
+      "canonical_name": "enterococcal bacteriophage",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "enterococcal bacteriophage",
+      "chunk_id": "chk_08395354f0831e53d2cd78c46dc61e13"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

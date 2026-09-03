@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_523ed27cca85b1d6905c98f37861835a",
+  "content_hash": "f9742432d148992d0f34e0bd5e4bd31446fd48a064688fe0b1c6c2c21bd6cdf7",
+  "entities": [
+    {
+      "canonical_name": "2009 pandemic influenza A(H1N1) vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "2009 pandemic influenza A(H1N1) vaccination",
+      "chunk_id": "chk_523ed27cca85b1d6905c98f37861835a"
+    },
+    {
+      "canonical_name": "elderly persons",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "elderly persons",
+      "chunk_id": "chk_523ed27cca85b1d6905c98f37861835a"
+    },
+    {
+      "canonical_name": "Influenza vaccination programs",
+      "entity_type": "Schedule",
+      "aliases": [],
+      "surface_form": "Influenza vaccination programs",
+      "chunk_id": "chk_523ed27cca85b1d6905c98f37861835a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

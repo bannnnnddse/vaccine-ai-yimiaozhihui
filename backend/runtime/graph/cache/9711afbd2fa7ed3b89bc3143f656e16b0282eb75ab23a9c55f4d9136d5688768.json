@@ -1,0 +1,46 @@
+{
+  "chunk_id": "chk_77607ae573223caf5c9f126bfe8f2f6b",
+  "content_hash": "87e71a56191c8d8d5216144bd69d45f314a21aa80d4962c557434bd71ca72499",
+  "entities": [
+    {
+      "canonical_name": "SFTSV Gn",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "SFTSV Gn",
+      "chunk_id": "chk_77607ae573223caf5c9f126bfe8f2f6b"
+    },
+    {
+      "canonical_name": "WT C57BL/6 mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "WT C57BL/6 mice",
+      "chunk_id": "chk_77607ae573223caf5c9f126bfe8f2f6b"
+    },
+    {
+      "canonical_name": "humoral and cellular immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "humoral and cellular immunity",
+      "chunk_id": "chk_77607ae573223caf5c9f126bfe8f2f6b"
+    },
+    {
+      "canonical_name": "fatal infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "fatal infection",
+      "chunk_id": "chk_77607ae573223caf5c9f126bfe8f2f6b"
+    },
+    {
+      "canonical_name": "IFNARNAb",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "IFNARNAb",
+      "chunk_id": "chk_77607ae573223caf5c9f126bfe8f2f6b"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "source_missing_from_quote",
+    "source_missing_from_quote"
+  ]
+}

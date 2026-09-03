@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_fc16cf387ce9a568df313dac8a3482b6",
+  "content_hash": "6eeddf467c9419fe82074589c6135a87951ec4532ccaaf6aa905dff541f9ec1a",
+  "entities": [
+    {
+      "canonical_name": "tick-borne encephalitis vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "tick-borne encephalitis vaccine",
+      "chunk_id": "chk_fc16cf387ce9a568df313dac8a3482b6"
+    },
+    {
+      "canonical_name": "Bifidobacteria",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bifidobacteria",
+      "chunk_id": "chk_fc16cf387ce9a568df313dac8a3482b6"
+    },
+    {
+      "canonical_name": "infant",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "infant",
+      "chunk_id": "chk_fc16cf387ce9a568df313dac8a3482b6"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

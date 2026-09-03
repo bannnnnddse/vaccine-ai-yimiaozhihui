@@ -1,0 +1,40 @@
+{
+  "job_id": "f4731239193a",
+  "prompt": "请生成预防hpv的措施图解",
+  "brief": null,
+  "generation_route": null,
+  "image_model": "wan2.7-image-pro",
+  "image_id": null,
+  "trusted_image": null,
+  "candidate_image": null,
+  "critic_result": null,
+  "guard_result": null,
+  "auto_revision_count": 0,
+  "revision_origin": null,
+  "last_revision_bbox": null,
+  "last_edit_instruction": null,
+  "created_at": "2026-08-13T13:06:30.367960+00:00",
+  "finished_at": "2026-08-13T13:06:34.187229+00:00",
+  "stage": "cancelled",
+  "error": null,
+  "trace_id": "204bc6f4eca6",
+  "trace_events": [
+    {
+      "id": "204bc6f4eca6-1",
+      "stage": "understanding",
+      "title": "图解需求已确认",
+      "detail": "已确认主题、画面目标与科学表达边界。",
+      "status": "completed",
+      "created_at": "2026-08-13T13:06:30.367960Z"
+    },
+    {
+      "id": "204bc6f4eca6-2",
+      "stage": "prompt_rewrite",
+      "title": "生成已取消",
+      "detail": "将需求整理为适合科学图解模型理解的视觉指令。",
+      "status": "warning",
+      "created_at": "2026-08-13T13:06:30.367960Z"
+    }
+  ],
+  "trace_history": []
+}

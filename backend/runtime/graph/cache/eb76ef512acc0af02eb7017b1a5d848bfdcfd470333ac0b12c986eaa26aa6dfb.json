@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_dba012fff5f17764356dc7a927e8a7ab",
+  "content_hash": "b7fe1865a671681cd03c375e8e875fd4d8bcba2d8c194aedad0aa3e600352e0a",
+  "entities": [
+    {
+      "canonical_name": "COVID-19 vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "COVID-19 vaccines",
+      "chunk_id": "chk_dba012fff5f17764356dc7a927e8a7ab"
+    },
+    {
+      "canonical_name": "trained innate immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "trained innate immunity",
+      "chunk_id": "chk_dba012fff5f17764356dc7a927e8a7ab"
+    },
+    {
+      "canonical_name": "TII",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "TII",
+      "chunk_id": "chk_dba012fff5f17764356dc7a927e8a7ab"
+    },
+    {
+      "canonical_name": "antiSARS-CoV-2 immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "antiSARS-CoV-2 immunity",
+      "chunk_id": "chk_dba012fff5f17764356dc7a927e8a7ab"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "quote_missing"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4",
+  "content_hash": "655a4ce4894042c29c770df5da36e4e510d26b3989b87957abe69cb444799e19",
+  "entities": [
+    {
+      "canonical_name": "mixed vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "mixed vaccine",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    },
+    {
+      "canonical_name": "vaccinia virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "vaccinia virus",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    },
+    {
+      "canonical_name": "EBV antigens",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "EBV antigens",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    },
+    {
+      "canonical_name": "gp350",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "gp350",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    },
+    {
+      "canonical_name": "gp110",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "gp110",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    },
+    {
+      "canonical_name": "EBNA-2",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "EBNA-2",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    },
+    {
+      "canonical_name": "EBNA-3C",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "EBNA-3C",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    },
+    {
+      "canonical_name": "neutralizing antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "neutralizing antibodies",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    },
+    {
+      "canonical_name": "CD4 + T-cell",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "CD4 + T-cell",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    },
+    {
+      "canonical_name": "C57BL/6 female mice",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "C57BL/6 female mice",
+      "chunk_id": "chk_0dd2e09a4dcb23b09c11b813d47870b4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range"
+  ]
+}

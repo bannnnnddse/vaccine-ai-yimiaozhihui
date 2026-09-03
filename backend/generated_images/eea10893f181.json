@@ -1,0 +1,74 @@
+{
+  "job_id": "eea10893f181",
+  "prompt": "请生成一张面向普通家长的儿童疫苗科普信息图，主题是“接种疫苗后，人体如何产生抗体”。画面依次展示：疫苗进入人体、抗原被免疫细胞识别、B 细胞被激活并分化为浆细胞、浆细胞产生抗体、形成免疫记忆。要求中文标注清晰准确，整体为简洁友好的医学科普插画风格，不要过度专业化，适合在接种门诊的大屏幕上展示。",
+  "brief": {
+    "image_type": "mechanism_diagram",
+    "generation_route": "fast",
+    "optimized_chinese_prompt": "一张9:16竖版、风格简洁友好的医学科普插画，面向普通家长。画面采用从上到下的线性因果流程，背景为柔和的浅蓝色医疗色调。顶部标题为大号简体中文“接种疫苗后，人体如何产生抗体”。流程分为五个清晰步骤：1. 一支卡通风格的注射器将疫苗注入上臂肌肉；2. 放大显示免疫细胞（如树突状细胞）识别疫苗中的抗原颗粒；3. B细胞被激活并分化为浆细胞；4. Y字形的抗体从浆细胞中大量分泌出来；5. 形成记忆细胞以提供长期保护。每个步骤旁配有简短清晰的中文标签，箭头指示方向。整体设计扁平化、色彩明亮，避免过度复杂的微观细节，确保在门诊大屏幕上清晰可读。",
+    "chinese_labels": [
+      "疫苗注入",
+      "抗原识别",
+      "B细胞激活",
+      "浆细胞分泌抗体",
+      "免疫记忆形成"
+    ],
+    "scientific_claims": [
+      "疫苗含有抗原成分，能模拟病原体刺激免疫系统。",
+      "免疫细胞能够识别疫苗中的特定抗原。",
+      "B细胞在识别抗原后被激活并分化为浆细胞。",
+      "浆细胞负责产生特异性抗体以中和抗原。",
+      "部分活化的B细胞转化为记忆细胞，提供长期免疫保护。"
+    ],
+    "core_causal_steps": [
+      {
+        "primary_relation": "疫苗进入人体并释放抗原"
+      },
+      {
+        "primary_relation": "免疫细胞识别抗原"
+      },
+      {
+        "primary_relation": "B细胞激活并分化为浆细胞"
+      },
+      {
+        "primary_relation": "浆细胞产生抗体并形成免疫记忆"
+      }
+    ],
+    "route_reason": "正式快速闭环固定使用 Wan；Crafter 仅保留为 legacy。"
+  },
+  "generation_route": "fast",
+  "image_model": "wan2.7-image-pro",
+  "image_id": "eea10893f181-v2",
+  "trusted_image": "eea10893f181-v2.png",
+  "candidate_image": null,
+  "critic_result": {
+    "overall_status": "pass",
+    "summary": "目标区域内的文字已成功从中文修改为英文“three-step process”，字体风格、大小及颜色与画面其他部分保持一致。画面其余部分的插图、配色及中文标注均未受影响，符合用户关于局部编辑的要求。",
+    "recommended_action": "accept",
+    "auto_fixable": false,
+    "human_input_required": false,
+    "issues": []
+  },
+  "guard_result": {
+    "passed": true,
+    "outside_change_score": 0.030122,
+    "threshold": 0.05,
+    "changed_outside_bbox": false,
+    "inside_change_score": 0.256819,
+    "minimum_inside_change": 0.01,
+    "insufficient_change_inside_bbox": false,
+    "notes": "框外变化处于当前工程阈值内，且框内检测到有效变化。"
+  },
+  "auto_revision_count": 0,
+  "revision_origin": "human",
+  "last_revision_bbox": [
+    0.41928730281721455,
+    0.3234966241619166,
+    0.5864847469215759,
+    0.36390817433135597
+  ],
+  "last_edit_instruction": "仅修改指定矩形区域；矩形外所有像素内容、主体、构图和文字保持不变。修改后保持原图画风、配色、光影、排版和文字风格一致，不新增无关元素。\n用户要求：框选区域文字改为英文，其他地方不变",
+  "created_at": "2026-08-12T03:11:31.280599+00:00",
+  "finished_at": "2026-08-12T03:15:47.045173+00:00",
+  "stage": "completed",
+  "error": null
+}

@@ -1,0 +1,29 @@
+{
+  "chunk_id": "chk_0b1153b13b7735d532a3f8487afad6c7",
+  "content_hash": "039d02d25fbe078f6277d15644c1b3faa10acf643202e5e6c8e9fee8ec8746dd",
+  "entities": [
+    {
+      "canonical_name": "HBsAg-specific antibodies",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "HBsAg-specific antibodies",
+      "chunk_id": "chk_0b1153b13b7735d532a3f8487afad6c7"
+    },
+    {
+      "canonical_name": "hepatitis B vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "hepatitis B vaccination",
+      "chunk_id": "chk_0b1153b13b7735d532a3f8487afad6c7"
+    },
+    {
+      "canonical_name": "adults",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "adults",
+      "chunk_id": "chk_0b1153b13b7735d532a3f8487afad6c7"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

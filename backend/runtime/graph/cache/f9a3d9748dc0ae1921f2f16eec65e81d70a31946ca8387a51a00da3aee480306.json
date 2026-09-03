@@ -1,0 +1,53 @@
+{
+  "chunk_id": "d9605779be052b0b0599bcc942505ead27e396fff692fcd4d835b02662873ac4",
+  "content_hash": "2e36faa561443c700a00056b5d3f24d217c0c0e08e7adbd37d6b4698b2b2c038",
+  "entities": [
+    {
+      "canonical_name": "RBMRNA-405 vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-405 vaccine",
+      "chunk_id": "d9605779be052b0b0599bcc942505ead27e396fff692fcd4d835b02662873ac4"
+    },
+    {
+      "canonical_name": "RBMRNA-Delta",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "RBMRNA-Delta",
+      "chunk_id": "d9605779be052b0b0599bcc942505ead27e396fff692fcd4d835b02662873ac4"
+    },
+    {
+      "canonical_name": "Omicron strains",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Omicron strains",
+      "chunk_id": "d9605779be052b0b0599bcc942505ead27e396fff692fcd4d835b02662873ac4"
+    },
+    {
+      "canonical_name": "Delta",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Delta",
+      "chunk_id": "d9605779be052b0b0599bcc942505ead27e396fff692fcd4d835b02662873ac4"
+    },
+    {
+      "canonical_name": "serum NAbs",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "serum NAbs",
+      "chunk_id": "d9605779be052b0b0599bcc942505ead27e396fff692fcd4d835b02662873ac4"
+    },
+    {
+      "canonical_name": "NAb responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "NAb responses",
+      "chunk_id": "d9605779be052b0b0599bcc942505ead27e396fff692fcd4d835b02662873ac4"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "invalid_domain_range",
+    "unknown_endpoint"
+  ]
+}

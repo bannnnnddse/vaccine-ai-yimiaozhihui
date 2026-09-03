@@ -1,0 +1,36 @@
+{
+  "chunk_id": "859bdf70ed3dbd228708a7a835b210b53592ec0a8758396b4fcfb723069a274a",
+  "content_hash": "b02847952eae045a58dd876feed831d01d9ce13de504887c38c6f7e00d1d0ea6",
+  "entities": [
+    {
+      "canonical_name": "Streptococcus pneumoniae",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Streptococcus pneumoniae",
+      "chunk_id": "859bdf70ed3dbd228708a7a835b210b53592ec0a8758396b4fcfb723069a274a"
+    },
+    {
+      "canonical_name": "heptavalent protein‒polysaccharide conjugate vaccine PCV7",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "heptavalent protein‒polysaccharide conjugate vaccine PCV7",
+      "chunk_id": "859bdf70ed3dbd228708a7a835b210b53592ec0a8758396b4fcfb723069a274a"
+    },
+    {
+      "canonical_name": "Bordetella pertussis",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "Bordetella pertussis",
+      "chunk_id": "859bdf70ed3dbd228708a7a835b210b53592ec0a8758396b4fcfb723069a274a"
+    },
+    {
+      "canonical_name": "acellular pertussis vaccines",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "acellular pertussis vaccines",
+      "chunk_id": "859bdf70ed3dbd228708a7a835b210b53592ec0a8758396b4fcfb723069a274a"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

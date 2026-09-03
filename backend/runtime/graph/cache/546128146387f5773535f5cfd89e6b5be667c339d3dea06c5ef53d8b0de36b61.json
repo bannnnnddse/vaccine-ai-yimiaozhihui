@@ -1,0 +1,22 @@
+{
+  "chunk_id": "chk_f76f8f097b89a310f6f36c563bd142d1",
+  "content_hash": "890bd394cbf2ee29799157fed415c517a14941378c892bed0d7438f39d885204",
+  "entities": [
+    {
+      "canonical_name": "Haemophilus influenza type B (Hib) vaccination",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Haemophilus influenza type B (Hib) vaccination",
+      "chunk_id": "chk_f76f8f097b89a310f6f36c563bd142d1"
+    },
+    {
+      "canonical_name": "children",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "children",
+      "chunk_id": "chk_f76f8f097b89a310f6f36c563bd142d1"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

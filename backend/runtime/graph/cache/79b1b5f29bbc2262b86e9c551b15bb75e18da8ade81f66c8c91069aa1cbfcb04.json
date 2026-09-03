@@ -1,0 +1,38 @@
+{
+  "chunk_id": "chk_e50f1f3ef6ea2d314fadcacf8ca5ac97",
+  "content_hash": "1b41c089b7b81adb1f2349613c8c6c09c8d46f0faacce2125a265873addd5954",
+  "entities": [
+    {
+      "canonical_name": "adenovirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "adenovirus",
+      "chunk_id": "chk_e50f1f3ef6ea2d314fadcacf8ca5ac97"
+    },
+    {
+      "canonical_name": "simian adenovirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "simian adenovirus",
+      "chunk_id": "chk_e50f1f3ef6ea2d314fadcacf8ca5ac97"
+    },
+    {
+      "canonical_name": "pre-existing immunity",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "pre-existing immunity",
+      "chunk_id": "chk_e50f1f3ef6ea2d314fadcacf8ca5ac97"
+    },
+    {
+      "canonical_name": "immune responses",
+      "entity_type": "ImmuneEntity",
+      "aliases": [],
+      "surface_form": "immune responses",
+      "chunk_id": "chk_e50f1f3ef6ea2d314fadcacf8ca5ac97"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint"
+  ]
+}

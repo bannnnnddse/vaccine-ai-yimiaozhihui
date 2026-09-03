@@ -1,0 +1,53 @@
+{
+  "chunk_id": "chk_960bc1d966d6fb29be5231cc0f21b438",
+  "content_hash": "f3bc07901e51ed95335f7eb5160ecaa0b2b60140e90e75eafaa5585ff7416ba2",
+  "entities": [
+    {
+      "canonical_name": "dexamethasone",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "dexamethasone",
+      "chunk_id": "chk_960bc1d966d6fb29be5231cc0f21b438"
+    },
+    {
+      "canonical_name": "anti-IL-6R therapy",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "anti-IL-6R therapy",
+      "chunk_id": "chk_960bc1d966d6fb29be5231cc0f21b438"
+    },
+    {
+      "canonical_name": "COVID-19",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "COVID-19",
+      "chunk_id": "chk_960bc1d966d6fb29be5231cc0f21b438"
+    },
+    {
+      "canonical_name": "chronic inflammatory diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "chronic inflammatory diseases",
+      "chunk_id": "chk_960bc1d966d6fb29be5231cc0f21b438"
+    },
+    {
+      "canonical_name": "autoimmune diseases",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "autoimmune diseases",
+      "chunk_id": "chk_960bc1d966d6fb29be5231cc0f21b438"
+    },
+    {
+      "canonical_name": "infection",
+      "entity_type": "Disease",
+      "aliases": [],
+      "surface_form": "infection",
+      "chunk_id": "chk_960bc1d966d6fb29be5231cc0f21b438"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "unknown_endpoint",
+    "unknown_endpoint"
+  ]
+}

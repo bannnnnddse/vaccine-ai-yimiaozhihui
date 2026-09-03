@@ -1,0 +1,27 @@
+{
+  "chunk_id": "chk_8b2682bc90169d0bc4cc7df8866f933e",
+  "content_hash": "c2bf744bdd2d0ee93a00c23e93229d2286249cfad23e61ebb89cc53b0b01cd95",
+  "entities": [
+    {
+      "canonical_name": "麻腮风疫苗",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "麻腮风疫苗",
+      "chunk_id": "chk_8b2682bc90169d0bc4cc7df8866f933e"
+    },
+    {
+      "canonical_name": "儿童",
+      "entity_type": "Population",
+      "aliases": [
+        "儿童",
+        "婴幼儿"
+      ],
+      "surface_form": "儿童",
+      "chunk_id": "chk_8b2682bc90169d0bc4cc7df8866f933e"
+    }
+  ],
+  "relations": [],
+  "rejected": [
+    "relation_evidence_cue_missing"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "chunk_id": "chk_16fc9b5b64652d2d8e86beb18f9f1d9b",
+  "content_hash": "a6e5ccef5c5fe95874c59e1627c86570d0512e7b428454976e3d304cce021862",
+  "entities": [
+    {
+      "canonical_name": "Influenza Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Influenza Vaccine",
+      "chunk_id": "chk_16fc9b5b64652d2d8e86beb18f9f1d9b"
+    },
+    {
+      "canonical_name": "Rotavirus Vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "Rotavirus Vaccine",
+      "chunk_id": "chk_16fc9b5b64652d2d8e86beb18f9f1d9b"
+    },
+    {
+      "canonical_name": "Fever",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Fever",
+      "chunk_id": "chk_16fc9b5b64652d2d8e86beb18f9f1d9b"
+    },
+    {
+      "canonical_name": "Decreased appetite",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Decreased appetite",
+      "chunk_id": "chk_16fc9b5b64652d2d8e86beb18f9f1d9b"
+    },
+    {
+      "canonical_name": "Drowsiness",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Drowsiness",
+      "chunk_id": "chk_16fc9b5b64652d2d8e86beb18f9f1d9b"
+    },
+    {
+      "canonical_name": "Irritability",
+      "entity_type": "AdverseEvent",
+      "aliases": [],
+      "surface_form": "Irritability",
+      "chunk_id": "chk_16fc9b5b64652d2d8e86beb18f9f1d9b"
+    },
+    {
+      "canonical_name": "Participants",
+      "entity_type": "Population",
+      "aliases": [],
+      "surface_form": "Participants",
+      "chunk_id": "chk_16fc9b5b64652d2d8e86beb18f9f1d9b"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}

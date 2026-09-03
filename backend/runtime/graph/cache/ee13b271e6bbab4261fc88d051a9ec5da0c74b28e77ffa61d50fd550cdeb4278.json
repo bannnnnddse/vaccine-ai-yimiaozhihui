@@ -1,0 +1,64 @@
+{
+  "chunk_id": "chk_7925ed7970b70afc2fe577e606dbf960",
+  "content_hash": "679b6339fe49df4086725988533d45b32f082621f97477498d45f74c70faf873",
+  "entities": [
+    {
+      "canonical_name": "HIV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HIV",
+      "chunk_id": "chk_7925ed7970b70afc2fe577e606dbf960"
+    },
+    {
+      "canonical_name": "human immunodeficiency virus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human immunodeficiency virus",
+      "chunk_id": "chk_7925ed7970b70afc2fe577e606dbf960"
+    },
+    {
+      "canonical_name": "HPV",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "HPV",
+      "chunk_id": "chk_7925ed7970b70afc2fe577e606dbf960"
+    },
+    {
+      "canonical_name": "human papillomavirus",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "human papillomavirus",
+      "chunk_id": "chk_7925ed7970b70afc2fe577e606dbf960"
+    },
+    {
+      "canonical_name": "MenC",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "MenC",
+      "chunk_id": "chk_7925ed7970b70afc2fe577e606dbf960"
+    },
+    {
+      "canonical_name": "meningococcal group C",
+      "entity_type": "Pathogen",
+      "aliases": [],
+      "surface_form": "meningococcal group C",
+      "chunk_id": "chk_7925ed7970b70afc2fe577e606dbf960"
+    },
+    {
+      "canonical_name": "PCV",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "PCV",
+      "chunk_id": "chk_7925ed7970b70afc2fe577e606dbf960"
+    },
+    {
+      "canonical_name": "pneumococcal conjugate vaccine",
+      "entity_type": "Vaccine",
+      "aliases": [],
+      "surface_form": "pneumococcal conjugate vaccine",
+      "chunk_id": "chk_7925ed7970b70afc2fe577e606dbf960"
+    }
+  ],
+  "relations": [],
+  "rejected": []
+}
