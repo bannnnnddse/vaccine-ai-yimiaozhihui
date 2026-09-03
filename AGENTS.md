@@ -10,10 +10,11 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 当前已验证基线（2026-09-03）：
 
+- 在线体验地址（Cloudflare 隧道实时演示）：https://skin-swimming-shades-assume.trycloudflare.com/ （临时隧道，服务器重启后地址可能变化；部署细节见 DEPLOYMENT.md）
 - 前端 `pnpm test`：59 个测试文件、346 项测试通过；`pnpm build` 通过
 - 后端 `pytest`：405 项测试通过；`ruff check app tests` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过
-- GitHub Actions 覆盖 `main` 与 `master` 的前端、后端和 Docker 构建检查
+- GitHub Actions 覆盖 `main` 与 `master` 的前端、后端和 Docker 构建检查，当前全绿
 
 > ⚠️ **能力声明边界：** GraphRAG 已启用（`GRAPH_RAG_ENABLED=true`）：知识库为 140 份受治理语料文档（125 PDF + 11 MD + 4 DOCX）构建的 17,167 个 chunks，活动索引 `rag-v2-20260824T024746251335Z-8d89f653`，活动图谱版本 `graph-20260824T032039458153Z-7a0729a2-2558bd4d`（8,006 节点、6,215 边、5,282 条 provenance，全部通过 `medical_graph_validator_v10` 校验）。图缺失或版本不匹配时问答仍安全退回 Vector-only。视频页是本地模拟，不能描述为真实视频模型。
 
