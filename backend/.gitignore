@@ -23,6 +23,7 @@ rag_index/
 model_cache/
 generated_images/
 *.log
+*.log.err
 
 # OS and editor metadata
 .vscode/
