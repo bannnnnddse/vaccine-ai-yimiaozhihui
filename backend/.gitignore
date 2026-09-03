@@ -1,4 +1,4 @@
-# Local environment and secrets — never commit
+# Local environment and secrets 鈥?never commit
 .env
 .env.*
 !.env.example
@@ -16,6 +16,13 @@ __pycache__/
 .coverage
 htmlcov/
 *.egg-info/
+
+# Runtime assets and logs (provided via private channel in production)
+runtime/
+rag_index/
+model_cache/
+generated_images/
+*.log
 
 # OS and editor metadata
 .vscode/

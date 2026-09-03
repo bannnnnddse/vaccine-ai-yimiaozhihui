@@ -84,7 +84,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 - 评测集、holdout 和历史评测结果不进入公开仓库；保留离线、无真实网络/模型调用的单元和接口测试
 - 代码、配置与测试优先于实施报告；历史文档不得覆盖当前运行事实
-- 不提交 `.env` 与任何真实密钥；虚拟环境与编译缓存（`.venv/`、`__pycache__/`、`node_modules/`、`dist/`）不入库。本仓库为**完整交付快照**：运行时资产（`backend/runtime/`、`backend/rag_index/`、`backend/model_cache/`、`backend/generated_images/`）与受治理语料随仓库交付，以便离线复现；仅 14 个超过 GitHub 100MB 限制的文件与 `.env` 需按 [DEPLOYMENT.md](DEPLOYMENT.md) 私密通道提供
+- 不提交 `.env`、密钥、`backend/runtime/`、`backend/rag_index/`、`backend/model_cache/`、`backend/generated_images/`、运行日志、虚拟环境或编译缓存；这些运行时资产通过私密部署通道提供，清单见 [DEPLOYMENT.md](DEPLOYMENT.md)。受治理语料与源码、测试随仓库交付
 - 根目录 `.git` 是唯一仓库；`backend/` 与 `frontend/` 是普通目录，统一从根目录执行 Git 操作
 - 不使用 `git reset --hard`、`git checkout --` 或 stash 覆盖未知改动；不删除未确认的本地忽略文件
 - 推送前运行 `python scripts/deploy_preflight.py --source-only`；服务器补齐私密资产后运行完整预检，部署细节见 [DEPLOYMENT.md](DEPLOYMENT.md)

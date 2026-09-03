@@ -142,9 +142,9 @@ flowchart LR
 ├── frontend/            React 19 + TypeScript 前端（src/ 为业务源码与组件测试）
 ├── backend/             FastAPI 后端
 │   ├── app/             api routes / services / rag / graph / pubmed / schemas / admin
-│   ├── runtime/         SQLite 审核库、图谱快照、docling 产物等运行数据
-│   ├── rag_index/       已构建的版本化检索索引
-│   └── model_cache/     BGE embedding / reranker 本地模型缓存
+│   ├── tests/           离线测试套件（405 项）
+│   ├── assets/          图解管线运行参考图
+│   └── runtime/  rag_index/  model_cache/  generated_images/   # 运行时资产，不入库，见 DEPLOYMENT.md
 ├── RAG/                 受治理语料：140 份文档（125 PDF + 11 MD + 4 DOCX）+ corpus_manifest.jsonl 准入清单
 ├── skills/              受治理细胞 IP 图解技能（图解管线启动校验依赖）
 ├── nginx/  docker-compose.yml  Dockerfile×2
@@ -176,7 +176,7 @@ docker compose up -d --build
 # 前端 http://<host>/，后端健康检查 /api/v1/health
 ```
 
-> ⚠️ **仓库内容与私密资产：** 本仓库为**完整交付快照**：除源码与配置外，还包含受治理语料（140 份文档）、已构建的版本化索引与活动指针、本地模型缓存、运行时数据库与图谱快照、历史生成图片（约 3.9GB）。唯一不进入仓库的是**密钥文件 `backend/.env`**；另有 14 个因 GitHub 单文件 100MB 硬限制未能入库的超限文件（bge-reranker 权重 1060MB、一个 436MB docling 中间产物、8 个 >100MB 的 chroma 数据库、2 个科普视频 mp4 及 dist 中的副本），完整清单与传输方式见 [DEPLOYMENT.md](DEPLOYMENT.md)。
+> ⚠️ **仓库内容与私密资产：** 本仓库包含完整源码、配置、测试与受治理语料（140 份文档）；**运行时资产不入库**——`backend/runtime/`（数据库、图谱快照）、`backend/rag_index/`（版本化索引）、`backend/model_cache/`（BGE 权重）、`backend/generated_images/` 及运行日志通过私密部署通道提供（详见 [DEPLOYMENT.md](DEPLOYMENT.md)）。唯一必需的密钥文件为 `backend/.env`，绝不入库；另有 2 个超过 GitHub 单文件 100MB 限制的科普视频 mp4 未随仓库发布。
 
 ## 六、RAG 检索评测口径与样本筛选规则
 
@@ -254,9 +254,11 @@ Top-4 检索成功率 = 958 / 1081 × 100% = 88.62%
 
 ### 6. 公开材料说明
 
-公开仓库提供本次评测的方法说明、指标定义、汇总结果以及部分脱敏测试样例，用于展示评测过程与判定方式。
+公开仓库提供本次评测的方法说明、指标定义、汇总结果以及 15 条脱敏测试样例，用于展示评测过程与判定方式。
 
-完整评测问题、知识片段映射及内部标注材料未随公开比赛仓库完整发布。公开样例与正式评测采用相同的评价口径。完整方法说明与图解评测、自动化测试基线见 [docs/evaluation.md](docs/evaluation.md)。
+为便于审查评测口径，仓库公开提供 15 条脱敏 RAG 检索测试样例，字段结构与正式评测一致，其中包含 12 条 Top-4 命中样例与 3 条未命中样例（附失败模式分析）。样例经过改写与归一化处理，不是原始 1081 条评测记录的逐条副本；完整评测集及内部知识片段映射未随公开仓库发布。详见 [docs/evaluation/rag_retrieval_samples.json](docs/evaluation/rag_retrieval_samples.json)。
+
+完整方法说明与图解评测、自动化测试基线见 [docs/evaluation.md](docs/evaluation.md)。
 
 ## 七、质量基线
 
