@@ -43,7 +43,50 @@ def _response(
 def _service_with_response(response: SimpleNamespace) -> tuple[QwenService, AsyncMock]:
     client = AsyncMock()
     client.responses.create.return_value = response
-    return QwenService(Settings(dashscope_api_key="test-key"), client), client
+    settings = Settings(
+        dashscope_api_key="test-key",
+        citation_entailment_audit_enabled=False,
+    )
+    return QwenService(settings, client), client
+
+
+@pytest.mark.asyncio
+async def test_answer_runs_post_generation_citation_entailment_audit() -> None:
+    client = AsyncMock()
+    client.responses.create.side_effect = [
+        _response(answer="发热会影响抗体，因此必须等待。", response_id="answer-turn"),
+        SimpleNamespace(
+            id="audit-turn",
+            output_text=json.dumps(
+                {
+                    "answer": "发热时应由接种门诊评估并暂缓接种。[[local:1]]",
+                    "source_ids": ["local:1"],
+                },
+                ensure_ascii=False,
+            ),
+        ),
+    ]
+    service = QwenService(
+        Settings(
+            dashscope_api_key="test-key",
+            citation_entailment_audit_enabled=True,
+        ),
+        client,
+    )
+    retrieval = RetrievalResult(
+        chunks=[],
+        context='<knowledge source="1">发热时暂缓接种。</knowledge>',
+        sources=[RagSource(file_name="接种规范.pdf", page=3, content="发热时暂缓接种。")],
+    )
+
+    result = await service.analyze_question(ChatRequest(question="发热能接种吗"), retrieval)
+
+    assert result.answer == "发热时应由接种门诊评估并暂缓接种。[[local:1]]"
+    assert result.source_ids == ["local:1"]
+    assert result.session_id == "answer-turn"
+    audit_call = client.responses.create.await_args_list[1].kwargs
+    assert audit_call["store"] is False
+    assert "结论—证据审计器" in audit_call["instructions"]
 
 
 @pytest.mark.asyncio
@@ -154,10 +197,12 @@ async def test_qwen_service_generates_title_with_lightweight_stateless_call() ->
         client,
     )
 
-    title = await service.generate_conversation_title([
-        ChatHistoryItem(role="user", content="我17岁男生，还能打九价HPV疫苗吗？"),
-        ChatHistoryItem(role="assistant", content="请结合当地程序并咨询接种门诊。"),
-    ])
+    title = await service.generate_conversation_title(
+        [
+            ChatHistoryItem(role="user", content="我17岁男生，还能打九价HPV疫苗吗？"),
+            ChatHistoryItem(role="assistant", content="请结合当地程序并咨询接种门诊。"),
+        ]
+    )
 
     assert title == "17岁男性九价HPV接种"
     call = client.responses.create.await_args.kwargs
@@ -298,9 +343,7 @@ async def test_qwen_service_rejects_answer_containing_only_frontend_disclaimer()
     service, _ = _service_with_response(_response(answer=f"  {_FRONTEND_DISCLAIMER}  "))
 
     with pytest.raises(QwenServiceError):
-        await service.analyze_question(
-            ChatRequest(question="疫苗有什么作用？"), _empty_retrieval()
-        )
+        await service.analyze_question(ChatRequest(question="疫苗有什么作用？"), _empty_retrieval())
 
 
 @pytest.mark.asyncio
@@ -309,9 +352,7 @@ async def test_qwen_service_rejects_missing_or_invalid_response_id(response_id: 
     service, _ = _service_with_response(_response(response_id=response_id))
 
     with pytest.raises(QwenServiceError):
-        await service.analyze_question(
-            ChatRequest(question="疫苗有什么作用？"), _empty_retrieval()
-        )
+        await service.analyze_question(ChatRequest(question="疫苗有什么作用？"), _empty_retrieval())
 
 
 @pytest.mark.asyncio
@@ -323,9 +364,7 @@ async def test_qwen_service_rejects_response_without_an_id_attribute() -> None:
     service = QwenService(Settings(dashscope_api_key="test-key"), client)
 
     with pytest.raises(QwenServiceError):
-        await service.analyze_question(
-            ChatRequest(question="疫苗有什么作用？"), _empty_retrieval()
-        )
+        await service.analyze_question(ChatRequest(question="疫苗有什么作用？"), _empty_retrieval())
 
 
 @pytest.mark.asyncio
@@ -367,7 +406,7 @@ async def test_qwen_service_passes_retrieval_context_and_knowledge_rules() -> No
     assert result.session_id == "response-turn-1"
     call = client.responses.create.await_args.kwargs
     assert "优先且仅根据本轮提供的知识库资料" in call["instructions"]
-    assert "不要在 answer 中生成引用编号" in call["instructions"]
+    assert "资料不能直接支持的核心结论必须删除或降低强度" in call["instructions"]
     assert '<knowledge source="1"' in call["input"][0]["content"]
     assert "儿童轻微感冒" in call["input"][0]["content"]
     assert call["previous_response_id"] == "response-turn-1"

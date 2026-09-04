@@ -29,7 +29,9 @@ class Settings(BaseSettings):
     qwen_lightweight_model: str = "qwen3.8-flash"
     dashscope_image_model: str = "wan2.7-image-pro"
     z_image_model: str = "z-image-turbo"
-    z_image_endpoint: str = "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+    z_image_endpoint: str = (
+        "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+    )
     z_image_size: str = "1024*1024"
     allowed_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
     qwen_timeout_seconds: float = Field(default=60, gt=0)
@@ -99,6 +101,7 @@ class Settings(BaseSettings):
     rag_torch_interop_threads: int = Field(default=1, ge=1, le=8)
     evidence_rule_min_top_score: float = Field(default=0.90, ge=0, le=1)
     evidence_rule_min_support_score: float = Field(default=0.80, ge=0, le=1)
+    citation_entailment_audit_enabled: bool = True
     rag_quality_prior_max_adjustment: float = Field(default=0.05, ge=0, le=0.1)
     rag_quality_authority_share: float = Field(default=0.65, ge=0, le=1)
     rag_freshness_max_adjustment: float = Field(default=0.015, ge=0, le=0.05)

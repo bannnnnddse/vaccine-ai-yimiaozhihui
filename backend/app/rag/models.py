@@ -80,6 +80,8 @@ class RagSource:
     source_title: str | None = None
     source_url: str | None = None
     section: str | None = None
+    document_id: str | None = field(default=None, compare=False)
+    pages: tuple[int, ...] = field(default=(), compare=False)
 
 
 @dataclass(slots=True)

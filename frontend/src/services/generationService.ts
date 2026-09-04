@@ -19,6 +19,7 @@ interface ChatSourceApiResponse {
   source_title?: unknown;
   source_url?: unknown;
   section?: unknown;
+  pages?: unknown;
   title?: unknown;
   pmid?: unknown;
   journal?: unknown;
@@ -36,6 +37,7 @@ export interface KnowledgeSource {
   sourceTitle?: string;
   sourceUrl?: string;
   section?: string;
+  pages?: number[];
   pmid?: string;
   journal?: string;
   year?: number;
@@ -414,6 +416,11 @@ function parseKnowledgeSources(value: unknown): KnowledgeSource[] {
     const isPubMed = sourceType === "pubmed";
     const isCurated = sourceType === "curated";
     const hasValidPage = typeof source.page === "number" && Number.isInteger(source.page) && source.page >= 1;
+    const hasValidPages = source.pages === undefined || (
+      Array.isArray(source.pages)
+      && source.pages.length >= 2
+      && source.pages.every((page) => typeof page === "number" && Number.isInteger(page) && page >= 1)
+    );
     const hasNoPage = source.page === null || source.page === undefined;
     const hasValidWebUrl = typeof source.source_url === "string" && isHttpUrl(source.source_url);
     const hasValidPubMedFields = (
@@ -429,6 +436,7 @@ function parseKnowledgeSources(value: unknown): KnowledgeSource[] {
       || (isPdf && !hasValidPage)
       || ((isWeb || isCurated) && (!hasNoPage || !hasValidWebUrl))
       || (isPubMed && (!hasNoPage || !hasValidPubMedFields))
+      || !hasValidPages
       || (source.source_title !== undefined && typeof source.source_title !== "string")
       || (source.section !== undefined && typeof source.section !== "string")
       || (source.journal !== undefined && typeof source.journal !== "string")
@@ -456,6 +464,7 @@ function parseKnowledgeSources(value: unknown): KnowledgeSource[] {
       if (typeof source.doi === "string" && source.doi.trim()) result.doi = source.doi;
     }
     if (typeof source.section === "string" && source.section.trim()) result.section = source.section;
+    if (Array.isArray(source.pages)) result.pages = [...new Set(source.pages as number[])].sort((a, b) => a - b);
     return result;
   });
 }

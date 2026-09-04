@@ -261,6 +261,7 @@ def _sources(paths: list[GraphPath]) -> list[RagSource]:
                     source_type=item.source_type,
                     source_url=item.source_url,
                     section=item.section,
+                    document_id=item.doc_id,
                 )
             )
     return sources

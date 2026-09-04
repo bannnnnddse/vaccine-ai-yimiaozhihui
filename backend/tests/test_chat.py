@@ -80,10 +80,12 @@ def test_conversation_title_uses_shared_qwen_service(app) -> None:
     with TestClient(app) as client:
         response = client.post(
             "/api/v1/conversations/title",
-            json={"messages": [
-                {"role": "user", "content": "我17岁男生，还能打九价HPV疫苗吗？"},
-                {"role": "assistant", "content": "请结合当地程序并咨询接种门诊。"},
-            ]},
+            json={
+                "messages": [
+                    {"role": "user", "content": "我17岁男生，还能打九价HPV疫苗吗？"},
+                    {"role": "assistant", "content": "请结合当地程序并咨询接种门诊。"},
+                ]
+            },
         )
 
     assert response.status_code == 200
@@ -100,10 +102,12 @@ def test_conversation_title_failure_is_isolated_from_chat(app) -> None:
     with TestClient(app) as client:
         response = client.post(
             "/api/v1/conversations/title",
-            json={"messages": [
-                {"role": "user", "content": "问题"},
-                {"role": "assistant", "content": "回答"},
-            ]},
+            json={
+                "messages": [
+                    {"role": "user", "content": "问题"},
+                    {"role": "assistant", "content": "回答"},
+                ]
+            },
         )
 
     assert response.status_code == 502
@@ -147,6 +151,25 @@ def test_chat_response_rejects_blank_output_session_id(session_id: str) -> None:
         )
 
 
+def test_chat_source_normalizes_merged_document_pages() -> None:
+    response = ChatResponse(
+        answer="回答。",
+        model="qwen3.8-flash",
+        is_vaccine_related=True,
+        session_id="response-turn",
+        sources=[
+            {
+                "file_name": "接种规范.pdf",
+                "page": 3,
+                "pages": [7, 3, 7],
+                "content": "第 3 页片段。\n\n第 7 页片段。",
+            }
+        ],
+    )
+
+    assert response.sources[0].pages == [3, 7]
+
+
 def test_chat_without_api_key_returns_503(app) -> None:
     _stub_rag(app)
     with TestClient(app) as client:
@@ -176,10 +199,7 @@ def test_chat_returns_answer_from_qwen_service(app) -> None:
             "/api/v1/chat",
             json={
                 "question": " 疫苗有什么作用？ ",
-                "history": [
-                    {"role": "user", "content": f"问题 {index}"}
-                    for index in range(12)
-                ],
+                "history": [{"role": "user", "content": f"问题 {index}"} for index in range(12)],
             },
         )
 
@@ -363,13 +383,17 @@ def test_chat_keeps_compound_and_contextual_questions_on_rag_path(
     session_id: str | None,
 ) -> None:
     service = AsyncMock()
-    service.classify_conversation_route.return_value = _decision(
-        ConversationRoute.CONTEXTUAL_FOLLOW_UP,
-        retrieval_query="乙肝疫苗第二针什么时候接种？",
-        rewrite_status="resolved",
-    ) if question == "那第二针呢？" else _decision(
-        ConversationRoute.KNOWLEDGE_OR_OTHER,
-        retrieval_query=question,
+    service.classify_conversation_route.return_value = (
+        _decision(
+            ConversationRoute.CONTEXTUAL_FOLLOW_UP,
+            retrieval_query="乙肝疫苗第二针什么时候接种？",
+            rewrite_status="resolved",
+        )
+        if question == "那第二针呢？"
+        else _decision(
+            ConversationRoute.KNOWLEDGE_OR_OTHER,
+            retrieval_query=question,
+        )
     )
     service.analyze_question.return_value = VaccineQuestionAnalysis(
         is_vaccine_related=True,
@@ -419,9 +443,7 @@ def test_chat_returns_sources_from_retrieval(app) -> None:
         response = client.post("/api/v1/chat", json={"question": "轻微感冒能接种吗？"})
 
     assert response.status_code == 200
-    assert response.json()["sources"] == [
-        {"file_name": "指南.pdf", "page": 12, "content": "片段"}
-    ]
+    assert response.json()["sources"] == [{"file_name": "指南.pdf", "page": 12, "content": "片段"}]
     assert service.analyze_question.await_args.args[1] is retrieval
 
 
@@ -706,8 +728,11 @@ def test_graph_enabled_fuses_context_without_changing_chat_contract() -> None:
     fused = service.analyze_question.await_args.args[1]
     assert "<graph_knowledge" in fused.context
     assert response.json()["sources"] == [
-        {"file_name": "指南.pdf", "page": 3, "content": "向量证据"},
-        {"file_name": "指南.pdf", "page": 3, "content": "图关系证据"},
+        {
+            "file_name": "指南.pdf",
+            "page": 3,
+            "content": "向量证据\n\n图关系证据",
+        },
     ]
 
 
@@ -916,15 +941,17 @@ def test_pubmed_empty_result_with_insufficient_local_evidence_uses_bounded_fallb
     evidence_service.assess.return_value = _partial_assessment()
     rag_service = Mock()
     rag_service.retrieve.return_value = RetrievalResult(
-        chunks=[RetrievedChunk(
-            id="chunk-insufficient",
-            file_name="指南.pdf",
-            relative_path="指南.pdf",
-            page=1,
-            chunk_index=0,
-            text="疫苗相关片段，但不足以支撑完整回答。",
-            source_hash="hash-insufficient",
-        )],
+        chunks=[
+            RetrievedChunk(
+                id="chunk-insufficient",
+                file_name="指南.pdf",
+                relative_path="指南.pdf",
+                page=1,
+                chunk_index=0,
+                text="疫苗相关片段，但不足以支撑完整回答。",
+                source_hash="hash-insufficient",
+            )
+        ],
         context="",
         sources=[],
     )
@@ -1184,9 +1211,7 @@ def test_conversational_boundary_skips_assessment_and_pubmed_when_enabled() -> N
         )
     )
     service = AsyncMock()
-    service.classify_conversation_route.return_value = _decision(
-        ConversationRoute.CONVERSATIONAL
-    )
+    service.classify_conversation_route.return_value = _decision(ConversationRoute.CONVERSATIONAL)
     service.respond_conversational.return_value = VaccineQuestionAnalysis(
         is_vaccine_related=False,
         answer="你好。",

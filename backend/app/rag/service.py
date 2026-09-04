@@ -356,6 +356,7 @@ class RagService:
                 source_title=chunk.source_title,
                 source_url=chunk.source_url,
                 section=chunk.section,
+                document_id=chunk.parent_doc_id or chunk.source_hash,
             )
             for chunk in selected
         ]

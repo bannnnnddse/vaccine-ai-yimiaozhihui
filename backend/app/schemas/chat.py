@@ -54,6 +54,7 @@ class ChatSource(BaseModel):
     source_title: str | None = Field(default=None, max_length=300)
     source_url: str | None = Field(default=None, max_length=2048)
     section: str | None = Field(default=None, max_length=300)
+    pages: list[int] | None = Field(default=None, min_length=2, max_length=100)
     title: str | None = Field(default=None, max_length=1000)
     pmid: str | None = Field(default=None, pattern=r"^\d{1,10}$")
     journal: str | None = Field(default=None, max_length=500)
@@ -96,6 +97,15 @@ class ChatSource(BaseModel):
             if not all([self.title, self.pmid, self.url, self.snippet]):
                 raise ValueError("PubMed sources require title, PMID, URL, and snippet")
         return self
+
+    @field_validator("pages")
+    @classmethod
+    def normalize_pages(cls, value: list[int] | None) -> list[int] | None:
+        if value is None:
+            return None
+        if any(page < 1 for page in value):
+            raise ValueError("source pages must be positive")
+        return sorted(set(value))
 
 
 class ChatResponse(BaseModel):

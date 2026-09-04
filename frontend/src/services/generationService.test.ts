@@ -98,6 +98,28 @@ describe("generateChatAnswer", () => {
     );
   });
 
+  it("接受并规范化同一文档合并后的多个页码", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        answer: "回答［1］",
+        is_vaccine_related: true,
+        session_id: "fresh-session-id",
+        sources: [{
+          file_name: "接种规范.pdf",
+          page: 3,
+          pages: [7, 3, 7],
+          content: "第 3 页片段。\n\n第 7 页片段。",
+        }],
+      }),
+    }));
+
+    await expect(generateChatAnswer({ question: "发热能接种吗？" })).resolves.toMatchObject({
+      answer: "回答［1］",
+      sources: [{ pages: [3, 7] }],
+    });
+  });
+
   it("接受没有伪造页码的官方网页来源", async () => {
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
       ok: true,

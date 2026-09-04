@@ -4,7 +4,7 @@ from unittest.mock import AsyncMock
 
 import pytest
 
-from app.core.config import Settings
+from app.core.config import Settings as AppSettings
 from app.pubmed.models import PubMedArticle
 from app.pubmed.provider import PubMedProvider, PubMedUnavailableError
 from app.rag.service import RetrievalResult
@@ -17,15 +17,18 @@ from app.services.qwen_service import (
 )
 
 
+def Settings(**kwargs: object) -> AppSettings:
+    kwargs.setdefault("citation_entailment_audit_enabled", False)
+    return AppSettings(**kwargs)
+
+
 class FakePubMedProvider(PubMedProvider):
     def __init__(self) -> None:
         super().__init__(max_results=5)
         self.search_calls: list[tuple[str, int]] = []
         self.fetch_calls: list[list[str]] = []
 
-    async def _search_articles(
-        self, query: str, *, max_results: int
-    ) -> list[PubMedArticle]:
+    async def _search_articles(self, query: str, *, max_results: int) -> list[PubMedArticle]:
         self.search_calls.append((query, max_results))
         return [PubMedArticle(pmid="123", title="Search candidate")]
 

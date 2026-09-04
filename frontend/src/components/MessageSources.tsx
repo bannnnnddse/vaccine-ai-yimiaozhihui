@@ -12,8 +12,10 @@ export function MessageSources({ sources }: { sources: KnowledgeSource[] }) {
             <FileText aria-hidden="true" weight="duotone" />
             <span className="message-source__file">{source.sourceTitle ?? source.fileName}</span>
             <span className="message-source__page">
-              {source.page
-                ? `第${source.page}页`
+              {source.pages && source.pages.length > 1
+                ? `第${source.pages.join("、")}页`
+                : source.page
+                  ? `第${source.page}页`
                 : source.sourceType === "pubmed"
                   ? `PubMed${source.year ? ` · ${source.year}` : ""}`
                   : source.sourceType === "curated"

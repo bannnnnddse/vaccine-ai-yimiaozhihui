@@ -36,6 +36,10 @@ from app.services.qwen_service import (
     QwenServiceError,
     QwenTimeoutError,
 )
+from app.services.source_quality import (
+    bind_cited_sources,
+    filter_pubmed_articles,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -362,6 +366,12 @@ async def _execute_chat(
             detail=UNAVAILABLE_DETAIL,
         ) from exc
 
+    if analysis.is_vaccine_related:
+        pubmed_articles = filter_pubmed_articles(
+            route_decision.retrieval_query,
+            pubmed_articles,
+        )
+
     logger.info(
         "chat orchestration trace_id=%s route=%s rewrite_status=%s rag_used=%s rag_hits=%d "
         "evidence_status=%s pubmed_trigger=%s pubmed_attempted=%s "
@@ -395,36 +405,54 @@ async def _execute_chat(
             )
         except Exception as exc:  # candidate capture must never fail the user answer
             logger.warning("KnowledgeGap 候选记录失败: %s", type(exc).__name__)
-    internal_sources = [
-        ChatSource(
-            file_name=item.file_name,
-            page=item.page,
-            content=item.content,
-            source_type=item.source_type if item.source_type != "pdf" else None,
-            source_title=item.source_title,
-            source_url=item.source_url,
-            section=item.section,
-        )
-        for item in retrieval.sources
-    ] if retrieval is not None and analysis.is_vaccine_related else []
-    external_sources = [
-        ChatSource(
-            file_name=article.title,
-            page=None,
-            content=(article.abstract[:1200] or article.title),
-            source_type="pubmed",
-            source_title=article.title,
-            source_url=article.url,
-            title=article.title,
-            pmid=article.pmid,
-            journal=article.journal or None,
-            year=article.publication_year,
-            doi=article.doi,
-            url=article.url,
-            snippet=(article.abstract[:1200] or article.title),
-        )
-        for article in pubmed_articles
-    ] if analysis.is_vaccine_related else []
+    binding = bind_cited_sources(
+        analysis.answer,
+        analysis.source_ids,
+        retrieval.sources if retrieval is not None else [],
+        pubmed_articles,
+    )
+    analysis.answer = binding.answer
+    display_rag_sources = binding.rag_sources
+    pubmed_articles = binding.pubmed_articles
+    internal_sources = (
+        [
+            ChatSource(
+                file_name=item.file_name,
+                page=item.page,
+                content=item.content,
+                source_type=item.source_type if item.source_type != "pdf" else None,
+                source_title=item.source_title,
+                source_url=item.source_url,
+                section=item.section,
+                pages=list(item.pages) if len(item.pages) > 1 else None,
+            )
+            for item in display_rag_sources
+        ]
+        if retrieval is not None and analysis.is_vaccine_related
+        else []
+    )
+    external_sources = (
+        [
+            ChatSource(
+                file_name=article.title,
+                page=None,
+                content=(article.abstract[:1200] or article.title),
+                source_type="pubmed",
+                source_title=article.title,
+                source_url=article.url,
+                title=article.title,
+                pmid=article.pmid,
+                journal=article.journal or None,
+                year=article.publication_year,
+                doi=article.doi,
+                url=article.url,
+                snippet=(article.abstract[:1200] or article.title),
+            )
+            for article in pubmed_articles
+        ]
+        if analysis.is_vaccine_related
+        else []
+    )
     return ChatResponse(
         answer=analysis.answer,
         model=request.app.state.settings.qwen_model,
@@ -561,9 +589,7 @@ async def _search_pubmed_by_identifiers(
                 max_results=provider.max_results,
             )
             if articles and any(not article.abstract for article in articles):
-                articles = await provider.fetch_articles(
-                    [article.pmid for article in articles]
-                )
+                articles = await provider.fetch_articles([article.pmid for article in articles])
         return articles
     except PubMedProviderError as exc:
         logger.warning("PubMed identifier fallback failed: %s", type(exc).__name__)
