@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "reproducibility_level": "functional",
+  "description": "Models are fetched from their official upstream revisions. Hybrid RAG is rebuilt locally from the tracked corpus; no prebuilt index or graph snapshot is distributed.",
+  "models": {
+    "embedding": {
+      "name": "BAAI/bge-small-zh-v1.5",
+      "source": "https://huggingface.co/BAAI/bge-small-zh-v1.5",
+      "revision": "7999e1d3359715c523056ef9478215996d62a620",
+      "expected_path": "backend/model_cache/models--BAAI--bge-small-zh-v1.5/snapshots/7999e1d3359715c523056ef9478215996d62a620",
+      "license": "MIT"
+    },
+    "reranker": {
+      "name": "BAAI/bge-reranker-base",
+      "source": "https://huggingface.co/BAAI/bge-reranker-base",
+      "revision": "2cfc18c9415c912f9d8155881c133215df768a70",
+      "expected_path": "backend/model_cache/models--BAAI--bge-reranker-base/snapshots/2cfc18c9415c912f9d8155881c133215df768a70",
+      "license": "MIT"
+    }
+  },
+  "rag": {
+    "source_dir": "RAG",
+    "corpus_manifest": "RAG/corpus_manifest.jsonl",
+    "builder": "python -m app.rag.cli build-v2",
+    "pipeline": "hybrid_v2",
+    "graph_rag": "optional; no graph snapshot is distributed and the application safely falls back to Vector-only"
+  }
+}

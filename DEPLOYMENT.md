@@ -1,6 +1,6 @@
 # 云服务器部署与复现
 
-本项目是单一 Git 仓库。GitHub 保存源码、测试、受治理语料和构建配置；密钥、RAG 索引、模型缓存、图谱快照、数据库、生成图片及运行日志不进入 Git，必须通过私密部署通道提供。
+本项目是单一 Git 仓库。功能级复现时，GitHub 保存源码、测试、受治理语料和构建配置；`python scripts/bootstrap_assets.py` 从官方固定 revision 下载模型并在本机重建 Hybrid RAG。密钥、生产 active index、Graph snapshot、数据库、生成图片及运行日志不进入 Git，也不作为公开运行资产提供。
 
 ## 服务器要求
 
@@ -17,6 +17,7 @@
 git clone <repository-url> vaccine-ai
 cd vaccine-ai
 python3 scripts/deploy_preflight.py --source-only
+python3 scripts/bootstrap_assets.py
 ```
 
 更新部署：
@@ -29,9 +30,9 @@ git pull --ff-only origin main
 
 不需要也不应使用 `git submodule`。`backend/` 和 `frontend/` 必须随根仓库直接出现。
 
-## GitHub 之外必须传输的内容
+## 生产环境的可选私密迁移
 
-从已验证环境通过 SSH、受控对象存储或备份系统传输：
+只有需要恢复与某个生产实例完全相同的历史状态时，才从已验证环境通过 SSH、受控对象存储或备份系统传输：
 
 ```text
 backend/.env

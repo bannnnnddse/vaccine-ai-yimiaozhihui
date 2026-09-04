@@ -107,11 +107,14 @@ class RagService:
                 or self._active_index_path != active_path
                 or self._active_index_version != active_version
             ):
+                embedder_options = {"local_files_only": True}
+                if self._settings.rag_embedding_revision is not None:
+                    embedder_options["revision"] = self._settings.rag_embedding_revision
                 embedder = BgeEmbedder(
                     self._settings.rag_embedding_model,
                     self._settings.rag_model_cache_dir,
                     self._settings.rag_embedding_device,
-                    local_files_only=True,
+                    **embedder_options,
                 )
                 store_type = NumpyRagStore if is_numpy_index(active_path) else ChromaRagStore
                 self._store = store_type(active_path, self._settings.rag_collection_name, embedder)
@@ -328,12 +331,17 @@ class RagService:
         if self._reranker is None:
             with self._lock:
                 if self._reranker is None:
+                    reranker_options = {
+                        "local_files_only": True,
+                        "max_length": self._settings.rag_reranker_max_length,
+                    }
+                    if self._settings.rag_reranker_revision is not None:
+                        reranker_options["revision"] = self._settings.rag_reranker_revision
                     self._reranker = CrossEncoderReranker(
                         self._settings.rag_reranker_model,
                         self._settings.rag_model_cache_dir,
                         self._settings.rag_reranker_device,
-                        local_files_only=True,
-                        max_length=self._settings.rag_reranker_max_length,
+                        **reranker_options,
                     )
         return self._reranker
 

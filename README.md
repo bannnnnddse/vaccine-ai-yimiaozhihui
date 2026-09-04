@@ -1,3 +1,11 @@
+## 🏆 参赛信息
+本作品为 **2026年“挑战杯”揭榜挂帅擂台赛（阿里云赛道·题目编号XH-202619）** 参赛作品，归属「赛道三：科普科教与艺术表达-科学传播的多元艺术表达」方向。
+
+### 参赛合规说明
+1. **基座模型合规**：核心推理模型采用 Qwen 3.8-flash，图像生成模型采用 Wan 2.7-image-pro，均为千问（Qwen）系列开源模型，符合赛事基座模型要求。
+2. **平台调用合规**：模型服务通过**阿里云百炼平台**调用，项目算力支持来自阿里云「云工开物」学生算力权益，符合赛事平台使用要求。
+3. **交付说明**：仓库采用“源码 + 功能级可复现脚本”交付：bootstrap 从官方源下载固定版本 BGE 模型，并由受治理语料在本机重建 Hybrid RAG；不分发生产 active 索引、Graph snapshot 或历史生成素材。
+
 # 疫苗防线：可追溯的疫苗科普与交互表达平台
 
 面向"挑战杯"科学传播方向的可演示全栈项目：以受治理的本地 RAG 与受限 PubMed 核验支撑疫苗问答，将抽象免疫机制转化为科学图解、互动闯关与公共卫生模拟，并通过人工审核与版本化知识图谱形成可追溯的知识更新闭环。
@@ -144,11 +152,12 @@ flowchart LR
 │   ├── app/             api routes / services / rag / graph / pubmed / schemas / admin
 │   ├── tests/           离线测试套件（405 项）
 │   ├── assets/          图解管线运行参考图
-│   └── runtime/  rag_index/  model_cache/  generated_images/   # 运行时资产，不入库，见 DEPLOYMENT.md
+│   └── runtime/  rag_index/  model_cache/  generated_images/   # 本机生成的运行时资产，不入库
 ├── RAG/                 受治理语料：140 份文档（125 PDF + 11 MD + 4 DOCX）+ corpus_manifest.jsonl 准入清单
 ├── skills/              受治理细胞 IP 图解技能（图解管线启动校验依赖）
 ├── nginx/  docker-compose.yml  Dockerfile×2
-├── scripts/             deploy_preflight.py / deploy_server.sh
+├── assets/              runtime-assets-manifest.json（固定上游模型 revision）
+├── scripts/             bootstrap_assets.py / rebuild_rag_index.py / verify_assets.py
 └── dev.ps1              本地一键启动前后端
 ```
 
@@ -160,10 +169,13 @@ flowchart LR
 # 1. 配置后端密钥
 copy backend\.env.example backend\.env   # 填入 DASHSCOPE_API_KEY 等
 
-# 2. 前端
+# 2. 恢复本机功能级 RAG 资产（首次会安装后端 helper 依赖、下载固定 BGE revision 并重建索引）
+python scripts\bootstrap_assets.py
+
+# 3. 前端
 cd frontend; pnpm install; pnpm dev      # http://localhost:5173
 
-# 3. 后端（另开终端，或直接运行 dev.ps1 一键启动）
+# 4. 后端（另开终端，或直接运行 dev.ps1 一键启动）
 cd backend; python -m venv .venv; .venv\Scripts\pip install -e ".[dev]"
 .venv\Scripts\uvicorn app.main:app --port 8000
 ```
@@ -171,12 +183,13 @@ cd backend; python -m venv .venv; .venv\Scripts\pip install -e ".[dev]"
 Docker 一键部署：
 
 ```bash
+python3 scripts/bootstrap_assets.py
 python3 scripts/deploy_preflight.py --source-only
 docker compose up -d --build
 # 前端 http://<host>/，后端健康检查 /api/v1/health
 ```
 
-> ⚠️ **仓库内容与私密资产：** 本仓库包含完整源码、配置、测试与受治理语料（140 份文档）；**运行时资产不入库**——`backend/runtime/`（数据库、图谱快照）、`backend/rag_index/`（版本化索引）、`backend/model_cache/`（BGE 权重）、`backend/generated_images/` 及运行日志通过私密部署通道提供（详见 [DEPLOYMENT.md](DEPLOYMENT.md)）。唯一必需的密钥文件为 `backend/.env`，绝不入库；另有 2 个超过 GitHub 单文件 100MB 限制的科普视频 mp4 未随仓库发布。
+> **功能级一键复现：** 核心 Hybrid RAG 已在隔离 clean-clone 云端环境完成端到端功能级复现验证。项目提供固定模型 revision、自动准备解析产物，并可由仓库语料在本地重建 Hybrid RAG V2。模型从官方源获取；生产 active RAG/Graph snapshot 不公开。Graph 缺失时安全降级。复现范围与验收记录见 [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md)。
 
 ## 六、RAG 检索评测口径与样本筛选规则
 

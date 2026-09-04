@@ -13,13 +13,19 @@ class BgeEmbedder:
         device: str,
         *,
         local_files_only: bool = False,
+        revision: str | None = None,
     ) -> None:
         self.model_name = model_name
+        options = {
+            "cache_folder": str(cache_dir),
+            "device": device,
+            "local_files_only": local_files_only,
+        }
+        if revision is not None:
+            options["revision"] = revision
         self._model = SentenceTransformer(
             model_name,
-            cache_folder=str(cache_dir),
-            device=device,
-            local_files_only=local_files_only,
+            **options,
         )
 
     def embed_passages(self, texts: list[str]) -> list[list[float]]:

@@ -66,6 +66,7 @@ class Settings(BaseSettings):
     rag_index_dir: Path = _BACKEND_DIR / "rag_index"
     rag_model_cache_dir: Path = _BACKEND_DIR / "model_cache"
     rag_embedding_model: str = "BAAI/bge-small-zh-v1.5"
+    rag_embedding_revision: str | None = None
     rag_embedding_device: str = "cpu"
     rag_collection_name: str = "vaccine_knowledge"
     rag_chunk_size: int = Field(default=600, ge=200, le=2000)
@@ -86,6 +87,7 @@ class Settings(BaseSettings):
     rag_bm25_b: float = Field(default=0.75, ge=0, le=1)
     rag_reranker_enabled: bool = True
     rag_reranker_model: str = "BAAI/bge-reranker-base"
+    rag_reranker_revision: str | None = None
     rag_reranker_device: str = "cpu"
     rag_reranker_batch_size: int = Field(default=4, ge=1, le=64)
     rag_reranker_max_length: int = Field(default=256, ge=128, le=2048)

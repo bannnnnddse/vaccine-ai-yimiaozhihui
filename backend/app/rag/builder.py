@@ -42,6 +42,7 @@ def build_index(settings: Settings, *, local_files_only: bool = False) -> dict[s
         settings.rag_model_cache_dir,
         settings.rag_embedding_device,
         local_files_only=local_files_only,
+        revision=settings.rag_embedding_revision,
     )
     NumpyRagStore(
         settings.rag_index_dir, settings.rag_collection_name, embedder
@@ -128,6 +129,7 @@ def build_candidate_index(
         settings.rag_model_cache_dir,
         settings.rag_embedding_device,
         local_files_only=local_files_only,
+        revision=settings.rag_embedding_revision,
     )
     NumpyRagStore(
         final_dir,
@@ -160,6 +162,7 @@ def build_candidate_index(
         "build_timestamp": datetime.now(timezone.utc).isoformat(),
         "status": "candidate",
         "embedding_model": settings.rag_embedding_model,
+        "embedding_revision": settings.rag_embedding_revision,
         "dense_backend": "numpy_exact_v1",
         "chunking_version": settings.rag_chunking_version or CHUNKING_VERSION,
         "chunk_size": settings.rag_chunk_size,
@@ -192,6 +195,7 @@ def build_candidate_index(
             "fusion_candidate_k": settings.rag_fusion_candidate_k,
             "rrf_k": settings.rag_rrf_k,
             "reranker_model": settings.rag_reranker_model,
+            "reranker_revision": settings.rag_reranker_revision,
             "rerank_candidate_k": settings.rag_rerank_candidate_k,
             "quality_prior_max_adjustment": settings.rag_quality_prior_max_adjustment,
             "max_chunks_per_document": settings.rag_max_chunks_per_document,

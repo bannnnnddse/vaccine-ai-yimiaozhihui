@@ -37,7 +37,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 | 前端 | React 19、TypeScript、Vite、Cytoscape | 只调用同源 `/api/v1`；网络代码只在 `frontend/src/services/`；跨面板状态在 `App.tsx` |
 | API | FastAPI 应用工厂、`/api/v1` router、lifespan | 路由只做 HTTP/依赖/稳定错误映射；共享客户端和服务由 lifespan 创建 |
 | 问答 | `RagService`、`QwenService`、`EvidenceAssessmentService` | 主回答看到原问题；来源只能由当轮检索/外部文献产生 |
-| 知识 | `RAG/`、manifest、versioned candidate、`active.json` | 运行时只读本地模型和索引；不得自动下载或重建 |
+| 知识 | `RAG/`、manifest、versioned candidate、`active.json` | 服务运行时只读本地模型和索引；仅显式 bootstrap 可下载固定模型并本机重建功能级索引 |
 | 治理 | KnowledgeGap、管理员 session/CSRF、SQLite GraphJob | 只允许人工批准、人工发布；失败保留旧活动版本 |
 | 图解 | ImageJob、organizer、Wan、critic、scope guard | 单活动内存任务；取消、轮询和请求必须对称清理 |
 | 图谱 | graph worker、validator、snapshot、public store | 唯一输入为同版 Vector candidate chunks；不重新解析 PDF 或写向量库 |
@@ -84,7 +84,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 - RAG 检索评测（1081 条）的评测集、holdout 和历史评测结果不进入公开仓库；科学正确性抽检（20 条）公开逐条用例、原始输出与人工判定（见 docs/evaluation/scientific_correctness/）。保留离线、无真实网络/模型调用的单元和接口测试
 - 代码、配置与测试优先于实施报告；历史文档不得覆盖当前运行事实
-- 不提交 `.env`、密钥、`backend/runtime/`、`backend/rag_index/`、`backend/model_cache/`、`backend/generated_images/`、运行日志、虚拟环境或编译缓存；这些运行时资产通过私密部署通道提供，清单见 [DEPLOYMENT.md](DEPLOYMENT.md)。受治理语料与源码、测试随仓库交付
+- 不提交 `.env`、密钥、`backend/runtime/`、`backend/rag_index/`、`backend/model_cache/`、`backend/generated_images/`、运行日志、虚拟环境或编译缓存。功能级复现由 `assets/runtime-assets-manifest.json` 固定官方模型 revision，并由 bootstrap 从受治理语料本机生成索引；下载后必须实际离线加载验证。不得发布生产 active 索引或 Graph snapshot，因为它们含完整 chunk/provenance 正文与生产历史。长期约束与操作入口见 [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md)；受治理语料与源码、测试随仓库交付。
 - 根目录 `.git` 是唯一仓库；`backend/` 与 `frontend/` 是普通目录，统一从根目录执行 Git 操作
 - 不使用 `git reset --hard`、`git checkout --` 或 stash 覆盖未知改动；不删除未确认的本地忽略文件
 - 推送前运行 `python scripts/deploy_preflight.py --source-only`；服务器补齐私密资产后运行完整预检，部署细节见 [DEPLOYMENT.md](DEPLOYMENT.md)
