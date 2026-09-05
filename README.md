@@ -201,7 +201,7 @@ docker compose up -d --build
 
 ### 额外冻结复核 benchmark
 
-为进一步增强真实性、透明度、可追溯性及第三方审计能力，项目后续另建立并冻结了一套独立的 RAG V2 X2 1000 条复核 benchmark。它完整公开 evaluation cases、gold labels、metric definition、config snapshot、freeze manifest、全部 1000 条 raw results、全部 1000 条逐阶段 raw traces、全部 185 个 Top-4 miss、同集 baseline、formal run state、consistency report、evaluator、porting verification，以及 commit、index 与 SHA256 身份，可由第三方离线独立复算和逐题审查。
+为进一步增强真实性、透明度、可追溯性及第三方审计能力，项目后续另建立并冻结了一套 RAG V2 X2 1000 条复核 benchmark。它完整公开 evaluation cases、gold labels、metric definition、config snapshot、freeze manifest、全部 1000 条 raw results、全部 1000 条逐阶段 raw traces、全部 185 个 Top-4 miss、同集 baseline、formal run state、consistency report、evaluator、porting verification，以及 commit、index 与 SHA256 身份，可由第三方离线独立复算和逐题审查。
 
 在该冻结 1000 条测试集及其统一 gold / metric definition 下：
 

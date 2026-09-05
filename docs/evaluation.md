@@ -25,7 +25,7 @@
 
 ### RAG V2 X2 冻结复核口径
 
-冻结复核 benchmark 使用独立固定的 1000 条测试集、gold 和指标定义。X2 固定使用 Dense 50、lexical 50、fusion/RRF candidate 60、plain rerank 60（batch 16，256 tokens）、窗口重打分 60（前后各 300 字符，batch 8，512 tokens）、`max(plain, window)`、候选池内 ±1 邻接平滑 λ=0.9、既有质量先验、`min_relevance=0.0`、soft cap=3 的 diversity-first selection，最终取 Top-4。
+冻结复核 benchmark 使用固定的 1000 条复核测试集、gold 和指标定义。X2 固定使用 Dense 50、lexical 50、fusion/RRF candidate 60、plain rerank 60（batch 16，256 tokens）、窗口重打分 60（前后各 300 字符，batch 8，512 tokens）、`max(plain, window)`、候选池内 ±1 邻接平滑 λ=0.9、既有质量先验、`min_relevance=0.0`、soft cap=3 的 diversity-first selection，最终取 Top-4。
 
 同一冻结 benchmark 内，baseline 为 669/1000（66.9%），X2 为 815/1000（81.5%），提升 +146 hits / +14.6pp。全部 1000 条结果、1000 条 trace 和 185 个 Top-4 miss 均已公开。CPU 正式运行平均延迟 39085.3 ms、P95 49831.9 ms，因此 X2 是 recall-oriented 而非低延迟配置。
 
