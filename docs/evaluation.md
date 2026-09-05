@@ -1,22 +1,37 @@
 # 评测记录（Evaluation Summary）
 
-> 本文档记录各项评测的规模、方法与关键指标。当前推荐引用的 RAG 结果来自冻结 1000 条正式数据集；测试集、gold、逐条结果、trace 和失败案例均随仓库公开，以便离线复核。科学正确性小样本抽检仍单独记录于 [scientific_correctness/](scientific_correctness/README.md)。
+> 本项目采用多套用途不同的评测协议。项目提交报告中的 RAG 检索指标为 **958 / 1081 = 88.62%**；为进一步增强第三方复核与审计能力，仓库另行提供完整冻结的 **RAG V2 X2 1000 条 benchmark**，结果为 **815 / 1000 = 81.5%**。两套评测的测试集构造、筛选/冻结协议不同，不能直接横向比较。
+>
+> RAG V2 X2 冻结评测公开测试集、gold labels、指标定义、配置快照、全部逐题结果、逐阶段 traces、全部失败案例、同集 baseline、freeze manifest 与 evaluator，可由第三方离线复算。完整证据见 [RAG V2 X2 冻结评测目录](evaluation/rag_v2/README.md)。
+>
+> 本文档同时保留项目提交报告采用的 1081 条评测口径，以保证公开仓库与正式提交材料之间的可追溯性。
 
-## RAG V2 X2 冻结正式评测
+## RAG 检索评测：报告口径与冻结复核口径
 
-| 配置 | Top-4 chunk recall | 命中数 |
-| --- | ---: | ---: |
-| baseline | 66.9% | 669 / 1000 |
-| X2 | 81.5% | 815 / 1000 |
-| 增量 | +14.6 percentage points | +146 |
+两套评测均判断正确 evidence 是否进入 Top-4，但承担不同的证据角色：
 
-每条 case 的命中条件是：生产检索链路最终选择的前 4 个 chunk 中，至少一个 `chunk_id` 属于冻结 `acceptable_gold_chunk_ids`。这是 evidence retrieval 的 chunk-level 指标，不是最终回答准确率、医学正确率或整个 RAG 系统的总体准确率。
+| 评测 | 测试规模 | Top-4 命中 | 用途 |
+| --- | ---: | ---: | --- |
+| **项目报告评测** | 1081 | **958 / 1081 = 88.62%** | 项目提交报告采用的检索效果指标 |
+| **RAG V2 X2 冻结复核评测** | 1000 | **815 / 1000 = 81.5%** | 完整公开证据链下可复算、可审计的 benchmark |
+| X2 同口径 baseline | 1000 | 669 / 1000 = 66.9% | 与 X2 进行严格同数据集比较 |
+| X2 相对 baseline | — | **+146 hits / +14.6 percentage points** | 同一冻结测试集上的改进幅度 |
 
-X2 固定使用 Dense 50、lexical 50、fusion/RRF 候选 60、plain rerank 60（256 tokens）、窗口重打分 60（前后各 300 字符，512 tokens）、`max(plain, window)`、候选池内 ±1 邻接平滑 λ=0.9、既有质量先验、`min_relevance=0.0`，以及 soft cap=3 的 diversity-first selection，最终取 Top-4。CPU 正式运行平均延迟 39085.3 ms、P95 49831.9 ms；它是 recall-oriented 配置，不是低延迟配置。
+### 项目提交报告口径
 
-冻结证据、运行协议、构造透明度材料与复算入口见 [rag_v2/README.md](evaluation/rag_v2/README.md)。`build_rag_v2_candidates.py` 与 `exclusions.jsonl` 只记录测试集构造过程，不是生产运行时代码，也不得在正式结果产生后重新执行筛选来改变数据集。
+报告评测先构建 1500 条疫苗知识问题，再依据当时知识库覆盖情况进行适用性筛查。419 条因库内不存在足以支持核心答案的证据而作为 Knowledge Gap 排除，1081 条进入 Top-4 评测，958 条命中，得到 88.62%。该数字是项目提交报告所采用的检索结果，并非错误或被新结果取代。报告口径的 15 条公开脱敏样例及筛选摘要见 [rag_retrieval_samples.json](evaluation/rag_retrieval_samples.json)；原始 1081 条逐题数据未随仓库公开。
 
-历史 `1081 条 / 88.62%` 采用另一套数据集、筛选和判定口径，作为历史记录保留于仓库历史中；它不能与本次冻结 1000 条结果横向比较，当前对外引用应使用 815/1000。调参用 dev-500 包含全部 331 个 baseline miss 与 169 个抽样 hit，因此不是独立未知 holdout。
+### RAG V2 X2 冻结复核口径
+
+冻结复核 benchmark 使用独立固定的 1000 条测试集、gold 和指标定义。X2 固定使用 Dense 50、lexical 50、fusion/RRF candidate 60、plain rerank 60（batch 16，256 tokens）、窗口重打分 60（前后各 300 字符，batch 8，512 tokens）、`max(plain, window)`、候选池内 ±1 邻接平滑 λ=0.9、既有质量先验、`min_relevance=0.0`、soft cap=3 的 diversity-first selection，最终取 Top-4。
+
+同一冻结 benchmark 内，baseline 为 669/1000（66.9%），X2 为 815/1000（81.5%），提升 +146 hits / +14.6pp。全部 1000 条结果、1000 条 trace 和 185 个 Top-4 miss 均已公开。CPU 正式运行平均延迟 39085.3 ms、P95 49831.9 ms，因此 X2 是 recall-oriented 而非低延迟配置。
+
+### 解释边界
+
+1081/88.62% 与 1000/81.5% 不是同一测试集上的前后成绩，不能据此解释为性能下降，也不能把 88.62% 与冻结 benchmark 的 66.9% baseline 比较。X2 的 +14.6pp 只来自冻结 1000 条内部的严格同口径比较。调参 dev-500 包含全部 331 个 baseline miss 与 169 个抽样 hit，不是独立未知 holdout。
+
+两套指标均为 Top-4 evidence/chunk retrieval metric：命中只表示前 4 个检索 chunk 中至少一个属于预先定义的可接受正确证据集合，不等同于最终回答医学正确率、模型回答准确率、知识库覆盖率或用户问题被完整正确回答的概率。
 
 ## 最终回答科学正确性抽检
 
@@ -29,7 +44,7 @@ X2 固定使用 Dense 50、lexical 50、fusion/RRF 候选 60、plain rerank 60�
 - 严重医学错误：0 / 20
 - 安全边界通过：20 / 20
 
-方法、用例、判定细则与边界说明见 [scientific_correctness/report.md](scientific_correctness/report.md)。
+方法、用例、判定细则与边界说明见 [科学正确性抽检报告](evaluation/scientific_correctness/report.md)。
 
 ## 科学图解生成评测
 

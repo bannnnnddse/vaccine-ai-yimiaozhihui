@@ -15,6 +15,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 - 后端 `pytest`：428 项测试通过（2 个第三方 deprecation warnings）；`ruff check app tests` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过
 - GitHub Actions 覆盖 `main` 与 `master` 的前端、后端和 Docker 构建检查，当前全绿
+- 项目提交报告口径：Top-4 evidence retrieval 为 958/1081（88.62%）；该口径先从 1500 条中按当时语料覆盖排除 419 个 Knowledge Gap
 - 冻结 RAG V2 X2：Top-4 chunk recall 为 815/1000（81.5%），同集 baseline 为 669/1000（66.9%），提升 +146 hits / +14.6 percentage points；该指标不是回答或医学正确率
 
 > ⚠️ **能力声明边界：** GraphRAG 已启用（`GRAPH_RAG_ENABLED=true`）：知识库为 140 份受治理语料文档（125 PDF + 11 MD + 4 DOCX）构建的 17,167 个 chunks，活动索引 `rag-v2-20260824T024746251335Z-8d89f653`，活动图谱版本 `graph-20260824T032039458153Z-7a0729a2-2558bd4d`（8,006 节点、6,215 边、5,282 条 provenance，全部通过 `medical_graph_validator_v10` 校验）。图缺失或版本不匹配时问答仍安全退回 Vector-only。视频页是本地模拟，不能描述为真实视频模型。
@@ -29,7 +30,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 | 知识治理/图谱 | 候选主张 → 人工审核 → 草稿 → 候选版本 → 原子发布 | 管理员可驳回/暂缓/批准；图谱构建须获得明确授权 |
 | 前端体验 | React 状态与服务层 → 异常/取消处理 → 测试 → 人工验收 | 保持 keyboard/focus、移动端、reduced-motion 与清理异步资源 |
 
-完整流程图源位于 [docs/五个模块具体工作流.md](docs/五个模块具体工作流.md)、[docs/Full-Stack-System-Flow-Mermaid.md](docs/Full-Stack-System-Flow-Mermaid.md) 和 [docs/审核流程图说明.md](docs/审核流程图说明.md)。
+完整模块流程、架构与交付入口见 [README.md](README.md)；运行代码与测试仍是最终事实来源。
 
 ## 🏗️ 当前架构
 
@@ -83,7 +84,8 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 ## 🧪 质量、仓库与发布规则
 
-- 当前冻结 RAG V2 1000 条正式评测公开测试集、gold、逐条结果、trace、全部失败案例、baseline、配置与 hash manifest，见 `docs/evaluation/rag_v2/`；历史 1081/88.62% 属于不同口径且不可横向比较。调参 dev-500 含全部 331 个 baseline miss，不得称为独立未知 holdout
+- RAG 检索采用两套不同用途的口径：1081/88.62% 是项目提交报告采用的评测；1000/81.5% 是后续建立的完整公开、冻结可审计 benchmark。两者测试集构造与协议不同，不是前后成绩、不可横向比较，也不得用其中一个覆盖另一个
+- 冻结 RAG V2 1000 条评测公开测试集、gold、逐条结果、trace、全部失败案例、baseline、配置与 hash manifest，见 `docs/evaluation/rag_v2/`；报告口径的原始 1081 条逐题数据仍未公开，仅提供脱敏样例。调参 dev-500 含全部 331 个 baseline miss，不得称为独立未知 holdout
 - 正式评测证据冻结后不得重筛 case、修改 gold、删除失败案例或用重跑结果覆盖；构造脚本不得进入 CI/生产自动流程。RAG X2 是 recall-oriented 配置，CPU 正式评测平均延迟约 39 秒，不得声称低延迟
 - 代码、配置与测试优先于实施报告；历史文档不得覆盖当前运行事实
 - 不提交 `.env`、密钥、`backend/runtime/`、`backend/rag_index/`、`backend/model_cache/`、`backend/generated_images/`、运行日志、虚拟环境或编译缓存。功能级复现由 `assets/runtime-assets-manifest.json` 固定官方模型 revision，并由 bootstrap 从受治理语料本机生成索引；下载后必须实际离线加载验证。不得发布生产 active 索引或 Graph snapshot，因为它们含完整 chunk/provenance 正文与生产历史。长期约束与操作入口见 [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md)；受治理语料与源码、测试随仓库交付。
