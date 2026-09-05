@@ -6,7 +6,8 @@
 
 - 实验冻结 commit：`a50d3cc6ba62c5876323cbd189848d4e75a39fd2`
 - 目标迁移前 commit：`aa23c4a7a8ee2747ca32155c1f3187e37f997899`
-- 目标 port commit：将在首个迁移 commit 后由独立 documentation commit 回填，以避免同一 commit 自引用。
+- 目标 port commit：`3caa5979380f5a59d6beba30ce0aa1f7cf51093c`
+- 本文件的回填由后续独立 documentation commit 完成，以避免同一 commit 自引用；该 documentation commit 不改变生产代码或冻结证据。
 - 目标分支与发布远端：`main` → `yimiao/main`
 
 ## 冻结输入
