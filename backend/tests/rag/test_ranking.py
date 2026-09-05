@@ -1,5 +1,9 @@
 from app.rag.models import RetrievedChunk
-from app.rag.ranking import apply_quality_prior, select_diverse
+from app.rag.ranking import (
+    apply_quality_prior,
+    select_diverse,
+    select_diverse_diversity_first,
+)
 
 
 def _chunk(
@@ -98,3 +102,45 @@ def test_diversity_is_soft_and_avoids_one_document_occupying_all_results() -> No
 
     assert [item.parent_doc_id for item in selected].count("a") == 3
     assert any(item.parent_doc_id == "b" for item in selected)
+
+
+def test_diversity_first_observes_cap_while_other_documents_can_fill_top_k() -> None:
+    candidates = [
+        _chunk(f"a{index}", 0.9 - index / 100, authority=4, evidence="guideline", document="a")
+        for index in range(6)
+    ]
+    candidates.append(_chunk("b1", 0.7, authority=2, evidence="cohort", document="b"))
+
+    selected = select_diverse_diversity_first(candidates, top_k=4, max_chunks_per_document=3)
+
+    assert [item.parent_doc_id for item in selected].count("a") == 3
+    assert any(item.parent_doc_id == "b" for item in selected)
+    assert len(selected) == 4
+
+
+def test_diversity_first_soft_cap_allows_overflow_only_to_avoid_underfill() -> None:
+    candidates = [
+        _chunk(f"a{index}", 0.9 - index / 100, authority=4, evidence="guideline", document="a")
+        for index in range(4)
+    ]
+
+    selected = select_diverse_diversity_first(candidates, top_k=4, max_chunks_per_document=3)
+
+    assert [item.id for item in selected] == ["a0", "a1", "a2", "a3"]
+    assert [item.parent_doc_id for item in selected].count("a") == 4
+
+
+def test_diversity_first_overflow_prefers_underrepresented_documents() -> None:
+    candidates = [
+        _chunk("a1", 0.9, authority=4, evidence="guideline", document="a"),
+        _chunk("a2", 0.8, authority=4, evidence="guideline", document="a"),
+        _chunk("a3", 0.7, authority=4, evidence="guideline", document="a"),
+        _chunk("b1", 0.5, authority=2, evidence="cohort", document="b"),
+        _chunk("c1", 0.4, authority=2, evidence="cohort", document="c"),
+    ]
+
+    selected = select_diverse_diversity_first(candidates, top_k=4, max_chunks_per_document=2)
+
+    docs = [item.parent_doc_id for item in selected]
+    assert docs.count("a") == 2
+    assert {item.id for item in selected} >= {"b1", "c1"}

@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-09-04",
+  "scope": "All 500 cached dev cases compared stage-by-stage against RagService X2 orchestration using frozen cached model scores.",
+  "verified_cases": 500,
+  "stages": {
+    "dense_sha256": "261f7247077417eed6a81631959061927d9a89279720503b6a35bfbd383c4cbb",
+    "lexical_sha256": "a492a9c42f85c884a89057eee5a31337a28a94dbd02ee5fb5a53da38f22c39d6",
+    "fused_sha256": "a0b8b9e22cf117c0dc9044f59cf59160d431d7ca4a4aaec43f3b4d393af0fd39",
+    "reranked_sha256": "8c9706bb3fb850f0c6373aa826f5c0178613c7617e1a85b5b15978694d98831a",
+    "quality_sha256": "dc00bbf2a4519e8bd74ae7192bfb5bd2e22f8fab161353aaef070adc199aef2a",
+    "selected_sha256": "57ff69848ca521cc2c05cc830a984ddc7ae30e9bc75d34e5a8fb1760e34be3d0"
+  },
+  "baseline_dev_top4": "169/500",
+  "x2_dev_top1": "182/500",
+  "x2_dev_top4": "352/500",
+  "selection_semantics": "soft cap=3 with diversity-first overflow"
+}

@@ -1,0 +1,40 @@
+{
+  "frozen_at_utc": "2026-09-04T06:38:33Z",
+  "git_commit": "a4b3cce65b48e8c43e1e231373df11b68fc811e8",
+  "index_version": "rag-v2-20260824T024746251335Z-8d89f653",
+  "index_manifest": {
+    "embedding_model": "BAAI/bge-small-zh-v1.5",
+    "dense_backend": "numpy_exact_v1",
+    "chunking_version": "structure_v2_docling",
+    "chunk_size": 600,
+    "chunk_overlap": 100,
+    "corpus_manifest_hash": "8d89f653b0094d00f6060fba17e6bc8b9660956c01a38b702a3d1a2c4a921e63",
+    "chunk_catalog_hash": "7a0729a2b24b8c0dcd2e9ffdaf8e34f3ad5ec6070458dd15f6ff91bcd95c30ba",
+    "chunk_count": 17167,
+    "document_count": 132
+  },
+  "retrieval_settings": {
+    "rag_pipeline": "hybrid_v2",
+    "rag_top_k": 4,
+    "rag_dense_fetch_k": 20,
+    "rag_lexical_fetch_k": 20,
+    "rag_rrf_k": 60,
+    "rag_fusion_candidate_k": 30,
+    "rag_rerank_candidate_k": 8,
+    "rag_reranker_enabled": true,
+    "rag_min_relevance": 0.2,
+    "rag_min_similarity": 0.6,
+    "rag_max_chunks_per_document": 2,
+    "rag_near_duplicate_threshold": 0.94,
+    "rag_quality_prior_max_adjustment": 0.05,
+    "rag_quality_authority_share": 0.65,
+    "rag_embedding_model": "BAAI/bge-small-zh-v1.5",
+    "rag_reranker_model": "BAAI/bge-reranker-base",
+    "rag_chunk_size": 600,
+    "rag_chunk_overlap": 100
+  },
+  "hashes": {
+    "evaluation_cases_sha256": "a454d3e4ea3d09d55cf6d0fd4db7f7b63b66d261aed1abdd336561be0e84123d",
+    "gold_labels_sha256": "aea4a83dd4e4f3ccab3afeecbae7794f413eae11cb68b4f5cc3c0fba692973d0"
+  }
+}

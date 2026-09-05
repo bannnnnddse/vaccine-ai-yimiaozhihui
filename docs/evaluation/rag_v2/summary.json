@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "total_cases": 1000,
+  "top1_hit_count": 477,
+  "top1_hit_rate": 47.7,
+  "top4_hit_count": 815,
+  "top4_hit_rate": 81.5,
+  "mrr": 0.6204,
+  "mean_latency_ms": 39085.3,
+  "median_latency_ms": 41614.7,
+  "p95_latency_ms": 49831.9,
+  "error_count": 0,
+  "by_difficulty": {
+    "easy": {
+      "total": 550,
+      "top1_hit_count": 285,
+      "top1_hit_rate": 51.82,
+      "top4_hit_count": 445,
+      "top4_hit_rate": 80.91,
+      "mrr": 0.6424,
+      "error_count": 0
+    },
+    "medium": {
+      "total": 350,
+      "top1_hit_count": 155,
+      "top1_hit_rate": 44.29,
+      "top4_hit_count": 289,
+      "top4_hit_rate": 82.57,
+      "mrr": 0.6019,
+      "error_count": 0
+    },
+    "hard": {
+      "total": 100,
+      "top1_hit_count": 37,
+      "top1_hit_rate": 37.0,
+      "top4_hit_count": 81,
+      "top4_hit_rate": 81.0,
+      "mrr": 0.5642,
+      "error_count": 0
+    }
+  },
+  "by_category": {
+    "免疫学基础": {
+      "total": 382,
+      "top1_hit_count": 209,
+      "top1_hit_rate": 54.71,
+      "top4_hit_count": 310,
+      "top4_hit_rate": 81.15,
+      "mrr": 0.6597,
+      "error_count": 0
+    },
+    "国家政策与免疫规划": {
+      "total": 332,
+      "top1_hit_count": 136,
+      "top1_hit_rate": 40.96,
+      "top4_hit_count": 273,
+      "top4_hit_rate": 82.23,
+      "mrr": 0.5853,
+      "error_count": 0
+    },
+    "常见疫苗相关介绍文件": {
+      "total": 260,
+      "top1_hit_count": 117,
+      "top1_hit_rate": 45.0,
+      "top4_hit_count": 207,
+      "top4_hit_rate": 79.62,
+      "mrr": 0.5978,
+      "error_count": 0
+    },
+    "接种注意事项": {
+      "total": 26,
+      "top1_hit_count": 15,
+      "top1_hit_rate": 57.69,
+      "top4_hit_count": 25,
+      "top4_hit_rate": 96.15,
+      "mrr": 0.7179,
+      "error_count": 0
+    }
+  }
+}

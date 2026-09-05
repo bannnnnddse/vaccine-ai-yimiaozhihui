@@ -2,6 +2,8 @@
 
 本项目是单一 Git 仓库。功能级复现时，GitHub 保存源码、测试、受治理语料和构建配置；`python scripts/bootstrap_assets.py` 从官方固定 revision 下载模型并在本机重建 Hybrid RAG。密钥、生产 active index、Graph snapshot、数据库、生成图片及运行日志不进入 Git，也不作为公开运行资产提供。
 
+当前 RAG V2 X2 是 recall-oriented 冻结配置：Dense/lexical 各 50、fusion 与 rerank depth 60、plain rerank 256 tokens、窗口重打分 512 tokens（前后各 300 字符）、邻接平滑 λ=0.9、soft cap=3、Top-K=4。公开 `.env.example` 与 Compose 显式值均已对齐；服务器的私密 `.env` 如覆盖这些变量，也必须同步核对。该配置在正式 CPU 评测中的平均延迟约 39 秒，不能描述为低延迟生产配置。
+
 ## 服务器要求
 
 - Linux x86-64，建议至少 8 GB 内存和 10 GB 可用磁盘。
@@ -68,6 +70,29 @@ rsync -a backend/runtime/graph/ user@server:/srv/vaccine-ai/backend/runtime/grap
 ```
 
 在服务器上单独创建 `backend/.env`，以 `backend/.env.example` 为模板填写真实密钥。至少检查 `DASHSCOPE_API_KEY`；若启用管理员功能，`ADMIN_USERNAME`、`ADMIN_PASSWORD_HASH`、`ADMIN_SESSION_SECRET` 必须同时设置，且会话密钥至少 32 字符。不要把 `.env` 或任何真实密钥提交到 Git。
+
+部署 X2 时还要确认以下变量没有被旧 `.env` 覆盖为历史值：
+
+```env
+RAG_DENSE_FETCH_K=50
+RAG_LEXICAL_FETCH_K=50
+RAG_FUSION_CANDIDATE_K=60
+RAG_RRF_K=60
+RAG_RERANK_CANDIDATE_K=60
+RAG_RERANKER_BATCH_SIZE=16
+RAG_RERANKER_MAX_LENGTH=256
+RAG_MIN_RELEVANCE=0.0
+RAG_MAX_CHUNKS_PER_DOCUMENT=3
+RAG_NEAR_DUPLICATE_THRESHOLD=0.94
+RAG_WINDOW_RESCORE_ENABLED=true
+RAG_WINDOW_RERANKER_MAX_LENGTH=512
+RAG_WINDOW_PREV_CHARS=300
+RAG_WINDOW_NEXT_CHARS=300
+RAG_WINDOW_RERANKER_BATCH_SIZE=8
+RAG_NEIGHBOR_SMOOTH_LAMBDA=0.9
+```
+
+`RAG_MAX_CHUNKS_PER_DOCUMENT=3` 是 diversity-first 主阶段的 soft cap；仅在其它非重复文档不足以填满 Top-K 时允许 overflow。
 
 ## 权限与部署
 

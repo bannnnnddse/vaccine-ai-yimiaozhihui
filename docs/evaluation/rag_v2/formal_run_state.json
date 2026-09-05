@@ -1,0 +1,10 @@
+{
+  "run_id": "formal-20260904T140003Z-a50d3cc6",
+  "status": "completed",
+  "started_at_utc": "2026-09-04T14:00:03Z",
+  "updated_at_utc": "2026-09-05T04:47:26Z",
+  "git_commit": "a50d3cc6ba62c5876323cbd189848d4e75a39fd2",
+  "index_version": "rag-v2-20260824T024746251335Z-8d89f653",
+  "freeze_manifest_sha256": "e7c156443d2cc04b810ddd18a92d4aa75b49552a8d78f7baea30b5f35a9355af",
+  "completed_cases": 1000
+}

@@ -3,7 +3,7 @@ import logging
 import threading
 import time
 from collections.abc import Callable
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 
 from app.core.config import Settings
@@ -14,7 +14,7 @@ from app.rag.hybrid import Bm25Index, reciprocal_rank_fusion
 from app.rag.index_versions import resolve_active_index, version_directory
 from app.rag.models import RagSource, RetrievedChunk
 from app.rag.numpy_store import NumpyRagStore, is_numpy_index
-from app.rag.ranking import apply_quality_prior, select_diverse
+from app.rag.ranking import apply_quality_prior, select_diverse_diversity_first
 from app.rag.reranker import CrossEncoderReranker, RerankerUnavailableError
 from app.rag.store import ChromaRagStore
 
@@ -64,6 +64,8 @@ class RagService:
         self._active_index_path: Path | None = index_path_override
         self._active_index_version: str | None = index_version_override
         self._bm25: Bm25Index | None = None
+        self._catalog_chunks: list | None = None
+        self._catalog_by_key: dict[tuple[str | None, int], object] = {}
         self._reranker: CrossEncoderReranker | None = None
         self._reranker_failed = False
         self._lock = threading.Lock()
@@ -234,17 +236,29 @@ class RagService:
                 started = time.perf_counter()
                 rerank_candidates = fused[: settings.rag_rerank_candidate_k]
                 _report_progress(progress_callback, "reranker")
+                rerank_kwargs: dict[str, object] = {
+                    "batch_size": settings.rag_reranker_batch_size,
+                }
+                window_texts = self._build_window_texts(rerank_candidates)
+                if window_texts is not None:
+                    rerank_kwargs["window_texts"] = window_texts
+                    rerank_kwargs["window_batch_size"] = settings.rag_window_reranker_batch_size
                 with timed_stage(
                     logger,
                     "rag_reranker",
                     candidates=len(rerank_candidates),
                     batch_size=settings.rag_reranker_batch_size,
+                    window_rescore=bool(window_texts),
                 ):
                     reranked_pool = self._ensure_reranker().rerank(
                         question,
                         rerank_candidates,
-                        batch_size=settings.rag_reranker_batch_size,
+                        **rerank_kwargs,
                     )
+                reranked_pool = self._smooth_neighbor_scores(
+                    reranked_pool,
+                    settings.rag_neighbor_smooth_lambda,
+                )
                 reranked = reranked_pool
                 timings["reranker"] = (time.perf_counter() - started) * 1000
             except RerankerUnavailableError:
@@ -293,7 +307,7 @@ class RagService:
         )
         timings["quality_prior"] = (time.perf_counter() - started) * 1000
         started = time.perf_counter()
-        selected = select_diverse(
+        selected = select_diverse_diversity_first(
             adjusted,
             top_k=settings.rag_top_k,
             max_chunks_per_document=settings.rag_max_chunks_per_document,
@@ -323,7 +337,65 @@ class RagService:
                         k1=self._settings.rag_bm25_k1,
                         b=self._settings.rag_bm25_b,
                     )
+                    self._catalog_chunks = chunks
+                    self._catalog_by_key = {
+                        (chunk.parent_doc_id, chunk.chunk_index): chunk for chunk in chunks
+                    }
         return self._bm25
+
+    def _build_window_texts(self, candidates: list[RetrievedChunk]) -> dict[str, str] | None:
+        settings = self._settings
+        if not settings.rag_window_rescore_enabled:
+            return None
+        try:
+            self._ensure_bm25()
+        except RuntimeError:
+            return None
+        if not self._catalog_by_key:
+            return None
+        window_texts: dict[str, str] = {}
+        for chunk in candidates:
+            previous = self._catalog_by_key.get((chunk.parent_doc_id, chunk.chunk_index - 1))
+            following = self._catalog_by_key.get((chunk.parent_doc_id, chunk.chunk_index + 1))
+            parts = []
+            if previous is not None and settings.rag_window_prev_chars:
+                parts.append((previous.text or "")[-settings.rag_window_prev_chars :])
+            parts.append(chunk.text or "")
+            if following is not None and settings.rag_window_next_chars:
+                parts.append((following.text or "")[: settings.rag_window_next_chars])
+            window = "\n".join(part for part in parts if part)
+            if window:
+                window_texts[chunk.id] = window
+        return window_texts or None
+
+    def _smooth_neighbor_scores(
+        self,
+        candidates: list[RetrievedChunk],
+        lam: float,
+    ) -> list[RetrievedChunk]:
+        if lam <= 0 or len(candidates) < 2:
+            return candidates
+        own = {chunk.id: (chunk.relevance_score or 0.0) for chunk in candidates}
+        id_by_key = {
+            (chunk.parent_doc_id, chunk.chunk_index): chunk.id for chunk in candidates
+        }
+
+        smoothed: list[RetrievedChunk] = []
+        for chunk in candidates:
+            eff = own[chunk.id]
+            for delta in (1, -1):
+                neighbor_id = id_by_key.get((chunk.parent_doc_id, chunk.chunk_index + delta))
+                if neighbor_id is not None:
+                    eff = max(eff, lam * own[neighbor_id])
+            smoothed.append(replace(chunk, relevance_score=eff))
+        smoothed.sort(
+            key=lambda item: (
+                -(item.relevance_score or 0.0),
+                item.fused_rank or 10**9,
+                item.id,
+            )
+        )
+        return smoothed
 
     def _ensure_reranker(self) -> CrossEncoderReranker:
         if self._reranker_failed:
@@ -337,6 +409,9 @@ class RagService:
                     }
                     if self._settings.rag_reranker_revision is not None:
                         reranker_options["revision"] = self._settings.rag_reranker_revision
+                    reranker_options["window_max_length"] = (
+                        self._settings.rag_window_reranker_max_length
+                    )
                     self._reranker = CrossEncoderReranker(
                         self._settings.rag_reranker_model,
                         self._settings.rag_model_cache_dir,

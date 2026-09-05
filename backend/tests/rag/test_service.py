@@ -35,6 +35,12 @@ def _service(store: FakeStore) -> RagService:
     return service
 
 
+class _EmptyBm25:
+    @staticmethod
+    def query(question: str, *, top_k: int) -> list[RetrievedChunk]:
+        return []
+
+
 def test_runtime_embedder_uses_only_the_existing_model_cache(monkeypatch) -> None:
     class OfflineEmbedder:
         def __init__(
@@ -191,3 +197,103 @@ def test_hybrid_reranker_only_scores_configured_candidate_budget() -> None:
 
     assert reranker.candidate_count == 8
     assert len(trace.reranked) == 8
+
+
+def test_hybrid_window_rescore_merges_max_of_plain_and_window_scores() -> None:
+    dense = [
+        RetrievedChunk(
+            id="w1", file_name="法.md", relative_path="法.md", page=1, chunk_index=0,
+            text="窗口候选一", source_hash="h1", parent_doc_id="doc", similarity=0.9,
+        ),
+        RetrievedChunk(
+            id="w2", file_name="法.md", relative_path="法.md", page=1, chunk_index=2,
+            text="窗口候选二", source_hash="h2", parent_doc_id="doc", similarity=0.8,
+        ),
+    ]
+    store = FakeStore(dense)
+
+    class WindowReranker:
+        def __init__(self) -> None:
+            self.window_count = 0
+
+        def rerank(
+            self, question: str, candidates: list[RetrievedChunk], *, batch_size: int,
+            window_texts: dict[str, str], window_batch_size: int,
+        ) -> list[RetrievedChunk]:
+            self.window_count = len(window_texts)
+            return [
+                replace(
+                    candidate,
+                    relevance_score=0.1 if candidate.id == "w1" else 0.9,
+                    reranker_score=0.1 if candidate.id == "w1" else 0.9,
+                )
+                for candidate in candidates
+            ]
+
+    service = RagService(
+        Settings(
+            _env_file=None, dashscope_api_key=None, rag_rerank_candidate_k=4,
+            rag_window_rescore_enabled=True, rag_neighbor_smooth_lambda=0.0,
+        ),
+        store,
+    )
+    reranker = WindowReranker()
+    service._reranker = reranker
+    service._bm25 = _EmptyBm25()
+    service._catalog_by_key = {
+        ("doc", 1): RetrievedChunk(
+            id="n1", file_name="法.md", relative_path="法.md", page=1, chunk_index=1,
+            text="前文相邻内容", source_hash="h1", parent_doc_id="doc",
+        ),
+        ("doc", 3): RetrievedChunk(
+            id="n3", file_name="法.md", relative_path="法.md", page=1, chunk_index=3,
+            text="后文相邻内容", source_hash="h3", parent_doc_id="doc",
+        ),
+    }
+
+    _, trace = service._retrieve_hybrid("疫苗", store)
+
+    assert reranker.window_count == 2
+    assert trace.quality_adjusted[0].id == "w2"
+    assert all(chunk.relevance_score is not None for chunk in trace.reranked)
+
+
+def test_hybrid_neighbor_smoothing_propagates_adjacent_score() -> None:
+    base = [
+        RetrievedChunk(
+            id=f"s{index}", file_name="指南.pdf", relative_path="指南.pdf", page=1,
+            chunk_index=index, text=f"相邻证据 {index}", source_hash=f"h{index}",
+            parent_doc_id="doc", similarity=0.9 - index * 0.01,
+        )
+        for index in range(3)
+    ]
+    store = FakeStore(base)
+
+    class FlatReranker:
+        def rerank(
+            self, question: str, candidates: list[RetrievedChunk], *, batch_size: int,
+        ) -> list[RetrievedChunk]:
+            return [
+                replace(
+                    candidate,
+                    relevance_score=0.9 if candidate.id == "s0" else 0.05,
+                    reranker_score=0.9 if candidate.id == "s0" else 0.05,
+                )
+                for candidate in candidates
+            ]
+
+    service = RagService(
+        Settings(
+            _env_file=None, dashscope_api_key=None, rag_rerank_candidate_k=4,
+            rag_window_rescore_enabled=False, rag_neighbor_smooth_lambda=0.8,
+        ),
+        store,
+    )
+    service._reranker = FlatReranker()
+    service._bm25 = _EmptyBm25()
+
+    _, trace = service._retrieve_hybrid("疫苗", store)
+
+    scores = {chunk.id: chunk.relevance_score for chunk in trace.reranked}
+    assert scores["s0"] == 0.9
+    assert scores["s1"] == 0.8 * 0.9

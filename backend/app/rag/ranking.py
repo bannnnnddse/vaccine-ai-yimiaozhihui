@@ -112,6 +112,53 @@ def select_diverse(
     return selected
 
 
+def select_diverse_diversity_first(
+    candidates: list[RetrievedChunk],
+    *,
+    top_k: int,
+    max_chunks_per_document: int = 3,
+    near_duplicate_threshold: float = 0.94,
+) -> list[RetrievedChunk]:
+    """Apply a soft per-document cap with diversity-first overflow.
+
+    The main pass observes the cap. If that leaves Top-K under-filled, deferred
+    candidates are ordered by the number of already-selected chunks from their
+    document and then by score. The overflow may exceed the cap when no more
+    diverse non-duplicate evidence is available.
+    """
+    if top_k <= 0:
+        return []
+    if max_chunks_per_document <= 0:
+        raise ValueError("max_chunks_per_document must be positive")
+    selected: list[RetrievedChunk] = []
+    deferred: list[RetrievedChunk] = []
+    document_counts: Counter[str] = Counter()
+    seen_content_hashes: set[str] = set()
+    for candidate in candidates:
+        if _is_duplicate(candidate, selected, seen_content_hashes, near_duplicate_threshold):
+            continue
+        document_id = candidate.parent_doc_id or candidate.relative_path
+        if document_counts[document_id] >= max_chunks_per_document:
+            deferred.append(candidate)
+            continue
+        _select(candidate, selected, document_counts, seen_content_hashes)
+        if len(selected) >= top_k:
+            return selected
+    deferred.sort(
+        key=lambda item: (
+            document_counts[item.parent_doc_id or item.relative_path],
+            -(item.final_score or 0.0),
+        )
+    )
+    for candidate in deferred:
+        if _is_duplicate(candidate, selected, seen_content_hashes, near_duplicate_threshold):
+            continue
+        _select(candidate, selected, document_counts, seen_content_hashes)
+        if len(selected) >= top_k:
+            break
+    return selected
+
+
 def normalize_reranker_scores(
     candidates: list[RetrievedChunk],
     raw_scores: list[float],

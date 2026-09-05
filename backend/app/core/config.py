@@ -81,9 +81,9 @@ class Settings(BaseSettings):
     rag_corpus_manifest_path: Path = _BACKEND_DIR.parent / "RAG" / "corpus_manifest.jsonl"
     rag_docling_artifact_dir: Path = _BACKEND_DIR / "runtime" / "docling_v2"
     rag_chunking_version: str = "structure_v2_docling"
-    rag_dense_fetch_k: int = Field(default=20, ge=1, le=100)
-    rag_lexical_fetch_k: int = Field(default=20, ge=1, le=100)
-    rag_fusion_candidate_k: int = Field(default=30, ge=1, le=100)
+    rag_dense_fetch_k: int = Field(default=50, ge=1, le=100)
+    rag_lexical_fetch_k: int = Field(default=50, ge=1, le=100)
+    rag_fusion_candidate_k: int = Field(default=60, ge=1, le=100)
     rag_rrf_k: int = Field(default=60, ge=1, le=200)
     rag_bm25_k1: float = Field(default=1.5, gt=0, le=5)
     rag_bm25_b: float = Field(default=0.75, ge=0, le=1)
@@ -91,10 +91,16 @@ class Settings(BaseSettings):
     rag_reranker_model: str = "BAAI/bge-reranker-base"
     rag_reranker_revision: str | None = None
     rag_reranker_device: str = "cpu"
-    rag_reranker_batch_size: int = Field(default=4, ge=1, le=64)
+    rag_reranker_batch_size: int = Field(default=16, ge=1, le=64)
     rag_reranker_max_length: int = Field(default=256, ge=128, le=2048)
-    rag_rerank_candidate_k: int = Field(default=8, ge=1, le=50)
-    rag_min_relevance: float = Field(default=0.20, ge=0, le=1)
+    rag_rerank_candidate_k: int = Field(default=60, ge=1, le=100)
+    rag_min_relevance: float = Field(default=0.0, ge=0, le=1)
+    rag_window_rescore_enabled: bool = True
+    rag_window_reranker_max_length: int = Field(default=512, ge=128, le=2048)
+    rag_window_prev_chars: int = Field(default=300, ge=0, le=2000)
+    rag_window_next_chars: int = Field(default=300, ge=0, le=2000)
+    rag_window_reranker_batch_size: int = Field(default=8, ge=1, le=64)
+    rag_neighbor_smooth_lambda: float = Field(default=0.9, ge=0.0, le=1.0)
     rag_warmup_enabled: bool = False
     rag_max_concurrent_retrievals: int = Field(default=1, ge=1, le=8)
     rag_torch_num_threads: int = Field(default=2, ge=1, le=32)
@@ -105,7 +111,7 @@ class Settings(BaseSettings):
     rag_quality_prior_max_adjustment: float = Field(default=0.05, ge=0, le=0.1)
     rag_quality_authority_share: float = Field(default=0.65, ge=0, le=1)
     rag_freshness_max_adjustment: float = Field(default=0.015, ge=0, le=0.05)
-    rag_max_chunks_per_document: int = Field(default=2, ge=1, le=10)
+    rag_max_chunks_per_document: int = Field(default=3, ge=1, le=10)
     rag_near_duplicate_threshold: float = Field(default=0.94, ge=0.8, le=1)
 
     graph_rag_enabled: bool = False

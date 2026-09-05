@@ -1,0 +1,10 @@
+{
+  "name": "rag_v2_top_k_chunk_recall",
+  "version": 1,
+  "unit": "case",
+  "top_k": 4,
+  "hit_rule": "A case is a Top-4 hit iff at least one chunk_id among the first four selected production results belongs to acceptable_gold_chunk_ids.",
+  "top1_rule": "A case is a Top-1 hit iff the first selected chunk is acceptable gold.",
+  "mrr_rule": "Mean reciprocal rank of the first acceptable gold chunk within Top-4; misses contribute 0.",
+  "error_rule": "Any retrieval exception invalidates the formal run; failed cases are never filtered."
+}

@@ -1,0 +1,77 @@
+{
+  "frozen_at_utc": "2026-09-04T13:59:03Z",
+  "git_commit": "a50d3cc6ba62c5876323cbd189848d4e75a39fd2",
+  "index_version": "rag-v2-20260824T024746251335Z-8d89f653",
+  "index_manifest": {
+    "embedding_model": "BAAI/bge-small-zh-v1.5",
+    "dense_backend": "numpy_exact_v1",
+    "chunking_version": "structure_v2_docling",
+    "chunk_size": 600,
+    "chunk_overlap": 100,
+    "corpus_manifest_hash": "8d89f653b0094d00f6060fba17e6bc8b9660956c01a38b702a3d1a2c4a921e63",
+    "chunk_catalog_hash": "7a0729a2b24b8c0dcd2e9ffdaf8e34f3ad5ec6070458dd15f6ff91bcd95c30ba",
+    "chunk_count": 17167,
+    "document_count": 132
+  },
+  "retrieval_settings": {
+    "rag_pipeline": "hybrid_v2",
+    "rag_top_k": 4,
+    "rag_dense_fetch_k": 50,
+    "rag_lexical_fetch_k": 50,
+    "rag_rrf_k": 60,
+    "rag_bm25_k1": 1.5,
+    "rag_bm25_b": 0.75,
+    "rag_fusion_candidate_k": 60,
+    "rag_rerank_candidate_k": 60,
+    "rag_reranker_enabled": true,
+    "rag_reranker_batch_size": 16,
+    "rag_reranker_max_length": 256,
+    "rag_min_relevance": 0.0,
+    "rag_min_similarity": 0.6,
+    "rag_max_chunks_per_document": 3,
+    "rag_near_duplicate_threshold": 0.94,
+    "rag_quality_prior_max_adjustment": 0.05,
+    "rag_quality_authority_share": 0.65,
+    "rag_freshness_max_adjustment": 0.015,
+    "rag_embedding_model": "BAAI/bge-small-zh-v1.5",
+    "rag_reranker_model": "BAAI/bge-reranker-base",
+    "rag_chunk_size": 600,
+    "rag_chunk_overlap": 100,
+    "rag_window_rescore_enabled": true,
+    "rag_window_reranker_max_length": 512,
+    "rag_window_prev_chars": 300,
+    "rag_window_next_chars": 300,
+    "rag_window_reranker_batch_size": 8,
+    "rag_neighbor_smooth_lambda": 0.9
+  },
+  "metric_definition": {
+    "name": "rag_v2_top_k_chunk_recall",
+    "version": 1,
+    "unit": "case",
+    "top_k": 4,
+    "hit_rule": "A case is a Top-4 hit iff at least one chunk_id among the first four selected production results belongs to acceptable_gold_chunk_ids.",
+    "top1_rule": "A case is a Top-1 hit iff the first selected chunk is acceptable gold.",
+    "mrr_rule": "Mean reciprocal rank of the first acceptable gold chunk within Top-4; misses contribute 0.",
+    "error_rule": "Any retrieval exception invalidates the formal run; failed cases are never filtered."
+  },
+  "source_hashes": {
+    "backend/app/core/config.py": "4fdb86113eac7fca01d03d57549f1008dec16d524709dc559bfc9fc93688430e",
+    "backend/app/rag/hybrid.py": "ee5fbe708c54e3feeb41e78a59871e9e8dca5cb961618811a5d8dddeef2d318f",
+    "backend/app/rag/ranking.py": "1b4c8b01c88ce207a2591011be8f9756b4ab06c624bd3dde3f7cdae59a945d1a",
+    "backend/app/rag/reranker.py": "e1774a2cf10e724fc25b737be5c6780b06f50907bba0ffd477ee8694f9a4e9f4",
+    "backend/app/rag/service.py": "735db57a57d6dccd35dced5b4ad6118f5066bf49d601cce01fd27a3fca5aebff",
+    "scripts/evaluate_rag_v2.py": "adfe111bc7b6fd681cc61524bad28cdb50fcb09d65ac99398fce139411c975c5"
+  },
+  "index_file_hashes": {
+    "manifest.json": "567152d87614f3236684f4ba3a026868b610a39b88e5ed13a5c5a6df2a1ebec7",
+    "chunks.jsonl": "7a0729a2b24b8c0dcd2e9ffdaf8e34f3ad5ec6070458dd15f6ff91bcd95c30ba",
+    "vectors.npy": "fa6e241830a224d373746052199c2b7ec1ddddcdef326078ceb46be011950782"
+  },
+  "hashes": {
+    "evaluation_cases_sha256": "a454d3e4ea3d09d55cf6d0fd4db7f7b63b66d261aed1abdd336561be0e84123d",
+    "gold_labels_sha256": "aea4a83dd4e4f3ccab3afeecbae7794f413eae11cb68b4f5cc3c0fba692973d0",
+    "metric_definition_sha256": "adc0cc49ec67ce82b8de5d30a2a2ea8670326cbc8d8b036df75d164bfe9587b9",
+    "corpus_manifest_sha256": "8d89f653b0094d00f6060fba17e6bc8b9660956c01a38b702a3d1a2c4a921e63",
+    "retrieval_settings_sha256": "0985b1180db8da1875edf4f608dade86a17de1e1a07430094e5a283ef4516ab1"
+  }
+}

@@ -68,6 +68,12 @@ def test_env_example_documents_image_settings_without_a_real_secret() -> None:
     assert "RAG_TORCH_INTEROP_THREADS=1" in contents
     assert "EVIDENCE_RULE_MIN_TOP_SCORE=0.90" in contents
     assert "EVIDENCE_RULE_MIN_SUPPORT_SCORE=0.80" in contents
+    assert "RAG_DENSE_FETCH_K=50" in contents
+    assert "RAG_LEXICAL_FETCH_K=50" in contents
+    assert "RAG_FUSION_CANDIDATE_K=60" in contents
+    assert "RAG_RERANK_CANDIDATE_K=60" in contents
+    assert "RAG_WINDOW_RESCORE_ENABLED=true" in contents
+    assert "RAG_NEIGHBOR_SMOOTH_LAMBDA=0.9" in contents
     assert "sk-" not in contents
 
 
@@ -83,11 +89,19 @@ def test_rag_defaults_point_to_project_corpus_and_backend_index() -> None:
     assert settings.rag_fetch_k == 8
     assert settings.rag_min_similarity == 0.60
     assert settings.rag_pipeline == "hybrid_v2"
-    assert settings.rag_dense_fetch_k == 20
-    assert settings.rag_lexical_fetch_k == 20
-    assert settings.rag_fusion_candidate_k == 30
-    assert settings.rag_rerank_candidate_k == 8
-    assert settings.rag_reranker_batch_size == 4
+    assert settings.rag_dense_fetch_k == 50
+    assert settings.rag_lexical_fetch_k == 50
+    assert settings.rag_fusion_candidate_k == 60
+    assert settings.rag_rerank_candidate_k == 60
+    assert settings.rag_reranker_batch_size == 16
+    assert settings.rag_reranker_max_length == 256
+    assert settings.rag_min_relevance == 0.0
+    assert settings.rag_window_rescore_enabled is True
+    assert settings.rag_window_reranker_max_length == 512
+    assert settings.rag_window_prev_chars == 300
+    assert settings.rag_window_next_chars == 300
+    assert settings.rag_window_reranker_batch_size == 8
+    assert settings.rag_neighbor_smooth_lambda == 0.9
     assert settings.rag_warmup_enabled is False
     assert settings.rag_max_concurrent_retrievals == 1
     assert settings.rag_torch_num_threads == 2
@@ -96,7 +110,7 @@ def test_rag_defaults_point_to_project_corpus_and_backend_index() -> None:
     assert settings.evidence_rule_min_support_score == 0.80
     assert settings.rag_reranker_model == "BAAI/bge-reranker-base"
     assert settings.rag_quality_prior_max_adjustment == 0.05
-    assert settings.rag_max_chunks_per_document == 2
+    assert settings.rag_max_chunks_per_document == 3
     assert settings.graph_rag_enabled is False
     assert settings.graph_max_hops == 2
     assert settings.graph_max_paths == 5

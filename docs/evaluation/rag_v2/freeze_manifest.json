@@ -1,0 +1,17 @@
+{
+  "frozen_at_utc": "2026-09-04T13:59:03Z",
+  "git_commit": "a50d3cc6ba62c5876323cbd189848d4e75a39fd2",
+  "config_snapshot_sha256": "51ae5611b17afb0bf174ccb265b55d7e2049c19a5866e2645b0e305d6ae662ab",
+  "evaluation_script_sha256": "adfe111bc7b6fd681cc61524bad28cdb50fcb09d65ac99398fce139411c975c5",
+  "metric_definition_sha256": "adc0cc49ec67ce82b8de5d30a2a2ea8670326cbc8d8b036df75d164bfe9587b9",
+  "evaluation_cases_sha256": "a454d3e4ea3d09d55cf6d0fd4db7f7b63b66d261aed1abdd336561be0e84123d",
+  "gold_labels_sha256": "aea4a83dd4e4f3ccab3afeecbae7794f413eae11cb68b4f5cc3c0fba692973d0",
+  "corpus_manifest_sha256": "8d89f653b0094d00f6060fba17e6bc8b9660956c01a38b702a3d1a2c4a921e63",
+  "retrieval_settings_sha256": "0985b1180db8da1875edf4f608dade86a17de1e1a07430094e5a283ef4516ab1",
+  "index_version": "rag-v2-20260824T024746251335Z-8d89f653",
+  "index_file_hashes": {
+    "manifest.json": "567152d87614f3236684f4ba3a026868b610a39b88e5ed13a5c5a6df2a1ebec7",
+    "chunks.jsonl": "7a0729a2b24b8c0dcd2e9ffdaf8e34f3ad5ec6070458dd15f6ff91bcd95c30ba",
+    "vectors.npy": "fa6e241830a224d373746052199c2b7ec1ddddcdef326078ceb46be011950782"
+  }
+}
