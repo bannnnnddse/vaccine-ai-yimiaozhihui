@@ -187,7 +187,7 @@ CELL_IP_SKILL_DIR=../skills/cell-ip-illustrations
    RAG_MIN_SIMILARITY=0.60
    ```
 
-3. 首次冻结由维护者在受控环境按“审计 → 候选 → 验证 → 激活”执行。Docling JSON 应先生成在 `runtime/docling_v2/{doc_id}.json`；模型下载只发生在准备阶段，运行时仅用本地缓存。公开仓库不包含评测样本、历史结果或运行时索引：
+3. 首次冻结由维护者在受控环境按“审计 → 候选 → 验证 → 激活”执行。Docling JSON 应先生成在 `runtime/docling_v2/{doc_id}.json`；模型下载只发生在准备阶段，运行时仅用本地缓存。公开仓库不包含生产运行时索引；项目报告 1081 条口径只公开方法、汇总指标和脱敏样例，另行建立的 RAG V2 X2 1000 条冻结复核 benchmark 则完整公开测试集、gold 与逐条结果，详见 [`docs/evaluation.md`](../docs/evaluation.md)：
 
    ```powershell
    .\.venv\Scripts\python.exe -m app.rag.cli corpus-audit

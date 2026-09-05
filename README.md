@@ -191,41 +191,37 @@ docker compose up -d --build
 
 > **功能级一键复现：** 核心 Hybrid RAG 已在隔离 clean-clone 云端环境完成端到端功能级复现验证。项目提供固定模型 revision、自动准备解析产物，并可由仓库语料在本地重建 Hybrid RAG V2。模型从官方源获取；生产 active RAG/Graph snapshot 不公开。Graph 缺失时安全降级。复现范围与验收记录见 [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md)。
 
-## 六、RAG 检索评测：报告口径与冻结复核口径
+## 六、RAG 检索评测与可复核性
 
-本项目保留两套用途不同的 RAG 检索评测。二者均评价“正确 evidence 是否进入检索结果 Top-4”，但由于**测试集构造、筛选与冻结协议不同，因此分母与指标结果不能直接横向比较**。
+项目提交报告采用的 RAG 检索评测先构建 1500 条独立疫苗知识测试问题，并依据当时本地知识库的语料覆盖范围进行适用性筛查。其中 419 条因知识库中不存在足以支持核心答案的对应证据，被作为 Knowledge Gap 排除；最终 1081 条进入 Top-4 检索评测，其中 958 条成功召回正确证据：
 
-| 评测 | 测试规模 | Top-4 命中 | 用途 |
-| --- | ---: | ---: | --- |
-| **项目报告评测** | 1081 | **958 / 1081 = 88.62%** | 项目提交报告采用的检索效果指标 |
-| **RAG V2 X2 冻结复核评测** | 1000 | **815 / 1000 = 81.5%** | 完整公开证据链下可复算、可审计的 benchmark |
-| X2 同口径 baseline | 1000 | 669 / 1000 = 66.9% | 与 X2 进行严格同数据集比较 |
-| X2 相对 baseline | — | **+146 hits / +14.6 percentage points** | 同一冻结测试集上的改进幅度 |
+**958 / 1081 = 88.62%**
 
-### 项目报告评测：1081 / 88.62%
+这是项目正式提交报告采用的检索评测指标。命中表示前 4 条检索结果中至少存在能够支撑问题核心事实的正确 evidence；该指标评价检索层表现，不等同于最终回答准确率、医学正确率、大语言模型回答准确率、知识库总体覆盖率或所有用户问题的成功率。报告口径的方法、汇总指标与 15 条公开脱敏样例见 [评测总览](docs/evaluation.md) 和 [rag_retrieval_samples.json](docs/evaluation/rag_retrieval_samples.json)。
 
-项目提交报告采用较早建立的检索评测口径：先构建 1500 条疫苗知识测试问题，再依据当时本地知识库的语料覆盖情况进行适用性筛查。419 条因知识库中不存在足以支持核心答案的证据而作为 Knowledge Gap 排除，最终 1081 条进入 Top-4 检索评测，其中 958 条成功召回对应正确证据，即 `958 / 1081 = 88.62%`。
+### 额外冻结复核 benchmark
 
-因此，**88.62% 是项目提交报告所引用的检索评测结果**。它只描述在该评测集及筛选规则下正确证据进入 Top-4 的比例，不代表最终回答医学正确率，也不代表所有用户问题的覆盖率。该口径的 15 条公开脱敏样例见 [rag_retrieval_samples.json](docs/evaluation/rag_retrieval_samples.json)。
+为进一步增强真实性、透明度、可追溯性及第三方审计能力，项目后续另建立并冻结了一套独立的 RAG V2 X2 1000 条复核 benchmark。它完整公开 evaluation cases、gold labels、metric definition、config snapshot、freeze manifest、全部 1000 条 raw results、全部 1000 条逐阶段 raw traces、全部 185 个 Top-4 miss、同集 baseline、formal run state、consistency report、evaluator、porting verification，以及 commit、index 与 SHA256 身份，可由第三方离线独立复算和逐题审查。
 
-### RAG V2 X2 冻结复核评测：1000 / 81.5%
+在该冻结 1000 条测试集及其统一 gold / metric definition 下：
 
-为增强可复核性、可追溯性和第三方审计能力，仓库另行提供一套冻结的 RAG V2 X2 1000 条正式复核 benchmark，公开测试集、gold、指标定义、配置快照、freeze manifest、全部逐题结果、逐阶段 traces、全部 185 个 Top-4 miss、同集 baseline、evaluator 和迁移验证。
+- baseline：669 / 1000 = 66.9%
+- X2：815 / 1000 = 81.5%
+- 同集提升：+146 hits / +14.6 percentage points
 
-在**同一冻结测试集、同一 gold、同一指标定义**下，baseline 为 669/1000（66.9%），X2 为 815/1000（81.5%），净增加 146 个 Top-4 命中，提升 +14.6 percentage points。81.5% 的核心价值不仅是结果本身，也包括第三方可直接复算和逐题审查的完整 raw-level 证据链。
-
-X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank 深度为 60，使用 512-token 邻接窗口重打分、`max(plain, window)` 合并、候选池内 ±1 邻接平滑、质量先验，以及 soft cap=3 的 diversity-first 选择。CPU 正式评测平均延迟约 39 秒，因此不能描述为低延迟配置。完整证据见 [RAG V2 X2 冻结评测目录](docs/evaluation/rag_v2/README.md)。
+X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank 深度为 60，使用 512-token 邻接窗口重打分、`max(plain, window)` 合并、候选池内 ±1 邻接平滑、质量先验，以及 soft cap=3 的 diversity-first 选择。CPU 正式评测平均延迟约 39 秒，因此不能描述为低延迟配置。完整原始证据与复算说明见 [RAG V2 X2 冻结评测目录](docs/evaluation/rag_v2/README.md)。
 
 ### 两套结果的关系
 
-`1081 / 88.62%` 与 `1000 / 81.5%` 不是同一测试集上的前后版本成绩。二者的测试集构造、筛选/冻结协议及证据用途不同，因此不应把 81.5% 解释为从 88.62% 下降，不应把 88.62% 与 X2 的 66.9% baseline 比较，也不应以 81.5% 覆盖报告采用的 88.62%。X2 的 +14.6pp 只来自冻结 1000 条 benchmark 内部的严格同口径比较。
+项目报告的 `1081 条 / 88.62%` 与冻结复核 benchmark 的 `1000 条 / 81.5%` 并非同一测试集上的前后版本成绩。二者的数据集构造、样本筛选/冻结协议与评测用途不同，因此不能直接横向比较；81.5% 不表示系统从 88.62% 下降，也不用于替代项目报告中的 88.62%。
 
-> **88.62% 是项目提交报告采用的检索评测结果；81.5% 是仓库提供完整原始证据后，可由第三方独立复核的冻结 RAG V2 X2 benchmark 结果。**
+- **88.62%**：项目提交报告采用的 Top-4 evidence retrieval 结果。
+- **81.5%**：仓库额外公开完整 raw-level 证据链后的冻结复核 benchmark 结果。
 
-上述两套指标均为 Top-4 evidence/chunk retrieval metric，不等同于最终回答医学正确率、大语言模型回答准确率、知识库总体覆盖率或用户问题被完整正确回答的概率。完整评测总览见 [docs/evaluation.md](docs/evaluation.md)。
+冻结 benchmark 内的 66.9% baseline 与 +14.6 percentage points 提升只用于该 1000 条同集、同 gold、同指标定义的严格比较。
 
 ## 七、质量基线
 
-- 后端：`pytest` 与 `ruff check app tests` 通过（最新实测数量见 RAG V2 迁移验证记录）
+- 后端：428 项 `pytest` 通过（2 个第三方 deprecation warnings）；`ruff check app tests` 通过
 - 前端：59 个测试文件、348 项测试通过；`pnpm build` 通过
 - CI：GitHub Actions 持续执行前端测试与构建、后端测试与 lint，以及 Docker 构建验证，配置见 `.github/workflows/ci.yml`。
