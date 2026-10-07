@@ -81,6 +81,7 @@ class RagSource:
     source_url: str | None = None
     section: str | None = None
     document_id: str | None = field(default=None, compare=False)
+    source_id: str | None = field(default=None, compare=False)
     pages: tuple[int, ...] = field(default=(), compare=False)
 
 

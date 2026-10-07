@@ -3,6 +3,7 @@ import {
   ChatCircleDots,
   Graph,
   MonitorPlay,
+  Plus,
   Trash,
   VideoCamera,
 } from "@phosphor-icons/react";
@@ -13,6 +14,7 @@ interface WorkspaceNavigationProps {
   activeConversationId: string | null;
   onConversationSelect: (conversation: StoredConversation) => void;
   onConversationDelete: (conversation: StoredConversation) => void;
+  onNewConversation: () => void;
   onGraph: () => void;
   onInteractive: () => void;
   onVideo: () => void;
@@ -23,6 +25,7 @@ export function WorkspaceNavigation({
   activeConversationId,
   onConversationSelect,
   onConversationDelete,
+  onNewConversation,
   onGraph,
   onInteractive,
   onVideo,
@@ -39,17 +42,17 @@ export function WorkspaceNavigation({
           <span>AI 问答</span>
           <CaretRight className="workspace-nav__arrow" weight="bold" aria-hidden="true" />
         </button>
-        <button className="workspace-nav__button" data-testid="navigate-graph" type="button" onClick={onGraph}>
+        <button className="workspace-nav__button" data-testid="navigate-graph" type="button" aria-label="知识图谱" onClick={onGraph}>
           <Graph weight="duotone" aria-hidden="true" />
           <span>知识图谱</span>
           <CaretRight className="workspace-nav__arrow" weight="bold" aria-hidden="true" />
         </button>
-        <button className="workspace-nav__button" data-testid="navigate-interactive" type="button" onClick={onInteractive}>
+        <button className="workspace-nav__button" data-testid="navigate-interactive" type="button" aria-label="互动体验" onClick={onInteractive}>
           <MonitorPlay weight="duotone" aria-hidden="true" />
           <span>互动体验</span>
           <CaretRight className="workspace-nav__arrow" weight="bold" aria-hidden="true" />
         </button>
-        <button className="workspace-nav__button" data-testid="navigate-video" type="button" onClick={onVideo}>
+        <button className="workspace-nav__button" data-testid="navigate-video" type="button" aria-label="科普短视频" onClick={onVideo}>
           <VideoCamera weight="duotone" aria-hidden="true" />
           <span>科普短视频</span>
           <CaretRight className="workspace-nav__arrow" weight="bold" aria-hidden="true" />
@@ -90,6 +93,10 @@ export function WorkspaceNavigation({
             ))}
         </div>
       </section>
+      <button className="workspace-new-conversation" data-testid="new-conversation" type="button" onClick={onNewConversation} title="开启新对话" aria-label="开启新对话">
+        <Plus weight="bold" aria-hidden="true" />
+        <span>开启新对话</span>
+      </button>
     </aside>
   );
 }

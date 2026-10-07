@@ -37,8 +37,14 @@ from app.services.qwen_service import (
     QwenTimeoutError,
 )
 from app.services.source_quality import (
-    bind_cited_sources,
+    CitationAuditResult,
+    FinalizedCitations,
+    assign_local_source_ids,
+    deduplicate_local_sources,
+    deduplicate_pubmed_articles,
     filter_pubmed_articles,
+    finalize_audited_citations,
+    select_related_pubmed_excerpt,
 )
 
 logger = logging.getLogger(__name__)
@@ -73,6 +79,21 @@ def get_graph_service(request: Request) -> GraphService:
 
 def get_evidence_assessment_service(request: Request) -> EvidenceAssessmentService:
     return request.app.state.evidence_assessment_service
+
+
+def _pubmed_bounded_text(value: str, max_length: int) -> str:
+    """Keep PubMed text fields within their ChatSource schema bounds.
+
+    PubMed titles may exceed the file_name/source_title limits; the full
+    title is preserved in the ``title`` field, so truncating a display
+    label here must not fail the whole response.
+    """
+
+    normalized = value.strip()
+    if len(normalized) <= max_length:
+        return normalized
+    truncated = normalized[: max_length - 1].rstrip()
+    return f"{truncated}…"
 
 
 def get_pubmed_provider(request: Request) -> PubMedProvider | None:
@@ -211,11 +232,17 @@ async def _execute_chat(
 
         if request.app.state.settings.graph_rag_enabled:
             try:
-                graph_retrieval = await run_in_threadpool(
-                    graph_service.retrieve,
-                    route_decision.retrieval_query,
-                )
+                with timed_stage(logger, "graph_retrieval"):
+                    graph_retrieval = await run_in_threadpool(
+                        graph_service.retrieve,
+                        route_decision.retrieval_query,
+                    )
                 graph_status = str(graph_retrieval.trace.get("status", "unknown"))
+                logger.info(
+                    "GraphRAG trace_id=%s status=%s paths=%d sources=%d context_chars=%d",
+                    current_trace_id(), graph_status, len(graph_retrieval.paths),
+                    len(graph_retrieval.sources), len(graph_retrieval.context),
+                )
                 retrieval = fuse_retrieval_context(
                     retrieval,
                     graph_retrieval,
@@ -405,60 +432,62 @@ async def _execute_chat(
             )
         except Exception as exc:  # candidate capture must never fail the user answer
             logger.warning("KnowledgeGap 候选记录失败: %s", type(exc).__name__)
-    binding = bind_cited_sources(
-        analysis.answer,
-        analysis.source_ids,
-        retrieval.sources if retrieval is not None else [],
-        pubmed_articles,
+    local_candidates = assign_local_source_ids(
+        retrieval.sources if retrieval is not None and analysis.is_vaccine_related else []
     )
-    analysis.answer = binding.answer
-    display_rag_sources = binding.rag_sources
-    pubmed_articles = binding.pubmed_articles
-    internal_sources = (
-        [
-            ChatSource(
-                file_name=item.file_name,
-                page=item.page,
-                content=item.content,
+    pubmed_articles = deduplicate_pubmed_articles(pubmed_articles)
+    if analysis.source_ids is None:
+        finalized = FinalizedCitations(
+            answer=analysis.answer,
+            sources=tuple([*deduplicate_local_sources(local_candidates), *pubmed_articles])
+            if analysis.is_vaccine_related and not no_evidence_fallback else (),
+        )
+    else:
+        finalized = finalize_audited_citations(
+            CitationAuditResult(analysis.answer, tuple(analysis.source_ids)),
+            local_candidates,
+            pubmed_articles,
+        )
+    visible_evidence = list(finalized.sources)
+    response_sources: list[ChatSource] = []
+    for item in visible_evidence:
+        if isinstance(item, PubMedArticle):
+            selected = select_related_pubmed_excerpt(
+                route_decision.retrieval_query or payload.question, [item],
+            )
+            excerpt = selected[1] if selected is not None else None
+            response_sources.append(ChatSource(
+                file_name=_pubmed_bounded_text(
+                    item.title, 255,
+                ), page=None,
+                content=(excerpt or item.abstract[:1200] or item.title), source_type="pubmed",
+                source_title=_pubmed_bounded_text(
+                    item.title, 300,
+                ), source_url=item.url, title=item.title,
+                pmid=item.pmid, journal=item.journal or None,
+                year=item.publication_year, doi=item.doi, url=item.url,
+                snippet=(excerpt or item.abstract[:1200] or item.title),
+            ))
+        else:
+            response_sources.append(ChatSource(
+                file_name=item.file_name, page=item.page,
+                pages=list(item.pages) or None, content=item.content,
                 source_type=item.source_type if item.source_type != "pdf" else None,
-                source_title=item.source_title,
-                source_url=item.source_url,
+                source_title=item.source_title, source_url=item.source_url,
                 section=item.section,
-                pages=list(item.pages) if len(item.pages) > 1 else None,
-            )
-            for item in display_rag_sources
-        ]
-        if retrieval is not None and analysis.is_vaccine_related
-        else []
-    )
-    external_sources = (
-        [
-            ChatSource(
-                file_name=article.title,
-                page=None,
-                content=(article.abstract[:1200] or article.title),
-                source_type="pubmed",
-                source_title=article.title,
-                source_url=article.url,
-                title=article.title,
-                pmid=article.pmid,
-                journal=article.journal or None,
-                year=article.publication_year,
-                doi=article.doi,
-                url=article.url,
-                snippet=(article.abstract[:1200] or article.title),
-            )
-            for article in pubmed_articles
-        ]
-        if analysis.is_vaccine_related
-        else []
+            ))
+    logger.info(
+        "Chat sources trace_id=%s returned_total=%d returned_pubmed=%d",
+        current_trace_id(),
+        len(response_sources),
+        sum(item.source_type == "pubmed" for item in response_sources),
     )
     return ChatResponse(
-        answer=analysis.answer,
+        answer=finalized.answer,
         model=request.app.state.settings.qwen_model,
         is_vaccine_related=analysis.is_vaccine_related,
         session_id=analysis.session_id,
-        sources=[*internal_sources, *external_sources],
+        sources=response_sources,
     )
 
 

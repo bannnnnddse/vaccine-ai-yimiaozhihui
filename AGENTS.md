@@ -65,7 +65,11 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 - 自由问答只使用最近 8 条已完成文本作为 history；前端遇到 session 409 只清 session 后重试一次，不能丢弃 history
 - RAG 事实回答必须基于当轮独立 V2 检索；主回答不得将改写 query 或 history 当作医学证据
 - EvidenceAssessment 仅评估 Vector Top-K；partial/insufficient/conflict 或显式最新研究最多进入两轮受限 PubMed loop
+- PubMed 默认使用 NCBI E-utilities Direct：lifespan 复用共享 HTTP 客户端，ESearch 获取 PMID 后批量 EFetch 读取摘要；MCP 仅为显式配置的兼容提供方。`PUBMED_TIMEOUT_SECONDS=0` 关闭应用/HTTP 硬超时，正数仍以秒设置；上游或代理自身超时不受此配置控制。无 API key 时请求间隔至少 0.34 秒，有 key 时至少 0.11 秒。
+- GraphRAG 保留完整 Vector RAG 前置流程与安全回退；`graph_retrieval` 阶段日志记录图检索耗时，另记录同一 trace ID 下的状态、路径数、来源数和上下文长度，不记录正文、密钥或私密代理信息。
 - `sources` 只能来自当轮本地检索或外部 PubMed；PDF 页码为 1-based；无证据时为 `[]`
+- 引用修订只读取当轮候选证据，原回答不作为证据传入；兼容自然中文正文与合法 JSON，格式非法时按相同证据重新生成一次。来源按正文机器标记首次出现顺序绑定，丢弃未知 ID，合并同文献来源与 PDF 页码；前端先校验 unknown 响应再使用。
+- PubMed 默认候选 5、工具轮数 2、重试 1；先生成回答再以轻量模型修订（store=false），session_id 沿用主回答 response ID。
 - 证据不足且 PubMed 无结果时返回受限初步科普，不捏造剂次、年龄、禁忌或来源；网络超时才返回 504
 
 ### 知识治理与图谱
@@ -79,7 +83,9 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 - 正式图解 API 固定为 `POST /api/v1/image-jobs`、`GET /api/v1/image-jobs/{id}`、`DELETE` 取消；不得新增旧 `/knowledge-image` 调用
 - 实际任务阶段为 `preparing_content`、`generating_illustration`、`completed`、`failed`、`cancelled`
-- 图解创建、轮询、编辑与接受必须使用 request token、job ID 和 AbortController；切换、取消、卸载时清理 timer、poll、listener、observer、GSAP 和请求
+- 最近对话保存 7 天；同一 conversation ID 的消息分别记录 mode，问答/图解切换保留会话续接 ID 和业务请求，只清理视图动画；首条有效提交才创建记录。旧记录缺少消息 mode 时沿用记录原 mode，不合并不同 ID。
+- 图解创建、轮询、编辑与接受必须使用 request token、job ID 和 AbortController；新对话/历史切换、取消、卸载时对称清理资源，迟到结果不能写入其他会话。
+- 停止图解先显示 cancelling，后端确认后才显示 cancelled；失败、10 秒超时、创建中断或刷新保留未确认说明。结果按原 conversation ID 写回，不能复活已删除记录；首次请求失败时将 pending 标题降级为 fallback。
 - `CELL_IP_ENABLED` 仅表示固定细胞 IP 能力可用，不能覆盖普通科学图解默认的 `scientific_diagram` profile
 
 ## 🧪 质量、仓库与发布规则
@@ -100,6 +106,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 ```powershell
 cd frontend
 pnpm test
+pnpm typecheck
 pnpm build
 
 cd ..\backend

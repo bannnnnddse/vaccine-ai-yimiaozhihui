@@ -203,6 +203,34 @@
   line-height: 1.5;
 }
 
+.workspace-new-conversation {
+  flex: none;
+  width: 100%;
+  min-height: 44px;
+  margin-top: 16px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  border: 1px solid color-mix(in srgb, var(--clinical-accent) 18%, var(--clinical-bg-rail));
+  border-radius: var(--clinical-radius);
+  background: color-mix(in srgb, var(--clinical-accent) 14%, var(--clinical-bg-rail));
+  color: var(--clinical-fg);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 550;
+  cursor: pointer;
+  transition: background-color .16s ease;
+}
+.workspace-new-conversation svg { width: 18px; height: 18px; flex: none; }
+.workspace-new-conversation:hover { background: color-mix(in srgb, var(--clinical-accent) 22%, var(--clinical-bg-rail)); }
+.workspace-new-conversation:active { background: color-mix(in srgb, var(--clinical-accent) 30%, var(--clinical-bg-rail)); }
+.workspace-new-conversation:focus-visible { outline: 2px solid var(--clinical-accent-strong); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  .workspace-new-conversation { transition: none; }
+}
+
 .workspace-nav__button {
   width: 100%;
   min-height: 48px;
@@ -308,6 +336,7 @@
 .clinical-workspace .chat-message__content { max-width: 82%; padding: 12px 16px; border-radius: var(--clinical-radius); font-size: 14px; line-height: 1.72; box-shadow: none; }
 .clinical-workspace .chat-message--assistant .chat-message__content { border: 1px solid var(--clinical-border); border-bottom-left-radius: var(--clinical-radius); background: color-mix(in srgb, var(--clinical-bg) 92%, var(--clinical-border)); }
 .clinical-workspace .chat-message--user .chat-message__content { color: var(--clinical-bg); border-bottom-right-radius: var(--clinical-radius); background: var(--clinical-surface); box-shadow: none; }
+.clinical-workspace .chat-message--image-status .image-status--compact { flex-direction: column; align-items: stretch; }
 .clinical-workspace .thinking-bubble { border: 1px solid var(--clinical-border); border-radius: var(--clinical-radius); background: color-mix(in srgb, var(--clinical-bg) 92%, var(--clinical-border)); box-shadow: none; }
 
 .clinical-workspace .suggestions {
@@ -622,6 +651,8 @@
   .workspace-nav__arrow { display: none; }
   .workspace-nav__button { justify-content: center; padding: 0; }
   .workspace-recent { display: none; }
+  .workspace-new-conversation { margin-top: auto; padding-inline: 0; }
+  .workspace-new-conversation span { display: none; }
 }
 
 @media (max-width: 920px) {
@@ -653,6 +684,9 @@
   .clinical-mobile-header button,
   .clinical-mobile-header .admin-entry-link { position: static; width: auto; min-width: 44px; height: 44px; padding: 0 9px; border: 0; border-radius: var(--clinical-radius); color: var(--clinical-fg); background: transparent; box-shadow: none; font-size: 12px; font-weight: 510; text-decoration: none; }
   .clinical-mobile-header .admin-entry-link:hover { transform: none; background: color-mix(in srgb, var(--clinical-border) 48%, transparent); box-shadow: none; }
+  .clinical-mobile-header .workspace-new-conversation { margin: 0; width: auto; background: color-mix(in srgb, var(--clinical-accent) 14%, var(--clinical-bg-rail)); }
+  .clinical-mobile-header .workspace-new-conversation:hover { background: color-mix(in srgb, var(--clinical-accent) 22%, var(--clinical-bg-rail)); }
+  .clinical-mobile-header .workspace-new-conversation:active { background: color-mix(in srgb, var(--clinical-accent) 30%, var(--clinical-bg-rail)); }
   .clinical-mobile-nav {
     position: absolute;
     inset: auto 0 0;

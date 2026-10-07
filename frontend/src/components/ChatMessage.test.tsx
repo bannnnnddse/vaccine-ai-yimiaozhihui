@@ -34,6 +34,17 @@ describe("ChatMessage text formatting", () => {
 });
 
 describe("ChatMessage image states", () => {
+  it("shows stopping explicitly even when a generation trace already exists", () => {
+    const message: ImageStatusChatMessage = {
+      id: "stopping", role: "assistant", kind: "image-status", prompt: "疫苗机制",
+      jobId: "job-1", requestToken: "request-1", stage: "cancelling", error: "正在停止本次图片生成…",
+      traceEvents: [{ id: "trace-1", stage: "generation", title: "正在生成", status: "running", createdAt: "2026-09-30T00:00:00Z" }],
+    };
+    const markup = renderToStaticMarkup(<ChatMessage message={message} />);
+    expect(markup).toContain("正在停止本次图片生成");
+    expect(markup).not.toContain("已停止本次");
+  });
+
   it("renders a quiet process trace for an active image job", () => {
     const message: ImageStatusChatMessage = {
       id: "status-1", role: "assistant", kind: "image-status", prompt: "水痘发病机制",

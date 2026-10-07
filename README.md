@@ -39,7 +39,7 @@ flowchart TB
     bm25 --> rrf
     rrf --> assess{证据充分或存在冲突?}
 
-    assess -->|不足或需最新研究| pubmed[受限 PubMed MCP 检索<br/>最多两轮工具循环]
+    assess -->|不足或需最新研究| pubmed[受限 PubMed NCBI 直连检索<br/>最多两轮工具循环]
     assess -->|充分| pack[形成当轮可信证据包]
     pubmed --> pack
     pack --> answer[Qwen 受证据约束生成回答]
@@ -54,6 +54,7 @@ flowchart TB
 - 主回答只能基于**当轮独立 V2 检索**，改写 query 与历史消息不得充当医学证据；
 - `sources` 只能来自当轮本地检索或外部 PubMed，PDF 页码为 1-based，无证据时返回空数组；
 - 证据不足且 PubMed 无结果时返回受限初步科普，不捏造剂次、年龄、禁忌或来源。
+- PubMed 默认复用共享 HTTP 客户端，通过 NCBI ESearch → 批量 EFetch 获取文献与摘要；`PUBMED_TIMEOUT_SECONDS=0` 关闭应用及 HTTP 硬超时，MCP 保留为显式配置的兼容提供方。GraphRAG 日志记录 `graph_retrieval` 耗时、状态、路径数、来源数和上下文长度。生产历史探测与部署记录见 [2026-10-07 部署记录](docs/reports/pubmed-direct-deployment-2026-10-07.md)，不作为本展示项目的性能或医学准确率验收。
 
 ### 2. 图解闭环（科学 brief → Wan 生成 → 视觉审查 → 局部编辑）
 
@@ -122,7 +123,9 @@ flowchart LR
 
 ### 5. 前端体验闭环（React 状态与服务层 → 异常/取消处理 → 人工验收）
 
-所有网络代码收敛在 `frontend/src/services/`；图解任务使用 request token + job ID + AbortController，切换、取消、卸载时对称清理 timer、轮询、监听、observer、GSAP 与请求；同步维护键盘可达、移动端、reduced-motion 等可访问性要求。
+所有网络代码收敛在 `frontend/src/services/`，先校验 unknown 响应；问答累积显示处理步骤，桌面和移动端均提供新对话入口。最近对话保存 7 天，消息分别记录问答/图解 mode；切换模式保留同一会话续接与业务请求，新对话/历史切换、取消、卸载时对称清理资源，迟到结果不能串写。
+
+图解停止先显示“正在停止”，只有后端确认后才显示已停止；请求失败、10 秒超时或刷新保留停止结果未确认的说明，并写回原会话。来源按实际引用顺序编号，同文献去重并保留 PDF 多页；引用修订不把原回答当证据，格式异常按相同候选重生成一次。PubMed 使用既有工具编排与轻量模型引用修订流程。
 
 ---
 
@@ -225,6 +228,8 @@ X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank �
 冻结 benchmark 内的 66.9% baseline 与 +14.6 percentage points 提升只用于该 1000 条同集、同 gold、同指标定义的严格比较。
 
 ## 七、质量基线
+
+2026-10-08 本地回归：后端 454 项测试、前端 377 项测试（59 个文件）通过；ruff、TypeScript 类型检查、生产构建和源码部署预检通过。
 
 - 后端：428 项 `pytest` 通过（2 个第三方 deprecation warnings）；`ruff check app tests` 通过
 - 前端：59 个测试文件、348 项测试通过；`pnpm build` 通过

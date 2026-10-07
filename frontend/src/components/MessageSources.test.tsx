@@ -22,14 +22,13 @@ describe("MessageSources", () => {
     expect(renderToStaticMarkup(<MessageSources sources={[]} />)).toBe("");
   });
 
-  it("renders merged page numbers as one source", () => {
+  it("renders multiple PDF pages as one source", () => {
     const html = renderToStaticMarkup(<MessageSources sources={[{
-      fileName: "接种规范.pdf",
+      fileName: "联合指南.pdf",
       page: 3,
       pages: [3, 7],
-      content: "两个页面的合并片段",
+      content: "合并后的证据",
     }]} />);
-
     expect(html).toContain("参考来源 1");
     expect(html).toContain("第3、7页");
   });

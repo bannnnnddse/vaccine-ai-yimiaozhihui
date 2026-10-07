@@ -1,4 +1,4 @@
-:root { --paper: #f3f0e8; --paper-deep: #e8e2d5; --admin-page-background: #f5f5f7; --ledger: #17251f; --ink-admin: #18211d; --quiet: #6f746e; --rule: #cbc5b7; --signal: #c7472f; --moss: #486a57; --gold: #b88a3d; }
+:root { --paper: #f3f0e8; --paper-deep: #e8e2d5; --admin-page-background: #e8f2fa; --ledger: #17251f; --ink-admin: #18211d; --quiet: #6f746e; --rule: #cbc5b7; --signal: #c7472f; --moss: #486a57; --gold: #b88a3d; }
 .admin-boot, .admin-login, .review-shell { min-height: 100dvh; color: var(--ink-admin); background: var(--admin-page-background); font-family: "Microsoft YaHei", "PingFang SC", sans-serif; }
 .admin-boot { display: grid; place-items: center; letter-spacing: .12em; }
 .admin-kicker { color: var(--signal); font-size: 11px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }

@@ -163,3 +163,19 @@ async def test_direct_provider_rejects_malformed_fetch_xml() -> None:
         provider = DirectPubMedProvider(client, retries=0, request_interval_seconds=0)
         with pytest.raises(PubMedMalformedResponseError):
             await provider.fetch_articles(["123"])
+
+
+@pytest.mark.asyncio
+async def test_zero_timeout_overrides_http_client_deadline() -> None:
+    deadlines = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        deadlines.append(request.extensions["timeout"])
+        return httpx.Response(200, json={"esearchresult": {"idlist": []}})
+
+    async with httpx.AsyncClient(
+        transport=httpx.MockTransport(handler), timeout=0.001,
+    ) as client:
+        provider = DirectPubMedProvider(client, timeout_seconds=0, retries=0)
+        assert await provider.search_articles("HPV vaccine") == []
+    assert deadlines == [{"connect": None, "read": None, "write": None, "pool": None}]

@@ -35,7 +35,14 @@ export function loadConversations(now = Date.now()): StoredConversation[] {
     if (!isRecord(parsed) || parsed.version !== CONVERSATION_HISTORY_VERSION || !Array.isArray(parsed.conversations)) {
       return [];
     }
-    const valid = parsed.conversations.filter(isStoredConversation);
+    // Legacy records keep their own identity and mode; unrelated records are never merged.
+    const valid = parsed.conversations.filter(isStoredConversation).map((conversation) => ({
+      ...conversation,
+      messages: conversation.messages.map((message) => ({
+        ...message,
+        mode: message.mode ?? (message.kind === "text" ? conversation.mode : "illustration"),
+      })),
+    }));
     const active = sortConversations(valid.filter((conversation) => now - conversation.updatedAt < CONVERSATION_HISTORY_RETENTION_MS));
     if (active.length !== parsed.conversations.length) writeConversations(active, storage);
     return active;
@@ -118,7 +125,8 @@ function isStoredConversation(value: unknown): value is StoredConversation {
 function isChatMessage(value: unknown): value is ChatMessageData {
   if (!isRecord(value)
     || typeof value.id !== "string" || !value.id.trim()
-    || !["user", "assistant"].includes(String(value.role))) return false;
+    || !["user", "assistant"].includes(String(value.role))
+    || (value.mode !== undefined && value.mode !== "chat" && value.mode !== "illustration")) return false;
 
   if (value.kind === "text") {
     return typeof value.content === "string"

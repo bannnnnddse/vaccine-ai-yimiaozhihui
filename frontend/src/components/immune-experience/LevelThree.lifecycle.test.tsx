@@ -21,7 +21,7 @@ class TestNode {
   }
 
   get firstChild() { return this.childNodes[0] ?? null; }
-  get lastChild() { return this.childNodes.at(-1) ?? null; }
+  get lastChild(): TestNode | null { return this.childNodes.at(-1) ?? null; }
   get textContent(): string { return this.childNodes.map((child) => child.textContent).join(""); }
   set textContent(value: string) {
     this.childNodes = value ? [this.ownerDocument.createTextNode(value)] : [];

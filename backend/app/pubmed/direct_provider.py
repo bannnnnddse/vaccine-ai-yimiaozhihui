@@ -1,4 +1,5 @@
 import asyncio
+import logging
 import time
 from collections.abc import Mapping
 from xml.etree.ElementTree import Element
@@ -7,6 +8,7 @@ import httpx
 from defusedxml import ElementTree
 from pydantic import ValidationError
 
+from app.core.observability import timed_stage
 from app.pubmed.models import PubMedArticle
 from app.pubmed.provider import (
     PubMedMalformedResponseError,
@@ -18,6 +20,8 @@ from app.pubmed.provider import (
 )
 
 _EUTILS_BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+
+logger = logging.getLogger(__name__)
 
 
 class DirectPubMedProvider(PubMedProvider):
@@ -37,8 +41,8 @@ class DirectPubMedProvider(PubMedProvider):
         request_interval_seconds: float | None = None,
     ) -> None:
         super().__init__(max_results=max_results, max_query_length=max_query_length)
-        if timeout_seconds <= 0:
-            raise ValueError("NCBI timeout must be positive")
+        if timeout_seconds < 0:
+            raise ValueError("NCBI timeout cannot be negative")
         if not 0 <= retries <= 3:
             raise ValueError("NCBI retries must be between 0 and 3")
         normalized_tool = tool.strip()
@@ -117,10 +121,19 @@ class DirectPubMedProvider(PubMedProvider):
         for attempt in range(self._retries + 1):
             try:
                 await self._respect_rate_limit()
-                response = await asyncio.wait_for(
-                    self._client.get(f"{_EUTILS_BASE_URL}/{endpoint}", params=request_params),
-                    timeout=self._timeout_seconds,
-                )
+                with timed_stage(
+                    logger,
+                    "pubmed_direct_http",
+                    endpoint=endpoint,
+                    attempt=attempt + 1,
+                ):
+                    response = await asyncio.wait_for(
+                        self._client.get(
+                            f"{_EUTILS_BASE_URL}/{endpoint}", params=request_params,
+                            timeout=self._timeout_seconds or None,
+                        ),
+                        timeout=self._timeout_seconds or None,
+                    )
                 if response.status_code == 429:
                     raise PubMedRateLimitError("NCBI E-utilities rate limit exceeded")
                 if response.status_code >= 500:
@@ -138,6 +151,12 @@ class DirectPubMedProvider(PubMedProvider):
                 last_error = PubMedUnavailableError("NCBI E-utilities request failed")
                 last_error.__cause__ = exc
             if attempt < self._retries:
+                logger.warning(
+                    "PubMed Direct retry endpoint=%s attempt=%d error_type=%s",
+                    endpoint,
+                    attempt + 1,
+                    type(last_error).__name__,
+                )
                 await asyncio.sleep(0)
         if last_error is None:  # pragma: no cover
             raise PubMedUnavailableError("NCBI E-utilities request failed")

@@ -4,40 +4,15 @@ export interface GenerationRequest {
   outputType?: "academic" | "poster" | "interactive" | "video";
 }
 
-interface ChatApiResponse {
-  answer: unknown;
-  is_vaccine_related: unknown;
-  session_id: unknown;
-  sources: unknown;
-}
-
-interface ChatSourceApiResponse {
-  file_name: unknown;
-  page: unknown;
-  content: unknown;
-  source_type?: unknown;
-  source_title?: unknown;
-  source_url?: unknown;
-  section?: unknown;
-  pages?: unknown;
-  title?: unknown;
-  pmid?: unknown;
-  journal?: unknown;
-  year?: unknown;
-  doi?: unknown;
-  url?: unknown;
-  snippet?: unknown;
-}
-
 export interface KnowledgeSource {
   fileName: string;
   page: number | null;
+  pages?: number[];
   content: string;
   sourceType?: "pdf" | "web" | "pubmed" | "curated";
   sourceTitle?: string;
   sourceUrl?: string;
   section?: string;
-  pages?: number[];
   pmid?: string;
   journal?: string;
   year?: number;
@@ -267,23 +242,8 @@ export async function generateChatAnswer(
     );
   }
 
-  const data = await response.json() as ChatApiResponse;
-  if (typeof data.answer !== "string" || !data.answer.trim()) {
-    throw new Error("AI service returned an empty answer");
-  }
-  if (typeof data.is_vaccine_related !== "boolean") {
-    throw new Error("AI service returned an invalid vaccine-related flag");
-  }
-  if (typeof data.session_id !== "string" || !data.session_id.trim()) {
-    throw new Error("AI service returned an invalid session ID");
-  }
-
-  return {
-    answer: data.answer,
-    isVaccineRelated: data.is_vaccine_related,
-    sessionId: data.session_id,
-    sources: parseKnowledgeSources(data.sources),
-  };
+  const data: unknown = await response.json();
+  return parseChatAnswer(data);
 }
 
 export async function generateChatAnswerStream(
@@ -385,8 +345,15 @@ async function readChatStream(
   throw new Error("AI service ended before returning an answer");
 }
 
+function isChatResponseObject(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
 function parseChatAnswer(data: unknown): ChatAnswerResult {
-  const value = data as ChatApiResponse;
+  if (!isChatResponseObject(data)) {
+    throw new Error("AI service returned an invalid answer response");
+  }
+  const value = data;
   if (typeof value.answer !== "string" || !value.answer.trim()) {
     throw new Error("AI service returned an empty answer");
   }
@@ -409,18 +376,25 @@ function parseKnowledgeSources(value: unknown): KnowledgeSource[] {
     throw new Error("AI service returned an invalid source list");
   }
   return value.map((item) => {
-    const source = item as ChatSourceApiResponse;
+    if (!isChatResponseObject(item)) {
+      throw new Error("AI service returned an invalid source");
+    }
+    const source = item;
     const sourceType = source.source_type === undefined ? "pdf" : source.source_type;
     const isPdf = sourceType === "pdf";
     const isWeb = sourceType === "web";
     const isPubMed = sourceType === "pubmed";
     const isCurated = sourceType === "curated";
     const hasValidPage = typeof source.page === "number" && Number.isInteger(source.page) && source.page >= 1;
-    const hasValidPages = source.pages === undefined || (
-      Array.isArray(source.pages)
-      && source.pages.length >= 2
-      && source.pages.every((page) => typeof page === "number" && Number.isInteger(page) && page >= 1)
-    );
+    const validPages = Array.isArray(source.pages)
+      ? source.pages.filter((page: unknown): page is number =>
+        typeof page === "number" && Number.isInteger(page) && page >= 1)
+      : [];
+    const allPagesValid = Array.isArray(source.pages) && validPages.length === source.pages.length;
+    const normalizedPages = allPagesValid
+      ? [...new Set(validPages)].sort((a, b) => a - b)
+      : [];
+    const hasValidPages = source.pages === undefined || (allPagesValid && normalizedPages.length >= 2);
     const hasNoPage = source.page === null || source.page === undefined;
     const hasValidWebUrl = typeof source.source_url === "string" && isHttpUrl(source.source_url);
     const hasValidPubMedFields = (
@@ -434,9 +408,10 @@ function parseKnowledgeSources(value: unknown): KnowledgeSource[] {
       || typeof source.content !== "string" || !source.content.trim()
       || (!isPdf && !isWeb && !isPubMed && !isCurated)
       || (isPdf && !hasValidPage)
+      || (isPdf && !hasValidPages)
+      || (!isPdf && source.pages !== undefined)
       || ((isWeb || isCurated) && (!hasNoPage || !hasValidWebUrl))
       || (isPubMed && (!hasNoPage || !hasValidPubMedFields))
-      || !hasValidPages
       || (source.source_title !== undefined && typeof source.source_title !== "string")
       || (source.section !== undefined && typeof source.section !== "string")
       || (source.journal !== undefined && typeof source.journal !== "string")
@@ -450,6 +425,7 @@ function parseKnowledgeSources(value: unknown): KnowledgeSource[] {
       page: isPdf ? source.page as number : null,
       content: source.content,
     };
+    if (normalizedPages.length >= 2) result.pages = normalizedPages;
     if (source.source_type !== undefined || isWeb || isPubMed) result.sourceType = sourceType;
     if (typeof source.source_title === "string" && source.source_title.trim()) {
       result.sourceTitle = source.source_title;
@@ -464,7 +440,6 @@ function parseKnowledgeSources(value: unknown): KnowledgeSource[] {
       if (typeof source.doi === "string" && source.doi.trim()) result.doi = source.doi;
     }
     if (typeof source.section === "string" && source.section.trim()) result.section = source.section;
-    if (Array.isArray(source.pages)) result.pages = [...new Set(source.pages as number[])].sort((a, b) => a - b);
     return result;
   });
 }
@@ -700,15 +675,21 @@ export async function getImageJob(jobId: string, signal: AbortSignal): Promise<I
   return parseImageJobResponse(response);
 }
 
-export async function cancelImageJob(jobId: string): Promise<void> {
+export async function cancelImageJob(jobId: string, signal?: AbortSignal): Promise<void> {
   const response = await fetch(`/api/v1/image-jobs/${encodeURIComponent(jobId)}`, {
     method: "DELETE",
+    ...(signal ? { signal } : {}),
   });
   if (!response.ok) {
     throw new ImageJobRequestError(
       await getImageJobErrorMessage(response),
       response.status,
     );
+  }
+  const confirmation: unknown = await response.json().catch(() => null);
+  if (response.status !== 200 || !confirmation || typeof confirmation !== "object"
+    || !("detail" in confirmation) || confirmation.detail !== "任务已取消。") {
+    throw new ImageJobRequestError("未收到明确的停止确认，停止结果未知。", response.status);
   }
 }
 

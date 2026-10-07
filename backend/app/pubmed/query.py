@@ -22,3 +22,28 @@ def extract_named_identifiers(query: str) -> list[str]:
 def build_identifier_query(query: str) -> str | None:
     identifiers = extract_named_identifiers(query)
     return " ".join(identifiers) if identifiers else None
+
+
+def is_current_illness_vaccination_question(question: str) -> bool:
+    """Identify vaccination eligibility during a stated current illness."""
+
+    original = question.splitlines()[0].replace(" ", "") if question else ""
+    return (
+        any(term in original for term in ("目前", "现在", "正在", "患", "得了", "感染"))
+        and any(term in original for term in ("甲流", "乙流", "流感", "生病", "患病", "感染"))
+        and any(term in original for term in ("疫苗", "接种", "预防针"))
+        and any(
+            term in original
+            for term in (
+                "可以吗",
+                "能否",
+                "能打",
+                "可以打",
+                "能接种",
+                "可以接种",
+                "可否接种",
+                "适合接种",
+            )
+        )
+        and not any(term in original for term in ("接种后", "打完疫苗", "打了疫苗后"))
+    )

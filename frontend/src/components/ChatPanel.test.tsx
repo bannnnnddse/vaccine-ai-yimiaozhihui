@@ -6,7 +6,7 @@ const baseProps = {
   input: "",
   isAnswering: false,
   isTypingAnswer: false,
-  chatProgress: null,
+  chatProcessSteps: [],
   selectedQuestionId: "",
   mode: "chat" as const,
   onInputChange: vi.fn(),
@@ -41,5 +41,27 @@ describe("ChatPanel", () => {
     );
 
     expect(markup).not.toContain("可以从这些问题开始");
+  });
+
+  it("renders accumulated process steps with completed and active states", () => {
+    const markup = renderToStaticMarkup(
+      <ChatPanel
+        {...baseProps}
+        messages={[]}
+        isAnswering
+        chatProcessSteps={[
+          { id: "rewrite", activeText: "正在分析并改写科学问题…", completedText: "问题理解与改写完成", status: "completed" },
+          { id: "retrieval", activeText: "正在检索知识库证据…", completedText: "知识库证据检索完成", status: "active" },
+        ]}
+      />,
+    );
+
+    expect(markup).toContain("thinking-bubble--process");
+    expect(markup).toContain("问题理解与改写完成");
+    expect(markup).toContain("正在检索知识库证据…");
+    expect(markup).toContain("thinking-step__check");
+    expect(markup).toContain("thinking-step--completed");
+    expect(markup).toContain("thinking-step--active");
+    expect(markup).toContain("thinking-step__dots");
   });
 });

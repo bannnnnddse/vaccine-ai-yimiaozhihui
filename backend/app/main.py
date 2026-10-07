@@ -107,7 +107,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         app.state.graph_job_repository = GraphJobRepository(app_settings.app_database_path)
         if app_settings.pubmed_enabled and app_settings.pubmed_provider == "direct":
             pubmed_http_client = httpx.AsyncClient(
-                timeout=app_settings.pubmed_timeout_seconds,
+                timeout=app_settings.pubmed_timeout_seconds or None,
                 follow_redirects=True,
                 trust_env=False,
                 proxy=app_settings.pubmed_proxy_url,

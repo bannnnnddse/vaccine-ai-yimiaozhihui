@@ -72,4 +72,29 @@ describe("conversation history repository", () => {
     expect(fallbackConversationTitle("  我今年17岁，\n是男生，请问现在还能不能接种九价HPV疫苗？  "))
       .toBe("我今年17岁， 是男生，请问现在还能不能接种九…");
   });
+
+  it("normalizes legacy mode ownership without merging unrelated conversations", () => {
+    const chat = conversation("legacy-chat", now);
+    const illustration = { ...conversation("legacy-image", now), mode: "illustration" };
+    storage.set(CONVERSATION_HISTORY_STORAGE_KEY, JSON.stringify({ version: 1, conversations: [chat, illustration] }));
+    const restored = loadConversations(now);
+    expect(restored).toHaveLength(2);
+    expect(restored.find((record) => record.id === chat.id)?.messages[0].mode).toBe("chat");
+    expect(restored.find((record) => record.id === illustration.id)?.messages[0].mode).toBe("illustration");
+  });
+
+  it("round trips both modes under one ID and rejects invalid message modes", () => {
+    const unified = conversation("unified", now);
+    unified.messages = [
+      { id: "chat", role: "user", kind: "text", content: "问答", mode: "chat" },
+      { id: "image", role: "user", kind: "text", content: "图解", mode: "illustration" },
+    ];
+    persistConversations([unified], now);
+    expect(loadConversations(now)[0].messages).toEqual(unified.messages);
+    storage.set(CONVERSATION_HISTORY_STORAGE_KEY, JSON.stringify({ version: 1, conversations: [
+      unified,
+      { ...conversation("invalid", now), messages: [{ ...unified.messages[0], mode: "unknown" }] },
+    ] }));
+    expect(loadConversations(now).map((record) => record.id)).toEqual(["unified"]);
+  });
 });

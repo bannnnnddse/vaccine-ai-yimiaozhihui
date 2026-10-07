@@ -1,4 +1,5 @@
 import asyncio
+import logging
 import re
 from collections.abc import Mapping
 from typing import Any, Protocol
@@ -8,6 +9,7 @@ from mcp import ClientSession
 from mcp.client.streamable_http import streamable_http_client
 from pydantic import ValidationError
 
+from app.core.observability import timed_stage
 from app.pubmed.models import PubMedArticle
 from app.pubmed.provider import (
     PubMedMalformedResponseError,
@@ -21,6 +23,8 @@ from app.pubmed.provider import (
 SEARCH_TOOL = "pubmed_search_articles"
 FETCH_TOOL = "pubmed_fetch_articles"
 RELATED_TOOL = "pubmed_find_related"
+
+logger = logging.getLogger(__name__)
 
 
 class MCPToolClient(Protocol):
@@ -40,7 +44,7 @@ class StreamableHTTPMCPClient:
         self._proxy_url = proxy_url
 
     async def call_tool(self, name: str, arguments: dict[str, Any]) -> object:
-        timeout = httpx.Timeout(self._timeout_seconds)
+        timeout = httpx.Timeout(self._timeout_seconds or None)
         async with httpx.AsyncClient(
             timeout=timeout,
             trust_env=False,
@@ -49,8 +53,10 @@ class StreamableHTTPMCPClient:
             async with streamable_http_client(self._url, http_client=client) as streams:
                 read_stream, write_stream, _ = streams
                 async with ClientSession(read_stream, write_stream) as session:
-                    await session.initialize()
-                    return await session.call_tool(name, arguments=arguments)
+                    with timed_stage(logger, "pubmed_mcp_session", tool=name):
+                        await session.initialize()
+                    with timed_stage(logger, "pubmed_mcp_call", tool=name):
+                        return await session.call_tool(name, arguments=arguments)
 
 
 class MCPPubMedProvider(PubMedProvider):
@@ -66,8 +72,8 @@ class MCPPubMedProvider(PubMedProvider):
         max_query_length: int = 500,
     ) -> None:
         super().__init__(max_results=max_results, max_query_length=max_query_length)
-        if timeout_seconds <= 0:
-            raise ValueError("PubMed MCP timeout must be positive")
+        if timeout_seconds < 0:
+            raise ValueError("PubMed MCP timeout cannot be negative")
         if not 0 <= retries <= 3:
             raise ValueError("PubMed MCP retries must be between 0 and 3")
         self._client = client
@@ -144,7 +150,7 @@ class MCPPubMedProvider(PubMedProvider):
     async def _fetch_articles(self, pmids: list[str]) -> list[PubMedArticle]:
         data = await self._call_tool(
             FETCH_TOOL,
-            {"pmids": pmids, "includeMesh": True, "includeGrants": False},
+            {"pmids": pmids, "includeMesh": False, "includeGrants": False},
         )
         raw_articles = data.get("articles", [])
         if not isinstance(raw_articles, list):
@@ -193,7 +199,7 @@ class MCPPubMedProvider(PubMedProvider):
             try:
                 result = await asyncio.wait_for(
                     self._client.call_tool(name, arguments),
-                    timeout=self._timeout_seconds,
+                    timeout=self._timeout_seconds or None,
                 )
                 data = self._extract_structured_content(result)
                 return data
@@ -209,6 +215,12 @@ class MCPPubMedProvider(PubMedProvider):
             except Exception as exc:
                 last_error = self._map_external_error(exc)
             if attempt < self._retries:
+                logger.warning(
+                    "PubMed MCP retry tool=%s attempt=%d error_type=%s",
+                    name,
+                    attempt + 1,
+                    type(last_error).__name__,
+                )
                 await asyncio.sleep(0)
         if last_error is None:  # pragma: no cover - loop always executes
             raise PubMedUnavailableError("PubMed MCP request failed")

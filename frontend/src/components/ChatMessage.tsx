@@ -4,7 +4,7 @@ import { ImageReviewCard } from "./ImageReviewCard";
 import { ImageProcessTrace } from "./ImageProcessTrace";
 import { MessageSources } from "./MessageSources";
 
-interface ChatMessageBase { id: string; role: "user" | "assistant"; }
+interface ChatMessageBase { id: string; role: "user" | "assistant"; mode?: import("./ChatInput").ChatMode; }
 export type MessageKind = "text" | "image-status" | "image-result";
 export interface TextChatMessage extends ChatMessageBase { kind: "text"; content: string; isTyping?: boolean; sources?: KnowledgeSource[]; }
 export type ImageMessageStage = ImageJobStage | "submitting" | "cancelling";
@@ -19,10 +19,10 @@ const stageCaptions: Record<ImageMessageStage, string> = {
   critic_review_1: "AI 首次审核中…", auto_revising: "AI 自动修订中…", guard_check: "编辑范围保护检查中…",
   critic_review_2: "自动修订结果审核中…", awaiting_human_feedback: "等待你的修改建议",
   editing_with_bbox: "区域编辑中…", critic_review_final: "修改结果审核中…",
-  cancelling: "正在取消…",
+  cancelling: "正在停止…",
   completed: "图解生成完成",
   failed: "图解生成失败",
-  cancelled: "已取消本次图解生成",
+  cancelled: "已停止本次图解生成",
 };
 export function ChatMessage({ message, onImageError, onAcceptImage, onRestorePreviousImage, onEditImage, onImageTraceRevealComplete, onImageInteraction }: ChatMessageProps) {
   if (message.kind === "image-status") {
@@ -33,7 +33,7 @@ export function ChatMessage({ message, onImageError, onAcceptImage, onRestorePre
           <span className="chat-message__avatar" aria-hidden="true"><img src="/assets/chat-assistant-avatar.png" alt="" /></span>
           <div className="chat-message__content">
             <ImageProcessTrace events={traceEvents} live onRevealComplete={() => onImageTraceRevealComplete?.(message.id)} />
-            {traceEvents.length === 0 && <p className="image-process-fallback">{message.error || stageCaptions[message.stage]}</p>}
+            {(traceEvents.length === 0 || message.stage === "cancelling") && <p className="image-process-fallback">{message.error || stageCaptions[message.stage]}</p>}
           </div>
         </article>
       );

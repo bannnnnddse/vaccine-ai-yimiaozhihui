@@ -21,7 +21,7 @@ class TestNode {
   }
 
   get firstChild() { return this.childNodes[0] ?? null; }
-  get lastChild() { return this.childNodes.at(-1) ?? null; }
+  get lastChild(): TestNode | null { return this.childNodes.at(-1) ?? null; }
   get className() { return this.attributes.get("class") ?? ""; }
   set className(value: string) { this.attributes.set("class", value); }
   get textContent(): string { return this.childNodes.map((child) => child.textContent).join(""); }
@@ -264,6 +264,10 @@ function messages(container: TestNode) {
   return JSON.parse(findByTestId(container, "chat").getAttribute("data-messages") ?? "[]") as Array<Record<string, unknown>>;
 }
 
+function storedConversations(): Array<{ id: string; title: string; messages: Array<Record<string, unknown>>; sessionId: string | null }> {
+  return JSON.parse(window.localStorage.getItem("vaccine-ai.conversations.v1") ?? '{"conversations":[]}').conversations;
+}
+
 async function click(container: TestNode, testId: string) {
   await act(async () => { findByTestId(container, testId).dispatchEvent({ type: "click" }); });
 }
@@ -406,7 +410,7 @@ describe("App recent conversation lifecycle", () => {
     expect(findByTestId(container, "recent-conversation-list").textContent).toContain("HPV疫苗接种程序");
 
     await click(container, "recent-conversation-conversation-restored");
-    expect(messages(container)).toEqual(stored.conversations[0].messages);
+    expect(messages(container)).toEqual(stored.conversations[0].messages.map((message) => ({ ...message, mode: "chat", isTyping: false })));
 
     await click(container, "follow-up");
     await act(async () => { await vi.runAllTimersAsync(); });
@@ -596,7 +600,7 @@ describe("App illustration-job lifecycle", () => {
     ]));
   });
 
-  it("archives an illustration and starts a blank Q&A session when returning to chat", async () => {
+  it("keeps an illustration in the same conversation when returning to chat", async () => {
     await click(container, "flu-vaccine-demo");
 
     await click(container, "chat-mode");
@@ -805,9 +809,9 @@ describe("App illustration-job lifecycle", () => {
 
     await click(container, "submit");
     await click(container, "cancel");
-    expect(service.cancelImageJob).toHaveBeenCalledWith("job-3");
+    expect(service.cancelImageJob).toHaveBeenCalledWith("job-3", expect.any(AbortSignal));
     expect(messages(container)).toEqual(expect.arrayContaining([
-      expect.objectContaining({ stage: "cancelled", error: "已取消本次图片生成" }),
+      expect.objectContaining({ stage: "cancelled", error: "已停止本次图片生成" }),
     ]));
     await act(async () => { await vi.advanceTimersByTimeAsync(20_000); });
     expect(service.getImageJob).not.toHaveBeenCalled();
@@ -860,7 +864,7 @@ describe("App illustration-job lifecycle", () => {
       imageUrl: "/api/v1/generated-images/stale.png", imageId: "job-stale-v0", autoRevisionCount: 0,
     }));
     expect(messages(container)).toEqual(expect.arrayContaining([
-      expect.objectContaining({ stage: "cancelled", error: "已取消本次图片生成" }),
+      expect.objectContaining({ stage: "cancelled", error: "已停止本次图片生成" }),
     ]));
     expect(messages(container).some((message) => message.kind === "image-result")).toBe(false);
 
@@ -1022,7 +1026,7 @@ describe("App chat session lifecycle", () => {
     ]));
   });
 
-  it("clears the model session when entering illustration mode without recreating it on return", async () => {
+  it("retains the model session and messages across mode switches", async () => {
     await click(container, "custom-first");
     await settleAnswer();
     chatSession.writeChatSessionId.mockClear();
@@ -1031,7 +1035,11 @@ describe("App chat session lifecycle", () => {
     await click(container, "illustration");
     await click(container, "chat-mode");
 
-    expect(chatSession.clearChatSessionId).toHaveBeenCalledOnce();
+    expect(chatSession.clearChatSessionId).not.toHaveBeenCalled();
+    expect(messages(container)).toHaveLength(2);
+    await click(container, "custom-second");
+    await settleAnswer();
+    expect(service.generateChatAnswer).toHaveBeenLastCalledWith(expect.objectContaining({ sessionId: "new-session-id" }));
     expect(chatSession.writeChatSessionId).not.toHaveBeenCalled();
   });
 
@@ -1059,22 +1067,299 @@ describe("App chat session lifecycle", () => {
     ]));
   });
 
-  it("ignores a late custom answer after switching to illustration mode and back", async () => {
-    let resolveAnswer!: (result: { answer: string; isVaccineRelated: boolean; sessionId: string; sources: { fileName: string; page: number; content: string }[] }) => void;
-    let savedSessionId: string | null = "previous-session-id";
-    chatSession.writeChatSessionId.mockImplementation((sessionId: string) => { savedSessionId = sessionId; });
-    chatSession.clearChatSessionId.mockImplementation(() => { savedSessionId = null; });
-    service.generateChatAnswer.mockImplementationOnce(() => new Promise((resolve) => {
-      resolveAnswer = resolve;
-    }));
-
+  it("keeps a late answer after switching modes and preserves simultaneous image messages", async () => {
+    let resolveAnswer!: (result: unknown) => void;
+    service.generateChatAnswer.mockImplementationOnce(() => new Promise((resolve) => { resolveAnswer = resolve; }));
     await click(container, "custom-first");
     await click(container, "illustration");
+    await click(container, "flu-vaccine-demo");
+    await act(async () => { resolveAnswer({ answer: "迟到的回答", sessionId: "late-session-id", sources: [] }); });
+    await settleAnswer();
     await click(container, "chat-mode");
-    await act(async () => { resolveAnswer({ answer: "迟到的回答", isVaccineRelated: true, sessionId: "late-session-id", sources: [{ fileName: "迟到.pdf", page: 1, content: "迟到片段" }] }); });
+    expect(messages(container)).toEqual(expect.arrayContaining([
+      expect.objectContaining({ content: "自定义问题一" }),
+      expect.objectContaining({ content: "迟到的回答" }),
+    ]));
+    await click(container, "illustration");
+    expect(messages(container)).toEqual(expect.arrayContaining([expect.objectContaining({ kind: "image-result" })]));
+    const records = storedConversations();
+    expect(records).toHaveLength(1);
+    expect(records[0].messages).toHaveLength(4);
+    expect(service.generateConversationTitle).toHaveBeenCalledOnce();
+  });});
 
-    expect(savedSessionId).toBeNull();
-    expect(chatSession.writeChatSessionId).not.toHaveBeenCalled();
+describe("App unified conversations", () => {
+  let root: Root;
+  let container: TestNode;
+
+  const mount = async () => {
+    container = (globalThis.document as unknown as TestDocument).createElement("div");
+    document.body.appendChild(container as unknown as Node);
+    root = createRoot(container as unknown as Element);
+    await act(async () => root.render(<StrictMode><App /></StrictMode>));
+  };
+  const settle = async () => { await act(async () => { await vi.advanceTimersByTimeAsync(500); }); };
+  const image = (jobId = "unified-image") => ({
+    jobId, stage: "completed", imageId: `${jobId}-v0`,
+    imageUrl: `/api/v1/generated-images/${jobId}-v0.png`, autoRevisionCount: 0, traceEvents: [],
+  });
+
+  beforeEach(async () => {
+    vi.useFakeTimers();
+    Object.values(service).forEach((mock) => { if (vi.isMockFunction(mock)) mock.mockReset(); });
+    service.generateChatAnswer.mockResolvedValue({ answer: "统一对话回答", sessionId: "unified-response", sources: [] });
+    service.generateConversationTitle.mockResolvedValue("统一对话标题");
+    service.createImageJob.mockResolvedValue(image());
+    service.cancelImageJob.mockResolvedValue(undefined);
+    installDom();
+    await mount();
+  });
+  afterEach(async () => { await act(async () => root.unmount()); vi.useRealTimers(); });
+
+  it("keeps repeated new-conversation clicks and blank mode switches as an unrecorded draft", async () => {
+    for (let count = 0; count < 3; count++) await click(container, "new-conversation");
+    await click(container, "illustration");
+    await click(container, "chat-mode");
+    await settle();
+    expect(storedConversations()).toEqual([]);
+    expect(service.generateConversationTitle).not.toHaveBeenCalled();
+    await click(container, "custom-first");
+    await settle();
+    expect(storedConversations()).toHaveLength(1);
+  });
+
+  it("shares one ID and title, restores both mode views after navigation and refresh, and excludes image prompts from model history", async () => {
+    await click(container, "custom-first");
+    await settle();
+    const id = storedConversations()[0].id;
+    await click(container, "illustration");
+    expect(messages(container)).toEqual([]);
+    await click(container, "submit");
+    await settle();
+    expect(storedConversations()).toHaveLength(1);
+    expect(storedConversations()[0].id).toBe(id);
+    expect(messages(container)).toHaveLength(2);
+    await click(container, "chat-mode");
+    expect(messages(container)).toHaveLength(2);
+    await click(container, "custom-second");
+    await settle();
+    expect(service.generateChatAnswer).toHaveBeenLastCalledWith(expect.objectContaining({
+      sessionId: "unified-response",
+      history: [{ role: "user", content: "自定义问题一" }, { role: "assistant", content: "统一对话回答" }],
+    }));
+    expect(service.generateConversationTitle).toHaveBeenCalledOnce();
+    await click(container, "new-conversation");
+    expect(messages(container)).toEqual([]);
+    await click(container, "illustration");
+    expect(messages(container)).toEqual([]);
+    await click(container, "custom-second");
+    await settle();
+    expect(storedConversations()).toHaveLength(2);
+    await click(container, `recent-conversation-${id}`);
+    await click(container, "chat-mode");
+    expect(messages(container)).toHaveLength(4);
+    await click(container, "illustration");
+    expect(messages(container)).toHaveLength(2);
+    const storage = window.localStorage.getItem("vaccine-ai.conversations.v1")!;
+    await act(async () => root.unmount());
+    installDom({ "vaccine-ai.conversations.v1": storage });
+    await mount();
+    await click(container, `recent-conversation-${id}`);
+    await click(container, "illustration");
+    expect(messages(container)).toHaveLength(2);
+    await click(container, "chat-mode");
+    expect(messages(container)).toHaveLength(4);
+    expect(storedConversations()).toHaveLength(2);
+    expect(service.generateConversationTitle).toHaveBeenCalledTimes(2);
+  });
+
+  it("creates and summarizes a conversation starting with an illustration", async () => {
+    await click(container, "illustration");
+    await click(container, "submit");
+    await settle();
+    expect(storedConversations()).toHaveLength(1);
+    expect(service.generateConversationTitle).toHaveBeenCalledOnce();
+    await click(container, "chat-mode");
+    await click(container, "custom-first");
+    await settle();
+    expect(storedConversations()).toHaveLength(1);
+    expect(service.generateConversationTitle).toHaveBeenCalledOnce();
+  });
+
+  it("continues image polling while the chat view is open and settles hidden traces", async () => {
+    service.createImageJob.mockResolvedValue({ jobId: "background-image", stage: "queued", autoRevisionCount: 0 });
+    service.getImageJob.mockResolvedValue({ ...image("background-image"), traceEvents: [
+      { id: "trace", stage: "completed", title: "图解已完成", status: "completed", createdAt: new Date().toISOString() },
+    ] });
+    await click(container, "illustration");
+    await click(container, "submit");
+    await click(container, "chat-mode");
+    await act(async () => { await vi.advanceTimersByTimeAsync(2000); });
+    expect(service.cancelImageJob).not.toHaveBeenCalled();
+    expect(messages(container)).toEqual([]);
+    await click(container, "illustration");
+    expect(messages(container)).toEqual(expect.arrayContaining([expect.objectContaining({ kind: "image-result" })]));
+    expect(storedConversations()).toHaveLength(1);
+  });
+
+  it("ignores a late chat answer after new conversation, even when reopening its origin", async () => {
+    let resolve!: (value: unknown) => void;
+    service.generateChatAnswer.mockImplementationOnce(() => new Promise((done) => { resolve = done; }));
+    await click(container, "custom-first");
+    const oldId = storedConversations()[0].id;
+    await click(container, "new-conversation");
+    await click(container, "custom-second");
+    await settle();
+    const newId = storedConversations().find((record) => record.id !== oldId)!.id;
+    await click(container, `recent-conversation-${oldId}`);
+    await act(async () => { resolve({ answer: "不得写入", sessionId: "late", sources: [] }); });
+    await settle();
+    expect(messages(container)).toHaveLength(1);
+    expect(JSON.stringify(storedConversations())).not.toContain("不得写入");
+    await click(container, `recent-conversation-${newId}`);
+    expect(messages(container)).toHaveLength(2);
+  });
+
+  it("isolates late image creation and cancellation from a new conversation", async () => {
+    let resolve!: (value: unknown) => void;
+    service.createImageJob.mockImplementationOnce(() => new Promise((done) => { resolve = done; }));
+    await click(container, "illustration");
+    await click(container, "submit");
+    const oldId = storedConversations()[0].id;
+    await click(container, "new-conversation");
+    await click(container, "submit");
+    await settle();
+    await act(async () => { resolve(image("late-image")); });
+    expect(service.cancelImageJob).toHaveBeenCalledWith("late-image", expect.any(AbortSignal));
+    expect(messages(container)).toEqual(expect.arrayContaining([expect.objectContaining({ imageId: "unified-image-v0" })]));
+    expect(JSON.stringify(storedConversations())).not.toContain("late-image-v0");
+    await click(container, `recent-conversation-${oldId}`);
+    expect(messages(container)).toEqual(expect.arrayContaining([expect.objectContaining({ stage: "cancelled" })]));
+  });
+
+  it("updates only the initiating record when a title resolves after new conversation", async () => {
+    let resolve!: (title: string) => void;
+    service.generateConversationTitle.mockImplementationOnce(() => new Promise((done) => { resolve = done; }));
+    await click(container, "custom-first");
+    await settle();
+    const oldId = storedConversations()[0].id;
+    await click(container, "new-conversation");
+    await click(container, "custom-second");
+    await settle();
+    await act(async () => { resolve("旧对话的迟到标题"); });
+    expect(storedConversations().find((record) => record.id === oldId)?.title).toBe("旧对话的迟到标题");
+    expect(storedConversations().find((record) => record.id !== oldId)?.title).toBe("统一对话标题");
+    await click(container, "illustration");
+    await click(container, "submit");
+    await settle();
+    expect(service.generateConversationTitle).toHaveBeenCalledTimes(2);
+  });
+  it("keeps stopping until DELETE succeeds, then updates the original conversation after new chat", async () => {
+    service.createImageJob.mockResolvedValueOnce({ jobId: "stop-success", stage: "queued", autoRevisionCount: 0 });
+    let resolve!: () => void;
+    service.cancelImageJob.mockImplementationOnce(() => new Promise<void>((done) => { resolve = done; }));
+    await click(container, "illustration");await click(container, "submit");
+    const oldId = storedConversations()[0].id;
+    await click(container, "new-conversation");
+    expect(storedConversations()[0].messages).toEqual(expect.arrayContaining([expect.objectContaining({ stage: "cancelling" })]));
+    await click(container, `recent-conversation-${oldId}`);
+    expect(messages(container)).toEqual(expect.arrayContaining([expect.objectContaining({ stage: "cancelling" })]));
+    await click(container, "new-conversation");
+    await act(async () => { resolve(); });
+    expect(messages(container)).toEqual([]);
+    expect(storedConversations()[0].messages).toEqual(expect.arrayContaining([
+      expect.objectContaining({ stage: "cancelled", error: "已停止本次图片生成" }),
+    ]));
+    expect(storedConversations()).toHaveLength(1);
+    expect(storedConversations()[0].id).toBe(oldId);
+  });
+
+  it("writes DELETE failure to the original history after selecting another conversation", async () => {
+    await click(container, "custom-first");await settle();const chatId = storedConversations()[0].id;
+    await click(container, "new-conversation");await click(container, "illustration");
+    service.createImageJob.mockResolvedValueOnce({ jobId: "stop-failure", stage: "queued", autoRevisionCount: 0 });
+    let reject!: (error: Error) => void;
+    service.cancelImageJob.mockImplementationOnce(() => new Promise((_, fail) => { reject = fail; }));
+    await click(container, "submit");const imageId = storedConversations().find((record) => record.id !== chatId)!.id;
+    await click(container, `recent-conversation-${chatId}`);
+    await act(async () => { reject(new Error("network failed")); });
+    expect(messages(container)).toHaveLength(2);
+    expect(storedConversations().find((record) => record.id === imageId)!.messages).toEqual(expect.arrayContaining([
+      expect.objectContaining({ stage: "failed", error: "停止请求失败，停止结果未确认，请稍后重试。" }),
+    ]));
+    await click(container, `recent-conversation-${imageId}`);
+    expect(messages(container)).toEqual(expect.arrayContaining([expect.objectContaining({ stage: "failed" })]));
+  });
+
+  it("bounds DELETE at ten seconds and ignores a late success after timeout", async () => {
+    service.createImageJob.mockResolvedValueOnce({ jobId: "stop-timeout", stage: "queued", autoRevisionCount: 0 });
+    let resolve!: () => void;let signal!: AbortSignal;
+    service.cancelImageJob.mockImplementationOnce((_jobId: string, requestSignal: AbortSignal) => {
+      signal = requestSignal;return new Promise<void>((done) => { resolve = done; });
+    });
+    await click(container, "illustration");await click(container, "submit");
+    await click(container, "new-conversation");
+    await act(async () => { await vi.advanceTimersByTimeAsync(9999); });
+    expect(storedConversations()[0].messages).toEqual(expect.arrayContaining([expect.objectContaining({ stage: "cancelling" })]));
+    await act(async () => { await vi.advanceTimersByTimeAsync(1); });
+    expect(signal.aborted).toBe(true);
+    expect(storedConversations()[0].messages).toEqual(expect.arrayContaining([
+      expect.objectContaining({ stage: "failed", error: "停止请求超时，停止结果未确认，请稍后重试。" }),
+    ]));
+    await act(async () => { resolve(); });await settle();
+    expect(storedConversations()[0].messages).toEqual(expect.arrayContaining([expect.objectContaining({ stage: "failed" })]));
     expect(messages(container)).toEqual([]);
   });
+
+  it("writes successful cancellation after history navigation without changing the selected conversation", async () => {
+    await click(container, "custom-first");await settle();const chatId = storedConversations()[0].id;
+    await click(container, "new-conversation");await click(container, "illustration");
+    service.createImageJob.mockResolvedValueOnce({ jobId: "stop-history", stage: "queued", autoRevisionCount: 0 });
+    let resolve!: () => void;
+    service.cancelImageJob.mockImplementationOnce(() => new Promise<void>((done) => { resolve = done; }));
+    await click(container, "submit");const imageId = storedConversations().find((record) => record.id !== chatId)!.id;
+    await click(container, `recent-conversation-${chatId}`);
+    await act(async () => { resolve(); });
+    expect(messages(container)).toHaveLength(2);
+    expect(storedConversations().find((record) => record.id === imageId)!.messages).toEqual(expect.arrayContaining([expect.objectContaining({ stage: "cancelled" })]));
+  });
+
+  it("does not resurrect a deleted record when cancellation completes", async () => {
+    service.createImageJob.mockResolvedValueOnce({ jobId: "stop-deleted", stage: "queued", autoRevisionCount: 0 });
+    let resolve!: () => void;
+    service.cancelImageJob.mockImplementationOnce(() => new Promise<void>((done) => { resolve = done; }));
+    await click(container, "illustration");await click(container, "submit");const id = storedConversations()[0].id;
+    await click(container, `delete-conversation-${id}`);
+    await act(async () => { resolve(); });
+    expect(storedConversations()).toEqual([]);expect(messages(container)).toEqual([]);
+  });
+
+  it("retains unconfirmed stopping as a failure after refresh, never a confirmed stop", async () => {
+    service.createImageJob.mockResolvedValueOnce({ jobId: "stop-refresh", stage: "queued", autoRevisionCount: 0 });
+    service.cancelImageJob.mockImplementationOnce(() => new Promise(() => undefined));
+    await click(container, "illustration");await click(container, "submit");const id = storedConversations()[0].id;
+    await click(container, "new-conversation");
+    const storage = window.localStorage.getItem("vaccine-ai.conversations.v1")!;
+    await act(async () => root.unmount());
+    installDom({ "vaccine-ai.conversations.v1": storage });await mount();
+    await click(container, `recent-conversation-${id}`);
+    expect(messages(container)).toEqual(expect.arrayContaining([
+      expect.objectContaining({ stage: "failed", error: "上次请求已中断，停止结果未确认，请重新提交" }),
+    ]));
+    expect(storedConversations()[0].messages).toEqual(expect.arrayContaining([expect.objectContaining({ stage: "failed" })]));
+  });
+
+  it("settles the pending title to fallback when the first model or image request fails", async () => {
+    service.generateChatAnswer.mockRejectedValueOnce(new service.ChatRequestError("unavailable", 502));
+    await click(container, "custom-first");
+    const raw = () => JSON.parse(window.localStorage.getItem("vaccine-ai.conversations.v1")!).conversations;
+    expect(raw()[0]).toEqual(expect.objectContaining({ titleStatus: "fallback", title: "自定义问题一" }));
+    expect(raw()[0].messages).toHaveLength(2);
+    await click(container, "new-conversation");await click(container, "illustration");
+    service.createImageJob.mockRejectedValueOnce(new Error("image unavailable"));
+    await click(container, "submit");await settle();
+    expect(raw().every((record: { titleStatus: string }) => record.titleStatus === "fallback")).toBe(true);
+    expect(service.generateConversationTitle).not.toHaveBeenCalled();
+  });
+
 });

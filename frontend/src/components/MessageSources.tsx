@@ -12,7 +12,7 @@ export function MessageSources({ sources }: { sources: KnowledgeSource[] }) {
             <FileText aria-hidden="true" weight="duotone" />
             <span className="message-source__file">{source.sourceTitle ?? source.fileName}</span>
             <span className="message-source__page">
-              {source.pages && source.pages.length > 1
+              {source.pages
                 ? `第${source.pages.join("、")}页`
                 : source.page
                   ? `第${source.page}页`

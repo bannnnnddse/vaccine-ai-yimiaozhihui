@@ -86,7 +86,8 @@ async def test_answer_runs_post_generation_citation_entailment_audit() -> None:
     assert result.session_id == "answer-turn"
     audit_call = client.responses.create.await_args_list[1].kwargs
     assert audit_call["store"] is False
-    assert "结论—证据审计器" in audit_call["instructions"]
+    assert "原回答不作为证据传入" in audit_call["instructions"]
+    assert "发热会影响抗体" not in str(audit_call["input"])
 
 
 @pytest.mark.asyncio
