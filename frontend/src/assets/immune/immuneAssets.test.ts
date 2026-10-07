@@ -1,4 +1,6 @@
+// @ts-expect-error Node types are intentionally not part of the browser application.
 import { createHash } from "node:crypto";
+// @ts-expect-error Node types are intentionally not part of the browser application.
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { immuneAssets } from "./immuneAssets";

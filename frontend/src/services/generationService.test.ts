@@ -4,7 +4,6 @@ import {
   createImageJob,
   editImageJob,
   generateChatAnswer,
-  generateChatAnswerStream,
   generateConversationTitle,
   getImageJob,
   ChatRequestError,
@@ -99,6 +98,28 @@ describe("generateChatAnswer", () => {
     );
   });
 
+  it("接受并规范化同一文档合并后的多个页码", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        answer: "回答［1］",
+        is_vaccine_related: true,
+        session_id: "fresh-session-id",
+        sources: [{
+          file_name: "接种规范.pdf",
+          page: 3,
+          pages: [7, 3, 7],
+          content: "第 3 页片段。\n\n第 7 页片段。",
+        }],
+      }),
+    }));
+
+    await expect(generateChatAnswer({ question: "发热能接种吗？" })).resolves.toMatchObject({
+      answer: "回答［1］",
+      sources: [{ pages: [3, 7] }],
+    });
+  });
+
   it("接受没有伪造页码的官方网页来源", async () => {
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
       ok: true,
@@ -126,28 +147,6 @@ describe("generateChatAnswer", () => {
         sourceUrl: "https://www.chinacdc.cn/example",
         section: "接种建议",
       }],
-    });
-  });
-
-  it("规范化后端返回的多页 PDF 来源", async () => {
-    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
-      ok: true,
-      json: async () => ({
-        answer: "结论［1］",
-        is_vaccine_related: true,
-        session_id: "fresh-session-id",
-        sources: [{
-          file_name: "指南.pdf",
-          page: 3,
-          pages: [7, 3, 7],
-          content: "跨页证据",
-        }],
-      }),
-    }));
-
-    await expect(generateChatAnswer({ question: "测试" })).resolves.toMatchObject({
-      answer: "结论［1］",
-      sources: [{ page: 3, pages: [3, 7] }],
     });
   });
 
@@ -194,8 +193,6 @@ describe("generateChatAnswer", () => {
     [{ file_name: "  ", page: 1, content: "片段" }],
     [{ file_name: "指南.pdf", page: 0, content: "片段" }],
     [{ file_name: "指南.pdf", page: 1, content: "   " }],
-    [{ file_name: "指南.pdf", page: 1, pages: [1], content: "片段" }],
-    [{ file_name: "指南.pdf", page: 1, pages: [1, 0], content: "片段" }],
   ])("拒绝非法来源条目：%j", async (sources) => {
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
       ok: true,
@@ -450,24 +447,11 @@ describe("generateChatAnswer", () => {
   });
 
   it("取消任务使用 DELETE", async () => {
-    const fetchSpy = vi.fn().mockResolvedValue({ ok: true, status: 200, json: async () => ({ detail: "任务已取消。" }) });
+    const fetchSpy = vi.fn().mockResolvedValue({ ok: true });
     vi.stubGlobal("fetch", fetchSpy);
 
     await expect(cancelImageJob("job-1")).resolves.toBeUndefined();
     expect(fetchSpy).toHaveBeenCalledWith("/api/v1/image-jobs/job-1", { method: "DELETE" });
-  });
-
-  it("取消请求传递 AbortSignal，允许超时和卸载时中止", async () => {
-    const fetchSpy = vi.fn().mockResolvedValue({ ok: true, status: 200, json: async () => ({ detail: "任务已取消。" }) });
-    vi.stubGlobal("fetch", fetchSpy);
-    const signal = new AbortController().signal;
-    await cancelImageJob("job-1", signal);
-    expect(fetchSpy).toHaveBeenCalledWith("/api/v1/image-jobs/job-1", { method: "DELETE", signal });
-  });
-
-  it.each([null, {}, { detail: "请求已接收" }])("取消响应缺少明确确认时不能当作已停止：%j", async (confirmation) => {
-    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({ ok: true, status: 200, json: async () => confirmation }));
-    await expect(cancelImageJob("job-1")).rejects.toThrow("停止结果未知");
   });
 
   it.each([404, 409, 500])("保留失败请求的 HTTP %i 状态码", async (status) => {
@@ -523,31 +507,5 @@ describe("generateConversationTitle", () => {
       { role: "user", content: "问题" },
       { role: "assistant", content: "回答" },
     ])).rejects.toThrow("invalid title");
-  });
-});
-
-
-describe("bounded chat answer contract", () => {
-  afterEach(() => vi.unstubAllGlobals());
-
-  it.each([false, true])("accepts an evidence limitation with a real session (stream=%s)", async (stream) => {
-    const payload = {
-      answer: "当前没有足够的可追溯依据，请补充具体疫苗名称。",
-      is_vaccine_related: true, session_id: "bounded-real-response", sources: [],
-    };
-    const response = stream
-      ? new Response(`event: final\ndata: ${JSON.stringify(payload)}\n\nevent: done\ndata: {}\n\n`)
-      : new Response(JSON.stringify(payload));
-    vi.stubGlobal("fetch", vi.fn().mockResolvedValue(response));
-    const result = stream
-      ? await generateChatAnswerStream({ question: "疫苗安全吗" }, vi.fn())
-      : await generateChatAnswer({ question: "疫苗安全吗" });
-    expect(result).toEqual({ answer: payload.answer, isVaccineRelated: true,
-      sessionId: payload.session_id, sources: [] });
-  });
-
-  it.each([null, [], { answer: "不完整响应" }])("rejects malformed response objects", async (payload) => {
-    vi.stubGlobal("fetch", vi.fn().mockResolvedValue(new Response(JSON.stringify(payload))));
-    await expect(generateChatAnswer({ question: "疫苗安全吗" })).rejects.toThrow("invalid");
   });
 });

@@ -32,8 +32,7 @@ def test_model_http_clients_ignore_broken_system_proxy_settings(monkeypatch) -> 
         pass
 
     assert openai_kwargs["http_client"] is http_clients[0]
-    assert [client.trust_env for client in http_clients] == [False, False, False]
-    assert app.state.pubmed_provider._client is http_clients[2]
+    assert [client.trust_env for client in http_clients] == [False, False]
 
 
 def test_production_rag_warmup_finishes_before_app_is_ready(monkeypatch) -> None:

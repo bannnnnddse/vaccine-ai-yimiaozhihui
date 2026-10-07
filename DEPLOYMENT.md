@@ -122,22 +122,3 @@ curl --fail http://127.0.0.1/
 ```
 
 还应人工检查普通问答、RAG 来源、知识图谱、管理员登录和图片任务。升级前备份 `backend/runtime/app.db`、活动索引指针和对应版本目录；失败时回退 Git commit，并恢复同一组索引与图谱资产，不能混用版本。
-
-## PubMed Direct 与 GraphRAG 耗时日志
-
-PubMed 默认使用 `PUBMED_PROVIDER=direct`。应用 lifespan 复用共享 `httpx.AsyncClient`，使用 NCBI ESearch 获取 PMID，再批量 EFetch 读取摘要；应用关闭时清理 HTTP 连接池。MCP 仅在显式选择 `PUBMED_PROVIDER=mcp` 时使用。
-
-`PUBMED_TIMEOUT_SECONDS=0` 表示关闭 PubMed 应用层与 HTTP 硬超时，适用于 Direct 请求及 MCP 连接、工具调用；正数仍可指定秒数。上游服务、代理或反向代理自身超时不受此配置控制。已有私密 `.env` 的显式值优先于代码默认值，部署时须检查并按需修改，再重建后端容器：
-
-```env
-PUBMED_PROVIDER=direct
-PUBMED_TIMEOUT_SECONDS=0
-```
-
-`PUBMED_PROXY_URL` 仅作用于 PubMed。使用宿主机 mihomo 时，应按真实 Docker 私有网关配置代理；容器中的 `127.0.0.1` 不是宿主机，不将代理端口暴露到公网。无 NCBI API key 时本实例保持至少 0.34 秒请求间隔，有 key 时至少 0.11 秒；多实例共用出口需另行协调速率。
-
-开启 GraphRAG 后，仍先执行完整 Vector RAG，再按问题补充同版图谱关系，异常退回 Vector-only。`graph_retrieval` 日志记录图检索耗时，并记录 trace ID、状态、路径数、来源数和上下文长度。
-
-[生产 Direct 部署记录](docs/reports/pubmed-direct-deployment-2026-10-07.md)来自开发/生产项目提交 `2465df8`，原始测量 JSON 随附。该记录描述源项目在 2026-10-07 的历史环境，不证明本展示项目已部署、复现相同性能或完成医学准确率验收。源部署记录的“132 份文档”与本展示项目交付材料的“140 份文档”统计不同；需按各自 manifest/catalog 核对，不能用历史记录覆盖展示项目的语料口径。
-
-官方参考：[NLM E-utilities](https://www.nlm.nih.gov/dataguide/eutilities/utilities.html)。

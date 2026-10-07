@@ -6,20 +6,12 @@ import type { NormalizedBBox } from "../services/generationService";
 import { SuggestedQuestions } from "./SuggestedQuestions";
 import { TextType } from "./TextType";
 
-// 问答过程时间线中的单个步骤：active 为当前正在进行的行，completed 为已完成的行。
-export interface ChatProcessStep {
-  id: string;
-  activeText: string;
-  completedText: string;
-  status: "active" | "completed";
-}
-
 interface ChatPanelProps {
   messages: ChatMessageData[];
   input: string;
   isAnswering: boolean;
   isTypingAnswer: boolean;
-  chatProcessSteps: ChatProcessStep[];
+  chatProgress: string | null;
   selectedQuestionId: string;
   mode?: ChatMode;
   onInputChange: (value: string) => void;
@@ -59,7 +51,7 @@ export function ChatPanel(props: ChatPanelProps) {
       top: element.scrollHeight,
       behavior: props.isTypingAnswer ? "auto" : "smooth",
     });
-  }, [props.messages, props.isAnswering, props.isTypingAnswer, props.chatProcessSteps]);
+  }, [props.messages, props.isAnswering, props.isTypingAnswer]);
 
   return (
     <section className={`chat-panel chat-panel--${mode}`} aria-label={mode === "chat" ? "AI 疫苗问答" : "AI 疫苗图解"}>
@@ -112,19 +104,8 @@ export function ChatPanel(props: ChatPanelProps) {
             onImageInteraction={props.onMeaningfulInteraction}
           />
         ))}
-        {mode === "chat" && props.isAnswering && !props.isTypingAnswer && props.chatProcessSteps.length > 0 && (
-          <div className="thinking-row">
-            <span className="chat-message__avatar" aria-hidden="true"><img src="/assets/chat-assistant-avatar.png" alt="" /></span>
-            <span className="thinking-bubble thinking-bubble--process">
-              {props.chatProcessSteps.map((step) => (
-                <span className={`thinking-step thinking-step--${step.status}`} key={step.id}>
-                  {step.status === "completed" && <span className="thinking-step__check" aria-hidden="true">✓</span>}
-                  <span>{step.status === "completed" ? step.completedText : step.activeText}</span>
-                  {step.status === "active" && <i className="thinking-step__dots" aria-hidden="true"><b /><b /><b /></i>}
-                </span>
-              ))}
-            </span>
-          </div>
+        {mode === "chat" && props.isAnswering && !props.isTypingAnswer && props.chatProgress && (
+          <div className="thinking-row"><span className="chat-message__avatar" aria-hidden="true"><img src="/assets/chat-assistant-avatar.png" alt="" /></span><span className="thinking-bubble">{props.chatProgress}<i><b /><b /><b /></i></span></div>
         )}
       </div>
       {mode === "chat" && props.messages.length === 0 && (

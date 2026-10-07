@@ -8,9 +8,8 @@ import {
   type ChatMessageData,
   type ImageResultChatMessage,
   type ImageStatusChatMessage,
-  type TextChatMessage,
 } from "./components/ChatMessage";
-import { ChatPanel, type ChatProcessStep } from "./components/ChatPanel";
+import { ChatPanel } from "./components/ChatPanel";
 import { ImageHistoryModal } from "./components/ImageHistoryModal";
 import { InteractiveDemoModal } from "./components/InteractiveDemoModal";
 import { InteractiveExperiencePicker } from "./components/InteractiveExperiencePicker";
@@ -59,7 +58,6 @@ export type { ChatMode } from "./components/ChatInput";
 export type { ChatMessageData, MessageKind } from "./components/ChatMessage";
 
 const NORMAL_POLL_DELAY = 1_500;
-const CANCELLATION_TIMEOUT_MS = 10_000;
 const BACKGROUND_POLL_DELAY = 5_000;
 const POLL_BACKOFF_DELAYS = [1_500, 3_000, 5_000] as const;
 const KnowledgeGraphViewer = lazy(() => import("./components/knowledge-graph/KnowledgeGraphViewer"));
@@ -104,41 +102,7 @@ const progressCopy: Partial<Record<ImageJobStage, string>> = {
 
 const runningImageStages: ImageJobStage[] = ["queued", "rewriting_prompt", "generating", "critic_review_1", "auto_revising", "guard_check", "critic_review_2", "editing_with_bbox", "critic_review_final"];
 
-// 问答过程时间线：后端 /chat/stream 的每个 stage 事件携带一条中文进度文案。
-// 这里把每条文案映射到稳定 step id，用于累积展示与去重；同一 id 的事件
-// 只更新已有行，不新增重复步骤。未收录的文案按原样追加为一行。
-interface ChatProcessStepEntry {
-  id: string;
-  activeText: string;
-  completedText: string;
-}
-
-// 终态步骤（澄清/受限保底/组织回答）在真实回答开始前会被整体移除，
-// 因此 completedText 仅在极端情况下兜底使用。
-const chatProcessStepCatalog: Record<string, ChatProcessStepEntry> = {
-  "正在分析并改写科学问题…": { id: "rewrite", activeText: "正在分析并改写科学问题…", completedText: "问题理解与改写完成" },
-  "正在检索本地文献库…": { id: "retrieval", activeText: "正在检索知识库证据…", completedText: "知识库证据检索完成" },
-  "正在检索语义证据…": { id: "retrieval", activeText: "正在检索语义证据…", completedText: "知识库证据检索完成" },
-  "正在检索关键词证据…": { id: "retrieval", activeText: "正在检索关键词证据…", completedText: "知识库证据检索完成" },
-  "正在重排证据…": { id: "rerank", activeText: "正在重排知识库证据…", completedText: "证据重排完成" },
-  "正在评估本地证据充分性…": { id: "evidence", activeText: "正在评估本地证据充分性…", completedText: "证据充分性评估完成" },
-  "正在调用 PubMed 检索工具…": { id: "pubmed", activeText: "正在检索 PubMed 文献…", completedText: "PubMed 文献检索完成" },
-  "正在整理最终回答…": { id: "answering", activeText: "正在组织回答…", completedText: "回答组织完成" },
-  "正在生成回答…": { id: "answering", activeText: "正在生成回答…", completedText: "回答生成完成" },
-  "正在生成澄清问题…": { id: "clarify", activeText: "正在生成澄清问题…", completedText: "澄清问题生成完成" },
-  "正在生成受限的初步回答…": { id: "fallback", activeText: "正在生成受限的初步回答…", completedText: "受限初步回答生成完成" },
-};
-
-const resolveChatProcessStep = (message: string): ChatProcessStepEntry => (
-  chatProcessStepCatalog[message] ?? {
-    id: `custom:${message}`,
-    activeText: message,
-    completedText: `${message.replace(/…$/, "")}完成`,
-  }
-);
-
 interface ActiveImageJob {
-  conversationId?: string | null;
   jobId: string | null;
   requestToken: string;
   prompt: string;
@@ -152,7 +116,7 @@ interface PendingImageResult {
   prompt: string;
 }
 
-type CancelReason = "user" | "conversation-switch" | "unmount";
+type CancelReason = "user" | "mode-switch" | "unmount";
 
 function isAbortError(error: unknown) {
   return error instanceof DOMException && error.name === "AbortError";
@@ -232,17 +196,7 @@ function createLocalIllustrationDemoJob(demo: LocalIllustrationDemo): ImageJob {
 }
 
 export function App() {
-  const [messages, setMessagesState] = useState<ChatMessageData[]>([]);
-  const messagesRef = useRef<ChatMessageData[]>([]);
-  // Keep async writers on the latest complete conversation, even across mode changes.
-  const setMessages = (update: ChatMessageData[] | ((current: ChatMessageData[]) => ChatMessageData[])) => {
-    const next = typeof update === "function" ? update(messagesRef.current) : update;
-    messagesRef.current = next.map((message) => ({
-      ...message,
-      mode: message.mode ?? (message.kind === "text" ? "chat" : "illustration"),
-    }));
-    setMessagesState(messagesRef.current);
-  };
+  const [messages, setMessages] = useState<ChatMessageData[]>([]);
   const [conversations, setConversations] = useState<StoredConversation[]>(() => loadConversations());
   const [activeConversationId, setActiveConversationId] = useState<string | null>(null);
   const [input, setInput] = useState("");
@@ -252,7 +206,7 @@ export function App() {
   const [selectedQuestionId, setSelectedQuestionId] = useState("");
   const [isAnswering, setIsAnswering] = useState(false);
   const [isTypingAnswer, setIsTypingAnswer] = useState(false);
-  const [chatProcessSteps, setChatProcessSteps] = useState<ChatProcessStep[]>([]);
+  const [chatProgress, setChatProgress] = useState<string | null>(null);
   const [activePage, setActivePage] = useState<AppPage>(() =>
     typeof window !== "undefined" && window.location?.hash === "#graph" ? "graph" : "answer"
   );
@@ -261,11 +215,9 @@ export function App() {
   const chatAbortRef = useRef<AbortController | null>(null);
   const requestSequenceRef = useRef(0);
   const chatRequestSequenceRef = useRef(0);
-  const navigationSequenceRef = useRef(0);
   const mountedRef = useRef(true);
   const activeImageJobRef = useRef<ActiveImageJob | null>(null);
   const pendingCancellationRef = useRef(new Map<string, string>());
-  const cancellationControllersRef = useRef(new Map<string, AbortController>());
   const createAbortRef = useRef<AbortController | null>(null);
   const pollTimerRef = useRef<number | null>(null);
   const pollAbortRef = useRef<AbortController | null>(null);
@@ -276,12 +228,12 @@ export function App() {
   const suppressConversationPersistenceRef = useRef(false);
   const titleRequestIdsRef = useRef(new Set(
     conversations
-      .filter((conversation) => conversation.titleStatus !== "pending")
+      .filter((conversation) => conversation.titleStatus === "generated")
       .map((conversation) => conversation.id),
   ));
 
   const currentTopic = useMemo(
-    () => messages.filter((message): message is TextChatMessage => message.role === "user" && message.kind === "text").at(-1)?.content
+    () => messages.filter((message) => message.role === "user" && message.kind === "text").at(-1)?.content
       || "请先选择或输入一个问题",
     [messages],
   );
@@ -304,9 +256,10 @@ export function App() {
   };
 
   const persistConversationMessages = (
+    nextMessages: ChatMessageData[],
     options: { touch?: boolean; modeOverride?: ChatMode } = {},
   ) => {
-    const firstUserMessage = messagesRef.current.find((message) => (
+    const firstUserMessage = nextMessages.find((message) => (
       message.role === "user" && message.kind === "text" && message.content.trim()
     ));
     if (!firstUserMessage || firstUserMessage.kind !== "text") return;
@@ -318,13 +271,12 @@ export function App() {
       activeConversationIdRef.current = conversationId;
       setActiveConversationId(conversationId);
     }
-    const stableMessages = messagesRef.current.map((message) => (
+    const stableMessages = nextMessages.map((message) => (
       message.kind === "text" && message.isTyping
         ? { ...message, isTyping: false }
         : message
     ));
 
-    const sessionId = activeSessionIdRef.current;
     setConversations((current) => {
       const existing = current.find((conversation) => conversation.id === conversationId);
       const updated: StoredConversation = {
@@ -335,7 +287,7 @@ export function App() {
         createdAt: existing?.createdAt ?? now,
         updatedAt: options.touch === false ? existing?.updatedAt ?? now : now,
         mode: options.modeOverride ?? mode,
-        sessionId,
+        sessionId: activeSessionIdRef.current,
         messages: stableMessages,
       };
       return persistConversations([
@@ -353,13 +305,10 @@ export function App() {
     const successfulAssistant = [...conversationMessages].reverse().find((message) => (
       message.role === "assistant" && message.kind === "text" && message.content.trim() && !message.isTyping
     ));
-    if (!firstUser || firstUser.kind !== "text") return;
-    const imageResult = conversationMessages.find((message) => message.kind === "image-result");
-    if (!successfulAssistant && !imageResult) return;
+    if (!firstUser || firstUser.kind !== "text" || !successfulAssistant || successfulAssistant.kind !== "text") return;
     const titleMessages = [
       { role: firstUser.role, content: firstUser.content },
-      { role: "assistant" as const, content: successfulAssistant?.kind === "text"
-        ? successfulAssistant.content : `已生成科学图解：${imageResult?.kind === "image-result" ? imageResult.prompt : firstUser.content}` },
+      { role: successfulAssistant.role, content: successfulAssistant.content },
     ];
 
     titleRequestIdsRef.current.add(conversationId);
@@ -378,15 +327,6 @@ export function App() {
     });
   };
 
-  const settleFallbackTitle = (conversationId: string | null) => {
-    if (!conversationId || titleRequestIdsRef.current.has(conversationId)) return;
-    titleRequestIdsRef.current.add(conversationId);
-    setConversations((current) => persistConversations(current.map((conversation) => (
-      conversation.id === conversationId && conversation.titleStatus === "pending"
-        ? { ...conversation, titleStatus: "fallback" as const } : conversation
-    ))));
-  };
-
   const stopPolling = () => {
     if (pollTimerRef.current !== null) window.clearTimeout(pollTimerRef.current);
     pollTimerRef.current = null;
@@ -398,8 +338,7 @@ export function App() {
     const active = activeImageJobRef.current;
     return active !== null
       && active.requestToken === requestToken
-      && active.jobId === jobId
-      && (active.conversationId === undefined || active.conversationId === activeConversationIdRef.current);
+      && active.jobId === jobId;
   };
 
   const updateImageStatus = (
@@ -418,7 +357,6 @@ export function App() {
     stopPolling();
     if (!isCurrentJob(active.jobId, active.requestToken)) return;
     activeImageJobRef.current = null;
-    settleFallbackTitle(active.conversationId ?? activeConversationIdRef.current);
     digitalHuman.notifyError(`image-${active.requestToken}`, "illustration");
     setMessages((current) => current.map((message) => {
       if (message.id === active.sourceMessageId && message.kind === "image-result") {
@@ -595,7 +533,7 @@ export function App() {
       const job = await request(controller.signal);
       const current = activeImageJobRef.current;
       if (!mountedRef.current || current?.requestToken !== active.requestToken) {
-        void cancelIllustration(mountedRef.current ? "conversation-switch" : "unmount", { ...active, jobId: job.jobId });
+        void cancelImageJob(job.jobId).catch(() => undefined);
         return;
       }
       current.jobId = job.jobId;
@@ -618,8 +556,8 @@ export function App() {
     if (localDemo) {
       const job = createLocalIllustrationDemoJob(localDemo);
       const nextMessages: ChatMessageData[] = [
-        ...messagesRef.current,
-        { id: `user-${requestToken}`, role: "user", kind: "text", mode: "illustration", content: prompt },
+        ...messages,
+        { id: `user-${requestToken}`, role: "user", kind: "text", content: prompt },
         {
           id: messageId,
           role: "assistant",
@@ -636,7 +574,7 @@ export function App() {
       ];
       pendingImageResultsRef.current.set(messageId, { job, requestToken, prompt });
       setMessages(nextMessages);
-      persistConversationMessages({ modeOverride: "illustration" });
+      persistConversationMessages(nextMessages, { modeOverride: "illustration" });
       setInput("");
       return;
     }
@@ -644,8 +582,8 @@ export function App() {
     const active: ActiveImageJob = { jobId: null, requestToken, prompt, messageId };
     activeImageJobRef.current = active;
     const nextMessages: ChatMessageData[] = [
-      ...messagesRef.current,
-      { id: `user-${requestToken}`, role: "user", kind: "text", mode: "illustration", content: prompt },
+      ...messages,
+      { id: `user-${requestToken}`, role: "user", kind: "text", content: prompt },
       {
         id: messageId,
         role: "assistant",
@@ -659,9 +597,8 @@ export function App() {
       },
     ];
     setMessages(nextMessages);
-    persistConversationMessages({ modeOverride: "illustration" });
+    persistConversationMessages(nextMessages, { modeOverride: "illustration" });
     setInput("");
-    active.conversationId = activeConversationIdRef.current;
     void beginImageRequest(active, (signal) => createImageJob(prompt, signal));
   };
 
@@ -711,7 +648,6 @@ export function App() {
       prompt: message.prompt,
       messageId,
       sourceMessageId: message.id,
-      conversationId: activeConversationIdRef.current,
     };
     activeImageJobRef.current = active;
     setMessages((current) => [
@@ -722,7 +658,6 @@ export function App() {
         id: `user-${requestToken}`,
         role: "user",
         kind: "text",
-        mode: "illustration",
         content: `修改图片：${request}`,
       },
       {
@@ -752,13 +687,8 @@ export function App() {
       setAcceptImageError(message.id, "有图解任务正在进行，请等待完成后再确认采用。");
       return;
     }
-    const conversationId = activeConversationIdRef.current;
-    const navigationToken = navigationSequenceRef.current;
-    const isCurrent = () => mountedRef.current && activeConversationIdRef.current === conversationId
-      && navigationSequenceRef.current === navigationToken;
     try {
       await acceptImageJob(message.jobId);
-      if (!isCurrent()) return;
       setMessages((current) => current.map((item) => item.id === message.id && item.kind === "image-result"
         ? {
             ...item,
@@ -773,7 +703,6 @@ export function App() {
           }
         : item));
     } catch (error) {
-      if (!isCurrent()) return;
       setAcceptImageError(
         message.id,
         error instanceof ImageJobRequestError && error.message
@@ -787,20 +716,14 @@ export function App() {
 
   const restorePreviousImageResult = async (message: ImageResultChatMessage) => {
     if (activeImageJobRef.current) return;
-    const conversationId = activeConversationIdRef.current;
-    const navigationToken = navigationSequenceRef.current;
-    const isCurrent = () => mountedRef.current && activeConversationIdRef.current === conversationId
-      && navigationSequenceRef.current === navigationToken;
     try {
       const job = await restorePreviousImageJob(message.jobId, message.imageId);
-      if (!isCurrent()) return;
-      const { imageUrl, imageId } = job;
-      if (!imageUrl || !imageId) throw new Error("restored image is unavailable");
+      if (!job.imageUrl || !job.imageId) throw new Error("restored image is unavailable");
       setMessages((current) => current.map((item) => item.id === message.id && item.kind === "image-result"
         ? {
             ...item,
-            imageUrl,
-            imageId,
+            imageUrl: job.imageUrl,
+            imageId: job.imageId,
             stage: job.stage,
             candidateImageUrl: job.candidateImageUrl,
             previousImageUrl: job.previousImageUrl,
@@ -818,86 +741,59 @@ export function App() {
     }
   };
 
-  const cancelIllustration = async (reason: CancelReason, target = activeImageJobRef.current) => {
-    if (!target) return;
-    const active = { ...target, conversationId: target.conversationId ?? activeConversationIdRef.current };
-    const conversationId = active.conversationId;
-    if (activeImageJobRef.current?.requestToken === active.requestToken) {
+  const cancelIllustration = async (reason: CancelReason) => {
+    const active = activeImageJobRef.current;
+      if (!active) return;
       pendingImageResultsRef.current.delete(active.messageId);
-      stopPolling();
-      createAbortRef.current?.abort();
-      createAbortRef.current = null;
-      activeImageJobRef.current = null;
-    }
-    if (reason === "unmount") {
-      if (active.jobId) void cancelImageJob(active.jobId, AbortSignal.timeout(CANCELLATION_TIMEOUT_MS)).catch(() => undefined);
-      return;
-    }
+    updateImageStatus(active.messageId, { stage: "cancelling", error: "正在取消…" });
+    stopPolling();
+    createAbortRef.current?.abort();
+    createAbortRef.current = null;
+    activeImageJobRef.current = null;
     pendingCancellationRef.current.set(active.messageId, active.requestToken);
 
-    // Patch the originating record even after navigation, without recreating deleted history.
-    const updateOrigin = (stage: "cancelling" | "cancelled" | "failed", error: string) => {
-      if (!mountedRef.current || pendingCancellationRef.current.get(active.messageId) !== active.requestToken) return;
-      const patch = (current: ChatMessageData[]): ChatMessageData[] => current.map((message) => {
-        if (message.id === active.sourceMessageId && message.kind === "image-result") return { ...message, historical: false };
-        if (message.id !== active.messageId || (message.kind !== "image-status" && message.kind !== "image-result")
-          || message.requestToken !== active.requestToken) return message;
-        if (message.kind === "image-result") return {
-          ...message, stage: "awaiting_human_feedback", acceptError: stage === "failed" ? error : undefined,
-        };
-        return {
-          ...message, jobId: active.jobId, stage, error, isRevealingTrace: false,
-          traceEvents: stage === "cancelling" ? message.traceEvents : finishLocalTrace(
-            message.traceEvents, stage === "cancelled" ? "生成已停止" : "停止结果未确认", error,
+    const cancellationIsCurrent = () => (
+      mountedRef.current
+      && pendingCancellationRef.current.get(active.messageId) === active.requestToken
+    );
+
+    const finishCancellation = (stage: "cancelled" | "failed", error: string) => {
+      if (!cancellationIsCurrent()) return;
+      pendingCancellationRef.current.delete(active.messageId);
+      setMessages((current) => current.map((message) => {
+        if (message.id === active.sourceMessageId && message.kind === "image-result") {
+          return { ...message, historical: false };
+        }
+        if (message.id !== active.messageId) return message;
+        if (message.kind === "image-result") return { ...message, stage: "awaiting_human_feedback" };
+        if (message.kind === "image-status") return {
+          ...message,
+          jobId: active.jobId,
+          requestToken: active.requestToken,
+          stage,
+          error,
+          traceEvents: finishLocalTrace(
+            message.traceEvents,
+            stage === "cancelled" ? "生成已取消" : "取消请求未确认",
+            error,
           ),
         };
-      });
-      const isVisible = activeConversationIdRef.current === conversationId;
-      if (isVisible) setMessages(patch);
-      const visibleMessages = isVisible ? messagesRef.current : null;
-      setConversations((current) => persistConversations(current.map((conversation) => (
-        conversation.id === conversationId
-          ? { ...conversation, messages: visibleMessages ?? patch(conversation.messages) } : conversation
-      ))));
+        return message;
+      }));
     };
 
-    updateOrigin("cancelling", "正在停止本次图片生成…");
-    settleFallbackTitle(conversationId);
     if (active.jobId === null) {
-      updateOrigin("failed", "创建请求已中断，停止结果未确认，请稍后重试。");
-      pendingCancellationRef.current.delete(active.messageId);
+      if (reason !== "unmount") finishCancellation("cancelled", "已取消本次图片生成");
       return;
     }
 
-    const controller = new AbortController();
-    cancellationControllersRef.current.set(active.requestToken, controller);
-    let deadline: ReturnType<typeof setTimeout> | undefined;
-    const aborted = new Promise<never>((_, reject) => {
-      controller.signal.addEventListener("abort", () => reject(controller.signal.reason), { once: true });
-    });
     try {
-      await Promise.race([
-        cancelImageJob(active.jobId, controller.signal),
-        aborted,
-        new Promise<never>((_, reject) => {
-          deadline = globalThis.setTimeout(() => {
-            const timeout = new Error("cancellation-timeout");
-            controller.abort(timeout);
-            reject(timeout);
-          }, CANCELLATION_TIMEOUT_MS);
-        }),
-      ]);
-      updateOrigin("cancelled", "已停止本次图片生成");
-    } catch (error) {
-      updateOrigin("failed", error instanceof Error && error.message === "cancellation-timeout"
-        ? "停止请求超时，停止结果未确认，请稍后重试。"
-        : "停止请求失败，停止结果未确认，请稍后重试。");
-    } finally {
-      if (deadline !== undefined) globalThis.clearTimeout(deadline);
-      cancellationControllersRef.current.delete(active.requestToken);
-      if (pendingCancellationRef.current.get(active.messageId) === active.requestToken) {
-        pendingCancellationRef.current.delete(active.messageId);
-      }
+      await cancelImageJob(active.jobId);
+      if (reason === "unmount") return;
+      finishCancellation("cancelled", "已取消本次图片生成");
+    } catch {
+      if (reason === "unmount") return;
+      finishCancellation("failed", "取消请求未确认，请重新输入主题");
     }
   };
 
@@ -942,26 +838,6 @@ export function App() {
     }, reduceMotion ? 0 : 24);
   });
 
-  // 过程时间线推进：新 step 开始时把之前所有步骤标记为 completed，
-  // 同一 step 的重复/迟到事件只更新文案，不重复追加、不把已完成步骤重新激活。
-  const advanceChatProcess = (message: string) => {
-    const entry = resolveChatProcessStep(message);
-    setChatProcessSteps((current) => {
-      const existing = current.find((step) => step.id === entry.id);
-      if (existing) {
-        if (existing.status === "completed") return current;
-        if (existing.activeText === entry.activeText) return current;
-        return current.map((step) => (
-          step.id === entry.id ? { ...step, activeText: entry.activeText } : step
-        ));
-      }
-      return [
-        ...current.map((step) => (step.status === "active" ? { ...step, status: "completed" as const } : step)),
-        { id: entry.id, activeText: entry.activeText, completedText: entry.completedText, status: "active" },
-      ];
-    });
-  };
-
   const invalidateChatRequest = () => {
     chatRequestSequenceRef.current += 1;
     chatAbortRef.current?.abort();
@@ -972,7 +848,7 @@ export function App() {
     typingResolveRef.current = null;
     setIsAnswering(false);
     setIsTypingAnswer(false);
-    setChatProcessSteps([]);
+    setChatProgress(null);
   };
 
   const submitQuestion = async (question: string) => {
@@ -985,11 +861,10 @@ export function App() {
     chatAbortRef.current = requestAbort;
     const isCurrentRequest = () => (
       mountedRef.current && chatRequestSequenceRef.current === requestToken
-      && activeConversationIdRef.current === conversationId
     );
     const preset = knowledgeTopics.find((topic) => topic.question === cleanQuestion);
-    const recentHistory = messagesRef.current
-      .filter((message): message is TextChatMessage => message.mode === "chat" && message.kind === "text" && Boolean(message.content.trim()) && !message.isTyping)
+    const recentHistory = messages
+      .filter((message) => message.kind === "text" && message.content.trim() && !message.isTyping)
       .slice(-8)
       .map((message) => ({ role: message.role, content: message.content }));
     const userMessage: ChatMessageData = {
@@ -998,14 +873,12 @@ export function App() {
       kind: "text",
       content: cleanQuestion,
     };
-    const messagesAfterQuestion = [...messagesRef.current, userMessage];
+    const messagesAfterQuestion = [...messages, userMessage];
     setMessages(messagesAfterQuestion);
-    persistConversationMessages({ modeOverride: "chat" });
-    const conversationId = activeConversationIdRef.current;
+    persistConversationMessages(messagesAfterQuestion, { modeOverride: "chat" });
     setInput("");
     setIsAnswering(true);
-    setChatProcessSteps([]);
-    advanceChatProcess("正在分析并改写科学问题…");
+    setChatProgress("正在分析并改写科学问题…");
     setSelectedQuestionId(preset?.id ?? "");
 
     try {
@@ -1021,31 +894,31 @@ export function App() {
           history: recentHistory,
           signal: requestAbort.signal,
         }, (message) => {
-          if (isCurrentRequest()) advanceChatProcess(message);
+          if (isCurrentRequest()) setChatProgress(message);
         });
       if (!isCurrentRequest()) return;
-      setChatProcessSteps([]);
+      setChatProgress(null);
       if (!localDemoAnswer && !preset && result.sessionId) activeSessionIdRef.current = result.sessionId;
       const assistantMessageId = `assistant-${Date.now()}-${requestToken}`;
       await typeAssistantAnswer(assistantMessageId, result.answer, result.sources);
       if (isCurrentRequest()) {
-        const completedMessages = messagesRef.current;
-
-        persistConversationMessages({ modeOverride: "chat" });
+        const completedMessages: ChatMessageData[] = [
+          ...messagesAfterQuestion,
+          { id: assistantMessageId, role: "assistant", kind: "text", content: result.answer, sources: result.sources },
+        ];
+        persistConversationMessages(completedMessages, { modeOverride: "chat" });
         const conversationId = activeConversationIdRef.current;
         if (conversationId) requestConversationTitle(conversationId, completedMessages);
         digitalHuman.notifySuccess(`chat-${requestToken}`);
       }
     } catch (error) {
       if (!isCurrentRequest()) return;
-      setChatProcessSteps([]);
       digitalHuman.notifyError(`chat-${requestToken}`, "chat");
-      settleFallbackTitle(conversationId);
       if (error instanceof ChatRequestError && error.status === 409) {
         activeSessionIdRef.current = null;
         clearChatSessionId();
         const failedMessages: ChatMessageData[] = [
-          ...messagesRef.current,
+          ...messagesAfterQuestion,
           {
             id: `assistant-error-${Date.now()}`,
             role: "assistant",
@@ -1054,14 +927,14 @@ export function App() {
           },
         ];
         setMessages(failedMessages);
-        persistConversationMessages({ modeOverride: "chat" });
+        persistConversationMessages(failedMessages, { modeOverride: "chat" });
         return;
       }
       const errorContent = error instanceof ChatRequestError && error.detail
         ? error.detail
         : "回答生成过程中出现异常，请重新提问；若持续发生，请联系管理员查看后端日志。";
       const failedMessages: ChatMessageData[] = [
-        ...messagesRef.current,
+        ...messagesAfterQuestion,
         {
           id: `assistant-error-${Date.now()}`,
           role: "assistant",
@@ -1070,11 +943,11 @@ export function App() {
         },
       ];
       setMessages(failedMessages);
-      persistConversationMessages({ modeOverride: "chat" });
+      persistConversationMessages(failedMessages, { modeOverride: "chat" });
     } finally {
       if (!isCurrentRequest()) return;
       setIsAnswering(false);
-      setChatProcessSteps([]);
+      setChatProgress(null);
       if (chatAbortRef.current === requestAbort) chatAbortRef.current = null;
     }
   };
@@ -1090,39 +963,31 @@ export function App() {
 
   const handleModeChange = (nextMode: ChatMode) => {
     if (nextMode === mode) return;
-    setInput("");
-    setSelectedQuestionId("");
+    if (mode === "illustration" && activeImageJobRef.current) {
+      void cancelIllustration("mode-switch");
+    }
+    if (mode === "illustration" && nextMode === "chat") {
+      // A completed illustration belongs to the recent-conversations archive,
+      // rather than becoming the starting state of the next Q&A session.
+      persistConversationMessages(messages, { modeOverride: "illustration" });
+      suppressConversationPersistenceRef.current = true;
+      setMessages([]);
+      setInput("");
+      setSelectedQuestionId("");
+      activeConversationIdRef.current = null;
+      activeSessionIdRef.current = null;
+      setActiveConversationId(null);
+    }
+    if (nextMode === "illustration") {
+      invalidateChatRequest();
+      setMessages([]);
+      setSelectedQuestionId("");
+      clearChatSessionId();
+      activeConversationIdRef.current = null;
+      activeSessionIdRef.current = null;
+      setActiveConversationId(null);
+    }
     setMode(nextMode);
-  };
-
-  // Explicit navigation ends requests; mode changes leave them running in this conversation.
-  const leaveConversation = () => {
-    navigationSequenceRef.current += 1;
-    invalidateChatRequest();
-    if (activeImageJobRef.current) void cancelIllustration("conversation-switch");
-    for (const messageId of pendingImageResultsRef.current.keys()) revealPendingImageResult(messageId);
-    setMessages((current) => current.map((message) => {
-      if (message.kind === "text") return { ...message, isTyping: false };
-      if (message.kind === "image-status" && !["completed", "failed", "cancelled"].includes(message.stage)
-        && pendingCancellationRef.current.get(message.id) !== message.requestToken) {
-        return { ...message, stage: "failed", error: "上次请求已中断，停止结果未确认，请重新提交", isRevealingTrace: false };
-      }
-      return message;
-    }));
-    if (activeConversationIdRef.current) persistConversationMessages({ touch: false });
-    settleFallbackTitle(activeConversationIdRef.current);
-    suppressConversationPersistenceRef.current = true;
-  };
-
-  const startNewConversation = () => {
-    leaveConversation();
-    activeConversationIdRef.current = null;
-    activeSessionIdRef.current = null;
-    setActiveConversationId(null);
-    setMessages([]);
-    setInput("");
-    setSelectedQuestionId("");
-    clearChatSessionId();
   };
 
   const selectDigitalHumanTemplate = (template: DigitalHumanTemplate) => {
@@ -1133,30 +998,35 @@ export function App() {
   };
 
   const openConversation = (conversation: StoredConversation) => {
-    if (activeConversationIdRef.current === conversation.id) return;
-    leaveConversation();
+    invalidateChatRequest();
+    if (activeImageJobRef.current) void cancelIllustration("mode-switch");
+    suppressConversationPersistenceRef.current = true;
     activeConversationIdRef.current = conversation.id;
     activeSessionIdRef.current = conversation.sessionId;
     setActiveConversationId(conversation.id);
     setMode(conversation.mode);
-    setMessages(conversation.messages.map((message) => (
-      message.kind === "image-status" && !["failed", "cancelled"].includes(message.stage)
-        && pendingCancellationRef.current.get(message.id) !== message.requestToken
-        ? { ...message, stage: "failed", isRevealingTrace: false, error: "上次请求已中断，停止结果未确认，请重新提交" }
-        : message.kind === "text" ? { ...message, isTyping: false } : message
-    )));
-    persistConversationMessages({ touch: false });
-    settleFallbackTitle(conversation.id);
+    setMessages(conversation.messages);
     setSelectedQuestionId("");
     setInput("");
     clearChatSessionId();
   };
 
   const deleteConversation = (conversation: StoredConversation) => {
-    if (activeConversationIdRef.current === conversation.id) startNewConversation();
     setConversations((current) => persistConversations(
       current.filter((candidate) => candidate.id !== conversation.id),
     ));
+    if (activeConversationIdRef.current !== conversation.id) return;
+
+    invalidateChatRequest();
+    if (activeImageJobRef.current) void cancelIllustration("conversation-delete");
+    suppressConversationPersistenceRef.current = true;
+    activeConversationIdRef.current = null;
+    activeSessionIdRef.current = null;
+    setActiveConversationId(null);
+    setMessages([]);
+    setSelectedQuestionId("");
+    setInput("");
+    clearChatSessionId();
   };
 
   useEffect(() => {
@@ -1168,7 +1038,6 @@ export function App() {
       chatRequestSequenceRef.current += 1;
       if (typingTimer.current) window.clearInterval(typingTimer.current);
       typingResolveRef.current = null;
-      for (const controller of cancellationControllersRef.current.values()) controller.abort();
       void cancelIllustration("unmount");
     };
   }, []);
@@ -1193,17 +1062,6 @@ export function App() {
   }, []);
 
   useEffect(() => {
-    // Hidden image traces cannot animate; settle their successful result directly.
-    if (mode === "chat") {
-      for (const messageId of pendingImageResultsRef.current.keys()) revealPendingImageResult(messageId);
-    }
-    const conversationId = activeConversationIdRef.current;
-    if (conversationId && messages.some((message) => message.kind === "image-result")) {
-      requestConversationTitle(conversationId, messages);
-    }
-  }, [messages, mode]);
-
-  useEffect(() => {
     if (suppressConversationPersistenceRef.current) {
       suppressConversationPersistenceRef.current = false;
       return;
@@ -1212,10 +1070,7 @@ export function App() {
     if (!activeConversationIdRef.current || !messages.some((message) => (
       message.role === "user" && message.kind === "text" && message.content.trim()
     ))) return;
-    const conversationId = activeConversationIdRef.current;
-    const timer = window.setTimeout(() => {
-      if (activeConversationIdRef.current === conversationId) persistConversationMessages();
-    }, 220);
+    const timer = window.setTimeout(() => persistConversationMessages(messages), 220);
     return () => window.clearTimeout(timer);
   }, [messages]);
 
@@ -1228,7 +1083,6 @@ export function App() {
             activeConversationId={activeConversationId}
             onConversationSelect={openConversation}
             onConversationDelete={deleteConversation}
-            onNewConversation={startNewConversation}
             onGraph={() => setActivePage("graph")}
             onInteractive={() => setActivePage("interactive")}
             onVideo={() => setActivePage("video")}
@@ -1240,11 +1094,11 @@ export function App() {
               </div>
             </header>
             <ChatPanel
-              messages={messages.filter((message) => message.mode === mode)}
+              messages={messages}
               input={input}
-              isAnswering={mode === "chat" && isAnswering}
-              isTypingAnswer={mode === "chat" && isTypingAnswer}
-              chatProcessSteps={chatProcessSteps}
+              isAnswering={isAnswering}
+              isTypingAnswer={isTypingAnswer}
+              chatProgress={chatProgress}
               selectedQuestionId={selectedQuestionId}
               mode={mode}
               onInputChange={setInput}
@@ -1278,7 +1132,6 @@ export function App() {
           <header className="clinical-mobile-header">
             <strong>疫苗智绘</strong>
             <div>
-              <button className="workspace-new-conversation" data-testid="mobile-new-conversation" type="button" onClick={startNewConversation}>开启新对话</button>
               <button data-testid="mobile-image-history-entry" type="button" onClick={() => { digitalHuman.markMeaningfulInteraction(); setHistoryOpen(true); }} aria-label="打开历史记录">历史</button>
               <AdminEntryLink />
             </div>

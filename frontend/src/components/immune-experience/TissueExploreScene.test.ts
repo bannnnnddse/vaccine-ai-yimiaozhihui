@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
+// @ts-expect-error Node types are intentionally not part of the browser application.
 import { readFileSync } from "node:fs";
 import { level3Assets } from "../../assets/immune/level3/level3Assets";
 import {

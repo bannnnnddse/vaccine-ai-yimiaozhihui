@@ -87,10 +87,7 @@ async def test_fetch_maps_abstract_authors_journal_and_types() -> None:
     assert articles[0].authors == ["Alice Smith", "Study Group"]
     assert articles[0].journal == "Vaccine"
     assert articles[0].publication_types == ["Randomized Controlled Trial"]
-    name, arguments = client.call_tool.await_args.args
-    assert name == FETCH_TOOL
-    assert arguments["includeMesh"] is False
-    assert arguments["includeGrants"] is False
+    assert client.call_tool.await_args.args[0] == FETCH_TOOL
 
 
 @pytest.mark.asyncio
@@ -144,22 +141,3 @@ async def test_mcp_unavailable_is_structured_and_retried() -> None:
     with pytest.raises(PubMedUnavailableError):
         await provider.search_articles("vaccines")
     assert client.call_tool.await_count == 2
-
-
-@pytest.mark.asyncio
-async def test_zero_timeout_disables_mcp_deadline(monkeypatch) -> None:
-    import asyncio
-
-    original_wait_for = asyncio.wait_for
-    deadlines = []
-
-    async def capture_wait_for(awaitable, timeout):
-        deadlines.append(timeout)
-        return await original_wait_for(awaitable, timeout=timeout)
-
-    monkeypatch.setattr(asyncio, "wait_for", capture_wait_for)
-    client = AsyncMock()
-    client.call_tool.return_value = _result({"pmids": [], "summaries": []})
-    provider = MCPPubMedProvider(client, timeout_seconds=0, retries=0)
-    assert await provider.search_articles("HPV vaccine") == []
-    assert deadlines == [None]

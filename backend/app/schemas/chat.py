@@ -49,12 +49,12 @@ class ChatRequest(BaseModel):
 class ChatSource(BaseModel):
     file_name: str = Field(min_length=1, max_length=255)
     page: int | None = Field(default=None, ge=1)
-    pages: list[int] | None = Field(default=None, min_length=2)
     content: str = Field(min_length=1, max_length=1200)
     source_type: Literal["web", "pubmed", "curated"] | None = None
     source_title: str | None = Field(default=None, max_length=300)
     source_url: str | None = Field(default=None, max_length=2048)
     section: str | None = Field(default=None, max_length=300)
+    pages: list[int] | None = Field(default=None, min_length=2, max_length=100)
     title: str | None = Field(default=None, max_length=1000)
     pmid: str | None = Field(default=None, pattern=r"^\d{1,10}$")
     journal: str | None = Field(default=None, max_length=500)
@@ -91,17 +91,21 @@ class ChatSource(BaseModel):
 
     @model_validator(mode="after")
     def validate_pubmed_contract(self) -> "ChatSource":
-        if self.pages is not None:
-            normalized = sorted(set(self.pages))
-            if len(normalized) < 2 or any(page < 1 for page in normalized):
-                raise ValueError("pages must contain at least two positive page numbers")
-            self.pages = normalized
         if self.source_type == "pubmed":
-            if self.page is not None or self.pages is not None:
+            if self.page is not None:
                 raise ValueError("PubMed sources cannot have a PDF page")
             if not all([self.title, self.pmid, self.url, self.snippet]):
                 raise ValueError("PubMed sources require title, PMID, URL, and snippet")
         return self
+
+    @field_validator("pages")
+    @classmethod
+    def normalize_pages(cls, value: list[int] | None) -> list[int] | None:
+        if value is None:
+            return None
+        if any(page < 1 for page in value):
+            raise ValueError("source pages must be positive")
+        return sorted(set(value))
 
 
 class ChatResponse(BaseModel):

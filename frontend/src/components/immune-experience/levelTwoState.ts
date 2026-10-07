@@ -37,14 +37,12 @@ export function transitionLevelTwo(state: LevelTwoState, action: LevelTwoAction)
     : state;
 }
 
-type TransitionTimerId = ReturnType<typeof globalThis.setTimeout> | number;
-
 export function createLevelTwoTransitionRuntime(
   onTransitionFinished: () => void,
-  setTimer: (callback: () => void, delay: number) => TransitionTimerId = (callback, delay) => globalThis.setTimeout(callback, delay),
-  clearTimer = (id: TransitionTimerId) => globalThis.clearTimeout(id),
+  setTimer = (callback: () => void, delay: number) => globalThis.setTimeout(callback, delay),
+  clearTimer = (id: number) => globalThis.clearTimeout(id),
 ) {
-  let active: TransitionTimerId | null = null;
+  let active: number | null = null;
   return {
     start() {
       if (active !== null) return false;

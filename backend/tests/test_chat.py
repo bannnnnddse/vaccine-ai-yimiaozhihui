@@ -1,4 +1,3 @@
-import logging
 from unittest.mock import AsyncMock, Mock
 
 import pytest
@@ -673,8 +672,7 @@ def test_pubmed_disabled_keeps_native_rag_without_assessment(app) -> None:
     rag_service.retrieve.assert_called_once()
 
 
-def test_graph_enabled_fuses_context_without_changing_chat_contract(caplog, monkeypatch) -> None:
-    caplog.set_level("INFO", logger="app.api.routes.chat")
+def test_graph_enabled_fuses_context_without_changing_chat_contract() -> None:
     graph_app = create_app(
         Settings(
             _env_file=None,
@@ -713,7 +711,6 @@ def test_graph_enabled_fuses_context_without_changing_chat_contract(caplog, monk
     graph_app.dependency_overrides[get_rag_service] = lambda: rag_service
     graph_app.dependency_overrides[get_graph_service] = lambda: graph_service
 
-    monkeypatch.setattr(logging.getLogger("app"), "propagate", True)
     with TestClient(graph_app) as client:
         response = client.post(
             "/api/v1/chat",
@@ -728,8 +725,6 @@ def test_graph_enabled_fuses_context_without_changing_chat_contract(caplog, monk
         "session_id",
         "sources",
     }
-    assert "stage=graph_retrieval outcome=success duration_ms=" in caplog.text
-    assert "status=retrieved paths=1 sources=1 context_chars=" in caplog.text
     fused = service.analyze_question.await_args.args[1]
     assert "<graph_knowledge" in fused.context
     assert response.json()["sources"] == [

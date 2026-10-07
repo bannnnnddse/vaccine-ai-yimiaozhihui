@@ -9,8 +9,7 @@
     "build": "vite build",
     "test": "vitest run",
     "build:sites": "vite build && node scripts/prepare-sites.mjs",
-    "preview": "vite preview",
-    "typecheck": "tsc --noEmit"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
@@ -30,7 +29,6 @@
     "@types/react-dom": "^19.2.2",
     "@types/react-speech-recognition": "^3.9.6",
     "typescript": "^5.9.3",
-    "vitest": "^4.1.10",
-    "@types/node": "^22"
+    "vitest": "^4.1.10"
   }
 }

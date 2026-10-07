@@ -136,14 +136,13 @@ class Settings(BaseSettings):
     graph_visual_association_max_degree: int = Field(default=4, ge=0, le=8)
 
     pubmed_enabled: bool = True
-    pubmed_provider: Literal["mcp", "direct"] = "direct"
+    pubmed_provider: Literal["mcp", "direct"] = "mcp"
     pubmed_mcp_url: str | None = "https://pubmed.caseyjhand.com/mcp"
     pubmed_proxy_url: str | None = None
     ncbi_api_key: str | None = Field(default=None, repr=False)
     ncbi_email: str | None = Field(default=None, repr=False)
     ncbi_tool: str = "vaccine-ai-backend"
-    # 0 disables the application deadline; positive values bound one operation.
-    pubmed_timeout_seconds: float = Field(default=0, ge=0, le=120)
+    pubmed_timeout_seconds: float = Field(default=20, gt=0, le=120)
     pubmed_max_results: int = Field(default=5, ge=1, le=20)
     pubmed_max_query_length: int = Field(default=500, ge=50, le=2000)
     pubmed_max_tool_rounds: int = Field(default=2, ge=1, le=2)

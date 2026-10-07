@@ -5,7 +5,6 @@ import html
 from app.graph.models import GraphRetrievalResult
 from app.rag.models import RagSource, RetrievedChunk
 from app.rag.service import RetrievalResult
-from app.services.source_quality import deduplicate_local_sources
 
 
 def fuse_retrieval_context(
@@ -56,4 +55,12 @@ def _render_vector_context(chunks: list[RetrievedChunk], budget: int) -> str:
 
 
 def _merge_sources(vector: list[RagSource], graph: list[RagSource]) -> list[RagSource]:
-    return deduplicate_local_sources([*vector, *graph])
+    merged: list[RagSource] = []
+    seen: set[tuple[str, int | None, str | None, str | None, str]] = set()
+    for item in [*vector, *graph]:
+        key = (item.file_name, item.page, item.section, item.source_url, item.content)
+        if key in seen:
+            continue
+        seen.add(key)
+        merged.append(item)
+    return merged

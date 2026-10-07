@@ -1,3 +1,4 @@
+// @ts-expect-error Node types are intentionally not part of the browser application.
 import { readFileSync } from "node:fs";
 import { describe, expect, it, vi } from "vitest";
 import {

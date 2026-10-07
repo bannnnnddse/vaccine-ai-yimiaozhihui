@@ -201,7 +201,6 @@ async function mountCapture(props: CaptureSceneProps, strict = false) {
 
 describe("CaptureScene mounted lifecycle", () => {
   beforeEach(() => {
-    vi.stubGlobal("navigator", { userAgent: "test" });
     vi.useFakeTimers();
     resizeCallbacks = [];
     Object.assign(metrics, {
@@ -219,7 +218,6 @@ describe("CaptureScene mounted lifecycle", () => {
 
   afterEach(() => {
     vi.useRealTimers();
-    vi.unstubAllGlobals();
   });
 
   it("stays hidden and starts no timer before load, then handles zero to positive layout", async () => {

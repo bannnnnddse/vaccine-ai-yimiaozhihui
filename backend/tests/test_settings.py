@@ -168,9 +168,8 @@ def test_pubmed_is_enabled_by_default_and_documents_safe_placeholders() -> None:
     contents = Path(".env.example").read_text(encoding="utf-8")
 
     assert settings.pubmed_enabled is True
-    assert settings.pubmed_provider == "direct"
+    assert settings.pubmed_provider == "mcp"
     assert settings.pubmed_mcp_url == "https://pubmed.caseyjhand.com/mcp"
-    assert settings.pubmed_timeout_seconds == 0
     assert settings.pubmed_max_results == 5
     assert settings.pubmed_max_tool_rounds == 2
     assert settings.pubmed_create_knowledge_gap is False
@@ -179,8 +178,7 @@ def test_pubmed_is_enabled_by_default_and_documents_safe_placeholders() -> None:
     assert "PUBMED_ENABLED=true" in contents
     assert "GRAPH_RAG_ENABLED=false" in contents
     assert "GRAPH_MAX_HOPS=2" in contents
-    assert "PUBMED_PROVIDER=direct" in contents
-    assert "PUBMED_TIMEOUT_SECONDS=0" in contents
+    assert "PUBMED_PROVIDER=mcp" in contents
     assert "NCBI_API_KEY=\n" in contents
     assert "APP_DATABASE_PATH=./runtime/app.db" in contents
     assert "ADMIN_PASSWORD_HASH=\n" in contents
@@ -188,9 +186,9 @@ def test_pubmed_is_enabled_by_default_and_documents_safe_placeholders() -> None:
 
 def test_enabled_mcp_provider_requires_valid_http_url() -> None:
     with pytest.raises(ValidationError, match="PUBMED_MCP_URL is required"):
-        Settings(_env_file=None, pubmed_enabled=True, pubmed_provider="mcp", pubmed_mcp_url=None)
+        Settings(_env_file=None, pubmed_enabled=True, pubmed_mcp_url=None)
     with pytest.raises(ValidationError, match=r"http\(s\)"):
-        Settings(_env_file=None, pubmed_enabled=True, pubmed_provider="mcp", pubmed_mcp_url="file:///tmp/mcp")
+        Settings(_env_file=None, pubmed_enabled=True, pubmed_mcp_url="file:///tmp/mcp")
 
 
 def test_pubmed_proxy_requires_valid_http_url() -> None:

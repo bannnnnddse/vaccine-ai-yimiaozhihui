@@ -241,9 +241,7 @@ Conversation Orchestrator 恢复“那第二针呢”“为什么”等省略式
 }
 ```
 
-`sources` 由后端按当轮候选组装；API 不返回本地绝对路径、向量或相似度。引用修订仅读取候选证据，正文机器标记经确定性校验后绑定来源与编号，未知标记不生成来源；同文献合并、PDF 页码为 1-based。PubMed 标题和摘要片段在 API 边界按 schema 长度约束截断，前端先校验响应字段再渲染。
-
-引用修订允许自然中文正文和合法 JSON；格式非法时按相同候选重生成一次，不展示损坏 JSON。PubMed 使用工具编排、主回答 response ID 与轻量模型 store=false 引用修订流程。
+`sources` 由后端检索层独立组装；API 不返回本地绝对路径、向量或相似度。LLM 被约束为不自行输出引用编号或文件名。
 
 ### 常见错误
 
@@ -268,7 +266,3 @@ Conversation Orchestrator 恢复“那第二针呢”“为什么”等省略式
 ```
 
 测试使用模拟客户端，不会调用真实模型或消耗额度。
-
-PubMed 默认使用 `PUBMED_PROVIDER=direct`：应用 lifespan 创建共享 `httpx.AsyncClient`，通过 NCBI ESearch 查询 PMID，再一次 EFetch 批量读取摘要与文献元数据，关闭时清理连接池。`PUBMED_PROXY_URL` 可显式指定 mihomo 代理，`PUBMED_TIMEOUT_SECONDS=0` 关闭应用/HTTP 硬超时。无 API key 时按至少 0.34 秒请求间隔限速，有 key 时至少 0.11 秒；生产多实例需另行协调共享出口速率。`NCBI_TOOL` 标识应用，`NCBI_EMAIL` 可提供真实联系邮箱，均按官方规范传参。MCP 仅保留为显式选择的兼容提供方，不再是默认路径。
-
-GraphRAG 图检索使用 `graph_retrieval` 阶段日志记录耗时，并记录状态、路径数、来源数和上下文长度。2026-10-07 源项目的生产探测与部署记录见 `../docs/reports/pubmed-direct-deployment-2026-10-07.md`，不代表本展示项目已执行相同部署或获得相同性能。
