@@ -52,7 +52,7 @@ backend/runtime/app.db
 backend/runtime/knowledge_drafts/
 ```
 
-`generated_images/` 是可选历史产物，不影响源码构建。另因 GitHub 单文件 100MB 限制，两个科普视频未随仓库发布，需要完整视频演示时一并传输：
+`generated_images/` 是可选历史产物，不影响源码构建。两集科普视频可在 [线上演示网站](https://www.yimiaozhihui.cn/) 的“科普短视频”入口观看。因 GitHub 单文件 100MB 限制，视频本体不随源码仓库发布；自行部署时需另行传输以下素材：
 
 ```text
 frontend/public/assets/science-videos/virus-adventure-episode-1.mp4
