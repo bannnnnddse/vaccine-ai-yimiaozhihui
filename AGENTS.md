@@ -91,7 +91,8 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 - RAG 检索采用两套不同用途的口径：1081/88.62% 是项目提交报告采用的评测；1000/81.5% 是后续建立的完整公开、冻结可审计 benchmark。两者测试集构造与协议不同，不是前后成绩、不可横向比较，也不得用其中一个覆盖另一个
 - 冻结 RAG V2 1000 条评测公开测试集、gold、逐条结果、trace、全部失败案例、baseline、配置与 hash manifest，见 `docs/evaluation/rag_v2/`；报告口径的原始 1081 条逐题数据仍未公开，仅提供脱敏样例。调参 dev-500 含全部 331 个 baseline miss，不得称为独立未知 holdout
 - 该 1000 条 benchmark 的可接受 gold 仅覆盖 220 个不同 chunk，4000 个 Top-4 项仅覆盖 543 个不同 chunk；不得据此宣称跨主题泛化已验证
-- 科学正确性抽检的人工表已更新为“疫苗课题组项目导师”复核，评分及备注以导师提交为准；冻结回答保留。SCI-013/SCI-020 的引用对应理由仍待补充，完成前不得宣称“20/20 科学正确性已验收”。复核状态由 `docs/evaluation/scientific_correctness/review_status.json` 管理，解除必须由人工确认
+- SCI-013 已通过指定候选索引真实重跑，返回新增规范第七条；新记录位于 `docs/evaluation/scientific_correctness/reruns/`，尚待导师评分，不并入原 20 条指标，生产活动版本未切换。
+- 科学正确性抽检的人工表已更新为“疫苗课题组项目导师”复核，评分及备注以导师提交为准；冻结回答保留。SCI-013/SCI-020 的引用对应说明已补充、待导师确认，完成前不得宣称“20/20 科学正确性已验收”。复核状态由 `docs/evaluation/scientific_correctness/review_status.json` 管理，解除必须由人工确认
 - 正式评测证据冻结后不得重筛 case、修改 gold、删除失败案例或用重跑结果覆盖；构造脚本不得进入 CI/生产自动流程。RAG X2 是 recall-oriented 配置，CPU 正式评测平均延迟约 39 秒，不得声称低延迟
 - 代码、配置与测试优先于实施报告；历史文档不得覆盖当前运行事实
 - 不提交 `.env`、密钥、`backend/runtime/`、`backend/rag_index/`、`backend/model_cache/`、`backend/generated_images/`、运行日志、虚拟环境或编译缓存。功能级复现由 `assets/runtime-assets-manifest.json` 固定官方模型 revision，并由 bootstrap 从受治理语料本机生成索引；下载后必须实际离线加载验证。不得发布生产 active 索引或 Graph snapshot，因为它们含完整 chunk/provenance 正文与生产历史。长期约束与操作入口见 [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md)；受治理语料与源码、测试随仓库交付。

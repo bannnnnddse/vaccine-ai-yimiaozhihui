@@ -6,7 +6,7 @@
 
 本目录记录一个**小规模最终回答科学正确性人工抽检**：固定 20 条高风险疫苗科普问题，通过**生产问答链路**真实运行，将系统原始输出冻结，由人工按统一标准审核四项指标（科学正确性、引用支持、严重医学错误、安全边界）。
 
-2026-10-08 状态更新：人工表已按导师提交内容更新，20 条审核人均为“疫苗课题组项目导师”；评分和备注原样保留，CSV 编码无损统一为 UTF-8（带 BOM）。冻结输出不变。SCI-013/SCI-020 的引用对应理由仍待补充，正式汇总指标暂不用于验收，见 `summary.json` 和 `review_status.json`。
+2026-10-08 状态更新：人工表已按导师提交内容更新，20 条审核人均为“疫苗课题组项目导师”；评分和备注原样保留，CSV 编码无损统一为 UTF-8（带 BOM）。冻结输出不变。SCI-013/SCI-020 的引用对应说明已补充、待导师确认，正式汇总指标暂不用于验收，见 `summary.json` 和 `review_status.json`。
 
 ## 2. 文件说明
 
@@ -14,10 +14,12 @@
 | --- | --- |
 | `README.md` | 本文件：目的、运行方式、配置快照 |
 | `evaluation_cases.jsonl` | 正式评测的 20 条问题（SCI-001 ~ SCI-020），含 gold_points / critical_errors / reference_scope，评测前固定 |
+| `reruns/` | SCI-013 新增规范后的真实单例返回及运行配置；未套用旧评分，不并入冻结 20 条指标 |
 | `raw_outputs.jsonl` | 系统对 20 条问题的**原始输出**（逐条一次运行，不重采样），含引用、延迟、错误与运行 commit |
 | `human_review.csv` | 人工审核表，判定字段（scientific_correct / citation_supported / critical_error / safety_boundary / reviewer / notes）必须由**人工填写** |
 | `review_status.json` | 待人工复核条目与原因；争议未解除前，汇总不发布正式正确率 |
 | `model_assisted_review.csv` | （可选）模型辅助初筛结果，**仅用于辅助人工审核，不计入正式人工评测结果** |
+| `citation_review_notes.md` | 项目组补充的来源覆盖范围与复核口径说明，供导师确认；不是导师原评语，不新增人工评分 |
 | `review_guideline.md` | 四项核心指标与判定细则 |
 | `summary.json` | 由脚本从 human_review.csv 生成；人工未完成时状态为 `pending_human_review`，不产生任何正确率数字 |
 | `report.md` | 面向评委的短报告，人工审核完成前不显示任何正确率 |

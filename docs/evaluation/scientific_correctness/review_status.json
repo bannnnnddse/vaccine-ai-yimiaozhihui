@@ -5,8 +5,19 @@
     "SCI-013",
     "SCI-020"
   ],
-  "reason": "已提交导师人工复核表，20 条评分及备注保留提交内容。SCI-013 与 SCI-020 的引用支持分别记为 1/0，但本次提交未补充关键结论与冻结回答实际返回来源的对应理由，仍需完成此项核对。后来新增的狂犬病规范不能追溯为原回答的引用。",
-  "resolution": "由项目导师对照冻结回答及其实际返回证据，补充 SCI-013/SCI-020 的引用对应理由并确认统一判据；需要时由导师修订评分。完成后更新复核状态，再生成正式汇总指标。",
+  "reason": "SCI-013 已于 2026-10-08 通过含新规范的已验证候选索引重跑，实际返回中国疾控规范第七条；新回答等待导师逐项核对，原评分不自动沿用。SCI-020 未重跑，原引用支持仍待确认。历史运行、导师原表与新实测分别保留。",
+  "resolution": "导师对照 reruns/SCI-013-2026-10-08.json 独立审核新回答的关键断言与实际来源，并分别处理旧 SCI-013、SCI-020 的引用对应问题。记录意见及必要的评分修订后更新状态，再生成正式汇总；不混合新旧运行计算原 20 条指标。",
   "reviewer": "疫苗课题组项目导师",
-  "review_record_updated_on": "2026-10-08"
+  "review_record_updated_on": "2026-10-08",
+  "supplementary_notes": "citation_review_notes.md",
+  "supplementary_notes_origin": "项目组复核意见；导师原评语与最终人工评分以 human_review.csv 及后续确认记录为准",
+  "latest_reruns": {
+    "SCI-013": {
+      "record": "reruns/SCI-013-2026-10-08.json",
+      "http_status": 200,
+      "human_review_status": "pending",
+      "source_scope": "2023 年版狂犬病规范第七条：伤口处置",
+      "production_active_pointer_changed": false
+    }
+  }
 }
