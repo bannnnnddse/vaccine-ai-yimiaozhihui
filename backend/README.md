@@ -13,6 +13,8 @@
 | 获取图片 | `GET /api/v1/generated-images/{filename}` | 返回已完成任务的 PNG。 |
 | KnowledgeGap 审核 | `/admin` | 单一管理员审核、预览 Markdown 并人工发布到 RAG。 |
 
+图解的正式任务调用 `ScienceImageOrganizer.refine()`，没有独立 RAG/PubMed 事实检索；critic 只能检查视觉和潜在科学表达风险，不能证明医学事实已核验。旧 `organize()` 的定量白名单当前为空且不在正式调用链，见 [事实数据说明](app/data/README.md)。
+
 > `/api/v1/knowledge-image` 是旧的兼容接口，使用 Z-Image，可能生成中文或非 9:16 图片。新前端不要使用它；请统一接入 `/api/v1/image-jobs`。
 
 ## 本地启动
@@ -81,7 +83,7 @@ Content-Type: application/json
 响应示例：
 
 ```json
-{"job_id":"62b9c559e1dd","stage":"preparing_content"}
+{"job_id":"62b9c559e1dd","stage":"queued"}
 ```
 
 ### 2. 轮询状态
@@ -90,7 +92,7 @@ Content-Type: application/json
 GET /api/v1/image-jobs/62b9c559e1dd
 ```
 
-处理中会依次出现 `preparing_content`、`generating_illustration`；完成时返回：
+处理中包含 `rewriting_prompt`、`generating`；启用审核/编辑时还会出现 critic、修订、范围守护和 `awaiting_human_feedback` 等阶段，完整状态以 `app/schemas/knowledge_image.py` 为准。完成响应的核心字段示例（实际还含版本和审核字段）：
 
 ```json
 {

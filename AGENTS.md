@@ -8,17 +8,19 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 项目已完成可演示的全栈交付版本：React/Vite 前端、FastAPI 后端、受治理本地 RAG、受限 PubMed 核验、科学图解任务、免疫互动、管理员知识治理和只读知识图谱查看器均已实现。后续工作只能以修复缺陷、提升可访问性/性能、补充受控语料或获得明确授权后的图谱评估与发布为目标。
 
-当前已验证基线（2026-09-05）：
+当前本地离线验证基线（2026-10-08；不代表线上医学准确性验收）：
 
 - 在线体验地址（Cloudflare 隧道实时演示）：https://skin-swimming-shades-assume.trycloudflare.com/ （临时隧道，服务器重启后地址可能变化；部署细节见 DEPLOYMENT.md）
 - 前端 `pnpm test`：59 个测试文件、348 项测试通过；`pnpm build` 通过
-- 后端 `pytest`：428 项测试通过（2 个第三方 deprecation warnings）；`ruff check app tests` 通过
+- 后端 `pytest`：433 项测试通过（2 个第三方 deprecation warnings，含新增 2 项争议汇总与 3 项狂犬病规范测试）；`ruff check app tests` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过
-- GitHub Actions 覆盖 `main` 与 `master` 的前端、后端和 Docker 构建检查，当前全绿
+- GitHub Actions 配置覆盖 `main` 与 `master` 的前端、后端和 Docker 构建检查；实际通过状态以对应提交的 CI 输出为准
 - 项目提交报告口径：Top-4 evidence retrieval 为 958/1081（88.62%）；该口径先从 1500 条中按当时语料覆盖排除 419 个 Knowledge Gap
 - 冻结 RAG V2 X2：Top-4 chunk recall 为 815/1000（81.5%），同集 baseline 为 669/1000（66.9%），提升 +146 hits / +14.6 percentage points；该指标不是回答或医学正确率
 
-> ⚠️ **能力声明边界：** GraphRAG 已启用（`GRAPH_RAG_ENABLED=true`）：知识库为 140 份受治理语料文档（125 PDF + 11 MD + 4 DOCX）构建的 17,167 个 chunks，活动索引 `rag-v2-20260824T024746251335Z-8d89f653`，活动图谱版本 `graph-20260824T032039458153Z-7a0729a2-2558bd4d`（8,006 节点、6,215 边、5,282 条 provenance，全部通过 `medical_graph_validator_v10` 校验）。图缺失或版本不匹配时问答仍安全退回 Vector-only。视频页是本地模拟，不能描述为真实视频模型。
+> ⚠️ **能力声明边界：** 清单共 141 条（125 PDF + 12 MD + 4 DOCX，含 4 份下载占位），不等于实际入索引的文档数。历史部署记录：索引 `rag-v2-20260824T024746251335Z-8d89f653` 为 17,167 chunks，图谱 `graph-20260824T032039458153Z-7a0729a2-2558bd4d` 为 8,006 节点、6,215 边、5,282 条 provenance。生产快照不随 Git 发布，代码默认 `GRAPH_RAG_ENABLED=false`，线上配置需单独核验。图缺失或版本不匹配时问答退回 Vector-only。视频页播放预制短片，仓库只发布封面；补齐 MP4 前无法播放，不是真实视频生成。
+
+2026-10-08 已新增中国疾控收录的狂犬病 2023 年版规范原件与结构化正文，候选 6 个条款正例、2 个负例检索检查全部通过。源文件与验证记录随 Git 交付，生产 active pointer 未切换；SCI-013/020 历史判定仍待医学人工复核。见 [接入记录](docs/rabies-corpus-integration-2026-10-08.md)。
 
 ## 🧭 五模块闭环
 
@@ -26,7 +28,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 | --- | --- | --- |
 | 问答 | 问题 → 路由 → Hybrid RAG → 证据评估 → 回答与来源 | 证据不足形成可审核的 KnowledgeGap；不自动入库 |
 | 图解 | 主题 → 科学 brief → Wan 生成 → 视觉审查 → 接受或 bbox 编辑 | 用户确认采用并处理不确定或越界修改 |
-| 互动 | 五关卡免疫叙事与参数化公共卫生模拟 | 规则、科学表达与展示效果经测试和人工复核后迭代 |
+| 互动 | 三个顶层阶段的免疫叙事与简化传播模拟 | 五关卡为早期叙事设计；当前模拟没有资源配置参数 |
 | 知识治理/图谱 | 候选主张 → 人工审核 → 草稿 → 候选版本 → 原子发布 | 管理员可驳回/暂缓/批准；图谱构建须获得明确授权 |
 | 前端体验 | React 状态与服务层 → 异常/取消处理 → 测试 → 人工验收 | 保持 keyboard/focus、移动端、reduced-motion 与清理异步资源 |
 
@@ -78,7 +80,9 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 ### 图解与前端生命周期
 
 - 正式图解 API 固定为 `POST /api/v1/image-jobs`、`GET /api/v1/image-jobs/{id}`、`DELETE` 取消；不得新增旧 `/knowledge-image` 调用
-- 实际任务阶段为 `preparing_content`、`generating_illustration`、`completed`、`failed`、`cancelled`
+- 当前任务阶段以 `app/schemas/knowledge_image.py` 与 `science_image_job_manager.py` 为准，包含 `rewriting_prompt`、`generating`、视觉审核/修订及终止状态；历史 `preparing_content` / `generating_illustration` 不代表当前管线发出的完整状态
+- 正式任务使用 organizer 的 `refine()`，没有独立事实检索；旧 `organize()` 定量白名单为空且不在正式调用链中。不得将 critic 视觉审查或填充白名单描述为已经完成医学事实核验
+- 互动入口保留科普与医疗建议的边界提示；测试不得断言免责声明必须不存在
 - 图解创建、轮询、编辑与接受必须使用 request token、job ID 和 AbortController；切换、取消、卸载时清理 timer、poll、listener、observer、GSAP 和请求
 - `CELL_IP_ENABLED` 仅表示固定细胞 IP 能力可用，不能覆盖普通科学图解默认的 `scientific_diagram` profile
 
@@ -86,6 +90,8 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 - RAG 检索采用两套不同用途的口径：1081/88.62% 是项目提交报告采用的评测；1000/81.5% 是后续建立的完整公开、冻结可审计 benchmark。两者测试集构造与协议不同，不是前后成绩、不可横向比较，也不得用其中一个覆盖另一个
 - 冻结 RAG V2 1000 条评测公开测试集、gold、逐条结果、trace、全部失败案例、baseline、配置与 hash manifest，见 `docs/evaluation/rag_v2/`；报告口径的原始 1081 条逐题数据仍未公开，仅提供脱敏样例。调参 dev-500 含全部 331 个 baseline miss，不得称为独立未知 holdout
+- 该 1000 条 benchmark 的可接受 gold 仅覆盖 220 个不同 chunk，4000 个 Top-4 项仅覆盖 543 个不同 chunk；不得据此宣称跨主题泛化已验证
+- 科学正确性抽检的 SCI-013/SCI-020 已登记为待人工复核；冻结回答和原人工评分保留，未完成复核前不得宣称“20/20 科学正确性已验收”。复核状态由 `docs/evaluation/scientific_correctness/review_status.json` 管理，解除必须由人工确认
 - 正式评测证据冻结后不得重筛 case、修改 gold、删除失败案例或用重跑结果覆盖；构造脚本不得进入 CI/生产自动流程。RAG X2 是 recall-oriented 配置，CPU 正式评测平均延迟约 39 秒，不得声称低延迟
 - 代码、配置与测试优先于实施报告；历史文档不得覆盖当前运行事实
 - 不提交 `.env`、密钥、`backend/runtime/`、`backend/rag_index/`、`backend/model_cache/`、`backend/generated_images/`、运行日志、虚拟环境或编译缓存。功能级复现由 `assets/runtime-assets-manifest.json` 固定官方模型 revision，并由 bootstrap 从受治理语料本机生成索引；下载后必须实际离线加载验证。不得发布生产 active 索引或 Graph snapshot，因为它们含完整 chunk/provenance 正文与生产历史。长期约束与操作入口见 [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md)；受治理语料与源码、测试随仓库交付。

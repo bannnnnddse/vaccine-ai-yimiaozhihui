@@ -52,7 +52,7 @@ describe("ImmuneExperienceModal markup", () => {
     expect(markup).toContain('id="immune-experience-title"');
     expect(markup).toContain('tabindex="-1"');
     expect(markup).toContain(">开始</button>");
-    expect(markup).not.toContain('class="immune-modal-disclaimer"');
+    expect(markup).toContain("仅供科普参考");
   });
 
   it("renders nothing while closed", () => {

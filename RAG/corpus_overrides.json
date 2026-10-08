@@ -88,6 +88,24 @@
       "notes_append": [
         "国家疾控局、国家卫生健康委对2021年版修订形成的当前版本。"
       ]
+    },
+    "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md": {
+      "source_type": "official_document",
+      "issuer": "国家疾病预防控制局综合司、国家卫生健康委员会办公厅",
+      "authority_level": 4,
+      "evidence_level": "guideline",
+      "publication_date": "2023-09-13",
+      "publication_year": 2023,
+      "version": "2023年版",
+      "metadata_confidence": "high",
+      "review_status": "auto_classified",
+      "notes_append": [
+        "中国疾控官网收录的联合印发规范；文号国疾控综传防发〔2023〕14号。",
+        "规范正文按官方网页转存并保留原件；官方PDF为扫描件，不直接重复入索引。",
+        "日期为原件落款日期，通知网页发布日期为2023-09-16。",
+        "官方原件及SHA256记录：docs/sources/rabies-2023/source_record.json。",
+        "来源身份与文字核对属于资料准入，不替代医学审核或SCI-013/SCI-020历史评分复核。"
+      ]
     }
   }
 }

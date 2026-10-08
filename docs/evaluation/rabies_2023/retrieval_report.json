@@ -1,0 +1,368 @@
+{
+  "index_version": "rag-v2-20261008T055626803051Z-66375f88",
+  "scope": "Local candidate retrieval smoke; not medical-answer accuracy or a full benchmark",
+  "case_set_sha256": "e1d16a44f1d9cca0afc5bbff66d66df5a574e8e87cd011f8de9fdc16cb504c12",
+  "corpus_manifest_sha256": "66375f88ac19a4d11596069b99bc8f605cd46c7221e2f4d6f2fc6671660e71d4",
+  "total_cases": 8,
+  "passed_cases": 8,
+  "gate_passed": true,
+  "results": [
+    {
+      "case_id": "RAB-001",
+      "question": "被狗轻咬裸露皮肤，没有明显出血的轻微抓伤属于几级狂犬病暴露？",
+      "expected_article": "第二条",
+      "expected_text": "无明显出血的轻微抓伤、擦伤为Ⅱ级暴露",
+      "kind": "positive",
+      "passed": true,
+      "pipeline": "hybrid_v2",
+      "fallback_reason": null,
+      "timings_ms": {
+        "dense": 48.78900000039721,
+        "lexical": 2928.940599998896,
+        "fusion": 1.0532000014791265,
+        "reranker": 49742.27969999993,
+        "quality_prior": 1.5392000004794681,
+        "diversity": 6.057600001440733
+      },
+      "retrieved": [
+        {
+          "chunk_id": "chk_e325955d55a55aa8a69ad5c5c914a97c",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第一章 暴露等级判定和处置原则 > 第三条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_5db661a64777b56ff73de146d93ebae1",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第一章 暴露等级判定和处置原则 > 第二条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_cb8b29473b4f00f13d4926fea63091eb",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第一章 暴露等级判定和处置原则 > 第一条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_f20aaa271db71abfe7993777a403f649",
+          "relative_path": "国家卫健委指南/国家卫生健康委员会 - 2026 - 2025中国卫生健康统计年鉴.pdf",
+          "section": "11-4-2　2021年农村居民年龄别、疾病别死亡率（男）",
+          "source_url": null
+        }
+      ]
+    },
+    {
+      "case_id": "RAB-002",
+      "question": "首次暴露后狂犬病疫苗的5针免疫程序是什么？",
+      "expected_article": "第十一条",
+      "expected_text": "5针免疫程序",
+      "kind": "positive",
+      "passed": true,
+      "pipeline": "hybrid_v2",
+      "fallback_reason": null,
+      "timings_ms": {
+        "dense": 18.960499999593594,
+        "lexical": 44.90460000124585,
+        "fusion": 0.8352999993803678,
+        "reranker": 38379.579399999784,
+        "quality_prior": 1.9933999992645113,
+        "diversity": 5.983799999739858
+      },
+      "retrieved": [
+        {
+          "chunk_id": "chk_9663a8b2760ddcbd55e6553193fb0d58",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第三章 疫苗接种和被动免疫制剂的使用 > 第十二条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_18eb7089ac813e16ce73ea26e96713f4",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第三章 疫苗接种和被动免疫制剂的使用 > 第十一条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_590dec8be25dbf3f90f2fbb7b64edd5d",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第二章 伤口处置 > 第十条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_20c2d07341cc9df07df6d64d427856cd",
+          "relative_path": "免疫学基础/预防接种工作规范（2023年版）.pdf",
+          "section": "2.5 肌内注射法",
+          "source_url": null
+        }
+      ]
+    },
+    {
+      "case_id": "RAB-003",
+      "question": "发生狂犬病暴露后，接种狂犬病疫苗有没有禁忌症？",
+      "expected_article": "第十九条",
+      "expected_text": "暴露后狂犬病疫苗接种无禁忌症",
+      "kind": "positive",
+      "passed": true,
+      "pipeline": "hybrid_v2",
+      "fallback_reason": null,
+      "timings_ms": {
+        "dense": 19.751199999518576,
+        "lexical": 48.65819999940868,
+        "fusion": 0.9505000016361009,
+        "reranker": 42177.8704999997,
+        "quality_prior": 1.5396999988297466,
+        "diversity": 6.18909999866446
+      },
+      "retrieved": [
+        {
+          "chunk_id": "chk_02a9d42843f0f72427d1d920447f5c32",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第三章 疫苗接种和被动免疫制剂的使用 > 第十九条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_348f3c74f706a3993abbf9ef46584526",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第三章 疫苗接种和被动免疫制剂的使用 > 第二十条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_5e720ab8c87dacf8c58a819aac9c89bd",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第三章 疫苗接种和被动免疫制剂的使用 > 第十八条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "8e6ffe2f9de78e324720485a0254f271b746d00d1df3eb32c4e13c0a6259873f",
+          "relative_path": "常见疫苗相关介绍文件/HPV/中国 CDC 官方 HPV 纳入免疫规划技术指南（英文原版 PDF，国内唯一完整技术细则，含补种、混用、禁忌症、特殊孩子接种）.pdf",
+          "section": "DISCUSSION",
+          "source_url": null
+        }
+      ]
+    },
+    {
+      "case_id": "RAB-004",
+      "question": "全程接种狂犬病疫苗后3个月内再次暴露，是否需要加强接种？",
+      "expected_article": "第二十七条",
+      "expected_text": "3个月内再次暴露者一般不需要加强接种",
+      "kind": "positive",
+      "passed": true,
+      "pipeline": "hybrid_v2",
+      "fallback_reason": null,
+      "timings_ms": {
+        "dense": 25.91009999923699,
+        "lexical": 49.36230000021169,
+        "fusion": 0.7632000015291851,
+        "reranker": 41772.017600000254,
+        "quality_prior": 1.3936999985162402,
+        "diversity": 6.363099999362021
+      },
+      "retrieved": [
+        {
+          "chunk_id": "chk_c5653d2e913659e51f9e3a77d3a73b52",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第五章 门诊管理 > 第二十八条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_8e40dffbed44bf92152112a99b4c959b",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第四章 暴露前预防和再次暴露后处置 > 第二十七条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_30237d3b8980f8c28e720682ae389cd3",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第四章 暴露前预防和再次暴露后处置 > 第二十六条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_c6b98ac43f7b70b5c9c4906d827a0b88",
+          "relative_path": "常见疫苗相关介绍文件/EV71 手足口疫苗（肠道病毒 71 型灭活疫苗使用技术指南 PDF 永久有效）.pdf",
+          "section": "（二）接种程序",
+          "source_url": null
+        }
+      ]
+    },
+    {
+      "case_id": "RAB-005",
+      "question": "严重免疫功能低下者发生Ⅱ级狂犬病暴露，应按照什么等级处置？",
+      "expected_article": "第五条",
+      "expected_text": "按照Ⅲ级暴露者处置",
+      "kind": "positive",
+      "passed": true,
+      "pipeline": "hybrid_v2",
+      "fallback_reason": null,
+      "timings_ms": {
+        "dense": 24.409300000115763,
+        "lexical": 30.7807999997749,
+        "fusion": 0.7631999997101957,
+        "reranker": 41192.21199999993,
+        "quality_prior": 1.2309000012464821,
+        "diversity": 3.73819999913394
+      },
+      "retrieved": [
+        {
+          "chunk_id": "chk_081f626b65b68696d0b71ed5b5086356",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第一章 暴露等级判定和处置原则 > 第五条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_7501de979ce0d0db5294a73b3cd1c126",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第一章 暴露等级判定和处置原则 > 第六条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_3d1a1b65d3b3cbddca98b3d6be85fa61",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第一章 暴露等级判定和处置原则 > 第四条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_a2b891eddea334f2800a300001217013",
+          "relative_path": "免疫学基础/预防接种工作规范（2023年版）.pdf",
+          "section": "2.2 接种单位的备案",
+          "source_url": null
+        }
+      ]
+    },
+    {
+      "case_id": "RAB-006",
+      "question": "妊娠妇女可以酌情推迟狂犬病暴露前免疫吗？",
+      "expected_article": "第二十六条",
+      "expected_text": "推迟暴露前免疫",
+      "kind": "positive",
+      "passed": true,
+      "pipeline": "hybrid_v2",
+      "fallback_reason": null,
+      "timings_ms": {
+        "dense": 19.381699999939883,
+        "lexical": 27.49519999997574,
+        "fusion": 0.9511999996902887,
+        "reranker": 39136.54839999981,
+        "quality_prior": 1.2926999988849275,
+        "diversity": 7.598500000312924
+      },
+      "retrieved": [
+        {
+          "chunk_id": "chk_90b2b941c83dd6ed7f0295ee31abe6de",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第三章 疫苗接种和被动免疫制剂的使用 > 第二十五条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_30237d3b8980f8c28e720682ae389cd3",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第四章 暴露前预防和再次暴露后处置 > 第二十六条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_8e40dffbed44bf92152112a99b4c959b",
+          "relative_path": "国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md",
+          "section": "狂犬病暴露预防处置工作规范（2023年版） > 第四章 暴露前预防和再次暴露后处置 > 第二十七条",
+          "source_url": "https://www.chinacdc.cn/jkyj/crb2/yl/kqb/jswj_kqb/202409/P020240906525421817465.pdf"
+        },
+        {
+          "chunk_id": "chk_646563d30423a03f5eb808ce5615dcf0",
+          "relative_path": "国家政策与免疫规划/国家免疫规划疫苗儿童免疫程序及说明（2026年版）.pdf",
+          "section": "八 、 血液制品使用",
+          "source_url": null
+        }
+      ]
+    },
+    {
+      "case_id": "RAB-007",
+      "question": "乙肝疫苗为什么需要出生后尽早接种首针？",
+      "kind": "negative",
+      "passed": true,
+      "pipeline": "hybrid_v2",
+      "fallback_reason": null,
+      "timings_ms": {
+        "dense": 19.24440000038885,
+        "lexical": 45.59980000158248,
+        "fusion": 1.0277000001224224,
+        "reranker": 49290.82369999924,
+        "quality_prior": 1.3777999993180856,
+        "diversity": 2.355499998884625
+      },
+      "retrieved": [
+        {
+          "chunk_id": "chk_c6f4b20a04c62165ce4ed22bc2d20681",
+          "relative_path": "免疫学基础/卫健委官方疫苗免疫原理科普（问答式）.md",
+          "section": "疫苗免疫原理科普（问答式）",
+          "source_url": "https://www.nhc.gov.cn/wjw/jbyfykz/201604/e73973a39ece42fdba98e3d8a001acd7.shtml"
+        },
+        {
+          "chunk_id": "chk_fc1d854e6981447b185c051627194141",
+          "relative_path": "免疫学基础/卫健委官方疫苗免疫原理科普（问答式）.md",
+          "section": "疫苗免疫原理科普（问答式）",
+          "source_url": "https://www.nhc.gov.cn/wjw/jbyfykz/201604/e73973a39ece42fdba98e3d8a001acd7.shtml"
+        },
+        {
+          "chunk_id": "26cbcc8187e08e9cf36393fc92a60404cc588db548d44438d54d8a3473852b38",
+          "relative_path": "免疫学基础/中国疾控 免疫基础 + 疫苗原理专题问答.md",
+          "section": "免疫服务知识问答",
+          "source_url": "https://www.chinacdc.cn/jkyj/mygh02/yfjzfw/jzfw/202606/t20260617_1836820.html"
+        },
+        {
+          "chunk_id": "a5fff5d77c308b2bd0d919e4ba99c63f057f756dedbd7abb8ad2c25ac4cb8a31",
+          "relative_path": "接种注意事项/早产儿、过敏体质儿童等，能接种疫苗吗？专家解答→.md",
+          "section": "早产儿、过敏体质儿童等，能接种疫苗吗？专家解答→",
+          "source_url": "https://www.ndcpa.gov.cn/jbkzzx/c100040/common/content/content_1943477598019817472.html"
+        }
+      ]
+    },
+    {
+      "case_id": "RAB-008",
+      "question": "HPV疫苗是否能够预防宫颈癌？",
+      "kind": "negative",
+      "passed": true,
+      "pipeline": "hybrid_v2",
+      "fallback_reason": null,
+      "timings_ms": {
+        "dense": 15.715300000010757,
+        "lexical": 35.06370000104653,
+        "fusion": 0.7392999996227445,
+        "reranker": 37455.971299999874,
+        "quality_prior": 1.3395999994827434,
+        "diversity": 1.6286999998555984
+      },
+      "retrieved": [
+        {
+          "chunk_id": "chk_b81eb651e9f825bb974dd0b2e0721944",
+          "relative_path": "权威指南、科普数字化与可视化/全球宫颈癌预防HPV疫苗接种指南与趋势.pdf",
+          "section": "Global Guidelines and Trends in HPV Vaccination for Cervical Cancer Prevention",
+          "source_url": null
+        },
+        {
+          "chunk_id": "chk_4d4aaf5862527202c4404dc906b8f4a3",
+          "relative_path": "权威指南、科普数字化与可视化/全球宫颈癌预防HPV疫苗接种指南与趋势.pdf",
+          "section": "References:",
+          "source_url": null
+        },
+        {
+          "chunk_id": "chk_c4dcef66c9eb8c61f52e33b664f97795",
+          "relative_path": "权威指南、科普数字化与可视化/全球宫颈癌预防HPV疫苗接种指南与趋势.pdf",
+          "section": "Introduction",
+          "source_url": null
+        },
+        {
+          "chunk_id": "892cdc3bbb3ffe0731a9b6e199e6c7d505705171fae911c6118f4ffe6a285a22",
+          "relative_path": "常见疫苗相关介绍文件/HPV/国家疾控局 HPV 专项家长问答 + 全国执行细则（中文通俗实操版，适配大厅科普）.md",
+          "section": "疫苗免疫预防（人乳头瘤病毒感染）",
+          "source_url": "https://www.chinacdc.cn/jkyj/mygh02/ymkyfjb/hpvgr/202606/t20260622_1837246.html"
+        }
+      ]
+    }
+  ],
+  "candidate_validation": {
+    "index_version": "rag-v2-20261008T055626803051Z-66375f88",
+    "valid": true,
+    "failures": [],
+    "document_count": 133,
+    "chunk_count": 17198,
+    "evaluation_gate_passed": true,
+    "graph": null
+  }
+}

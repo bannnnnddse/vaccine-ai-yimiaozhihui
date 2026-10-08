@@ -6,6 +6,8 @@
 
 本目录记录一个**小规模最终回答科学正确性人工抽检**：固定 20 条高风险疫苗科普问题，通过**生产问答链路**真实运行，将系统原始输出冻结，由人工按统一标准审核四项指标（科学正确性、引用支持、严重医学错误、安全边界）。
 
+2026-10-08 状态更新：SCI-013/SCI-020 的参考来源和引用支持判定需人工复核。冻结输出与原人工 CSV 保留；原“全部审核完成”不再作为验收结论，当前指标见 `summary.json`，待复核事项见 `review_status.json`。
+
 ## 2. 文件说明
 
 | 文件 | 说明 |
@@ -14,6 +16,7 @@
 | `evaluation_cases.jsonl` | 正式评测的 20 条问题（SCI-001 ~ SCI-020），含 gold_points / critical_errors / reference_scope，评测前固定 |
 | `raw_outputs.jsonl` | 系统对 20 条问题的**原始输出**（逐条一次运行，不重采样），含引用、延迟、错误与运行 commit |
 | `human_review.csv` | 人工审核表，判定字段（scientific_correct / citation_supported / critical_error / safety_boundary / reviewer / notes）必须由**人工填写** |
+| `review_status.json` | 待人工复核条目与原因；争议未解除前，汇总不发布正式正确率 |
 | `model_assisted_review.csv` | （可选）模型辅助初筛结果，**仅用于辅助人工审核，不计入正式人工评测结果** |
 | `review_guideline.md` | 四项核心指标与判定细则 |
 | `summary.json` | 由脚本从 human_review.csv 生成；人工未完成时状态为 `pending_human_review`，不产生任何正确率数字 |
@@ -52,7 +55,8 @@ cd backend
 python ../scripts/evaluate_scientific_correctness.py --summarize
 ```
 
-- 20 条全部有人工判定后：生成 `status: "completed"` 的 `summary.json`，并刷新 `report.md` 的结果小节。
+- 20 条全部有人工判定、且 `review_status.json` 不再有待复核条目时：生成 `status: "completed"` 的汇总并刷新结果小节。
+- 存在待复核条目时：生成 `status: "pending_human_recheck"`，正式指标为 `null`，保留原评分的历史计数，不覆盖争议报告。必须由医学审核人完成复核并记录理由后更新人工 CSV 和复核状态；不能仅清空状态文件以恢复原成绩。
 - 仍有空白时：`summary.json` 保持 `status: "pending_human_review"`，所有指标为 `null`；空白**不会**被当作通过，也不会用 AI 初筛填充。
 
 ## 6. 当前评测配置快照

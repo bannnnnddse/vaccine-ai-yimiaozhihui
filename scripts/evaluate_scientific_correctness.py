@@ -7,8 +7,8 @@ Two modes:
                EvidenceAssessment/PubMed) and freeze raw outputs to
                docs/evaluation/scientific_correctness/raw_outputs.jsonl.
   --summarize  Read human_review.csv; only when all 20 cases are reviewed,
-               produce summary.json (status=completed) and update the results
-               section of report.md. Otherwise summary stays pending_human_review.
+               and no human recheck is pending, publish completed metrics and
+               update report.md. Disputed scores remain historical counts only.
 
 This script never invents metrics: summary numbers come exclusively from
 human_review.csv. It also never rewrites answers or resamples on content.
@@ -33,6 +33,7 @@ RAW_PATH = SCI_DIR / "raw_outputs.jsonl"
 REVIEW_PATH = SCI_DIR / "human_review.csv"
 SUMMARY_PATH = SCI_DIR / "summary.json"
 REPORT_PATH = SCI_DIR / "report.md"
+REVIEW_STATUS_PATH = SCI_DIR / "review_status.json"
 
 REVIEW_FIELDS = [
     "case_id", "category", "risk_level", "question",
@@ -84,10 +85,14 @@ def run() -> int:
     sys.path.insert(0, str(BACKEND_ROOT))
     try:
         from fastapi.testclient import TestClient  # noqa: PLC0415
+
         from app.main import create_app  # noqa: PLC0415
     except Exception as exc:
         print(f"ERROR: cannot import backend app: {exc}", file=sys.stderr)
-        print("Run this from an environment where backend dependencies are installed.", file=sys.stderr)
+        print(
+            "Run this from an environment where backend dependencies are installed.",
+            file=sys.stderr,
+        )
         return 2
 
     cases = _load_cases()
@@ -98,7 +103,6 @@ def run() -> int:
         records = []
         for case in cases:
             started = time.perf_counter()
-            error: str | None = None
             payload: dict = {}
             try:
                 resp = client.post(
@@ -195,11 +199,31 @@ def summarize() -> int:
         if all(filled(row, f) for f in METRIC_FIELDS):
             reviewed += 1
 
+    pending_case_ids = []
+    if REVIEW_STATUS_PATH.exists():
+        review_status = json.loads(REVIEW_STATUS_PATH.read_text(encoding="utf-8"))
+        pending_case_ids = review_status["pending_case_ids"]
+        case_ids = {case["case_id"] for case in cases}
+        if (
+            not isinstance(pending_case_ids, list)
+            or any(not isinstance(case_id, str) or case_id not in case_ids
+                   for case_id in pending_case_ids)
+            or review_status.get("status") not in {"completed", "pending_human_recheck"}
+            or (review_status["status"] == "completed" and pending_case_ids)
+            or (review_status["status"] == "pending_human_recheck" and not pending_case_ids)
+        ):
+            print("ERROR: invalid human recheck status; no outputs changed", file=sys.stderr)
+            return 2
+
     summary = {
         "evaluation_name": "High-risk Vaccine QA Scientific Correctness Audit",
         "total_cases": total,
         "reviewed_cases": reviewed,
-        "status": "completed" if reviewed == total else "pending_human_review",
+        "status": (
+            "pending_human_recheck" if pending_case_ids
+            else "completed" if reviewed == total else "pending_human_review"
+        ),
+        "pending_case_ids": pending_case_ids,
         "scientific_correct_count": None,
         "scientific_correct_rate": None,
         "citation_supported_count": None,
@@ -210,12 +234,16 @@ def summarize() -> int:
         "safety_boundary_pass_rate": None,
     }
 
-    if summary["status"] == "completed":
+    if reviewed == total:
         counts = {f: sum(1 for r in rows if r[f].strip() == "1") for f in METRIC_FIELDS}
-        for field, count in counts.items():
-            key = SUMMARY_KEY[field]
-            summary[f"{key}_count"] = count
-            summary[f"{key}_rate"] = round(count / total * 100, 2)
+        if pending_case_ids:
+            # Preserve original human scores without treating disputed results as accepted metrics.
+            summary["historical_review_counts"] = counts
+        else:
+            for field, count in counts.items():
+                key = SUMMARY_KEY[field]
+                summary[f"{key}_count"] = count
+                summary[f"{key}_rate"] = round(count / total * 100, 2)
 
     SUMMARY_PATH.write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -252,7 +280,9 @@ def _update_report(s: dict) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", action="store_true", help="run 20 cases via production pipeline")
-    parser.add_argument("--summarize", action="store_true", help="build summary.json from human_review.csv")
+    parser.add_argument(
+        "--summarize", action="store_true", help="build summary.json from human_review.csv"
+    )
     args = parser.parse_args()
     if not args.run and not args.summarize:
         parser.print_help()

@@ -1,0 +1,5 @@
+# Preserve checksum identities for the governed rabies source across platforms.
+RAG/国家政策与免疫规划/狂犬病暴露预防处置工作规范（2023年版）.md text eol=lf
+docs/sources/rabies-2023/*.pdf -text
+docs/sources/rabies-2023/source_record.json text eol=lf
+docs/evaluation/rabies_2023/*.json* text eol=lf

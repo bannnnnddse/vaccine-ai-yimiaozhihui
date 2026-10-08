@@ -29,3 +29,9 @@ Desktop.ini
 .worktrees/
 .superpowers/
 .playwright-mcp/
+
+# Local submission archives and benchmark construction intermediates
+/vaccine-ai*-source.zip
+/docs/evaluation/rag_v2/build/
+/frontend/public/assets/science-videos/*.mp4
+~$*

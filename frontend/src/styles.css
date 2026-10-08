@@ -1105,6 +1105,10 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
   .page-footer { margin-top: 12px; padding: 0 16px; line-height: 1.6; }
 }
 
+@media (max-width: 720px) {
+  .immune-level-intro { --immune-start-button-y: 0px; }
+}
+
 @media (max-width: 699px) {
   .immune-modal-backdrop { padding: 0; }
   .immune-modal { width: 100vw; height: 100dvh; border: 0; border-radius: 0; }
@@ -1255,7 +1259,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
 }
 
 @media (max-height: 520px) {
-  .immune-level-intro { padding: 10px 12px; }
+  .immune-level-intro { padding: 10px 12px; --immune-start-button-y: 0px; }
   .immune-level-copy { gap: 5px; }
   .immune-level-kicker { font-size: 10px; line-height: 1.2; letter-spacing: .08em; }
   .immune-level-copy h2 { font-size: clamp(19px, 5.5vh, 24px); line-height: 1.08; }

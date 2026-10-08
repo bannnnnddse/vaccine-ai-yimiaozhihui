@@ -8,11 +8,12 @@ import { LevelIntroScene } from "./LevelIntroScene";
 const styles = readFileSync(new URL("../../styles.css", import.meta.url), "utf8");
 
 describe("LevelIntroScene", () => {
-  it("renders the introduction without the removed task list, character image, or duplicate medical note", () => {
+  it("renders the introduction and its medical boundary without the removed task list or character image", () => {
     const markup = renderToStaticMarkup(<LevelIntroScene onStart={() => undefined} />);
 
     expect(markup).not.toContain("<img");
-    expect(markup).not.toContain("仅供科普参考");
+    expect(markup).toContain("仅供科普参考");
+    expect(markup).toContain("不能替代专业医疗建议");
     expect(markup).toContain("一次疫苗接种后，身体里发生了什么？");
     expect(markup).not.toContain('aria-label="本关任务"');
     expect(markup).not.toContain("进入接种现场");

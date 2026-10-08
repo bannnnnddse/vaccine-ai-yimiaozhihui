@@ -43,6 +43,8 @@ soft cap 的含义是：主选择阶段优先遵守每文档 3 个 chunk；若�
 
 ## 测试集构造透明度
 
+2026-10-08 离线复算：1000 条 `evaluation_cases.jsonl` 的 `acceptable_gold_chunk_ids` 去重后为 **220 个 chunk**；`raw_results.jsonl` 的 4000 个 Top-4 项去重后为 **543 个 chunk**。问题围绕有限证据片段构造，多题共享同一 gold，不能视作 1000 个独立证据主题，也不能用此结果证明对未知文档或高风险医学情境的泛化能力。该限制不改变冻结命中数或 gold。
+
 仓库根目录的 `scripts/build_rag_v2_candidates.py` 与本目录 `exclusions.jsonl` 用于记录正式测试集构造与排除过程，不是生产运行时代码。构造脚本可能调用外部模型，不在 CI 或生产部署中自动执行；正式结果生成后不得通过重跑筛选来更改冻结测试集。`build/` 中的 raw/screen 中间工件不属于公开证据包，也不纳入提交。
 
 调参阶段的 dev-500 包含全部 331 个 baseline miss 和 169 个抽样 hit，不是独立未知 holdout。项目提交报告中的 `1081 条 / 88.62%` 是报告采用的检索评测结果；它来自不同数据集与筛选协议，既未被本 benchmark 覆盖，也不能与 81.5% 或本目录的 66.9% baseline 横向比较。

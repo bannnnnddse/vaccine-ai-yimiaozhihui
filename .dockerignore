@@ -2,6 +2,7 @@
 .worktrees
 .superpowers
 .playwright-mcp
+vaccine-ai*-source.zip
 **/.venv
 **/.venv-graph
 **/node_modules

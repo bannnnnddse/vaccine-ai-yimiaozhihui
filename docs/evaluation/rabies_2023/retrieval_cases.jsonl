@@ -1,0 +1,8 @@
+{"case_id":"RAB-001","question":"被狗轻咬裸露皮肤，没有明显出血的轻微抓伤属于几级狂犬病暴露？","expected_article":"第二条","expected_text":"无明显出血的轻微抓伤、擦伤为Ⅱ级暴露","kind":"positive"}
+{"case_id":"RAB-002","question":"首次暴露后狂犬病疫苗的5针免疫程序是什么？","expected_article":"第十一条","expected_text":"5针免疫程序","kind":"positive"}
+{"case_id":"RAB-003","question":"发生狂犬病暴露后，接种狂犬病疫苗有没有禁忌症？","expected_article":"第十九条","expected_text":"暴露后狂犬病疫苗接种无禁忌症","kind":"positive"}
+{"case_id":"RAB-004","question":"全程接种狂犬病疫苗后3个月内再次暴露，是否需要加强接种？","expected_article":"第二十七条","expected_text":"3个月内再次暴露者一般不需要加强接种","kind":"positive"}
+{"case_id":"RAB-005","question":"严重免疫功能低下者发生Ⅱ级狂犬病暴露，应按照什么等级处置？","expected_article":"第五条","expected_text":"按照Ⅲ级暴露者处置","kind":"positive"}
+{"case_id":"RAB-006","question":"妊娠妇女可以酌情推迟狂犬病暴露前免疫吗？","expected_article":"第二十六条","expected_text":"推迟暴露前免疫","kind":"positive"}
+{"case_id":"RAB-007","question":"乙肝疫苗为什么需要出生后尽早接种首针？","kind":"negative"}
+{"case_id":"RAB-008","question":"HPV疫苗是否能够预防宫颈癌？","kind":"negative"}

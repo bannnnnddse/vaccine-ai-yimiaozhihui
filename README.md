@@ -2,7 +2,7 @@
 本作品为 **2026年“挑战杯”揭榜挂帅擂台赛（阿里云赛道·题目编号XH-202619）** 参赛作品，归属「赛道三：科普科教与艺术表达-科学传播的多元艺术表达」方向。
 
 ### 参赛合规说明
-1. **基座模型合规**：核心推理模型采用 Qwen 3.8-flash，图像生成模型采用 Wan 2.7-image-pro，均为千问（Qwen）系列开源模型，符合赛事基座模型要求。
+1. **模型使用说明**：默认推理模型为 Qwen 3.8-flash，图像模型为 Wan 2.7-image-pro，通过百炼调用。Wan 属于通义万相；不将这些托管服务型号等同于已公开权重的开源模型。赛事合规需结合具体模型与赛事要求核验。
 2. **平台调用合规**：模型服务通过**阿里云百炼平台**调用，项目算力支持来自阿里云「云工开物」学生算力权益，符合赛事平台使用要求。
 3. **交付说明**：仓库采用“源码 + 功能级可复现脚本”交付：bootstrap 从官方源下载固定版本 BGE 模型，并由受治理语料在本机重建 Hybrid RAG；不分发生产 active 索引、Graph snapshot 或历史生成素材。
 
@@ -16,7 +16,9 @@
 > - http://118.31.227.194/ （HTTP 直连）
 > - https://skin-swimming-shades-assume.trycloudflare.com/ （Cloudflare 临时隧道；隧道重启后地址可能更新）
 
-> 📋 **能力边界：** 本项目用于健康科普与科学传播，不提供个体化诊疗或接种决策；具体接种安排以当地疾控机构与专业人员最新建议为准。GraphRAG 已启用（`GRAPH_RAG_ENABLED=true`）：140 份受治理语料文档（125 PDF + 11 MD + 4 DOCX）构建为 17,167 个 chunks，活动图谱版本含 8,006 节点、6,215 边、5,282 条 provenance；图缺失或版本不匹配时问答自动回退 Vector-only。视频页为本地模拟交互，不宣称真实视频生成。
+> 📋 **能力边界：** 本项目用于健康科普与科学传播，不提供个体化诊疗或接种决策。语料清单共 141 条（含 4 份下载占位文档），不等于活动索引实际收录量。历史部署记录为 17,167 个 chunks、8,006 个图节点与 6,215 条边；生产索引和图快照不随 Git 发布，当前线上状态需另行核验。代码默认 `GRAPH_RAG_ENABLED=false`，图缺失或版本不匹配时问答回退 Vector-only。
+>
+> **视频演示限制：** 仓库仅包含两集短片的封面，未包含 MP4。直接克隆并启动后，视频入口可见但无法播放；部署方补齐 [DEPLOYMENT.md](DEPLOYMENT.md) 所列素材后才可演示。该入口播放预制短片，不提供真实视频生成。上述网址是否已补齐素材需另行检查。
 
 ---
 
@@ -57,24 +59,18 @@ flowchart TB
 
 ### 2. 图解闭环（科学 brief → Wan 生成 → 视觉审查 → 局部编辑）
 
-用户主题先由 Qwen 整理为受约束的中文科学简报（对象、机制、因果链、标注），再交 Wan 生成；输出经视觉 critic 审查文字、结构与科学表达，用户可确认采用，或提交受 bbox 范围守护的局部修改（模型只见外扩裁剪，只有向内羽化的用户 bbox 可写，回贴时越界像素被拒绝）。
+用户主题先由 Qwen 的 `refine()` 整理为中文科学简报，再交 Wan 生成。启用视觉审核时，critic 检查文字、结构和潜在科学表达风险；用户可确认采用或提交受 bbox 范围守护的局部修改。**正式图解任务未接入独立 RAG/PubMed 事实检索，也未调用旧 `organize()` 的定量事实白名单；默认白名单为空。视觉审核不能证明医学结论或数字已核验。** 具体边界与补齐要求见 [事实数据说明](backend/app/data/README.md)。
 
 ```mermaid
 flowchart TB
     accTitle: 科学图解运行工作流
-    accDescr: 一次图解请求从主题输入、科学内容规划、通义万相生成、审核修改到成果发布完成闭环。
+    accDescr: 正式任务从主题输入、Qwen 简报到 Wan 生成，可选视觉审核及用户框选编辑；当前不含独立证据检索。
 
     user([用户输入主题或选中问答答案]) --> choose[选择受众、画风和图解类型]
     choose --> create_job[前端创建图解任务，FastAPI 分配唯一任务 ID]
-    create_job --> source_fetch[读取当轮问答证据或知识库来源]
-
-    source_fetch --> qwen_brief[Qwen 生成中文科学图解简报]
+    create_job --> qwen_brief[Qwen refine 生成中文图解简报]
     qwen_brief --> extract[提炼对象、机制、因果链和关键标注]
-    extract --> fact_check{是否具备足够科学依据}
-
-    fact_check -->|否| explain_missing[提示证据不足并推荐补充问答]
-    explain_missing --> user
-    fact_check -->|是| prompt_design[生成通义万相提示词与负面约束]
+    extract --> prompt_design[生成通义万相提示词与负面约束]
 
     prompt_design --> wanxiang[Wan 生成图解]
     wanxiang --> poll[前端轮询任务状态，可取消并对称清理]
@@ -82,24 +78,22 @@ flowchart TB
     status -->|失败| retry[调整简报或提示词后重试]
     retry --> wanxiang
     status -->|取消| cancel[终止任务并清理轮询]
-    status -->|完成| quality[视觉 critic 审查文字、结构与科学表达]
+    status -->|完成| quality[可选视觉 critic 审查文字、结构与潜在风险]
 
     quality --> approve{用户是否认可}
     approve -->|修改| edit[提交 bbox 局部修改，范围守护校验]
     edit --> qwen_brief
     approve -->|采用| publish[发布 PNG 与图解说明]
-    publish --> provenance[关联图解、来源与任务版本]
-    provenance --> graph_link[同步关联知识图谱节点]
-    graph_link --> result([展示、下载或分享科普成果])
+    publish --> result([展示或下载图解，医学事实仍需人工复核])
 ```
 
 ### 3. 互动闭环（免疫闯关 + 公共卫生沙盘）
 
-体验一为五关卡免疫叙事（抗原捕获、抗原呈递、B 细胞激活、记忆召回等，含迷宫寻路与注视追踪）；体验二为参数化公共卫生模拟（覆盖率、传播风险与资源配置规则）。规则、科学表达与展示效果经自动化测试与人工复核后迭代。
+体验一实际实现三个顶层阶段：`LevelOne`（接种与抗原捕获）、`LevelTwo`（迷宫追击与抗原呈递）、`LevelThree`（淋巴细胞协作、B 细胞激活与记忆召回）。早期“五关卡”是叙事设计，不是当前五个独立 stage。体验二为简化的传播模拟，可调整人数、接种比例、疫苗效力、初始患病比例、感染概率、保持距离比例和死亡概率；尚无资源配置模型。所有参数用于机制示意，不用于预测真实疫情或决定接种。
 
 ### 4. 知识治理与图谱闭环（候选主张 → 人工审核 → 原子发布）
 
-当前活动图谱版本 `graph-20260824T032039458153Z-7a0729a2-2558bd4d`：基于 17,167 个 chunks 构建的 8,006 节点 / 6,215 边 / 5,282 条 provenance，全部通过 `medical_graph_validator_v10` 校验后原子发布，并通过 GraphRAG 在问答中提供图上下文。
+历史部署记录的图谱版本为 `graph-20260824T032039458153Z-7a0729a2-2558bd4d`（8,006 节点 / 6,215 边 / 5,282 条 provenance）。这些数字是历史快照记录；clean clone 不含该快照，不能据此承诺开箱即展示同一图谱。规则校验通过也不等于医学准确率验收。
 
 ```mermaid
 flowchart LR
@@ -133,7 +127,7 @@ flowchart LR
 | 前端 | React 19 + TypeScript + Vite + Cytoscape/GSAP | 只调用同源 `/api/v1`；跨面板状态在 `App.tsx` |
 | API | FastAPI 应用工厂、`/api/v1` router、lifespan | 路由只做 HTTP/依赖/稳定错误映射；共享客户端由 lifespan 创建 |
 | 问答 | `RagService`、`QwenService`、`EvidenceAssessmentService` | 主回答看到原问题；来源只能由当轮检索/外部文献产生 |
-| 知识 | `RAG/` 语料（140 份文档 → 17,167 个 chunks）、manifest、versioned candidate、`active.json` | 运行时只读本地模型与索引；不自动下载或重建 |
+| 知识 | `RAG/` 清单（141 条，含下载占位）、manifest、versioned candidate、`active.json` | 运行时只读本地模型与索引；实际收录量以活动索引为准 |
 | 治理 | KnowledgeGap、管理员 session/CSRF、SQLite GraphJob | 只允许人工批准、人工发布；失败保留旧活动版本 |
 | 图解 | ImageJob、organizer、Wan、critic、scope guard | 单活动内存任务；取消、轮询和请求对称清理 |
 | 图谱 | graph worker、validator、snapshot、public store | 唯一输入为同版 Vector candidate chunks |
@@ -157,7 +151,7 @@ flowchart LR
 │   ├── tests/           离线测试套件（含 RAG X2 回归与 evaluator 完整性测试）
 │   ├── assets/          图解管线运行参考图
 │   └── runtime/  rag_index/  model_cache/  generated_images/   # 本机生成的运行时资产，不入库
-├── RAG/                 受治理语料：140 份文档（125 PDF + 11 MD + 4 DOCX）+ corpus_manifest.jsonl 准入清单
+├── RAG/                 语料清单 141 条（125 PDF + 12 MD + 4 DOCX，含 4 份下载占位）
 ├── skills/              受治理细胞 IP 图解技能（图解管线启动校验依赖）
 ├── nginx/  docker-compose.yml  Dockerfile×2
 ├── assets/              runtime-assets-manifest.json（固定上游模型 revision）
@@ -215,6 +209,8 @@ docker compose up -d --build
 
 X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank 深度为 60，使用 512-token 邻接窗口重打分、`max(plain, window)` 合并、候选池内 ±1 邻接平滑、质量先验，以及 soft cap=3 的 diversity-first 选择。CPU 正式评测平均延迟约 39 秒，因此不能描述为低延迟配置。完整原始证据与复算说明见 [RAG V2 X2 冻结评测目录](docs/evaluation/rag_v2/README.md)。
 
+**样本集中度限制：** 1000 条问题的 `acceptable_gold_chunk_ids` 合计只有 220 个不同切片；4000 个 Top-4 检索项涉及 543 个不同切片。该 benchmark 围绕有限证据片段构造，dev-500 又参与过调参，不能据此证明跨文档、未知主题或高风险医学问题的泛化能力。
+
 ### 两套结果的关系
 
 项目报告的 `1081 条 / 88.62%` 与冻结复核 benchmark 的 `1000 条 / 81.5%` 并非同一测试集上的前后版本成绩。二者的数据集构造、样本筛选/冻结协议与评测用途不同，因此不能直接横向比较；81.5% 不表示系统从 88.62% 下降，也不用于替代项目报告中的 88.62%。
@@ -226,6 +222,15 @@ X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank �
 
 ## 七、质量基线
 
-- 后端：428 项 `pytest` 通过（2 个第三方 deprecation warnings）；`ruff check app tests` 通过
+2026-10-08 本次本地离线验证；测试数量随提交与参数化变化，后续以对应提交的实际测试或 CI 输出为准。
+
+- 后端：433 项 `pytest` 通过（2 个第三方 deprecation warnings，含新增 2 项争议汇总测试和 3 项狂犬病规范测试）；`ruff check app tests` 通过
 - 前端：59 个测试文件、348 项测试通过；`pnpm build` 通过
+- `python scripts/deploy_preflight.py --source-only` 通过；本次未调用真实模型或重建索引/图谱
 - CI：GitHub Actions 持续执行前端测试与构建、后端测试与 lint，以及 Docker 构建验证，配置见 `.github/workflows/ci.yml`。
+
+## 八、科学证据与交付限制
+
+2026-10-08 补充狂犬病规范后，当前清单仍有：98/141 条 `evidence_level=unknown`，117/141 条 `metadata_confidence=low`，117/141 条缺少 `publication_date`，120/141 条语言为英文。部分 `issuer` 来自 PDF 作者元数据，不能视作发布机构。受治理表示有清单和准入流程，不代表元数据已全部人工核实。
+
+原 20 条科学正确性抽检中的 SCI-013、SCI-020 将当时库内缺失的狂犬病专项规范列为参考范围，实际返回来源未充分对应关键结论。2026-10-08 已新增中国疾控收录的《狂犬病暴露预防处置工作规范（2023年版）》原件及可检索正文，候选的 6 个条款正例与 2 个负例检索检查全部通过；新增资料不追溯修复旧回答的引用。接入与验证见 [接入记录](docs/rabies-corpus-integration-2026-10-08.md)。原始回答和人工评分继续公开保留，但原“20/20 科学正确、19/20 引用支持”仅为历史内部评分，当前处于待人工复核状态，不作为有效验收结论。见 [抽检报告](docs/evaluation/scientific_correctness/report.md) 与 [逐项仓库核查](docs/submission-audit-2026-10-08.md)。
