@@ -1,7 +1,7 @@
-# 图解事实核验边界
+# 图解证据绑定边界
 
-正式 image jobs 调用 `ScienceImageOrganizer.refine()`。旧 `organize()`、空 `verified_visual_facts.json`、白名单加载及匹配逻辑已删除，详见 [清理记录](../../../docs/science-image-legacy-cleanup-2026-10-08.md)。
+旧 `organize()`、空白名单及匹配逻辑已删除。正式图解通过 `ScienceImageEvidenceService` 独立调用现有本地 RAG，将每个科学表述和因果步骤绑定到真实切片、逐字摘录与索引版本；来源元数据由后端生成。没有有效依据、绑定缺失、数字单位不对应或支持检查失败时停止生成。
 
-正式任务目前没有独立 RAG/PubMed 事实检索。brief 中的科学表述由模型整理，critic 负责视觉和潜在科学表达风险审查；二者不能证明医学事实已核验，医学内容仍需人工复核。
+生成与 critic 使用同一来源契约；重试重新检索，编辑不得扩展原科学内容。API、图像审计文件和前端会话保存来源记录。来源绑定状态为 `sources_bound`，`medical_review_required` 始终为 true，不使用“医学事实已核验”标记。PubMed 图解检索和真实生图科学性评测本轮未实施。
 
-后续需将当轮可追溯证据与每项科学主张绑定，核对疫苗、人群、适用条件、数值及单位，证据不足时限制生成内容或转人工审核；再将核验结果传给生成和审查，并补充无来源、错疫苗、错人群等离线测试。该改造尚未完成。
+详见 [实现与验证记录](../../../docs/science-image-grounding-2026-10-08.md)。

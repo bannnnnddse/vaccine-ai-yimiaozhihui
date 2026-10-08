@@ -16,7 +16,7 @@ from app.rag.models import RagSource, RetrievedChunk
 from app.rag.numpy_store import NumpyRagStore, is_numpy_index
 from app.rag.ranking import apply_quality_prior, select_diverse_diversity_first
 from app.rag.reranker import CrossEncoderReranker, RerankerUnavailableError
-from app.rag.store import ChromaRagStore
+from app.rag.store import ChromaRagStore, RagStoreError
 
 logger = logging.getLogger(__name__)
 RagProgressCallback = Callable[[str], None]
@@ -32,6 +32,7 @@ class RetrievalResult:
     chunks: list[RetrievedChunk]
     context: str
     sources: list[RagSource]
+    index_version: str | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -152,6 +153,7 @@ class RagService:
     ) -> tuple[RetrievalResult, RetrievalTrace]:
         settings = self._settings
         store = self._ensure_store()
+        index_version = self._active_index_version
         store.validate_index(
             chunk_size=settings.rag_chunk_size,
             chunk_overlap=settings.rag_chunk_overlap,
@@ -178,7 +180,9 @@ class RagService:
                 selected=selected,
                 timings_ms={"dense": (time.perf_counter() - started) * 1000},
             )
-        return self._build_result(selected), trace
+        if store is not self._store or index_version != self._active_index_version:
+            raise RagStoreError("RAG index changed during retrieval; retry required")
+        return replace(self._build_result(selected), index_version=index_version), trace
 
     def _select_dense(self, fetched: list[RetrievedChunk]) -> list[RetrievedChunk]:
         settings = self._settings

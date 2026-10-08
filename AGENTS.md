@@ -11,8 +11,8 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 当前本地离线验证基线（2026-10-08；不代表线上医学准确性验收）：
 
 - 在线体验地址（Cloudflare 隧道实时演示）：https://skin-swimming-shades-assume.trycloudflare.com/ （临时隧道，服务器重启后地址可能变化；部署细节见 DEPLOYMENT.md）
-- 前端 `pnpm test`：59 个测试文件、348 项测试通过；`pnpm build` 通过
-- 后端 `pytest`：410 项测试通过（2 个第三方 deprecation warnings；移除旧图解入口及专用测试，保留正式入口异常回归）；`ruff check app tests` 通过
+- 前端 `pnpm test`：61 个测试文件、360 项测试通过；`pnpm build` 通过
+- 后端 `pytest`：437 项测试通过（2 个第三方 deprecation warnings；含图解证据绑定与生命周期守护回归）；`ruff check app tests` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过
 - GitHub Actions 配置覆盖 `main` 与 `master` 的前端、后端和 Docker 构建检查；实际通过状态以对应提交的 CI 输出为准
 - 项目提交报告口径：Top-4 evidence retrieval 为 958/1081（88.62%）；该口径先从 1500 条中按当时语料覆盖排除 419 个 Knowledge Gap
@@ -27,7 +27,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 | 模块 | 主路径 | 闭环与人工控制 |
 | --- | --- | --- |
 | 问答 | 问题 → 路由 → Hybrid RAG → 证据评估 → 回答与来源 | 证据不足形成可审核的 KnowledgeGap；不自动入库 |
-| 图解 | 主题 → 科学 brief → Wan 生成 → 视觉审查 → 接受或 bbox 编辑 | 用户确认采用并处理不确定或越界修改 |
+| 图解 | 主题 → 独立 RAG → brief 与来源绑定 → 支持检查 → Wan → 审查/编辑 | 用户确认采用并处理不确定或越界修改 |
 | 互动 | 三个顶层阶段的免疫叙事与简化传播模拟 | 五关卡为早期叙事设计；当前模拟没有资源配置参数 |
 | 知识治理/图谱 | 候选主张 → 人工审核 → 草稿 → 候选版本 → 原子发布 | 管理员可驳回/暂缓/批准；图谱构建须获得明确授权 |
 | 前端体验 | React 状态与服务层 → 异常/取消处理 → 测试 → 人工验收 | 保持 keyboard/focus、移动端、reduced-motion 与清理异步资源 |
@@ -81,7 +81,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 - 正式图解 API 固定为 `POST /api/v1/image-jobs`、`GET /api/v1/image-jobs/{id}`、`DELETE` 取消；不得新增旧 `/knowledge-image` 调用
 - 当前任务阶段以 `app/schemas/knowledge_image.py` 与 `science_image_job_manager.py` 为准，包含 `rewriting_prompt`、`generating`、视觉审核/修订及终止状态；历史 `preparing_content` / `generating_illustration` 不代表当前管线发出的完整状态
-- 正式任务使用 organizer 的 `refine()`，没有独立事实检索；旧 `organize()`、空定量白名单及匹配逻辑已删除。不得将删除遗留代码或 critic 视觉审查描述为已经完成医学事实核验
+- 正式任务必须经过 `ScienceImageEvidenceService`：独立调用共享 RAG、记录本轮 index version、校验每个 claim/step 的来源及逐字摘录，再进行支持范围检查；失败不得调用 Wan。重试重新检索；编辑只能保留已绑定科学含义，否则要求新主题。来源与图片元数据、前端结果及会话历史同属一个任务，不能把来源绑定或模型支持检查称为医学审核通过。旧空白名单保持删除；图解未接 PubMed，不得用聊天历史当证据
 - 互动入口保留科普与医疗建议的边界提示；测试不得断言免责声明必须不存在
 - 图解创建、轮询、编辑与接受必须使用 request token、job ID 和 AbortController；切换、取消、卸载时清理 timer、poll、listener、observer、GSAP 和请求
 - `CELL_IP_ENABLED` 仅表示固定细胞 IP 能力可用，不能覆盖普通科学图解默认的 `scientific_diagram` profile

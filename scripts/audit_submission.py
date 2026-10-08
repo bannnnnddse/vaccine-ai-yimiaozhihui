@@ -46,11 +46,14 @@ def main() -> None:
                                        if not (ROOT / "RAG" / row["relative_path"]).is_file()],
         },
         "visual_fact_verification": {
-            "formal_entrypoint": "ScienceImageOrganizer.refine",
+            "formal_entrypoint": "ScienceImageEvidenceService.prepare",
             "legacy_allowlist_present": (
                 ROOT / "backend/app/data/verified_visual_facts.json"
             ).is_file(),
-            "independent_evidence_retrieval": False,
+            "independent_evidence_retrieval": True,
+            "source_binding_contract": "image_evidence_v1",
+            "support_check": "exact_quote_and_model_support",
+            "real_image_accuracy_evaluation_completed": False,
             "medical_review_required": True,
         },
         "benchmark": {

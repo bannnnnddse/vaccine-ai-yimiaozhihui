@@ -26,6 +26,7 @@ from app.services.evidence_assessment import EvidenceAssessmentService
 from app.services.knowledge_gap_review_service import KnowledgeGapReviewService
 from app.services.knowledge_gap_service import KnowledgeGapService
 from app.services.qwen_service import QwenService
+from app.services.science_image_evidence import ScienceImageEvidenceService
 from app.services.science_image_job_manager import ScienceImageJobManager
 from app.services.science_image_organizer import ScienceImageOrganizer
 from app.services.visual_critic_service import VisualCriticService
@@ -135,7 +136,10 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             app_settings.image_edit_min_inside_change,
         )
         app.state.science_image_job_manager = ScienceImageJobManager(
-            app_settings, organizer, wan_generator, critic, edit_rewriter, guard
+            app_settings, organizer, wan_generator, critic, edit_rewriter, guard,
+            evidence_service=ScienceImageEvidenceService(
+                rag_service, organizer, app.state.rag_semaphore
+            ),
         )
         try:
             if app_settings.rag_warmup_enabled:

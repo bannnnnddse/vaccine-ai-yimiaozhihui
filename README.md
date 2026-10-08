@@ -57,32 +57,35 @@ flowchart TB
 - `sources` 只能来自当轮本地检索或外部 PubMed，PDF 页码为 1-based，无证据时返回空数组；
 - 证据不足且 PubMed 无结果时返回受限初步科普，不捏造剂次、年龄、禁忌或来源。
 
-### 2. 图解闭环（科学 brief → Wan 生成 → 视觉审查 → 局部编辑）
+### 2. 图解闭环（独立检索 → 来源绑定 → Wan 生成 → 视觉审查）
 
-用户主题先由 Qwen 的 `refine()` 整理为中文科学简报，再交 Wan 生成。启用视觉审核时，critic 检查文字、结构和潜在科学表达风险；用户可确认采用或提交受 bbox 范围守护的局部修改。**正式图解任务未接入独立 RAG/PubMed 事实检索。旧 `organize()`、空定量白名单及匹配逻辑已删除；视觉审核不能证明医学结论或数字已核验。** 具体边界与补齐要求见 [事实数据说明](backend/app/data/README.md)。
+正式任务独立调用现有本地 Hybrid RAG，Qwen 依据本轮原文整理 brief，每项科学表述和因果步骤均须绑定真实来源编号与逐字摘录。后端核对覆盖、来源身份、数字及单位，并单独检查支持范围；无依据、格式无效或支持检查失败时停止，不调用 Wan。生成、视觉审查及编辑沿用同一证据契约；前端展示表述、原文、来源链接和页码/条款。**来源绑定及模型辅助检查不等于医学审核通过，医学内容仍需人工复核。** 本轮未做收费生图评测，图解尚未接 PubMed 外部检索。详见 [改造记录](docs/science-image-grounding-2026-10-08.md)。
 
 ```mermaid
 flowchart TB
     accTitle: 科学图解运行工作流
-    accDescr: 正式任务从主题输入、Qwen 简报到 Wan 生成，可选视觉审核及用户框选编辑；当前不含独立证据检索。
+    accDescr: 正式任务从主题输入、Qwen 简报到 Wan 生成，可选视觉审核及用户框选编辑；先独立检索并绑定来源，缺少支持时停止生成。
 
     user([用户输入主题或选中问答答案]) --> choose[选择受众、画风和图解类型]
     choose --> create_job[前端创建图解任务，FastAPI 分配唯一任务 ID]
-    create_job --> qwen_brief[Qwen refine 生成中文图解简报]
+    create_job --> evidence[独立 Hybrid RAG 检索本轮原文]
+    evidence --> qwen_brief[Qwen refine 整理内容与来源绑定]
     qwen_brief --> extract[提炼对象、机制、因果链和关键标注]
-    extract --> prompt_design[生成通义万相提示词与负面约束]
+    extract --> binding{来源、摘录及支持范围检查}
+    binding -->|未通过| stop[停止生成并说明依据不足]
+    binding -->|通过| prompt_design[编译受证据约束的生成指令]
 
     prompt_design --> wanxiang[Wan 生成图解]
     wanxiang --> poll[前端轮询任务状态，可取消并对称清理]
     poll --> status{任务状态}
     status -->|失败| retry[调整简报或提示词后重试]
-    retry --> wanxiang
+    retry --> evidence
     status -->|取消| cancel[终止任务并清理轮询]
     status -->|完成| quality[可选视觉 critic 审查文字、结构与潜在风险]
 
     quality --> approve{用户是否认可}
-    approve -->|修改| edit[提交 bbox 局部修改，范围守护校验]
-    edit --> qwen_brief
+    approve -->|修改| edit[先检查科学含义，再执行 bbox 编辑与范围守护]
+    edit --> quality
     approve -->|采用| publish[发布 PNG 与图解说明]
     publish --> result([展示或下载图解，医学事实仍需人工复核])
 ```
@@ -224,8 +227,8 @@ X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank �
 
 2026-10-08 本次本地离线验证；测试数量随提交与参数化变化，后续以对应提交的实际测试或 CI 输出为准。
 
-- 后端：410 项 `pytest` 通过（2 个第三方 deprecation warnings；旧图解入口及专用测试已清理，正式入口异常测试已迁移）；`ruff check app tests` 通过
-- 前端：59 个测试文件、348 项测试通过；`pnpm build` 通过
+- 后端：437 项 `pytest` 通过（2 个第三方 deprecation warnings；含图解来源绑定、取消、重试及编辑守护回归）；`ruff check app tests` 通过
+- 前端：61 个测试文件、360 项测试通过；`pnpm build` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过；本次未调用真实模型或重建索引/图谱
 - CI：GitHub Actions 持续执行前端测试与构建、后端测试与 lint，以及 Docker 构建验证，配置见 `.github/workflows/ci.yml`。
 

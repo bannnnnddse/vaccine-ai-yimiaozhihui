@@ -149,7 +149,21 @@ export interface EditScopeGuardResult {
   notes: string;
 }
 
+export interface FigureSource {
+  sourceId: string; chunkId: string; documentId: string; fileName: string;
+  title: string; page: number | null; section: string | null;
+  sourceUrl: string | null; sourceHash: string; content: string;
+}
+export interface FigureBinding { target: "claim" | "step"; index: number; sourceId: string; quote: string; }
+export interface FigureEvidence {
+  contractVersion: "image_evidence_v1";
+  indexVersion: string; sources: FigureSource[]; bindings: FigureBinding[];
+  claims: string[]; steps: string[]; contentSignature: string;
+  status: "sources_bound"; medicalReviewRequired: true;
+}
+
 export interface ImageJob {
+  evidence?: FigureEvidence;
   jobId: string;
   stage: ImageJobStage;
   imageUrl?: string;
@@ -169,6 +183,7 @@ export interface ImageJob {
 }
 
 interface ImageJobApiResponse {
+  evidence?: unknown;
   job_id: unknown;
   stage: unknown;
   image_url?: unknown;
@@ -486,9 +501,9 @@ async function parseImageJobResponse(response: Response): Promise<ImageJob> {
     );
   }
 
-  let data: ImageJobApiResponse;
+  let data: unknown;
   try {
-    data = await response.json() as ImageJobApiResponse;
+    data = await response.json();
   } catch {
     throw new Error("Image job service returned an invalid JSON response");
   }
@@ -509,7 +524,9 @@ async function getImageJobErrorMessage(response: Response): Promise<string> {
   return `Image job request failed (HTTP ${response.status})`;
 }
 
-function toImageJob(data: ImageJobApiResponse): ImageJob {
+function toImageJob(value: unknown): ImageJob {
+  if (!value || typeof value !== "object" || Array.isArray(value)) throw new Error("Image job service returned an invalid response");
+  const data = value as ImageJobApiResponse;
   if (typeof data.job_id !== "string" || !data.job_id.trim()) {
     throw new Error("Image job service returned an invalid job ID");
   }
@@ -531,6 +548,7 @@ function toImageJob(data: ImageJobApiResponse): ImageJob {
     traceEvents: parseTraceEvents(data.trace_events),
   };
 
+  if (data.evidence !== undefined && data.evidence !== null) job.evidence = parseFigureEvidence(data.evidence);
   if (data.error !== undefined) job.error = data.error;
   if (data.retryable !== undefined) job.retryable = data.retryable;
 
@@ -741,7 +759,89 @@ export async function generateVisualization(_request: GenerationRequest): Promis
   await delay(600);
 }
 
-export async function verifyScientificContent(_content: string): Promise<void> {
-  // 扩展位置：接入权威文献检索、引用回溯和人工反馈修正流程。
-  await delay(400);
+export function parseFigureEvidence(value: unknown): FigureEvidence {
+  const bad = () => { throw new Error("Image job service returned invalid evidence"); };
+  const record = (item: unknown): Record<string, unknown> => {
+    if (!item || typeof item !== "object" || Array.isArray(item)) return bad();
+    return item as Record<string, unknown>;
+  };
+  const text = (item: unknown, limit = 2400, minimum = 1): string => {
+    if (typeof item !== "string" || !item.trim() || item.length < minimum || item.length > limit) return bad();
+    return item;
+  };
+  const strings = (item: unknown, max: number, limit: number): string[] => {
+    if (!Array.isArray(item) || item.length < 1 || item.length > max) return bad();
+    return item.map((entry) => text(entry, limit, 4));
+  };
+  const data = record(value);
+  if (data.contract_version !== "image_evidence_v1" || data.status !== "sources_bound" || data.medical_review_required !== true
+      || data.assessment_method !== "exact_quote_and_model_support") return bad();
+  const claims = strings(data.claims, 8, 300), steps = strings(data.steps, 4, 240);
+  if (!Array.isArray(data.sources) || data.sources.length < 1 || data.sources.length > 4) return bad();
+  const sources = data.sources.map((item): FigureSource => {
+    const source = record(item);
+    const sourceId = text(source.source_id, 30);
+    if (!/^E[1-9]\d*$/.test(sourceId)) return bad();
+    const page = source.page;
+    if (page !== null && (typeof page !== "number" || !Number.isInteger(page) || page < 1)) return bad();
+    const sourceUrl = source.source_url;
+    if (sourceUrl !== null) {
+      const url = text(sourceUrl, 2048);
+      try { const parsed = new URL(url); if (!["http:", "https:"].includes(parsed.protocol) || parsed.username || parsed.password) return bad(); }
+      catch { return bad(); }
+    }
+    return { sourceId, chunkId: text(source.chunk_id, 300), documentId: text(source.document_id, 300),
+      fileName: text(source.file_name, 255), title: text(source.title, 1000), page,
+      section: source.section === null ? null : text(source.section, 500),
+      sourceUrl: sourceUrl === null ? null : text(sourceUrl, 2048),
+      sourceHash: text(source.source_hash, 300), content: text(source.content, 2400, 8) };
+  });
+  if (new Set(sources.map((source) => source.sourceId)).size !== sources.length) return bad();
+  if (!Array.isArray(data.bindings) || data.bindings.length < 1 || data.bindings.length > 24) return bad();
+  const seen = new Set<string>();
+  const bindings = data.bindings.map((item): FigureBinding => {
+    const binding = record(item);
+    if (binding.target !== "claim" && binding.target !== "step") return bad();
+    const index = binding.index;
+    const targets = binding.target === "claim" ? claims : steps;
+    if (typeof index !== "number" || !Number.isInteger(index) || index < 0 || index >= targets.length) return bad();
+    const sourceId = text(binding.source_id, 30), quote = text(binding.quote, 600);
+    const source = sources.find((candidate) => candidate.sourceId === sourceId);
+    const identity = JSON.stringify([binding.target, index, sourceId, quote]);
+    if (!source || quote.length < 8 || !source.content.includes(quote) || seen.has(identity)) return bad();
+    seen.add(identity);
+    return { target: binding.target, index, sourceId, quote };
+  });
+  for (const [target, texts] of [["claim", claims], ["step", steps]] as const) {
+    if (texts.some((_, index) => !bindings.some((binding) => binding.target === target && binding.index === index))) return bad();
+  }
+  const contentSignature = text(data.content_signature, 64);
+  if (!/^[a-f0-9]{64}$/.test(contentSignature)) return bad();
+  return { contractVersion: "image_evidence_v1", indexVersion: text(data.index_version, 200), sources, bindings, claims, steps, contentSignature,
+    status: "sources_bound", medicalReviewRequired: true };
+}
+
+
+export function isStoredFigureEvidence(value: unknown): value is FigureEvidence {
+  try {
+    if (!value || typeof value !== "object") return false;
+    const data = value as Record<string, unknown>;
+    if (!Array.isArray(data.sources) || !Array.isArray(data.bindings)) return false;
+    const record = (item: unknown) => {
+      if (!item || typeof item !== "object") throw new Error("invalid stored evidence");
+      return item as Record<string, unknown>;
+    };
+    parseFigureEvidence({ contract_version: data.contractVersion, index_version: data.indexVersion, content_signature: data.contentSignature,
+      status: data.status, medical_review_required: data.medicalReviewRequired,
+      assessment_method: "exact_quote_and_model_support", claims: data.claims, steps: data.steps,
+      sources: data.sources.map((item) => { const source = record(item); return {
+        source_id: source.sourceId, chunk_id: source.chunkId, document_id: source.documentId,
+        file_name: source.fileName, title: source.title, page: source.page, section: source.section,
+        source_url: source.sourceUrl, source_hash: source.sourceHash, content: source.content,
+      }; }), bindings: data.bindings.map((item) => { const binding = record(item); return {
+        target: binding.target, index: binding.index, source_id: binding.sourceId, quote: binding.quote,
+      }; }),
+    });
+    return true;
+  } catch { return false; }
 }

@@ -26,6 +26,7 @@ from app.schemas.image_pipeline import (
 from app.schemas.science_figure import ChineseFigureBrief, CoreCausalStep
 from app.services.cell_ip_assets import CellIpGenerationProfile
 from app.services.edit_instruction_rewriter import EditInstructionRewriter
+from app.services.science_image_evidence import ScienceImageEvidenceService
 from app.services.science_image_job_manager import JobConflictError, ScienceImageJobManager
 from app.services.science_image_organizer import ScienceImageOrganizer
 from app.services.wan_image_generator import WanImageGenerator
@@ -204,8 +205,20 @@ def dependencies(tmp_path: Path):
     critic.review.return_value = _critic()
     guard = AsyncMock()
     guard.check.return_value = _guard(True)
+    evidence = AsyncMock(spec=ScienceImageEvidenceService)
+
+    async def prepare(prompt):
+        return await organizer.refine(prompt)
+
+    evidence.prepare.side_effect = prepare
     manager = ScienceImageJobManager(
-        settings, organizer, wan, critic, EditInstructionRewriter(), guard
+        settings,
+        organizer,
+        wan,
+        critic,
+        EditInstructionRewriter(),
+        guard,
+        evidence_service=evidence,
     )
     return manager, organizer, wan, critic, guard
 
@@ -234,6 +247,7 @@ async def test_initial_generation_uses_wan_and_persists_structured_audit(
     assert status.image_id == f"{created.job_id}-v0"
     assert [event.stage for event in status.trace_events] == [
         "understanding",
+        "prompt_rewrite",
         "prompt_rewrite",
         "generation",
         "visual_critic",
@@ -365,6 +379,7 @@ async def test_auto_revision_guard_outside_change_adopts_revision_with_human_rev
     )
     assert [event.stage for event in status.trace_events] == [
         "understanding",
+        "prompt_rewrite",
         "prompt_rewrite",
         "generation",
         "visual_critic",
@@ -831,3 +846,67 @@ async def test_single_concurrency_is_preserved(dependencies) -> None:
     with pytest.raises(JobConflictError):
         await manager.create("second")
     gate.set()
+
+
+@pytest.mark.asyncio
+async def test_evidence_failure_never_calls_wan(dependencies):
+    from app.services.science_image_evidence import ImageEvidenceError
+
+    manager, _, wan, *_ = dependencies
+    manager._evidence_service.prepare.side_effect = ImageEvidenceError("依据不足，已停止生成")
+    created = await manager.create("没有依据的主题")
+    await _wait_idle(manager, created.job_id)
+    status = await manager.get(created.job_id)
+    assert status.stage == "failed" and status.image_url is None
+    wan.generate.assert_not_awaited()
+
+
+@pytest.mark.asyncio
+async def test_retry_retrieves_fresh_evidence_instead_of_reusing_brief(dependencies):
+    manager, _, wan, *_ = dependencies
+    wan.generate.side_effect = RuntimeError("生成暂不可用")
+    first = await manager.create("免疫记忆")
+    await _wait_idle(manager, first.job_id)
+    assert (await manager.get(first.job_id)).retryable
+    second = await manager.retry(first.job_id)
+    await _wait_idle(manager, second.job_id)
+    assert manager._evidence_service.prepare.await_count == 2
+
+
+@pytest.mark.asyncio
+async def test_unsupported_edit_keeps_image_without_calling_wan(dependencies):
+    from app.services.science_image_evidence import ImageEvidenceError
+
+    manager, _, wan, *_ = dependencies
+    first = await manager.create("免疫记忆")
+    await _wait_idle(manager, first.job_id)
+    image = await manager.get(first.job_id)
+    manager._evidence_service.check_edit.side_effect = ImageEvidenceError("修改缺少支持")
+    await manager.edit(
+        first.job_id,
+        ImageEditRequest(
+            target_image_id=image.image_id,
+            bbox=[0.2, 0.2, 0.8, 0.8],
+            user_edit_request="改成绝对没有风险",
+        ),
+    )
+    await _wait_idle(manager, first.job_id)
+    result = await manager.get(first.job_id)
+    assert result.stage == "awaiting_human_feedback" and result.image_id == image.image_id
+    wan.edit.assert_not_awaited()
+
+
+@pytest.mark.asyncio
+async def test_unsupported_auto_revision_preserves_initial_image(dependencies):
+    from app.services.science_image_evidence import ImageEvidenceError
+
+    manager, _, wan, critic, _ = dependencies
+    critic.review.return_value = _critic("auto")
+    manager._evidence_service.check_edit.side_effect = ImageEvidenceError("修订缺少支持")
+    created = await manager.create("免疫记忆")
+    await _wait_idle(manager, created.job_id)
+    result = await manager.get(created.job_id)
+    assert result.stage == "awaiting_human_feedback"
+    assert result.image_id == f"{created.job_id}-v0" and result.image_url
+    assert result.error == "修订缺少支持"
+    wan.edit.assert_not_awaited()

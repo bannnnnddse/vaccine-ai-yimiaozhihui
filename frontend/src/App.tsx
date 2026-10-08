@@ -90,7 +90,7 @@ type LocalIllustrationDemo = typeof LOCAL_SHOWCASE_DEMOS.fluVaccineIllustration
 
 const progressCopy: Partial<Record<ImageJobStage, string>> = {
   queued: "任务排队中…",
-  rewriting_prompt: "正在优化生成提示词…",
+  rewriting_prompt: "正在检索资料并整理图解依据…",
   generating: "正在生成科学图解…",
   critic_review_1: "AI 正在审核首次结果…",
   auto_revising: "AI 正在自动修订一次…",
@@ -404,9 +404,14 @@ export function App() {
           ...(job.imageUrl ? { imageUrl: job.imageUrl } : {}),
           ...(job.imageId ? { imageId: job.imageId } : {}),
           traceId: job.traceId || message.traceId,
+          evidence: job.evidence,
           traceEvents: job.traceEvents ?? message.traceEvents ?? [],
         };
-        if (message.kind === "image-status") return { ...message, jobId: job.jobId, requestToken, stage: job.stage, error: progressCopy[job.stage], traceId: job.traceId || message.traceId, traceEvents: job.traceEvents ?? message.traceEvents ?? [] };
+        if (message.kind === "image-status") return {
+          ...message, jobId: job.jobId, requestToken, stage: job.stage,
+          error: progressCopy[job.stage], traceId: job.traceId || message.traceId,
+          evidence: job.evidence, traceEvents: job.traceEvents ?? message.traceEvents ?? [],
+        };
         return message;
       }));
       schedulePoll(active, NORMAL_POLL_DELAY);
@@ -438,6 +443,7 @@ export function App() {
           stage: job.stage,
           error: null,
           traceId: job.traceId,
+          evidence: job.evidence,
           traceEvents: job.traceEvents ?? [],
           isRevealingTrace: true,
         });
@@ -459,13 +465,15 @@ export function App() {
               candidateImageUrl: job.candidateImageUrl,
               previousImageUrl: job.previousImageUrl,
               previousImageId: job.previousImageId,
-              criticResult: job.criticResult,
+              error: job.error,
+            criticResult: job.criticResult,
               guardResult: job.guardResult,
               autoRevisionCount: job.autoRevisionCount,
               revisionOrigin: job.revisionOrigin,
               previousRevisionOrigin: job.previousRevisionOrigin,
               traceId: job.traceId || "",
-              traceEvents: job.traceEvents ?? [],
+              evidence: job.evidence,
+          traceEvents: job.traceEvents ?? [],
             }
           : message
       )));
@@ -568,6 +576,7 @@ export function App() {
           stage: job.stage,
           error: null,
           traceId: job.traceId,
+          evidence: job.evidence,
           traceEvents: job.traceEvents,
           isRevealingTrace: true,
         },
@@ -623,13 +632,15 @@ export function App() {
             candidateImageUrl: job.candidateImageUrl,
             previousImageUrl: job.previousImageUrl,
             previousImageId: job.previousImageId,
+            error: job.error,
             criticResult: job.criticResult,
             guardResult: job.guardResult,
             autoRevisionCount: job.autoRevisionCount,
             revisionOrigin: job.revisionOrigin,
             previousRevisionOrigin: job.previousRevisionOrigin,
             traceId: job.traceId,
-            traceEvents: job.traceEvents,
+            evidence: job.evidence,
+          traceEvents: job.traceEvents,
           }
         : message
     )));
@@ -728,12 +739,14 @@ export function App() {
             candidateImageUrl: job.candidateImageUrl,
             previousImageUrl: job.previousImageUrl,
             previousImageId: job.previousImageId,
+            error: job.error,
             criticResult: job.criticResult,
             guardResult: job.guardResult,
             revisionOrigin: job.revisionOrigin,
             previousRevisionOrigin: job.previousRevisionOrigin,
             traceId: job.traceId || item.traceId,
-            traceEvents: job.traceEvents ?? item.traceEvents,
+            evidence: job.evidence,
+          traceEvents: job.traceEvents ?? item.traceEvents,
           }
         : item));
     } catch {

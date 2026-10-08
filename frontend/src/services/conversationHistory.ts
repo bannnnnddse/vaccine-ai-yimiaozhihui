@@ -1,5 +1,6 @@
 import type { ChatMode } from "../components/ChatInput";
 import type { ChatMessageData } from "../components/ChatMessage";
+import { isStoredFigureEvidence } from "./generationService";
 
 export const CONVERSATION_HISTORY_STORAGE_KEY = "vaccine-ai.conversations.v1";
 export const CONVERSATION_HISTORY_VERSION = 1 as const;
@@ -125,6 +126,9 @@ function isChatMessage(value: unknown): value is ChatMessageData {
       && (value.isTyping === undefined || typeof value.isTyping === "boolean")
       && (value.sources === undefined || isJsonSafe(value.sources));
   }
+  if ((value.kind === "image-status" || value.kind === "image-result")
+      && value.evidence !== undefined && !isStoredFigureEvidence(value.evidence)) return false;
+
   if (value.kind === "image-status") {
     return value.role === "assistant"
       && typeof value.prompt === "string"

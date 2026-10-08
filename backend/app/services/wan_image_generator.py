@@ -20,6 +20,7 @@ from app.services.cell_ip_assets import (
     CellIpAssetService,
     CellIpGenerationProfile,
 )
+from app.services.science_image_evidence import evidence_contract
 from app.services.visual_complexity_contract import derive_visual_complexity_contract
 from app.services.wan_api_client import WanApiClient
 
@@ -145,11 +146,11 @@ def build_fast_wan_prompt(
         chinese_labels="、".join(label.strip() for label in brief.chinese_labels),
         complexity_contract=derive_visual_complexity_contract(brief).generation_text(),
     )
-    original = user_prompt.strip() if user_prompt else ""
+    original = user_prompt.strip() if user_prompt and brief.evidence is None else ""
     if original:
         follow_up = "请在遵循上述科学关系的前提下，兼顾用户原始需求中的表达重点。"
         prompt = f"{prompt}\n\n【用户原始需求】\n{original}\n\n{follow_up}"
-    return prompt
+    return prompt + evidence_contract(brief)
 
 
 def build_cell_ip_prompt(
@@ -197,7 +198,7 @@ def build_cell_ip_prompt(
         title_instruction=("允许一个必要的简短中文标题" if profile.allow_title else "不要标题"),
         prohibitions="、".join(profile.prohibitions),
         complexity_contract=derive_visual_complexity_contract(brief).generation_text(),
-    )
+    ) + evidence_contract(brief)
 
 
 def _reference_usage(name: str, identity_names: dict[str, str]) -> str:
@@ -351,6 +352,7 @@ class WanImageGenerator:
         }
         if wants_cell_ip and self._cell_ip_assets is None:
             raise CellIpAssetError("cell IP visual profile requested while the skill is disabled")
+        user_prompt = None if brief.evidence is not None else user_prompt
         cell_ip_profile = (
             await asyncio.to_thread(self._cell_ip_assets.profile_for, brief, user_prompt)
             if wants_cell_ip and self._cell_ip_assets

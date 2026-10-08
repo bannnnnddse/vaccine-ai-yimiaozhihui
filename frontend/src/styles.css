@@ -2234,3 +2234,13 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px
     transform: translate3d(-50%, -50%, 0) rotate(0deg) scale(1);
   }
 }
+
+.figure-evidence { min-width: 0; font-size: 12px; line-height: 1.65; overflow-wrap: anywhere; }
+.figure-evidence__notice { margin: 0; padding: 10px 12px; color: var(--blue-900); background: var(--blue-100); font-size: 12px; line-height: 1.6; }
+.figure-evidence details { padding: 10px 0; }
+.figure-evidence summary { cursor: pointer; color: var(--blue-800); }
+.figure-evidence summary:focus-visible { outline: 2px solid var(--blue-600); outline-offset: 4px; }
+.figure-evidence ol { padding-left: 20px; }
+.figure-evidence__source { padding: 6px 0 12px; }
+.figure-evidence__source p { color: var(--muted); font-size: 11px; }
+.figure-evidence blockquote { margin: 6px 0; border-left: 3px solid var(--blue-200); padding: 4px 10px; }

@@ -1,8 +1,10 @@
 """Contracts for dynamically routed Chinese science-image generation."""
 
-from typing import Literal
+from typing import Annotated, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
+
+from app.schemas.science_evidence import FigureBinding, FigureEvidence
 
 ScienceImageType = Literal[
     "science_poster",
@@ -59,10 +61,17 @@ class ChineseFigureBrief(BaseModel):
     # separately from the governed asset manifest.
     scene_direction: str = Field(default="", max_length=1600)
     optimized_chinese_prompt: str = Field(min_length=40, max_length=3000)
-    chinese_labels: list[str] = Field(min_length=1, max_length=8)
-    scientific_claims: list[str] = Field(min_length=1, max_length=8)
+    chinese_labels: list[Annotated[str, Field(min_length=1, max_length=80)]] = Field(
+        min_length=1, max_length=8
+    )
+    scientific_claims: list[Annotated[str, Field(min_length=4, max_length=300)]] = Field(
+        min_length=1, max_length=8
+    )
     core_causal_steps: list[CoreCausalStep] = Field(min_length=1, max_length=4)
     route_reason: str = Field(min_length=4, max_length=240)
+    evidence_bindings: list[FigureBinding] = Field(default_factory=list, max_length=24)
+    # Assigned only after server-side validation; never accepted from model output.
+    evidence: FigureEvidence | None = None
 
 
 # Retained as a temporary import-compatible name until the organizer and image

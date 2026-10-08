@@ -1,13 +1,18 @@
 import { useEffect, useRef, useState, type PointerEvent } from "react";
 import type {
   EditScopeGuardResult,
+  FigureEvidence,
   ImageJobStage,
   NormalizedBBox,
   RevisionOrigin,
   VisualCriticResult,
 } from "../services/generationService";
 
+import { FigureEvidencePanel } from "./FigureEvidencePanel";
+
 interface ImageReviewCardProps {
+  evidence?: FigureEvidence;
+  error?: string | null;
   imageUrl: string;
   candidateImageUrl?: string;
   previousImageUrl?: string;
@@ -63,6 +68,7 @@ export function ImageReviewCard(props: ImageReviewCardProps) {
       <div className="image-review-card__media">
         <img src={props.imageUrl} alt="AI 生成的科学图解" onError={props.onImageError} />
       </div>
+      <FigureEvidencePanel evidence={props.evidence} />
     </section>;
   }
   return <section className="image-review-card">
@@ -71,6 +77,7 @@ export function ImageReviewCard(props: ImageReviewCardProps) {
         : <img src={props.imageUrl} alt="AI 生成的科学图解" onError={props.onImageError} />}
     </div>
     <div className="image-review-card__body">
+      <FigureEvidencePanel evidence={props.evidence} />
       <div className="image-review-card__meta">
         <strong>{props.historical ? "历史版本" : busy ? stageLabel(props.stage) : props.stage === "completed" ? "图解可接受" : "等待你的确认或修改"}</strong>
         <span>{props.revisionOrigin ? originCopy[props.revisionOrigin] : "生成闭环"}{props.autoRevisionCount > 0 ? ` · AI 已自动修订 ${props.autoRevisionCount} 次` : ""}</span>
@@ -106,6 +113,7 @@ export function ImageReviewCard(props: ImageReviewCardProps) {
         <textarea value={request} onChange={(event) => { props.onInteraction?.(); setRequest(event.target.value); }} maxLength={1000} placeholder="例如：把框内标题改成更简洁的中文" />
         <div><button type="button" onClick={() => setBBox(null)}>清除框选</button><button type="button" disabled={!bbox || !request.trim() || busy} onClick={() => { if (bbox && request.trim()) props.onEdit(bbox, request.trim()); }}>提交局部修改</button></div>
       </div>}
+      {props.error && <p className="image-review-card__accept-error" role="alert">{props.error}</p>}
       {!props.accepted && props.acceptError && <p className="image-review-card__accept-error" role="alert">{props.acceptError}</p>}
       {!props.accepted && <div className="image-review-card__actions">
         {!props.historical && <button type="button" disabled={busy} onClick={props.onAccept}>{props.guardResult?.insufficientChangeInsideBBox ? "确认采用当前修订图" : "接受结果"}</button>}

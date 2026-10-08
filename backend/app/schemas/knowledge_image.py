@@ -8,6 +8,7 @@ from app.schemas.image_pipeline import (
     RevisionOrigin,
     VisualCriticResult,
 )
+from app.schemas.science_evidence import FigureEvidence
 from app.schemas.science_figure import GenerationRoute, ScienceImageType
 
 ImageJobStage = Literal[
@@ -87,6 +88,7 @@ class ImageJobStatus(BaseModel):
     previous_image_id: str | None = None
     error: str | None = None
     retryable: bool = False
+    evidence: FigureEvidence | None = None
     critic_result: VisualCriticResult | None = None
     guard_result: EditScopeGuardResult | None = None
     auto_revision_count: int = Field(default=0, ge=0)

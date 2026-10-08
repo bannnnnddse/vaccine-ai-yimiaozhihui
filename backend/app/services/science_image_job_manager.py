@@ -38,6 +38,7 @@ from app.services.image_roi_editor import (
     validate_bbox_for_image,
 )
 from app.services.local_image_eraser import erase_on_uniform_background
+from app.services.science_image_evidence import ScienceImageEvidenceService, evidence_contract
 from app.services.visual_complexity_contract import derive_visual_complexity_contract
 
 if TYPE_CHECKING:
@@ -155,6 +156,7 @@ class _JobRecord:
             previous_revision_origin=self.previous_revision_origin if self.is_presentable else None,
             trace_id=self.trace_id,
             trace_events=self.trace_events,
+            evidence=self.brief.evidence if self.brief else None,
         )
 
 
@@ -169,6 +171,8 @@ class ScienceImageJobManager:
         critic: VisualCriticService,
         rewriter: EditInstructionRewriter,
         guard: EditScopeGuardService,
+        *,
+        evidence_service: ScienceImageEvidenceService,
     ) -> None:
         self._settings = settings
         self._organizer = organizer
@@ -176,6 +180,7 @@ class ScienceImageJobManager:
         self._critic = critic
         self._rewriter = rewriter
         self._guard = guard
+        self._evidence_service = evidence_service
         self._jobs: dict[str, _JobRecord] = {}
         self._active_job_id: str | None = None
         self._lock = asyncio.Lock()
@@ -298,12 +303,12 @@ class ScienceImageJobManager:
             if record is None or not record.retryable:
                 return None
             self._check_concurrency()
-            replacement = _JobRecord(_new_job_id(), record.prompt, brief=record.brief)
+            replacement = _JobRecord(_new_job_id(), record.prompt)
             self._start_trace(
                 replacement,
                 "understanding",
                 "正在重新准备图解任务",
-                "复用已整理的图解需求继续生成。",
+                "重新检索本轮来源并核对科学内容。",
             )
             self._jobs[replacement.job_id] = replacement
             self._start(replacement, self._execute_initial(replacement))
@@ -322,9 +327,10 @@ class ScienceImageJobManager:
                     record,
                     "prompt_rewrite",
                     "正在优化生成描述",
-                    "将需求整理为适合科学图解模型理解的视觉指令。",
+                    "独立检索本地资料，绑定科学表述与原文，再整理视觉指令。",
                 )
-                record.brief = await self._organizer.refine(record.prompt)
+                record.brief = await self._evidence_service.prepare(record.prompt)
+                self._check_cancel(record)
                 self._complete_running(
                     record,
                     "生成描述已优化",
@@ -332,7 +338,15 @@ class ScienceImageJobManager:
                     + " "
                     + derive_visual_complexity_contract(record.brief).summary(),
                 )
+                self._append_event(
+                    record,
+                    "prompt_rewrite",
+                    "科学内容已绑定来源",
+                    "已核对原文摘录与支持范围；医学内容仍需人工复核。",
+                    "completed",
+                )
             self._check_cancel(record)
+            self._evidence_service.validate_ready(record.brief)
             self._set_stage(record, "generating")
             generator_name = "Wan 图像生成模型"
             self._start_trace(
@@ -343,13 +357,11 @@ class ScienceImageJobManager:
                 brief=record.brief,
                 output_path=initial_path,
                 cancel_event=record.cancel_event,
-                user_prompt=record.prompt,
+                user_prompt=_review_prompt(record),
             )
             record.cell_ip_profile = getattr(result, "cell_ip_profile", None)
             record.final_generation_prompt = getattr(result, "final_prompt", None)
-            record.reference_names_sent = tuple(
-                getattr(result, "reference_names_sent", ())
-            )
+            record.reference_names_sent = tuple(getattr(result, "reference_names_sent", ()))
             self._promote(record, result.final_path, "initial")
             self._complete_running(record, "第一版图像已生成", "正在准备视觉质量审查。")
             if not self._settings.enable_fast_image_refinement_pipeline:
@@ -367,7 +379,7 @@ class ScienceImageJobManager:
             )
             record.critic_result = await self._critic.review(
                 record.trusted_path,
-                user_prompt=record.prompt,
+                user_prompt=_review_prompt(record),
                 review_label="首次生成",
                 audit_contract=_audit_contract(record),
                 cell_ip_context=_cell_ip_critic_context(record),
@@ -415,10 +427,11 @@ class ScienceImageJobManager:
         original_path = record.trusted_path
         candidate_path = self._candidate_path(record, record.version + 1)
         try:
+            await self._evidence_service.check_edit(record.brief, instruction)
             result = await self._wan_generator.edit(
                 source_path=original_path,
                 output_path=candidate_path,
-                instruction=instruction,
+                instruction=instruction + evidence_contract(record.brief),
                 bbox=bbox,
                 cancel_event=record.cancel_event,
                 cell_ip_profile=record.cell_ip_profile,
@@ -432,7 +445,8 @@ class ScienceImageJobManager:
             record.guard_result = await self._guard.check(original_path, result.final_path, bbox)
         except (asyncio.CancelledError, JobCancelledError):
             raise
-        except Exception:
+        except Exception as exc:
+            record.error = _format_error(exc, self._settings.dashscope_api_key)
             self._unlink(candidate_path)
             record.candidate_path = None
             self._complete_running(
@@ -464,7 +478,7 @@ class ScienceImageJobManager:
         )
         record.critic_result = await self._critic.review(
             record.trusted_path,
-            user_prompt=record.prompt,
+            user_prompt=_review_prompt(record),
             review_label="自动修订后",
             revision_instruction=instruction,
             target_bbox=bbox,
@@ -527,6 +541,7 @@ class ScienceImageJobManager:
                 roi_context.image_size,
                 frozen_image_id,
             )
+            await self._evidence_service.check_edit(record.brief, payload.user_edit_request)
             instruction = self._rewriter.rewrite_human(payload.user_edit_request)
             self._complete_running(
                 record, "局部编辑指令已整理", "已明确目标区域与需要保持不变的内容。"
@@ -564,7 +579,7 @@ class ScienceImageJobManager:
                 result = await self._wan_generator.edit(
                     source_path=roi_before_path,
                     output_path=roi_after_path,
-                    instruction=instruction,
+                    instruction=instruction + evidence_contract(record.brief),
                     bbox=NormalizedBBox([0.0, 0.0, 1.0, 1.0]),
                     cancel_event=record.cancel_event,
                     cell_ip_profile=(
@@ -632,8 +647,7 @@ class ScienceImageJobManager:
                     frozen_image_id,
                 )
                 failure_detail = (
-                    "硬合成后仍检测到授权框外变化，已按合成异常拒绝候选；"
-                    "上一版可靠图片保持不变。"
+                    "硬合成后仍检测到授权框外变化，已按合成异常拒绝候选；上一版可靠图片保持不变。"
                     if record.guard_result.changed_outside_bbox
                     else "框内变化不足，无法确认模型已完成修改；上一版可靠图片保持不变。"
                 )
@@ -657,7 +671,7 @@ class ScienceImageJobManager:
             )
             record.critic_result = await self._critic.review(
                 candidate_path,
-                user_prompt=record.prompt,
+                user_prompt=_review_prompt(record),
                 review_label="人工局部编辑后",
                 revision_instruction=instruction,
                 target_bbox=payload.bbox,
@@ -762,7 +776,7 @@ class ScienceImageJobManager:
             )
         record.critic_result = await self._critic.review(
             record.trusted_path,
-            user_prompt=record.prompt,
+            user_prompt=_review_prompt(record),
             review_label=review_label,
             revision_instruction=instruction,
             target_bbox=bbox,
@@ -787,7 +801,8 @@ class ScienceImageJobManager:
         # then ``request_human_feedback``, but it must not suppress the safe,
         # bounded text repair advertised to the user as "可自动修复".
         eligible = [
-            issue for issue in critic.issues
+            issue
+            for issue in critic.issues
             if issue.bbox is not None
             and issue.auto_fixable
             and not issue.human_input_required
@@ -899,14 +914,14 @@ class ScienceImageJobManager:
                 list(record.cell_ip_profile.role_ids) if record.cell_ip_profile else []
             ),
             "cell_ip_unmatched_cell_terms": (
-                list(record.cell_ip_profile.unmatched_cell_terms)
-                if record.cell_ip_profile
-                else []
+                list(record.cell_ip_profile.unmatched_cell_terms) if record.cell_ip_profile else []
             ),
             "reference_assets": (
                 list(record.cell_ip_profile.reference_names)
                 if record.cell_ip_profile
-                else [f"default:{record.image_type}"] if record.image_type else []
+                else [f"default:{record.image_type}"]
+                if record.image_type
+                else []
             ),
             "reference_assets_actually_sent": list(record.reference_names_sent),
             "locked_ip_contracts": (
@@ -918,19 +933,13 @@ class ScienceImageJobManager:
                 else []
             ),
             "final_compiled_prompt": (
-                record.final_generation_prompt[:5000]
-                if record.final_generation_prompt
-                else None
+                record.final_generation_prompt[:5000] if record.final_generation_prompt else None
             ),
             "visual_complexity_contract": (
-                derive_visual_complexity_contract(record.brief).metadata()
-                if record.brief
-                else None
+                derive_visual_complexity_contract(record.brief).metadata() if record.brief else None
             ),
             "aspect_ratio": (
-                record.cell_ip_profile.aspect_ratio
-                if record.cell_ip_profile
-                else "9:16"
+                record.cell_ip_profile.aspect_ratio if record.cell_ip_profile else "9:16"
             ),
             "image_id": record.image_id,
             "trusted_image": record.trusted_path.name if record.trusted_path else None,
@@ -1109,6 +1118,12 @@ def _cell_ip_critic_context(record: _JobRecord) -> str | None:
     return record.cell_ip_profile.critic_context if record.cell_ip_profile else None
 
 
+def _review_prompt(record: _JobRecord) -> str:
+    if record.brief and record.brief.evidence:
+        return record.brief.optimized_chinese_prompt
+    return record.prompt
+
+
 def _audit_contract(record: _JobRecord) -> str:
     """Give the critic observable requirements without asking it to fact-check."""
 
@@ -1125,7 +1140,8 @@ def _audit_contract(record: _JobRecord) -> str:
         f"应出现且可读的中文标签：{labels}\n"
         f"应按顺序可视化的核心步骤：\n{steps}\n"
         f"{derive_visual_complexity_contract(brief).audit_text()}\n"
-        "检查重点：对象、箭头/编号/分区是否使步骤顺序可辨；不要据此判断医学事实真伪。"
+        "检查重点：对象、箭头/编号/分区是否使步骤顺序可辨；检查是否新增未绑定的数字或结论，不宣称医学事实已核验。"
+        + evidence_contract(brief)
     )
 
 

@@ -13,7 +13,7 @@
 | 获取图片 | `GET /api/v1/generated-images/{filename}` | 返回已完成任务的 PNG。 |
 | KnowledgeGap 审核 | `/admin` | 单一管理员审核、预览 Markdown 并人工发布到 RAG。 |
 
-图解的正式任务调用 `ScienceImageOrganizer.refine()`，没有独立 RAG/PubMed 事实检索；critic 只能检查视觉和潜在科学表达风险，不能证明医学事实已核验。旧 `organize()`、空定量白名单及专用匹配逻辑已删除，见 [事实数据说明](app/data/README.md)。
+正式图解经 `ScienceImageEvidenceService` 独立检索本地 RAG，绑定每项表述/步骤与原文，核对来源、数字单位及支持范围后才调用 Wan；无有效证据时停止。重试重新检索，编辑不能改变已有科学含义。查询任务返回 `evidence`，图像审计元数据同时保存证据。该检查不是医学审核，critic 仍只审查视觉及潜在风险，图解未接 PubMed。见 [改造说明](../docs/science-image-grounding-2026-10-08.md)。
 
 > `/api/v1/knowledge-image` 是旧的兼容接口，使用 Z-Image，可能生成中文或非 9:16 图片。新前端不要使用它；请统一接入 `/api/v1/image-jobs`。
 
