@@ -12,7 +12,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 - 在线体验地址（Cloudflare 隧道实时演示）：https://skin-swimming-shades-assume.trycloudflare.com/ （临时隧道，服务器重启后地址可能变化；部署细节见 DEPLOYMENT.md）
 - 前端 `pnpm test`：59 个测试文件、348 项测试通过；`pnpm build` 通过
-- 后端 `pytest`：433 项测试通过（2 个第三方 deprecation warnings，含新增 2 项争议汇总与 3 项狂犬病规范测试）；`ruff check app tests` 通过
+- 后端 `pytest`：410 项测试通过（2 个第三方 deprecation warnings；移除旧图解入口及专用测试，保留正式入口异常回归）；`ruff check app tests` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过
 - GitHub Actions 配置覆盖 `main` 与 `master` 的前端、后端和 Docker 构建检查；实际通过状态以对应提交的 CI 输出为准
 - 项目提交报告口径：Top-4 evidence retrieval 为 958/1081（88.62%）；该口径先从 1500 条中按当时语料覆盖排除 419 个 Knowledge Gap
@@ -81,7 +81,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 - 正式图解 API 固定为 `POST /api/v1/image-jobs`、`GET /api/v1/image-jobs/{id}`、`DELETE` 取消；不得新增旧 `/knowledge-image` 调用
 - 当前任务阶段以 `app/schemas/knowledge_image.py` 与 `science_image_job_manager.py` 为准，包含 `rewriting_prompt`、`generating`、视觉审核/修订及终止状态；历史 `preparing_content` / `generating_illustration` 不代表当前管线发出的完整状态
-- 正式任务使用 organizer 的 `refine()`，没有独立事实检索；旧 `organize()` 定量白名单为空且不在正式调用链中。不得将 critic 视觉审查或填充白名单描述为已经完成医学事实核验
+- 正式任务使用 organizer 的 `refine()`，没有独立事实检索；旧 `organize()`、空定量白名单及匹配逻辑已删除。不得将删除遗留代码或 critic 视觉审查描述为已经完成医学事实核验
 - 互动入口保留科普与医疗建议的边界提示；测试不得断言免责声明必须不存在
 - 图解创建、轮询、编辑与接受必须使用 request token、job ID 和 AbortController；切换、取消、卸载时清理 timer、poll、listener、observer、GSAP 和请求
 - `CELL_IP_ENABLED` 仅表示固定细胞 IP 能力可用，不能覆盖普通科学图解默认的 `scientific_diagram` profile

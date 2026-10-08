@@ -45,9 +45,14 @@ def main() -> None:
             "missing_manifest_files": [row["relative_path"] for row in manifest
                                        if not (ROOT / "RAG" / row["relative_path"]).is_file()],
         },
-        "visual_fact_allowlist_entries": len(json.loads((
-            ROOT / "backend/app/data/verified_visual_facts.json"
-        ).read_text(encoding="utf-8"))),
+        "visual_fact_verification": {
+            "formal_entrypoint": "ScienceImageOrganizer.refine",
+            "legacy_allowlist_present": (
+                ROOT / "backend/app/data/verified_visual_facts.json"
+            ).is_file(),
+            "independent_evidence_retrieval": False,
+            "medical_review_required": True,
+        },
         "benchmark": {
             "cases": len(cases),
             "unique_acceptable_gold_chunks": len({chunk for row in cases

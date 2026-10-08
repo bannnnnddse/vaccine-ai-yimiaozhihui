@@ -1,6 +1,5 @@
 import json
 from copy import deepcopy
-from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import AsyncMock
 
@@ -15,7 +14,6 @@ from app.services.science_image_organizer import (
     ScienceImageNotConfiguredError,
     ScienceImageOrganizer,
     ScienceImageOrganizerError,
-    ScienceImageScopeError,
 )
 
 
@@ -24,44 +22,6 @@ def _response(payload: dict[str, object] | str) -> SimpleNamespace:
     return SimpleNamespace(
         choices=[SimpleNamespace(message=SimpleNamespace(content=content))]
     )
-
-
-def _organized_payload(**overrides: object) -> dict[str, object]:
-    payload: dict[str, object] = {
-        "in_scope": True,
-        "title": "B细胞免疫记忆",
-        "summary": "抗原识别后部分B细胞分化并保留长期应答。",
-        "facts": ["记忆B细胞再次接触抗原可快速应答。"],
-        "visual_subject": "B细胞抗原识别至记忆细胞形成",
-        "fallback_modules": [
-            {
-                "kind": "fact_cards",
-                "title": "核心事实",
-                "items": ["B细胞识别特定抗原"],
-            },
-            {
-                "kind": "mechanism",
-                "title": "形成过程",
-                "items": ["活化", "增殖", "分化"],
-            },
-            {
-                "kind": "medical_advice",
-                "title": "科学边界",
-                "items": ["示意图不代表个体诊疗结论"],
-            },
-        ],
-        "data_candidates": [
-            {
-                "label": "记忆细胞比例",
-                "value": 12,
-                "unit": "%",
-                "scope": "示例研究人群",
-                "source": "https://example.org/study",
-            }
-        ],
-    }
-    payload.update(overrides)
-    return payload
 
 
 def _chinese_brief_payload(**overrides: object) -> dict[str, object]:
@@ -87,7 +47,6 @@ def _chinese_brief_payload(**overrides: object) -> dict[str, object]:
 
 def _organizer(
     client: AsyncMock,
-    verified_facts_path: Path | None = None,
     *,
     cell_ip_enabled: bool = False,
 ) -> ScienceImageOrganizer:
@@ -98,7 +57,6 @@ def _organizer(
             cell_ip_enabled=cell_ip_enabled,
         ),
         client,
-        verified_facts_path=verified_facts_path,
     )
 
 
@@ -298,486 +256,65 @@ async def test_refiner_keeps_fast_without_explicit_academic_request() -> None:
 
 @pytest.mark.asyncio
 @pytest.mark.parametrize(
-    ("image_type", "prompt"),
-    [
-        ("science_poster", "社区流感防护的公共卫生科普"),
-        ("graphical_abstract", "抗原递呈连接先天免疫与适应性免疫"),
-        ("mechanism_diagram", "B细胞形成免疫记忆"),
-    ],
-)
-async def test_organizer_accepts_science_scope_and_preserves_selected_image_type(
-    image_type: str,
-    prompt: str,
-) -> None:
-    client = AsyncMock()
-    client.chat.completions.create.return_value = _response(_organized_payload())
-
-    result = await _organizer(client).organize(image_type, prompt)
-
-    assert result.image_type == image_type
-    assert result.title == "B细胞免疫记忆"
-    assert result.visual_subject
-    assert len(result.fallback_modules) >= 3
-    client.chat.completions.create.assert_awaited_once()
-    call = client.chat.completions.create.await_args.kwargs
-    assert call["model"] == "qwen3.8-flash"
-    assert call["response_format"] == {"type": "json_object"}
-    assert call["extra_body"] == {"enable_thinking": False}
-    assert "is_vaccine_related" not in call["messages"][0]["content"]
-    assert "chat answer" not in call["messages"][0]["content"].lower()
-
-
-@pytest.mark.asyncio
-async def test_organizer_rejects_clearly_unrelated_content() -> None:
-    client = AsyncMock()
-    client.chat.completions.create.return_value = _response(
-        _organized_payload(
-            in_scope=False,
-            title="",
-            summary="",
-            facts=[],
-            visual_subject="",
-            fallback_modules=[],
-            data_candidates=[],
-        )
-    )
-
-    with pytest.raises(ScienceImageScopeError):
-        await _organizer(client).organize("science_poster", "写一个红烧肉菜谱")
-
-    client.chat.completions.create.assert_awaited_once()
-
-
-@pytest.mark.asyncio
-@pytest.mark.parametrize(
     "content",
     [
         "not json",
-        '{"in_scope": true',
+        '{"image_type":',
         "```json\n{}\n```",
-        json.dumps({**_organized_payload(), "answer": "这是聊天回答"}, ensure_ascii=False),
+        json.dumps({**_chinese_brief_payload(), "answer": "额外问答"}, ensure_ascii=False),
+        json.dumps(_chinese_brief_payload()).replace('"fast"', 'NaN'),
     ],
 )
-async def test_organizer_rejects_malformed_or_non_contract_json(content: str) -> None:
+async def test_refiner_rejects_malformed_or_non_contract_json(content: str) -> None:
     client = AsyncMock()
     client.chat.completions.create.return_value = _response(content)
 
     with pytest.raises(ScienceImageOrganizerError):
-        await _organizer(client).organize("mechanism_diagram", "B细胞形成免疫记忆")
+        await _organizer(client).refine("B细胞形成免疫记忆")
 
 
 @pytest.mark.asyncio
-async def test_seed_fact_pack_keeps_model_numbers_candidate_and_non_renderable() -> None:
-    client = AsyncMock()
-    client.chat.completions.create.return_value = _response(_organized_payload())
-
-    result = await _organizer(client).organize(
-        "science_poster", "疫苗免疫记忆科普"
-    )
-
-    assert result.data_candidates
-    assert all(item.verification == "candidate" for item in result.data_candidates)
-    assert all(not item.is_renderable for item in result.data_candidates)
-
-
-@pytest.mark.asyncio
-async def test_only_exact_normalized_fact_pack_match_becomes_verified(
-    tmp_path: Path,
-) -> None:
-    facts_path = tmp_path / "verified.json"
-    facts_path.write_text(
-        json.dumps(
-            [
-                {
-                    "label": " 记忆细胞比例 ",
-                    "value": 12,
-                    "unit": " % ",
-                    "scope": "示例研究人群",
-                    "source": "HTTPS://EXAMPLE.ORG/study",
-                }
-            ],
-            ensure_ascii=False,
-        ),
-        encoding="utf-8",
-    )
-    client = AsyncMock()
-    payload = _organized_payload()
-    payload["data_candidates"] = [
-        {
-            "label": "记忆细胞比例",
-            "value": 12.0,
-            "unit": "%",
-            "scope": " 示例研究人群 ",
-            "source": "https://example.org/study",
-        },
-        {
-            "label": "记忆细胞比例",
-            "value": 13,
-            "unit": "%",
-            "scope": "示例研究人群",
-            "source": "https://example.org/study",
-        },
-    ]
-    client.chat.completions.create.return_value = _response(payload)
-
-    result = await _organizer(client, facts_path).organize(
-        "science_poster", "疫苗免疫记忆科普"
-    )
-
-    assert result.data_candidates[0].verification == "verified"
-    assert result.data_candidates[0].is_renderable is True
-    assert result.data_candidates[1].verification == "candidate"
-    assert result.data_candidates[1].is_renderable is False
-
-
-@pytest.mark.asyncio
-async def test_unit_matching_preserves_scientific_case_semantics(tmp_path: Path) -> None:
-    facts_path = tmp_path / "verified.json"
-    fact = {
-        "label": "浓度",
-        "value": 2,
-        "unit": "mM",
-        "scope": "体外实验",
-        "source": "https://example.org/Study",
-    }
-    facts_path.write_text(json.dumps([fact], ensure_ascii=False), encoding="utf-8")
-    client = AsyncMock()
-    payload = _organized_payload(data_candidates=[{**fact, "unit": "mm"}])
-    client.chat.completions.create.return_value = _response(payload)
-
-    result = await _organizer(client, facts_path).organize(
-        "graphical_abstract", "免疫细胞体外实验"
-    )
-
-    assert result.data_candidates[0].verification == "candidate"
-
-
-@pytest.mark.asyncio
-async def test_url_matching_preserves_path_and_query_case(tmp_path: Path) -> None:
-    facts_path = tmp_path / "verified.json"
-    fact = {
-        "label": "发生率",
-        "value": 2,
-        "unit": "%",
-        "scope": "队列",
-        "source": "HTTPS://EXAMPLE.ORG/Study?Group=A",
-    }
-    facts_path.write_text(json.dumps([fact], ensure_ascii=False), encoding="utf-8")
-    client = AsyncMock()
-    payload = _organized_payload(
-        data_candidates=[
-            {**fact, "source": "https://example.org/study?Group=A"},
-            {**fact, "source": "https://example.org/Study?Group=a"},
-        ]
-    )
-    client.chat.completions.create.return_value = _response(payload)
-
-    result = await _organizer(client, facts_path).organize(
-        "science_poster", "队列公共卫生研究"
-    )
-
-    assert [item.verification for item in result.data_candidates] == [
-        "candidate",
-        "candidate",
-    ]
-
-
-@pytest.mark.asyncio
-async def test_malformed_candidate_url_maps_to_safe_organizer_error() -> None:
-    client = AsyncMock()
-    payload = _organized_payload()
-    payload["data_candidates"] = [
-        {
-            "label": "发生率",
-            "value": 2,
-            "unit": "%",
-            "scope": "研究队列",
-            "source": "https://[bad",
-        }
-    ]
-    client.chat.completions.create.return_value = _response(payload)
-
-    with pytest.raises(ScienceImageOrganizerError) as raised:
-        await _organizer(client).organize("science_poster", "公共卫生研究")
-
-    assert isinstance(raised.value.__cause__, ValueError)
-
-
-@pytest.mark.asyncio
-@pytest.mark.parametrize(
-    ("field", "different_value"),
-    [
-        ("label", "住院率"),
-        ("value", 3),
-        ("unit", "‰"),
-        ("scope", "另一队列"),
-        ("source", "https://example.org/Other"),
-    ],
-)
-async def test_each_verified_fact_field_must_match(
-    tmp_path: Path,
-    field: str,
-    different_value: object,
-) -> None:
-    facts_path = tmp_path / "verified.json"
-    fact: dict[str, object] = {
-        "label": "发生率",
-        "value": 2,
-        "unit": "%",
-        "scope": "研究队列",
-        "source": "https://example.org/Study",
-    }
-    facts_path.write_text(json.dumps([fact], ensure_ascii=False), encoding="utf-8")
-    candidate = {**fact, field: different_value}
-    client = AsyncMock()
-    client.chat.completions.create.return_value = _response(
-        _organized_payload(data_candidates=[candidate])
-    )
-
-    result = await _organizer(client, facts_path).organize(
-        "science_poster", "公共卫生研究"
-    )
-
-    assert result.data_candidates[0].verification == "candidate"
-
-
-@pytest.mark.parametrize("field", ["label", "unit", "scope", "source"])
-def test_verified_fact_pack_requires_nonblank_identity_fields(
-    tmp_path: Path,
-    field: str,
-) -> None:
-    fact = {
-        "label": "发生率",
-        "value": 2,
-        "unit": "%",
-        "scope": "研究队列",
-        "source": "https://example.org/Study",
-    }
-    fact[field] = "   "
-    facts_path = tmp_path / "verified.json"
-    facts_path.write_text(json.dumps([fact], ensure_ascii=False), encoding="utf-8")
-
-    with pytest.raises(ScienceImageOrganizerError, match="fact pack"):
-        _organizer(AsyncMock(), facts_path)
-
-
-@pytest.mark.asyncio
-async def test_organizer_maps_sdk_timeout_to_safe_service_error() -> None:
+async def test_refiner_maps_sdk_timeout_to_safe_service_error() -> None:
     client = AsyncMock()
     timeout = APITimeoutError(request=Request("POST", "https://example.org"))
     client.chat.completions.create.side_effect = timeout
 
     with pytest.raises(ScienceImageOrganizerError) as raised:
-        await _organizer(client).organize("science_poster", "流感公共卫生科普")
+        await _organizer(client).refine("流感公共卫生科普")
 
     assert raised.value.__cause__ is timeout
 
 
 @pytest.mark.asyncio
-async def test_organizer_rejects_missing_client_without_model_call() -> None:
-    organizer = ScienceImageOrganizer(Settings(dashscope_api_key="test-key"), None)
+async def test_refiner_rejects_missing_client_without_model_call() -> None:
+    organizer = ScienceImageOrganizer(
+        Settings(_env_file=None, dashscope_api_key="test-key"), None
+    )
 
     with pytest.raises(ScienceImageNotConfiguredError):
-        await organizer.organize("mechanism_diagram", "B细胞形成免疫记忆")
+        await organizer.refine("B细胞形成免疫记忆")
 
 
 @pytest.mark.asyncio
-async def test_organizer_trims_prompt_before_applying_normalized_2000_limit() -> None:
+async def test_refiner_trims_prompt_before_applying_normalized_2000_limit() -> None:
     client = AsyncMock()
-    client.chat.completions.create.return_value = _response(_organized_payload())
+    client.chat.completions.create.return_value = _response(_chinese_brief_payload())
     prompt = "免" * 2000
 
-    await _organizer(client).organize("mechanism_diagram", f"  {prompt}  ")
+    await _organizer(client).refine(f"  {prompt}  ")
 
     call = client.chat.completions.create.await_args.kwargs
-    assert call["messages"][-1]["content"].endswith(prompt)
-    assert not call["messages"][-1]["content"].endswith(" ")
+    assert call["messages"][-1]["content"] == prompt
 
 
 @pytest.mark.asyncio
 @pytest.mark.parametrize("prompt", ["   ", "免" * 2001])
-async def test_organizer_rejects_invalid_normalized_prompt_without_model_call(
+async def test_refiner_rejects_invalid_normalized_prompt_without_model_call(
     prompt: str,
 ) -> None:
     client = AsyncMock()
 
     with pytest.raises(ValueError):
-        await _organizer(client).organize("science_poster", prompt)
+        await _organizer(client).refine(prompt)
 
     client.chat.completions.create.assert_not_awaited()
-
-
-# ── Length compression ──────────────────────────────────────────────
-
-
-def test_compress_dossier_truncates_overlong_title() -> None:
-    from app.services.science_image_organizer import (
-        FallbackModule,
-        _compress_dossier,
-        _OrganizerResponse,
-    )
-
-    resp = _OrganizerResponse(
-        in_scope=True,
-        title="HPV疫苗预防宫颈癌的作用机制与公共卫生影响分析",
-        summary="短摘要",
-        facts=["事实一"],
-        visual_subject="疫苗机制",
-        fallback_modules=[
-            FallbackModule(kind="fact_cards", title="事实", items=["项目"]),
-            FallbackModule(kind="mechanism", title="机制", items=["步骤"]),
-            FallbackModule(kind="medical_advice", title="建议", items=["咨询"]),
-        ],
-        data_candidates=[],
-    )
-    compressed = _compress_dossier(resp)
-    assert len(compressed.title) <= 10
-
-
-def test_compress_dossier_truncates_overlong_summary() -> None:
-    from app.services.science_image_organizer import (
-        FallbackModule,
-        _compress_dossier,
-        _OrganizerResponse,
-    )
-
-    # 60+ chars — well above the 32-char limit
-    long_summary = (
-        "这是一段非常长的摘要文本用于测试压缩功能，"
-        "它包含了超过三十二字的中文内容以确保截断逻辑能够被正确触发。"
-    )
-    assert len(long_summary) > 32, "test fixture must exceed summary limit"
-
-    resp = _OrganizerResponse(
-        in_scope=True,
-        title="短标题",
-        summary=long_summary,
-        facts=["事实一"],
-        visual_subject="疫苗机制",
-        fallback_modules=[
-            FallbackModule(kind="fact_cards", title="事实", items=["项目"]),
-            FallbackModule(kind="mechanism", title="机制", items=["步骤"]),
-            FallbackModule(kind="medical_advice", title="建议", items=["咨询"]),
-        ],
-        data_candidates=[],
-    )
-    compressed = _compress_dossier(resp)
-    assert len(compressed.summary) <= 32
-    assert len(compressed.summary) < len(long_summary)
-
-
-def test_compress_dossier_prefers_sentence_boundary() -> None:
-    from app.services.science_image_organizer import (
-        FallbackModule,
-        _compress_dossier,
-        _OrganizerResponse,
-    )
-
-    # First "。" lands at ~char 23 — within the 10-char backtrack window from 32.
-    long_summary = (
-        "mRNA疫苗通过脂质纳米颗粒递送编码序列进入细胞质。"
-        "这段额外文字会让总长度超过三十二字以确保截断一定触发。"
-    )
-    assert len(long_summary) > 32, "test fixture must exceed summary limit"
-
-    resp = _OrganizerResponse(
-        in_scope=True,
-        title="mRNA疫苗机制",
-        summary=long_summary,
-        facts=["脂质纳米颗粒递送"],
-        visual_subject="疫苗机制图",
-        fallback_modules=[
-            FallbackModule(kind="fact_cards", title="事实", items=["项目"]),
-            FallbackModule(kind="mechanism", title="机制", items=["步骤"]),
-            FallbackModule(kind="medical_advice", title="建议", items=["咨询"]),
-        ],
-        data_candidates=[],
-    )
-    compressed = _compress_dossier(resp)
-    # Should cut at the first "。" which is within the backtrack window
-    assert compressed.summary.endswith("。")
-    assert len(compressed.summary) <= 32
-
-
-def test_compress_dossier_truncates_module_items() -> None:
-    from app.services.science_image_organizer import (
-        FallbackModule,
-        _compress_dossier,
-        _OrganizerResponse,
-    )
-
-    resp = _OrganizerResponse(
-        in_scope=True,
-        title="短标题",
-        summary="短摘要",
-        facts=["事实"],
-        visual_subject="机制",
-        fallback_modules=[
-            FallbackModule(
-                kind="fact_cards",
-                title="关键事实卡片模块超长标题",
-                items=["项目A内容" * 20, "短项目"],
-            ),
-            FallbackModule(kind="mechanism", title="机制", items=["步骤"]),
-            FallbackModule(kind="medical_advice", title="建议", items=["咨询"]),
-        ],
-        data_candidates=[],
-    )
-    compressed = _compress_dossier(resp)
-    assert len(compressed.fallback_modules[0].title) <= 10
-    assert len(compressed.fallback_modules[0].items[0]) <= 12
-    assert compressed.fallback_modules[0].items[1] == "短项目"
-
-
-def test_compress_dossier_does_not_modify_short_text() -> None:
-    from app.services.science_image_organizer import (
-        FallbackModule,
-        _compress_dossier,
-        _OrganizerResponse,
-    )
-
-    resp = _OrganizerResponse(
-        in_scope=True,
-        title="HPV疫苗预防",
-        summary="mRNA疫苗的作用机制",
-        facts=["脂质纳米颗粒递送"],
-        visual_subject="疫苗机制图",
-        fallback_modules=[
-            FallbackModule(kind="fact_cards", title="事实", items=["项目A"]),
-            FallbackModule(kind="mechanism", title="机制", items=["步骤"]),
-            FallbackModule(kind="medical_advice", title="建议", items=["咨询"]),
-        ],
-        data_candidates=[],
-    )
-    compressed = _compress_dossier(resp)
-    # All fields are within limits — should be unchanged
-    assert compressed.title == "HPV疫苗预防"
-    assert compressed.summary == "mRNA疫苗的作用机制"
-    assert compressed.visual_subject == "疫苗机制图"
-    assert compressed.facts == ["脂质纳米颗粒递送"]
-
-
-def test_compress_dossier_preserves_fallback_module_count() -> None:
-    from app.services.science_image_organizer import (
-        FallbackModule,
-        _compress_dossier,
-        _OrganizerResponse,
-    )
-
-    resp = _OrganizerResponse(
-        in_scope=True,
-        title="短标题",
-        summary="短摘要",
-        facts=["事实"],
-        visual_subject="机制",
-        fallback_modules=[
-            FallbackModule(kind="fact_cards", title="事实标题", items=["项"]),
-            FallbackModule(kind="mechanism", title="机制标题", items=["步"]),
-            FallbackModule(kind="medical_advice", title="建议标题", items=["咨"]),
-            FallbackModule(kind="symptom_cards", title="症状标题", items=["症"]),
-            FallbackModule(kind="timeline", title="时间标题", items=["时"]),
-        ],
-        data_candidates=[],
-    )
-    compressed = _compress_dossier(resp)
-    assert len(compressed.fallback_modules) == 5

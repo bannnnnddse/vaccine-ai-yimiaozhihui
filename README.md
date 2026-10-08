@@ -59,7 +59,7 @@ flowchart TB
 
 ### 2. 图解闭环（科学 brief → Wan 生成 → 视觉审查 → 局部编辑）
 
-用户主题先由 Qwen 的 `refine()` 整理为中文科学简报，再交 Wan 生成。启用视觉审核时，critic 检查文字、结构和潜在科学表达风险；用户可确认采用或提交受 bbox 范围守护的局部修改。**正式图解任务未接入独立 RAG/PubMed 事实检索，也未调用旧 `organize()` 的定量事实白名单；默认白名单为空。视觉审核不能证明医学结论或数字已核验。** 具体边界与补齐要求见 [事实数据说明](backend/app/data/README.md)。
+用户主题先由 Qwen 的 `refine()` 整理为中文科学简报，再交 Wan 生成。启用视觉审核时，critic 检查文字、结构和潜在科学表达风险；用户可确认采用或提交受 bbox 范围守护的局部修改。**正式图解任务未接入独立 RAG/PubMed 事实检索。旧 `organize()`、空定量白名单及匹配逻辑已删除；视觉审核不能证明医学结论或数字已核验。** 具体边界与补齐要求见 [事实数据说明](backend/app/data/README.md)。
 
 ```mermaid
 flowchart TB
@@ -224,7 +224,7 @@ X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank �
 
 2026-10-08 本次本地离线验证；测试数量随提交与参数化变化，后续以对应提交的实际测试或 CI 输出为准。
 
-- 后端：433 项 `pytest` 通过（2 个第三方 deprecation warnings，含新增 2 项争议汇总测试和 3 项狂犬病规范测试）；`ruff check app tests` 通过
+- 后端：410 项 `pytest` 通过（2 个第三方 deprecation warnings；旧图解入口及专用测试已清理，正式入口异常测试已迁移）；`ruff check app tests` 通过
 - 前端：59 个测试文件、348 项测试通过；`pnpm build` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过；本次未调用真实模型或重建索引/图谱
 - CI：GitHub Actions 持续执行前端测试与构建、后端测试与 lint，以及 Docker 构建验证，配置见 `.github/workflows/ci.yml`。
