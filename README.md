@@ -236,6 +236,6 @@ X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank �
 
 ## 八、科学证据与交付限制
 
-2026-10-08 补充狂犬病规范后，当前清单仍有：98/141 条 `evidence_level=unknown`，117/141 条 `metadata_confidence=low`，117/141 条缺少 `publication_date`，120/141 条语言为英文。部分 `issuer` 来自 PDF 作者元数据，不能视作发布机构。受治理表示有清单和准入流程，不代表元数据已全部人工核实。 `evidence_level` 当前是文献类型标签，不是医学证据强度评分。已提供 [141 条语料人工核对表与填写说明](docs/corpus-review/README.md)，原始值与人工结果分列保存。
+2026-10-08 补充狂犬病规范后，当前清单仍有：98/141 条 `evidence_level=unknown`，117/141 条 `metadata_confidence=low`，117/141 条缺少 `publication_date`，120/141 条语言为英文。部分 `issuer` 来自 PDF 作者元数据，不能视作发布机构。受治理表示有清单和准入流程，不代表元数据已全部人工核实。 `evidence_level` 当前是文献类型标签，不是医学证据强度评分。已收录 [141 条人工书目信息核对记录与来源依据](docs/corpus-review/README.md)：人工结果有 94 条明确类型、47 条未知类型、81 条完整发布日期；人员及日期按用户填写保留。结果尚未合并到清单或活动索引，不能把书目核对称为医学主张审核。
 
 当前20条科学正确性抽检已完成导师人工审核，评分为20/20科学正确、19/20引用支持、0/20严重医学错误、20/20安全边界通过；这些数字只描述本次样本。SCI-013使用已独立评分并绑定正文及来源的新返回，其余19条使用原输出与人工判定，每题只计一次。运行和评分对应见 [样本版本](docs/evaluation/scientific_correctness/sample_selection.json)、[人工复核表](docs/evaluation/scientific_correctness/human_review.csv)与[抽检报告](docs/evaluation/scientific_correctness/report.md)。旧输出归档保留，生产活动索引未切换。

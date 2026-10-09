@@ -1,0 +1,87 @@
+{
+  "scope": "bibliographic_metadata_review_only",
+  "result": "no_obvious_severe_classification_or_integrity_issue_found",
+  "source_manifest_sha256": "66375f88ac19a4d11596069b99bc8f605cd46c7221e2f4d6f2fc6671660e71d4",
+  "user_filled_workbook_sha256_before_basis": "71185442fff95f37ea29592e8dd58cffbdce10b58b9c69cfa5a10b1393c5a9dd",
+  "published_workbook_sha256": "72c5224142d499cd85dadcd16255eb0f30c9ef5abad6b047be6c897524e23a5a",
+  "reviewer_and_review_dates": "preserved_as_entered_by_user",
+  "basis_origin": "repository_locators_supplemented_after_submission; not a record of which pages the tutor actually read",
+  "source_document_count": 141,
+  "pdf_count": 125,
+  "markdown_count": 12,
+  "abstract_placeholder_count": 4,
+  "source_ids_hashes_and_original_columns_preserved": true,
+  "non_basis_human_fields_preserved": true,
+  "basis_cell_count": 141,
+  "human_results": {
+    "known_literature_type": 94,
+    "unknown_literature_type": 47,
+    "unknown_issuer": 24,
+    "complete_publication_date": 81,
+    "missing_complete_date": 60,
+    "known_publication_year": 135
+  },
+  "medical_claim_review_completed_by_this_check": false,
+  "manifest_or_active_index_updated": false,
+  "abstract_only_doc_ids": [
+    "doc_077aa38cc9f7eeea11280b86",
+    "doc_359fb0512a3a2153bd827335",
+    "doc_9cb0f893668b7f2f2ae41e67",
+    "doc_b5f2981b011368ad9cbe901b"
+  ],
+  "incomplete_preview_doc_ids": [
+    "doc_8fa1aaf2b06cd3d61ebd43cc"
+  ],
+  "date_semantics_exceptions": [
+    {
+      "doc_id": "doc_39979b9071f2ff8449a871e0",
+      "excel_row": 20,
+      "online_first_date": "2022-12-10",
+      "journal_issue_year": 2024,
+      "basis": "repository PDF publication information; both values retained"
+    },
+    {
+      "doc_id": "doc_9b7f96b70ecc7ba6ef99e708",
+      "excel_row": 53,
+      "online_first_date": "2022-03-17",
+      "journal_issue_year": 2023,
+      "basis": "repository PDF publication information; both values retained"
+    },
+    {
+      "doc_id": "doc_a4b1706d5406698794f66877",
+      "excel_row": 58,
+      "online_first_date": "2019-11-21",
+      "journal_issue_year": 2020,
+      "basis": "repository PDF publication information; both values retained"
+    },
+    {
+      "doc_id": "doc_af5b380f70c6dd5ac186bfd6",
+      "excel_row": 60,
+      "online_first_date": "2022-12-02",
+      "journal_issue_year": 2023,
+      "basis": "repository PDF publication information; both values retained"
+    },
+    {
+      "doc_id": "doc_d84cbfb3f3b9e826e124d4eb",
+      "excel_row": 80,
+      "online_first_date": "2021-09-22",
+      "journal_issue_year": 2023,
+      "basis": "repository PDF publication information; both values retained"
+    },
+    {
+      "doc_id": "doc_ddb30557e21763504f66b5eb",
+      "excel_row": 82,
+      "online_first_date": "2020-09-30",
+      "journal_issue_year": 2021,
+      "basis": "repository PDF publication information; both values retained"
+    },
+    {
+      "doc_id": "doc_f2c3bb31ff97d284a6702b9c",
+      "excel_row": 89,
+      "online_first_date": "2021-12-22",
+      "journal_issue_year": 2022,
+      "basis": "repository PDF publication information; both values retained"
+    }
+  ],
+  "checked_at": "2026-10-09T04:38:58.567187+00:00"
+}
