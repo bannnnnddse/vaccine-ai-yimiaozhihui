@@ -26,5 +26,7 @@
       }
     ]
   },
-  "human_review_status": "pending"
+  "human_review_status": "completed",
+  "human_review_record": "SCI-013-2026-10-08.human-review.json",
+  "reviewed_response_sha256": "4041c2ba44d1e60ce6418e0fc6c96cf3a10be2fd2eabeb5bc1554698ffe9f5bd"
 }

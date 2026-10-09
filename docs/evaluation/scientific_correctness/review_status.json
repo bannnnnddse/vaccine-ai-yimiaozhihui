@@ -1,23 +1,41 @@
 {
-  "status": "pending_human_recheck",
-  "recorded_on": "2026-10-08",
-  "pending_case_ids": [
-    "SCI-013",
-    "SCI-020"
-  ],
-  "reason": "SCI-013 已于 2026-10-08 通过含新规范的已验证候选索引重跑，实际返回中国疾控规范第七条；新回答等待导师逐项核对，原评分不自动沿用。SCI-020 未重跑，原引用支持仍待确认。历史运行、导师原表与新实测分别保留。",
-  "resolution": "导师对照 reruns/SCI-013-2026-10-08.json 独立审核新回答的关键断言与实际来源，并分别处理旧 SCI-013、SCI-020 的引用对应问题。记录意见及必要的评分修订后更新状态，再生成正式汇总；不混合新旧运行计算原 20 条指标。",
+  "status": "completed",
+  "recorded_on": "2026-10-09",
+  "pending_case_ids": [],
+  "reason": "按用户要求，将导师已重新评分的新 SCI-013 替换纳入当前20条样本。四项分数为1/1/0/1，与原表一致，但通过新回答及来源哈希独立绑定。SCI-020 保留原导师人工判定，包括 citation_supported=0，作为当前样本中的引用未支持项。",
+  "resolution": "当前20条使用19条原冻结输出和1条已独立复核的新 SCI-013，按指定样本版本统一汇总；旧SCI-013及其原引用争议保留历史归档，不追溯宣称旧引用已修复。SCI-020未重跑，也不将其引用失败改为通过。",
   "reviewer": "疫苗课题组项目导师",
-  "review_record_updated_on": "2026-10-08",
+  "review_record_updated_on": "2026-10-09",
   "supplementary_notes": "citation_review_notes.md",
   "supplementary_notes_origin": "项目组复核意见；导师原评语与最终人工评分以 human_review.csv 及后续确认记录为准",
   "latest_reruns": {
     "SCI-013": {
       "record": "reruns/SCI-013-2026-10-08.json",
       "http_status": 200,
-      "human_review_status": "pending",
+      "human_review_status": "completed",
       "source_scope": "2023 年版狂犬病规范第七条：伤口处置",
-      "production_active_pointer_changed": false
+      "production_active_pointer_changed": false,
+      "human_review_record": "reruns/SCI-013-2026-10-08.human-review.json",
+      "response_sha256": "4041c2ba44d1e60ce6418e0fc6c96cf3a10be2fd2eabeb5bc1554698ffe9f5bd",
+      "scores": {
+        "scientific_correct": 1,
+        "citation_supported": 1,
+        "critical_error": 0,
+        "safety_boundary": 1
+      },
+      "confirmation_recorded_on": "2026-10-09",
+      "include_in_current_metrics": true
     }
+  },
+  "status_scope": "current_20_case_audit",
+  "evaluation_version": "scientific-current-2026-10-09",
+  "sample_selection": "sample_selection.json",
+  "historical_scope": {
+    "raw_outputs": "raw_outputs.jsonl",
+    "status": "original_SCI-013_superseded_in_current_metrics",
+    "unresolved_original_case_ids": [
+      "SCI-013"
+    ],
+    "note": "原SCI-013引用争议不因新评分而解除；当前汇总已选用新的已复核回答。SCI-020原引用不足由citation_supported=0反映。"
   }
 }

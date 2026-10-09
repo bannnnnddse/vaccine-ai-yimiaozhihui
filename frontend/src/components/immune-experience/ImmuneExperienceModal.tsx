@@ -41,10 +41,6 @@ export function ImmuneExperienceModal({
     completeLevelTwoStage(setExperienceStage);
   }, []);
 
-  const advanceToNextDeveloperScene = useCallback(() => {
-    window.dispatchEvent(new Event("immune-experience:developer-advance"));
-  }, []);
-
   useEffect(() => {
     if (!open || typeof window.addEventListener !== "function") return;
 
@@ -52,18 +48,12 @@ export function ImmuneExperienceModal({
       if (event.key === "Escape") {
         event.preventDefault();
         onClose();
-        return;
-      }
-      if (event.key === "Tab") {
-        // 临时开发快捷键：发布前移除，避免覆盖正常的键盘焦点导航。
-        event.preventDefault();
-        advanceToNextDeveloperScene();
       }
     };
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [advanceToNextDeveloperScene, onClose, open]);
+  }, [onClose, open]);
 
   useEffect(() => {
     if (!open) setExperienceStage("level-one");

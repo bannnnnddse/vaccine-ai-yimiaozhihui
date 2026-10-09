@@ -6,7 +6,7 @@
 
 本目录记录一个**小规模最终回答科学正确性人工抽检**：固定 20 条高风险疫苗科普问题，通过**生产问答链路**真实运行，将系统原始输出冻结，由人工按统一标准审核四项指标（科学正确性、引用支持、严重医学错误、安全边界）。
 
-2026-10-08 状态更新：人工表已按导师提交内容更新，20 条审核人均为“疫苗课题组项目导师”；评分和备注原样保留，CSV 编码无损统一为 UTF-8（带 BOM）。冻结输出不变。SCI-013/SCI-020 的引用对应说明已补充、待导师确认，正式汇总指标暂不用于验收，见 `summary.json` 和 `review_status.json`。
+2026-10-09 状态更新：当前20条导师审核已完成，样本版本及逐题输出/评分对应见 `sample_selection.json`。SCI-013采用已由导师重新评分的2026-10-08返回，四项评分1/1/0/1；独立记录绑定本次正文与实际来源哈希。其余19条保留原输出和人工判定，SCI-020引用支持仍为0。历史原始输出保留；新输出不是由数值相同自动继承原评分。
 
 ## 2. 文件说明
 
@@ -14,10 +14,11 @@
 | --- | --- |
 | `README.md` | 本文件：目的、运行方式、配置快照 |
 | `evaluation_cases.jsonl` | 正式评测的 20 条问题（SCI-001 ~ SCI-020），含 gold_points / critical_errors / reference_scope，评测前固定 |
-| `reruns/` | SCI-013 新增规范后的真实单例返回及运行配置；未套用旧评分，不并入冻结 20 条指标 |
+| `reruns/` | SCI-013 新增规范后的真实单例返回及运行配置；独立评分后作为当前20条中的SCI-013，不覆盖历史原输出 |
 | `raw_outputs.jsonl` | 系统对 20 条问题的**原始输出**（逐条一次运行，不重采样），含引用、延迟、错误与运行 commit |
 | `human_review.csv` | 人工审核表，判定字段（scientific_correct / citation_supported / critical_error / safety_boundary / reviewer / notes）必须由**人工填写** |
-| `review_status.json` | 待人工复核条目与原因；争议未解除前，汇总不发布正式正确率 |
+| `review_status.json` | 当前样本审核状态、指定的新运行及评分绑定；历史争议单独记录 |
+| `sample_selection.json` | 当前20条的回答与评分记录对应，每题只计一次 |
 | `model_assisted_review.csv` | （可选）模型辅助初筛结果，**仅用于辅助人工审核，不计入正式人工评测结果** |
 | `citation_review_notes.md` | 项目组补充的来源覆盖范围与复核口径说明，供导师确认；不是导师原评语，不新增人工评分 |
 | `review_guideline.md` | 四项核心指标与判定细则 |
@@ -57,7 +58,7 @@ cd backend
 python ../scripts/evaluate_scientific_correctness.py --summarize
 ```
 
-- 20 条全部有人工判定、且 `review_status.json` 不再有待复核条目时：生成 `status: "completed"` 的汇总并刷新结果小节。
+- 20 条全部有人工判定、且 `review_status.json` 不再有待复核条目时：生成 `status: "completed"` 的汇总并刷新结果小节。明确选用的新运行必须有独立人工记录及正文/来源哈希匹配，才替换相应题目的旧评分；每题只计一次。
 - 存在待复核条目时：生成 `status: "pending_human_recheck"`，正式指标为 `null`，保留原评分的历史计数，不覆盖争议报告。必须由医学审核人完成复核并记录理由后更新人工 CSV 和复核状态；不能仅清空状态文件以恢复原成绩。
 - 仍有空白时：`summary.json` 保持 `status: "pending_human_review"`，所有指标为 `null`；空白**不会**被当作通过，也不会用 AI 初筛填充。
 

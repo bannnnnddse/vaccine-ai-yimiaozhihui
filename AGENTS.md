@@ -8,11 +8,11 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 项目已完成可演示的全栈交付版本：React/Vite 前端、FastAPI 后端、受治理本地 RAG、受限 PubMed 核验、科学图解任务、免疫互动、管理员知识治理和只读知识图谱查看器均已实现。后续工作只能以修复缺陷、提升可访问性/性能、补充受控语料或获得明确授权后的图谱评估与发布为目标。
 
-当前本地离线验证基线（2026-10-08；不代表线上医学准确性验收）：
+当前本地离线验证基线（2026-10-09；不代表线上医学准确性验收）：
 
 - 在线体验地址（Cloudflare 隧道实时演示）：https://skin-swimming-shades-assume.trycloudflare.com/ （临时隧道，服务器重启后地址可能变化；部署细节见 DEPLOYMENT.md）
-- 前端 `pnpm test`：61 个测试文件、360 项测试通过；`pnpm build` 通过
-- 后端 `pytest`：437 项测试通过（2 个第三方 deprecation warnings；含图解证据绑定与生命周期守护回归）；`ruff check app tests` 通过
+- 前端 `pnpm test`：62 个测试文件、363 项测试通过；`pnpm build` 通过
+- 后端 `pytest`：440 项测试通过（2 个第三方 deprecation warnings；含图解证据绑定与生命周期守护回归）；`ruff check app tests` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过
 - GitHub Actions 配置覆盖 `main` 与 `master` 的前端、后端和 Docker 构建检查；实际通过状态以对应提交的 CI 输出为准
 - 项目提交报告口径：Top-4 evidence retrieval 为 958/1081（88.62%）；该口径先从 1500 条中按当时语料覆盖排除 419 个 Knowledge Gap
@@ -20,7 +20,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 
 > ⚠️ **能力声明边界：** 清单共 141 条（125 PDF + 12 MD + 4 DOCX，含 4 份下载占位），不等于实际入索引的文档数。历史部署记录：索引 `rag-v2-20260824T024746251335Z-8d89f653` 为 17,167 chunks，图谱 `graph-20260824T032039458153Z-7a0729a2-2558bd4d` 为 8,006 节点、6,215 边、5,282 条 provenance。生产快照不随 Git 发布，代码默认 `GRAPH_RAG_ENABLED=false`，线上配置需单独核验。图缺失或版本不匹配时问答退回 Vector-only。科普视频可在 [线上演示网站](https://www.yimiaozhihui.cn/) 观看；仓库仅附封面，本地部署需另行提供 MP4。视频页播放预制短片，不提供实时视频生成。
 
-2026-10-08 已新增中国疾控收录的狂犬病 2023 年版规范原件与结构化正文，候选 6 个条款正例、2 个负例检索检查全部通过。源文件与验证记录随 Git 交付，生产 active pointer 未切换；SCI-013/020 历史判定仍待医学人工复核。见 [接入记录](docs/rabies-corpus-integration-2026-10-08.md)。
+2026-10-08 已新增中国疾控收录的狂犬病 2023 年版规范原件与结构化正文，候选 6 个条款正例、2 个负例检索检查全部通过。源文件与验证记录随 Git 交付，生产 active pointer 未切换；当前20条已完成导师审核；SCI-013选用独立复核的新返回，旧SCI-013引用争议保留历史记录。见 [接入记录](docs/rabies-corpus-integration-2026-10-08.md)。
 
 ## 🧭 五模块闭环
 
@@ -91,8 +91,8 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 - RAG 检索采用两套不同用途的口径：1081/88.62% 是项目提交报告采用的评测；1000/81.5% 是后续建立的完整公开、冻结可审计 benchmark。两者测试集构造与协议不同，不是前后成绩、不可横向比较，也不得用其中一个覆盖另一个
 - 冻结 RAG V2 1000 条评测公开测试集、gold、逐条结果、trace、全部失败案例、baseline、配置与 hash manifest，见 `docs/evaluation/rag_v2/`；报告口径的原始 1081 条逐题数据仍未公开，仅提供脱敏样例。调参 dev-500 含全部 331 个 baseline miss，不得称为独立未知 holdout
 - 该 1000 条 benchmark 的可接受 gold 仅覆盖 220 个不同 chunk，4000 个 Top-4 项仅覆盖 543 个不同 chunk；不得据此宣称跨主题泛化已验证
-- SCI-013 已通过指定候选索引真实重跑，返回新增规范第七条；新记录位于 `docs/evaluation/scientific_correctness/reruns/`，尚待导师评分，不并入原 20 条指标，生产活动版本未切换。
-- 科学正确性抽检的人工表已更新为“疫苗课题组项目导师”复核，评分及备注以导师提交为准；冻结回答保留。SCI-013/SCI-020 的引用对应说明已补充、待导师确认，完成前不得宣称“20/20 科学正确性已验收”。复核状态由 `docs/evaluation/scientific_correctness/review_status.json` 管理，解除必须由人工确认
+- SCI-013 已通过指定候选索引真实重跑，返回新增规范第七条；新记录位于 `docs/evaluation/scientific_correctness/reruns/`，已独立绑定导师评分并按指定样本版本纳入当前20条指标，生产活动版本未切换。
+- 科学正确性当前20条样本已完成导师审核；SCI-013采用独立复核的新返回，SCI-020引用支持为0。由 `sample_selection.json` 和 `review_status.json` 指定样本与评分对应，不能仅凭分数相同自动继承旧评分，不能把不同版本输出描述为同一次冻结运行。
 - 正式评测证据冻结后不得重筛 case、修改 gold、删除失败案例或用重跑结果覆盖；构造脚本不得进入 CI/生产自动流程。RAG X2 是 recall-oriented 配置，CPU 正式评测平均延迟约 39 秒，不得声称低延迟
 - 代码、配置与测试优先于实施报告；历史文档不得覆盖当前运行事实
 - 不提交 `.env`、密钥、`backend/runtime/`、`backend/rag_index/`、`backend/model_cache/`、`backend/generated_images/`、运行日志、虚拟环境或编译缓存。功能级复现由 `assets/runtime-assets-manifest.json` 固定官方模型 revision，并由 bootstrap 从受治理语料本机生成索引；下载后必须实际离线加载验证。不得发布生产 active 索引或 Graph snapshot，因为它们含完整 chunk/provenance 正文与生产历史。长期约束与操作入口见 [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md)；受治理语料与源码、测试随仓库交付。

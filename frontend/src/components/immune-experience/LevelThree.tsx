@@ -319,24 +319,6 @@ export function LevelThree({ onEnter }: LevelThreeProps) {
     return () => window.clearTimeout(timeout);
   }, [completedInterludeCaptionPhase, state.phase]);
 
-  useEffect(() => {
-    if (typeof window.addEventListener !== "function") return;
-    const advance = () => {
-      if (openingStage !== "ready") {
-        setOpeningStage("ready");
-        return;
-      }
-      if (state.phase === "exploring") {
-        dispatch({ type: "select-cell", cellId: "b-cell" });
-      } else if (state.phase === "bCellFound") {
-        dispatch({ type: "select-cell", cellId: "helper-t-cell" });
-      } else {
-        dispatch({ type: "advance-activation" });
-      }
-    };
-    window.addEventListener("immune-experience:developer-advance", advance);
-    return () => window.removeEventListener("immune-experience:developer-advance", advance);
-  }, [openingStage, state.phase]);
 
   return (
     <section className="immune-level-three" aria-label="淋巴液免疫识别">

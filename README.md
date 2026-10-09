@@ -225,10 +225,10 @@ X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank �
 
 ## 七、质量基线
 
-2026-10-08 本次本地离线验证；测试数量随提交与参数化变化，后续以对应提交的实际测试或 CI 输出为准。
+2026-10-09 本次本地离线验证；测试数量随提交与参数化变化，后续以对应提交的实际测试或 CI 输出为准。
 
-- 后端：437 项 `pytest` 通过（2 个第三方 deprecation warnings；含图解来源绑定、取消、重试及编辑守护回归）；`ruff check app tests` 通过
-- 前端：61 个测试文件、360 项测试通过；`pnpm build` 通过
+- 后端：440 项 `pytest` 通过（2 个第三方 deprecation warnings；含图解来源绑定、取消、重试及编辑守护回归）；`ruff check app tests` 通过
+- 前端：62 个测试文件、363 项测试通过；`pnpm build` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过；本次未调用真实模型或重建索引/图谱
 - CI：GitHub Actions 持续执行前端测试与构建、后端测试与 lint，以及 Docker 构建验证，配置见 `.github/workflows/ci.yml`。
 
@@ -236,4 +236,4 @@ X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank �
 
 2026-10-08 补充狂犬病规范后，当前清单仍有：98/141 条 `evidence_level=unknown`，117/141 条 `metadata_confidence=low`，117/141 条缺少 `publication_date`，120/141 条语言为英文。部分 `issuer` 来自 PDF 作者元数据，不能视作发布机构。受治理表示有清单和准入流程，不代表元数据已全部人工核实。
 
-原 20 条科学正确性抽检中的 SCI-013、SCI-020 将当时库内缺失的狂犬病专项规范列为参考范围，实际返回来源未充分对应关键结论。2026-10-08 已新增中国疾控收录的《狂犬病暴露预防处置工作规范（2023年版）》原件及可检索正文，候选的 6 个条款正例与 2 个负例检索检查全部通过；新增资料不追溯修复旧回答的引用。接入与验证见 [接入记录](docs/rabies-corpus-integration-2026-10-08.md)。原始回答继续冻结公开；[人工复核表](docs/evaluation/scientific_correctness/human_review.csv) 已按提交记录更新，20 条审核人均为“疫苗课题组项目导师”，评分和备注保留导师填写内容。表中记录 20/20 科学正确、19/20 引用支持；SCI-013 已补充新实测回答与实际规范引用，待导师独立复核；SCI-020 的原引用对应说明待导师确认，正式汇总指标暂不作为有效验收结论。SCI-013 的 [最新实测回答与返回来源](docs/evaluation/scientific_correctness/reruns/SCI-013-2026-10-08.json) 单独公开，不覆盖冻结输出或套用旧评分。见 [抽检报告](docs/evaluation/scientific_correctness/report.md) 与 [逐项仓库核查](docs/submission-audit-2026-10-08.md)。
+当前20条科学正确性抽检已完成导师人工审核，评分为20/20科学正确、19/20引用支持、0/20严重医学错误、20/20安全边界通过；这些数字只描述本次样本。SCI-013使用已独立评分并绑定正文及来源的新返回，其余19条使用原输出与人工判定，每题只计一次。运行和评分对应见 [样本版本](docs/evaluation/scientific_correctness/sample_selection.json)、[人工复核表](docs/evaluation/scientific_correctness/human_review.csv)与[抽检报告](docs/evaluation/scientific_correctness/report.md)。旧输出归档保留，生产活动索引未切换。

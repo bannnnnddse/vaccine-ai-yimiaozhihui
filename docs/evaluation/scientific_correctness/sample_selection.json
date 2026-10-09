@@ -1,0 +1,109 @@
+{
+  "evaluation_version": "scientific-current-2026-10-09",
+  "recorded_on": "2026-10-09",
+  "total_cases": 20,
+  "selection_method": "Each case selected once; SCI-013 uses the independently reviewed 2026-10-08 response; remaining 19 use original frozen outputs.",
+  "cases": [
+    {
+      "case_id": "SCI-001",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-002",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-003",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-004",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-005",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-006",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-007",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-008",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-009",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-010",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-011",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-012",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-013",
+      "answer_record": "reruns/SCI-013-2026-10-08.json",
+      "score_record": "reruns/SCI-013-2026-10-08.human-review.json",
+      "response_sha256": "4041c2ba44d1e60ce6418e0fc6c96cf3a10be2fd2eabeb5bc1554698ffe9f5bd"
+    },
+    {
+      "case_id": "SCI-014",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-015",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-016",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-017",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-018",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-019",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    },
+    {
+      "case_id": "SCI-020",
+      "answer_record": "raw_outputs.jsonl",
+      "score_record": "human_review.csv"
+    }
+  ]
+}

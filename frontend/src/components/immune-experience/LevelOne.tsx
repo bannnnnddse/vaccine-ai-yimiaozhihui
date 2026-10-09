@@ -59,17 +59,6 @@ export function LevelOne({ onSceneChange, onStartLevelTwo }: LevelOneProps) {
     completeLevelOneCapture(readExperienceProgress(), writeExperienceProgress, onStartLevelTwo);
   };
 
-  useEffect(() => {
-    if (typeof window.addEventListener !== "function") return;
-    const advance = () => {
-      if (scene === "intro") startLevel();
-      else if (scene === "narration") setScene("injection");
-      else if (scene === "injection") setScene("explore");
-      else finishCapture();
-    };
-    window.addEventListener("immune-experience:developer-advance", advance);
-    return () => window.removeEventListener("immune-experience:developer-advance", advance);
-  }, [scene]);
 
   switch (scene) {
     case "intro":

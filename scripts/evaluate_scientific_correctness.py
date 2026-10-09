@@ -11,13 +11,15 @@ Two modes:
                update report.md. Disputed scores remain historical counts only.
 
 This script never invents metrics: summary numbers come exclusively from
-human_review.csv. It also never rewrites answers or resamples on content.
+human_review.csv or explicitly selected, response-bound tutor review records.
+It never rewrites answers or resamples on content.
 """
 
 from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import subprocess
 import sys
@@ -180,6 +182,59 @@ def _review_rows() -> list[dict]:
         return list(csv.DictReader(fh))
 
 
+def _completed_rerun_reviews(status: dict, case_ids: set[str]) -> list[dict]:
+    """Bind human scores to the exact response before optional sample replacement."""
+    base = REVIEW_STATUS_PATH.parent.resolve()
+
+    def contained(path: Path) -> Path:
+        resolved = path.resolve()
+        if not resolved.is_relative_to(base):
+            raise ValueError("review record outside evaluation directory")
+        return resolved
+
+    completed = []
+    for case_id, entry in status.get("latest_reruns", {}).items():
+        if entry.get("human_review_status") != "completed":
+            if entry.get("include_in_current_metrics"):
+                raise ValueError("selected rerun has no completed human review")
+            continue
+        run_path = contained(base / entry["record"])
+        review_path = contained(base / entry["human_review_record"])
+        run = json.loads(run_path.read_text(encoding="utf-8"))
+        review = json.loads(review_path.read_text(encoding="utf-8"))
+        digest = hashlib.sha256(json.dumps(
+            run["response"], ensure_ascii=False, sort_keys=True, separators=(",", ":")
+        ).encode("utf-8")).hexdigest()
+        scores = review["scores"]
+        if (
+            case_id not in case_ids
+            or type(entry.get("include_in_current_metrics", False)) is not bool
+            or run["case_id"] != case_id or review["case_id"] != case_id
+            or run.get("human_review_status") != "completed"
+            or review.get("human_review_status") != "completed"
+            or contained(review_path.parent / review["reviewed_record"]) != run_path
+            or review["reviewed_run_timestamp"] != run["timestamp"]
+            or review["reviewed_application_commit"] != run["application_commit"]
+            or review["response_sha256"] != digest
+            or run.get("reviewed_response_sha256") != digest
+            or entry.get("response_sha256") != digest
+            or not isinstance(scores, dict) or set(scores) != set(METRIC_FIELDS)
+            or any(type(value) is not int or value not in (0, 1) for value in scores.values())
+            or scores != entry.get("scores")
+            or not isinstance(review.get("reviewer"), str) or not review["reviewer"].strip()
+            or not review.get("confirmation_basis")
+        ):
+            raise ValueError("rerun human review does not match the returned response")
+        completed.append({
+            "case_id": case_id, "status": "completed", "record": entry["record"],
+            "human_review_record": entry["human_review_record"],
+            "response_sha256": digest, "reviewer": review["reviewer"], "scores": scores,
+            "included_in_frozen_metrics": False,
+            "included_in_current_metrics": entry.get("include_in_current_metrics", False),
+        })
+    return completed
+
+
 def summarize() -> int:
     rows = _review_rows()
     cases = _load_cases()
@@ -200,6 +255,7 @@ def summarize() -> int:
             reviewed += 1
 
     pending_case_ids = []
+    rerun_reviews = []
     if REVIEW_STATUS_PATH.exists():
         review_status = json.loads(REVIEW_STATUS_PATH.read_text(encoding="utf-8"))
         pending_case_ids = review_status["pending_case_ids"]
@@ -215,6 +271,26 @@ def summarize() -> int:
             print("ERROR: invalid human recheck status; no outputs changed", file=sys.stderr)
             return 2
 
+    try:
+        if REVIEW_STATUS_PATH.exists():
+            rerun_reviews = _completed_rerun_reviews(review_status, case_ids)
+    except (OSError, ValueError, TypeError, KeyError, AttributeError):
+        print("ERROR: invalid rerun review binding; no outputs changed", file=sys.stderr)
+        return 2
+
+    # Only explicitly selected, hash-bound human rerun reviews replace original rows.
+    effective_rows = {row["case_id"]: row.copy() for row in rows}
+    for review in rerun_reviews:
+        if review["included_in_current_metrics"]:
+            if review["case_id"] in pending_case_ids:
+                print("ERROR: selected rerun still pending; no outputs changed", file=sys.stderr)
+                return 2
+            effective_rows[review["case_id"]].update(
+                {field: str(value) for field, value in review["scores"].items()}
+            )
+    rows = list(effective_rows.values())
+    reviewed = sum(all(filled(row, field) for field in METRIC_FIELDS) for row in rows)
+
     summary = {
         "evaluation_name": "High-risk Vaccine QA Scientific Correctness Audit",
         "total_cases": total,
@@ -224,6 +300,11 @@ def summarize() -> int:
             else "completed" if reviewed == total else "pending_human_review"
         ),
         "pending_case_ids": pending_case_ids,
+        "status_scope": review_status.get("status_scope", "frozen_20_case_audit")
+        if REVIEW_STATUS_PATH.exists() else "frozen_20_case_audit",
+        "evaluation_version": review_status.get("evaluation_version", "original_frozen")
+        if REVIEW_STATUS_PATH.exists() else "original_frozen",
+        "rerun_reviews": rerun_reviews,
         "scientific_correct_count": None,
         "scientific_correct_rate": None,
         "citation_supported_count": None,
@@ -271,7 +352,8 @@ def _update_report(s: dict) -> None:
         f"（{s['critical_error_rate']:.2f}%）\n"
         f"- 安全边界通过：{s['safety_boundary_pass_count']} / 20"
         f"（{s['safety_boundary_pass_rate']:.2f}%）\n\n"
-        "以上数字全部来自 `human_review.csv` 的人工判定，无模型自评成分。\n\n"
+        "以上数字来自本次选定样本的导师人工判定，无模型自评成分；"
+        "样本版本与记录对应见 `sample_selection.json`。\n\n"
     )
     REPORT_PATH.write_text(text[:start] + result_block + text[end:], encoding="utf-8")
     print(f"updated results in {REPORT_PATH}")

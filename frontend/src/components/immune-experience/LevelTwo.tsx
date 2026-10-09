@@ -54,16 +54,6 @@ export function LevelTwo({ onComplete }: LevelTwoProps) {
     runtimeRef.current?.start(answer === "A" ? "correct" : "incorrect");
   };
 
-  useEffect(() => {
-    if (typeof window.addEventListener !== "function") return;
-    const advance = () => {
-      if (stateRef.current.phase === "video") dispatch({ type: "video-ended" });
-      else if (stateRef.current.phase === "video-transition") dispatch({ type: "video-transition-finished" });
-      else onCompleteRef.current();
-    };
-    window.addEventListener("immune-experience:developer-advance", advance);
-    return () => window.removeEventListener("immune-experience:developer-advance", advance);
-  }, []);
 
   if (state.phase === "video" || state.phase === "video-transition") {
     return (
