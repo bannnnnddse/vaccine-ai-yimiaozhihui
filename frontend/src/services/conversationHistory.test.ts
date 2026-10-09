@@ -72,4 +72,14 @@ describe("conversation history repository", () => {
     expect(fallbackConversationTitle("  我今年17岁，\n是男生，请问现在还能不能接种九价HPV疫苗？  "))
       .toBe("我今年17岁， 是男生，请问现在还能不能接种九…");
   });
+
+  it.each(["submitting", "generating", "cancelling"] as const)("restores %s as unconfirmed without inventing cancellation", (stage) => {
+    const entry = conversation("interrupted", now);
+    entry.messages.push({ id: "image", role: "assistant", kind: "image-status",
+      prompt: "免疫记忆", jobId: "job", requestToken: "token", stage, traceEvents: [] });
+    persistConversations([entry], now);
+    const recovered = loadConversations(now)[0].messages[1];
+    expect(recovered).toMatchObject({ stage: "failed", error: expect.stringContaining("未确认") });
+    expect(loadConversations(now)[0].messages[1]).toEqual(recovered);
+  });
 });

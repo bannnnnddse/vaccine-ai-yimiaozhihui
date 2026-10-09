@@ -119,6 +119,8 @@ flowchart LR
 
 ### 5. 前端体验闭环（React 状态与服务层 → 异常/取消处理 → 人工验收）
 
+图解取消只有在后端工作任务和正在运行的图像线程退出、清理完成后才返回确认；前端校验任务 ID、取消标志及确认阶段，最多等待 10 秒。超时、创建中断或刷新显示停止未确认，并按原对话保存；删除的对话不会被迟到结果恢复。该确认不代表图像供应商退费或撤销已经执行的请求。
+
 所有网络代码收敛在 `frontend/src/services/`；图解任务使用 request token + job ID + AbortController，切换、取消、卸载时对称清理 timer、轮询、监听、observer、GSAP 与请求；同步维护键盘可达、移动端、reduced-motion 等可访问性要求。
 
 ---
@@ -227,13 +229,13 @@ X2 是 recall-oriented 配置：Dense/BM25 各取 50，fusion 与 plain rerank �
 
 2026-10-09 本次本地离线验证；测试数量随提交与参数化变化，后续以对应提交的实际测试或 CI 输出为准。
 
-- 后端：440 项 `pytest` 通过（2 个第三方 deprecation warnings；含图解来源绑定、取消、重试及编辑守护回归）；`ruff check app tests` 通过
-- 前端：62 个测试文件、363 项测试通过；`pnpm build` 通过
+- 后端：450 项 `pytest` 通过（2 个第三方 deprecation warnings；含图解来源绑定、取消、重试及编辑守护回归）；`ruff check app tests` 通过
+- 前端：62 个测试文件、377 项测试通过；`pnpm typecheck`（32 项既有类型错误已消除）与 `pnpm build` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过；本次未调用真实模型或重建索引/图谱
 - CI：GitHub Actions 持续执行前端测试与构建、后端测试与 lint，以及 Docker 构建验证，配置见 `.github/workflows/ci.yml`。
 
 ## 八、科学证据与交付限制
 
-2026-10-08 补充狂犬病规范后，当前清单仍有：98/141 条 `evidence_level=unknown`，117/141 条 `metadata_confidence=low`，117/141 条缺少 `publication_date`，120/141 条语言为英文。部分 `issuer` 来自 PDF 作者元数据，不能视作发布机构。受治理表示有清单和准入流程，不代表元数据已全部人工核实。
+2026-10-08 补充狂犬病规范后，当前清单仍有：98/141 条 `evidence_level=unknown`，117/141 条 `metadata_confidence=low`，117/141 条缺少 `publication_date`，120/141 条语言为英文。部分 `issuer` 来自 PDF 作者元数据，不能视作发布机构。受治理表示有清单和准入流程，不代表元数据已全部人工核实。 `evidence_level` 当前是文献类型标签，不是医学证据强度评分。已提供 [141 条语料人工核对表与填写说明](docs/corpus-review/README.md)，原始值与人工结果分列保存。
 
 当前20条科学正确性抽检已完成导师人工审核，评分为20/20科学正确、19/20引用支持、0/20严重医学错误、20/20安全边界通过；这些数字只描述本次样本。SCI-013使用已独立评分并绑定正文及来源的新返回，其余19条使用原输出与人工判定，每题只计一次。运行和评分对应见 [样本版本](docs/evaluation/scientific_correctness/sample_selection.json)、[人工复核表](docs/evaluation/scientific_correctness/human_review.csv)与[抽检报告](docs/evaluation/scientific_correctness/report.md)。旧输出归档保留，生产活动索引未切换。

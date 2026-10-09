@@ -22,6 +22,7 @@ from app.schemas.image_pipeline import (
     VisualIssue,
 )
 from app.schemas.knowledge_image import (
+    ImageJobCancellation,
     ImageJobCreated,
     ImageJobStage,
     ImageJobStatus,
@@ -37,6 +38,7 @@ from app.services.image_roi_editor import (
     save_debug_metadata,
     validate_bbox_for_image,
 )
+from app.services.image_worker import run_image_blocking
 from app.services.local_image_eraser import erase_on_uniform_background
 from app.services.science_image_evidence import ScienceImageEvidenceService, evidence_contract
 from app.services.visual_complexity_contract import derive_visual_complexity_contract
@@ -50,9 +52,15 @@ if TYPE_CHECKING:
     from app.services.wan_image_generator import WanImageGenerator
 
 _JOB_ID_BYTES = 12
+_CANCEL_CONFIRM_TIMEOUT_SECONDS = 8.0
 _TERMINAL_STAGES: frozenset[ImageJobStage] = frozenset({"completed", "failed", "cancelled"})
 _GENERIC_FAILURE_MESSAGE = "生成失败，请稍后重试。"
 logger = logging.getLogger(__name__)
+
+
+def _consume_task_exception(task: asyncio.Task[ImageJobCancellation]) -> None:
+    if not task.cancelled():
+        task.exception()
 
 
 class JobNotFoundError(RuntimeError):
@@ -72,6 +80,10 @@ class InvalidJobStateError(RuntimeError):
 
 
 class JobCancelledError(asyncio.CancelledError):
+    pass
+
+
+class ImageCancellationUnconfirmedError(RuntimeError):
     pass
 
 
@@ -108,6 +120,7 @@ class _JobRecord:
         self.trace_history: list[dict[str, Any]] = []
         self.cancel_event = asyncio.Event()
         self._task: asyncio.Task[None] | None = None
+        self._cancel_task: asyncio.Task[ImageJobCancellation] | None = None
 
     @property
     def image_type(self) -> ScienceImageType | None:
@@ -211,7 +224,7 @@ class ScienceImageJobManager:
                 raise InvalidJobStateError
             if record.image_id != payload.target_image_id or record.trusted_path is None:
                 raise JobVersionConflictError
-            await asyncio.to_thread(
+            await run_image_blocking(
                 validate_bbox_for_image,
                 record.trusted_path,
                 payload.bbox,
@@ -286,16 +299,57 @@ class ScienceImageJobManager:
             await self._finish(record, "awaiting_human_feedback")
             return record.to_status()
 
-    async def cancel(self, job_id: str) -> bool:
-        record = self._jobs.get(job_id)
-        if record is None or record.is_terminal:
-            return False
-        record.cancel_event.set()
-        if record._task is not None and not record._task.done():
-            record._task.cancel()
+    async def cancel(self, job_id: str) -> ImageJobCancellation | None:
+        async with self._lock:
+            record = self._jobs.get(job_id)
+            if record is None:
+                return None
+            if record._cancel_task is None:
+                if record.stage == "cancelled" and (record._task is None or record._task.done()):
+                    return ImageJobCancellation(job_id=job_id, stage="cancelled")
+                if record.is_terminal:
+                    return None
+                record.cancel_event.set()
+                worker = record._task
+                if worker is not None and not worker.done():
+                    worker.cancel()
+                record._cancel_task = asyncio.create_task(self._confirm_cancel(record, worker))
+                # A disconnected requester must not leave an unobserved exception.
+                record._cancel_task.add_done_callback(_consume_task_exception)
+            confirmation = record._cancel_task
+        try:
+            # Neither the HTTP deadline nor a disconnected client may interrupt cleanup.
+            return await asyncio.wait_for(
+                asyncio.shield(confirmation), timeout=_CANCEL_CONFIRM_TIMEOUT_SECONDS
+            )
+        except asyncio.TimeoutError as exc:
+            raise ImageCancellationUnconfirmedError("取消请求未确认，请稍后查询任务状态。") from exc
+
+    async def _confirm_cancel(
+        self, record: _JobRecord, worker: asyncio.Task[None] | None
+    ) -> ImageJobCancellation:
+        if worker is not None:
+            try:
+                await worker
+            except asyncio.CancelledError:
+                # Cancellation before the coroutine's first instruction skips its finally.
+                if record.stage not in {"cancelled", "awaiting_human_feedback"}:
+                    await self._finish(
+                        record, "awaiting_human_feedback" if record.trusted_path else "cancelled"
+                    )
+                await self._release(record)
+            except Exception as exc:
+                raise ImageCancellationUnconfirmedError("取消清理未完成。") from exc
         else:
-            await self._finish(record, "cancelled")
-        return True
+            await self._finish(
+                record, "awaiting_human_feedback" if record.trusted_path else "cancelled"
+            )
+        async with self._lock:
+            if record._task is not worker or record.stage not in {
+                "cancelled", "awaiting_human_feedback"
+            }:
+                raise ImageCancellationUnconfirmedError("任务状态已变化，取消未确认。")
+            return ImageJobCancellation(job_id=record.job_id, stage=record.stage)
 
     async def retry(self, job_id: str) -> ImageJobCreated | None:
         async with self._lock:
@@ -315,6 +369,8 @@ class ScienceImageJobManager:
         return self._created(replacement)
 
     def _start(self, record: _JobRecord, coroutine: Coroutine[Any, Any, None]) -> None:
+        record._cancel_task = None
+        self._set_stage(record, "queued")
         self._active_job_id = record.job_id
         record._task = asyncio.create_task(coroutine)
 
@@ -523,7 +579,7 @@ class ScienceImageJobManager:
             roi_before_path = self._roi_artifact_path(record, next_version, "roi-before")
             roi_after_path = self._roi_artifact_path(record, next_version, "roi-after")
             local_erase_path = self._roi_artifact_path(record, next_version, "local-erase")
-            roi_context = await asyncio.to_thread(
+            roi_context = await run_image_blocking(
                 prepare_roi,
                 original_path,
                 roi_before_path,
@@ -560,7 +616,7 @@ class ScienceImageJobManager:
                     original_path, local_erase_path, payload.bbox
                 )
             if local_erase is not None and local_erase.applied:
-                await asyncio.to_thread(
+                await run_image_blocking(
                     crop_roi, local_erase_path, roi_after_path, roi_context.expanded_bbox
                 )
                 self._complete_running(record, "选中内容已删除", local_erase.reason)
@@ -592,7 +648,7 @@ class ScienceImageJobManager:
                 self._complete_running(record, "选中区域已修改", "候选结果尚需通过修改范围检查。")
             if record.trusted_path != original_path or record.image_id != frozen_image_id:
                 raise JobVersionConflictError("trusted image changed during ROI edit")
-            composite = await asyncio.to_thread(
+            composite = await run_image_blocking(
                 composite_roi,
                 original_path,
                 roi_after_path,
@@ -613,12 +669,12 @@ class ScienceImageJobManager:
                 composite.edited_roi_aspect_ratio_error,
             )
             if self._settings.debug:
-                await asyncio.to_thread(
+                await run_image_blocking(
                     shutil.copyfile,
                     composite.output_path,
                     self._roi_artifact_path(record, next_version, "final-composite"),
                 )
-                await asyncio.to_thread(
+                await run_image_blocking(
                     save_debug_metadata,
                     self._roi_debug_metadata_path(record, next_version),
                     context=roi_context,
@@ -879,7 +935,7 @@ class ScienceImageJobManager:
             self._complete_running(record, title, detail, status="warning")
             self._unlink(record.candidate_path)
             if record.trusted_path is None:
-                await asyncio.to_thread(
+                await run_image_blocking(
                     _unlink_job_outputs,
                     Path(self._settings.generated_image_dir),
                     record.job_id,
@@ -962,7 +1018,7 @@ class ScienceImageJobManager:
             "trace_events": [event.model_dump(mode="json") for event in record.trace_events],
             "trace_history": record.trace_history,
         }
-        await asyncio.to_thread(
+        await run_image_blocking(
             _atomic_write_json,
             self._metadata_path(record.job_id),
             metadata,

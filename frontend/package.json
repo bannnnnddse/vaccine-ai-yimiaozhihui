@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "test": "vitest run",
+    "typecheck": "tsc --noEmit",
     "build:sites": "vite build && node scripts/prepare-sites.mjs",
     "preview": "vite preview"
   },

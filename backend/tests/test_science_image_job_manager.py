@@ -27,7 +27,11 @@ from app.schemas.science_figure import ChineseFigureBrief, CoreCausalStep
 from app.services.cell_ip_assets import CellIpGenerationProfile
 from app.services.edit_instruction_rewriter import EditInstructionRewriter
 from app.services.science_image_evidence import ScienceImageEvidenceService
-from app.services.science_image_job_manager import JobConflictError, ScienceImageJobManager
+from app.services.science_image_job_manager import (
+    ImageCancellationUnconfirmedError,
+    JobConflictError,
+    ScienceImageJobManager,
+)
 from app.services.science_image_organizer import ScienceImageOrganizer
 from app.services.wan_image_generator import WanImageGenerator
 
@@ -231,6 +235,128 @@ async def _wait_idle(manager: ScienceImageJobManager, job_id: str) -> None:
             return
         await asyncio.sleep(0.005)
     raise AssertionError("image task did not finish")
+
+
+def _blocked_operation():
+    entered, cleaning, release = asyncio.Event(), asyncio.Event(), asyncio.Event()
+
+    async def operation(**kwargs):
+        entered.set()
+        try:
+            await asyncio.Event().wait()
+        except asyncio.CancelledError:
+            cleaning.set()
+            await release.wait()
+            raise
+
+    return operation, entered, cleaning, release
+
+
+@pytest.mark.asyncio
+async def test_cancel_waits_for_cleanup_and_coalesces_duplicate_requests(dependencies):
+    manager, _, wan, *_ = dependencies
+    operation, entered, cleaning, release = _blocked_operation()
+    wan.generate.side_effect = operation
+    created = await manager.create("解释免疫记忆")
+    await asyncio.wait_for(entered.wait(), 1)
+    first = asyncio.create_task(manager.cancel(created.job_id))
+    await asyncio.wait_for(cleaning.wait(), 1)
+    second = asyncio.create_task(manager.cancel(created.job_id))
+    await asyncio.sleep(0)
+    assert not first.done() and not second.done()
+    assert not manager._jobs[created.job_id]._task.done()
+    with pytest.raises(JobConflictError):
+        await manager.create("另一主题")
+    release.set()
+    confirmations = await asyncio.gather(first, second)
+    assert all(result.cancelled and result.stage == "cancelled" for result in confirmations)
+    assert manager._jobs[created.job_id]._task.done()
+    assert manager._active_job_id is None
+    assert (await manager.cancel(created.job_id)).stage == "cancelled"
+
+
+@pytest.mark.asyncio
+async def test_cancel_timeout_keeps_cleanup_alive_and_can_confirm_later(dependencies, monkeypatch):
+    monkeypatch.setattr(
+        "app.services.science_image_job_manager._CANCEL_CONFIRM_TIMEOUT_SECONDS", 0.01
+    )
+    manager, _, wan, *_ = dependencies
+    operation, entered, cleaning, release = _blocked_operation()
+    wan.generate.side_effect = operation
+    created = await manager.create("解释免疫记忆")
+    await asyncio.wait_for(entered.wait(), 1)
+    with pytest.raises(ImageCancellationUnconfirmedError):
+        await manager.cancel(created.job_id)
+    assert cleaning.is_set()
+    assert not manager._jobs[created.job_id]._task.done()
+    with pytest.raises(JobConflictError):
+        await manager.create("另一主题")
+    release.set()
+    monkeypatch.setattr(
+        "app.services.science_image_job_manager._CANCEL_CONFIRM_TIMEOUT_SECONDS", 1.0
+    )
+    result = await manager.cancel(created.job_id)
+    assert result.stage == "cancelled"
+
+
+@pytest.mark.asyncio
+async def test_cancel_before_worker_starts_releases_slot(dependencies):
+    manager, _, wan, *_ = dependencies
+    created = await manager.create("解释免疫记忆")
+    result = await manager.cancel(created.job_id)
+    assert result.stage == "cancelled"
+    assert manager._active_job_id is None
+    wan.generate.assert_not_awaited()
+
+
+@pytest.mark.asyncio
+async def test_cancel_edit_confirms_exit_and_retains_previous_image(dependencies):
+    manager, _, wan, *_ = dependencies
+    created = await manager.create("解释免疫记忆")
+    await _wait_idle(manager, created.job_id)
+    initial = await manager.get(created.job_id)
+    operation, entered, cleaning, release = _blocked_operation()
+    wan.edit.side_effect = operation
+    await manager.edit(created.job_id, ImageEditRequest(
+        target_image_id=initial.image_id, bbox=NormalizedBBox([0.1, 0.1, 0.4, 0.4]),
+        user_edit_request="把框内标签改清楚",
+    ))
+    await asyncio.wait_for(entered.wait(), 1)
+    pending = asyncio.create_task(manager.cancel(created.job_id))
+    await asyncio.wait_for(cleaning.wait(), 1)
+    assert not pending.done()
+    release.set()
+    assert (await pending).stage == "awaiting_human_feedback"
+    retained = await manager.get(created.job_id)
+    assert retained.image_id == initial.image_id
+    assert retained.image_url == initial.image_url
+    assert retained.candidate_image_url is None
+
+
+@pytest.mark.asyncio
+async def test_cancel_does_not_claim_success_for_completed_or_missing_job(dependencies):
+    manager, *_ = dependencies
+    created = await manager.create("解释免疫记忆")
+    await _wait_idle(manager, created.job_id)
+    assert await manager.cancel(created.job_id) is None
+    assert await manager.cancel("missing") is None
+
+
+@pytest.mark.asyncio
+async def test_requester_cancellation_does_not_cancel_shared_cleanup(dependencies):
+    manager, _, wan, *_ = dependencies
+    operation, entered, cleaning, release = _blocked_operation()
+    wan.generate.side_effect = operation
+    created = await manager.create("解释免疫记忆")
+    await asyncio.wait_for(entered.wait(), 1)
+    requester = asyncio.create_task(manager.cancel(created.job_id))
+    await asyncio.wait_for(cleaning.wait(), 1)
+    requester.cancel()
+    with pytest.raises(asyncio.CancelledError):
+        await requester
+    assert not manager._jobs[created.job_id]._cancel_task.done()
+    release.set()
+    assert (await manager.cancel(created.job_id)).stage == "cancelled"
 
 
 @pytest.mark.asyncio

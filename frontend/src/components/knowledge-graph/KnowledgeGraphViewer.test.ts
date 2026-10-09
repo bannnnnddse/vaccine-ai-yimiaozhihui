@@ -20,7 +20,7 @@ describe("KnowledgeGraphViewer element mapping", () => {
         { id: "vaccine", label: "HPV疫苗", type: "Vaccine", aliases: [], degree: 1, source_count: 1 },
         { id: "virus", label: "HPV16", type: "Pathogen", aliases: [], degree: 1, source_count: 1 },
       ],
-      edges: [{ id: "edge-1", source: "vaccine", target: "virus", relation: "PREVENTS", relation_label: "预防", confidence: 0.97, source_count: 1 }],
+      edges: [{ id: "edge-1", source: "vaccine", target: "virus", relation: "PREVENTS", relation_label: "预防", confidence: 0.97, source_count: 1, visual_only: false }],
     });
     expect(elements[0].data).toMatchObject({ id: "vaccine", shape: "ellipse" });
     expect(elements[1].data).toMatchObject({ id: "virus", shape: "ellipse" });

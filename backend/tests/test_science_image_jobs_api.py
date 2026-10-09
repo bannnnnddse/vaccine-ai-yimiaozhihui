@@ -8,9 +8,12 @@ from fastapi.testclient import TestClient
 
 from app.core.config import Settings
 from app.main import create_app
-from app.schemas.knowledge_image import ImageJobCreated, ImageJobStatus
+from app.schemas.knowledge_image import ImageJobCancellation, ImageJobCreated, ImageJobStatus
 from app.services.image_roi_editor import InvalidBBoxError
-from app.services.science_image_job_manager import JobConflictError
+from app.services.science_image_job_manager import (
+    ImageCancellationUnconfirmedError,
+    JobConflictError,
+)
 
 # ── Test app factory ────────────────────────────────────────────────
 
@@ -176,7 +179,9 @@ def test_get_job_returns_404_for_unknown_id(
 def test_cancel_job_returns_200(
     client: TestClient, mock_manager: AsyncMock
 ) -> None:
-    mock_manager.cancel.return_value = True
+    mock_manager.cancel.return_value = ImageJobCancellation(
+        job_id="abcdef123456", stage="cancelled"
+    )
 
     response = client.delete("/api/v1/image-jobs/abcdef123456")
 
@@ -187,7 +192,7 @@ def test_cancel_job_returns_200(
 def test_cancel_job_returns_404_when_not_found(
     client: TestClient, mock_manager: AsyncMock
 ) -> None:
-    mock_manager.cancel.return_value = False
+    mock_manager.cancel.return_value = None
 
     response = client.delete("/api/v1/image-jobs/nonexistent")
 
@@ -195,6 +200,25 @@ def test_cancel_job_returns_404_when_not_found(
 
 
 # ── POST /image-jobs/{job_id}/retry ─────────────────────────────────
+
+
+def test_cancel_job_returns_504_without_false_acknowledgement(client, mock_manager):
+    mock_manager.cancel.side_effect = ImageCancellationUnconfirmedError()
+    response = client.delete("/api/v1/image-jobs/pending")
+    assert response.status_code == 504
+    assert "未确认" in response.json()["detail"]
+    assert "cancelled" not in response.json()
+
+
+def test_cancel_edit_acknowledges_retained_image(client, mock_manager):
+    mock_manager.cancel.return_value = ImageJobCancellation(
+        job_id="editing", stage="awaiting_human_feedback"
+    )
+    response = client.delete("/api/v1/image-jobs/editing")
+    assert response.json() == {
+        "job_id": "editing", "stage": "awaiting_human_feedback",
+        "cancelled": True, "detail": "任务已取消。",
+    }
 
 
 def test_retry_job_returns_201(

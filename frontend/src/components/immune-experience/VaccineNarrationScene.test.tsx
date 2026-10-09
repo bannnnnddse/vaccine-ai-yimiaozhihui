@@ -1,6 +1,5 @@
 import { renderToStaticMarkup } from "react-dom/server";
 import { describe, expect, it } from "vitest";
-// @ts-expect-error Node types are intentionally not part of the browser application.
 import { readFileSync } from "node:fs";
 import { level3Assets } from "../../assets/immune/level3/level3Assets";
 import { HOLD_DURATION_MS, VaccineNarrationScene } from "./VaccineNarrationScene";

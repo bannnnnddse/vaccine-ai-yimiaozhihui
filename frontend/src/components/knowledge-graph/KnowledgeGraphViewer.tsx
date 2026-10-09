@@ -1,5 +1,5 @@
 import { ArrowCounterClockwise, ArrowLeft, ArrowsOut, Crosshair, MagnifyingGlass, Network, X } from "@phosphor-icons/react";
-import cytoscape, { type Core, type EventObject } from "cytoscape";
+import cytoscape, { type Core, type EventObject, type BaseLayoutOptions } from "cytoscape";
 import fcose from "cytoscape-fcose";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
@@ -10,6 +10,15 @@ import {
 import "./KnowledgeGraphViewer.css";
 
 cytoscape.use(fcose);
+
+interface FcoseLayoutOptions extends BaseLayoutOptions {
+  name: "fcose";
+  animate: boolean;
+  randomize: boolean;
+  nodeRepulsion?: number;
+  idealEdgeLength?: number;
+  quality?: "default";
+}
 
 const CACHE_PREFIX = "vaccine-ai.knowledge-graph.";
 const colors: Record<string, string> = {
@@ -69,19 +78,23 @@ export function KnowledgeGraphViewer({ onClose }: { onClose: () => void }) {
     if (!containerRef.current || !graph) return;
     cyRef.current?.destroy();
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const layout: FcoseLayoutOptions = {
+      name: "fcose", animate: !reduced, randomize: true,
+      nodeRepulsion: 7500, idealEdgeLength: 92, quality: "default",
+    };
     const cy = cytoscape({
       container: containerRef.current,
       elements: toCytoscapeElements(graph),
       style: [
-        { selector: "node", style: { "background-color": "data(color)", shape: "data(shape)", label: "data(label)", color: "#1e2426", "font-size": 11, "text-wrap": "wrap", "text-max-width": 100, "text-valign": "bottom", "text-margin-y": 7, width: "mapData(degree, 0, 15, 24, 58)", height: "mapData(degree, 0, 15, 24, 58)", "border-width": 2, "border-color": "#f8fcff" } },
-        { selector: "edge", style: { width: 1.35, "line-color": "#788181", "target-arrow-color": "#788181", "target-arrow-shape": "triangle", "curve-style": "bezier", opacity: 0.62, label: "", "font-size": 9, color: "#3f4747", "text-background-color": "#fffaf0", "text-background-opacity": 0.9, "text-background-padding": 2 } },
+        { selector: "node", style: { "background-color": "data(color)", shape: "ellipse", label: "data(label)", color: "#1e2426", "font-size": 11, "text-wrap": "wrap", "text-max-width": "100px", "text-valign": "bottom", "text-margin-y": 7, width: "mapData(degree, 0, 15, 24, 58)", height: "mapData(degree, 0, 15, 24, 58)", "border-width": 2, "border-color": "#f8fcff" } },
+        { selector: "edge", style: { width: 1.35, "line-color": "#788181", "target-arrow-color": "#788181", "target-arrow-shape": "triangle", "curve-style": "bezier", opacity: 0.62, label: "", "font-size": 9, color: "#3f4747", "text-background-color": "#fffaf0", "text-background-opacity": 0.9, "text-background-padding": "2px" } },
         { selector: "edge.visual-only", style: { "line-style": "dashed", "line-dash-pattern": [5, 6], "line-color": "#6a8493", "target-arrow-shape": "none", opacity: 0.42 } },
         { selector: ":selected", style: { "border-color": "#151a1b", "border-width": 4 } },
         { selector: ".focus", style: { opacity: 1, label: "data(label)" } },
         { selector: "edge.focus", style: { opacity: 1, width: 3, "line-color": "#1685dc", "target-arrow-color": "#1685dc", label: "data(label)" } },
         { selector: ".muted", style: { opacity: 0.12 } },
       ],
-      layout: { name: "fcose", animate: !reduced, randomize: true, nodeRepulsion: 7500, idealEdgeLength: 92, quality: "default" },
+      layout,
       minZoom: 0.18, maxZoom: 3.2,
     });
     const selectNode = (event: EventObject) => {
@@ -97,7 +110,7 @@ export function KnowledgeGraphViewer({ onClose }: { onClose: () => void }) {
 
   useEffect(() => {
     const cy = cyRef.current; if (!cy) return;
-    cy.nodes().forEach((node) => node.style("display", hiddenTypes.has(String(node.data("type"))) ? "none" : "element"));
+    cy.nodes().forEach((node) => { node.style("display", hiddenTypes.has(String(node.data("type"))) ? "none" : "element"); });
     cy.edges().forEach((edge) => {
       const endpointHidden = hiddenTypes.has(String(edge.source().data("type"))) || hiddenTypes.has(String(edge.target().data("type")));
       edge.style("display", endpointHidden || hiddenRelations.has(String(edge.data("relation"))) ? "none" : "element");
@@ -116,7 +129,10 @@ export function KnowledgeGraphViewer({ onClose }: { onClose: () => void }) {
     return () => window.cancelAnimationFrame(frame);
   }, [inspectorOpen]);
   const openNode = async (node: GraphSearchItem | GraphNode) => { setQuery(node.label); setResults([]); await load(node.id, depth); };
-  const relayout = () => cyRef.current?.layout({ name: "fcose", animate: false, randomize: true }).run();
+  const relayout = () => {
+    const layout: FcoseLayoutOptions = { name: "fcose", animate: false, randomize: true };
+    cyRef.current?.layout(layout).run();
+  };
   const returnToOverview = () => {
     setDepth(1); setShowSources(false); setHiddenTypes(new Set()); setHiddenRelations(new Set());
     setQuery(""); setResults([]); setDetail(null); setSelectedEdge(null); setEdgeSources([]);

@@ -20,6 +20,7 @@ from app.services.cell_ip_assets import (
     CellIpAssetService,
     CellIpGenerationProfile,
 )
+from app.services.image_worker import run_image_blocking
 from app.services.science_image_evidence import evidence_contract
 from app.services.visual_complexity_contract import derive_visual_complexity_contract
 from app.services.wan_api_client import WanApiClient
@@ -354,12 +355,12 @@ class WanImageGenerator:
             raise CellIpAssetError("cell IP visual profile requested while the skill is disabled")
         user_prompt = None if brief.evidence is not None else user_prompt
         cell_ip_profile = (
-            await asyncio.to_thread(self._cell_ip_assets.profile_for, brief, user_prompt)
+            await run_image_blocking(self._cell_ip_assets.profile_for, brief, user_prompt)
             if wants_cell_ip and self._cell_ip_assets
             else None
         )
         if cell_ip_profile is None:
-            reference_images = await asyncio.to_thread(
+            reference_images = await run_image_blocking(
                 load_reference_image, self._settings, brief.image_type
             )
             prompt = build_fast_wan_prompt(brief, user_prompt)
@@ -369,7 +370,7 @@ class WanImageGenerator:
             prompt = build_cell_ip_prompt(brief, cell_ip_profile, user_prompt)
             aspect_ratio = cell_ip_profile.aspect_ratio
             _assert_canonical_references(cell_ip_profile, reference_images)
-        image_bytes = await asyncio.to_thread(
+        image_bytes = await run_image_blocking(
             self._provider.generate,
             prompt=prompt,
             reference_images=reference_images,
@@ -402,8 +403,8 @@ class WanImageGenerator:
     ) -> WanImageResult:
         """Edit one authoritative region using Wan 2.7 ``bbox_list``."""
         _raise_if_cancelled(cancel_event)
-        image_bytes = await asyncio.to_thread(source_path.read_bytes)
-        image_bytes, source_size, provider_size = await asyncio.to_thread(
+        image_bytes = await run_image_blocking(source_path.read_bytes)
+        image_bytes, source_size, provider_size = await run_image_blocking(
             _prepare_wan_edit_input,
             image_bytes,
             self._settings.wan_edit_min_input_side_px,
@@ -418,7 +419,7 @@ class WanImageGenerator:
             pixel_bbox,
             self._settings.image_edit_model,
         )
-        result_bytes = await asyncio.to_thread(
+        result_bytes = await run_image_blocking(
             self._edit_sync,
             image_bytes,
             instruction,
@@ -429,7 +430,7 @@ class WanImageGenerator:
         if not _is_decodable_png(result_bytes):
             raise WanImageGeneratorError("WAN edit did not return PNG image bytes")
         output_path = Path(output_path)
-        await asyncio.to_thread(output_path.write_bytes, result_bytes)
+        await run_image_blocking(output_path.write_bytes, result_bytes)
         return WanImageResult(final_path=output_path)
 
     def _edit_sync(

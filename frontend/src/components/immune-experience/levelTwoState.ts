@@ -40,9 +40,9 @@ export function transitionLevelTwo(state: LevelTwoState, action: LevelTwoAction)
 export function createLevelTwoTransitionRuntime(
   onTransitionFinished: () => void,
   setTimer = (callback: () => void, delay: number) => globalThis.setTimeout(callback, delay),
-  clearTimer = (id: number) => globalThis.clearTimeout(id),
+  clearTimer = (id: ReturnType<typeof setTimer>) => globalThis.clearTimeout(id),
 ) {
-  let active: number | null = null;
+  let active: ReturnType<typeof setTimer> | null = null;
   return {
     start() {
       if (active !== null) return false;

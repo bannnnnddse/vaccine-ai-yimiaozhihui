@@ -76,6 +76,15 @@ class ImageJobCreated(BaseModel):
     trace_events: list[ImageProcessEvent] = Field(default_factory=list)
 
 
+class ImageJobCancellation(BaseModel):
+    """Acknowledgement after the application worker has exited and cleaned up."""
+
+    job_id: str
+    cancelled: Literal[True] = True
+    stage: Literal["cancelled", "awaiting_human_feedback"]
+    detail: str = "任务已取消。"
+
+
 class ImageJobStatus(BaseModel):
     job_id: str
     stage: ImageJobStage

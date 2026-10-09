@@ -24,6 +24,7 @@ jobs:
           cache: pnpm
           cache-dependency-path: frontend/pnpm-lock.yaml
       - run: pnpm --dir frontend install --frozen-lockfile
+      - run: pnpm --dir frontend typecheck
       - run: pnpm --dir frontend test
       - run: pnpm --dir frontend build
 

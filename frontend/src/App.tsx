@@ -8,6 +8,7 @@ import {
   type ChatMessageData,
   type ImageResultChatMessage,
   type ImageStatusChatMessage,
+  type TextChatMessage,
 } from "./components/ChatMessage";
 import { ChatPanel } from "./components/ChatPanel";
 import { ImageHistoryModal } from "./components/ImageHistoryModal";
@@ -108,6 +109,7 @@ interface ActiveImageJob {
   prompt: string;
   messageId: string;
   sourceMessageId?: string;
+  conversationId?: string | null;
 }
 
 interface PendingImageResult {
@@ -116,7 +118,7 @@ interface PendingImageResult {
   prompt: string;
 }
 
-type CancelReason = "user" | "mode-switch" | "unmount";
+type CancelReason = "user" | "mode-switch" | "unmount" | "conversation-delete";
 
 function isAbortError(error: unknown) {
   return error instanceof DOMException && error.name === "AbortError";
@@ -217,7 +219,6 @@ export function App() {
   const chatRequestSequenceRef = useRef(0);
   const mountedRef = useRef(true);
   const activeImageJobRef = useRef<ActiveImageJob | null>(null);
-  const pendingCancellationRef = useRef(new Map<string, string>());
   const createAbortRef = useRef<AbortController | null>(null);
   const pollTimerRef = useRef<number | null>(null);
   const pollAbortRef = useRef<AbortController | null>(null);
@@ -233,7 +234,7 @@ export function App() {
   ));
 
   const currentTopic = useMemo(
-    () => messages.filter((message) => message.role === "user" && message.kind === "text").at(-1)?.content
+    () => messages.filter((message): message is TextChatMessage => message.role === "user" && message.kind === "text").at(-1)?.content
       || "请先选择或输入一个问题",
     [messages],
   );
@@ -541,7 +542,12 @@ export function App() {
       const job = await request(controller.signal);
       const current = activeImageJobRef.current;
       if (!mountedRef.current || current?.requestToken !== active.requestToken) {
-        void cancelImageJob(job.jobId).catch(() => undefined);
+        active.jobId = job.jobId;
+        void cancelImageJob(job.jobId).then(() => {
+          settleImageCancellation(active, "cancelled", "已取消本次图片生成");
+        }).catch(() => {
+          settleImageCancellation(active, "failed", "取消请求未确认，请稍后查询任务状态");
+        });
         return;
       }
       current.jobId = job.jobId;
@@ -607,6 +613,7 @@ export function App() {
     ];
     setMessages(nextMessages);
     persistConversationMessages(nextMessages, { modeOverride: "illustration" });
+    active.conversationId = activeConversationIdRef.current;
     setInput("");
     void beginImageRequest(active, (signal) => createImageJob(prompt, signal));
   };
@@ -659,10 +666,11 @@ export function App() {
       prompt: message.prompt,
       messageId,
       sourceMessageId: message.id,
+      conversationId: activeConversationIdRef.current,
     };
     activeImageJobRef.current = active;
-    setMessages((current) => [
-      ...current.map((item) => item.id === message.id && item.kind === "image-result"
+    const nextMessages: ChatMessageData[] = [
+      ...messages.map((item) => item.id === message.id && item.kind === "image-result"
         ? { ...item, historical: true }
         : item),
       {
@@ -682,7 +690,9 @@ export function App() {
         error: null,
         traceEvents: [],
       },
-    ]);
+    ];
+    setMessages(nextMessages);
+    persistConversationMessages(nextMessages, { modeOverride: "illustration" });
     void beginImageRequest(active, (signal) => editImageJob(message.jobId, message.imageId, bbox, request, signal));
   };
 
@@ -730,11 +740,12 @@ export function App() {
     try {
       const job = await restorePreviousImageJob(message.jobId, message.imageId);
       if (!job.imageUrl || !job.imageId) throw new Error("restored image is unavailable");
+      const { imageUrl, imageId } = job;
       setMessages((current) => current.map((item) => item.id === message.id && item.kind === "image-result"
         ? {
             ...item,
-            imageUrl: job.imageUrl,
-            imageId: job.imageId,
+            imageUrl,
+            imageId,
             stage: job.stage,
             candidateImageUrl: job.candidateImageUrl,
             previousImageUrl: job.previousImageUrl,
@@ -754,59 +765,63 @@ export function App() {
     }
   };
 
+  const updateOwnedImageMessages = (
+    active: ActiveImageJob, update: (messages: ChatMessageData[]) => ChatMessageData[],
+  ) => {
+    // Only update an existing record. Deleting a conversation must remain permanent.
+    const updateConversations = (current: StoredConversation[]) => persistConversations(
+      current.map((conversation) => conversation.id === active.conversationId
+        ? { ...conversation, messages: update(conversation.messages),
+            titleStatus: conversation.titleStatus === "pending" ? "fallback" : conversation.titleStatus }
+        : conversation),
+    );
+    if (mountedRef.current) {
+      setConversations(updateConversations);
+      if (activeConversationIdRef.current === active.conversationId) setMessages(update);
+    } else {
+      updateConversations(loadConversations());
+    }
+  };
+
+  const settleImageCancellation = (active: ActiveImageJob, stage: "cancelled" | "failed", error: string) => {
+    updateOwnedImageMessages(active, (current) => current.map((message) => {
+      if (message.id === active.sourceMessageId && message.kind === "image-result") {
+        return { ...message, historical: false };
+      }
+      if (message.id !== active.messageId || message.kind === "text"
+        || message.requestToken !== active.requestToken) return message;
+      const traceEvents = finishLocalTrace(message.traceEvents,
+        stage === "cancelled" ? "生成已取消" : "取消请求未确认", error);
+      if (message.kind === "image-result") return {
+        ...message, stage: "awaiting_human_feedback", error, traceEvents,
+      };
+      return { ...message, jobId: active.jobId, stage, error, traceEvents };
+    }));
+  };
+
   const cancelIllustration = async (reason: CancelReason) => {
     const active = activeImageJobRef.current;
-      if (!active) return;
-      pendingImageResultsRef.current.delete(active.messageId);
-    updateImageStatus(active.messageId, { stage: "cancelling", error: "正在取消…" });
+    if (!active) return;
+    pendingImageResultsRef.current.delete(active.messageId);
+    updateOwnedImageMessages(active, (current) => current.map((message) => (
+      message.id === active.messageId && message.kind === "image-status"
+        ? { ...message, stage: "cancelling", error: "正在取消…" } : message
+    )));
     stopPolling();
     createAbortRef.current?.abort();
     createAbortRef.current = null;
     activeImageJobRef.current = null;
-    pendingCancellationRef.current.set(active.messageId, active.requestToken);
-
-    const cancellationIsCurrent = () => (
-      mountedRef.current
-      && pendingCancellationRef.current.get(active.messageId) === active.requestToken
-    );
-
-    const finishCancellation = (stage: "cancelled" | "failed", error: string) => {
-      if (!cancellationIsCurrent()) return;
-      pendingCancellationRef.current.delete(active.messageId);
-      setMessages((current) => current.map((message) => {
-        if (message.id === active.sourceMessageId && message.kind === "image-result") {
-          return { ...message, historical: false };
-        }
-        if (message.id !== active.messageId) return message;
-        if (message.kind === "image-result") return { ...message, stage: "awaiting_human_feedback" };
-        if (message.kind === "image-status") return {
-          ...message,
-          jobId: active.jobId,
-          requestToken: active.requestToken,
-          stage,
-          error,
-          traceEvents: finishLocalTrace(
-            message.traceEvents,
-            stage === "cancelled" ? "生成已取消" : "取消请求未确认",
-            error,
-          ),
-        };
-        return message;
-      }));
-    };
-
     if (active.jobId === null) {
-      if (reason !== "unmount") finishCancellation("cancelled", "已取消本次图片生成");
+      settleImageCancellation(active, "failed", "创建请求已中断，服务端停止结果未确认");
       return;
     }
-
+    // Persist uncertainty before leaving the page; a reload cannot invent confirmation.
+    if (reason === "unmount") settleImageCancellation(active, "failed", "页面已关闭，取消结果尚未确认");
     try {
       await cancelImageJob(active.jobId);
-      if (reason === "unmount") return;
-      finishCancellation("cancelled", "已取消本次图片生成");
+      settleImageCancellation(active, "cancelled", "已取消本次图片生成");
     } catch {
-      if (reason === "unmount") return;
-      finishCancellation("failed", "取消请求未确认，请重新输入主题");
+      settleImageCancellation(active, "failed", "取消请求未确认，请稍后查询任务状态");
     }
   };
 
@@ -877,7 +892,7 @@ export function App() {
     );
     const preset = knowledgeTopics.find((topic) => topic.question === cleanQuestion);
     const recentHistory = messages
-      .filter((message) => message.kind === "text" && message.content.trim() && !message.isTyping)
+      .filter((message): message is TextChatMessage => message.kind === "text" && Boolean(message.content.trim()) && !message.isTyping)
       .slice(-8)
       .map((message) => ({ role: message.role, content: message.content }));
     const userMessage: ChatMessageData = {

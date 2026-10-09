@@ -4,16 +4,18 @@ from pathlib import Path
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException, Request, status
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse
 
 from app.schemas.image_pipeline import ImageEditRequest, ImageJobAccepted, ImageRestoreRequest
 from app.schemas.knowledge_image import (
+    ImageJobCancellation,
     ImageJobCreated,
     ImageJobCreateRequest,
     ImageJobStatus,
 )
 from app.services.image_roi_editor import InvalidBBoxError
 from app.services.science_image_job_manager import (
+    ImageCancellationUnconfirmedError,
     InvalidJobStateError,
     JobConflictError,
     JobNotFoundError,
@@ -97,22 +99,25 @@ async def get_image_job(
 # ── DELETE /image-jobs/{job_id} ─────────────────────────────────────
 
 
-@router.delete("/image-jobs/{job_id}")
+@router.delete("/image-jobs/{job_id}", response_model=ImageJobCancellation)
 async def cancel_image_job(
     job_id: str,
     manager: Annotated[ScienceImageJobManager, Depends(get_job_manager)],
-) -> JSONResponse:
+) -> ImageJobCancellation:
     """Cancel a running or queued science-image job."""
-    cancelled = await manager.cancel(job_id)
-    if not cancelled:
+    try:
+        confirmation = await manager.cancel(job_id)
+    except ImageCancellationUnconfirmedError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_504_GATEWAY_TIMEOUT,
+            detail="取消请求未确认，请稍后查询任务状态。",
+        ) from exc
+    if confirmation is None:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="任务不存在或已完成，无法取消。",
         )
-    return JSONResponse(
-        content={"detail": "任务已取消。"},
-        status_code=status.HTTP_200_OK,
-    )
+    return confirmation
 
 
 # ── POST /image-jobs/{job_id}/retry ─────────────────────────────────

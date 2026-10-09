@@ -447,11 +447,47 @@ describe("generateChatAnswer", () => {
   });
 
   it("取消任务使用 DELETE", async () => {
-    const fetchSpy = vi.fn().mockResolvedValue({ ok: true });
+    const fetchSpy = vi.fn().mockResolvedValue({ ok: true, json: async () => ({ job_id: "job-1", cancelled: true, stage: "cancelled" }) });
     vi.stubGlobal("fetch", fetchSpy);
 
-    await expect(cancelImageJob("job-1")).resolves.toBeUndefined();
-    expect(fetchSpy).toHaveBeenCalledWith("/api/v1/image-jobs/job-1", { method: "DELETE" });
+    await expect(cancelImageJob("job-1")).resolves.toEqual({ jobId: "job-1", cancelled: true, stage: "cancelled" });
+    expect(fetchSpy).toHaveBeenCalledWith("/api/v1/image-jobs/job-1", { method: "DELETE", signal: expect.any(AbortSignal) });
+  });
+
+  it.each([
+    { detail: "任务已取消。" },
+    { job_id: "other", cancelled: true, stage: "cancelled" },
+    { job_id: "job-1", cancelled: true, stage: "generating" },
+    { job_id: "job-1", cancelled: false, stage: "cancelled" },
+  ])("拒绝未确认或不属于本任务的取消响应 %j", async (data) => {
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({ ok: true, json: async () => data }));
+    await expect(cancelImageJob("job-1")).rejects.toThrow("未确认");
+  });
+
+  it("取消等待和响应体读取均受十秒期限约束", async () => {
+    vi.useFakeTimers();
+    let signal: AbortSignal | undefined;
+    vi.stubGlobal("fetch", vi.fn().mockImplementation(async (_url, options) => {
+      signal = options.signal;
+      return { ok: true, json: () => new Promise(() => {}) };
+    }));
+    try {
+      const promise = cancelImageJob("job-1");
+      const rejection = expect(promise).rejects.toMatchObject({ status: 504 });
+      await vi.advanceTimersByTimeAsync(10_000);
+      await rejection;
+      expect(signal?.aborted).toBe(true);
+      expect(vi.getTimerCount()).toBe(0);
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+
+  it("保留后端取消失败状态且清理期限定时器", async () => {
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
+      ok: false, status: 504, json: async () => ({ detail: "取消请求未确认。" }),
+    }));
+    await expect(cancelImageJob("job-1")).rejects.toMatchObject({ status: 504 });
   });
 
   it.each([404, 409, 500])("保留失败请求的 HTTP %i 状态码", async (status) => {

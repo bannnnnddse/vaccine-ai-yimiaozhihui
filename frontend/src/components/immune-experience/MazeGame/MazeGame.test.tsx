@@ -1,7 +1,6 @@
 import { act } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
-// @ts-expect-error Node types are intentionally not part of the browser application.
 import { readFileSync } from "node:fs";
 import { MAZE_INTRO_HOLD_DURATION_MS, MazeGame, type MazeCaptureSnapshot } from "./MazeGame";
 

@@ -21,7 +21,7 @@ class TestNode {
   }
 
   get firstChild() { return this.childNodes[0] ?? null; }
-  get lastChild() { return this.childNodes.at(-1) ?? null; }
+  get lastChild(): TestNode | null { return this.childNodes.at(-1) ?? null; }
   get className() { return this.attributes.get("class") ?? ""; }
   set className(value: string) { this.attributes.set("class", value); }
   get textContent(): string { return this.childNodes.map((child) => child.textContent).join(""); }
@@ -718,7 +718,7 @@ describe("App illustration-job lifecycle", () => {
 
     service.createImageJob.mockResolvedValue({ jobId: "job-strict", stage: "queued", autoRevisionCount: 0 });
     service.getImageJob.mockResolvedValue({ jobId: "job-strict", stage: "generating", autoRevisionCount: 0 });
-    service.cancelImageJob.mockResolvedValue(undefined);
+    service.cancelImageJob.mockImplementation(async (jobId: string) => ({ jobId, cancelled: true, stage: "cancelled" }));
 
     await click(container, "submit");
     expect(service.cancelImageJob).not.toHaveBeenCalled();
@@ -801,7 +801,7 @@ describe("App illustration-job lifecycle", () => {
 
   it("stops polling before DELETE and releases the image input after cancellation", async () => {
     service.createImageJob.mockResolvedValue({ jobId: "job-3", stage: "queued", autoRevisionCount: 0 });
-    service.cancelImageJob.mockResolvedValue(undefined);
+    service.cancelImageJob.mockImplementation(async (jobId: string) => ({ jobId, cancelled: true, stage: "cancelled" }));
 
     await click(container, "submit");
     await click(container, "cancel");
@@ -811,6 +811,83 @@ describe("App illustration-job lifecycle", () => {
     ]));
     await act(async () => { await vi.advanceTimersByTimeAsync(20_000); });
     expect(service.getImageJob).not.toHaveBeenCalled();
+  });
+
+  it("keeps cancelling until confirmation, then writes back to the original conversation", async () => {
+    let confirm!: (value: unknown) => void;
+    service.createImageJob.mockResolvedValue({ jobId: "job-confirm", stage: "queued", autoRevisionCount: 0 });
+    service.cancelImageJob.mockImplementation(() => new Promise((resolve) => { confirm = resolve; }));
+    await click(container, "submit");
+    await click(container, "cancel");
+    expect(messages(container)).toEqual(expect.arrayContaining([
+      expect.objectContaining({ stage: "cancelling" }),
+    ]));
+    await click(container, "chat-mode");
+    expect(messages(container)).toEqual([]);
+    await act(async () => confirm({ jobId: "job-confirm", cancelled: true, stage: "cancelled" }));
+    expect(messages(container)).toEqual([]);
+    const stored = JSON.parse(window.localStorage.getItem("vaccine-ai.conversations.v1") ?? "{}");
+    expect(stored.conversations[0].messages).toEqual(expect.arrayContaining([
+      expect.objectContaining({ jobId: "job-confirm", stage: "cancelled" }),
+    ]));
+  });
+
+  it("retains an unconfirmed cancellation failure in the owning history", async () => {
+    service.createImageJob.mockResolvedValue({ jobId: "job-unconfirmed", stage: "queued", autoRevisionCount: 0 });
+    service.cancelImageJob.mockRejectedValue(new service.RequestError("timeout", 504));
+    await click(container, "submit");
+    await click(container, "cancel");
+    expect(messages(container)).toEqual(expect.arrayContaining([
+      expect.objectContaining({ stage: "failed", error: expect.stringContaining("未确认") }),
+    ]));
+    const stored = JSON.parse(window.localStorage.getItem("vaccine-ai.conversations.v1") ?? "{}");
+    expect(stored.conversations[0].messages).toEqual(expect.arrayContaining([
+      expect.objectContaining({ stage: "failed", error: expect.stringContaining("未确认") }),
+    ]));
+  });
+
+  it("does not resurrect a deleted conversation after late cancellation confirmation", async () => {
+    let confirm!: (value: unknown) => void;
+    service.createImageJob.mockResolvedValue({ jobId: "job-delete", stage: "queued", autoRevisionCount: 0 });
+    service.cancelImageJob.mockImplementation(() => new Promise((resolve) => { confirm = resolve; }));
+    await click(container, "submit");
+    const stored = JSON.parse(window.localStorage.getItem("vaccine-ai.conversations.v1") ?? "{}");
+    await click(container, `delete-conversation-${stored.conversations[0].id}`);
+    await act(async () => confirm({ jobId: "job-delete", cancelled: true, stage: "cancelled" }));
+    expect(messages(container)).toEqual([]);
+    expect(JSON.parse(window.localStorage.getItem("vaccine-ai.conversations.v1") ?? "{}").conversations).toEqual([]);
+  });
+
+  it("marks interrupted creation unconfirmed and cancels a late-created server job", async () => {
+    let created!: (value: unknown) => void;
+    service.createImageJob.mockImplementation(() => new Promise((resolve) => { created = resolve; }));
+    service.cancelImageJob.mockImplementation(async (jobId: string) => ({ jobId, cancelled: true, stage: "cancelled" }));
+    await click(container, "submit");
+    await click(container, "cancel");
+    expect(messages(container)).toEqual(expect.arrayContaining([
+      expect.objectContaining({ stage: "failed", error: expect.stringContaining("未确认") }),
+    ]));
+    await act(async () => created({ jobId: "job-late-created", stage: "queued", autoRevisionCount: 0 }));
+    expect(service.cancelImageJob).toHaveBeenCalledWith("job-late-created");
+    expect(messages(container)).toEqual(expect.arrayContaining([
+      expect.objectContaining({ stage: "cancelled", jobId: "job-late-created" }),
+    ]));
+  });
+
+  it("immediately persists an edit and its unconfirmed cancellation while retaining the image", async () => {
+    service.createImageJob.mockResolvedValue({ jobId: "job-edit-stop", stage: "completed",
+      imageUrl: "/api/v1/generated-images/job-edit-stop-v0.png", imageId: "job-edit-stop-v0",
+      autoRevisionCount: 0, traceId: "trace-edit-stop", traceEvents: [] });
+    service.editImageJob.mockResolvedValue({ jobId: "job-edit-stop", stage: "queued", autoRevisionCount: 0 });
+    service.cancelImageJob.mockRejectedValue(new service.RequestError("timeout", 504));
+    await click(container, "submit");
+    await click(container, "edit-image");
+    await click(container, "cancel");
+    const stored = JSON.parse(window.localStorage.getItem("vaccine-ai.conversations.v1") ?? "{}");
+    expect(stored.conversations[0].messages).toEqual(expect.arrayContaining([
+      expect.objectContaining({ kind: "image-result", imageId: "job-edit-stop-v0", historical: false }),
+      expect.objectContaining({ kind: "image-status", stage: "failed", error: expect.stringContaining("未确认") }),
+    ]));
   });
 
   it("uses 1500/3000/5000 backoff delays and fails after three retry attempts", async () => {
@@ -849,7 +926,7 @@ describe("App illustration-job lifecycle", () => {
     let resolvePoll!: (job: { jobId: string; stage: "completed"; imageUrl: string; imageId: string; autoRevisionCount: number }) => void;
     service.createImageJob.mockResolvedValue({ jobId: "job-stale", stage: "queued", autoRevisionCount: 0 });
     service.getImageJob.mockImplementation(() => new Promise((resolve) => { resolvePoll = resolve; }));
-    service.cancelImageJob.mockResolvedValue(undefined);
+    service.cancelImageJob.mockImplementation(async (jobId: string) => ({ jobId, cancelled: true, stage: "cancelled" }));
 
     await click(container, "submit");
     await act(async () => { await vi.advanceTimersByTimeAsync(1_500); });

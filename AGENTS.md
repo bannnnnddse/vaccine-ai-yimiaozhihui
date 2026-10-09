@@ -11,8 +11,8 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 当前本地离线验证基线（2026-10-09；不代表线上医学准确性验收）：
 
 - 在线体验地址（Cloudflare 隧道实时演示）：https://skin-swimming-shades-assume.trycloudflare.com/ （临时隧道，服务器重启后地址可能变化；部署细节见 DEPLOYMENT.md）
-- 前端 `pnpm test`：62 个测试文件、363 项测试通过；`pnpm build` 通过
-- 后端 `pytest`：440 项测试通过（2 个第三方 deprecation warnings；含图解证据绑定与生命周期守护回归）；`ruff check app tests` 通过
+- 前端 `pnpm test`：62 个测试文件、377 项测试通过；`pnpm typecheck` 与 `pnpm build` 通过
+- 后端 `pytest`：450 项测试通过（2 个第三方 deprecation warnings；含图解证据绑定与生命周期守护回归）；`ruff check app tests` 通过
 - `python scripts/deploy_preflight.py --source-only` 通过
 - GitHub Actions 配置覆盖 `main` 与 `master` 的前端、后端和 Docker 构建检查；实际通过状态以对应提交的 CI 输出为准
 - 项目提交报告口径：Top-4 evidence retrieval 为 958/1081（88.62%）；该口径先从 1500 条中按当时语料覆盖排除 419 个 Knowledge Gap
@@ -83,6 +83,7 @@ _本文件是仓库当前完成状态、系统边界和后续维护约束的唯�
 - 当前任务阶段以 `app/schemas/knowledge_image.py` 与 `science_image_job_manager.py` 为准，包含 `rewriting_prompt`、`generating`、视觉审核/修订及终止状态；历史 `preparing_content` / `generating_illustration` 不代表当前管线发出的完整状态
 - 正式任务必须经过 `ScienceImageEvidenceService`：独立调用共享 RAG、记录本轮 index version、校验每个 claim/step 的来源及逐字摘录，再进行支持范围检查；失败不得调用 Wan。重试重新检索；编辑只能保留已绑定科学含义，否则要求新主题。来源与图片元数据、前端结果及会话历史同属一个任务，不能把来源绑定或模型支持检查称为医学审核通过。旧空白名单保持删除；图解未接 PubMed，不得用聊天历史当证据
 - 互动入口保留科普与医疗建议的边界提示；测试不得断言免责声明必须不存在
+- `DELETE /image-jobs/{id}` 只有工作任务与阻塞图像线程退出并清理后才返回 `job_id + cancelled=true + stage`；后端等待上限 8 秒，前端含响应体读取上限 10 秒。超时/创建中断/刷新需保存“停止未确认”，结果归属原对话且不复活已删除记录；不能把应用侧取消确认表述为供应商已退款。
 - 图解创建、轮询、编辑与接受必须使用 request token、job ID 和 AbortController；切换、取消、卸载时清理 timer、poll、listener、observer、GSAP 和请求
 - `CELL_IP_ENABLED` 仅表示固定细胞 IP 能力可用，不能覆盖普通科学图解默认的 `scientific_diagram` profile
 
@@ -113,3 +114,5 @@ cd ..\backend
 .\.venv\Scripts\python.exe -m pytest
 .\.venv\Scripts\python.exe -m ruff check app tests
 ```
+
+语料书目信息核对入口：[docs/corpus-review/README.md](docs/corpus-review/README.md)。141 条导出记录保留原始元数据与哈希，人工只填结果列；文献类型核对不等于医学审核，禁止直接据此把清单改成 `human_approved` 或切换活动索引。

@@ -718,15 +718,42 @@ export async function getImageJob(jobId: string, signal: AbortSignal): Promise<I
   return parseImageJobResponse(response);
 }
 
-export async function cancelImageJob(jobId: string): Promise<void> {
-  const response = await fetch(`/api/v1/image-jobs/${encodeURIComponent(jobId)}`, {
-    method: "DELETE",
+export interface ImageCancellation {
+  jobId: string;
+  cancelled: true;
+  stage: "cancelled" | "awaiting_human_feedback";
+}
+
+export async function cancelImageJob(jobId: string): Promise<ImageCancellation> {
+  const controller = new AbortController();
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const deadline = new Promise<never>((_, reject) => {
+    timer = setTimeout(() => {
+      reject(new ImageJobRequestError("取消请求超时，停止结果未确认。", 504));
+      controller.abort();
+    }, 10_000);
   });
-  if (!response.ok) {
-    throw new ImageJobRequestError(
-      await getImageJobErrorMessage(response),
-      response.status,
-    );
+  const request = async (): Promise<ImageCancellation> => {
+    const response = await fetch(`/api/v1/image-jobs/${encodeURIComponent(jobId)}`, {
+      method: "DELETE", signal: controller.signal,
+    });
+    if (!response.ok) {
+      throw new ImageJobRequestError(await getImageJobErrorMessage(response), response.status);
+    }
+    const data: unknown = await response.json();
+    if (typeof data !== "object" || data === null
+      || !("job_id" in data) || data.job_id !== jobId
+      || !("cancelled" in data) || data.cancelled !== true
+      || !("stage" in data)
+      || (data.stage !== "cancelled" && data.stage !== "awaiting_human_feedback")) {
+      throw new ImageJobRequestError("取消结果缺少有效确认，停止结果未确认。", 502);
+    }
+    return { jobId, cancelled: true, stage: data.stage };
+  };
+  try {
+    return await Promise.race([request(), deadline]);
+  } finally {
+    clearTimeout(timer);
   }
 }
 

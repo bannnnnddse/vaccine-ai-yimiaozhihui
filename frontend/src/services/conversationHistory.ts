@@ -37,8 +37,22 @@ export function loadConversations(now = Date.now()): StoredConversation[] {
       return [];
     }
     const valid = parsed.conversations.filter(isStoredConversation);
-    const active = sortConversations(valid.filter((conversation) => now - conversation.updatedAt < CONVERSATION_HISTORY_RETENTION_MS));
-    if (active.length !== parsed.conversations.length) writeConversations(active, storage);
+    let interrupted = false;
+    const active = sortConversations(valid.filter((conversation) => now - conversation.updatedAt < CONVERSATION_HISTORY_RETENTION_MS)
+      .map((conversation) => {
+        const messages = conversation.messages.map((message): ChatMessageData => {
+          if (message.kind === "text" || ["completed", "awaiting_human_feedback", "failed", "cancelled"].includes(message.stage)) return message;
+          interrupted = true;
+          const error = "页面已刷新或关闭，服务端任务结果及停止状态未确认";
+          const traceEvents = message.traceEvents.map((event) => event.status === "running"
+            ? { ...event, status: "warning" as const } : event);
+          return message.kind === "image-result"
+            ? { ...message, stage: "awaiting_human_feedback", error, traceEvents }
+            : { ...message, stage: "failed", error, traceEvents, isRevealingTrace: false };
+        });
+        return { ...conversation, messages };
+      }));
+    if (interrupted || active.length !== parsed.conversations.length) writeConversations(active, storage);
     return active;
   } catch {
     return [];
